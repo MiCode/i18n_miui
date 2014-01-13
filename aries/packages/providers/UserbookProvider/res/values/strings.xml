@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!-- Label to show to user for this package. -->
+    <string name="app_label">Userbook storage</string>
+</resources>
