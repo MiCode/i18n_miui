@@ -2,111 +2,111 @@
 <resources
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name">Themes</string>
-    <string name="theme_import_activity_label">Theme update</string>
+    <string name="app_name">Tema</string>
+    <string name="theme_import_activity_label">Kemas kini tema</string>
 
-    <string name="theme_changing_dialog_title">Applying theme\u2026</string>
-    <string name="theme_changed_message">Applied</string>
-    <string name="theme_changed_failed_message">Failed to apply</string>
+    <string name="theme_changing_dialog_title">Tema sedang digunakan, sila tunggu\u2026</string>
+    <string name="theme_changed_message">Digunakan dengan berjaya</string>
+    <string name="theme_changed_failed_message">Tema gagal digunakan.</string>
 
-    <string name="backup_preference_title">Back up theme</string>
-    <string name="backup_theme_dialog_ok">Back up</string>
-    <string name="backup_theme_dialog_message">Back up the current theme?</string>
-    <string name="backup_theme_progress_message">Backing up theme\u2026</string>
-    <string name="backup_theme_success_message">Theme backup complete</string>
-    <string name="backup_theme_name">My backup</string>
+    <string name="backup_preference_title">Sandarkan tema</string>
+    <string name="backup_theme_dialog_ok">Sandar</string>
+    <string name="backup_theme_dialog_message">Sandarkan tema semasa kepada?</string>
+    <string name="backup_theme_progress_message">Fail tema sedang disandar, sila tunggu\u2026</string>
+    <string name="backup_theme_success_message">Sandaran tema berjaya</string>
+    <string name="backup_theme_name">Sandaran saya</string>
 
-    <string name="theme_description_title_default">Default</string>
-    <string name="theme_description_title_customized">Custom</string>
+    <string name="theme_description_title_default">Asal</string>
+    <string name="theme_description_title_customized">Penyesuaian</string>
 
-    <string name="component_category_finest_title">GENERAL</string>
-    <string name="component_category_more_title">ADVANCED</string>
-    <string name="theme_component_title_framework">Borders</string>
-    <string name="theme_component_title_mms">Messaging</string>
-    <string name="theme_component_title_wallpaper">Home screen</string>
+    <string name="component_category_finest_title">Diketengahkan</string>
+    <string name="component_category_more_title">Lebih</string>
+    <string name="theme_component_title_framework">Rangka kerja</string>
+    <string name="theme_component_title_mms">SMS</string>
+    <string name="theme_component_title_wallpaper">Paparan dinding</string>
     <string name="theme_component_title_lockwallpaper">Lock screen</string>
-    <string name="theme_component_title_miwallpaper">Downloaded</string>
-    <string name="theme_component_title_icon">Icons</string>
-    <string name="theme_component_title_boot_animation">Boot animation</string>
-    <string name="theme_component_title_boot_audio">Boot audio</string>
-    <string name="theme_component_title_font">Font</string>
-    <string name="theme_component_title_ringtone">Ringtone</string>
-    <string name="theme_component_title_notification">Notification</string>
-    <string name="theme_component_title_alarm">Alarm</string>
-    <string name="theme_component_title_contact">Dial pad</string>
-    <string name="theme_component_title_lockstyle">Lock style</string>
-    <string name="theme_component_title_statusbar">Status bar</string>
-    <string name="theme_component_title_launcher">Favorites tray</string>
-    <string name="theme_component_title_audio_effect">Sounds</string>
-    <string name="theme_component_title_alarmstyle">Alarm style</string>
-    <string name="theme_component_title_clock">Clock</string>
-    <string name="theme_component_title_photo_frame">Image frames</string>
-    <string name="theme_component_title_others">Other</string>
-    <string name="theme_component_title_all">Theme</string>
+    <string name="theme_component_title_miwallpaper">Paparan dinding</string>
+    <string name="theme_component_title_icon">Ikon</string>
+    <string name="theme_component_title_boot_animation">Animasi but</string>
+    <string name="theme_component_title_boot_audio">But Audio</string>
+    <string name="theme_component_title_font">Fon</string>
+    <string name="theme_component_title_ringtone">Nada dering</string>
+    <string name="theme_component_title_notification">Pemberitahuan</string>
+    <string name="theme_component_title_alarm">Penggera</string>
+    <string name="theme_component_title_contact">Dialer</string>
+    <string name="theme_component_title_lockstyle">Skrin kekunci</string>
+    <string name="theme_component_title_statusbar">Bar status</string>
+    <string name="theme_component_title_launcher">Rumah</string>
+    <string name="theme_component_title_audio_effect">Kesan audio</string>
+    <string name="theme_component_title_alarmstyle">Gaya penggera</string>
+    <string name="theme_component_title_clock">Jam</string>
+    <string name="theme_component_title_photo_frame">Bingkai foto</string>
+    <string name="theme_component_title_others">Lain-lain</string>
+    <string name="theme_component_title_all">Tema</string>
 
-    <string name="apply_theme_no_select_message">Choose components</string>
-    <string name="apply_lockscreen_paper_tips">This screen lock doesn\'t support different wallpapers.</string>
+    <string name="apply_theme_no_select_message">Sila pilih komponen</string>
+    <string name="apply_lockscreen_paper_tips">Penukaran paparan dinding tidak disokong skrin kekunci semasa. Paparan dinding pada skrin kekunci mungkin tidak kelihatan</string>
 
-    <string name="theme_import_from_sdcard">Import from SD card</string>
-    <string name="theme_select_others">Custom</string>
-    <string name="third_party_pickers_activity_title">Set %1$s</string>
-    <string name="lockstyle_personal_settings">Customize</string>
+    <string name="theme_import_from_sdcard">Impot dark kad SD</string>
+    <string name="theme_select_others">Lain-lain</string>
+    <string name="third_party_pickers_activity_title">Tetapkan %1$s</string>
+    <string name="lockstyle_personal_settings">Penyesuaian</string>
 
-    <string name="wallpaper_settings">Wallpaper settings</string>
-    <string name="desktop_wallpaper">Home screen</string>
-    <string name="live_wallpaper">Live wallpaper</string>
-    <string name="mi_wallpaper">MIUI wallpaper</string>
-    <string name="lockscreen_wallpaper">Lock screen</string>
-    <string name="change_wallpaper">Wallpaper</string>
+    <string name="wallpaper_settings">Tetapan paparan dinding</string>
+    <string name="desktop_wallpaper">Desktop</string>
+    <string name="live_wallpaper">Paparan dinding langsung</string>
+    <string name="mi_wallpaper">MIUI paparan dinding</string>
+    <string name="lockscreen_wallpaper">Skrin kekunci</string>
+    <string name="change_wallpaper">Paparan dinding</string>
 
-    <string name="component_settings_title">Customize theme</string>
-    <string name="component_select_title">%1$s components selected</string>
-    <string name="component_include_title">Contains %1$s components</string>
+    <string name="component_settings_title">Menyesuaikan tema</string>
+    <string name="component_select_title">Komponen %1$s dipilih</string>
+    <string name="component_include_title">Mengandungi komponen %1$s</string>
 
-    <string name="apply_font_tip">Reboot to apply theme font.</string>
+    <string name="apply_font_tip">Tema mengandungi fon. Mula semula diperlukan.</string>
     <string name="apply_font_btn_reboot">Reboot</string>
-    <string name="apply_font_btn_exclude">Apply theme without font</string>
+    <string name="apply_font_btn_exclude">Gunakan tanpa fon</string>
 
-    <string name="title_local">Local</string>
-    <string name="title_online">Online</string>
-    <string name="title_component">Components</string>
+    <string name="title_local">Tempatan</string>
+    <string name="title_online">Atas talian</string>
+    <string name="title_component">Campuran</string>
 
-    <string name="title_system_resource">System resources</string>
+    <string name="title_system_resource">Sumber sistem</string>
 
-    <string name="long_ringtone_resource">Long</string>
-    <string name="short_ringtone_resource">Short</string>
-    <string name="all_ringtone_resource">All</string>
+    <string name="long_ringtone_resource">Panjang</string>
+    <string name="short_ringtone_resource">Pendek</string>
+    <string name="all_ringtone_resource">Semua</string>
 
-    <string name="resource_preview">Preview</string>
-    <string name="wallpaper_set_as_both">Set both</string>
-    <string name="wallpaper_set_as_destop">Set as Home screen</string>
-    <string name="wallpaper_set_as_lockscreen">Set as lock screen</string>
-    <string name="wallpaper_crop">Crop</string>
-    <string name="wallpaper_loading_text">Loading\u2026</string>
-    <string name="wallpaper_decoded_error">Failed to load</string>
+    <string name="resource_preview">Pratonton</string>
+    <string name="wallpaper_set_as_both">Tetapkan kedua-duanya</string>
+    <string name="wallpaper_set_as_destop">Tetapkan sebagai paparan dinding</string>
+    <string name="wallpaper_set_as_lockscreen">Tetapkan sebagai skrin kekunci</string>
+    <string name="wallpaper_crop">Potong</string>
+    <string name="wallpaper_loading_text">Sedang dimuatkan\u2026</string>
+    <string name="wallpaper_decoded_error">Gagal untuk membaca kod</string>
 
-    <string name="close">Close</string>
-    <string name="download_success">Download complete</string>
+    <string name="close">Tutup</string>
+    <string name="download_success">Muat-turun selesai</string>
 
-    <string name="basic_info">Info</string>
-    <string name="account_info">My Account</string>
-    <string name="purchased_list">Purchased List</string>
-    <string name="payment_info">MiCredits</string>
+    <string name="basic_info">Informasi asas</string>
+    <string name="account_info">Akaun saya</string>
+    <string name="purchased_list">Senarai belian</string>
+    <string name="payment_info">Kredits MI</string>
 
-    <string name="theme_batch_has_update_text">%1$d themes have new updates.</string>
-    <string name="theme_batch_updating_text">Updating %1$d themes\u2026</string>
-    <string name="theme_batch_update_all">Update all</string>
-    <string name="theme_batch_update_dlg_title">Update</string>
-    <string name="theme_batch_update_dlg_content">Update now?</string>
-    <string name="theme_batch_update_dlg_content_single">Update now?</string>
+    <string name="theme_batch_has_update_text">Tema %1$d mempunyai versi baru.</string>
+    <string name="theme_batch_updating_text">Tema %1$d sedang dikemas kini\u2026</string>
+    <string name="theme_batch_update_all">Kemas kini seua</string>
+    <string name="theme_batch_update_dlg_title">Kemas kini</string>
+    <string name="theme_batch_update_dlg_content">Kemas kini sekarang?</string>
+    <string name="theme_batch_update_dlg_content_single">Kemas kini sekarang?</string>
 
-    <string name="theme_current_using_has_update">There\'s a new update for the theme you\'re currently using.</string>
-    <string name="theme_immediately_apply_tip">Apply theme update now?</string>
+    <string name="theme_current_using_has_update">Tema semasa telah dikemas kini, klik sini untuk gunakan</string>
+    <string name="theme_immediately_apply_tip">Tema telah dikemas kini, gunakan serta-merta?</string>
     <string name="theme_name">%1$s</string>
 
-    <string name="restore_default_theme_alert">Use the MIUI Themes app to purchase or re-download.</string>
-    <string name="selected_resource_file_invalid">Selected resource file is invalid</string>
+    <string name="restore_default_theme_alert">Anda mungkin mangsa pemalsuan tema, sila melayari pasaran tema untuk membeli atau muat turun semula.</string>
+    <string name="selected_resource_file_invalid">Fail terpilih tidak sah</string>
 
-    <string name="apply_theme_with_ringtones">Apply theme ringtones</string>
-    <string name="settings">Settings</string>
+    <string name="apply_theme_with_ringtones">Gunakan tema dengan nada dering</string>
+    <string name="settings">Tetapan</string>
 </resources>
