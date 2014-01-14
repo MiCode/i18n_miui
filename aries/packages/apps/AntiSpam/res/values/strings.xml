@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name">Blocklist</string>
+    <string name="app_name">Senarai Sekatan</string>
 
     <!--  notification -->
-    <string name="fw_blocked">Blocked:</string>
-    <string name="fw_blocked_count">Blocked:<xliff:g id="opt">%d</xliff:g>calls and <xliff:g id="opt">%d</xliff:g>messages</string>
+    <string name="fw_blocked">Disekat:</string>
+    <string name="fw_blocked_count">Disekat:<xliff:g id="opt">%d</xliff:g>panggilan dan <xliff:g id="opt">%d</xliff:g>mesej</string>
 
     <!-- Tab/Other View -->
-    <string name="tab_title">Blocklist settings</string>
-    <string name="tab_block_log">Blocked log</string>
-    <string name="tab_blacklist">Blocklist</string>
-    <string name="tab_sms">Message log</string>
-    <string name="tab_call">Call log</string>
-    <string name="bl_block_info">Blocked: <xliff:g id="tel_count">%d</xliff:g>, details <xliff:g id="ms_count">%d</xliff:g></string>
-    <string name="bl_no_block_call">No blocked calls</string>
-    <string name="bl_no_block_sms">No blocked messages</string>
-    <string name="bl_no_blacklist">No blocked numbers</string>
+    <string name="tab_title">Aturan Senarai Sekat</string>
+    <string name="tab_block_log">Log Sekatan</string>
+    <string name="tab_blacklist">Senarai Sekat</string>
+    <string name="tab_sms">Log mesej</string>
+    <string name="tab_call">Log panggilan</string>
+    <string name="bl_block_info">Disekat: <xliff:g id="tel_count">%d</xliff:g>, Perinci <xliff:g id="ms_count">%d</xliff:g></string>
+    <string name="bl_no_block_call">Tiada panggilan yang disekat</string>
+    <string name="bl_no_block_sms">Tiada mesej yang disekat</string>
+  <string name="bl_no_blacklist">Senarai Hitam kosong</string>
     <string name="log_count">(%d)</string>
 
-    <string name="tab_block_log_unKnowNumber">Unknown number</string>
+    <string name="tab_block_log_unKnowNumber">Nombor tidak diketahui</string>
 
     <!-- Mark info -->
-    <string name="marked_by_user">you marked it as</string>
-    <string name="marked_by_others">%d other users marked it as</string>
+    <string name="marked_by_user">anda menandai sebagai</string>
+    <string name="marked_by_others">%d pengguna lain menandai sebagai</string>
 
     <!-- Dialog -->
     <string name="dlg_clear_all_sms">Delete blocked messages?</string>
@@ -39,7 +39,7 @@
     <string name="dlg_clear_blacklist">Clear blocklist?</string>
     <string name="dlg_clear_blacklist_ok">Clear</string>
     <string name="dlg_bl_add_manual">Add number to blocklist</string>
-    <string name="dlg_add_manual_ok">Add</string>
+  <string name="dlg_add_manual_ok">Tambah</string>
     <string name="dlg_add_manual_hint">Enter phone number</string>
     <string name="dlg_import_blacklist">Adding to blocklist\u2026</string>
     <string name="dlg_import_whitelist">Adding to exceptions\u2026</string>
