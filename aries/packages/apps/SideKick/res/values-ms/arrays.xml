@@ -2,19 +2,19 @@
 <resources>
 
     <string-array name="helps">
-        <item>打电话</item>
-        <item>发短信</item>
-        <item>联系人</item>
-        <item>设置提醒</item>
-        <item>打开应用</item>
-        <item>上网搜索</item>
-        <item>餐饮美食</item>
-        <item>音乐搜索</item>
-        <item>火车航班</item>
-        <item>天气</item>
-        <item>地图导航</item>
-        <item>聊天</item>
-        <item>翻译</item>
+        <item>Calls</item>
+        <item>Texting</item>
+        <item>Contacts</item>
+        <item>Set reminders</item>
+        <item>Open app</item>
+        <item>Web search</item>
+        <item>Eating out</item>
+        <item>Music search</item>
+        <item>Travel</item>
+        <item>Weather</item>
+        <item>Maps</item>
+        <item>Chat</item>
+        <item>Translation</item>
     </string-array>
     <string-array name="help_tel">
         <item>打电话给张若涵</item>
@@ -39,12 +39,12 @@
     <string-array name="help_launch">
         <item>打开相机</item>
         <item>启动植物大战僵尸</item>
-        <item>下载愤怒的小鸟</item>
+        <item>Download Angry Bird</item>
     </string-array>
     <string-array name="help_web">
-        <item>打开小米网</item>
-        <item>搜索小米</item>
-        <item>百度一下小米</item>
+        <item>Open Xiaomi web page</item>
+        <item>Search Xiaomi</item>
+        <item>Baidu, Xiaomi</item>
     </string-array>
     <string-array name="help_dinner">
         <item>附近有什么好吃的</item>
@@ -80,13 +80,13 @@
         <item>把天气翻译成英文</item>
     </string-array>
     <string-array name="week">
-        <item>周日</item>
-        <item>周一</item>
-        <item>周二</item>
-        <item>周三</item>
-        <item>周四</item>
-        <item>周五</item>
-        <item>周六</item>
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
     </string-array>
 
 </resources>
