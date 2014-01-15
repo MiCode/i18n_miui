@@ -7,39 +7,17 @@
         <item>Light</item>
     </string-array>
 
-    <!-- Do not translate. -->
-    <string-array name="haptic_feedback_level_values" translatable="false">
-        <!-- Do not translate. -->
-        <item>2</item>
-        <!-- Do not translate. -->
-        <item>1</item>
-        <!-- Do not translate. -->
-        <item>0</item>
-    </string-array>
-
     <!-- Display settings.  The style of battery status showed in status bar. These are shown in a list dialog. -->
     <string-array name="battery_indicator_style_entries">
         <item>Graphical</item>
         <item>Percentage</item>
         <item>Top bar</item>
     </string-array>
-
-    <string-array name="battery_indicator_style_values" translatable="false">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-    </string-array>
-
+    
     <string-array name="usb_connection_mode_entries">
         <item>Ask upon connection</item>
         <item>Charge only</item>
         <item>Mount SD card</item>
-    </string-array>
-
-    <string-array name="usb_connection_mode_values" translatable="false">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
     </string-array>
 
     <!-- Display settings. Available frequency for breathing LED -->
@@ -52,39 +30,6 @@
         <item>7 seconds</item>
         <item>8 seconds</item>
         <item>9 seconds</item>
-    </string-array>
-
-    <!-- Do not translate. 合法的闪烁时间在2-9秒之间-->
-    <string-array name="led_freq_values" translatable="false">
-        <item>2000</item>
-        <item>3000</item>
-        <item>4000</item>
-        <item>5000</item>
-        <item>6000</item>
-        <item>7000</item>
-        <item>8000</item>
-        <item>9000</item>
-    </string-array>
-
-    <!-- Do not translate. -->
-    <string-array name="led_color_values" translatable="false">
-        <item>blue</item>
-        <item>red</item>
-        <item>yellow</item>
-        <item>green</item>
-        <item>cyan</item>
-        <item>white</item>
-        <item>#FFAA00AA</item>
-    </string-array>
-
-    <!-- Do not translate. -->
-    <string-array name="mi1_led_color_values" translatable="false">
-        <item>blue</item>
-        <item>red</item>
-        <item>green</item>
-        <item>#FFFF0033</item>
-        <item>#FF5500FF</item>
-        <item>#FFAA00AA</item>
     </string-array>
 
     <!-- Display settings. Available colors for breathing LED -->
@@ -108,32 +53,6 @@
         <item>Violet</item>
     </string-array>
 
-    <!-- Do not translate.  Always enabled app list -->
-    <string-array name="always_enabled_app_list">
-        <!-- Do not translate. -->
-        <item>com.android.providers.applications</item>
-        <!-- Do not translate. -->
-        <item>com.android.providers.calendar</item>
-        <!-- Do not translate. -->
-        <item>com.android.providers.contacts</item>
-        <!-- Do not translate. -->
-        <item>com.android.providers.downloads</item>
-        <!-- Do not translate. -->
-        <item>com.android.providers.drm</item>
-        <!-- Do not translate. -->
-        <item>com.android.providers.media</item>
-        <!-- Do not translate. -->
-        <item>com.android.providers.telephony</item>
-        <!-- Do not translate. -->
-        <item>com.android.providers.userdictionary</item>
-        <!-- Do not translate. -->
-        <item>com.miui.providers.userbook</item>
-        <!-- Do not translate. -->
-        <item>com.miui.providers.weather</item>
-        <!-- Do not translate. -->
-        <item>com.miui.yellowpage</item>
-    </string-array>
-
     <!-- Match this with the order of NetworkInfo.DetailedState. --> <skip />
     <!-- Wi-Fi settings.  The type of security a Wi-Fi network has.  The user can choose this when he adds a manual network, or configures an existing network. -->
     <string-array name="wifi_security_only_wapi_cert_entries">
@@ -144,14 +63,6 @@
     <!-- Match this with the constants in AccessPoint. --> <skip />
     <!-- Wi-Fi security choices used when manually added a Wi-Fi network -->
     <string-array name="mi2_wifi_security">
-        <!-- The Wi-Fi network does not have any security. -->
-        <item>@string/wifi_security_none</item>
-        <!-- Do not translate. -->
-        <item>@string/wifi_security_wep</item>
-        <!-- Do not translate. -->
-        <item>@string/wifi_security_psk_generic</item>
-        <!-- Do not translate. -->
-        <item>@string/wifi_security_eap</item>
         <!-- The Wi-Fi network has WAPI personal security -->
         <item>WAPI PSK</item>
        <!-- The Wi-Fi network has WAPI certificate security -->
@@ -166,12 +77,6 @@
     <!-- Match this with the constants in AccessPoint. --> <skip />
     <!-- Wi-Fi security types for New User Dialog. EAP is not configurable. -->
     <string-array name="wifi_security_no_eap">
-        <!-- The Wi-Fi network does not have any security. -->
-        <item>@string/wifi_security_none</item>
-        <!-- Do not translate. -->
-        <item>@string/wifi_security_wep</item>
-        <!-- Do not translate. -->
-        <item>@string/wifi_security_psk_generic</item>
         <!-- The Wi-Fi network has WAPI personal security -->
         <item>WAPI PSK</item>
        <!-- The Wi-Fi network has WAPI certificate security -->
@@ -187,29 +92,12 @@
         <item>Close current app</item>
     </string-array>
 
-    <!-- Screen key long press action value -->
-    <string-array name="screen_key_long_press_action_value" translatable="false">
-        <item>none</item>
-        <item>recent_panel</item>
-        <item>voice_assistant</item>
-        <item>google_now</item>
-        <item>close_app</item>
-    </string-array>
-
     <!-- Screen key long press interval -->
     <string-array name="screen_key_long_press_timeout">
         <item>0.5 second</item>
         <item>1 second</item>
         <item>1.5 seconds</item>
         <item>2 seconds</item>
-    </string-array>
-
-    <!-- Screen key long press interval value -->
-    <string-array name="screen_key_long_press_timeout_value" translatable="false">
-        <item>500</item>
-        <item>1000</item>
-        <item>1500</item>
-        <item>2000</item>
     </string-array>
 
     <!-- Timeout for screen button -->
@@ -221,44 +109,6 @@
         <item>20 seconds</item>
         <item>Always</item>
     </string-array>
-
-    <!-- Timeout for screen button value-->
-    <string-array name="button_light_timeout_value" translatable="false">
-        <item>1000</item>
-        <item>2000</item>
-        <item>5000</item>
-        <item>10000</item>
-        <item>20000</item>
-        <item>-1</item>
-    </string-array>
-
-    <string-array name="font_size_title">
-        <item>@string/font_size_small</item>
-        <item>@string/font_size_normal</item>
-        <item>@string/font_size_medium</item>
-        <item>@string/font_size_large</item>
-    </string-array>
-
-    <integer-array name="font_size_preference_preview_size" translatable="false">
-        <item>14</item>
-        <item>18</item>
-        <item>22</item>
-        <item>27</item>
-    </integer-array>
-
-    <!-- mode for dolby -->
-    <string-array name="dolby_mode_entries" translatable="false">
-        <item>@string/dolby_mode_off</item>
-        <item>@string/dolby_mode_music</item>
-        <item>@string/dolby_mode_movie</item>
-    </string-array>
-
-    <integer-array name="dolby_equalizer_preset_names" translatable="false">
-        <item>@string/dolby_ieq_flat</item>
-        <item>@string/dolby_ieq_open</item>
-        <item>@string/dolby_ieq_rich</item>
-        <item>@string/dolby_ieq_focused</item>
-    </integer-array>
 
     <!-- Match this with the order of WfdSettings Session Status -->
     <!-- Wi-Fi Display settings device status message -->
@@ -325,35 +175,15 @@
         <item>Standard</item>
     </string-array>
 
-    <!-- 授权管理 -->
-    <string-array name="perms_hips_values">
-        <item>2</item>
-        <item>1</item>
-        <item>0</item>
-    </string-array>
-
     <string-array name="perm_hips_action">
          <item>Allow</item>
          <item>Ask</item>
          <item>Deny</item>
     </string-array>
 
-    <string-array name="startup_hips_values">
-         <item>2</item>
-         <item>0</item>
-    </string-array>
-
     <string-array name="startup_hips_action">
          <item>Allow</item>
          <item>Deny</item>
-    </string-array>
-
-    <!-- Do NOT translate -->
-    <string-array name="change_security_lock_picker_key">
-        <item>facial</item>
-        <item>pattern</item>
-        <item>numerical</item>
-        <item>mixed</item>
     </string-array>
 
     <string-array name="change_security_lock_picker">
@@ -368,29 +198,6 @@
         <item>Dual-mic noise suppression</item>
     </string-array>
 
-    <string-array name="phone_call_noise_suppression__values" translatable="false">
-         <item>1</item>
-         <item>2</item>
-    </string-array>
-
-     <!-- Do not translate. -->
-    <string-array name="screen_timeout_values" translatable="false">
-        <!-- Do not translate. -->
-        <item>15000</item>
-        <!-- Do not translate. -->
-        <item>30000</item>
-        <!-- Do not translate. -->
-        <item>60000</item>
-        <!-- Do not translate. -->
-        <item>120000</item>
-        <!-- Do not translate. -->
-        <item>300000</item>
-        <!-- Do not translate. -->
-        <item>600000</item>
-        <!-- Integer.MAX_VALUE -->
-        <item>2147483647</item>
-    </string-array>
-
     <!-- Display settings.  The delay in inactivity before the screen is turned off. These are shown in a list dialog. -->
     <string-array name="screen_timeout_entries">
         <item>15 seconds</item>
@@ -402,31 +209,12 @@
         <item>Never</item>
     </string-array>
 
-    <!-- VIP名单list -->
-    <string-array translatable="false" name="dndm_vip_list_group_array">
-        <item>@string/dndm_vip_list_custom</item>
-        <item>@string/dndm_vip_list_contact</item>
-    </string-array>
-    <!-- 设置勿扰模式自动时间的“打开/关闭”选项 -->
-    <string-array translatable="false" name="dndm_auto_time_trun_on_off">
-        <item>@string/dndm_auto_time_turn_on</item>
-        <item>@string/dndm_auto_time_turn_off</item>
-    </string-array>
-
     <string-array name="slideshow_time_entries" >
         <item>5 minutes</item>
         <item>15 minutes</item>
         <item>30 minutes</item>
         <item>1 hour</item>
         <item>Unlimited</item>
-    </string-array>
-
-    <string-array name="slideshow_time_entryValues" tranlatable="false" >
-        <item>300</item>
-        <item>900</item>
-        <item>1800</item>
-        <item>3600</item>
-        <item>-1</item>
     </string-array>
 
     <!-- preferred application settings -->
