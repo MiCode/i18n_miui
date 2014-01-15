@@ -23,14 +23,6 @@
         <item>Slow</item>
         <item>Very Slow</item>
     </string-array>
-
-    <string-array name="entryvalues_animations">
-        <item>0.0</item>
-        <item>0.5</item>
-        <item>1.0</item>
-        <item>1.5</item>
-        <item>2.0</item>
-    </string-array>
     
     <string-array name="entries_font_size">
         <item>Extremely Small</item>
@@ -41,16 +33,6 @@
         <item>Extra Large</item>
         <item>Extremely Large</item>
     </string-array>
-
-    <string-array name="entryvalues_font_size">
-        <item>0.70</item>
-        <item>0.85</item>
-        <item>0.95</item>
-        <item>1.0</item>
-        <item>1.05</item>
-        <item>1.15</item>
-        <item>1.30</item>
-    </string-array>
     
     <string-array name="entries_end_button">
         <item>Nothing</item>
@@ -58,11 +40,5 @@
         <item>Go to sleep</item>
         <item>Home, then sleep</item>
     </string-array>
-    
-    <string-array name="entryvalues_end_button">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-    </string-array>
+
 </resources>
