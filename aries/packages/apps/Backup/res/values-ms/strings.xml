@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="app_name">Backup</string>
-  <string name="local_app_name">Backup</string>
-  <string name="local_home_title">Local backups</string>
-  <string name="button_backup">Back up</string>
-  <string name="start_backup">Back up</string>
-  <string name="button_cancel">Cancel</string>
-  <string name="backup_empty">No backups</string>
-  <string name="backup_items_sysdata_tailer">" \u0020system data files, "</string>
-  <string name="backup_items_app_tailer">" \u0020app data files "</string>
-  <string name="backup_failed"> Backup failed</string>
-  <string name="backup_recently">" \u0020(most recent) "</string>
-  <string name="sdcard_unmounted">Couldn\'t find SD card</string>
+  <string name="app_name">Sandaran</string>
+  <string name="local_app_name">Sandaran</string>
+  <string name="local_home_title">Sandaran tempatan</string>
+  <string name="button_backup">Sandaran</string>
+  <string name="start_backup">Mula sandaran</string>
+  <string name="button_cancel">Batal</string>
+  <string name="backup_empty">Tiada fail sandaran dijumpai</string>
+  <string name="backup_items_sysdata_tailer">" \u0020fail sistem data, "</string>
+  <string name="backup_items_app_tailer">" \u0020fail data aplikasi "</string>
+  <string name="backup_failed">" Sandaran gagal, sila cuba lagi"</string>
+  <string name="backup_recently">" \u0020(yang paling baru-baru ini) "</string>
+  <string name="sdcard_unmounted">Kad SD dinyahlekap atau tidak dijumpai!</string>
   <string-array name="backup_dialog_content_type">
     <item>Wi-Fi data</item>
     <item>All apps</item>
@@ -229,7 +229,7 @@ and sign in as <xliff:g id="account" example="110000">%2$s</xliff:g> to restore.
     <string name="backup_empty_info">" Back up your data, settings, and apps"</string>
     <string name="system_backup_info">System settings and Home screen layout</string>
     <string name="software_backup_info">App data</string>
-    <string name="account_contact_backup_info">Google Account, Xiaomi Account, and Contacts data</string>
+    <string name="account_contact_backup_info">Data (Sandarkan maklumat Xiaomi and Gmail)</string>
     <string name="select_backup_item">Choose items</string>
     <string name="restore_data">Restore data</string>
     <string name="backup_data">Backup data</string>
