@@ -35,14 +35,6 @@
     <item>1 Hour</item>
   </string-array>
 
-    <!-- This array should be in seconds and should match the values above -->
-  <string-array name="sleep_duration_values_seconds">
-    <item>900</item>
-    <item>1800</item>
-    <item>2700</item>
-    <item>3600</item>
-  </string-array>
-
   <string-array name="search_category_rbds_entries">
     <item>All Stations</item>
     <item>Adult Hits</item>
@@ -72,37 +64,6 @@
     <item>Top 40</item>
     <item>Weather</item>
   </string-array>
-
-  <string-array name="search_category_rbds_values">
-    <item>0</item>
-    <item>7</item>
-    <item>15</item>
-    <item>6</item>
-    <item>23</item>
-    <item>10</item>
-    <item>31</item>
-    <item>30</item>
-    <item>18</item>
-    <item>2</item>
-    <item>14</item>
-    <item>1</item>
-    <item>13</item>
-    <item>11</item>
-    <item>21</item>
-    <item>22</item>
-    <item>19</item>
-    <item>20</item>
-    <item>16</item>
-    <item>5</item>
-    <item>12</item>
-    <item>8</item>
-    <item>17</item>
-    <item>3</item>
-    <item>4</item>
-    <item>9</item>
-    <item>29</item>
-  </string-array>
-
 
   <string-array name="search_category_rds_entries">
     <item>All Stations</item>
@@ -139,47 +100,11 @@
     <item>Weather</item>
   </string-array>
 
-  <string-array name="search_category_rds_values">
-    <item>0</item>
-    <item>7</item>
-    <item>2</item>
-    <item>18</item>
-    <item>25</item>
-    <item>29</item>
-    <item>6</item>
-    <item>12</item>
-    <item>5</item>
-    <item>31</item>
-    <item>30</item>
-    <item>17</item>
-    <item>28</item>
-    <item>3</item>
-    <item>24</item>
-    <item>13</item>
-    <item>23</item>
-    <item>1</item>
-    <item>26</item>
-    <item>15</item>
-    <item>27</item>
-    <item>21</item>
-    <item>10</item>
-    <item>20</item>
-    <item>11</item>
-    <item>8</item>
-    <item>14</item>
-    <item>19</item>
-    <item>4</item>
-    <item>22</item>
-    <item>9</item>
-    <item>16</item>
-  </string-array>
-
   <string-array name="presetlist_edit_category">
     <item>Rename</item>
     <item>Auto-Select</item>
     <item>Delete</item>
   </string-array>
-
 
   <string-array name="regional_band_entries">
     <item>North America</item>
@@ -218,45 +143,6 @@
     <item>Turkey</item>
     <item>United Kingdom </item>
     <item>United States</item>
-  </string-array>
-
-  <string-array name="regional_band_values">
-    <item>0</item>
-    <item>1</item>
-    <item>2</item>
-    <item>3</item>
-    <item>4</item>
-    <item>5</item>
-    <item>6</item>
-    <item>7</item>
-    <item>8</item>
-    <item>9</item>
-    <item>10</item>
-    <item>11</item>
-    <item>12</item>
-    <item>13</item>
-    <item>14</item>
-    <item>15</item>
-    <item>16</item>
-    <item>17</item>
-    <item>18</item>
-    <item>19</item>
-    <item>20</item>
-    <item>21</item>
-    <item>22</item>
-    <item>23</item>
-    <item>24</item>
-    <item>25</item>
-    <item>26</item>
-    <item>27</item>
-    <item>28</item>
-    <item>29</item>
-    <item>30</item>
-    <item>31</item>
-    <item>32</item>
-    <item>33</item>
-    <item>34</item>
-    <item>35</item>
   </string-array>
 
   <string-array name="regional_band_summary">
@@ -315,64 +201,4 @@
         <item> Configure FM Search parameters</item>
         <item> RF Statistics</item>
     </string-array>
-
-    <string-array name="fm_mhz_number_entries">
-        <item>" "</item>
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-        <item>7</item>
-        <item>8</item>
-        <item>9</item>
-        <item>.</item>
-    </string-array>
-
-    <array name="fm_mhz_number_entryValues">
-        <item>@drawable/fm_mhz_empty</item>
-        <item>@drawable/fm_mhz_0</item>
-        <item>@drawable/fm_mhz_1</item>
-        <item>@drawable/fm_mhz_2</item>
-        <item>@drawable/fm_mhz_3</item>
-        <item>@drawable/fm_mhz_4</item>
-        <item>@drawable/fm_mhz_5</item>
-        <item>@drawable/fm_mhz_6</item>
-        <item>@drawable/fm_mhz_7</item>
-        <item>@drawable/fm_mhz_8</item>
-        <item>@drawable/fm_mhz_9</item>
-        <item>@drawable/fm_mhz_point</item>
-    </array>
-
-    <string-array name="freq_entries">
-        <item>" "</item>
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-        <item>7</item>
-        <item>8</item>
-        <item>9</item>
-        <item>.</item>
-    </string-array>
-
-    <array name="freq_entryValues">
-        <item>@drawable/fm_number_empty</item>
-        <item>@drawable/fm_number_0</item>
-        <item>@drawable/fm_number_1</item>
-        <item>@drawable/fm_number_2</item>
-        <item>@drawable/fm_number_3</item>
-        <item>@drawable/fm_number_4</item>
-        <item>@drawable/fm_number_5</item>
-        <item>@drawable/fm_number_6</item>
-        <item>@drawable/fm_number_7</item>
-        <item>@drawable/fm_number_8</item>
-        <item>@drawable/fm_number_9</item>
-        <item>@drawable/fm_number_point</item>
-    </array>
 </resources>
