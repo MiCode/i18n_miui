@@ -15,7 +15,7 @@
 -->
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name">Gallery</string>
+    <string name="app_name">Galeri</string>
     <!-- Title for picture frame gadget to show in list of all available gadgets -->
 
     <!-- Used to format short video duration in Details dialog. minutes:seconds e.g. 00:30 -->
@@ -34,50 +34,50 @@
     <!-- Movie View Start Playing button "Resume from bookmark" -->
 
     <!-- Displayed in the title of those albums that are being loaded -->
-    <string name="loading">Loading\u2026</string>
+    <string name="loading">Sedang memuatkan\u2026</string>
 
     <!-- Displayed in the title of those pictures that fails to be loaded
          [CHAR LIMIT=50]-->
 
     <!-- Displayed in place of the picture when we fail to get the thumbnail of it.
          [CHAR LIMIT=50]-->
-    <string name="no_thumbnail">No thumbnail.</string>
+    <string name="no_thumbnail">Tiada imej kecil.</string>
 
     <!-- Movie View Start Playing button "Beginning" -->
 
     <!-- Title of a menu item to indicate performing the image crop operation
          [CHAR LIMIT=20] -->
-    <string name="crop_save_text">Save</string>
+    <string name="crop_save_text">Menggunting</string>
     <!-- Button indicating that the cropped image should be reverted back to the original -->
     <!-- Hint that appears when cropping an image with more than one face -->
-    <string name="multiface_crop_help">Touch a face to begin.</string>
+    <string name="multiface_crop_help">Sentuh muka untuk memulakan.</string>
     <!-- Toast/alert that the image is being saved to the SD card -->
-    <string name="saving_image">Saving picture\u2026</string>
+    <string name="saving_image">Gambar sedang disimpan\u2026</string>
     <!-- Eorror toast message that the image cannot be saved [CHAR LIMIT=40]-->
-    <string name="save_error">Couldn\'t save cropped image</string>
+    <string name="save_error">Tidak boleh simpan imej yang dipangkas.</string>
 
     <!-- menu pick: crop the currently selected image -->
-    <string name="crop_label">Crop</string>
+    <string name="crop_label">Menggunting gambar</string>
     <!-- Toast/alert that the face detection is being run -->
 
     <!-- Title prompted for user to choose a photo item [CHAR LIMIT=20] -->
-    <string name="select_image">Select photo</string>
+    <string name="select_image">Pilih foto</string>
     <!-- Title prompted for user to choose a video item [CHAR LIMIT=20] -->
-    <string name="select_video">Select video</string>
+    <string name="select_video">Pilih video</string>
     <!-- Title prompted for user to choose a media object [CHAR LIMIT=20] -->
-    <string name="select_item">Edit mode</string>
+    <string name="select_item">Pilih butiran</string>
     <!-- Title prompted for user to choose an album [CHAR LIMIT=20] -->
-    <string name="select_album">Edit mode</string>
+    <string name="select_album">Pilih album</string>
     <!-- Title prompted for user to choose a group [CHAR LIMIT=20] -->
 
     <!-- Displayed in the title of the dialog for things to do with a picture
              that is to be "set as" (e.g. set as contact photo or set as wallpaper) -->
-    <string name="set_image">Set picture as</string>
+    <string name="set_image">Menetapkan gambar sebagai</string>
     <!-- Toast/alert after saving wallpaper -->
-    <string name="camera_setas_wallpaper">Wallpaper</string>
+    <string name="camera_setas_wallpaper">Gambar latar belakang</string>
 
     <!-- Details dialog "OK" button. Dismisses dialog. -->
-    <string name="delete">Delete</string>
+    <string name="delete">Padam</string>
 
     <!-- Confirm to delete 3 items? -->
     <string name="confirm_delete">Delete <xliff:g id="ITEM"> %s</xliff:g>?</string>
