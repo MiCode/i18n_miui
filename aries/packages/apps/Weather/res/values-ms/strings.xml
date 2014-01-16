@@ -1,148 +1,148 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Weather</string>
+    <string name="app_name">Cuaca</string>
 
-    <string name="weather_notification">Weather notification</string>
-    <string name="location_notification">Weather notifications</string>
-    <string name="enable_notification">Open location notification</string>
-    <string name="enable_notification_summary">Notify me if the forecast changes</string>
-    <string name="enable_notification_city">Weather notifications enabled for %s . You will be notified if there are sudden changes in the forecast (thunderstorms, snow, hurricanes, etc).</string>
+    <string name="weather_notification">Notifikasi cuaca</string>
+    <string name="location_notification">Notifikasi cuaca</string>
+    <string name="enable_notification">Dayakan notifikasi lokasi</string>
+    <string name="enable_notification_summary">Maklumkan saya jika ramalan berubah</string>
+    <string name="enable_notification_city">Sudah mendayakan notifikasi cuaca %s, notifikasi sistem akan dihantar apabila cuaca yang tidak dijangka seperti hujan, salji dan perubahan suhu berlaku.</string>
 
-    <string name="sms_notification">Share via text</string>
-    <string name="send_sms_notification">Forward weather notifications</string>
-    <string name="send_sms_notification_summary">Send today\'s weather data to your contacts via text message</string>
+    <string name="sms_notification">Kongsikan melalui SMS</string>
+    <string name="send_sms_notification">Hantarkan notifikasi cuaca</string>
+    <string name="send_sms_notification_summary">Hantarkan data cuaca hari ini kepada kenalan anda melalui mesej teks</string>
 
 
-    <string name="location_management">Locations</string>
+    <string name="location_management">Lokasi</string>
     <string name="enable_gps">GPS</string>
-    <string name="add_city">Add location</string>
-    <string name="cancel">Cancel</string>
-    <string name="menu_send_sms">Send</string>
+    <string name="add_city">Tambah lokasi</string>
+    <string name="cancel">Batal</string>
+    <string name="menu_send_sms">Hantar</string>
 
 
-    <string name="app_love_sms_title">Message contents</string>
-    <string name="app_love_view_title">Preview</string>
+    <string name="app_love_sms_title">Kandungan mesej</string>
+    <string name="app_love_view_title">Pratonton</string>
     <string name="app_love_font_lng">%s</string>
 
-    <string name="app_nohave_net">No network detected</string>
-    <string name="app_unquiet_net">Bad network connection</string>
+    <string name="app_nohave_net">Tiada rangkaian dikesan</string>
+    <string name="app_unquiet_net">Sambungan rangkaian lemah</string>
 
-    <string name="widget_loading">No weather data</string>
+    <string name="widget_loading">Tiada data cuaca</string>
 
-    <string name="act_find_city_hot_title">Popular cities</string>
-    <string name="act_find_city_title">Add location</string>
-    <string name="act_find_city_null_data">Couldn\'t find anything</string>
-    <string name="act_find_city_hint">Enter city</string>
+    <string name="act_find_city_hot_title">Bandar hangat</string>
+    <string name="act_find_city_title">Tambah lokasi</string>
+    <string name="act_find_city_null_data">Tiada keputusan.</string>
+    <string name="act_find_city_hint">Carian</string>
 
-    <string name="act_set_city_find_side_on">Open location</string>
-    <string name="act_set_city_find_side">Locating\u2026</string>
-    <string name="local_city">Local cities</string>
-    <string name="act_set_city_re_find_side">Locating\u2026</string>
-    <string name="act_set_city_find_side_error">Failed to locate</string>
-    <string name="act_city_find_gps_error">Select a city manually in the menu list</string>
-    <string name="act_weather_main_data_null">No weather data, touch to refresh</string>
+    <string name="act_set_city_find_side_on">Dayakan lokasi</string>
+    <string name="act_set_city_find_side">Tengah mencari bandar\u2026</string>
+    <string name="local_city">Bandar tempatan</string>
+    <string name="act_set_city_re_find_side">Mencari\u2026</string>
+    <string name="act_set_city_find_side_error">Tidak dapat dicari</string>
+    <string name="act_city_find_gps_error">Spilihkan bandar dari senarai menu secara manual</string>
+    <string name="act_weather_main_data_null">Tiada data cuaca, sentuh untuk muat semula</string>
 
-    <string name="act_weather_cycle_update">Updating\u2026</string>
-    <string name="act_weather_update_time">%s Updated</string>
+    <string name="act_weather_cycle_update">Mengemaskini\u2026</string>
+    <string name="act_weather_update_time">%s Sudah dikemaskini</string>
 
-    <string name="act_weather_cycle_low_temp">low</string>
+    <string name="act_weather_cycle_low_temp">rendah</string>
 
-    <string name="act_weather_range_title">Local weather forecast</string>
-    <string name="act_weather_range_select">Select a city</string>
+    <string name="act_weather_range_title">Ramalan cuaca berdekatan</string>
+    <string name="act_weather_range_select">Pilihkan bandar</string>
 
-    <string name="menu_around">Surrounding</string>
-    <string name="menu_location">Locations</string>
-    <string name="menu_notification">Notifications</string>
-    <string name="menu_reload">Refresh</string>
-    <string name="menu_reloading">Updating\u2026</string>
-    <string name="menu_share">Share</string>
-    <string name="menu_main">Index</string>
+    <string name="menu_around">Sekeliling</string>
+    <string name="menu_location">Lokasi</string>
+    <string name="menu_notification">Notifikasi</string>
+    <string name="menu_reload">Muat semula</string>
+    <string name="menu_reloading">Mengemaskini\u2026</string>
+    <string name="menu_share">Kongsikan</string>
+    <string name="menu_main">Indeks</string>
     <string name="menu_trend">Trend</string>
-    <string name="menu_settings">Settings</string>
-    <string name="menu_about">About</string>
+    <string name="menu_settings">Tetapan</string>
+    <string name="menu_about">Mengenai</string>
 
-    <string name="share_weather_title">Share weather data</string>
-    <string name="share_sina">Share via Sina Weibo</string>
-    <string name="share_qq">Share via Tencent Weibo</string>
-    <string name="install_tencent">Get Weibo app</string>
+    <string name="share_weather_title">Kongsikan data cuaca</string>
+    <string name="share_sina">Konsikan melalui Sina Weibo</string>
+    <string name="share_qq">Konsikan melalui Tencent Weibo</string>
+    <string name="install_tencent">Dapatkan aplikasi Weibo</string>
 
-    <string name="share_content">#MIUI weather#</string>
-    <string name="share_weather_content">#MIUI weather#\nToday %1$s\'s weather is %2$s, %3$s, %4$s. %5$s.</string>
-    <string name="share_aqi_content">#MIUI weather#\nToday %1$s\'s air quality: %2$s, %3$s. %4$s %5$s.</string>
-    <string name="save_screen_shot_failed">Failed to save screenshot</string>
+    <string name="share_content">#Cuaca MIUI#</string>
+    <string name="share_weather_content">#Cuaca MIUI#\nCuaca %1$s\'s hari ini adalah %2$s, %3$s, %4$s. %5$s.</string>
+    <string name="share_aqi_content">#Cuaca MIUI#\nKualiti cuaca %1$s\'s hari ini: %2$s, %3$s. %4$s %5$s.</string>
+    <string name="save_screen_shot_failed">Gagal menyimpan screenshot</string>
 
-    <string name="trend_weather_today">Today</string>
-    <string name="trend_weather_tomorrow">Tomorrow</string>
+    <string name="trend_weather_today">Hari ini</string>
+    <string name="trend_weather_tomorrow">Esok</string>
 
-    <string name="settings_weather_title">Settings</string>
-    <string name="settings_weather_animation">Weather animation</string>
-    <string name="settings_weather_play_ani_title">Play animation</string>
-    <string name="settings_weather_play_ani_summary">Play animation in the main interface</string>
-    <string name="settings_weather_about">About</string>
-    <string name="settings_weather_pre_title">Weather</string>
-    <string name="settings_weather_preview">Preview weather animation</string>
+    <string name="settings_weather_title">Tetapan</string>
+    <string name="settings_weather_animation">Animasi cuaca</string>
+    <string name="settings_weather_play_ani_title">Play animasi</string>
+    <string name="settings_weather_play_ani_summary">Play animasi dalam interface utama</string>
+    <string name="settings_weather_about">Mengenai</string>
+    <string name="settings_weather_pre_title">Cuaca</string>
+    <string name="settings_weather_preview">Preview animasi cuaca</string>
 
-    <string name="menu_delete">Delete</string>
-    <string name="selected_format">%d selected</string>
-    <string name="alert_title_delete">Delete</string>
-    <string name="alert_message_delete">Delete selected %d item(s)?</string>
+    <string name="menu_delete">Padam</string>
+    <string name="selected_format">%d item telah dipilih</string>
+    <string name="alert_title_delete">Padam</string>
+    <string name="alert_message_delete">Padamkan %d item yang telah dipilih?</string>
 
-    <string name="send_weather_sms_cycle">%1$s weather forecast：%2$s</string>
+    <string name="send_weather_sms_cycle">Ramalan cuaca: %1$s:%2$s</string>
     <string name="send_weather_sms_main">%1$s %2$s,%3$s %4$s %5$s</string>
-    <string name="send_weather_sms_error">No weather data</string>
+    <string name="send_weather_sms_error">Tiada data cuaca</string>
 
-    <string name="tip_weather">MIUI weather notification</string>
-    <string name="tip_weather_info_title_1">%1$s expected temperature difference of %2$d degrees</string>
+    <string name="tip_weather">Notifikasi cuaca MIUI</string>
+    <string name="tip_weather_info_title_1">%1$s dijangka perbezaan suhu sebanyak %2$d darjah</string>
     <string name="tip_weather_info_content_1">Bring layers!</string>
-    <string name="tip_weather_info_title_2">%1$s temperature today is approximately %2$s</string>
+    <string name="tip_weather_info_title_2">%1$s suhu hari ini dijangkan adalah %2$s</string>
 
-    <string name="alert_provider_title">Location notification</string>
-    <string name="alert_provider_message">You need to enable location access via your mobile network.</string>
-    <string name="button_allow">Allow</string>
-    <string name="button_not_allow">Deny</string>
-    <string name="location_allow_err">Failed to locate</string>
+    <string name="alert_provider_title">Notifikasi lokasi</string>
+    <string name="alert_provider_message">Anda perlu membolehkan akses lokasi melalui rangkaian mudah alih anda.</string>
+    <string name="button_allow">Benar</string>
+    <string name="button_not_allow">Tolak</string>
+    <string name="location_allow_err">Gagal untuk locate</string>
 
     <string name="format_date_wmd">M/d EEE</string>
     <string name="format_date_md">M/d kk:mm</string>
     <string name="format_date_week">EEE</string>
     <string name="format_date_trend_md">M/d</string>
 
-    <string name="act_weather_aqi_title">Air quality index</string>
-    <string name="act_weather_main_aqi_index">Air quality: %s</string>
+    <string name="act_weather_aqi_title">Indeks kualiti udara</string>
+    <string name="act_weather_main_aqi_index">Kualiti udara: %s</string>
 
-    <string name="act_weather_aqi_share">Share</string>
-    <string name="aqi_quality_index_pure">excellent</string>
-    <string name="aqi_quality_index_good">good</string>
-    <string name="aqi_quality_index_moderate">moderate</string>
-    <string name="aqi_quality_index_light_pollution">light pollution</string>
-    <string name="aqi_quality_index_unhealthy">unhealthy</string>
+    <string name="act_weather_aqi_share">Berkongsi</string>
+    <string name="aqi_quality_index_pure">sangat baik</string>
+    <string name="aqi_quality_index_good">bagus</string>
+    <string name="aqi_quality_index_moderate">sederhana</string>
+    <string name="aqi_quality_index_light_pollution">pencemaran ringan</string>
+    <string name="aqi_quality_index_unhealthy">tidak sihat</string>
     <string name="aqi_quality_index_dangerous">dangerous</string>
-    <string name="aqi_quality_index_hazardous">hazardous</string>
+    <string name="aqi_quality_index_hazardous">berbahaya</string>
 
-    <string name="aqi_details_good">It\'s a great day to be outdoors.</string>
-    <string name="aqi_details_fine">People with special medical conditions should consider reducing prolonged or heavy exertion while outside.</string>
-    <string name="aqi_details_light_pollution">People with heart or lung disease, senior citizens, and young children should reduce prolonged or heavy exertion while outside.</string>
-    <string name="aqi_details_unhealthy">Everyone should reduce prolonged or heavy exertion while outside.</string>
-    <string name="aqi_details_dangerous">People with heart or lung disease, older adults, and children should avoid all physical activity outside. Everyone else should avoid prolonged or heavy exertion outside.</string>
-    <string name="aqi_details_hazardous">Everyone should avoid all physical activity outdoors. People with heart or lung disease, senior citizens, and young children should remain indoors and keep activity levels low.</string>
+    <string name="aqi_details_good">Cuaca sesuai untuk keluar.</string>
+    <string name="aqi_details_fine">Individu yang amat sensitif harus pertimbangkan mengurangkan senaman yang berlarutan atau berat.</string>
+    <string name="aqi_details_light_pollution">Indivdu dengan penyakit jantung atau paru-paru, orang dewasa dan kanak-kanak perlu mengurangkan senaman yang berlarutan atau berat.</string>
+    <string name="aqi_details_unhealthy">Indivdu dengan penyakit jantung atau paru-paru, orang dewasa dan kanak-kanak perlu mengelakkan semua aktiviti fizikal di luar rumah. Individu yang lain perlu mengelakkan senaman yang berlarutan atau berat.</string>
+    <string name="aqi_details_dangerous">Indivdu dengan penyakit jantung atau paru-paru, orang dewasa dan kanak-kanak perlu mengelakkan semua aktiviti fizikal di luar rumah. Individu yang lain perlu mengelakkan senaman yang berlarutan atau berat.</string>
+    <string name="aqi_details_hazardous">Elakkan segala aktiviti fizikal di luar rumah\; individu dengan penyakit jantung atau paru-paru, orang dewasa dan kanak-kanak perlu kekalkan di dalam rumah dan mengekalkan tahap aktiviti yang rendah.</string>
 
     <string name="act_aqi_pm25_title">PM2.5</string>
     <string name="act_aqi_pm10_title">PM10</string>
     <string name="act_aqi_so2_title">SO2</string>
     <string name="act_aqi_no2_title">NO2</string>
 
-    <string name="first_start_network_toast_text">Access network to get weather information.</string>
-    <string name="act_weather_find_city_search_online">Touch to search online</string>
-    <string name="act_weather_find_city_connect_net">Try to connect again</string>
+    <string name="first_start_network_toast_text">Akses rangkaian untuk mendapatkan infomasi cuaca.</string>
+    <string name="act_weather_find_city_search_online">Cari bandar secara online</string>
+    <string name="act_weather_find_city_connect_net">Semak sambungan rangkaian anda dan cuba lagi</string>
     <string name="weather_unit">°</string>
     <string name="weather_unit_middle">~</string>
     <string name="weather_unit_with_c">℃</string>
-    <string name ="act_weather_find_city_searching">Searching\u2026</string>
-    <string name ="act_init_dialog_finish">Global weather info has been added.</string>
-    <string name ="loading_weather">Loading\u2026</string>
+    <string name ="act_weather_find_city_searching">Mencari\u2026</string>
+    <string name ="act_init_dialog_finish">Info cuaca global telah ditambah.</string>
+    <string name ="loading_weather">Sedang memuatkan cuaca\u2026</string>
     <string name ="act_weather_cycle_link_china">WeatherChina</string>
-    <string name ="menu_add">Add Cities</string>
-    <string name ="menu_more">Details</string>
+    <string name ="menu_add">Tambah bandar</string>
+    <string name ="menu_more">Butiran</string>
     <array name="send_item">
         <item>Text message</item>
         <item>Email</item>
