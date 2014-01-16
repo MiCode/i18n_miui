@@ -239,7 +239,7 @@
     <string name="activate_status_desc_getting_gateway">Getting SMS Gateway</string>
     <string name="activate_status_desc_failed_getting_gateway">Failed to get SMS Gateway</string>
     <string name="activate_status_desc_prepare_sending_sms">Tengah menyedia untuk menghantar SMS pengaktifan kepada Gateway</string>
-    <string name="activate_status_desc_sending_sms">Tengah menghantar SMS kepada Gateway<</string>
+    <string name="activate_status_desc_sending_sms">Tengah menghantar SMS kepada Gateway</string>
     <string name="activate_status_desc_sms_sent">Pengaktifan SMS telah dihantar</string>
     <string name="activate_status_desc_sim_absent">Kad SIM tidak dijumpai</string>
 
