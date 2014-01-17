@@ -16,16 +16,16 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- [CHAR LIMIT=25] Label of this application. -->
-    <string name="app_label">Search Applications Provider</string>
+    <string name="app_label">Cari pembekal aplikasi</string>
     
     <!-- Search label for applications. -->
     <string name="search_label">Apps</string>
 
     <!-- Description line displayed for an application entry in the search suggest list. -->
-    <string name="application_desc">Application</string>
+    <string name="application_desc">Aplikasi</string>
     
     <!-- Description line displayed for 'apps' as a searchable item within system search
          settings. -->
-    <string name="settings_description">Names of installed applications</string>
+    <string name="settings_description">Nama aplikasi yang dipasang</string>
 
 </resources>
