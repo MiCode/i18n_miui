@@ -217,6 +217,7 @@
         <item>zh_CN</item>
         <item>zh_TW</item>
         <item>en_US</item>
+        <item>ms_MY</item>
     </string-array>
 
     <string-array name="screen_key_long_press_default_action" translatable="false">
