@@ -17,54 +17,54 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Title for the Calendar Storage process. -->
-    <string name="calendar_storage">Calendar Storage</string>
+    <string name="calendar_storage">Storan Kalendar</string>
 
     <!-- [CHAR LIMIT=NONE] Boot message while upgrading calendar. -->
-    <string name="upgrade_msg">Upgrading Calendar database.</string>
+    <string name="upgrade_msg">Naiktaraf pangkalan data kalendar.</string>
 
     <!-- Temporary Calendar name to use before we have the calendar name from the server -->
     <string name="calendar_default_name">Default</string>
 
     <!-- Caption on secret calendar info -->
-    <string name="calendar_info">Calendar info</string>
+    <string name="calendar_info">Info kalendar</string>
 
     <!-- Error message for secret calendar info -->
-    <string name="calendar_info_error">Error</string>
+    <string name="calendar_info_error">Ralat</string>
 
     <!-- No calendars message for secret calendar info -->
-    <string name="calendar_info_no_calendars">No calendars</string>
+    <string name="calendar_info_no_calendars">Tiada kalendar</string>
 
     <!-- Event count message for secret calendar info -->
-    <string name="calendar_info_events">Events: <xliff:g id = "events">%1$d</xliff:g></string>
+    <string name="calendar_info_events">Acara: <xliff:g id = "events">%1$d</xliff:g></string>
 
     <!-- Event and dirty event count message for secret calendar info -->
-    <string name="calendar_info_events_dirty">Events: <xliff:g id = "events">%1$d</xliff:g>, Unsaved: <xliff:g id = "dirty events">%2$d</xliff:g></string>
+    <string name="calendar_info_events_dirty">Acara: <xliff:g id = "events">%1$d</xliff:g>, Unsaved: <xliff:g id = "dirty events">%2$d</xliff:g></string>
 
     <!-- What to show in messaging that refers to this provider, e.g. AccountSyncSettings -->
-    <string name="provider_label">Calendar</string>
+    <string name="provider_label">Kalendar</string>
 
     <!-- Debug tool - dialog - delete file now [CHAR LIMIT=NONE] -->
-    <string name="debug_tool_delete_button">Delete now</string>
+    <string name="debug_tool_delete_button">Buang sekarang</string>
 
     <!-- Debug tool - dialog - start copying [CHAR LIMIT=NONE] -->
-    <string name="debug_tool_start_button">Start</string>
+    <string name="debug_tool_start_button">Mula</string>
 
     <!-- Debug tool - Main message shown to the user when starting up the debug tool [CHAR LIMIT=NONE] -->
-    <string name="debug_tool_message">You are about to 1) make a copy of your calendar database to the SD card/USB storage, which is readable by any app, and 2) email it. Remember to delete the copy as soon as you have successfully copied it off the device or the email is received.</string>
+    <string name="debug_tool_message">Anda sedang 1) buat salinan pangkalan data kalendar ke kad SD/storan USB, yang boleh dibaca oleh mana-mana apps, dan 2) Emelkannya. Jangan lupa untuk buang salinan sebaik sahaja anda selesai menyalinnya ke peranti atau emel telah diterima.</string>
 
     <!-- Debug tool - email subject [CHAR LIMIT=NONE] -->
-    <string name="debug_tool_email_sender_picker">Choose a program to send your file</string>
+    <string name="debug_tool_email_sender_picker">Pilih program untuk hantar fail anda</string>
 
     <!-- Debug tool - email subject [CHAR LIMIT=NONE] -->
-    <string name="debug_tool_email_subject">Calendar Db attached</string>
+    <string name="debug_tool_email_subject">Db kalendar disertakan</string>
 
     <!-- Debug tool - email body [CHAR LIMIT=NONE] -->
-    <string name="debug_tool_email_body">Attached is my Calendar database with all my appointments and personal information. Handle with care.</string>
+    <string name="debug_tool_email_body">Disertakan adalah pangkalan data kalendar saya bersama semua temujanji dan maklumat peribadi. Sila berhati-hati.</string>
 
-    <string name="holiday_update_title">Work days data need connect network and update</string>
-    <string name="holiday_update_summary">Click check updates</string>
-    <string name="holiday_data_updating">Updating...</string>
-    <string name="holiday_data_update_failed">Check for update errors and please try again later.</string>
-    <string name="holiday_data_update_succeed">Check for completed update</string>
-    <string name="holiday_data_no_network">No network, please try again later</string>
+    <string name="holiday_update_title">data hari bekerja perlukan sambungan rangkaian dan kemaskini</string>
+    <string name="holiday_update_summary">Klik periksa kemaskini</string>
+    <string name="holiday_data_updating">Mengemaskini...</string>
+    <string name="holiday_data_update_failed">Periksa untuk ralat kemaskini dan sila cuba lagi kemudian.</string>
+    <string name="holiday_data_update_succeed">Periksa untuk kemaskini yang telah selesai</string>
+    <string name="holiday_data_no_network">Tiada rangkaian, sila cuba lagi kemudian</string>
 </resources>
