@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Handbook</string>
+    <string name="app_name">Buku Panduan</string>
     <string name="read_progress_format">%1$s/%2$s</string>
-    <string name="read_progress_title">Reading finished</string>
+    <string name="read_progress_title">Pembacaan selesai</string>
     <string name="total_read_progress_format">%1$s%%</string>
-    <string name="loading_userbook">Loading...</string>
-    <string name="grid_list_title">Find out all techniques to become a phone expert!</string>
+    <string name="loading_userbook">Memasukkan...</string>
+    <string name="grid_list_title">Mengetahui semua teknik untuk menjadi seorang pakar telefon!</string>
 </resources>
