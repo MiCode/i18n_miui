@@ -2,5 +2,5 @@
 
 <resources>
     <!-- Label to show to user for this package. -->
-    <string name="app_label">Userbook storage</string>
+    <string name="app_label">Storan Buku Pengguna</string>
 </resources>
