@@ -19,11 +19,11 @@
     <string name="uid_label">Media</string>
 
     <!-- Label to show to user for this package. -->
-    <string name="app_label">Media Storage</string>
+    <string name="app_label">Media Memori</string>
 
     <!-- [CHAR LIMIT=NONE] Boot message while upgrading media provider. -->
-    <string name="upgrade_msg">Upgrading Media database.</string>
+    <string name="upgrade_msg">Media update pangkalan data.</string>
 
     <!-- Description line for music artists in the search/suggestion results -->
-    <string name="artist_label">Artist</string>
+    <string name="artist_label">Artis</string>
 </resources>
