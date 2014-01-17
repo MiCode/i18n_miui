@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Assist</string>
+    <string name="app_name">Voice</string>
     <string name="not_launch_while_calling">Voice assistant cant be used during call</string>
     <string name="net_not_connected">Please check network connection</string>
     <string name="no_engine">Speech recognition engine is not installed</string>
@@ -16,7 +16,7 @@
     <string name="calendaring">Event added, tap to view</string>
     <string name="calendaring_cancel">Cancel alert</string>
     <string name="over_24h_clock_operation">Can not set alarm clock past 24 hours.</string>
-    <string name="new_clock_tip">New alarm</string>
+    <string name="new_clock_tip">New alert</string>
     <string name="help_content">Do you need some help?</string>
     <string name="help_tip">You can use the following voice commands:</string>
     <string name="info_insufficient">Not enough information</string>
@@ -35,35 +35,35 @@
     <string name="stock_not_found">No stock found</string>
     <string name="ticket_not_found">No ticket information found</string>
 
-    <string name="find_restaurant_nearby">找到附近的餐厅</string>
-    <string name="find_more_restaurant">查看更多餐厅</string>
-    <string name="restaurant_more">更多附近的餐厅</string>
-    <string name="restaurant_detail">商家详情</string>
-    <string name="restaurant_comment">网友点评</string>
-    <string name="telephone">联系电话:</string>
-    <string name="address">地址:</string>
-    <string name="net_recommend">网友推荐: %1$s</string>
-    <string name="restaurant_feature">餐厅特色:</string>
-    <string name="net_comment">网友点评</string>
-    <string name="avg_price">人均：￥%1$s</string>
+    <string name="find_restaurant_nearby">Find restaurants nearby</string>
+    <string name="find_more_restaurant">See more restaurants</string>
+    <string name="restaurant_more">More restaurants nearby</string>
+    <string name="restaurant_detail">Restaurant details</string>
+    <string name="restaurant_comment">Restaurant reviews</string>
+    <string name="telephone">Telefon:</string>
+    <string name="address">Address:</string>
+    <string name="net_recommend">Friends recommend: %1$s</string>
+    <string name="restaurant_feature">Restaurant facilities:</string>
+    <string name="net_comment">User reviews</string>
+    <string name="avg_price">Price: %1$s yuan</string>
 
-    <string name="cancel">取消</string>
-    <string name="finish">完成</string>
-    <string name="confirm">确定</string>
-    <string name="new_alarm">新提醒</string>
-    <string name="alarm">提醒</string>
-    <string name="confirm_cancel">确定还是取消</string>
-    <string name="new_clock">设置新闹钟</string>
-    <string name="adding_alarm">添加新提醒</string>
+    <string name="cancel">Cancel</string>
+    <string name="finish">Completed</string>
+    <string name="confirm">OK</string>
+    <string name="new_alarm">New reminder</string>
+    <string name="alarm">Reminder</string>
+    <string name="confirm_cancel">Cancel?</string>
+    <string name="new_clock">Set new alarm</string>
+    <string name="adding_alarm">Add new reminder</string>
 
-    <string name="new_message">发送信息</string>
-    <string name="content">内容</string>
-    <string name="sms_sent_success">短信发送成功</string>
-    <string name="sms_sent_cancel">已取消发送短信</string>
+    <string name="new_message">New message</string>
+    <string name="content">Content</string>
+    <string name="sms_sent_success">Message sent</string>
+    <string name="sms_sent_cancel">Cancel sending message</string>
 
     <string name="setting">Settings</string>
     <string name="about">About</string>
-    <string name="quit">Quit</string>
+    <string name="quit">Exit</string>
 
     <string name="in_calling">Calling in</string>
     <string name="unknown_num">Unknown number</string>
@@ -74,7 +74,7 @@
 
     <string name="arrow">&gt;</string>
     <string name="arrow_down">v</string>
-    <string name="you_can_say_so">您可以这样说:</string>
-    <string name="model_name">张若涵</string>
-    <string name="china">中国</string>
+    <string name="you_can_say_so">You can also say: </string>
+    <string name="model_name">Model</string>
+    <string name="china">China</string>
 </resources>
