@@ -18,19 +18,19 @@
     <string name="app_name">MusicFX</string>
 
     <!-- ControlPanelMusic strings -->
-    <string name="no_effects">Kesan tidak didapati.</string>
-    <string name="main_toggle_effects_title">Kesan audio</string>
-    <string name="eq_dialog_title">Pensamaan</string>
-    <string name="headset_plug">Sila pasangkan fon kepala untuk kesan ini.</string>
-    <string name="bass_boost_strength">Rangsang Bass</string>
-    <string name="virtualizer_strength">Kesan 3D</string>
-    <string name="pr_title">Talunan:</string>
-    <string name="pr_summary">Kesan talunan bilk tambahan</string>
-    <string name="pr_dialog_title">Talunan pratetap</string>
+    <string name="no_effects">Efek tidak didapati.</string>
+    <string name="main_toggle_effects_title">Efek audio</string>
+    <string name="eq_dialog_title">Ekualizer</string>
+    <string name="headset_plug">Sila pasangkan fon kepala untuk Efek ini.</string>
+    <string name="bass_boost_strength">Tingkatkan Bass</string>
+    <string name="virtualizer_strength">Efek 3D</string>
+    <string name="pr_title">Gema:</string>
+    <string name="pr_summary">Efek tambahan gema bilik</string>
+    <string name="pr_dialog_title">Preset gema</string>
     <string name="setup">Sediaan</string>
-    <string name="ci_extreme">Perangsang FX</string>
+    <string name="ci_extreme">Tingkatkan FX</string>
     <string name="user">Pengguna</string>
 
     <!-- title of control panel picker dialog [CHAR LIMIT=30] -->
-    <string name="picker_title">Panel kawalan kesan musik</string>
+    <string name="picker_title">Panel kawalan efek muzik</string>
 </resources>
