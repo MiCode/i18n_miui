@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Assist</string>
-    <string name="not_launch_while_calling">通话过程中不能使用语音助手</string>
+    <string name="not_launch_while_calling">Voice assistant cant be used during call</string>
     <string name="net_not_connected">请检查网络链接</string>
     <string name="no_engine">没有安装语音识别引擎</string>
     <string name="not_understand">Sorry, I don\'t understand. (I can\'t speak English yet, but you can speak Chinese with me) :)</string>
