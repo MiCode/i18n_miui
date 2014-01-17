@@ -14,30 +14,30 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name">Key Chain</string>
+    <string name="app_name">Rantai Kunci</string>
 
     <!-- Dialog title when no certificates were found -->
-    <string name="title_no_certs">No certificates found</string>
+    <string name="title_no_certs">Tiada perakuan ditemui</string>
 
     <!-- Dialog title when at least one certificate was found -->
-    <string name="title_select_cert">Choose certificate</string>
+    <string name="title_select_cert">Pilih perakuan</string>
 
     <!-- Used at top of dialog to identify requesting application -->
-    <string name="requesting_application">The app %s has requested a certificate. Choosing a certificate will let the app use this identity with servers now and in the future.</string>
+    <string name="requesting_application">Aplikasi ini %s telah meminta perakuan. Memilih perakuan akan membenarkan aplikasi guna identiti ini dengan server sekarang dan masa akan datang.</string>
 
     <!-- Used at top of dialog to identify requesting server (may be host:port or just host)-->
-    <string name="requesting_server">The app has identified the requesting server as %s, but you should only give the app access to the certificate if you trust the app.</string>
+    <string name="requesting_server">Aplikasi ini telah kenalpasti permintaan server sebagai %s, tapi anda hanya harus memberi apps akses kepada perakuan jika anda percaya app tersebut.</string>
 
     <!-- Label of button to send the user to the CertInstaller to install a certificate (arguments are constants for .pfx and .p12) -->
-    <string name="install_new_cert_message">You can install certificates from a PKCS#12 file with a %1$s or a %2$s extension located in external storage.</string>
+    <string name="install_new_cert_message">Anda boleh memasang perakuan daripada fail PKCS#12 dengan %1$s atau sambungan %2$s yang berada dalam storan luar.</string>
 
     <!-- Label of button to send the user to the CertInstaller to install a certificate -->
-    <string name="install_new_cert_button_label">Install</string>
+    <string name="install_new_cert_button_label">Pasang</string>
 
     <!-- Label of button to send the allow the application certificate request -->
-    <string name="allow_button">Allow</string>
+    <string name="allow_button">Benar</string>
 
     <!-- Label of button to send the deny the application certificate request -->
-    <string name="deny_button">Deny</string>
+    <string name="deny_button">Nafi</string>
 
 </resources>
