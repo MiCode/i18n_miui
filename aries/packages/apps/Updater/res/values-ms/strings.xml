@@ -164,7 +164,7 @@
   <string name="edit_text_default">Tulis komen</string>
   <string name="comment_sending">Menghantar komen...</string>
   <string name="comment_upload_failed">Tidak berjaya menghantar komen</string>
-  <string name="comment_upload_hint"Terima kasih atas komen anda!</string>
+  <string name="comment_upload_hint">Terima kasih atas komen anda!</string>
   <string name="comment_upload_success">Komen berjaya dihantar!</string>
   <string name="comment_invalid">Sentuh bintang untuk memberi markah</string>
   <string name="comment_upload_not_logined">Sila log masuk dahulu sebelum menghantar komen</string>
