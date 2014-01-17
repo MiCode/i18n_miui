@@ -16,12 +16,12 @@
 
 <resources>
     <!-- application name and title of error dialogs-->
-    <string name="app_name">Speech Recorder</string>
+    <string name="app_name">Perakam Ucapan</string>
 
-    <string name="speechrecorderlabel">Speech Recorder</string>
-    <string name="recordButton">Record</string>
-    <string name="redoButton">Redo</string>
-    <string name="callRadioButton">\"call ...\"\nUtterances</string>
-    <string name="dialNanpRadioButton">\"dial NANP\"\nUtterances</string>
-    <string name="dialPairsRadioButton">\"dial NANP PAIRS\"\nUtterances</string>
+    <string name="speechrecorderlabel">Perakam Ucapan</string>
+    <string name="recordButton">Rakam</string>
+    <string name="redoButton">Buat semula</string>
+    <string name="callRadioButton">\"panggil ...\"\nUtterances</string>
+    <string name="dialNanpRadioButton">\"dail NANP\"\nUtterances</string>
+    <string name="dialPairsRadioButton">\"dail NANP PAIRS\"\nUtterances</string>
 </resources>
