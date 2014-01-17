@@ -15,7 +15,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Text displayed when the recipientedittextview is not focused. Displays the total number of recipients since the field is shrunk to just display a portion -->
-    <string name="more_string"><xliff:g id="count">%1$s</xliff:g> lagi...</string>
+    <string name="more_string"><xliff:g id="count">%1$s</xliff:g> lagi\u2026</string>
 
     <!-- Text displayed when the user long presses on a chip to copy the recipients email address.
          [CHAR LIMIT=200] -->
