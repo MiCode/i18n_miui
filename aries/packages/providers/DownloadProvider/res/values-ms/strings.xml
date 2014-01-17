@@ -197,7 +197,7 @@
 
     <!-- Text for button to cancel a download because it's too large to proceed over the mobile
          network and the user does not want to queue it for Wi-Fi [CHAR LIMIT=25] -->
-    <string name="button_cancel_download">Cancel</string>
+    <string name="button_cancel_download">Batal</string>
 
     <!-- Text for button to start a download over the mobile connection now, even though it's over
          the carrier-specified recommended maximum size for downloads over the mobile connection
@@ -209,10 +209,10 @@
 
     <!-- Text for dialog when user clicks on a download that failed due to insufficient space on
          external storage [CHAR LIMIT=200] -->
-    <string name="dialog_insufficient_space_on_external">Not enough space on external storage</string>
+    <string name="dialog_insufficient_space_on_external">Download tidak dapat dihabiskan. Tiada ruang yang mencukupi pada storan luaran anda.</string>
     <!-- Text for dialog when user clicks on a download that failed due to insufficient space on
          the internal download cache [CHAR LIMIT=200] -->
-    <string name="dialog_insufficient_space_on_cache">Not enough space on internal download storage</string>
+    <string name="dialog_insufficient_space_on_cache">Download tidak dapat dihabiskan. Tiada ruang yang mencukupi pada storan dalaman anda.</string>
 
     <string name="auto_restart_under_wifi">Wi-Fi will automatically download this file</string>
     <!-- When create a download task, and create a another download task
