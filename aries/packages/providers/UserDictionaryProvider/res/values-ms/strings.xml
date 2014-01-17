@@ -16,6 +16,6 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Label of this application. -->
-    <string name="app_label">User Dictionary</string>
+    <string name="app_label">Kamus Pengguna</string>
 
 </resources>
