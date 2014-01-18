@@ -136,7 +136,7 @@
     <string name="confirm">Dipasti</string>
     <string name="error_info_cant_send_folder">Amaran! Folder tidak boleh dihantar!</string>
     <string name="error_nofile_selected">Tiada fail dipilih</string>
-    <<string name="share_msg_model">"Saya mempunyai fail perkongsian anda pada [ %1$s ]"</string>
+    <string name="share_msg_model">"Saya mempunyai fail perkongsian anda pada [ %1$s ]"</string>
     <string name="send_share_link">Pautan fail kongsi menggunakan</string>
     <string name="generate_share_link_failed">Gagal menjana sambungan perkongsian</string>
     <string name="generating_share_link">Mewujudkan pautan perkongsian\u2026</string>
