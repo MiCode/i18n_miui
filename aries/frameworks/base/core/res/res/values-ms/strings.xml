@@ -1513,9 +1513,9 @@
 
 	<!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
   	<string name="permlab_nfc">Kawal Near Field Communication</string>
-	< !-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-  	<string name="permdesc_nfc">Membenarkan app untuk berkomunikasi 
-     dengan tag Near Field Communication (NFC), kad dan pembaca.</string>
+	<!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+  	<string name="permdesc_nfc">Membenarkan app untuk berkomunikasi dengan tag 
+  	Near Field Communication (NFC), kad dan pembaca.</string>
 
 	<!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
   	<string name="permlab_disableKeyguard">Tutup kunci skrin</string>
