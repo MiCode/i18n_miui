@@ -218,8 +218,8 @@
 	<string name="already_enable_encrypt">Membolehkan penyulitan</string>
 	<string name="enable_encrypt_summery1">"Sistem akan menyulitkan sandaran tempatan anda berdasarkan akaun Xiaomi, anda perlu log masuk ke akaun Xiaomi anda ketika mengeluarkan data atau menggunakan alat-alat lain untuk memulihkan sandaran."</string>
 	<string name="enable_encrypt_summery2">"Sandaran baru akan secara automatik disulitkan. Anda perlu log masuk ke akaun Xiaomi anda ketika mengeluarkan data atau menggunakan alat-alat lain untuk memulihkan sandaran."</string>
-	<string name="enable_encrypt_xiaomi_account">Sandaran ini telah dicipta oleh <xliff:g id="account" example="110000">%1$s</xliff:g>, sila padam akaun semasa, dan log masuk ke <xliff:g id="account" example="110000">%1$s</xliff:g> untuk memulihkan data.</string>
-	and sign in as <xliff:g id="account" example="110000">%2$s</xliff:g> to restore.</string>
+	<string name="enable_encrypt_xiaomi_account">Sandaran ini telah dicipta oleh <xliff:g id="account" example="110000">%1$s</xliff:g>, sila padam akaun semasa, 
+	dan log masuk ke <xliff:g id="account" example="110000">%1$s</xliff:g> untuk memulihkan data.</string>
 	<string name="enable_encrypt_ok">OK</string>
 	<string name="no_encrypt_password">Tiada kata laluan disulitkan</string>
 	<string name="enable_encrypt_fail">Membolehkan Penyulitan gagal</string>
