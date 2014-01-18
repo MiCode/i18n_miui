@@ -305,10 +305,9 @@
     <string name="delete_timezone_title">Padam zon masa</string>
     <string name="delelte_selected_timezone">Adakah anda pasti untuk memadam zon masa yang dipilih(s)?</string>
 
-    <string name="timezone_exist_error_message">Gagal untuk menambah zon masa. Zon masa telah ada, sila pilih semula.</string>>You\'re already displaying that timezone</string>
-
+    <string name="timezone_exist_error_message">Gagal untuk menambah zon masa. Zon masa telah ada, sila pilih semula.</string>
     <string-array name="alarm_in_furture">
-        <item>Alarm will sound in less than 1 minute </item>
+        <item>Alarm will sound in less than 1 minute</item>
         <item>Alarm will sound in <xliff:g id="DAYS" example="2 days">%1$s</xliff:g></item>
         <item>Alarm will sound in <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g></item>
         <item>Alarm will sound in <xliff:g id="DAYS" example="2 days">%1$s </xliff:g><xliff:g id="HOURS" example="2 hours">%2$s</xliff:g></item>
