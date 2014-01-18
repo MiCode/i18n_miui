@@ -329,6 +329,8 @@
     <string name="name_illegal">Nama fail tidak boleh kosong</string>
     <string name="open_changed_file_title">fail diubahsuai</string>
     <string name="open_changed_file_message">"Fail yang anda cuba untuk membuka telah diubahsuai, anda boleh:
+    1. Muat turun (mengemaskini fail tempatan)
+    2. Memuat naik (mengemas kini fail jauh))"</string>
     <string name="ui_filechange_btn_upload">Memuat naik fail</string>
     <string name="folder_exist">Pelipat sudah wujud</string>
     
