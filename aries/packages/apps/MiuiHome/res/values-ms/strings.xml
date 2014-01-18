@@ -107,22 +107,20 @@
     <string name="permlab_uninstall_shortcut">Nyahpasang pintasan</string>
     <!-- Permission description -->
     <string name="permdesc_uninstall_shortcut">Membolehkan permohonan untuk membuang pintasan tanpa campur tangan pengguna.</string>
-    shortcuts without user intervention.</string>
     <!-- Permission short label -->
     <string name="permlab_install_widget">Pasang widget</string>
     <!-- Permission description -->
     <string name="permdesc_install_widget">Membenarkan permohonan untuk menambah widget tanpa campur tangan pengguna.</string>
-    widgets without user intervention.</string>
+    
     <!-- Permission short label -->
     <string name="permlab_read_settings">Baca Tetapan skrin utama dan Pintasans</string>
     <!-- Permission description -->
     <string name="permdesc_read_settings">Membenarkan aplikasi untuk membaca tetapan dan pintasan di Laman Utama.</string>
-    shortcuts in Home.</string>
+    
     <!-- Permission short label -->
     <string name="permlab_write_settings">Edit Home Settings and Shortcuts</string>
     <!-- Permission description -->
     <string name="permdesc_write_settings">Membenarkan aplikasi menukar tetapan dan pintasan di Laman Utama.</string>
-    shortcuts in Home.</string>
     
     <!-- Widgets: -->
     <skip />
