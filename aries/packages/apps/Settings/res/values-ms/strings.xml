@@ -2725,7 +2725,7 @@ limitations under the License.
 	app. Stopping it may cause the app to fail.</string>
 	<!-- Running service details, description for running heavy-weight process. -->
 	<string name="heavy_weight_stop_description">"Aplikasi ini tidak boleh dihentikan secara selamat. Jika anda menghentikannya, anda mungkin kehilangan beberapa kerja semasa anda."</string>
-	be stopped. If you stop it, you may lose some of your current work.</string>
+	
 	<!-- Running service details, description for background process. -->
 	<string name="background_process_stop_description">"Ini adalah satu proses aplikasi 
 	lama yang masih berjalan sekiranya ia diperlukan lagi. 
