@@ -3035,9 +3035,9 @@
 	<!-- See USB_STORAGE_STOP.  USB_STORAGE_STOP_DIALOG:  After the user selects the notification, a dialog is shown asking if he wants to stop usb storage.  This is the title. -->
 	<string name="usb_storage_stop_title">Storan USB sedang diguna</string>
 	<!-- See USB_STORAGE_STOP.    This is the message. [CHAR LIMIT=NONE] -->
-	<string name="usb_storage_stop_message" product="nosdcard">Before turning off USB storage, unmount ("eject") your Android's USB storage from your computer.</string>
+	<string name="usb_storage_stop_message" product="nosdcard">Before turning off USB storage, unmount (\"eject\") your Android\'s USB storage from your computer.</string>
 	<!-- See USB_STORAGE_STOP.    This is the message. -->
-	<string name="usb_storage_stop_message" product="default">Before turning off USB storage, unmount ("eject") your Android's SD card from your computer.</string>
+	<string name="usb_storage_stop_message" product="default">Before turning off USB storage, unmount (\"eject\") your Android\'s SD card from your computer.</string>
 	<!-- See USB_STORAGE_STOP.    This is the button text to stop usb storage. -->
 	<string name="usb_storage_stop_button_mount">Matikan storan USB</string>
 	<!-- See USB_STORAGE_STOP_DIALOG.  If there was an error stopping, this is the text. -->
@@ -3070,7 +3070,7 @@
 	<!-- See EXTMEDIA_FORMAT.  EXTMEDIA_FORMAT_DIALOG:  After the user selects the notification, a dialog is shown asking if he wants to format the SD card.  This is the title. -->
 	<string name="extmedia_format_title" product="default">Format SD card?</string>
 	<!-- See EXTMEDIA_FORMAT.   This is the message. [CHAR LIMIT=NONE] -->
-	<string name="extmedia_format_message" product="nosdcard">All files stored in your USB storage will be erased. This action can't be reversed!</string>
+	<string name="extmedia_format_message" product="nosdcard">"All files stored in your USB storage will be erased. This action can't be reversed!"</string>
 	<!-- See EXTMEDIA_FORMAT.   This is the message. -->
 	<string name="extmedia_format_message" product="default">All data on your card will be lost.</string>
 	<!-- See EXTMEDIA_FORMAT.    This is the button text to format the sd card. -->
