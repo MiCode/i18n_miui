@@ -97,13 +97,13 @@ limitations under the License.
 	<!-- Search settings description for the Google search source. [CHAR LIMIT=50] -->
 	<string name="google_search_description">Cadangan carian Google</string>
 
-    <!-- Title for Voice Search hints bubble -->
-    <string name="voice_search_hint_title">Try saying:</string>
-    <!-- Starting quotation marks of the voice search hint -->
-    <string name="voice_search_hint_quotation_start">\"</string>
-    <!-- Ending quotation marks of the voice search hint -->
-    <string name="voice_search_hint_quotation_end">\"</string>
+    	<!-- Title for Voice Search hints bubble -->
+    	<string name="voice_search_hint_title">Try saying:</string>
+	<!-- Starting quotation marks of the voice search hint -->
+	<string name="voice_search_hint_quotation_start">\"</string>
+	<!-- Ending quotation marks of the voice search hint -->
+	<string name="voice_search_hint_quotation_end">\"</string>
 
-  <string name="search_in_web">Search in web</string>
-  <string name="search_in_app_store">Search in market</string>
+	<string name="search_in_web">Search in web</string>
+	<string name="search_in_app_store">Search in market</string>
 </resources>
