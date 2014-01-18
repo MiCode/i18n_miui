@@ -18,51 +18,51 @@
 */
 -->
 <resources>
-    <string name="app_label">Spare Parts</string>
+    <string name="app_label">Alat Ganti</string>
 
-    <string name="device_info_title">Device info</string>
+    <string name="device_info_title">Maklumat Peranti</string>
     
-    <string name="title_battery_history">Battery history</string>
-    <string name="summary_battery_history">Summary of how battery has been used</string>
+    <string name="title_battery_history">Sejarah Bateri</string>
+    <string name="summary_battery_history">Ringkasan bagaimana bateri telah digunakan</string>
     
-    <string name="title_battery_information">Battery information</string>
-    <string name="summary_battery_information">Current battery status information</string>
+    <string name="title_battery_information">Maklumat Bateri</string>
+    <string name="summary_battery_information">Maklumat status bateri semasa</string>
     
-    <string name="title_usage_statistics">Usage statistics</string>
-    <string name="summary_usage_statistics">Summary of application usage</string>
+    <string name="title_usage_statistics">Statistik penggunaan</string>
+    <string name="summary_usage_statistics">Ringkasan penggunaan aplikasi</string>
     
-    <string name="general_title">General</string>
+    <string name="general_title">Umum</string>
     
-    <string name="title_window_animations">Window animations</string>
-    <string name="summary_window_animations">Speed of animations in individual windows</string>
-    <string name="dialog_title_window_animations">Select window speed</string>
+    <string name="title_window_animations">Animasi tetingkap</string>
+    <string name="summary_window_animations">Kelajuan animasi dalam tetingkap individu</string>
+    <string name="dialog_title_window_animations">Pilih kelajuan tetingkap</string>
     
-    <string name="title_transition_animations">Transition animations</string>
-    <string name="summary_transition_animations">Speed of animations moving between screens</string>
-    <string name="dialog_title_transition_animations">Select transition speed</string>
+    <string name="title_transition_animations">Peralihan animasi</string>
+    <string name="summary_transition_animations">Kelajuan animasi berpindah antara skrin</string>
+    <string name="dialog_title_transition_animations">Pilih kelajuan peralihan</string>
     
-    <string name="title_fancy_ime_animations">Fancy input animations</string>
-    <string name="summary_on_fancy_ime_animations">Use fancier animations for input method windows</string>
-    <string name="summary_off_fancy_ime_animations">Use normal animations for input method windows</string>
+    <string name="title_fancy_ime_animations">Animasi input fancy</string>
+    <string name="summary_on_fancy_ime_animations">Guna animasi lebih fancy untuk tetingkap kaedah input</string>
+    <string name="summary_off_fancy_ime_animations">Guna animasi biasa untuk tetingkat kaedah input</string>
     
-    <string name="title_haptic_feedback">Haptic feedback</string>
-    <string name="summary_on_haptic_feedback">Use haptic feedback with user interaction</string>
-    <string name="summary_off_haptic_feedback">Use haptic feedback with user interaction</string>
+    <string name="title_haptic_feedback">Maklum balas haptik</string>
+    <string name="summary_on_haptic_feedback">Guna maklumbalas haptik dengan interaksi pengguna</string>
+    <string name="summary_off_haptic_feedback">Guna maklumbalas haptik dengan interaksi pengguna</string>
     
-    <string name="title_font_size">Font size</string>
-    <string name="summary_font_size">Overall size of fonts</string>
-    <string name="dialog_title_font_size">Select font size</string>
+    <string name="title_font_size">Saiz Font</string>
+    <string name="summary_font_size">Saiz keseluruhan font</string>
+    <string name="dialog_title_font_size">Pilih saiz font</string>
     
-    <string name="title_end_button">End button behavior</string>
-    <string name="summary_end_button">Select End (red) button action</string>
-    <string name="dialog_title_end_button">Select End button</string>
+    <string name="title_end_button">Tingkahlaku butang Tamat</string>
+    <string name="summary_end_button">Pilih tindakan butang Tamat (merah)</string>
+    <string name="dialog_title_end_button">Pilih butang Tamat</string>
     
-    <string name="applications_title">Applications</string>
+    <string name="applications_title">Aplikasi</string>
     
     <!-- Sound & display settings screen, compatibility mode check box label -->
-    <string name="compatibility_mode_title">Compatibility Mode</string>
+    <string name="compatibility_mode_title">Mod Keserasian</string>
     <!-- Sound & display settings screen, compatibility mode option summary text when check box is selected -->
-    <string name="compatibility_mode_summary_on">Run older apps in Compatibility mode. This require rebooting. </string>
+    <string name="compatibility_mode_summary_on">Jalan apps lama dalam mod Keserasian. Ini memerlukan mula semula</string>
     <!-- Sound & display settings screen, compatibility mode option summary text when check box is clear -->
-    <string name="compatibility_mode_summary_off">Run older apps in Compatibility mode. This require rebooting. </string>
+    <string name="compatibility_mode_summary_off">Jalan apps lama dalam mod Keserasian. Ini memerlukan mula semula. </string>
 </resources>
