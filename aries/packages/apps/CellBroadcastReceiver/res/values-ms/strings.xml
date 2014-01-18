@@ -204,11 +204,11 @@
 
     <!-- Entries listed in the ListPreference for allowed alert durations. [CHAR LIMIT=30] -->
     <string-array name="alert_sound_duration_entries">
-      <item>2 seconds</item>
-      <item>4 seconds</item>
-      <item>6 seconds</item>
-      <item>8 seconds</item>
-      <item>10 seconds</item>
+      <item>2 saat</item>
+      <item>4 saat</item>
+      <item>6 saat</item>
+      <item>8 saat</item>
+      <item>10 saat</item>
     </string-array>
 
     <!-- Do not translate. Values that are retrieved from the ListPreference.
