@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <string name="app_name">Security</string>
-    <string name="action_settings">Settings</string>
-    <string name="hello_world">Hello world!</string>
-    <string name="optimize_now">Start</string>
-    <string name="score">Score</string>
+    <string name="app_name">Sekuriti</string>
+    <string name="action_settings">Tetapan tapisan</string>
+    <string name="hello_world">Hi Dunia!</string>
+    <string name="optimize_now">Mula</string>
+    <string name="score">Markah</string>
     <string name="seventy">70</string>
-    <string name="valuation">Clean recommended</string>
-    <string name="virus_scan">Virus scan</string>
-    <string name="network_assistant">Data usage</string>
-    <string name="anti_spam">Blocklist</string>
-    <string name="permission_mgr">Permissions</string>
-    <string name="cleaner">Cleaner</string>
-    <string name="power_mgr">Power</string>
+    <string name="valuation">Disyorkan pembersihan</string>
+    <string name="virus_scan">Imbasan Virus</string>
+    <string name="network_assistant">"Penggunaan Data "</string>
+    <string name="anti_spam">Senarai halang</string>
+    <string name="permission_mgr">Kebenaran</string>
+    <string name="cleaner">Pembersih</string>
+    <string name="power_mgr">Kuasa</string>
     <!-- #################### main begin #################### -->
-    <string name="protection_adb">USB debugging </string>
-    <string name="protection_perm">Permission setting </string>
-    <string name="protection_sms">SMS filter </string>
-    <string name="start_checking_protection">Start checking realtime protection...</string>
-    <string name="finish_checking_protection">Finish checking realtime protection...</string>
-    <string name="start_checking_memory">Start checking memory condition...</string>
+    <string name="protection_adb">"USB debugging "</string>
+    <string name="protection_perm">"Penetapan keizinan "</string>
+    <string name="protection_sms">"SMS ditapis "</string>
+    <string name="start_checking_protection">Menyemak perlindungan masa sebenar...</string>
+    <string name="finish_checking_protection">"Selesai menyemak lindungan 'realtime'..."</string>
+    <string name="start_checking_memory">Memeriksa keadaan memori...</string>
     <string name="finish_checking_memory">Finish checking memory condition...</string>
     <string name="start_checking_trash">Start checking application cache...</string>
     <string name="finish_checking_trash">Finish checking application cache...</string>
