@@ -1190,7 +1190,6 @@
 	
 	<!-- The title above the messages list when showing search results. [CHAR LIMIT=50] -->
 	<string name="search_header_text_fmt">Keputusan</string>
-	>Results</string>
 	
 	<!-- A warning title to show to the user when search results are taking a long
 	time. [CHAR LIMIT=NONE] -->
