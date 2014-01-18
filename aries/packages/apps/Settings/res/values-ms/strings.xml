@@ -554,7 +554,7 @@ limitations under the License.
 	<!-- Message when the SD card is being used by the computer as mass storage -->
 	<string name="sdcard_settings_mass_storage_status" product="default">SD card is being used as a mass storage device.</string>
 	<!-- Message when it is safe to remove the SD card [CHAR LIMIT=30] -->
-	<string name="sdcard_settings_unmounted_status" product="nosdcard">It's now safe to remove the USB storage.</string>
+	<string name="sdcard_settings_unmounted_status" product="nosdcard">It\'s now safe to remove the USB storage.</string>
 	<!-- Message when it is safe to remove the SD card -->
 	<string name="sdcard_settings_unmounted_status" product="default">It\'s now safe to remove the SD card.</string>
 	<!-- Error message when the SD card was removed without properly unmounting [CHAR LIMIT=30] -->
@@ -1141,9 +1141,9 @@ limitations under the License.
 	<!-- Bluetooth settings.  Message for disconnecting from the PAN profile (user role). [CHAR LIMIT=80] -->
 	<string name="bluetooth_disconnect_pan_user_profile">Akses Internet melalui <xliff:g id="device_name">%1$s</xliff:g> akan diputuskan.</string>
 	<!-- Bluetooth settings.  Message for disconnecting from the PAN profile (NAP role). [CHAR LIMIT=80] -->
-	<string name="bluetooth_disconnect_pan_nap_profile" product="tablet"><xliff:g id="device_name">%1$s</xliff:g> will be disconnected from sharing this tablet's Internet connection.</string>
+	<string name="bluetooth_disconnect_pan_nap_profile" product="tablet"><xliff:g id="device_name">%1$s</xliff:g> will be disconnected from sharing this tablet\'s Internet connection.</string>
 	<!-- Bluetooth settings.  Message for disconnecting from the PAN profile (NAP role). [CHAR LIMIT=80] -->
-	<string name="bluetooth_disconnect_pan_nap_profile" product="default"><xliff:g id="device_name">%1$s</xliff:g> will be disconnected from sharing this phone's Internet connection.</string>
+	<string name="bluetooth_disconnect_pan_nap_profile" product="default"><xliff:g id="device_name">%1$s</xliff:g> will be disconnected from sharing this phone\'s Internet connection.</string>
 	
 	<!-- Bluetooth settings.  Connection options screen.  The title of the screen. [CHAR LIMIT=40] -->
 	<string name="bluetooth_device_advanced_title">Peranti Bluetooth berpasangan</string>
@@ -2187,9 +2187,9 @@ limitations under the License.
 	<!-- SD card & phone storage settings screen, button on screen after user selects Factory data reset -->
 	<string name="media_format_button_text" product="default">Erase kad SD</string>
 	<!-- SD card & phone storage settings screen, message on screen after user selects Format media button [CHAR LIMIT=NONE] -->
-	<string name="media_format_final_desc" product="nosdcard">Erase the USB storage, deleting all files stored there? You can't reverse this action!</string>
+	<string name="media_format_final_desc" product="nosdcard">Erase the USB storage, deleting all files stored there? You can\'t reverse this action!</string>
 	<!-- SD card & phone storage settings screen, message on screen after user selects Format media button [CHAR LIMIT=NONE] -->
-	<string name="media_format_final_desc" product="default">Erase the SD card, deleting all files stored there? You can't reverse this action!</string>
+	<string name="media_format_final_desc" product="default">Erase the SD card, deleting all files stored there? You can\'t reverse this action!</string>
 	<!-- SD card & phone storage settings screen, button on screen after user selects Format media button -->
 	<string name="media_format_final_button_text">Padam semua</string>
 	<!-- Message to draw an unlock pattern before clearing the device -->
@@ -2234,21 +2234,21 @@ limitations under the License.
 	<!-- Label for bluetooth tether checkbox [CHAR LIMIT=25]-->
 	<string name="bluetooth_tether_checkbox_text">Penambatan Bluetooth</string>
 	<!-- Bluetooth available subtext - shown when Bluetooth tethering is turned on but it is not currently tethered to any devices [CHAR LIMIT=50]-->
-	<string name="bluetooth_tethering_available_subtext" product="tablet">Sharing this tablet's Internet connection</string>
+	<string name="bluetooth_tethering_available_subtext" product="tablet">Sharing this tablet\'s Internet connection</string>
 	<!-- Bluetooth available subtext - shown when Bluetooth tethering is turned on but it is not currently tethered to any devices [CHAR LIMIT=50]-->
-	<string name="bluetooth_tethering_available_subtext" product="default">Sharing this phone's Internet connection</string>
+	<string name="bluetooth_tethering_available_subtext" product="default">Sharing this phone\'s Internet connection</string>
 	<!-- Bluetooth connected subtext - shown when a device is tethered over Bluetooth [CHAR LIMIT=60]-->
-	<string name="bluetooth_tethering_device_connected_subtext" product="tablet">Sharing this tablet's Internet connection to 1 device</string>
+	<string name="bluetooth_tethering_device_connected_subtext" product="tablet">Sharing this tablet\'s Internet connection to 1 device</string>
 	<!-- Bluetooth connected subtext - shown when a device is tethered over Bluetooth [CHAR LIMIT=60]-->
-	<string name="bluetooth_tethering_device_connected_subtext" product="default">Sharing this phone's Internet connection to 1 device</string>
+	<string name="bluetooth_tethering_device_connected_subtext" product="default">Sharing this phone\'s Internet connection to 1 device</string>
 	<!-- Bluetooth connected subtext - shown when multiple devices are tethered over Bluetooth [CHAR LIMIT=60]-->
-	<string name="bluetooth_tethering_devices_connected_subtext" product="tablet">Sharing this tablet's Internet connection to <xliff:g id="connectedDeviceCount">%1$d</xliff:g> devices</string>
+	<string name="bluetooth_tethering_devices_connected_subtext" product="tablet">Sharing this tablet\'s Internet connection to <xliff:g id="connectedDeviceCount">%1$d</xliff:g> devices</string>
 	<!-- Bluetooth connected subtext - shown when multiple devices are tethered over Bluetooth [CHAR LIMIT=60]-->
-	<string name="bluetooth_tethering_devices_connected_subtext" product="default">Sharing this phone's Internet connection to <xliff:g id="connectedDeviceCount">%1$d</xliff:g> devices</string>
+	<string name="bluetooth_tethering_devices_connected_subtext" product="default">Sharing this phone\'s Internet connection to <xliff:g id="connectedDeviceCount">%1$d</xliff:g> devices</string>
 	<!-- Bluetooth tethering off subtext - shown when Bluetooth Tethering is turned off [CHAR LIMIT=50]-->
-	<string name="bluetooth_tethering_off_subtext" product="tablet">Not sharing this tablet's Internet connection</string>
+	<string name="bluetooth_tethering_off_subtext" product="tablet">Not sharing this tablet\'s Internet connection</string>
 	<!-- Bluetooth tethering off subtext - shown when Bluetooth Tethering is turned off [CHAR LIMIT=50]-->
-	<string name="bluetooth_tethering_off_subtext" product="default">Not sharing this phone's Internet connection</string>
+	<string name="bluetooth_tethering_off_subtext" product="default">Not sharing this phone\'s Internet connection</string>
 	<!-- Bluetooth errored subtext - shown when Bluetooth is broken for some reason [CHAR LIMIT=50]-->
 	<string name="bluetooth_tethering_errored_subtext">Tidak terikat</string>
 	<!-- Bluetooth Tethering settings. Error message shown when trying to connect an 8th device [CHAR LIMIT=50]-->
@@ -4005,9 +4005,9 @@ limitations under the License.
 	<string name="data_usage_total_during_range"><xliff:g id="range" example="Jul 1 - Jul 31">%2$s</xliff:g>: sekitar <xliff:g id="total" example="128KB">%1$s</xliff:g> terpakai.</string>
 	
 	<!-- Label displaying total network data transferred during a specific time period, including a disclaimer that contrasts device versus carrier reporting. [CHAR LIMIT=80] -->
-	<string name="data_usage_total_during_range_mobile" product="tablet"><xliff:g id="range" example="Jul 1 - Jul 31">%2$s</xliff:g>: about <xliff:g id="total" example="128KB">%1$s</xliff:g> used, as measured by your tablet. Your carrier's data usage accounting may differ.</string>
+	<string name="data_usage_total_during_range_mobile" product="tablet"><xliff:g id="range" example="Jul 1 - Jul 31">%2$s</xliff:g>: about <xliff:g id="total" example="128KB">%1$s</xliff:g> used, as measured by your tablet. Your carrier\'s data usage accounting may differ.</string>
 	<!-- Label displaying total network data transferred during a specific time period, including a disclaimer that contrasts device versus carrier reporting. [CHAR LIMIT=80] -->
-	<string name="data_usage_total_during_range_mobile" product="default"><xliff:g id="range" example="Jul 1 - Jul 31">%2$s</xliff:g>: about <xliff:g id="total" example="128KB">%1$s</xliff:g> used, as measured by your phone. Your carrier's data usage accounting may differ.</string>
+	<string name="data_usage_total_during_range_mobile" product="default"><xliff:g id="range" example="Jul 1 - Jul 31">%2$s</xliff:g>: about <xliff:g id="total" example="128KB">%1$s</xliff:g> used, as measured by your phone. Your carrier\'s data usage accounting may differ.</string>
 	
 	<!-- Dialog title for selecting metered networks. [CHAR LIMIT=25] -->
 	<string name="data_usage_metered_title">Hotspots mudah alih</string>
