@@ -103,7 +103,6 @@
     <string name="permlab_install_shortcut">Pasang pintasan</string>
     <!-- Permission description -->
     <string name="permdesc_install_shortcut">Membenarkan permohonan untuk menambah pintasan tanpa campur tangan pengguna.</string>
-    shortcuts without user intervention.</string>
     <!-- Permission short label -->
     <string name="permlab_uninstall_shortcut">Nyahpasang pintasan</string>
     <!-- Permission description -->
