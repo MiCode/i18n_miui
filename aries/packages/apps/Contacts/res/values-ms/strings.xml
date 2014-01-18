@@ -782,8 +782,8 @@ limitations under the License.
 	<!-- Dialog message shown when searching VCard data from SD Card. [CHAR LIMIT=NONE] -->
 	<string name="searching_vcard_message" product="default">Searching for vCard data on SD cardu2026</string>
 	
-	<string name="scanning_sdcard_failed_title" product="nosdcard">The storage couldn't be scanned</string>
-	<string name="scanning_sdcard_failed_title" product="default">The SD card couldn't be scanned</string>
+	<string name="scanning_sdcard_failed_title" product="nosdcard">The storage couldn\'t be scanned</string>
+	<string name="scanning_sdcard_failed_title" product="default">The SD card couldn\'t be scanned</string>
 	<!-- Dialog message shown when searching VCard data failed.
 	An exact reason for the failure should [CHAR LIMIT=NONE] -->
 	<string name="scanning_sdcard_failed_message" product="nosdcard">Reason: "<xliff:g id="fail_reason">%s</xliff:g>".</string>
@@ -1961,9 +1961,9 @@ limitations under the License.
 	<string name="label_duplicate_count">(%1$d)</string>
 	<string name="preference_import_export">Import/Export</string>
 	<string name="preference_import_export_title">Import/Export kenalan</string>
-	<string name="import_vcard_description" product="nosdcard">Import contacts from your phone's internal storage</string>
+	<string name="import_vcard_description" product="nosdcard">Import contacts from your phone\'s internal storage</string>
 	<string name="import_vcard_description" product="default">Import contacts from your SD card</string>
-	<string name="export_vcard_description" product="nosdcard">Export vCard to phone's internal storage</string>
+	<string name="export_vcard_description" product="nosdcard">Export vCard to phone\'s internal storage</string>
 	<string name="export_vcard_description" product="default">Export vCard to SD card</string>
 	<string name="export_to_sim">Eksport kepada kad SIM</string>
 	<string name="export_to_sim_title">Mengeksport kepada kad SIM\u2026</string>
