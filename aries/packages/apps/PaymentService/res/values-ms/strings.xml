@@ -49,11 +49,11 @@
 	<string name="error_verify_summary">App anda tidak mempunyai kebenaran untuk meminta perkhidmatan ini</string>
 	<string name="error_expired_summary">Pesanan anda telah luput</string>
 	<string name="error_frozen_title">Akaun beku</string>
-	<string name="error_frozen_summary">"Akaun anda telah dibekukan. 
+	<string name="error_frozen_summary">"Akaun anda telah dibekukan. Sila hubungi perkhidmatan pelanggan Xiaomi."</string>
 	<string name="error_account_changed_title">Akaun telah diubah</string>
-	<string name="error_account_changed_summary">"Maklumat akaun anda telah diubah.
+	<string name="error_account_changed_summary">"Maklumat akaun anda telah diubah. Sila log masuk lagi."</string>
 	<string name="error_too_frequent_visits_title">Wah\u2026 sila perlahan</string>
-	<string name="error_too_frequent_visits_summary">"Jumlah tindakan akaun melebihi had.
+	<string name="error_too_frequent_visits_summary">"Jumlah tindakan akaun melebihi had. Sila tunggu lima minit dan cuba lagi."</string>
 	<string name="error_giftcard_summary">"Gagal mendapat maklumat kad hadiah."</string>
 	<string name="error_bankcard_verify_summary">Gagal mengesahkan No. Kad</string>
 	
