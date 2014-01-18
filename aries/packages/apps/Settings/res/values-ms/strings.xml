@@ -2732,7 +2732,7 @@ limitations under the License.
 	Biasanya tiada sebab untuk menghentikannya."</string>
 	<!-- Running service details, default description for services that are managed. -->
 	<string name="service_manage_description"><xliff:g id="client_name">%1$s</xliff:g>: sedang digunakan. tekan tetapan untuk mengawal.</string>
-	currently in use. Touch Settings to control it.</string>
+	
 	<!-- Description of the main process in the details. -->
 	<string name="main_running_process_description">Proses utama digunakan.</string>
 	<!-- Message that a process's service is in use. -->
