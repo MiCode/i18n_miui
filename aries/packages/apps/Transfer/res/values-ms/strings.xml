@@ -72,7 +72,6 @@
     <string name="sdcard_unavailable">Kad SD tidak ada</string>
     <string name="receive_cannot_created_file">Gagal untuk mencipta fail</string>
     <string name="error_transmit">Ralat pemindahan</string>
-    <string name="error_bad_file">File corrupt</string>
     <string name="error_bad_file">Fail rosak</string>
     <string name="error_general">Ralat umum berlaku</string>
     <string name="error_network">Ralat rangkaian berlaku</string>
