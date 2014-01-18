@@ -491,8 +491,7 @@
 	<string name="forward_download_failed_title">Lampiran tidak kehadapan</string>
 	
 	<!-- Notification ticker when email account authentication fails [CHAR LIMIT=none] -->
-	<string name="login_failed_ticker">Tidak berjaya log masuk.</string>
-	<xliff:g id="account_name">%s</xliff:g> signin failed.</string>
+	<string name="login_failed_ticker"><xliff:g id="account_name">%s</xliff:g> tidak berjaya log masuk.</string>
 	<!-- Notification title when email account authentication fails [CHAR LIMIT=30]-->
 	<string name="login_failed_title">"Tidak boleh daftar masuk"</string>
 	
