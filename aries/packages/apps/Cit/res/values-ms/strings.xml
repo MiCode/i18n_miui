@@ -147,7 +147,7 @@
     <string name="cit_sd_fail">Ralat berlaku.</string>
     <string name="cit_charger_waiting_in">Sambungkan pengecaj</string>
     <string name="cit_ac_charger_in">Sedang dicaj melalui AC</string>
-     <string name="cit_usb_charger_in">Sedang dicaj melalui USB</string>
+    <string name="cit_usb_charger_in">Sedang dicaj melalui USB</string>
     <string name="cit_charger_waiting_out">Cabutkan pengecaj sekarang</string>
     <string name="cit_ac_charger_out">Pengecaj AC telah dicabut</string>
     <string name="cit_usb_charger_out">Pengecaj USB telah dicabut</string>
@@ -264,7 +264,7 @@
     <string name="cit_tool_wifi_rx_exit">Rx:keluar</string>
     <string name="cit_tool_wifi_rx_run">Jalan</string>
     <string name="cit_tool_wifi_rx_stop">Henti</string>
-    <string name="cit_tool_wifi_rx_total_format">Jumlah dihantar %s </string>
+    <string name="cit_tool_wifi_rx_total_format">Jumlah dihantar %s</string>
     <string name="cit_tool_wifi_rx_error">Ralat berlaku semasa menjalankan program ini</string>
     <string name="cit_tool_wifi_rx_count_error">Nilai output bukan nombor</string>
     <string name="cit_tool_wifi_rx_ap_name">MT</string>
@@ -272,4 +272,4 @@
     <string name="cit_tool_wifi_rx_ap_type_error">Ralat AP, sila masukkan semula (bss/adhoc)</string>
     <string name="cit_tool_wifi_rx_ap_not_null">Nama AP atau jenis tidak boleh dikosongkan</string>
     <string name="cit_tool_wifi_exit">Keluar</string>
-   </resources>
+</resources>
