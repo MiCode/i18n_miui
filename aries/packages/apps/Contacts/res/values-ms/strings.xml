@@ -1534,8 +1534,6 @@ limitations under the License.
 	<!-- Toast displayed when the user creates a new contact and attempts to join it
 	with another before entering any data  [CHAR LIMIT=256] -->
 	<string name="toast_join_with_empty_contact">Taipkan nama kenalan sebelum menyertai dengan yang lain.</string>
-	with another
-	</string>
 	
 	<!-- Option displayed in context menu to copy long pressed item to clipboard [CHAR LIMIT=64] -->
 	<string name="copy_text">Salin ke papan klip</string>
