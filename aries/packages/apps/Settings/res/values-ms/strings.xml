@@ -3772,7 +3772,6 @@ limitations under the License.
 	<string name="wait_for_debugger">Wait for debugger</string>
 	<!-- UI debug setting: wait for debugger to attach to debugging process summary [CHAR LIMIT=500] -->
 	<string name="wait_for_debugger_summary">Permohonan debugged menunggu debugger untuk memasang sebelum melaksanakan</string>
-	attach before executing</string>
 	
 	<!-- Preference category for input debugging development settings. [CHAR LIMIT=25] -->
 	<string name="debug_input_category">Input</string>
