@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">Voice Assist</string>
-    <string name="title_activity_check">Install Voice Assist</string>
-    <string name="content">Voice Assist is not installed，go to market and install it？</string>
-    <string name="cancel">Cancel</string>
+    <string name="app_name">Bantuan Suara</string>
+    <string name="title_activity_check">Pasang Bantuan Suara</string>
+    <string name="content">Bantuan Suara tidak dipasang, sila ke Market dan pasang ia？</string>
+    <string name="cancel">Batal</string>
     <string name="confirm">OK</string>
 </resources>
