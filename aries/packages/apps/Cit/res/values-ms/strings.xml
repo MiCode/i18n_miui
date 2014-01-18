@@ -99,7 +99,7 @@
     <string name="cit_wifi_state_refresh">Muat semula</string>
     <string name="cit_wifi_address_error">Tidak dapat memperolehi alamat Wi-Fi. Pastikan Wi-Fi dihidupkan.</string>
     <string name="cit_wifi_ap_scanning">Mengimbas\u2026</string>
-    <string name="cit_wifi_ap_scan_retry">Imbas semula/string>
+    <string name="cit_wifi_ap_scan_retry">Imbas semula</string>
     <string name="cit_wifi_fail_to_scan">Tidak dapat mengimbas untuk rangkaian</string>
     <string name="cit_bluetooth_scan_retry">Imbas semula</string>
     <string name="cit_bluetooth_scanning">Sedang mengimbas untuk peranti Bluetooth berhampiran (ini mengambil masa lebih kurang 4 saat)\u2026</string>
