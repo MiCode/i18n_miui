@@ -213,7 +213,9 @@
     <string name="restoreSync">Mengembalikan Sync</string>
     <string name="enableAll">Membolehkan semua</string>
     <string name="master_alert_notif_dspt" formatted="false">"Dalam tempoh ini anda telah menambah %s nama kenalan, %s SMS, %s gambar, %s nota dan data lain.
+        Kalau telefon anda telah hilang atau dipadam, data ini akan hilang selamanya. Anda dinasihati supaya memulihkan penyegerakan untuk memastikan sekuriti data"</string>
     <string name="sub_alert_notif_dspt" formatted="false">"Anda ada %s kenalan , %s SMS, %s gambar, %s nota dan data lain belum disegerakkan.
+        Kalau telefon anda telah hilang atau dipadamkan, data ini akan dipadamkan dengan selamanya. Anda dinasihati supaya memulakan synchronization untuk menjamin sekuriti data"</string>
     
     <string name="wipe_data_dialog_title">"Sebahagian benda belum disegerakan."</string>
     <string name="wipe_data_dialog_msg">%s belum disegerakan (data ini akan hilang jika anda meneruskan).</string>
@@ -294,7 +296,7 @@
     <string name="micloud_warn_full_title">MiCloud storage full!</string>
     <string name="micloud_warn_full_sum">"New items won't be synced with your MiCloud account."</string>
     <string name="micloud_none">None</string>
-    <string name="micloud_full_influence_dspt">"All photos, videos, notes and apps will be backed up to MiCloud.
+    <string name="micloud_full_influence_dspt">"All photos, videos, notes and apps will be backed up to MiCloud.</string>
     
     <string name="enable_sync_dspt">Sync is off</string>
     <string name="enable_sync">Enable sync</string>
