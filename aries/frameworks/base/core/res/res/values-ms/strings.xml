@@ -544,9 +544,8 @@
 	<string name="permlab_getTasks">menerima aplikasi  yang sedang berjalan</string>
 	<!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
 	
-	<string name="permdesc_getTasks">Benarkan aplikasi untuk memperolehi maklumat tentang jenis aplikasi yang sedang digunakan didalam peranti.</string>
-	about currently and recently running tasks.  This may allow the app to
-	discover information about which applications are used on the device.</string>
+	<string name="permdesc_getTasks">Benarkan aplikasi untuk memperolehi maklumat tentang jenis 
+	aplikasi yang sedang digunakan didalam peranti.</string>
 	
 	<!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. [CHAR LIMIT=50] -->
 	<string name="permlab_getDetailedTasks">menerima maklumat penuh aplikasi yang sedang berjalan</string>
