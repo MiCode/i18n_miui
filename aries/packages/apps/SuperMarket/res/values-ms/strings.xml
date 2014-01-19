@@ -1,337 +1,337 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name">Market</string>
-    <string name="recommendation_tag">Featured</string>
-    <string name="rank_tag">Top Apps</string>
-    <string name="category_tag">Categories</string>
-    <string name="management_tag">Updates</string>
-    <string name="category_recommend_tag">Featured</string>
+    <string name="app_name">Gedung</string>
+    <string name="recommendation_tag">Cadangan</string>
+    <string name="rank_tag">Apps Teratas</string>
+    <string name="category_tag">Kategori</string>
+    <string name="management_tag">Kemaskini</string>
+    <string name="category_recommend_tag">Cadangan</string>
     <string name="hot_rank_tag">Popular</string>
-    <string name="new_app_tag">New</string>
-    <string name="menu_preferences">Settings</string>
-    <string name="menu_login">Sign in</string>
-    <string name="menu_account">My account</string>
-    <string name="menu_install_all">Install all</string>
-    <string name="menu_download_manager">Downloads</string>
-    <string name="menu_refresh">Refresh</string>
-    <string name="menu_clear_search_history">Clear search history</string>
-    <string name="menu_clear_update_history">Clear update records</string>
-    <string name="menu_sort">Sort by</string>
-    <string name="menu_sort_by_name">Name</string>
-    <string name="menu_sort_by_time">Date</string>
-    <string name="menu_sort_by_size">Size</string>
-    <string name="quicksearchbox_description">Search Market</string>
-    <string name="data_save_mode_tip">Images are hidden to save data usage</string>
-    <string name="hot_subject">Collections</string>
-    <string name="more_app">Apps we like</string>
-    <string name="more_subject">More collections</string>
+    <string name="new_app_tag">Baru</string>
+    <string name="menu_preferences">Tetapan</string>
+    <string name="menu_login">Log masuk</string>
+    <string name="menu_account">Akaun saya</string>
+    <string name="menu_install_all">Pasang semua</string>
+    <string name="menu_download_manager">Muat turun</string>
+    <string name="menu_refresh">Muat semula</string>
+    <string name="menu_clear_search_history">Padamkan sejarah carian</string>
+    <string name="menu_clear_update_history">Padamkan rekod kemaskini</string>
+    <string name="menu_sort">Susun ikut</string>
+    <string name="menu_sort_by_name">Nama</string>
+    <string name="menu_sort_by_time">Tarikh</string>
+    <string name="menu_sort_by_size">Saiz</string>
+    <string name="quicksearchbox_description">Cari gedung</string>
+    <string name="data_save_mode_tip">Gambar disembunyikan bagi mengurangkan kegunaan data</string>
+    <string name="hot_subject">Koleksi</string>
+    <string name="more_app">Apps yg kami suka</string>
+    <string name="more_subject">Lebih Koleksi</string>
     <string name="ad_indicator">AD</string>
 
     <!-- login -->
-    <string name="login_first_install_title">Sign in to your Xiaomi Account</string>
-    <string name="login_active_title">Activate your account?</string>
-    <string name="login_download_title">Sign in to Xiaomi Account</string>
-    <string name="login_skip">Skip</string>
-    <string name="login_ok">Sign in</string>
-    <string name="login_active">Active</string>
-    <string name="account_not_activated">Your account hasn\'t been activated. Please activate it and try again</string>
+    <string name="login_first_install_title">Log masuk Akaun Xiaomi anda</string>
+    <string name="login_active_title">Aktifkan akaun anda?</string>
+    <string name="login_download_title">Log masuk Akaun Xiaomi</string>
+    <string name="login_skip">Melangkau</string>
+    <string name="login_ok">Log masuk</string>
+    <string name="login_active">Aktifkan</string>
+    <string name="account_not_activated">Akaun anda tidak diaktifkan. Sila aktifkan dan cuba lagi</string>
 
     <!-- preferences -->
-    <string name="pref_category_title_notification">Notifications</string>
-    <string name="pref_category_title_other">Additional settings</string>
-    <string name="pref_category_title_version">Version</string>
-    <string name="pref_category_title_slient_install">Hide install notifications</string>
-    <string name="pref_category_title_auto_update">Auto-update apps</string>
-    <string name="pref_category_title_delta_update">Incremental updating</string>
-    <string name="pref_category_title_update_all">Update all</string>
+    <string name="pref_category_title_notification">Notifikasi</string>
+    <string name="pref_category_title_other">Tetapan Tambahan</string>
+    <string name="pref_category_title_version">Versi</string>
+    <string name="pref_category_title_slient_install">Sembunyikan notifikasi pemasangan</string>
+    <string name="pref_category_title_auto_update">Auto-kemaskini apps</string>
+    <string name="pref_category_title_delta_update">Mengemaskini tambahan</string>
+    <string name="pref_category_title_update_all">Kemaskini semua</string>
 
-    <string name="pref_title_auto_update_via_wifi">Auto-update via Wi-Fi</string>
-    <string name="pref_title_auto_update_via_wifi_checkbox">Auto-update</string>
-    <string name="pref_title_data_save">Reduce data usage</string>
-    <string name="pref_title_clear_search_record">Clear search history</string>
-    <string name="pref_title_update_notification">Updates</string>
-    <string name="pref_list_use_online_server">Use product server</string>
-    <string name="pref_list_use_staging_server">Use staging server</string>
-    <string name="pref_list_use_dev_staging_server">Use dev-staging server</string>
-    <string name="pref_title_use_staging">Use staging server</string>
-    <string name="pref_title_silent_install">Hide install notifications</string>
-    <string name="pref_title_hotsubjects_notification">Collections</string>
-    <string name="pref_title_network_diagnostics">Network diagnostic</string>
-    <string name="pref_title_clear_cache">Clear cache</string>
-    <string name="pref_title_about">About</string>
-    <string name="pref_title_feature_intro">Special features</string>
-    <string name="pref_title_web_market">Web market</string>
-    <string name="pref_title_web_dev">Developer</string>
-    <string name="pref_title_version">Version</string>
-    <string name="pref_title_clear_session">Clear session</string>
+    <string name="pref_title_auto_update_via_wifi">Auto-kemaskini apps melalui Wi-Fi</string>
+    <string name="pref_title_auto_update_via_wifi_checkbox">Auto-kemaskini</string>
+    <string name="pref_title_data_save">Kurangkan penggunaan data</string>
+    <string name="pref_title_clear_search_record">Kosongkan sejarah carian</string>
+    <string name="pref_title_update_notification">Kemaskini</string>
+    <string name="pref_list_use_online_server">Gunakan server produk</string>
+    <string name="pref_list_use_staging_server">Gunakan server pementasan</string>
+    <string name="pref_list_use_dev_staging_server">Gunakan server pementasan-dev</string>
+    <string name="pref_title_use_staging">Gunakan server pementasan</string>
+    <string name="pref_title_silent_install">Sembunyikan pemberitahuan pemasangan</string>
+    <string name="pref_title_hotsubjects_notification">Koleksi</string>
+    <string name="pref_title_network_diagnostics">Diagnostik rangkaian</string>
+    <string name="pref_title_clear_cache">Padam cache</string>
+    <string name="pref_title_about">Megenai</string>
+    <string name="pref_title_feature_intro">Ciri-ciri khas</string>
+    <string name="pref_title_web_market">Gedung web</string>
+    <string name="pref_title_web_dev">Pemaju</string>
+    <string name="pref_title_version">Versi</string>
+    <string name="pref_title_clear_session">Padam sesi</string>
     <string name="pref_title_show_report_data">@string/show_report_data</string>
-    <string name="pref_title_slient_install">When you tap "Install" in Xiaomi\'s App Market, the app you\'re downloading will be installed without any further pop-up windows or notifications.</string>
-    <string name="pref_title_auto_update">When new updates become available for apps you\'ve installed, they will be downloaded and applied when you\'re not using your phone (and only when you have a Wi-Fi connection). This way, you don\'t have to spend time checking for updates manually.</string>
-    <string name="pref_title_delta_update">To help reduce mobile data usage, Xiaomi App Market will only download the individual parts of the app that have actually changed when you update.</string>
-    <string name="pref_title_update_all">To get all the updates that are available for your apps in one touch, go to the Updates tab and tap "Update all".</string>
+    <string name="pref_title_slient_install">Apabila anda mengetuk "Pasang" di Gedung Apps Xiaomi ini, apps yang anda memuat turun akan dipasang tanpa sebarang tetingkap pop timbul atau pemberitahuan selanjutnya.</string>
+    <string name="pref_title_auto_update">Apabila kemaskini  tersedia bagi apps yang telah anda pasang, mereka akan dimuatturun dan digunakan semasa anda tidak menggunakan telefon anda (dan hanya pada masa anda mempunyai sambungan Wi-Fi). Dengan cara ini, anda tidak perlu mengambil masa bagi memeriksa kemaskini secara manual.</string>
+    <string name="pref_title_delta_update">Untuk membantu mengurangkan penggunaan data mudah alih, Gedung Apps Xiaomi hanya akan memuatturun bahagian individu apps yang benar-benar telah diubah apabila anda mengemaskini.</string>
+    <string name="pref_title_update_all">Untuk mendapatkan semua kemaskini yang tersedia bagi apps anda dengan satu sentuhan, pergi ke tab Kemaskini dan tap "Kemaskini semua".</string>
 
-    <string name="clear_search_record_message">Clear search history?</string>
-    <string name="result_of_clear_history">Search history has been cleared</string>
-    <string name="pref_summary_auto_update_via_wifi">Automatically update apps via Wi-Fi when screen is locked</string>
-    <string name="pref_summary_data_save">Don\'t show images in Market when using mobile network</string>
-    <string name="pref_summary_feature_intro">Learn about Xiaomi App Market\'s special features</string>
-    <string name="pref_summary_web_market0">Please visit：</string>
+    <string name="clear_search_record_message">Kosongkan sejarah carian?</string>
+    <string name="result_of_clear_history">Sejarah carian telah dikosongkan</string>
+    <string name="pref_summary_auto_update_via_wifi">Kemaskini apps melalui Wi-Fi secara automatik semasa skrin dikunci</string>
+    <string name="pref_summary_data_save">Jangan tunjuk gambar dalam Gedung apabila menggunakan rangkaian mudah alih</string>
+    <string name="pref_summary_feature_intro">Belajar tentang ciri-ciri khas Gedung Apps Xiaomi</string>
+    <string name="pref_summary_web_market0">Sila layari：</string>
     <string name="pref_summary_web_market1">http://app.xiaomi.com</string>
-    <string name="pref_summary_web_dev0">Please visit：</string>
+    <string name="pref_summary_web_dev0">Sila layari：</string>
     <string name="pref_summary_web_dev1">http://dev.xiaomi.com</string>
 
-    <string name="clear_cache_message">Clear cache?</string>
-    <string name="clear_cache_succeed">Cache cleared</string>
-    <string name="clear_cache_failed">Failed to clear cache. Try again later.</string>
-    <string name="clear_session_message">Clear session?</string>
-    <string name="show_report_data">Show report data</string>
-    <string name="temporarily_invalid_report_data">Report is invalid!</string>
+    <string name="clear_cache_message">Padam cache?</string>
+    <string name="clear_cache_succeed">Cache telah dipadamkan</string>
+    <string name="clear_cache_failed">Gagal memadamkan cache. Cuba sekali lagi kemudian.</string>
+    <string name="clear_session_message">Padam sesi?</string>
+    <string name="show_report_data">Tunjuk laporan data</string>
+    <string name="temporarily_invalid_report_data">Laporan tidak sah!</string>
 
     <!-- comments -->
-    <string name="no_comment">No comment</string>
-    <string name="comment_sending">Sending comment\u2026</string>
-    <string name="comment_upload_failed">Failed to send comment</string>
-    <string name="comment_upload_success">Your comment has been sent! It will be displayed after a brief review.</string>
-    <string name="comment_upload_hint">Your comment will be displayed after a brief review.</string>
-    <string name="comment_upload_data_invalid">The comment you entered is invalid</string>
-    <string name="comment_upload_not_logined">Please sign in</string>
-    <string name="comment_upload_need_login">Sign in to comment now?</string>
-    <string name="comment_upload_login_ok">Sign in</string>
-    <string name="comment_upload_login_cancel">Cancel</string>
-    <string name="comment_upload_account_need_activitied">Activate your account?</string>
-    <string name="comment_upload_account_not_activitied">Your account hasn\'t been activated yet.</string>
-    <string name="comment_invalid">Rate the app by touching the stars above the comment box</string>
+    <string name="no_comment">Tiada komen</string>
+    <string name="comment_sending">Menghantar komen\u2026</string>
+    <string name="comment_upload_failed">Gagal menghantar komen</string>
+    <string name="comment_upload_success">Komen anda telah dihantar! Ia akan dipaparkan selepas ulasan ringkas.</string>
+    <string name="comment_upload_hint">Komen and akan dipaparkan selepas ulasan ringkas.</string>
+    <string name="comment_upload_data_invalid">Komen yang anda masukkan tidak sah</string>
+    <string name="comment_upload_not_logined">Sila log masuk</string>
+    <string name="comment_upload_need_login">Log masuk untuk memberi komen sekarang?</string>
+    <string name="comment_upload_login_ok">Log masuk</string>
+    <string name="comment_upload_login_cancel">Batal</string>
+    <string name="comment_upload_account_need_activitied">Aktifkan akaun anda?</string>
+    <string name="comment_upload_account_not_activitied">Akaun anda belum diaktifkan lagi.</string>
+    <string name="comment_invalid">Nilaikan apps dengan menyentuh bintang-bintang di atas kotak komen</string>
     <string name="comment_version_name"><xliff:g id="app_version">%1$s</xliff:g></string>
-    <string name="comment_cannot_comment">You can only comment after you\'ve used the app</string>
-    <string name="app_comments_title">Comments: <xliff:g id="app_name">%1$s</xliff:g></string>
-    <string name="edit_comment_title">Edit comment: <xliff:g id="app_name">%1$s</xliff:g></string>
-    <string name="app_comments">App comments</string>
-    <string name="edit_comment">Add comments</string>
-    <string name="edit_text_default">Write a comment</string>
-    <string name="share_to_weibo">Share on Sina Weibo</string>
-    <string name="comment_publish">Submit</string>
+    <string name="comment_cannot_comment">Anda hanya boleh memberi komen selepas anda menggunakan apps</string>
+    <string name="app_comments_title">Komen: <xliff:g id="app_name">%1$s</xliff:g></string>
+    <string name="edit_comment_title">Menyunting komen: <xliff:g id="app_name">%1$s</xliff:g></string>
+    <string name="app_comments">Tambah komen</string>
+    <string name="edit_comment">Tambah komen</string>
+    <string name="edit_text_default">Tulis komen</string>
+    <string name="share_to_weibo">Kongsikan di Sina Weibo</string>
+    <string name="comment_publish">Hantar</string>
     <string name="comment_date"><xliff:g id="month">%1$02d</xliff:g>-<xliff:g id="date">%2$02d</xliff:g></string>
-    <string name="comment_average_score">Ratings</string>
-    <string name="comment_score_count"><xliff:g id="count">%1$s</xliff:g> users</string>
-    <string name="comment_name_default">User <xliff:g id="user_id">%1$s</xliff:g></string>
+    <string name="comment_average_score">Penilaian</string>
+    <string name="comment_score_count"><xliff:g id="count">%1$s</xliff:g> Pengguna</string>
+    <string name="comment_name_default">Pengguna <xliff:g id="user_id">%1$s</xliff:g></string>
     <string name="no_average_score">N/A</string>
-    <string name="all_comments">All</string>
-    <string name="good_comments">Positive</string>
-    <string name="bad_comments">Negative</string>
-    <string name="app_comments_footer">Empty comments are not shown.</string>
-    <string name="comment_5_star">5 Stars</string>
-    <string name="comment_4_star">4 Stars</string>
-    <string name="comment_3_star">3 Stars</string>
-    <string name="comment_2_star">2 Stars</string>
-    <string name="comment_1_star">1 Star</string>
-    <string name="comment_current_version">Current version</string>
+    <string name="all_comments">Semua</string>
+    <string name="good_comments">Positif</string>
+    <string name="bad_comments">Negatif</string>
+    <string name="app_comments_footer">Komen kosong tidak ditunjukkan.</string>
+    <string name="comment_5_star">5 Bintang</string>
+    <string name="comment_4_star">4 Bintang</string>
+    <string name="comment_3_star">3 Bintang</string>
+    <string name="comment_2_star">2 Bintang</string>
+    <string name="comment_1_star">1 Bintang</string>
+    <string name="comment_current_version">Versi terkini</string>
 
-    <string name="rating_button"><xliff:g id="rating_count">%1$s</xliff:g> ratings</string>
-    <string name="developer_button">View more</string>
-    <string name="permission_button">Permissions(<xliff:g id="permission_count">%1$s</xliff:g>)</string>
-    <string name="update_date_label">Update: </string>
+    <string name="rating_button"><xliff:g id="rating_count">%1$s</xliff:g> Penilaian</string>
+    <string name="developer_button">Lihat lebih lagi</string>
+    <string name="permission_button">Kebenaran(<xliff:g id="permission_count">%1$s</xliff:g>)</string>
+    <string name="update_date_label">Kemaskini: </string>
     <string name="update_date"><xliff:g id="year">%1$s</xliff:g>-<xliff:g id="month">%2$s</xliff:g>-<xliff:g id="date">%3$s</xliff:g></string>
-    <string name="version_label">Version: </string>
-    <string name="share_button">Share</string>
-    <string name="update_info">Updates</string>
+    <string name="version_label">Versi: </string>
+    <string name="share_button">Kongsikan</string>
+    <string name="update_info">Kemaskini</string>
     <string name="description_info">Description</string>
-    <string name="delta_update">Delta update <xliff:g id="diff_size">%1$s</xliff:g></string>
-    <string name="install">Install</string>
-    <string name="delete_selected_apps">Delete</string>
-    <string name="deleting">Deleting</string>
-    <string name="update">Update</string>
-    <string name="installed">Installed</string>
-    <string name="cancel">Cancel</string>
-    <string name="launch">Launch</string>
+    <string name="delta_update">Kemaskini Delta <xliff:g id="diff_size">%1$s</xliff:g></string>
+    <string name="install">Pasang</string>
+    <string name="delete_selected_apps">Buang</string>
+    <string name="deleting">Membuang</string>
+    <string name="update">Kemaskini</string>
+    <string name="installed">Dipasang</string>
+    <string name="cancel">Batal</string>
+    <string name="launch">Lancarkan</string>
     <string name="price">￥<xliff:g id="priceNumber">%1$s</xliff:g></string>
     <string name="progress"><xliff:g id="precentage">%1$s</xliff:g>%%</string>
     <string name="send">@miui:string/send</string>
     <string name="delete">@miui:string/delete</string>
     <string name="bytes"><xliff:g id="currBytes">%1$s</xliff:g>/<xliff:g id="totalBytes">%2$s</xliff:g></string>
-    <string name="pending">Pending\u2026</string>
-    <string name="paused">Paused</string>
-    <string name="resume">Resume</string>
-    <string name="downloading">Pause</string>
-    <string name="connecting">Connecting\u2026</string>
-    <string name="verifying">Verifying\u2026</string>
-    <string name="installing">Installing\u2026</string>
+    <string name="pending">Menunggu\u2026</string>
+    <string name="paused">Dihenti sebentar</string>
+    <string name="resume">Sambung semula</string>
+    <string name="downloading">Henti sebentar</string>
+    <string name="connecting">Menyambung\u2026</string>
+    <string name="verifying">Mengesah\u2026</string>
+    <string name="installing">Memasang\u2026</string>
     <string name="size">(<xliff:g id="sizeNumber">%1$s</xliff:g>)</string>
     <string name="bytes_unit"><xliff:g id="size">%1$s</xliff:g>B</string>
     <string name="kilobytes_unit"><xliff:g id="size">%1$s</xliff:g>KB</string>
     <string name="megabytes_unit"><xliff:g id="size">%1$s</xliff:g>MB</string>
     <string name="rank_app_name"><xliff:g id="rank">%1$s</xliff:g>. <xliff:g id="app_name">%2$s</xliff:g></string>
-    <string name="publish_info"><xliff:g id="month">%1$s</xliff:g>-<xliff:g id="date">%2$s</xliff:g> published <xliff:g id="version">%3$s</xliff:g> version</string>
-    <string name="permissions_title"><xliff:g id="app_name">%1$s</xliff:g> permissions details</string>
-    <string name="permissions_expand_title">Other permissions</string>
+    <string name="publish_info"><xliff:g id="month">%1$s</xliff:g>-<xliff:g id="date">%2$s</xliff:g> diterbitkan <xliff:g id="version">%3$s</xliff:g> versi</string>
+    <string name="permissions_title"><xliff:g id="app_name">%1$s</xliff:g> Butiran pengesahan</string>
+    <string name="permissions_expand_title">Pengesahan lain</string>
     <!-- baidu search support -->
-    <string name="version_name"><xliff:g id="version">%1$s</xliff:g> version</string>
-    <string name="search_other_market">Search other markets</string>
-    <string name="result_notice">Results provided by Baidu App Center</string>
-    <string name="search_not_found">\"<xliff:g id="search">%1$s</xliff:g>\" not found</string>
+    <string name="version_name"><xliff:g id="version">%1$s</xliff:g> versi</string>
+    <string name="search_other_market">Cari gedung-gedung lain</string>
+    <string name="result_notice">Keputusan dibekal oleh Baidu App Center</string>
+    <string name="search_not_found">\"<xliff:g id="search">%1$s</xliff:g>\" tidak dapat dicari</string>
     <!-- management -->
-    <string name="show_all_local_app">Show installed apps</string>
-    <string name="show_all_local_app_with_count">Total apps installed: (<xliff:g id="num">%1$d</xliff:g>)</string>
-    <string name="enable_updata_local_app"><xliff:g id="app">%1$s</xliff:g> updates available</string>
-    <string name="update_all">Update all</string>
-    <string name="search_local_app_text_hint">Search apps in <xliff:g id="num">%1$d</xliff:g> installed</string>
-    <string name="menu_update">Update</string>
-    <string name="menu_ignore">Ignore</string>
-    <string name="menu_detail">View app details</string>
-    <string name="install_time">Install time: <xliff:g id="time">%1$s</xliff:g></string>
-    <string name="install_today">Today</string>
-    <string name="install_this_week">This week</string>
-    <string name="install_this_month">This month</string>
-    <string name="install_earlier">Earlier</string>
-    <string name="size_more_than_one_hundred">More than 100M</string>
+    <string name="show_all_local_app">Tunjukkan apps yang telah dipasang</string>
+    <string name="show_all_local_app_with_count">Jumlah apps dipasang: (<xliff:g id="num">%1$d</xliff:g>)</string>
+    <string name="enable_updata_local_app"><xliff:g id="app">%1$s</xliff:g> kemaskini tersedia</string>
+    <string name="update_all">Kemaskini semua</string>
+    <string name="search_local_app_text_hint">Cari apps di <xliff:g id="num">%1$d</xliff:g> dipasang</string>
+    <string name="menu_update">Kemaskini</string>
+    <string name="menu_ignore">Abaikan</string>
+    <string name="menu_detail">Lihat butiran apps</string>
+    <string name="install_time">Tarikh pasang: <xliff:g id="time">%1$s</xliff:g></string>
+    <string name="install_today">Hari ini</string>
+    <string name="install_this_week">Minggu ini</string>
+    <string name="install_this_month">Bulan ini</string>
+    <string name="install_earlier">Lebih awal</string>
+    <string name="size_more_than_one_hundred">Lebih drpd 100M</string>
     <string name="size_interval"><xliff:g id="from_num">%1$d</xliff:g>~<xliff:g id="to_num">%2$d</xliff:g>M</string>
     <string name="package_size">Size: <xliff:g id="size">%1$s</xliff:g>M</string>
-    <string name="package_size_calculating">Size: calculating\u2026</string>
-    <string name="updatable_apps">Updatable apps</string>
-    <string name="signature_inconsistent_apps">Inconsistent apps</string>
-    <string name="signature_inconsistent_message">This app has inconsistent signature in the market, continue update?</string>
+    <string name="package_size_calculating">Saiz: mengira\u2026</string>
+    <string name="updatable_apps">apps yg boleh dikemaskini</string>
+    <string name="signature_inconsistent_apps">apps tidak konsisten</string>
+    <string name="signature_inconsistent_message">apps ini mempunyai tandatangan yang tidak konsisten dalam gedung, teruskan kemaskini?</string>
 
     <!-- errors -->
-    <string name="connect_fail">Failed to download: Lost network connection</string>
-    <string name="connect_no_fit_fail">Failed to download: Unfortunately, there is no installer for your phone</string>
-    <string name="connect_no_enough_space">You phone\'s internal memory is too full</string>
-    <string name="download_start_fail">Download failed</string>
-    <string name="download_fail">Download failed</string>
-    <string name="install_hash_fail">Install package failed to download</string>
-    <string name="install_parse_fail">Failed to install: Parsing error</string>
-    <string name="install_inconsistent_fail">Failed to install: App signatures don\'t match</string>
-    <string name="install_verification_fail">Failed validation process</string>
-    <string name="install_missing_shared_library">App is missing required components</string>
-    <string name="install_sdcard_not_available">Installation failed: no SD card detected</string>
-    <string name="install_storage_not_enough">You phone\'s internal memory is too full.</string>
-    <string name="install_patch_fail">Patch failed</string>
-    <string name="install_fail">Failed to install</string>
-    <string name="system_app_sign_not_match_fail">Failed to update: App signatures don\'t match</string>
-    <string name="remove_package_fail">Failed to install: Process timed out</string>
+    <string name="connect_fail">Gagal memuatturun: Kehilangan sambungan rangkaian</string>
+    <string name="connect_no_fit_fail">Gagal memuatturun: Malangnya, tidak ada pemasang bagi telefon anda</string>
+    <string name="connect_no_enough_space">Memori dalaman telefon anda terlalu penuh</string>
+    <string name="download_start_fail">Gagal memuatturun</string>
+    <string name="download_fail">Gagal memuatturun</string>
+    <string name="install_hash_fail">Gagal memuatturun pakej pasang</string>
+    <string name="install_parse_fail">Gagal memasang: ralat parsing</string>
+    <string name="install_inconsistent_fail">Gagal memasang: Tandatangan apps tidak sepadan</string>
+    <string name="install_verification_fail">Proses pengesahan gagal</string>
+    <string name="install_missing_shared_library">Komponen yang diperlukan oleh apps telah hilang</string>
+    <string name="install_sdcard_not_available">Pemasangan gagal: Tiada kad SD dikesan</string>
+    <string name="install_storage_not_enough">Memori dalaman telefon anda terlalu penuh.</string>
+    <string name="install_patch_fail">Gagal menampal</string>
+    <string name="install_fail">Gagal memasang</string>
+    <string name="system_app_sign_not_match_fail">Gagal mengemaskini: Tandatangan apps tidak sepadan</string>
+    <string name="remove_package_fail">Gagal memasang: Masa process tamat</string>
 
     <!-- loading view message -->
-    <string name="no_network">Couldn\'t connect to network. Check your connection settings and try again.</string>
-    <string name="no_data">Request failed. Try again later.</string>
-    <string name="no_fitness">Couldn\'t find anything</string>
-    <string name="no_update">All your apps are up to date</string>
-    <string name="no_local_apps">No apps have been installed</string>
-    <string name="no_description">No details</string>
-    <string name="no_change_log">No update details</string>
-    <string name="no_search">App could not be found</string>
-    <string name="no_update_records">No update history</string>
-    <string name="loading_app_list">Loading list\u2026</string>
-    <string name="loading_collection_list">Loading list\u2026</string>
-    <string name="loading_app_detail">Loading\u2026</string>
-    <string name="loading_installed_list">Loading list\u2026</string>
-    <string name="loading_update_list">Loading update list\u2026</string>
-    <string name="loading_category_list">Loading category list\u2026</string>
-    <string name="loading_search_result">Searching\u2026</string>
-    <string name="loading_recommend_list">Loading\u2026</string>
-    <string name="loading_update_history_list">Loading update history\u2026</string>
+    <string name="no_network">Tidak dapat sambung ke rangkaian. Semak tetapan sambungan anda dan cuba sekali lagi.</string>
+    <string name="no_data">Permintaan gagal. Cuba lagi kemudian.</string>
+    <string name="no_fitness">Tidak dapat cari apa-apa</string>
+    <string name="no_update">Semua apps anda adalah terkini</string>
+    <string name="no_local_apps">Tiada apps dipaHazesang</string>
+    <string name="no_description">Tiada butiran</string>
+    <string name="no_change_log">Tiada butiran kemaskini</string>
+    <string name="no_search">apps tidak dapat dicari</string>
+    <string name="no_update_records">Tiada sejarah kemaskini</string>
+    <string name="loading_app_list">Memuatkan senarai\u2026</string>
+    <string name="loading_collection_list">Memuatkan senarai\u2026</string>
+    <string name="loading_app_detail">Memuatkan\u2026</string>
+    <string name="loading_installed_list">Memuatkan senarai\u2026</string>
+    <string name="loading_update_list">Memuatkan senarai kemaskini\u2026</string>
+    <string name="loading_category_list">Memuatkan senarai kategori\u2026</string>
+    <string name="loading_search_result">Mencari\u2026</string>
+    <string name="loading_recommend_list">Memuatkan\u2026</string>
+    <string name="loading_update_history_list">Memuatkan sejarah kemaskini\u2026</string>
 
-    <string name="expand_full_text">Expand</string>
-    <string name="expand_full_text_comment">Expand▼</string>
-    <string name="button_refresh">Refresh</string>
-    <string name="button_search">Search</string>
-    <string name="button_search_in_market">Search in Market</string>
-    <string name="launch_failed_text"><xliff:g id="failed_app_name">Failed to launch %1$s</xliff:g></string>
+    <string name="expand_full_text">Mengembangkan</string>
+    <string name="expand_full_text_comment">Mengembangkan▼</string>
+    <string name="button_refresh">Muat semula</string>
+    <string name="button_search">Cari</string>
+    <string name="button_search_in_market">Cari dalam Gedung</string>
+    <string name="launch_failed_text"><xliff:g id="failed_app_name">Gagal melancarkan %1$s</xliff:g></string>
 
     <!-- notifications -->
-    <string name="notif_title_update"><xliff:g id="update_count">%1$s</xliff:g> updates</string>
-    <string name="notif_installing">Installing “<xliff:g id="app">%1$s</xliff:g>”\u2026</string>
-    <string name="notif_install_successful">Installed</string>
-    <string name="notif_install_successful_default">Installed</string>
-    <string name="notif_update_successful">Updated</string>
-    <string name="notif_update_successful_default">Updated</string>
-    <string name="notif_delta_update_successful">Delta updated. Saving <xliff:g id="save_size">%1$s</xliff:g>\u2026</string>
-    <string name="notif_delta_update_successful_default">Delta updated. Saving <xliff:g id="save_size">%1$s</xliff:g>\u2026</string>
-    <string name="notif_install_failed">Failed to install <xliff:g id="app">%1$s</xliff:g></string>
-    <string name="notif_auto_update_via_wifi">Auto update: "<xliff:g id="app">%1$s</xliff:g>"</string>
-    <string name="notif_auto_update_successfull"><xliff:g id="app">%1$s</xliff:g> has been updated</string>
-    <string name="notif_auto_update_failed">Some of your apps failed to update</string>
-    <string name="notif_summary_auto_update_successful"><xliff:g id="app_count">%1$s</xliff:g> apps have been updated</string>
-    <string name="notif_summary_auto_update_failed">Auto-update failed</string>
-    <string name="notif_description_from_market">from Market</string>
-    <string name="notif_title_auto_update_on">Auto-update apps is on</string>
-    <string name="notif_summary_auto_update_on">Xiaomi App Market will update your apps automatically</string>
-    <string name="share_subject">Share <xliff:g id="app_name">%1$s</xliff:g></string>
-    <string name="share_text">Here\'s an app I thought you might like: <xliff:g id="app_name">%1$s</xliff:g>. Check it out here: <xliff:g id="app_url">%2$s</xliff:g></string>
-    <string name="already_bottom">You\'ve reached the bottom of the page</string>
+    <string name="notif_title_update"><xliff:g id="update_count">%1$s</xliff:g> kemaskini</string>
+    <string name="notif_installing">Memasang “<xliff:g id="app">%1$s</xliff:g>”\u2026</string>
+    <string name="notif_install_successful">Dipasang</string>
+    <string name="notif_install_successful_default">Dipasang</string>
+    <string name="notif_update_successful">Dikemaskini</string>
+    <string name="notif_update_successful_default">Dikemaskini</string>
+    <string name="notif_delta_update_successful">Delta dekemaskini. Menyimpan <xliff:g id="save_size">%1$s</xliff:g>\u2026</string>
+    <string name="notif_delta_update_successful_default">Delta dikemaskini. Menyimpan <xliff:g id="save_size">%1$s</xliff:g>\u2026</string>
+    <string name="notif_install_failed">Gagal memasang <xliff:g id="app">%1$s</xliff:g></string>
+    <string name="notif_auto_update_via_wifi">Auto mengemaskini: "<xliff:g id="app">%1$s</xliff:g>"</string>
+    <string name="notif_auto_update_successfull"><xliff:g id="app">%1$s</xliff:g> telah dikemaskini</string>
+    <string name="notif_auto_update_failed">Sesetengah apps anda gagal dikemaskini</string>
+    <string name="notif_summary_auto_update_successful"><xliff:g id="app_count">%1$s</xliff:g> Apps telah dikemaskini</string>
+    <string name="notif_summary_auto_update_failed">Auto-kemaskini gagal</string>
+    <string name="notif_description_from_market">dari Gedung</string>
+    <string name="notif_title_auto_update_on">Auto-kemaskini apps dihidupkan</string>
+    <string name="notif_summary_auto_update_on">Gedung Apps Xiaomi akan mengemaskinikan apps anda secara automatik</string>
+    <string name="share_subject">Kongsikan <xliff:g id="app_name">%1$s</xliff:g></string>
+    <string name="share_text">Sini terdapat satu apps mungkin anda akan suka: <xliff:g id="app_name">%1$s</xliff:g>. Lihatnya di sini: <xliff:g id="app_url">%2$s</xliff:g></string>
+    <string name="already_bottom">Anda telah sampai ke bawah halaman</string>
 
     <!-- install check dialog -->
-    <string name="install_title">Install</string>
-    <string name="install_no_network_description">No networks detected</string>
-    <string name="install_on_data_description">Downloading apps on your mobile network may significantly increase data usage. Download <xliff:g id="app_name">%1$s</xliff:g> and <xliff:g id="app_count">%2$s</xliff:g> other apps?</string>
-    <string name="install_all_title">Install all apps</string>
-    <string name="install_all_description">Install <xliff:g id="app_name">%1$s</xliff:g> and <xliff:g id="app_count">%2$s</xliff:g> other apps now?</string>
-    <string name="install_btn_cancel">Cancel</string>
-    <string name="install_btn_continue">Continue</string>
+    <string name="install_title">Pasang</string>
+    <string name="install_no_network_description">Tiada rangkaian dikesan</string>
+    <string name="install_on_data_description">Memuatturun apps dengan rangkaian mudah alih anda boleh meningkatkan penggunaan data dengan ketara. Muatturun <xliff:g id="app_name">%1$s</xliff:g> dan <xliff:g id="app_count">%2$s</xliff:g> apps lain?</string>
+    <string name="install_all_title">Memasang semua apps</string>
+    <string name="install_all_description">Memasang <xliff:g id="app_name">%1$s</xliff:g> dan <xliff:g id="app_count">%2$s</xliff:g> apps lain sekarang?</string>
+    <string name="install_btn_cancel">Batal</string>
+    <string name="install_btn_continue">Teruskan</string>
     <string name="install_btn_ok">OK</string>
-    <string name="install_start_cleanup">Start cleanup</string>
-    <string name="install_sign_not_same_title">Signatures don\'t match</string>
-    <string name="install_sign_not_same_message">The update for <xliff:g id="app_name">%1$s</xliff:g> doesn\'t match the local app signature. You need to uninstall the version you are currently using to install this update.</string>
-    <string name="install_sign_not_same_btn_remove">Uninstall and update</string>
-    <string name="install_google_base_title">Install Google Service Framework</string>
-    <string name="install_google_base_message">“<xliff:g id="app">%1$s</xliff:g>” requires Google Service Framework.</string>
-    <string name="upgrade_all_title">Update all</string>
-    <string name="upgrade_all_description">Update <xliff:g id="app_name">%1$s</xliff:g> and <xliff:g id="app_count">%2$s</xliff:g>?</string>
+    <string name="install_start_cleanup">Pembersihan bermula</string>
+    <string name="install_sign_not_same_title">Tandatangan tidak sepadan</string>
+    <string name="install_sign_not_same_message">Kemaskini bagi <xliff:g id="app_name">%1$s</xliff:g> tidak sepadan dengan tandatangan apps tempatan. Anda perlu membuang versi yang anda guna sekarang untuk memasang kemaskini ini.</string>
+    <string name="install_sign_not_same_btn_remove">Buang dan kemaskini</string>
+    <string name="install_google_base_title">Memasang Google Service Framework</string>
+    <string name="install_google_base_message">“<xliff:g id="app">%1$s</xliff:g>” memerlukan Google Service Framework.</string>
+    <string name="upgrade_all_title">Kemaskini semua</string>
+    <string name="upgrade_all_description">Mengemaskini <xliff:g id="app_name">%1$s</xliff:g> dan <xliff:g id="app_count">%2$s</xliff:g>?</string>
 
     <!-- delete dialog -->
-    <string name="delete_confirm">Delete the selected <xliff:g id="app_count">%1$s</xliff:g> apps?</string>
-    <string name="delete_confirm_system_app">Delete the selected <xliff:g id="app_count">%1$s</xliff:g> apps? <xliff:g id="app_list">%2$s</xliff:g> is a system app.</string>
+    <string name="delete_confirm">Buang <xliff:g id="app_count">%1$s</xliff:g> apps terpilih?</string>
+    <string name="delete_confirm_system_app">Buang <xliff:g id="app_count">%1$s</xliff:g> apps terpilih? <xliff:g id="app_list">%2$s</xliff:g> adalah apps sistem.</string>
 
     <!-- update history -->
-    <string name="update_history_title">Update history</string>
-    <string name="update_log_hint">Updates:</string>
+    <string name="update_history_title">Sejarah kemaskini</string>
+    <string name="update_log_hint">Kemaskini:</string>
     <string name="update_time"><xliff:g id="month">%1$s</xliff:g>-<xliff:g id="date">%2$s</xliff:g></string>
-    <string name="update_history_cleared">Update history cleared</string>
+    <string name="update_history_cleared">Sejarah kemaskini dipadam </string>
 
     <!-- first recommend -->
-    <string name="first_recommend_download">Install all</string>
-    <string name="first_recommend_enter">Start App Market</string>
+    <string name="first_recommend_download">Memasang semua</string>
+    <string name="first_recommend_enter">Bermula Gedung Apps</string>
 
     <!-- search recommend -->
-    <string name="search_recommend_source">Based on <xliff:g id="app_name">%1$s</xliff:g></string>
-    <string name="search_recommend_source_default">Most popular</string>
-    <string name="search_recommend_ingore">Ignore</string>
-    <string name="search_recommend_hint">You may like these</string>
-    <string name="search_recommend_ingored_text">Do not recommend</string>
-    <string name="search_recommend_no_net">Network unavailable. Try again later.</string>
-    <string name="search_recommend_no_data">No recommended apps</string>
+    <string name="search_recommend_source">Berdasarkan <xliff:g id="app_name">%1$s</xliff:g></string>
+    <string name="search_recommend_source_default">Paling popular</string>
+    <string name="search_recommend_ingore">Melangkau</string>
+    <string name="search_recommend_hint">Anda mungkin suka ini</string>
+    <string name="search_recommend_ingored_text">Tidak mencadangkan</string>
+    <string name="search_recommend_no_net">Rangkaian tidak tersedia. Cuba lagi kemudian.</string>
+    <string name="search_recommend_no_data">Tiada apps dicadangkan</string>
 
     <!-- network diagnostics -->
-    <string name="diagnostics_title">Network diagnostic</string>
-    <string name="diagnostics_desc">The diagnostic tool can help you resolve network issues. A log file will be generated and sent to Xiaomi for review.</string>
-    <string name="diagnostics_content_hint">Diagnostic:</string>
-    <string name="diagnostics_local_ip">1. Your local IP address</string>
-    <string name="diagnostics_dns_ip">2. The IP address resolved by DNS</string>
-    <string name="diagnostics_gateway_ip">3. The IP address of your gateway</string>
-    <string name="diagnostics_cdn_ip">4. The IP address of CDN</string>
-    <string name="diagnostics_test_download">5. Your download speed</string>
-    <string name="diagnostics_data_cost_hint">The diagnostic tool uses about 100KB of mobile data</string>
-    <string name="diagnostics_btn_start">Begin diagnostic</string>
-    <string name="diagnostics_btn_processing">Running\u2026</string>
-    <string name="diagnostics_btn_upload">Upload log</string>
-    <string name="diagnostics_data_sending">Sending log\u2026</string>
-    <string name="diagnostics_data_upload_success">Log sent</string>
-    <string name="diagnostics_data_upload_failed">Failed to send. Please try again.</string>
+    <string name="diagnostics_title">Diagnostik rangkaian </string>
+    <string name="diagnostics_desc">Alat diagnostik boleh membantu anda menyelesaikan isu-isu rangkaian. Fail log akan dijana dan dihantar ke Xiaomi untuk semakan.</string>
+    <string name="diagnostics_content_hint">Diagnostik:</string>
+    <string name="diagnostics_local_ip">1. Alamat IP tempatan anda</string>
+    <string name="diagnostics_dns_ip">2. Alamat IP diselesaikan oleh DNS</string>
+    <string name="diagnostics_gateway_ip">3. Alamat IP bagi gateway anda</string>
+    <string name="diagnostics_cdn_ip">4. Alamat IP bagi CDN</string>
+    <string name="diagnostics_test_download">5. Kelajuan muatturun anda</string>
+    <string name="diagnostics_data_cost_hint">Alat diagnostik menggunakan kira-kira 100KB data mudah alih</string>
+    <string name="diagnostics_btn_start">Mulakan diagnostik</string>
+    <string name="diagnostics_btn_processing">Dijalankan\u2026</string>
+    <string name="diagnostics_btn_upload">Log Memuatnaik</string>
+    <string name="diagnostics_data_sending">Menghantar log\u2026</string>
+    <string name="diagnostics_data_upload_success">Log dihantar</string>
+    <string name="diagnostics_data_upload_failed">Gagal menghantar. Sila cuba lagi.</string>
 
     <!-- app collection and my apps activity-->
-    <string name="tab_local_apps">Local apps</string>
-    <string name="tab_favorites">Favorites</string>
-    <string name="favorite_success">App starred</string>
-    <string name="favorite_fail">Failed to star app</string>
-    <string name="favorite_fail_other_market">Can\'t star apps in third-party markets</string>
-    <string name="favorite_delete_success">App unstarred</string>
-    <string name="favorite_delete_fail">Failed to unstar app</string>
-    <string name="favorite_account_need_activitied">Your account is not activated, active it now ?</string>
-    <string name="favorite_account_need_login">Sign in now to star this app?</string>
-    <string name="favorite_cancel_acount_need_login">Sign in now to unstar this app?</string>
-    <string name="favorite_no_network">Failed to star app. Couldn\'t connect to network.</string>
-    <string name="favorite_cancel_no_network">Failed to unstar app. Couldn\'t connect to network.</string>
-    <string name="favorite_login_hint">Sign in to your Xiaomi Account to manage your favorite apps</string>
-    <string name="login_now">Sign in now</string>
-    <string name="activate_now">Activate_now</string>
-    <string name="my_app">My apps</string>
-    <string name="no_favorites">You haven\'t starred any apps</string>
+    <string name="tab_local_apps">Apps tempatan</string>
+    <string name="tab_favorites">Kegemaran</string>
+    <string name="favorite_success">Apps dibintang</string>
+    <string name="favorite_fail">Gagal membintang apps</string>
+    <string name="favorite_fail_other_market">Tidak dapat membintang apps di Gedung Parti Ketiga</string>
+    <string name="favorite_delete_success">Apps dibuang bintang</string>
+    <string name="favorite_delete_fail">Gagal membuang bintang apps</string>
+    <string name="favorite_account_need_activitied">Akaun anda tidak diaktifkan, aktif sekarang?</string>
+    <string name="favorite_account_need_login">Log masuk sekarang untuk membintang apps ini?</string>
+    <string name="favorite_cancel_acount_need_login">Log masuk sekarang untuk membuang star apps ini?</string>
+    <string name="favorite_no_network">Gagal membintang apps. Tidak dapat menyambung ke rangkaian.</string>
+    <string name="favorite_cancel_no_network">Gagal membuang bintang apps. Tidak dapat menyambung ke rangkaian.</string>
+    <string name="favorite_login_hint">Log masuk ke akaun Xiaomi anda untuk menguruskan apps kegemaran anda</string>
+    <string name="login_now">Log masuk sekarang</string>
+    <string name="activate_now">Aktifkan sekarang</string>
+    <string name="my_app">Apps saya</string>
+    <string name="no_favorites">Anda belum membintang mana-mana apps</string>
 </resources>
