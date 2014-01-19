@@ -1060,25 +1060,22 @@
 	<!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
 	<string name="permlab_accessMockLocation">memalsu sumber lokasi untuk ujian</string>
 	<!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-	<string name="permdesc_accessMockLocation">Mewujudkan sumber lokasi palsu untuk ujian atau memasang pembekal lokasi baru. Ini membolehkan aplikasi untuk menolak lokasi dan/atau status yang dikembalikan oleh sumber lokasi lain seperti GPS atau pembekal lokasi.</string>
-	testing or install a new location provider.  This allows the app to
-	override the location and/or status returned by other location sources
-	such as GPS or location providers.</string>
+	<string name="permdesc_accessMockLocation">Mewujudkan sumber lokasi palsu untuk ujian atau memasang pembekal lokasi baru. Ini membolehkan aplikasi 
+	untuk menolak lokasi dan/atau status yang dikembalikan oleh sumber lokasi lain 
+	seperti GPS atau pembekal lokasi.</string>
 	
 	<!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
 	<string name="permlab_accessLocationExtraCommands">akses arahan tambahan pembekal lokasi</string>
 	<!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-	<string name="permdesc_accessLocationExtraCommands">Benarkan app untuk akses arahan tambahan pembekal lokasi. Ini boleh membenarkan aplikasi untuk campur tangan dengan operasi GPS atau sumber lokasi lain.</string>
-	extra location provider commands.  This may allow the app to to interfere
-	with the operation of the GPS or other location sources.</string>
+	<string name="permdesc_accessLocationExtraCommands">Benarkan app untuk akses arahan tambahan pembekal lokasi. Ini boleh membenarkan 
+	aplikasi untuk campur tangan dengan operasi GPS atau sumber lokasi lain.</string>
 	
 	<!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
 	<string name="permlab_installLocationProvider">kebenaran untuk memasang pembekal lokasi</string>
 	<!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-	<string name="permdesc_installLocationProvider">Mewujudkan sumber lokasi palsu untuk ujian atau memasang pembekal lokasi baru. Ini membolehkan aplikasi untuk menolak lokasi dan/atau status yang dikembalikan oleh sumber lokasi lain seperti GPS atau pembekal lokasi.</string>
-	for testing or install a new location provider.  This allows the app to
-	override the location and/or status returned by other location sources
-	such as GPS or location providers.</string>
+	<string name="permdesc_installLocationProvider">Mewujudkan sumber lokasi palsu untuk ujian atau memasang pembekal lokasi baru. 
+	Ini membolehkan aplikasi untuk menolak lokasi dan/atau status yang dikembalikan oleh sumber lokasi lain 
+	seperti GPS atau pembekal lokasi.</string>
 	
 	<!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
 	<string name="permlab_accessFineLocation">lokasi tepat (GPS)</string>
@@ -1096,11 +1093,9 @@
 	<!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
 	<string name="permlab_accessCoarseLocation">lokasi anggaran (berasaskan rangkaian)</string>
 	<!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-	<string name="permdesc_accessCoarseLocation">Mengakses lokasi anggaran daripada pembekal lokasi menggunakan sumber rangkaian seperti menara mudah alih dan Wi-FI. Apabila perkhidmatan lokasi disediakan dan dihidupkan, kebenaran ini membolehkan aplikasi untuk menentukan lokasi anggaran anda.</string>
-	approximate location from location providers using network sources such as
-	cell tower and Wi-Fi. When these location services are available and turned
-	on, this permission allows the app to determine your approximate
-	location.</string>
+	<string name="permdesc_accessCoarseLocation">Mengakses lokasi anggaran daripada pembekal lokasi menggunakan sumber rangkaian seperti menara mudah 
+	alih dan Wi-FI. Apabila perkhidmatan lokasi disediakan dan dihidupkan, kebenaran ini membolehkan 
+	aplikasi untuk menentukan lokasi anggaran anda.</string>
 	
 	<!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
 	<string name="permlab_accessSurfaceFlinger">akses SurfaceFlinger</string>
@@ -1120,16 +1115,14 @@
 	<!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
 	<string name="permlab_recordAudio">rekod audio</string>
 	<!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-	<string name="permdesc_recordAudio">Benarkan app untuk rekod audio dengan mikrofon. Kebenaran ini membolehkan aplikasi untuk merakam audio pada bila-bila masa tanpa pengesahan anda.</string>
-	microphone.  This permission allows the app to record audio at any time
-	without your confirmation.</string>
+	<string name="permdesc_recordAudio">Benarkan app untuk rekod audio dengan mikrofon. Kebenaran ini membolehkan aplikasi 
+	untuk merakam audio pada bila-bila masa tanpa pengesahan anda.</string>
 	
 	<!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
 	<string name="permlab_camera">mengambil gambar dan video</string>
 	<!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-	<string name="permdesc_camera">Benarkan app untuk mengambil gambar dan video dengan kamera. Kebenaran ini membolehkan aplikasi untuk menggunakan kamera pada bila-bila masa tanpa pengesahan anda.</string>
-	with the camera.  This permission allows the app to use the camera at any
-	time without your confirmation.</string>
+	<string name="permdesc_camera">Benarkan app untuk mengambil gambar dan video dengan kamera. Kebenaran ini membolehkan aplikasi
+	untuk menggunakan kamera pada bila-bila masa tanpa pengesahan anda.</string>
 	
 	<!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
 	<string name="permlab_brick" product="tablet">permanently disable tablet</string>
@@ -1158,7 +1151,6 @@
 	<string name="permlab_mount_unmount_filesystems" product="default">access SD Card filesystem</string>
 	<!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
 	<string name="permdesc_mount_unmount_filesystems">Benarkan app untuk mount dan unmount sistem fail storan boleh tanggal.</string>
-	unmount filesystems for removable storage.</string>
 	
 	<!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. [CHAR LIMIT=30] -->
 	<string name="permlab_mount_format_filesystems" product="nosdcard">erase USB storage</string>
