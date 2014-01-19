@@ -581,9 +581,6 @@
 	<string name="change_password">Tukar katalaluan</string>
 	<string name="change_security_lock">Kunci skrin lebih</string>
 	
-	<string name="xiaomi_cloud_service">MiCloud</string>
-	<string name="xiaomi_money_service">Pusat MiCredit</string>
-	
 	<!-- nfc settings -->
 	<string name="nfc_category_title">NFC</string>
 	<string name="nfc_quick_toggle_summary">Membolehkan pertukaran data apabila telefon menyentuh peranti lain</string>
