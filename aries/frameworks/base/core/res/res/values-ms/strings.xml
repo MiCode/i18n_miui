@@ -707,8 +707,8 @@
 	<!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
 	<string name="permlab_setAnimationScale">ubahsuai kelajuan animasi global</string>
 	<!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-	<string name="permdesc_setAnimationScale">Benarkan app untuk menukar kelajuan animasi global (animasi yang lebih cepat atau lebih perlahan) pada bila-bila.</string>
-	the global animation speed (faster or slower animations) at any time.</string>
+	<string name="permdesc_setAnimationScale">Benarkan app untuk menukar kelajuan 
+	animasi global (animasi yang lebih cepat atau lebih perlahan) pada bila-bila.</string>
 	
 	<!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
 	<string name="permlab_manageAppTokens">urus token aplikasi</string>
