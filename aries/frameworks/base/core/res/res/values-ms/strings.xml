@@ -771,8 +771,8 @@
 	<!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
 	<string name="permlab_bindDeviceAdmin">interaksi dengan pentadbir peranti</string>
 	<!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-	<string name="permdesc_bindDeviceAdmin">Benarkan pemegang menghantar tujuan kepada pentadbir peranti. Tidak sekali-kali diperlukan untuk app biasa.</string>
-	a device administrator. Should never be needed for normal apps.</string>
+	<string name="permdesc_bindDeviceAdmin">Benarkan pemegang menghantar tujuan kepada pentadbir peranti. Tidak sekali-kali 
+	diperlukan untuk app biasa.</string>
 	
 	<!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
 	<string name="permlab_setOrientation">tukar orientasi skrin</string>
@@ -863,8 +863,8 @@
 	<!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
 	<string name="permlab_anyCodecForPlayback">gunakan mana-mana penyahkod media untuk main semula</string>
 	<!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-	<string name="permdesc_anyCodecForPlayback">Benarkan app untuk menggunakan sebarang penyahkod media dipasang untuk menyahkod main semula.</string>
-	media decoder to decode for playback.</string>
+	<string name="permdesc_anyCodecForPlayback">Benarkan app untuk menggunakan sebarang penyahkod media dipasang untuk 
+	menyahkod main semula.</string>
 	
 	<!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
 	<string name="permlab_diagnostic">baca/tulis ke sumber yang dimiliki oleh diag</string>
