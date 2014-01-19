@@ -112,7 +112,7 @@
 	</plurals>
 	
 	<!-- Artist title format -->
-	<string name="artist_details_format"><xliff:g id="ALBUM">%1$s</xliff:g>, <xliff:g id="ARTIST">%2$s</xliff:g>/string>
+	<string name="artist_details_format"><xliff:g id="ALBUM">%1$s</xliff:g>, <xliff:g id="ARTIST">%2$s</xliff:g></string>
 	
 	<!-- Album title format -->
 	<plurals name="album_details_format">
