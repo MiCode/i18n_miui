@@ -593,8 +593,7 @@
 	<string name="permlab_enableCarMode">hidupkan mod kereta</string>
 	<!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
 	<string name="permdesc_enableCarMode">Benarkan app untuk hidupkan mod kereta.</string>
-	enable the car mode.</string>
-	
+
 	<!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
 	<string name="permlab_killBackgroundProcesses">tutup aplikasi lain</string>
 	<!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
