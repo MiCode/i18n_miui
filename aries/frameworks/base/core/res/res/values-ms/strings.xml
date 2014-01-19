@@ -791,13 +791,11 @@
 	<string name="permlab_setKeyboardLayout">tukar susun atur papan kekunci</string>
 	<!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. [CHAR LIMIT=NONE] -->
 	<string name="permdesc_setKeyboardLayout">Benarkan app untuk mengubah susun atur papan kekunci. Tidak sekali-kali diperlukan untuk app biasa.</string>
-	the keyboard layout. Should never be needed for normal apps.</string>
-	
+
 	<!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
 	<string name="permlab_signalPersistentProcesses">hantar isyarat Linux kepada aplikasi</string>
 	<!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
 	<string name="permdesc_signalPersistentProcesses">Benarkan app meminta isyarat yang dibekalkan dihantar kepada semua proses yang berterusan.</string>
-	supplied signal be sent to all persistent processes.</string>
 	
 	<!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
 	<string name="permlab_persistentActivity">membuat aplikasi sentiasa berjalan</string>
@@ -809,8 +807,7 @@
 	<string name="permlab_deletePackages">padam aplikasi</string>
 	<!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
 	<string name="permdesc_deletePackages">Benarkan app untuk memadam pakej Android. Aplikasi berniat jahat boleh menggunakannya untuk memadam aplikasi penting.</string>
-	Android packages. Malicious apps may use this to delete important apps.</string>
-	
+
 	<!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
 	<string name="permlab_clearAppUserData">"padam data app lain"</string>
 	<!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
@@ -819,8 +816,7 @@
 	<string name="permlab_deleteCacheFiles">"memadam cache app lain"</string>
 	<!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
 	<string name="permdesc_deleteCacheFiles">Benarkan app untuk memadam fail cache.</string>
-	cache files.</string>
-	
+
 	<!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
 	<string name="permlab_getPackageSize">mengukur ruang storan aplikasi</string>
 	<!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
