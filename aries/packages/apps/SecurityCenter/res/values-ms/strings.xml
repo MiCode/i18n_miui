@@ -18,20 +18,20 @@
     <string name="protection_adb">"USB debugging "</string>
     <string name="protection_perm">"Penetapan keizinan "</string>
     <string name="protection_sms">"SMS ditapis "</string>
-    <string name="start_checking_protection">Menyemak perlindungan masa sebenar...</string>
-    <string name="finish_checking_protection">"Selesai menyemak lindungan 'realtime'..."</string>
-    <string name="start_checking_memory">Memeriksa keadaan memori...</string>
-    <string name="finish_checking_memory">Selesai menyemak keadaan memori...</string>
-    <string name="start_checking_trash">Semakan aplikasi cache...</string>
-    <string name="finish_checking_trash">Selesai menyemak cache aplikasi...</string>
-    <string name="checking">Periksa...</string>
-    <string name="start_optimize_protection">Mengoptimumkan perlindungan masa sebenar...</string>
-    <string name="finish_optimize_protection">"Selesai menyemak lindungan 'realtime'..."</string>
-    <string name="start_optimize_memory">Mengoptimumkan Keadaan memori...</string>
-    <string name="finish_optimize_memory">Selesai mengoptimumkan keadaan memori...</string>
-    <string name="start_optimize_trash">Mengoptimumkan aplikasi cache...</string>
-    <string name="finish_optimize_trash">Selesai menyemak cache aplikasi...</string>
-    <string name="optimizing">Mengoptimumkan...</string>
+    <string name="start_checking_protection">Menyemak perlindungan masa sebenar&#8230;</string>
+    <string name="finish_checking_protection">"Selesai menyemak lindungan 'realtime'&#8230;"</string>
+    <string name="start_checking_memory">Memeriksa keadaan memori&#8230;</string>
+    <string name="finish_checking_memory">Selesai menyemak keadaan memori&#8230;</string>
+    <string name="start_checking_trash">Semakan aplikasi cache&#8230;</string>
+    <string name="finish_checking_trash">Selesai menyemak cache aplikasi&#8230;</string>
+    <string name="checking">Periksa&#8230;</string>
+    <string name="start_optimize_protection">Mengoptimumkan perlindungan masa sebenar&#8230;</string>
+    <string name="finish_optimize_protection">"Selesai menyemak lindungan 'realtime'&#8230;"</string>
+    <string name="start_optimize_memory">Mengoptimumkan Keadaan memori&#8230;</string>
+    <string name="finish_optimize_memory">Selesai mengoptimumkan keadaan memori&#8230;</string>
+    <string name="start_optimize_trash">Mengoptimumkan aplikasi cache&#8230;</string>
+    <string name="finish_optimize_trash">Selesai menyemak cache aplikasi&#8230;</string>
+    <string name="optimizing">Mengoptimumkan&#8230;</string>
     <!-- #################### main end #################### -->
 
 
@@ -63,7 +63,7 @@
     <string name="virus_scan_app_continue">Sambung imbasan</string>
     <string name="virus_scan_app_uninstall">Padam %d aplikasi</string>
     <string name="virus_scan_app_force_stop">Imbasan ditangguh</string>
-    <string name="virus_scan_app_find_risk">%d risiko terjumpa . Membuang mereka dengan serta-merta!</string>
+    <string name="virus_scan_app_find_risk">%d risiko terjumpa. Membuang mereka dengan serta-merta!</string>
     <string name="virus_scan_app_scan_finish">Imbasan Siap</string>
     <string name="virus_scan_app_no_risk">Tiada risiko ditemui</string>
     <!-- #################### virus scan end #################### -->
