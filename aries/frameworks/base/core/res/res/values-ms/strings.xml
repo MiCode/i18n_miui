@@ -629,14 +629,13 @@
 	<!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
 	<string name="permlab_shutdown">penutupan separa</string>
 	<!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-	<string name="permdesc_shutdown">Meletakkan pengurus aktiviti dalam keadaan menutup ke bawah. Tidak melaksanakan menutup sepenuhnya.</string>
-	state.  Does not perform a complete shutdown.</string>
-	
+	<string name="permdesc_shutdown">Meletakkan pengurus aktiviti dalam keadaan menutup ke bawah. 
+	Tidak melaksanakan menutup sepenuhnya.</string>
+
 	<!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
 	<string name="permlab_stopAppSwitches">menghalang pertukaran app</string>
 	<!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
 	<string name="permdesc_stopAppSwitches">Menghalang pengguna daripada bertukar kepada aplikasi lain.</string>
-	another app.</string>
 	
 	<!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
 	<string name="permlab_runSetActivityWatcher">memantau dan mengawal semua pelancaran aplikasi</string>
