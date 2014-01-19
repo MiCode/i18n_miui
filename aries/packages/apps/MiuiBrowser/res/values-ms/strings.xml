@@ -138,8 +138,7 @@
 		<item>iPad</item>
 	</string-array>
 	<string name="pref_ua_mione_entry">MiOne</string>
-	<!-- Settings label -->
-	<string name="pref_content_search_engine">Tetapkan enjin carian</string>
+
 	<string-array name="pref_ua_values" translatable="false">
 		<item>0</item>
 		<item>1</item>
@@ -347,7 +346,6 @@
 	<string name="save_file_already_exist_alert_message">Fail sudah wujud, anda ingin menulis ganti ini?</string>
 	<string name="filename_empty_alert_message">"Nama fail tidak boleh dikosongkan"</string>
 	<string name="filename_illegal_alert_message">Nama fail ada huruf yang haram, fail akan dibuang secara automatik.</string>
-	<string name="quicklinks_management">Pautan pantas</string>
 	<string name="download_failed">Muat turun gagal</string>
 	<string name="download_complete">Muat turun selesai</string>
 	<string name="app_update_install">Versi baru sudah dimuat turun dan sedia untuk pemasangan</string>
