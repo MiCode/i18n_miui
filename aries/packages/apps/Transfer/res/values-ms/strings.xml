@@ -101,7 +101,6 @@
     <string name="settings_photo_remove">Padam avatar</string>
     <string name="settings_photo_camera">Ambil gambar baru</string>
     <string name="settings_photo_pick">Pilih dari galeri</string>
-    <string name="settings_connect">Tetapan sambungan</string>
     <string name="settings_auto_pair_sender_title">Membuat pasangan audio penghantar secara automatik</string>
     <string name="settings_auto_pair_sender_summary">Membuat pasangan audio secara automatik kepada penerima/penghantar</string>
     <string name="settings_receive_confirm_title">Menerima pengesahan</string>
