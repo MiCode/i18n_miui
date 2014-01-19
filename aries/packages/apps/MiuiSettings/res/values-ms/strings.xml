@@ -2,7 +2,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 	<string name="debug_log">Program pengalaman pengguna</string>
 	<string name="upload_debug_log_title">Pengalaman Pengguna  program</string>
-	<string name="upload_debug_log_summary">Bantuan Xiaomi meningkatkan produk dan perkhidmatannya dengan menghantar data diagnostik dan penggunaan tidak bernama </string>
+	<string name="upload_debug_log_summary">Bantuan Xiaomi meningkatkan produk dan perkhidmatannya dengan menghantar data diagnostik dan penggunaan tidak bernama</string>
 	
 	<!-- About phone screen, status item label -->
 	<string name="firmware_version">Versi Android</string>
@@ -536,8 +536,8 @@
 	
 	<!-- android settings res -->
 	<string name="pointer_location_summary">Tunjuk koordinat sentuhan</string>
-	<string name="wifi_empty_list_wifi_off">Untuk melihat rangkaian tersedia, hidupkan Wi-Fi .</string>
-	<string name="user_dict_settings_empty_text">"Anda tidak mempunyai apa-apa kamus
+	<string name="wifi_empty_list_wifi_off">Untuk melihat rangkaian tersedia, hidupkan Wi-Fi.</string>
+	<string name="user_dict_settings_empty_text">"Anda tidak mempunyai apa-apa kamus Tambah perkataan dengan menyentuh butang Tambah (+)"</string>
 	
 	<string name="dirac_control">Bunyi MI</string>
 	
@@ -610,9 +610,9 @@
 	<string name="wifi_share_add">Berkongsi Wi-Fi networ saya dengan orang awam(s)</string>
 	<string name="wifi_share_count">Anda telah berkongsi <xliff:g id="COUNT">%d</xliff:g> rangkaian</string>
 	<string name="wifi_share_notification_summary">MIUI has connected you to a Kata Laluan protected public Wi-Fi network</string>
-	<string name="wifi_share_add_summary">"Apabila anda berkongsi  rangkaian awam Wi-Fi anda
-	<string name="wifi_share_login">Kongsi Kata Laluan Wi-Fi awam </string>
-	<string name="wifi_share_login_summary">Rangkaian Wi-Fi awam boleh dikongsi dengan pengguna MIUI lain </string>
+	<string name="wifi_share_add_summary">"Apabila anda berkongsi rangkaian awam Wi-Fi anda, Anda boleh menggunakan pengguna rangkaian lain"</string>
+	<string name="wifi_share_login">Kongsi Kata Laluan Wi-Fi awam</string>
+	<string name="wifi_share_login_summary">Rangkaian Wi-Fi awam boleh dikongsi dengan pengguna MIUI lain</string>
 	<string name="wifi_share_connected_title">Rangkaian disambungkan melalui MIUI berkongsi sambungan Wi-Fi</string>
 	<string name="wifi_share_connected_summary">"Anda disambungkan kepada rangkaian Wi-Fi awam yang telah dikongsi oleh pengguna lain"</string>
 	<string name="wifi_share_action_turn_on">Hidupkan Wi-Fi apabila berkongsi</string>
