@@ -185,43 +185,43 @@
     <string name="edit_whitelist">Edit note</string>
     <string name="fw_notes_hint">Note (optional)</string>
     <string name="number_add_hint">Enter number</string>
-    <string name="fw_in_blacklist">%s is already blocked. :)</string>
-    <string name="fw_in_whitelist">%s is already an exception.</string>
-    <string name="fw_import_ms">Import call logs and messages</string>
-    <string name="confirm_clear_blacklist">Clear blocklist?</string>
-    <string name="confirm_clear_whitelist">Clear exceptions?</string>
-    <string name="context_call">Call</string>
-    <string name="context_ms">Send SMS</string>
-    <string name="context_new_contact">New contact</string>
-    <string name="context_add_contact">Add to existing contact</string>
-    <string name="check_all">Select all</string>
-    <string name="check_nothing">Deselect all</string>
-    <string name="close_rule">Disable firewall rules</string>
+    <string name="fw_in_blacklist">%s sudah disekat.</string>
+    <string name="fw_in_whitelist">%s adalah pengecualian.</string>
+    <string name="fw_import_ms">Import log panggilan dan mesej-mesej</string>
+    <string name="confirm_clear_blacklist">Kosongkan senarai halang?</string>
+    <string name="confirm_clear_whitelist">Kosongkan pengecualian?</string>
+    <string name="context_call">Panggil</string>
+    <string name="context_ms">Hantar SMS</string>
+    <string name="context_new_contact">Kenalan baru</string>
+    <string name="context_add_contact">Tambah ke kenalan yang sedia ada</string>
+    <string name="check_all">Pilih semua</string>
+    <string name="check_nothing">Jangan pilih semua</string>
+    <string name="close_rule">Melumpuhkan peraturan firewall</string>
     <string name="fw_log_inf">Log</string>
-    <string name="remove_contact">Delete this contact?</string>
-    <string name="remove_inf">Delete info?</string>
-    <string name="remove_sms">Delete all message logs?</string>
-    <string name="remove_call_log">Delete all call logs?</string>
-    <string name="remove_keyword">Delete this keyword?</string>
-    <string name="remove_all_keywords">Delete all keywords?</string>
-    <string name="remove_delete">Delete</string>
+    <string name="remove_contact">Padam kenalan ini?</string>
+    <string name="remove_inf">Padam info?</string>
+    <string name="remove_sms">Memadam semua log mesej?</string>
+    <string name="remove_call_log">Memadam semua log panggilan?</string>
+    <string name="remove_keyword">Memdam kata kunci ini?</string>
+    <string name="remove_all_keywords">Memadam semua kata kunci?</string>
+    <string name="remove_delete">Padam</string>
 
     <!-- Added from V5 -->
     <!-- Tab -->
-    <string name="blacklist_tab_title">Blocklist</string>
-    <string name="whitelist_tab_title">Exceptions</string>
+    <string name="blacklist_tab_title">Senarai Halang</string>
+    <string name="whitelist_tab_title">Pengecualian</string>
     <string name="log_count">(%d)</string>
-    <string name="new_bw_list_button">Add contact</string>
+    <string name="new_bw_list_button">Tambah Kenalan</string>
 
     <!-- Add for mark -->
-    <string name="mark_number_dialog_maintitle">Block and report number</string>
-    <string name="mark_number_dialog_subtitle">Developed in part with Sogou</string>
+    <string name="mark_number_dialog_maintitle">Sekat dan laporkan nombor</string>
+    <string name="mark_number_dialog_subtitle">Dibangunkan sempena Sogou</string>
     <string name="custom_mark_category">Custom</string>
-    <string name="smart_antispam">Identify unknown numbers</string>
-    <string name="turn_on_smart_antispam_hint">Identify unwanted calls</string>
-    <string name="turn_on_smart_antispam_title">Identify unknown numbers</string>
-    <string name="turn_on_smart_antispam_summary_on">Only available when connected to Wi-Fi or 3G network</string>
-    <string name="turn_on_smart_antispam_summary_off">Filter using local number database</string>
+    <string name="smart_antispam">Mengenalpasti nombor yang tidak diketahui</string>
+    <string name="turn_on_smart_antispam_hint">Kenal pasti panggilan yang tidak diingini</string>
+    <string name="turn_on_smart_antispam_title">Mengenalpasti nombor yang tidak diketahui</string>
+    <string name="turn_on_smart_antispam_summary_on">Hanya tersedia apabila disambungkan kepada Wi-Fi atau rangkaian 3G</string>
+    <string name="turn_on_smart_antispam_summary_off">Menyaring menggunakan pangkalan data nombor tempatan</string>
     <!-- #################### anti-spam end #################### -->
 
 </resources>
