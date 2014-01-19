@@ -158,7 +158,7 @@
 	<string name="disable_all_cf_miui">Matikan semua pemajuan panggilan</string>
 	<string name="disable_miui">Matikan</string>
 	<string name="disable_sim_pin_miui">Matikan PIN SIM</string>
-	<string name="dtmf_tone_entries_long_miui">Panjang/string>
+	<string name="dtmf_tone_entries_long_miui">Panjang</string>
 	<string name="dtmf_tone_entries_normal_miui">Biasa</string>
 	<string name="dtmf_tones_summary_miui">Tetapkan panjang nada DTMF</string>
 	<string name="dtmf_tones_title_miui">Nada DTMF</string>
@@ -189,7 +189,7 @@
 	<string name="handon_ringer_title_miui">Nada diam ketika angkat</string>
 	<string name="hangup_sms_miui">Tolak melalui SMS</string>
 	<string name="ignore_miui">Ignore</string>
-	<string name="importing_sim_contacts_miui">Mengimport kenalan SIM\u2026<</string>
+	<string name="importing_sim_contacts_miui">Mengimport kenalan SIM\u2026</string>
 	<string name="import_selected_sim_entries_miui">Import kenalan terpilih</string>
 	<string name="import_all_sim_entries_miui">Import semua kenalan</string>
 	<string name="import_sim_entries_finish">Kenalan SIM berjaya diimport</string>
