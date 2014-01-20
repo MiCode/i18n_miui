@@ -16,19 +16,17 @@
 
 <resources>
     <!-- Title of the storage activity for DRM content. -->
-    <string name="app_label">DRM Protected Content Storage</string>
+    <string name="app_label">Storan kandungan dilindungi DRM</string>
 
     <!-- Title of the permission that allows access to DRM content -->
-    <string name="permlab_accessDrm">Access DRM content.</string>
+    <string name="permlab_accessDrm">Kandungan Akses DRM.</string>
 
     <!-- Description of the permission that allows access to DRM content -->
-    <string name="permdesc_accessDrm">Allows app to access
-        DRM-protected content.</string>
+    <string name="permdesc_accessDrm">Benarkan app untuk akses kandungan dilindungi DRM.</string>
 
     <!-- Title of the permission that allows installation of DRM content -->
-    <string name="permlab_installDrm">Install DRM content.</string>
+    <string name="permlab_installDrm">Pasang kandungan DRM.</string>
 
     <!-- Description of the permission that allows installation of DRM content -->
-    <string name="permdesc_installDrm">Allows app to install
-        DRM-protected content.</string>
+    <string name="permdesc_installDrm">Benarkan app untuk pasang kandungan dilindungi DRM.</string>
 </resources>
