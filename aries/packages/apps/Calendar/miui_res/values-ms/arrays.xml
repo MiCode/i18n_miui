@@ -2,6 +2,6 @@
 <resources>
     <string-array name="widget_style_list">
         <item>Hitam lutsinar</item>
-        <item>White Latarbelakang putih</item>
+        <item>Latarbelakang putih</item>
     </string-array>
 </resources>
