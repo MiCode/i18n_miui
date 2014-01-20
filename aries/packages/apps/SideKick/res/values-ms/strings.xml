@@ -8,8 +8,8 @@
     <string name="user_upload_success">Muat naik berjaya</string>
     <string name="contact_not_found">Kenalan tidak ditemui.</string>
     <string name="contact_select">Pilih kenalan</string>
-    <string name="calling">MEmanggil %1$s %2$s</string>
-    <string name="sending">MEnghantar: %1$s</string>
+    <string name="calling">Memanggil %1$s %2$s</string>
+    <string name="sending">Menghantar: %1$s</string>
     <string name="sending_content">%1$s hantar ke: </string>
     <string name="alarming">Peringatan: %1$s %2$s</string>
     <string name="clocking">Penggera ditambah, sentuh untuk lihat</string>
