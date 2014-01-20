@@ -127,8 +127,8 @@
 		terlalu besar untuk dipamerkan."</string>
 	<!-- Text shown with dragged messages to indicate how many are being dragged [CHAR LIMIT=40]-->
 	<plurals name="move_messages">
-		<item quantity="one">Move message</item>
-		<item quantity="other">Move messages</item>
+		<item quantity="one">Pindah mesej</item>
+		<item quantity="other">Pindah berbilang mesej</item>
 	</plurals>
 	<!-- Toast shown when a message(s) can't be moved because it's not supported by the POP3
 	protocol. [CHAR LIMIT=none]-->
@@ -136,32 +136,32 @@
 	akaun."</string>
 	<!-- Toast shown when messages can't be moved because the selection contains multiple accounts'
 	messages. [CHAR LIMIT=none]-->
-	<string name="cannot_move_multiple_accounts_toast">"Tidak boleh menindah kerana pilihan mengandungi beberapa 
+	<string name="cannot_move_multiple_accounts_toast">"Tidak boleh memindah kerana pilihan mengandungi beberapa 
 	akaun."</string>
 	<!-- Toast shown when messages can't be moved because they're in a special mailbox.  "Drafts",
 	"Outbox" and "Sent". [CHAR LIMIT=none]-->
-	<string name="cannot_move_special_mailboxes_toast">"Pesanan di dalam Lakaran, Peti keluar, dan Dihantar tidak boleh
+	<string name="cannot_move_special_mailboxes_toast">"Pesanan di dalam Draf, Peti Keluar, dan Dihantar tidak boleh
 	dipindahkan."</string>
 	
 	<!-- Notification message in notifications window when one account has
 	one or more new messages; e.g, "279 unread (someone@google.com)". -->
 	<plurals name="notification_new_one_account_fmt">
 		<!-- Case of one new message. -->
-		<item quantity="one"><xliff:g id="unread_message_count" example="1">%1$d</xliff:g> unread (<xliff:g id="account">%2$s</xliff:g>)</item>
+		<item quantity="one"><xliff:g id="unread_message_count" example="1">%1$d</xliff:g> belum dibaca (<xliff:g id="account">%2$s</xliff:g>)</item>
 		
 		<!-- Case of "few" (small number of) new messages. -->
-		<item quantity="few"><xliff:g id="unread_message_count" example="2">%1$d</xliff:g> unread (<xliff:g id="account">%2$s</xliff:g>)</item>
+		<item quantity="few"><xliff:g id="unread_message_count" example="2">%1$d</xliff:g> belum dibaca (<xliff:g id="account">%2$s</xliff:g>)</item>
 		
 		<!-- Case of a plural number of new messages. -->
-		<item quantity="other"><xliff:g id="unread_message_count" example="279">%1$d</xliff:g> unread (<xliff:g id="account">%2$s</xliff:g>)</item>
+		<item quantity="other"><xliff:g id="unread_message_count" example="279">%1$d</xliff:g> belum dibaca (<xliff:g id="account">%2$s</xliff:g>)</item>
 	</plurals>
 	
 	<!-- Notification message in notifications window when 2+ accounts have new mail; e.g, "in 3 accounts". -->
 	<plurals name="notification_new_multi_account_fmt">
 		<!-- Case of "few" (small number of) accounts with unread messages. -->
-		<item quantity="few">in <xliff:g id="number_accounts" example="2">%d</xliff:g> accounts</item>
+		<item quantity="few">in <xliff:g id="number_accounts" example="2">%d</xliff:g> akaun</item>
 		<!-- Case of plural number of accounts with unread messages. -->
-		<item quantity="other">in <xliff:g id="number_accounts" example="10">%d</xliff:g> accounts</item>
+		<item quantity="other">in <xliff:g id="number_accounts" example="10">%d</xliff:g> akaun</item>
 	</plurals>
 	<!-- String to indicate which account received a new message. [CHAR LIMIT=none] -->
 	<string name="notification_to_account">ke <xliff:g id="receiver_name" example="Main">%1$s</xliff:g></string>
@@ -171,12 +171,12 @@
 	<xliff:g example="2">%1$d</xliff:g> pesanan baru</string>
 	
 	<!-- Name given to "all accounts" in the account picker for shortcuts and widget [CHAR LIMIT=20] -->
-	<string name="account_name_display_all">Semua akun</string>
+	<string name="account_name_display_all">Semua akaun</string>
 	
 	<!-- The number of accounts configured. [CHAR LIMIT=16] -->
 	<plurals name="number_of_accounts">
-		<item quantity="one"><xliff:g id="num_accounts" example="1">%1$d</xliff:g> account</item>
-		<item quantity="other"><xliff:g id="num_accounts" example="2">%1$d</xliff:g> accounts</item>
+		<item quantity="one"><xliff:g id="num_accounts" example="1">%1$d</xliff:g> akaun</item>
+		<item quantity="other"><xliff:g id="num_accounts" example="2">%1$d</xliff:g> akaun</item>
 	</plurals>
 	<!-- The next set of strings are used server-side and must not be localized. -->
 	<!-- Do Not Translate.  This is the name of the "inbox" folder, on the server. -->
@@ -215,8 +215,8 @@
 	<string name="picker_combined_view_fmt">Paparan (<xliff:g id="count">%s</xliff:g>) digabungkan</string>
 	<!-- Count of accounts; used in picker_combined_view_fmt -->
 	<plurals name="picker_combined_view_account_count">
-		<item quantity="one"  ><xliff:g id="account_count" example="1">%d</xliff:g> account</item>
-		<item quantity="other"><xliff:g id="account_count" example="9">%d</xliff:g> accounts</item>
+		<item quantity="one"  ><xliff:g id="account_count" example="1">%d</xliff:g> akaun</item>
+		<item quantity="other"><xliff:g id="account_count" example="9">%d</xliff:g> akaun</item>
 	</plurals>
 	
 	<!-- Version number, shown only on debug screen -->
@@ -281,14 +281,14 @@
 	<!--  The number of messages that are currently selected for various operations such as
 	"delete message(s)" [CHAR LIMIT=32] -->
 	<plurals name="message_view_selected_message_count">
-		<item quantity="one"  ><xliff:g id="message_count" example="1">%d</xliff:g> selected</item>
-		<item quantity="other"><xliff:g id="message_count" example="9">%d</xliff:g> selected</item>
+		<item quantity="one"  ><xliff:g id="message_count" example="1">%d</xliff:g> dipilih</item>
+		<item quantity="other"><xliff:g id="message_count" example="9">%d</xliff:g> dipilih</item>
 	</plurals>
 	<!-- Message to show when there are no messages (emails) in the selected mailbox.
 	[CHAR LIMIT=26] -->
-	<string name="message_list_no_messages">Tiada persanan</string>
+	<string name="message_list_no_messages">Tiada pesanan</string>
 	<!-- Hint text in To field -->
-	<string name="message_compose_to_hint">Ke</string>
+	<string name="message_compose_to_hint">Kepada</string>
 	<!-- Hint text in Cc field -->
 	<string name="message_compose_cc_hint">Cc</string>
 	<!-- Hint text in Bcc field -->
@@ -296,7 +296,7 @@
 	<!-- Hint text in Subject field -->
 	<string name="message_compose_subject_hint">Subjek</string>
 	<!-- Label for From field [CHAR LIMIT=12] -->
-	<string name="message_compose_from_label">Dari:</string>
+	<string name="message_compose_from_label">Daripada:</string>
 	<!-- Label for To field [CHAR LIMIT=12] -->
 	<string name="to">To</string>
 	<!-- Label for Cc field [CHAR LIMIT=12] -->
@@ -308,9 +308,9 @@
 	<!-- Hint text in Message composer body field -->
 	<string name="body_hint">Karangkan e-mel</string>
 	<!-- Header for forwarded original messages -->
-	<string name="message_compose_fwd_header_fmt">\n\n-------- Original Message --------\nSubject: <xliff:g id="subject">%1$s</xliff:g>\nFrom: <xliff:g id="sender">%2$s</xliff:g>\nTo: <xliff:g id="to">%3$s</xliff:g>\nCC: <xliff:g id="cc">%4$s</xliff:g>\n\n</string>
+	<string name="message_compose_fwd_header_fmt">\n\n-------- Mesej Asal --------\nSubjek: <xliff:g id="subject">%1$s</xliff:g>\nDaripada: <xliff:g id="sender">%2$s</xliff:g>\nKepada: <xliff:g id="to">%3$s</xliff:g>\nCC: <xliff:g id="cc">%4$s</xliff:g>\n\n</string>
 	<!-- Header for replied-to messages -->
-	<string name="message_compose_reply_header_fmt">\n\n<xliff:g id="sender">%s</xliff:g> wrote:\n\n</string>
+	<string name="message_compose_reply_header_fmt">\n\n<xliff:g id="sender">%s</xliff:g> menulis:\n\n</string>
 	<!-- Heading that appears before forwarded text -->
 	<string name="message_compose_quoted_text_label">Kandungkan nota yang dipetik</string>
 	<!-- Label of checkbox to include original message in a forwarded/replied message
@@ -369,14 +369,14 @@
 	<string name="message_view_show_invite_action">Jemputan</string>
 	<!--Button on the message view screen to show the attachments [CHAR LIMIT=16] -->
 	<plurals name="message_view_show_attachments_action">
-		<item quantity="one">Attachment <xliff:g id="num_attachment" example="1" >%1$d</xliff:g></item>
-		<item quantity="other">Attachments <xliff:g id="num_attachment" example="3" >%1$d</xliff:g></item>
+		<item quantity="one">Lampiran <xliff:g id="num_attachment" example="1" >%1$d</xliff:g></item>
+		<item quantity="other">Lampiran <xliff:g id="num_attachment" example="3" >%1$d</xliff:g></item>
 	</plurals>
 	<!-- Button on the message view screen to show the embedded pictures [CHAR LIMIT=16] -->
-	<string name="message_view_show_pictures_action">Tujukan gambar</string>
+	<string name="message_view_show_pictures_action">Tunjukkan gambar</string>
 	<!-- Button on the message view screen to always show pictures from the given
 	sender [CHAR LIMIT=32] -->
-	<string name="message_view_always_show_pictures_button">Tujukan Selalu</string>
+	<string name="message_view_always_show_pictures_button">Tunjukkan Selalu</string>
 	<!-- Prompt on the message view screen whether or not to always show pictures from the
 	given sender [CHAR LIMIT=80] -->
 	<string name="message_view_always_show_pictures_prompt">
@@ -388,7 +388,7 @@
 	<!-- Calendar invitation, label of the button to open in calendar [CHAR LIMIT=24] -->
 	<string name="message_view_invite_view">Tunjukkan dalam kalendar</string>
 	<!-- String shown with a calendar invitation. -->
-	<string name="message_view_invite_title">Pelawaan kelander</string>
+	<string name="message_view_invite_title">Pelawaan kalendar</string>
 	<!-- String shown with a calendar invitation. -->
 	<string name="message_view_invite_text">Menghadiri?</string>
 	<!-- Button text: Calendar invitation: Accept. The leading space is used for spacing -->
@@ -406,7 +406,7 @@
 	<string name="message_view_invite_toast_no">"Anda telah menolak pelawaan ini."</string>
 	<!--Confirmation dialog title shown when user tries to delete messages.  [CHAR LIMIT=16] -->
 	<!-- Link label to show to/cc/bcc of the curent message [CHAR LIMIT=32] -->
-	<string name="message_view_show_details">Tujukan butiran</string>
+	<string name="message_view_show_details">Tunjukkan butiran</string>
 	<!-- Title of the dialog box to show to/cc/bcc of the message.  [CHAR LIMIT=32] -->
 	<string name="message_view_message_details_dialog_title">Perincian persanan</string>
 	
@@ -426,7 +426,7 @@
 		perisian yang berniat jahat.</string>
 	<!-- Message body when the attachment can't be loaded due to security policy restrictions -->
 	<string name="attachment_info_policy">
-		Lampiran ini tidak boleh disimpan atau dibuka disebebkan 
+		Lampiran ini tidak boleh disimpan atau dibuka disebabkan 
 		oleh polisi keselamatan akaun ini.</string>
 	
 	<!-- Message body when the attachment can only be downloaded over Wi-Fi -->
@@ -435,23 +435,23 @@
 		Anda boleh memuat turun ianya ketika anda menyambung ke rangkaian Wi-Fi.</string>
 	<!-- Message body when no activities can open the attachment -->
 	<string name="attachment_info_no_intent">
-		Tiada appikasi yang boleh menbuka lapiran ini. Sila cuba muat turun applikasi yang 
-		tepat dari Gudang Play.</string>
+		Tiada appikasi yang boleh membuka lampiran ini. Sila cuba muat turun aplikasi yang 
+		tepat dari PlayStore.</string>
 	<!-- Message body when the attachment is an application, but, side loading is disabled -->
 	<string name="attachment_info_sideload_disabled">
 		Lampiran ini merupakan satu applikasi. Anda mesti menanda Sumber Tidak Diketahui 
-		daripada Tetepan &gt; Applikasi sebelum anda boleh memasangnya.</string>
+		daripada Tetapan &gt; Aplikasi sebelum anda boleh memasangnya.</string>
 	<!-- Message body when the attachment is an application, and side loading is enabled -->
 	<string name="attachment_info_apk_install_disabled">
-		Applikasi tidak boleh memasang secara terus dari e-mel. Sila menyimpan 
-		applikasi ini dahulu kemudian memasangnya dengan Pengmuat turun applikasi.</string>
+		Aplikasi tidak boleh dipasang secara terus dari e-mel. Sila menyimpan 
+		aplikasi ini dahulu kemudian memasangnya dengan Pengmuat turun applikasi.</string>
 	<!-- Error banner when an attachment could not be downloaded due to a problem at the server
 	[CHAR LIMIT=100] -->
-	<string name="attachment_not_found">"Tidak dapat memeuat turun lampiran."</string>
+	<string name="attachment_not_found">"Tidak dapat memuat turun lampiran."</string>
 	
 	<!-- String used in place of a message that could not be properly decoded (e.g. bad base64
 	data was received.) [CHAR LIMIT=none] -->
-	<string name="message_decode_error">Terdapat kesilapan ketika menyahkod persanan.</string>
+	<string name="message_decode_error">Terdapat kesilapan ketika menyahkod pesanan.</string>
 	
 	<!-- Title of the EML viewer activity. [CHAR LIMIT=32] -->
 	<string name="eml_view_title">Pandangan <xliff:g id="filename" example="test.eml">%s</xliff:g></string>
@@ -459,18 +459,18 @@
 	<string name="message_delete_dialog_title"/>
 	<!--Confirmation dialog text shown when user tries to delete messages.  [CHAR LIMIT=32] -->
 	<plurals name="message_delete_confirm">
-		<item quantity="one">Delete this message?</item>
-		<item quantity="other">Delete these messages?</item>
+		<item quantity="one">Buang mesej ini?</item>
+		<item quantity="other">Buang semua mesej ini?</item>
 	</plurals>
 	<!-- Toast shown briefly while deleting a message -->
 	<plurals name="message_deleted_toast">
-		<item quantity="one">Message deleted</item>
-		<item quantity="other">Messages deleted</item>
+		<item quantity="one">Mesej dibuang</item>
+		<item quantity="other">Mesej-mesej dibuang</item>
 	</plurals>
 	<!-- Toast shown briefly while deleting an unsent (draft) message -->
-	<string name="message_discarded_toast">Persanan telah dibuang</string>
+	<string name="message_discarded_toast">Pesanan telah dibuang</string>
 	<!-- Toast shown briefly while saving a draft -->
-	<string name="message_saved_toast">Persanan disimpan sebagai draf</string>
+	<string name="message_saved_toast">Pesanan disimpan sebagai draf</string>
 	<!-- String that is displayed when the attachment could not be displayed. -->
 	<string name="message_view_display_attachment_toast">"Tidak boleh mempamerkan lampiran."</string>
 	<!-- String that is displayed when the attachment could not be loaded.[CHAR LIMIT=none] -->
@@ -527,7 +527,7 @@
 	<string name="message_list_subject_snippet_divider">\u0020\u2014\u0020</string>
 	
 	<!-- Title of screen when setting up new email account [CHAR LIMIT=45] -->
-	<string name="account_setup_basics_title">Persedian akaun</string>
+	<string name="account_setup_basics_title">Persediaan akaun</string>
 	<!-- Title of the screen when adding exchange account [CHAR LIMIT=45] -->
 	<string name="account_setup_basics_exchange_title">Menambah satu akaun Exchange</string>
 	<!-- Title of the screen when adding exchange account [CHAR LIMIT=45] -->
@@ -536,7 +536,7 @@
 	[CHAR LIMIT=none] -->
 	<string name="account_setup_basics_headline">Akaun e-mel</string>
 	<!-- On "Set up email" screen, enthusiastic welcome message. -->
-	<string name="accounts_welcome">Andan boleh menyediakan e-mel dari kebanyakan akaun hanya dalam beberapa langkah.</string>
+	<string name="accounts_welcome">Anda boleh menyediakan e-mel dari kebanyakan akaun hanya dalam beberapa langkah.</string>
 	<!-- On "Set up email" screen, enthusiastic welcome message (in EAS mode). -->
 	<string name="accounts_welcome_exchange">Anda boleh menyediakan akaun Exchange hanya dalam beberapa 
 	langkah.</string>
@@ -556,7 +556,7 @@
 	<!-- Note, the error message in the toast is purposefully vague, because I *don't* know
 	exactly what's wrong. -->
 	<string name="account_setup_username_password_toast">
-	Sila meniap alamat e-mel and kata laluan ynag sah.</string>
+	Sila taip alamat e-mel and kata laluan ynag sah.</string>
 	<!-- Title of dialog shown when a duplicate account is created -->
 	<string name="account_duplicate_dlg_title">Duplikasi akaun</string>
 	<!-- Message of dialog shown when a duplicate account is created. The display name of
@@ -573,10 +573,10 @@
 	Sedang menerima infomasi akaun\u2026</string>
 	<!-- Appears on screen while system is checking incoming server settings -->
 	<string name="account_setup_check_settings_check_incoming_msg">
-	Menemak tetapan dari pelayan tibaan\u2026</string>
+	Menyemak tetapan dari pelayan tibaan\u2026</string>
 	<!-- Appears on screen while system is checking outgoing server settings -->
 	<string name="account_setup_check_settings_check_outgoing_msg">
-	Menemak tetapan pelayan bertolak\u2026</string>
+	Menyemak tetapan pelayan bertolak\u2026</string>
 	
 	<!-- Title of "Set up email" screen after success [CHAR LIMIT=45] -->
 	<string name="account_setup_names_title">Persedian akaun</string>
@@ -735,12 +735,12 @@
 	<string name="account_setup_options_sync_contacts_label">Selarikan kenalan dari akaun ini.
 	</string>
 	<!-- In Account setup options screen, optional check box to also sync contacts -->
-	<string name="account_setup_options_sync_calendar_label">Selarikan kelander dari akaun ini.</string>
+	<string name="account_setup_options_sync_calendar_label">Selarikan kalendar dari akaun ini.</string>
 	<!-- In Account setup options screen, check box to sync email -->
 	<string name="account_setup_options_sync_email_label">Selarikan e-mel dari akaun ini.</string>
 	<!-- In Account setup options screen, check box to auto-download attachments  [CHAR LIMIT=none]
 	-->
-	<string name="account_setup_options_background_attachments_label">Apabila terdapat sambungan Wi-Fi, lampiran akan dimuaturun secara automatik</string>
+	<string name="account_setup_options_background_attachments_label">Apabila terdapat sambungan Wi-Fi, lampiran akan dimuat turun secara automatik</string>
 	<!-- Dialog title when "setup" could not finish -->
 	<string name="account_setup_failed_dlg_title">"Tidak akan tercapai"</string>
 	<!-- In Account setup options screen, label for email lookback selector -->
@@ -963,9 +963,9 @@
 	<!-- On settings screen, sync contacts summary text [CHAR LIMIT=35] -->
 	<string name="account_settings_sync_contacts_summary">Selaraskan kenalan untuk akaun ini</string>
 	<!-- On settings screen, sync calendar check box label [CHAR LIMIT=20]-->
-	<string name="account_settings_sync_calendar_enable">Selaraskan kelander</string>
+	<string name="account_settings_sync_calendar_enable">Selaraskan kalendar</string>
 	<!-- On settings screen, sync calendar summary text [CHAR LIMIT=35] -->
-	<string name="account_settings_sync_calendar_summary">Selaraskan kelander untuk akaun ini</string>
+	<string name="account_settings_sync_calendar_summary">Selaraskan kalendar untuk akaun ini</string>
 	<!-- On settings screen, sync email check box label [CHAR LIMIT=20]-->
 	<string name="account_settings_sync_email_enable">Selarasksn E-mel</string>
 	<!-- On settings screen, sync email summary text [CHAR LIMIT=35] -->
@@ -1039,7 +1039,7 @@
 	<!-- Name of the DeviceAdmin (seen in settings & in user confirmation screen) -->
 	<string name="device_admin_label">E-mel</string>
 	<!-- Long-form description of the DeviceAdmin (2nd line in settings & in user conf. screen) -->
-	<string name="device_admin_description">Menbenarkan polisi-polisi keselamatan yang dikususkan oleh pelayan</string>
+	<string name="device_admin_description">Membenarkan polisi-polisi keselamatan yang dikususkan oleh pelayan</string>
 	
 	<!-- Strings used for GAL access -->
 	
@@ -1066,7 +1066,7 @@
 	<!-- Label in preferences header to describe general preferences [CHAR LIMIT=32] -->
 	<string name="header_label_general_preferences">Umum</string>
 	<!-- First category in general preferences [CHAR LIMIT=64] -->
-	<string name="category_general_preferences">Applikasi</string>
+	<string name="category_general_preferences">Aplikasi</string>
 	
 	<!-- General preference: Label of the setting for the direction to move to
 	when deleting the current message.
@@ -1101,11 +1101,11 @@
 	 general_preference_text_zoom_small, general_preference_text_zoom_normal, etc.
 	 [CHAR LIMIT=64] -->
 	<string-array name="general_preference_text_zoom_summary_array">
-		<item>Tiny text</item>
-		<item>Small text</item>
-		<item>Default text</item>
-		<item>Large text</item>
-		<item>Huge text</item>
+		<item>TEks amat kecil</item>
+		<item>Teks kecil</item>
+		<item>Teks default</item>
+		<item>Teks besar</item>
+		<item>Teks amat besar</item>
 	</string-array>
 	
 	<!-- The message text size values -->
@@ -1131,9 +1131,9 @@
 	<string name="general_preference_text_zoom_huge">Sangat besar</string>
 	
 	<!--  Settings screen, Reply to all default setting title  [CHAR LIMIT=30] -->
-	<string msgid="6469564953937885304" name="general_preference_reply_all_label">Always Reply all</string>
+	<string msgid="6469564953937885304" name="general_preference_reply_all_label">Sentiasa Balas Semua</string>
 	<!--  Settings screen, Reply to all default setting summary [CHAR LIMIT=70] -->
-	<string msgid="3356918650886350497" name="general_preference_reply_all_summary">Make Reply all the default setting for all your replies</string>
+	<string msgid="3356918650886350497" name="general_preference_reply_all_summary">Jadikan Balas Semua sebagai tetapan default untuk semua balasan</string>
 	
 	<!-- Settings screen, title used to clear the setting for the list of
 	senders to automatically show pictures for [CHAR LIMIT=80] -->
