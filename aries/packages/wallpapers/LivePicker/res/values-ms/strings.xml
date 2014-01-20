@@ -30,7 +30,7 @@
     <!-- Title for the screen that lets the user preview a live wallpaper. -->
     <string name="live_wallpaper_preview_title">Live wallpaper preview</string>
     <!-- List item for configuring the current wallpaper -->
-    <string name="configure_wallpaper">Settings…</string>
+    <string name="configure_wallpaper">Tetapan</string>
     <!-- Button label on Wallpaper Gallery screen; user selects this button to set a specific wallpaper -->
     <string name="wallpaper_instructions">Set wallpaper</string>
     <!-- Warning message, no live wallpapers available. -->
