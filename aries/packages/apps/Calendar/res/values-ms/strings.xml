@@ -175,8 +175,8 @@
     <string name="not_synced"> Tidak disegerakkan</string>
     <!-- Message displayed to user when an account with Calendars is not being auto-synced
         [CHAR LIMIT=120]-->
-    <string name="acct_not_synced">Akaun ini tidak disegerakkan oleh itu kalendar
-    anda mungkin tidak akan tepat.</string>
+    <string name="acct_not_synced">"Akaun ini tidak disegerakkan, oleh itu kalendar
+    anda mungkin tidak akan tepat."</string>
     <!-- Label on button that takes user to the Accounts and Sync settings page [CHAR LIMIT=60] -->
     <string name="accounts">Akaun &amp; segerakkan</string>
 
@@ -225,7 +225,7 @@
     <!-- Event info/edit screen labels:-->
     <skip/>
     <!-- This is the title of the screen used to view the details of an event -->
-    <string name="event_info_title">Lihar acara</string>
+    <string name="event_info_title">Lihat acara</string>
     <!-- This is the title of the screen used to view the details of an invitation
          to a meeting or event -->
     <string name="event_info_title_invite">Jemputan mesyuarat</string>
@@ -305,10 +305,10 @@
     <string name="quick_response_email_failed">Gagal mencari e-mel aplaksi</string>
     <!-- The is shown in the email subject as the prefix appended to the event title [CHAR LIMIT=none]-->
     <string-array name="quick_response_defaults">
-        <item>Running just a couple of minutes late.</item>
-        <item>Be there in about 10 minutes.</item>
-        <item>Go ahead and start without me.</item>
-        <item>Sorry, I can\'t make it. We\'ll have to reschedule.</item>
+        <item>Lambat beberapa minit.</item>
+        <item>Berada di sana dalam 10 minit.</item>
+        <item>Teruskan dan mula tanpa saya.</item>
+        <item>Maaf, Saya tak dapat hadir hari ini, kita kena jadualkan balik pertemuan.</item>
         </string-array>
     <!-- Option to create a custom response instead of using defaults [CHAR LIMIT=none] -->
     <string name="quick_response_custom_msg">Mesej yang dikehendaki\u2026</string>
@@ -319,9 +319,9 @@
     <!-- Repetition Label [CHAR LIMIT=12]-->
 
     <!-- Organizer Label [CHAR LIMIT=12]-->
-    <string name="event_info_organizer">Organizer:</string>
+    <string name="event_info_organizer">Penganjur:</string>
     <!-- Reminders label [CHAR LIMIT=15]-->
-    <string name="event_info_reminders_label">Reminders</string>
+    <string name="event_info_reminders_label">Peringatan</string>
 
     <!-- Agenda View strings -->
     <skip/>
@@ -512,25 +512,25 @@
     <!-- The vibrate notification modes -->
     <string-array name="prefEntries_alerts_vibrateWhen">
         <!-- Always -->
-        <item>Always</item>
+        <item>Sentiasa</item>
         <!-- Only when the phone is in Silent mode -->
-        <item>Only when ringer is silenced</item>
+        <item>Hanya apabila deringan disenyapkan</item>
         <!-- Never -->
-        <item>Never</item>
+        <item>Tidak pernah</item>
     </string-array>
 
     <!-- The default vibrateWhen value, when none is set -->
-    <string translatable="false" name="prefDefault_alerts_vibrateWhen">never</string>
+    <string translatable="false" name="prefDefault_alerts_vibrateWhen">tidak pernah</string>
     <!-- The value to use then migrating from old versions for a true vibrate setting -->
-    <string translatable="false" name="prefDefault_alerts_vibrate_true">always</string>
+    <string translatable="false" name="prefDefault_alerts_vibrate_true">sentiasa</string>
     <!-- The value to use then migrating from old versions for a false vibrate setting -->
-    <string translatable="false" name="prefDefault_alerts_vibrate_false">never</string>
+    <string translatable="false" name="prefDefault_alerts_vibrate_false">tidak pernah</string>
 
     <!-- The vibrateWhen values -->
     <string-array translatable="false" name="prefValues_alerts_vibrateWhen">
-        <item>always</item>
-        <item>silent</item>
-        <item>never</item>
+        <item>sentiasa</item>
+        <item>diam</item>
+        <item>tidak pernah</item>
     </string-array>
 
     <!-- Dialog title for the Vibrate dialog -->

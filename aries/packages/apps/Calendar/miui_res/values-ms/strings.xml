@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="day_view_new_event_hint">"New event"</string>
+    <string name="day_view_new_event_hint">"Acara Baru"</string>
     <string name="button_day">"D"</string>
     <string name="button_month">"M"</string>
 
     <!-- 设置 -->
-    <string name="account_and_calendar">Account and calendar</string>
-    <string name="account_and_calendar_to_display">Account and calendar to display</string>
-    <string name="default_reminder_mode">Default reminder mode</string>
-    <string name="time_zone">Time zone</string>
-    <string name="show_all_lunar">Show all lunar</string>
-    <string name="show_almanac">Show almanac</string>
+    <string name="account_and_calendar">Akaun dan Kalendar</string>
+    <string name="account_and_calendar_to_display">Akaun dan kalendar untuk dipaparkan</string>
+    <string name="default_reminder_mode">Default mod peringatan</string>
+    <string name="time_zone">Zon Masa</string>
+    <string name="show_all_lunar">Tunjuk semua lunar</string>
+    <string name="show_almanac">Tunjuk almanac</string>
 
     <!-- Month List -->
     <string name="event_lunar_month">月</string>
     <string name="huangli_good_type">宜</string>
     <string name="huangli_bad_type">忌</string>
-    <string name="event_all_day_label">All Day</string>
+    <string name="event_all_day_label">Semua hari</string>
 
     <!-- New Event -->
-    <string name="event_account">Calendar account</string>
-    <string name="hint_what">Event reminder content</string>
-    <string name="event_show_more">Show</string>
-    <string name="event_hide_more">Hide</string>
+    <string name="event_account">Akaun kalendar</string>
+    <string name="hint_what">Kandungan peringatan acara</string>
+    <string name="event_show_more">Tunjuk</string>
+    <string name="event_hide_more">Sembunyi</string>
     <string name="presence_label">Status</string>
 
     <!-- 日历详情 -->
-    <string name="event_info_when">When:\u0020</string>
-    <string name="event_info_repeat">Repetition:\u0020</string>
-    <string name="event_info_where">Where:\u0020</string>
-    <string name="event_info_descrip">Description:\u0020</string>
+    <string name="event_info_when">Bila:\u0020</string>
+    <string name="event_info_repeat">Pengulangan:\u0020</string>
+    <string name="event_info_where">Di mana:\u0020</string>
+    <string name="event_info_descrip">Penerangan:\u0020</string>
 
     <!-- No translation -->
     <string name="chongsha">冲煞</string>
@@ -43,12 +43,12 @@
     <string name="activity_summary">充值10元抽奖</string>
 
     <!-- Date Picker -->
-    <string name="lunar_date">Lunar Date</string>
+    <string name="lunar_date">Tarikh Lunar</string>
 
     <!-- Widget -->
-    <string name="widget_select_style">Select a style</string>
-    <string name="widget_events">The next events</string>
-    <string name="widget_no_events">Next, no agenda</string>
+    <string name="widget_select_style">Pilih gaya</string>
+    <string name="widget_events">Acara berikutnya</string>
+    <string name="widget_no_events">Seterusnya, tiada agenda</string>
 
     <!-- 春运日历 No translatio-->
     <string name="gou_piao_website_start_time">可购%s火车票（网络、电话订票）</string>
