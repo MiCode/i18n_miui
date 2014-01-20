@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name">Voice Assist</string>
-    <string name="title_activity_check">Install Voice Assist</string>
-    <string name="content">Voice Assist is not installed，go to market and install it？</string>
-    <string name="cancel">Cancel</string>
-    <string name="confirm">OK</string>
-</resources>
