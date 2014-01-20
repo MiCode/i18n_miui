@@ -23,8 +23,8 @@
 	
 	<string name="edit">Edit</string>
 	<string name="delete">Buang</string>
-	<string name="multi_select_title"><xliff:g id="number">%1$s</xliff:g> selected</string>
-	<string name="delete_multi_bookmarks_alert_title" >Delete <xliff:g id="number">%1$s</xliff:g> items?</string>
+	<string name="multi_select_title"><xliff:g id="number">%1$s</xliff:g> dipilih</string>
+	<string name="delete_multi_bookmarks_alert_title" >Buang <xliff:g id="number">%1$s</xliff:g> item?</string>
 	
 	<string name="add_bookmark">Tambah penanda</string>
 	<string name="send_bookmark_to_home_screen">Hantar ke skrin utama</string>
@@ -35,8 +35,8 @@
 	<string name="folder_name">Nama folder</string>
 	<string name="same_folder_name_warning">Folder ini sudah wujud</string>
 	<string name="same_bookmarks_warning">Penanda ini sudah wujud</string>
-	<string name="have_sent_bookmark_to_home_screen">Bookmark sent to home screen</string>
-	<string name="already_in_top_level">Bookmark sudah di peringkat tertinggi</string>
+	<string name="have_sent_bookmark_to_home_screen">Penanda dihantar ke skrin utama</string>
+	<string name="already_in_top_level">Penanda sudah di peringkat tertinggi</string>
 	
 	<string name="bookmark_this_page_to_readmodelist">Tambah halaman ini kepada penanda Senarai Membaca</string>
 	<string name="readmodelist_bookmarks_to_show">Senarai Membaca</string>
@@ -64,16 +64,16 @@
 	
 	<string-array name="pref_homepage_choices">
 		<!-- Setting choice to set the homepage to the miui_home page [CHAR LIMIT=40] -->
-		<item>Default start page</item>
+		<item>Default laman mula</item>
 		<!-- Setting choice to set the homepage to a user entered URL [CHAR LIMIT=40] -->
-		<item>Custom</item>
+		<item>Khas</item>
 		</string-array>
 		<string-array name="pref_homepage_values" translatable="false">
 		<item>miui_home</item>
-		<item>other</item>
+		<item>lain</item>
 	</string-array>
 	
-	<string name="general_set_default_browser_title">Tetapkan sebagai browser default</string>
+	<string name="general_set_default_browser_title">Tetapkan sebagai pelayar default</string>
 	<string name="general_set_default_browser_dialog_summary">Guna app bersepadu MIUI untuk prestasi yang cepat dan lancar</string>
 	<string name="general_set_default_browser_dialog_close_txt">Tutup</string>
 	<string name="general_set_default_browser_dialog_ok_txt">OK</string>
@@ -168,8 +168,8 @@
 	<string name="pref_volume_key_enabled">Kunci kelantangan</string>
 	<string name="pref_volume_key_operation">Operasi untuk kunci kelantangan</string>
 	<string-array name="pref_volume_key_choices">
-		<item>Previous page/Next page</item>
-		<item>Previous tab/Next tab</item>
+		<item>Laman sebelum/Laman selepas</item>
+		<item>Tab sebelum/Tab selepas</item>
 	</string-array>
 	<string-array name="pref_volume_key_values" translatable="false">
 		<item>0</item>
@@ -180,8 +180,8 @@
 	<string name="pref_fling_on_border_enabled">Lempar pada penhujung</string>
 	<string name="pref_fling_on_border_enabled_title_summary">Slaid dari penghujung skrin</string>
 	<string-array name="pref_fling_on_border_choices">
-		<item>Page forward/backward</item>
-		<item>Switch window</item>
+		<item>Laman maju/undur</item>
+		<item>Tukar tetingkap</item>
 	</string-array>
 	<string-array name="pref_fling_on_border_values" translatable="false">
 		<item>0</item>
@@ -282,9 +282,9 @@
 	<string name="pref_images_preload_dialogtitle">Pra-muatan imej\u2026</string>
 	
 	<string-array name="pref_images_preload_choices">
-		<item>Never</item>
-		<item>Only on Wi-Fi</item>
-		<item>Always</item>
+		<item>Tidak pernah</item>
+		<item>Hanya guna Wi-Fi</item>
+		<item>Selalu</item>
 	</string-array>
 	
 	<!-- Traffic Management:  images pre-load values -->
@@ -299,10 +299,10 @@
 	<string name="pref_link_prefetch_value_never_summary">Jangan sekali-kali benarkan penyemak imbas untuk pramuat laman web yang dihubungi di latar belakang</string>
 	
 	<!-- Traffic Management: video preload -->
-	<string name="pref_video_preload_value_never_summary">"Never allow browser to preload videos"</string>
+	<string name="pref_video_preload_value_never_summary">"Jangan benar pelayar untuk pramuat video-video"</string>
 	
 	<!-- Setting homepage -->
-	<string name="pref_data_title" msgid="7255058703417796578">"Bandwidth management"</string>
+	<string name="pref_data_title" msgid="7255058703417796578">"Pengurusan jalur lebar"</string>
 	
 	<!-- Save bandwidth mode -->
 	<string name="pref_save_bandwidth_mode_title">"Pengunaan data mudah alih"</string>
@@ -355,7 +355,7 @@
 	<string name="clip_dialog_title">Buka link yang telah disalin?</string>
 	<string name="quicklinks_management">Pautan pantas</string>
 	<string name="download">Muat turun</string>
-	<string name="loading_rest_candidates">Loading rest candidates</string>
+	<string name="loading_rest_candidates">Memuatkan calon lain</string>
 	<string name="downloading">Sedang dimuat turun\u2026</string>
 	<string name="downloaded">Sudah dimuat turun!</string>
 	<string name="disk_space_used"><xliff:g id="number">%1$s</xliff:g> telah diguna</string>
@@ -404,11 +404,11 @@
 	<string name="download_dialog_file_length_nolength_error_txt">"Gagal untuk mengira saiz fail"</string>
 	<string name="download_dialog_file_length_lessthan1kb">"Kurang daripada 1K"</string>
 	<string name="download_dialog_default_path_invalid">"Tempat muat turun salah, tempat muat turun default akan digunakan"</string>
-	<string name="modify_download_path_no_sdcard_dlg_msg" product="nosdcard">USB storage is required to modify this path</string>
+	<string name="modify_download_path_no_sdcard_dlg_msg" product="nosdcard">Storan USB diperlukan untuk mengubahsuai laluan ini</string>
 	<string name="modify_download_path_no_sdcard_dlg_msg" product="default">An SD card is required to modify this path</string>
 	
-	<string name="geolocation_permissions_prompt_toast_disallowed" msgid="156443445797377409">"This site cannot access your location"</string>
-	<string name="pref_content_homepage" msgid="3324574611613105696">"Set start page"</string>
+	<string name="geolocation_permissions_prompt_toast_disallowed" msgid="156443445797377409">"Laman ini tidak boleh mengakses lokasi anda"</string>
+	<string name="pref_content_homepage" msgid="3324574611613105696">"Set laman mula"</string>
 	
 	<string name="bottom_bar_tabs_long_click_up_tip_txt">Leret ke atas untuk tutup</string>
 	<string name="bottom_bar_tabs_long_click_down_tip_txt">Leret ke bawah untuk tutup</string>
@@ -416,7 +416,7 @@
 	
 	<string name="network_show_wifi_setting_tip_dialog_setting_cate_title">Rangkaian Wi-Fi tersedia</string>
 	<string name="network_show_wifi_setting_tip_dialog_setting_title">"Jika anda menggunakan data mudah alih untuk mengakses Internet, MIUI akan memberitahu anda jika sambungan Wi-Fi yang berdekatan boleh didapati"</string>
-	<string name="network_show_wifi_setting_tip_dialog_title">Local Wi-Fi connection available</string>
+	<string name="network_show_wifi_setting_tip_dialog_title">Sambungan Wi-Fi tempatan boleh didapati</string>
 	<string name="network_show_wifi_setting_tip_dialog_description">Sambungan Wi-Fi dijumpai, adakah anda ingin menyambung?</string>
 	<string name="network_show_wifi_setting_tip_dialog_notshow">Simpan</string>
 	
