@@ -52,7 +52,7 @@
     <!-- Message that is read when you enter recent apps in TalkBack -->
     <plurals name="status_bar_accessibility_recent_apps">
         <item quantity="one">1 app terbaru</item>
-        <item quantity="other">%d app terbaru/item>
+        <item quantity="other">%d app terbaru</item>
     </plurals>
 
     <!-- The label in the bar at the top of the status bar when there are no notifications
