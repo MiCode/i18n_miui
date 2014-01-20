@@ -12,25 +12,25 @@
 	<string name="network_error">Tiada sambungan rangkaian, sila semak tetapan rangkaian anda</string>
 	
 	<plurals name="Ntracks_search_result_format">
-		<item quantity="one"><xliff:g id="count">%d</xliff:g> song was found</item>
-		<item quantity="other"><xliff:g id="count">%d</xliff:g> songs were found</item>
+		<item quantity="one"><xliff:g id="count">%d</xliff:g> lagu telah ditemui</item>
+		<item quantity="other"><xliff:g id="count">%d</xliff:g> lagu-lagu telah ditemui</item>
 	</plurals>
 	<plurals name="Ntracks_total">
-		<item quantity="one"><xliff:g id="count">%d</xliff:g> song</item>
-		<item quantity="other"><xliff:g id="count">%d</xliff:g> songs</item>
+		<item quantity="one"><xliff:g id="count">%d</xliff:g> lagu</item>
+		<item quantity="other"><xliff:g id="count">%d</xliff:g> lagu-lagu</item>
 	</plurals>
 	<plurals name="Nhot_tracks_total">
-		<item quantity="one"><xliff:g id="count">%d</xliff:g> popular song</item>
-		<item quantity="other"><xliff:g id="count">%d</xliff:g> popular songs</item>
+		<item quantity="one"><xliff:g id="count">%d</xliff:g> lagu popular</item>
+		<item quantity="other"><xliff:g id="count">%d</xliff:g> lagu-lagu popular</item>
 	</plurals>
 	<plurals name="Ntracks_string">
-		<item quantity="one"><xliff:g id="count">%d</xliff:g> song</item>
-		<item quantity="other"><xliff:g id="count">%d</xliff:g> songs</item>
+		<item quantity="one"><xliff:g id="count">%d</xliff:g> lagu</item>
+		<item quantity="other"><xliff:g id="count">%d</xliff:g> lagu-lagu</item>
 	</plurals>
 	<!-- used in various places to indicate there is some number other than one songs for a given artist or album. -->
 	<plurals name="Ntracks_format">
-		<item quantity="one"><xliff:g id="count">%d</xliff:g> song</item>
-		<item quantity="other"><xliff:g id="count">%d</xliff:g> songs</item>
+		<item quantity="one"><xliff:g id="count">%d</xliff:g> lagu</item>
+		<item quantity="other"><xliff:g id="count">%d</xliff:g> lagu-lagu</item>
 	</plurals>
 	
 	<!-- Used in artists list view, indicates how many albums exist for a given artist. -->
@@ -38,77 +38,77 @@
 		<!-- number of albums is one -->
 		<item quantity="one"><xliff:g id="count">%d</xliff:g> album</item>
 		<!-- number of albums is not equal to one -->
-		<item quantity="other"><xliff:g id="count">%d</xliff:g> albums</item>
+		<item quantity="other"><xliff:g id="count">%d</xliff:g> album-album</item>
 	</plurals>
 	<plurals name="Ntracks">
-		<item quantity="one"> song</item>
-		<item quantity="other"> songs</item>
+		<item quantity="one"> lagu</item>
+		<item quantity="other"> lagu-lagu</item>
 	</plurals>
 	<plurals name="Nalbums">
 		<item quantity="one"> album</item>
-		<item quantity="other"> albums</item>
+		<item quantity="other"> album-album</item>
 	</plurals>
 	<plurals name="Nartists">
-		<item quantity="one"> artist</item>
-		<item quantity="other"> artists</item>
+		<item quantity="one"> artis</item>
+		<item quantity="other"> artist-artis</item>
 	</plurals>
 	<plurals name="Nplaylists">
-		<item quantity="one"> playlist</item>
-		<item quantity="other"> playlists</item>
+		<item quantity="one"> senarai main</item>
+		<item quantity="other"> senarai main</item>
 	</plurals>
 	<plurals name="Nfolders">
 		<item quantity="one">" folder"</item>
-		<item quantity="other">" folders"</item>
+		<item quantity="other">" folder-folder"</item>
 	</plurals>
 	<plurals name="Nitems_batch_selection">
-		<item quantity="one">"%d selected"</item>
-		<item quantity="other">"%d selected"</item>
+		<item quantity="one">"%d dipilih"</item>
+		<item quantity="other">"%d dipilih"</item>
 	</plurals>
 	<plurals name="Ntrack_in_sdcard_format">
-		<item quantity="one">"%d song on SD card"</item>
-		<item quantity="other">"%d songs on SD card"</item>
+		<item quantity="one">"%d lagu dalam kad SD"</item>
+		<item quantity="other">"%d lagu-lagu dalam kad SD"</item>
 	</plurals>
 	
 	<!-- Toasts after adding song(s) to playlists -->
 	<plurals name="NNNtrackstoplaylist">
 		<!-- message shown when one song was added -->
-		<item quantity="one">1 song added to playlist</item>
+		<item quantity="one">1 lagu ditambah ke senarai main</item>
 		<!-- message shown when zero or more than one song was added -->
-		<item quantity="other"><xliff:g id="number" example="27">%d</xliff:g> songs added to playlist</item>
+		<item quantity="other"><xliff:g id="number" example="27">%d</xliff:g> lagu-lagu ditambahke senarai main</item>
 	</plurals>
 	
 	<plurals name="Ntracks_remove_from_playlist">
-		<item quantity="one">"1 song removed from playlist"</item>
-		<item quantity="other">"<xliff:g id="NUMBER">%d</xliff:g> songs removed from playlist"</item>
+		<item quantity="one">"1 lagu dibuang dari senarai main"</item>
+		<item quantity="other">"<xliff:g id="NUMBER">%d</xliff:g> lagu-lagu dibuang dari senarai main"</item>
 	</plurals>
 	
 	<!-- Toasts after adding song(s) to playlists -->
 	<plurals name="NNNtrackstofavoriteplaylist">
 	
 		<!-- message shown when one song was added -->
-		<item quantity="one">1 song added to playlist</item>
+		<item quantity="one">1 lagu ditambah ke senarai main</item>
 		<!-- message shown when zero or more than one song was added -->
-		<item quantity="other"><xliff:g id="number" example="27">%d</xliff:g> songs added to playlist</item>
+		<item quantity="other"><xliff:g id="number" example="27">%d</xliff:g> lagu-lagu ditambah ke senarai main</item>
 	</plurals>
 	
 	<plurals name="Ntracks_remove_from_favorite_playlist">
-		<item quantity="one">1 song removed from favorite playlist</item>
-		<item quantity="other"><xliff:g id="number" example="27">%d</xliff:g> songs removed from favorite playlist</item>
+		<item quantity="one">1 lagu dibuang dari senarai main kegemaran</item>
+		<item quantity="other"><xliff:g id="number" example="27">%d</xliff:g> lagu-lagu dibuang dari senarai main kegemaran</item>
 	</plurals>
 	
 	<plurals name="Nsearch_results">
-		<item quantity="one">"<xliff:g id="NUMBER">%d</xliff:g> result"</item>
-		<item quantity="other">"<xliff:g id="NUMBER">%d</xliff:g> results"</item>
+		<item quantity="one">"<xliff:g id="NUMBER">%d</xliff:g> keputusan"</item>
+		<item quantity="other">"<xliff:g id="NUMBER">%d</xliff:g> keputusan"</item>
 	</plurals>
 	
 	<plurals name="Nonlinecategory">
-		<item quantity="one">" category"</item>
-		<item quantity="other">" categories"</item>
+		<item quantity="one">" kategori"</item>
+		<item quantity="other">" kategori"</item>
 	</plurals>
 	
 	<plurals name="Nexpiration_reminder">
-		<item quantity="one">"<xliff:g id="NUMBER">%d</xliff:g> day is about to expire"</item>
-		<item quantity="other">"<xliff:g id="NUMBER">%d</xliff:g> days are about to expire"</item>
+		<item quantity="one">"<xliff:g id="NUMBER">%d</xliff:g> hari akan tamat tempoh"</item>
+		<item quantity="other">"<xliff:g id="NUMBER">%d</xliff:g> hari akan tamat tempoh"</item>
 	</plurals>
 	
 	<!-- Artist title format -->
@@ -116,31 +116,31 @@
 	
 	<!-- Album title format -->
 	<plurals name="album_details_format">
-		<item quantity="one"><xliff:g id="ARTIST">%1$s</xliff:g>, <xliff:g id="COUNT">%2$d</xliff:g> song</item>
-		<item quantity="other"><xliff:g id="ARTIST">%1$s</xliff:g>, <xliff:g id="COUNT">%2$d</xliff:g> songs</item>
+		<item quantity="one"><xliff:g id="ARTIST">%1$s</xliff:g>, <xliff:g id="COUNT">%2$d</xliff:g> lagu</item>
+		<item quantity="other"><xliff:g id="ARTIST">%1$s</xliff:g>, <xliff:g id="COUNT">%2$d</xliff:g> lagu-lagu</item>
 	</plurals>
 	
 	<!-- Toast confirming that song(s) was/were deleted. -->
 	<plurals name="NNNtracksdeleted">
 		<!-- delete confirmation message for 1 song -->
-		<item quantity="one">1 song was deleted</item>
+		<item quantity="one">1 lagu telah dibuang</item>
 		<!-- delete confirmation message for 0 or more than 1 songs -->
-		<item quantity="other"><xliff:g id="songs_to_delete">%d</xliff:g> songs were deleted</item>
+		<item quantity="other"><xliff:g id="songs_to_delete">%d</xliff:g> lagu-lagu telah dibuang</item>
 	</plurals>
 	
 	<plurals name="NTrackstoDownload">
-		<item quantity="one">"1 song will be downloaded"</item>
-		<item quantity="other">"<xliff:g id="SONGS_TO_DOWNLOAD">%d</xliff:g> songs will be downloaded"</item>
+		<item quantity="one">"1 lagu akan dimuat turun"</item>
+		<item quantity="other">"<xliff:g id="SONGS_TO_DOWNLOAD">%d</xliff:g> lagu-lagu akan dimuat turun"</item>
 	</plurals>
 	
 	<plurals name="Nexpired_remind">
-		<item quantity="one">"<xliff:g id="NUMBER">%d</xliff:g> day remaining"</item>
-		<item quantity="other">"<xliff:g id="NUMBER">%d</xliff:g> days remaining"</item>
+		<item quantity="one">"<xliff:g id="NUMBER">%d</xliff:g> hari yang tinggal"</item>
+		<item quantity="other">"<xliff:g id="NUMBER">%d</xliff:g> hari yang tinggal"</item>
 	</plurals>
 	
 	<plurals name="Nvip_expired_remind">
-		<item quantity="other">"Your higher quality music access is about to expire (<xliff:g id="NUMBER">%d</xliff:g> day remaining)"</item>
-		<item quantity="other">"Your higher quality music access is about to expire (<xliff:g id="NUMBER">%d</xliff:g> days remaining)"</item>
+		<item quantity="other">"Akses muzik kualiti lebih tinggi akan tamat tempoh (<xliff:g id="NUMBER">%d</xliff:g> hari yang tinggal)"</item>
+		<item quantity="other">"Akses muzik kualiti lebih tinggi akan tamat tempoh (<xliff:g id="NUMBER">%d</xliff:g> hari yang tinggal)"</item>
 	</plurals>
 	
 	<!-- sleep mode -->
@@ -189,7 +189,7 @@
 	<string name="album_display_settings">Papar seni album</string>
 	<string name="album_display_summary">Paparkan penutup album di antara muka pemain</string>
 	
-	<string name="lyric_and_album">Lirik and Album</string>
+	<string name="lyric_and_album">Lirik dan Album</string>
 	<string name="android_album_settings">Guna seni album sediada</string>
 	<string name="android_album_summary">Secara automatik menggunakan seni album dari lagu-lagu boleh menyebabkan kesilapan.</string>
 	<string name="auto_correct_id3_settings">Pembetulan automatik Tetapan ID3</string>
@@ -221,7 +221,7 @@
 	
 	<string name="other_settings">Lain</string>
 	<string name="play_and_download">Dengar dan memuat turun</string>
-	<string name="play_and_download_summary">Stream muzik manakala memuat turun</string>
+	<string name="play_and_download_summary">Strim muzik manakala memuat turun</string>
 	<string name="screen_bright_wake">Skrin kekal terjaga</string>
 	<string name="screen_bright_wake_summary">Latar kekal aktif apabila tetapan ini didayakan</string>
 	<string name="keep_quit_position_settings">Menyimpan kedudukan terakhir</string>
@@ -440,18 +440,18 @@
 	
 	<!-- Recently Added -->
 	<string-array name="weeklist">
-		<item>"1 week"</item>
-		<item>"2 weeks"</item>
-		<item>"3 weeks"</item>
-		<item>"4 weeks"</item>
-		<item>"5 weeks"</item>
-		<item>"6 weeks"</item>
-		<item>"7 weeks"</item>
-		<item>"8 weeks"</item>
-		<item>"9 weeks"</item>
-		<item>"10 weeks"</item>
-		<item>"11 weeks"</item>
-		<item>"12 weeks"</item>
+		<item>"1 minggu"</item>
+		<item>"2 minggu"</item>
+		<item>"3 minggu"</item>
+		<item>"4 minggu"</item>
+		<item>"5 minggu"</item>
+		<item>"6 minggu"</item>
+		<item>"7 minggu"</item>
+		<item>"8 minggu"</item>
+		<item>"9 minggu"</item>
+		<item>"10 minggu"</item>
+		<item>"11 minggu"</item>
+		<item>"12 minggu"</item>
 	</string-array>
 	
 	<!-- Main browser item names -->
@@ -467,7 +467,7 @@
 	<string name="playlist_recently_played">Dimainkan baru-baru ini</string>
 	<string name="playlist_frequently_played">Kerap dimainkan</string>
 	<string name="playlist_favorite">Kegemaran</string>
-	<string name="playlist_my_ktv">My KTV</string>
+	<string name="playlist_my_ktv">KTV saya</string>
 	
 	<!-- Playlist creator -->
 	<string name="create_playlist_create_text_prompt">Nama senarai main</string>
@@ -500,10 +500,10 @@
 	
 	<string name="no_song_downloaded">Lagu tidak dapat dimuat turun</string>
 	
-	<string name="powered_by">Powered by</string>
+	<string name="powered_by">Dikuasakan oleh</string>
 	
 	<string name="project_device">Xiaomi MiBox</string>
-	<string name="project_device_mobile">Mobile device</string>
+	<string name="project_device_mobile">Peranti mudah alih</string>
 	
 	<string name="headphone_settings">Tetapan jenis fon kepala</string>
 	<string name="mi_effect_title">Gunakan penambah MiSound </string>
@@ -528,9 +528,9 @@
 	<string name="eq_auto">Custom</string>
 	<string name="eq_preset_create">Cipta</string>
 	<string name="eq_preset_rename">Menamakan semula</string>
-	<string name="eq_preset_format">Pratetap pengguna %d</string>
+	<string name="eq_preset_format">Preset pengguna %d</string>
 	<string name="eq_preset_hint">Sila masukkan nama pratetap</string>
-	<string name="eq_preset_select">Pilih pratetap</string>
+	<string name="eq_preset_select">Pilih preset</string>
 	
 	<string name="music_not_loaded">Tiada fail audio dijumpai!</string>
 	
@@ -541,7 +541,7 @@
 	<string name="ktv_alert_message">"Sentuh Penggunaan telefon untuk menambah lagu pada halaman utama konsol KTV untuk melihat kod QR yang sepadan"</string>
 	<string name="ktv_and_room">"%1$s %2$s"</string>
 	<string name="ktv_connected_alert_titel">Disambungkan kepada %1$s</string>
-	<string name="ktv_connected_alert_message">Lagu yang anda pilih akan ditambah ke senarai main dinamakan My KTV</string>
+	<string name="ktv_connected_alert_message">Lagu yang anda pilih akan ditambah ke senarai main dinamakan KTV Saya</string>
 	<string name="ktv_disconnect_alert_titel">Memutuskan sambungan daripada %1$s?</string>
 	<string name="ktv_song_vod_success">""%1$s" ditambah"</string>
 	<string name="ktv_song_vod_fail">"Gagal untuk menambah "%1$s""</string>
@@ -575,22 +575,22 @@
 	<string name="vip_recommend_sub_title">Hanya 5 RMB sebulan</string>
 	<string name="vip_recommend_summary">Stream atau memuat turun semua artis kegemaran anda dari Baidu Music pada 320 kbps.</string>
 	<string name="vip_recommend_buy">Beli (RMB 5 untuk 1 bulan)</string>
-	<string name="vip_recommend_rebuy">Renewing VIP access for 30 days costs 5 MiCredits</string>
+	<string name="vip_recommend_rebuy">Memperbaharui akses VIP untuk 30 hari sebanyak 5 MiCredit</string>
 	<string name="vip_recommend_exchange">Gunakan kod hadiah</string>
 	
-	<string name="music_quality">Music quality</string>
-	<string name="higher_quality_music">High quality music</string>
-	<string name="menu_higher_quality_music">Higher quality music (monthly access)</string>
-	<string name="higher_quality_music_summary">Listen to and download higher quality music</string>
-	<string name="expired">Expired</string>
-	<string name="enabled">Enabled</string>
-	<string name="valid_period">"Valid from: "</string>
+	<string name="music_quality">Kualiti Muzik</string>
+	<string name="higher_quality_music">Muzik kualiti tinggi</string>
+	<string name="menu_higher_quality_music">Muzik kualiti lebih tinggi (akses bulanan)</string>
+	<string name="higher_quality_music_summary">Mendengar dan muat turun muzik kualiti lebih tinggi</string>
+	<string name="expired">Tamat tempoh</string>
+	<string name="enabled">Dihidupkan</string>
+	<string name="valid_period">"Sah dari: "</string>
 	<string name="period_format">%1$s-%2$s</string>
-	<string name="vip_bought">"You've already purchased higher quality music access"</string>
+	<string name="vip_bought">"Anda telah membeli akses muzik kualiti lebih tinggi"</string>
 	<string name="vip_expired">Your higher quality music access has expired</string>
-	<string name="vip_rebuy">Renew</string>
+	<string name="vip_rebuy">Baharui</string>
 	
-	<string name="data_usage_warning">Data usage warning!</string>
-	<string name="data_usage_warning_summary">Using your mobile data connection to stream higher quality music may increase your data usage costs.</string>
+	<string name="data_usage_warning">Amaran penggunaan data!</string>
+	<string name="data_usage_warning_summary">Menggunakan sambungan data telefon anda untuk strim muzik kualiti lebih tinggi akan menambahkan kos penggunaan data anda.</string>
 
 </resources>
