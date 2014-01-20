@@ -227,28 +227,28 @@
     </string-array>
 
     <string-array name="alarm_in_future">
-        <item>Alarm in less than a minute </item>
-        <item>Alarm in <xliff:g id="DAYS" example="2 days">%1$s</xliff:g></item>
-        <item>Alarm in <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g></item>
-        <item>Alarm in <xliff:g id="DAYS" example="2 days">%1$s </xliff:g><xliff:g id="HOURS" example="2 hours">%2$s</xliff:g></item>
-        <item>Alarm in <xliff:g id="MINUTES" example="2 minutes">%3$s </xliff:g></item>
-        <item>Alarm in <xliff:g id="DAYS" example="2 days">%1$s </xliff:g><xliff:g id="MINUTES" example="2 minutes">%3$s </xliff:g></item>
-        <item>Alarm in <xliff:g id="HOURS" example="2 hours">%2$s </xliff:g><xliff:g id="MINUTES" example="2 minutes">%3$s </xliff:g></item>
-        <item>Alarm in <xliff:g id="DAYS" example="2 days">%1$s </xliff:g><xliff:g id="HOURS" example="2 hours">%2$s </xliff:g><xliff:g id="MINUTES" example="2 minutes">%3$s </xliff:g></item>
+        <item>Penggera dalam masa kurang seminit </item>
+        <item>Penggera dalam <xliff:g id="DAYS" example="2 days">%1$s</xliff:g></item>
+        <item>Penggera dalam <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g></item>
+        <item>Penggera dalam <xliff:g id="DAYS" example="2 days">%1$s </xliff:g><xliff:g id="HOURS" example="2 hours">%2$s</xliff:g></item>
+        <item>Penggera dalam <xliff:g id="MINUTES" example="2 minutes">%3$s </xliff:g></item>
+        <item>Penggera dalam <xliff:g id="DAYS" example="2 days">%1$s </xliff:g><xliff:g id="MINUTES" example="2 minutes">%3$s </xliff:g></item>
+        <item>Penggera dalam <xliff:g id="HOURS" example="2 hours">%2$s </xliff:g><xliff:g id="MINUTES" example="2 minutes">%3$s </xliff:g></item>
+        <item>Penggera dalam <xliff:g id="DAYS" example="2 days">%1$s </xliff:g><xliff:g id="HOURS" example="2 hours">%2$s </xliff:g><xliff:g id="MINUTES" example="2 minutes">%3$s </xliff:g></item>
     </string-array>
 
     <string-array name="contact_entries">
-        <item>Name</item>
-        <item>Nickname</item>
-        <item>Phone</item>
-        <item>E-mail</item>
-        <item>Organization</item>
+        <item>Nama</item>
+        <item>Gelaran</item>
+        <item>Telefon</item>
+        <item>E-mel</item>
+        <item>Organisasi</item>
         <item>IM</item>
-        <item>SIP Phone</item>
-        <item>Birthday</item>
-        <item>Website</item>
-        <item>Address</item>
-        <item>Note</item>
+        <item>Fon SIP</item>
+        <item>Tarikh Lahir</item>
+        <item>Laman Web</item>
+        <item>Alamat</item>
+        <item>Nota</item>
     </string-array>
 
     <string-array name="font_size_scale" translatable="false">
