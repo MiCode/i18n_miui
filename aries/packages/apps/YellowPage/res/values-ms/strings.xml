@@ -2,7 +2,7 @@
 
 <resources>
     <!-- Name of the application -->
-    <string name="app_label">Directory</string>
+    <string name="app_label">Directori</string>
     <string name="phone_info_divider">" ｜ "</string>
 
     <!-- Loading process related -->
@@ -15,15 +15,15 @@
     <!-- YellowPage related -->
     <string name="yellow_page_detail_title">Mengenai</string>
     <string name="yellow_page_call_log_title">Log panggilan</string>
-    <string name="yellow_page_website">Website rasmi</string>
-    <string name="menu_copy_text">Salin ke clipboard</string>
+    <string name="yellow_page_website">Laman web rasmi</string>
+    <string name="menu_copy_text">Salin ke klipbod</string>
     <string name="menu_call_ip_number">Dail panggilan IP (dial %s)</string>
     <string name="toast_text_copied">Teks telah disalinkan</string>
     <string name="provider_tag">Sumber data</string>
     <string name="all_numbers">Semua nombor</string>
     <plurals name="all_numbers_count">
-        <item quantity="one">1 entry</item>
-        <item quantity="other">%d entries</item>
+        <item quantity="one">1 entri</item>
+        <item quantity="other">%d entri</item>
     </plurals>
     <string name="provider">Dikenalpasti oleh %s</string>
 
@@ -32,8 +32,8 @@
     <string name="callrecordview_item_op_time_minutes_seconds">%1$d minit %2$d saatc</string>
     <string name="callrecordview_item_op_time_only_minutes">%d minit</string>
     <string name="callrecordview_item_op_time_only_seconds">%d saat</string>
-    <string name="callrecordview_item_op_time_short_outgoing">Outgoing:\u0020</string>
-    <string name="callrecordview_item_op_time_short_incoming">Incoming:\u0020</string>
+    <string name="callrecordview_item_op_time_short_outgoing">Panggilan keluar:\u0020</string>
+    <string name="callrecordview_item_op_time_short_incoming">Panggilan masuk:\u0020</string>
     <string name="callrecordview_item_op_time_missed">Tidak disambung</string>
     <string name="callrecordview_item_op_time_rejected">Ditolak</string>
     <string name="voicemail">Pesanan suara</string>
@@ -55,7 +55,7 @@
     <string name="confirm_to_remove_blacklist">Buangkan nombor terpilih dari senaraihitam?</string>
 
     <!-- Mark related -->
-    <string name="custom_mark_category">Custom</string>
+    <string name="custom_mark_category">Khas</string>
     <string name="mark_number_dialog_maintitle">Tanda sebagai nombor spam dan muat-naik</string>
     <string name="mark_number_custom_dialog_maintitle">Setuju atau betulkan tanda</string>
     <string name="delete">Padam</string>
@@ -90,7 +90,7 @@
     <string name="recharge_charge_value">Harga: RMB %s</string>
     <string name="recharge_pay">Caj semula sekarang</string>
     <string name="recharge_pay_hint">Sokongan disediakan oleh Xiaomi</string>
-    <string name="mishop_web_payment_title">MiStore checkout</string>
+    <string name="mishop_web_payment_title">Pembayaran MiStore</string>
     <string name="recharge_pay_hint_license">Notis top-up</string>
     <string name="recharge_title">Top-up</string>
     <string name="recharge_payment_result_ok_title">RMB %s ditambah</string>
@@ -106,8 +106,8 @@
     <string name="recharge_actual_price">Harga:</string>
     <string name="recharge_order_original_price">RMB %s</string>
     <string name="recharge_order_actual_price">\u00A5%s</string>
-    <string name="recharge_order_pay">Checkout</string>
-    <string name="recharge_history">Sejarah top-up</string>
+    <string name="recharge_order_pay">Pembayaran</string>
+    <string name="recharge_history">Sejarah tambah nilai</string>
     <string name="recharge_history_empty">Tiada sejarah top-up</string>
 
     <!-- 运营商流量套餐相关 -->
@@ -130,7 +130,7 @@
     <!--  Express inquiry related -->
     <string name="express_inquiry">Menjejaki</string>
     <string name="express_inquiry_serial_number_indication">Nombor penjejakian</string>
-    <string name="express_inquiry_logistics_indication">Nama courier</string>
+    <string name="express_inquiry_logistics_indication">Nama kurier</string>
     <string name="express_inquiry_button_text">Jejak</string>
     <string name="express_inquiry_serial_number_prefix">Nombor serial: \u0020</string>
     <string name="express_inquiry_no_result">Tiada keputusan</string>
@@ -138,7 +138,7 @@
     <string name="express_inquiry_data_owner_prefix">Maklumat penjejakian disediakan oleh </string>
     <string name="express_inquiry_data_owner_suffix"></string>
     <string name="scan">Imbasan</string>
-    <string name="express_inqiury_select_logistics">Pilih courier</string>
+    <string name="express_inqiury_select_logistics">Pilih kurier</string>
     <string name="expresss_inquiry_frequently_used_logistics">Sering digunakan</string>
     <string name="expresss_inquiry_all_logistics">Semua</string>
     <string name="express_inquiry_history">Sejarah</string>
@@ -176,13 +176,13 @@
     <string name="order_price">%s</string>
 
     <!-- Frequently used yellowpage related -->
-    <string name="general_yellow_page_title">General</string>
-    <string name="general_recent_title">Recent</string>
-    <string name="general_favorite_title">Favorites</string>
-    <string name="general_no_yellow_page">List is empty</string>
-    <string name="general_menu_favorite">Favorites</string>
-    <string name="general_menu_unfavorite">Remove from favorites</string>
-    <string name="general_menu_delete_recent">Delete recent</string>
-    <string name="general_cancel_favorite_ok">Favorite removed</string>
-    <string name="general_delete_recent_ok">Recent deleted</string>
+    <string name="general_yellow_page_title">Umum</string>
+    <string name="general_recent_title">Terkini</string>
+    <string name="general_favorite_title">Kegemaran</string>
+    <string name="general_no_yellow_page">Senarai kosong</string>
+    <string name="general_menu_favorite">Kegemaran</string>
+    <string name="general_menu_unfavorite">Dikeluarkan dari kegemaran</string>
+    <string name="general_menu_delete_recent">Buang terkini</string>
+    <string name="general_cancel_favorite_ok">Kegemaran dikeluarkan</string>
+    <string name="general_delete_recent_ok">Terkini dibuang</string>
 </resources>
