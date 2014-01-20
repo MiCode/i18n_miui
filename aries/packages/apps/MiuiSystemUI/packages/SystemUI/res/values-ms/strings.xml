@@ -470,9 +470,9 @@
 	<!-- See USB_STORAGE.  USB_STORAGE_DIALOG:  After the user selects the notification, a dialog is shown asking if he wants to mount.  This is the title. -->
 	<string name="usb_storage_title">USB disambungkan</string>
 	<!-- See USB_STORAGE.    This is the message. [CHAR LIMIT=NONE] -->
-	<string name="usb_storage_message" product="nosdcard">You\'ve connected to your computer via USB. Touch the button below if you want to copy files between your computer and your Androidu2018s USB storage.</string>
+	<string name="usb_storage_message" product="nosdcard">You\'ve connected to your computer via USB. Touch the button below if you want to copy files between your computer and your Android\u2018s USB storage.</string>
 	<!-- See USB_STORAGE.    This is the message. [CHAR LIMIT=NONE] -->
-	<string name="usb_storage_message" product="default">You\'ve connected to your computer via USB. Touch the button below if you want to copy files between your computer and your Androidu2018s SD card.</string>
+	<string name="usb_storage_message" product="default">You\'ve connected to your computer via USB. Touch the button below if you want to copy files between your computer and your Android\u2018s SD card.</string>
 	
 	<!-- See USB_STORAGE_DIALOG.  If there was an error mounting, this is the text. [CHAR LIMIT=NONE] -->
 	<string name="usb_storage_error_message" product="nosdcard">An error occurred while trying to view your device as USB mass storage.</string>
@@ -493,9 +493,9 @@
 	<!-- See USB_STORAGE_STOP.  USB_STORAGE_STOP_DIALOG:  After the user selects the notification, a dialog is shown asking if he wants to stop usb storage.  This is the title. -->
 	<string name="usb_storage_stop_title">Storan USB sedang digunakan</string>
 	<!-- See USB_STORAGE_STOP.    This is the message. [CHAR LIMIT=NONE] -->
-	<string name="usb_storage_stop_message" product="nosdcard">Before turning off USB storage, make sure you\'ve unmounted (u201cejectedu201d) your Androidu2018s USB storage from your computer.</string>
+	<string name="usb_storage_stop_message" product="nosdcard">Before turning off USB storage, make sure you\'ve unmounted (\u201cejected\u201d) your Android\u2018s USB storage from your computer.</string>
 	<!-- See USB_STORAGE_STOP.    This is the message. -->
-	<string name="usb_storage_stop_message" product="default">Before turning off USB storage, make sure you\'ve unmounted (u201cejectedu201d) your Androidu2018s SD card from your computer.</string>
+	<string name="usb_storage_stop_message" product="default">Before turning off USB storage, make sure you\'ve unmounted (\u201cejected\u201d) your Android\u2018s SD card from your computer.</string>
 	
 	<!-- USB_STORAGE_KILL_STORAGE_USERS dialog  -->
 	<string name="dlg_confirm_kill_storage_users_title">Hidupkan storan USB</string>
