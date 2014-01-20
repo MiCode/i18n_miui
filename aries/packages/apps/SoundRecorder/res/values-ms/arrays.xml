@@ -3,8 +3,8 @@
 <resources>
 
     <string-array name="record_scenes_entries">
-        <item>For music</item>
-        <item>For human voice</item>
+        <item>Untuk Muzik</item>
+        <item>Untuk Suara Manusia</item>
     </string-array>
 
 </resources>
