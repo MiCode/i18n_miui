@@ -17,9 +17,9 @@
         <item>Translation</item>
     </string-array>
     <string-array name="help_tel">
-        <item>打电话给张若涵</item>
-        <item>呼叫张若涵</item>
-        <item>拨通10086</item>
+        <item>Call Zhang Ruohan</item>
+        <item>Call Zhangruo Han</item>
+        <item>Dial 10086</item>
     </string-array>
     <string-array name="help_sms">
         <item>发短信给张若涵</item>
@@ -62,7 +62,7 @@
         <item>我要订一张去拉萨的机票</item>
     </string-array>
     <string-array name="help_weather">
-        <item>天气</item>
+        <item>Weather</item>
         <item>明天北京下不下雨</item>
         <item>西城区的天气</item>
     </string-array>
@@ -77,7 +77,7 @@
         <item>凤凰传奇是谁</item>
     </string-array>
     <string-array name="help_translate">
-        <item>把天气翻译成英文</item>
+        <item>Translate to English weather</item>
     </string-array>
     <string-array name="week">
         <item>Sunday</item>
