@@ -2,23 +2,23 @@
 <resources>
 
     <string-array name="contact_entries">
-        <item>Name</item>
-        <item>Nickname</item>
-        <item>Phone</item>
-        <item>E-mail</item>
-        <item>Organization</item>
+        <item>Nama</item>
+        <item>Gelaran</item>
+        <item>Telefon</item>
+        <item>E-mel</item>
+        <item>Organisasi</item>
         <item>IM</item>
-        <item>SIP Phone</item>
-        <item>Birthday</item>
-        <item>Website</item>
-        <item>Address</item>
-        <item>Note</item>
+        <item>Fon SIP</item>
+        <item>Tarikh Lahir</item>
+        <item>Laman Web</item>
+        <item>Alamat</item>
+        <item>Nota</item>
     </string-array>
 
     <string-array name="font_size_names">
-        <item>Small</item>
+        <item>Kecil</item>
         <item>Default</item>
-        <item>Large</item>
+        <item>Besar</item>
         <item>Super</item>
     </string-array>
 

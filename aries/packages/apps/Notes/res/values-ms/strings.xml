@@ -35,7 +35,7 @@ xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 	<string name="menu_title_select_folder">Pilih folder</string>
 	<string name="menu_move_parent_folder">Folder ibu</string>
 	<string name="menu_rename_folder">Ubah nama folder</string>
-	<string name="info_note_enter_desktop">Nota telah itambah ke halaman</string>
+	<string name="info_note_enter_desktop">Nota telah ditambah ke halaman</string>
 	<string name="alert_message_delete_notes">Adakah anda pasti anda ingin memadam <xliff:g id="count">%1$s</xliff:g> nota terpilih?</string>
 	<string name="alert_message_delete_folders">Padam <xliff:g id="count">%1$s</xliff:g> folder yang terpilih?</string>
 	<string name="alert_message_delete_folders_notes">Padam <xliff:g id="folderCount">%1$s</xliff:g> folder dan <xliff:g id="noteCount">%2$s</xliff:g> nota yang terpilih?</string>
@@ -54,7 +54,7 @@ xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 	<string name="error_widget_exist_for_send_to_desktop">Nota ini telah wujud di desktop</string>
 	<string name="success_sdcard_export">Ekspot berjaya</string>
 	<string name="failed_sdcard_export">Ekspot gagal</string>
-	<string name="format_exported_file_location">Ekspot fail text (%1$s) ke SD (%2$s) directory</string>
+	<string name="format_exported_file_location">Ekspot fail teks (%1$s) ke direktori SD (%2$s)</string>
 	<string name="error_unsupport_content">Nota ini mengandungi isi yang tidak disokong, klik untuk menaiktaraf sistem</string>
 	<string name="error_contact_not_exist">Hubungan tersebut tidak wujud</string>
 	<!-- Sync -->
@@ -68,12 +68,12 @@ xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 	
 	<string name="search_label">Mencari nota\u0020</string>
 	<string name="search_hint">Cari nota</string>
-	<string name="search_setting_description">Cari text di dalam nota</string>
+	<string name="search_setting_description">Cari teks di dalam nota</string>
 	<string name="search">Nota</string>
 	<plurals name="search_results_title">
-		<item quantity="one"><xliff:g id="number" example="1">%1$s</xliff:g> result for \"<xliff:g id="search" example="???">%2$s</xliff:g>\"</item>
+		<item quantity="one"><xliff:g id="number" example="1">%1$s</xliff:g> keputusan untuk \"<xliff:g id="search" example="???">%2$s</xliff:g>\"</item>
 		<!-- Case of 0 or 2 or more results. -->
-		<item quantity="other"><xliff:g id="number" example="15">%1$s</xliff:g> results for \"<xliff:g id="search" example="???">%2$s</xliff:g>\"</item>
+		<item quantity="other"><xliff:g id="number" example="15">%1$s</xliff:g> keputusan untuk \"<xliff:g id="search" example="???">%2$s</xliff:g>\"</item>
 	</plurals>
 	
 	<string name="button_new_note">Nota Baru</string>
@@ -92,20 +92,20 @@ xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 	<string name="notify_alarm_action_mute">Mute</string>
 	
 	<string name="toast_message_add_image_fail">Gagal untuk memasukkan gambar!</string>
-	<string name="toast_note_privacy_mode">"Tidak dapat mengedit nota dalam mod kawal"</string>
-	<string name="toast_folder_privacy_mode">"Tidak dapat mengedit folder dalam mod kawal"</string>
+	<string name="toast_note_privacy_mode">"Tidak dapat mengedit nota dalam mod privasi"</string>
+	<string name="toast_folder_privacy_mode">"Tidak dapat mengedit folder dalam mod privasi"</string>
 	<string name="toast_reach_text_limit_truncate">"Isian nota telah dipendekkan kerana terlalu panjang."</string>
-	<string name="toast_reach_text_limit_attachment">Isian nota terlalu panjang untuk menambah attachment baru.</string>
+	<string name="toast_reach_text_limit_attachment">Isian nota terlalu panjang untuk menambah lampiran baru.</string>
 	
-	<string name="snippet_image_stub">[Image]</string>
-	<string name="snippet_image_template">[Image <xliff:g id="imageName" example="1.jpeg">%1$s</xliff:g>]</string>
+	<string name="snippet_image_stub">[Imej]</string>
+	<string name="snippet_image_template">[Imej <xliff:g id="imageName" example="1.jpeg">%1$s</xliff:g>]</string>
 	
 	<string name="select_account_prompt">Hidupkan penyeragaman nota</string>
 	<string name="enable_sync_desc">Nota boleh diseragamkan dengan akaun Xiaomi <xliff:g id="accountName" example="100000">%1$s</xliff:g> anda, seragamkan sekarang?</string>
 	<string name="add_account_desc">Nota boleh diseragamkan ke akaun Xiaomi anda. Login dan seragamkan sekarang?</string>
 	<string name="not_now">Bukan sekarang</string>
 	<string name="enable_sync">Seragam</string>
-	<string name="login_sync">Login &amp; sync</string>
+	<string name="login_sync">Log masuk &amp; seragam</string>
 	
 	<string name="pref_title_note_style">Stail nota</string>
 	<string name="pref_desc_mode_list">Senarai</string>
