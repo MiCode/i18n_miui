@@ -29,81 +29,81 @@
 <resources>
 
   <string-array name="sleep_duration_values">
-    <item>15 minutes</item>
-    <item>30 minutes</item>
-    <item>45 minutes</item>
-    <item>1 Hour</item>
+    <item>15 minit</item>
+    <item>30 minit</item>
+    <item>45 minit</item>
+    <item>1 jam</item>
   </string-array>
 
   <string-array name="search_category_rbds_entries">
-    <item>All Stations</item>
-    <item>Adult Hits</item>
-    <item>Classical</item>
-    <item>Classic Rock</item>
-    <item>College</item>
+    <item>Semua Stesen</item>
+    <item>Hits Dewasa</item>
+    <item>Klasik</item>
+    <item>Rock Klasik</item>
+    <item>Kolej</item>
     <item>Country</item>
-    <item>Emergency</item>
-    <item>Emergency Test</item>
-    <item>Foreign Language</item>
-    <item>Information</item>
+    <item>Kecemasan</item>
+    <item>Ujian Kecemasan</item>
+    <item>Bahasa Asing</item>
+    <item>Informasi</item>
     <item>Jazz</item>
-    <item>News</item>
+    <item>Berita</item>
     <item>Nostalgia</item>
-    <item>Oldies</item>
-    <item>Personality</item>
-    <item>Public</item>
-    <item>Religious Music</item>
-    <item>Religious Talk</item>
-    <item>Rhythm and Blues</item>
+    <item>Lagu-lagu Lama</item>
+    <item>Personaliti/item>
+    <item>Awam</item>
+    <item>Muzik Keagamaan</item>
+    <item>Bicara Agama</item>
+    <item>Ritma dan Blues</item>
     <item>Rock</item>
-    <item>Soft</item>
-    <item>Soft Rock</item>
-    <item>Soft Rhythm and Blues</item>
-    <item>Sports</item>
-    <item>Talk</item>
+    <item>Lembut</item>
+    <item>Rock Lembut</item>
+    <item>Ritma Lembut dan Blues</item>
+    <item>Sukan</item>
+    <item>Bicara</item>
     <item>Top 40</item>
-    <item>Weather</item>
+    <item>Cuaca</item>
   </string-array>
 
   <string-array name="search_category_rds_entries">
-    <item>All Stations</item>
-    <item>Culture</item>
-    <item>Current Affairs</item>
-    <item>Children programs</item>
-    <item>Country Music</item>
-    <item>Documentary</item>
+    <item>Semua Stesen</item>
+    <item>Kebudayaan</item>
+    <item>Hal Ehwal Semasa</item>
+    <item>Program Kanak-kanak</item>
+    <item>Muzik Country</item>
+    <item>Dokumentari</item>
     <item>Drama</item>
-    <item>Easy Listening Music</item>
-    <item>Education</item>
-    <item>Emergency</item>
-    <item>Emergency Test</item>
-    <item>Finance</item>
-    <item>Folk Music</item>
-    <item>Information</item>
-    <item>Jazz Music</item>
-    <item>Light classical</item>
-    <item>Leisure</item>
-    <item>News</item>
-    <item>National Music</item>
-    <item>Other Music</item>
-    <item>Oldies Music</item>
-    <item>Phone In</item>
-    <item>Pop Music</item>
-    <item>Religion</item>
-    <item>Rock Music</item>
-    <item>Science</item>
-    <item>Serious classical</item>
-    <item>Social Affairs</item>
-    <item>Sport</item>
-    <item>Travel</item>
-    <item>Varied</item>
-    <item>Weather</item>
+    <item>Muzik Easy Listening</item>
+    <item>Pelajaran</item>
+    <item>Kecemasan</item>
+    <item>Ujian Kecemasan</item>
+    <item>Kewangan</item>
+    <item>Muzik Folk</item>
+    <item>Informasi</item>
+    <item>Muzik Jazz</item>
+    <item>Klasik Ringan</item>
+    <item>Santai</item>
+    <item>Berita</item>
+    <item>Muzik Kebangsaan</item>
+    <item>Muzik Lain</item>
+    <item>Muzik Lama</item>
+    <item>Fon Masuk</item>
+    <item>Muzik Pop</item>
+    <item>Keagamaan</item>
+    <item>Muzik Rock</item>
+    <item>Sains</item>
+    <item>Klasik Serius</item>
+    <item>Hal Ehwal sosial</item>
+    <item>Sukan</item>
+    <item>Perjalanan</item>
+    <item>Pelbagai</item>
+    <item>Cuaca</item>
   </string-array>
 
   <string-array name="presetlist_edit_category">
-    <item>Rename</item>
-    <item>Auto-Select</item>
-    <item>Delete</item>
+    <item>Namakan semula</item>
+    <item>Auto-Pilih</item>
+    <item>Buang</item>
   </string-array>
 
   <string-array name="regional_band_entries">
@@ -185,20 +185,20 @@
   </string-array>
 
     <string-array name="rf_cfg">
-       <item> Get Current Station Parameters</item>
-       <item> Get Station Parameters Repeat 20 times</item>
-       <item> Get Search  station parameters</item>
-       <item> Get FM Band sweep parameters</item>
-       <item> Configure FM Search Parameters</item>
+       <item> Dapatkan Parameter Stesen Semasa</item>
+       <item> Dapatkan Parameter Stesen Ulangi 20 kali</item>
+       <item> Dapatkan Parameter Carian Stesen</item>
+       <item> Dapatkan FM BandGet FM Band sweep</item>
+       <item> Konfigurasi parameter carian FM</item>
     </string-array>
     <string-array name="cfg_rf">
        <item> Set FM RSSI Delta</item>
-       <item> Set Signal Threshold</item>
-       <item> RF Statistics</item>
+       <item> Set Ambang Isyarat</item>
+       <item> Statistik RF</item>
     </string-array>
     <string-array name="stats_options">
-        <item> Select the option</item>
-        <item> Configure FM Search parameters</item>
-        <item> RF Statistics</item>
+        <item> Pilih opsyen</item>
+        <item> Konfigurasi parameter carian FM</item>
+        <item> Statistik RF</item>
     </string-array>
 </resources>

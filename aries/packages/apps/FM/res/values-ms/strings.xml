@@ -87,7 +87,7 @@
     <string name="search_dialog_title">Mengimbas stesen</string>
     <string name="fmradio_clear_confirm_msg">Semua preset akan dipadam.</string>
 
-    <string name="radio_text_string">This is the long radio text string message that needs to scroll</string>
+    <string name="radio_text_string">Ini adalah rentetan teks mesej radio panjang yang perlu diskrol</string>
     <string name="frequency_string"></string>
 
         <string name="fm_command_timeout_title">Tamat masa respons</string>
