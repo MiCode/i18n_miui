@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="vibration_torch_on">
+        <item>0</item>
+        <item>0</item>
+        <item>5</item>
+        <item>90</item>
+        <item>8</item>
+        <item>-5</item>
+        <item>5</item>
+        <item>0</item>
+        <item>150</item>
+        <item>50</item>
+        <item>8</item>
+        <item>-5</item>
+        <item>5</item>
+        <item>0</item>
+        <item>5</item>
+    </integer-array>
+
+    <integer-array name="vibration_torch_off">
+        <item>0</item>
+        <item>0</item>
+        <item>5</item>
+        <item>120</item>
+        <item>8</item>
+        <item>-5</item>
+        <item>5</item>
+        <item>0</item>
+        <item>5</item>
+    </integer-array>
+
+    <string-array name="duration_entries">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>:</item>
+    </string-array>
+
+    <array name="duration_entryValues">
+        <item>@drawable/clock_0</item>
+        <item>@drawable/clock_1</item>
+        <item>@drawable/clock_2</item>
+        <item>@drawable/clock_3</item>
+        <item>@drawable/clock_4</item>
+        <item>@drawable/clock_5</item>
+        <item>@drawable/clock_6</item>
+        <item>@drawable/clock_7</item>
+        <item>@drawable/clock_8</item>
+        <item>@drawable/clock_9</item>
+        <item>@drawable/clock_colon</item>
+    </array>
+
+    <string-array name="carrier_name">
+        <item>SmarToneVodafone</item>
+        <item>SmarToneVodafone 3G</item>
+    </string-array>
+
+    <string-array name="carrier_simple_name">
+        <item>SMC HK</item>
+        <item>SMC HK 3G</item>
+    </string-array>
+</resources>
