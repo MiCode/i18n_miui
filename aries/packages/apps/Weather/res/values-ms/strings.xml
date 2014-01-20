@@ -144,8 +144,8 @@
     <string name ="menu_add">Tambah bandar</string>
     <string name ="menu_more">Butiran</string>
     <array name="send_item">
-        <item>Text message</item>
-        <item>Email</item>
+        <item>Mesej teks</item>
+        <item>Emel</item>
     </array>
 
     <array name="act_weather_main_listview_json_key">
@@ -160,83 +160,83 @@
     </array>
 
     <array name="act_weather_main_listview_key">
-        <item>Wind speed:</item>
-        <item>UV index:　</item>
-        <item>Clothing:</item>
-        <item>Comfort:</item>
-        <item>Car wash index:</item>
-        <item>Drying index:</item>
-        <item>Morning exercise:</item>
-        <item>Leisure:</item>
+        <item>Kelajuan angin:</item>
+        <item>Indeks UV:　</item>
+        <item>Pakaian:</item>
+        <item>Keselesaan:</item>
+        <item>Indeks cuci kereta:</item>
+        <item>Indeks kering:</item>
+        <item>Senaman pagi:</item>
+        <item>Kelapangan:</item>
     </array>
 
     <array name="weather_image">
-        <item>Clear</item>0  晴
-        <item>Cloudy</item>1  多云
-        <item>Hazy</item>2  阴
-        <item>Foggy</item>3  雾
-        <item>Severe rain storms</item>4  特大暴雨
-        <item>Rain storm</item>5  大暴雨
-        <item>Heavy rainfall</item>6  暴雨
-        <item>Thunderstorm</item>7  雷阵雨
-        <item>Showers</item>8  阵雨
-        <item>Heavy rainfall</item>9  大雨
-        <item>Rain</item>0  中雨
-        <item>Drizzle</item>1  小雨
-        <item>Sleet</item>2  雨夹雪
-        <item>Snow storm</item>3   暴雨
-        <item>Patches of snow fall</item>4  阵雪
-        <item>Heavy snow fall</item>5  大雪
-        <item>Snow fall</item>6  中雪
-        <item>Light snow fall</item>7  小雪
-        <item>Strong sand storm</item>8  强沙尘暴
-        <item>Sand storm</item>9  沙尘暴
-        <item>Light sand storms</item>0  沙尘
-        <item>Sand storm</item>1  扬沙
-        <item>Hail</item>2  冰雹
-        <item>Dust</item>3  浮尘
-        <item>Haze</item>4  霾
+        <item>Jelas</item>0  晴
+        <item>Mendung</item>1  多云
+        <item>Jerebu</item>2  阴
+        <item>Kabus</item>3  雾
+        <item>Hujan dan ribut kuat</item>4  特大暴雨
+        <item>Hujan dan ribut</item>5  大暴雨
+        <item>Hujan lebat</item>6  暴雨
+        <item>Ribut petir</item>7  雷阵雨
+        <item>Hujan biasa</item>8  阵雨
+        <item>Hujan lebat</item>9  大雨
+        <item>Hujan</item>0  中雨
+        <item>Hujan renyai</item>1  小雨
+        <item>Hujan beku</item>2  雨夹雪
+        <item>Ribut salji</item>3   暴雨
+        <item>Kejatuhan salji tompokan</item>4  阵雪
+        <item>Kejatuhan salji kuat</item>5  大雪
+        <item>Kejatuhan salji</item>6  中雪
+        <item>Kejatuhan salji ringan</item>7  小雪
+        <item>Ribut pasir kuat</item>8  强沙尘暴
+        <item>Ribut pasir</item>9  沙尘暴
+        <item>Ribut pasir ringan</item>0  沙尘
+        <item>Ribut pasir</item>1  扬沙
+        <item>Hujan batu</item>2  冰雹
+        <item>Debu</item>3  浮尘
+        <item>Jerebu</item>4  霾
     </array>
 
     <array name="weather_details_key">
-       <item>Unavailable</item>0 暂缺
-       <item>Suitable</item>1 适宜
-       <item>Good</item>2 较适宜
-       <item>Avoid if possible</item>3 较不宜
-       <item>Not recommended</item>4 不宜
+       <item>Tiada</item>0 暂缺
+       <item>Sesuai</item>1 适宜
+       <item>Bagus</item>2 较适宜
+       <item>Elak jika boleh</item>3 较不宜
+       <item>Tidak disyokkan</item>4 不宜
        <item>Ideal</item>5 极适宜
-       <item>Moderate</item>6 中等
-       <item>Weak</item>7 最弱
-       <item>Medium</item>8 弱
-       <item>Strong</item>9 强
+       <item>Sederhana</item>6 中等
+       <item>Lemah</item>7 最弱
+       <item>Perantara</item>8 弱
+       <item>Kuat</item>9 强
 
-       <item>Very strong</item>0 很强
-       <item>Cool</item>1 凉
-       <item>Comfortable</item>2 舒适
-       <item>Very hot</item>3 炎热
-       <item>Hot</item>4 热
-       <item>Warm</item>5 暖
-       <item>Cool</item>6 温凉
-       <item>Cooler</item>7 气温较低
-       <item>Cold</item>8 冷
-       <item>Freezing</item>9 寒冷
+       <item>Sangat kuat</item>0 很强
+       <item>Dingin</item>1 凉
+       <item>Selesa</item>2 舒适
+       <item>Sangat panas</item>3 炎热
+       <item>Panas</item>4 热
+       <item>Hangat</item>5 暖
+       <item>Dingin</item>6 温凉
+       <item>Sejuk</item>7 气温较低
+       <item>Sangat sejuk</item>8 冷
+       <item>Pembekuan</item>9 寒冷
 
-       <item>High</item>0 较舒适
-       <item>Middle</item>1 舒适
-       <item>Low</item>2 较不舒适
-       <item>Clear skies</item>3 很不舒适_晴
-       <item>Cloudy</item>4 很不舒适_阴
-       <item>Rain</item>5 不宜_雨
-       <item>Sand storm</item>6 不宜_沙尘
-       <item>Snow</item>7 不宜_雪
-       <item>Relatively suitable conditions</item>8 基本适宜
-       <item>Suitable conditions</item>9 适宜_晴
+       <item>Tinggi</item>0 较舒适
+       <item>Sederhana</item>1 舒适
+       <item>Rendah</item>2 较不舒适
+       <item>Langit cerah</item>3 很不舒适_晴
+       <item>Mendung</item>4 很不舒适_阴
+       <item>Hujan</item>5 不宜_雨
+       <item>Ribut pasir</item>6 不宜_沙尘
+       <item>Salji</item>7 不宜_雪
+       <item>Keadaan yang agak sesuai</item>8 基本适宜
+       <item>Keadaan yang sesuai</item>9 适宜_晴
 
-       <item>Cloudy</item>0 适宜_多云
-       <item>Less than ideal</item>1 不太适宜
-       <item>Ideal conditions</item>2 很适宜
-       <item>Poor conditions</item>3 不适宜
-       <item>Average conditions</item>4 一般
+       <item>Mendung</item>0 适宜_多云
+       <item>Kurang daripada ideal</item>1 不太适宜
+       <item>Keadaan ideal</item>2 很适宜
+       <item>Keadaan yang tidak baik</item>3 不适宜
+       <item>Keadaan yang memuaskan</item>4 一般
     </array>
 
     <array name="weather_image_tips">
@@ -244,215 +244,215 @@
         <item></item>
         <item></item>
         <item></item>
-        <item>It\'s raining heavily, remember to bring an umbrella.</item>
-        <item>It\'s raining heavily, remember to bring an umbrella.</item>
-        <item>It\'s raining heavily, remember to bring an umbrella.</item>
-        <item>If you\'re going out, remember to bring an umbrella!</item>
-        <item>If you\'re going out, remember to bring an umbrella!</item>
-        <item>If you\'re going out, remember to bring an umbrella!</item>
-        <item>It\'s going to rain today, remember to bring an umbrella!</item>
-        <item>It\'s drizzling outside, you should bring an umbrella!</item>
-        <item>There\'s a mix of rain and snow outside, remember to bring an umbrella!</item>
-        <item>It\'s snowing heavily, remember to wear a hat and scarf!</item>
-        <item>It\'s going to snow today, remember to bring a hat and scarf!</item>
-        <item>It\'s snowing a lot, remember to wear a hat and scarf!</item>
-        <item>It\'s snowing quite a bit, remember to wear a hat and scarf!</item>
-        <item>There\'s a light snowfall, remember to wear a hat and scarf.</item>
-        <item>There\'s a very strong sand storm, remember to wear a face mask.</item>
-        <item>It\'s raining quite a bit, remember to bring an umbrella.</item>
-        <item>There\'s a very strong sand storm, remember to wear a face mask.</item>
-        <item>There\'s a very strong sand storm, remember to wear a face mask.</item>
-        <item>It\'s not everyday you see hail! Walk carefully!</item>
+        <item>Hujan lebat sekarang, jangan lupa untuk bawa payung.</item>
+        <item>Hujan lebat sekarang, jangan lupa untuk bawa payung.</item>
+        <item>Hujan lebat sekarang, jangan lupa untuk bawa payung.</item>
+        <item>Jika anda akan keluar, jangan lupa untuk bawa payung!</item>
+        <item>Jika anda akan keluar, jangan lupa untuk bawa payung!</item>
+        <item>Jika anda akan keluar, jangan lupa untuk bawa payung!</item>
+        <item>Hari ini akan hujan, jangan lupa untuk bawa payung!</item>
+        <item>Hujan renyai sekarang, anda perlu bawa payung!</item>
+        <item>Hujan dan salji sekarang, jangan lupa untuk bawa payung!</item>
+        <item>Salji turun dengan lebat, jangan lupa untuk pakai topi dan skaf!</item>
+        <item>Hari ini akan menurun salji, jangan lupa untuk pakai topi dan skaf!</item>
+        <item>Salji turun dengan banyak, jangan lupa untuk pakai topi dan skaf!</item>
+        <item>Ada sedikit salji, jalan lupa untuk pakai topi dan skaf!</item>
+        <item>Ada salji ringan, jangan lupa untuk pakai topi dan skaf.</item>
+        <item>Ribut pasir sangat kuat, jangan lupa untuk pakai topeng muka.</item>
+        <item>Hujan semakin lebat, jangan lupa untuk bawa payung.</item>
+        <item>Ribut pasir sangat kuat, jangan lupa untuk pakai topeng muka.</item>
+        <item>Ribut pasir sangat kuat, jangan lupa untuk pakai topeng muka.</item>
+        <item>Hujan batu diramal! Berhati-hati semasa berjalan!</item>
     </array>
 
     <array name="weather_sms_content">
-        <item>Remember to wear sunscreen.</item>
-        <item>It will be cloudy today. </item>
-        <item>The weather will take a turn for the worse. Try to stay indoors.</item>
-        <item>Drive safely :)</item>
-        <item>It\'s raining heavily, remember to bring an umbrella.</item>
-        <item>It\'s raining heavily, remember to bring an umbrella.</item>
-        <item>It\'s raining heavily, remember to bring an umbrella.</item>
-        <item>Bring an umbrella!</item>
-        <item>Bring an umbrella!</item>
-        <item>Bring an umbrella! :)</item>
-        <item>Bring an umbrella!</item>
-        <item>It\'s drizzling outside, bring an umbrella!</item>
-        <item>There\'s a mix of rain and snow outside, remember to bring an umbrella!</item>
-        <item>It\'s snowing heavily!</item>
-        <item>It will snow today, so remember to bring a hat and scarf.</item>
-        <item>It\'s snowing heavily, remember to wear a hat and scarf!</item>
-        <item>It\'s snowing quite a bit, remember to wear a hat and scarf!</item>
-        <item>It\'s snowing, remember to wear a hat and scarf!</item>
-        <item>There\'s a very strong sand storm, remember to wear a face mask.</item>
-        <item>There\'s a very strong sand storm, remember to wear a face mask.</item>
-        <item>here is a very strong sand storm, remember to wear a face mask.</item>
-        <item>here is a very strong sand storm, remember to wear a face mask.</item>
-        <item>It\'s not everyday you see hail! Walk carefully!</item>
-        <item>Air quality is poor, remember to wear a mask.</item>
-        <item>Air quality is poor, try to stay indoors.</item>
+        <item>Jangan lupa untuk pakai pelindung matahari.</item>
+        <item>Hari ini cuaca mendung. </item>
+        <item>Cuaca hari ini akan berubah menjadi semakin teruk. Jangan keluar jika boleh.</item>
+        <item>Pandu cermat :)</item>
+        <item>Hujan lebat sekarang, jangan lupa untuk bawa payung.</item>
+        <item>Hujan lebat sekarang, jangan lupa untuk bawa payung.</item>
+        <item>Hujan lebat sekarang, jangan lupa untuk bawa payung.</item>
+        <item>Bawa payung anda!</item>
+        <item>Bawa payung anda!</item>
+        <item>Bawa payung anda! :)</item>
+        <item>Bawa payung anda!</item>
+        <item>Hujan renyai sekarang, anda perlu bawa payung!</item>
+        <item>Hujan dan salji sekarang, jangan lupa untuk bawa payung!</item>
+        <item>Salji kuat di luar sekarang!</item>
+        <item>Hari ini akan menurun salji, jangan lupa untuk pakai topi dan skaf.</item>
+        <item>Salji turun dengan banyak, jangan lupa untuk pakai topi dan skaf!</item>
+        <item>Salji semakin lebat, jangan lupa untuk pakai topi dan skaf!</item>
+        <item>Salji turun, jangan lupa untuk pakai topi dan skaf!</item>
+        <item>Ribut pasir sangat kuat, jangan lupa untuk pakai topeng muka.</item>
+        <item>Ribut pasir sangat kuat, jangan lupa untuk pakai topeng muka.</item>
+        <item>Ribut pasir sangat kuat, jangan lupa untuk pakai topeng muka.</item>
+        <item>Ribut pasir sangat kuat, jangan lupa untuk pakai topeng muka.</item>
+        <item>Hujan batu diramalkan! Berhati-hati semasa berjalan!</item>
+        <item>Kualiti udara tidak baik, jangan lupa untuk pakai topeng.</item>
+        <item>Kualiti udara tidak baik, jangan keluar jika boleh.</item>
     </array>
 
     <array name="weather_sms_addons">
-        <item>Today\'s forecast for @: $.</item>0
-        <item>Low&#126;high: %.</item>0
-        <item>Remember to bring an umbrella!</item>1
+        <item>Ramalan hari ini adalah @: $.</item>0
+        <item>Rendah&#126;Tinggi: %.</item>0
+        <item>Jangan lupa untuk bawa payung!</item>1
         <item></item>2
-        <item>If you\'re drying clothes outside, remember to take them in later! :)</item>3
-        <item>If possible, don\'t drive.</item>4
-        <item>Drive safely!</item>5
-        <item>Be careful out there, it\'s slippery.</item>6
+        <item>Jika anda menjemur pakaian, jangan lupa untuk simpan! :)</item>3
+        <item>Jika boleh, jangan pandu.</item>4
+        <item>Pandu cermat!</item>5
+        <item>Pandu cermat, licin.</item>6
         <item></item>7
-        <item>Be careful outside.</item>8
-        <item>Don\'t go out unless you need to.</item>9
-        <item>Wear sunscreen and bring sunglasses.</item>0
-        <item>Wear sunscreen and bring sunglasses.</item>1
-        <item>It\'s windy out, remember to wear a jacket.</item>2
-        <item>Air quality is poor, remember to wear a mask.</item>3
-        <item>Remember to bring a jacket.</item>4
-        <item>Remember to wear a mask :)</item>5
-        <item>Remember to bring gloves and a hat.</item>6
-        <item>It\'s hot out!</item>7
-        <item>It\'s hot out!</item>8
-        <item>Bundle up!</item>9
-        <item>A cold spell is coming\u2026</item>0
-        <item>Bundle up!</item>1
-        <item>Wear ear muffs if you have them! :)</item>2
-        <item>Go for a run!</item>3
-        <item>Go for a run and get some sun! :)</item>4
-        <item>It\'s a good day to dry clothes!</item>
-        <item>It\'s getting cool, remember to wear a jacket!</item>6
+        <item>Pandu cermat apabila memandu.</item>8
+        <item>Jangan keluar jika boleh.</item>9
+        <item>Gunakan pelindung matahari dan pakai cermin mata gelap.</item>0
+        <item>Gunakan pelindung matahari dan pakai cermin mata gelap.</item>1
+        <item>Angin dingin, jangan lupa untuk pakai jaket.</item>2
+        <item>Kualiti udara tidak baik, jangan lupa untuk pakai topeng.</item>3
+        <item>Jangan lupa untuk bawa jaket.</item>4
+        <item>Jangan lupa untuk pakai topeng :)</item>5
+        <item>Jangan lupa untuk pakai sarung tangan dan topi.</item>6
+        <item>Panas di luar!</item>7
+        <item>Panas di luar!</item>8
+        <item>Pakai pakaian panas!</item>9
+        <item>Angin sejuk akan ditiup ke sini\u2026</item>0
+        <item>Pakai pakaian panas!</item>1
+        <item>Pakai sarung bulu telinga jika anda ada! :)</item>2
+        <item>Masa untuk bersenam!</item>3
+        <item>Masa untuk bersenam dan jemurkan diri! :)</item>4
+        <item>Masa yang baik untuk menjemur pakaian!</item>
+        <item>Angin semakin dingin, jangan lupa untuk pakai jaket!</item>6
     </array>
 
     <array name="weather_info_uv">
         <item>"0"</item>
-        <item>Unavailable</item>
+        <item>Tiada</item>
         <item>"6"</item>
-        <item>Use sunscreen and wear hat and sunglasses when outdoors.</item>
+        <item>Gunakan pelindung matahari dan pakai topi dan cermin mata gelap di luar.</item>
         <item>"7"</item>
-        <item>Use sunscreen and wear hat and sunglasses when outdoors.</item>
+        <item>Gunakan pelindung matahari dan pakai topi dan cermin mata gelap di luar.</item>
         <item>"8"</item>
-        <item>Use sunscreen and wear hat and sunglasses when outdoors.</item>
+        <item>Gunakan pelindung matahari dan pakai topi dan cermin mata gelap di luar.</item>
         <item>"9"</item>
-        <item>Avoid the sun if possible. Use sunscreen if you need to go out!</item>
+        <item>Elak daripada matahari jika boleh. Gunakan pelindung matahari jika anda mahu keluar!</item>
         <item>"10"</item>
-        <item>Avoid sun if possible. Use sunscreen if you need to go out!</item>
+        <item>Elak daripada matahari jika boleh. Gunakan pelindung matahari jika anda mahu keluar!</item>
     </array>
 
     <array name="weather_info_dress">
         <item>"0"</item>
-        <item>Unavailable</item>
+        <item>Tiada</item>
         <item>"11"</item>
-        <item>Light jacket</item>
+        <item>Jaket ringan</item>
         <item>"12"</item>
-        <item>Light jacket</item>
+        <item>Jaket ringan</item>
         <item>"13"</item>
-        <item>Summer clothing</item>
+        <item>Pakaian musim panas</item>
         <item>"14"</item>
-        <item>Summer clothing</item>
+        <item>Pakaian musim panas</item>
         <item>"15"</item>
-        <item>Light jacket</item>
+        <item>Jaket ringan</item>
         <item>"16"</item>
-        <item>Remember to bring additional layers!</item>
+        <item>Bawa lapisan tambahan!</item>
         <item>"17"</item>
-        <item>Bring a jacket!</item>
+        <item>Bawa jaket!</item>
         <item>"18"</item>
-        <item>Bundle up!</item>
+        <item>Pakai pakaian panas!</item>
         <item>"19"</item>
-        <item>Bundle up!</item>
+        <item>Pakai pakaian panas!</item>
     </array>
 
     <array name="weather_info_msport">
         <item>"0"</item>
-        <item>Unavailable</item>
+        <item>Tiada</item>
         <item>"1"</item>
-        <item>It\'s a good day for morning exercises!</item>
+        <item>Hari yang baik untuk senaman pagi!</item>
         <item>"2"</item>
-        <item>Bring additional layers!</item>
+        <item>Bawa lapisan tambahan!</item>
         <item>"3"</item>
-        <item>Weather is not ideal; bring additional layers!</item>
+        <item>Cuaca tidak sesuai, bawa lapisan tambahan!</item>
         <item>"4"</item>
-        <item>Exercise indoors!</item>
+        <item>Senam dalam rumah!</item>
     </array>
 
     <array name="weather_info_comfort">
         <item>"0"</item>
-        <item>Unavailable</item>
+        <item>Tiada</item>
         <item>"20"</item>
-        <item>Temperature will be stable</item>
+        <item>Suhu stabil</item>
         <item>"21"</item>
-        <item>Cool and comfortable</item>
+        <item>Dingin dan selesa</item>
         <item>"22"</item>
-        <item>Temperature will be volatile</item>
+        <item>Suhu tidak menentu</item>
         <item>"23"</item>
-        <item>Clear skies and uncomfortable temperatures</item>
+        <item>Langit cerah dan suhu tidak selesa</item>
         <item>"24"</item>
-        <item>Hot and humid! :(</item>
+        <item>Panas dan lembap! :(</item>
    </array>
 
     <array name="weather_info_wcar">
         <item>"0"</item>
-        <item>Unavailable</item>
+        <item>Tiada</item>
         <item>"1"</item>
-        <item>It\'s a good day to wash your car!</item>
+        <item>Hari yang baik untuk cuci kereta anda!</item>
         <item>"2"</item>
-        <item>It\'s a good day to wash your car!</item>
+        <item>Hari yang baik untuk cuci kereta anda!</item>
         <item>"3"</item>
-        <item>It\'s going to rain, so hold off on washing your car.</item>
+        <item>Hujan akan turun sebentar lagi, jangan cuci kereta anda.</item>
         <item>"25"</item>
-        <item>It\'s going to rain, so hold off on washing your car.</item>
+        <item>Hujan akan turun sebentar lagi, jangan cuci kereta anda.</item>
         <item>"26"</item>
-        <item>There\'s a sand storm in the forecast, so hold off on washing your car.</item>
+        <item>Ribut pasir telah diramalkan, jangan cuci kereta anda.</item>
         <item>"27"</item>
-        <item>It\'s going to snow, so hold off on washing your car.</item>
+        <item>Salji akan turun hari ini, jangan cuci kereta anda.</item>
         <item>"4"</item>
-        <item>Hold off on washing your car.</item>
+        <item>Jangan cuci kereta.</item>
     </array>
 
     <array name="weather_info_hung">
         <item>"0"</item>
-        <item>Unavailable</item>
+        <item>Tiada</item>
         <item>"28"</item>
-        <item>Hang your clothes to dry in the afternoon.</item>
+        <item>Gantung pakaian anda untuk kering pada tengahari.</item>
         <item>"29"</item>
-        <item>Hang your clothes to dry any time.</item>
+        <item>Gantung pakaian anda untuk kering bila-bila masa.</item>
         <item>"30"</item>
-        <item>Cloudy but with the hot temperatures, your clothes will still dry.</item>
+        <item>Mendung tetapi dengan suhu panas, pakaian anda masih boleh kering.</item>
         <item>"1"</item>
-        <item>The weather is suitable for drying clothes.</item>
+        <item>Cuaca ini sesuai untuk mengeringkan pakaian.</item>
         <item>"3"</item>
-        <item>It will rain intermittently throughout the day.</item>
+        <item>Hujan akan turun tidak menentu sepanjang hari.</item>
         <item>"5"</item>
-        <item>Good drying conditions. </item>
+        <item>Keadaan pengeringan baik.</item>
         <item>"4"</item>
-        <item>Dry your clothing indoors.</item>
+        <item>Keringkan pakaian dalam rumah.</item>
         <item>"31"</item>
-        <item>Dry your clothing indoors.</item>
+        <item>Keringkan pakaian dalam rumah.</item>
     </array>
 
     <array name="weather_info_travel">
         <item>"0"</item>
-        <item>Unavailable</item>
+        <item>Tiada</item>
         <item>"32"</item>
-        <item>Clear and sunny with good temperatures.</item>
+        <item>Suhu baik, jelas dan cerah.</item>
         <item>"2"</item>
-        <item>Mild and stable temperatures.</item>
+        <item>Suhu sederhana dan stabil.</item>
         <item>"1"</item>
-        <item>Mild and stable temperatures.</item>
+        <item>Suhu sederhana dan stabil.</item>
         <item>"3"</item>
-        <item>Today\'s weather will be volatile.</item>
+        <item>Cuaca hari ini tidak menentu.</item>
         <item>"33"</item>
-        <item>Today\'s weather will be volatile.</item>
+        <item>Cuaca hari ini tidak menentu.</item>
         <item>"34"</item>
-        <item>Clear skies, mild wind.</item>
+        <item>Langit cerah, angin lembut.</item>
     </array>
 
     <array name="weather_info_fl">
         <item></item>
-        <item>Wear layers!</item>
+        <item>Pakai pakaian berlapis!</item>
         <item>微风</item>
-        <item>Comfortable</item>
+        <item>Selesa</item>
         <item>暂缺</item>
-        <item>Unavailable</item>
+        <item>Tiada</item>
     </array>
 </resources>
