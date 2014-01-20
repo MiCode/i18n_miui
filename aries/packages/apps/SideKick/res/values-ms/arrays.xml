@@ -2,24 +2,24 @@
 <resources>
 
     <string-array name="helps">
-        <item>Calls</item>
-        <item>Texting</item>
-        <item>Contacts</item>
-        <item>Set reminders</item>
-        <item>Open app</item>
-        <item>Web search</item>
-        <item>Eating out</item>
-        <item>Music search</item>
-        <item>Travel</item>
-        <item>Weather</item>
-        <item>Maps</item>
-        <item>Chat</item>
-        <item>Translation</item>
+        <item>Panggilan</item>
+        <item>Menghantar Mesej</item>
+        <item>Kenalan</item>
+        <item>Set peringatan</item>
+        <item>Buka app</item>
+        <item>Carian Web</item>
+        <item>Makan Di Luar</item>
+        <item>Carian Muzik</item>
+        <item>Perjalanan</item>
+        <item>Cuaca</item>
+        <item>Peta</item>
+        <item>Berbual</item>
+        <item>Terjemahan</item>
     </string-array>
     <string-array name="help_tel">
-        <item>Call Zhang Ruohan</item>
-        <item>Call Zhangruo Han</item>
-        <item>Dial 10086</item>
+        <item>Memanggil Zhang Ruohan</item>
+        <item>Memanggil Zhangruo Han</item>
+        <item>Dail 10086</item>
     </string-array>
     <string-array name="help_sms">
         <item>发短信给张若涵</item>
@@ -39,11 +39,11 @@
     <string-array name="help_launch">
         <item>打开相机</item>
         <item>启动植物大战僵尸</item>
-        <item>Download Angry Bird</item>
+        <item>Muat turun Angry Bird</item>
     </string-array>
     <string-array name="help_web">
-        <item>Open Xiaomi web page</item>
-        <item>Search Xiaomi</item>
+        <item>Buka laman web Xiaomi</item>
+        <item>Carian Xiaomi</item>
         <item>Baidu, Xiaomi</item>
     </string-array>
     <string-array name="help_dinner">
@@ -62,7 +62,7 @@
         <item>我要订一张去拉萨的机票</item>
     </string-array>
     <string-array name="help_weather">
-        <item>Weather</item>
+        <item>Cuaca</item>
         <item>明天北京下不下雨</item>
         <item>西城区的天气</item>
     </string-array>
@@ -77,16 +77,16 @@
         <item>凤凰传奇是谁</item>
     </string-array>
     <string-array name="help_translate">
-        <item>Translate to English weather</item>
+        <item>Terjemah ke cuaca English</item>
     </string-array>
     <string-array name="week">
-        <item>Sunday</item>
-        <item>Monday</item>
-        <item>Tuesday</item>
-        <item>Wednesday</item>
-        <item>Thursday</item>
-        <item>Friday</item>
-        <item>Saturday</item>
+        <item>Ahad</item>
+        <item>Isnin</item>
+        <item>Selasa</item>
+        <item>Rabu</item>
+        <item>Khamis</item>
+        <item>Jumaat</item>
+        <item>Sabtu</item>
     </string-array>
 
 </resources>
