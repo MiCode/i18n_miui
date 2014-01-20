@@ -93,16 +93,16 @@
     <!-- Settings screen, setting title text -->
     <string name="pref_camera_recordlocation_title">Simpan maklumat lokasi dalam gambar</string>
 
-    <string name="pref_camera_recordlocation_default" translatable="false">salah</string>
+    <string name="pref_camera_recordlocation_default" translatable="false">false</string>
 
     <!-- Settings screen, Record location dialog choices -->
     <string name="pref_camera_recordlocation_entry_off">Matikan</string>
     <string name="pref_camera_recordlocation_entry_on">Hidupkan</string>
 
     <string name="pref_camera_sound_title">Bunyi kamera</string>
-    <string name="pref_camera_sound_default" translatable="false">hidupkan</string>
-    <string name="pref_camera_sound_entryvalue_off" translatable="false">matikan</string>
-    <string name="pref_camera_sound_entryvalue_on" translatable="false">hidupkan</string>
+    <string name="pref_camera_sound_default" translatable="false">on</string>
+    <string name="pref_camera_sound_entryvalue_off" translatable="false">off</string>
+    <string name="pref_camera_sound_entryvalue_on" translatable="false">on</string>
     <string name="pref_camera_sound_title_entry_off">Matikan</string>
     <string name="pref_camera_sound_title_entry_on">Hidupkan</string>
     <string name="pref_camera_sound_entry_off">Matikan</string>
@@ -115,9 +115,9 @@
     <string name="pref_captrue_mirror_entry_off">Matikan</string>
     <string name="pref_captrue_mirror_entry_on">Hidupkan</string>
 
-    <string name="pref_captrue_mirror_default" translatable="false">matikan</string>
-    <string name="pref_captrue_mirror_value_off" translatable="false">matikan</string>
-    <string name="pref_captrue_mirror_value_on" translatable="false">hidupkan</string>
+    <string name="pref_captrue_mirror_default" translatable="false">off</string>
+    <string name="pref_captrue_mirror_value_off" translatable="false">off</string>
+    <string name="pref_captrue_mirror_value_on" translatable="false">on</string>
 
     <!-- The Video quality settings in preference [CHAR LIMIT=21] -->
     <string name="pref_video_quality_title">Kualiti video</string>
@@ -250,10 +250,10 @@
     <string name="pref_camera_flashmode_default" translatable="false">auto</string>
 
     <!-- Skin beautify setting -->
-    <string name="pref_camera_skin_beautify_default" translatable="false">matikan</string>
+    <string name="pref_camera_skin_beautify_default" translatable="false">off</string>
 
     <!-- Value for flash off setting-->
-    <string name="pref_camera_flashmode_no_flash" translatable="false">tiada_flash</string>
+    <string name="pref_camera_flashmode_no_flash" translatable="false">no_flash</string>
 
     <!-- Settings screen, Flash mode title -->
     <string name="pref_camera_flashmode_title">Mod flash</string>
@@ -264,7 +264,7 @@
     <string name="pref_camera_flashmode_entry_off">Matikan</string>
 
     <!-- Default videocamera flash mode setting.-->
-    <string name="pref_camera_video_flashmode_default" translatable="false">matikan</string>
+    <string name="pref_camera_video_flashmode_default" translatable="false">off</string>
 
     <!-- Default white balance setting. -->
     <string name="pref_camera_whitebalance_default" translatable="false">auto</string>
@@ -281,13 +281,13 @@
     <string name="pref_camera_whitebalance_entry_cloudy">Mendung</string>
 
     <string name="pref_camera_whitebalance_entryvalue_auto" translatable="false">auto</string>
-    <string name="pref_camera_whitebalance_entryvalue_incandescent" translatable="false">lampu pijar</string>
-    <string name="pref_camera_whitebalance_entryvalue_daylight" translatable="false">siang</string>
-    <string name="pref_camera_whitebalance_entryvalue_fluorescent" translatable="false">pendarfluor</string>
-    <string name="pref_camera_whitebalance_entryvalue_cloudy" translatable="false">mendung-siang</string>
+    <string name="pref_camera_whitebalance_entryvalue_incandescent" translatable="false">incandescent</string>
+    <string name="pref_camera_whitebalance_entryvalue_daylight" translatable="false">daylight</string>
+    <string name="pref_camera_whitebalance_entryvalue_fluorescent" translatable="false">fluorescent</string>
+    <string name="pref_camera_whitebalance_entryvalue_cloudy" translatable="false">cloudy-daylight</string>
 
     <!-- Default color effect setting. -->
-    <string name="pref_camera_coloreffect_default" translatable="false">tiada</string>
+    <string name="pref_camera_coloreffect_default" translatable="false">none</string>
 
     <!-- Settings screen, Select Color effect title -->
     <string name="pref_camera_coloreffect_title">Penapis</string>
@@ -423,7 +423,7 @@
 
     <!-- Denoise Settings screen, setting title text -->
     <string name="pref_camera_denoise_title">Mod Wavelet Denoise</string>
-    <string name="pref_camera_denoise_default" translatable="false">denoise-hidup</string>
+    <string name="pref_camera_denoise_default" translatable="false">denoise-on</string>
 
     <!-- Denoise Settings screen, Record location dialog choices -->
 
@@ -572,7 +572,7 @@
     <string name="tap_to_exposure">Sentuh untuk melaraskan pendedahan secara manual</string>
 
     <!-- Default effect setting that clears the effect. -->
-    <string name="pref_video_effect_default" translatable="false">tiada</string>
+    <string name="pref_video_effect_default" translatable="false">none</string>
 
     <!-- Title of video effect setting popup window -->
 
@@ -717,12 +717,11 @@
 
     <!-- Skin Tone Enhancement entry values. Do not translate. -->
     <string name="pref_camera_skinToneEnhancement_value_auto" translatable="false">auto</string>
-    <string name="pref_camera_skinToneEnhancement_value_enable" translatable="false">Hidupkan</string>
-    <string name="pref_camera_skinToneEnhancement_value_disable" translatable="false">Lumpuhkan</string>
+    <string name="pref_camera_skinToneEnhancement_value_enable" translatable="false">enable</string>
+    <string name="pref_camera_skinToneEnhancement_value_disable" translatable="false">disable</string>
     <!-- Settings screen, setting title text for ZSL-->
     <string name="pref_camera_zsl_title">ZSL</string>
-    <string name="pref_camera_zsl_default" translatable="false">Hidup</string>
-    <string name="pref_camera_zsl_default" translatable="false">Hidup</string>
+    <string name="pref_camera_zsl_default" translatable="false">on</string>
 
          <!-- Default selectable zone af setting. Do not translate. -->
      <string name="pref_camera_selectablezoneaf_default">auto</string>
@@ -737,11 +736,11 @@
     <string name="pref_camera_zsl_entry_off">Matikan</string>
     <string name="pref_camera_zsl_entry_on">Hidupkan</string>
 
-    <string name="pref_camera_zsl_value_off" translatable="false">Matikan</string>
-    <string name="pref_camera_zsl_value_on" translatable="false">Hidupkan</string>
+    <string name="pref_camera_zsl_value_off" translatable="false">off</string>
+    <string name="pref_camera_zsl_value_on" translatable="false">on</string>
 
     <!-- Default face  detection setting. -->
-    <string name="pref_camera_facedetection_default" translatable="false">Hidupkan</string>
+    <string name="pref_camera_facedetection_default" translatable="false">on</string>
 
     <!-- Settings screen, Select Face Detection -->
     <string name="pref_camera_facedetection_title">Pengesanan muka</string>
@@ -755,10 +754,10 @@
     <!-- Settings screen, Power mode dialog radio button choices -->
 
     <!-- Default Power mode.. -->
-     <string name="pref_camera_powermode_default" translatable="false">Kuasa_biasa</string>
+     <string name="pref_camera_powermode_default" translatable="false">Normal_Power</string>
 
     <!-- Default redeye reduction setting. -->
-    <string name="pref_camera_redeyereduction_default" translatable="false">dinyahdayakan</string>
+    <string name="pref_camera_redeyereduction_default" translatable="false">disable</string>
 
     <!-- The message is shown in dialog when take raw picture while wavelet denoise is on-->
     <string name="error_app_unsupported_raw_wavelet">wavelet denoise tidak akan berkuat kuasa apabila mengambil gambar mentah</string>
@@ -792,7 +791,7 @@
      <string name="pref_camera_ae_bracket_hdr_value_hdr">HDR</string>
      <string name="pref_camera_ae_bracket_hdr_value_ae_bracket">AE-Bracket</string>
 
-    <string name="pref_camera_ae_bracket_hdr_default" translatable="false">Tutup</string>
+    <string name="pref_camera_ae_bracket_hdr_default" translatable="false">Off</string>
     <string name="hdr_exit_button_text">Tamat mod HDR</string>
     <string name="hand_night_exit_button_text">Keluar dari mod pengurusan senja</string>
 
@@ -830,7 +829,7 @@
     <string name = "pref_camera_long_pressing_burst_shooting_title">Tekan dengan lama butang pengatup</string>
     <string name = "pref_camera_long_pressing_burst_shooting_entry_off">Fokus</string>
     <string name = "pref_camera_long_pressing_burst_shooting_entry_on">Tangkapan meletup</string>
-    <string name = "pref_camera_long_pressing_burst_shooting_default" translatable="false">buka</string>
+    <string name = "pref_camera_long_pressing_burst_shooting_default" translatable="false">on</string>
 
     <!-- 白平衡K值 -->
     <string name="pref_camera_current_k_value">Nilai semasa</string>
@@ -1029,7 +1028,7 @@
     <string name="pref_camera_watermark_title">Tera masa</string>
     <string name="pref_camera_watermark_entry_off">Tutup</string>
     <string name="pref_camera_watermark_entry_on">Buka</string>
-    <string name="pref_camera_watermark_default" translatable="false">Tutup</string>
-    <string name="pref_camera_watermark_entryvalue_off" translatable="false">Tutup</string>
-    <string name="pref_camera_watermark_entryvalue_on" translatable="false">Buka</string>
+    <string name="pref_camera_watermark_default" translatable="false">Off</string>
+    <string name="pref_camera_watermark_entryvalue_off" translatable="false">Off</string>
+    <string name="pref_camera_watermark_entryvalue_on" translatable="false">On</string>
 </resources>
