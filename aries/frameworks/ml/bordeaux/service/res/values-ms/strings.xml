@@ -15,45 +15,39 @@
 -->
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="bordeaux_app">Bordeaux Apps</string>
-    <string name="send_data">Send Learning Data</string>
+    <string name="bordeaux_app">Apps Bordeaux</string>
+    <string name="send_data">Hantar Pembelajaran Data</string>
 
-    <string name="local_service_started">Local service has started</string>
-    <string name="local_service_stopped">Local service has stopped</string>
-    <string name="local_service_label">Sample Local Service</string>
+    <string name="local_service_started">Servis tempatan telah bermula</string>
+    <string name="local_service_stopped">Service tempatan telah terhenti</string>
+    <string name="local_service_label">Contoh Servis Tempatan</string>
 
     <string name="activity_local_service_controller">App/Service/Local Service Controller</string>
-    <string name="local_service_controller">This demonstrates how you can implement persistent services that
-        may be started and stopped as desired.</string>
-    <string name="start_service">Start Service</string>
-    <string name="stop_service">Stop Service</string>
+    <string name="local_service_controller">Ini menunjukkan bagaimana anda boleh melaksanakan perkhidmatan yang berterusan yang boleh bermula dan berhenti seperti yang dikehendaki.</string>
+    <string name="start_service">Mula servis</string>
+    <string name="stop_service">Henti servis</string>
 
     <string name="activity_local_service_binding">App/Service/Local Service Binding</string>
-    <string name="local_service_binding">This demonstrates how you can connect with a persistent
-        service.  Notice how it automatically starts for you, and play around with the
-        interaction between this and Local Service Controller.</string>
-    <string name="bind_service">Bind Service</string>
-    <string name="unbind_service">Unbind Service</string>
-    <string name="local_service_connected">Connected to local service</string>
-    <string name="local_service_disconnected">Disconnected from local service</string>
+    <string name="local_service_binding">Ini menunjukkan bagaimana anda boleh berhubung dengan perkhidmatan yang berterusan. Perhatikan bagaimana ia bermula secara automatik untuk anda, dan bermain-main dengan interaksi antara ini dan Kawalan Perkhidmatan Tempatan.</string>
+    <string name="bind_service">Bind Servis</string>
+    <string name="unbind_service">Unbind Servis</string>
+    <string name="local_service_connected">Disambungkan kepada perkhidmatan tempatan</string>
+    <string name="local_service_disconnected">Diputuskan sambungan daripada servis tempatan</string>
 
-    <string name="remote_service_started">Remote service has started</string>
-    <string name="remote_service_stopped">Remote service has stopped</string>
-    <string name="remote_service_label">Sample Remote Service</string>
+    <string name="remote_service_started">Perkhidmatan Remote telah bermula</string>
+    <string name="remote_service_stopped">Perkhidmatan Remote telah terhenti</string>
+    <string name="remote_service_label">Contoh perkhidmatan Remote</string>
 
-    <string name="activity_lava_service_controller">Bordeaux Service Controller</string>
-    <string name="lava_service_controller">This demonstrates how you can implement persistent services
-        running in a separate process that may be started and stopped as desired.</string>
+    <string name="activity_lava_service_controller">Pengawal Servis Bordeaux</string>
+    <string name="lava_service_controller">Ini menunjukkan bagaimana anda boleh melaksanakan perkhidmatan berterusan berjalan dalam proses berasingan yang boleh bermula dan berhenti seperti yang dikehendaki.</string>
 
-    <string name="activity_lava_service_binding">Bordeaux Service</string>
-    <string name="lava_service_binding">This demonstrates how you can connect with a persistent
-        service running in another process.  Use the kill button to see what happens when
-        the process crashes.</string>
-    <string name="kill_process">Kill Process</string>
-    <string name="remote_service_connected">Connected to remote service</string>
-    <string name="remote_service_disconnected">Disconnected from remote service</string>
-    <string name="remote_service_unbind_disconn">Unbinding due to disconnect</string>
-    <string name="remote_call_failed">Failure calling remote service</string>
+    <string name="activity_lava_service_binding">Servis Bordeaux</string>
+    <string name="lava_service_binding">Ini menunjukkan bagaimana anda boleh berhubung dengan perkhidmatan berterusan yang berjalan dalam proses lain. Gunakan butang Kill untuk melihat apa yang berlaku apabila proses crash.</string>
+    <string name="kill_process">proses Kill</string>
+    <string name="remote_service_connected">Disambungkan ke servise Remote</string>
+    <string name="remote_service_disconnected">Terputus daripada servis Remote</string>
+    <string name="remote_service_unbind_disconn">Unbinding kerana terputus</string>
+    <string name="remote_call_failed">Gagal menghubungi servis Remote</string>
 
 
   </resources>
