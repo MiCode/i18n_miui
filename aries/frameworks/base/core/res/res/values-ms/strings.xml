@@ -987,10 +987,10 @@
 	<!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
 	<string name="permlab_writeCallLog">menulis log panggilan</string>
 	<!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-	<string name="permdesc_writeCallLog" product="tablet">Allows the app to modify your tablet's call log, including data about incoming and outgoing calls.
+	<string name="permdesc_writeCallLog" product="tablet">Allows the app to modify your tablet\'s call log, including data about incoming and outgoing calls.
 	Malicious apps may use this to erase or modify your call log.</string>
 	<!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-	<string name="permdesc_writeCallLog" product="default">Allows the app to modify your phone's call log, including data about incoming and outgoing calls.
+	<string name="permdesc_writeCallLog" product="default">Allows the app to modify your phone\'s call log, including data about incoming and outgoing calls.
 	Malicious apps may use this to erase or modify your call log.</string>
 	
 	
@@ -1315,16 +1315,16 @@
 	<!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
 	<string name="permlab_setTime">tetapkan masa</string>
 	<!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-	<string name="permdesc_setTime" product="tablet">Allows the app to change the tablet's clock time.</string>
+	<string name="permdesc_setTime" product="tablet">Allows the app to change the tablet\'s clock time.</string>
 	<!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-	<string name="permdesc_setTime" product="default">Allows the app to change the phone's clock time.</string>
+	<string name="permdesc_setTime" product="default">Allows the app to change the phone\'s clock time.</string>
 	
 	<!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
 	<string name="permlab_setTimeZone">tetapkan zon masa</string>
 	<!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-	<string name="permdesc_setTimeZone" product="tablet">Allows the app to change the tablet's time zone.</string>
+	<string name="permdesc_setTimeZone" product="tablet">Allows the app to change the tablet\'s time zone.</string>
 	<!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-	<string name="permdesc_setTimeZone" product="default">Allows the app to change the phone's time zone.</string>
+	<string name="permdesc_setTimeZone" product="default">Allows the app to change the phone\'s time zone.</string>
 	
 	<!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
 	<string name="permlab_accountManagerService">bertindak sebagai Perkhidmatan Pengurus Akaun</string>
