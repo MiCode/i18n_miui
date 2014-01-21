@@ -88,21 +88,15 @@
     <!-- Settings screen, camera selection dialog title. Users can select a camera from the phone (front-facing or back-facing). [CHAR LIMIT=20] -->
     <string name="pref_camera_id_title">Pilih kamera</string>
 
-    <string name="pref_camera_id_default" translatable="false">0</string>
-
     <!-- Settings screen, setting title text -->
     <string name="pref_camera_recordlocation_title">Simpan maklumat lokasi dalam gambar</string>
-
-    <string name="pref_camera_recordlocation_default" translatable="false">false</string>
 
     <!-- Settings screen, Record location dialog choices -->
     <string name="pref_camera_recordlocation_entry_off">Matikan</string>
     <string name="pref_camera_recordlocation_entry_on">Hidupkan</string>
 
     <string name="pref_camera_sound_title">Bunyi kamera</string>
-    <string name="pref_camera_sound_default" translatable="false">on</string>
-    <string name="pref_camera_sound_entryvalue_off" translatable="false">off</string>
-    <string name="pref_camera_sound_entryvalue_on" translatable="false">on</string>
+
     <string name="pref_camera_sound_title_entry_off">Matikan</string>
     <string name="pref_camera_sound_title_entry_on">Hidupkan</string>
     <string name="pref_camera_sound_entry_off">Matikan</string>
@@ -115,50 +109,32 @@
     <string name="pref_captrue_mirror_entry_off">Matikan</string>
     <string name="pref_captrue_mirror_entry_on">Hidupkan</string>
 
-    <string name="pref_captrue_mirror_default" translatable="false">off</string>
-    <string name="pref_captrue_mirror_value_off" translatable="false">off</string>
-    <string name="pref_captrue_mirror_value_on" translatable="false">on</string>
-
     <!-- The Video quality settings in preference [CHAR LIMIT=21] -->
     <string name="pref_video_quality_title">Kualiti video</string>
-    <!-- The default quality value is 9 (480p) -->
-    <string name="pref_video_quality_default" translatable="false">5</string>
-    <!-- Video quality setting entry. Videos will be recorded in 1080p quality. [CHAR LIMIT=24] -->
-    <string name="pref_video_quality_entry_1080p" translatable="false">FULL HD</string>
+
     <!-- Video quality setting entry. Videos will be recorded in 720p quality. [CHAR LIMIT=24] -->
     <string name="pref_video_quality_entry_720p">HD</string>
     <!-- Video quality setting entry. Videos will be recorded in 480p quality. [CHAR LIMIT=24] -->
     <string name="pref_video_quality_entry_480p">SD</string>
-    <!-- Video quality setting entry. Videos will be recorded in FWVGA quality. [CHAR LIMIT=24] -->
-    <string name="pref_video_quality_entry_fwvga" translatable="false">FWVGA</string>
-    <!-- Video quality setting entry. Videos will be recorded in WVGA quality. [CHAR LIMIT=24] -->
-    <string name="pref_video_quality_entry_wvga" translatable="false">WVGA</string>
-    <!-- Video quality setting entry. Videos will be recorded in VGA quality. [CHAR LIMIT=24] -->
-    <string name="pref_video_quality_entry_vga" translatable="false">VGA</string>
-    <!-- Video quality setting entry. Videos will be recorded in WQVGA quality. [CHAR LIMIT=24] -->
-    <string name="pref_video_quality_entry_wqvga" translatable="false">WQVGA</string>
-    <!-- Video quality setting entry. Videos will be recorded in CIF quality. [CHAR LIMIT=24] -->
-    <!-- Video quality setting entry. Videos will be recorded in QVGA quality. [CHAR LIMIT=24] -->
-    <!-- Video quality setting entry. Videos will be recorded in QCIF quality. [CHAR LIMIT=24] -->
 
     <!-- Describes the preference dialog for choosing interval between frame capture for
     time lapse recording. Appears at top of the dialog. [CHAR LIMIT=30] -->
     <string name="pref_video_time_lapse_frame_interval_title">Selang luput masa</string>
-    <string name="pref_video_time_lapse_frame_interval_default" translatable="false">120</string>
+
     <!-- The time interval between frame capture for time lapse recording -->
-    <string name="pref_video_time_lapse_frame_interval_entry_2" >Selang 0.06 saat (2 kali)</string>
-    <string name="pref_video_time_lapse_frame_interval_entry_4" >Selang 0.12 saat (4 kali)</string>
-    <string name="pref_video_time_lapse_frame_interval_entry_10" >Selang 0.3 saat (10 kali)</string>
-    <string name="pref_video_time_lapse_frame_interval_entry_30" >Selang 1 saat (30 kali)</string>
-    <string name="pref_video_time_lapse_frame_interval_entry_60" >Selang 2 saat (60 kali)</string>
-    <string name="pref_video_time_lapse_frame_interval_entry_90" >Selang 3 saat (90 kali)</string>
-    <string name="pref_video_time_lapse_frame_interval_entry_120" >Selang 4 saat (120 kali)</string>
-    <string name="pref_video_time_lapse_frame_interval_entry_150" >Selang 5 saat (150 kali)</string>
-    <string name="pref_video_time_lapse_frame_interval_entry_240" >Selang 8 saat (240 kali)</string>
-    <string name="pref_video_time_lapse_frame_interval_entry_300" >Selang 10 saat (300 kali)</string>
-    <string name="pref_video_time_lapse_frame_interval_entry_450" >Selang 15 saat (450 kali)</string>
-    <string name="pref_video_time_lapse_frame_interval_entry_900" >Selang 30 saat (900 kali)</string>
-    <string name="pref_video_time_lapse_frame_interval_entry_1800" >Selang 60 saat (1800 kali)</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_2">Selang 0.06 saat (2 kali)</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_4">Selang 0.12 saat (4 kali)</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_10">Selang 0.3 saat (10 kali)</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_30">Selang 1 saat (30 kali)</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_60">Selang 2 saat (60 kali)</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_90">Selang 3 saat (90 kali)</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_120">Selang 4 saat (120 kali)</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_150">Selang 5 saat (150 kali)</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_240">Selang 8 saat (240 kali)</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_300">Selang 10 saat (300 kali)</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_450">Selang 15 saat (450 kali)</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_900">Selang 30 saat (900 kali)</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_1800">Selang 60 saat (1800 kali)</string>
 
     <!-- Settings screen, Camera setting category title -->
     <string name="pref_camera_settings_category">Tetapan kamera</string>
@@ -193,15 +169,6 @@
 
     <!--not use  -->
 
-    <!-- Default picture quality setting. See
-         pref_camera_jpegquality_entryvalues for possible values -->
-    <string name="pref_camera_jpegquality_default" translatable="false">fine</string>
-
-    <string name="pref_camera_picture_size_default" translatable="false">3264x1840</string>
-    <string name="pref_camera_front_picture_size_default" translatable="false">1920x1088</string>
-
-    <!-- Default Picture format setting. Do not translate. -->
-    <string name="pref_camera_picture_format_default">jpeg</string>
 
     <!-- Settings screen, Select Picture format title -->
     <string name="pref_camera_picture_format_title">Pilih format gambar</string>
@@ -210,9 +177,6 @@
     <string name="pref_camera_picture_format_entry_jpeg">Jpeg</string>
     <string name="pref_camera_picture_format_entry_raw">Raw</string>
 
-    <!-- Picture format entry values. Do not translate. -->
-    <string name="pref_camera_picture_format_value_jpeg">jpeg</string>
-    <string name="pref_camera_picture_format_value_raw">raw</string>
     <!-- Settings screen, Picture quality title -->
     <string name="pref_camera_jpegquality_title">Kualiti gambar</string>
 
@@ -221,19 +185,12 @@
     <string name="pref_camera_jpegquality_entry_fine">Fine</string>
     <string name="pref_camera_jpegquality_entry_normal">Standard</string>
 
-     <!-- Default auto histogram setting. Do not translate. -->
-     <string name="pref_camera_histogram_default">matikan</string>
-
      <!-- Settings screen, Select Histogram title -->
      <string name="pref_camera_histogram_title">Histogram</string>
 
      <!-- Settings screen, Histogram radio button choices -->
      <string name="pref_camera_histogram_entry_enable">Hidupkan</string>
      <string name="pref_camera_histogram_entry_disable">Matikan</string>
-
-     <!-- Histogram entry values. Do not translate. -->
-     <string name="pref_camera_histogram_value_enable">hidupkan</string>
-     <string name="pref_camera_histogram_value_disable">matikan</string>
 
     <!-- Settings screen, Focus mode title -->
     <string name="pref_camera_focusmode_title">Mod fokus</string>
@@ -245,16 +202,6 @@
     <string name="pref_camera_focusmode_entry_macro">Macro</string>
     <string name="pref_camera_focusmode_entry_continuous">CAF</string>
 
-    <string name="pref_camera_focusmode_value_default">auto</string>
-    <!-- Default flash mode setting.-->
-    <string name="pref_camera_flashmode_default" translatable="false">auto</string>
-
-    <!-- Skin beautify setting -->
-    <string name="pref_camera_skin_beautify_default" translatable="false">off</string>
-
-    <!-- Value for flash off setting-->
-    <string name="pref_camera_flashmode_no_flash" translatable="false">no_flash</string>
-
     <!-- Settings screen, Flash mode title -->
     <string name="pref_camera_flashmode_title">Mod flash</string>
 
@@ -262,12 +209,6 @@
     <string name="pref_camera_flashmode_entry_auto">Auto</string>
     <string name="pref_camera_flashmode_entry_on">Hidupkan</string>
     <string name="pref_camera_flashmode_entry_off">Matikan</string>
-
-    <!-- Default videocamera flash mode setting.-->
-    <string name="pref_camera_video_flashmode_default" translatable="false">off</string>
-
-    <!-- Default white balance setting. -->
-    <string name="pref_camera_whitebalance_default" translatable="false">auto</string>
 
     <!-- Settings screen, white balance title -->
     <string name="pref_camera_whitebalance_title">Imbangan putih</string>
@@ -280,15 +221,6 @@
     <string name="pref_camera_whitebalance_entry_fluorescent">Pendarfluor</string>
     <string name="pref_camera_whitebalance_entry_cloudy">Mendung</string>
 
-    <string name="pref_camera_whitebalance_entryvalue_auto" translatable="false">auto</string>
-    <string name="pref_camera_whitebalance_entryvalue_incandescent" translatable="false">incandescent</string>
-    <string name="pref_camera_whitebalance_entryvalue_daylight" translatable="false">daylight</string>
-    <string name="pref_camera_whitebalance_entryvalue_fluorescent" translatable="false">fluorescent</string>
-    <string name="pref_camera_whitebalance_entryvalue_cloudy" translatable="false">cloudy-daylight</string>
-
-    <!-- Default color effect setting. -->
-    <string name="pref_camera_coloreffect_default" translatable="false">none</string>
-
     <!-- Settings screen, Select Color effect title -->
     <string name="pref_camera_coloreffect_title">Penapis</string>
 
@@ -300,9 +232,6 @@
     <!-- Color effect that overexposes and reverses some of the tones. -->
     <string name="pref_camera_coloreffect_entry_posterize">Posterize</string>
     <string name="pref_camera_coloreffect_entry_aqua">Aqua</string>
-
-    <!-- Default Touch AF/AEC setting. Do not translate. -->
-    <string name="pref_camera_touchafaec_default">sentuh-hidupkan</string>
 
     <!-- Settings screen, Select Touch AF/AEC title -->
     <string name="pref_camera_touchafaec_title">Sentuh AF/AEC</string>
@@ -347,26 +276,15 @@
     <string name="pref_camera_saturation_entry_level10">Peringkat 10</string>
     <string name="pref_camera_default_suffix">" (lalai)"</string>
 
-    <!-- Default sharpness setting. Do not translate. -->
-    <string name="pref_camera_sharpness_default">2</string>
-
     <!-- Settings screen, Select sharpness title -->
     <string name="pref_camera_sharpness_title">Ketajaman</string>
-
-    <!-- Default contrast setting. Do not translate. -->
-    <string name="pref_camera_contrast_default">5</string>
 
     <!-- Settings screen, Select contrast title -->
     <string name="pref_camera_contrast_title">Perbezaan</string>
 
-    <!-- Default saturation setting. Do not translate. -->
-    <string name="pref_camera_saturation_default">5</string>
 
     <!-- Settings screen, Select saturation title -->
     <string name="pref_camera_saturation_title">Ketepuan</string>
-
-    <!-- Default scene mode setting. -->
-    <string name="pref_camera_scenemode_default" translatable="false">auto</string>
 
     <!-- Settings screen, Select Scene mode -->
     <string name="pref_camera_scenemode_title">Mod pemandangan</string>
@@ -403,9 +321,6 @@
     <string name="pref_camera_scenemode_entry_flowers">Bunga</string>
     <!-- Scene mode optimized for taking images of AR. -->
 
-    <!-- Default auto scene detection setting. -->
-    <string name="pref_camera_scenedetect_default" translatable="false">off</string>
-
     <!-- Settings screen, Select Auto Scene Detection -->
     <string name="pref_camera_scenedetect_title">Pengesanan pemandangan automatik</string>
 
@@ -419,16 +334,9 @@
 
     <!-- Exposure settings in preference -->
     <string name="pref_exposure_title">Pendedahan</string>
-    <string name="pref_exposure_default" translatable="false">0</string>
 
     <!-- Denoise Settings screen, setting title text -->
     <string name="pref_camera_denoise_title">Mod Wavelet Denoise</string>
-    <string name="pref_camera_denoise_default" translatable="false">denoise-on</string>
-
-    <!-- Denoise Settings screen, Record location dialog choices -->
-
-     <!-- Default iso setting. Do not translate. -->
-     <string name="pref_camera_iso_default">auto</string>
 
      <!-- Settings screen, Select Iso title -->
      <string name="pref_camera_iso_title">Pilih ISO</string>
@@ -442,17 +350,6 @@
      <string name="pref_camera_iso_entry_iso1600">ISO1600</string>
      <string name="pref_camera_iso_entry_iso3200">ISO3200</string>
 
-     <!-- ISO entry values. Do not translate. -->
-     <string name="pref_camera_iso_value_auto">auto</string>
-     <string name="pref_camera_iso_value_iso100">ISO100</string>
-     <string name="pref_camera_iso_value_iso200">ISO200</string>
-     <string name="pref_camera_iso_value_iso400">ISO400</string>
-     <string name="pref_camera_iso_value_iso800">ISO800</string>
-     <string name="pref_camera_iso_value_iso1600">ISO1600</string>
-     <string name="pref_camera_iso_value_iso3200">ISO3200</string>
-
-      <!-- Default preview setting. Do not translate-->
-
      <!-- Settings screen, Select preview title -->
 
     <!-- Settings screen, preview dialog radio button choices -->
@@ -460,12 +357,6 @@
      <string name="pref_camera_preview_entry_1000">1 saat</string>
      <string name="pref_camera_preview_entry_2000">2 saat</string>
      <string name="pref_camera_preview_entry_5000">5 saat</string>
-
-     <!-- preview entry values.Do not translate-->
-     <string name="pref_camera_preview_value_off">off</string>
-     <string name="pref_camera_preview_value_1000">1000</string>
-     <string name="pref_camera_preview_value_2000">2000</string>
-     <string name="pref_camera_preview_value_5000">5000</string>
 
      <!-- Settings screen, Anti Banding title -->
      <string name="pref_camera_antibanding_title">Anti-banding</string>
@@ -487,20 +378,8 @@
     <!-- Low-memory dialog message [CHAR LIMIT=NONE] -->
     <string name="spaceIsLow_content" product="default">Kad SD anda kehabisan ruang. Buangkan beberapa imej atau fail lain.</string>
 
-    <!-- Camera format string for new image files. Passed to java.text.SimpleDateFormat. -->
-    <string name="image_file_name_format" translatable="false">"'IMG'_yyyyMMdd_HHmmss"</string>
-
-    <!-- Video Camera format string for new video files. Passed to java.text.SimpleDateFormat. -->
-    <string name="video_file_name_format" translatable="false">"'VID'_yyyyMMdd_HHmmss"</string>
-
-    <!-- Filename prefix for panorama output. -->
-    <string name="pano_file_name_format" translatable="false">"'PANO'_yyyyMMdd_HHmmss"</string>
-
     <!-- The messsage shown when video record reaches size limit. -->
     <string name="video_reach_size_limit">Had saiz tercapai.</string>
-
-     <!-- Default hfr setting. Do not translate. -->
-     <string name="pref_camera_hfr_default">90</string>
 
      <!-- Settings screen, Select hfr title -->
      <string name="pref_camera_hfr_title">Kadar frem tinggi (gerak perlahan)</string>
@@ -510,12 +389,6 @@
      <string name="pref_camera_hfr_entry_2x">60</string>
      <string name="pref_camera_hfr_entry_3x">90</string>
      <string name="pref_camera_hfr_entry_4x">120</string>
-
-     <!-- HFR entry values. Do not translate. -->
-     <string name="pref_camera_hfr_value_off">off</string>
-     <string name="pref_camera_hfr_value_2x">60</string>
-     <string name="pref_camera_hfr_value_3x">90</string>
-     <string name="pref_camera_hfr_value_4x">120</string>
 
      <!-- Video speed -->
      <string name="pref_video_speed_title">Kelajuan merakam video</string>
@@ -570,9 +443,6 @@
     <!-- Toast telling users tapping on the viewfinder will trigger autofocus [CHAR LIMIT=28] -->
     <string name="tap_to_focus">Sentuh untuk fokus</string>
     <string name="tap_to_exposure">Sentuh untuk melaraskan pendedahan secara manual</string>
-
-    <!-- Default effect setting that clears the effect. -->
-    <string name="pref_video_effect_default" translatable="false">none</string>
 
     <!-- Title of video effect setting popup window -->
 
@@ -658,11 +528,6 @@
     <string name="accessibility_skin_beautify_opened">Enhancement ton kulit dihidupkan</string>
     <string name="accessibility_skin_beautify_closed">Enhancement ton kulit dilumpuhkan</string>
 
-    <!-- TODO: remove the string as it is a work-around solution to bypass the default speak of the element type. -->
-    <string name="empty" translatable="false">" "</string>
-
-    <!-- Default auto exposure setting. Do not translate. -->
-    <string name="pref_camera_autoexposure_default">purata-frem</string>
     <!-- Settings screen, Select auto exposure title -->
     <string name="pref_camera_autoexposure_title">Tetapan pendedahan automatik</string>
 
@@ -671,41 +536,23 @@
     <string name="pref_camera_autoexposure_entry_centerweighted">Berberat ke tengah</string>
     <string name="pref_camera_autoexposure_entry_spotmetering">Spot metering</string>
 
-    <!-- Auto exposure entry values. Do not translate. -->
-    <string name="pref_camera_autoexposure_value_frameaverage">purata-frem</string>
-    <string name="pref_camera_autoexposure_value_centerweighted">Berberat ke tengah</string>
-    <string name="pref_camera_autoexposure_value_spotmetering">spot-metering</string>
-
     <!-- Settings screen, Video encoder title -->
 
     <!-- Settings screen, Video encoder dialog radio button choices -->
 
-    <!-- Default video encoder setting. A numerical value. -->
-    <string name="pref_camera_videoencoder_default" translatable="false">h264</string>
-
     <!-- Settings screen, Video encoder dialog title -->
-
-    <!-- Default audio encoder setting. A numerical value. -->
-    <string name="pref_camera_audioencoder_default" translatable="false">aac</string>
 
     <!-- Settings screen, Audio encoder title -->
     <string name="pref_camera_audio_capture_title">Audio</string>
-
-    <!-- Settings screen, Audio encoder dialog radio button choices -->
-    <!-- Default video duration setting. A numerical value.-->
-    <string name="pref_camera_video_duration_default" translatable="false">10</string>
 
     <!-- Settings screen, Video duration title -->
     <string name="pref_camera_video_duration_title">Tempoh Video</string>
 
     <!-- Settings screen, Video duration dialog radio button choices -->
-    <string name="pref_camera_video_duration_entry_mms">30 saat(MMS)</string>
+    <string name="pref_camera_video_duration_entry_mms">30 saat (MMS)</string>
     <string name="pref_camera_video_duration_entry_10">10 minit</string>
     <string name="pref_camera_video_duration_entry_30">30 minit</string>
     <string name="pref_camera_video_duration_entry_120">Tiada had</string>
-
-    <!-- Default Skin Tone Enhancement setting. Do not translate. -->
-    <string name="pref_camera_skinToneEnhancement_default">lumpuhkan</string>
 
     <!-- Settings screen, Select Skin Tone Enhancement title -->
     <string name="pref_camera_skinToneEnhancement_title">Enhancement ton kulit</string>
@@ -715,16 +562,8 @@
     <string name="pref_camera_skinToneEnhancement_entry_enable">Hidupkan</string>
     <string name="pref_camera_skinToneEnhancement_entry_disable">Lumpuhkan</string>
 
-    <!-- Skin Tone Enhancement entry values. Do not translate. -->
-    <string name="pref_camera_skinToneEnhancement_value_auto" translatable="false">auto</string>
-    <string name="pref_camera_skinToneEnhancement_value_enable" translatable="false">enable</string>
-    <string name="pref_camera_skinToneEnhancement_value_disable" translatable="false">disable</string>
     <!-- Settings screen, setting title text for ZSL-->
     <string name="pref_camera_zsl_title">ZSL</string>
-    <string name="pref_camera_zsl_default" translatable="false">on</string>
-
-         <!-- Default selectable zone af setting. Do not translate. -->
-     <string name="pref_camera_selectablezoneaf_default">auto</string>
 
      <!-- Settings screen, Selectable zone af title -->
 
@@ -736,12 +575,6 @@
     <string name="pref_camera_zsl_entry_off">Matikan</string>
     <string name="pref_camera_zsl_entry_on">Hidupkan</string>
 
-    <string name="pref_camera_zsl_value_off" translatable="false">off</string>
-    <string name="pref_camera_zsl_value_on" translatable="false">on</string>
-
-    <!-- Default face  detection setting. -->
-    <string name="pref_camera_facedetection_default" translatable="false">on</string>
-
     <!-- Settings screen, Select Face Detection -->
     <string name="pref_camera_facedetection_title">Pengesanan muka</string>
 
@@ -752,12 +585,6 @@
     <!-- Settings screen, Power mode dialog radio button choices -->
 
     <!-- Settings screen, Power mode dialog radio button choices -->
-
-    <!-- Default Power mode.. -->
-     <string name="pref_camera_powermode_default" translatable="false">Normal_Power</string>
-
-    <!-- Default redeye reduction setting. -->
-    <string name="pref_camera_redeyereduction_default" translatable="false">disable</string>
 
     <!-- The message is shown in dialog when take raw picture while wavelet denoise is on-->
     <string name="error_app_unsupported_raw_wavelet">wavelet denoise tidak akan berkuat kuasa apabila mengambil gambar mentah</string>
@@ -791,7 +618,6 @@
      <string name="pref_camera_ae_bracket_hdr_value_hdr">HDR</string>
      <string name="pref_camera_ae_bracket_hdr_value_ae_bracket">AE-Bracket</string>
 
-    <string name="pref_camera_ae_bracket_hdr_default" translatable="false">Off</string>
     <string name="hdr_exit_button_text">Tamat mod HDR</string>
     <string name="hand_night_exit_button_text">Keluar dari mod pengurusan senja</string>
 
@@ -809,27 +635,21 @@
     <string name="pref_video_focusmode_title">Mod fokus</string>
     <string name="pref_video_focusmode_entry_continuous">CAF</string>
     <string name="pref_video_focusmode_entry_auto">Tap</string>
-    <string name="pref_video_focusmode_entryvalue_default" translatable="false">auto</string>
 
     <!-- 参考线 -->
     <string name="pref_camera_referenceline_entry_off">Tutup</string>
     <string name="pref_camera_referenceline_entry_on">Buka</string>
-    <!-- Default reference line setting. Do not translate. -->
-    <string name="pref_camera_referenceline_entryvalue_off">referenceline-off</string>
-    <string name="pref_camera_referenceline_entryvalue_on">referenceline-on</string>
 
     <!--音量键功能 -->
     <string name = "pref_camera_volumekey_function_entry_volume">Kelantangan</string>
     <string name = "pref_camera_volumekey_function_entry_shutter">Pengatup</string>
     <string name = "pref_camera_volumekey_function_entry_zooming">Zoom</string>
     <string name = "pref_camera_volumekey_function_title">Butang kelantangan</string>
-    <string name = "pref_camera_volumekey_function_default" translatable="false">zoom</string>
 
     <!-- 长按连拍 -->
     <string name = "pref_camera_long_pressing_burst_shooting_title">Tekan dengan lama butang pengatup</string>
     <string name = "pref_camera_long_pressing_burst_shooting_entry_off">Fokus</string>
     <string name = "pref_camera_long_pressing_burst_shooting_entry_on">Tangkapan meletup</string>
-    <string name = "pref_camera_long_pressing_burst_shooting_default" translatable="false">on</string>
 
     <!-- 白平衡K值 -->
     <string name="pref_camera_current_k_value">Nilai semasa</string>
@@ -1028,7 +848,5 @@
     <string name="pref_camera_watermark_title">Tera masa</string>
     <string name="pref_camera_watermark_entry_off">Tutup</string>
     <string name="pref_camera_watermark_entry_on">Buka</string>
-    <string name="pref_camera_watermark_default" translatable="false">Off</string>
-    <string name="pref_camera_watermark_entryvalue_off" translatable="false">Off</string>
-    <string name="pref_camera_watermark_entryvalue_on" translatable="false">On</string>
+
 </resources>
