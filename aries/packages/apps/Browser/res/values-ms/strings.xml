@@ -299,17 +299,14 @@
 	<string name="pref_content_open_in_background">Buka di latar belakang</string>
 	<!-- Settings label -->
 	<string name="pref_content_plugins">Dayakan pemalam</string>
+
 	<!-- Plugin options -->
 	<string-array name="pref_content_plugins_choices">
 		<item>Always on</item>
 		<item>Ask me first</item>
 		<item>Off</item>
-		</string-array>
-		<string-array name="pref_content_plugins_values" translatable="false">
-		<item>ON</item>
-		<item>ON_DEMAND</item>
-		<item>OFF</item>
 	</string-array>
+
 	<!-- Settings summary [CHAR LIMIT=50]-->
 	<string name="pref_content_open_in_background_summary">Buka tab baharu di belakang tab semasa</string>
 	<!-- Settings label [CHAR LIMIT=50] -->
@@ -332,13 +329,7 @@
 		<!-- Setting choice to set the homepage to a user entered URL [CHAR LIMIT=40] -->
 		<item>Other</item>
 	</string-array>
-	<string-array name="pref_homepage_values" translatable="false">
-		<item>current</item>
-		<item>blank</item>
-		<item>default</item>
-		<item>most_visited</item>
-		<item>other</item>
-	</string-array>
+
 	<!-- Settings label -->
 	<string name="pref_content_autofit">Auto muat halaman</string>
 	<!-- Settings summary -->
@@ -497,8 +488,7 @@
 	</string-array>
 	<!-- Label for minimum font size [CHAR LIMIT=30] -->
 	<string name="pref_min_font_size">Saiz fon minimum</string>
-	<!-- Label for the current minimum font size value [CHAR LIMIT=6] -->
-	<string name="pref_min_font_size_value"><xliff:g id="font_size">%d</xliff:g>pt</string>
+
 	<!-- Label for text scaling (percent) [CHAR LIMIT=30] -->
 	<string name="pref_text_zoom">Penskalaan teks</string>
 	<!-- Label for zoom on double-tap (percent) [CHAR LIMIT=30] -->
@@ -525,12 +515,7 @@
 	</string-array>
 	<!-- Title of dialog for setting the default zoom -->
 	<string name="pref_default_zoom_dialogtitle">Zum lalai</string>
-	<!-- Do not translate -->
-	<string-array name="pref_default_zoom_values" translatable="false">
-		<item><xliff:g>FAR</xliff:g></item>
-		<item><xliff:g>MEDIUM</xliff:g></item>
-		<item><xliff:g>CLOSE</xliff:g></item>
-	</string-array>
+
 	<!-- Settings label -->
 	<string name="pref_content_load_page">Buka halaman dalam gambaran keseluruhan</string>
 	<!-- Settings summary -->
@@ -551,78 +536,13 @@
 	<string name="pref_extras_reset_default_dlg">Kembalikan tetapan kepada nilai lalai?</string>
 	<!-- Title for a group of settings -->
 	<string name="pref_development_title">Nyahpepijat</string>
-	<!-- Do not tranlsate.  Development option -->
-	<string name="pref_development_viewport" translatable="false">Use wide viewport</string>
-	<!-- Do not tranlsate.  Development option -->
-	<string name="pref_development_single_column_rendering" translatable="false">Single column rendering</string>
-	<!-- Do not tranlsate.  Development option -->
-	<string name="pref_development_normal_rendering" translatable="false">Normal rendering</string>
-	<!-- Do not tranlsate.  Development option -->
-	<string name="pref_development_trace" translatable="false">Enable tracing</string>
-	<!-- Do not tranlsate.  Development option -->
-	<string name="pref_development_nav_dump" translatable="false">Enable nav cache dump</string>
-	<!-- Do not tranlsate.  Development option -->
-	<string name="pref_development_hardware_accel" translatable="false">Enable OpenGL Rendering</string>
-	<!-- Do not tranlsate.  Development option -->
-	<string name="pref_development_hardware_accel_skia" translatable="false">Enable HW Accelerated Skia</string>
-	<!-- Do not tranlsate.  Development option -->
-	<string name="pref_development_visual_indicator" translatable="false">Enable Visual Indicator</string>
-	<!-- Do not tranlsate.  Development option -->
-	<string name="pref_development_cpu_upload_path" translatable="false">Enable Cpu Upload Path</string>
-	<!-- Do not tranlsate.  Development option -->
-	<string name="js_engine_flags" translatable="false">Set JS flags</string>
-	<!-- Do not tranlsate.  Development option -->
-	<string name="pref_development_uastring" translatable="false">UAString</string>
-	<!-- Do not tranlsate.  Development option -->
-	<string-array name="pref_development_ua_choices" translatable="false">
-		<item>Android</item>
-		<item>Desktop</item>
-		<item>iPhone</item>
-		<item>iPad</item>
-		<item>Froyo-N1</item>
-		<item>Honeycomb-Xoom</item>
-	</string-array>
-	<!-- Do not tranlsate.  Development option -->
-	<string-array name="pref_development_ua_values" translatable="false">
-		<item>0</item>
-		<item>1</item>
-		<item>2</item>
-		<item>3</item>
-		<item>4</item>
-		<item>5</item>
-	</string-array>
-	<string name="pref_development_error_console" translatable="false">Show JavaScript Console</string>
-	<!-- Do not translate. Development option to reset the prologin time [CHAR LIMIT=20] -->
-	<string name="pref_development_reset_prelogin" translatable="false">Reset prelogin</string>
+
 	<!-- Settings screen, setting option name -->
 	<string name="pref_default_text_encoding">Pengekodan teks</string>
-	<!-- Options in the Default encoding dialog box -->
-	<string-array name="pref_default_text_encoding_choices">
-		<item>Latin-1 (ISO-8859-1)</item>
-		<item>Unicode (UTF-8)</item>
-		<item>Chinese (GBK)</item>
-		<item>Chinese (Big5)</item>
-		<item>Japanese (ISO-2022-JP)</item>
-		<item>Japanese (SHIFT_JIS)</item>
-		<item>Japanese (EUC-JP)</item>
-		<!-- No need to translate a EUC-KR part, and there is no string length limits. -->
-		<item>Korean (EUC-KR)</item>
-		<!-- TODO: We should add a lot more encodings.  -->
-	</string-array>
+	
 	<!-- Dialog box title -->
 	<string name="pref_default_text_encoding_dialogtitle">Pengekodan teks</string>
-	<!-- Do not translate. Actual encoding values. Must be valid text encodings understandable from WebKit. -->
-	<string-array name="pref_default_text_encoding_values" translatable="false">
-		<item>Latin-1</item>
-		<item>UTF-8</item>
-		<item>GBK</item>
-		<item>Big5</item>
-		<item>ISO-2022-JP</item>
-		<item>SHIFT_JIS</item>
-		<item>EUC-JP</item>
-		<item>EUC-KR</item>
-	</string-array>
-	<string name="pref_default_text_encoding_default" translatable="false">UTF-8</string>
+
 	<!-- Title for accessibility settings [CHAR LIMIT=25] -->
 	<string name="pref_accessibility_title">Kebolehaksesan</string>
 	<!-- Font size settings category under accessibility settings [CHAR LIMIT=50] -->
@@ -655,16 +575,7 @@
 		<item>Only on Wi-Fi</item>
 		<item>Always</item>
 	</string-array>
-	<!-- Do not translate -->
-	<string name="pref_data_preload_value_never" translatable="false">NEVER</string>
-	<string name="pref_data_preload_value_wifi_only" translatable="false">WIFI_ONLY</string>
-	<string name="pref_data_preload_value_always" translatable="false">ALWAYS</string>
-	<string name="pref_data_preload_default_value" translatable="false">@string/pref_data_preload_value_wifi_only</string>
-	<string-array name="pref_data_preload_values" translatable="false">
-		<item><xliff:g>@string/pref_data_preload_value_never</xliff:g></item>
-		<item><xliff:g>@string/pref_data_preload_value_wifi_only</xliff:g></item>
-		<item><xliff:g>@string/pref_data_preload_value_always</xliff:g></item>
-	</string-array>
+
 	<!-- Summary for search preloading [CHAR LIMIT=80] -->
 	<string name="pref_data_preload_summary">Benarkan penyemak imbas untuk mempramuat hasil carian berkeyakinan tinggi di latar belakang</string>
 	<!-- Title of dialog for search preloading [CHAR LIMIT=40] -->
@@ -677,16 +588,7 @@
 		<item>Only on Wi-Fi</item>
 		<item>Always</item>
 	</string-array>
-	<!-- Do not translate -->
-	<string name="pref_link_prefetch_value_never" translatable="false">NEVER</string>
-	<string name="pref_link_prefetch_value_wifi_only" translatable="false">WIFI_ONLY</string>
-	<string name="pref_link_prefetch_value_always" translatable="false">ALWAYS</string>
-	<string name="pref_link_prefetch_default_value" translatable="false">@string/pref_link_prefetch_value_wifi_only</string>
-	<string-array name="pref_link_prefetch_values" translatable="false">
-		<item><xliff:g>@string/pref_link_prefetch_value_never</xliff:g></item>
-		<item><xliff:g>@string/pref_link_prefetch_value_wifi_only</xliff:g></item>
-		<item><xliff:g>@string/pref_link_prefetch_value_always</xliff:g></item>
-	</string-array>
+
 	<!-- Summary for link prefetching [CHAR LIMIT=80] -->
 	<string name="pref_link_prefetch_summary">Benarkan penyemak imbas mempramuat halaman web dikaitkan di latar belakang</string>
 	<!-- Title of dialog for link prefetching [CHAR LIMIT=40] -->
@@ -696,19 +598,10 @@
 	<!-- Video preloading options [CHAR LIMIT=20] -->
 	<string-array name="pref_video_preload_choices">
 		<item>Never</item>
-		<item>Only on WiFi</item>
+		<item>Only on Wi-Fi</item>
 		<item>Always</item>
 	</string-array>
-	<!-- Do not translate -->
-	<string name="pref_video_preload_value_never" translatable="false">NEVER</string>
-	<string name="pref_video_preload_value_wifi_only" translatable="false">WIFI_ONLY</string>
-	<string name="pref_video_preload_value_always" translatable="false">ALWAYS</string>
-	<string name="pref_video_preload_default_value" translatable="false">@string/pref_video_preload_value_wifi_only</string>
-	<string-array name="pref_video_preload_values" translatable="false">
-		<item><xliff:g>@string/pref_video_preload_value_never</xliff:g></item>
-		<item><xliff:g>@string/pref_video_preload_value_wifi_only</xliff:g></item>
-		<item><xliff:g>@string/pref_video_preload_value_always</xliff:g></item>
-	</string-array>
+
 	<!-- Summary for video preloading [CHAR LIMIT=80] -->
 	<string name="pref_video_preload_summary">Benarkan penyemak imbas untuk pra-muat video apabila disokong oleh pelayan</string>
 	<!-- Title of dialog for video preloading [CHAR LIMIT=40] -->
@@ -742,9 +635,6 @@
 	will add that page to bookmarks -->
 	<string name="add_bookmark_short">Tambah</string>
 	
-	<!-- This string is for the browser "Go To" UI. -->
-	<!-- Do not translate.  This string is not displayed in UI (no badge is selected for go to). -->
-	<string name="search_label" translatable="false">Browser</string>
 	<!-- This string is for the browser "Go To" UI. -->
 	<!-- This is the hint text shown in the Go To widget, before text is entered. -->
 	<string name="search_hint">Buat carian atau taipkan URL</string>
@@ -809,48 +699,6 @@
 	yet begun -->
 	<string name="download_pending">Memulakan muat turun\u2026</string>
 	
-	<!-- Do not translate.  Testing only -->
-	<string name="dump_nav" translatable="false">Dump navigation cache</string>
-	
-	<!-- The default homepage. -->
-	<string name="homepage_base" translatable="false">
-	https://www.google.com/webhp?client={CID}&amp;source=android-home</string>
-	
-	<!-- Bookmarks -->
-	<string-array name="bookmarks" translatable="false">
-		<item>Google</item>
-		<item>http://www.google.com/</item>
-		<item>Picasa</item>
-		<item>http://picasaweb.google.com/</item>
-		<item>Yahoo!</item>
-		<item>http://www.yahoo.com/</item>
-		<item>MSN</item>
-		<item>http://www.msn.com/</item>
-		<item>Twitter</item>
-		<item>http://twitter.com/</item>
-		<item>Facebook</item>
-		<item>http://www.facebook.com/</item>
-		<item>Wikipedia</item>
-		<item>http://www.wikipedia.org/</item>
-		<item>eBay</item>
-		<item>http://www.ebay.com/</item>
-		<item>CNN</item>
-		<item>http://www.cnn.com/</item>
-		<item>NY Times</item>
-		<item>http://www.nytimes.com/</item>
-		<item>ESPN</item>
-		<item>http://espn.com/</item>
-		<item>Amazon</item>
-		<item>http://www.amazon.com/</item>
-		<item>Weather Channel</item>
-		<item>http://www.weather.com/</item>
-		<item>BBC</item>
-		<item>http://www.bbc.co.uk/</item>
-	</string-array>
-	
-	<!-- Bookmark name for Picasa website -->
-	<string name="picasa" translatable="false">Picasa</string>
-	
 	<!-- The description of the suggestion that lets the user search the web for the query currently
 	in the text field. -->
 	<string name="search_the_web">Cari di web</string>
@@ -896,11 +744,6 @@
 	
 	<!-- Text in the progress dialog when we are setting an image as the home screen wallpaper. -->
 	<string name="progress_dialog_setting_wallpaper">Menetapkan kertas dinding\u2026</string>
-	
-	<string name="error_console_header_text_minimized" translatable="false">Show JavaScript console</string>
-	<string name="error_console_header_text_maximized" translatable="false">JavaScript console</string>
-	<string name="error_console_eval_text_hint" translatable="false">Evaluate JavaScript</string>
-	<string name="error_console_eval_button_text" translatable="false">Evaluate</string>
 	
 	<!-- The default state to the "up to parent folder" button in the bookmarks UI. This
 	is displayed when the user is at the highest level and cannot go up [CHAR LIMIT=16] -->
