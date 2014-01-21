@@ -32,8 +32,8 @@
     <string name="msg_headsetpluggedin">Buka set kepala sekarang.</string>
     <string name="msg_callactive">FM Tx tidak boleh digunakan semasa panggilan suara.</string>
     <string name="dialog_sleep_title">Tetapkan pemasa tidur</string>
-        <string name="presetlist_autoselect_title">Auto-pilih</string>
-        <string name="fmtx_autoselect_name">Semua preset akan dibuangkan.</string>
+    <string name="presetlist_autoselect_title">Auto-pilih</string>
+    <string name="fmtx_autoselect_name">Semua preset akan dibuangkan.</string>
 
     <string name="preset_replace">Ganti</string>
     <string name="preset_tune">Tala</string>
@@ -90,23 +90,20 @@
     <string name="radio_text_string">Ini adalah rentetan teks mesej radio panjang yang perlu diskrol</string>
     <string name="frequency_string"></string>
 
-        <string name="fm_command_timeout_title">Tamat masa respons</string>
-        <string name="fm_tune_timeout_msg">Cuba buka semula Radio dan lihat jika masalah masih berlaku.</string>
+    <string name="fm_command_timeout_title">Tamat masa respons</string>
+    <string name="fm_tune_timeout_msg">Cuba buka semula Radio dan lihat jika masalah masih berlaku.</string>
 
-        <string name="fm_command_failed_title">Operasi gagal</string>
-        <string name="fm_cmd_failed_msg">Cuba buka semula Radio dan lihat jika masalah masih berlaku. </string>
-        <string name="fm_cmd_failed_msg_hdmi">Menggunakan FM dan HDMI serentak tidak disokong.</string>
-        <string name="fm_cmd_failed_call_on">Audio FM tidak boleh digunakan ketika panggilan suara.</string>
+    <string name="fm_command_failed_title">Operasi gagal</string>
+    <string name="fm_cmd_failed_msg">Cuba buka semula Radio dan lihat jika masalah masih berlaku. </string>
+    <string name="fm_cmd_failed_msg_hdmi">Menggunakan FM dan HDMI serentak tidak disokong.</string>
+    <string name="fm_cmd_failed_call_on">Audio FM tidak boleh digunakan ketika panggilan suara.</string>
 
     <skip/>
-    <!-- Do not translate. Duration format. -->
-    <string name="durationformat"><xliff:g id="format">%2$d:%5$02d</xliff:g></string>
 
-    <string name="default_station"> FM </string>
+    <string name="default_station">" FM "</string>
     <string name="default_blank"> </string>
     <string name="transmit_msg_string">Memancar di:</string>
-    <!-- the name under which recordings will be visible in the media database is formatted like this -->
-    <string name="audio_db_title_format"><xliff:g id="format">yyyy-MM-dd HH:mm:ss</xliff:g></string>
+
     <!-- all recordings will show up in the media database with this 'artist' name -->
     <string name="audio_db_artist_name">"Rakaman Radio "</string>
     <!-- all recordings will show up in the media database with this 'album' name -->
@@ -145,7 +142,7 @@
     <string name="toast_sleep_mode_exit">Pemasa tidur dibatalkan</string>
     <string name="status_recording">Rakaman: %s</string>
     <string name="status_recording_time"> (Rakaman: %s)</string>
-    <string name="record_file_format">%1$s_%2$s</string>
+
     <string name="record_file_location_format">Disimpan ke "%s"</string>
     <string name="record_completed">Rakaman selesai</string>
     <string name="record_fail">Rakaman gagal</string>
@@ -165,8 +162,8 @@
     <string name="alert_invalid_frequency">Frekuensi yang tidak sahih.</string>
     <string name="hint_frequency">Frekuensi: %1$s ~ %2$s</string>
     <string name="hint_label">Label</string>
-    <string name="frequency_mhz_fomart">%sMHZ</string>
-    <string name="context_menu_title">%sMHZ</string>
+    <string name="frequency_mhz_fomart">%sMHz</string>
+    <string name="context_menu_title">%sMHz</string>
     <string name="context_menu_item_edit">Edit</string>
     <string name="context_menu_item_delete">Buang</string>
     <string name="context_menu_item_favorite">Tambah ke preset</string>
