@@ -2524,14 +2524,14 @@ limitations under the License.
 	<!-- [CHAR LIMIT=30] Manage applications, title for dialog when disabling apps -->
 	<string name="app_disable_dlg_title">Jangan membenarkan aplikasi terbina dalam?</string>
 	<!-- [CHAR LIMIT=200] Manage applications, text for dialog when disabling apps -->
-	<string name="app_disable_dlg_text">Jika anda tidak membenarkan aplikasi terbina dalam, aplikasi lain boleh brkelakuan tidak betul.</string>
-	may misbehave.</string>
+	<string name="app_disable_dlg_text">Jika anda tidak membenarkan aplikasi terbina dalam, aplikasi lain boleh 
+	brkelakuan tidak betul.</string>
+	
 	<!-- [CHAR LIMIT=30] Manage applications, title for dialog when disabling notifications for an app -->
 	<string name="app_disable_notifications_dlg_title">Tutupkan pemberitahuan?</string>
 	<!-- [CHAR LIMIT=200] Manage applications, text for dialog when disabling notifications for an app -->
-	<string name="app_disable_notifications_dlg_text">Jika anda mematikan pemberitahuan untuk aplikasi ini, anda mungkin terlepas isyarat penting dan kemaskini.</string>
-	If you turn off notifications for this app, you may miss important alerts and updates.
-	</string>
+	<string name="app_disable_notifications_dlg_text">Jika anda mematikan pemberitahuan untuk aplikasi ini, anda mungkin 
+	terlepas isyarat penting dan kemaskini.</string>
 	
 	<!-- [CHAR LIMIT=25] Services settings screen, setting option name for the user to go to the screen to view app storage use -->
 	<string name="storageuse_settings_title">kegunaran storan</string>
