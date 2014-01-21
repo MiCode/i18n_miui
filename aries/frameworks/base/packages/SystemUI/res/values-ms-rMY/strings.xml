@@ -103,21 +103,13 @@
     <string name="status_bar_settings_auto_rotation">Skrin auto putar</string>
 
     <!-- Abbreviation / label for mute brightness mode button. Should be all caps. [CHAR LIMIT=6] -->
-    <string name="status_bar_settings_mute_label">REDAM</string>
+    <string name="status_bar_settings_mute_label">Redam</string>
 
     <!-- Abbreviation / label for automatic brightness mode button. Should be all caps. [CHAR LIMIT=6] -->
-    <string name="status_bar_settings_auto_brightness_label">AUTO</string>
+    <string name="status_bar_settings_auto_brightness_label">Auto</string>
 
     <!-- Label in system panel saying the device will show notifications [CHAR LIMIT=30] -->
     <string name="status_bar_settings_notifications">Notifikasi</string>
-
-    <!-- Text to display next to the graphical battery meter.  [CHAR LIMIT=3] -->
-    <string name="status_bar_settings_battery_meter_format" translatable="false">
-        <xliff:g id="number">%d</xliff:g><xliff:g id="percent">%%</xliff:g>
-    </string>
-
-    <!-- Separator for PLMN and SPN in network name. -->
-    <string name="status_bar_network_name_separator" translatable="false">|</string>
 
     <!-- Network connection string for Bluetooth Reverse Tethering -->
     <string name="bluetooth_tethered">Bluetooth tethered</string>
