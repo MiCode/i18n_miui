@@ -132,8 +132,6 @@ limitations under the License.
 	<!-- choice for the font size spinner -->
 	<string name="large_font">Bedar</string>
 	
-	<!-- Do not translate. label for font size preview.  Does not need to be translated. -->
-	<string name="font_size_preview_text">Servez à ce monsieur une bière et des kiwis.</string>
 	<!-- Button. Chosen when they want to save the chosen text size. -->
 	<string name="font_size_save">OK</string>
 	
@@ -399,8 +397,6 @@ limitations under the License.
 	<string name="date_time_24_hour_sample">13:00</string>
 	<!-- The title of the activity to pick a time zone. -->
 	<string name="choose_timezone">Pilih zon masa</string>
-	<!-- Do not translate. Used as the value for a setting. -->
-	<string name="default_date_format"><xliff:g id="default_date_format">MM/dd/yyyy</xliff:g></string>
 	
 	<!-- The option in the date-format picker for using the normal format
 	called for by the user's locale. -->
@@ -430,8 +426,6 @@ limitations under the License.
 	<string name="proxy_clear_text">Padam</string>
 	<!-- HTTP proxy settings. The port number label. -->
 	<string name="proxy_port_label">Port proksi</string>
-	<!-- HTTP proxy settings. The hint text field for port. -->
-	<string name="proxy_port_hint" translatable="false">8080</string>
 	<!-- HTTP proxy settings. The exclusion list label. -->
 	<string name="proxy_exclusionlist_label">Bypass proksi untuk</string>
 	<!-- HTTP proxy settings. The hint text for proxy exclusion list. [CHAR LIMIT=50]-->
@@ -582,8 +576,6 @@ limitations under the License.
 	
 	<!-- The title of the dialog to pick an activity.  This is shown when there are multiple activities that can do a particular action.  For example, suppose you click on the "Share" menu item in the Browser.  Since you can share the webpage URL via many communication methods, this dialog would come up with choices like "Email", "IM", etc.  This is a generic message, and the previous example is a single possible scenario (so please don't assume it's for the browser or anything :) ). -->
 	<string name="activity_picker_label">Pilih aktiviti</string>
-	<!-- Do not translate. -->
-	<string name="debug_intent_sender_label">Debug penghantar terpilih</string>
 	<!-- The title of the activity to see random device info. -->
 	<string name="device_info_label">Maklumat peranti</string>
 	<!-- The title of the activity to see battery info. -->
@@ -1344,8 +1336,6 @@ limitations under the License.
 	<string name="wifi_speed">Kelajuan pautan</string>
 	<!-- Label for the IP address of the connection -->
 	<string name="wifi_ip_address">Alamat IP</string>
-	<!-- Hint text for the IP address -->
-	<string name="wifi_ip_address_hint" translatable="false">192.168.1.128</string>
 	<!-- Label for the EAP method of the network -->
 	<string name="wifi_eap_method">Kaedah EAP</string>
 	<!-- Label for the phase2 -->
@@ -1392,35 +1382,8 @@ limitations under the License.
 	string is not first in the list (lowercase in english) -->
 	<string name="wifi_secured_second_item">, dijamin dengan <xliff:g id="wifi_security_short">%1$s</xliff:g></string>
 	
-	<!-- Do not translate.  Concise terminology for wifi with WEP security -->
-	<string name="wifi_security_short_wep">WEP</string>
-	<!-- Do not translate.  Concise terminology for wifi with WPA security -->
-	<string name="wifi_security_short_wpa">WPA</string>
-	<!-- Do not translate.  Concise terminology for wifi with WPA2 security -->
-	<string name="wifi_security_short_wpa2">WPA2</string>
-	<!-- Do not translate.  Concise terminology for wifi with both WPA/WPA2 security -->
-	<string name="wifi_security_short_wpa_wpa2">WPA/WPA2</string>
-	<!-- Do not translate.  Concise terminology for wifi with unknown PSK type -->
-	<string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
-	<!-- Do not translate.  Concise terminology for wifi with 802.1x EAP security -->
-	<string name="wifi_security_short_eap">802.1x</string>
-	
 	<!-- Used in Wi-Fi settings dialogs when Wi-Fi does not have any security. -->
 	<string name="wifi_security_none">Tiada</string>
-	
-	<!-- Do not translate.  Terminology for wifi with WEP security -->
-	<string name="wifi_security_wep">WEP</string>
-	<!-- Do not translate.  Terminology for wifi with WPA security -->
-	<string name="wifi_security_wpa">WPA PSK</string>
-	<!-- Do not translate.  Terminology for wifi with WPA2 security -->
-	<string name="wifi_security_wpa2">WPA2 PSK</string>
-	<!-- Do not translate.  Terminology for wifi with both WPA/WPA2 security, or unknown -->
-	<string name="wifi_security_wpa_wpa2">WPA/WPA2 PSK</string>
-	<!-- Do not translate.  Terminology for wifi with unknown PSK type -->
-	<string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
-	<!-- Do not translate.  Concise terminology for wifi with 802.1x EAP security -->
-	<string name="wifi_security_eap">802.1x EAP</string>
-	
 	
 	<!-- Button label to connect to a Wi-Fi network -->
 	<string name="wifi_connect">Sambung</string>
@@ -1468,20 +1431,12 @@ limitations under the License.
 	<string name="wifi_ip_settings_invalid_network_prefix_length">Taip panjang prefiks rangkaian antara 0 dan 32.</string>
 	<!-- Label for the DNS (first one) -->
 	<string name="wifi_dns1">DNS 1</string>
-	<!-- Hint text for DNS -->
-	<string name="wifi_dns1_hint" translatable="false">8.8.8.8</string>
 	<!-- Label for the DNS (second one)-->
 	<string name="wifi_dns2">DNS 2</string>
-	<!-- Hint text for DNS -->
-	<string name="wifi_dns2_hint" translatable="false">4.4.4.4</string>
 	<!-- Label for the gateway of the network -->
 	<string name="wifi_gateway">Gateway</string>
-	<!-- Hint text for the gateway -->
-	<string name="wifi_gateway_hint" translatable="false">192.168.1.1</string>
 	<!-- Label for the network prefix of the network [CHAR LIMIT=25]-->
 	<string name="wifi_network_prefix_length">Panjang prefiks rangkaian</string>
-	<!-- Hint text for network prefix length -->
-	<string name="wifi_network_prefix_length_hint" translatable="false">24</string>
 	
 	
 	<!-- Wi-Fi p2p / Wi-Fi Direct settings -->
@@ -1531,89 +1486,7 @@ limitations under the License.
 	<string name="wifi_tether_configure_subtext"><xliff:g id="network_ssid">%1$s</xliff:g> <xliff:g id="network_security">%2$s</xliff:g> Wi-Fi mudah alihe </string>
 	<!-- Default access point SSID used for tethering -->
 	<string name="wifi_tether_configure_ssid_default">AndroidHotspot</string>
-	
-	<!-- Do not translate. Used for diagnostic screens, precise translation is not necessary
-	Wi-Fi Testing on the diagnostic screen-->
-	<string name="testing_wifi_info" translatable="false">Wi-Fi information</string>
-	<!-- Do not translate. Used for diagnostic screens, precise translation is not necessary
-	Menu item for WifiManager disableNetwork API-->
-	<string name="disableNetwork" translatable="false">disableNetwork</string>
-	<!-- Do not translate. Used for diagnostic screens, precise translation is not necessary
-	Menu item for WifiManager enableNetwork API-->
-	<string name="enableNetwork" translatable="false">enableNetwork</string>
-	<!-- Do not translate. Used for diagnostic screens, precise translation is not necessary
-	Menu item for WifiManager disconnect API-->
-	<string name="disconnect" translatable="false">disconnect</string>
-	<!-- Do not translate. Used for diagnostic screens, precise translation is not necessary
-	Menu item for WifiManager getConfiguredNetworks API-->
-	<string name="getConfiguredNetworks" translatable="false">getConfiguredNetworks</string>
-	<!-- Do not translate. Used for diagnostic screens, precise translation is not necessary
-	Menu item for WifiManager getConnectionInfo API-->
-	<string name="getConnectionInfo" translatable="false">getConnectionInfo</string>
-	<!-- Do not translate. Used for diagnostic screens, precise translation is not necessary
-	Menu item on Wifi information screen-->
-	<string name="wifi_api_test" translatable="false">Wi-Fi API</string>
-	<!-- Do not translate. Used for diagnostic screens, precise translation is not necessary
-	Menu item on Wifi information screen-->
-	<string name="wifi_status_test" translatable="false">Wi-Fi status</string>
-	<!-- Do not translate. Used for diagnostic screens, precise translation is not necessary
-	Button text on Wifi Status screen-->
-	<string name="wifi_update" translatable="false">Refresh stats</string>
-	<!-- Do not translate. Used for diagnostic screens, precise translation is not necessary
-	Label on Wifi Status screen-->
-	<string name="wifi_state_label" translatable="false">Wi-Fi state:</string>
-	<!-- Do not translate. Used for diagnostic screens, precise translation is not necessary
-	Label on Wifi Status screen-->
-	<string name="network_state_label" translatable="false">Network state:</string>
-	<!-- Do not translate. Used for diagnostic screens, precise translation is not necessary
-	Label on Wifi Status screen-->
-	<string name="supplicant_state_label" translatable="false">Supplicant state:</string>
-	<!-- Do not translate. Used for diagnostic screens, precise translation is not necessary
-	Label on Wifi Status screen-->
-	<string name="rssi_label" translatable="false">RSSI:</string>
-	<!-- Do not translate. Used for diagnostic screens, precise translation is not necessary
-	Label on Wifi Status screen-->
-	<string name="bssid_label" translatable="false">BSSID:</string>
-	<!-- Do not translate. Used for diagnostic screens, precise translation is not necessary
-	Label on Wifi Status screen-->
-	<string name="ssid_label" translatable="false">SSID:</string>
-	<!-- Do not translate. Used for diagnostic screens, precise translation is not necessary
-	Label on Wifi Status screen-->
-	<string name="hidden_ssid_label" translatable="false">Hidden SSID:</string>
-	<!-- Do not translate. Used for diagnostic screens, precise translation is not necessary
-	Label on Wifi Status screen-->
-	<string name="ipaddr_label" translatable="false">IPaddr:</string>
-	<!-- Do not translate. Used for diagnostic screens, precise translation is not necessary
-	Label on Wifi Status screen-->
-	<string name="macaddr_label" translatable="false">MAC addr:</string>
-	<!-- Do not translate. Used for diagnostic screens, precise translation is not necessary
-	Label on Wifi Status screen-->
-	<string name="networkid_label" translatable="false">Network ID:</string>
-	<!-- Do not translate. Used for diagnostic screens, precise translation is not necessary
-	Label on Wifi Status screen-->
-	<string name="link_speed_label" translatable="false">Link speed:</string>
-	<!-- Do not translate. Used for diagnostic screens, precise translation is not necessary
-	Label on Wifi Status screen-->
-	<string name="scan_list_label" translatable="false">Scan results:</string>
-	
-	<!-- wifi state values-->
-	<!-- Do not translate. Used for diagnostic screens, precise translation is not necessary -->
-	<string name="wifi_state_disabling" translatable="false">Disabling</string>
-	<!-- Do not translate. Used for diagnostic screens, precise translation is not necessary -->
-	<string name="wifi_state_disabled" translatable="false">Disabled</string>
-	<!-- Do not translate. Used for diagnostic screens, precise translation is not necessary -->
-	<string name="wifi_state_enabling" translatable="false">Enabling</string>
-	<!-- Do not translate. Used for diagnostic screens, precise translation is not necessary -->
-	<string name="wifi_state_enabled" translatable="false">Enabled</string>
-	<!-- Do not translate. Used for diagnostic screens, precise translation is not necessary -->
-	<string name="wifi_state_unknown" translatable="false">Unknown</string>
-	
-	<!-- Do not translate. Used for diagnostic screens, precise translation is not necessary
-	Menu item on Wifi information screen-->
-	<string name="wifi_config_info" translatable="false">Wi-Fi config</string>
-	<!-- Do not translate. Used for diagnostic screens, precise translation is not necessary
-	Label on Wifi Configuration screen-->
-	<string name="config_list_label" translatable="false">Configured networks</string>
+
 	
 	<!-- Sound and alerts settings -->
 	<skip/>
@@ -1773,8 +1646,6 @@ limitations under the License.
 	<string name="automatic_brightness">Kecerahan automatik</string>
 	<!-- [CHAR LIMIT=30] Sound & display settings screen, setting option name to change font size -->
 	<string name="title_font_size">Saiz fon</string>
-	<!-- Sound & display settings screen, setting option summary displaying the currently selected font size -->
-	<string name="summary_font_size" translatable="false">%1$s</string>
 	<!-- [CHAR LIMIT=40] Sound & display settings screen, title of dialog for picking font size -->
 	<string name="dialog_title_font_size">Saiz tulisan</string>
 	
@@ -1879,10 +1750,6 @@ limitations under the License.
 	<string name="storage_settings_summary" product="nosdcard">Nyahlekap storan USB, lihat storan tersedia</string>
 	<!-- [CHAR LIMIT=100] Main settings screen item's summary for the SD card and storage settings -->
 	<string name="storage_settings_summary" product="default">Nyahlekap kad SD, lihat storan tersedia</string>
-	<!-- Do not translate. About phone, status item title -->
-	<string name="status_imei">IMEI</string>
-	<!-- Do not translate. About phone, status item title -->
-	<string name="status_imei_sv">IMEI SV</string>
 	<!-- About tablet, status item title.  The Mobile Directory Number [CHAR LIMIT=30] -->
 	<string name="status_number" product="tablet">MDN</string>
 	<!-- About phone, status item title.  The phone number of the current device [CHAR LIMIT=30] -->
@@ -2358,12 +2225,10 @@ limitations under the License.
 	<string name="lockpattern_change_lock_pin_label">Tukar PIN buka kunci</string>
 	<!-- Security & location settings screen, change unlock pattern screen instruction when the user chooses "Change unlock pattern".  We first ask the user toe nter the current pattern, and this is the message seen -->
 	<string name="lockpattern_need_to_unlock">Sahkan corak yang ditetapkan</string>
-	<!-- Do not translate. -->
-	<string name="lockpattern_need_to_unlock_footer" />
+
 	<!-- Security & location settings screen, change unlock pattern screen instruction if user draws incorrect pattern -->
 	<string name="lockpattern_need_to_unlock_wrong">Cuba lagi</string>
-	<!-- Do not translate. -->
-	<string name="lockpattern_need_to_unlock_wrong_footer" />
+
 	<!-- Security & location settings screen, change unlock pattern screen instruction on top of screen.  This si when they are supposed to draw a new unlock pattern (for example, if they are changing their unlock patterns)..-->
 	<string name="lockpattern_recording_intro_header">Lukis corak buka kunci</string>
 	<!-- Security & location settings screen, change unlock pattern screen hint on bottom of screen.  We are telling them to press the menu button to see more options or help. -->
@@ -2875,14 +2740,12 @@ limitations under the License.
 	<!-- In the Testing screen.  The item title of the activity that shows a bunch of phone-related information.  -->
 	<string name="testing_phone_info" product="tablet">Tablet information</string>
 	<!-- In the Testing screen.  The item title of the activity that shows a bunch of phone-related information.  -->
-	<string name="testing_phone_info" product="default">Phone information</string>
+	<string name="testing_phone_info" product="default">Telefon information</string>
 	<!-- In the Testing screen. The item title of the activity that shows a bunch of battery-related information.  -->
 	<string name="testing_battery_info">Info bateri</string>
-	<!-- Do not translate. In the Testing screen. The item title of the activity that shows a bunch of SIM-related operations.  -->
-	<string name="testing_sim_toolkit">kit SIM</string>
 	
 	<!-- The title of the item to go into the Quick launch settings. -->
-	<string name="quick_launch_title">pelancaran pantas</string>
+	<string name="quick_launch_title">Pelancaran pantas</string>
 	<!-- The summary of the item to go into the Quick launch settings. This is a description of what Quick launch offers. -->
 	<string name="quick_launch_summary">Set pintasan papan kekunci untuk melancarkan aplikasi</string>
 	<!-- On the Quick launch settings screen, title of the item for shortcut letters that are not assigned to an application yet. Quick launch is assigning a global shortcut to launch a specific app. -->
@@ -3126,8 +2989,6 @@ limitations under the License.
 	<string name="power_usage_summary">Apa yang telah mengunakan bateri</string>
 	<!-- Message to show when battery usage data is not available [CHAR LIMIT=30] -->
 	<string name="power_usage_not_available">"Data kegunaan bateri ti dak aga."</string>
-	<!-- Display the battery level and status [CHAR_LIMIT=30] -->
-	<string name="power_usage_level_and_status"><xliff:g id="level">%1$s</xliff:g> - <xliff:g id="status">%2$s</xliff:g></string>
 	<!-- Battery usage since unplugged -->
 	<string name="battery_since_unplugged">Penggunaan bateri sejak dinyahcaskan</string>
 	<!-- Battery usage since user reset the stats -->
@@ -3156,9 +3017,6 @@ limitations under the License.
 	<string name="wifi_on_time">Wi-Fi Tersedia</string>
 	<!-- Bluetooth on time -->
 	<string name="bluetooth_on_time">Wi-Fi tepat pada masa</string>
-	<!-- Application name and battery usage percentage -->
-	<string name="usage_name_percent"><xliff:g id="name">%1$s</xliff:g>" - "
-	<xliff:g id="number" example="30">%2$s</xliff:g><xliff:g id="percent" example="%">%%</xliff:g></string>
 	
 	<!-- Activity title for battery usage history details -->
 	<string name="history_details_title">Maklumat sejarah</string>
@@ -3629,9 +3487,6 @@ limitations under the License.
 	<string name="wifi_setup_description_connecting">Menyambung boleh mengambil beberapa minits…</string>
 	<!-- Message shown when the device is connected to a network [CHAR LIMIT=NONE] -->
 	<string name="wifi_setup_description_connected">Touch <b>Next</b> to continue with setup.\n\nTouch <b>Back</b> to connect to a different Wi-Fi network.</string>
-	
-	<!-- Do not translate. This is a stub which will be removed soon. -->
-	<string name="time_zone_auto_stub" translatable="false">Select Time Zone</string>
 	
 	<!-- Content description of the enabled sync icon for accessibility. [CHAR LIMIT=NONE] -->
 	<string name="accessibility_sync_enabled">Penyenggeraan aktif</string>
@@ -4222,28 +4077,6 @@ limitations under the License.
 	<!--  Help URLs for some screens. Not specified here. Specified in product overlays --><skip/>
 	<!-- Help menu label [CHAR LIMIT=20] -->
 	<string name="help_label">Tolong</string>
-	<!-- Help URL, WiFi [DO NOT TRANSLATE] -->
-	<string name="help_url_wifi" translatable="false"></string>
-	<!-- Help URL, Bluetooth [DO NOT TRANSLATE] -->
-	<string name="help_url_bluetooth" translatable="false"></string>
-	<!-- Help URL, Data usage [DO NOT TRANSLATE] -->
-	<string name="help_url_data_usage" translatable="false"></string>
-	<!-- Help URL, More [DO NOT TRANSLATE] -->
-	<string name="help_url_more_networks" translatable="false"></string>
-	<!-- Help URL, Vpn [DO NOT TRANSLATE] -->
-	<string name="help_url_vpn" translatable="false"></string>
-	<!-- Help URL, Sound [DO NOT TRANSLATE] -->
-	<string name="help_url_sound" translatable="false"></string>
-	<!-- Help URL, Battery [DO NOT TRANSLATE] -->
-	<string name="help_url_battery" translatable="false"></string>
-	<!-- Help URL, Accounts [DO NOT TRANSLATE] -->
-	<string name="help_url_accounts" translatable="false"></string>
-	<!-- Help URL, Choose lockscreen [DO NOT TRANSLATE] -->
-	<string name="help_url_choose_lockscreen" translatable="false"></string>
-	<!-- Help URL, Backup & reset [DO NOT TRANSLATE] -->
-	<string name="help_url_backup_reset" translatable="false"></string>
-	<!-- Help URL, Tethering [DO NOT TRANSLATE] -->
-	<string name="help_url_tether" translatable="false"></string>
 	
 	<!-- Cell Broadcast settings title [CHAR LIMIT=50] -->
 	<string name="cell_broadcast_settings">siaran sel</string>
