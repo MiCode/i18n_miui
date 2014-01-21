@@ -778,9 +778,9 @@ limitations under the License.
 	<string name="import_all_vcard_string">Import semua fail vCard</string>
 	
 	<!-- Dialog message shown when searching VCard data from (USB) storage [CHAR LIMIT=NONE] -->
-	<string name="searching_vcard_message" product="nosdcard">Searching for vCard data in storageu2026</string>
+	<string name="searching_vcard_message" product="nosdcard">Searching for vCard data in storage\u2026</string>
 	<!-- Dialog message shown when searching VCard data from SD Card. [CHAR LIMIT=NONE] -->
-	<string name="searching_vcard_message" product="default">Searching for vCard data on SD cardu2026</string>
+	<string name="searching_vcard_message" product="default">Searching for vCard data on SD card\u2026</string>
 	
 	<string name="scanning_sdcard_failed_title" product="nosdcard">The storage couldn\'t be scanned</string>
 	<string name="scanning_sdcard_failed_title" product="default">The SD card couldn\'t be scanned</string>
@@ -1260,12 +1260,6 @@ limitations under the License.
 	<!-- Section title for the page containing the contact's social updates on the contact card [CHAR LIMIT=20]-->
 	<string name="recent_updates" msgid="2018245636796411442">Recent updates</string>
 	
-	<!-- String describing which account type a contact came from when editing it -->
-	<string name="account_type_format"><xliff:g id="source" example="Gmail">%1$s</xliff:g> kenalan</string>
-	
-	<!-- String describing which account a contact came from when editing it -->
-	<string name="from_account_format"><xliff:g id="source" example="user@gmail.com">%1$s</xliff:g></string>
-	
 	<!-- Checkbox asking the user if they want to display a particular photo for a contact -->
 	<string name="use_photo_as_primary">Gunakan gambar ini</string>
 	
@@ -1454,10 +1448,7 @@ limitations under the License.
 	<!-- The preference section title for contact display options [CHAR LIMIT=128] -->
 	<string name="preference_displayOptions">Pilihan paparan</string>
 	
-	<!-- Text used to show a organization that has both a company and title. This is used in the Detail-View
-	of a Contact. This is mostly about the formatting of the two elements, so it should be kept small [CHAR LIMIT=79] -->
-	<string name="organization_company_and_title"><xliff:g id="company" example="Technical Program Manager">%1$s</xliff:g>, <xliff:g id="company" example="Google Inc.">%2$s</xliff:g></string>
-	
+
 	<!-- Query hint displayed inside the search field [CHAR LIMIT=64] -->
 	<string name="hint_findContacts">Cari kenalan</string>
 	
@@ -1473,8 +1464,6 @@ limitations under the License.
 	<!-- Button to close without add a phone number to contacts [CHAR LIMIT=25] -->
 	<string name="non_phone_close">Tutup</string>
 	
-	<!-- Format string that combines the name and the phonetic name for the widget. if the phonetic name is empty, only the display name is used instead [CHAR LIMIT=25] -->
-	<string name="widget_name_and_phonetic"><xliff:g id="display_name" example="John Huber">%1$s</xliff:g> (<xliff:g id="phonetic_name">%2$s</xliff:g>)</string>
 	
 	<!-- Checkbox whether to provide a year for a birthday [CHAR LIMIT=30] -->
 	<string name="date_year_toggle">Tambah tahun</string>
@@ -1582,8 +1571,7 @@ limitations under the License.
 	
 	[CHAR LIMIT=10]
 	-->
-	<string name="notification_voicemail_callers_list"><xliff:g id="newer_callers">%1$s</xliff:g>, <xliff:g id="older_caller">%2$s</xliff:g></string>
-	
+
 	<!-- Text used in the ticker to notify the user of the latest voicemail. [CHAR LIMIT=30] -->
 	<string name="notification_new_voicemail_ticker">Mel suara baru dari <xliff:g id="caller">%1$s</xliff:g></string>
 	
@@ -1638,9 +1626,7 @@ limitations under the License.
 	<!--  Fastest voicemail playback speed. [CHAR LIMIT=30] -->
 	<string name="voicemail_speed_fastest">Kelajuan terpantas</string>
 	
-	<!-- The counter for calls in a group and the date of the latest call as shown in the call log [CHAR LIMIT=15] -->
-	<string name="call_log_item_count_and_date">(<xliff:g id="count">%1$d</xliff:g>) <xliff:g id="date">%2$s</xliff:g></string>
-	
+
 	<!-- Hint text in the group name box in the edit group view. [CHAR LIMIT=20]-->
 	<string name="group_name_hint">"Nama kumpulan"</string>
 	
@@ -1958,7 +1944,7 @@ limitations under the License.
 	<string name="delete_duplicate_message">"Menggabungkan kenalan\u2026"</string>
 	<string name="label_no_duplicate_contacts">Hebat! Tiada salinan kenalan untuk sekarang!</string>
 	<string name="quit_dialog_confirm_title">Untuk keluar gabung kenalan?</string>
-	<string name="label_duplicate_count">(%1$d)</string>
+
 	<string name="preference_import_export">Import/Export</string>
 	<string name="preference_import_export_title">Import/Export kenalan</string>
 	<string name="import_vcard_description" product="nosdcard">Import contacts from your phone\'s internal storage</string>
@@ -2265,7 +2251,7 @@ limitations under the License.
 	<plurals name="numSelectedSimContacts">
 		<item quantity="zero">"%1$d items selected"</item>
 		<item quantity="one">"%1$d item selected"</item>
-		<item quantity="other">"<xliff:g id="count"> %1$d </xliff:g>items selected"</item>
+		<item quantity="other">"<xliff:g id="count"> %1$d </xliff:g> items selected"</item>
 	</plurals>
 	<string name="sim_contact_dropdown_menu_deselect_all_miui">Nyahpilih semua</string>
 	<string name="sim_contact_dropdown_menu_select_all_miui">Pilih semua</string>
