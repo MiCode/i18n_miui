@@ -22,7 +22,6 @@
 
     <string name="app_love_sms_title">Kandungan mesej</string>
     <string name="app_love_view_title">Pratonton</string>
-    <string name="app_love_font_lng">%s</string>
 
     <string name="app_nohave_net">Tiada rangkaian dikesan</string>
     <string name="app_unquiet_net">Sambungan rangkaian lemah</string>
@@ -88,7 +87,6 @@
     <string name="alert_message_delete">Padamkan %d item yang telah dipilih?</string>
 
     <string name="send_weather_sms_cycle">Ramalan cuaca: %1$s:%2$s</string>
-    <string name="send_weather_sms_main">%1$s %2$s,%3$s %4$s %5$s</string>
     <string name="send_weather_sms_error">Tiada data cuaca</string>
 
     <string name="tip_weather">Notifikasi cuaca MIUI</string>
