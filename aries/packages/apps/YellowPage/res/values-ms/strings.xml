@@ -3,7 +3,6 @@
 <resources>
     <!-- Name of the application -->
     <string name="app_label">Directori</string>
-    <string name="phone_info_divider">" ｜ "</string>
 
     <!-- Loading process related -->
     <string name="check_network">Lihat tetapan rangkaian</string>
@@ -100,7 +99,7 @@
     <string name="recharge_payment_result_progress_summary">Menyemak keputusan pembayaran\u2026</string>
     <string name="recharge_phone_number_error">Nombor telefon tidak sah.</string>
     <string name="recharge_user_confirm_title">Sah</string>
-    <string name="recharge_user_confirm_summary">"Anda akan dicaj %1$s untuk RMB%2$s Jumlah keseluruhan: RMB%3$s"</string>
+    <string name="recharge_user_confirm_summary">"Anda akan dicaj %1$s untuk RMB %2$s Jumlah keseluruhan: RMB %3$s"</string>
     <string name="recharge_order_id">Order ID:</string>
     <string name="recharge_status_description">Status:</string>
     <string name="recharge_actual_price">Harga:</string>
@@ -170,10 +169,7 @@
     <!-- Order related -->
     <string name="order_empty_hint">Tiada aturan</string>
     <string name="order_merchant_title">Aturan saya</string>
-    <string name="order_merchant_title_format">%1$s-%2$s</string>
     <string name="order_id">Order ID: %s</string>
-    <string name="order_status">%s</string>
-    <string name="order_price">%s</string>
 
     <!-- Frequently used yellowpage related -->
     <string name="general_yellow_page_title">Umum</string>
