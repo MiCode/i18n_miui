@@ -3,8 +3,7 @@
 	<string name="app_name">Perkhidmatan pembayaran</string>
 	<string name="format_time">MMM dd, yyyy hh:mmaa</string>
 	<string name="format_date">MMM. dd, yyyy</string>
-	<string name="colon">:\u0020</string>
-	
+
 	<string name="label_order_name">Produk:</string>
 	<string name="label_order_price">Harga:</string>
 	<string name="label_balance">Baki:</string>
@@ -25,7 +24,7 @@
 	<string name="balance_no_giftcard_payment"><xliff:g id="value">%1$s</xliff:g> MiCredits (cannot use MiCredit gift card for this order)</string>
 	
 	<string name="balance">Baki: <xliff:g id="value">%1$s</xliff:g> MiCredits</string>
-	<string name="giftcard_value">(<xliff:g id="value">%1$s</xliff:g>-MiCredit kad hadiah)</string>
+	<string name="giftcard_value">(<xliff:g id="value">%1$s</xliff:g> MiCredit kad hadiah)</string>
 	<string name="frozen">(Beku)</string>
 	<string name="mili_center">MiCredit</string>
 	<string name="memu_refresh">Refresh</string>
@@ -157,7 +156,6 @@
 	<string name="bankcall_denom_number"><xliff:g id="denom">%1$s</xliff:g> yuan</string>
 	<string name="bankcall_card">Kad Bank</string>
 	<string name="bankcall_card_hint">Sila masukkan nombor akaun</string>
-	<string name="bankcall_card_type"><xliff:g id="bank">%1$s</xliff:g>-<xliff:g id="type">%2$s</xliff:g></string>
 	<string name="bankcall_card_type_tailnum"><xliff:g id="bank">%1$s</xliff:g>-<xliff:g id="type">%2$s</xliff:g> (No. Kad <xliff:g id="cardNo">%3$s</xliff:g>)</string>
 	<string name="bankcall_debit_card">Kad Debit</string>
 	<string name="bankcall_credit_card">Kad Kredit</string>
