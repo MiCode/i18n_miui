@@ -321,20 +321,6 @@
 		<item>Never</item>
 	</string-array>
 	
-	<!-- The default vibrateWhen value, when none is set -->
-	<string translatable="false" name="prefDefault_vibrateWhen">never</string>
-	<!-- The value to use when migrating from old versions for a true vibrate setting -->
-	<string translatable="false" name="prefDefault_vibrate_true">always</string>
-	<!-- The value to use when migrating from old versions for a false vibrate setting -->
-	<string translatable="false" name="prefDefault_vibrate_false">never</string>
-	
-	<!-- The vibrateWhen values -->
-	<string-array translatable="false" name="prefValues_vibrateWhen">
-		<item>always</item>
-		<item>silent</item>
-		<item>never</item>
-	</string-array>
-	
 	<!-- Dialog title for the Vibrate dialog -->
 	
 	<!-- Settings item for boolean option to auto-retrieve incoming MMS messages -->
@@ -840,9 +826,6 @@
 	
 	<string name="attach_subject">Subjek</string>
 	
-	<!-- flatshow -->
-	<string name="flatshow_page_no">%1$d</string>
-	
 	<string name="prepare_send">Bersedia untuk menghantar\u2026</string>
 	<string name="activity_not_found">Tiada program dijumpai untuk membuka lampiran</string>
 	<string name="activity_not_found_uri">Tiada program dijumpai untuk ini</string>
@@ -936,8 +919,8 @@
 	<string name="hint_search_sms">%d SMS</string>
 	
 	<plurals name="message_count">
-	<item quantity="one"><xliff:g id="number" example="1">%1$s</xliff:g> message</item>
-	<item quantity="other"><xliff:g id="number" example="15">%1$s</xliff:g> messages</item>
+	<item quantity="one"><xliff:g id="number" example="1">%1$s</xliff:g> mesej</item>
+	<item quantity="other"><xliff:g id="number" example="15">%1$s</xliff:g> mesej</item>
 	</plurals>
 	
 	<string name="search_show_more_results">Tunjuk lagi</string>
@@ -981,7 +964,6 @@
 	<string name="pref_title_miui_card">Hantarkan dengan kad MIUI</string>
 	<string name="pref_title_vcard">Hantar dengan vCard</string>
 	
-	<string name="type_vcard">vCard</string>
 	<string name="add_slide_before">Tambah slaid (sebelum)</string>
 	<string name="context_menu_add_to_browser_favorite">Tambah ke penanda buku pelayar</string>
 	
