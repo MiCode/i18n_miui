@@ -6,7 +6,6 @@
     <string name="hello_world">Hi Dunia!</string>
     <string name="optimize_now">Mula</string>
     <string name="score">Markah</string>
-    <string name="seventy">70</string>
     <string name="valuation">Disyorkan pembersihan</string>
     <string name="virus_scan">Imbasan Virus</string>
     <string name="network_assistant">"Penggunaan Data "</string>
@@ -210,7 +209,6 @@
     <!-- Tab -->
     <string name="blacklist_tab_title">Senarai Halang</string>
     <string name="whitelist_tab_title">Pengecualian</string>
-    <string name="log_count">(%d)</string>
     <string name="new_bw_list_button">Tambah Kenalan</string>
 
     <!-- Add for mark -->
