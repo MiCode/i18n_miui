@@ -15,16 +15,7 @@
 -->
 
 <resources>
-    <!-- Used in View/Spinner1.java -->
-    <string-array name="colors">
-        <item>red</item>
-        <item>orange</item>
-        <item>yellow</item>
-        <item>green</item>
-        <item>blue</item>
-        <item>violet</item>
-    </string-array>
-    
+
     <!-- Used in View/Spinner1.java -->
     <string-array name="planets">
         <item>Mercury</item>
@@ -89,13 +80,6 @@
         <item>Beta Option 02</item>
         <item>Charlie Option 03</item>  
     </string-array>
-
-    <!-- Used in app/menu examples -->
-    <string-array name="entryvalues_list_preference">
-        <item>alpha</item>
-        <item>beta</item>
-        <item>charlie</item>  
-    </string-array>
     
     <!-- Used in app/Sample Device Admin -->
     <string-array name="password_qualities">
@@ -105,22 +89,6 @@
         <item>Alphabetic</item>
         <item>Alphanumeric</item>
         <item>Complex</item>
-    </string-array>
-
-    <!-- Used in app/Screen Orientation -->
-    <string-array name="screen_orientations">
-        <item>UNSPECIFIED</item>
-        <item>LANDSCAPE</item>
-        <item>PORTRAIT</item>
-        <item>USER</item>
-        <item>BEHIND</item>
-        <item>SENSOR</item>
-        <item>NOSENSOR</item>
-        <item>SENSOR_LANDSCAPE</item>
-        <item>SENSOR_PORTRAIT</item>
-        <item>REVERSE_LANDSCAPE</item>
-        <item>REVERSE_PORTRAIT</item>
-        <item>FULL_SENSOR</item>
     </string-array>
 
     <!-- Used in view/Secure View examples -->
