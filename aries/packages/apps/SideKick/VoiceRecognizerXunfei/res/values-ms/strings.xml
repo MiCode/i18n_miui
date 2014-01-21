@@ -23,7 +23,6 @@
     <string name="unknown_website">Laman web tidak ditemui</string>
     <string name="channel_not_support">Enjin carian tidak disokong</string>
 
-    <string name="today_date">%1$s, %2$s</string>
     <string name="china_date">Kalendar Lunar: %1$s tahun %2$s bulan %3$s</string>
     <string name="next_date">%1$s minggu</string>
 
@@ -70,8 +69,6 @@
     <string name="sms_sender">Penghantar</string>
     <string name="sms_content">kandungan</string>
 
-    <string name="arrow">&gt;</string>
-    <string name="arrow_down">v</string>
     <string name="you_can_say_so">Anda boleh kata: </string>
     <string name="model_name">Model</string>
     <string name="china">China</string>
