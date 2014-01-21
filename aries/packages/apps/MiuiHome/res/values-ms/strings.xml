@@ -20,15 +20,11 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Manifest configuration. -->
     <skip />
-    <!-- Do not translate. android:sharedUserId of this application. -->
-    <string name="sharedUserId" translate="false"><xliff:g id="x"></xliff:g></string>
-    <!-- Do not translate. android:process of this application. -->
-    <string name="process" translate="false"><xliff:g id="x"></xliff:g></string>
 
     <!-- General -->
     <skip />
     <!-- appname -->
-    <string name="application_name">MiuiHome</string>
+    <string name="application_name">MiHome</string>
     <!-- Name for all applications running as this uid. -->
     <!-- Default folder name -->
     <string name="folder_name">Pelipat</string>
@@ -226,13 +222,6 @@
     <string name="invalid_contact_shortcut">Jalan pintas kenalan yang tidak sah</string>
     
     <string name="guide_tips_editing_mode">Tahan widget di bawah untuk tarik ke skrin</string>
-    
-    <!-- Do not translate. Duration format for duration < 1 hour -->
-    <string translatable="false" name="durationformatshort"><xliff:g id="format">%2$2d:%5$02d</xliff:g></string>
-    <!-- Do not translate. Duration format for duration < 1 hour -->
-    <string translatable="false" name="durationformatshort_padding_with_0"><xliff:g id="format">%2$02d:%5$02d</xliff:g></string>
-    <!-- Do not translate. Duration format for duration >= 1 hour -->
-    <string translatable="false" name="durationformatlong"><xliff:g id="format">%1$d:%3$02d:%5$02d</xliff:g></string>
     
     <!-- Adjust photo -->
     <string name="photo_adjust">Preview</string>
