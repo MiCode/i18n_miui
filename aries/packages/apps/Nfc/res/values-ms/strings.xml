@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name">Nfc Service</string>
-    <string name="nfcUserLabel">Nfc</string>
+    <string name="app_name">NFC Service</string>
+    <string name="nfcUserLabel">NFC</string>
 
     <!-- A notification description string informing the user that contact details were received over NFC [CHAR-LIMIT=64] -->
     <string name="inbound_me_profile_title">Kenalan diterima melalui NFC</string>
@@ -35,7 +35,7 @@
     <string name="pairing_headset">Pairing\u2026</string>
     <string name="pairing_headset_failed">Gagal untuk pair</string>
     <string name="failed_to_enable_bt">Tidak boleh hidupkan Bluetooh</string>
-    <string name="confirm_pairing">Pair peranti Bluetooth<xliff:g id="device_name">%1$s</xliff:g>?</string>
+    <string name="confirm_pairing">Pair peranti Bluetooth <xliff:g id="device_name">%1$s</xliff:g>?</string>
     <string name="pair_yes">Ya</string>
     <string name="pair_no">Tidak</string>
 </resources>
