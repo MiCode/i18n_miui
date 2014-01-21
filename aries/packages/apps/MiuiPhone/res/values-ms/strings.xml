@@ -19,7 +19,7 @@
 	<string name="areacode_required_miui">Kod kawasan diperlukan</string>
 	<string name="areacode_required_accept_miui">OK</string>
 	<string name="auto_answer_summary_not_enabled">Tidak dihidupkan</string>
-	<string name="auto_answer_summary_delay">(Kelewatan:%s saat)</string>
+	<string name="auto_answer_summary_delay">(Kelewatan: %s saat)</string>
 	<string name="auto_answer_delay_entries_delay_10s_miui">10s</string>
 	<string name="auto_answer_delay_entries_delay_3s_miui">3s</string>
 	<string name="auto_answer_delay_entries_delay_5s_miui">5s</string>
@@ -53,7 +53,7 @@
 	<string name="auto_record_scenario_enteries_whitelist_miui">Automatik merakam bagi nombor yang dipilih</string>
 	<string name="auto_record_whitelist_miui">Tetapkan nombor dipilih</string>
 	<string name="auto_record_unknown_miui">Nombor tidak dikenali</string>
-	<string name="auto_record_yellowpage_miui">Yellow pages</string>
+	<string name="auto_record_yellowpage_miui">Directory</string>
 	<string name="auto_record_whitelist_no_item_miui">Tekan butang di bawah untuk menambah nombor bagi rakaman automatik</string>
 	<string name="auto_record_whitelist_summary_for_one_miui">1</string>
 	<string name="auto_record_whitelist_summary_miui">%d nombor</string>
@@ -366,8 +366,8 @@
 	
 	<string name="t9_indexing_method_title_miui">Tetapan carian T9</string>
 	<string name="t9_indexing_rebuilding_message">Membina Semula Indeks T9, sila tunggu\u2026</string>
-	<string name="t9_indexing_method_pinyin">PinYin</string>
-	<string name="t9_indexing_method_zhuyin">ZhuYin</string>
+	<string name="t9_indexing_method_pinyin">Pinyin</string>
+	<string name="t9_indexing_method_zhuyin">Zhuyin</string>
 	
 	<!-- blow is overlay strings -->
 	<string name="label_rn1dp">UIM rangkaian1 buka kunci PIN</string>
@@ -414,15 +414,12 @@
 	</plurals>
 	
 	<!-- AntiSpam strings-->
-	<string name="antispam_marked_title">%1$s</string>
 	<string name="antispam_marked_count">%1$d ditolak MIUI</string>
 	<string name="antispam_notification_title">Tidak dikenali</string>
 	<string name="antispam_provider">Dikenalpasti dengan %s</string>
 	
 	<string name="enable_antispam_strange_title">Anti panggilan ganjil</string>
 	<string name="enable_antispam_strange_summary">Redam panggilan pertama daripda nombor tidak dikenali</string>
-	
-	<string name="phone_info_divider">"  |  "</string>
 	
 	<string name="information">Informasi</string>
 	<string name="duringcall">Operasi tidak dibenarkan semasa panggilan</string>
