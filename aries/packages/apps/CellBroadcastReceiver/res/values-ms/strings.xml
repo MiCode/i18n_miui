@@ -211,13 +211,4 @@
       <item>10 saat</item>
     </string-array>
 
-    <!-- Do not translate. Values that are retrieved from the ListPreference.
-         These must match the alert_sound_duration_entries above. -->
-    <string-array name="alert_sound_duration_values">
-      <item>2</item>
-      <item>4</item>
-      <item>6</item>
-      <item>8</item>
-      <item>10</item>
-    </string-array>
 </resources>
