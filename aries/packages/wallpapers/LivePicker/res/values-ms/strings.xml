@@ -21,27 +21,27 @@
     <!-- General -->
     <skip />
     <!-- Application name -->
-    <string name="application_name">Live Wallpaper Picker</string>
+    <string name="application_name">Pemilih kertas dinding hidup</string>
     <!-- Title for the screen that lets the user choose a live wallpaper to use
          for the system. -->
-    <string name="live_wallpaper_picker_title">Select live wallpaper</string>
+    <string name="live_wallpaper_picker_title">Pilih kertas dinding hidup</string>
     <!-- Label for the live wallpaper picker [CHAR_LIMIT=40]-->
-    <string name="live_wallpaper_picker_label">Live Wallpapers</string>
+    <string name="live_wallpaper_picker_label">Kertas Dinding Hidup</string>
     <!-- Title for the screen that lets the user preview a live wallpaper. -->
-    <string name="live_wallpaper_preview_title">Live wallpaper preview</string>
+    <string name="live_wallpaper_preview_title">Pratonton kertas dinding hidup</string>
     <!-- List item for configuring the current wallpaper -->
     <string name="configure_wallpaper">Tetapan</string>
     <!-- Button label on Wallpaper Gallery screen; user selects this button to set a specific wallpaper -->
-    <string name="wallpaper_instructions">Set wallpaper</string>
+    <string name="wallpaper_instructions">Set kertas dinding</string>
     <!-- Warning message, no live wallpapers available. -->
-    <string name="live_wallpaper_empty">No live wallpapers.</string>
+    <string name="live_wallpaper_empty">Tiada kertas dinding hidup.</string>
     <!-- Button label, action, sets the currently selected wallpaper. -->
-    <string name="set_live_wallpaper">Set wallpaper</string>
+    <string name="set_live_wallpaper">Set kertas dinding</string>
     <!-- Label, title and author of the live wallpaper -->
-    <string name="wallpaper_title_and_author"><xliff:g id="title" example="Galaxy">%1$s</xliff:g> by <xliff:g id="author" example="Google">%2$s</xliff:g></string>
+    <string name="wallpaper_title_and_author"><xliff:g id="title" example="Galaxy">%1$s</xliff:g> oleh <xliff:g id="author" example="Google">%2$s</xliff:g></string>
     <!-- Message, tells the user the selected live wallpaper is loading. -->
-    <string name="live_wallpaper_loading">Loading live wallpaper…</string>
+    <string name="live_wallpaper_loading">Memuatkan kertas dinding hidup…</string>
     <!-- Button label, action, cancels the wallpaper picker dialog [CHAR_LIMIT=40]-->
-    <string name="wallpaper_cancel">Cancel</string>
+    <string name="wallpaper_cancel">Batal</string>
 
 </resources>

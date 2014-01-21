@@ -21,11 +21,11 @@
     <!-- General -->
     <skip />
     <!-- Application name -->
-    <string name="wallpapers">Music Visualization Wallpapers</string>
+    <string name="wallpapers">Kertas dinding Visualisasi Muzik</string>
 
     <string name="author">Google</string>
-    <string name="vis2_desc">Draws the sound wave of any currently playing music track.</string>
-    <string name="vis3_desc">Shows the frequency spectrum of any currently playing music track.</string>
-    <string name="vis4_desc">Simulates an analog sound meter.</string>
-    <string name="vis5_desc">All music visualizations together, slowly revolving in 3D.</string>
+    <string name="vis2_desc">Melukis gelombang bunyi mana-mana lagu yang sedang dimainkan.</string>
+    <string name="vis3_desc">Menunjukkan spektrum frekuensi mana-mana lagu yang sedang dimainkan.</string>
+    <string name="vis4_desc">Simulasi meter bunyi analog.</string>
+    <string name="vis5_desc">Semua visualisasi muzik bersama-sama, secara perlahan-lahan berputar dalam 3D.</string>
 </resources>

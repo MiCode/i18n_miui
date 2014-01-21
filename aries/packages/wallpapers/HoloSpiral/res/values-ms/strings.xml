@@ -15,7 +15,7 @@
 -->
 
 <resources>
-    <string name="wallpaper_label">Holo Spiral</string>
+    <string name="wallpaper_label">Lingkaran Holo</string>
     <string name="wallpaper_author">Google</string>
-    <string name="wallpaper_description">Holo themed spiral wallpaper</string>
+    <string name="wallpaper_description">Kertas Dinding bertemakan lingkaran Holo</string>
 </resources>

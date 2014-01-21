@@ -21,80 +21,80 @@
     <!-- General -->
     <skip />
     <!-- Application name -->
-    <string name="wallpapers">Android Live Wallpapers</string>
+    <string name="wallpapers">Kertas Dinding Hidup Android</string>
 
     <!-- Wallpapers: -->
     <skip />    
 
     <!-- Wallpaper showing the camera preview -->
-    <string name="wallpaper_walkaround">See Through</string>
+    <string name="wallpaper_walkaround">Lihat Melalui</string>
     <string name="wallpaper_walkaround_author">Google</string>
     <string name="wallpaper_walkaround_desc">
-        See through your phone and walk around without risking accidents.
+        Lihat melalui telefon anda dan berjalan-jalan tanpa risiko kemalangan.
     </string>
 
     <!-- Wallpaper showing grass and the sky -->
-    <string name="wallpaper_grass">Grass</string>
+    <string name="wallpaper_grass">Rumput</string>
     <string name="wallpaper_grass_author">Google</string>
     <string name="wallpaper_grass_desc">
-        Blades of grass wave gently in front of a day or night sky.
+        Helaian rumput melambai lembut di waktu siang atau malam hari.
     </string>
     
     <!-- Wallpaper showing a galaxy -->
-    <string name="wallpaper_galaxy">Galaxy</string>
+    <string name="wallpaper_galaxy">Galaksi</string>
     <string name="wallpaper_galaxy_author">Google</string>
     <string name="wallpaper_galaxy_desc">
-        A galaxy made of slowly swirling stars.
+        Galaksi adalah dari kumpulan bintang-bintang di angkasa.
     </string>
 
     <!-- Wallpaper showing leaves floating on water -->
-    <string name="wallpaper_fall">Water</string>
+    <string name="wallpaper_fall">Air</string>
     <string name="wallpaper_fall_author">Google</string>
     <string name="wallpaper_fall_desc">
-        Autumn leaves tumble&lt;br&gt;
-        To the rippling pond below:&lt;br&gt;
-        Liquid background Zen
+        Daun di musim luruh berguguran&lt;br&gt;
+        Ke dalam kolam yang beralun:&lt;br&gt;
+        Berlatarbelakangkan Zen
     </string>
     
     <!-- Wallpaper showing a clock -->
-    <string name="wallpaper_clock">Polar clock</string>
+    <string name="wallpaper_clock">Jam kutub</string>
     <string name="wallpaper_clock_author">Google</string>
     <string name="wallpaper_clock_desc">
-        Presents the date and time as clockwise arcs: month,
-        day, hour, minute, and second.
+        Mempersembahkan tarikh dan masa sebagai lengkok arah jam: bulan,
+        hari, jam, minit, dan saat.
     </string>
     
 	<!-- Wallpaper showing nexus -->
     <string name="wallpaper_nexus">Nexus</string>
     <string name="wallpaper_nexus_author">Google</string>
     <string name="wallpaper_nexus_desc">
-        A peek inside the neural network.
+        Mengintai ke dalam rangkaian neural.
     </string>
     
     <!-- Polar clock: title of settings activity -->
-    <string name="clock_settings">Polar clock settings</string>
+    <string name="clock_settings">Tetapan jam kutub</string>
     <!-- Polar clock: label for "show seconds" pref -->
-    <string name="show_seconds">Show seconds</string>
+    <string name="show_seconds">Tunjuk saat</string>
     <!-- Polar clock: label for "variable widths" pref -->
-    <string name="variable_line_width">Vary ring widths</string>
+    <string name="variable_line_width">Berbeza-beza lebar cincin</string>
     <!-- Polar clock: label for "palette" pref -->
-    <string name="palette">Color palette</string>
+    <string name="palette">Palet warna</string>
 
 	<!-- Polar clock: palette name -->
-	<string name="palette_gray">Iron</string>
+	<string name="palette_gray">Besi</string>
 	<!-- Polar clock: palette name -->
-	<string name="palette_violet">Midnight</string>
+	<string name="palette_violet">Tengah malam</string>
 	<!-- Polar clock: palette name -->
-	<string name="palette_matrix">Green Screen</string>
+	<string name="palette_matrix">Skrin Hijau</string>
 	<!-- Polar clock: palette name -->
-	<string name="palette_white_c">Polar Bear (dynamic)</string>
+	<string name="palette_white_c">Beruang Kutub (dinamik)</string>
 	<!-- Polar clock: palette name -->
-	<string name="palette_black_c">Black Hole (dynamic)</string>
+	<string name="palette_black_c">Lubang Hitam (dinamik)</string>
 	<!-- Polar clock: palette name -->
-	<string name="palette_halloween">Pumpkin Pie</string>
+	<string name="palette_halloween">Pai Labu</string>
 	<!-- Polar clock: palette name -->
-	<string name="palette_zenburn">Alien Fruit Salad</string>
+	<string name="palette_zenburn">Salad Buah Asing</string>
 	<!-- Polar clock: palette name -->
-	<string name="palette_oceanic">Blue Laser</string>
+	<string name="palette_oceanic">Laser Biru</string>
 
 </resources>

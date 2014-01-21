@@ -21,10 +21,10 @@
     <!-- General -->
     <skip />
     <!-- Application name -->
-    <string name="wallpapers">Magic Smoke Wallpapers</string>
+    <string name="wallpapers">Kertas dinding  Asap Ajaib</string>
 
     <!-- Wallpapers showing smoke, clouds, water, plasmas -->
-    <string name="wallpaper_magicsmoke">Magic Smoke</string>
+    <string name="wallpaper_magicsmoke">Asap Ajaib</string>
 
     <string name="author">Google</string>
 
@@ -32,5 +32,5 @@
     <string name="ok">OK</string>
 
     <!-- overlay text -->
-    <string name="taptochange">Tap to change</string>
+    <string name="taptochange">Tap untuk tukar</string>
 </resources>
