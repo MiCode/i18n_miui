@@ -2,54 +2,54 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Sound settings. The haptic feedback strength -->
     <string-array name="haptic_feedback_level_entries">
-        <item>Strong</item>
-        <item>Medium</item>
-        <item>Light</item>
+        <item>Kuat</item>
+        <item>Sederhana</item>
+        <item>Ringan</item>
     </string-array>
 
     <!-- Display settings.  The style of battery status showed in status bar. These are shown in a list dialog. -->
     <string-array name="battery_indicator_style_entries">
-        <item>Graphical</item>
-        <item>Percentage</item>
-        <item>Top bar</item>
+        <item>Bergrafik</item>
+        <item>Peratusan</item>
+        <item>Bar teratas</item>
     </string-array>
     
     <string-array name="usb_connection_mode_entries">
-        <item>Ask upon connection</item>
-        <item>Charge only</item>
-        <item>Mount SD card</item>
+        <item>Tanya apabila sambungan</item>
+        <item>Caj shj</item>
+        <item>Lekapkan Kad SD</item>
     </string-array>
 
     <!-- Display settings. Available frequency for breathing LED -->
     <string-array name="led_freq_entries">
-        <item>2 seconds</item>
-        <item>3 seconds</item>
-        <item>4 seconds</item>
-        <item>5 seconds</item>
-        <item>6 seconds</item>
-        <item>7 seconds</item>
-        <item>8 seconds</item>
-        <item>9 seconds</item>
+        <item>2 saat</item>
+        <item>3 saat</item>
+        <item>4 saat</item>
+        <item>5 saat</item>
+        <item>6 saat</item>
+        <item>7 saat</item>
+        <item>8 saat</item>
+        <item>9 saat</item>
     </string-array>
 
     <!-- Display settings. Available colors for breathing LED -->
     <string-array name="mi1_led_color_entries">
-        <item>Blue</item>
-        <item>Red</item>
-        <item>Green</item>
-        <item>Pink</item>
+        <item>Biru</item>
+        <item>Merah</item>
+        <item>Hijau</item>
+        <item>Merah Jambu</item>
         <item>Violet</item>
-        <item>Purple</item>
+        <item>Ungu</item>
     </string-array>
 
     <!-- Display settings. Available colors for breathing LED -->
     <string-array name="led_color_entries">
-        <item>Blue</item>
-        <item>Red</item>
-        <item>Yellow</item>
-        <item>Green</item>
+        <item>Biru</item>
+        <item>Merah</item>
+        <item>Kuning</item>
+        <item>Hijau</item>
         <item>Cyan</item>
-        <item>White</item>
+        <item>Putih</item>
         <item>Violet</item>
     </string-array>
 
@@ -85,147 +85,147 @@
 
     <!-- Screen key long press action -->
     <string-array name="screen_key_long_press_action">
-        <item>None</item>
-        <item>Show recent apps tray</item>
-        <item>Launch Assistant</item>
-        <item>Launch Google now</item>
-        <item>Close current app</item>
+        <item>Tiada</item>
+        <item>Tunjukkan Dulang apps terbaru</item>
+        <item>Melancarkan Penolong</item>
+        <item>Melancarkan Google sekarang</item>
+        <item>Tutupkan apps ini</item>
     </string-array>
 
     <!-- Screen key long press interval -->
     <string-array name="screen_key_long_press_timeout">
-        <item>0.5 second</item>
-        <item>1 second</item>
-        <item>1.5 seconds</item>
-        <item>2 seconds</item>
+        <item>0.5 saat</item>
+        <item>1 saat</item>
+        <item>1.5 saat</item>
+        <item>2 saat</item>
     </string-array>
 
     <!-- Timeout for screen button -->
     <string-array name="button_light_timeout_entries">
-        <item>1 second</item>
-        <item>2 seconds</item>
-        <item>5 seconds</item>
-        <item>10 seconds</item>
-        <item>20 seconds</item>
-        <item>Always</item>
+        <item>1 saat</item>
+        <item>2 saat</item>
+        <item>5 saat</item>
+        <item>10 saat</item>
+        <item>20 saat</item>
+        <item>Sentiasa</item>
     </string-array>
 
     <!-- Match this with the order of WfdSettings Session Status -->
     <!-- Wi-Fi Display settings device status message -->
     <string-array name="wfd_status">
-        <item>Device connected, creating session\u2026</item>
-        <item>Session created.</item>
-        <item>Session tearing down\u2026</item>
-        <item>Session failed.</item>
-        <item>Timed out, retrying\u2026</item>
-        <item>Device connected</item>
+        <item>Peranti disambungkan, mencipta sesi\u2026</item>
+        <item>Sesi diciptakan.</item>
+        <item>Sesi diruntukan\u2026</item>
+        <item>Sesi gagal.</item>
+        <item>Masa tamat, mencuba semula\u2026</item>
+        <item>Peranti disambungkan</item>
     </string-array>
 
     <!-- power mode -->
     <string-array name="power_mode_entries">
-        <item>High performance</item>
-        <item>Balance</item>
-        <item>Battery saving</item>
+        <item>Prestasi tinggi</item>
+        <item>Seimbang</item>
+        <item>Penjimatan bateri</item>
     </string-array>
 
     <!-- msd driver -->
     <string-array name="msd_pc_system">
-        <item>Windows XP and older versions of Windows</item>
-        <item>Windows Vista and newer versions of Windows</item>
+        <item>Windows XP dan Windows versi lama</item>
+        <item>Windows Vista and Windows versi terkini</item>
         <item>Mac OS</item>
         <item>Linux</item>
     </string-array>
 
     <string-array name="msd_pc_system_install_start_summary">
-        <item>For Windows XP and older versions of Windows,\ndriver must be installed manually</item>
-        <item>For Windows Vista and newer versions of Windows, \nthe music player will appear automatically</item>
-        <item>For Mac OS,\ndriver must be installed manually</item>
+        <item>Bagi Windows XP dan Windows versi lama,\npemacu mestilah dipasang secara manual</item>
+        <item>Bagi Windows Vista and Windows versi terkini, \npemain muzik akan muncul secara automatik</item>
+        <item>Bagi Mac OS,\npemacu mestilah dipasang secara manual</item>
         <item></item>
     </string-array>
 
     <string-array name="msd_pc_system_install_step_1_summary">
-        <item>(Ignore the Setup Wizard)\nWhen connected, Xiaomi will appear as a USB mass storage device.\n Open and select Setup.exe to install</item>
+        <item>(Abaikan Setup Wizard)\nSemasa disambungkan, Xiaomi akan muncul sebagai peranti storan massa USB.\n Buka dan pilih Setup.exe untuk memasang</item>
         <item></item>
-        <item>When connected, Xiaomi will appear as a USB mass storage device on your desktop.\nOpen and select AndroidFileTransfer.dmg to install.</item>
+        <item>Semasa disambungkan, Xiaomi akan muncul sebagai peranti storan massa USB di komputer anda.\nBuka dan pilih AndroidFileTransfer.dmg untuk memasang.</item>
         <item></item>
     </string-array>
 
     <string-array name="msd_pc_system_install_step_2_summary">
-        <item>2. MI 2 will appear as a USB mass storage\n device when connected to your computer.</item>
+        <item>2. MI 2 akan muncul sebagai peranti storan massa USB\n apabila disambungkan ke komputer anda.</item>
         <item></item>
-        <item>Transfer files like you would to any other external hard drive.</item>
+        <item>Memindahkan fail seperti yang anda lakukan ke mana-mana pemacu keras luaran.</item>
         <item></item>
     </string-array>
 
     <string-array name="msd_pc_system_install_finish_summary">
-        <item>After you install this driver\nMI 2 will appear as a USB mass storage device when connected to a computer.</item>
-        <item>For Windows Vista and newer versions of Windows,\nthe MI 2 music player will appear on your computer automatically</item>
-        <item>When you install this driver\nphone will open automatically when connected to a computer.</item>
+        <item>Selepas anda memasang pemacu ini\nMI 2 akan muncul sebagai peranti storan massa USB apabila disambungkan ke komputer.</item>
+        <item>Bagi Windows Vista and Windows versi terkini,\npemain muzik MI 2 akan muncul di komputer anda secara automatik</item>
+        <item>Semasa anda memasang pemacu ini\ntelefon akan dibuka secara automatik apabila disambungkan ke komputer.</item>
         <item></item>
     </string-array>
 
     <string-array name="screen_color_title">
-        <item>Warm</item>
+        <item>Mesra</item>
         <item>Standard</item>
-        <item>Cool</item>
+        <item>Dingin</item>
     </string-array>
 
     <string-array name="screen_saturation_title">
-        <item>Brilliant</item>
+        <item>Gemilang</item>
         <item>Standard</item>
     </string-array>
 
     <string-array name="perm_hips_action">
-         <item>Allow</item>
-         <item>Ask</item>
-         <item>Deny</item>
+         <item>Gemilang</item>
+         <item>Tanya</item>
+         <item>Nafikan</item>
     </string-array>
 
     <string-array name="startup_hips_action">
-         <item>Allow</item>
-         <item>Deny</item>
+         <item>Benarkan</item>
+         <item>Nafikan</item>
     </string-array>
 
     <string-array name="change_security_lock_picker">
-        <item>Face unlock</item>
-        <item>Pattern</item>
+        <item>Buka kunci dengan muka</item>
+        <item>Corak</item>
         <item>PIN</item>
-        <item>Password</item>
+        <item>Katalaluan</item>
     </string-array>
 
     <string-array name="phone_call_noise_suppression_title">
-        <item>Single-mic noise suppression</item>
-        <item>Dual-mic noise suppression</item>
+        <item>Penindasan bunyi dengan Mikrofon Tunggal</item>
+        <item>Penindasan bunyi dengan Dwi Mikrofon</item>
     </string-array>
 
     <!-- Display settings.  The delay in inactivity before the screen is turned off. These are shown in a list dialog. -->
     <string-array name="screen_timeout_entries">
-        <item>15 seconds</item>
-        <item>30 seconds</item>
-        <item>1 minute</item>
-        <item>2 minutes</item>
-        <item>5 minutes</item>
-        <item>10 minutes</item>
-        <item>Never</item>
+        <item>15 saat</item>
+        <item>30 saat</item>
+        <item>1 minit</item>
+        <item>2 minit</item>
+        <item>5 minit</item>
+        <item>10 minit</item>
+        <item>Jangan</item>
     </string-array>
 
     <string-array name="slideshow_time_entries" >
-        <item>5 minutes</item>
-        <item>15 minutes</item>
-        <item>30 minutes</item>
-        <item>1 hour</item>
-        <item>Unlimited</item>
+        <item>5 minit</item>
+        <item>15 minit</item>
+        <item>30 minit</item>
+        <item>1 jam</item>
+        <item>Tidak Terhad</item>
     </string-array>
 
     <!-- preferred application settings -->
     <string-array name="preferred_app_entries" >
-        <item>Launcher</item>
-        <item>Dial</item>
-        <item>Messaging</item>
-        <item>Browser</item>
-        <item>Camera</item>
-        <item>Gallery</item>
-        <item>Music</item>
-        <item>Email</item>
+        <item>Pelancar</item>
+        <item>Dail</item>
+        <item>Pesanan</item>
+        <item>Pelayar</item>
+        <item>Kamera</item>
+        <item>Galeri</item>
+        <item>Muzik</item>
+        <item>Emel</item>
     </string-array>
 </resources>
