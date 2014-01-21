@@ -363,7 +363,7 @@
 	<!-- Toast in Call settings dialog while settings are being read -->
 	<string name="reading_settings">Membaca tetapan\u2026</string>
 	<!-- Toast in Call settings dialog while settings are being saved -->
-	<string name="updating_settings"Mengemaskini tetapan\u2026</string>
+	<string name="updating_settings">Mengemaskini tetapan\u2026</string>
 	<!-- Toast in Call settings dialog while settings are being reverted -->
 	<string name="reverting_settings">Mengembalikan tetapan\u2026</string>
 	<!-- Status message displayed in the "Call settings error" dialog -->
