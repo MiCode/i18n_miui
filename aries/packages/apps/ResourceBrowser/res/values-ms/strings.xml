@@ -6,7 +6,7 @@
     <string name="resource_app_name">Pelayar Sumber</string>
 
     <string name="resource_price_free">Percuma</string>
-    <string name="resource_price_unit">&#160;MiKredit</string>
+    <string name="resource_price_unit">&#160;MiCredit</string>
     <string name="resource_price_format">(%1$s)</string>
 
     <string name="sdcard_not_mounted_dialog_title">Tiada kad SD dikesan</string>
@@ -25,7 +25,7 @@
     <string name="description_download">Sudah dimuatturun</string>
     <string name="description_version">Versi</string>
     <string name="description_summary">Ringkasan</string>
-    <string name="description_version_szie">Versi: %1$s   Saiz: %2$s</string>
+    <string name="description_version_szie">Versi: %1$s Saiz: %2$s</string>
 
     <string name="resource_local">Lokal %1$s</string>
     <string name="resource_online">Atas talian %1$s</string>
@@ -104,7 +104,7 @@
     <string name="resource_download_trial">Percubaan percuma</string>
     <string name="resource_apply_trial">Cuba sekarang</string>
     <string name="resource_on_trial">Sedang mencuba: %1$s</string>
-    <string name="resource_trial_time">（percubaan untuk %1$d minit）</string>
+    <string name="resource_trial_time"> (percubaan untuk %1$d minit) </string>
     <string name="resource_trial_end_title">Percubaan tamat</string>
     <string name="resource_trial_end_message">Percubaan untuk %1$s sudah tamat. Jika anda suka, sila membelinya.</string>
     <string name="resource_trial_end_restore">Percubaan selesai</string>
@@ -145,7 +145,7 @@
     <string name="resource_exchange_has_expired">Kod yang anda masukkan telah luput.</string>
     <string name="resource_exchange_unavailable">Tema yang berkaitan dengan kod yang anda masukkan tidak tersedia.</string>
     <string name="resource_exchange_has_bought">Anda telah membeli tema ini.</string>
-    <string name="resource_exchange_success">Nikmatilah! :)</string>
+    <string name="resource_exchange_success">Nikmatilah!</string>
     <string name="resource_exchange_share_code_dlg_title">Menghantar</string>
     <string name="resource_exchange_share_code_dlg_content">Kod hadiah anda dibeli untuk tema "%1$s"adalah: %2$s. Apabila anda hantar ke pengguna MIUI lain, dia boleh menggunakannya untuk memuatturun tema ini.</string>
     <string name="resource_exchange_share_code_content">Anda telah menerima kod hadiah untuk tema "%1$s" pada Store Tema MIUI. Nombor kod tersebut adalah: %2$s. Sentuh %3$s untuk guna sekarang.</string>
@@ -166,7 +166,6 @@
     <string name="resource_comment_footer">Komen kosong tidak dipaparkan.</string>
     <string name="resource_comment_no_comment">Tiada komen</string>
     <string name="resource_comment_current_version">Versi semasa</string>
-    <string name="resource_comment_date"><xliff:g id="month">%1$02d</xliff:g>-<xliff:g id="date">%2$02d</xliff:g></string>
     <string name="resource_comment_upload_hint">Komen anda akan dipaparkan selepas semakan ringkas.</string>
     <string name="resource_comment_sending">Menghantar komen\u2026</string>
     <string name="resource_comment_upload_failed">Gagal menghantar komen</string>
@@ -175,7 +174,7 @@
     <string name="resource_comment_upload_not_logined">Anda perlu log masuk dulu</string>
     <string name="resource_comment_upload_not_bought">Anda perlu memakai tema tersebut sebelum anda boleh menulis komen mengenainya</string>
     <string name="resource_comment_invalid">Sentuhkan bintang untuk menilai tema tersebut</string>
-    <string name="resource_comment_expand_full_text">Kembangkan semua teks▼</string>
+    <string name="resource_comment_expand_full_text">Kembangkan semua teks ▼</string>
     <string name="resource_comment_title">Komen: <xliff:g id="app_name">%1$s</xliff:g></string>
     <string name="resource_comment_edit_title">Edit komen: <xliff:g id="app_name">%1$s</xliff:g></string>
     <string name="resource_comment_edit_comment">Tambah komen</string>
