@@ -539,7 +539,6 @@
 	<string name="i_know">OK</string>
 	<string name="ktv_alert_title">Hanya peranti yang disokong boleh menambah lagu</string>
 	<string name="ktv_alert_message">"Sentuh Penggunaan telefon untuk menambah lagu pada halaman utama konsol KTV untuk melihat kod QR yang sepadan"</string>
-	<string name="ktv_and_room">"%1$s %2$s"</string>
 	<string name="ktv_connected_alert_titel">Disambungkan kepada %1$s</string>
 	<string name="ktv_connected_alert_message">Lagu yang anda pilih akan ditambah ke senarai main dinamakan KTV Saya</string>
 	<string name="ktv_disconnect_alert_titel">Memutuskan sambungan daripada %1$s?</string>
@@ -585,7 +584,6 @@
 	<string name="expired">Tamat tempoh</string>
 	<string name="enabled">Dihidupkan</string>
 	<string name="valid_period">"Sah dari: "</string>
-	<string name="period_format">%1$s-%2$s</string>
 	<string name="vip_bought">"Anda telah membeli akses muzik kualiti lebih tinggi"</string>
 	<string name="vip_expired">Your higher quality music access has expired</string>
 	<string name="vip_rebuy">Baharui</string>
