@@ -201,7 +201,7 @@
     <string name="cit_exit_test_title">Keluar ujian</string>
     <string name="cit_exit_test_summary">Semua data teks yang berkaitan akan dipadamkan apabila anda keluar.</string>
     <string name="cit_battery_temp_pass">Suhu bateri normal</string>
-    <string name="cit_battery_temp_fail">Suhu bateri tidak normal (nilai=%d)</string>
+    <string name="cit_battery_temp_fail">Suhu bateri tidak normal (nilai %d)</string>
     <string name="cit_calibration_pass">Kalibrasi lulus</string>
     <string name="cit_calibration_fail">Kalibrasi gagal</string>
     <string name="cit_tool_log">Dapatkan log</string>
