@@ -107,14 +107,6 @@
 	<!-- Label in system panel saying the device will show notifications [CHAR LIMIT=30] -->
 	<string name="status_bar_settings_notifications">Notifikasi</string>
 	
-	<!-- Text to display next to the graphical battery meter.  [CHAR LIMIT=3] -->
-	<string name="status_bar_settings_battery_meter_format" translatable="false">
-		<xliff:g id="number">%d</xliff:g><xliff:g id="percent">%%</xliff:g>
-	</string>
-	
-	<!-- Separator for PLMN and SPN in network name. -->
-	<string name="status_bar_network_name_separator" translatable="false">|</string>
-	
 	<!-- Network connection string for Bluetooth Reverse Tethering -->
 	<string name="bluetooth_tethered">Bluetooth sedang tether</string>
 	<!-- Title of a button to open the settings for input methods [CHAR LIMIT=30] -->
@@ -386,6 +378,7 @@
 	<string name="tab_notifications_lable">Notifikasi</string>
 	<string name="tab_toggles_lable">Togol</string>
 	
+	<!-- Time format options (refer to android docs for syntax) -->
 	<string name="status_bar_time_format_12">h:mma</string>
 	<string name="status_bar_time_format_24">HH:mm</string>
 	<string name="status_bar_date_format">E\nyyyy.M.d </string>
