@@ -18,10 +18,6 @@
 	<string name="app_name">Galeri</string>
 	<!-- Title for picture frame gadget to show in list of all available gadgets -->
 	
-	<!-- Used to format short video duration in Details dialog. minutes:seconds e.g. 00:30 -->
-	<string name="details_ms">%1$02d:%2$02d</string>
-	<!-- Used to format video duration in Details dialog. hours:minutes:seconds e.g. 0:21:30 -->
-	<string name="details_hms">%1$d:%2$02d:%3$02d</string>
 	<!-- Activity label. This might show up in the activity-picker -->
 	<!-- shown in the video player view while the video is being loaded, before it starts playing -->
 	
@@ -120,13 +116,6 @@
 		<item quantity="zero">%1$d selected</item>
 		<item quantity="one">%1$d selected</item>
 		<item quantity="other">%1$d selected</item>
-	</plurals>
-	
-	<!-- String indicating how many pictures one set has -->
-	<plurals name="number_of_pictures">
-		<item quantity="zero">%1$d</item>
-		<item quantity="one">%1$d</item>
-		<item quantity="other">%1$d</item>
 	</plurals>
 	
 	<!-- String indicating timestamp of photo or video -->
@@ -327,7 +316,7 @@
 	of that amount, eg. "10MB".
 	[CHAR LIMIT=20]
 	-->
-	<string name="size_below"><xliff:g id="size">%1$s</xliff:g>  ke bawah</string>
+	<string name="size_below"><xliff:g id="size">%1$s</xliff:g> ke bawah</string>
 	
 	<!-- Label of a group of pictures. The size of each picture in this group is
 	more than a certain amount. The parameter is a string representation
@@ -468,9 +457,6 @@
 	<string name="cloud_be_shared_guide_message">"Anda boleh tengok gambar kawan anda, boleh tambah gambar ke dalam album juga, supaya anda dan kawan anda boleh tengok gambar dalam album ini."</string>
 	<string name="cloud_owner_album_share_guide">Anda boleh kongsi album ini dengan kawan anda</string>
 	<string name="view_sharers">Lihat pekongsi</string>
-	
-	<!-- Camera path for ROM adaptation -->
-	<string name="camera_path">/DCIM/Camera</string>
 	
 	<!-- single image view -->
 	<string name="open_single_image_failure">Gagal membuka fail imej!</string>
@@ -614,9 +600,6 @@
 	<string name="scan_qr_code_failure">Gagal untuk mengimbas kod QR.</string>
 	
 	<string name="big_screen_alertdialog_title">Alat Projektor</string>
-	
-	<string name="comma">,&#160;</string>
-	<string name="quotation">\"<xliff:g>%s</xliff:g>\"</string>
 	
 	<!-- Strings for share user picker -->
 	<string name="by_sms">SMS</string>
@@ -773,6 +756,5 @@
 	<string name="make_download_dir_fail">Gagal untuk mencipta direktori!</string>
 	<string name="delete_smb_file_fail">Gagal untuk memadam fail smb</string>
 	<string name="new_device_tips">Peranti baru dijumpai. Klik untuk melihat</string>
-	
-	<string name="time_line_view">TimeLine_View</string>
+
 </resources>
