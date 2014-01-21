@@ -102,7 +102,7 @@
 	
 	<string name="multi_touch_points_category_title">Titik Pelbagai-sentuh</string>
 	<string name="multi_touch_points_preference">But semula bagi membolehkan</string>
-	<string name="trackball_settings">bebola jejak</string>
+	<string name="trackball_settings">Bebola jejak</string>
 	
 	<string name="status_bar_settings">Status bar</string>
 	<string name="complete_settings">Tetapan semua</string>
@@ -222,14 +222,7 @@
 	<string name="wifi_wapi_certification_dont_exist">Rangkaian Kata Laluan yang anda masukkan tidak betul. Sila cuba lagi.</string>
 	<!-- Caption for the wireless password -->
 	<string name="please_type_passphrase">Kata Laluan Wi-Fi</string>
-	<!-- Do not translate.  Concise terminology for wifi with WAPI PSK security -->
-	<string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
-	<!-- Do not translate.  Concise terminology for wifi with WAPI CERT security -->
-	<string name="wifi_security_short_WAPI_CERT">WAPI CERT</string>
-	<!-- Do not translate.  Concise terminology for wifi with WAPI PSK security -->
-	<string name="wifi_security_WAPI_PSK">WAPI PSK</string>
-	<!-- Do not translate.  Concise terminology for wifi with WAPI CERT security -->
-	<string name="wifi_security_WAPI_CERT">WAPI CERT</string>
+
 	<!-- Wi-Fi settings screen, connect to network dialog box, spinner -->
 	<string name="wifi_certificate">Perakuan</string>
 	
