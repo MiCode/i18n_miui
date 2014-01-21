@@ -398,15 +398,6 @@
 		<!-- Phone settings "Caller ID" preference option: show outgoing Caller ID info -->
 		<item>Tunjukkan nombor</item>
 	</string-array>
-	<!-- Phone settings: Internal keys used for Caller ID preference values.  DO NOT TRANSLATE. -->
-	<string-array name="clir_values" translatable="false">
-		<!-- Phone settings: Internal key used for Caller ID preference values.  DO NOT TRANSLATE. -->
-		<item><xliff:g>LALAI</xliff:g></item>
-		<!-- Phone settings: Internal key used for Caller ID preference values.  DO NOT TRANSLATE. -->
-		<item><xliff:g>SEMBUNYI</xliff:g></item>
-		<!-- Phone settings: Internal key used for Caller ID preference values.  DO NOT TRANSLATE. -->
-		<item><xliff:g>TUNJUK</xliff:g></item>
-	</string-array>
 	
 	<!-- voicemail setting strings --><skip/>
 	<!-- Call settings screen, Set voicemail number dialog text -->
@@ -504,30 +495,13 @@
 		<item>GSM sahaja</item>
 		<item>GSM/WCDMA diutamakan</item>
 	</string-array>
-	<string-array name="preferred_network_mode_values"  translatable="false">
-		<item>"12"</item>
-		<item>"11"</item>
-		<item>"10"</item>
-		<item>"9"</item>
-		<item>"8"</item>
-		<item>"7"</item>
-		<item>"6"</item>
-		<item>"5"</item>
-		<item>"4"</item>
-		<item>"3"</item>
-		<item>"2"</item>
-		<item>"1"</item>
-		<item>"0"</item>
-	</string-array>
+	
 	<!-- Mobile network settings, network mode choices for a device supporting CDMA and LTE [CHAR LIMIT=25] -->
 	<string-array name="preferred_network_mode_choices_lte">
 		<item>LTE/CDMA</item>
 		<item>CDMA</item>
 	</string-array>
-	<string-array name="preferred_network_mode_values_lte" translatable="false">
-		<item>"7"</item>
-		<item>"4"</item>
-	</string-array>
+
 	<!-- Mobile network settings screen, data enabling checkbox name -->
 	<string name="data_enabled">Hidupkan data</string>
 	<!-- Mobile network settings screen, setting summary text when check box is not selected (explains what selecting it would do) -->
@@ -618,24 +592,7 @@
 	
 	<string name="list_language_title">Bahasa</string>
 	<string name="list_language_summary">Pilih bahasa berita</string>
-	<string-array name="list_language_entries">
-		<item>Inggeris</item>
-		<item>Perancis</item>
-		<item>Sepanyol</item>
-		<item>Jepun</item>
-		<item>Korea</item>
-		<item>Cina</item>
-		<item>Hebrew</item>
-	</string-array>
-	<string-array name="list_language_values">
-		<item>"1"</item>
-		<item>"2"</item>
-		<item>"3"</item>
-		<item>"4"</item>
-		<item>"5"</item>
-		<item>"6"</item>
-		<item>"7"</item>
-	</string-array>
+
 	<string name="list_language_dtitle">Bahasa</string>
 	
 	<string name="enable_disable_local_weather">Cuaca Tempatan</string>
@@ -706,26 +663,16 @@
 		<!-- System select dialog screen, setting option name -->
 		<item>Automatik</item>
 	</string-array>
-	<string-array name="cdma_system_select_values" translatable="false">
-		<!-- Do not translate. -->
-		<item>"0"</item>
-		<!-- Remove the following value "1" which corresponds to "Affiliated Networks" above -->
-		<!-- <item>"1"</item>  -->
-		<!-- Do not translate. -->
-		<item>"2"</item>
-	</string-array>
 	
 	<string name="cdma_subscription_title">Langganan CDMA</string>
 	<string name="cdma_subscription_summary">Tukar antara RUIM/SIM dan NV</string>
 	<string name="cdma_subscription_dialogtitle">langganan</string>
+
 	<string-array name="cdma_subscription_choices">
 		<item>RUIM/SIM</item>
 		<item>NV</item>
 	</string-array>
-	<string-array name="cdma_subscription_values">
-		<item>"0"</item>
-		<item>"1"</item>
-	</string-array>
+
 	<!-- Preference title with which users can activate CDMA network [CHAR LIMIT=30] -->
 	<string name="cdma_activate_device">Aktifkan peranti</string>
 	<!-- Preference title for launching an account manager page for prepaid LTE [CHAR LIMIT=30] -->
@@ -924,13 +871,6 @@
 	
 	<!-- In-call screen: status label for a conference call -->
 	<string name="caller_manage_header">Panggilan persidangan <xliff:g id="conf_call_time">%s</xliff:g></string>
-	
-	<!-- Used in FakePhoneActivity test code.  DO NOT TRANSLATE. -->
-	<string name="fake_phone_activity_phoneNumber_text" translatable="false">(650) 555-1234</string>
-	<!-- Used in FakePhoneActivity test code.  DO NOT TRANSLATE. -->
-	<string name="fake_phone_activity_infoText_text" translatable="false">Incoming phone number</string>
-	<!-- Used in FakePhoneActivity test code.  DO NOT TRANSLATE. -->
-	<string name="fake_phone_activity_placeCall_text" translatable="false">Fake Incoming Call</string>
 	
 	<!-- Call settings screen, Set voicemail dialog title -->
 	<string name="voicemail_settings_number_label">Nombor mel suara</string>
@@ -1134,18 +1074,6 @@
 		<item>TTY VCO</item>
 	</string-array>
 	
-	<!-- Do not translate. -->
-	<string-array name="tty_mode_values" translatable="false">
-	<!-- Do not translate. -->
-		<item>0</item>
-		<!-- Do not translate. -->
-		<item>1</item>
-		<!-- Do not translate. -->
-		<item>2</item>
-		<!-- Do not translate. -->
-		<item>3</item>
-	</string-array>
-	
 	<!-- Dtmf tones settings -->
 	<!-- Title for the DTMF Tones options displayed in Call Settings -->
 	<string name="dtmf_tones_title">Nada DTMF</string>
@@ -1156,15 +1084,9 @@
 		<item>Normal</item>
 		<item>Panjang</item>
 	</string-array>
-	<!-- Do not translate. -->
-	<string-array name="dtmf_tone_values" translatable="false">
-		<item>0</item>
-		<item>1</item>
-	</string-array>
 	
 	<!-- XDivert Settings -->
-	<!-- Title for the XDivert Feature displayed in Call Settings -->
-	<string name="xdivert_title">X-Divert</string>
+
 	<!-- Summary for the XDivert Feature displayed in Call Settings -->
 	<string name="xdivert_summary">Tetapan CFNRc</string>
 	<string name="phone_numbers">Masukan Nombor Telefon</string>
@@ -1274,9 +1196,6 @@
 	<!-- ECM: ECM exit dialog choice -->
 	<string name="alert_dialog_dismiss">Singkirkan</string>
 	
-	<!-- For incoming calls, this is a string we can get from a CDMA network instead of
-	the actual phone number, to indicate there's no number present.  DO NOT TRANSLATE. -->
-	<string name="absent_num" translatable="false">ABSENT NUMBER</string>
 	<!-- Preference for Voicemail service provider under "Voicemail" settings.
 	[CHAR LIMIT=40] -->
 	<string name="voicemail_provider">Perkhidmatan</string>
@@ -1444,11 +1363,6 @@
 	<!-- Default value for the outbound-proxy-address preference summary. [CHAR LIMIT=NONE] -->
 	<string name="optional_summary">&lt;Tidak wajib&gt;</string>
 	
-	<!-- Default sip server/proxy port number. -->
-	<string translatable="false" name="default_port">5060</string>
-	<!-- Default sip server/proxy transport protocol. -->
-	<string translatable="false" name="default_transport">UDP</string>
-	
 	
 	<!-- Hint to show the advanced settings section. [CHAR LIMIT=NONE] -->
 	<string name="advanced_settings_show">▷ Sentuh untuk tunjuk semua</string>
@@ -1476,25 +1390,6 @@
 	<!-- Option for whether the SIP service should send keepalive messages. [CHAR LIMIT=40] -->
 	<string translatable="true" name="sip_always_send_keepalive">Sentiasa hantar</string>
 	
-	<!-- Do not translate the following strings. Used for the Internet call options. Need to be in-sync with Settings.System.SIP_ strings. -->
-	<string translatable="false" name="sip_always">SIP_ALWAYS</string>
-	<string translatable="false" name="sip_address_only">SIP_ADDRESS_ONLY</string>
-	<string translatable="false" name="sip_ask_me_each_time">SIP_ASK_ME_EACH_TIME</string>
-	
-	<!-- Do not translate the following strings. Used for the preference keys -->
-	<string translatable="false" name="domain_address">SipDomain</string>
-	<string translatable="false" name="username">UserName</string>
-	<string translatable="false" name="password">Password</string>
-	<string translatable="false" name="display_name">DisplayName</string>
-	<string translatable="false" name="proxy_address">ProxyAddress</string>
-	<string translatable="false" name="port">Port</string>
-	<string translatable="false" name="transport">Protocol</string>
-	<string translatable="false" name="send_keepalive">SendKeepAlive</string>
-	<string translatable="false" name="set_primary">SetPrimary</string>
-	<string translatable="false" name="advanced_settings_container">advanced settings container</string>
-	<string translatable="false" name="auth_username">AuthUserName</string>
-	<!-- End of SIP settings related strings -->
-	
 	<!-- Dialog title to notify user that Voice calling is not supported
 	on this device. [CHAR LIMIT=40] -->
 	<string name="not_voice_capable">Tidak menyokong panggilan suara.</string>
@@ -1515,8 +1410,7 @@
 	<!-- Slightly more verbose title of settings screen for managing the
 	"Respond via SMS" feature. [CHAR LIMIT=30] -->
 	<string name="respond_via_sms_setting_title_2">Edit balas segera</string>
-	<!-- Settings summary string for the "Respond via SMS" feature. [CHAR LIMIT=40] -->
-	<string name="respond_via_sms_setting_summary"/></string>
+
 	<!-- Dialog title when changing a string for the "Respond via SMS" feature. [CHAR LIMIT=30] -->
 	<string name="respond_via_sms_edittext_dialog_title">Balas segera</string>
 	
@@ -1665,16 +1559,6 @@
 		<item msgid="4552962311897985633">Jangan</item>
 	</string-array>
 	
-	<!-- The default value value for voicemail notification. -->
-	<string name="voicemail_notification_vibrate_when_default" translatable="false">jangan</string>
-	
-	<!-- Actual values used in our code for voicemail notifications. DO NOT TRANSLATE -->
-	<string-array name="voicemail_notification_vibrate_when_values" translatable="false">
-		<item>always</item>
-		<item>silent</item>
-		<item>never</item>
-	</string-array>
-	
 	<!-- Setting option name to pick ringtone (a list dialog comes up). [CHAR LIMIT=30] -->
 	<string name="ringtone_title" msgid="5379026328015343686">Nada dering telefon</string>
 	
@@ -1741,7 +1625,7 @@
 	<!-- Set Subscription screen: Deactivate both subscription not supported -->
 	<string name="deact_all_sub_not_supported">Penyahaktifan kedua-dua langganan tidak disokong.</string>
 	<!-- Label text for displaying subscription info -->
-	<string name="label_subscription">untuk Langganan</string>
+	<string name="label_subscription">Untuk langganan</string>
 	
 	<!-- Sim contacts management -->
 	<string name="ContactScreen">Urus kenalan SIM</string>
