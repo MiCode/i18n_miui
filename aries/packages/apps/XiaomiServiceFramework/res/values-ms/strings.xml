@@ -222,8 +222,7 @@
     <string name="dirty_contacts_count">%d kenalan</string>
     <string name="dirty_mms_count">%d mesej</string>
     <string name="dirty_note_count">%d nota</string>
-    <string name="wipe_data_dialog_msg_separator">,&#160;</string>
-    
+
     <string name="wrong_captcha">Kod captcha yang tidak sah</string>
     <string name="wrong_vcode">Vcode yang tidak sah</string>
     <string name="input_vcode_prompt">Sila memasukan kod pengesahan</string>
