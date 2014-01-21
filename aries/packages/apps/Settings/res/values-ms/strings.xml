@@ -2586,8 +2586,9 @@ limitations under the License.
 	<!-- Running service details, manage a service that is running for some other reason. -->
 	<string name="service_manage">Tetapan</string>
 	<!-- Running service details, default description for services that are started. -->
-	<string name="service_stop_description">Perkhidmatan ini dimulakan oleh aplikasinya. Menghentikannya boleh mengakibatkan aplikasi gagal.</string>
-	app. Stopping it may cause the app to fail.</string>
+	<string name="service_stop_description">Perkhidmatan ini dimulakan oleh aplikasinya. Menghentikannya boleh mengakibatkan
+	aplikasi gagal.</string>
+
 	<!-- Running service details, description for running heavy-weight process. -->
 	<string name="heavy_weight_stop_description">"Aplikasi ini tidak boleh dihentikan secara selamat. Jika anda menghentikannya, anda mungkin kehilangan beberapa kerja semasa anda."</string>
 	
