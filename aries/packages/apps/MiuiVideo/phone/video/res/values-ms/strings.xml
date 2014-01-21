@@ -42,7 +42,7 @@
     <string name="rank">Penilaian</string>
     <string name="others">Lain-lain</string>
     <string name="music">Muzik</string>
-    <string name="variety" translatable="false">综艺</string>
+
     <string name="comment">Komen</string>
     <string name="livetv">Langsung</string>
     <string name="comment_hint">(had 300 perkataan)</string> 
@@ -111,7 +111,7 @@
     <string name="good">OK</string>
     <string name="declaration_content">Adakah anda menerima terma penggunaan yang ditetapkan oleh Sohu Video, iQiyi dan pembekal kandungan video lain?</string>
     
-	<string name="today">Hari ini</string>
+    <string name="today">Hari ini</string>
     <string name="yestorday">Semalam</string>
     <string name="playvideo">Main</string>
     
@@ -136,9 +136,9 @@
     <!-- <string name="myfavorite">我的收藏</string> -->
     <string name="myfavorite">Dibintangkan</string>
     <string name="no_myfavorite">Tidak dibintangkan</string>
-	<string name="no_myfavorite_advice">Dicadangkan</string>
-	<string name="myfavorite_onlylocal">Dibintangkan</string>
-	<string name="no_myfavorite_advice_onlylocal">Bintangkan video tempatan</string>
+    <string name="no_myfavorite_advice">Dicadangkan</string>
+    <string name="myfavorite_onlylocal">Dibintangkan</string>
+    <string name="no_myfavorite_advice_onlylocal">Bintangkan video tempatan</string>
     
     <string name="alreadyselected">Terpilih</string>
     <string name="mediasetupdated">Siri dikemaskinikan</string>
@@ -150,8 +150,8 @@
     
     <string name="login_tip_title">Log masuk</string>
     <string name="login_tip_content">Log masuk dengan akaun Xiaomi anda untuk sync dan mengemaskinikan rancangan yang anda mengikuti sekarang.</string>
-
-	<string name="nologin_no_waitfornewset">Anda perlu log masuk untuk mengikuti rancangan.</string>
+    
+    <string name="nologin_no_waitfornewset">Anda perlu log masuk untuk mengikuti rancangan.</string>
 
     <string name="video">Video</string>
     <string name="mycamera">Video saya</string>
@@ -206,10 +206,10 @@
     <string name="end_live_status">Penyiaran telah tamat</string>
     <string name="quarter_bell_alert_message">selepas tempahan, anda akan menerima peringatan sebelum program bermula</string>
     <string name="quarter_bell_alert_message_cancel">Selepas menarik balik tempahan, anda tidak akan menerima peringatan sebelum program bermula</string>
-    <string name="quarter_bell_alert_title">peringatan</string>
-    <string name="quarter_bell_alert_button_cancel">batal</string>
-    <string name="quarter_bell_alert_button_makeappointment">tempahan</string>
-    <string name="quarter_bell_alert_button_cancelappointment">batalkan tempahan</string>
+    <string name="quarter_bell_alert_title">Peringatan</string>
+    <string name="quarter_bell_alert_button_cancel">Batal</string>
+    <string name="quarter_bell_alert_button_makeappointment">Tempahan</string>
+    <string name="quarter_bell_alert_button_cancelappointment">Batalkan tempahan</string>
     <!-- live channel end -->
 
     <string name="reloading_tip">Tidak dapat menyambung ke rangkaian</string>
