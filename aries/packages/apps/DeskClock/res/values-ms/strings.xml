@@ -133,11 +133,6 @@
          the alarm is set to never repeat -->
     <string name="never">Tidak pernah</string>
 
-    <!-- Repeat options that appear under an alarm on main Alarm Clock
-         screen to identify repetition schedule: concatenate days with
-         this character, i.e. "Mon, Tue, Wed" -->
-    <string name="day_concat">". "</string>
-
     <!-- Appears at the top of the Clock Picker screen: Tell user to
          select a clock to display -->
 
@@ -167,18 +162,6 @@
       <item>30 minit</item>
     </string-array>
 
-    <!-- Values that are retrieved from the ListPreference. These must match
-         the snooze_duration_entries above. -->
-    <string-array name="snooze_duration_values">
-      <item>1</item>
-      <item>5</item>
-      <item>10</item>
-      <item>15</item>
-      <item>20</item>
-      <item>25</item>
-      <item>30</item>
-    </string-array>
-
     <!-- Auto silence preference title -->
     <string name="auto_silence_title">Auto-senyap</string>
 
@@ -200,19 +183,6 @@
       <item>20 minit</item>
       <item>25 minit</item>
       <item>30 minit</item>
-    </string-array>
-
-    <!-- Values that are retrieved from the ListPreference. These must match
-         the auto_silence_entries above. -->
-    <string-array name="auto_silence_values" translatable="false">
-      <item>-1</item> <!-- Off -->
-      <item>1</item>
-      <item>5</item>
-      <item>10</item>
-      <item>15</item>
-      <item>20</item>
-      <item>25</item>
-      <item>30</item>
     </string-array>
 
     <!-- Done button when editing an alarm. -->
@@ -257,13 +227,6 @@
         <item>Do nothing</item>
         <item>Snooze</item>
         <item>Dismiss</item>
-    </string-array>
-
-    <!-- Values for the side-button setting. -->
-    <string-array name="volume_button_setting_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
     </string-array>
 
     <!-- Title of the ringtone setting. -->
