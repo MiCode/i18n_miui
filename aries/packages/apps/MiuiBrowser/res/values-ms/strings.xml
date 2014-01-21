@@ -67,10 +67,6 @@
 		<item>Default laman mula</item>
 		<!-- Setting choice to set the homepage to a user entered URL [CHAR LIMIT=40] -->
 		<item>Khas</item>
-		</string-array>
-		<string-array name="pref_homepage_values" translatable="false">
-		<item>miui_home</item>
-		<item>lain</item>
 	</string-array>
 	
 	<string name="general_set_default_browser_title">Tetapkan sebagai pelayar default</string>
@@ -83,44 +79,6 @@
 	
 	<string name="url_hint">Cari atau taip URL</string>
 	<string name="search_hint">Buat carian atau taipkan URL</string>
-	
-	<string-array name="bookmarks_zh" translatable="false">
-		<item>小米论坛</item>
-		<item>http://bbs.xiaomi.cn/</item>
-		<item>百度</item>
-		<item>http://m.baidu.com/?from=1269a</item>
-		<item>谷歌</item>
-		<item>http://www.google.com.hk/</item>
-		<item>新浪</item>
-		<item>http://3g.sina.com.cn/</item>
-		<item>QQ</item>
-		<item>http://3g.qq.com/</item>
-		<item>凤凰网</item>
-		<item>http://i.ifeng.com/?ch=rj_mr</item>
-		<item>网易</item>
-		<item>http://3g.163.com/</item>
-	</string-array>
-	
-	<string-array name="bookmarks_cm_customization" translatable="false">
-		<item>MM综合门户</item>
-		<item>http://mm.10086.cn/a/j/2743/</item>
-		<item>手机阅读</item>
-		<item>http://wap.cmread.com</item>
-		<item>手机游戏</item>
-		<item>http://g.10086.cn</item>
-		<item>手机视频</item>
-		<item>http://wap.cmvideo.cn</item>
-		<item>无线音乐</item>
-		<item>http://m.10086.cn</item>
-		<item>12580</item>
-		<item>http://12580wap.10086.cn/?pid=PCM002942000</item>
-		<item>飞信首页</item>
-		<item>http://f.10086.cn</item>
-		<item>139邮箱</item>
-		<item>http://mail.10086.cn</item>
-		<item>冲浪网址</item>
-		<item>http://go.10086.cn/?coc=6GG2GGRq</item>
-	</string-array>
 	
 	<string name="contextmenu_download_image_as">Simpan imej sebagai</string>
 	
@@ -139,21 +97,8 @@
 	</string-array>
 	<string name="pref_ua_mione_entry">MiOne</string>
 
-	<string-array name="pref_ua_values" translatable="false">
-		<item>0</item>
-		<item>1</item>
-		<item>2</item>
-		<item>3</item>
-	</string-array>
-	<string name="pref_ua_mione_value" translatable="false">4</string>
 	<!-- Settings label -->
 	<string name="pref_content_search_engine">Tetapkan enjin carian</string>
-	
-	<!-- Do not translate.  Testing only -->
-	<string name="dump_counters" translatable="false">Dump V8 counters</string>
-	<string name="dump_dom_tree" translatable="false">Dump DOM tree to file</string>
-	<string name="dump_render_tree" translatable="false">Dump render tree to file</string>
-	<string name="dump_display_tree" translatable="false">Dump display tree to file</string>
 	
 	<string name="pref_reading_mode_enabled_title">Mod Membaca</string>
 	<string name="pref_reading_mode_enabled_title_summary">JavaScript perlu dihidupkan</string>
@@ -171,10 +116,7 @@
 		<item>Laman sebelum/Laman selepas</item>
 		<item>Tab sebelum/Tab selepas</item>
 	</string-array>
-	<string-array name="pref_volume_key_values" translatable="false">
-		<item>0</item>
-		<item>1</item>
-	</string-array>
+
 	<!-- 手势操作 -->
 	<string name="pref_gesture_title">Operasi gerak isyarat</string>
 	<string name="pref_fling_on_border_enabled">Lempar pada penhujung</string>
@@ -182,10 +124,6 @@
 	<string-array name="pref_fling_on_border_choices">
 		<item>Laman maju/undur</item>
 		<item>Tukar tetingkap</item>
-	</string-array>
-	<string-array name="pref_fling_on_border_values" translatable="false">
-		<item>0</item>
-		<item>1</item>
 	</string-array>
 	
 	<string name="is_page_top">"Anda kini berada di halaman teratas"</string>
@@ -263,17 +201,6 @@
 	<string name="pref_link_prefetch_summary">": Benarkan penyemak imbas mempramuat halaman web dikaitkan di latar belakang"</string>
 	<string name="pref_video_preload_summary">": Benarkan penyemak imbas untuk pra-muat video apabila disokong oleh pelayan"</string>
 	<string name="pref_images_preload_summary">": Benarkan penyemak imbas untuk pra-muatan imej apabila disokong oleh pelayan"</string>
-	
-	<!-- Traffic Management: images preload -->
-	<string name="pref_images_preload_value_never" translatable="false">0</string>
-	<string name="pref_images_preload_value_wifi_only" translatable="false">1</string>
-	<string name="pref_images_preload_value_always" translatable="false">2</string>
-	<string name="pref_images_preload_default_value" translatable="false">@string/pref_images_preload_value_always</string>
-	<string-array name="pref_images_preload_values" translatable="false">
-		<item><xliff:g>@string/pref_images_preload_value_never</xliff:g></item>
-		<item><xliff:g>@string/pref_images_preload_value_wifi_only</xliff:g></item>
-		<item><xliff:g>@string/pref_images_preload_value_always</xliff:g></item>
-	</string-array>
 	
 	<!-- Traffic Management: pre-load title -->
 	<string name="pref_images_preload_title">Pra-muatan imej</string>
@@ -364,7 +291,7 @@
 	<string name="not_enough_disk_space_alert">Ruang cakera tidak mencukupi</string>
 	<string name="download_video_alert_title">Notis Muat Turun!</string>
 	<string name="download_video_alert_message">Jika plan rangkaian anda terdapat caj data, muat turun video akan menggunakan elaun anda, adakah anda ingin meneruskan?</string>
-	<string name="download_video_start_down_toast">"Muat turun <xliff:g id="number">%1$s</xliff:g>  video(s)"</string>
+	<string name="download_video_start_down_toast">"Muat turun <xliff:g id="number">%1$s</xliff:g> video(s)"</string>
 	<string name="menu_download_video">"Muat turun video"</string>
 	<string name="download_video_unseleted_all">"Batalkan semua piliha"n</string>
 	<string name="download_video_please_select_video">"Pilih video"</string>
