@@ -38,12 +38,7 @@
     <!-- button to discard the current recording and return to the caller -->
     <!-- acknowlegement button in a number of dialogs -->
     <string name="button_ok">OK</string>
-    <!-- Do not translate. Format of the timer that shows how much has been recorded so far -->
-    <string name="timer_format"><xliff:g id="format">%02d</xliff:g>:<xliff:g id="format">%02d</xliff:g></string>
-    <!-- label shown before the user has recorded anything -->
 
-    <!-- the name under which recordings will be visible in the media database is formatted like this -->
-    <string name="audio_db_title_format"><xliff:g id="format">yyyy-MM-dd HH:mm:ss</xliff:g></string>
     <!-- all recordings will show up in the media database with this 'artist' name -->
     <string name="audio_db_artist_name">Rakaman anda</string>
     <!-- all recordings will show up in the media database with this 'album' name -->
@@ -108,7 +103,6 @@
     <string name="low_battery_warning">Penutupan secara tidak sengaja mungkin mengakibatkan rakaman hilang, disyorkan untuk merakam hanya ketika bateri telah dicas sepenuhnya.</string>
     <string name="low_battery_error"> Bateri mengandungi baki kurang dari 5%, untuk memastikan bahawa rakaman tidak kehilangan, rakaman terpaksa diberhentikan dan disimpan.</string>
 
-    <string name="record_name_hour">.</string>
     <string name="sound_recorder_settings">Aturan Rakaman</string>
     <string name="menu_settings">Aturan</string>
     <string name="preference_led_indicator">Penunjuk rakaman ketika skrin dikunci</string>
@@ -123,9 +117,6 @@
 
     <string name="error_filename_too_long">Nama fail terlalu panjang</string>
     <string name="error_filename_illegal_char">Nama fail mengandungi karakter yang tidak dibenarkan.</string>
-    <string name="duration_format_hour">%sh</string>
-    <string name="duration_format_minute">%sm</string>
-    <string name="duration_format_second">%ss</string>
     <string name="toast_max_record_time">%1$s masa merakan maksimum yang disokong %2$s</string>
     <string name="message_file_size_error">Rakaman telah mencapai had rakaman maksimum yang disokong untuk %s</string>
     <string name="start_recording">Mula rakaman</string>
