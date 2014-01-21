@@ -4,7 +4,7 @@
     <string name="button_day">"D"</string>
     <string name="button_month">"M"</string>
 
-    <!-- 设置 -->
+    <!-- Settings menu list -->
     <string name="account_and_calendar">Akaun dan Kalendar</string>
     <string name="account_and_calendar_to_display">Akaun dan kalendar untuk dipaparkan</string>
     <string name="default_reminder_mode">Default mod peringatan</string>
@@ -13,9 +13,6 @@
     <string name="show_almanac">Tunjuk almanac</string>
 
     <!-- Month List -->
-    <string name="event_lunar_month">月</string>
-    <string name="huangli_good_type">宜</string>
-    <string name="huangli_bad_type">忌</string>
     <string name="event_all_day_label">Semua hari</string>
 
     <!-- New Event -->
@@ -25,22 +22,11 @@
     <string name="event_hide_more">Sembunyi</string>
     <string name="presence_label">Status</string>
 
-    <!-- 日历详情 -->
+    <!-- Calendar details -->
     <string name="event_info_when">Bila:\u0020</string>
     <string name="event_info_repeat">Pengulangan:\u0020</string>
     <string name="event_info_where">Di mana:\u0020</string>
     <string name="event_info_descrip">Penerangan:\u0020</string>
-
-    <!-- No translation -->
-    <string name="chongsha">冲煞</string>
-    <string name="wuxing">五行</string>
-    <string name="xingxiu">星宿</string>
-    <string name="taishen">胎神</string>
-    <string name="pengzu">彭祖</string>
-    <string name="zhushen">诸神</string>
-
-    <string name="activity_title">MIUI新年送礼</string>
-    <string name="activity_summary">充值10元抽奖</string>
 
     <!-- Date Picker -->
     <string name="lunar_date">Tarikh Lunar</string>
@@ -50,12 +36,4 @@
     <string name="widget_events">Acara berikutnya</string>
     <string name="widget_no_events">Seterusnya, tiada agenda</string>
 
-    <!-- 春运日历 No translatio-->
-    <string name="gou_piao_website_start_time">可购%s火车票（网络、电话订票）</string>
-    <string name="gou_piao_window_start_time">车站、代售点可购%s火车票</string>
-    <string name="gou_piao_event_title">提醒我抢购%s的火车票</string>
-    <string name="gou_piao_item1">在这一天提醒我抢票</string>
-    <string name="gou_piao_item2">拨打95105105电话订票</string>
-    <string name="gou_piao_item3">使用12306应用订票</string>
-    <string name="show_gou_piao">显示春运购票日历</string>
 </resources>
