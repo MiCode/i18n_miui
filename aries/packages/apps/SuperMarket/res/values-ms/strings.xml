@@ -77,9 +77,7 @@
     <string name="pref_summary_data_save">Jangan tunjuk gambar dalam Gedung apabila menggunakan rangkaian mudah alih</string>
     <string name="pref_summary_feature_intro">Belajar tentang ciri-ciri khas Gedung Apps Xiaomi</string>
     <string name="pref_summary_web_market0">Sila layari：</string>
-    <string name="pref_summary_web_market1">http://app.xiaomi.com</string>
     <string name="pref_summary_web_dev0">Sila layari：</string>
-    <string name="pref_summary_web_dev1">http://dev.xiaomi.com</string>
 
     <string name="clear_cache_message">Padam cache?</string>
     <string name="clear_cache_succeed">Cache telah dipadamkan</string>
@@ -102,7 +100,6 @@
     <string name="comment_upload_account_need_activitied">Aktifkan akaun anda?</string>
     <string name="comment_upload_account_not_activitied">Akaun anda belum diaktifkan lagi.</string>
     <string name="comment_invalid">Nilaikan apps dengan menyentuh bintang-bintang di atas kotak komen</string>
-    <string name="comment_version_name"><xliff:g id="app_version">%1$s</xliff:g></string>
     <string name="comment_cannot_comment">Anda hanya boleh memberi komen selepas anda menggunakan apps</string>
     <string name="app_comments_title">Komen: <xliff:g id="app_name">%1$s</xliff:g></string>
     <string name="edit_comment_title">Menyunting komen: <xliff:g id="app_name">%1$s</xliff:g></string>
@@ -111,7 +108,6 @@
     <string name="edit_text_default">Tulis komen</string>
     <string name="share_to_weibo">Kongsikan di Sina Weibo</string>
     <string name="comment_publish">Hantar</string>
-    <string name="comment_date"><xliff:g id="month">%1$02d</xliff:g>-<xliff:g id="date">%2$02d</xliff:g></string>
     <string name="comment_average_score">Penilaian</string>
     <string name="comment_score_count"><xliff:g id="count">%1$s</xliff:g> Pengguna</string>
     <string name="comment_name_default">Pengguna <xliff:g id="user_id">%1$s</xliff:g></string>
@@ -129,14 +125,13 @@
 
     <string name="rating_button"><xliff:g id="rating_count">%1$s</xliff:g> Penilaian</string>
     <string name="developer_button">Lihat lebih lagi</string>
-    <string name="permission_button">Kebenaran(<xliff:g id="permission_count">%1$s</xliff:g>)</string>
-    <string name="update_date_label">Kemaskini: </string>
-    <string name="update_date"><xliff:g id="year">%1$s</xliff:g>-<xliff:g id="month">%2$s</xliff:g>-<xliff:g id="date">%3$s</xliff:g></string>
+    <string name="permission_button">Kebenaran (<xliff:g id="permission_count">%1$s</xliff:g>)</string>
+    <string name="update_date_label">"Kemaskini: "</string>
     <string name="version_label">Versi: </string>
     <string name="share_button">Kongsikan</string>
     <string name="update_info">Kemaskini</string>
     <string name="description_info">Description</string>
-    <string name="delta_update">Kemaskini Delta <xliff:g id="diff_size">%1$s</xliff:g></string>
+    <string name="delta_update">Kemaskini delta <xliff:g id="diff_size">%1$s</xliff:g></string>
     <string name="install">Pasang</string>
     <string name="delete_selected_apps">Buang</string>
     <string name="deleting">Membuang</string>
@@ -144,11 +139,8 @@
     <string name="installed">Dipasang</string>
     <string name="cancel">Batal</string>
     <string name="launch">Lancarkan</string>
-    <string name="price">￥<xliff:g id="priceNumber">%1$s</xliff:g></string>
-    <string name="progress"><xliff:g id="precentage">%1$s</xliff:g>%%</string>
     <string name="send">@miui:string/send</string>
     <string name="delete">@miui:string/delete</string>
-    <string name="bytes"><xliff:g id="currBytes">%1$s</xliff:g>/<xliff:g id="totalBytes">%2$s</xliff:g></string>
     <string name="pending">Menunggu\u2026</string>
     <string name="paused">Dihenti sebentar</string>
     <string name="resume">Sambung semula</string>
@@ -156,11 +148,6 @@
     <string name="connecting">Menyambung\u2026</string>
     <string name="verifying">Mengesah\u2026</string>
     <string name="installing">Memasang\u2026</string>
-    <string name="size">(<xliff:g id="sizeNumber">%1$s</xliff:g>)</string>
-    <string name="bytes_unit"><xliff:g id="size">%1$s</xliff:g>B</string>
-    <string name="kilobytes_unit"><xliff:g id="size">%1$s</xliff:g>KB</string>
-    <string name="megabytes_unit"><xliff:g id="size">%1$s</xliff:g>MB</string>
-    <string name="rank_app_name"><xliff:g id="rank">%1$s</xliff:g>. <xliff:g id="app_name">%2$s</xliff:g></string>
     <string name="publish_info"><xliff:g id="month">%1$s</xliff:g>-<xliff:g id="date">%2$s</xliff:g> diterbitkan <xliff:g id="version">%3$s</xliff:g> versi</string>
     <string name="permissions_title"><xliff:g id="app_name">%1$s</xliff:g> Butiran pengesahan</string>
     <string name="permissions_expand_title">Pengesahan lain</string>
@@ -184,7 +171,6 @@
     <string name="install_this_month">Bulan ini</string>
     <string name="install_earlier">Lebih awal</string>
     <string name="size_more_than_one_hundred">Lebih drpd 100M</string>
-    <string name="size_interval"><xliff:g id="from_num">%1$d</xliff:g>~<xliff:g id="to_num">%2$d</xliff:g>M</string>
     <string name="package_size">Size: <xliff:g id="size">%1$s</xliff:g>M</string>
     <string name="package_size_calculating">Saiz: mengira\u2026</string>
     <string name="updatable_apps">apps yg boleh dikemaskini</string>
@@ -283,7 +269,6 @@
     <!-- update history -->
     <string name="update_history_title">Sejarah kemaskini</string>
     <string name="update_log_hint">Kemaskini:</string>
-    <string name="update_time"><xliff:g id="month">%1$s</xliff:g>-<xliff:g id="date">%2$s</xliff:g></string>
     <string name="update_history_cleared">Sejarah kemaskini dipadam </string>
 
     <!-- first recommend -->
