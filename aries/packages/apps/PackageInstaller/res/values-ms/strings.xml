@@ -44,7 +44,7 @@ limitations under the License.
 	<!-- Reason displayed when installation fails because the package specifies it is compatible
 	only with a CPU that the current phone doesn't have. [CHAR LIMIT=100] -->
 	<string name="install_failed_cpu_abi_incompatible" product="default">This application is not
-	compatible with this phone's CPU.</string>
+	compatible with this phone\'s CPU.</string>
 	<!-- Reason displayed when installation fails because the package was deleted during the
 	installation process. [CHAR LIMIT=100] -->
 	<string name="install_failed_file_not_found">Pakej yang dinyatakan telah dipadam sebelum 

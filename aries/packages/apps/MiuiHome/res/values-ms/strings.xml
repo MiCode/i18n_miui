@@ -142,9 +142,9 @@
         <item quantity="other">%1$ apps uninstalled</item>
     </plurals>
     <plurals name="uninstall_result_failed">
-        <item quantity="one">Couldn't uninstall <xliff:g id="appname">\"%s\"</xliff:g></item>
-        <item quantity="two">Couldn't uninstall <xliff:g id="appname">\"%s\"</xliff:g> and 1 other app</item>
-        <item quantity="other"> Couldn't uninstall <xliff:g id="appname">\"%s\"</xliff:g> and <xliff:g id="count">%d</xliff:g> other apps</item>
+        <item quantity="one">Couldn\'t uninstall <xliff:g id="appname">\"%s\"</xliff:g></item>
+        <item quantity="two">Couldn\'t uninstall <xliff:g id="appname">\"%s\"</xliff:g> and 1 other app</item>
+        <item quantity="other"> Couldn\'t uninstall <xliff:g id="appname">\"%s\"</xliff:g> and <xliff:g id="count">%d</xliff:g> other apps</item>
     </plurals>
     <string name="uninstall_dialog_title_format">Keluarkan \"%s\"</string>
     <string name="uninstall">Nyahpasang</string>

@@ -829,8 +829,6 @@
 	<string name="pin_failed">PIN yang anda taip tidak betul.</string>
 	<!-- SIM PIN screen: status message displayed in a popup (toast) -->
 	<string name="pin_changed">Penukaran PIN SIM berjaya.</string>
-	<!-- SIM PIN screen: status message displayed in a popup (toast) -->
-	<string name="pin2_unblocked">PIN2 Dibuang Sekat!</string>
 	<!-- SIM PIN screen: error message displayed in a dialog -->
 	<string name="puk_requested">Kata laluan tidak betul, PIN2 dikunci! PUK2 diminta.</string>
 	
