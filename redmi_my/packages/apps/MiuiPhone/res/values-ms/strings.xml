@@ -2,7 +2,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 	<string name="undefined_miui">Tak tertakrif</string>
 	<string name="add_button_miui">Tambah</string>
-	<string name="add_zero_prefix">Tambah 0 awalan manakala mendail nombor mudah-alih</string>
+	<string name="add_zero_prefix">Tambahkan awalan 0 untuk mudah alih</string>
 	<string name="always_enable_mms_miui">Sentiasa menerima MMS</string>
 	<string name="always_enable_mms_summary_miui">Sentiasa menerima MMS walaupun data dimatikan</string>
 	<string name="answer_and_hangup_miui">Tamatkan dan menjawab</string>
@@ -45,12 +45,12 @@
 	<string name="auto_ip_remove_exception_numbers_confirm_miui">Adakah anda ingin memadam %d nombor berikut?</string>
 	<string name="auto_ip_exception_summary_miui">%d jumlah</string>
 	<string name="auto_ip_exception_summary_more_miui">,... %d jumlah</string>
-	<string name="auto_ip_support_local_numbers">Sokong nombor tempatan</string>
+	<string name="auto_ip_support_local_numbers">Selalu gunakan awalan IP</string>
 	<string name="auto_record_call_summary_miui">Memulakan rakaman semasa panggilan disambungkan, dan menyimpannya ke dalam folder MIUI/sound_recorder/call_rec di kad SD</string>
 	<string name="auto_record_call_title_miui">Automatik merakam</string>
 	<string name="auto_record_scenario_title_miui">Mod rakaman automatik</string>
-	<string name="auto_record_scenario_enteries_always_miui">Automatik merakam bagi semua nombor</string>
-	<string name="auto_record_scenario_enteries_whitelist_miui">Automatik merakam bagi nombor yang dipilih</string>
+	<string name="auto_record_scenario_enteries_always_miui">Semua nombor</string>
+	<string name="auto_record_scenario_enteries_whitelist_miui">Senarai khas</string>
 	<string name="auto_record_whitelist_miui">Tetapkan nombor dipilih</string>
 	<string name="auto_record_unknown_miui">Nombor tidak dikenali</string>
 	<string name="auto_record_yellowpage_miui">Directory</string>
