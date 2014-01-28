@@ -144,7 +144,7 @@
 	<string name="cw_title_miui">Tunggu Panggilan</string>
 	<string name="dial_related_setting_catory_miui">Dail</string>
 	<string name="default_contacts_countrycode_hint_miui">Seperti: 86</string>
-	<string name="default_contacts_countrycode_miui">Kod negara kenalan lalai</string>
+	<string name="default_contacts_countrycode_miui">Kod negara lalai</string>
 	<string name="default_contacts_countrycode_sum_miui">Set kod negara kenalan lalai anda: %s</string>
 	<string name="delete_sim_contact_confirm_title_miui">Buang kenalan SIM</string>
 	<string name="description_call_recording_miui">Rakaman panggilan sedang berjalan\u2026</string>
