@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <string name="next">Kemudian</string>
+    <string name="next">Seterusnya</string>
 
     <string name="continues">Teruskan</string>
     <string name="shutdown">Shutdown</string>
