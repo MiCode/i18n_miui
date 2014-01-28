@@ -1983,7 +1983,7 @@ limitations under the License.
 	<string name="preference_simple_mode_title">Mod ringkas</string>
 	<string name="preference_simple_mode_description">Senarai item tidak memaparkan avatar, atribusi dan syarikat itu</string>
 	<string name="preference_contacts">Kenalan</string>
-	<string name="preference_contacts_display">Paparan kenalan</string>
+	<string name="preference_contacts_display">Keutamaan paparan</string>
 	<string name="preference_contacts_more">Aturkan kenalan</string>
 	<string name="preference_contacts_filter">Kenalan untuk dipaparkan</string>
 	<string name="preference_telocation_title">Telocation</string>
