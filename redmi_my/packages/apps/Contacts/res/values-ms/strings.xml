@@ -1986,7 +1986,7 @@ limitations under the License.
 	<string name="preference_contacts_display">Keutamaan paparan</string>
 	<string name="preference_contacts_more">Aturkan kenalan</string>
 	<string name="preference_contacts_filter">Kenalan untuk dipaparkan</string>
-	<string name="preference_telocation_title">Telocation</string>
+	<string name="preference_telocation_title">Lokasi</string>
 	<string name="preference_telocation_summary_teloc_on">Tunjuk lokasi</string>
 	<string name="preference_telocation_summary_teloc_off">Sembunyi lokasi</string>
 	<string name="preference_telocation_summary_countrycode_on">Auto-tambah kod negara</string>
