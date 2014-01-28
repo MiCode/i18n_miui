@@ -14,7 +14,7 @@
     <string name="captcha">Kod Captcha</string>
     <string name="vcode">Kod pengesahan</string>
     <string name="bad_authentication">Pengesahan gagal, nama pengguna atau kata laluan yang salah</string>
-    <string name="int_phone_user_notice">Kalau anda mendaftar dengan menggunakan nombor telefon di luar China, sila memasukan kod negara, e.g. +44xxxxxxxxx</string>
+    <string name="int_phone_user_notice">Kalau anda daftar dengan menggunakan nombor telefon di luar Malaysia, sila masukkan kod negara, cth. +44xxxxxxxxxx</string>
     <string name="micloud_welcome_skip_login"><u>Melangkau pendaftaran</u></string>
     <string name="micloud_account_name">Akaun Xiaomi</string>
     <string name="micloud_use_existing">E-mel sedia ada</string>
