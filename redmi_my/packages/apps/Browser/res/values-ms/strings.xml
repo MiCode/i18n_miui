@@ -1,0 +1,879 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Copyright (c) 2011, 2012, Code Aurora Forum. All rights reserved.
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!-- The name of the application. -->
+	<string name="application_name">Penyemak imbas</string>
+	<!-- Displayed with a file picker to choose a file to upload -->
+	<string name="choose_upload">Pilih fail untuk dimuat naik</string>
+	<!-- Toast to show the user after they try to open the file picker but no apps on the
+	system can provide a file [CHAR-LIMIT=NONE]-->
+	<string name="uploads_disabled">Muat naik fail dilumpuhkan.</string>
+	<!-- Name of menu item of a new tab.  Also used in the title bar when displaying a new tab -->
+	<string name="new_tab">Tab baru</string>
+	<!-- Name of menu item of a new incognito tab.  Also used in the
+	title bar when displaying a new tab [CHAR LIMIT=30] -->
+	<string name="new_incognito_tab">Tab penyamaran baru</string>
+	<!-- Name of tab containing bookmarks -->
+	<string name="tab_bookmarks">Penanda halaman</string>
+	<!-- Name of tab containing the user's most visited websites, organized by number of visits -->
+	<string name="tab_most_visited">Yang paling kerap dilawati</string>
+	<!-- Name of tab containing the user's complete history, organized by time of last visit -->
+	<string name="tab_history">Sejarah</string>
+	<!-- Name of tab containing the user's saved pages, organized by time created [CHAR LIMIT=20] -->
+	<string name="tab_snapshots">Halaman disimpan</string>
+	<!-- Toast shown when a history item's star is clicked, converting it to a bookmark -->
+	<string name="added_to_bookmarks">Ditambahkan pada penanda halaman.</string>
+	<!-- Toast shown when a history item's star is clicked off, removing its bookmark -->
+	<string name="removed_from_bookmarks">Dialih keluar daripada penanda halaman.</string>
+	<!-- Sign-in dialog -->
+	<!-- This is used as the title of a dialog which is used to sign in to a secure site.
+	"%s1"is replaced with the host and "%s2" with realm -->
+	<string name="sign_in_to">Log masuk ke <xliff:g id="hostname">%s1</xliff:g> \"<xliff:g id="realm">%s2</xliff:g>\"</string>
+	<!-- Prompt for an input box that allows the user to enter their login name -->
+	<string name="username">Nama</string>
+	<!-- Prompt for an input box that allows the user to enter their password -->
+	<string name="password">Kata laluan</string>
+	<!-- The label on the "sign in" button -->
+	<string name="action">Log masuk</string>
+	<!-- The name of the bookmarks and history search suggestion source.  -->
+	<string name="bookmarks_search">Penyemak imbas</string>
+	<!-- Label for a cancel button.  It is used for multiple cancel buttons in different contexts -->
+	<string name="cancel">Batal</string>
+	<!-- Label for a confirm button.  Used in multiple contexts. -->
+	<string name="ok">OK</string>
+	
+	<!-- Displayed on the title bar while the page is loading -->
+	<string name="title_bar_loading">Memuatkan\u2026</string>
+	
+	<!-- Menu item -->
+	<string name="page_info">Maklumat halaman</string>
+	<!-- Label for a button on an SSL error dialog that allows the user to see
+	Page info screen for the current page -->
+	<string name="page_info_view">Lihat maklumat halaman</string>
+	<!-- Page Info dialog strings -->
+	<!-- Noun.  The url for the current page. Displayed on the Page Info
+	screen. -->
+	<string name="page_info_address">Alamat:</string>
+	
+	<!-- SSL Error dialogs -->
+	<string name="ssl_warnings_header">Terdapat masalah dengan sijil keselamatan untuk tapak ini.</string>
+	<!-- Label for a button on an SSL error dialog that lets the user continue
+	and view the page despite the error -->
+	<string name="ssl_continue">Teruskan</string>
+	<!-- Title for an SSL error dialog  -->
+	<string name="security_warning">Amaran keselamatan</string>
+	<!-- Label for a button on an SSL error dialog that lets the user view the
+	certificate -->
+	<string name="view_certificate">Lihat sijil</string>
+	<!-- Label for a button on an SSL error dialog that lets the user go back to
+	the last page they were on instead of continuing to the new page. [CHAR-LIMIT=20] -->
+	<string name="ssl_go_back">Kembali</string>
+	
+	<!-- Message in an SSL Error dialog -->
+	<string name="ssl_untrusted">Sijil ini bukan daripada pihak berkuasa yang dipercayai.</string>
+	<!-- Message in an SSL Error dialog -->
+	<string name="ssl_mismatch">Nama tapak tidak sepadan dengan nama pada sijil.</string>
+	<!-- Message in an SSL Error dialog -->
+	<string name="ssl_expired">Sijil ini telah tamat tempoh.</string>
+	<!-- Message in an SSL Error dialog -->
+	<string name="ssl_not_yet_valid">Sijil ini belum lagi sah.</string>
+	<!-- Message in an SSL Error dialog -->
+	<string name="ssl_date_invalid">Sijil ini mempunyai tarikh yang tidak sah.</string>
+	<!-- Message in an SSL Error dialog -->
+	<string name="ssl_invalid">Sijil ini tidak sah.</string>
+	<!-- Message in an SSL Error dialog -->
+	<string name="ssl_unknown">Ralat sijil tidak diketahui.</string>
+	
+	<!-- Toast informing the user that loading has stopped for the current page. -->
+	<string name="stopping">Menghentikan\u2026</string>
+	<!-- Menu item to stop the current page from loading. -->
+	<string name="stop">Henti</string>
+	<!-- Menu item to reload or refresh the current page. -->
+	<string name="reload">Muat semula</string>
+	<!-- Menu item to go back to the previous page -->
+	<string name="back">Kembali</string>
+	<!-- Menu item to go to the next page (only useful if the user has previously hit back.) -->
+	<string name="forward">Ke hadapan</string>
+	<!-- Button label to confirm saving a bookmark. -->
+	<string name="save">OK</string>
+	<!-- Button label to cancel saving a bookmark. -->
+	<string name="do_not_save">Batal</string>
+	<!-- Field label in Bookmark dialog box: refers to URL of the page to bookmark -->
+	<string name="location">Alamat</string>
+	<!-- Field label in Bookmark dialog box: refers to the account to save the bookmark to -->
+	<string name="account">Akaun</string>
+	<!-- Field label in Bookmark dialog box: refers to the folder in which to save the bookmark -->
+	<string name="containing_folder">Tambah ke</string>
+	<!-- Default name for a new folder and label for a button that allows the user to create a new folder
+	in the add bookmark dialog -->
+	<string name="new_folder">Folder baru</string>
+	<!-- Context menu item to edit a folder [CHAR LIMIT=50] -->
+	<string name="edit_folder">Edit folder</string>
+	<!-- Context menu item to delete a folder [CHAR LIMIT=50] -->
+	<string name="delete_folder">Padamkan folder</string>
+	<!-- Label stating that the currently open folder has no subfolders
+	in the add bookmark dialog [CHAR-LIMIT=none]-->
+	<string name="no_subfolders">Tiada subfolders.</string>
+	<!-- Menu item to use the top level bookmarks folder to save a bookmark in. [CHAR-LIMIT=30]-->
+	<string name="add_to_bookmarks_menu_option">Penanda halaman</string>
+	<!-- Menu item to save the newly created bookmark to the home screen. [CHAR-LIMIT=30]-->
+	<string name="add_to_homescreen_menu_option">Skrin utama</string>
+	<!-- Menu item to open a picker to determine which folder to save a bookmark in. [CHAR-LIMIT=30]-->
+	<string name="add_to_other_folder_menu_option">Folder lain</string>
+	<!-- Field label in Bookmark dialog box: title that the user wishes to use for the bookmark -->
+	<string name="name">Label</string>
+	<!-- Initial value in Location field in Bookmark dialog box -->
+	<string name="http">http://</string>
+	<!-- Menu item that opens a dialog to save a bookmark for the current page [CHAR LIMIT=30] -->
+	<string name="save_to_bookmarks">Disimpan pada penanda halaman</string>
+	<!-- Title of the dialog to bookmark a page -->
+	<string name="bookmark_this_page">Menanda halaman laman ini</string>
+	<!-- Option on bookmark dialog to remove the bookmark [CHAR LIMIT=30] -->
+	<string name="remove">Alih keluar</string>
+	<!-- Menu item on the bookmarks page, to edit an existing bookmark -->
+	<string name="edit_bookmark">Edit penanda halaman</string>
+	<!-- Context menu item to create a shortcut to the bookmark on the desktop [CHAR LIMIT=50] -->
+	<string name="create_shortcut_bookmark">Tambah pintasan ke laman utama</string>
+	<!-- Context menu item to open the currently highlighted bookmark -->
+	<string name="open_bookmark">Buka</string>
+	<!-- Menu item to remove the currently highlighted bookmark-->
+	<string name="remove_bookmark">Padam penanda halaman</string>
+	<!-- Context menu item to remove a history item from bookmarks -->
+	<string name="remove_from_bookmarks">Alih keluar daripada penanda halaman</string>
+	<!-- Menu item to remove the currently highlighted history entry from the list of previously visited sites -->
+	<string name="remove_history_item">Alih keluar daripada sejarah</string>
+	<!-- Context menu item for setting the bookmark/history item as the homepage -->
+	<string name="set_as_homepage">Tetapkan sebagai halaman utama</string>
+	<!-- Toast informing the user that their action to save a bookmark has succeeded -->
+	<string name="bookmark_saved">Disimpan ke penanda halaman.</string>
+	<!-- Toast informing the user that their action to save a bookmark did not succeed -->
+	<string name="bookmark_not_saved">Tidak dapat menyimpan penanda halaman.</string>
+	<!-- Toast confirming that the homepage has been set -->
+	<string name="homepage_set">Halaman utama sudah ditetapkan.</string>
+	<!-- Error that appears in the title of Bookmark dialog when user selects OK with empty Name field -->
+	<string name="bookmark_needs_title">"Penanda halaman mesti mempunyai nama."</string>
+	<!-- Error that appears in the title of Bookmark dialog when user selects OK with empty Location field -->
+	<string name="bookmark_needs_url">"Penanda halaman mesti mempunyai lokasi."</string>
+	<!-- Error that appears in the title of Bookmark dialog when user selects OK with invalid URL -->
+	<string name="bookmark_url_not_valid">URL ini tidak sah.</string>
+	<!-- Error that appears in the Bookmark dialog when user selects OK with a URL of a type we cannot bookmark -->
+	<string name="bookmark_cannot_save_url">URL ini tidak boleh ditandakan halamannya.</string>
+	<!-- Menu item in the page that displays all bookmarks. It brings up a
+	dialog that allows the user to bookmark the page that the browser is
+	currently on, but is not visible because the bookmarks page is
+	showing. -->
+	<string name="bookmark_page">Tandakan halaman yang terakhir dilihat</string>
+	<!-- Menu item in the page that displays all bookmarks.  Switches to
+	a grid view which shows thumbnails [CHAR LIMIT=20] -->
+	<string name="bookmark_thumbnail_view">Lakaran kenit</string>
+	<!-- Menu item in the page that displays all bookmarks.  Switches to a
+	list view which shows titles [CHAR LIMIT=20] -->
+	<string name="bookmark_list_view">Senarai</string>
+	<!-- Summary text under the New Bookmark item on the Bookmarks screen.
+	Tells the user that if they select this item, it will bring up a
+	dialog to bookmark the page that the browser is currently viewing,
+	though it is not currently being displayed, since they are viewing
+	the bookmarks screen. -->
+	<string name="current_page">dari\u0020</string>
+	<!-- Confirmation dialog message confirming that the user wishes to delete
+	the bookmark they selected for deletion -->
+	<string name="delete_bookmark_warning">Padamkan penanda halaman \"<xliff:g id="bookmark">%s</xliff:g>\"?</string>
+	<!-- Context menu item to open every bookmark in a folder in new tabs [CHAR LIMIT=50] -->
+	<string name="open_all_in_new_window">Buka semua dalam tab baru</string>
+	<!-- Menu item to open a dialog which allows the user to enter a url or do search-->
+	<string name="goto_dot">Pergi</string>
+	<!-- Menu item to switch to text selection mode for copy and paste. -->
+	<string name="select_dot">Select text</string>
+	<!-- Menu item to open the bookmarks page. This is a shorter version that
+	is displayed with an icon -->
+	<string name="bookmarks">Penanda halaman</string>
+	<!-- Secondary name for the Activity "BrowserBookmarksPage" -->
+	<string name="shortcut_bookmark">Penanda halaman</string>
+	<!-- Title for the activity asking the user to select a bookmark [CHAR LIMIT=50] -->
+	<string name="shortcut_bookmark_title">Pilih penanda halaman</string>
+	<!-- Menu item to display the History of previously visited pages -->
+	<string name="history">Sejarah</string>
+	<!-- Menu item for viewing downloads from the browser -->
+	<string name="menu_view_download">Muat turun</string>
+	<!-- Context menu item for copying the url of the current page from the
+	title bar -->
+	<string name="copy_page_url">Salin URL halaman</string>
+	<!-- Menu item -->
+	<string name="share_page">Kongsi halaman</string>
+	<!-- Menu item for saving a page for offline reading. This is a view-only snapshot of the page. [CHAR LIMIT=50] -->
+	<string name="menu_save_snapshot">Simpan untuk pembacaan di luar talian</string>
+	<!-- Dialog message that is shown while saving a page for offline reading. [CHAR LIMIT=50] -->
+	<string name="saving_snapshot">Menyimpan\u2026</string>
+	<!-- Toast informing the user that saving the page for offline reading has failed. [CHAR LIMIT=50] -->
+	<string name="snapshot_failed">Tidak dapat disimpan untuk pembacaan di luar talian.</string>
+	<!-- The number of bookmarks in a folder [CHAR LIMT=50] -->
+	<string name="contextheader_folder_bookmarkcount"><xliff:g id="bookmark_count">%d</xliff:g> penanda halaman</string>
+	<!-- No bookmarks in the folder [CHAR LIMIT=50] -->
+	<string name="contextheader_folder_empty">Folder kosong</string>
+	<!-- Context Menu item open the currently selected link in the current
+	window.-->
+	<string name="contextmenu_openlink">Buka</string>
+	<!-- Context Menu item to open the currently selected link in a new
+	window. -->
+	<string name="contextmenu_openlink_newwindow">Buka dalam tab baru</string>
+	<!-- Context Menu item to open the currently selected link in a new
+	background window. [CHAR LIMIT=50] -->
+	<string name="contextmenu_openlink_newwindow_background">Buka dalam tab latar belakang baru</string>
+	<!-- Context Menu item to save the webpage referred to by this link to the
+	SD card (external storage) -->
+	<string name="contextmenu_savelink">Simpan pautan</string>
+	<!-- Context Menu item to send the url of the selected link to someone else,
+	via Gmail or another app [CHAR LIMIT=50] -->
+	<string name="contextmenu_sharelink">Kongsi pautan</string>
+	<!-- Context Menu item -->
+	<string name="contextmenu_copy">Salin</string>
+	<!-- Context Menu item to copy the url of the selected link to the
+	clipboard -->
+	<string name="contextmenu_copylink">Salin URL pautan</string>
+	<!-- Context Menu item to save the image to external storage -->
+	<string name="contextmenu_download_image">Simpan imej</string>
+	<!-- Context Menu item to view the image by itself in the browser -->
+	<string name="contextmenu_view_image">Papar imej</string>
+	<!-- Context Menu item to set the image as the home screen wallpaper -->
+	<string name="contextmenu_set_wallpaper">Tetapkan sebagai kertas dinding</string>
+	
+	<!-- Context Menu item to open the dialer app with the selected phone number
+	-->
+	<string name="contextmenu_dial_dot">Dail\u2026</string>
+	<!-- Context Menu item to add the selected phone number to the address book.
+	-->
+	<string name="contextmenu_add_contact">Tambah kenalan</string>
+	<!-- Context Menu item to send an email using the selected email address.-->
+	<string name="contextmenu_send_mail">Hantar e-mel</string>
+	<!-- Context Menu item to show the currently selected address in the Maps
+	application -->
+	<string name="contextmenu_map">Peta</string>
+	
+	<!-- Title of the dialog used for selecting the application that should be
+	used for sharing a link (e.g. Gmail or another app). See also
+	contextmenu_sharelink above -->
+	<string name="choosertitle_sharevia">Kongsi melalui</string>
+	
+	<!-- Used as the title of dialogs in the Browser Settings confirming that
+	the user wants to clear (cache, history, or cookie data) -->
+	<string name="clear">Padam bersih</string>
+	
+	<!-- Part of a sentence that says "Replace <url of existing bookmark> with
+	<url of new bookmark>?" -->
+	<string name="replace">Gantikan</string>
+	
+	<!-- Title displayed when the bookmarks page is shown -->
+	<string name="browser_bookmarks_page_bookmarks_text">Penanda halaman</string>
+	
+	
+	<!-- Settings screen strings -->
+	<!-- Menu item to open the Settings screen -->
+	<string name="menu_preferences">Tetapan</string>
+	<!-- Settings screen, section title -->
+	<string name="pref_content_title">Kandungan halaman</string>
+	<!-- Settings label [CHAR LIMIT=45]-->
+	<string name="pref_allow_apptabs">Benarkan tab berbilang untuk setiap app</string>
+	<!-- Settings label -->
+	<string name="pref_content_load_images">Muatkan imej</string>
+	<!-- Settings label -->
+	<string name="pref_content_load_images_summary">Paparkan imej di halaman web</string>
+	<!-- Settings label [CHAR LIMIT=30] -->
+	<string name="pref_content_block_popups">Sekat pop timbul</string>
+	<!-- Settings label -->
+	<string name="pref_content_javascript">Dayakan JavaScript</string>
+	<!-- Settings label -->
+	<string name="pref_content_open_in_background">Buka di latar belakang</string>
+	<!-- Settings label -->
+	<string name="pref_content_plugins">Dayakan pemalam</string>
+
+	<!-- Plugin options -->
+	<string-array name="pref_content_plugins_choices">
+		<item>Always on</item>
+		<item>Ask me first</item>
+		<item>Off</item>
+	</string-array>
+
+	<!-- Settings summary [CHAR LIMIT=50]-->
+	<string name="pref_content_open_in_background_summary">Buka tab baharu di belakang tab semasa</string>
+	<!-- Settings label [CHAR LIMIT=50] -->
+	<string name="pref_content_homepage">Tetapkan halaman utama</string>
+	<!-- Settings label -->
+	<string name="pref_content_search_engine">Tetapkan enjin carian</string>
+	<!-- Settings summary -->
+	<string name="pref_content_search_engine_summary">Pilih enjin carian</string>
+	<!-- Settings button label that to pick what to set the homepage to [CHAR LIMIT=40] -->
+	<string name="pref_set_homepage_to">Tetapkan pada</string>
+	<string-array name="pref_homepage_choices">
+		<!-- Setting choice to set the homepage to the current page [CHAR LIMIT=40] -->
+		<item>Current page</item>
+		<!-- Setting choice to set the homepage to a blank page [CHAR LIMIT=40] -->
+		<item>Blank page</item>
+		<!-- Setting choice to set the homepage to the default page [CHAR LIMIT=40] -->
+		<item>Default page</item>
+		<!-- Setting choice to set the homepage to the "Most Visited" homepage feature, which is a list of most visited sites [CHAR LIMIT=40] -->
+		<item>Most visited sites</item>
+		<!-- Setting choice to set the homepage to a user entered URL [CHAR LIMIT=40] -->
+		<item>Other</item>
+	</string-array>
+
+	<!-- Settings label -->
+	<string name="pref_content_autofit">Auto muat halaman</string>
+	<!-- Settings summary -->
+	<string name="pref_content_autofit_summary">Formatkan halaman web agar padan dengan saiz skrin</string>
+	
+	<!-- Settings screen & section title for "General settings". These include things like
+	configuring bookmark syncing to Google servers and form auto fill settings. [CHAR-LIMIT=32] -->
+	<string name="pref_general_title">Umum</string>
+	<!-- Settings category for sync under general settings. This includes bookmark sync with Chrome [CHAR-LIMIT=50] -->
+	<string name="pref_general_sync_title">Penyegerakan</string>
+	<!-- Settings category for autofill under general. [CHAR-LIMIT=50] -->
+	<string name="pref_general_autofill_title">Auto isi</string>
+	
+	<!-- Checkbox setting for enabling/disabling the form AutoFill feature [CHAR-LIMIT=32] -->
+	<string name="pref_autofill_enabled">Auto isi borang</string>
+	<!-- Settings summary for the form AutoFill feature. [CHAR-LIMIT=none] -->
+	<string name="pref_autofill_enabled_summary">Mengisi borang web dengan satu sentuhan</string>
+	<!-- Label for option that when clicked opens the AutoFill settings screen. Also used as the title of that AutoFill Settings screen. [CHAR-LIMIT=32] -->
+	<string name="pref_autofill_profile_editor">Teks auto isi</string>
+	<!-- Summary for the AutoFill Settings preference [CHAR-LIMIT=none] -->
+	<string name="pref_autofill_profile_editor_summary">Sediakan teks untuk auto isi borang web</string>
+	
+	<!-- Auto login preference title [CHAR-LIMIT=32] -->
+	<string name="pref_autologin_title">Log masuk Google automatik</string>
+	<!-- Message shown during auto login [CHAR-LIMIT=none] -->
+	<string name="pref_autologin_progress">Log masuk ke dalam tapak Google menggunakan %s</string>
+	<!-- Auto-login bar description [CHAR-LIMIT=40] -->
+	<string name="autologin_bar_text">Log masuk sebagai</string>
+	<!-- Login button [CHAR-LIMIT=10] -->
+	<string name="autologin_bar_login_text">Log masuk</string>
+	<!-- Hide button [CHAR-LIMIT=10] -->
+	<string name="autologin_bar_hide_text">Sembunyikan</string>
+	<!-- Login failure text [CHAR-LIMIT=25] -->
+	<string name="autologin_bar_error">Log masuk gagal.</string>
+	
+	<!-- Heading for the AutoFill profile editor to tell the user what AutoFill does and why they should fill out the profile. [CHAR-LIMIT=None] -->
+	<string name="autofill_profile_editor_heading">Taipkan teks yang anda ingin auto isi pada borang web.</string>
+	<!-- String for the user's full name in the AutoFill profile editor. [CHAR-LIMIT=32] -->
+	<string name="autofill_profile_editor_name">Nama penuh:</string>
+	<!-- String for the user's e-mail address in the AutoFill profile editor. [CHAR-LIMIT=32] -->
+	<string name="autofill_profile_editor_email_address">E-mel:</string>
+	<!-- String for the user's company name in the AutoFill profile editor. [CHAR-LIMIT=32] -->
+	<string name="autofill_profile_editor_company_name">Nama syarikat:</string>
+	<!-- String for the first line of the user's address in the AutoFill profile editor. [CHAR-LIMIT=32] -->
+	<string name="autofill_profile_editor_address_line_1">Alamat baris 1:</string>
+	<!-- String to suggest to the user the kind of data to be used for the first line of the address. CHAR-LIMIT=64] -->
+	<string name="autofill_profile_editor_address_line_1_hint">Alamat jalan, P.S, d/a</string>
+	<!-- String for the second line of the user's address in the AutoFill profile editor. [CHAR-LIMIT=32] -->
+	<string name="autofill_profile_editor_address_line_2">Alamat baris 2:</string>
+	<!-- String to suggest to the user the kind of data to be used for the second line of the address. CHAR-LIMIT=64] -->
+	<string name="autofill_profile_editor_address_line_2_hint">Pangsapuri, suite, unit, bangunan, tingkat, dll.</string>
+	<!-- String for the user's city or town in the AutoFill profile editor. [CHAR-LIMIT=32] -->
+	<string name="autofill_profile_editor_city">Bandar/Pekan:</string>
+	<!-- String for the user's state or province or region in the AutoFill profile editor. [CHAR-LIMIT=32] -->
+	<string name="autofill_profile_editor_state">Negeri/Daerah/Wilayah:</string>
+	<!-- String for the user's zip code in the AutoFill profile editor. [CHAR-LIMIT=32] -->
+	<string name="autofill_profile_editor_zip_code">Poskod:</string>
+	<!-- String for the user's country in the AutoFill profile editor. [CHAR-LIMIT=32] -->
+	<string name="autofill_profile_editor_country">Negara:</string>
+	<!-- String for the user's phone number in the AutoFill profile editor. [CHAR-LIMIT=32] -->
+	<string name="autofill_profile_editor_phone_number">Telefon:</string>
+	<!-- String to display in an error tooltip to inform the user the phone number they provided is not valid. [CHAR-LIMIT=32] -->
+	<string name="autofill_profile_editor_phone_number_invalid">Nombor telefon tidak sah.</string>
+	
+	<!-- Button text to save the AutoFill profile [CHAR-LIMIT=20] -->
+	<string name="autofill_profile_editor_save_profile">Simpan</string>
+	<!-- Toast message displayed when the profile has been successfully saved [CHAR-LIMIT=none] -->
+	<string name="autofill_profile_successful_save">Teks auto isi disimpan.</string>
+	<!-- Toast message displayed when the profile has been successfully deleted [CHAR-LIMIT=none] -->
+	<string name="autofill_profile_successful_delete">Teks auto-isi dipadamkan.</string>
+	<!-- Button text to delete all the AutoFill profile data [CHAR-LIMIT=20] -->
+	<string name="autofill_profile_editor_delete_profile">Padam</string>
+	
+	<!-- Text on a dialog shown to the user when they are prompted to set up the autofill feature [CHAR-LIMIT=NONE] -->
+	<string name="autofill_setup_dialog_message">Penyemak imbas boleh melengkapkan borang web seperti ini secara automatik. Adakah anda ingin menyediakan teks auto-isi anda?</string>
+	<!-- Toast message displayed when the user decides to not set up autofill at this time. We want to remind them that they can configure
+	it through the Browser Settings menu. [CHAR-LIMIT=NONE] -->
+	<string name="autofill_setup_dialog_negative_toast">Anda boleh menyediakan teks auto-isi anda daripada skrin Penyemak Imbas &gt; Tetapan &gt; Umum.</string>
+	<!-- Text on a checkbox in the "setup autofill" dialog which is shown to the user when they are prompted to set up the autofill feature.
+	The checkbox allows them to specify they would like to disable the feature altogether [CHAR-LIMIT=NONE] -->
+	<string name="disable_autofill">Lumpuhkan auto isi</string>
+	
+	<!-- Settings screen, section title [CHAR-LIMIT=50] -->
+	<string name="pref_privacy_security_title">Privasi &amp; keselamatan</string>
+	<!-- Settings label -->
+	<string name="pref_privacy_clear_cache">Padam bersih cache</string>
+	<!-- Settings summary -->
+	<string name="pref_privacy_clear_cache_summary">Padam bersih kandungan tercache dan pangkalan data setempat</string>
+	<!-- Confirmation dialog message -->
+	<string name="pref_privacy_clear_cache_dlg">Padamkan kandungan tercache dan pangkalan data tempatan?</string>
+	<!-- Cookie settings category [CHAR-LIMIT=50] -->
+	<string name="pref_privacy_cookies_title">Kuki</string>
+	<!-- Settings label -->
+	<string name="pref_privacy_clear_cookies">Padam bersih semua data kuki</string>
+	<!-- Settings summary -->
+	<string name="pref_privacy_clear_cookies_summary">Padam bersih semua kuki penyemak imbas</string>
+	<!-- Confirmation dialog message -->
+	<string name="pref_privacy_clear_cookies_dlg">Padamkan semua kuki?</string>
+	<!-- Settings label -->
+	<string name="pref_privacy_clear_history">Padam bersih sejarah</string>
+	<!-- Settings summary -->
+	<string name="pref_privacy_clear_history_summary">Padam bersih sejarah navigasi penyemak imbas</string>
+	<!-- Confirmation dialog message -->
+	<string name="pref_privacy_clear_history_dlg">Padamkan sejarah navigasi penyemak imbas?</string>
+	<!-- Formdata settings category [CHAR-LIMIT=50] -->
+	<string name="pref_privacy_formdata_title">Data borang</string>
+	<!-- Settings label -->
+	<string name="pref_privacy_clear_form_data">Padam bersih data borang</string>
+	<!-- Settings summary -->
+	<string name="pref_privacy_clear_form_data_summary">Kosongkan semua data borang yang disimpan</string>
+	<!-- Confirmation dialog message -->
+	<string name="pref_privacy_clear_form_data_dlg">Padamkan semua data borang yang disimpan?</string>
+	<!-- Settings label -->
+	<string name="pref_privacy_clear_passwords">Padam bersih kata laluan</string>
+	<!-- Settings summary -->
+	<string name="pref_privacy_clear_passwords_summary">Padam bersih semua kata laluan yang disimpan</string>
+	<!-- Confirmation dialog message -->
+	<string name="pref_privacy_clear_passwords_dlg">Padamkan semua kata laluan yang disimpan?</string>
+	<!-- Location settings category [CHAR-LIMIT=50] -->
+	<string name="pref_privacy_location_title">Lokasi</string>
+	<!-- Settings label -->
+	<string name="pref_privacy_enable_geolocation">Dayakan lokasi</string>
+	<!-- Settings summary -->
+	<string name="pref_privacy_enable_geolocation_summary">Benarkan tapak meminta akses ke lokasi anda</string>
+	<!-- Settings label -->
+	<string name="pref_privacy_clear_geolocation_access">Padam bersih akses lokasi</string>
+	<!-- Settings summary -->
+	<string name="pref_privacy_clear_geolocation_access_summary">Padam bersih akses lokasi bagi semua tapak web</string>
+	<!-- Confirmation dialog message -->
+	<string name="pref_privacy_clear_geolocation_access_dlg">Padamkan akses lokasi laman web?</string>
+	<!-- Passwords settings category [CHAR-LIMIT=50] -->
+	<string name="pref_security_passwords_title">Kata laluan</string>
+	<!-- Settings label -->
+	<string name="pref_security_remember_passwords">Ingat kata laluan</string>
+	<!-- Settings summary -->
+	<string name="pref_security_remember_passwords_summary">Simpan nama pengguna dan kata laluan untuk tapak web</string>
+	<!-- Settings label -->
+	<string name="pref_security_save_form_data">Ingat data borang</string>
+	<!-- Settings summary -->
+	<string name="pref_security_save_form_data_summary">Ingat data yang saya taipkan dalam borang untuk kegunaan akan datang</string>
+	<!-- Settings label -->
+	<string name="pref_security_show_security_warning">Tunjukkan amaran keselamatan</string>
+	<!-- Settings summmary -->
+	<string name="pref_security_show_security_warning_summary">Tunjukkan amaran jika terdapat masalah dengan keselamatan tapak</string>
+	<!-- Settings label -->
+	<string name="pref_security_accept_cookies">Terima kuki</string>
+	<!-- Settings summary -->
+	<string name="pref_security_accept_cookies_summary">Benarkan tapak menyimpan dan membaca data kuki</string>
+	<!-- Settings text size options; appear in Text size dialog box [CHAR LIMIT=30] -->
+	<string-array name="pref_text_size_choices">
+		<item>Tiny</item>
+		<item>Small</item>
+		<item>Normal</item>
+		<item>Large</item>
+		<item>Huge</item>
+	</string-array>
+	<!-- Label for minimum font size [CHAR LIMIT=30] -->
+	<string name="pref_min_font_size">Saiz fon minimum</string>
+
+	<!-- Label for text scaling (percent) [CHAR LIMIT=30] -->
+	<string name="pref_text_zoom">Penskalaan teks</string>
+	<!-- Label for zoom on double-tap (percent) [CHAR LIMIT=30] -->
+	<string name="pref_zoom_on_double_tap">Zum pada ketik dua kali</string>
+	<!-- Label for whether or not to force-enable user scalablity (aka, zoom) [CHAR LIMIT=30] -->
+	<string name="pref_force_userscalable">Paksa dayakan zum</string>
+	<!-- Summary for whether or not to force-enable user scalablity (aka, zoom) [CHAR LIMIT=30] -->
+	<string name="pref_force_userscalable_summary">Tolak permintaan laman web untuk mengawal kelakuan zum</string>
+	<!-- Inverted screen category under accessibility settings [CHAR LIMIT=50] -->
+	<string name="pref_inverted_category">Pemaparan skrin songsang</string>
+	<!-- Title for the inverted screen feature. This causes the screen to render with inverted colors (black becomes white and vice versa) [CHAR LIMIT=40] -->
+	<string name="pref_inverted">Pemaparan songsang</string>
+	<!-- Summary for the inverted screen feature. [CHAR LIMIT=120] -->
+	<string name="pref_inverted_summary">Hitam menjadi putih dan sebaliknya</string>
+	<!-- Title for the inverted screen contrast. Change the contrast value from 1.0 to 3.0. [CHAR LIMIT=30] -->
+	<string name="pref_inverted_contrast">Kontras</string>
+	<!-- Settings label -->
+	<string name="pref_default_zoom">Zum lalai</string>
+	<!-- Settings default zoom options; appear in default zoom dialog box -->
+	<string-array name="pref_default_zoom_choices">
+		<item>Far</item>
+		<item>Medium</item>
+		<item>Close</item>
+	</string-array>
+	<!-- Title of dialog for setting the default zoom -->
+	<string name="pref_default_zoom_dialogtitle">Zum lalai</string>
+
+	<!-- Settings label -->
+	<string name="pref_content_load_page">Buka halaman dalam gambaran keseluruhan</string>
+	<!-- Settings summary -->
+	<string name="pref_content_load_page_summary">Tunjukkan gambaran keseluruhan halaman-halaman yang baru dibuka</string>
+	<!-- Settings screen, section title [CHAR LIMIT=50] -->
+	<string name="pref_extras_title">Terperinci</string>
+	<!-- Settings label -->
+	<string name="pref_extras_website_settings">Tetapan tapak web</string>
+	<!-- Settings summary -->
+	<string name="pref_extras_website_settings_summary">Tetapan terperinci untuk tapak web individu</string>
+	<!-- Settings category label [CHAR-LIMIT=50] -->
+	<string name="pref_extras_reset_default_title">Tetapkan semula lalai</string>
+	<!-- Settings label -->
+	<string name="pref_extras_reset_default">Tetapkan semula kepada lalai</string>
+	<!-- Settings summary -->
+	<string name="pref_extras_reset_default_summary">Memulihkan ke tetapan lalai</string>
+	<!-- Confirmation dialog message -->
+	<string name="pref_extras_reset_default_dlg">Kembalikan tetapan kepada nilai lalai?</string>
+	<!-- Title for a group of settings -->
+	<string name="pref_development_title">Nyahpepijat</string>
+
+	<!-- Settings screen, setting option name -->
+	<string name="pref_default_text_encoding">Pengekodan teks</string>
+	
+	<!-- Dialog box title -->
+	<string name="pref_default_text_encoding_dialogtitle">Pengekodan teks</string>
+
+	<!-- Title for accessibility settings [CHAR LIMIT=25] -->
+	<string name="pref_accessibility_title">Kebolehaksesan</string>
+	<!-- Font size settings category under accessibility settings [CHAR LIMIT=50] -->
+	<string name="pref_font_size_category">Saiz teks</string>
+	<!-- Title for lab settings [CHAR LIMIT=25] -->
+	<string name="pref_lab_title">Makmal</string>
+	<!-- Title for lab quick controls feature [CHAR LIMIT=40] -->
+	<string name="pref_lab_quick_controls">Kawalan pantas</string>
+	<!-- Summary for lab quick controls feature [CHAR LIMIT=120] -->
+	<string name="pref_lab_quick_controls_summary">Luncurkan ibu jari dari tepi kiri atau kanan untuk membuka 
+	kawalan cepat dan menyembunyikan aplikasi serta bar URL.</string>
+	<!-- Title for the "Instant search" lab feature [CHAR LIMIT=40] -->
+	<string name="pref_use_instant_search">Google Instant</string>
+	<!-- Summary for the "Instant search" lab feature [CHAR LIMIT=120] -->
+	<string name="pref_use_instant_search_summary">Guna Google Instant bila anda guna
+	Carian Google, utk tunjuk hasil bila anda 
+	menaip (boleh menambah penggunaan data).</string>
+	<!-- Title for the fullscreen lab feature [CHAR LIMIT=40] -->
+	<string name="pref_lab_fullscreen">Skrin penuh</string>
+	<!-- Summary for the fullscreen lab feature [CHAR LIMIT=120] -->
+	<string name="pref_lab_fullscreen_summary">Gunakan mod skrin penuh untuk 
+	menyembunyikan bar status</string>
+	<!-- Title for bandwidth management preference [CHAR LIMIT=25] -->
+	<string name="pref_data_title">Pengurusan lebar jalur</string>
+	<!-- Title for search preloading [CHAR LIMIT=40] -->
+	<string name="pref_data_preload_title">Hasil carian sedang dipramuat</string>
+	<!-- Search preloading options [CHAR LIMIT=20] -->
+	<string-array name="pref_data_preload_choices">
+		<item>Never</item>
+		<item>Only on Wi-Fi</item>
+		<item>Always</item>
+	</string-array>
+
+	<!-- Summary for search preloading [CHAR LIMIT=80] -->
+	<string name="pref_data_preload_summary">Benarkan penyemak imbas untuk mempramuat hasil carian berkeyakinan tinggi di latar belakang</string>
+	<!-- Title of dialog for search preloading [CHAR LIMIT=40] -->
+	<string name="pref_data_preload_dialogtitle">Hasil carian sedang dipramuat</string>
+	<!-- Title for link prefetching [CHAR LIMIT=40] -->
+	<string name="pref_link_prefetch_title">Pramuat halaman web</string>
+	<!-- Link prefetching options [CHAR LIMIT=20] -->
+	<string-array name="pref_link_prefetch_choices">
+		<item>Never</item>
+		<item>Only on Wi-Fi</item>
+		<item>Always</item>
+	</string-array>
+
+	<!-- Summary for link prefetching [CHAR LIMIT=80] -->
+	<string name="pref_link_prefetch_summary">Benarkan penyemak imbas mempramuat halaman web dikaitkan di latar belakang</string>
+	<!-- Title of dialog for link prefetching [CHAR LIMIT=40] -->
+	<string name="pref_link_prefetch_dialogtitle">Pramuat halaman web</string>
+	<!-- Title for video preloading [CHAR LIMIT=40] -->
+	<string name="pref_video_preload_title">Video sedang dipra-muat</string>
+	<!-- Video preloading options [CHAR LIMIT=20] -->
+	<string-array name="pref_video_preload_choices">
+		<item>Never</item>
+		<item>Only on Wi-Fi</item>
+		<item>Always</item>
+	</string-array>
+
+	<!-- Summary for video preloading [CHAR LIMIT=80] -->
+	<string name="pref_video_preload_summary">Benarkan penyemak imbas untuk pra-muat video apabila disokong oleh pelayan</string>
+	<!-- Title of dialog for video preloading [CHAR LIMIT=40] -->
+	<string name="pref_video_preload_dialogtitle">Video sedang dipra-muat\u0020</string>
+	<!-- Title for a dialog displayed when the browser has a data connectivity
+	problem -->
+	<string name="browserFrameNetworkErrorLabel">Masalah sambungan</string>
+	<!-- Title for a dialog displayed when the browser runs into a file label
+	error -->
+	<string name="browserFrameFileErrorLabel">Masalah fail</string>
+	<!-- Dialog box title -->
+	<string name="browserFrameFormResubmitLabel"/>
+	<!-- Dialog box message -->
+	<string name="browserFrameFormResubmitMessage">Halaman yang anda cuba lihat mengandungi data yang telah dihantar (\"POSTDATA\"). Jika anda menghantar semula data, sebarang tindakan yang dilakukan oleh borang pada halaman (seperti membuat carian atau pembelian dalam talian) akan diulang.</string>
+	<!-- Dialog box title -->
+	<string name="loadSuspendedTitle">Tiada sambungan</string>
+	<!-- Dialog box message -->
+	<string name="loadSuspended">Penyemak imbas tidak dapat memuatkan halaman ini 
+	kerana tiada sambungan Internet.</string>
+	<!-- Menu item -->
+	<string name="clear_history">Padam bersih sejarah</string>
+	<!-- History screen title; appears in title bar -->
+	<string name="browser_history">Halaman baru dilawati</string>
+	<!-- Appears on History screen if no history is found -->
+	<string name="empty_history">Tiada sejarah penyemak imbas.</string>
+	<!-- Menu option to load the user's home page [CHAR LIMIT=30] -->
+	<string name="go_home">Halaman utama</string>
+	<!-- Displayed at the top of the bookmarks page.  When clicked, it bookmarks the page the browser is currently showing -->
+	<string name="add_new_bookmark">Tambah penanda halaman</string>
+	<!-- Verb placed in front of a screenshot of a web page that, when clicked,
+	will add that page to bookmarks -->
+	<string name="add_bookmark_short">Tambah</string>
+	
+	<!-- This string is for the browser "Go To" UI. -->
+	<!-- This is the hint text shown in the Go To widget, before text is entered. -->
+	<string name="search_hint">Buat carian atau taipkan URL</string>
+	<!-- This string is for the browser "Go To" UI. -->
+	<!-- This is the button label in the "Go To" UI. -->
+	<string name="search_button_text">Pergi</string>
+	<!-- The string used to describe the browser as a searchable item within system search settings. -->
+	<string name="search_settings_description">Penanda halaman dan sejarah web</string>
+	
+	<!-- Pop-up window dialog -->
+	<!-- Message for a dialog informing the user that the site is attempting to
+	display a popup window -->
+	<string name="popup_window_attempt">Benarkan tapak ini membuka
+	tetingkap pop timbul?</string>
+	<!-- Label for a button to allow a particular popup window to open -->
+	<string name="allow">Benarkan</string>
+	<!-- Label for a button to disallow a particular popup from opening -->
+	<string name="block">Sekat</string>
+	
+	<!-- Title for a dialog informing the user that they cannot open any more
+	windows because the limit has been reached. -->
+	<string name="too_many_windows_dialog_title">Had tab dicapai</string>
+	<!-- Message in a dialog telling the user that they cannot open any more
+	windows because the limit has been reached. -->
+	<string name="too_many_windows_dialog_message">Tidak boleh membuka tab baharu sehingga anda menutup satu tab.</string>
+	<!-- Title for a dialog informing the user that they cannot open a subwindow
+	because only one can be open at a time. -->
+	<string name="too_many_subwindows_dialog_title">Pop-up sudah terbuka</string>
+	<!-- Message for a dialog informing the user that they cannot open a
+	subwindow because only one can be open at a time. -->
+	<string name="too_many_subwindows_dialog_message">Hanya satu pop-timbul boleh 
+	dibuka pada satu masa.</string>
+	
+	<!-- Download History UI strings -->
+	<!-- Dialog title [CHAR LIMIT=25] -->
+	<string name="download_no_sdcard_dlg_title" product="nosdcard">USB storage unavailable</string>
+	<!-- Dialog title -->
+	<string name="download_no_sdcard_dlg_title" product="default">No SD card</string>
+	<!-- Dialog message [CHAR LIMIT=NONE] -->
+	<string name="download_no_sdcard_dlg_msg" product="nosdcard">USB storage is required to download <xliff:g id="filename">%s</xliff:g>.</string>
+	<!-- Dialog message -->
+	<string name="download_no_sdcard_dlg_msg" product="default">An SD card is required to download <xliff:g id="filename">%s</xliff:g>.</string>
+	<!-- Title for a dialog informing the user that the SD card used for
+	external storage is busy so they cannot download anything [CHAR LIMIT=25] -->
+	<string name="download_sdcard_busy_dlg_title" product="nosdcard">USB storage unavailable</string>
+	<!-- Title for a dialog informing the user that the SD card used for
+	external storage is busy so they cannot download anything -->
+	<string name="download_sdcard_busy_dlg_title" product="default">SD card unavailable</string>
+	<!-- Message for a dialog informing the user that the SD card used for
+	external storage is busy so they cannot download anything.  Informs
+	the user how to enable SD card storage [CHAR LIMIT=NONE] -->
+	<string name="download_sdcard_busy_dlg_msg" product="nosdcard">The USB storage is busy. To allow downloads, touch Turn Off USB Storage in the notification.</string>
+	<!-- Message for a dialog informing the user that the SD card used for
+	external storage is busy so they cannot download anything.  Informs
+	the user how to enable SD card storage -->
+	<string name="download_sdcard_busy_dlg_msg" product="default">The SD card is busy. To allow downloads, touch Turn Off USB Storage in the notification.</string>
+	
+	<!-- Toast for a download which cannot begin because the URL is not http or https -->
+	<string name="cannot_download">Boleh memuat turun URL \"http\" atau \"https\" URLs.</string>
+	<!-- Message in the list of items which have received download requests
+	telling their status.  This message states that the download has not
+	yet begun -->
+	<string name="download_pending">Memulakan muat turun\u2026</string>
+	
+	<!-- The description of the suggestion that lets the user search the web for the query currently
+	in the text field. -->
+	<string name="search_the_web">Cari di web</string>
+	
+	<!-- HTML5 dialogs -->
+	<!-- Used as a status bar notification when the browser is running out of space trying to allocate or increase the database quota for an HTML5 databae or application cache. -->
+	<string name="webstorage_outofspace_notification_title">Storan penyemak imbas penuh</string>
+	<string name="webstorage_outofspace_notification_text">Sentuh untuk mengosongkan ruang.</string>
+	<!-- Used in the Browser Settings -->
+	<string name="webstorage_clear_data_title">Padam bersih data yang disimpan</string>
+	
+	<!-- Confirmation dialog when the user ask to clear all data for an origin -->
+	<string name="webstorage_clear_data_dialog_message">Padamkan semua data yang disimpan oleh laman web ini?</string>
+	<string name="webstorage_clear_data_dialog_ok_button">OK</string>
+	<string name="webstorage_clear_data_dialog_cancel_button">Batal</string>
+	<!-- Strings used in the summary of origins -->
+	<string name="webstorage_origin_summary_mb_stored">MB disimpan pada telefon anda</string>
+	<!-- String shown in a progress view while a video is loading, before it starts playing -->
+	<string name="loading_video">Memuatkan video\u2026</string>
+	
+	<!-- Geolocation -->
+	<!-- Permissions prompt -->
+	<string name="geolocation_permissions_prompt_message"><xliff:g id="website origin" example="maps.google.com">%s</xliff:g> mahu mengetahui lokasi anda</string>
+	<string name="geolocation_permissions_prompt_share">Kongsi lokasi</string>
+	<string name="geolocation_permissions_prompt_dont_share">Tolak</string>
+	<string name="geolocation_permissions_prompt_remember">Ingat pilihan</string>
+	<!-- Permissions prompt toast -->
+	<string name="geolocation_permissions_prompt_toast_allowed">Tapak ini boleh mengakses lokasi anda. Tukarkannya pada skrin Tetapan &gt; Lanjutan &gt; Laman Web.</string>
+	<string name="geolocation_permissions_prompt_toast_disallowed">Tapak ini tidak boleh mengakses lokasi anda. Tukarkannya pada skrin Tetapan &gt; Lanjutan &gt; Laman web.</string>
+	<!-- Settings -> Advanced -> Website settings -> <origin> -->
+	<string name="geolocation_settings_page_title">Padam bersih akses lokasi</string>
+	<string name="geolocation_settings_page_summary_allowed">Tapak ini boleh mengakses lokasi anda pada masa ini</string>
+	<string name="geolocation_settings_page_summary_not_allowed">Tapak ini tidak boleh mengakses lokasi anda pada masa ini</string>
+	<!-- Settings page dialog -->
+	<string name="geolocation_settings_page_dialog_message">Padamkan akses lokasi untuk laman web ini?</string>
+	<string name="geolocation_settings_page_dialog_ok_button">OK</string>
+	<string name="geolocation_settings_page_dialog_cancel_button">Batal</string>
+	<!-- Label for the menu item in the website settings activity used to clear data stored by all websites -->
+	<string name="website_settings_clear_all">Padam bersih semua</string>
+	<string name="website_settings_clear_all_dialog_message">Padamkan semua kebenaran data dan lokasi web?</string>
+	<string name="website_settings_clear_all_dialog_ok_button">OK</string>
+	<string name="website_settings_clear_all_dialog_cancel_button">Batal</string>
+	
+	<!-- Text in the progress dialog when we are setting an image as the home screen wallpaper. -->
+	<string name="progress_dialog_setting_wallpaper">Menetapkan kertas dinding\u2026</string>
+	
+	<!-- The default state to the "up to parent folder" button in the bookmarks UI. This
+	is displayed when the user is at the highest level and cannot go up [CHAR LIMIT=16] -->
+	<string name="defaultBookmarksUpButton">Penanda halaman</string>
+	
+	<!-- The string that is displayed when there are no bookmarks to display.
+	This is centered in the middle of the screen [CHAR LIMIT=NONE] -->
+	<string name="empty_bookmarks_folder">Tiada penanda halaman.</string>
+	
+	<!-- The folder name for the special "Other Bookmarks" folder created by Chrome [CHAR LIMIT=24] -->
+	<string name="other_bookmarks">Penanda Halaman Lain</string>
+	
+	<!-- Access point for RLZ tracking. -->
+	<string name="rlz_access_point">Y1</string>
+	
+	<!-- Title for a dialog asking the user which account to sync their bookmarks to [CHAR LIMIT=32] -->
+	<string name="account_chooser_dialog_title" msgid="4833571985009544332">Choose account</string>
+	
+	<!-- Title for a dialog asking the user what they want to do with their bookmarks when adding a sync account [CHAR-LIMIT=32] -->
+	<string name="import_bookmarks_dialog_title">Segerakkan dengan akaun Google</string>
+	
+	<!-- Description for a dialog asking the user what they want to do with their bookmarks when adding a sync account [CHAR-LIMIT=none] -->
+	<string name="import_bookmarks_dialog_description">Penanda halaman pada peranti ini belum lagi dikaitkan dengan akaun Google. Simpan penanda halaman ini dengan menambahkannya pada akaun. Padamkan penanda halaman ini jika anda tidak mahu menyegerakkannya.</string>
+	
+	<!-- Description for selecting the account to add bookmarks to and begin syncing with [CHAR-LIMIT=none] -->
+	<string name="import_bookmarks_dialog_select_add_account">Tambahkan penanda halaman yang ada pada peranti ini pada masa ini dan mulakan penyegerakan dengan akaun Google</string>
+	
+	<!-- Description for selecting the account to sync with and delete local bookmarks [CHAR-LIMIT=none] -->
+	<string name="import_bookmarks_dialog_delete_select_account">Padamkan penanda halaman yang ada pada peranti ini pada masa ini dan mulakan penyegerakan dengan akaun Google</string>
+	
+	<!-- Description confirming user's choice to delete bookmarks [CHAR-LIMIT=none] -->
+	<string name="import_bookmarks_dialog_confirm_delete">Padamkan penanda halaman yang ada pada peranti ini pada masa ini dan mulakan penyegerakan penanda halaman dengan <xliff:g id="Google account" example="account@example.com">%s</xliff:g>?</string>
+	
+	<!-- Description confirming user's choice to add bookmarks to an account [CHAR-LIMIT=none] -->
+	<string name="import_bookmarks_dialog_confirm_add">Tambahkan penanda halaman yang ada pada peranti ini buat masa ini dan mulakan penyegerakan penanda halaman dengan <xliff:g id="Google account" example="account@example.com">%s</xliff:g>?</string>
+	
+	<!-- Button allowing users to remove all of their existing bookmarks when setting up syncing with their bookmarks stored in Google Chrome [CHAR-LIMIT=64] -->
+	<string name="import_bookmarks_dialog_remove">Padam penanda halaman</string>
+	
+	<!-- Sync bookmarks wizard option to go to the next screen [CHAR-LIMIT=30] -->
+	<string name="import_bookmarks_wizard_next">Seterusnya</string>
+	
+	<!-- Sync bookmarks wizard option to go to the previous screen [CHAR-LIMIT=30] -->
+	<string name="import_bookmarks_wizard_previous">Sebelumnya</string>
+	
+	<!-- Sync bookmarks wizard option to cancel sync setup [CHAR-LIMIT=30] -->
+	<string name="import_bookmarks_wizard_cancel">Batal</string>
+	
+	<!-- Sync bookmarks wizard option to finish sync setup [CHAR-LIMIT=30] -->
+	<string name="import_bookmarks_wizard_done">Selesai</string>
+	
+	<!-- Button allowing users to import all of their existing bookmarks into an account when setting up syncing with their bookmarks stored in Google Chrome [CHAR-LIMIT=64] -->
+	<string name="import_bookmarks_dialog_add">Tambahkan penanda halaman pada akaun Google</string>
+	
+	<!-- Button allowing users to import all of their existing bookmarks into an account when setting up syncing with their bookmarks stored in Google Chrome [CHAR-LIMIT=64] -->
+	<string name="import_bookmarks_dialog_import">Tambah penanda halaman Android anda ke penanda halaman untuk <xliff:g id="Google account" example="account@example.com">%s</xliff:g></string>
+	
+	<!-- Url Selection Action Mode -->
+	
+	<!-- Menu item to share URL selection [CHAR LIMIT=30] -->
+	<string name="menu_share_url">Kongsi</string>
+	
+	<!-- Toast to inform the user that the maximum number of tabs has been
+	reached. [CHAR LIMIT=50] -->
+	<string name="max_tabs_warning">Tiada lagi tab yang sedia</string>
+	
+	<!-- The label used by the instant search labs feature when shown in
+	the search engines list (Preferences->Advanced->Set search engine
+	[CHAR LIMIT=80] -->
+	<string name="instant_search_label">Google dengan Instant (Labs)</string>
+	<!-- Font size preview label in settings [CHAR LIMIT=30] -->
+	<string name="preview">Pratonton</string>
+	<!-- Name for the user's unsynced, local bookmarks [CHAR LIMIT=50] -->
+	<string name="local_bookmarks">Tempatan</string>
+	<!-- Popup menu checkbox that allows the user to request the desktop version of a webpage [CHAR LIMIT=50] -->
+	<string name="ua_switcher_desktop">Minta tapak versi komputer meja</string>
+	<!-- Preload permission label [CHAR LIMIT=40] -->
+	<string name="permission_preload_label">Pramuat hasil</string>
+	<!-- Empty text for the "saved pages" tab that is shown when no saved pages exist. [CHAR LIMIT=None] -->
+	<string name="empty_snapshots_folder">Tiada halaman disimpan.</string>
+	<!-- Menu option to delete the currently selected saved page [CHAR LIMIT=50] -->
+	<string name="remove_snapshot">Padamkan halaman disimpan</string>
+	<!-- Popup menu option to load the live version of a saved page [CHAR LIMIT=20] -->
+	<string name="snapshot_go_live">Muatkan siaran langsung</string>
+	
+	<!--  Accessibility content descriptions -->
+	
+	<!-- Content description for back button [CHAR LIMIT=NONE] -->
+	<string name="accessibility_button_back">Kembali</string>
+	<!-- Content description for forward button [CHAR LIMIT=NONE] -->
+	<string name="accessibility_button_forward">Pergi ke depan</string>
+	<!-- Content description for refresh button [CHAR LIMIT=NONE] -->
+	<string name="accessibility_button_refresh">Memuat semula halaman</string>
+	<!-- Content description for stop button [CHAR LIMIT=NONE] -->
+	<string name="accessibility_button_stop">Menghentikan pemuatan halaman</string>
+	<!-- Content description for add bookmark button [CHAR LIMIT=NONE] -->
+	<string name="accessibility_button_addbookmark">Menanda halaman halaman</string>
+	<!-- Content description for search button [CHAR LIMIT=NONE] -->
+	<string name="accessibility_button_search">Mencari</string>
+	<!-- Content description for voice search button [CHAR LIMIT=NONE] -->
+	<string name="accessibility_button_voice">Memulakan carian suara</string>
+	<!-- Content description for bookmarks button [CHAR LIMIT=NONE] -->
+	<string name="accessibility_button_bookmarks">Bookmarks</string>
+	<!-- Content description for close tab button [CHAR LIMIT=NONE] -->
+	<string name="accessibility_button_closetab">Menutup tab</string>
+	<!-- Content description for new tab button [CHAR LIMIT=NONE] -->
+	<string name="accessibility_button_newtab">Membuka tab baru</string>
+	<!-- Content description for new incognito tab button [CHAR LIMIT=NONE] -->
+	<string name="accessibility_button_newincognitotab">Membuka tab incognito baru</string>
+	<!-- Content description for clear button [CHAR LIMIT=NONE] -->
+	<string name="accessibility_button_clear">Mengosongkan input</string>
+	<!-- Content description for user agent switcher [CHAR LIMIT=NONE] -->
+	<string name="accessibility_button_uaswitch">Menukar ejen pengguna</string>
+	<!-- Content description for go button [CHAR LIMIT=NONE] -->
+	<string name="accessibility_button_go">Go</string>
+	
+	<!-- Content description for tab switcher button [CHAR LIMIT=NONE] -->
+	<string name="accessibility_button_navscreen">Pengurus halaman</string>
+	<!-- Content description for overflow menu button [CHAR LIMIT=NONE] -->
+	<string name="accessibility_button_more">More options</string>
+	
+	<!-- Content description for incognito state [CHAR LIMIT=NONE] -->
+	<string name="accessibility_state_incognito">Halaman incognito</string>
+	<!-- Content description for frozen state [CHAR LIMIT=NONE] -->
+	<string name="accessibility_state_frozen">Halaman disimpan</string>
+	
+	<!-- Content description for tab switcher transition [CHAR LIMIT=NONE] -->
+	<string name="accessibility_transition_navscreen">Pengurusan tab</string>
+	
+	<!-- adblock -->
+	<string name="pref_content_block_float_popups">Halang pop-up terapung</string>
+
+</resources>

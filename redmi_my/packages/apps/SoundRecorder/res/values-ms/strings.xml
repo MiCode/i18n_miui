@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- application name and title of error dialogs-->
+    <string name="app_name">Perakam</string>
+
+    <!-- Screen title before and during recording -->
+    <!-- Screen title after recording -->
+    <!-- Screen title while playing back a recording -->
+    <!-- Label shown during recording -->
+    <string name="recording">Merakam</string>
+    <!-- Label shown when the recording is stopped for a reason other than the user stopping it (e.g. the sd card was removed) -->
+    <string name="recording_stopped">Rakaman telah berhenti</string>
+    <!-- label shown when there is not enough space to record something -->
+    <string name="storage_is_full">Storan penuh</string>
+    <!-- label shown when the recording has reached maximum allowed file size -->
+    <string name="max_length_reached">Had panjang dicapai</string>
+    <!-- label shown when there is no sd card available to record to -->
+    <string name="insert_sd_card">Kad SD card diperlukan</string>
+    <!-- label shown when there is more than 1 minute but less than 9 minutes of space left to record -->
+    <!-- label shown when there is less than 1 minute of space left to record -->
+
+    <!-- button to accept the current recording and return it to the caller -->
+    <!-- button to discard the current recording and return to the caller -->
+    <!-- acknowlegement button in a number of dialogs -->
+    <string name="button_ok">OK</string>
+
+    <!-- all recordings will show up in the media database with this 'artist' name -->
+    <string name="audio_db_artist_name">Rakaman anda</string>
+    <!-- all recordings will show up in the media database with this 'album' name -->
+    <string name="audio_db_album_name">Rakaman audio</string>
+    <!-- all recordings will show up in the media database in a playlist with this name -->
+    <string name="audio_db_playlist_name">Rakaman saya</string>
+    <!-- shown as the message in a dialog when an error occured because of an error accessing the sd card -->
+    <string name="error_sdcard_access">Tidak dapat mengakses storan luaran atau dalaman</string>
+    <!-- shown as the message in a dialog when the app encountered an unspecified internal error -->
+    <string name="error_app_internal">Masalah aplikasi dalaman.</string>
+    <string name="error_app_internal_title">Masalah pekaram suara</string>
+    <!-- shown as the message in a dialog when the recording could not be added to the media database -->
+    <string name="error_mediadb_new_record">Tidak dapat menyimpan rakaman audio</string>
+
+    <!-- add for libra begin -->
+    <string name="default_record_name">Rakaman tanpa tajuk</string>
+    <string name="menu_view_record_list">Lihat rakaman</string>
+    <string name="delete_dialog_message">Adakah anda ingin memadam rakaman sedia ada?</string>
+    <string name="overwrite_dialog_message">Telah wujud. Adakah anda ingin overwrite ia?</string>
+    <string name="notification_recording">Merakam\u2026</string>
+    <string name="notification_playback">Rakaman dimainkan semula\u2026</string>
+    <string name="notification_stopped">Rakaman telah diberhentikan</string>
+    <string name="notification_warning">Storan rendah (kurang dari %d minit)</string>
+    <string name="record_list">Senarai rakaman</string>
+    <string name="sd_card_not_available">Kad SD tidak tersedia</string>
+    <string name="call_record">Rakam Panggilan (%d)</string>
+    <string name="fm_record">Rakaman FM (%d)</string>
+    <string name="open_file_explorer">Buka File Explorer</string>
+    <string name="no_file">Tiada rakaman</string>
+    <string name="mark_now">(Sekarang)</string>
+    <string name="second">%d saat</string>
+    <string name="minute">%d minit </string>
+    <string name="hour">%d jam </string>
+    <string name="call_record_or">atau</string>
+    <string name="dialog_play">Mainy</string>
+    <string name="dialog_send">dialog_send</string>
+    <string name="dialog_warning">Amaran</string>
+    <string name="alert_message_delete_record">Adakah anda ingin memadam rakaman terpilih?</string>
+    <string name="unknown_caller">Pemanggil tidak diketahui</string>
+
+    <!-- add for libra end -->
+
+    <string name="rename">Nama semula</string>
+    <string name="send_to">Hantar ke</string>
+    <string name="delete">Padam</string>
+    <string name="deleting_message">Memadam\u2026</string>
+    <string name="rename_dialog_title">Namakan semula rakaman ini</string>
+    <string name="rename_illegal">Nama rakaman tidak sah, sila isi semula.</string>
+    <string name="rename_duplicate">Nama rakaman sama, sila isi semula.</string>
+    <string name="record_picker_title">Pilih rakaman</string>
+
+    <string name="dialog_title_storage_full">Ruang simpanan penuh</string>
+    <string name="dialog_content_storage_full">Recording stopped because there\'s not enough space left on your phone\'s internal memory.</string>
+
+    <string name="status_bar_anti_disturb">Telefon senyap</string>
+    <string name="status_bar_recording">Merakam\u2026</string>
+    <string name="status_bar_back">Klik untuk kembali ke Perakam</string>
+    <string name="status_bar_recording_pause">"Rakaman telah diberhentikan seketika"</string>
+    <string name="record_saving">Menyimpan\u2026</string>
+    <string name="record_loading">Memuatkan\u2026</string>
+    <string name="low_battery_message_title">Bateri rendah</string>
+    <string name="low_battery_warning">Penutupan secara tidak sengaja mungkin mengakibatkan rakaman hilang, disyorkan untuk merakam hanya ketika bateri telah dicas sepenuhnya.</string>
+    <string name="low_battery_error"> Bateri mengandungi baki kurang dari 5%, untuk memastikan bahawa rakaman tidak kehilangan, rakaman terpaksa diberhentikan dan disimpan.</string>
+
+    <string name="sound_recorder_settings">Aturan Rakaman</string>
+    <string name="menu_settings">Aturan</string>
+    <string name="preference_led_indicator">Penunjuk rakaman ketika skrin dikunci</string>
+    <string name="preference_led_indicator_prompt">Pamer LED dan penunjuk status bar ketika rakaman dan skrin dikunci</string>
+    <string name="preference_record_type_title">Jenis rakaman</string>
+    <string name="preference_scenes">Aturan untuk scene</string>
+    <string name="preference_record_type_dialog_title">Pilih satu jenis rakaman</string>
+    <string name="preference_record_scenes_dialog_title">Pilih satu scene rakaman</string>
+    <string name="preference_silent_mode">Rakaman mod senyap</string>
+    <string name="preference_enable_earpiece_title">Gunakan receiver untuk mainkan audio</string>
+    <string name="preference_enable_earpiece_summary">Gunakan receiver untuk external playback</string>
+
+    <string name="error_filename_too_long">Nama fail terlalu panjang</string>
+    <string name="error_filename_illegal_char">Nama fail mengandungi karakter yang tidak dibenarkan.</string>
+    <string name="toast_max_record_time">%1$s masa merakan maksimum yang disokong %2$s</string>
+    <string name="message_file_size_error">Rakaman telah mencapai had rakaman maksimum yang disokong untuk %s</string>
+    <string name="start_recording">Mula rakaman</string>
+    <string name="pause">Pause</string>
+    <string name="play_record">Main</string>
+    <string name="stop_recording">Henti merakam</string>
+    <string name="view_list_of_recordings">Lihast rakaman</string>
+    <string name="search_for_recordings_in_folders">Cari folder untuk ramakan</string>
+    <string name="back">Undur</string>
+    <string name="toast_uninstall_fileexplorer">FileExplorer tidak installed</string>
+</resources>

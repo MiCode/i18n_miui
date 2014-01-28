@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="helps">
+        <item>Panggilan</item>
+        <item>Menghantar Mesej</item>
+        <item>Kenalan</item>
+        <item>Set peringatan</item>
+        <item>Buka app</item>
+        <item>Carian Web</item>
+        <item>Makan Di Luar</item>
+        <item>Carian Muzik</item>
+        <item>Perjalanan</item>
+        <item>Cuaca</item>
+        <item>Peta</item>
+        <item>Berbual</item>
+        <item>Terjemahan</item>
+    </string-array>
+    <string-array name="help_tel">
+        <item>Memanggil Zhang Ruohan</item>
+        <item>Memanggil Zhangruo Han</item>
+        <item>Dail 10086</item>
+    </string-array>
+    <string-array name="help_sms">
+        <item>发短信给张若涵</item>
+        <item>给10086发短信</item>
+        <item>告诉张若涵，晚上晚点回去</item>
+    </string-array>
+    <string-array name="help_contact">
+        <item>查看张若涵的号码</item>
+        <item>新建联系人，张若涵， 186xxxxxxxx</item>
+        <item>把张若涵的号码发给韩梅梅</item>
+    </string-array>
+    <string-array name="help_alarm">
+        <item>11点半提醒我开会</item>
+        <item>半小时后提醒我看球</item>
+        <item>下周六早上8点提醒我去接老爸</item>
+    </string-array>
+    <string-array name="help_launch">
+        <item>打开相机</item>
+        <item>启动植物大战僵尸</item>
+        <item>Muat turun Angry Bird</item>
+    </string-array>
+    <string-array name="help_web">
+        <item>Buka laman web Xiaomi</item>
+        <item>Carian Xiaomi</item>
+        <item>Baidu, Xiaomi</item>
+    </string-array>
+    <string-array name="help_dinner">
+        <item>附近有什么好吃的</item>
+        <item>中关村附近的川菜馆</item>
+        <item>火车站附近有没有麦当劳</item>
+    </string-array>
+    <string-array name="help_music">
+        <item>随便来几首歌</item>
+        <item>我想听浮夸</item>
+        <item>来首周杰伦的青花瓷</item>
+    </string-array>
+    <string-array name="help_train">
+        <item>帮我查一下北京到上海的火车</item>
+        <item>有没有明天到武汉的航班</item>
+        <item>我要订一张去拉萨的机票</item>
+    </string-array>
+    <string-array name="help_weather">
+        <item>Cuaca</item>
+        <item>明天北京下不下雨</item>
+        <item>西城区的天气</item>
+    </string-array>
+    <string-array name="help_map">
+        <item>天安门怎么走</item>
+        <item>天坛在哪儿</item>
+        <item>从中关村到国家体育馆怎么走</item>
+    </string-array>
+    <string-array name="help_chat">
+        <item>给我讲个笑话</item>
+        <item>给我背首唐诗</item>
+        <item>凤凰传奇是谁</item>
+    </string-array>
+    <string-array name="help_translate">
+        <item>Terjemah ke cuaca English</item>
+    </string-array>
+    <string-array name="week">
+        <item>Ahad</item>
+        <item>Isnin</item>
+        <item>Selasa</item>
+        <item>Rabu</item>
+        <item>Khamis</item>
+        <item>Jumaat</item>
+        <item>Sabtu</item>
+    </string-array>
+
+</resources>

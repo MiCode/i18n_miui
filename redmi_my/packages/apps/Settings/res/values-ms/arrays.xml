@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+**
+** Copyright 2007 The Android Open Source Project
+** Copyright (C) 2010-2012, Code Aurora Forum. All rights reserved.
+**
+** Not a Contribution, Apache license notifications and license are retained
+** for attribution purposes only
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Choices for timezone picker first level.
+         These values will be used as search terms for TimeZone displayName
+         strings. --> <skip />
+    <!-- The time zone picker screen has two levels.  The first level allows the user to choose a region. -->
+    <string-array name="timezone_filters">
+    <!-- The next level of the time zoner picker should show time zones from the Americas. -->
+        <item>Amerika</item>
+    <!-- The next level of the time zoner picker should show time zones from Europe. -->
+        <item>Eropah</item>
+    <!-- The next level of the time zoner picker should show time zones from Africa. -->
+        <item>Afrika</item>
+    <!-- The next level of the time zoner picker should show time zones from Asia. -->
+        <item>Asia</item>
+    <!-- The next level of the time zoner picker should show time zones from Australia. -->
+        <item>Australia</item>
+    <!-- The next level of the time zoner picker should show time zones from Pacific. -->
+        <item>Pasifik</item>
+    <!-- The next level of the time zoner picker should show time zones from ALL regions. -->
+        <item>Semua</item>
+    </string-array>
+
+    <!-- Display settings.  The delay in inactivity before the screen is turned off. These are shown in a list dialog. -->
+    <string-array name="screen_timeout_entries">
+        <item>15 saat</item>
+        <item>30 saat</item>
+        <item>1 minit</item>
+        <item>2 minit</item>
+        <item>5 minit</item>
+        <item>10 minit</item>
+        <item>30 minit</item>
+    </string-array>
+
+    <!-- Display settings.  The delay in inactivity before the dream is shown. These are shown in a list dialog. -->
+    <string-array name="dream_timeout_entries">
+        <item>Jangan sekali-kali</item>
+        <item>15 saat</item>
+        <item>30 saat</item>
+        <item>1 minit</item>
+        <item>2 minit</item>
+        <item>5 minit</item>
+        <item>10 minit</item>
+        <item>30 minit</item>
+    </string-array>
+
+    <!-- Security settings.  The delay after screen is turned off until device locks. 
+         These are shown in a list dialog. -->
+    <string-array name="lock_after_timeout_entries">
+        <item>Segera</item>
+        <item>5 saat</item>
+        <item>15 saat</item>
+        <item>30 saat</item>
+        <item>1 minit</item>
+        <item>2 minit</item>
+        <item>5 minit</item>
+        <item>10 minit</item>
+        <item>30 minit</item>
+    </string-array>
+    
+    <string-array name="entries_font_size">
+        <item msgid="6490061470416867723">Kecil</item>
+        <item msgid="3579015730662088893">Biasa</item>
+        <item msgid="1678068858001018666">Besar</item>
+        <item msgid="490158884605093126">Amat Besar</item>
+    </string-array>
+
+    <!-- TTS settings -->
+
+    <!-- Default speech rate choices -->
+    <string-array name="tts_rate_entries">
+        <item>Amat Perlahan</item>
+        <item>Perlahan</item>
+        <item>Biasa</item>
+        <item>Cepat</item>
+        <item>Amat Cepat</item>
+    </string-array>
+
+    <!-- Default pitch choices -->
+    <string-array name="tts_pitch_entries">
+        <item>Amat Rendah</item>
+        <item>Rendah</item>
+        <item>Biasa</item>
+        <item>Tinggi</item>
+        <item>Amat Tinggi</item>
+    </string-array>
+
+    <!-- Wi-Fi settings -->
+
+    <!-- Match this with the order of NetworkInfo.DetailedState. --> <skip />
+    <!-- Wi-Fi settings. The status messages when the network is unknown. -->
+    <string-array name="wifi_status">
+        <!-- Status message of Wi-Fi when it is idle. -->
+        <item></item>
+        <!-- Status message of Wi-Fi when it is scanning. -->
+        <item>Mengimbas\u2026</item>
+        <!-- Status message of Wi-Fi when it is connecting. -->
+        <item>Menyambung\u2026</item>
+        <!-- Status message of Wi-Fi when it is authenticating. -->
+        <item>Mengesahkan\u2026</item>
+        <!-- Status message of Wi-Fi when it is obtaining IP address. -->
+        <item>Mendapatkan Alamat IP\u2026</item>
+        <!-- Status message of Wi-Fi when it is connected. -->
+        <item>Disambungkan</item>
+        <!-- Status message of Wi-Fi when it is suspended. -->
+        <item>Digantung</item>
+        <!-- Status message of Wi-Fi when it is disconnecting. -->
+        <item>Memutuskan\u2026</item>
+        <!-- Status message of Wi-Fi when it is disconnected. -->
+        <item>Diputuskan</item>
+        <!-- Status message of Wi-Fi when it is a failure. -->
+        <item>Tidak berjaya</item>
+        <!-- Status message of Wi-Fi when it is blocked. -->
+        <item>Disekat</item>
+        <!-- Status message of Wi-Fi when connectiong is being verified. -->
+        <item>Mengelakkan sambungan yang lemah buat sementara</item>
+    </string-array>
+
+    <!-- Match this with the order of NetworkInfo.DetailedState. --> <skip />
+    <!-- Wi-Fi settings. The status messages when the network is known. -->
+    <string-array name="wifi_status_with_ssid">
+        <!-- Status message of Wi-Fi when it is idle. -->
+        <item></item>
+        <!-- Status message of Wi-Fi when it is scanning. -->
+        <item>Mengimbas\u2026</item>
+        <!-- Status message of Wi-Fi when it is connecting to a network. -->
+        <item>Menyambung ke <xliff:g id="network_name">%1$s</xliff:g>\u2026</item>
+        <!-- Status message of Wi-Fi when it is authenticating with a network. -->
+        <item>Mengesahkan dengan <xliff:g id="network_name">%1$s</xliff:g>\u2026</item>
+        <!-- Status message of Wi-Fi when it is obtaining IP address from a network. -->
+        <item>Mendapatkan Alamat IP daripada <xliff:g id="network_name">%1$s</xliff:g>\u2026</item>
+        <!-- Status message of Wi-Fi when it is connected to a network. -->
+        <item>Disambungkan dari <xliff:g id="network_name">%1$s</xliff:g></item>
+        <!-- Status message of Wi-Fi when it is suspended. -->
+        <item>Digantung</item>
+        <!-- Status message of Wi-Fi when it is disconnecting from a network. -->
+        <item>Diputuskan daripada <xliff:g id="network_name">%1$s</xliff:g>\u2026</item>
+        <!-- Status message of Wi-Fi when it is disconnected. -->
+        <item>Diputuskan</item>
+        <!-- Status message of Wi-Fi when it is a failure. -->
+        <item>Tidak berjaya</item>
+        <!-- Status message of Wi-Fi when it is blocked. -->
+        <item>Disekat</item>
+        <!-- Status message of Wi-Fi when connectiong is being verified. -->
+        <item>Mengelakkan sambungan yang lemah buat sementara</item>
+    </string-array>
+
+    <!-- Match this with the constants in AccessPoint. --> <skip />
+    <!-- Wi-Fi security choices used when manually added a Wi-Fi network -->
+
+    <!-- Match this with the constants in AccessPoint. --> <skip />
+
+    <!-- Match this with the constants in WifiDialog. --> <skip />
+
+   <!-- Wi-Fi WPS setup for p2p connections.  -->
+   <!-- Note that adding/removing/moving the items will need wifi settings code change. -->
+    <string-array name="wifi_p2p_wps_setup">
+        <!-- Push button based configuration involves pushing a button on two connecting devices [CHAR LIMIT=30]-->
+        <item>Butang Tekan</item>
+        <!-- This involves entering a pin obtained from a peer device [CHAR LIMIT=30] -->
+        <item>PIN dari peranti peer</item>
+        <!-- This involves generating a pin from this device [CHAR LIMIT=20] -->
+        <item>PIN dari peranti ini</item>
+    </string-array>
+
+    <!-- Match this with the order of WifiP2pDevice.Status -->
+    <!-- Wi-Fi p2p settings device status message -->
+    <string-array name="wifi_p2p_status">
+        <item>Disambungkan</item>
+        <item>Dijemput</item>
+        <item>Tidak berjaya</item>
+        <item>Tersedia</item>
+        <item>Luar-dari-lingkungan</item>
+   </string-array>
+
+
+    <!-- Bluetooth Settings -->
+
+    <!-- Discoverable mode timeout options -->
+    <string-array name="bluetooth_visibility_timeout_entries">
+        <item>2 minit</item>
+        <item>5 minit</item>
+        <item>1 jam</item>
+        <item>Tiada masa tamat</item>
+    </string-array>
+
+    <!-- Match this with drawable.wifi_signal. --> <skip />
+    <!-- Wi-Fi settings. The signal strength a Wi-Fi network has. -->
+    <string-array name="wifi_signal">
+        <item>Lemah</item>
+        <item>Biasa</item>
+        <item>Bagus</item>
+        <item>Amat Bagus</item>
+    </string-array>
+
+    <!-- Wi-Fi settings. Presented as a list dialog to the user to choose the Wi-Fi sleep policy. -->
+    <string-array name="wifi_sleep_policy_entries">
+        <!-- Always keep Wi-Fi on when screen turns off. -->
+        <item>Sentiasa</item>
+        <!-- Keep Wi-Fi on when screen turns off and plugged in.  When on battery, go to sleep when screen turns off. -->
+        <item>Hanya ketika dipalamkan</item>
+        <!-- Do not keep Wi-Fi on when screen turns off. -->
+        <item>Jangan (Menambah penggunaan data)</item>
+    </string-array>
+
+    <!-- Wi-Fi settings. Presented as a list dialog to the user to choose the Wi-Fi sleep policy. Used when
+         the device is Wi-Fi-only. [CHAR LIMIT=30] -->
+    <string-array name="wifi_sleep_policy_entries_wifi_only">
+        <!-- Always keep Wi-Fi on when screen turns off. -->
+        <item>Sentiasa</item>
+        <!-- Keep Wi-Fi on when screen turns off and plugged in.  When on battery, go to sleep when screen turns off. -->
+        <item>Hanya ketika dipalamkan </item>
+        <!-- Do not keep Wi-Fi on when screen turns off, for Wi-Fi-only devices, no other data connection -->
+        <item>Jangan</item>
+    </string-array>
+
+    <!-- Wi-Fi settings. Presented as a list dialog to the user to choose the Wi-Fi frequency band. -->
+    <string-array name="wifi_frequency_band_entries">
+        <!-- Operation on both 2.4 GHz and 5 GHz [CHAR LIMIT=25]-->
+        <item>Auto</item>
+        <!-- Operation on 5 GHz alone [CHAR LIMIT=25]-->
+        <item>5GHz shj</item>
+        <!-- Operation on 2.4 GHz alone [CHAR LIMIT=25]-->
+        <item>2.4GHz shj</item>
+    </string-array>
+
+    <!-- Display options for UsageStats class -->
+    <string-array name="usage_stats_display_order_types">
+        <item>Masa pengunaan</item>
+        <item>Kiraan pelancaran</item>
+        <item>Nama App</item>
+    </string-array>
+
+    <!-- EAP method -->
+    <string-array name="wifi_eap_entries">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>PWD</item>
+    </string-array>
+
+    <!-- Phase 2 options -->
+    <string-array name="wifi_phase2_entries">
+        <item>Tiada</item>
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+
+    <!-- Wi-Fi IP settings. -->
+   <!-- Note that adding/removing/moving the items will need wifi settings code change. -->
+    <string-array name="wifi_ip_settings">
+        <!-- Use DHCP (Dynamic Host Configuration Protocol) for obtaining IP settings [CHAR LIMIT=25] -->
+        <item>DHCP</item>
+        <!-- Use statically defined IP settings [CHAR LIMIT=25]-->
+        <item>Statik</item>
+    </string-array>
+
+    <!-- Wi-Fi proxy settings. -->
+    <!-- Note that adding/removing/moving the items will need wifi settings code change. -->
+    <string-array name="wifi_proxy_settings">
+        <!-- No HTTP proxy is used for the current wifi network [CHAR LIMIT=25] -->
+        <item>Tiada</item>
+        <!-- Manual HTTP proxy settings are used for the current wifi network [CHAR LIMIT=25] -->
+        <item>Manual</item>
+    </string-array>
+
+    <!-- Sound settings for emergency tone. -->
+    <string-array name="emergency_tone_entries">
+        <item>Matikan</item>
+        <item>Isyarat</item>
+        <item>Bergetar</item>
+    </string-array>
+
+    <!-- Authentication Types used in APN editor -->
+    <string-array name="apn_auth_entries">
+        <item>Tiada</item>
+        <item>PAP</item>
+        <item>CHAP</item>
+        <item>PAP or CHAP</item>
+    </string-array>
+
+    <!-- Authentication Types used in APN editor -->
+    <string-array name="apn_protocol_entries">
+        <item>IPv4</item>
+        <item>IPv6</item>
+        <item>IPv4/IPv6</item>
+    </string-array>
+
+    <!-- Bearer Info used in APN editor -->
+    <string-array name="bearer_entries">
+        <item>LTE</item>
+        <item>eHRPD</item>
+        <item>Tidak ditentukan</item>
+    </string-array>
+
+    <!-- Apps on SD instalaltion location options in ApplicationSettings -->
+    <string-array name="app_install_location_entries">
+        <item>Storan peranti dalaman</item>
+        <item>Kad SD boleh ditanggalkan</item>
+        <item>Biarkan sistem membuat keputusan</item>
+    </string-array>
+
+    <!-- Titles for the list of long press timeout options. -->
+    <string-array name="long_press_timeout_selector_titles">
+        <!-- A title for the option for short long-press timeout [CHAR LIMIT=25] -->
+        <item>Pendek</item>
+        <!-- A title for the option for medium long-press timeout [CHAR LIMIT=25] -->        
+        <item>Sederhana</item>
+        <!-- A title for the option for long long-press timeout [CHAR LIMIT=25] -->
+        <item>Panjang</item>
+    </string-array>
+
+    <!-- Titles for HDCP checking preference. [CHAR LIMIT=35] -->
+    <string-array name="hdcp_checking_titles">
+        <item>Jangan semak</item>
+        <item>Semak untuk kandungan DRM sahaja</item>
+        <item>Sentiasa semak</item>
+    </string-array>
+
+    <!-- Summaries for HDCP checking preference. [CHAR LIMIT=100]-->
+    <string-array name="hdcp_checking_summaries" >
+        <item>Jangan gunakan penyemakan HDCP</item>
+        <item>Gunakan penyemakan HDCP bagi kandungan DRM sahaja</item>
+        <item>Sentiasa gunakan penyemakan HDCP</item>
+    </string-array>
+
+    <!-- Titles for window animation scale preference. [CHAR LIMIT=35] -->
+    <string-array name="window_animation_scale_entries">
+        <item>Animasi dimatikan</item>
+        <item>Skala Animasi .5x</item>
+        <item>Skala Animasi 1x</item>
+        <item>Skala Animasi 1.5x</item>
+        <item>Skala Animasi 2x</item>
+        <item>Skala Animasi 5x</item>
+        <item>Skala Animasi 10x</item>
+    </string-array>
+
+    <!-- Titles for transition animation scale preference. [CHAR LIMIT=35] -->
+    <string-array name="transition_animation_scale_entries">
+        <item>Animasi dimatikan</item>
+        <item>Skala Animasi .5x</item>
+        <item>Skala Animasi 1x</item>
+        <item>Skala Animasi 1.5x</item>
+        <item>Skala Animasi 2x</item>
+        <item>Skala Animasi 5x</item>
+        <item>Skala Animasi 10x</item>
+    </string-array>
+
+    <!-- Titles for animator duration scale preference. [CHAR LIMIT=35] -->
+    <string-array name="animator_duration_scale_entries">
+        <item>Animasi dimatikan</item>
+        <item>Skala Animasi .5x</item>
+        <item>Skala Animasi 1x</item>
+        <item>Skala Animasi 1.5x</item>
+        <item>Skala Animasi 2x</item>
+        <item>Skala Animasi 5x</item>
+        <item>Skala Animasi 10x</item>
+    </string-array>
+    
+    <!-- Titles for app process limit preference. [CHAR LIMIT=35] -->
+    <string-array name="app_process_limit_entries">
+        <item>Had standard</item>
+        <item>Tiada proses latar belakang</item>
+        <item>Paling banyak 1 proses</item>
+        <item>Paling banyak 2 proses</item>
+        <item>Paling banyak 3 proses</item>
+        <item>Paling banyak 4 proses</item>
+    </string-array>
+
+    <!-- Match this with the constants in VpnProfile. --> <skip />
+    <!-- Longer descriptions for each VPN type. [CHAR LIMIT=100] -->
+    <string-array name="vpn_types_long">
+        <item>PPTP VPN</item>
+        <item>L2TP/IPSec VPN dengan kunci prakongsi</item>
+        <item>L2TP/IPSec VPN dengan sijil</item>
+        <item>IPSec VPN dengan kunci prakongsi dan pengesahan Xauth</item>
+        <item>IPSec VPN dengan sijil dan pengesahan Xauth</item>
+        <item>IPSec VPN dengan sijil dan pengesahan Hybrid</item>
+    </string-array>
+
+    <!-- Match this with the constants in LegacyVpnInfo. --> <skip />
+    <!-- Status for a VPN network. [CHAR LIMIT=100] -->
+    <string-array name="vpn_states">
+        <!-- Status message when VPN is disconnected. -->
+        <item>Diputuskan</item>
+        <!-- Status message when VPN is initializing. -->
+        <item>Memulakan\u2026</item>
+        <!-- Status message when VPN is connecting. -->
+        <item>Menyambung\u2026</item>
+        <!-- Status message when VPN is connected. -->
+        <item>Disambungkan</item>
+        <!-- Status message when VPN is timeout. -->
+        <item>Masa Tamat</item>
+        <!-- Status message when VPN is failed. -->
+        <item>Tidak berjaya</item>
+    </string-array>
+
+    <!-- Multi SIM settings.  The type of Subscriptions to show. -->
+    <string-array name="multi_sim_entries">
+        <item>Langganan 1</item>
+        <item>Langganan 2</item>
+    </string-array>
+
+    <!-- Display settings.  Summary for each type of Subscription. -->
+    <string-array name="multi_sim_summaries">
+        <item> Langganan 1 </item>
+        <item> Langganan 2 </item>
+    </string-array>
+
+    <!-- Multi SIM voice settings.  The type of Subscriptions to show. -->
+    <string-array name="multi_sim_entries_voice">
+        <item>Langganan 1</item>
+        <item>Langganan 2</item>
+        <item>Segera</item>
+    </string-array>
+
+    <!-- Display settings.  Summary for voice Subscription. -->
+    <string-array name="multi_sim_summaries_voice">
+        <item> Langganan 1 </item>
+        <item> Langganan 2 </item>
+        <item> Pengguna Segera </item>
+    </string-array>
+
+    <!-- Multi SIM voice settings.  The type of Subscriptions to show. -->
+    <string-array name="multi_sim_entries_voice_without_prompt">
+        <item>Langganan 1</item>
+        <item>Langganan 2</item>
+    </string-array>
+
+</resources>

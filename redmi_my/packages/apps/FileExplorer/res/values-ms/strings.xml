@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">Explorer</string>
+    <string name="confirm">OK</string>
+    <string name="menu_item_ftp">FTP</string>
+    <string name="menu_item_cleanup">Pembersihan fail</string>
+    <string name="menu_item_search">Carian</string>
+    <string name="operation_create_folder">Pelipatan baru</string>
+    <string name="menu_item_sort">Ditapis oleh</string>
+    <string name="menu_item_sort_name">Nama</string>
+    <string name="menu_item_sort_size">Saiz</string>
+    <string name="menu_item_sort_date">Tarikh</string>
+    <string name="menu_item_sort_type">jenis</string>
+    <string name="operation_favorite">Tambah pada Kegemaran</string>
+    <string name="operation_unfavorite">Keluarkan daripada Kegemaran</string>
+    <string name="operation_copy">Salin</string>
+    <string name="operation_paste">tampal</string>
+    <string name="operation_move">Pindah</string>
+    <string name="operation_send">Hantar</string>
+    <string name="operation_rename">menamakan semula</string>
+    <string name="operation_delete">Padam</string>
+    <string name="operation_info">Perincian</string>
+    <string name="operation_cancel">Batal</string>
+    <string name="operation_refresh">Refresh</string>
+    <string name="operation_show_sys">Tunjukkan fail tersembunyi</string>
+    <string name="operation_hide_sys">Menyembunyikan fail tersembunyi</string>
+    <string name="cancel">Membatal</string>
+    <string name="background">Muat turun di latar belakang</string>
+    <string name="no_file">Tiada fail</string>
+    <string name="tab_category">Membaca</string>
+    <string name="tab_phone">Peranti</string>
+    <string name="category_all">Keseluruhan</string>
+    <string name="category_music">Muzik</string>
+    <string name="category_video">Video</string>
+    <string name="category_picture">Gambar</string>
+    <string name="category_theme">Thema</string>
+    <string name="category_document">Dokumen</string>
+    <string name="category_zip">Zip</string>
+    <string name="category_apk">APKs</string>
+    <string name="category_other">Dan lain-lain</string>
+    <string name="category_favorite">Kegemaran</string>
+    <string name="category_bluetooth">Bluetooth</string>
+    <string name="category_log">Log</string>
+    <string name="operation_rename_message">Masukkan nama baru</string>
+    <string name="operation_create_folder_message">Masukan nama pelipatan</string>
+    <string name="operation_delete_confirm_message">Pemadaman disahkan?</string>
+    <string name="operation_delete_confirm_message_folder">"Memadam folder juga akan memadam semua fail di dalamnya."</string>
+    <string name="delete_folder">Adakah anda pasti anda mahu memadam pelipat yang dipilih?</string>
+    <string name="delete_folders">Adakah anda pasti anda mahu memadam  %1$d pelipat yang dipilih?</string>
+    <string name="delete_file">Padam?</string>
+    <string name="delete_files">Adakah anda pasti anda mahu memadam yang dipilih %1$d file?</string>
+    <string name="delete_files_and_folders">Adakah anda pasti anda mahu memadam yang dipilih %1$d file dan %2$d pelipat?</string>
+    <string name="new_folder_name">Pelipat baru</string>
+    <string name="sd_card_size">Kad SD: <xliff:g id="total_size">%1$s</xliff:g></string>
+    <string name="sd_card_available">Ruang yang tersedia: <xliff:g id="available_size">%1$s</xliff:g></string>
+    <string name="file_info_location">Lokasi:</string>
+    <string name="file_info_size">"Saiz: "</string>
+    <string name="file_info_modified">"Modifikasi: "</string>
+    <string name="file_info_canread">"Dibacai: "</string>
+    <string name="file_info_canwrite">"Ditulis: "</string>
+    <string name="file_info_ishidden">"Tersembunyi: "</string>
+    <string name="yes">Ya</string>
+    <string name="no">Tidak</string>
+    <string name="operation_deleting">Memadamkan\u2026</string>
+    <string name="operation_pasting">Menampal\u2026</string>
+    <string name="operation_moving">Sedang memindah\u2026</string>
+    <string name="confirm_know">OK</string>
+    <string name="error_info_cant_send_folder">Gagal menghantar ke pelipat</string>
+    <string name="fail_to_create_folder">Gagal untuk mencipta pelipat, pelipat tersebut sudah sedia ada</string>
+    <string name="fail_to_create_folder_unknown">Gagal mencipta : kesilapan tidak diketahui .</string>
+    <string name="fail_to_rename">Gagal menamakan semula fail atau pelipat sudah wujud</string>
+    <string name="error_filename_too_long">Nama file terlalu panjang</string>
+    <string name="enable_sd_card">Kad SD tidak boleh didapati, sila memasang satu</string>
+    <string name="start_server">Mula Perkhidmatan</string>
+    <string name="stop_server">Hentikan Perkhidmatan</string>
+    <string name="notif_server_starting">FTP server bermula\u2026</string>
+    <string name="notif_title">FTP server</string>
+    <string name="storage_warning">Memori Kad SD tidak ada atau tidak boleh dibaca</string>
+    <string name="wifi_state">Status Wi-Fi </string>
+    <string name="instruction_pre">Memulakan perkhidmatan untuk membolehkan pelayan FTP</string>
+    <string name="instruction">Masukkan alamat berikut ke dalam Pelanggan FTP anda:</string>
+    <string name="no_wifi">Tiada rangkaian Wi-Fi</string>
+    <string name="no_wifi_hint">Tiada rankaian Wi-Fi dijumpai</string>
+    <string name="search_title">Cari Fail</string>
+    <string name="search_hint">Cari Fail </string>
+    <string name="dialog_select_type">Pilih jenis fail</string>
+    <string name="dialog_type_text">Text</string>
+    <string name="dialog_type_audio">Audio</string>
+    <string name="dialog_type_video">Video</string>
+    <string name="dialog_type_image">Imej</string>
+    <string name="favorite_photo">Photo</string>
+    <string name="favorite_screen_cap">Screenshots</string>
+    <string name="favorite_ringtone">Ringtones</string>
+    <string name="file_loading">Sedang memuatkan\u2026</string>
+    <string name="multi_select_title"><xliff:g id="number">%1$s</xliff:g> item dipilih</string>
+    <string name="tab_networkdisk">MiDrive</string>
+    <string name="operation_download_link">Menjana link muat turun </string>
+    <string name="ui_filechange_btn_download">Muat turun fail</string>
+    <string name="show_message">Fail tidak boleh dibuka tanpa memuat turun</string>
+    <string name="ui_main_progress_txt_open_file">Muat turun\u2026</string>
+    <string name="networkView_notConnected">Tiada rangkaian yang tersedia</string>
+    <string name="ui_main_toast_favorite_removed">Kegemaran dikeluarkan</string>
+    <string name="ui_main_toast_operation_failed"> Pengeluaran Kegemaran %1$s gagal.</string>
+    <string name="user_guide">Panduan Pengguna</string>
+    <string name="user_guide_summary">How to use MiDrive</string>
+    <string name="rename_failed">Penamaan semula《%1$s gagal</string>
+    
+    <plurals name="directory_item_count">
+        <item quantity="one">1 item</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> items</item>
+    </plurals>
+    
+    <string name="directory_no_item">Pelipat Kosong</string>
+    <string name="error_open_file_failed_no_app_found">Tiada aplikasi didapati membuka fail.</string>
+    <string name="no_enough_space">Tiada simpanan yang cukup</string>
+    <string name="directory_info_divider">"  |  "</string>
+    
+    <string name="no_enough_storage_title">Tiada simpanan yang cukup</string>
+    <string name="no_enough_storage_indication">Penyimpanan tidak cukup, menampal gagal. Sila memadam fail yang tidak perlu dan cuba lagi, atau menggunakan File Cleanup untuk melepaskan ruang.</string>
+    
+    <string name="ui_bar_txt_download_progress">%1$d fails Muat turun</string>
+    <string name="ui_bar_txt_upload_progress">%1$d fails Memuat naik</string>
+    <string name="ui_main_menu_option_task_manage">memindahkan Pengurusan</string>
+    <string name="kuaipan_label">Kuaipan</string>
+    <string name="create_kuaipan_shortcut_pref">Membuat jalan pintas ke desktop</string>
+    <string name="login_reg_content0">MiDrive adalah storan Cloud anda</string>
+    <string name="login_reg_content">MiDrive membantu anda menyimpan fail-fail dan sync mereka di antara pelbagai peranti.</string>
+    <string name="start_use_xiaomi_account">Daftar masuk</string>
+    <string name="pan_settting">tetapan MiDrive</string>
+    <string name="xiaomi_account">Xiaomi account</string>
+    <string name="space_usage">penggunaan</string>
+    <string name="used">Digunakan</string>
+    <string name="loading">Memuatkan\u2026</string>
+    <string name="load_err">Gagal memuat</string>
+    <string name="local_cache_size">Saiz cache tempatan: %s</string>
+    <string name="net_lose_connected">Rangkaian tidak boleh didapati, tidak boleh mendapatkan saiz</string>
+    <string name="wangpan_root_path">My Drive</string>
+    <string name="kuaipan_over_space">MiDrive anda tidak mempunyai ruang yang tinggal.</string>
+    <string name="kuaipan_tech_support">Sokongan teknikal yang disediakan oleh Xiaomi</string>
+    <string name="no_tasks">Tiada tugasan</string>
+    <string name="no_more_space">Tiada ruang bebas</string>
+    <string name="sd_full">Kad SD penuh</string>
+    <string name="file_too_large">"Fail tersebut adalah terlalu besar dan tidak boleh dimuat naik"</string>
+    
+    <string name="create_new_folder_failed">Gagal mencipta folder</string>
+    <string name="user_guide_kuaipan_copy">"Gunakan MiDrive untuk berkongsi fail anda antara pelbagai peranti"</string>
+    <string name="user_guide_upload_to_kuaipan">"Muat turun versi alternatif MiDrive"</string>
+    <string name="user_guide_download_other_version">"Muat turun MiDrive untuk PC atau OSX"</string>
+    <string name="user_guide_other_version">Download alternative versions of MiDrive</string>
+    <string name="upload_file_toolarge_message">"%1$d fail yang lebih besar daripada 300MB tidak boleh dimuat naik. Sila semak Pengurusan Pemindahan untuk maklumat."</string>
+    <string name="cution">Tips</string>
+    
+    <string name="clean_trash_box">Kosongkan</string>
+    <string name="trash_box_link">Lawati <b>pan.xiaomi.com</b> untuk mengosongkan sampa</string>
+    <string name="clean_title">Padam fail lebih daripada 30 hari dalam tong sampah</string>
+    <string name="clean_message">Memadam %1$s</string>
+    <string name="trash_box_message1">"Anda boleh memadam fail yang tidak perlu untuk membebaskan ruang"</string>
+    <string name="trash_box_message2">"Anda boleh memadam fail atau membersihkan sampah untuk membebaskan ruang"</string>
+    <string name="close">Tutup</string>
+    <string name="space_info">"Ruang rangkaian: %1$s tersedia ada，jumlah: %2$s"</string>
+    <string name="trash_box_capacity">"Ruang sampah: %1$s"</string>
+    <string name="data_capacity">Jumlah Ruang: %1$s</string>
+    
+    <string name="send_to_midrive">Hantar ke MiDrive</string>
+    <string name="choose_upload_location">Memilih lokasi upload</string>
+    <string name="send_to_midrive_failed_message">Gagal menghantar kepada MiDrive. Kandungan tidak disokong</string>
+    <string name="operation_compress">Mampat</string>
+    <string name="compress_title">Mampat</string>
+    <string name="compress_message">Mampat ke:</string>
+    <string name="compress_fail">Mampatan gagal, destinasi sudah pun wujud</string>
+    <string name="operation_compressing">Memampatkan\u2026</string>
+    <string name="operation_decompressing">Nyahmampatkan\u2026</string>
+    <string name="decompress_success">Nyahmampat berjaya</string>
+    <string name="decompress_fail">Nyahmampat gagal!</string>
+    
+    <string name="decompress_to_here">Nyahmampat ke sini</string>
+    <string name="decompress_to">Nyahmampat ke\u2026</string>
+    
+    <string name="decompress_confirm">Nyahmampat?</string>
+    <string name="decompress_cancel">Batal</string>
+    
+    <string name="kuaipan_prompt">Bantuan MiDrive</string>
+    <string name="kuaipan_prompt_message">" Pelayan kini tidak tersedia, sila cuba lagi kemudian"</string>
+    <string name="move_failed">Gagal untuk dipindahkan</string>
+    <string name="copy_failed">Gagal menyalin</string>
+    <string name="delete_failed">Memadaman Gagal</string>
+    <string name="toast_file_not_can_read">Fail tidak boleh dibaca atau rosak.</string>
+    
+    <string name="ui_main_menu_option_sign_in">daftar masuk</string>
+    <string name="sign_description">Mendaftar masuk\u2026</string>
+    <string name="signin_error">Gagal menyambung ke rangkaian buat masa kini, sila cuba lagi</string>
+    <string name="signin_success">"Daftar masuk berjaya!: %1$s"</string>
+    <string name="already_signin_description">Anda telah dilog masuk</string>
+    <string name="pull_to_signin">Seret ke bawah untuk mendaftar masuk dan mendapatkan ruang cakera bebas</string>
+    <string name="release_to_signin">Lepaskan untuk log masuk</string>
+    
+    <string name="server_control_settings">Tetapan pelayan</string>
+    <string name="server_control_advanced_settings">tetapan lanjutan</string>
+    <string name="server_control_charset">Pemindahan pengekodan</string>
+    
+    <string name="utf8_title">UTF-8</string>
+    <string name="utf8_summary">Jenis Pengekodan lalai</string>
+    
+    <string name="gbk_title">GBK</string>
+    <string name="gbk_summary">Jika anda menggunakan pengekodan GBK, contohnya Windows Explorer, memilih jenis ini pengekodan untuk mengelakkan teks Cina tidak teratur</string>
+    
+    <string name="big5_title">BIG5</string>
+    <string name="big5_summary">Pengekodan umum versi Cina sistem Windows tradisional</string>
+    
+    <string name="stay_awake_title">Dibiarkan terjaga</string>
+    <string name="stay_awake_summary">Memastikan skrin terjaga apabila menggunakan FTP</string>
+    
+    <string name="ftp_transfer_secure">Pemindahan FTP terjamin</string>
+    <string name="ftp_port_number">Port</string>
+    <string name="ftp_account_req_notice">Nama pengguna dan kata laluan, 4~16 huruf, mengandungi angka, huruf abjad, kes sensitif</string>
+    <string name="ftp_open_port_error">Tidak dapat membuka port FTP terpilih, periksa sambungan rangkaian anda dan cuba lagi.</string>
+    <string name="ftp_anonymous_login">FTP tanpa nama</string>
+    <string name="ftp_username_and_passworld">kata nama dan kata laluan</string>
+    <string name="ftp_username_hint">Kata nama</string>
+    <string name="ftp_password_hint">Kata laluan</string>
+    <string name="ftp_invalid_username_or_password">Pengesahan Gagal</string>
+    
+    <string name="add_task">Tambah tugasan</string>
+    <string name="adding_upload_tasks">Menambah tugasan upload\u2026</string>
+    <string name="create_new_folder_desctiption">Mencipta folder baru\u2026</string>
+    <string name="create_share_link_description">Mencipta pautan berkongsi\u2026</string>
+    <string name="rename_description">Penamaan semula, sila tunggu\u2026</string>
+    <string name="share_link_failed">Menjana folder external link gagal</string>
+    <string name="choose_send_type">Pilihan jenis penghantaran</string>
+    <string name="download_link_completed">Saya telah berkongsi %1$s melalui MiDrive. Klik pautan di bawah untuk melihat </string>
+    
+    <string name="transing">memindahkan\u2026</string>
+    <string name="finished">Ditamatkan</string>
+    <string name="uploading">Memuat naik\u2026</string>
+    <string name="downloading">Memuat turun\u2026</string>
+    <string name="waiting">Menunggu\u2026</string>
+    <string name="wait_wifi">Menunggu sambungan Wi-Fi\u2026</string>
+    <string name="wait_net">Menunggu rangkaian\u2026</string>
+    <string name="wait_sdcard">Menunggu kad SD pasang\u2026</string>
+    <string name="paused">Hentikan</string>
+    <string name="upload_failed">Muat naik gagal!</string>
+    <string name="download_failed">Muat turn gagal!</string>
+    <string name="operation_pause">Berhenti</string>
+    <string name="operation_resume">Meyambung semula</string>
+    <string name="operation_pause_all">Berhenti semua</string>
+    <string name="operation_resume_all">Meyambung semula semua</string>
+    <string name="operating">Berjalan\u2026</string>
+    
+    <string name="trans_task">pemindahan rangkaian</string>
+    <string name="des_running_trans">Terdapat %1$d fail yang masih perlu dipindahkan</string>
+    <string name="trans_task_delete_confirm_message">Adakah anda pasti anda mahu memadam yang dipilih %1$d tugas?</string>
+    <string name="forward_to_web_recycle_prompt">&lt;a href=\"%1$s\">Klik sini&lt;/a>membuka tong kitar semula cloud</string>
+    
+    <string name="storage_internal">Memori Peranti</string>
+    <string name="storage_sd_card">kad SD</string>
+    <string name="storage_usb">Memori USB</string>
+    <string name="bind_account">Mengikat ke akaun MiDrive</string>
+    <string name="bind_account_summary">Jikalau anda sudah mempunyai akaun MiDrive anda boleh menambah ia untuk mendapatkan semula data peribadi anda</string>
+    <string name="binded_accout_title">Akaun MiDrive</string>
+    <string name="binded_accout_description">Akaun digabungkan, menggunakan sama ada akaun Xiaomi anda atau akaun MiDrive untuk log masuk, kedua-dua boleh membaca data anda</string>
+    
+    <!-- for 文件清理 -->
+    <string name="file_cleanup">Pembersihan fail</string>
+    <string name="scanning_on_going">Mengimbas\u2026</string>
+    <string name="scanning">Imbas <xliff:g id="count">%d</xliff:g> aplikasi\u2026 (jumlah <xliff:g id="total">%d</xliff:g> aplikasi)</string>
+    <string name="sys_size_title">Jumlah Ruang</string>
+    <string name="sys_size">Jumlah ruang <xliff:g id="size">%1$s</xliff:g></string>
+    <string name="application_size_label">Aplikasi</string>
+    <string name="data_size_label">Data</string>
+    <string name="cache_size_label">Cache</string>
+    <string name="sd_size_label">Simpanan kad SD</string>
+    <string name="version_text">Versi <xliff:g id="version_num">%1$s</xliff:g></string>
+    <string name="uninstall_app_data">Memadamkan aplikasi dan data</string>
+    <string name="start_cleanup">mula pembersihan</string>
+    
+    <string name="header_text_scanning">Mengimbas fail-fail sampah\u2026</string>
+    <string name="header_text_scanned">Fail sampah dijumpai untuk dibersihkan</string>
+    <string name="header_text_cleaning">Pembersihan sampah yang ditinggalkan\u2026</string>
+    <string name="header_text_cleaned">Sampah dipadamkan</string>
+    
+    <string name="waiting_for_cleaning">Menunggu untuk pembersihan\u2026</string>
+    <string name="item_name">Tiada nama</string>
+    <string name="waiting_for_scanning">Menunggu untuk mengimbas\u2026</string>
+    <string name="scanned">Imbas siap</string>
+    <string name="cleaning">Pembersihan\u2026</string>
+    <string name="cleaned">Pembersihan siap</string>
+    <string name="cleanup_stopped">Pembershian dihentikan</string>
+    
+    <string name="temp_file_title">Fail sementara</string>
+    <string name="thumbnail_title">Thumbnail files</string>
+    <string name="app_cache_title">Cache aplikasi</string>
+    <string name="empty_dir_title">Kosongkan pelipat</string>
+    <string name="app_garbage_title">Sampah aplikasi</string>
+    
+    <string name="temp_file_cleanup_indication" formatted="false">%s temporary files</string>
+    <string name="thumbnail_cleanup_indication" formatted="false">%s thumbnails</string>
+    <string name="app_cache_cleanup_indication" formatted="false">%s cache</string>
+    <string name="empty_dir_cleanup_indication" formatted="false">%s other files</string>
+    <string name="app_garbage_cleanup_indication" formatted="false">%s trash</string>
+    
+    <string name="no_temp_file_indication">Tiada fail sementara</string>
+    <string name="no_thumbnail_indication">Tiada fail thumbnail</string>
+    <string name="no_app_cache_indication">Tiada cache aplikasi</string>
+    <string name="no_empty_dir_indication">Tiada direktori kosong</string>
+    <string name="no_app_garbage_indication">Tiada sampah aplikasi</string>
+    
+    <string name="cancel_app_garbage_cleanup">Menbatalkan aplikasi pembersihan</string>
+    <string name="clean_app_garbage" formatted="false">Delete %d item(s)</string>
+    <string name="app_garbage_path">Lokasi:</string>
+    
+    <string name="give_up_cleaning">Batal pembersihan</string>
+    <string name="restart_cleaning">Mulakan semula</string>
+    <string name="cleanup_complete">Pembersihan berjaya</string>
+    
+    <string name="count_down_time">Mula selepas %d saat</string>
+    <string name="cancel_with_count_down">Batal (%d)</string>
+    
+    <string name="garbage_size_metric" formatted="false">Trash\: %s\n</string>
+    
+    <string name="account_bind_prompt">"Pemindahan data pengguna, akaun anda akan dikunci sementara, sila tunggu\u2026"</string>
+    <string name="migrate_announcement_title">Pemindahan account</string>
+    <string name="migrate_announcement_msg">Jika anda mempunyai akaun, anda boleh mengikat ia dalam aturan dan akses keutamaan</string>
+    <string name="query_bind_state">Menyemak status mengikat, sila tunggu\u2026</string>
+    <string name="operation_deleting_detail">memadamkan fail (%1$d/%2$d)</string>
+    <string name="operation_moving_detail">Memindah fail (%1$d/%2$d)</string>
+    <string name="operation_copying">Meyalinkan\u2026</string>
+    <string name="operation_copying_detail">Meyalinkan fail (%1$d/%2$d)</string>
+    <string name="name_illegal">Nama fail tidak boleh kosong</string>
+    <string name="open_changed_file_title">fail diubahsuai</string>
+    <string name="open_changed_file_message">"Fail yang anda cuba untuk membuka telah diubahsuai, anda boleh:
+    1. Muat turun (mengemaskini fail tempatan)
+    2. Memuat naik (mengemas kini fail jauh))"</string>
+    <string name="ui_filechange_btn_upload">Memuat naik fail</string>
+    <string name="folder_exist">Pelipat sudah wujud</string>
+    
+    <!-- for unmount usb storage -->
+    <string name="unmount_inform_text">Penyimpanan USB akan ditanggalkan.</string>
+    <string name="dlg_error_unmount_text">"Tidak dapat menanggalkan storan USB. Cuba lagi kemudian."</string>
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Suara</string>
+    <string name="not_launch_while_calling">Bantuan suara tidak boleh digunakan sewaktu panggilan</string>
+    <string name="net_not_connected">Sila periksa sambungan rangkaian</string>
+    <string name="no_engine">Enjin pengecaman suara tidak dipasang</string>
+    <string name="not_understand">Maaf, saya tidak faham. (Saya tidak boleh berbahasa Inggeris lagi, tapi anda boleh bercakap bahasa Cina dengan saya) :)</string>
+    <string name="user_upload_success">Muat naik berjaya</string>
+    <string name="contact_not_found">Kenalan tidak ditemui.</string>
+    <string name="contact_select">Pilih kenalan</string>
+    <string name="calling">Memanggil %1$s %2$s</string>
+    <string name="sending">Menghantar: %1$s</string>
+    <string name="sending_content">%1$s hantar ke: </string>
+    <string name="alarming">Peringatan: %1$s %2$s</string>
+    <string name="clocking">Penggera ditambah, sentuh untuk lihat</string>
+    <string name="calendaring">Acara ditambah, sentuh untuk lihat</string>
+    <string name="calendaring_cancel">Batal isyarat</string>
+    <string name="over_24h_clock_operation">Tidak boleh set jam penggera 24 jam yang lepas.</string>
+    <string name="new_clock_tip">Isyarat baru</string>
+    <string name="help_content">Anda perlukan bantuan?</string>
+    <string name="help_tip">Anda boleh gunakan arahan suara berikut:</string>
+    <string name="info_insufficient">Informasi tidak mencukupi</string>
+    <string name="unknown_location">Lokasi tidak diketahui</string>
+    <string name="unknown_website">Laman web tidak ditemui</string>
+    <string name="channel_not_support">Enjin carian tidak disokong</string>
+
+    <string name="china_date">Kalendar Lunar: %1$s tahun %2$s bulan %3$s</string>
+    <string name="next_date">%1$s minggu</string>
+
+    <string name="contacts">Kenalan</string>
+    <string name="app_launching">Membuka app</string>
+    <string name="app_not_found">App tidak dipasang</string>
+    <string name="click_download">Klik untuk muat turun</string>
+    <string name="stock_not_found">Tiada saham ditemui</string>
+    <string name="ticket_not_found">Tiada maklumat tiket ditemui</string>
+
+    <string name="find_restaurant_nearby">Cari restoran berdekatan</string>
+    <string name="find_more_restaurant">Lihat restoran lagi</string>
+    <string name="restaurant_more">Lagi restoran berdekatan</string>
+    <string name="restaurant_detail">Butiran restoran</string>
+    <string name="restaurant_comment">Ulasan restoran</string>
+    <string name="telephone">Telefon:</string>
+    <string name="address">Alamat:</string>
+    <string name="net_recommend">Cadangan rakanf: %1$s</string>
+    <string name="restaurant_feature">Kemudahan restoran:</string>
+    <string name="net_comment">Ulasan pengguna</string>
+    <string name="avg_price">Harga: %1$s yuan</string>
+
+    <string name="cancel">Batal</string>
+    <string name="finish">Selesai</string>
+    <string name="confirm">OK</string>
+    <string name="new_alarm">Peringatan baru</string>
+    <string name="alarm">Peringatan</string>
+    <string name="confirm_cancel">Batal?</string>
+    <string name="new_clock">Set penggera baru</string>
+    <string name="adding_alarm">Tambah peringatan baru</string>
+
+    <string name="new_message">Mesej baru</string>
+    <string name="content">Kandungan</string>
+    <string name="sms_sent_success">Mesej dihantar</string>
+    <string name="sms_sent_cancel">Batal penghantaran mesej</string>
+
+    <string name="setting">Tetapan</string>
+    <string name="about">Tentang</string>
+    <string name="quit">Keluar</string>
+
+    <string name="in_calling">Panggilan masuk</string>
+    <string name="unknown_num">Nombor tidak diketahui</string>
+
+    <string name="in_sms">Mesej masuk</string>
+    <string name="sms_sender">Penghantar</string>
+    <string name="sms_content">kandungan</string>
+
+    <string name="you_can_say_so">Anda boleh kata: </string>
+    <string name="model_name">Model</string>
+    <string name="china">China</string>
+</resources>

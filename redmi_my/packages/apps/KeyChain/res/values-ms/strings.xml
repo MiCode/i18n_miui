@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2011 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Rantai Kunci</string>
+
+    <!-- Dialog title when no certificates were found -->
+    <string name="title_no_certs">Tiada perakuan ditemui</string>
+
+    <!-- Dialog title when at least one certificate was found -->
+    <string name="title_select_cert">Pilih perakuan</string>
+
+    <!-- Used at top of dialog to identify requesting application -->
+    <string name="requesting_application">Aplikasi ini %s telah meminta perakuan. Memilih perakuan akan membenarkan aplikasi guna identiti ini dengan server sekarang dan masa akan datang.</string>
+
+    <!-- Used at top of dialog to identify requesting server (may be host:port or just host)-->
+    <string name="requesting_server">Aplikasi ini telah kenalpasti permintaan server sebagai %s, tapi anda hanya harus memberi apps akses kepada perakuan jika anda percaya app tersebut.</string>
+
+    <!-- Label of button to send the user to the CertInstaller to install a certificate (arguments are constants for .pfx and .p12) -->
+    <string name="install_new_cert_message">Anda boleh memasang perakuan daripada fail PKCS#12 dengan %1$s atau sambungan %2$s yang berada dalam storan luar.</string>
+
+    <!-- Label of button to send the user to the CertInstaller to install a certificate -->
+    <string name="install_new_cert_button_label">Pasang</string>
+
+    <!-- Label of button to send the allow the application certificate request -->
+    <string name="allow_button">Benar</string>
+
+    <!-- Label of button to send the deny the application certificate request -->
+    <string name="deny_button">Nafi</string>
+
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Bantuan Suara</string>
+    <string name="title_activity_check">Pasang Bantuan Suara</string>
+    <string name="content">Bantuan Suara tidak dipasang, sila ke Market dan pasang ia？</string>
+    <string name="cancel">Batal</string>
+    <string name="confirm">OK</string>
+</resources>

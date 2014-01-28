@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string name="app_name">CellConnectionService</string>
+	<string name="button_ok">OK</string>
+	<string name="button_cancel">Cancel</string>
+	<string name="confirm_radio_title">SIM has been turned off</string>
+	<string name="confirm_radio_msg">
+		<xliff:g id="operator_name" example="CMCC">%1$s</xliff:g>
+		is turned off. Would you like to activate this SIM card?
+	</string>
+	<string name="confirm_radio_flight_mode_on_and_msg">
+		Airplane mode is on and
+  </string>
+	<string name="confirm_radio_flight_mode_on_sim_off_msg">
+		<xliff:g id="operator_name" example="CMCC"> %1$s</xliff:g>
+		is turned off. Would you like to turn off Airplane mode and activate this SIM card?
+	</string>
+	<string name="confirm_radio_flight_mode_on_sim_on_msg">
+   Turn off Airplane mode? 
+  </string>  
+	<string name="confirm_radio_msg_single">
+		Turn off Airplane mode? 
+	</string>
+	<string name="confirm_pin_title">SIM card locked</string>
+	<string name="confirm_pin_msg">The selected SIM card is locked.</string>
+	<string name="confirm_simmelock_title">SIM ME locked</string>
+	<string name="confirm_simmelock_msg">The selected SIM slot is locked.</string>
+	<string name="confirm_fdn_title">FDN enabled</string>
+	<string name="confirm_fdn_msg">The fixed dialing numbers are enabled.</string>
+	<string name="confirm_roaming_title">Roaming warning</string>
+	<string name="confirm_roaming_msg">The SIM card that you are about to use is
+		now roaming. You may incur additional carrier charges as a result. Would you like to continue?</string>
+  <string name="confirm_roaming_withPrefer_msg">
+    The SIM card that you are about to use is now
+    roaming. Would you like to use your local SIM instead?
+  </string>
+  <string name="confirm_roaming_lbutton">Continue</string>
+  <string name="confirm_roaming_rbutton">Cancel</string>
+  <string name="confirm_roamingWithPrefer_lbutton">Local SIM</string>
+  <string name="confirm_roamingWithPrefer_rbutton">Roaming SIM</string>
+	<string name="confirm_radio_lbutton">Turn on</string>
+	<string name="confirm_unlock_lbutton">Unlock</string>
+	<string name="confirm_unlock_fail">Canceled</string>
+	<string name="confirm_turnon_radio_fail">Canceled</string>
+	<string name="confirm_permit_roaming_fail">You canceled this action on your roaming SIM card.</string>
+	<string name="confirm_sim_locked_message">SIM card has been permanently locked.</string>
+    <string name="confirm_slot_locked_message">SIM slot has been permanently locked.</string>
+</resources>

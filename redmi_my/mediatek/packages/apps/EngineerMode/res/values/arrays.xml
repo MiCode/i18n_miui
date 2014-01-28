@@ -1,0 +1,811 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- Bluetooth start -->
+	<string-array name="bt_chip_id">
+	    <item>MT6611</item>
+	    <item>MT6612</item>
+	    <item>MT6616</item>
+	    <item>MT6620</item>
+	    <item>MT6622</item>
+	    <item>MT6626</item>
+	    <item>MT6628</item>				
+	</string-array>
+
+	<string-array name="bt_chip_eco">
+	    <item>UNKNOWN</item>
+	    <item>E1</item>
+	    <item>E2</item>
+	    <item>E3</item>
+	    <item>E4</item>
+	    <item>E5</item>
+	    <item>E6</item>
+	    <item>E7</item>				
+	</string-array>
+	
+	<string-array name="bt_baudrate">
+	    <item>9600</item>
+	    <item>19200</item>
+	    <item>38400</item>
+	    <item>57600</item>
+	    <item>115200</item>
+	    <item>230400</item>
+	    <item>460800</item>
+	    <item>500000</item>	
+	    <item>576000</item>
+	    <item>921600</item>				
+	</string-array>
+
+	<string-array name="bt_uart">
+	    <item>UART1</item>
+	    <item>UART2</item>
+	    <item>UART3</item>
+	    <item>UART4</item>
+	    <item>USB</item>			
+	</string-array>
+
+    <string-array name="bt_ble_test_pattern">
+        <item>PRBS9</item>
+        <item>11110000</item>
+        <item>10101010</item>      
+    </string-array>	
+
+    <string-array name="rx_Pocket_type">
+        <item>NULL</item>
+        <item>POLL</item>
+        <item>FHS</item>
+        <item>DM1</item>
+        <item>DH1</item>
+        <item>HV1</item>
+        <item>HV2</item>
+        <item>HV3</item>
+        <item>DV</item>
+        <item>AUX</item>
+        <item>DM3</item>
+        <item>DH3</item>
+        <item>DM5</item>
+        <item>DH5</item>
+        <item>EV3</item>
+        <item>EV4</item>
+        <item>EV5</item>
+    </string-array>
+    
+    
+	<!-- Bluetooth end -->
+    <string-array name="tx_pattern">
+        <item>0000</item>
+        <item>1111</item>
+        <item>1010</item>
+        <item>Pseudo random bit</item>
+        <item>11110000</item>
+    </string-array>
+    <string-array name="tx_channels">
+        <item>Single Frequency</item>
+        <item>79 Channel</item>
+    </string-array>
+    <string-array name="tx_Pocket_type">
+        <item>NULL(0x00)</item>
+        <item>POLL(0x01)</item>
+        <item>FHS(0x02)</item>
+        <item>DM1(0x03)</item>
+        <item>DH1(0x04)</item>
+        <item>HV1(0x05)</item>
+        <item>HV2(0x06)</item>
+        <item>HV3(0x07)</item>
+        <item>DV(0x08)</item>
+        <item>AUX(0x09)</item>
+        <item>DM3(0x0A)</item>
+        <item>DH3(0x0B)</item>
+        <item>DM5(0x0E)</item>
+        <item>DH5(0x0F)</item>
+        <item>EV3(0x17)</item>
+        <item>EV4(0x1C)</item>
+        <item>EV5(0x1D)</item>
+        <item>2-DH1(0x24)</item>
+        <item>3-DH1(0x28)</item>
+        <item>2-DH3(0x2A)</item>
+        <item>3-DH3(0x2B)</item>
+        <item>2-DH5(0x2E)</item>
+        <item>3-DH5(0x2F)</item>
+        <item>2-EV3(0x36)</item>
+        <item>3-EV3(0x37)</item>
+        <item>2-EV5(0x3C)</item>
+        <item>3-EV5(0x3D)</item>
+        <item>non-modulated</item>
+    </string-array>
+    <string-array name="working_mode_audio_channels">
+        <item>No Change</item>
+        <item>AL2 WithSeqNum</item>
+        <item>AL2 WithoutSeqNum</item>
+        <item>AL3 ControlFieldSize0</item>
+        <item>AL3 ControlFieldSize1</item>
+        <item>AL3 ControlFieldSize2</item>
+    </string-array>
+    <string-array name="working_mode_audio_channels_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="working_mode_video_channels">
+        <item>No Change</item>
+        <item>AL2 WithSeqNum</item>
+        <item>AL2 WithoutSeqNum</item>
+        <item>AL3 ControlFieldSize0</item>
+        <item>AL3 ControlFieldSize1</item>
+        <item>AL3 ControlFieldSize2</item>
+    </string-array>
+    <string-array name="working_mode_video_channels_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="working_mode_video_channels_reverse">
+        <item>No Change</item>
+        <item>Reverse Data</item>
+        <item>Reverse NULL</item>
+    </string-array>
+    <string-array name="working_mode_video_channels_reverse_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="working_mode_multiplex_level">
+        <item>No Change</item>
+        <item>MuxLevel 0</item>
+        <item>MuxLevel 1</item>
+        <item>MuxLevel 1 With Double Flag</item>
+        <item>MuxLevel 2</item>
+        <item>MuxLevel 2 With Optional Header</item>
+        <item>MuxLevel 3</item>
+        <item>MuxLevel 3 With Optional Header</item>
+    </string-array>
+    <string-array name="working_mode_multiplex_level_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="working_mode_video_codec_preference">
+        <item>No Change</item>
+        <item>MPEG4_H263</item>
+        <item>H263_MPEG4</item>
+    </string-array>
+    <string-array name="working_mode_video_codec_preference_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="working_mode_use_wnsrp">
+        <item>No Change</item>
+        <item>OFF</item>
+        <item>ON</item>
+    </string-array>
+    <string-array name="working_mode_use_wnsrp_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="working_mode_terminal_type">
+        <item>No Change</item>
+        <item>Normal</item>
+        <item>Master</item>
+        <item>Slave</item>
+    </string-array>
+    <string-array name="working_mode_terminal_type_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="log_filter_tags">
+        <item>VT_DEFAULT</item>
+        <item>VT_VTS_CLIENT</item>
+        <item>VT_VTS_SERVICE</item>
+        <item>VT_SWIP</item>
+        <item>VT_MAL</item>
+        <item>TAG_5</item>
+        <item>TAG_6</item>
+    </string-array>
+    <string-array name="nsrx_pattern">
+        <item>0000</item>
+        <item>1111</item>
+        <item>1010</item>
+        <item>Pseudo random bit</item>
+        <item>11110000</item>
+    </string-array>
+    <string-array name="nsrx_Pocket_type">
+        <item>DM1(0x03)</item>
+        <item>DH1(0x04)</item>
+        <item>DM3(0x0A)</item>
+        <item>DH3(0x0B)</item>
+        <item>DM5(0x0E)</item>
+        <item>DH5(0x0F)</item>
+        <item>2-DH1(0x24)</item>
+        <item>3-DH1(0x28)</item>
+        <item>2-DH3(0x2A)</item>
+        <item>3-DH3(0x2B)</item>
+        <item>2-DH5(0x2E)</item>
+        <item>3-DH5(0x2F)</item>
+    </string-array>
+    <string-array name="modem_test_cta_options">
+        <item>Integrity Check</item>
+        <item>RLC TL1</item>
+        <item>K1297</item>
+        <item>SN Conflict</item>
+        <item>CF query</item>
+        <item>DLMN lock</item>
+        <item>Measurement open</item>
+        <item>Disable DPA</item>
+        <item>Intra CMR</item>
+    </string-array>
+    
+    <string-array name="modem_test_fta_options">
+        <item>ANITE</item>
+        <item>CRTUG</item>
+        <item>CRTUW</item>
+        <item>ANRITSU</item>
+        <item>CMW500</item>
+    </string-array>
+    
+    <string-array name="modem_test_iot_options_6589">
+        <item>NSN</item>
+        <item>DCM CB</item>
+    </string-array>
+    
+    <string-array name="modem_test_operator_options">
+        <item>MS_USIM_COMPATIPLE</item>
+    </string-array>
+    
+    <string-array name="modem_test_operator_options_6589">   
+        <item>ATNT</item>
+        <item>TMOBILE</item>
+        <item>ORANGE</item>
+        <item>VODAFONE</item>
+        <item>O2</item>
+        <item>TELEFONICA</item>
+        <item>DOCOMO</item>
+        <item>SOFTBANK</item>
+        <item>VIVO</item>
+        <item>CLARO</item>
+        <item>TIM</item>
+    </string-array>
+    <!-- Fast Dormancy -->
+    <string-array name="modem_test_iot_options">
+        <item>Fast Dormancy</item>
+    </string-array>
+    <!-- GSM/UMTS Options strings -->
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item>GSM/TD (auto mode)</item>
+        <item>TD only</item>
+        <item>GSM only</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_values">
+        <item>"0"</item>
+        <item>"2"</item>
+        <item>"1"</item>
+        <!-- <item>"3"</item> -->
+    </string-array>
+
+    <!-- Device Manager -->
+    <string-array name="device_mgr_entries">
+        <item>Disable</item>
+        <item>Enable</item>
+    </string-array>
+    <string-array name="device_mgr_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <!-- Add for TV out start -->
+    <string-array name="tvout_system_list" translatable="false">
+        <item>PAL</item>
+        <item>NTSC</item>
+    </string-array>
+    <string-array name="tvout_page_list" translatable="false">
+        <item>0_white_level</item>
+        <item>1_luma_bw"</item>
+        <item>2_luma_linear_distortion</item>
+        <item>3_chroma_snr</item>
+        <item>4_diff_gain</item>
+        <item>5_color_bar</item>
+        <item>6_luma_nonlinearity</item>
+    </string-array>
+    <!-- Add for TV out end -->
+    <!-- Audio start -->
+    <string-array name="audio_functions">
+        <item>Normal Mode</item>
+        <item>Headset Mode</item>
+        <item>LoudSpeaker Mode</item>
+        <item>Headset_LoudSpeaker Mode</item>
+        <item>Speech Enhancement</item>
+        <item>Debug Info</item>
+        <item>Speech Logger</item>
+        <item>Audio Logger</item>
+    </string-array>
+    <string-array name="mode_type0">
+        <item>Sip</item>
+        <item>Mic</item>
+        <item>Sph</item>
+        <item>Sid</item>
+        <item>Media</item>
+    </string-array>
+    <string-array name="mode_type1">
+        <item>Sip</item>
+        <item>Mic</item>
+        <item>FMR</item>
+        <item>Sph</item>
+        <item>Sid</item>
+        <item>Media</item>
+        <item>Matv</item>
+    </string-array>
+    <string-array name="mode_type2">
+        <item>Ring</item>
+        <item>Sip</item>
+        <item>Mic</item>
+        <item>FMR</item>
+        <item>Sph</item>
+        <item>Sid</item>
+        <item>Media</item>
+        <item>Matv</item>
+    </string-array>
+    <string-array name="mode_type0_enh">
+        <item>@string/audio_val_type_sip</item>
+        <item>@string/audio_val_type_mic</item>
+        <item>@string/audio_val_type_sph</item>
+        <item>@string/audio_val_type_sph2</item>
+        <item>@string/audio_val_type_sid</item>
+        <item>@string/audio_val_type_media</item>
+    </string-array>
+    <string-array name="mode_type1_enh">
+        <item>@string/audio_val_type_sip</item>
+        <item>@string/audio_val_type_mic</item>
+        <item>@string/audio_val_type_fmr</item>
+        <item>@string/audio_val_type_sph</item>
+        <item>@string/audio_val_type_sph2</item>
+        <item>@string/audio_val_type_sid</item>
+        <item>@string/audio_val_type_media</item>
+        <item>@string/audio_val_type_matv</item>
+    </string-array>
+    <string-array name="mode_type2_enh">
+        <item>@string/audio_val_type_ring</item>
+        <item>@string/audio_val_type_sip</item>
+        <item>@string/audio_val_type_mic</item>
+        <item>@string/audio_val_type_fmr</item>
+        <item>@string/audio_val_type_sph</item>
+        <item>@string/audio_val_type_sph2</item>
+        <item>@string/audio_val_type_sid</item>
+        <item>@string/audio_val_type_media</item>
+        <item>@string/audio_val_type_matv</item>
+    </string-array>
+    <string-array name="mode_type3_enh">
+        <item>@string/audio_val_type_ring</item>
+    </string-array>
+    <string-array name="mode_level">
+        <item>Level 0</item>
+        <item>Level 1</item>
+        <item>Level 2</item>
+        <item>Level 3</item>
+        <item>Level 4</item>
+        <item>Level 5</item>
+        <item>Level 6</item>
+    </string-array>
+    <string-array name="mode_fir">
+        <item>FIR 0</item>
+        <item>FIR 1</item>
+        <item>FIR 2</item>
+        <item>FIR 3</item>
+        <item>FIR 4</item>
+        <item>FIR 5</item>
+    </string-array>
+    <string-array name="speech_enhance_mode">
+        <item>Common Parameter</item>
+        <item>Normal Mode</item>
+        <item>Headset Mode</item>
+        <item>LoudSpeaker Mode</item>
+        <item>BT Earphone Mode</item>
+        <item>BT Cordless Mode</item>
+        <item>BT Karkit Mode</item>
+        <item>AUX1 Mode</item>
+        <item>AUX2 Mode</item>
+    </string-array>
+    <!-- Audio end -->
+    <!-- Camera start -->
+    <string-array name="camera_items">
+        <item>AF EM</item>
+        <item>Raw Capture Mode</item>
+        <item>Raw Type</item>
+        <item>Flicker</item>
+        <item>ISO</item>
+        <item>Start Preview</item>
+        <item>Help</item>
+    </string-array>
+    <string-array name="af_mode_dialog">
+        <item>Normal AF</item>
+        <item>AF Bracket</item>
+        <item>Full Scan</item>
+        <item>Full Scan Repeat</item>
+        <item>AF Repeat</item>
+        <item>AF and Full Repeat</item>
+    </string-array>
+    <string-array name="capture_mode_dialog">
+        <item>Preview Mode</item>
+        <item>Capture Mode</item>
+        <item>JPEG Only</item>
+    </string-array>
+    <string-array name="raw_type_dialog">
+        <item>Processed Raw</item>
+        <item>Pure Raw</item>
+    </string-array>
+    <string-array name="anti_flicker_dialog">
+        <item>50HZ</item>
+        <item>60HZ</item>
+    </string-array>
+    <string-array name="iso_dialog">
+        <item>AUTO</item>
+        <item>ISO100</item>
+        <item>ISO150</item>
+        <item>ISO200</item>
+        <item>ISO300</item>
+        <item>ISO400</item>
+        <item>ISO600</item>
+        <item>ISO800</item>
+        <item>ISO1600</item>
+    </string-array>
+    <!-- Camera end -->
+
+    <!-- RAT Mode Start -->
+	<string-array name="mPreferredNetworkLabels">
+		<item>GSM/WCDMA (auto)</item>
+		<item>GSM/WCDMA (WCDMA preferred)</item>
+		<item>WCDMA only</item>
+		<item>GSM only</item>
+                <item>Not Specified</item>
+	</string-array>
+	<string-array name="mTddPreferredNetworkLabels">
+		<item>GSM/TD-SCDMA(auto)</item>
+		<item>TD-SCDMA preferred</item>
+		<item>TD-SCDMA only</item>
+		<item>GSM only</item>
+                <item>Not Specified</item>
+	</string-array>
+
+	<!-- RAT Mode End -->
+
+	<!-- Network Mode Switching Start -->
+	<string-array name="mTddNetworkLabels">
+		<item>TD-SCDMA preferred</item>
+		<item>GSM only</item>
+		<item>TD-SCDMA only</item>
+		<item>GSM/TD-SCDMA(auto)</item>
+	</string-array>
+	<string-array name="mWcdmaNetworkLabels">
+	    <item>GSM/WCDMA (WCDMA preferred)</item>
+	    <item>GSM only</item>
+	    <item>WCDMA only</item>
+	    <item>GSM/WCDMA (auto)</item>
+    </string-array>
+	<!-- Network Mode Switching End -->
+
+<!-- MSDC Start -->
+	<string-array name="host_type">
+		<item>Host Number 0</item>
+		<item>Host Number 1</item>
+		<item>Host Number 2</item>
+		<item>Host Number 3</item>
+		<item>Host Number 4</item>
+	</string-array>
+
+	<string-array name="host_data">
+		<item>4 mA</item>
+		<item>8 mA</item>
+		<item>12 mA</item>
+		<item>16 mA</item>
+	</string-array>
+
+	<string-array name="hopping_bit">
+		<item>None</item>
+		<item>2.26MHZ</item>
+		<item>4.52MHZ</item>
+		<item>9.04MHZ</item>
+	</string-array>
+	<string-array name="hopping_time">
+		<item>30.5us</item>
+		<item>61.0us</item>
+		<item>122.1us</item>
+		<item>244.1us</item>
+		<item>488.3us</item>
+	</string-array>
+
+	<string-array name="command_data">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+	</string-array>
+
+	<string-array name="msdc_select">
+		<item>Driving SET</item>
+		<item>Hopping SET</item>
+		<item>SD3.0 TEST</item>
+	</string-array>
+	
+	<string-array name="msdc_sd3_mode">
+	    <item>SDHC HIGHSPEED</item>
+	    <item>UHS SDR12</item>
+	    <item>UHS SDR25</item>
+	    <item>UHS SDR50</item>
+	    <item>UHS SDR104</item>
+	    <item>UHS DDR50</item>
+	</string-array>
+	
+	<string-array name="msdc_sd3_max_current">
+	    <item>MAX CURRENT 200</item>
+	    <item>MAX CURRENT 400</item>
+	    <item>MAX CURRENT 600</item>
+	    <item>MAX CURRENT 800</item>
+	</string-array>
+	
+	<string-array name="msdc_sd3_drive">
+	    <item>DRIVER TYPE A</item>
+	    <item>DRIVER TYPE B</item>
+	    <item>DRIVER TYPE C</item>
+	    <item>DRIVER TYPE D</item>
+	</string-array>
+	
+	<string-array name="msdc_sd3_power_control">
+	    <item>SDXC NO POWER CONTROL</item>
+	    <item>SDXC POWER CONTROL</item>
+	</string-array>
+	<!-- MSDC End -->
+    <!-- Freq Hopping Start -->
+    <string-array name="desense_freqhopping_plls">
+        <item>ARMPLL</item>
+        <item>MAINPLL</item>
+        <item>MEMPLL</item>
+        <item>MSDCPLL</item>
+        <item>TVDPLL</item>
+        <item>LVDSPLL</item>
+    </string-array>
+    <!-- Freq Hopping End -->
+    <!-- HQA NFC Start -->
+    <string-array name="nfc_lang">
+        <item>default</item>
+        <item>de</item>
+        <item>en</item>
+        <item>fr</item>
+    </string-array>
+    <!-- HQA  NFC End -->
+    
+    <!-- Auto calibration start -->
+    <string-array name="auto_calib_capture_mode1">
+        <item>Capture size</item>
+        <item>Capture type</item>
+    </string-array>
+    <string-array name="auto_calib_capture_size">
+        <item>Preview size</item>
+        <item>Capture size</item>
+        <item>Video size</item>
+    </string-array>
+    <string-array name="auto_calib_capture_type">
+        <item>Processed Raw</item>
+        <item>Pure Raw</item>
+        <item>Jpeg Only</item>
+    </string-array>
+    <string-array name="auto_calib_capture_type1">
+        <item>Processed Raw</item>
+        <item>Pure Raw</item>
+    </string-array>
+    <string-array name="auto_calib_capture_mode2">
+        <item>Capture number</item>
+        <item>Multiple Frame Raw Dump</item>
+        <item>Video Clip Raw Dump</item>
+    </string-array>
+    <string-array name="auto_calib_capture_number">
+        <item>Single</item>
+        <item>Double</item>
+        <item>Triple</item>
+    </string-array>
+    <string-array name="auto_calib_multi_frame">
+        <item>4 frames</item>
+        <item>8 frames</item>
+        <item>12 frames</item>
+    </string-array>
+    <string-array name="auto_calib_video_clip">
+        <item>Keep resolution</item>
+        <item>Crop resolution</item>
+        <!-- <item>Sensor binning</item> -->
+    </string-array>
+    <string-array name="auto_calib_iso">
+        <item>Select None</item>
+        <item>Select All</item>
+        <item>Auto</item>
+        <item>ISO100</item>
+        <item>ISO150</item>
+        <item>ISO200</item>
+        <item>ISO300</item>
+        <item>ISO400</item>
+        <item>ISO600</item>
+        <item>ISO800</item>
+        <item>ISO1200</item>
+        <item>ISO1600</item>
+        <item>ISO2400</item>
+        <item>ISO3200</item>
+    </string-array>
+    <string-array name="auto_calib_special_iso">
+        <item>Auto</item>
+        <item>ISO100</item>
+        <item>ISO150</item>
+        <item>ISO200</item>
+        <item>ISO300</item>
+        <item>ISO400</item>
+        <item>ISO600</item>
+        <item>ISO800</item>
+        <item>ISO1200</item>
+        <item>ISO1600</item>
+        <item>ISO2400</item>
+        <item>ISO3200</item>
+    </string-array>
+    <string-array name="auto_calib_flicker_type">
+        <item>50Hz</item>
+        <item>60Hz</item>
+    </string-array>
+    <string-array name="auto_calib_led_flash">
+        <item>AUTO</item>
+        <item>ON</item>
+        <item>OFF</item>
+    </string-array>
+    <string-array name="auto_calib_flash">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+    </string-array>
+    <string-array name="auto_calib_af">
+        <item>AF</item>
+    </string-array>
+    <string-array name="auto_calib_af_bracket_interval">
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="auto_calib_af_mode">
+        <item>Auto</item>
+        <item>AF Bracket</item>
+        <item>Full Scan</item>
+        <item>Through focus</item>
+    </string-array>
+    <string-array name="auto_calib_af_through_direct">
+        <item>Macro to Inf.</item>
+        <item>Inf. to Macro</item>
+        <item>Manual configure</item>
+    </string-array>
+    <string-array name="auto_calib_capture">
+        <item>Start Preview</item>
+    </string-array>
+    <string-array name="auto_calib_hdr_debug_value">
+        <item>OFF</item>
+        <item>ON</item>
+    </string-array>
+    <!-- When launching the camera app first time, we will set the picture
+         size to the first one in the list that is also supported by the
+         driver -->
+    <string-array name="pref_camera_picturesize_entryvalues" translatable="false">
+        <item>320x240</item>
+        <item>640x480</item>
+        <item>1024x768</item>
+        <item>1280x960</item>
+        <item>1600x1200</item>
+        <item>2048x1536</item>
+        <item>2560x1920</item>
+        <item>2592x1936</item>
+        <item>2592x1944</item>
+        <item>3264x2448</item>
+        <item>4096x3072</item>
+    </string-array>
+    <!-- Default focus mode setting. -->
+    <string-array name="pref_camera_focusmode_default_array" translatable="false">
+        <item>continuous-picture</item>
+        <item>auto</item>
+    </string-array>
+    <string-array name="desense_camera_items" translatable="false">
+        <item>2 mA</item>
+        <item>4 mA</item>
+        <item>6 mA</item>
+        <item>8 mA</item>
+        <item>Clear setting file</item>
+    </string-array>
+    <!-- Auto calibration end -->
+        <!-- NFC part start-->
+	<string-array name="matv_frame_rate_entries">
+		<item>Frame Rate 30</item>
+		<item>Frame Rate 20</item>
+		<item>Frame Rate 15</item>
+	</string-array>
+	<string-array name="matv_frame_rate_values">
+		<item>30</item>
+		<item>20</item>
+		<item>15</item>
+	</string-array>
+	<string-array name="matv_nr_level_entries">
+		<item>NR Level 0x31</item>
+		<item>NR Level 0x32</item>
+		<item>NR Level 0x33</item>
+		<item>NR Level 0x34</item>
+		<item>NR Level 0x35</item>
+	</string-array>
+	<string-array name="matv_nr_level_values">
+		<item>31</item>
+		<item>32</item>
+		<item>33</item>
+		<item>34</item>
+		<item>35</item>
+	</string-array>
+	<string-array name="always_on_module">
+		<item>Type A</item>
+		<item>Type B</item>
+		<item>Type F</item>
+		<item>No modulation</item>
+	</string-array>
+	<string-array name="always_on_bitrate">
+		<item>106 kbps</item>
+		<item>212 kbps</item>
+		<item>424 kbps</item>
+	</string-array>
+	<string-array name="card_emul_mode_type">
+		<item>MifareUL</item>
+		<item>MifareStd</item>
+		<item>ISO14443_4A</item>
+		<item>ISO14443_4B</item>
+		<item>Jewel</item>
+		<item>Felica</item>
+		<item>ISO15693</item>
+	</string-array>
+	<string-array name="card_emul_mode_prot">
+		<item>ISO14443A</item>
+		<item>ISO14443B</item>
+		<item>Felica212</item>
+		<item>Felica424</item>
+		<item>ISO15693</item>
+	</string-array>
+	<!--NFC part end -->
+</resources>

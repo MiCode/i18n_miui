@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Serentak Xiaomi</string>
+
+    <string name="sync_item_sms_title">Serentakkan Mesej</string>
+    <string name="sync_item_sms_summary">Mesej akan diserentakkan secara automatik.</string>
+    <string name="sub_sync_item_sms_title_wifi_only">Gunakan Wi-Fi untuk serentakkan mesej</string>
+    <string name="sub_sync_item_sms_summary">Serentakkan mesej menggunakan Wi-Fi untuk mengelakkan caj tambahan data.</string>
+    <!-- 联系人同步设置 -->
+    <string name="pref_title_sync_contacts_title">Serentakkan kenalan</string>
+    <string name="pref_title_sync_display_photo_on_wifi_only">Gunakan Wi-Fi untuk mempamerkan gambar</string>
+    <string name="pref_summary_sync_display_photo_on_wifi_only">Serentakkan gambar menggunakan Wi-Fi untuk mengelakkan caj tambahan data</string>
+    <string name="find_device">Cari peranti</string>
+    <string name="find_device_stop_noise">"Klik \"OK\" untuk menghentikan nada amaran"</string>
+</resources>
