@@ -2,13 +2,13 @@
 <resources>
 
 	<string-array name="bt_timec_repeat_entries">
-		<item>15 minutes</item>
-		<item>30 minutes</item>
-		<item>1 hour</item>
-		<item>3 hours</item>
-		<item>6 hours</item>
-		<item>12 hours</item>
-		<item>1 day</item>
+		<item>15 minit</item>
+		<item>30 minit</item>
+		<item>1 jam</item>
+		<item>3 jam</item>
+		<item>6 jam</item>
+		<item>12 jam</item>
+		<item>1 hari</item>
 	</string-array>
 
 	<string-array translatable="false" name="bt_timec_repeat_values">
