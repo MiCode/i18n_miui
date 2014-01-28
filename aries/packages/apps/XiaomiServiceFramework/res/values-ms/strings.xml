@@ -37,7 +37,7 @@
     <string name="micloud_via_sms_alert">Satu SMS akan dihantar untuk mengesahkan telefon nombor anda. Adakah anda masih nak sambung?</string>
     <string name="micloud_via_int_sms_alert">Satu SMS akan dihantar ke telefon anda dan kadar mesej telco anda akan dicaj. Adakah anda masih nak sambung?</string>
     <string name="micloud_error_email">E-mel yang tidak sah</string>
-    <string name="micloud_account">Akaun Xiaomit</string>
+    <string name="micloud_account">Akaun Xiaomi</string>
     <string name="micloud_activing_account">Mengaktifkan akaun anda\u2026</string>
     <string name="micloud_activing_account_delayed">"Proses ini dijangka boleh siap dalam 30 saat. Pada masa yang sama, anda boleh menikmati kecantikan telefon anda\u2026"</string>
     <string name="micloud_activing_account_failed">Gagal untuk mengaktifkan akaun anda</string>
