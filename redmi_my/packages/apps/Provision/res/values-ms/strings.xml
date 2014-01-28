@@ -34,7 +34,7 @@
     <string name="traffic_protection_unknown"><u>"Saya tidak tahu. Akan masukkan kemudian."</u></string>
     <string name="traffic_protection_text_hint">Sila masukkan had pelan data anda.</string>
 
-    <string name="data_usage_summary">Jika anda belum melanggan pelan data, adalah disyorkan supaya mematikan data mudahalih. Jika tidak, kemungkinan carrier anda akan mengenakan cas yuran tambahan.</string>
+    <string name="data_usage_summary">Jika anda belum melanggan pelan data, adalah disyorkan supaya mematikan data mudah alih. Jika tidak, kemungkinan karier anda akan mengenakan caj yuran tambahan.</string>
     <string name="use_data">Hidupkan data</string>
 
     <string name="default_gprs_sim_name">Sila input \"%s\" had pelan data</string>
