@@ -18,7 +18,7 @@
     <string name="micloud_welcome_skip_login"><u>Melangkau pendaftaran</u></string>
     <string name="micloud_account_name">Akaun Xiaomi</string>
     <string name="micloud_use_existing">E-mel sedia ada</string>
-    <string name="micloud_reg_new">Membuat akaun baru</string>
+    <string name="micloud_reg_new">Daftar akaun baru</string>
     <string name="micloud_error_empty_username">Nama pengguna tidak boleh dikosongkan</string>
     <string name="micloud_error_empty_pwd">Kata laluan tidak boleh dikosongkan</string>
     <string name="micloud_error_illegal_pwd">Kata laluan tidak sah</string>
