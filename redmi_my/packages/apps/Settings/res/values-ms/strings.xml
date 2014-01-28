@@ -3314,9 +3314,9 @@ limitations under the License.
 	
 	<!-- Backup and reset Settings screen --><skip />
 	<!-- Backup and reset settings menu title -->
-	<string name="privacy_settings">Sokongan &amp; reset</string>
+	<string name="privacy_settings">Sokongan &amp; Penetapan Semula</string>
 	<!-- Privacy settings activity title -->
-	<string name="privacy_settings_title">Sokongan &amp; reset</string>
+	<string name="privacy_settings_title">Sokongan &amp; Penetapan Semula</string>
 	<!-- Backup section title -->
 	<string name="backup_section_title">Sandar &amp; pulih</string>
 	<!-- Personal data section title -->
