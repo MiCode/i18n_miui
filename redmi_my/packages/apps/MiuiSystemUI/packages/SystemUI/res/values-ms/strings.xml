@@ -449,9 +449,9 @@
 	
 	<!-- Torch activity -->
 	<string name="torch_activity_name">Lampu Suluh</string>
-	<string name="torch_activity_hint">Buka cahaya denyar dengan menekan [icon] pada skrin kunci</string>
-	<string name="torch_opened">Cahaya denyar dibuka</string>
-	<string name="torch_closed">Cahaya denyar dimatikan</string>
+	<string name="torch_activity_hint">Buka lampu suluh dengan menekan [ikon] pada skrin kunci</string>
+	<string name="torch_opened">Lampu suluh dibuka</string>
+	<string name="torch_closed">Lampu suluh dimatikan</string>
 	
 	<!-- Start directly copied from android framework -->
 	
@@ -463,14 +463,14 @@
 	<!-- See USB_STORAGE.  USB_STORAGE_DIALOG:  After the user selects the notification, a dialog is shown asking if he wants to mount.  This is the title. -->
 	<string name="usb_storage_title">USB disambungkan</string>
 	<!-- See USB_STORAGE.    This is the message. [CHAR LIMIT=NONE] -->
-	<string name="usb_storage_message" product="nosdcard">You\'ve connected to your computer via USB. Touch the button below if you want to copy files between your computer and your Android\u2018s USB storage.</string>
+	<string name="usb_storage_message" product="nosdcard">Anda dihubungkan  ke komputer melalui USB. Sentuh butang dibawah jika anda ingin menyalin fail antara komputer dan storan USB Android anda.</string>
 	<!-- See USB_STORAGE.    This is the message. [CHAR LIMIT=NONE] -->
-	<string name="usb_storage_message" product="default">You\'ve connected to your computer via USB. Touch the button below if you want to copy files between your computer and your Android\u2018s SD card.</string>
+	<string name="usb_storage_message" product="default">Anda dihubungkan  ke komputer melalui USB. Sentuh butang dibawah jika anda ingin menyalin fail antara komputer dan Kad SD Android anda.</string>
 	
 	<!-- See USB_STORAGE_DIALOG.  If there was an error mounting, this is the text. [CHAR LIMIT=NONE] -->
-	<string name="usb_storage_error_message" product="nosdcard">An error occurred while trying to view your device as USB mass storage.</string>
+	<string name="usb_storage_error_message" product="nosdcard">Ralat berlaku semasa cuba untuk melihat peranti anda sebagai storan massa USB.</string>
 	<!-- See USB_STORAGE_DIALOG.  If there was an error mounting, this is the text. -->
-	<string name="usb_storage_error_message" product="default">There\'s a problem with your SD card.</string>
+	<string name="usb_storage_error_message" product="default">Kad SD anda bermasalah.</string>
 	<!-- USB_STORAGE: When the user connects the phone to a computer via USB, we show a notification asking if he wants to share files across.  This is the title -->
 	<string name="usb_storage_notification_title">USB disambungkan</string>
 	<!-- See USB_STORAGE. This is the message. -->
@@ -486,9 +486,9 @@
 	<!-- See USB_STORAGE_STOP.  USB_STORAGE_STOP_DIALOG:  After the user selects the notification, a dialog is shown asking if he wants to stop usb storage.  This is the title. -->
 	<string name="usb_storage_stop_title">Storan USB sedang digunakan</string>
 	<!-- See USB_STORAGE_STOP.    This is the message. [CHAR LIMIT=NONE] -->
-	<string name="usb_storage_stop_message" product="nosdcard">Before turning off USB storage, make sure you\'ve unmounted (\u201cejected\u201d) your Android\u2018s USB storage from your computer.</string>
+	<string name="usb_storage_stop_message" product="nosdcard">Sebelum mematikan storan USB, pastikan anda nyahlekap (\u201ckeluarkan\u201d) storan USB Android anda daripada komputer.</string>
 	<!-- See USB_STORAGE_STOP.    This is the message. -->
-	<string name="usb_storage_stop_message" product="default">Before turning off USB storage, make sure you\'ve unmounted (\u201cejected\u201d) your Android\u2018s SD card from your computer.</string>
+	<string name="usb_storage_stop_message" product="default">Sebelum mematikan storan USB, pastikan anda nyahlekap (\u201ckeluarkan\u201d) Kad SD Android anda daripada komputer.</string>
 	
 	<!-- USB_STORAGE_KILL_STORAGE_USERS dialog  -->
 	<string name="dlg_confirm_kill_storage_users_title">Hidupkan storan USB</string>
@@ -501,50 +501,50 @@
 	
 	<!-- External media notification strings -->
 	<!-- Shown when external media is being checked [CHAR LIMIT=30] -->
-	<string name="ext_media_checking_notification_title" product="nosdcard">Preparing USB storage</string>
+	<string name="ext_media_checking_notification_title" product="nosdcard">Menyediakan storan USB</string>
 	<!-- Shown when external media is being checked -->
-	<string name="ext_media_checking_notification_title" product="default">Preparing SD card</string>
+	<string name="ext_media_checking_notification_title" product="default">Menyediakan Kad SD</string>
 	<string name="ext_media_checking_notification_message">Memeriksa kesilapan.</string>
 	
 	<!-- Shown when external media is blank (or unsupported filesystem) [CHAR LIMIT=30] -->
-	<string name="ext_media_nofs_notification_title" product="nosdcard">Blank USB storage</string>
+	<string name="ext_media_nofs_notification_title" product="nosdcard">Storan USB kosong</string>
 	<!-- Shown when external media is blank (or unsupported filesystem) -->
-	<string name="ext_media_nofs_notification_title" product="default">Blank SD card</string>
+	<string name="ext_media_nofs_notification_title" product="default">Kad SD kosong</string>
 	<!-- Shown when USB storage cannot be read.  [CHAR LIMIT=NONE] -->
-	<string name="ext_media_nofs_notification_message" product="nosdcard">USB storage blank or has unsupported filesystem.</string>
-	<string name="ext_media_nofs_notification_message" product="default">SD card blank or has unsupported filesystem.</string>
+	<string name="ext_media_nofs_notification_message" product="nosdcard">Storan USB kosong atau fail sistem tidak disokong.</string>
+	<string name="ext_media_nofs_notification_message" product="default">Kad SD kosong atau fail sistem tidak disokong.</string>
 	
 	<!-- Shown when external media is unmountable (corrupt)) [CHAR LIMIT=30] -->
-	<string name="ext_media_unmountable_notification_title" product="nosdcard">Damaged USB storage</string>
+	<string name="ext_media_unmountable_notification_title" product="nosdcard">Storan USB rosak</string>
 	<!-- Shown when external media is unmountable (corrupt)) -->
-	<string name="ext_media_unmountable_notification_title" product="default">Damaged SD card</string>
+	<string name="ext_media_unmountable_notification_title" product="default">Kad SD rosak</string>
 	<!-- Shown when USB storage cannot be read.  [CHAR LIMIT=NONE] -->
-	<string name="ext_media_unmountable_notification_message" product="nosdcard">USB storage damaged. You may have to reformat it.</string>
-	<string name="ext_media_unmountable_notification_message" product="default">SD card damaged. You may have to reformat it.</string>
+	<string name="ext_media_unmountable_notification_message" product="nosdcard">Storan USB rosak. Anda mungkin terpaksa format semula.</string>
+	<string name="ext_media_unmountable_notification_message" product="default">Kad SD rosak. Anda mungkin terpaksa format semula.</string>
 	
 	<!-- Shown when external media is unsafely removed [CHAR LIMIT=30] -->
-	<string name="ext_media_badremoval_notification_title" product="nosdcard">USB storage removed unexpectedly</string>
+	<string name="ext_media_badremoval_notification_title" product="nosdcard">Storan USB dikeluarkan tanpa diduga</string>
 	<!-- Shown when external media is unsafely removed -->
-	<string name="ext_media_badremoval_notification_title" product="default">SD card removed unexpectedly</string>
+	<string name="ext_media_badremoval_notification_title" product="default">Kad SD dikeluarkan tanpa diduga</string>
 	<!-- Shown when external media is unsafely removed.  [CHAR LIMIT=NONE] -->
-	<string name="ext_media_badremoval_notification_message" product="nosdcard">Unmount USB storage before removing to avoid data loss.</string>
-	<string name="ext_media_badremoval_notification_message" product="default">Unmount SD card before removing to avoid data loss.</string>
+	<string name="ext_media_badremoval_notification_message" product="nosdcard">Nyahlekap storan USB sebelum mengeluarkannya untuk elakkan kehilangan data.</string>
+	<string name="ext_media_badremoval_notification_message" product="default">Nyahlekap Kad SD sebelum mengeluarkannya untuk elakkan kehilangan data.</string>
 	
 	<!-- Shown when external media has been safely removed [CHAR LIMIT=30] -->
-	<string name="ext_media_safe_unmount_notification_title" product="nosdcard">USB storage safe to remove</string>
+	<string name="ext_media_safe_unmount_notification_title" product="nosdcard">Storan USB selamat dikeluarkan</string>
 	<!-- Shown when external media has been safely removed -->
-	<string name="ext_media_safe_unmount_notification_title" product="default">SD card safe to remove</string>
+	<string name="ext_media_safe_unmount_notification_title" product="default">Kad SD selamat dikeluarkan</string>
 	<!-- Shown when external media has been safely removed.  [CHAR LIMIT=NONE] -->
-	<string name="ext_media_safe_unmount_notification_message" product="nosdcard">You can safely remove USB storage.</string>
-	<string name="ext_media_safe_unmount_notification_message" product="default">You can safely remove SD card.</string>
+	<string name="ext_media_safe_unmount_notification_message" product="nosdcard">Anda boleh mengeluarkan storan USB.</string>
+	<string name="ext_media_safe_unmount_notification_message" product="default">Anda boleh mengeluarkan Kad SD.</string>
 	
 	<!-- Shown when external media is missing [CHAR LIMIT=30] -->
-	<string name="ext_media_nomedia_notification_title" product="nosdcard">Removed USB storage</string>
+	<string name="ext_media_nomedia_notification_title" product="nosdcard">Storan USB dikeluarkan</string>
 	<!-- Shown when external media is missing -->
-	<string name="ext_media_nomedia_notification_title" product="default">Removed SD card</string>
+	<string name="ext_media_nomedia_notification_title" product="default">Kad SD dikeluarkan</string>
 	<!-- Shown when external media is missing.  [CHAR LIMIT=NONE] -->
-	<string name="ext_media_nomedia_notification_message" product="nosdcard">USB storage removed. Insert new media.</string>
-	<string name="ext_media_nomedia_notification_message" product="default">SD card removed. Insert a new one.</string>
+	<string name="ext_media_nomedia_notification_message" product="nosdcard">Storan USB dikeluarkan. Masukkan media baru.</string>
+	<string name="ext_media_nomedia_notification_message" product="default">Kad SD dikeluarkan. Masukkan media baru.</string>
 	
 	<!-- End directly copied from android framework -->
 	<string name="ext_media_mountable_notification_title">Storan USB disambungkan</string>
@@ -552,14 +552,14 @@
 	<string name="ext_media_safe_remove">Selamat untuk dikeluarkan</string>
 	
 	<!-- screen key name -->
-	<string name="screen_button_custom">Kemaskini kedudukan kekunci skrin</string>
-	<string name="recent_apps_key">Kekunci aplikasi sebelumnya</string>
-	<string name="recent_apps_key_show">Kekunci papar aplikasi sebelumnya</string>
-	<string name="key_position_custom">Custom kedudukan kekunci</string>
-	<string name="screen_key_menu">Kekunci Menu</string>
-	<string name="screen_key_home">Kekunci Home</string>
-	<string name="screen_key_recent_apps">Kekunci aplikasi sebelumnya</string>
-	<string name="screen_key_back">Kekunci Back</string>
+	<string name="screen_button_custom">Sesuaikan posisi butang navigasi</string>
+	<string name="recent_apps_key">Butang aplikasi sebelumnya</string>
+	<string name="recent_apps_key_show">Papar butang aplikasi sebelumnya</string>
+	<string name="key_position_custom">Sesuaikan posisi kunci</string>
+	<string name="screen_key_menu">Butang Menu</string>
+	<string name="screen_key_home">Butang Home</string>
+	<string name="screen_key_recent_apps">Butang aplikasi sebelumnya</string>
+	<string name="screen_key_back">Butang Back</string>
 	
 	<!-- status bar Network flow -->
 	<string name="status_bar_network_flow_today">Hari ini:%1$s</string>
@@ -602,14 +602,14 @@
 	<string name="status_bar_recording_back">Klik untuk kembali ke Perakam</string>
 	<string name="status_bar_recording_pause">"Rakaman telah dihentikan sementara. "</string>
 	
-	<string name="headset_settings">"Alat dengar disambungkan"</string>
-	<string name="headset_info">"Kemaskini fungsi butang"</string>
-	<string name="headset_custom">"Kemaskini"</string>
+	<string name="headset_settings">"Fon kepala disambungkan"</string>
+	<string name="headset_info">"Sesuaikan fungsi butang"</string>
+	<string name="headset_custom">"Sesuaikan"</string>
 	
 	<string name="audio_effect_settings">"Pilih jenis fon kepala"</string>
 	<string name="audio_effect_info">"Mengoptimumkan audio"</string>
 	<string name="audio_effect_custom">"Konfigurasi audio"</string>
 	
 	<!-- usb share net -->
-	<string name="usb_share_net_info">Kongsi rangkaian melalui USB</string>
+	<string name="usb_share_net_info">Guna internet komputer</string>
 </resources>
