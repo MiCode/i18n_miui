@@ -122,7 +122,7 @@
 	<string name="timezone_settings">Zon waktu</string>
 	<string name="security_privacy_settings_title">Keselamatan &amp; Privasi</string>
 	<string name="unlock_set_unlock_none_title">Tiada</string>
-	<string name="nearby_wifi">Ada rangkaian</string>
+	<string name="nearby_wifi">Rangkaian sedia ada</string>
 	<string name="unlock_set_enter_system">Langkau kunci skrin</string>
 	<string name="unlock_set_enter_system_summary">Pergi terus ke skrin Utama dari kejut</string>
 	<string name="forget_wifi_message">Telefon anda akan berhenti menyambung ke rangkaian ini secara automatik.</string>
