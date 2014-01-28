@@ -1947,8 +1947,8 @@ limitations under the License.
 
 	<string name="preference_import_export">Import/Export</string>
 	<string name="preference_import_export_title">Import/Export kenalan</string>
-	<string name="import_vcard_description" product="nosdcard">Import kenadan anda dari storan</string>
-	<string name="import_vcard_description" product="default">Import kenadan anda dari kad SD</string>
+	<string name="import_vcard_description" product="nosdcard">Import kenalan anda dari storan</string>
+	<string name="import_vcard_description" product="default">Import kenalan anda dari kad SD</string>
 	<string name="export_vcard_description" product="nosdcard">Eksport vCard ke storan</string>
 	<string name="export_vcard_description" product="default">Eksport vCard ke kad SD</string>
 	<string name="export_to_sim">Eksport kepada kad SIM</string>
