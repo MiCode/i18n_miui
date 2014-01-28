@@ -25,8 +25,8 @@
     <string name="micloud_error_empty_captcha_code">Memasukan kod captcha.</string>
     <string name="micloud_error_empty_vcode">Memasukan kod pengesahan.</string>
     <string name="micloud_email">Alamat e-mel</string>
-    <string name="reg_type_phone">Mendaftar dengan telefon (best)</string>
-    <string name="reg_type_email">Mendaftar dengan E-mail</string>
+    <string name="reg_type_phone">Daftar dengan telefon (terbaik)</string>
+    <string name="reg_type_email">Daftar dengan e-mel</string>
     <string name="micloud_input_password_prompt">Input kata laluan</string>
     <string name="micloud_password_confirm_hint">Sahkan kata laluan</string>
     <string name="micloud_password_req_notice">
