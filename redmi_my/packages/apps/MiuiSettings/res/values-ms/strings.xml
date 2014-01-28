@@ -447,7 +447,7 @@
 	<string name="vpn_routes_hint">e.g. 10.0.0.0/8</string>
 	<string name="sync_wifi_label">Tetapan Wi-Fi</string>
 	<string name="wifi_enable">Hidupkan Wi-Fi</string>
-	<string name="bluetooth_enable">Bolehkan bluetooth</string>
+	<string name="bluetooth_enable">Hidupkan Bluetooth</string>
 	<string name="sync_enable">Hidupkan sync</string>
 	<string name="accessibility_enable">Permohonan Akses</string>
 	<string name="development_enable">Bolehkan peningkatan</string>
