@@ -1975,8 +1975,8 @@ limitations under the License.
 	<string name="pref_key_rebuild_t9_index_message">Dapat membetulkan kegagalan carian kenalan</string>
 	<string name="pref_key_sim_manage">Pengurusan SIM</string>
 	<string name="pref_key_photo">Gambar</string>
-	<string name="pref_key_photo_word_title">Auto pilih gambar untuk kenalan</string>
-	<string name="pref_key_photo_word_summary">Auto pilih gambar untuk kenalan tanpa satu.</string>
+	<string name="pref_key_photo_word_title">Berikan kenalan gambar</string>
+	<string name="pref_key_photo_word_summary">Memberi gambar kepada kenalan yang tiada gambar secara automatik.</string>
 	<string name="remove_duplicate">"MIUI akan membantu anda mencari dan menggabungkan kenalan pendua, kenalan tidak akan digabungkan secara automatik.\n\nUntuk menggabungkan kenalan sila melakukan ini secara manual"</string>
 	<string name="ic_menu_back">Balik</string>
 	<string name="preference_display">Paparan</string>
