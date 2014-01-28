@@ -36,7 +36,7 @@
     <string name="return_to_me_message">Sila kembalikan kepada pemilik</string>
     <string name="unlock_string">OK</string>
     <string name="open_wifi_settings">Buka tetapan</string>
-    <string name="lock_screen_date">MM/dd EEEE</string>
+    <string name="lock_screen_date">dd/MM EEEE</string>
 
     <string name="lockscreen_failed_attempts_almost_glogin" product="tablet">
         Anda salah masukkan kata laluan <xliff:g id="number">%d</xliff:g> kali.
