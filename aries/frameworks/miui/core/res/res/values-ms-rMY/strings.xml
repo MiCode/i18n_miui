@@ -451,7 +451,7 @@
     <string name="month_of_february">Feb</string>
     <string name="month_of_march">Mac</string>
     <string name="month_of_april">Apr</string>
-    <string name="month_of_may">May</string>
+    <string name="month_of_may">Mei</string>
     <string name="month_of_june">Jun</string>
     <string name="month_of_july">Jul</string>
     <string name="month_of_august">Ogos</string>
@@ -463,62 +463,62 @@
 
     <!-- added for global time -->
     <plurals name="abbrev_less_than_one_minute_ago">
-        <item quantity="other">Just now</item>
+        <item quantity="other">Sebentar tadi</item>
     </plurals>
     <plurals name="less_than_one_minute_ago">
-        <item quantity="other">Just now</item>
+        <item quantity="other">Sebentar tadi</item>
     </plurals>
     <plurals name="abbrev_in_less_than_one_minute">
-        <item quantity="other">Immediately</item>
+        <item quantity="other">Serta-merta</item>
     </plurals>
     <plurals name="in_less_than_one_minute">
-        <item quantity="other">Immediately</item>
+        <item quantity="other">Serta-merta</item>
     </plurals>
     <plurals name="abbrev_a_hour_ago">
-        <item quantity="other">One hour ago</item>
+        <item quantity="other">Satu jam lalu</item>
     </plurals>
     <plurals name="abbrev_half_hour_ago">
-        <item quantity="other">Half an hour ago</item>
+        <item quantity="other">Setengah jam lalu</item>
     </plurals>
     <plurals name="a_hour_ago">
-        <item quantity="other">One hour ago</item>
+        <item quantity="other">Satu jam lalu</item>
     </plurals>
     <plurals name="half_hour_ago">
-        <item quantity="other">Half an hour ago</item>
+        <item quantity="other">Setengah jam lalu</item>
     </plurals>
     <plurals name="abbrev_in_a_hour">
-        <item quantity="other">In one hour</item>
+        <item quantity="other">Dalam satu jam</item>
     </plurals>
     <plurals name="abbrev_in_half_hour">
-        <item quantity="other">In half an hour</item>
+        <item quantity="other">Dalam setengah jam</item>
     </plurals>
     <plurals name="in_a_hour">
-        <item quantity="other">In one hour</item>
+        <item quantity="other">Dalam satu jam</item>
     </plurals>
     <plurals name="in_half_hour">
-        <item quantity="other">In half an hour</item>
+        <item quantity="other">Dalam setengah jam</item>
     </plurals>
     <plurals name="abbrev_num_minutes_ago">
-        <item quantity="one">1 min ago</item>
-        <item quantity="other"><xliff:g id="count">%d</xliff:g> mins ago</item>
+        <item quantity="one">1 minit lalu</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> minit lalu</item>
     </plurals>
     <plurals name="num_minutes_ago">
-        <item quantity="one">1 minute ago</item>
-        <item quantity="other"><xliff:g id="count">%d</xliff:g> minutes ago</item>
+        <item quantity="one">1 minit lalu</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> minit lalu</item>
     </plurals>
     <plurals name="abbrev_in_num_minutes">
-        <item quantity="one">in 1 min</item>
-        <item quantity="other">in <xliff:g id="count">%d</xliff:g> mins</item>
+        <item quantity="one">dalam satu minit</item>
+        <item quantity="other">dalam <xliff:g id="count">%d</xliff:g> minit</item>
     </plurals>
     <plurals name="in_num_minutes">
-        <item quantity="one">in 1 minute</item>
-        <item quantity="other">in <xliff:g id="count">%d</xliff:g> minutes</item>
+        <item quantity="one">dalam satu minit</item>
+        <item quantity="other">dalam <xliff:g id="count">%d</xliff:g> minit</item>
     </plurals>
     <!-- time AM/PM -->
     <string name="format_time_in_12_hours">hh:mma</string>
 
     <!-- text view insertion float panel strings  -->
-    <string name="text_pastelist">Clipboard</string>
+    <string name="text_pastelist">Klipbod</string>
     <string name="select">Tanda</string>
 
     <!-- text for WeekdayPreference  -->
@@ -536,7 +536,7 @@
 
     <!-- TIGGER_TOGGLE permission -->
     <string name="perm_tigger_toggle_lab">Pencetus menogol dari panel status</string>
-    <string name="perm_tigger_toggle_dspt">Benarkan aplikasi untuk mencetuskan togel disediakan oleh panel status</string>
+    <string name="perm_tigger_toggle_dspt">Benarkan aplikasi untuk mencetuskan togol dalam panel status</string>
 
     <!-- ACTIVATE_PHONE permission -->
 
@@ -557,7 +557,7 @@
     <string name="perm_data_update_dspt">Dibenarkan untuk mengemaskini data watermark</string>
 
     <!-- text for MiCloud sync service -->
-    <string name="sync_one_time_sync">Sentuh untuk selaraskan（
+    <string name="sync_one_time_sync">Sentuh untuk segerakkan
         <xliff:g id="LAST_SYNC_TIME">
             %1$s
         </xliff:g>)
@@ -566,11 +566,11 @@
     <string name="activating">Mengaktifkan\u2026</string>
 
     <!-- text for unlock screen -->
-    <string name="android_lockscreen_glogin_instructions">Untuk membuka kunci, log masuk dengan akaun anda.</string>
+    <string name="android_lockscreen_glogin_instructions">Untuk membuka kunci, daftar masuk dengan akaun anda.</string>
     <string name="find_device_sim_change_instructions">Peranti anda telah dikunci. Sila masukkan kad SIM atau masukkan kata laluan akaun Xiaomi anda</string>
     <string name="find_device_sim_change_instructions_no_network">Peranti anda telah dikunci SIM, sila masukkan kad SIM asal.</string>
-    <string name="find_device_turn_off_flight_mode_instructions">Peranti anda telah dikunci, sila matikan mod Pesawat.</string>
-    <string name="find_device_turn_off_flight_mode">Tutup mod Pesawat.</string>
+    <string name="find_device_turn_off_flight_mode_instructions">Peranti anda telah dikunci, sila matikan Mod Pesawat.</string>
+    <string name="find_device_turn_off_flight_mode">Tutup Mod Pesawat.</string>
     <string name="find_device_check_sim">Memeriksa SIM\u2026</string>
 
     <string name="check_phone_error_title">Gagal membuka Penyegerakan</string>
@@ -687,7 +687,7 @@
     <string name="app_no_notification">tiada notifikasi</string>
     <string name="app_notificaiton_on_notificationBar">Panel notifikasi</string>
 
-    <string name="volume_ring_description">Ringtone &amp; Notifikasi</string>
+    <string name="volume_ring_description">Nada Dering &amp; Notifikasi</string>
     <string name="login_website_in_case_forget_password">Sila layari http://i.xiaomi.com untuk menetapkan semula kata laluan anda.</string>
 
     <!-- Notifcations displayed in yellow page -->
@@ -704,5 +704,5 @@
     <!-- Displayed to the user to confirm that they have copied text to the clipboard. -->
     <string name="text_copied">Ayat disalin.</string>
     <!-- Displayed to the user to confirm that they have cut text to the clipboard. -->
-    <string name="text_cut">Text cut</string>
+    <string name="text_cut">Ayat dipotong</string>
 </resources>
