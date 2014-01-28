@@ -48,7 +48,7 @@
 	<string name="auto_ip_support_local_numbers">Selalu gunakan awalan IP</string>
 	<string name="auto_record_call_summary_miui">Memulakan rakaman semasa panggilan disambungkan, dan menyimpannya ke dalam folder MIUI/sound_recorder/call_rec di kad SD</string>
 	<string name="auto_record_call_title_miui">Automatik merakam</string>
-	<string name="auto_record_scenario_title_miui">Mod rakaman automatik</string>
+	<string name="auto_record_scenario_title_miui">Tetapan rakaman automatik</string>
 	<string name="auto_record_scenario_enteries_always_miui">Semua nombor</string>
 	<string name="auto_record_scenario_enteries_whitelist_miui">Senarai khas</string>
 	<string name="auto_record_whitelist_miui">Tetapkan nombor dipilih</string>
