@@ -416,7 +416,7 @@
 	<string name="wfd_wps_pbc">Lebih suka untuk masukan PIN</string>
 	
 	<string name="power_mode">Aturan Kuasa</string>
-	<string name="skip_step">Skip langkah ini</string>
+	<string name="skip_step">Langkau langkah ini</string>
 	
 	<!-- msd driver -->
 	<string name="msd_help_title">Bantuan MTP</string>
