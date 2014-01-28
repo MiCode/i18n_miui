@@ -413,7 +413,7 @@ limitations under the License.
 	<string name="recentCalls_removeFromRecentList">Keluarkan dari log panggilan</string>
 	
 	<!-- Menu item used to remove all calls from the call log -->
-	<string name="recentCalls_deleteAll">Kosongkan log panggilan</string>
+	<string name="recentCalls_deleteAll">Padamkan log panggilan</string>
 	
 	<!-- Menu item used to delete a voicemail. [CHAR LIMIT=30] -->
 	<string name="recentCalls_trashVoicemail">Padam mel suara</string>
@@ -1440,7 +1440,7 @@ limitations under the License.
 	<string name="activity_title_contacts_filter">Kenalan untuk dipaparkan</string>
 	
 	<!-- Menu item for the settings activity [CHAR LIMIT=64] -->
-	<string name="menu_settings" msgid="377929915873428211">Settings</string>
+	<string name="menu_settings" msgid="377929915873428211">Tetapan</string>
 	
 	<!-- Menu item for invoking contextual help [CHAR LIMIT=64] -->
 	<string name="menu_help">Bantuan</string>
@@ -1827,7 +1827,7 @@ limitations under the License.
 	<string name="callrecordview_menu_show_stranger">Paparkan panggilan tidak dikenali</string>
 	<string name="callrecordview_menu_show_new">Kenalan Baru</string>
 	<string name="callrecordview_menu_delete">Padam log panggilan</string>
-	<string name="callrecordview_menu_delete_all">Kosongkan log panggilan</string>
+	<string name="callrecordview_menu_delete_all">Padamkan log panggilan</string>
 	<string name="callrecordview_menu_delete_missed">Kosongkan log untuk panggilan terlepas</string>
 	<string name="callrecordview_menu_delete_called">Kosongkan log panggilan keluar</string>
 	<string name="callrecordview_menu_delete_accepted">Padam log untuk panggilan diterima</string>

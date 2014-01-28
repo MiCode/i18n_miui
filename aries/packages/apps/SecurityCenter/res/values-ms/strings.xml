@@ -160,7 +160,7 @@
 
     <!-- Added by Libra -->
     <string name="member_firewall_log">Disekat: Nombor <xliff:g id="tel_count">%d</xliff:g>, maklumat <xliff:g id="ms_count">%d</xliff:g></string>
-    <string name="clear_all_calllog">Kosongkan log panggilan</string>
+    <string name="clear_all_calllog">Padamkan log panggilan</string>
     <string name="clear_all_mslog">Kosongkan log mesej</string>
     <string name="calllog">Log panggilan</string>
     <string name="firewall_log">Log firewall</string>
