@@ -1273,7 +1273,7 @@
     <string name="radioInfo_service_off">Radio off</string>
 
     <!-- Phone Info screen. Status label.  Used for diagnostic info screens, precise translation isn't needed -->
-    <string name="radioInfo_roaming_in">Roaming</string>
+    <string name="radioInfo_roaming_in">Perayauan</string>
     <!-- Phone Info screen. Status label.  Used for diagnostic info screens, precise translation isn't needed -->
     <string name="radioInfo_roaming_not">Not roaming</string>
 

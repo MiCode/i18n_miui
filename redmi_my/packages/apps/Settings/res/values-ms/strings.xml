@@ -1776,7 +1776,7 @@ limitations under the License.
 	<!-- About phone, status item title. The  current cell tower signal strength -->
 	<string name="status_signal_strength">Kekuatan isyarat</string>
 	<!-- About phone, status item title, The status for roaming.  For example, the value might be "Not roaming" -->
-	<string name="status_roaming">Perantauan</string>
+	<string name="status_roaming">Perayauan</string>
 	<!-- About phone, status item title. The cell carrier that the user is connected to.  -->
 	<string name="status_operator">Rangkaian</string>
 	<!-- About phone, status item title.  The MAC address of the Wi-Fi network adapter. -->
