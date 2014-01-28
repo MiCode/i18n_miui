@@ -168,7 +168,7 @@
 	<string name="enable_proximity_summary_miui">Hidupkan sensor jarak untuk mematikan paparan skrin semasa panggilan</string>
 	<string name="enable_proximity_title_miui">Hidupkan sensor jarak</string>
 	<string name="enable_sim_pin_miui">Hidupkan PIN SIM</string>
-	<string name="enable_telocation_title_miui">Guna Lokasi saya</string>
+	<string name="enable_telocation_title_miui">Tunjukkan lokasi</string>
 	<string name="enforce_proximity_summary_miui">Cegahkan penyalahgunaan telefon apabila tidak diguna</string>
 	<string name="enforce_proximity_title_miui">Kuatkuasa sensor jarak</string>
 	<string name="enter_pin2_text_miui">PIN2</string>
