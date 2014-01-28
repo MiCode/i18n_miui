@@ -1996,7 +1996,7 @@ limitations under the License.
 	<string name="preference_auto_ip_title">IP automatik</string>
 	<string name="preference_auto_ip_summary_disable">Tidak diaktifkan</string>
 	<string name="preference_auto_ip_summary_on">"Carrier's IP prefix: %s"</string>
-	<string name="preference_phone_more_title">Lagi tetapan telefon</string>
+	<string name="preference_phone_more_title">Tetapan panggilan</string>
 	<string name="preference_dial_pad_touch_tone_switch">Nada sentuh dial pad</string>
 	<string name="preference_tone_title">Nada</string>
 	<string name="preference_dial_pad_touch_tone_default">Lalai</string>
