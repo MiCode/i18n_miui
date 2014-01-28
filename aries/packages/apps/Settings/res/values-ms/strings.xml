@@ -3564,7 +3564,7 @@ limitations under the License.
 	<!-- Title shown in AddAccount -->
 	<string name="header_add_an_account">Tambah akaun</string>
 	<!-- Button shown when this activity is run from SetupWizard -->
-	<string name="finish_button_label">Akhir</string>
+	<string name="finish_button_label">Terakhir</string>
 	<!-- Title of remove message for remove account dialog -->
 	<string name="really_remove_account_title">Padam Akaun?</string>
 	<!-- Remove account message in dialog [CHAR LIMIT=NONE] -->
