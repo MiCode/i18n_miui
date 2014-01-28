@@ -2986,7 +2986,7 @@ limitations under the License.
 	<skip />
 	
 	<!-- Activity title for App Fuel Gauge summary -->
-	<string name="power_usage_summary_title">Batteri</string>
+	<string name="power_usage_summary_title">Bateri</string>
 	<!-- Activity title summary for App Fuel Gauge summary -->
 	<string name="power_usage_summary">Apa yang telah mengunakan bateri</string>
 	<!-- Message to show when battery usage data is not available [CHAR LIMIT=30] -->
