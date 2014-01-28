@@ -497,7 +497,7 @@
 	<string name="screen_saturation">Penepuan warna</string>
 	<string name="screen_color_temperature_and_saturation">Suhu warna &amp; Ketepuan</string>
 	
-	<string name="finish_application">Habis</string>
+	<string name="finish_application">Selesai</string>
 	<string name="header_category_accounts">Akaun-akaun</string>
 	
 	<string name="auto_startup_application_manage">Permulaan automatik</string>

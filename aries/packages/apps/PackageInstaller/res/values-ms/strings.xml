@@ -133,7 +133,7 @@ limitations under the License.
 	<string name="auto_startup_dialog_msg">"MIUI akan membenarkan applikasi tersebut untuk start-up secara automatik tanpa pemberitahuan. Ini mungkin menjurus ke penggunaan kuasa atau trafik data.\nBenarkan Autostart?"</string>
 	<string name="low_risk_perms">Kebenaran Risiko rendah</string>
 	<string name="high_risk_perms">Kebenaran Risiko tinggi</string>
-	<string name="perm_privacy_app_finish">Habis</string>
+	<string name="perm_privacy_app_finish">Selesai</string>
 	<string name="perm_privacy_app_launch">Buka</string>
 	<string name="perm_privacy_app_installed">Installation berjaya!</string>
 	<string name="perm_sysopt_boost_auto_start">Kebenaran Autostart</string>
