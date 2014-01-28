@@ -1987,10 +1987,10 @@ limitations under the License.
 	<string name="preference_contacts_more">Aturkan kenalan</string>
 	<string name="preference_contacts_filter">Kenalan untuk dipaparkan</string>
 	<string name="preference_telocation_title">Lokasi</string>
-	<string name="preference_telocation_summary_teloc_on">Tunjuk lokasi</string>
+	<string name="preference_telocation_summary_teloc_on">Tunjukkan lokasi kenalan</string>
 	<string name="preference_telocation_summary_teloc_off">Sembunyi lokasi</string>
 	<string name="preference_telocation_summary_countrycode_on">Auto-tambah kod negara</string>
-	<string name="preference_telocation_summary_countrycode_off">Jangan auto tambah kod negara</string>
+	<string name="preference_telocation_summary_countrycode_off">Jangan dail kod negara secara automatik</string>
 	<string name="preference_phone">Telefon</string>
 	<string name="preference_dial_pad_touch_tone_title">Nada sentuh dial pad</string>
 	<string name="preference_auto_ip_title">IP automatik</string>
