@@ -133,7 +133,7 @@
     <string name="find_device_error_network">Rangkaian tidak tersedia</string>
     <string name="find_device_error_server">Kesilapan server</string>
     <string name="find_device_success_title">Pengesanan peranti telah dihidupkan</string>
-    <string name="find_device_notice_p1">Kalau anda menghilangkan telefon anda, sila melayari</string>
+    <string name="find_device_notice_p1">Kalau anda hilang telefon anda, sila melayari</string>
     <string name="find_device_notice_p2">i.xiaomi.com</string>
     <string name="find_device_notice_p3">mencari, mengunci, atau mengelapkan data</string>
     <string name="i_know">OK</string>
