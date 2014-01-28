@@ -1980,8 +1980,8 @@ limitations under the License.
 	<string name="remove_duplicate">"MIUI akan membantu anda mencari dan menggabungkan kenalan pendua, kenalan tidak akan digabungkan secara automatik.\n\nUntuk menggabungkan kenalan sila melakukan ini secara manual"</string>
 	<string name="ic_menu_back">Balik</string>
 	<string name="preference_display">Paparan</string>
-	<string name="preference_simple_mode_title">Mod ringkas</string>
-	<string name="preference_simple_mode_description">Senarai item tidak memaparkan avatar, atribusi dan syarikat itu</string>
+	<string name="preference_simple_mode_title">Sembunyikan gambar</string>
+	<string name="preference_simple_mode_description">Sembunyikan gambar dan data kenalan lain dalam paparan senarai</string>
 	<string name="preference_contacts">Kenalan</string>
 	<string name="preference_contacts_display">Keutamaan paparan</string>
 	<string name="preference_contacts_more">Aturkan kenalan</string>
