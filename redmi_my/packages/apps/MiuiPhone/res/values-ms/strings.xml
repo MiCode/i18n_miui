@@ -33,8 +33,8 @@
 	<string name="auto_answer_scenario_enteries_headset_only_miui">Hanya set kepala disambungkan</string>
 	<string name="auto_answer_scenario_title_miui">Senario bagi automatik menjawab</string>
 	<string name="auto_answer_setting_title_miui">Tetapan automatik menjawab</string>
-	<string name="auto_country_code_miui">Automatik menambah kod negara</string>
-	<string name="auto_country_code_sum_miui">Tambah kod negara sebelum nombor telefon bagi kenalan yang dikenali.</string>
+	<string name="auto_country_code_miui">Tambahkan kod negara</string>
+	<string name="auto_country_code_sum_miui">Tambahkan kod negara secara automatik sebelum mendail kenalan.</string>
 	<string name="autoip_miui">Dail auto IP</string>
 	<string name="auto_ip_summary_not_enabled">Tidak dihidupkan</string>
 	<string name="auto_ip_setting_miui">Tetapan IP automatik</string>
