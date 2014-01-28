@@ -1039,7 +1039,7 @@ limitations under the License.
 	<!-- Header that expands to list all website types when editing a website of a contact [CHAR LIMIT=20] -->
 	<string name="websiteLabelsGroup">Laman Web</string>
 	<!-- Header that expands to list all event types when editing an event of a contact [CHAR LIMIT=20] -->
-	<string name="eventLabelsGroup">Hari lahir</string>
+	<string name="eventLabelsGroup">Tarikh lahir</string>
 	<!-- Header for the list of all relationships for a contact [CHAR LIMIT=20] -->
 	<string name="relationLabelsGroup">Hubungan</string>
 	<!-- Header for the list of all groups for a contact [CHAR LIMIT=20] -->
