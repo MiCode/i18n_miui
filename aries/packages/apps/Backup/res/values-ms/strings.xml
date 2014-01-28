@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
 	xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-	<string name="app_name">Backup</string>
-	<string name="local_app_name">Backup</string>
-	<string name="local_home_title">Backup tempatan</string>
-	<string name="button_backup">Backup</string>
-	<string name="start_backup">Mula backup</string>
+	<string name="app_name">Sandaran</string>
+	<string name="local_app_name">Sandaran</string>
+	<string name="local_home_title">Sandaran tempatan</string>
+	<string name="button_backup">Sandaran</string>
+	<string name="start_backup">Mula sandaran</string>
 	<string name="button_cancel">Batal</string>
 	<string name="backup_empty">Tiada fail backup dijumpai</string>
 	<string name="backup_items_sysdata_tailer">" fail sistem data, "</string>
