@@ -1845,7 +1845,7 @@ limitations under the License.
 	<string name="dialer_empty_text_no_call_log">Tiada panggilan</string>
 	
 	<string name="callrecordview_menu_settings">Tetapan</string>
-	<string name="callrecordview_menu_show">Saring log panggilan</string>
+	<string name="callrecordview_menu_show">Tapiskan</string>
 	<string name="callrecordview_menu_paste">Tampal</string>
 	
 	<string name="openDialKeyboard">Dial pad</string>
