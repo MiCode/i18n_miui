@@ -9,7 +9,7 @@
     <string name="login">Login</string>
     <string name="next">Seterusnya</string>
     <string name="prev">Kembali</string>
-    <string name="forget_password"><u>Terlupa kata laluan?</u></string>
+    <string name="forget_password"><u>Lupa kata laluan?</u></string>
     <string name="password">Kata laluan</string>
     <string name="captcha">Kod Captcha</string>
     <string name="vcode">Kod pengesahan</string>
