@@ -1946,7 +1946,7 @@ limitations under the License.
 	<string name="quit_dialog_confirm_title">Untuk keluar gabung kenalan?</string>
 
 	<string name="preference_import_export">Import/Export</string>
-	<string name="preference_import_export_title">Import/Export kenalan</string>
+	<string name="preference_import_export_title">Import/Eksport kenalan</string>
 	<string name="import_vcard_description" product="nosdcard">Import kenalan anda dari storan</string>
 	<string name="import_vcard_description" product="default">Import kenalan anda dari kad SD</string>
 	<string name="export_vcard_description" product="nosdcard">Eksport vCard ke storan</string>
