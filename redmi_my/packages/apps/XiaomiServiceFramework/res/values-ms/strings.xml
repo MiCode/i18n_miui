@@ -173,7 +173,7 @@
     <string name="binded">Associated</string>
     <string name="nobind">No authorised</string>
     <string name="unbind">Menamatkan kebenaran</string>
-    <string name="update_contacts">UMengemaskini kenalan</string>
+    <string name="update_contacts">Mengemaskini kenalan</string>
     <string name="update_contacts_description">Mengemaskinikan kenalan anda dan informasi lain</string>
     <string name="updated_contacts">Mengemaskinikan %s kenalan</string>
     <string name="updated_nothing">Tiada apa-apa pun yang berlaku!</string>

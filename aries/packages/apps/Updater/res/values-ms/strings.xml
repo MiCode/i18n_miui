@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="app_name">Mengemaskini</string>
+  <string name="app_name">Kemaskini</string>
   <string name="apply_now_button_text">Kemaskini sekarang</string>
   <string name="download_whole_rom">Muat turun ROM penuh <xliff:g id="SIZE">(%s)</xliff:g></string>
   <string name="download_ota_rom">Muat turun kemaskini OTA <xliff:g id="SIZE">(%s)</xliff:g></string>
