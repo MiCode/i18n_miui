@@ -2827,7 +2827,8 @@ limitations under the License.
 	<string name="dev_settings_warning_title">Benarkan peningkatan tetapan?</string>
 	<!-- Warning text to user about the implications of enabling USB debugging -->
 	<string name="dev_settings_warning_message">Tetapan ini adalah bertujuan untuk kegunaan peningkatan sahaja. Mereka boleh menyebabkan peranti anda dan aplikasi pada ia untuk memecahkan atau berkelakuan aneh.</string>
-	
+	<!-- Title of checkbox setting to perform package verification on apps installed over USB/ADT/ADB [CHAR LIMIT=32] -->
+	<string name="verify_apps_over_usb_title">Sahkan apps melalui USB</string>
 	<!-- Title of checkbox setting that protects external storage. [CHAR LIMIT=32] -->
 	<string name="enforce_read_external_title" product="nosdcard">Protect USB storage</string>
 	<!-- Summary of checkbox setting that protects external storage. [CHAR LIMIT=64] -->
