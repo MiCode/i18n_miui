@@ -449,7 +449,7 @@
 	
 	<!-- Torch activity -->
 	<string name="torch_activity_name">Lampu Suluh</string>
-	<string name="torch_activity_hint">Buka cahaya denyar dengan menekan [icon] pada skrin kunci</string>
+	<string name="torch_activity_hint">Hidupkan lampu suluh dengan menekan [icon] pada skrin kunci</string>
 	<string name="torch_opened">Cahaya denyar dibuka</string>
 	<string name="torch_closed">Cahaya denyar dimatikan</string>
 	
