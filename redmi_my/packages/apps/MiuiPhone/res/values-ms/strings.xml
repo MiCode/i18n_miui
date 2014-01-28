@@ -259,8 +259,8 @@
 	<string name="pin_progress_set_fdn_lock_miui">Sedang menetap keadaan kunci FDN\u2026</string>
 	<string name="pin_progress_set_icc_lock_miui">Sedang menetap keadaan kunci icc\u2026</string>
 	<string name="pin_progress_unlock_icc_miui">Sedang buka kunci Kad SIM\u2026</string>
-	<string name="pref_custom_location_summary_miui">Menyesuaikan atribusi serantau dan nombor atribusi</string>
-	<string name="pref_custom_location_title_miui">Menyesuaikan atribusi</string>
+	<string name="pref_custom_location_summary_miui">Uruskan kod kawasan dan nombor-nombor kumpulan yang disimpan</string>
+	<string name="pref_custom_location_title_miui">Lokasi saya</string>
 	<string name="preferred_network_type_pref_entries_3g_preferred_miui">3G diutamakan</string>
 	<string name="preferred_network_type_pref_entries_auto_miui">Automatik</string>
 	<string name="preferred_network_type_pref_entries_only_2g_miui">2G sahaja (jimat bateri)</string>
