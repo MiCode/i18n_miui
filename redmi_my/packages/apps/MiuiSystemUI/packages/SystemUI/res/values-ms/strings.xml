@@ -97,7 +97,7 @@
 	<string name="status_bar_settings_airplane">Mod Pesawat</string>
 	
 	<!-- Label in system panel saying the device will use the orientation sensor to rotate [CHAR LIMIT=30] -->
-	<string name="status_bar_settings_auto_rotation">Skrin auto putar</string>
+	<string name="status_bar_settings_auto_rotation">Skrin auto-putar</string>
 	
 	<!-- Abbreviation / label for mute brightness mode button. Should be all caps. [CHAR LIMIT=6] -->
 	
@@ -445,7 +445,7 @@
 	<string name="camera_key_action_shortcut_screenshot">Tangkapan skrin</string>
 	<string name="camera_key_action_shortcut_search">Carian</string>
 	<string name="camera_key_action_shortcut_call">Panggilan</string>
-	<string name="camera_key_action_shortcut_wake">Kunci/Kejutkan peranti</string>
+	<string name="camera_key_action_shortcut_wake">Kunci/Bangunkan peranti</string>
 	
 	<!-- Torch activity -->
 	<string name="torch_activity_name">Lampu Suluh</string>
