@@ -147,10 +147,10 @@
     <string name="activate_phone_server_error_notif">Kesilapan server</string>
     
     <string name="user_agreement_p1">"Dengan melog masuk, anda bersetuju dengan"</string>
-    <string name="user_agreement_p2">Syarat-syarat perkhidmatan Xiaomi</string>
+    <string name="user_agreement_p2">Syarat-syarat Perkhidmatan Xiaomi</string>
     <string name="user_agreement_p3">&#160; dan &#160;</string>
-    <string name="user_agreement_p4">Dasar Privasi</string>
-    <string name="user_agreement_p5">"Dengan mendaftar, bersetuju dengan "</string>
+    <string name="user_agreement_p4">dan Dasar Privasi.</string>
+    <string name="user_agreement_p5">"Dengan mendaftar, anda bersetuju dengan "</string>	
     <string name="skip_setup_account_title">Melangkau tetapan akaun</string>
     <string name="skip_setup_account_msg">Dengan akaun Xiaomi, anda boleh menyegerakkan dan backup SMS, Kenalan, gambar, nota anda. Teruskan dan setup nanti?</string>
     <string name="account_dspt">"Akaun Xiaomi boleh menyegerakkan dan backup mesej, kenalan, gambar dan lain-lain"</string>
