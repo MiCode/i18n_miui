@@ -1233,7 +1233,7 @@ limitations under the License.
 	<!-- Used in the 1st-level settings screen to turn on Wi-Fi -->
 	<string name="wifi_quick_toggle_title">Wi-Fi</string>
 	<!-- Used in the 1st-level settings screen as the turn-on summary -->
-	<string name="wifi_quick_toggle_summary">Hidupkan Wi-Fi</string>
+	<string name="wifi_quick_toggle_summary">Wi-Fi</string>
 	<!-- Used in the 1st-level settings screen to go to the 2nd-level settings screen  [CHAR LIMIT=20]-->
 	<string name="wifi_settings">Wi-Fi</string>
 	<!-- Title of the Wi-fi settings screen -->
@@ -1259,13 +1259,16 @@ limitations under the License.
 	<!-- Checkbox summary for option to notify user when open networks are nearby -->
 	<string name="wifi_notify_open_networks_summary">Beritahu saya apabila rangkaian terbuka tersedia</string>
 	<!-- Checkbox title for option to toggle poor network detection -->
-	<string name="wifi_poor_network_detection">Elakan sambungan lemah</string>
+	<string name="wifi_poor_network_detection">Elakkan sambungan lemah</string>
 	<!-- Checkbox summary for option to toggle poor network detection -->
-	<string name="wifi_poor_network_detection_summary">Jangan gunakan rangkaian Wi-Fi melainkan jika ia mempunyai sambungan internet yang baik</string>
+	<string name="wifi_poor_network_detection_summary">Jangan gunakan rangkaian Wi-Fi kecuali ia mempunyai sambungan internet yang baik</string>
 	<!-- Setting title for setting the wifi sleep policy. Do we keep Wi-Fi active when the screen turns off? -->
 	<string name="wifi_setting_sleep_policy_title">Biarkan Wi-Fi aktif semasa tidur</string>
 	<!-- Generic error message when the sleep policy could not be set. -->
 	<string name="wifi_setting_sleep_policy_error">Terdapat masalah menukar tetapan</string>
+	<!-- Checkbox title for option to toggle suspend power optimizations -->
+	<string name="wifi_suspend_optimizations">Pengoptimuman Wi-Fi</string>
+	<string name="wifi_suspend_optimizations_summary">Minimumkan penggunaan bateri apabila Wi-Fi dihidupkan</string>
 	<!-- Action bar text message to manually add a wifi network [CHAR LIMIT=20]-->
 	<string name="wifi_add_network">Tambah rangkaian</string>
 	<!-- Header for the list of wifi networks-->
@@ -1273,7 +1276,7 @@ limitations under the License.
 	<!-- Menu option to do WPS Push Button [CHAR LIMIT=25]-->
 	<string name="wifi_menu_wps_pbc">WPS Push Button</string>
 	<!-- Menu option to do WPS Pin Entry [CHAR LIMIT=25]-->
-	<string name="wifi_menu_wps_pin">WPS Pin Entry</string>
+	<string name="wifi_menu_wps_pin">Kemasukan Pin WPS</string>
 	<!-- Menu option to launch Wi-Fi Direct settings [CHAR LIMIT=20]-->
 	<string name="wifi_menu_p2p">Wi-Fi Direct</string>
 	<!-- Menu option to scan Wi-Fi networks -->

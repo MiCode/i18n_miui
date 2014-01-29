@@ -96,8 +96,8 @@
     <string name="input_vcode_hint">Memasukan kod pengesahan</string>
     <string name="confirm">Mengesahkan</string>
     <string name="alert_title_remove_account">Buang akaun</string>
-    <string name="remove_account_notice">Apakah anda nak buat dengan Mesej, Kenalan, Log panggilan, dan nota lain yang telah disegerakkan?</string>
-    <string name="data_keep_in_phone">Menyimpan data dalam peranti</string>
+    <string name="remove_account_notice">Apakah anda mahu buat dengan Mesej, Kenalan, Log panggilan, dan nota lain yang telah disegerakkan?</string>
+    <string name="data_keep_in_phone">Simpan data dalam peranti</string>
     <string name="data_wipe_from_phone">Buang dari peranti saya</string>
     <string name="login_notice">Tengah mendaftar masuk...</string>
     <string name="data_sync_notice">Menggunakan akaun Xiaomi anda untuk sync Mesej, Kenalan dan data lain</string>

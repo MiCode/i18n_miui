@@ -1259,9 +1259,9 @@ limitations under the License.
 	<!-- Checkbox summary for option to notify user when open networks are nearby -->
 	<string name="wifi_notify_open_networks_summary">Beritahu saya apabila rangkaian terbuka tersedia</string>
 	<!-- Checkbox title for option to toggle poor network detection -->
-	<string name="wifi_poor_network_detection">Elakan sambungan lemah</string>
+	<string name="wifi_poor_network_detection">Elakkan sambungan lemah</string>
 	<!-- Checkbox summary for option to toggle poor network detection -->
-	<string name="wifi_poor_network_detection_summary">Jangan gunakan rangkaian Wi-Fi melainkan jika ia mempunyai sambungan internet yang baik</string>
+	<string name="wifi_poor_network_detection_summary">Jangan gunakan rangkaian Wi-Fi kecuali ia mempunyai sambungan internet yang baik</string>
 	<!-- Setting title for setting the wifi sleep policy. Do we keep Wi-Fi active when the screen turns off? -->
 	<string name="wifi_setting_sleep_policy_title">Biarkan Wi-Fi aktif semasa tidur</string>
 	<!-- Generic error message when the sleep policy could not be set. -->
@@ -1273,7 +1273,7 @@ limitations under the License.
 	<!-- Menu option to do WPS Push Button [CHAR LIMIT=25]-->
 	<string name="wifi_menu_wps_pbc">WPS Push Button</string>
 	<!-- Menu option to do WPS Pin Entry [CHAR LIMIT=25]-->
-	<string name="wifi_menu_wps_pin">WPS Pin Entry</string>
+	<string name="wifi_menu_wps_pin">Kemasukan Pin WPS</string>
 	<!-- Menu option to launch Wi-Fi Direct settings [CHAR LIMIT=20]-->
 	<string name="wifi_menu_p2p">Wi-Fi Direct</string>
 	<!-- Menu option to scan Wi-Fi networks -->

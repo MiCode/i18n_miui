@@ -514,7 +514,7 @@
 	
 	<string name="wps_category">keselamatan WPS</string>
 	<string name="wps_connect_title">Sambung menggunakan WPS</string>
-	<string name="wps_connect_summary">pastikan router menykong sambungan WPS</string>
+	<string name="wps_connect_summary">Pastikan router menykong sambungan WPS</string>
 	<string name="retry">Cuba Semula</string>
 	
 	<string name="brightness_auto_adjust_off">Kecerahan manual boleh dilaraskan dengan keinginan anda dengan slider bergerak. Kecerahan skrin akan kekal tidak berubah dalam mana-mana sekitar.</string>
