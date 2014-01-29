@@ -108,18 +108,18 @@
 	<string name="status_bar_settings_notifications">Notifikasi</string>
 	
 	<!-- Network connection string for Bluetooth Reverse Tethering -->
-	<string name="bluetooth_tethered">Bluetooth sedang tether</string>
+	<string name="bluetooth_tethered">Bluetooth tertambat</string>
 	<!-- Title of a button to open the settings for input methods [CHAR LIMIT=30] -->
 	<string name="status_bar_input_method_settings_configure_input_methods">Sediakan kaedah input</string>
 	
 	<!-- Label of a toggle switch to disable use of the physical keyboard in favor of the IME. [CHAR LIMIT=25] -->
-	<string name="status_bar_use_physical_keyboard">Guna papan kekunci fizikal</string>
+	<string name="status_bar_use_physical_keyboard">Papan kekunci fizikal</string>
 	
 	<!-- Prompt for the USB device permission dialog [CHAR LIMIT=80] -->
-	<string name="usb_device_permission_prompt">Membenarkan aplikasi <xliff:g id="application">%1$s</xliff:g> untuk mengakses peranti USB?</string>
+	<string name="usb_device_permission_prompt">Benarkan aplikasi <xliff:g id="application">%1$s</xliff:g> untuk akses peranti USB?</string>
 	
 	<!-- Prompt for the USB accessory permission dialog [CHAR LIMIT=80] -->
-	<string name="usb_accessory_permission_prompt">Membenarkan aplikasi <xliff:g id="application">%1$s</xliff:g> untuk mengakses aksesori USB?</string>
+	<string name="usb_accessory_permission_prompt">Benarkan aplikasi <xliff:g id="application">%1$s</xliff:g> untuk akses aksesori USB?</string>
 	
 	<!-- Prompt for the USB device confirm dialog [CHAR LIMIT=80] -->
 	<string name="usb_device_confirm_prompt">Buka <xliff:g id="activity">%1$s</xliff:g> apabila peranti USB ini disambungkan?</string>
@@ -143,10 +143,10 @@
 	<string name="always_use_accessory">Tetapkan sebagai lalai untuk aksesori USB ini</string>
 	
 	<!-- Title of confirmation dialog for USB debugging -->
-	<string name="usb_debugging_title">Benarkan menyahpijat USB?</string>
+	<string name="usb_debugging_title">Benarkan USB penyahpepijatan?</string>
 	
 	<!-- Message of confirmation dialog for USB debugging -->
-	<string name="usb_debugging_message">Hos RSA utama cap jari:\n<xliff:g id="fingerprint">%1$s</xliff:g></string>
+	<string name="usb_debugging_message">Cap jari kunci RSA komputer adalah:\n<xliff:g id="fingerprint">%1$s</xliff:g></string>
 	
 	<!-- Option to always allow USB debugging from the attached computer -->
 	<string name="usb_debugging_always">Sentiasa benarkan dari komputer ini</string>
@@ -160,7 +160,7 @@
 	<string name="compat_mode_off">Regangkan untuk mengisi skrin</string>
 	
 	<!-- Compatibility mode help screen: header text. [CHAR LIMIT=50] -->
-	<string name="compat_mode_help_header">keserasian zoom</string>
+	<string name="compat_mode_help_header">Keserasian zoom</string>
 	
 	<!-- Compatibility mode help screen: body text. [CHAR LIMIT=150] -->
 	<string name="compat_mode_help_body">Apabila aplikasi direka untuk skrin yang lebih kecil, kawalan zoom akan muncul di tepi jam.</string>
@@ -176,7 +176,7 @@
 	<!-- Notification text displayed when a screenshot is saved to the Gallery. [CHAR LIMIT=100] -->
 	<string name="screenshot_saved_text">Sentuh untuk melihat tangkapan skrin anda.</string>
 	<!-- Notification title displayed when we fail to take a screenshot. [CHAR LIMIT=50] -->
-	<string name="screenshot_failed_title">"Tidak dapat menangkap tangkapan skrin."</string>
+	<string name="screenshot_failed_title">"Tidak dapat membuat tangkapan skrin."</string>
 	<!-- Notification text displayed when we fail to take a screenshot. [CHAR LIMIT=100] -->
 	<string name="screenshot_failed_text">"Tidak dapat menyimpan tangkapan skrin. Storan mungkin sedang digunakan."</string>
 	
@@ -186,13 +186,13 @@
 	<!-- Label for the installer CD image option in UsbPreferenceActivity. [CHAR LIMIT=50] -->
 	
 	<!-- Content description of the back button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
-	<string name="accessibility_back">Kembali</string>
+	<string name="accessibility_back">Back</string>
 	<!-- Content description of the home button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
 	<string name="accessibility_home">Home</string>
 	<!-- Content description of the menu button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
 	<string name="accessibility_menu">Menu</string>
 	<!-- Content description of the recents button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
-	<string name="accessibility_recent">Aplikasi lepas</string>
+	<string name="accessibility_recent">Aplikasi sebelum</string>
 	
 	<!-- Content description of the switch input method button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
 	<string name="accessibility_ime_switch_button">Butang tukar kaedah input.</string>
@@ -280,16 +280,16 @@
 	<!-- Content description of the data connection with no SIM for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
 	
 	<!-- Content description of the bluetooth tethering icon for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
-	<string name="accessibility_bluetooth_tether">Tether Bluetooth.</string>
+	<string name="accessibility_bluetooth_tether">Tambatan Bluetooth.</string>
 	
 	<!-- Content description of the airplane mode icon for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
-	<string name="accessibility_airplane_mode">Mode Penerbangan</string>
+	<string name="accessibility_airplane_mode">Mod Pesawat</string>
 	
 	<!-- Content description of the battery level icon for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
 	<string name="accessibility_battery_level">Bateri <xliff:g id="number">%d</xliff:g> peratus.</string>
 	
 	<!-- Content description of the button for showing a settings panel in the notification panel for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
-	<string name="accessibility_settings_button">Tetapan</string>
+	<string name="accessibility_settings_button">Tetapan sistem</string>
 	
 	<!-- Content description of the button for showing a notifications panel in the notification panel for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
 	<string name="accessibility_notifications_button">Notifikasi.</string>
@@ -322,7 +322,7 @@
 	<!-- Title of dialog shown when data usage has exceeded limit and has been disabled. [CHAR LIMIT=48] -->
 	<string name="data_usage_disabled_dialog_title">Data dilumpuhkan</string>
 	<!-- Body of dialog shown when data usage has exceeded limit and has been disabled. [CHAR LIMIT=NONE] -->
-	<string name="data_usage_disabled_dialog">Anda telah mencapai had penggunaan data yang dinyatakan.\n\nJika anda mengaktifkan semula data, anda mungkin dikenakan caj oleh operator.</string>
+	<string name="data_usage_disabled_dialog">Anda telah mencapai had penggunaan data yang dinyatakan.\n\nJika anda mengaktifkan semula data, anda mungkin dikenakan caj oleh pembekal perkhidmatan.</string>
 	<!-- Dialog button indicating that data connection should be re-enabled. [CHAR LIMIT=28] -->
 	<string name="data_usage_disabled_dialog_enable">Mengaktifkan semula data</string>
 	
@@ -359,7 +359,7 @@
 	<string name="notifications_off_title">Notifikasi ditutup</string>
 	
 	<!-- Content text for do-not-disturb mode notification -->
-	<string name="notifications_off_text">Klik di sini untuk menghidupkan semula notifikasi.</string>
+	<string name="notifications_off_text">Sentuh di sini untuk menghidupkan semula notifikasi.</string>
 	
 	<!-- Description of the button in the phone-style notification panel that controls auto-rotation, when auto-rotation is on. [CHAR LIMIT=NONE] -->
 	<string name="accessibility_rotation_lock_off">Skrin akan berputar secara automatik.</string>
@@ -381,71 +381,71 @@
 	<!-- Time format options (refer to android docs for syntax) -->
 	<string name="status_bar_time_format_12">h:mma</string>
 	<string name="status_bar_time_format_24">HH:mm</string>
-	<string name="status_bar_date_format">E\nyyyy.M.d </string>
+	<string name="status_bar_date_format">E\nd.M.yyyy </string>
 	
 	<string name="status_bar_recent_memory_info">"%1$s / %2$s available"</string>
 	
 	<string name="usb_mode_notification">Storan USB</string>
-	<string name="usb_mode_dont_ask">"Jangan tanya masa depan"</string>
-	<string name="usb_mode_mount_storage_title">Membuka storan USB sekarang？</string>
+	<string name="usb_mode_dont_ask">Ingat pilihan ini</string>
+	<string name="usb_mode_mount_storage_title">Buka storan USB secara automatik？</string>
 	<string name="mount_storage">Ya</string>
 	<string name="dismount_storage">Tidak</string>
-	<string name="usb_notification">USB disambungkan</string>
-	<string name="usb_notification_mtp_info">Akses fail melalui komputer</string>
-	<string name="usb_notification_ptp_info">Akses gambar melalui komputer</string>
+	<string name="usb_notification">Disambungkan melalui USB</string>
+	<string name="usb_notification_mtp_info">Akses fail-fail</string>
+	<string name="usb_notification_ptp_info">Akses gambar-gambar</string>
 	<string name="usb_notification_mtp_problem">Bantuan</string>
 	<string name="usb_ptp_text">Gambar</string>
 	<string name="usb_mtp_text">Fail</string>
-	<string name="usb_notification_mtp_ticker_text">USB disambungkan (Mod Fail)</string>
-	<string name="usb_notification_ptp_ticker_text">USB disambungkan (Mod Gambar)</string>
+	<string name="usb_notification_mtp_ticker_text">Disambungkan ke USB (Mod Fail)</string>
+	<string name="usb_notification_ptp_ticker_text">Disambungkan ke USB (Mod Gambar)</string>
 	
-	<string name="user_guide_for_notification">Notifikasi baru diterima, anda boleh leret ke bawah panel status untuk maklumat lebih lanjut</string>
-	<string name="user_guide_for_toggle">Senarai togol boleh menatal mendatar</string>
-	<string name="user_guide_for_toggle_list">Klik untuk menyesuaikan senarai togol</string>
+	<string name="user_guide_for_notification">Leret ke bawah daripada bahagian atas skrin untuk memaparkan notifikasi di panel notifikasi</string>
+	<string name="user_guide_for_toggle">Senarai togol boleh diskrolkan secara mendatar</string>
+	<string name="user_guide_for_toggle_list">Mengurus togol</string>
 	
-	<string name="return_to_incall_screen">Klik untuk kembali ke panggilan</string>
+	<string name="return_to_incall_screen">Kembali ke panggilan</string>
 	<string name="call_status_dialing">Mendail</string>
 	
-	<string name="status_bar_style_settings">Tetapan panel Status</string>
+	<string name="status_bar_style_settings">Notifikasi</string>
 	<string name="settings_toggle_layout_style">Gaya susun atur togol</string>
 	<string name="settings_toggle_layout_style_compact">Padat</string>
-	<string name="settings_toggle_layout_style_single_page">Page</string>
-	<string name="settings_toggle_layout_style_applying">Mengubah gaya togol\u2026</string>
-	<string name="settings_custom_notification">Tetapan notifikasi custom</string>
-	<string name="settings_all_app_display_loading">Memuatkan, sila tunggu\u2026</string>
-	<string name="settings_show_notificationBar_notification">Papar notis panel notifikasi</string>
-	<string name="settings_show_statusBar_notification">Papar notis papar status</string>
-	<string name="filter_item_preview_image">Preview</string>
-	<string name="filter_item_description">Anda boleh \"Tetapan-Tetapan panel notifikasi-custom notifikasi\" jenis notifikasi ditetapkan dalam permohonan itu</string>
+	<string name="settings_toggle_layout_style_single_page">Halaman</string>
+	<string name="settings_toggle_layout_style_applying">Mengubah gaya\u2026</string>
+	<string name="settings_custom_notification">Mengurus notifikasi</string>
+	<string name="settings_all_app_display_loading">Memuatkan\u2026</string>
+	<string name="settings_show_notificationBar_notification">Papar di panel notifikasi</string>
+	<string name="settings_show_statusBar_notification">Papar di bar status</string>
+	<string name="filter_item_preview_image">Pratonton</string>
+	<string name="filter_item_description"></string>
 	<string name="settings_notification_bar">Panel notifikasi</string>
-	<string name="settings_toggle_position">"Kemaskini kedudukan togol"</string>
-	<string name="settings_toggle_collapse_after_clicked">Tutup apabila diklik</string>
-	<string name="settings_screenshot_notification_disabled">Papar info tangkapan skrin</string>
-	<string name="settings_expanded_view">Paparan notifikasi diperluas</string>
-	<string name="settings_status_bar">Panel status</string>
+	<string name="settings_toggle_position">Mengurus togol</string>
+	<string name="settings_toggle_collapse_after_clicked">Tutup apabila togol disentuh</string>
+	<string name="settings_screenshot_notification_disabled">Tiada notifikasi tangkapan skrin</string>
+	<string name="settings_expanded_view">Tarik turun tetapan</string>
+	<string name="settings_status_bar">Bar status</string>
 	<string name="settings_show_network_speed">Papar kelajuan rangkaian</string>
-	<string name="settings_expandable_under_fullscreen">Diperkembangkan di skrin penuh</string>
-	<string name="settings_expandable_under_fullscreen_summary">dengan leret ke bawah dari bahagian atas skrin</string>
-	<string name="settings_expandable_under_keyguard">Diperkembangkan pada skrin kunci</string>
-	<string name="settings_expandable_under_keyguard_summary">hanya berfungsi untuk skrin kunci tidak selamat</string>
+	<string name="settings_expandable_under_fullscreen">Hidupkan dalam mod skrin penuh</string>
+	<string name="settings_expandable_under_fullscreen_summary">Hidupkan tarik turun untuk panel notifikasi dalam mod skrin penuh</string>
+	<string name="settings_expandable_under_keyguard">Hidupkan di skrin kunci</string>
+	<string name="settings_expandable_under_keyguard_summary">Hidupkan tarik turun untuk panel notifikasi di skrin kunci</string>
 	
-	<string name="settings_toggle_position_divider_page">%1$d togol yang diletakkan atas panel adalah aktif</string>
-	<string name="settings_toggle_position_divider_list">Togol yang diletakkan atas panel adalah aktif</string>
-	<string name="settings_toggle_position_reset">Reset togol</string>
-	<string name="settings_show_flow_info">Papar info trafik</string>
+	<string name="settings_toggle_position_divider_page">%1$d togol di atas bar ini adalah aktif</string>
+	<string name="settings_toggle_position_divider_list">Togol di atas bar ini adalah aktif</string>
+	<string name="settings_toggle_position_reset">Set semula togol</string>
+	<string name="settings_show_flow_info">Papar butiran aliran</string>
 	
 	<!-- MI Button Settings -->
 	<string name="camera_key_action_setting_title">Butang MI</string>
-	<string name="camera_key_action_category_title">Gunakan jika aplikasi kamera tidak terbuka</string>
+	<string name="camera_key_action_category_title">Guna jika aplikasi kamera tidak terbuka</string>
 	<string name="camera_key_action_none_title">Tiada tindakan</string>
 	<string name="camera_key_action_shortcut_title">Jalan pintas</string>
 	<string name="camera_key_action_toggle_title">Pencetus togol</string>
-	<string name="camera_key_action_app_title">Membuka aplikasi</string>
+	<string name="camera_key_action_app_title">Buka aplikasi</string>
 	<string name="camera_key_action_shortcut_home">Kembali ke skrin utama</string>
-	<string name="camera_key_action_shortcut_screenshot">Tangkap screenshot</string>
+	<string name="camera_key_action_shortcut_screenshot">Tangkapan skrin</string>
 	<string name="camera_key_action_shortcut_search">Carian</string>
 	<string name="camera_key_action_shortcut_call">Panggilan</string>
-	<string name="camera_key_action_shortcut_wake">Kunci/membuka peranti</string>
+	<string name="camera_key_action_shortcut_wake">Kunci/Kejutkan peranti</string>
 	
 	<!-- Torch activity -->
 	<string name="torch_activity_name">Lampu Suluh</string>
@@ -504,7 +504,7 @@
 	<string name="ext_media_checking_notification_title" product="nosdcard">Menyediakan storan USB</string>
 	<!-- Shown when external media is being checked -->
 	<string name="ext_media_checking_notification_title" product="default">Menyediakan Kad SD</string>
-	<string name="ext_media_checking_notification_message">Memeriksa kesilapan.</string>
+	<string name="ext_media_checking_notification_message">Memeriksa sebarang ralat.</string>
 	
 	<!-- Shown when external media is blank (or unsupported filesystem) [CHAR LIMIT=30] -->
 	<string name="ext_media_nofs_notification_title" product="nosdcard">Storan USB kosong</string>
@@ -548,7 +548,7 @@
 	
 	<!-- End directly copied from android framework -->
 	<string name="ext_media_mountable_notification_title">Storan USB disambungkan</string>
-	<string name="ext_media_mountable_notification_message">Membuka storan luar menggunakan File Explorer</string>
+	<string name="ext_media_mountable_notification_message">"Sentuh \'Pergi ke Explorer\'"</string>
 	<string name="ext_media_safe_remove">Selamat untuk dikeluarkan</string>
 	
 	<!-- screen key name -->
