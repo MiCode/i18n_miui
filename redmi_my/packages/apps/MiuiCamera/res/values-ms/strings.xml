@@ -59,7 +59,7 @@
     <string name="access_sd_fail" product="default">Tidak dapat mengakses kad SD.</string>
 
     <!-- Confirmation dialog when restoring settings -->
-    <string name="confirm_restore_title">Simpan semula tetapan lalai</string>
+    <string name="confirm_restore_title">Pulihkan tetapan lalai</string>
     <string name="confirm_restore_message">Simpan semula tetapan lalai Kamera?</string>
 
     <string name="confirm_change_mode_title">Menukar mod?</string>
@@ -89,7 +89,7 @@
     <string name="pref_camera_id_title">Pilih kamera</string>
 
     <!-- Settings screen, setting title text -->
-    <string name="pref_camera_recordlocation_title">Simpan maklumat lokasi dalam gambar</string>
+    <string name="pref_camera_recordlocation_title">Simpan maklumat lokasi</string>
 
     <!-- Settings screen, Record location dialog choices -->
     <string name="pref_camera_recordlocation_entry_off">Matikan</string>
@@ -181,8 +181,8 @@
     <string name="pref_camera_jpegquality_title">Kualiti gambar</string>
 
     <!-- Settings screen, Picture quality dialog radio button choices -->
-    <string name="pref_camera_jpegquality_entry_superfine">Super fine</string>
-    <string name="pref_camera_jpegquality_entry_fine">Fine</string>
+    <string name="pref_camera_jpegquality_entry_superfine">Terbaik</string>
+    <string name="pref_camera_jpegquality_entry_fine">Baik</string>
     <string name="pref_camera_jpegquality_entry_normal">Standard</string>
 
      <!-- Settings screen, Select Histogram title -->
@@ -198,7 +198,7 @@
     <!-- Settings screen, Focue mode dialog radio button choices -->
     <string name="pref_camera_focusmode_entry_auto">Auto</string>
     <string name="pref_camera_focusmode_entry_normal">Standard</string>
-    <string name="pref_camera_focusmode_entry_infinity">Infinity</string>
+    <string name="pref_camera_focusmode_entry_infinity">Infiniti</string>
     <string name="pref_camera_focusmode_entry_macro">Macro</string>
     <string name="pref_camera_focusmode_entry_continuous">CAF</string>
 
@@ -359,7 +359,7 @@
      <string name="pref_camera_preview_entry_5000">5 saat</string>
 
      <!-- Settings screen, Anti Banding title -->
-     <string name="pref_camera_antibanding_title">Anti-banding</string>
+     <string name="pref_camera_antibanding_title">Anti-jalur</string>
 
      <!-- Default Anti Banding setting. -->
      <string name="pref_camera_antibanding_default">50hz</string>
@@ -627,8 +627,8 @@
     <string name="pref_grp_picture_settings">Tetapan gambar</string>
     <string name="pref_grp_capture_settings">Tetapan tangkap</string>
     <string name="pref_advanced_settings">Terperinci</string>
-    <string name="pref_advanced_functions">Fungsi terperinci</string>
-    <string name="pref_grp_advanced_settings">Fungsi terperinci</string>
+    <string name="pref_advanced_functions">Tetapan lanjutan</string>
+    <string name="pref_grp_advanced_settings">Tetapan lanjutan</string>
     <string name="pref_grp_restore_settings">Memulihkan tetapan lalai</string>
     <string name="pref_camera_settings_title">Tetapan</string>
 
@@ -779,7 +779,7 @@
 
     <string name="pref_video_slow_speed_title_simple_mode">Gerak perlahan</string>
 
-    <string name="simple_mode_title">Mod biasa</string>
+    <string name="simple_mode_title">Mod mudah</string>
     <string name="pref_settings_mode">Kamera</string>
 
     <string name="pref_video_captrue_ability_title">Keupayaan tangkapan</string>
