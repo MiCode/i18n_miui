@@ -213,7 +213,7 @@ limitations under the License.
 	<!-- Bluetooth settings screen, summary after selecting Discoverable check box [CHAR LIMIT=50] -->
 	<string name="bluetooth_is_discoverable">Boleh dilihat oleh semua peranti Bluetooth berhampiran (<xliff:g id="discoverable_time_period">%1$s</xliff:g>)</string>
 	<!-- Bluetooth settings screen, summary when Discoverable duration is set to "forever" [CHAR LIMIT=50] -->
-	<string name="bluetooth_is_discoverable_always">&gt;Boleh dilihat oleh semua peranti Bluetooth berhampiran</string>
+	<string name="bluetooth_is_discoverable_always">&gt;Boleh dilihat oleh semua peranti berhampiran</string>
 	<!-- Bluetooth settings screen, summary text when not discoverable and no paired devices [CHAR LIMIT=50] -->
 	<string name="bluetooth_not_visible_to_other_devices">Tidak kelihatan kepada peranti Bluetooth lain</string>
 	<!-- Bluetooth settings screen, summary text when not discoverable with paired devices [CHAR LIMIT=50] -->
@@ -1302,15 +1302,15 @@ limitations under the License.
 	
 	<!-- Dialog for Access Points --> <skip />
 	<!-- Label to show/hide advanced options -->
-	<string name="wifi_show_advanced">Tunjukkan pilihan lanjutan</string>
+	<string name="wifi_show_advanced">Tunjuk pilihan lanjutan</string>
 	<!-- Title for the WPS setup dialog [CHAR LIMIT=50] -->
 	<string name="wifi_wps_setup_title">Tetapan Wi-Fi Protected</string>
 	<!-- Message in WPS dialog at start up [CHAR LIMIT=150] -->
 	<string name="wifi_wps_setup_msg">Memulakan WPS\u2026</string>
 	<!-- Message in WPS dialog for PBC after start up [CHAR LIMIT=150] -->
-	<string name="wifi_wps_onstart_pbc">Tekan butang Wi-Fi Protected pada router anda. Ia boleh dipanggil \"WPS\" atau mengandungi simbol ini:</string>
+	<string name="wifi_wps_onstart_pbc">Tekan butang Persediaan Terlindung Wi-Fi di router anda. Namanya mungkin dipanggil \"WPS\" atau mempunyai simbol ini:</string>
 	<!-- Message in WPS dialog for PIN after start up [CHAR LIMIT=150] -->
-	<string name="wifi_wps_onstart_pin">Masukkan pin <xliff:g id="number">%1$s</xliff:g> pada router Wi-Fi anda. Penetapan boleh mengambil masa selama dua minit untuk menyelesaikan.</string>
+	<string name="wifi_wps_onstart_pin">Masukkan pin <xliff:g id="number">%1$s</xliff:g> di router anda. Penetapan boleh mengambil masa selama dua minit untuk selesai.</string>
 	<!-- Text displayed when WPS succeeds [CHAR LIMIT=150] -->
 	<string name="wifi_wps_complete">WPS berjaya. Menyambung kepada rangkaian\u2026</string>
 	<!-- Text displayed when Wi-Fi is connected through WPS [CHAR LIMIT=150] -->
@@ -3886,9 +3886,9 @@ limitations under the License.
 	<!-- Input label for the type of a VPN profile. [CHAR LIMIT=40] -->
 	<string name="vpn_type">Jenis</string>
 	<!-- Input label for the server address of a VPN profile. [CHAR LIMIT=40] -->
-	<string name="vpn_server">Alamat Server</string>
+	<string name="vpn_server">Alamat Pelayan</string>
 	<!-- Checkbox label to enable PPP encryption for a VPN profile. [CHAR LIMIT=40] -->
-	<string name="vpn_mppe">PPP enkripsi (MPPE)</string>
+	<string name="vpn_mppe">Enkripsi PPP (MPPE)</string>
 	<!-- Input label for the L2TP secret of a VPN profile. [CHAR LIMIT=40] -->
 	<string name="vpn_l2tp_secret">Rahsia vL2TP</string>
 	<!-- Input label for the IPSec identifier of a VPN profile. [CHAR LIMIT=40] -->
@@ -3906,9 +3906,9 @@ limitations under the License.
 	<!-- Input label for the DNS search domains of a VPN profile. [CHAR LIMIT=40] -->
 	<string name="vpn_search_domains">Carian Domain DNS</string>
 	<!-- Input label for the DNS servers of a VPN profile. [CHAR LIMIT=40] -->
-	<string name="vpn_dns_servers">DNS servers</string>
+	<string name="vpn_dns_servers">Pelayan DNS</string>
 	<!-- Input label for the forwarding routes of a VPN profile. [CHAR LIMIT=40] -->
-	<string name="vpn_routes">Mengemukakan laluan</string>
+	<string name="vpn_routes">Laluan dimajukan</string>
 	<!-- Input label for the username of a VPN profile. [CHAR LIMIT=40] -->
 	<string name="vpn_username">Nama pengguna</string>
 	<!-- Input label for the password of a VPN profile. [CHAR LIMIT=40] -->
@@ -3936,7 +3936,7 @@ limitations under the License.
 	<!-- Preference title for VPN settings. [CHAR LIMIT=40] -->
 	<string name="vpn_title">VPN</string>
 	<!-- Preference title to create a new VPN profile. [CHAR LIMIT=40] -->
-	<string name="vpn_create">Membuat VPN</string>
+	<string name="vpn_create">Tambah VPN</string>
 	<!-- Menu item to edit a VPN profile. [CHAR LIMIT=40] -->
 	<string name="vpn_menu_edit">Edit profil</string>
 	<!-- Menu item to delete a VPN profile. [CHAR LIMIT=40] -->

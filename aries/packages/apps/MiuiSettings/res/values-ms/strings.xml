@@ -440,7 +440,7 @@
 	<string name="vpn_settings_password">VPN</string>
 	<string name="vpn_safe">Sekuriti</string>
 	<string name="vpn_configure">Konfigurasi</string>
-	<string name="vpn_create">Membuat VPN</string>
+	<string name="vpn_create">Tambah VPN</string>
 	<string name="vpn_dns_servers">DNS servers</string>
 	<string name="vpn_dns_servers_hint">e.g. 8.8.8.8</string>
 	<string name="vpn_routes">Mengemukakan laluan</string>
@@ -452,7 +452,7 @@
 	<string name="accessibility_enable">Permohonan Akses</string>
 	<string name="development_enable">Bolehkan peningkatan</string>
 	<string name="device_name">Nama peranti</string>
-	<string name="device_edit_title">Tukarkan nama peranti</string>
+	<string name="device_edit_title">Tukar nama peranti</string>
 	<string name="device_name_input_hint">Tetapkan nama peranti anda</string>
 	<string name="device_name_usage_point">Benarkan peranti untuk ditemui oleh peranti Bluetooth yang lain untuk membolehkan pemindahan fail dan fungsi-fungsi lain.</string>
 	<string name="device_name_input_error">Gagal menetapkan nama peranti, sila cuba lagi</string>
@@ -513,7 +513,7 @@
 	<string name="app_floating_window_dlg_disable">"Melumpuhkan <xliff:g id="PACKAGE_NAME">%1$s</xliff:g>\'s tetapan tetingkap terapung akan berhenti aplikasi secara paksa. Adakah anda pasti anda mahu melumpuhkan?"</string>
 	
 	<string name="wps_category">keselamatan WPS</string>
-	<string name="wps_connect_title">Sambung menggunakan WPS</string>
+	<string name="wps_connect_title">Kemasukan Pin WPS</string>
 	<string name="wps_connect_summary">Pastikan router menykong sambungan WPS</string>
 	<string name="retry">Cuba Semula</string>
 	
