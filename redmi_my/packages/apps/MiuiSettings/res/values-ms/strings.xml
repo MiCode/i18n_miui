@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-	<string name="debug_log">Program pengalaman pengguna</string>
-	<string name="upload_debug_log_title">Pengalaman Pengguna  program</string>
-	<string name="upload_debug_log_summary">Bantuan Xiaomi meningkatkan produk dan perkhidmatannya dengan menghantar data diagnostik dan penggunaan tidak bernama</string>
+	<string name="debug_log">Program Pengalaman Pengguna</string>
+	<string name="upload_debug_log_title">Program Pengalaman Pengguna</string>
+	<string name="upload_debug_log_summary">Bantu Xiaomi untuk meningkatkan produk dan servis dengan menghantar data diagnostik tidak bernama dan penggunaan data</string>
 	
 	<!-- About phone screen, status item label -->
 	<string name="firmware_version">Versi Android</string>
@@ -13,22 +13,22 @@
 	<string name="device_miui_version">Versi MIUI</string>
 	<string name="device_cpu">CPU</string>
 	<string name="device_memory">RAM</string>
-	<string name="device_internal_memory">Memori dalaman</string>
+	<string name="device_internal_memory">Memori Dalaman</string>
 	<string name="device_sd_memory">Kad SD</string>
 	<string name="device_cpu2_info">Dual-Core</string>
 	<string name="device_cpu4_info">Quad-Core</string>
 	
-	<string name="available_size"><xliff:g id="SIZE">%s</xliff:g> ada</string>
+	<string name="available_size"><xliff:g id="SIZE">%s</xliff:g> masih ada</string>
 	<string name="total_size"><xliff:g id="SIZE">%s</xliff:g> total</string>
-	<string name="memory_title">"Ada <xliff:g id="SIZE">%1$s</xliff:g>\t\tkesemua <xliff:g id="SIZE">%2$s</xliff:g>"</string>
+	<string name="memory_title">"Masih ada <xliff:g id="SIZE">%1$s</xliff:g>\t\tTotal: <xliff:g id="SIZE">%2$s</xliff:g>"</string>
 	
 	<string name="xiaomi_account">Akaun Xiaomi</string>
-	<string name="sync_settings">Akaun &amp; sync</string>
+	<string name="sync_settings">Segerak</string>
 	
-	<string name="sms_received_sound_title">Bunyi SMS yang diterima </string>
-	<string name="sms_delivered_sound_title">Bunyi SMS dihantar </string>
-	<string name="sms_received_sound_dialog_title">Pilih bunyi SMS yang diterima </string>
-	<string name="sms_delivered_sound_dialog_title">Pilih bunyiSMS dihantar </string>
+	<string name="sms_received_sound_title">Mesej diterima</string>
+	<string name="sms_delivered_sound_title">Mesej dihantar</string>
+	<string name="sms_received_sound_dialog_title">Pilih nada mesej yang diterima </string>
+	<string name="sms_delivered_sound_dialog_title">Pilih nada mesej yang dihantar </string>
 	<!-- A menu item in "About phone" that allows the user to update the phone with settings
 	from their cell phone carrier. The use of the string is similar to the string
 	"system_update_settings_list_item_title" in this project. [CHAR LIMIT=25] -->
@@ -37,52 +37,52 @@
 	
 	<!-- Privacy protection: Privacy mode &  Access Control -->
 	<string name="privacy_protect_title">Perlindungan privasi</string>
-	<string name="privacy_mode_enable_title">Mod dikawal</string>
-	<string name="privacy_mode_enable_sum">Menyembunyikan panggilan log, mesej dan sebagainya untuk melindungi privasi.</string>
-	<string name="ac_enable_title">Kawalan akses</string>
-	<string name="ac_set_apps_title">Permohonan-permohonan projek</string>
-	<string name="ac_privacy_mode_title">Bolehkan kata laluan</string>
-	<string name="ac_privacy_mode_sum">Kawalan akses katalaluan untuk batalkan mod jagaan</string>
-	<string name="access_control_password_title">Katalaluan</string>
-	<string name="access_control_need_to_unlock">Katalaluan diperlukan</string>
-	<string name="access_control_reset_by_account">Log masuk ke akaun Xiaomi anda untuk menetapkan semula katalaluan</string>
+	<string name="privacy_mode_enable_title">Mod Tetamu</string>
+	<string name="privacy_mode_enable_sum">Sembunyikan mesej, nota, gambar dan panggilan masuk daripada pengguna</string>
+	<string name="ac_enable_title">Kebenaran</string>
+	<string name="ac_set_apps_title">Kunci Aplikasi</string>
+	<string name="ac_privacy_mode_title">Kata Laluan</string>
+	<string name="ac_privacy_mode_sum">Perlukan kata laluan untuk batalkan mod Tetamu</string>
+	<string name="access_control_password_title">Kata Laluan</string>
+	<string name="access_control_need_to_unlock">Kata laluan diperlukan</string>
+	<string name="access_control_reset_by_account">Daftar masuk ke akaun Xiaomi anda untuk set semula kata laluan</string>
 	<string name="access_control_need_password">"<xliff:g id="ACCESS">%s</xliff:g> telah dilindungi</string>
 	<string name="access_control_no_back_footer">Sentuh [ikon] untuk keluar</string>
 	<string name="access_control_recording_intro_header">Lukis corak untuk membuka kunci</string>
-	<string name="access_control_app_entry_single">Buka aplikasi terpilih</string>
+	<string name="access_control_app_entry_single">Buka aplikasi</string>
 	<string name="access_control_app_entry_multiple">Buka <xliff:g id="ENTRY">%s</xliff:g></string>
 	<string name="apn_mms">MMS</string>
 	<string name="apn_general">Umum</string>
 	
 	<!-- Display Settings -->
 	<string name="launcher_settings_title">Pelancar</string>
-	<string name="screen_timeout_title">Skrin pada mod tidur</string>
-	<string name="screen_never_timeout_title">Sentiasa Hidup</string>
-	<string name="screen_on_proximity_sensor_title">Mencegah penyalahgunaan</string>
-	<string name="screen_on_proximity_sensor_summary">Mencegah penyalahgunaan semasa telefon di dalam poket (dikesan oleh sensor jarak ).</string>
+	<string name="screen_timeout_title">Mod Tidur</string>
+	<string name="screen_never_timeout_title">Jangan Tidur</string>
+	<string name="screen_on_proximity_sensor_title">Cegah dail poket</string>
+	<string name="screen_on_proximity_sensor_summary">Fon akan automatik dikunci apabila dimasukkan dalam poket</string>
 	<string name="preferred_launcher_title">Pelancar pilihan</string>
 	<string name="preferred_application_title">Pilihan <xliff:g id="APPLICATION_LABEL">%s</xliff:g></string>
-	<string name="preferred_application_warning_title">gantikan kepada asal <xliff:g id="APPLICATION_LABEL">%s</xliff:g></string>
-	<string name="preferred_application_warning_message">Menggantikan mod asal anda <xliff:g id="APPLICATION_LABEL">%1$s</xliff:g> boleh meningkatkan penggunaan kuasa, mengurangkan kelajuan, dan boleh mengakibatkan kandungan telefon pada risiko bahaya. mencadangkan agar menggunakan mod asal <xliff:g id="APPLICATION_LABEL">%2$s</xliff:g>.</string>
+	<string name="preferred_application_warning_title">Ganti kepada asal <xliff:g id="APPLICATION_LABEL">%s</xliff:g></string>
+	<string name="preferred_application_warning_message">Menggantikan mod asal anda <xliff:g id="APPLICATION_LABEL">%1$s</xliff:g> boleh meningkatkan penggunaan kuasa, mengurangkan kelajuan, dan boleh mengakibatkan kandungan telefon pada risiko bahaya. Sebaliknya guna <xliff:g id="APPLICATION_LABEL">%2$s</xliff:g>.</string>
 	<string name="preferred_application_warning_replace">Ganti</string>
-	<string name="preferred_application_warning_use_system">Guna mod asal <xliff:g id="APPLICATION_LABEL">%s</xliff:g></string>
+	<string name="preferred_application_warning_use_system">Guna mod asal <xliff:g id="APPLICATION_LABEL">%s</xliff:g> sebaliknya</string>
 	
 	<!-- Key Settings -->
-	<string name="key_settings_title">Butang-butang  &amp; kunci-kunci</string>
-	<string name="key_settings">Butang-butang &amp; kunci-kunci</string>
-	<string name="screen_key_long_press"> Tekan lama Kunci skrin</string>
-	<string name="screen_key_long_press_action">fungsi pencetus</string>
-	<string name="menu_key">Menu kunci</string>
-	<string name="home_key">Kunci Rumah</string>
-	<string name="back_key">Kekunci kembali</string>
-	<string name="screen_key_long_press_timeout"> Tekan lama Masa tamat</string>
+	<string name="key_settings_title">Butang</string>
+	<string name="key_settings">Butang</string>
+	<string name="screen_key_long_press">Tekan lama butang navigasi</string>
+	<string name="screen_key_long_press_action">Fungsi pencetus</string>
+	<string name="menu_key">Menu</string>
+	<string name="home_key">Home</string>
+	<string name="back_key">Back</string>
+	<string name="screen_key_long_press_timeout">Tentukan tempoh tekan lama</string>
 	
 	<string name="under_keyguard">Kunci skrin</string>
-	<string name="enable_snapshot_screenlock">Tekan butang kembali lama untuk akses kamera</string>
-	<string name="disable_power_key_long_press_under_keyguard">Lumpuhkan pada skrin terkunci</string>
-	<string name="trackball_wake_title">pengaktifan bebola jejak</string>
-	<string name="pref_volume_wake_title">Volume rocker Mengaktifkan Peranti</string>
-	<string name="pref_volume_wake_summary">Menekan Kekunci naik / bawah mengaktifkan peranti. Khas untuk peranti dengan yang sukar untuk tekan kekunci kuasa.</string>
+	<string name="enable_snapshot_screenlock">Tekan lama butang Back untuk akses kamera</string>
+	<string name="disable_power_key_long_press_under_keyguard">Lumpuhkan menu butang Power</string>
+	<string name="trackball_wake_title">Bebola jejak bangun</string>
+	<string name="pref_volume_wake_title">Bangun dengan butang Volume</string>
+	<string name="pref_volume_wake_summary">Menekan butang Volume akan bangunkan peranti</string>
 	
 	<string name="media_button">Butang media</string>
 	<string name="preferred_media_app_summary">Pilih pemain muzik</string>
@@ -90,95 +90,95 @@
 	<string name="camera_key_action_title">Butang MI</string>
 	<string name="camera_key_action_setting_title">Butang MI</string>
 	<string name="camera_key_action_category_title">Penggunaan kamera tidak dibenarkan.</string>
-	<string name="camera_key_action_none_title">Tiada langkah</string>
-	<string name="camera_key_action_shortcut_title">Jaln pintas</string>
-	<string name="camera_key_action_toggle_title">Pencetus toggel</string>
+	<string name="camera_key_action_none_title">Tiada tindakan</string>
+	<string name="camera_key_action_shortcut_title">Jalan Pintas</string>
+	<string name="camera_key_action_toggle_title">Pencetus togol</string>
 	<string name="camera_key_action_app_title">Buka aplikasi</string>
-	<string name="camera_key_action_shortcut_home">Kembali ke skrin utama</string>
-	<string name="camera_key_action_shortcut_screenshot">Tangkap screenshot</string>
+	<string name="camera_key_action_shortcut_home">Skrin Utama</string>
+	<string name="camera_key_action_shortcut_screenshot">Tangkapan skrin</string>
 	<string name="camera_key_action_shortcut_search">Cari</string>
 	<string name="camera_key_action_shortcut_call">Panggilan</string>
-	<string name="camera_key_action_shortcut_wake">Kunci/bangunkan peranti</string>
+	<string name="camera_key_action_shortcut_wake">Kunci Peranti</string>
 	
 	<string name="multi_touch_points_category_title">Titik Pelbagai-sentuh</string>
 	<string name="multi_touch_points_preference">But semula bagi membolehkan</string>
 	<string name="trackball_settings">Bebola jejak</string>
 	
-	<string name="status_bar_settings">Status bar</string>
-	<string name="complete_settings">Tetapan semua</string>
-	<string name="common_settings">Tetapan pintas</string>
+	<string name="status_bar_settings">Notifikasi</string>
+	<string name="complete_settings">Tetapan Umum</string>
+	<string name="common_settings">Tetapan Ringkas</string>
 	<string name="battery_settings">Bateri</string>
 	<string name="battery_settings_title">Bateri</string>
 	<string name="battery_indicator_style">Penunjuk Bateri</string>
-	<string name="power_usage_history">Kegunaan bateri</string>
+	<string name="power_usage_history">Penggunaan bateri</string>
 	<string name="default_usb_mode">Penyambungan USB</string>
-	<string name="tether_settings_title_all">Tethering</string>
+	<string name="tether_settings_title_all">Penambatan</string>
 	<string name="radio_controls_title">Lagi</string>
-	<string name="unlock_set_unlock_summary">Sila menghiduokan Kata Laluan skrin  untuk menetapkan kawalan</string>
-	<string name="lock_settings_picker_settings">Tetapkan skrin kunci</string>
-	<string name="lock_screen_unlock_show">Lumpuhkan sapuan skrin</string>
-	<string name="lock_screen_unlock_show_summary">Pergi terus ke skrin Laman Utama atau input kata laluan dari bangun</string>
+	<string name="unlock_set_unlock_summary">Sila set kunci skrin</string>
+	<string name="lock_settings_picker_settings">Set kunci skrin</string>
+	<string name="lock_screen_unlock_show">Lumpuhkan leretan skrin</string>
+	<string name="lock_screen_unlock_show_summary">Pergi terus ke skrin Utama atau input kata laluan ketika bangun</string>
 	<string name="date_time_settings">Tarikh &amp; masa</string>
 	<string name="timezone_settings">Zon waktu</string>
-	<string name="security_privacy_settings_title">Keselamatan &amp; Privasi</string>
+	<string name="security_privacy_settings_title">Sekuriti</string>
 	<string name="unlock_set_unlock_none_title">Tiada</string>
-	<string name="nearby_wifi">Rangkaian sedia ada</string>
+	<string name="nearby_wifi">Rangkaian yang ada</string>
 	<string name="unlock_set_enter_system">Langkau kunci skrin</string>
-	<string name="unlock_set_enter_system_summary">Pergi terus ke skrin Utama dari kejut</string>
+	<string name="unlock_set_enter_system_summary">Pergi terus ke skrin Utama bila bangun</string>
 	<string name="forget_wifi_message">Telefon anda akan berhenti menyambung ke rangkaian ini secara automatik.</string>
 	<string name="no_nearby_wifi">Tiada rangkaian dikesan.</string>
 	<string name="manually_add_network">Tambah rangkaian</string>
-	<string name="network_detail"><xliff:g id="NETWORK">%s</xliff:g> Maklumat rangkaian</string>
+	<string name="network_detail"><xliff:g id="NETWORK">%s</xliff:g> Butiran rangkaian</string>
 	<string name="connected_wifi">Wi-Fi disambungkan</string>
-	<string name="lockpattern_recording_intro_header">Lukis corak buka kunci. Sila sambungkan sekurang-kurangnya 4 titik.</string>
-	<string name="lockpattern_pattern_confirmed_header">Corak buka kunci baru anda</string>
+	<string name="lockpattern_recording_intro_header">Lukis corak buka kunci:</string>
+	<string name="lockpattern_pattern_confirmed_header">Corak buka kunci baru anda:</string>
 	<string name="lockpattern_pattern_entered_header">Corak dirakam</string>
 	<!-- Security & location settings screen, change unlock pattern screen instruction on top of screen to confirm pattern -->
-	<string name="lockpattern_need_to_confirm">Lukiskan corak untuk sahkan</string>
+	<string name="lockpattern_need_to_confirm">Lukiskan corak lagi untuk sahkan</string>
 	<string name="lockpattern_recording_inprogress">Lepaskan jari apabila selesai</string>
 	<string name="lockpattern_need_to_unlock_wrong">Cuba lagi</string>
-	<string name="lockpattern_settings_enable_power_button_instantly_locks">Butang kuasa serta-merta mengunci</string>
+	<string name="lockpattern_settings_enable_power_button_instantly_locks">Butang Power kuncikan skrin</string>
 	
 	<!-- Led Settings -->
-	<string name="incoming_call_vibrate_abbreviation">"Panggilan-panggilan "</string>
+	<string name="incoming_call_vibrate_abbreviation">"Panggilan"</string>
 	<string name="notification_vibrate_abbreviation">"Notifikasi "</string>
 	<string name="mms_vibrate_abbreviation">"Mesej "</string>
 	<!-- Sound settings screen, breathing light color title -->
 	<string name="breathing_light_color_title">"Warna LED"</string>
-	<string name="breathing_light_color_menu_title">Warna lampu</string>
+	<string name="breathing_light_color_menu_title">Warna LED</string>
 	<!-- Sound settings screen, breathing light color summary TODO: find a better way to say this...-->
-	<string name="breathing_light_color_summary">Warna LED apabila menerima pemberitahuan baru</string>
+	<string name="breathing_light_color_summary">Warna LED apabila menerima notifikasi baru</string>
 	<!-- Sound settings screen, breathing light freq title -->
 	<string name="breathing_light_freq_title">Kekerapan LED berkelip</string>
 	<!-- Sound settings screen, breathing light freq summary-->
-	<string name="breathing_light_freq_summary">Nadi LED pada pemberitahuan baru</string>
-	<string name="led_settings">LED</string>
-	<string name="led_colors_summary">LED warna Pemberitahuan</string>
+	<string name="breathing_light_freq_summary">Berdenyut apabila ada notifikasi baru</string>
+	<string name="led_settings">Lampu notifikasi</string>
+	<string name="led_colors_summary">Notifikasi</string>
 	<string name="led_frequence_summary">Menetapkan jarak masa di antara LED berkelip</string>
-	<string name="led_pulse_summary">Apabila pemberitahuan baru diterima, kelipkan nadi LED</string>
-	<string name="show_rounded_corners">Menunjukkan sudut bulat</string>
+	<string name="led_pulse_summary">Apabila notifikasi baru diterima, kelipkan nadi LED</string>
+	<string name="show_rounded_corners">Papar sudut bulat</string>
 	<string name="pref_operational_key">Kunci pengendalian</string>
 	<string name="pref_button_light">Butang lampu</string>
-	<string name="pref_button_light_summary">Penunjuk kunci Menu,Rumah dan kembali </string>
+	<string name="pref_button_light_summary">Penunjuk kunci Menu, Home dan Back </string>
 	<string name="button_light_timeout">Tetapan cahaya butang</string>
 	<string name="screen_button_key">Kekunci maya skrin</string>
-	<string name="screen_button_custom">Sesuaikan kedudukan kekuci skrin</string>
+	<string name="screen_button_custom">Sesuaikan posisi kekuci skrin</string>
 	
-	<string name="headset_settings">"Tetapan perkakas kepala"</string>
-	<string name="headset_function">"Fungsi perkakas kepala"</string>
-	<string name="headset_mode_volume">"Atur kekuatan bunyi - atas/bawah"</string>
-	<string name="headset_mode_music">"Pemain Muzik - sebelum/selepas"</string>
-	<string name="headset_calibrate">"Kalibrat butang-butang"</string>
-	<string name="headset_calibrate_hint">"Silalah tekan butang di atas"</string>
-	<string name="headset_calibrate_success">"Tetapkan dipilih"</string>
-	<string name="headset_calibrate_apply">"Tetapkan"</string>
-	<string name="headset_calibrate_volume_up">"Naikkan kekuatan bunyi"</string>
-	<string name="headset_calibrate_volume_down">"Turunkan kekuatan bunyi"</string>
+	<string name="headset_settings">"Fon kepala"</string>
+	<string name="headset_function">"Fungsi butang"</string>
+	<string name="headset_mode_volume">"Kawal aras volum"</string>
+	<string name="headset_mode_music">"Kawal Pemain Muzik"</string>
+	<string name="headset_calibrate">"Tugaskan butang"</string>
+	<string name="headset_calibrate_hint">"Tekan butang atas"</string>
+	<string name="headset_calibrate_success">"Tetapkan diaplikasikan"</string>
+	<string name="headset_calibrate_apply">"Guna"</string>
+	<string name="headset_calibrate_volume_up">"Tingkatkan volum"</string>
+	<string name="headset_calibrate_volume_down">"Turunkan volum"</string>
 	<string name="headset_calibrate_prev_track">"Trek sebelum"</string>
 	<string name="headset_calibrate_next_track">"Trek seterusnya"</string>
-	<string name="headset_calibrate_confirm">"Simpankan tetapan kalibrasi baru?"</string>
-	<string name="headset_no_contected">"Perkakas kepala tidak disambung"</string>
-	<string name="headset_calibrate_wrong_key">"Kunci input salah, sila cuba lagi"</string>
+	<string name="headset_calibrate_confirm">"Gunakan fungsi baru?"</string>
+	<string name="headset_no_contected">"Tiada fon kepala dikesan"</string>
+	<string name="headset_calibrate_wrong_key">"Salah butang tu"</string>
 	
 	<!-- SIM lock settings title -->
 	<string name="sim_lock_settings">Tetapan kunci kad SIM</string>
@@ -187,22 +187,22 @@
 	<!-- Security & location settings screen, section heading for settings related to sim card locking -->
 	<string name="sim_lock_settings_title">Kunci kad SIM</string>
 	<!-- SIM password can't be changed as SIM LOCK is not enabled: -->
-	<string name="sim_change_failed_enable_sim_lock">"Tidak dapat Tukar PIN SIM. Membolehkan SIM Lock."</string>
+	<string name="sim_change_failed_enable_sim_lock">Membolehkan kunci SIM untuk menukar PIN</string>
 	<!-- SIM lock can't be changed - not supported -->
-	<string name="sim_lock_change_not_supported">"Tidak dapat Tukar SIM Lock.\nSIM tidak menyokongnya."</string>
+	<string name="sim_lock_change_not_supported">Gagal menukar kunci SIM .\nSIM tidak menyokongnya.</string>
 	
 	<!-- APN setting -->
 	<string name="apn_new">Titik Akses baru</string>
-	<string name="apn_save">Simpankan?</string>
-	<string name="apn_save_msg">Simpankan pertukaran ke APN?</string>
+	<string name="apn_save">Simpan?</string>
+	<string name="apn_save_msg">Simpan pertukaran ke APN?</string>
 	
 	<!-- Account -->
 	<string name="activating">Mengaktifkan\u2026</string>
 	
 	<string name="wifi_enable_watchdog_service_summary">Menggunakan rangkaian Wi-Fi hanya apabila sambungan internet adalah Jelas</string>
 	<string name="wifi_disabled_help">Rangkaian telah diputuskan kerana signal sambungan lemah. Untuk melaraskan tetapan ini, pergi ke Tetapan> Wi-Fi Skrin, Menu Advance.</string>
-	<string name="wifi_wps_overlap_error">Satu lagi sesi dilindungi Wi-Fi telah dikesan. Cuba lagi dalam beberapa minits.</string>
-	<string name="wifi_p2p_wps_setup">persediaan melindungi Wi-Fi  </string>
+	<string name="wifi_wps_overlap_error">Satu lagi sesi dilindungi Wi-Fi telah dikesan. Cuba lagi dalam beberapa minit.</string>
+	<string name="wifi_p2p_wps_setup">Memasang WPS</string>
 	
 	<string name="default_input_method">Pilih kaedah input biasa</string>
 	
@@ -211,10 +211,10 @@
 	<!-- Vibrate category title -->
 	<string name="vibrate_category_title">Getar</string>
 	<!-- Vibrate in silent title -->
-	<string name="vibrate_in_silent_title">Bergetar di mod senyap</string>
+	<string name="vibrate_in_silent_title">Bergetar dalam mod senyap</string>
 	<!-- Vibrate in normal title -->
 	
-	<string name="vibrate_in_normal_title">Bergetar di mode biasa</string>
+	<string name="vibrate_in_normal_title">Bergetar ketika berdering</string>
 	<string name="silent_mode_title">Mod senyap</string>
 	
 	<!-- Broadcom, WAPI -->
@@ -231,9 +231,9 @@
 	<!-- Action message of the install WAPI certificate -->
 	<string name="wifi_wapi_cert_install">Memasang Perakuan WAPI</string>
 	<!-- Button caption to install wapi certificate button -->
-	<string name="wifi_wapi_cert_install_button">Memasang</string>
+	<string name="wifi_wapi_cert_install_button">Pasang</string>
 	<!-- Button caption to uninstall wapi certificate button -->
-	<string name="wifi_wapi_cert_uninstall_button">Membuang</string>
+	<string name="wifi_wapi_cert_uninstall_button">Buang</string>
 	<!-- Button caption to  cancel wapi certificate button -->
 	<string name="wifi_wapi_cert_cancel_button">Batal</string>
 	<!-- Action message of the uninstall WAPI certificate -->
@@ -277,7 +277,7 @@
 	termasuk data peribadi (iaitu kata laluan dan nombor kad kredit). Gunakan kaedah input ini?</string>
 	
 	<string name="show_fc">Paksa tutup aplikasi</string>
-	<string name="show_fc_summary">Tunjunk aplikasi yang dipaksa tutup</string>
+	<string name="show_fc_summary">Papar aplikasi yang dipaksa tutup</string>
 	
 	<!-- Factory reset -->
 	<string name="factory_reset_summary">Anda boleh memilih untuk memadam data peribadi dengan menetapkan semula Telefon, atau memadam program dipasang dan format kad SD untuk memulihkan tetapan kilang. Sahkan memadam?</string>
@@ -296,33 +296,33 @@
 	<string name="erase_internal_storage">Padamkan kandungan yang disimpan</string>
 	<string name="erase_internal_storage_description">Padamkan muzik, gambar, video dan data pengguna yang lain</string>
 	<string name="storage_format">Format</string>
-	<string name="internal_storage">Storan sistem</string>
+	<string name="internal_storage">Storan dalaman</string>
 	
 	<string name="usage_log">Statistik penggunaan aplikasi</string>
 	<string name="bluetooth_device_searchable">Boleh ditemui</string>
 	
 	<string name="usb_msd_title">Storan hebat</string>
-	<string name="usb_msd_summary">Membolehkan anda memindahkan fail pada Windows dan Mac</string>
-	<string name="usb_msd_driver_installer_title">Pasang Pemacu Cakera (MSD)</string>
-	<string name="usb_msd_driver_installer_summary">Anda boleh mendapatkan pemasang pemacu untuk Windows dan Mac daripada sini</string>
+	<string name="usb_msd_summary">Pindah fail melalui Windows atau Mac</string>
+	<string name="usb_msd_driver_installer_title">Cakera pemasang driver (MSD)</string>
+	<string name="usb_msd_driver_installer_summary">Dapatkan driver untuk Windows dan OSX</string>
 	<string name="input_settings">Tetapan input</string>
-	<string name="show_magnifier_when_input">Mempamerkan kanta pembesar</string>
+	<string name="show_magnifier_when_input">Kaca pembesar teks</string>
 	
 	<!-- Volume settings -->
-	<string name="volume_ring_description">Volum Nada dering dan notifikasi</string>
-	<string name="volume_alarm_description">Volum penggera</string>
-	<string name="volume_voice_description">Volum suara</string>
-	<string name="volume_media_description">Kelantangan media, untuk muzik, video, permainan, dan media lain</string>
-	<string name="volume_system_description">Volum sistem, untuk shutter kamera, skrin kunci dan lain pemberitahuan sistem</string>
-	<string name="volume_bluetooth_description">Volum Bluetooth</string>
-	<string name="volume_restore">Kembalikan volum</string>
+	<string name="volume_ring_description">Nada dering &amp; notifikasi</string>
+	<string name="volume_alarm_description">Penggera</string>
+	<string name="volume_voice_description">Suara</string>
+	<string name="volume_media_description">Muzik, video, permainan, dan media lain</string>
+	<string name="volume_system_description">Pengatup kamera, kunci skrin dan lain-lain notifikasi sistem</string>
+	<string name="volume_bluetooth_description">Bluetooth</string>
+	<string name="volume_restore">Set semula aras</string>
 	<string name="volume_restore_alert">Semua tetapan volum akan dikembalikan kepada asal Adakah anda pasti?</string>
-	<string name="sound_category_calls_and_notification_title">nada dering &amp; notifikasi</string>
+	<string name="sound_category_calls_and_notification_title">Nada dering &amp; notifikasi</string>
 	
 	<string name="font_size_preview">MIUI</string>
 	<string name="font_size_summary">"Tukarkan saiz tulisan sistem beroperasi"</string>
 	<string name="font_size_small">Kecil</string>
-	<string name="font_size_normal">Biasa</string>
+	<string name="font_size_normal">Asal</string>
 	<string name="font_size_medium">Sederhana besar</string>
 	<string name="font_size_large">Besar</string>
 	<string name="font_size_huge">Amat besar</string>
@@ -356,10 +356,10 @@
 	<string name="virus_scan_app_continue">Sambung imbasan</string>
 	<string name="virus_scan_app_uninstall">Padam (%d)</string>
 	<string name="virus_scan_app_force_stop">Imbasan ditangguh</string>
-	<string name="virus_scan_app_find_risk">%d risiko terjumpa. Membuang mereka dengan serta-merta!</string>
+	<string name="virus_scan_app_find_risk">%d risiko dijumpai</string>
 	<string name="virus_scan_app_scan_finish">Imbasan Siap</string>
 	<string name="virus_scan_app_no_risk">Tiada risiko ditemui</string>
-	<string name="virus_scan_app_is_stop_scan">Berhentikan imbasan?</string>
+	<string name="virus_scan_app_is_stop_scan">Henti imbasan?</string>
 	
 	<string name="password_guard">Kata laluan</string>
 	
@@ -379,23 +379,23 @@
 	<string name="dolby_dialogue_enhancer">"Peningkat dialog"</string>
 	<string name="dolby_surround_virtualizer">"Bunyi sekeliling"</string>
 	
-	<string name="dirac_mode_off">Dirac tertutup</string>
-	<string name="dirac_mode_in_ear">"In-ear headphones Xiaomi"</string>
+	<string name="dirac_mode_off">Tutup Dirac</string>
+	<string name="dirac_mode_in_ear">"Fon kepala In-ear Xiaomi"</string>
 	<string name="dirac_mode_earbuds">"Bud telinga Xiaomi"</string>
-	<string name="dirac_mode_piston_100">|Xiaomi piston headtelefons"</string>
-	<string name="dirac_mode_general">"General"</string>
+	<string name="dirac_mode_piston_100">"Fon kepala piston Xiaomi"</string>
+	<string name="dirac_mode_general">"Umum"</string>
 	<string name="equalizer">"EQ"</string>
 	
 	<!-- Menu option to launch Wi-Fi Direct settings [CHAR LIMIT=20]-->
 	<string name="wifi_menu_p2p">Terus Wi-Fi</string>
 	<!-- Used in the 1st-level settings screen to launch Wi-Fi Direct settings [CHAR LIMIT=25] -->
-	<string name="wifi_p2p_settings_title">Langsung Wi-Fi</string>
+	<string name="wifi_p2p_settings_title">Terus Wi-Fi</string>
 	
 	<!-- Wi-Fi Display settings -->
 	<string name="wifi_menu_wfd">Paparan Wi-Fi</string>
 	<!-- Used in the 1st-level settings screen to launch Wi-Fi Display settings [CHAR LIMIT=25] -->
 	<string name="wfd_settings_title">Paparan Wi-Fi</string>
-	<string name="wfd_settings_description">Sambung untuk memaparkan melalui Wi-Fi</string>
+	<string name="wfd_settings_description">Sambung untuk paparan melalui Wi-Fi</string>
 	<string name="wfd_enabler_title">Aktifkan Paparan Wi-Fi </string>
 	<string name="wfd_enable_wifi_diag_title">Anda hanya boleh menggunakan Wi-Fi Paparkan apabila Wi-Fi diaktifkan. menghidupkan?</string>
 	<!-- Menu option to discover peers-->
@@ -405,7 +405,7 @@
 	<!-- Menu option to teardown session and remove group-->
 	<string name="wfd_menu_teardown">Berhenti</string>
 	<!-- Title for available p2p devices -->
-	<string name="wfd_available_devices">Ada Peranti</string>
+	<string name="wfd_available_devices">Peranti yang ada</string>
 	<!-- Title for disconnect dialog -->
 	<string name="wfd_disconnect_diag_title">Putuskan sesi?</string>
 	<!-- Message text for disconnection from one device-->
@@ -424,7 +424,7 @@
 	<string name="msd_install_succeed">Driver berjaya diapasang</string>
 	<string name="msd_install_next">Seterusnya</string>
 	<string name="msd_install">Pasang semula driver.</string>
-	<string name="msd_install_finish">Siap</string>
+	<string name="msd_install_finish">OK</string>
 	<string name="msd_install_windows_xp_step_2_1">"1.Jika Wizard Persediaan muncul,sila ikuti langkah-langkah untuk melengkapkan pemasangan"</string>
 	<string name="msd_install_retry_windows_xp">"Jika komputer tidak mengesan MI 2 dengan betul, cuba yang berikut:"</string>
 	<string name="msd_install_retry_windows_vista">"If the computer failed to detect your phone,\nTry reconnecting the USB cable."</string>
@@ -440,17 +440,17 @@
 	<string name="vpn_settings_password">VPN</string>
 	<string name="vpn_safe">Sekuriti</string>
 	<string name="vpn_configure">Konfigurasi</string>
-	<string name="vpn_create">Membuat VPN</string>
-	<string name="vpn_dns_servers">DNS servers</string>
+	<string name="vpn_create">Tambah VPN</string>
+	<string name="vpn_dns_servers">Pelayan DNS</string>
 	<string name="vpn_dns_servers_hint">e.g. 8.8.8.8</string>
 	<string name="vpn_routes">Mengemukakan laluan</string>
 	<string name="vpn_routes_hint">e.g. 10.0.0.0/8</string>
-	<string name="sync_wifi_label">Tetapan Wi-Fi</string>
-	<string name="wifi_enable">Hidupkan Wi-Fi</string>
-	<string name="bluetooth_enable">Hidupkan Bluetooth</string>
+	<string name="sync_wifi_label">Wi-Fi</string>
+	<string name="wifi_enable">Wi-Fi</string>
+	<string name="bluetooth_enable">Bluetooth</string>
 	<string name="sync_enable">Hidupkan sync</string>
 	<string name="accessibility_enable">Permohonan Akses</string>
-	<string name="development_enable">Bolehkan peningkatan</string>
+	<string name="development_enable">Pilihan Pemaju</string>
 	<string name="device_name">Nama peranti</string>
 	<string name="device_edit_title">Tukarkan nama peranti</string>
 	<string name="device_name_input_hint">Tetapkan nama peranti anda</string>
@@ -459,10 +459,10 @@
 	
 	<string name="drive_mode">Mod kereta</string>
 	<string name="enable_drive_mode">Mod kereta</string>
-	<string name="drive_mode_title">Mod kereta</string>
+	<string name="drive_mode_title">Mod Kereta</string>
 	<string name="drive_mode_settings">Tetapan mod kereta</string>
 	<string name="drive_mode_voice_report">Output teks-ke-ucapan</string>
-	<string name="drive_mode_phone_report">Incoming call info</string>
+	<string name="drive_mode_phone_report">Info panggilan masuk</string>
 	<string name="drive_mode_sms_report">Mesej-mesej</string>
 	<string name="drive_mode_invert_stop_report">Sunyikan telefon</string>
 	<string name="drive_mode_auto_reply">Balasan pintas</string>
@@ -483,8 +483,8 @@
 	<string name="permission_manage">Pengurusan kebenaran</string>
 	<string name="permission_manage_summary">Auto start, privasi, pengurusan kebenaran selamat</string>
 	
-	<string name="security_relative">Berkaitan keselamatan</string>
-	<string name="privacy_relative">Hal berkaitan provacy</string>
+	<string name="security_relative">Berkaitan sekuriti</string>
+	<string name="privacy_relative">Hal berkaitan privasi</string>
 	<string name="other_relative">Lain² Keizinan</string>
 	<string name="permission_manage_title">%s maklumat kebenaran</string>
 	
@@ -498,13 +498,13 @@
 	<string name="screen_color_temperature_and_saturation">Suhu warna &amp; Ketepuan</string>
 	
 	<string name="finish_application">Selesai</string>
-	<string name="header_category_accounts">Akaun-akaun</string>
+	<string name="header_category_accounts">Akaun</string>
 	
-	<string name="auto_startup_application_manage">Permulaan automatik</string>
+	<string name="auto_startup_application_manage">Auto-Mula</string>
 	<string name="auto_startup_count">%d aplikasi dibenarkan bermula secara automatik</string>
 	<string name="man_add_application">Tambahkan aplikasi permulaan auto secara manual </string>
-	<string name="application_item_disable">Nafi</string>
-	<string name="application_item_permission">Inzinkan</string>
+	<string name="application_item_disable">Nafikan</string>
+	<string name="application_item_permission">Benarkan</string>
 	<string name="application_item_already_permission">Dibenarkan</string>
 	<string name="application_forbid_auto_startup">Nafikan %s daripada bermula di latar belakang</string>
 	<string name="floating_window_switch_label">Tunjukkan popup windows</string>
@@ -522,14 +522,14 @@
 	
 	<!-- private sms -->
 	<string name="private_sms_need_to_unlock">Sila masukkankata laluan SMS rahsia</string>
-	<string name="private_sms_reset_by_account">Log masuk Akaun Xiaomi untuk menetapkan Kata Laluan semula SMS rahsia </string>
+	<string name="private_sms_reset_by_account">Daftar masuk Akaun Xiaomi untuk menetapkan Kata Laluan semula SMS rahsia </string>
 	<string name="private_sms_recording_intro_header">Lukiskan patern utk mengunci</string>
 	<string name="location_neighborhood_level">Benarkan data lokasi tanpa nama untuk dihantar kepada Google. Juga bolehkan aplikasi yang dibenarkan untuk menggunakan data dari sumber seperti Wi-Fi dan rangkaian mudah alih untuk menentukan lokasi anggaran anda.</string>
 	<string name="location_network_based">"Perkhidmatan lokasi Google"</string>
 	
 	<!-- android settings res -->
 	<string name="pointer_location_summary">Tunjuk koordinat sentuhan</string>
-	<string name="wifi_empty_list_wifi_off">Untuk melihat rangkaian tersedia, hidupkan Wi-Fi.</string>
+	<string name="wifi_empty_list_wifi_off">Untuk melihat rangkaian yang ada, hidupkan Wi-Fi.</string>
 	<string name="user_dict_settings_empty_text">"Anda tidak mempunyai apa-apa kamus Tambah perkataan dengan menyentuh butang Tambah (+)"</string>
 	
 	<string name="dirac_control">Bunyi MI</string>
@@ -552,11 +552,11 @@
 	<string name="lockpattern_change_lock_pin_label">Tukar PIN</string>
 	<string name="credentials_configure_lock_screen_hint">Anda perlu menetapkan PIN kunci skrin atau kata laluan sebelum anda boleh menggunakan storan bukti kelayakan.</string>
 	
-	<string name="cancel_alert">Membuang perubahan anda?</string>
+	<string name="cancel_alert">Abaikan perubahan anda?</string>
 	<!-- Message displayed when there are no active services in a process. -->
-	<string name="no_services">Perkhidmatan yang tidak aktif</string>
+	<string name="no_services">Tiada servis yang aktif</string>
 	<!-- Running service details, manage a service that is running for some other reason. -->
-	<string name="service_manage">Tetapan</string>
+	<string name="service_manage">Pemasangan</string>
 	<!-- Running service details, default description for services that are started. -->
 	<string name="service_stop_description">Perkhidmatan ini dimulakan oleh aplikasinya. Menghentikannya boleh mengakibatkan aplikasi gagal.</string>
 	
@@ -564,10 +564,10 @@
 	<string name="android_beam_witch_label">Enable Android Beam</string>
 	<string name="sim_management_title">Pengurusan SIM</string>
 	<string name="sim_status_title">Status SIM</string>
-	<string name="slot_status_title">informasi  IMEI</string>
+	<string name="slot_status_title">Informasi IMEI</string>
 	
 	<string name="xiaomi_cloud_service">MiCloud</string>
-	<string name="xiaomi_money_service">Pusat MiCredit</string>
+	<string name="xiaomi_money_service">MiCredit</string>
 	
 	<string name="lock_settings_common_title">Kunci tetapan</string>
 	<string name="turn_off_security_lock">Mematikan kunci skrin</string>
