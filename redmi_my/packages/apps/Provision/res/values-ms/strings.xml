@@ -25,7 +25,7 @@
     <string name="sim_card_detection_status_absent">Kad SIM tidak dikesan!</string>
 
     <string name="setup_complete_label">Aturan selesai</string>
-    <string name="setup_complete_info">Servis lepas jualan akan diaktifkan ketika pertama kali anda menggunakan fon anda</string>
+    <string name="setup_complete_info">Servis lepas jualan akan diaktifkan ketika anda menggunakan telefon anda kali pertama.</string>
     <string name="setup_complete_start">Mula menggunakan MIUI</string>
     <string name="setup_complete_summary">Aturan selesai! Selamat menggunakan MIUI!</string>
 
