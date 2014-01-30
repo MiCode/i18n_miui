@@ -19,61 +19,61 @@
          [CHAR LIMIT=10]
     -->
     <string-array name="reminder_methods_labels">
-        <item>Notification</item>
-        <item>Email</item>
-        <item>Text message</item>
-        <item>Alarm</item>
+        <item>notifikasi</item>
+        <item>E-mel</item>
+        <item>Mesej teks</item>
+        <item>Penggera</item>
     </string-array>
 
-    <!-- Choices for the "Reminder minutes" spinner.
-         These must be kept in sync with the reminder_minutes_values array.
+    <!-- Choices for the "Reminder minit" spinner.
+         These must be kept in sync with the reminder_minit_values array.
          For consistency, the format should match what
          EventViewUtils.constructReminderLabel() generates.  (TODO: eliminate
-         this and just generate the list from reminder_minutes_values?)
+         this and just generate the list from reminder_minit_values?)
          [CHAR LIMIT=15]
     -->
-    <string-array name="reminder_minutes_labels">
-        <item>None</item>
-        <item>0 minutes</item>
-        <item>1 minute</item>
-        <item>5 minutes</item>
-        <item>10 minutes</item>
-        <item>15 minutes</item>
-        <item>20 minutes</item>
-        <item>25 minutes</item>
-        <item>30 minutes</item>
-        <item>45 minutes</item>
-        <item>1 hour</item>
-        <item>2 hours</item>
-        <item>3 hours</item>
-        <item>12 hours</item>
-        <item>24 hours</item>
-        <item>2 days</item>
-        <item>1 week</item>
+    <string-array name="reminder_minit_labels">
+        <item>Tiada</item>
+        <item>0 minit</item>
+        <item>1 minit</item>
+        <item>5 minit</item>
+        <item>10 minit</item>
+        <item>15 minit</item>
+        <item>20 minit</item>
+        <item>25 minit</item>
+        <item>30 minit</item>
+        <item>45 minit</item>
+        <item>1 jam</item>
+        <item>2 jam</item>
+        <item>3 jam</item>
+        <item>12 jam</item>
+        <item>24 jam</item>
+        <item>2 hari</item>
+        <item>1 minggu</item>
     </string-array>
 
-  <!-- Choices for the "Reminder minutes" spinner in the settings.
+  <!-- Choices for the "Reminder minit" spinner in the settings.
          These must be kept in sync with the preferences_default_reminder_values array.
          [CHAR LIMIT=12]
     -->
        <string-array name="preferences_default_reminder_labels">
-        <item>None</item>
-        <item>0 minutes</item>
-        <item>1 minute</item>
-        <item>5 minutes</item>
-        <item>10 minutes</item>
-        <item>15 minutes</item>
-        <item>20 minutes</item>
-        <item>25 minutes</item>
-        <item>30 minutes</item>
-        <item>45 minutes</item>
-        <item>1 hour</item>
-        <item>2 hours</item>
-        <item>3 hours</item>
-        <item>12 hours</item>
-        <item>24 hours</item>
-        <item>2 days</item>
-        <item>1 week</item>
+        <item>Tiada</item>
+        <item>0 minit</item>
+        <item>1 minit</item>
+        <item>5 minit</item>
+        <item>10 minit</item>
+        <item>15 minit</item>
+        <item>20 minit</item>
+        <item>25 minit</item>
+        <item>30 minit</item>
+        <item>45 minit</item>
+        <item>1 jam</item>
+        <item>2 jam</item>
+        <item>3 jam</item>
+        <item>12 jam</item>
+        <item>24 jam</item>
+        <item>2 hari</item>
+        <item>1 minggu</item>
     </string-array>
 
     <string-array name="preferences_week_start_day_labels">
@@ -175,31 +175,31 @@
     </string-array>
 
     <string-array name="availability">
-        <item>Busy</item>
-        <item>Available</item>
-        <item>Tentative</item>
+        <item>Sibuk</item>
+        <item>Sedia Ada</item>
+        <item>Aturcara</item>
     </string-array>
 
     <string-array name="visibility">
-        <item>Default</item>
-        <item>Private</item>
-        <item>Public</item>
+        <item>Lalai</item>
+        <item>Peribadi</item>
+        <item>Umum</item>
     </string-array>
 
     <string-array name="ordinal_labels">
-        <item>first</item>
-        <item>second</item>
-        <item>third</item>
-        <item>fourth</item>
-        <item>last</item>
+        <item>Pertama</item>
+        <item>Kedua</item>
+        <item>Ketiga</item>
+        <item>Keempat</item>
+        <item>Terakhir</item>
     </string-array>
 
     <!-- Invitation responses -->
     <string-array name="response_labels1">
-        <item>No response</item>
-        <item>Yes</item>
-        <item>Maybe</item>
-        <item>No</item>
+        <item>Tiada respon</item>
+        <item>Ya</item>
+        <item>Mungkin</item>
+        <item>Tidak</item>
     </string-array>
 
     <!-- The corresponding indices are defined in DeleteEventHelper.java -->
@@ -208,9 +208,9 @@
     -->
     <skip/>
     <string-array name="delete_repeating_labels">
-        <item>Only this event</item>
-        <item>This and future events</item>
-        <item>All events</item>
+        <item>Hanya acara ini</item>
+        <item>Acara ini dan akan datang</item>
+        <item>Semua acara</item>
     </string-array>
 
     <!-- The corresponding indices are defined in DeleteEventHelper.java -->
@@ -222,8 +222,8 @@
      -->
     <skip/>
     <string-array name="delete_repeating_labels_no_selected">
-        <item>This &amp; future events</item>
-        <item>All events</item>
+        <item>Acara ini &amp; akan datang</item>
+        <item>Semua acara</item>
     </string-array>
 
     <!-- The corresponding array indices are defined in EventInfoActivity.java -->
@@ -232,16 +232,16 @@
     respond to an invitation that repeats. -->
     <string-array name="change_response_labels">
         <!-- The choice for responding to only one instance of a repeating event -->
-        <item>Only this event</item>
+        <item>Hanya acara ini</item>
         <!-- The choice for responding to all instances of a repeating event -->
-        <item>All events in the series</item>
+        <item>Semua acara dalam siri</item>
     </string-array>
 
     <!-- Strings for buttons in drop down menu -->
     <string-array name="buttons_list">
-        <item>Day</item>
-        <item>Week</item>
-        <item>Month</item>
+        <item>Hari</item>
+        <item>Minggu</item>
+        <item>Bulan</item>
         <item>Agenda</item>
     </string-array>
 </resources>
