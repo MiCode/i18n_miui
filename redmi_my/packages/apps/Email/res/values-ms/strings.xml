@@ -19,15 +19,15 @@
 	<!-- Permissions label for reading attachments -->
 	<string name="permission_read_attachment_label">Membaca lampiran e-mel</string>
 	<!-- Permissions description for reading attachments -->
-	<string name="permission_read_attachment_desc">Membenarkan aplikasi untuk membaca lampiran e-mel anda.</string>
+	<string name="permission_read_attachment_desc">Membenarkan aplikasi ini untuk membaca lampiran e-mel anda.</string>
 	<!-- Permissions label for accessing the main provider -->
 	<string name="permission_access_provider_label">Mengakses data pembekal e-mel</string>
 	<!-- Permissions description for accessing the main provider -->
-	<string name="permission_access_provider_desc">Membenarkan aplikasi untuk mengakses pangkalan data e-mel, termasuk pesanan diterima, 
-		pesanan terhantar, nama pengguna, dan kata laluan.</string>
+	<string name="permission_access_provider_desc">Membenarkan aplikasi ini untuk mengakses pangkalan data e-mel, termasuk mesej diterima, 
+		mesej dihantar, nama pengguna, dan kata laluan.</string>
 	
 	<!-- Name of application on Home screen -->
-	<string name="app_name">E-mel</string>
+	<string name="app_name">Mel</string>
 	<!-- Title of compose screen -->
 	<string name="compose_title">Karang</string>
 	<!-- Title of debug screen -->
@@ -45,13 +45,13 @@
 	<!-- Button name used to move to previous step during setup sequence [CHAR_LIMIT=16] -->
 	<string name="previous_action">Terdahulu</string>
 	<!-- Menu item/button name -->
-	<string name="send_action">Hantarkan</string>
+	<string name="send_action">Hantar</string>
 	<!-- Menu item/button name -->
-	<string name="reply_action">Membalas</string>
+	<string name="reply_action">Balas</string>
 	<!-- Menu item/button name -->
-	<string name="reply_all_action">Membalas kesemuanya</string>
+	<string name="reply_all_action">Balas Semua</string>
 	<!-- Menu item/button name -->
-	<string name="delete_action">Hapuskan</string>
+	<string name="delete_action">Buang</string>
 	<!-- Menu item/button name -->
 	<string name="forward_action">Kehadapan</string>
 	<!-- Menu/Button item name and label for marking a message as a favorite
@@ -60,71 +60,70 @@
 	<!--  Button name used to complete a multi-step process -->
 	<string name="done_action">Selesai</string>
 	<!--  Button name used to create a new quick response [CHAR_LIMIT=16] -->
-	<string name="create_action">Membuat baru</string>
+	<string name="create_action">Karang</string>
 	<!--  Button name used to delete a quick response [CHAR_LIMIT=16] -->
-	<string name="delete_quick_response_action">Hapuskan</string>
+	<string name="delete_quick_response_action">Buang</string>
 	<!-- Message informing user when a list that would contain quick responses
 	is empty [CHAR_LIMIT=80] -->
-	<string name="quick_responses_empty_view">Tiada reaksi sepontan</string>
+	<string name="quick_responses_empty_view">Tiada respon pantas</string>
 	<!-- Menu item/button name -->
 	<string name="discard_action">Buang</string>
 	<!-- Menu item/button name [CHAR_LIMIT=16] -->
-	<string name="save_draft_action">Simpankan draf</string>
+	<string name="save_draft_action">Simpan draf</string>
 	<!-- Menu item/button name. Pressing will insert previously saved text
 	into message body. [CHAR_LIMIT=24] -->
-	<string name="show_quick_text_list_dialog_action">Masukkan reaksi spontan</string>
+	<string name="show_quick_text_list_dialog_action">Masukkan respon pantas</string>
 	<!-- Menu item/button name -->
-	<string name="read_action">Tandakan sudah dibaca</string>
+	<string name="read_action">Tandakan Dibaca</string>
 	<!-- Menu item/button name -->
-	<string name="unread_action">Tandakan belum dibaca</string>
+	<string name="unread_action">Tandakan Belum Dibaca</string>
 	<!-- Menu item/button name -->
-	<string name="set_star_action">Dibintangkan</string>
+	<string name="set_star_action">Bintang</string>
 	<!-- Menu item/button name -->
 	<string name="remove_star_action">Nyahbintang</string>
 	<!-- Menu item -->
-	<string name="refresh_action">Imbaskan semula</string>
+	<string name="refresh_action">Muat Semula</string>
 	<!-- Menu item -->
-	<string name="add_account_action">Menambah akaun</string>
+	<string name="add_account_action">Tambah Akaun</string>
 	<!-- Menu item -->
 	<string name="compose_action">Karang</string>
 	<!-- Menu item/button name -->
-	<string name="search_action">Mencari</string>
+	<string name="search_action">Carian</string>
 	<!-- Menu item -->
-	<string name="account_settings_action">Tetapan akuan</string>
+	<string name="account_settings_action">Tetapan Akaun</string>
 	<!-- Menu item for settings [CHAR LIMIT=40]-->
 	<string name="settings_action">Tetapan</string>
 	<!-- Menu item [CHAR LIMIT=32] -->
-	<string name="mailbox_settings_action">Pilihan penyelarian</string>
+	<string name="mailbox_settings_action">Pilihan segerak</string>
 	<!-- Menu item -->
-	<string name="mark_as_unread_action">Menanda sebagai belum dibaca</string>
+	<string name="mark_as_unread_action">Tanda sebagai belum dibaca</string>
 	<!-- Menu item for moving messages to folders [CHAR LIMIT=10] -->
-	<string name="move_action">Pindahkan</string>
+	<string name="move_action">Pindah</string>
 	<!-- Menu item for navigating to an newer message [CHAR LIMIT=10] -->
-	<string name="newer_action">Lebih baru</string>
+	<string name="newer_action">Lebih Baru</string>
 	<!-- Menu item for navigating to an older message [CHAR LIMIT=10] -->
-	<string name="older_action">Lebih lama</string>
+	<string name="older_action">Lebih Lama</string>
 	<!-- Button label for adding CC/BCC fields on message compose. [CHAR LIMIT=16] -->
 	<string name="plus_cc_label">+ Cc/Bcc</string>
 	<!-- Menu item label for adding CC/BCC fields on message compose. [CHAR LIMIT=20] -->
-	<string name="add_cc_bcc_menu">Menambah Cc/Bcc</string>
+	<string name="add_cc_bcc_menu">Tambah Cc/Bcc</string>
 	<!-- Menu item label for adding an attachment on message compose. [CHAR LIMIT=20] -->
-	<string name="add_file_attachment">Lapirkan fail</string>
+	<string name="add_file_attachment">Lampirkan fail</string>
 	<!-- Generic button [CHAR LIMIT=16] -->
 	<string name="close_action">Tutup</string>
 	<!-- Command shown on Outbox to send all pending messages [CHAR LIMIT=20] -->
-	<string name="message_list_send_pending_messages_action">Hantarkan semua persanan</string>
+	<string name="message_list_send_pending_messages_action">Hantar semua mesej</string>
 	<!-- Appears in choose attachment dialog title -->
-	<string name="choose_attachment_dialog_title">Memilih lampiran</string>
+	<string name="choose_attachment_dialog_title">Pilih lampiran</string>
 	<!-- Dialog title to select a mailbox to which the user moves messages [CHAR LIMIT=20] -->
-	<string name="move_to_folder_dialog_title">Pindahkan ke</string>
+	<string name="move_to_folder_dialog_title">Pindah ke</string>
 	<!-- Appears in message list view while messages are being loaded [CHAR LIMIT=260dip] -->
-	<string name="status_loading_messages">Sedang memuat turun pesanan\u2026</string>
+	<string name="status_loading_messages">Memuatkan mesej\u2026</string>
 	<!-- Appears in message list view when there's a network error. -->
 	<!-- Also appears in a toast, in the message viewer, when there's a network error. -->
-	<string name="status_network_error">Masalah sembungan.</string>
+	<string name="status_network_error">Ralat rangkaian</string>
 	<!-- Dialog text when we are unable to load the message for display -->
-	<string name="error_loading_message_body">"Tidak boleh memuat pesanan. Ianya kemungkinan 
-		terlalu besar untuk dipamerkan."</string>
+	<string name="error_loading_message_body">Tidak boleh memuat mesej teks. Mesej mungkin terlalu besar untuk dipaparkan.</string>
 	<!-- Text shown with dragged messages to indicate how many are being dragged [CHAR LIMIT=40]-->
 	<plurals name="move_messages">
 		<item quantity="one">Pindah mesej</item>
@@ -132,16 +131,16 @@
 	</plurals>
 	<!-- Toast shown when a message(s) can't be moved because it's not supported by the POP3
 	protocol. [CHAR LIMIT=none]-->
-	<string name="cannot_move_protocol_not_supported_toast">"Pemindahan tidak menyokong pada POP3
-	akaun."</string>
+	<string name="cannot_move_protocol_not_supported_toast">Pindahan tidak disokong pada akaun POP3
+	</string>
 	<!-- Toast shown when messages can't be moved because the selection contains multiple accounts'
 	messages. [CHAR LIMIT=none]-->
-	<string name="cannot_move_multiple_accounts_toast">"Tidak boleh memindah kerana pilihan mengandungi beberapa 
-	akaun."</string>
+	<string name="cannot_move_multiple_accounts_toast">Tidak boleh pindah kerana pilihan mengandungi beberapa 
+	akaun</string>
 	<!-- Toast shown when messages can't be moved because they're in a special mailbox.  "Drafts",
 	"Outbox" and "Sent". [CHAR LIMIT=none]-->
-	<string name="cannot_move_special_mailboxes_toast">"Pesanan di dalam Draf, Peti Keluar, dan Dihantar tidak boleh
-	dipindahkan."</string>
+	<string name="cannot_move_special_mailboxes_toast">Mesej dalam Draf, Peti Keluar, dan Item Dihantar tidak boleh
+	dipindahkan</string>
 	
 	<!-- Notification message in notifications window when one account has
 	one or more new messages; e.g, "279 unread (someone@google.com)". -->
@@ -168,7 +167,7 @@
 	
 	<!-- Notification for multiple messages [CHAR LIMIT=60] -->
 	<string name="notification_multiple_new_messages_fmt">
-	<xliff:g example="2">%1$d</xliff:g> pesanan baru</string>
+	<xliff:g example="2">%1$d</xliff:g> mesej baru</string>
 	
 	<!-- Name given to "all accounts" in the account picker for shortcuts and widget [CHAR LIMIT=20] -->
 	<string name="account_name_display_all">Semua akaun</string>
@@ -181,23 +180,23 @@
 
 	<!-- The next set of strings are used in local display and may be localized. -->
 	<!-- In the UI, the inbox will be displayed with this name -->
-	<string name="mailbox_name_display_inbox">Peti masuk</string>
+	<string name="mailbox_name_display_inbox">Peti Masuk</string>
 	<!-- In the UI, the outbox will be displayed with this name -->
-	<string name="mailbox_name_display_outbox">Peti keluar</string>
+	<string name="mailbox_name_display_outbox">Peti Keluar</string>
 	<!-- In the UI, the drafts will be displayed with this name -->
 	<string name="mailbox_name_display_drafts">Draf</string>
 	<!-- In the UI, the trash will be displayed with this name -->
-	<string name="mailbox_name_display_trash"> Sampah</string>
+	<string name="mailbox_name_display_trash">Sampah</string>
 	<!-- In the UI, the sent will be displayed with this name -->
-	<string name="mailbox_name_display_sent">Dihantar</string>
+	<string name="mailbox_name_display_sent">Item Dihantar</string>
 	<!-- In the UI, the junk will be displayed with this name -->
-	<string name="mailbox_name_display_junk">Sarap</string>
+	<string name="mailbox_name_display_junk">Spam</string>
 	<!-- In the UI, the unread will be displayed with this name [CHAR LIMIT=15] -->
-	<string name="mailbox_name_display_unread">Belum dibaca</string>
+	<string name="mailbox_name_display_unread">Belum Dibaca</string>
 	<!-- In the shortcut/widget configuration UI, the label for selecting only the unread messages in an account's inbox [CHAR LIMIT=30] -->
-	<string name="picker_mailbox_name_all_unread">Peti masuk (belum dibaca)</string>
+	<string name="picker_mailbox_name_all_unread">Peti Masuk (belum dibaca)</string>
 	<!-- In the shortcut/widget configuration UI, the label for selecting all messages in an account's inbox [CHAR LIMIT=30] -->
-	<string name="picker_mailbox_name_all_inbox">Peti masuk (semua)</string>
+	<string name="picker_mailbox_name_all_inbox">Peti Masuk (semua)</string>
 	<!-- In the shortcut/widget configuration UI, use this for the "all accounts" account list item [CHAR LIMIT=30] -->
 	<string name="picker_combined_view_fmt">Paparan (<xliff:g id="count">%s</xliff:g>) digabungkan</string>
 	<!-- Count of accounts; used in picker_combined_view_fmt -->
@@ -210,7 +209,7 @@
 	<string name="debug_version_fmt">Versi: <xliff:g id="version">%s</xliff:g></string>
 
 	<!-- The summary section entry in the AccountFolder list to display all inboxes -->
-	<string name="account_folder_list_summary_inbox">Peti masuk</string>
+	<string name="account_folder_list_summary_inbox">Peti Masuk</string>
 	<!-- The summary section entry in the AccountFolder list to display all starred
 	[CHAR LIMIT=200dip] -->
 	<string name="account_folder_list_summary_starred">Dibintangkan</string>
@@ -219,23 +218,23 @@
 	<string name="account_folder_list_summary_drafts">Draf</string>
 	<!-- The summary section entry in the AccountFolder list to display all outboxes
 	[CHAR LIMIT=200dip] -->
-	<string name="account_folder_list_summary_outbox">Peti keluar</string>
+	<string name="account_folder_list_summary_outbox">Peti Keluar</string>
 	
 	<!-- Label shown in the account selector to select "Combined view", which contains
 	Combined Inbox, Combined Outbox, etc. [CHAR LIMIT=30] -->
-	<string name="mailbox_list_account_selector_combined_view">Pameran yang digabungan</string>
+	<string name="mailbox_list_account_selector_combined_view">Paparan Digabungkan</string>
 	<!-- Label shown in the account/mailbox selector to switch to the show all the top-level mailboxes. [CHAR LIMIT=30] -->
-	<string name="mailbox_list_account_selector_show_all_folders">Pamerkan kesemua folder</string>
+	<string name="mailbox_list_account_selector_show_all_folders">Semua Folder</string>
 	<!-- Account list header in the account/mailbox selector. [CHAR LIMIT=30] -->
 	<string name="mailbox_list_account_selector_account_header">Akaun</string>
 	<!-- Recent mailbox header in the account/mailbox selector. [CHAR LIMIT=30] -->
 	<string name="mailbox_list_account_selector_mailbox_header_fmt">
-	Folder (<xliff:g id="email_address">%s</xliff:g>) yang kebelakangan</string>
+	Folder Terkini (<xliff:g id="email_address">%s</xliff:g>)</string>
 	
 	<!-- Mailbox list header for user folders [CHAR LIMIT=30] -->
-	<string name="mailbox_list_user_mailboxes">Folder kesemuanya</string>
+	<string name="mailbox_list_user_mailboxes">Semua Folder</string>
 	<!-- Mailbox list header for recent folders [CHAR LIMIT=30] -->
-	<string name="mailbox_list_recent_mailboxes">Folder yang kebelakangan</string>
+	<string name="mailbox_list_recent_mailboxes">Folder terkini</string>
 	
 	<!-- Announces the subject field for a message for users with accessibility requirements -->
 	<string name="message_subject_description">Subjek</string>
@@ -243,7 +242,7 @@
 	to users with accessibility requirements -->
 	<string name="message_is_empty_description">Tiada subjek</string>
 	<!-- Appears at the bottom of list of messages; user selects to load more messages from that folder. -->
-	<string name="message_list_load_more_messages_action">Muatkan lagi mel</string>
+	<string name="message_list_load_more_messages_action">Papar lebih banyak mesej</string>
 	<!--  The number of messages that are currently selected for various operations such as
 	"delete message(s)" [CHAR LIMIT=32] -->
 	<plurals name="message_view_selected_message_count">
@@ -252,7 +251,7 @@
 	</plurals>
 	<!-- Message to show when there are no messages (emails) in the selected mailbox.
 	[CHAR LIMIT=26] -->
-	<string name="message_list_no_messages">Tiada pesanan</string>
+	<string name="message_list_no_messages">Kosong</string>
 	<!-- Hint text in To field -->
 	<string name="message_compose_to_hint">Kepada</string>
 	<!-- Hint text in Cc field -->
@@ -272,25 +271,25 @@
 	<!-- Label for Subject field [CHAR LIMIT=12] -->
 	<string name="subject_hint">Subjek</string>
 	<!-- Hint text in Message composer body field -->
-	<string name="body_hint">Karangkan e-mel</string>
+	<string name="body_hint">Karang mel</string>
 	<!-- Header for forwarded original messages -->
 	<string name="message_compose_fwd_header_fmt">\n\n-------- Mesej Asal --------\nSubjek: <xliff:g id="subject">%1$s</xliff:g>\nDaripada: <xliff:g id="sender">%2$s</xliff:g>\nKepada: <xliff:g id="to">%3$s</xliff:g>\nCC: <xliff:g id="cc">%4$s</xliff:g>\n\n</string>
 	<!-- Header for replied-to messages -->
 	<string name="message_compose_reply_header_fmt">\n\n<xliff:g id="sender">%s</xliff:g> menulis:\n\n</string>
 	<!-- Heading that appears before forwarded text -->
-	<string name="message_compose_quoted_text_label">Kandungkan nota yang dipetik</string>
+	<string name="message_compose_quoted_text_label">Sertakan teks petikan</string>
 	<!-- Label of checkbox to include original message in a forwarded/replied message
 	[CHAR_LIMIT=32] -->
-	<string name="message_compose_include_quoted_text_checkbox_label">Kandungkan Nota</string>
+	<string name="message_compose_include_quoted_text_checkbox_label">Sertakan teks</string>
 	<!-- Toast that appears if you try to send with no recipients. -->
 	<string name="message_compose_error_no_recipients">Anda mesti menambah sekurang-kurangnya satu penerima.</string>
 	<!-- An address field contains invalid email addresses. -->
 	<string name="message_compose_error_invalid_email">Sesetengah alamat e-mel adalah tidak sah.</string>
 	<!-- Toast that appears when an attachment is too big to send. -->
-	<string name="message_compose_attachment_size">Terlalu besar untuk dilampirkan.</string>
+	<string name="message_compose_attachment_size">Fail terlalu besar untuk dilampirkan.</string>
 	<!-- Title for dialog containing list of quick responses that user may insert
 	into message body. [CHAR_LIMIT=30] -->
-	<string name="message_compose_insert_quick_response_list_title">Masukan maklum balas yang pantas</string>
+	<string name="message_compose_insert_quick_response_list_title">Masukkan respon pantas</string>
 	<!-- Display name for composed message, indicating the destination of the message.
 	e.g. "John and 2 others" -->
 	<string name="message_compose_display_name"><xliff:g id="name" example="John">%1$s</xliff:g> dan <xliff:g id="number" example="27">%2$d</xliff:g> yang lain</string>
@@ -302,82 +301,82 @@
 	<!-- Label for the date field. [CHAR LIMIT=20]-->
 	<string name="message_view_date_label">Tarikh:</string>
 	<!-- Label for the from field. [CHAR LIMIT=20]-->
-	<string name="message_view_from_label">Dari:</string>
+	<string name="message_view_from_label">Daripada:</string>
 	<!-- Label for the subject field. [CHAR LIMIT=20]-->
 	<string name="message_view_subject_label">Subjek:</string>
 	<!-- Button name to view an attachment [CHAR LIMIT=10]-->
-	<string name="message_view_attachment_view_action">Melihat</string>
+	<string name="message_view_attachment_view_action">Papar</string>
 	<!-- Button name to install an .apk attachment [CHAR LIMIT=10]-->
-	<string name="message_view_attachment_install_action">Muat turun</string>
+	<string name="message_view_attachment_install_action">Pasang</string>
 	<!-- Button name to play a media (i.e. audio/video) attachment [CHAR LIMIT=10]-->
-	<string name="message_view_attachment_play_action">Mainkan</string>
+	<string name="message_view_attachment_play_action">Main</string>
 	<!-- Button name, to load an attachment from the mail server [CHAR LIMIT=10]-->
 	<string name="message_view_attachment_load_action">Muatkan</string>
 	<!-- Button name, to show info about an attachment from the mail server [CHAR LIMIT=10]-->
-	<string name="message_view_attachment_info_action">Informasi</string>
+	<string name="message_view_attachment_info_action">Info</string>
 	<!-- Button name, to save the attachment to SD card [CHAR LIMIT=10]-->
 	<string name="message_view_attachment_save_action">Simpan</string>
 	<!-- Disabled button text to indicate an attachment has been saved [CHAR LIMIT=10] -->
 	<string name="message_view_attachment_saved">Telah disimpan</string>
 	<!-- Button name, to cancel a queued attachment download [CHAR LIMIT=10]-->
-	<string name="message_view_attachment_cancel_action">Hentikan</string>
+	<string name="message_view_attachment_cancel_action">Henti</string>
 	<!-- Toast after saving attachment [CHAR LIMIT=30] -->
 	<string name="message_view_status_attachment_saved">Lampiran disimpan 
 	sebagai <xliff:g id="filename">%s</xliff:g>.</string>
 	<!-- Toast after attachment could not be saved [CHAR LIMIT=30] -->
-	<string name="message_view_status_attachment_not_saved">"Tidak dapat menyimpan lampiran ini."</string>
+	<string name="message_view_status_attachment_not_saved">Tidak dapat menyimpan lampiran</string>
 	<!-- Toast upon using "send" when one or more attachments will need to be background loaded [CHAR LIMIT=none]-->
-	<string name="message_view_attachment_background_load">Perhatian: Satu atau lebih lampiran terkandung dalam pesanan dimajukan akan 
-	dimuat turun terlebih dahulu sebelum ianya dihantar.</string>
+	<string name="message_view_attachment_background_load">Nota: Satu atau lebih lampiran terkandung dalam mesej dimajukan akan 
+	dimuatturun terlebih dahulu sebelum dihantar.</string>
 	<!--Button on the message view screen to show the message content [CHAR LIMIT=16] -->
-	<string name="message_view_show_message_action">Pesanan</string>
+	<string name="message_view_show_message_action">Mesej</string>
 	<!--Button on the message view screen to show the calendar invite [CHAR LIMIT=16] -->
-	<string name="message_view_show_invite_action">Jemputan</string>
+	<string name="message_view_show_invite_action">Pelawaan</string>
 	<!--Button on the message view screen to show the attachments [CHAR LIMIT=16] -->
 	<plurals name="message_view_show_attachments_action">
 		<item quantity="one">Lampiran <xliff:g id="num_attachment" example="1" >%1$d</xliff:g></item>
 		<item quantity="other">Lampiran <xliff:g id="num_attachment" example="3" >%1$d</xliff:g></item>
 	</plurals>
 	<!-- Button on the message view screen to show the embedded pictures [CHAR LIMIT=16] -->
-	<string name="message_view_show_pictures_action">Tunjukkan gambar</string>
+	<string name="message_view_show_pictures_action">Tunjuk imej</string>
 	<!-- Button on the message view screen to always show pictures from the given
 	sender [CHAR LIMIT=32] -->
-	<string name="message_view_always_show_pictures_button">Tunjukkan Selalu</string>
+	<string name="message_view_always_show_pictures_button">Tunjuk Selalu</string>
 	<!-- Prompt on the message view screen whether or not to always show pictures from the
 	given sender [CHAR LIMIT=80] -->
 	<string name="message_view_always_show_pictures_prompt">
-	Gambar daripada pengirim ini akan sering dipaparkan</string>
+	Sentiasa tunjuk imej daripada pengirim ini</string>
 	<!-- Confirmation toast to indicate that the user has chosen to always show
 	pictures from the given sender [CHAR LIMIT=160] -->
 	<string name="message_view_always_show_pictures_confirmation">
-	Gambar daripada pengirim ini akan ditujukan secara automatik.</string>
+	Gambar daripada pengirim ini akan ditunjukkan secara automatik.</string>
 	<!-- Calendar invitation, label of the button to open in calendar [CHAR LIMIT=24] -->
-	<string name="message_view_invite_view">Tunjukkan dalam kalendar</string>
+	<string name="message_view_invite_view">Papar dalam kalendar</string>
 	<!-- String shown with a calendar invitation. -->
 	<string name="message_view_invite_title">Pelawaan kalendar</string>
 	<!-- String shown with a calendar invitation. -->
-	<string name="message_view_invite_text">Menghadiri?</string>
+	<string name="message_view_invite_text">Hadir?</string>
 	<!-- Button text: Calendar invitation: Accept. The leading space is used for spacing -->
 	<string name="message_view_invite_accept">" Ya"</string>
 	<!-- Button text: Calendar invitation: Maybe. The leading space is used for spacing -->
-	<string name="message_view_invite_maybe">" kemungkinan"</string>
+	<string name="message_view_invite_maybe">" Mungkin"</string>
 	<!-- Button text: Calendar invitation: Decline. The leading space is used for spacing -->
 	<string name="message_view_invite_decline">" Tidak"</string>
 	<!-- Toast shown following a meeting invite reply, accepted -->
-	<string name="message_view_invite_toast_yes">"Anda telah menerima pelawaan ini."</string>
+	<string name="message_view_invite_toast_yes">Anda telah menerima pelawaan ini</string>
 	<!-- Toast shown following a meeting invite reply, maybe -->
 	<string name="message_view_invite_toast_maybe">
-	Anda sudah berbalas \"kemungkinan\" terhadap pelawaan ini.</string>
+	Anda sudah membalas \"Mungkin\" untuk pelawaan ini.</string>
 	<!-- Toast shown following a meeting invite reply, declined -->
-	<string name="message_view_invite_toast_no">"Anda telah menolak pelawaan ini."</string>
+	<string name="message_view_invite_toast_no">Anda telah menolak pelawaan ini</string>
 	<!--Confirmation dialog title shown when user tries to delete messages.  [CHAR LIMIT=16] -->
 	<!-- Link label to show to/cc/bcc of the curent message [CHAR LIMIT=32] -->
-	<string name="message_view_show_details">Tunjukkan butiran</string>
+	<string name="message_view_show_details">Tunjuk butiran</string>
 	<!-- Title of the dialog box to show to/cc/bcc of the message.  [CHAR LIMIT=32] -->
-	<string name="message_view_message_details_dialog_title">Perincian persanan</string>
+	<string name="message_view_message_details_dialog_title">Butiran Mesej</string>
 	
 	<!-- Title for most attachment info dialogs [CHAR LIMIT=32] -->
-	<string name="attachment_info_dialog_default_title">Infomasi Lampiran</string>
+	<string name="attachment_info_dialog_default_title">Info Lampiran</string>
 	<!-- Title when Wi-Fi settings prevent attachments from downloading [CHAR LIMIT=32] -->
 	<string name="attachment_info_dialog_wifi_title">Sambungan Wi-Fi diperlukan</string>
 	<!-- Text of button to launch the Wi-Fi settings activity [CHAR LIMIT=24] -->
@@ -385,7 +384,7 @@
 	<!-- Text of button to launch the application settings activity [CHAR LIMIT=24] -->
 	<string name="attachment_info_application_settings">Tetapan applikasi</string>
 	<!-- Message body when we don't know exactly why an attachment can't be shown -->
-	<string name="attachment_info_unknown">"Tidak boleh menbuka lampiran."</string>
+	<string name="attachment_info_unknown">Tidak boleh menbuka lampiran</string>
 	<!-- Message body when the attachment is suspected of being malware -->
 	<string name="attachment_info_malware">
 		Anda tidak boleh menyimpan atau membuka fail ini kerana jenis lampiran ini kemungkinan mengandungi
@@ -393,7 +392,7 @@
 	<!-- Message body when the attachment can't be loaded due to security policy restrictions -->
 	<string name="attachment_info_policy">
 		Lampiran ini tidak boleh disimpan atau dibuka disebabkan 
-		oleh polisi keselamatan akaun ini.</string>
+		oleh polisi sekuriti akaun ini.</string>
 	
 	<!-- Message body when the attachment can only be downloaded over Wi-Fi -->
 	<string name="attachment_info_wifi_only">
@@ -401,23 +400,22 @@
 		Anda boleh memuat turun ianya ketika anda menyambung ke rangkaian Wi-Fi.</string>
 	<!-- Message body when no activities can open the attachment -->
 	<string name="attachment_info_no_intent">
-		Tiada appikasi yang boleh membuka lampiran ini. Sila cuba muat turun aplikasi yang 
-		tepat dari PlayStore.</string>
+		Tiada aplikasi yang boleh membuka lampiran ini.</string>
 	<!-- Message body when the attachment is an application, but, side loading is disabled -->
 	<string name="attachment_info_sideload_disabled">
-		Lampiran ini merupakan satu applikasi. Anda mesti menanda Sumber Tidak Diketahui 
+		Lampiran ini merupakan satu aplikasi. Anda mesti menanda Sumber Tidak Diketahui 
 		daripada Tetapan &gt; Aplikasi sebelum anda boleh memasangnya.</string>
 	<!-- Message body when the attachment is an application, and side loading is enabled -->
 	<string name="attachment_info_apk_install_disabled">
-		Aplikasi tidak boleh dipasang secara terus dari e-mel. Sila menyimpan 
-		aplikasi ini dahulu kemudian memasangnya dengan Pengmuat turun applikasi.</string>
+		Aplikasi tidak boleh dipasang secara terus dari e-mel. Sila simpan 
+		aplikasi ini dahulu kemudian memasangnya dengan aplikasi Pemuat turun.</string>
 	<!-- Error banner when an attachment could not be downloaded due to a problem at the server
 	[CHAR LIMIT=100] -->
 	<string name="attachment_not_found">"Tidak dapat memuat turun lampiran."</string>
 	
 	<!-- String used in place of a message that could not be properly decoded (e.g. bad base64
 	data was received.) [CHAR LIMIT=none] -->
-	<string name="message_decode_error">Terdapat kesilapan ketika menyahkod pesanan.</string>
+	<string name="message_decode_error">Terdapat kesilapan ketika menyahkod mesej.</string>
 	
 	<!-- Title of the EML viewer activity. [CHAR LIMIT=32] -->
 	<string name="eml_view_title">Pandangan <xliff:g id="filename" example="test.eml">%s</xliff:g></string>
