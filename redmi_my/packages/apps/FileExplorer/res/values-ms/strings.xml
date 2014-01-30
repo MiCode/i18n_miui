@@ -28,15 +28,15 @@
     <string name="cancel">Membatal</string>
     <string name="background">Muat turun di latar belakang</string>
     <string name="no_file">Tiada fail</string>
-    <string name="tab_category">Membaca</string>
-    <string name="tab_phone">Peranti</string>
+    <string name="tab_category">Kategori</string>
+    <string name="tab_phone">Telefon</string>
     <string name="category_all">Keseluruhan</string>
     <string name="category_music">Muzik</string>
     <string name="category_video">Video</string>
     <string name="category_picture">Gambar</string>
     <string name="category_theme">Thema</string>
     <string name="category_document">Dokumen</string>
-    <string name="category_zip">Zip</string>
+    <string name="category_zip">Arkib</string>
     <string name="category_apk">APKs</string>
     <string name="category_other">Dan lain-lain</string>
     <string name="category_favorite">Kegemaran</string>
@@ -94,7 +94,7 @@
     <string name="favorite_ringtone">Ringtones</string>
     <string name="file_loading">Sedang memuatkan\u2026</string>
     <string name="multi_select_title"><xliff:g id="number">%1$s</xliff:g> item dipilih</string>
-    <string name="tab_networkdisk">MiDrive</string>
+    <string name="tab_networkdisk">KuaiPan</string>
     <string name="operation_download_link">Menjana link muat turun </string>
     <string name="ui_filechange_btn_download">Muat turun fail</string>
     <string name="show_message">Fail tidak boleh dibuka tanpa memuat turun</string>
@@ -124,9 +124,9 @@
     <string name="ui_main_menu_option_task_manage">memindahkan Pengurusan</string>
     <string name="kuaipan_label">Kuaipan</string>
     <string name="create_kuaipan_shortcut_pref">Membuat jalan pintas ke desktop</string>
-    <string name="login_reg_content0">MiDrive adalah storan Cloud anda</string>
-    <string name="login_reg_content">MiDrive membantu anda menyimpan fail-fail dan sync mereka di antara pelbagai peranti.</string>
-    <string name="start_use_xiaomi_account">Daftar masuk</string>
+    <string name="login_reg_content0">Gunakan KuaiPan dari mana-mana tempat</string>
+    <string name="login_reg_content">Menyimpan fail-fail dan sync merentasi pelbagai peranti, ciri ini memerlukan penyambungan rangkaian</string>
+    <string name="start_use_xiaomi_account">Mula gunakan KuaiPan</string>
     <string name="pan_settting">tetapan MiDrive</string>
     <string name="xiaomi_account">Xiaomi account</string>
     <string name="space_usage">penggunaan</string>
@@ -187,7 +187,7 @@
     <string name="delete_failed">Memadaman Gagal</string>
     <string name="toast_file_not_can_read">Fail tidak boleh dibaca atau rosak.</string>
     
-    <string name="ui_main_menu_option_sign_in">daftar masuk</string>
+    <string name="ui_main_menu_option_sign_in">Daftar masuk</string>
     <string name="sign_description">Mendaftar masuk\u2026</string>
     <string name="signin_error">Gagal menyambung ke rangkaian buat masa kini, sila cuba lagi</string>
     <string name="signin_success">"Daftar masuk berjaya!: %1$s"</string>
@@ -261,7 +261,7 @@
     <string name="binded_accout_description">Akaun digabungkan, menggunakan sama ada akaun Xiaomi anda atau akaun MiDrive untuk log masuk, kedua-dua boleh membaca data anda</string>
     
     <!-- for 文件清理 -->
-    <string name="file_cleanup">Pembersihan fail</string>
+    <string name="file_cleanup">Pembersihan</string>
     <string name="scanning_on_going">Mengimbas\u2026</string>
     <string name="scanning">Imbas <xliff:g id="count">%d</xliff:g> aplikasi\u2026 (jumlah <xliff:g id="total">%d</xliff:g> aplikasi)</string>
     <string name="sys_size_title">Jumlah Ruang</string>
