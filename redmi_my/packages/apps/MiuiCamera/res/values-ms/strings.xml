@@ -647,9 +647,9 @@
     <string name = "pref_camera_volumekey_function_title">Butang kelantangan</string>
 
     <!-- 长按连拍 -->
-    <string name = "pref_camera_long_pressing_burst_shooting_title">Tekan dengan lama butang pengatup</string>
+    <string name = "pref_camera_long_pressing_burst_shooting_title">Tangkapan Pintas</string>
     <string name = "pref_camera_long_pressing_burst_shooting_entry_off">Fokus</string>
-    <string name = "pref_camera_long_pressing_burst_shooting_entry_on">Tangkapan meletup</string>
+    <string name = "pref_camera_long_pressing_burst_shooting_entry_on">Hidupkan, Matikan</string>
 
     <!-- 白平衡K值 -->
     <string name="pref_camera_current_k_value">Nilai semasa</string>
