@@ -23,7 +23,7 @@
     <string name="upgrade_msg">Naiktaraf pangkalan data kalendar.</string>
 
     <!-- Temporary Calendar name to use before we have the calendar name from the server -->
-    <string name="calendar_default_name">Default</string>
+    <string name="calendar_default_name">Lalai</string>
 
     <!-- Caption on secret calendar info -->
     <string name="calendar_info">Info kalendar</string>
@@ -38,7 +38,7 @@
     <string name="calendar_info_events">Acara: <xliff:g id = "events">%1$d</xliff:g></string>
 
     <!-- Event and dirty event count message for secret calendar info -->
-    <string name="calendar_info_events_dirty">Acara: <xliff:g id = "events">%1$d</xliff:g>, Unsaved: <xliff:g id = "dirty events">%2$d</xliff:g></string>
+    <string name="calendar_info_events_dirty">Acara: <xliff:g id = "events">%1$d</xliff:g>, Tidak disimpan: <xliff:g id = "dirty events">%2$d</xliff:g></string>
 
     <!-- What to show in messaging that refers to this provider, e.g. AccountSyncSettings -->
     <string name="provider_label">Kalendar</string>
@@ -50,7 +50,7 @@
     <string name="debug_tool_start_button">Mula</string>
 
     <!-- Debug tool - Main message shown to the user when starting up the debug tool [CHAR LIMIT=NONE] -->
-    <string name="debug_tool_message">Anda sedang 1) buat salinan pangkalan data kalendar ke kad SD/storan USB, yang boleh dibaca oleh mana-mana apps, dan 2) Emelkannya. Jangan lupa untuk buang salinan sebaik sahaja anda selesai menyalinnya ke peranti atau emel telah diterima.</string>
+    <string name="debug_tool_message">Anda sedang 1) buat salinan pangkalan data kalendar ke kad SD/storan USB, yang boleh dibaca oleh mana-mana apps, dan 2) E-melkannya. Jangan lupa untuk buang salinan sebaik sahaja anda selesai menyalinnya ke peranti atau emel telah diterima.</string>
 
     <!-- Debug tool - email subject [CHAR LIMIT=NONE] -->
     <string name="debug_tool_email_sender_picker">Pilih program untuk hantar fail anda</string>
