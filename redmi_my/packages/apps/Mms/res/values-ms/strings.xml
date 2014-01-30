@@ -277,14 +277,14 @@
 	<!-- Settings screen menu item for restoring all settings to default -->
 	
 	<!-- Settings screen, section heading for notifications -->
-	<string name="pref_notification_settings_title">Tetapan notifikasi</string>
+	<string name="pref_notification_settings_title">Notifikasi</string>
 	<!-- Settings screen, section heading for MMS-specific settings -->
-	<string name="pref_mms_settings_title">Tetapan mesej multimedia (MMS)</string>
+	<string name="pref_mms_settings_title">Mesej multimedia (MMS)</string>
 	<!-- Settings screen, section heading for SMS-specific settings -->
 	<!-- Settings screen, section heading for storage-specific settings -->
 	
 	<!-- Settings item description for entering SIM card message screen -->
-	<string name="pref_summary_manage_sim_messages">mengurus mesej yang disimpan dalam kad SIM anda</string>
+	<string name="pref_summary_manage_sim_messages">Uruskan mesej yang disimpan dalam kad SIM anda</string>
 	<!-- Settings item description for boolean MMS delivery report setting -->
 	<!-- Settings item description for boolean MMS read report setting -->
 	<string name="pref_summary_mms_read_reports">Meminta laporan baca untuk setiap mesej yang anda hantar</string>
@@ -293,7 +293,7 @@
 	<!-- Settings item description for integer auto-delete sms message limit -->
 	<string name="pref_summary_delete_limit"><xliff:g id="count">%1$s</xliff:g> mesej setiap perbualan</string>
 	<!-- Settings item for entering SIM card message screen -->
-	<string name="pref_title_manage_sim_messages">uruskan mesej kad SIM</string>
+	<string name="pref_title_manage_sim_messages">Urus mesej kad SIM</string>
 	<!-- Settings item for boolean option to enable/disable MMS delivery reports -->
 	<!-- Settings item for boolean option to enable/disable MMS read reports -->
 	<string name="pref_title_mms_read_reports">Laporan membaca</string>
@@ -324,13 +324,13 @@
 	<!-- Dialog title for the Vibrate dialog -->
 	
 	<!-- Settings item for boolean option to auto-retrieve incoming MMS messages -->
-	<string name="pref_title_mms_auto_retrieval">Terima secara automatik</string>
+	<string name="pref_title_mms_auto_retrieval">Auto-capai MMS</string>
 	<!-- Settings item description for boolean MMS auto-retrieve option -->
-	<string name="pref_summary_mms_auto_retrieval">Menerima mesej secara automatik</string>
+	<string name="pref_summary_mms_auto_retrieval">Menerima MMS secara automatik</string>
 	<!-- Settings item for boolean option to auto-retrieve incoming MMS messages when roaming -->
-	<string name="pref_title_mms_retrieval_during_roaming">Menerima secara automatik semasa perayauan</string>
+	<string name="pref_title_mms_retrieval_during_roaming">Perayauan auto-capai</string>
 	<!-- Settings item description for boolean MMS auto-retrieve while roaming option -->
-	<string name="pref_summary_mms_retrieval_during_roaming">Menerima mesej secara automatik apabila perayauan</string>
+	<string name="pref_summary_mms_retrieval_during_roaming">Menerima mesej secara automatik semasa perayauan</string>
 	
 	<!-- Label prepended to recipient's name in Undelivered Messages screen -->
 	<string name="to_label">"Kepada "</string>
@@ -346,7 +346,7 @@
 		<!-- Case of 1 result. -->
 		<item quantity="one">Delete this conversation?</item>
 		<!-- Case of 0 or 2 or more results. -->
-		<item quantity="other">Delete selected <xliff:g id="number" example="15">%1$s</xliff:g> conversations?</item>
+		<item quantity="other">Buang <xliff:g id="number" example="15">%1$s</xliff:g> perbualan terpilih?</item>
 	</plurals>
 	<string name="confirm_delete_conversation">Urutan mesej ini akan dibuang.</string>
 	<!-- Delete all threads confirmation dialog message -->
@@ -706,14 +706,14 @@
 	<!-- Add by MIUI -->
 	<!-- tab title -->
 	<string name="conversation">Mesej</string>
-	<string name="bookmark">Penanda Buku</string>
+	<string name="bookmark">Kegemaran</string>
 	<string name="festival">Disyorkan</string>
 	
 	<string name="add_smiley">Smiley</string>
 	<string name="add_bookmark">Kegemaran</string>
 	<string name="add_contact">Kenalan</string>
 	<string name="add_nickname">Nama samaran</string>
-	<string name="add_festival">Syorkan</string>
+	<string name="add_festival">Disyorkan</string>
 	
 	<string name="add_nickname_title">Menyunting nama samaran</string>
 	<string name="edit_nickname_for_nocontact">Tiada penerima dijumpai. Pastikan ada sekurang-kurangnya seorang penerima untuk menyunting nama samaran.</string>
@@ -766,9 +766,9 @@
 	<string name="context_menu_contact">Kenalan: %1$s</string>
 	
 	<!-- Theme setting -->
-	<string name="pref_sms_theme_title">Tetapan tema</string>
-	<string name="pref_time_auto_group_title">Kumpul</string>
-	<string name="pref_time_auto_group_summary">Kumpulkan mesej dengan masa</string>
+	<string name="pref_sms_theme_title">Paparan</string>
+	<string name="pref_time_auto_group_title">Kumpul mesej</string>
+	<string name="pref_time_auto_group_summary">Kumpulkan mesej mengikut masa</string>
 	
 	<!--  for bookmark -->
 	<string name="bookmark_list_title">Senarai Penanda Buku</string>
@@ -776,12 +776,12 @@
 	<string name="delete_bookmark">Buang dari Kegemaran</string>
 	<string name="view_bookmark">Lihat mesej asal</string>
 	<string name="bookmark_confirm_delete_message">Mesej yang dipilih akan dibuang dari Penanda Buku</string>
-	<string name="bookmark_empty">Penanda Buku kosong</string>
+	<string name="bookmark_empty">Tiada mesej kegemaran.</string>
 	
 	<!-- Sms phrase -->
 	<string name="phrase_list_title" formatted="false">Frasa (%1$d)</string>
 	<string name="new_phrase">Frasa baru</string>
-	<string name="edit_phrase">Sunting frasa</string>
+	<string name="edit_phrase">Edit frasa</string>
 	<string name="new_phrase_hint">Masukkan frasa baru</string>
 	<string name="delete_phrase">Buang frasa</string>
 	<string name="phrase_confirm_delete_message">Frasa yang dipilih akan dibuang</string>
@@ -789,10 +789,10 @@
 	<string name="phrase_empty">Tiada frasa</string>
 	
 	<!-- preference -->
-	<string name="pref_title_notification_body_enabled">Tunjukkan pra-tonton</string>
+	<string name="pref_title_notification_body_enabled">Pra-tonton mesej</string>
 	<string name="pref_summary_notification_body_enabled">Pra-tonton mesej di skrin kunci dan bar status</string>
 	<string name="pref_summary_notification_body_enabled_when_secure">Pra-tonton mesej dimatikan apabila kawalan akses dihidupkan</string>
-	<string name="pref_title_new_message_popup">Pop timbul mesej baru</string>
+	<string name="pref_title_new_message_popup">Pop timbul notifikasi</string>
 	<string name="pref_summary_new_message_popup">Paparkan pop timbul apabila mesej baru diterima</string>
 	<string name="pref_summary_new_message_popup_when_secure">Tiada notifikasi pop timbul apabila akses dikawal</string>
 	<string name="pref_title_wake_up_screen">Bangunkan skrin</string>
@@ -805,12 +805,12 @@
 	<string name="pref_system_title">Sistem</string>
 	<string name="pref_advanced_settings_title">Tetapan lanjutan</string>
 	<string name="pref_edit_smsc_address">Nombor pusat SMS</string>
-	<string name="pref_title_allow_si_sl_push">Benarkan WAP push</string>
-	<string name="pref_summary_allow_si_sl_push">Benarkan menerima dan memberitahu mesej push WAP (SI/SL)</string>
+	<string name="pref_title_allow_si_sl_push">Benarkan push WAP</string>
+	<string name="pref_summary_allow_si_sl_push">Benarkan mesej push WAP (SI/SL)</string>
 	<string name="pref_title_show_recent_contacts">Kenalan baru-baru ini</string>
 	<string name="pref_summary_show_recent_contacts">Tunjukkan senarai kenalan baru-baru ini semasa mengarang mesej baru</string>
-	<string name="pref_title_hide_festival">Sembunyikan tab penyesyoran</string>
-	<string name="pref_summary_hide_festival">Sembunyi tab pengesyoran untuk bahasa Bukan Cina</string>
+	<string name="pref_title_hide_festival">Sembunyi tab Pengesyoran</string>
+	<string name="pref_summary_hide_festival">Sembunyikan tab Pengesyoran untuk bahasa bukan Cina</string>
 	
 	<!-- Signature -->
 	
@@ -818,7 +818,7 @@
 	<string name="send_signature_confirm_dialog_message">Tiada badan mesej dijumpai. Adakah anda pasti anda ingin menghantar tandatangan sahaja?</string>
 	
 	<!-- edit mode -->
-	<string name="enter_edit_mode">Buang</string>
+	<string name="enter_edit_mode">Edit mesej</string>
 	<string name="check_all">Pilih semua</string>
 	<string name="batch_delete_confirm_dialog_message">Adakah anda pasti untuk membuang kesemua %1$s mesej yang dipilih?</string>
 	<string name="batch_deleting_progress_message">Membuang urutan mesej yang telah dipilih\u2026</string>
@@ -843,8 +843,8 @@
 	<string name="message_too_big_for_audio">Mesej ini terlalu besar untuk melampirkan audio.</string>
 	<string name="add_timing">Pengaturan masa</string>
 	
-	<string name="pref_title_system_mms_priority">Keutamaan app sistem Mms</string>
-	<string name="pref_summary_on_system_mms_priority">App Sistem Mms akan menerima mesej dahulu</string>
+	<string name="pref_title_system_mms_priority">Tetap sebagai lalai</string>
+	<string name="pref_summary_on_system_mms_priority">Guna app pemesejan MIUI sebagai lalai untuk hantar dan terima MMS</string>
 	<string name="pref_summary_off_system_mms_priority">Use third party apps to send and receive MMS</string>
 	
 	<!-- Title of timed message dialog -->
@@ -865,8 +865,8 @@
 	<string name="processing">Memproses\u2026</string>
 	<string name="title_date_type">Masa setem mesej</string>
 	
-	<string name="mx_msg">Pesanan Awan</string>
-	<string name="mx_enable">Aktifkan pesanan awan</string>
+	<string name="mx_msg">Pemesejan Awan</string>
+	<string name="mx_enable">Pemesejan awan</string>
 	<string name="mx_warning_notice">Satu SMS akan dihantar untuk aktifkan Pesanan Awan. Tertakhluk kepada kadar karier biasa.</string>
 	<string name="mx_int_warning_notice">Satu SMS antarabangsa akan dihantar untuk mengaktifkan Pesanan Awan, tertakhluk kepada kadar karier biasa</string>
 	<string name="mx_btn_enable">Aktifkan</string>
@@ -900,7 +900,7 @@
 	<string name="found_old_messages">Sebanyak: %1$s ditemui pada akaun telefon lama. Adakah anda ingin muat naik ke akaun semasa: %2$s anda?</string>
 	<string name="show_all_messages">Tunjukkan semua mesej</string>
 	<string name="loading_all_messages">Memuatkan semua mesej\u2026</string>
-	<string name="mx_online">Online</string>
+	<string name="mx_online">Atas talian</string>
 	<string name="mx_offline">Offline</string>
 	<string name="mx_enable_popup_msg">Pesanan Awan membolehkan anda untuk menghantar mesej melalui MIUI. Satu SMS biasa diperlukan untuk mengaktifkan perkhidmatan dan kadar mesej mungkin dikenakan. Adakah anda mahu mengaktifkannya sekarang?</string>
 	<string name="mx_enable_int_popup_msg">Pesanan Awan membolehkan anda untuk menghantar mesej di antara pengguna MIUI. Untuk mengaktifkan, SMS antarabangsa akan dihantar. Kadar mesej mungkin dikenakan.</string>
@@ -986,8 +986,8 @@
 	<string name="invalid_private_contact">Kenalan peribadi tidak sah</string>
 	
 	<string name="sp_conversation_title">Mesej notifikasi</string>
-	<string name="title_collapse_sp_messages">Gabungkan mesej pembekal perkhidmatan</string>
-	<string name="pref_collapse_sp_messages_summary">Gabungkan pembekal khidmat pesanan ke dalam kemasukan sama</string>
+	<string name="title_collapse_sp_messages">Kumpul mesej karier</string>
+	<string name="pref_collapse_sp_messages_summary">Kumpulkan mesej daripada karier anda dalam kemasukan sama</string>
 	
 	<string name="sp_mark_as_read_title">Tanda semua mesej sebagai dibaca</string>
 	<string name="sp_mark_as_read">Tanda semua mesej sebagai dibaca?</string>

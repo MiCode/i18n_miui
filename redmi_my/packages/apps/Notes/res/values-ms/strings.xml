@@ -61,7 +61,7 @@ xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 	<!-- Sync -->
 	<!-- Preferences -->
 	<string name="preferences_title">Aturan</string>
-	<string name="preferences_bg_random_appear_title">Warna nota rawak</string>
+	<string name="preferences_bg_random_appear_title">Rawakkan warna nota</string>
 	<string name="pref_title_font_size">Saiz font</string>
 	
 	<string name="call_record_folder_name">Nota panggilan</string>

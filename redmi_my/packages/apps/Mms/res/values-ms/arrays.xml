@@ -67,8 +67,8 @@
     </string-array>
 
     <string-array name="entries_date_type">
-        <item>Time received</item>
-        <item>Time sent</item>
+        <item>Masa menerima</item>
+        <item>Masa menghantar</item>
     </string-array>
 
     <string-array name="resent_via_entries_sms">
