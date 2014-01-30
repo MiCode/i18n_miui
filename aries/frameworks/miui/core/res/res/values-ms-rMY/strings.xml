@@ -21,11 +21,11 @@
     <string name="miui_privacy_policy_title">Dasar Privasi</string>
     <string name="miui_mibi_license_title">Perjanjian pengguna Kredit Mi</string>
     <string name="miui_user_manual_title">Manual pengguna</string>
-    <string name="user_agreement1">Anda akan menggunakan sistem dan perkhidmatan dalam talian yang disediakan oleh Xiaomi, sila baca</string>
-    <string name="user_agreement2">" Perjanjian pengguna"</string>
+    <string name="user_agreement1">Dengan menyentuh OK, anda bersetuju kepada terma dan syarat yang disediakan oleh Xiaomi dalam</string>
+    <string name="user_agreement2">" Perjanjian Pengguna"</string>
     <string name="user_agreement3">" dan "</string>
     <string name="user_agreement4">Dasar Privasi</string>
-    <string name="user_agreement5">，Klik OK menunjukkan bahawa anda bersetuju dan bersedia mematuhi kandungan di atas, klik Batal untuk keluar.</string>
+    <string name="user_agreement5">，Klik OK</string>
 
     <!-- Text for message to user while SD card is not available and the current feature depends on SD card. -->
     <string name="sd_not_available">Kad SD dinyahlekap atau tiada.</string>
