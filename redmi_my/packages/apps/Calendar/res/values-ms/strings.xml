@@ -96,7 +96,7 @@
     <skip/>
     <!-- This is a label on a context menu item. Pressing this menu item to initiate
         syncing of your Calendar data with the server. [CHAR LIMIT=11] -->
-    <string name="calendar_refresh"> "Memuat semula"</string>
+    <string name="calendar_refresh"> "Muat semula"</string>
     <!-- This is a label on a context menu item. Pressing this menu item displays the
          Agenda view. -->
 
@@ -140,10 +140,10 @@
     <string name="menu_preferences">"Tetapan"</string>
     <!-- This is a label on a menu item. Pressing this menu item allows the
          user to select the calendars to display [CHAR LIMIT=20] -->
-    <string name="menu_select_visible_calendars">"Kalendar yang dipaparkan"</string>
+    <string name="menu_select_visible_calendars">"Kalendar untuk dipaparkan"</string>
     <!-- This is a label on a menu item. Pressing this menu item allows the
          user to select the calendars to display [CHAR LIMIT=20] -->
-    <string name="search">"Pencarian"</string>
+    <string name="search">"Cari"</string>
     <!-- This is a label on a menu item. Pressing this menu item hides
          the navigation controls on the right side. [CHAR LIMIT=20] -->
     <string name="hide_controls">"Sembunyikan kawalan"</string>
@@ -181,7 +181,7 @@
     <!-- Select the set of calendars to sync [CHAR LIMIT=60] -->
     <string name="select_synced_calendars_title">Kalendar untuk disegerakkan</string>
     <!-- Select the set of calendars to sync [CHAR LIMIT=60] -->
-    <string name="select_synced_calendars_button">Kalendar untuk disegerakkanc</string>
+    <string name="select_synced_calendars_button">Kalendar untuk disync</string>
 
     <!-- Event edit activity -->
     <skip/>
@@ -459,7 +459,7 @@
          related to reminders for calendar events -->
     <string name="preferences_reminder_title">Tetapan peringatan</string>
     <!-- Settings check box label to hide events that the user has declined to attend -->
-    <string name="preferences_hide_declined_title">Sembunyikan acara yang telah ditolak</string>
+    <string name="preferences_hide_declined_title">Sembunyikan acara ditolak</string>
     <!-- Settings week start label to start week on specific day-->
     <string name="preferences_week_start_day_title">Minggu bermula pada</string>
     <!-- Title of popup for week start day setting-->

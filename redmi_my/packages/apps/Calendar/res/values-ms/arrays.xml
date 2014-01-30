@@ -77,10 +77,10 @@
     </string-array>
 
     <string-array name="preferences_week_start_day_labels">
-        <item>Locale default</item>
-        <item>Saturday</item>
-        <item>Sunday</item>
-        <item>Monday</item>
+        <item>Pelalaian Lokasi</item>
+        <item>Sabtu</item>
+        <item>Ahad</item>
+        <item>Isnin</item>
     </string-array>
 
     <!-- Choices for timezones, must be kept in sync with timezone_values. This
