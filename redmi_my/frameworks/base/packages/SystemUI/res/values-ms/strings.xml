@@ -300,7 +300,7 @@
     <!-- Content description of an item that is turned off for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
     <string name="accessibility_desc_off">Off.</string>
     <!-- Content description of an item that is connected for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
-    <string name="accessibility_desc_connected">Tersambung.</string>
+    <string name="accessibility_desc_connected">Disambungkan</string>
 
     <!-- Content description of the data connection type GPRS for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
     <string name="accessibility_data_connection_gprs">GPRS</string>

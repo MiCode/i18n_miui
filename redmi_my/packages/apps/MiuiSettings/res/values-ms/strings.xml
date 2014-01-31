@@ -564,7 +564,7 @@
 	<string name="android_beam_witch_label">Enable Android Beam</string>
 	<string name="sim_management_title">Pengurusan SIM</string>
 	<string name="sim_status_title">Status SIM</string>
-	<string name="slot_status_title">Informasi IMEI</string>
+	<string name="slot_status_title">Maklumat IMEI</string>
 	
 	<string name="xiaomi_cloud_service">MiCloud</string>
 	<string name="xiaomi_money_service">MiCredit</string>

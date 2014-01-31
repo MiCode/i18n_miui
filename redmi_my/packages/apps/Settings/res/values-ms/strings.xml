@@ -96,7 +96,7 @@ limitations under the License.
 	<!-- Phone Info screen. Status label.  Used for diagnostic info screens, precise translation isn't needed -->
 	<string name="radioInfo_data_connecting">Menyambung</string>
 	<!-- Phone Info screen. Status label.  Used for diagnostic info screens, precise translation isn't needed -->
-	<string name="radioInfo_data_connected">Tersambung</string>
+	<string name="radioInfo_data_connected">Disambungkan</string>
 	<!-- Phone Info screen. Status label.  Used for diagnostic info screens, precise translation isn't needed -->
 	<string name="radioInfo_data_suspended">Tergantung</string>
 	
@@ -1716,7 +1716,7 @@ limitations under the License.
 	<string name="device_info_settings" product="default">Status telefon</string>
 	
 	<!-- About phone screen, list item title.  Takes the user to the screen for seeing and installing system updates. -->
-	<string name="system_update_settings_list_item_title">Kemas kini sistem</string>
+	<string name="system_update_settings_list_item_title">Kemaskini sistem</string>
 	<!-- About phone screen, list item summary.  Takes the user to the screen for seeing and installing system updates. -->
 	<string name="system_update_settings_list_item_summary"/>
 	
@@ -1740,7 +1740,7 @@ limitations under the License.
 	<!-- About phone screen, title of the item to go into the Phone status screen -->
 	<string name="device_status">Status</string>
 	<!-- About tablet screen, summary of the item that takes you to tablet status screen -->
-	<string name="device_status_summary">Status bateri, aras battery, dan lain-lain.</string>
+	<string name="device_status_summary">Nombor telefon, isyarat dan lain-lain</string>
 	<!-- About phone screen, summary of the item to go into the phone status screen -->
 	<string name="device_additional_status_summary">Nombor Telefon, Signal, IMEI, dan lain-lain.</string>
 	<!-- In About phone->Status screen, title of the item to go into the subscription status screen -->
@@ -1783,7 +1783,7 @@ limitations under the License.
 	<!-- About phone, status item title. The cell carrier that the user is connected to.  -->
 	<string name="status_operator">Rangkaian</string>
 	<!-- About phone, status item title.  The MAC address of the Wi-Fi network adapter. -->
-	<string name="status_wifi_mac_address">Alamat Wi-Fi MAC</string>
+	<string name="status_wifi_mac_address">Alamat MAC Wi-Fi</string>
 	<!-- About phone, status item title.  The bluetooth adapter's hardware address-->
 	<string name="status_bt_address">Alamat Bluetooth</string>
 	<!-- About phone, status item title.  The hardware serial number. [CHAR LIMIT=30]-->
@@ -2163,7 +2163,7 @@ limitations under the License.
 	<!-- Main settings screen, setting summary for the user to go into the About phone screen-->
 	<string name="about_settings_summary">Lihat info undang, status, versi perisian</string>
 	<!-- About phone settings screen, setting option name to go to dialog that shows legal info -->
-	<string name="legal_information">Info undang</string>
+	<string name="legal_information">Maklumat undang-undang</string>
 	<!-- About phone settings screen, setting option name to see a list of contributors -->
 	<string name="contributors_title">Penyumbang</string>
 	<!-- Note: this may be replaced by a more-specific title of the activity that will get launched --> <skip />
