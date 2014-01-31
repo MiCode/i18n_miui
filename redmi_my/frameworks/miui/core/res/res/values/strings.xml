@@ -2,46 +2,46 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Reboot Confirmation Dialog.  When the user chooses to reboot the phone, there will be a confirmation dialog.  This is the message. -->
-    <string name="reboot_confirm">Phone will be restarted</string>
+    <string name="reboot_confirm">Telefon akan dimulakan semula</string>
     <!-- Reboot Progress Dialog. This is shown if the user chooses to reboot the phone. -->
-    <string name="reboot_progress">Restarting\u2026</string>
+    <string name="reboot_progress">Mulakan semula\u2026</string>
 
     <!-- Privacy mode -->
-    <string name="global_action_toggle_privacy_mode">Guest mode</string>
-    <string name="global_action_privacy_mode_dialog_message">Calls, notes, pictures, messages, and launcher settings will be hidden from the user.</string>
+    <string name="global_action_toggle_privacy_mode">Mod Tetamu</string>
+    <string name="global_action_privacy_mode_dialog_message">Panggilan, nota, gambar, mesej, dan tetapan pelancar akan disembunyikan daripada pengguna.</string>
 
     <!-- Displayed on lock screen to hint user to drag lock button down to bottom for unlock-->
-    <string name="lockscreen_unlock_sim_via_puk">Enter PUK code to unlock SIM card</string>
-    <string name="toast_lockscreen_glogin_empty_password">Password is required.</string>
+    <string name="lockscreen_unlock_sim_via_puk">Masukkan kod PUK untuk membuka kad SIM</string>
+    <string name="toast_lockscreen_glogin_empty_password">Kata laluan diperlukan.</string>
 
     <!-- Displayed miui license-->
-    <string name="safetylegal_activity_unreachable">Can\'t connect to network. You can view this information online at %s.</string>
-    <string name="miui_copyright_title">Copyright</string>
-    <string name="miui_user_agreement_title">User agreement</string>
-    <string name="miui_privacy_policy_title">Privacy policy</string>
-    <string name="miui_mibi_license_title">Mi Credit User agreement</string>
-    <string name="miui_user_manual_title">User guide</string>
-    <string name="user_agreement1">By touching OK, you\'re agreeing to the terms and conditions outlined in Xiaomi\'s</string>
-    <string name="user_agreement2">" User Agreement"</string>
-    <string name="user_agreement3">" and "</string>
-    <string name="user_agreement4">"Privacy Policy."</string>
+    <string name="safetylegal_activity_unreachable">Tidak boleh berhubung ke rangkaian. Anda boleh melihat maklumat ini secara atas talian di %s.</string>
+    <string name="miui_copyright_title">Hak Cipta</string>
+    <string name="miui_user_agreement_title">Perjanjian Pengguna</string>
+    <string name="miui_privacy_policy_title">Polisi Privasi</string>
+    <string name="miui_mibi_license_title">Perjanjian Pengguna Mi Credit</string>
+    <string name="miui_user_manual_title">Panduan Pengguna</string>
+    <string name="user_agreement1">Dengan menyentuh OK, anda bersetuju dengan terma dan syarat seperti digariskan oleh Xiaomi</string>
+    <string name="user_agreement2">" Perjanjian Pengguna"</string>
+    <string name="user_agreement3">" dan "</string>
+    <string name="user_agreement4">"Polisi Privasi."</string>
     <string name="user_agreement5"></string>
 
     <!-- Text for message to user while SD card is not available and the current feature depends on SD card. -->
-    <string name="sd_not_available">No SD card detected</string>
-    <string name="sd_not_available_use_internal_storage">SD card unavailable. Saved to internal storage.</string>
-    <string name="sd_not_available_low_internal_storage">SD card unavailable. Saved to internal storage.</string>
-    <string name="sd_not_available_saved_to_internal_storage">Saved to internal storage</string>
+    <string name="sd_not_available">Tiada Kad SD dikesan</string>
+    <string name="sd_not_available_use_internal_storage">Kad SD tidak tersedia. Disimpan dalam storan dalaman.</string>
+    <string name="sd_not_available_low_internal_storage">Kad SD tidak tersedia. Disimpan dalam storan dalaman.</string>
+    <string name="sd_not_available_saved_to_internal_storage">Disimpan dalam storan dalaman</string>
 
     <!-- When the user long presses the BACK key, the foreground app will be killed. This is the message to be showed to user.  -->
-    <string name="first_back_long_press_message">Long pressing Back will kill the current process and its background services. \n\nTo enable this function, go to Settings &gt; System &gt; Buttons</string>
-    <string name="force_exit_message">Closed \"%1$s\"</string>
+    <string name="first_back_long_press_message">Tekan lama butang Back akan membunuh proses semasa dan servis yang berjalan di belakang. \n\nUntuk menghidupkan fungsi ini, pergi ke Tetapan &gt; Sistem &gt; Butang</string>
+    <string name="force_exit_message">Ditutup \"%1$s\"</string>
 
-    <string name="unknown">Unknown number</string>
-    <string name="private_num">Private number</string>
-    <string name="payphone">Payphone</string>
+    <string name="unknown">Nombor tidak dikenali</string>
+    <string name="private_num">Nombor Peribadi</string>
+    <string name="payphone">Telefon Berbayar</string>
     <!-- A nicely formatted call ring duration displayed when viewing no-answer-call details. For example "响铃次数: 1 次" -->
-    <string name="callNoAnswerTimeFormat">Ring %s times</string>
+    <string name="callNoAnswerTimeFormat">Berdering %s kali</string>
 
     <!-- Lunar Date -->
     <!-- 不翻译农历 -->
@@ -439,185 +439,185 @@
     <string name="caller_info_name_delimiter">Or</string>
 
      <!-- EditableListView -->
-    <string name="delete"> Delete </string>
-    <string name="select_all">Select all</string>
-    <string name="reverse_all">Clear all</string>
-    <string name="multi_select_title"><xliff:g id="number" example="15">%1$s</xliff:g> selected</string>
+    <string name="delete"> Buang </string>
+    <string name="select_all">Pilih semua</string>
+    <string name="reverse_all">Padam semua</string>
+    <string name="multi_select_title"><xliff:g id="number" example="15">%1$s</xliff:g> dipilih</string>
 
     <string name="sim_account_name">SIM</string>
 
     <!-- added for global date -->
-    <string name="month_of_january">Jan</string>
-    <string name="month_of_february">Feb</string>
-    <string name="month_of_march">Mar</string>
-    <string name="month_of_april">Apr</string>
-    <string name="month_of_may">May</string>
+    <string name="month_of_january">Januari</string>
+    <string name="month_of_february">Februari</string>
+    <string name="month_of_march">Mac</string>
+    <string name="month_of_april">April</string>
+    <string name="month_of_may">Mei</string>
     <string name="month_of_june">Jun</string>
-    <string name="month_of_july">Jul</string>
-    <string name="month_of_august">Aug</string>
-    <string name="month_of_september">Sept</string>
-    <string name="month_of_october">Oct</string>
-    <string name="month_of_november">Nov</string>
-    <string name="month_of_december">Dec</string>
+    <string name="month_of_july">Julai</string>
+    <string name="month_of_august">Ogos</string>
+    <string name="month_of_september">September</string>
+    <string name="month_of_october">Oktober</string>
+    <string name="month_of_november">November</string>
+    <string name="month_of_december">Disember</string>
     <string name="day_of_month">" %d"</string>
 
     <!-- added for global time -->
     <plurals name="abbrev_less_than_one_minute_ago">
-        <item quantity="other">Just now</item>
+        <item quantity="other">Sebentar tadi</item>
     </plurals>
     <plurals name="less_than_one_minute_ago">
-        <item quantity="other">Just now</item>
+        <item quantity="other">Sebentar tadi</item>
     </plurals>
     <plurals name="abbrev_in_less_than_one_minute">
-        <item quantity="other">Immediately</item>
+        <item quantity="other">Dengan segera</item>
     </plurals>
     <plurals name="in_less_than_one_minute">
-        <item quantity="other">Immediately</item>
+        <item quantity="other">Dengan segera</item>
     </plurals>
     <plurals name="abbrev_a_hour_ago">
-        <item quantity="other">1 hour ago</item>
+        <item quantity="other">1 jam lepas</item>
     </plurals>
     <plurals name="abbrev_half_hour_ago">
-        <item quantity="other">Half an hour ago</item>
+        <item quantity="other">Setengah jam lepas</item>
     </plurals>
     <plurals name="a_hour_ago">
-        <item quantity="other">1 hour ago</item>
+        <item quantity="other">1 jam lepas</item>
     </plurals>
     <plurals name="half_hour_ago">
-        <item quantity="other">Half an hour ago</item>
+        <item quantity="other">Setengah jam lepas</item>
     </plurals>
     <plurals name="abbrev_in_a_hour">
-        <item quantity="other">In one hour</item>
+        <item quantity="other">Dalam satu jam</item>
     </plurals>
     <plurals name="abbrev_in_half_hour">
-        <item quantity="other">In half an hour</item>
+        <item quantity="other">Dalam satu jam</item>
     </plurals>
     <plurals name="in_a_hour">
-        <item quantity="other">In 1 hour</item>
+        <item quantity="other">Dalam satu jam</item>
     </plurals>
     <plurals name="in_half_hour">
-        <item quantity="other">In half an hour</item>
+        <item quantity="other">Dalam setengah jam</item>
     </plurals>
     <plurals name="abbrev_num_minutes_ago">
-        <item quantity="one">1 min ago</item>
-        <item quantity="other"><xliff:g id="count">%d</xliff:g> mins ago</item>
+        <item quantity="one">1 minit lepas </item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> minit lepas</item>
     </plurals>
     <plurals name="num_minutes_ago">
-        <item quantity="one">1 minute ago</item>
-        <item quantity="other"><xliff:g id="count">%d</xliff:g> minutes ago</item>
+        <item quantity="one">1 minit lepas</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> minit lepas</item>
     </plurals>
     <plurals name="abbrev_in_num_minutes">
-        <item quantity="one">in 1 min</item>
-        <item quantity="other">in <xliff:g id="count">%d</xliff:g> mins</item>
+        <item quantity="one">dalam 1 minit</item>
+        <item quantity="other">dalam <xliff:g id="count">%d</xliff:g> minit</item>
     </plurals>
     <plurals name="in_num_minutes">
-        <item quantity="one">in 1 minute</item>
-        <item quantity="other">in <xliff:g id="count">%d</xliff:g> minutes</item>
+        <item quantity="one">dalam 1 minit</item>
+        <item quantity="other">dalam <xliff:g id="count">%d</xliff:g> minit</item>
     </plurals>
     <!-- time AM/PM -->
     <string name="format_time_in_12_hours">hh:mma</string>
 
     <!-- text view insertion float panel strings  -->
-    <string name="text_pastelist">Clipboard</string>
-    <string name="select">Select</string>
+    <string name="text_pastelist">Klipbod</string>
+    <string name="select">Pilih</string>
 
     <!-- text for WeekdayPreference  -->
-    <string name="never">Never</string>
-    <string name="every_day">Every day</string>
+    <string name="never">Tiada</string>
+    <string name="every_day">Setiap hari</string>
 
     <!-- XiaoMi account type -->
     <string name="xiaomi_account_type">com.xiaomi</string>
 
     <!-- Group names for Google default group -->
-    <string name="group_name_contacts">Contacts</string>
-    <string name="group_name_friends">Friends</string>
-    <string name="group_name_family">Family</string>
-    <string name="group_name_coworkers">Colleagues</string>
+    <string name="group_name_contacts">Kenalan</string>
+    <string name="group_name_friends">Rakan</string>
+    <string name="group_name_family">Keluarga</string>
+    <string name="group_name_coworkers">Rakan Sekerja</string>
 
     <!-- TIGGER_TOGGLE permission -->
-    <string name="perm_tigger_toggle_lab">Trigger toggles from status bar</string>
-    <string name="perm_tigger_toggle_dspt">Allow apps to trigger toggles in status bar</string>
+    <string name="perm_tigger_toggle_lab">Cetu togol dari bar status</string>
+    <string name="perm_tigger_toggle_dspt">Benarkan app untuk cetus togol di bar status</string>
 
     <!-- ACTIVATE_PHONE permission -->
 
     <!-- GET_USER_INFO permission -->
-    <string name="perm_use_find_device">Find device</string>
-    <string name="perm_auto_backup">Auto backup</string>
+    <string name="perm_use_find_device">Kesan Peranti</string>
+    <string name="perm_auto_backup">Auto Sandar</string>
 
     <!-- PAYMENT permission -->
-    <string name="perm_payment_lab">Xiaomi payment service</string>
-    <string name="perm_payment_dspt">Allow app to pay through Xiaomi payment service</string>
+    <string name="perm_payment_lab">Servis Pembayaran Xiaomi</string>
+    <string name="perm_payment_dspt">Benarkan app untuk membayar menerusi servis pembayaran Xiaomi</string>
 
     <!-- SEND_PUSH permission -->
-    <string name="perm_send_push_lab">Send push message</string>
-    <string name="perm_send_push_dspt">Allow to send Xiaomi push messages</string>
+    <string name="perm_send_push_lab">Hantar mesej push</string>
+    <string name="perm_send_push_dspt">Benarkan untuk menghantar mesej push Xiaomi</string>
 
     <!-- DATA_UPDATE permission -->
-    <string name="perm_data_update_lab">Data update</string>
-    <string name="perm_data_update_dspt">Allow to send data update water mark</string>
+    <string name="perm_data_update_lab">Kemaskini Data</string>
+    <string name="perm_data_update_dspt">Benarkan untuk menghantar kemaskini data tanda air</string>
 
     <!-- text for MiCloud sync service -->
-    <string name="sync_one_time_sync">Touch to sync（
+    <string name="sync_one_time_sync">Sentuh untuk segerak（
         <xliff:g id="LAST_SYNC_TIME">
             %1$s
         </xliff:g>)
     </string>
-    <string name="no_sim">No SIM card detected</string>
-    <string name="activating">Activating\u2026</string>
+    <string name="no_sim">Tiada kad SIM dikesan</string>
+    <string name="activating">Mengaktifkan\u2026</string>
 
     <!-- text for unlock screen -->
-    <string name="android_lockscreen_glogin_instructions">To unlock, sign in to your Xiaomi Account.</string>
-    <string name="find_device_sim_change_instructions">Your device has been locked\Insert SIM card or enter your Xiaomi Account password.</string>
-    <string name="find_device_sim_change_instructions_no_network">Your device has been locked.\nTo unlock it, insert your SIM card.</string>
-    <string name="find_device_turn_off_flight_mode_instructions">Your device has been locked.\nTo unlock it, turn off airplane mode.</string>
-    <string name="find_device_turn_off_flight_mode">Turn off airplane mode.</string>
-    <string name="find_device_check_sim">Checking SIM\u2026</string>
+    <string name="android_lockscreen_glogin_instructions">Untuk membuka, daftar masuk ke akaun Xiaomi anda.</string>
+    <string name="find_device_sim_change_instructions">Peranti anda telah dikunci\Masukkan kad SIM atau kata laluan akaun Xiaomi anda.</string>
+    <string name="find_device_sim_change_instructions_no_network">Peranti anda telah dikunci.\nUntuk membukanya, masukkan kad SIM anda.</string>
+    <string name="find_device_turn_off_flight_mode_instructions">Peranti anda telah dikunci.\nUntuk membukanya, tutup mod pesawat.</string>
+    <string name="find_device_turn_off_flight_mode">Tutup mod pesawat.</string>
+    <string name="find_device_check_sim">Memeriksa SIM\u2026</string>
 
-    <string name="check_phone_error_title">Sync hasn\'t been activated</string>
-    <string name="check_phone_io_error">Network error</string>
-    <string name="send_sms_for_sync_title">Sync hasn\'t been activated</string>
-    <string name="send_sms_for_sync_notice">A text will be sent to activate it. This may incur charges from your carrier.</string>
-    <string name="activate">Activate</string>
-    <string name="activate_fail_notification_title">Reactivate sync</string>
-    <string name="sim_changed_reactivate_notice">The SIM card you\'re using is deactivated. A text will be sent to activate it. This may incur charges from your carrier.</string>
-    <string name="sim_changed_reactivate_int_notice">The SIM card you\'re using is deactivated. A text will be sent to activate it. This may incur charges from your carrier.</string>
+    <string name="check_phone_error_title">Segerak belum diaktifkan</string>
+    <string name="check_phone_io_error">Ralat rangkaian</string>
+    <string name="send_sms_for_sync_title">Segerak belum diaktifkan</string>
+    <string name="send_sms_for_sync_notice">Satu SMS akan dihantar untuk mengaktifkannya. Ini mungkin dikenakan caj tambahan oleh pembekal perkhidmatan anda.</string>
+    <string name="activate">Aktifkan</string>
+    <string name="activate_fail_notification_title">Aktifkan semula segerak</string>
+    <string name="sim_changed_reactivate_notice">Kad SIM yang anda gunakan telah dinyahaktifkan. Satu SMS akan dihantar untuk mengaktifkannya. Ini mungkin dikenakan caj tambahan oleh pembekal perkhidmatan anda.</string>
+    <string name="sim_changed_reactivate_int_notice">Kad SIM yang anda gunakan telah dinyahaktifkan. Satu SMS akan dihantar untuk mengaktifkannya. Ini mungkin dikenakan caj tambahan oleh pembekal perkhidmatan anda.</string>
 
     <!-- 同步错误信息 -->
-    <string name="error_title">Sync error</string>
-    <string name="error_unauthorized">Sync has been disabled due to too many sign in attempts.</string>
-    <string name="error_forbidden">There are some problems with your account.</string>
-    <string name="error_not_acceptable">A server error occurred.</string>
+    <string name="error_title">Ralat segerak</string>
+    <string name="error_unauthorized">Segerak telah dimatikan kerana terlalu banyak cubaan untuk mendaftar masuk.</string>
+    <string name="error_forbidden">Terdapat masalah dengan akaun anda.</string>
+    <string name="error_not_acceptable">Ralat pelayan berlaku.</string>
 
-    <string name="screen_on_proximity_sensor_title">Prevent pocket dials</string>
-    <string name="screen_on_proximity_sensor_summary">Don\'t cover the top of the screen</string>
-    <string name="screen_on_proximity_sensor_hint">To disable this feature, press the Back and Volume up buttons simultaneously.</string>
+    <string name="screen_on_proximity_sensor_title">Halang dail poket</string>
+    <string name="screen_on_proximity_sensor_summary">Jangan tutup bahagian atas skrin</string>
+    <string name="screen_on_proximity_sensor_hint">Untuk mematikan ciri ini, tekan butang Back dan Volum atas secara serentak.</string>
 
-    <string name="wake_alarm_message">"Shutdown notification will sound at %s"</string>
+    <string name="wake_alarm_message">"Notifikasi Tutup akan berbunyi pada %s"</string>
     <string name="deprecated_alarm_message_12_hour_formate"></string>
 
-    <string name="permlab_accessNote">Access your notes</string>
-    <string name="permdesc_accessNote">Malicious apps
-      can use this to access your personal info.</string>
+    <string name="permlab_accessNote">Akses nota anda</string>
+    <string name="permdesc_accessNote">App berniat jahat
+      boleh menggunakannya untuk akses maklumat peribadi anda.</string>
 
     <!-- memory clear tips -->
-    <string name="memory_clear_result">Cache cleared: %1$s \nMemory available: %2$s</string>
-    <string name="memory_clear_nothing_result">Memory usage is already optimized</string>
+    <string name="memory_clear_result">Cache dipadamkan: %1$s \nMemori sedia ada: %2$s</string>
+    <string name="memory_clear_nothing_result">Penggunaan memori telah dioptimumkan</string>
 
     <!-- Overflow of menu -->
-    <string name="v5_icon_menu_bar_more_item_label">More</string>
+    <string name="v5_icon_menu_bar_more_item_label">Lagi</string>
 
-    <string name="screen_button_notification_title">Navigation buttons disabled</string>
-    <string name="screen_button_notification_text">To re-enable them, press the Home and Power buttons simultaneously.</string>
+    <string name="screen_button_notification_title">Butang Navigasi dimatikan</string>
+    <string name="screen_button_notification_text">Untuk menghidupkannya, telah butang Home dan Power secara serentak.</string>
 
     <string name="volume_icon_description_bluetooth">Bluetooth</string>
-    <string name="volume_icon_description_ringer">Ringer</string>
-    <string name="volume_icon_description_incall">Call</string>
-    <string name="volume_alarm">Alarm</string>
+    <string name="volume_icon_description_ringer">Pendering</string>
+    <string name="volume_icon_description_incall">Panggilan</string>
+    <string name="volume_alarm">Penggera</string>
     <string name="volume_icon_description_media">Media</string>
-    <string name="volume_icon_description_notification">Notification</string>
+    <string name="volume_icon_description_notification">Notifikasi</string>
 
     <!-- date picker -->
-    <string name="v5_date_time_picker_dialog_title">Set reminder time</string>
+    <string name="v5_date_time_picker_dialog_title">Set masa peringatan</string>
 
     <string name="v5_date_picker_label_year">""</string>
     <string name="v5_date_picker_label_month">""</string>
@@ -626,41 +626,41 @@
     <string name="v5_time_picker_label_minute">"M"</string>
 
     <plurals name="v5_edit_mode_title">
-        <item quantity="one">"%1$d selected"</item>
-        <item quantity="other">"%1$d selected"</item>
+        <item quantity="one">"%1$d dipilih"</item>
+        <item quantity="other">"%1$d dipilih"</item>
     </plurals>
-    <string name="v5_select_all">Select all</string>
-    <string name="v5_deselect_all">Deselect all</string>
-    <string name="v5_edit_mode_title_empty">Select items</string>
+    <string name="v5_select_all">Pilih semua</string>
+    <string name="v5_deselect_all">Nyahpilih semuaD</string>
+    <string name="v5_edit_mode_title_empty">Pilih item</string>
 
     <!-- experimental version  -->
-    <string name="experimental_validate_thanks">Thank you!</string>
-    <string name="experimental_validate_warning">Thank you for helping to make MIUI better!</string>
-    <string name="experimental_validate">Validate</string>
-    <string name="experimental_validate_username">Username</string>
-    <string name="experimental_validate_password">Password</string>
-    <string name="experimental_validate_progress">Signing in\u2026</string>
-    <string name="experimental_validate_fail">Sign-in failed</string>
+    <string name="experimental_validate_thanks">Terima kasih!</string>
+    <string name="experimental_validate_warning">Terima kasih kerana membantu menjadikan MIUI lebih baik!</string>
+    <string name="experimental_validate">Mengesahkan</string>
+    <string name="experimental_validate_username">ID Pengguna</string>
+    <string name="experimental_validate_password">Kata laluan</string>
+    <string name="experimental_validate_progress">Mendaftar masuk\u2026</string>
+    <string name="experimental_validate_fail">Daftar masuk gagal</string>
 
-    <string name="unknown_caller">Unknown caller</string>
-    <string name="call_record_or">or</string>
-    <string name="call_record_sample_prefix_miui">Call recording</string>
-    <string name="fm_record_smaple_prefix_miui">FM recording</string>
-    <string name="speaker">Speaker</string>
+    <string name="unknown_caller">Pemanggil tidak dikenali</string>
+    <string name="call_record_or">atau</string>
+    <string name="call_record_sample_prefix_miui">Rakaman panggilan</string>
+    <string name="fm_record_smaple_prefix_miui">Rakaman FM</string>
+    <string name="speaker">Pembesar suara</string>
 
-    <string name="alwaysUsePrompt">Remember this choice</string>
+    <string name="alwaysUsePrompt">Ingat pilihan ini</string>
 
-    <string name="lockscreen_access_pattern_start">Pattern started</string>
-    <string name="lockscreen_access_pattern_cleared">Pattern cleared</string>
-    <string name="lockscreen_access_pattern_cell_added">Cell added</string>
-    <string name="lockscreen_access_pattern_detected">Pattern completed</string>
+    <string name="lockscreen_access_pattern_start">Corak bermula</string>
+    <string name="lockscreen_access_pattern_cleared">Corak dipadamkan</string>
+    <string name="lockscreen_access_pattern_cell_added">Sel ditambah</string>
+    <string name="lockscreen_access_pattern_detected">Corak selesai</string>
 
-    <string name="send">Send</string>
-    <string name="share">Share</string>
+    <string name="send">Hantar</string>
+    <string name="share">Kongsi</string>
 
-    <string name="yesterday">Yesterday</string>
-    <string name="today">Today</string>
-    <string name="tomorrow">Tomorrow</string>
+    <string name="yesterday">Semalam</string>
+    <string name="today">Hari ini</string>
+    <string name="tomorrow">Esok</string>
 
     <!-- begin: do not translate -->
     <string name="deprecated_5"></string>
@@ -744,47 +744,47 @@
     <!-- end: do not translate -->
 
     <!-- Cloud AntiSpam -->
-    <string name="provider_sougou">Provided by 搜狗号码通</string>
-    <string name="provider_114">Provided by 114号码百事通</string>
+    <string name="provider_sougou">Dibekalkan oleh 搜狗号码通</string>
+    <string name="provider_114">Dibekalkan oleh 114号码百事通</string>
 
     <!-- device name -->
     <string name="device_xiaomi">Xiaomi</string>
     <string name="miui_device_name" translated="false">Android</string>
     <string name="device_hongmi">Redmi</string>
 
-    <string name="sim_unavailable">SIM card unavailable</string>
-    <string name="sim_locked">SIM card is locked</string>
-    <string name="sim_not_ready">SIM card is in use. Try again later.</string>
-    <string name="sim_in_airplane_mode">Turn off airplane mode</string>
+    <string name="sim_unavailable">Kad SIM tidak tersedia</string>
+    <string name="sim_locked">Kad SIM dikunci</string>
+    <string name="sim_not_ready">Kad SIM card sedang digunakan. Cuba sebentar lagi.</string>
+    <string name="sim_in_airplane_mode">Tutup mod pesawat</string>
 
-    <string name="days">%d days</string>
-    <string name="hours">%d hours</string>
-    <string name="minutes">%d minutes</string>
+    <string name="days">%d hari</string>
+    <string name="hours">%d jam</string>
+    <string name="minutes">%d minit</string>
 
-    <string name="shutdown_confirm_title">Your phone will shut down.</string>
-    <string name="reboot_confirm_title">Your phone will restart.</string>
+    <string name="shutdown_confirm_title">Telefon anda akan ditutup.</string>
+    <string name="reboot_confirm_title">Telefon anda akan mula semula.</string>
 
-    <string name="err_resource_leak">Unfortunately, <xliff:g id="application">%1$s</xliff:g> has stopped</string>
-    <string name="app_notificaiton_on_statusBar_and_notificationBar">Status bar, Notification shade</string>
-    <string name="app_no_notification">Hide notifications</string>
-    <string name="app_notificaiton_on_notificationBar">Notification shade</string>
+    <string name="err_resource_leak">Malangnya, <xliff:g id="application">%1$s</xliff:g> telah dihentikan</string>
+    <string name="app_notificaiton_on_statusBar_and_notificationBar">Bar Status, Panel Notifikasi</string>
+    <string name="app_no_notification">Sembunyi notifikasi</string>
+    <string name="app_notificaiton_on_notificationBar">Panel Notifikasi</string>
 
-    <string name="volume_ring_description">Ringtone &amp; notifications</string>
-    <string name="login_website_in_case_forget_password">To reset your password, go to i.xiaomi.com.</string>
+    <string name="volume_ring_description">Nada Dering &amp; Notifikasi</string>
+    <string name="login_website_in_case_forget_password">Untuk set semula kata laluan anda, pergi ke i.xiaomi.com.</string>
 
     <!-- Notifcations displayed in yellow page -->
-    <string name="yellow_page_unable_send_sms">Unable to send text message</string>
-    <string name="yellow_page_module_sms_sent">Text message sent</string>
-    <string name="yellow_page_sms_send_failed">Failed to send text message</string>
-    <string name="yellow_page_sms_sending">Sending\u2026</string>
-    <string name="yellow_page_sms_disabled_in_privacy_mode">Can\'t send message in Guest mode</string>
+    <string name="yellow_page_unable_send_sms">Tidak dapat menghantar SMS</string>
+    <string name="yellow_page_module_sms_sent">SMS dihantar</string>
+    <string name="yellow_page_sms_send_failed">Gagal menghantar SMS</string>
+    <string name="yellow_page_sms_sending">Menghantar\u2026</string>
+    <string name="yellow_page_sms_disabled_in_privacy_mode">Tidak boleh menghantar mesej dalam mod Tetamu</string>
 
     <!-- Grant_permissions for account-->
-    <string name="grant_permissions_apps">Access apps request</string>
-    <string name="grant_permissions_account">Access account request</string>
+    <string name="grant_permissions_apps">Permintaan akses app</string>
+    <string name="grant_permissions_account">Permintaan akses akaun</string>
 
     <!-- Displayed to the user to confirm that they have copied text to the clipboard. -->
-    <string name="text_copied">Text copied</string>
+    <string name="text_copied">Teks disalin</string>
     <!-- Displayed to the user to confirm that they have cut text to the clipboard. -->
-    <string name="text_cut">Text cut</string>
+    <string name="text_cut">Teks dipotong</string>
 </resources>
