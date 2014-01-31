@@ -206,95 +206,95 @@
     <string name="micloud_proceed">Seterusnya</string>
     <string name="disable_micloud"><u>Matikan MiCloud</u></string>
     
-    <string name="master_alert_notif_title">Data ini tidak serantak dalam %s hari</string>
-    <string name="sub_alert_notif_title">Kunci perkhidmatan synchronization belum diaktifkan</string>
-    <string name="alert_notif_title_dspt">Sila memulihkan penyegerakan untuk memastikan data sekuriti</string>
-    <string name="noRemind">"Jangan ingati"</string>
-    <string name="restoreSync">Mengembalikan Sync</string>
-    <string name="enableAll">Membolehkan semua</string>
-    <string name="master_alert_notif_dspt" formatted="false">"Dalam tempoh ini anda telah menambah %s nama kenalan, %s SMS, %s gambar, %s nota dan data lain.
-        Kalau telefon anda telah hilang atau dipadam, data ini akan hilang selamanya. Anda dinasihati supaya memulihkan penyegerakan untuk memastikan sekuriti data"</string>
-    <string name="sub_alert_notif_dspt" formatted="false">"Anda ada %s kenalan , %s SMS, %s gambar, %s nota dan data lain belum disegerakkan.
-        Kalau telefon anda telah hilang atau dipadamkan, data ini akan dipadamkan dengan selamanya. Anda dinasihati supaya memulakan synchronization untuk menjamin sekuriti data"</string>
+    <string name="master_alert_notif_title">Data ini diserentakkan terakhir kali dalam %s hari</string>
+    <string name="sub_alert_notif_title">Kunci servis segerak belum diaktifkan</string>
+    <string name="alert_notif_title_dspt">Pemulihan segerak untuk memastikan sekuriti data</string>
+    <string name="noRemind">Jangan ingatkan saya lagi</string>
+    <string name="restoreSync">Pemulihan</string>
+    <string name="enableAll">Hidupkan semua</string>
+    <string name="master_alert_notif_dspt" formatted="false">"%s kenalan, %s mesej, %s foto, %s nota dan data lain belum disegerakkan.</string>
+
+    <string name="sub_alert_notif_dspt" formatted="false">"%s kenalan, %s mesej, %s foto, %s nota dan data lain belum disegerakkan.</string>
+
     
-    <string name="wipe_data_dialog_title">"Sebahagian benda belum disegerakan."</string>
-    <string name="wipe_data_dialog_msg">%s belum disegerakan (data ini akan hilang jika anda meneruskan).</string>
+    <string name="wipe_data_dialog_title">Sesetengah item belum disegerakkan</string>
+    <string name="wipe_data_dialog_msg">%s item belum disegerakkan. Data yang belum disegerak akan hilang jika anda teruskan.</string>
     <string name="dirty_contacts_count">%d kenalan</string>
     <string name="dirty_mms_count">%d mesej</string>
     <string name="dirty_note_count">%d nota</string>
 
-    <string name="wrong_captcha">Kod captcha yang tidak sah</string>
-    <string name="wrong_vcode">Vcode yang tidak sah</string>
-    <string name="input_vcode_prompt">Sila memasukan kod pengesahan</string>
-    <string name="trust_device">Mempercayai peranti</string>
-    <string name="vcode_prompt_long">Sila memasukan kod pengesahan yang dijana dengan token sekuriti Xiaomi</string>
-    <string name="vcode_notification_title">Pengesahan log masuk anda tidak lengkap</string>
+    <string name="wrong_captcha">Kod captcha yang anda masukkan tidak sah</string>
+    <string name="wrong_vcode">Kod pengesahan yang anda masukkan tidak sah</string>
+    <string name="input_vcode_prompt">Masukkan kod pengesahan</string>
+    <string name="trust_device">Saya mempercayai peranti ini</string>
+    <string name="vcode_prompt_long">Masukkan kod pengesahan yang dijana oleh Token Sekuriti Xiaomi</string>
+    <string name="vcode_notification_title">Pengesahan daftar masuk anda tidak lengkap</string>
     
     <string name="activate_phone_failed_notif_title_msim">Gagal untuk memulakan MiCloud bagi SIM %s</string>
-    <string name="activate_status_title_activating">Tengah mengaktifkan kad SIM anda, sila tunggu\u2026</string>
-    <string name="activate_status_title_activating_msim">Tengah mengaktifkan kad SIM anda %s</string>
-    <string name="activate_status_desc_getting_device_info">Tengah memperolehi informasi peranti</string>
-    <string name="activate_status_desc_failed_getting_device_info">Gagal untuk memperolehi informasi peranti</string>
-    <string name="activate_status_desc_getting_sim_info">Tengah memperolehi data SIM card</string>
-    <string name="activate_status_desc_failed_getting_sim_info">Gagal untuk memperolehi informasi kad SIM</string>
-    <string name="activate_status_desc_getting_gateway">Tengah memperolehi Gateway SMS</string>
-    <string name="activate_status_desc_failed_getting_gateway">Gagal untuk memperolehi Gateway SMS</string>
-    <string name="activate_status_desc_prepare_sending_sms">Tengah menyedia untuk menghantar SMS pengaktifan kepada Gateway</string>
-    <string name="activate_status_desc_sending_sms">Tengah menghantar SMS kepada Gateway</string>
-    <string name="activate_status_desc_sms_sent">Pengaktifan SMS telah dihantar!</string>
-    <string name="activate_status_desc_sim_absent">Kad SIM tidak dijumpai!</string>
+    <string name="activate_status_title_activating">Pengaktifan kad SIM\u2026</string>
+    <string name="activate_status_title_activating_msim">Pengaktifan kad SIM %s</string>
+    <string name="activate_status_desc_getting_device_info">Mendapatkan info peranti</string>
+    <string name="activate_status_desc_failed_getting_device_info">Gagal untuk mendapatkan info peranti</string>
+    <string name="activate_status_desc_getting_sim_info">Mendapatkan info kad SIM</string>
+    <string name="activate_status_desc_failed_getting_sim_info">Gagal untuk mendapatkan info kad SIM</string>
+    <string name="activate_status_desc_getting_gateway">Mendapatkan Gerbang SMS</string>
+    <string name="activate_status_desc_failed_getting_gateway">Gagal untuk mendapatkan Gerbang SMS</string>
+    <string name="activate_status_desc_prepare_sending_sms">Menyediakan penghantaran pengaktifan SMS</string>
+    <string name="activate_status_desc_sending_sms">Penghantaran\u2026</string>
+    <string name="activate_status_desc_sms_sent">Pengaktifan SMS telah dihantar</string>
+    <string name="activate_status_desc_sim_absent">Tiada Kad SIM dikesan</string>
     
-    <string name="activate_status_desc_acquire_phone_number">Tengah memperolehi nombor telefon dari server</string>
-    <string name="activate_status_desc_acquire_phone_number_server_error_wait">Kesilapan server belaku ketika memperolehi nombor telefon. Menunggu untuk mencuba semula</string>
-    <string name="activate_status_desc_acquire_phone_number_server_io_error_wait">Kesilapan server I/O belaku ketika memperolehi nombor telefon. Menunggu untuk mencuba semula\u2026</string>
-    <string name="activate_status_desc_acquire_phone_number_server_no_info_wait">Nombor telefon tidak dapat diperolehi. Menunggu untuk mencuba semula\u2026</string>
-    <string name="activate_status_desc_acquire_phone_number_server_error">Kesilapan server belaku ketika memperolehi nombor telefon.</string>
-    <string name="activate_status_desc_acquire_phone_number_server_io_error">Kesilapan server I/O ketika memperolehi nombor telefon.</string>
-    <string name="activate_status_desc_acquire_phone_number_server_no_info">Nombor telefon tidak dapat diperolehi</string>
+    <string name="activate_status_desc_acquire_phone_number">Mendapatkan nombor telefon dari pelayan</string>
+    <string name="activate_status_desc_acquire_phone_number_server_error_wait">Ralat pelayan belaku ketika cuba mendapatkan nombor telefon. Mencuba semula\u2026</string>
+    <string name="activate_status_desc_acquire_phone_number_server_io_error_wait">Ralat I/O pelayan belaku ketika cuba mendapatkan nombor telefon. Mencuba semula\u2026</string>
+    <string name="activate_status_desc_acquire_phone_number_server_no_info_wait">Gagal mendapatkan nombor telefon. Mencuba semula\u2026</string>
+    <string name="activate_status_desc_acquire_phone_number_server_error">Ralat pelayan berlaku ketika cuba mendapatkan nombor telefon.</string>
+    <string name="activate_status_desc_acquire_phone_number_server_io_error">Ralat I/O pelayan ketika cuba mendapatkan nombor telefon.</string>
+    <string name="activate_status_desc_acquire_phone_number_server_no_info">Gagal mendapatkan nombor telefon</string>
     
-    <string name="activate_status_desc_acquire_sim_user_id">Tengah memperolehi informasi pendaftaran dari server</string>
-    <string name="activate_status_desc_acquire_sim_user_id_server_error_wait">Kesilapan server ketika memperolehi informasi pendaftaran, menunggu untuk mencuba semula\u2026</string>
-    <string name="activate_status_desc_acquire_sim_user_id_server_io_error_wait">Kesilapan server I/O ketika memperolehi infomasi pendaftaran, menunggu untuk mencuba semula\u2026</string>
-    <string name="activate_status_desc_acquire_sim_user_id_server_no_info_wait">Informasi pendaftaran tidak dapat diperolehi, menunggu untuk mencuba semula\u2026</string>
-    <string name="activate_status_desc_acquire_sim_user_id_server_error">Kesilapan server ketika memperolehi informasi pendaftaran dari server</string>
-    <string name="activate_status_desc_acquire_sim_user_id_server_io_error">Kesilapan server I/O ketika memperolehi info pendaftaran</string>
-    <string name="activate_status_desc_acquire_sim_user_id_server_no_info">Informasi pendaftaran tidak dapat diperolehi</string>
+    <string name="activate_status_desc_acquire_sim_user_id">Mendapatkan info pendaftaran daripada pelayan</string>
+    <string name="activate_status_desc_acquire_sim_user_id_server_error_wait">Ralat pelayan berkalu ketika cuba mendapatkan info pendaftaran. Mencuba semula\u2026</string>
+    <string name="activate_status_desc_acquire_sim_user_id_server_io_error_wait">Ralat I/O pelayan ketika cuba mendapatkan info pendaftaran. Mencuba semula\u2026</string>
+    <string name="activate_status_desc_acquire_sim_user_id_server_no_info_wait">Gagal mendapatkan info pendaftaran. Mencuba semula\u2026</string>
+    <string name="activate_status_desc_acquire_sim_user_id_server_error">Ralat pelayan berlaku ketika cuba mendapatkan info pendaftaran.</string>
+    <string name="activate_status_desc_acquire_sim_user_id_server_io_error">Ralat I/O pelayan ketika cuba mendapatkan info pendaftaran</string>
+    <string name="activate_status_desc_acquire_sim_user_id_server_no_info">Gagal mendapatkan info pendaftaran</string>
     
-    <string name="activate_status_desc_acquire_sim_pass_token">Memperolehi informasi sekuriti dari server...</string>
-    <string name="activate_status_desc_acquire_sim_pass_token_server_error_wait">Kesilapan server belaku ketika memperolehi informasi sekuriti, menunggu untuk mencuba semula\u2026</string>
-    <string name="activate_status_desc_acquire_sim_pass_token_server_io_error_wait">Kesilapan server I/O ketika memperolehi info sekuriti, menunggu untuk mencuba semula\u2026</string>
-    <string name="activate_status_desc_acquire_sim_pass_token_server_no_info_wait">Tidak dapat memperolehi info sekuriti, menunggu untuk mencuba semula\u2026</string>
-    <string name="activate_status_desc_acquire_sim_pass_token_server_error">Kesilapan server ketika memperolehi informasi sekuriti</string>
-    <string name="activate_status_desc_acquire_sim_pass_token_server_io_error">Kesilapan server I/O ketika memperolehi informasi sekuriti</string>
-    <string name="activate_status_desc_acquire_sim_pass_token_server_no_info">Tidak dapat memperolehi info sekuriti</string>
-    <string name="activate_status_desc_acquire_sim_pass_token_password_error">Tidak dapat memperolehi informasi sekuriti disebabkan token sekuriti yang tidak sah</string>
+    <string name="activate_status_desc_acquire_sim_pass_token">Mendapatkan info sekuriti daripada pelayan</string>
+    <string name="activate_status_desc_acquire_sim_pass_token_server_error_wait">Ralat pelayan berlaku ketika cuba memperolehi info sekuriti. Mencuba semula\u2026</string>
+    <string name="activate_status_desc_acquire_sim_pass_token_server_io_error_wait">Ralat I/O pelayan ketika cuba mendapatkan info sekuriti. Mencuba semula\u2026</string>
+    <string name="activate_status_desc_acquire_sim_pass_token_server_no_info_wait">Gagal mendapatkan info sekuriti. Mencuba semula\u2026</string>
+    <string name="activate_status_desc_acquire_sim_pass_token_server_error">Ralat pelayan ketika cuba mendapatkan info sekuriti</string>
+    <string name="activate_status_desc_acquire_sim_pass_token_server_io_error">Ralat I/O pelayan ketika cuba memperolehi info sekuriti.</string>
+    <string name="activate_status_desc_acquire_sim_pass_token_server_no_info">Gagal mendapatkan info sekuriti</string>
+    <string name="activate_status_desc_acquire_sim_pass_token_password_error">Kata laluan Token Sekuriti Xiaomi yang anda masukkan tidak betul</string>
     
     <string name="checking_input">Memeriksa input\u2026</string>
     
     <string name="micloud_data_loading">Loading\u2026</string>
-    <string name="micloud_space_full_influence"><u>What happens when I run out of space?</u></string>
-    <string name="micloud_title_dspt" formatted="false">"Total space %s\n used %s | remaining %s"</string>
-    <string name="micloud_title_full_dspt" formatted="false">"You've reached your storage limit!"</string>
-    <string name="micloud_user_base_info">User info</string>
+    <string name="micloud_space_full_influence"><u>Apa terjadi sekiranya saya kehabisan ruang?</u></string>
+    <string name="micloud_title_dspt" formatted="false">"Jumlah ruang %s\n digunakan %s | tinggal %s"</string>
+    <string name="micloud_title_full_dspt" formatted="false">"Anda telah mencecah had storan anda!"</string>
+    <string name="micloud_user_base_info">Info Pengguna</string>
     <string name="micloud_user_email">E-mel</string>
-    <string name="micloud_user_phone">Telefon number</string>
-    <string name="micloud_user_name">Username</string>
-    <string name="micloud_user_id">Xiaomi ID</string>
-    <string name="micloud_storage_space">MiCloud storage space</string>
-    <string name="micloud_user_space_usage">Space used</string>
-    <string name="micloud_web_discription_01">Login at http://i.xiaomi.com</string>
-    <string name="micloud_web_discription_02">to store and access your files from anywhere</string>
-    <string name="micloud_gallery_image">MiCloud images</string>
-    <string name="micloud_gallery_video">MiCloud videos</string>
-    <string name="micloud_app_data">MiCloud app backups</string>
-    <string name="micloud_account_details">Akaun details</string>
-    <string name="micloud_full_influence_title">When your MiCloud is full</string>
-    <string name="micloud_warn_full_msg">You have reached your storage limit!</string>
-    <string name="micloud_warn_low_title">Low storage space!</string>
-    <string name="micloud_warn_low_sum">Storage space is 90% used.</string>
-    <string name="micloud_warn_full_title">MiCloud storage full!</string>
-    <string name="micloud_warn_full_sum">"Item baru tidak akan disegerak dengan akaun MiCloud anda."</string>
-    <string name="micloud_none">None</string>
+    <string name="micloud_user_phone">Nombor Telefon</string>
+    <string name="micloud_user_name">Nama</string>
+    <string name="micloud_user_id">ID Pengguna</string>
+    <string name="micloud_storage_space">Ruang storan MiCloud</string>
+    <string name="micloud_user_space_usage">Ruang digunakan</string>
+    <string name="micloud_web_discription_01">Daftar masuk di http://i.xiaomi.com</string>
+    <string name="micloud_web_discription_02">untuk menyimpan dan akses fail anda dari mana saja</string>
+    <string name="micloud_gallery_image">Imej</string>
+    <string name="micloud_gallery_video">Video</string>
+    <string name="micloud_app_data">Sandaran App</string>
+    <string name="micloud_account_details">Butiran Akaun</string>
+    <string name="micloud_full_influence_title">Apabila Mi Cloud anda penuh\u2026</string>
+    <string name="micloud_warn_full_msg">Anda telah mencapai had storan anda!</string>
+    <string name="micloud_warn_low_title">Hampir kehabisan ruang\u2026</string>
+    <string name="micloud_warn_low_sum">Anda telah gunakan 90% daripada ruang storan anda.</string>
+    <string name="micloud_warn_full_title">Ruang sudah penuh!</string>
+    <string name="micloud_warn_full_sum">Buat masa sekarang, item baru tidak akan disegerakkan dengan akaun Mi Cloud anda."</string>
+    <string name="micloud_none">Tiada</string>
     <string name="micloud_full_influence_dspt">"Semua foto, video, nota dan apps akan disandarkan ke akaun Mi Cloud anda.</string>
     
     <string name="enable_sync_dspt">Segerak tidak dihidupkan</string>
