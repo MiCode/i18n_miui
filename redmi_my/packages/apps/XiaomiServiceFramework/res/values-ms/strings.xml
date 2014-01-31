@@ -58,129 +58,129 @@
     <string name="micloud_active_email_sent_2"/>
     <string name="micloud_click_email">Klik link dalam e-mel tersebut untuk mengaktifkan akaun Xiaomi anda</string>
     <string name="completed">Tamat</string>
-    <string name="header_data_and_synchronization">Data &amp; Sync</string>
-    <string name="title_reg">Mendaftar akaun Xiaomi</string>
+    <string name="header_data_and_synchronization">Data &amp; Segerak</string>
+    <string name="title_reg">Daftar Akaun</string>
     <string name="micloud_account_label">Akaun:
         <xliff:g id="name">
         	%1$s
         </xliff:g>
     </string>
-    <string name="email_already_be_used">Alamat e-mel ini sudah dipakai</string>
-    <string name="error_no_sms_service">Perkhidmatan SMS tidak terdapat</string>
-    <string name="reg_by_email_failure">Pendaftaran gagal:
+    <string name="email_already_be_used">Alamat e-mel ini telah didaftarkan dengan akaun lain</string>
+    <string name="error_no_sms_service">Servis mesej teks SMS tidak tersedia</string>
+    <string name="reg_by_email_failure">Gagal untuk mencipta akaun:
         <xliff:g id="reason">
             %1$s
         </xliff:g>
     </string>
-    <string name="unactivated_user">Tidak aktif</string>
-    <string name="reg_failed">Pendaftaran gagal!</string>
-    <string name="login_instead_reg">Login dengan menggunakan nombor telefon ini</string>
-    <string name="get_back_pwd">Mendapatkan semula kata laluan anda</string>
-    <string name="login_failed">Gagal login</string>
-    <string name="error_network">Kesilapan rangkaian</string>
-    <string name="error_dup_phone">Telefon ini telah didaftarkan</string>
-    <string name="error_server">Kesilapan server</string>
-    <string name="error_sim_not_ready">SIM belum bersedia</string>
-    <string name="error_unknown">Kesilapan yang tidak diketahui</string>
-    <string name="error_invalid_dev_id">Id peranti yang salah</string>
-    <string name="error_user_name">Nama pengguna yang tidak sah!</string>
-    <string name="quick_login_title">Pengesahan diperlukan, sila memasukan kata laluan anda</string>
-    <string name="quick_login_step2_title">Login Sekuriti</string>
+    <string name="unactivated_user">Akaun belum diaktifkan</string>
+    <string name="reg_failed">Pendaftaran gagal</string>
+    <string name="login_instead_reg">Daftar masuk menggunakan nombor telefon ini</string>
+    <string name="get_back_pwd">Mendapatkan semula kata laluan akaun</string>
+    <string name="login_failed">Daftar masuk gagal</string>
+    <string name="error_network">Ralat rangkaian</string>
+    <string name="error_dup_phone">Nombor ini telah didaftarkan dengan akaun lain</string>
+    <string name="error_server">Ralat pelayan</string>
+    <string name="error_sim_not_ready">Tiada Kad SIM dijumpai</string>
+    <string name="error_unknown">Ralat yang tidak diketahui</string>
+    <string name="error_invalid_dev_id">Id peranti tidak sah</string>
+    <string name="error_user_name">Nama pengguna tidak sah</string>
+    <string name="quick_login_title">Kata laluan</string>
+    <string name="quick_login_step2_title">2-langkah verifikasi</string>
     <string name="account_name">Akaun:
         <xliff:g id="account">
             %1$s
         </xliff:g>
     </string>
-    <string name="input_password_hint">Input kata laluan</string>
-    <string name="input_captcha_hint">Memasukan captcha</string>
-    <string name="input_vcode_hint">Memasukan kod pengesahan</string>
-    <string name="confirm">Mengesahkan</string>
-    <string name="alert_title_remove_account">Buang akaun</string>
-    <string name="remove_account_notice">Apakah anda mahu buat dengan Mesej, Kenalan, Log panggilan, dan nota lain yang telah disegerakkan?</string>
-    <string name="data_keep_in_phone">Simpan data dalam peranti</string>
-    <string name="data_wipe_from_phone">Buang dari peranti saya</string>
-    <string name="login_notice">Tengah mendaftar masuk...</string>
-    <string name="data_sync_notice">Menggunakan akaun Xiaomi anda untuk sync Mesej, Kenalan dan data lain</string>
-    <string name="cmcc_data_sync_notice">Mengunakan akaun Xiaomi anda untuk sync Mesej, Kenalan dan maklumat lain. Pada masa yang sama, sila menikmati perkhidmatan Cloud Xiaomi.</string>
-    <string name="sync_dspt">Guna akaun Xiaomi untuk sync data</string>
-    <string name="sync_sub_dspt">Satu SMS akan dihantar untuk mengaktifkan perkhidmatan tersebut</string>
-    <string name="sync_sub_int_dspt">Satu SMS antarabangsa akan dihantar untuk mengaktifkan perkhidmatan tersebut</string>
-    <string name="send_sms_for_sync_title">Perkhidmatan sync belum diaktifkan</string>
-    <string name="send_sms_for_sync_notice">Satu SMS pengaktifan akan dihantar, teruskan?</string>
-    <string name="send_int_sms_for_sync_notice">Satu SMS pengaktifan akan dihantar ke peranti anda dan kadar mesej telco anda akan dicaj. Adakah anda masih nak sambung?</string>
+    <string name="input_password_hint">Masukkan kata laluan</string>
+    <string name="input_captcha_hint">Masukkan captcha</string>
+    <string name="input_vcode_hint">Masukkan kod pengesahan</string>
+    <string name="confirm">Sahkan</string>
+    <string name="alert_title_remove_account">Daftar Keluar</string>
+    <string name="remove_account_notice">Apakah yang anda mahu buat dengan Mesej, Kenalan, Log panggilan, dan nota lain yang telah disegerakkan pada peranti ini?</string>
+    <string name="data_keep_in_phone">Simpan data dalam peranti ini</string>
+    <string name="data_wipe_from_phone">Buang dari peranti ini</string>
+    <string name="login_notice">Mendaftar masuk\u2026</string>
+    <string name="data_sync_notice">Guna akaun Xiaomi anda untuk segerak Mesej dan Kenalan merentasi peranti lain.</string>
+    <string name="cmcc_data_sync_notice">Guna akaun Xiaomi anda untuk segerak Mesej dan Kenalan merentasi peranti lain.</string>
+    <string name="sync_dspt">Hidupkan segerak</string>
+    <string name="sync_sub_dspt">Mesej teks pengaktifan adalah bergantung pada caj data biasa</string>
+    <string name="sync_sub_int_dspt">Mesej teks pengaktifan adalah bergantung pada caj data antarabangsa</string>
+    <string name="send_sms_for_sync_title">Hantar mesej teks</string>
+    <string name="send_sms_for_sync_notice">Mesej teks pengaktifan adalah bergantung pada caj data biasa</string>
+    <string name="send_int_sms_for_sync_notice">Mesej teks pengaktifan adalah bergantung pada caj data antarabangsa</string>
     <string name="failed_to_send_activate_email">Gagal untuk menghantar e-mel pengaktifan</string>
     <string name="access_denied">Akses dinafikan</string>
-    <string name="reging">Tengah mendaftar, sila tunggu…</string>
-    <string name="reg_success">Pendaftaran berjaya!</string>
-    <string name="reg_success_summary">Nombor telefon bimbit anda %1$s telah dikait dengan MiLock di mana anda boleh menggunakannya untuklogin and mencari kata laluan semula.</string>
+    <string name="reging">Mendaftar\u2026</string>
+    <string name="reg_success">Akaun dicipta</string>
+    <string name="reg_success_summary"><xliff:g id="code">%1$s</xliff:g> telah terikat dengan akaun anda. Anda boleh gunakannya untuk mendaftar masuk atau mendapatkan semula kata laluan anda.</string>
     
-    <string name="sync_on">Buka</string>
-    <string name="sync_off">Tutup</string>
+    <string name="sync_on">On</string>
+    <string name="sync_off">Off</string>
     
-    <string name="btn_activate">Mengaktifkan</string>
-    <string name="sim_changed_notification_content">Kad SIM belum diaktifkan. Sila mengaktifkan semula</string>
-    <string name="activating">Tengah mengaktif\u2026</string>
-    <string name="check_phone_error_title">Gagal untuk memulakan perkhidmatan sync</string>
-    <string name="check_phone_io_error">Kesilapan rangkaian</string>
+    <string name="btn_activate">Aktifkan</string>
+    <string name="sim_changed_notification_content">Kad SIM belum diaktifkan</string>
+    <string name="activating">Mengaktifkan\u2026</string>
+    <string name="check_phone_error_title">Gagal untuk menghidupkan segerak</string>
+    <string name="check_phone_io_error">Ralat rangkaian</string>
     
-    <string name="other_settings">Tetapan yang lain</string>
+    <string name="other_settings">Tetapan lain</string>
     <string name="find_device">Mencari peranti</string>
-    <string name="find_device_check_phone_error_title">Gagal untuk memulakan pengesan peranti</string>
+    <string name="find_device_check_phone_error_title">Gagal menghidupkan ciri Pengesan Pranti</string>
     <string name="find_device_enabling">Menghidupkan\u2026</string>
     <string name="find_device_disabling">Mematikan\u2026</string>
-    <string name="enable_find_device_error"><xliff:g id="reason">%1$s</xliff:g>, gagal untuk memulakan pengesanan peranti</string>
-    <string name="disable_find_device_error"><xliff:g id="reason">%1$s</xliff:g>, gagal untuk menamatkan pengesanan peranti</string>
-    <string name="find_device_error_network">Rangkaian tidak tersedia</string>
-    <string name="find_device_error_server">Kesilapan server</string>
-    <string name="find_device_success_title">Pengesanan peranti telah dihidupkan</string>
-    <string name="find_device_notice_p1">Kalau anda hilang telefon anda, sila melayari</string>
+    <string name="enable_find_device_error">Ralat: <xliff:g id="reason">%1$s</xliff:g></string>
+    <string name="disable_find_device_error">Ralat: <xliff:g id="reason">%1$s</xliff:g></string>
+    <string name="find_device_error_network">Ralat rangkaian</string>
+    <string name="find_device_error_server">Ralat pelayan</string>
+    <string name="find_device_success_title">Pengesan Peranti dihidupkan</string>
+    <string name="find_device_notice_p1">Pergi ke</string>
     <string name="find_device_notice_p2">i.xiaomi.com</string>
-    <string name="find_device_notice_p3">mencari, mengunci, atau mengelapkan data</string>
+    <string name="find_device_notice_p3">Untuk mencari, mengunci, atau memulih telefon anda dari jauh</string>
     <string name="i_know">OK</string>
-    <string name="find_device_disabled_title">Pengesanan peranti ditamatkan</string>
-    <string name="find_device_disabled_notice">"Anda boleh membuka semula melalui Tetapan > Akaun &amp; sync > Akaun Xiaomi"</string>
+    <string name="find_device_disabled_title">Pengesan Peranti dimatikan</string>
+    <string name="find_device_disabled_notice">"Anda boleh togol ciri Pengesan Peranti melalui Tetapan > Akaun &amp; Segerak > Akaun Xiaomi"</string>
     
-    <string name="activate_phone_send_sms_fail">Gagal untuk hantar SMS pengaktifan, perkhidmatan sync tidak dapat dibuka</string>
-    <string name="activate_phone_server_error">Kesilapan server, perkhidmatan sync tidak dapat dibuka</string>
-    <string name="activate_phone_failed_notif_title">Gagal untuk memulakan Perkhimatan MiCloud</string>
+    <string name="activate_phone_send_sms_fail">Gagal untuk hantar SMS pengaktifan</string>
+    <string name="activate_phone_server_error">Ralat pelayan</string>
+    <string name="activate_phone_failed_notif_title">Gagal untuk memulakan Mi Cloud</string>
     <string name="activate_phone_send_sms_failed_notif">Gagal untuk hantar SMS pengaktifan</string>
-    <string name="activate_phone_server_error_notif">Kesilapan server</string>
+    <string name="activate_phone_server_error_notif">Ralat pelayan</string>
     
-    <string name="user_agreement_p1">"Dengan melog masuk, anda bersetuju dengan"</string>
-    <string name="user_agreement_p2">Syarat-syarat Perkhidmatan Xiaomi</string>
+    <string name="user_agreement_p1">Dengan mendaftar masuk, anda bersetuju untuk Xiaomi\'s\n &#160;</string>
+    <string name="user_agreement_p2">Syarat dan Terma Servis</string>
     <string name="user_agreement_p3">&#160; dan &#160;</string>
-    <string name="user_agreement_p4">dan Dasar Privasi.</string>
-    <string name="user_agreement_p5">"Dengan mendaftar, anda bersetuju dengan "</string>    
+    <string name="user_agreement_p4">Dasar Privasi.</string>
+    <string name="user_agreement_p5">Dengan mendaftar akaun, anda bersetuju untuk\n the&#160;</string>
     <string name="skip_setup_account_title">Melangkau tetapan akaun</string>
-    <string name="skip_setup_account_msg">Dengan akaun Xiaomi, anda boleh menyegerakkan dan backup SMS, Kenalan, gambar, nota anda. Teruskan dan setup nanti?</string>
-    <string name="account_dspt">"Akaun Xiaomi boleh menyegerakkan dan backup mesej, kenalan, gambar dan lain-lain"</string>
+    <string name="skip_setup_account_msg">Anda boleh menyediakan akaun kemudian melalui Tetapan</string>
+    <string name="account_dspt">Segerak dan Sandaran kenalan, mesej, gambar dan nota anda</string>
     <string name="remove_unactivated_account_notice">Akaun Xiaomi ini belum diaktifkan, adakah anda ingin memadamkannya?</string>
-    <string name="remove_confirm">Buang</string>
-    <string name="find_password_on_web_msg">Sila melayari account.xiaomi.com untuk mendapatkan kata laluan anda semula</string>
-    <string name="relogin">Login</string>
-    <string name="skip_login">Melangkau login</string>
-    <string name="skip_login_u"><u>Melangkau login</u></string>
-    <string name="removing_account">Memadamkan akaun\u2026</string>
-    <string name="checking_account">Mengesahi akaun\u2026</string>
+    <string name="remove_confirm">Daftar Keluar</string>
+    <string name="find_password_on_web_msg">Sila layari account.xiaomi.com untuk mendapatkan kata laluan anda semula</string>
+    <string name="relogin">Daftar Masuk</string>
+    <string name="skip_login">Langkau daftar masuk</string>
+    <string name="skip_login_u"><u>Melangkau daftar masuk</u></string>
+    <string name="removing_account">Mendaftar keluar\u2026</string>
+    <string name="checking_account">Mengesahkan\u2026</string>
     
     <string name="button_cancel">Batal</string>
-    <string name="mili_center">Mi Credit</string>
+    <string name="mili_center">MiCredit</string>
     
     <string name="sina_weibo">Sina Weibo</string>
-    <string name="bind_sina_weibo">Authorise Sina Weibo</string>
-    <string name="bind_weibo_description">Mencari kenalan telefon, rakan dan informasi lain terus dari akaun anda</string>
+    <string name="bind_sina_weibo">Terikat dengan Sina Weibo</string>
+    <string name="bind_weibo_description">Cari dan segerak Mencari kenalan telefon, rakan dan informasi lain terus dari akaun anda</string>
     <string name="add_weibo_account">Tambah akaun</string>
-    <string name="binded">Associated</string>
-    <string name="nobind">No authorised</string>
-    <string name="unbind">Menamatkan kebenaran</string>
-    <string name="update_contacts">Mengemaskini kenalan</string>
+    <string name="binded">Terikat</string>
+    <string name="nobind">Jangan ikat</string>
+    <string name="unbind">Buka ikatan</string>
+    <string name="update_contacts">Mengemaskini buku alamat</string>
     <string name="update_contacts_description">Mengemaskinikan kenalan anda dan informasi lain</string>
     <string name="updated_contacts">Mengemaskinikan %s kenalan</string>
     <string name="updated_nothing">Tiada apa-apa pun yang berlaku!</string>
     <string name="process_result">Keputusan:</string>
     <string name="access_token_expired_warning">Akaun Weibo telah tamat tempoh, sila menyambung semula</string>
     <string name="access_token_invalid_warning">Akaun Weibo tidak sah, sila menyambung semula</string>
-    <string name="service_error">Kesilapan perkhidmatan</string>
+    <string name="service_error">Ralat pelayan</string>
     
     <string name="enable_micloud">Membolehkan perkhidmatan cloud</string>
     <string name="micloud_summary">Login ke akaun Xiaomi untuk sync Kenalan, Galeri album dan fungsi lain.</string>
@@ -188,23 +188,23 @@
     <string name="available_functionality">Fungsi yang sedia ada</string>
     <string name="internet_message">MiCloud messaging</string>
     <string name="micloud_more">Maklumat lanjut</string>
-    <string name="internet_comm">Perkhidmatan Messaging</string>
-    <string name="cloud_messaging">MiCloud messaging</string>
+    <string name="internet_comm">Servis Permesejan</string>
+    <string name="cloud_messaging">Permesejan Wi-Fi</string>
     <string name="xiaomi_cloud_service">MiCloud</string>
     <string name="current_account">Akaun semasa</string>
-    <string name="my_xiaomi_account">Akaun semasa Xiaomi saya</string>
-    <string name="micloud_intro_01_part_01">Jimatkan kos SMS</string>
-    <string name="micloud_intro_01_part_02">MIUI membolehkan anda menghantar pesanan awan percuma melalui Internet.</string>
-    <string name="micloud_intro_02_part_01">Anda tidak perlu membuat apa-apa</string>
-    <string name="micloud_intro_02_part_02">Perkhidmatan Awan membantu anda menyegerakkan kenalan, mesej, gambar dan data lain ke peranti anda.</string>
-    <string name="micloud_intro_03_part_01">Anda tidak akan hilang maklumat penting kerana kami akan menyimpan data anda dengan selamat.</string>
+    <string name="my_xiaomi_account">Akaun Xiaomi</string>
+    <string name="micloud_intro_01_part_01">Jimatkan data mudah alih anda</string>
+    <string name="micloud_intro_01_part_02">Mesej percuma melalui Wi-Fi.</string>
+    <string name="micloud_intro_02_part_01">Berhenti dari menggunakan pemacu ibujari dan akaun e-mel untuk memindahkan fail</string>
+    <string name="micloud_intro_02_part_02">Segerak kenalan, mesej, foto dan banyak lagi merentasi peranti</string>
+    <string name="micloud_intro_03_part_01">Melindungi kandungan telefon anda dari jauh.</string>
     <string name="micloud_intro_03_part_02">Menguruskan data,mencari lokasi, mengunci dan memadamkan peranti anda dengan melayari i.xiaomi.com</string>
     <string name="micloud_dspt">Perkhidmatan Cloud termasuk MiCloud messaging, mobile sync, mencari lokasi peranti dan lain-lain. Anda juga boleh menguruskan data anda atas talian pada bila-bila masa!</string>
     <string name="cmcc_micloud_dspt">Perkhidmatan Cloud termasuk mobile sync, lokasi peranti dan lain-lain. Anda boleh menguruskan data anda online pada bila-bila masa!</string>
     <string name="start_micloud">Mula</string>
     
     <string name="micloud_proceed">Seterusnya</string>
-    <string name="disable_micloud"><u>Jangan membuka MiCloud</u></string>
+    <string name="disable_micloud"><u>Matikan MiCloud</u></string>
     
     <string name="master_alert_notif_title">Data ini tidak serantak dalam %s hari</string>
     <string name="sub_alert_notif_title">Kunci perkhidmatan synchronization belum diaktifkan</string>
@@ -293,10 +293,10 @@
     <string name="micloud_warn_low_title">Low storage space!</string>
     <string name="micloud_warn_low_sum">Storage space is 90% used.</string>
     <string name="micloud_warn_full_title">MiCloud storage full!</string>
-    <string name="micloud_warn_full_sum">"New items won't be synced with your MiCloud account."</string>
+    <string name="micloud_warn_full_sum">"Item baru tidak akan disegerak dengan akaun MiCloud anda."</string>
     <string name="micloud_none">None</string>
-    <string name="micloud_full_influence_dspt">"All photos, videos, notes and apps will be backed up to MiCloud.</string>
+    <string name="micloud_full_influence_dspt">"Semua foto, video, nota dan apps akan disandarkan ke akaun Mi Cloud anda.</string>
     
-    <string name="enable_sync_dspt">Sync is off</string>
-    <string name="enable_sync">Enable sync</string>
+    <string name="enable_sync_dspt">Segerak tidak dihidupkan</string>
+    <string name="enable_sync">Hidupkan segerak</string>
 </resources>
