@@ -19,7 +19,7 @@
     <string name="app_label">Cari pembekal aplikasi</string>
     
     <!-- Search label for applications. -->
-    <string name="search_label">Apps</string>
+    <string name="search_label">App</string>
 
     <!-- Description line displayed for an application entry in the search suggest list. -->
     <string name="application_desc">Aplikasi</string>
