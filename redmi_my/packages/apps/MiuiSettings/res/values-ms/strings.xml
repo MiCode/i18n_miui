@@ -18,9 +18,9 @@
 	<string name="device_cpu2_info">Dual-Core</string>
 	<string name="device_cpu4_info">Quad-Core</string>
 	
-	<string name="available_size"><xliff:g id="SIZE">%s</xliff:g> masih ada</string>
+	<string name="available_size"><xliff:g id="SIZE">%s</xliff:g> tersedia</string>
 	<string name="total_size"><xliff:g id="SIZE">%s</xliff:g> total</string>
-	<string name="memory_title">"Masih ada <xliff:g id="SIZE">%1$s</xliff:g>\t\tTotal: <xliff:g id="SIZE">%2$s</xliff:g>"</string>
+	<string name="memory_title">"Tersedia <xliff:g id="SIZE">%1$s</xliff:g>\t\tJumlah: <xliff:g id="SIZE">%2$s</xliff:g>"</string>
 	
 	<string name="xiaomi_account">Akaun Xiaomi</string>
 	<string name="sync_settings">Segerak</string>
@@ -36,13 +36,13 @@
 	<string name="haptic_feedback_level">Aras getaran</string>
 	
 	<!-- Privacy protection: Privacy mode &  Access Control -->
-	<string name="privacy_protect_title">Perlindungan privasi</string>
+	<string name="privacy_protect_title">Perlindungan Privasi</string>
 	<string name="privacy_mode_enable_title">Mod Tetamu</string>
 	<string name="privacy_mode_enable_sum">Sembunyikan mesej, nota, gambar dan panggilan masuk daripada pengguna</string>
-	<string name="ac_enable_title">Kebenaran</string>
+	<string name="ac_enable_title">Keizinan</string>
 	<string name="ac_set_apps_title">Kunci Aplikasi</string>
 	<string name="ac_privacy_mode_title">Kata Laluan</string>
-	<string name="ac_privacy_mode_sum">Perlukan kata laluan untuk batalkan mod Tetamu</string>
+	<string name="ac_privacy_mode_sum">Perlukan kata laluan untuk batalkan Mod Tetamu</string>
 	<string name="access_control_password_title">Kata Laluan</string>
 	<string name="access_control_need_to_unlock">Kata laluan diperlukan</string>
 	<string name="access_control_reset_by_account">Daftar masuk ke akaun Xiaomi anda untuk set semula kata laluan</string>
@@ -62,10 +62,10 @@
 	<string name="screen_on_proximity_sensor_summary">Fon akan automatik dikunci apabila dimasukkan dalam poket</string>
 	<string name="preferred_launcher_title">Pelancar pilihan</string>
 	<string name="preferred_application_title">Pilihan <xliff:g id="APPLICATION_LABEL">%s</xliff:g></string>
-	<string name="preferred_application_warning_title">Ganti kepada asal <xliff:g id="APPLICATION_LABEL">%s</xliff:g></string>
-	<string name="preferred_application_warning_message">Menggantikan mod asal anda <xliff:g id="APPLICATION_LABEL">%1$s</xliff:g> boleh meningkatkan penggunaan kuasa, mengurangkan kelajuan, dan boleh mengakibatkan kandungan telefon pada risiko bahaya. Sebaliknya guna <xliff:g id="APPLICATION_LABEL">%2$s</xliff:g>.</string>
+	<string name="preferred_application_warning_title">Ganti <xliff:g id="APPLICATION_LABEL">%s</xliff:g> lalai</string>
+	<string name="preferred_application_warning_message">Menggantikan <xliff:g id="APPLICATION_LABEL">%1$s</xliff:g> lalai anda boleh meningkatkan penggunaan kuasa, mengurangkan kelajuan, dan boleh mengakibatkan kandungan telefon pada risiko bahaya. Sebaliknya guna <xliff:g id="APPLICATION_LABEL">%2$s</xliff:g>.</string>
 	<string name="preferred_application_warning_replace">Ganti</string>
-	<string name="preferred_application_warning_use_system">Guna mod asal <xliff:g id="APPLICATION_LABEL">%s</xliff:g> sebaliknya</string>
+	<string name="preferred_application_warning_use_system">Gunakan terbina dalam MIUI ini <xliff:g id="APPLICATION_LABEL">%s</xliff:g> sebaliknya</string>
 	
 	<!-- Key Settings -->
 	<string name="key_settings_title">Butang</string>
@@ -79,9 +79,9 @@
 	
 	<string name="under_keyguard">Kunci skrin</string>
 	<string name="enable_snapshot_screenlock">Tekan lama butang Back untuk akses kamera</string>
-	<string name="disable_power_key_long_press_under_keyguard">Lumpuhkan menu butang Power</string>
-	<string name="trackball_wake_title">Bebola jejak bangun</string>
-	<string name="pref_volume_wake_title">Bangun dengan butang Volume</string>
+	<string name="disable_power_key_long_press_under_keyguard">Matikan menu butang Power</string>
+	<string name="trackball_wake_title">Bebola jejak terjaga</string>
+	<string name="pref_volume_wake_title">Terjaga dengan butang Volume</string>
 	<string name="pref_volume_wake_summary">Menekan butang Volume akan bangunkan peranti</string>
 	
 	<string name="media_button">Butang media</string>
@@ -101,7 +101,7 @@
 	<string name="camera_key_action_shortcut_wake">Kunci Peranti</string>
 	
 	<string name="multi_touch_points_category_title">Titik Pelbagai-sentuh</string>
-	<string name="multi_touch_points_preference">But semula bagi membolehkan</string>
+	<string name="multi_touch_points_preference">Mula semula bagi membolehkan</string>
 	<string name="trackball_settings">Bebola jejak</string>
 	
 	<string name="status_bar_settings">Notifikasi</string>
@@ -122,9 +122,9 @@
 	<string name="timezone_settings">Zon waktu</string>
 	<string name="security_privacy_settings_title">Sekuriti</string>
 	<string name="unlock_set_unlock_none_title">Tiada</string>
-	<string name="nearby_wifi">Rangkaian yang ada</string>
+	<string name="nearby_wifi">Rangkaian yang tersedia</string>
 	<string name="unlock_set_enter_system">Langkau kunci skrin</string>
-	<string name="unlock_set_enter_system_summary">Pergi terus ke skrin Utama bila bangun</string>
+	<string name="unlock_set_enter_system_summary">Pergi terus ke skrin Utama bila terjaga</string>
 	<string name="forget_wifi_message">Telefon anda akan berhenti menyambung ke rangkaian ini secara automatik.</string>
 	<string name="no_nearby_wifi">Tiada rangkaian dikesan.</string>
 	<string name="manually_add_network">Tambah rangkaian</string>
@@ -136,7 +136,7 @@
 	<!-- Security & location settings screen, change unlock pattern screen instruction on top of screen to confirm pattern -->
 	<string name="lockpattern_need_to_confirm">Lukiskan corak lagi untuk sahkan</string>
 	<string name="lockpattern_recording_inprogress">Lepaskan jari apabila selesai</string>
-	<string name="lockpattern_need_to_unlock_wrong">Cuba lagi</string>
+	<string name="lockpattern_need_to_unlock_wrong">Cuba lagi:</string>
 	<string name="lockpattern_settings_enable_power_button_instantly_locks">Butang Power kuncikan skrin</string>
 	
 	<!-- Led Settings -->
@@ -199,9 +199,9 @@
 	<!-- Account -->
 	<string name="activating">Mengaktifkan\u2026</string>
 	
-	<string name="wifi_enable_watchdog_service_summary">Menggunakan rangkaian Wi-Fi hanya apabila sambungan internet adalah Jelas</string>
-	<string name="wifi_disabled_help">Rangkaian telah diputuskan kerana signal sambungan lemah. Untuk melaraskan tetapan ini, pergi ke Tetapan> Wi-Fi Skrin, Menu Advance.</string>
-	<string name="wifi_wps_overlap_error">Satu lagi sesi dilindungi Wi-Fi telah dikesan. Cuba lagi dalam beberapa minit.</string>
+	<string name="wifi_enable_watchdog_service_summary">Elakkan sambungan lemah</string>
+	<string name="wifi_disabled_help">Wi-Fi telah diputuskan kerana sambungan lemah</string>
+	<string name="wifi_wps_overlap_error">Sesi Wi-Fi lain telah dikesan. Cuba lagi dalam beberapa minit.</string>
 	<string name="wifi_p2p_wps_setup">Memasang WPS</string>
 	
 	<string name="default_input_method">Pilih kaedah input biasa</string>
@@ -241,26 +241,26 @@
 	<!-- Caption for entering the directroy of wapi certificate which you want to storage -->
 	<string name="wifi_wapi_cert_create_subdir">Mewujudkan direktori</string>
 	<!-- Caption for entering the directroy of wapi certificate which you want to delet -->
-	<string name="wifi_wapi_cert_delet_subdir">Smemilih perakuan sesuai</string>
+	<string name="wifi_wapi_cert_delet_subdir">Memilih perakuan sesuai</string>
 	<!-- Caption for the wapi as certificate -->
-	<string name="wifi_wapi_as_cert">AS Certificate</string>
+	<string name="wifi_wapi_as_cert">Perakuan AS</string>
 	<!-- Caption for the wapi user certificate -->
-	<string name="wifi_wapi_user_cert">Sijil pengguna</string>
-	<string name="wifi_wapi_cert_mgmt_subdir_name_is_empty">Sila input nama direktori yang anda ingin buat!</string>
-	<string name="wifi_wapi_cert_mgmt_subdir_exist">Sila input nama direktori yang lain, yang satu ini tidak wujud</string>
-	<string name="wifi_wapi_cert_mgmt_subdir_create_fail">Mewujudkan direktori gagal</string>
-	<string name="wifi_wapi_cert_mgmt_as_name_is_empty">Sila masukan nama perakuan</string>
-	<string name="wifi_wapi_cert_mgmt_as_dont_exist">AS perakuan tidak dijumpai pada, sila semak dan cuba lagi</string>
-	<string name="wifi_wapi_cert_mgmt_as_format_is_wrong">AS format perakuan adalah salah! Sila pasang betul perakuan</string>
-	<string name="wifi_wapi_cert_mgmt_user_format_is_wrong">Format perakuan pengguna yang salah! Sila pasang perakuan pengguna yang betul</string>
-	<string name="wifi_wapi_cert_mgmt_user_name_is_empty">Sila masukkan nama perakuan pengguna</string>
-	<string name="wifi_wapi_cert_mgmt_user_dont_exist">Sila masukkan nama sijil pengguna</string>
+	<string name="wifi_wapi_user_cert">Perakuan pengguna</string>
+	<string name="wifi_wapi_cert_mgmt_subdir_name_is_empty">Sila masukkan nama direktori</string>
+	<string name="wifi_wapi_cert_mgmt_subdir_exist">Direktori dengan nama yang sama sudah wujud.</string>
+	<string name="wifi_wapi_cert_mgmt_subdir_create_fail">Gagal mencipta direktori</string>
+	<string name="wifi_wapi_cert_mgmt_as_name_is_empty">Masukan nama perakuan AS</string>
+	<string name="wifi_wapi_cert_mgmt_as_dont_exist">Kad SD tidak mempunya perakuan AS</string>
+	<string name="wifi_wapi_cert_mgmt_as_format_is_wrong">Format perakuan AS adalah salah</string>
+	<string name="wifi_wapi_cert_mgmt_user_format_is_wrong">Format perakuan pengguna adalah salah</string>
+	<string name="wifi_wapi_cert_mgmt_user_name_is_empty">Masukkan nama perakuan pengguna</string>
+	<string name="wifi_wapi_cert_mgmt_user_dont_exist">Masukkan nama perakuan pengguna</string>
 	<!--Wi-Fi settings screen, network context menu item -->
-	<string name="wifi_context_menu_connect">Sambung ke rangkaian</string>
+	<string name="wifi_context_menu_connect">Sambungkan</string>
 	<!--Wi-Fi settings screen, network context menu item -->
-	<string name="wifi_context_menu_forget">Lupakan rangkaian</string>
+	<string name="wifi_context_menu_forget">Lupakan</string>
 	<!--Wi-Fi settings screen, network context menu item -->
-	<string name="wifi_context_menu_change_password">Change password</string>
+	<string name="wifi_context_menu_change_password">Tukar Kata Laluan</string>
 	<string name="wifi_context_menu_change_wapi_certificate">Tukar Perakuan WAPI</string>
 	
 	<!-- Broadcom, WAPI -->
@@ -269,24 +269,24 @@
 	<string name="search_hint">Tetapan Carian</string>
 	<string name="search_description">Tetapan Carian</string>
 	
-	<string name="remove_from_frequently_fragment">Memadam \"%s\" dari tetapan pantas?</string>
+	<string name="remove_from_frequently_fragment">Buang \"%s\" dari Tetapan Ringkas?</string>
 	<string name="frequently_fragment_tempty">Item yang sering digunakan akan disenaraikan di sini</string>
 	<string name="frequently_fragment_delete">Buang</string>
 	
-	<string name="ime_security_warning"><xliff:g id="ime_application_name">%1$s</xliff:g> boleh menyimpan semua teks yang ditaip, 
-	termasuk data peribadi (iaitu kata laluan dan nombor kad kredit). Gunakan kaedah input ini?</string>
+	<string name="ime_security_warning"><xliff:g id="ime_application_name">%1$s</xliff:g>Kaedah input ini boleh menyimpan semua teks yang ditaip, 
+	termasuk kata laluan, nombor kad kredit, dan data peribadi yang lain. Adakah anda ingin gunakan kaedah input ini?</string>
 	
-	<string name="show_fc">Paksa tutup aplikasi</string>
-	<string name="show_fc_summary">Papar aplikasi yang dipaksa tutup</string>
+	<string name="show_fc">Paksa-tutup app</string>
+	<string name="show_fc_summary">Papar app yang dipaksa-tutup</string>
 	
 	<!-- Factory reset -->
-	<string name="factory_reset_summary">Anda boleh memilih untuk memadam data peribadi dengan menetapkan semula Telefon, atau memadam program dipasang dan format kad SD untuk memulihkan tetapan kilang. Sahkan memadam?</string>
+	<string name="factory_reset_summary">Padam semua data daripada storan dalaman telefon anda</string>
 	<string name="erase_sure">Data peribadi</string>
 	<string name="erase_personal_data">Data peribadi</string>
-	<string name="erase_personal_data_description">Padamkan akaun anda Xiaomi, data aplikasi, dan tetapan sistem</string>
+	<string name="erase_personal_data_description">Padamkan info akaun Xiaomi anda, data app, dan tetapan sistem</string>
 	<string name="erase_optional">Kandungan</string>
-	<string name="erase_application">Padamkan aplikasi</string>
-	<string name="erase_application_description">Padamkan aplikasi-aplikasi yang dimuat turun</string>
+	<string name="erase_application">Padamkan app</string>
+	<string name="erase_application_description">Padamkan app yang dimuat turun</string>
 	<string name="confirm_erase">Padam</string>
 	<string name="master_clear_personal_data">"Adakah anda pasti anda mahu memadam data peribadi anda? Perhatian: operasi ini tidak boleh dibuat asal."</string>
 	<string name="master_clear_personal_data_application">"Adakah anda pasti anda mahu memadam data peribadi anda dan aplikasi yang telah dimuat turun? Perhatian: operasi ini tidak boleh dibuat asal."</string>
@@ -452,7 +452,7 @@
 	<string name="accessibility_enable">Permohonan Akses</string>
 	<string name="development_enable">Pilihan Pemaju</string>
 	<string name="device_name">Nama peranti</string>
-	<string name="device_edit_title">Tukar nama peranti</string>
+	<string name="device_edit_title">Namakan semula peranti</string>
 	<string name="device_name_input_hint">Tetapkan nama peranti anda</string>
 	<string name="device_name_usage_point">Benarkan peranti untuk ditemui oleh peranti Bluetooth yang lain untuk membolehkan pemindahan fail dan fungsi-fungsi lain.</string>
 	<string name="device_name_input_error">Gagal menetapkan nama peranti, sila cuba lagi</string>
@@ -475,7 +475,7 @@
 	<string name="wifi_network_prefix_length">Panjang awalan</string>
 	<string name="proxy_port_label">Port</string>
 	<string name="proxy_exclusionlist_label">Pintasan untuk</string>
-	<string name="proxy_hostname_label">Hostname</string>
+	<string name="proxy_hostname_label">Nama Hos</string>
 	
 	<string name="clear_activities_summary">Menggunakan aplikasi ini untuk sesetengah operasi secara automatik</string>
 	<string name="permission_detail_info">Info Lihat kebenaran</string>
@@ -507,14 +507,14 @@
 	<string name="application_item_permission">Benarkan</string>
 	<string name="application_item_already_permission">Dibenarkan</string>
 	<string name="application_forbid_auto_startup">Nafikan %s daripada bermula di latar belakang</string>
-	<string name="floating_window_switch_label">Tunjukkan popup windows</string>
-	<string name="floating_window_switch_label_disable">Sembunyikan popup windows</string>
-	<string name="app_floating_window_dlg_enable">"Membolehkan <xliff:g id="PACKAGE_NAME">%1$s</xliff:g>\'s tetapan tetingkap terapung memerlukan apl untuk memulakan semula. Adakah anda pasti anda mahu membolehkan?"</string>
-	<string name="app_floating_window_dlg_disable">"Melumpuhkan <xliff:g id="PACKAGE_NAME">%1$s</xliff:g>\'s tetapan tetingkap terapung akan berhenti aplikasi secara paksa. Adakah anda pasti anda mahu melumpuhkan?"</string>
+	<string name="floating_window_switch_label">Tunjukkan pop tibul tetingkap</string>
+	<string name="floating_window_switch_label_disable">Sembunyikan pop timbul tetingkap</string>
+	<string name="app_floating_window_dlg_enable">"Menghidupkan <xliff:g id="PACKAGE_NAME">%1$s</xliff:g>\'s tetapan tetingkap terapung memerlukan apl untuk memulakan semula. Adakah anda pasti anda mahu membolehkan?"</string>
+	<string name="app_floating_window_dlg_disable">"Mematikan <xliff:g id="PACKAGE_NAME">%1$s</xliff:g>\'s tetapan tetingkap terapung akan berhenti aplikasi secara paksa. Adakah anda pasti anda mahu melumpuhkan?"</string>
 	
-	<string name="wps_category">keselamatan WPS</string>
-	<string name="wps_connect_title">Kemasukan Pin WPS</string>
-	<string name="wps_connect_summary">Pastikan router menykong sambungan WPS</string>
+	<string name="wps_category">WPS</string>
+	<string name="wps_connect_title">Sambung WPS</string>
+	<string name="wps_connect_summary">Pastikan router menyokong sambungan dan ada WPS yang dihidupkan</string>
 	<string name="retry">Cuba Semula</string>
 	
 	<string name="brightness_auto_adjust_off">Kecerahan manual boleh dilaraskan dengan keinginan anda dengan slider bergerak. Kecerahan skrin akan kekal tidak berubah dalam mana-mana sekitar.</string>
@@ -550,7 +550,7 @@
 	<string name="lockpassword_confirm_pins_dont_match">"PIN tidak sepadan"</string>
 	<string name="lockpassword_pin_set_toast">PIN telah ditetapkan</string>
 	<string name="lockpattern_change_lock_pin_label">Tukar PIN</string>
-	<string name="credentials_configure_lock_screen_hint">Anda perlu menetapkan PIN kunci skrin atau kata laluan sebelum anda boleh menggunakan storan bukti kelayakan.</string>
+	<string name="credentials_configure_lock_screen_hint">Anda perlu menetapkan PIN kunci skrin atau kata laluan sebelum anda boleh menggunakan storan bertauliah.</string>
 	
 	<string name="cancel_alert">Abaikan perubahan anda?</string>
 	<!-- Message displayed when there are no active services in a process. -->
@@ -571,7 +571,7 @@
 	
 	<string name="lock_settings_common_title">Kunci tetapan</string>
 	<string name="turn_off_security_lock">Mematikan kunci skrin</string>
-	<string name="change_password">Tukar katalaluan</string>
+	<string name="change_password">Tukar kata laluan</string>
 	<string name="change_security_lock">Kunci skrin lebih</string>
 	
 	<!-- nfc settings -->
@@ -581,73 +581,73 @@
 	<string name="android_beam_on_summary">NFC perkongsian kandungan dibuka</string>
 	<string name="android_beam_off_summary">NFC perkongsian kandungan ditutup</string>
 	<string name="android_beam_explained">"Apabila ciri ini dihidupkan, anda boleh 'beam' kandungan aplikasi ke peranti NFC-mampu dengan memegang peranti berdekatan bersama-sama. Sebagai contoh, anda boleh 'beam' laman Browser, video YouTube, hubungan, dan banyak lagi. Hanya membawa peranti berdekatan bersama-sama (biasanya belakang ke belakang) dan kemudian sentuh skrin anda. Aplikasi menentukan apa yang akan dipancarkan."</string>
-	<string name="android_beam_tips">Make sure the two devices are touching, and then select the content you would like to beam.</string>
+	<string name="android_beam_tips">Pastikan dua peranti bersentuhan, dan kemudian sentuh kandungan yang anda ingin pancarkan.</string>
 	
 	<!-- wifi share -->
 	<string name="wifi_share">Kongsi Wi-Fi</string>
-	<string name="wifi_share_turn_on">Kongso Hidup</string>
-	<string name="wifi_share_turn_off">Kongsi Padam</string>
+	<string name="wifi_share_turn_on">On</string>
+	<string name="wifi_share_turn_off">Off</string>
 	<string name="wifi_share_upload">Kongsi</string>
-	<string name="wifi_share_uploading">Perkongsian rangkaian awam Wi-Fi\u2026</string>
-	<string name="wifi_share_upload_finish">Perkongsian berjaya!</string>
-	<string name="wifi_share_show_network">Display networks</string>
+	<string name="wifi_share_uploading">Berkongsi\u2026</string>
+	<string name="wifi_share_upload_finish">Dikongsi</string>
+	<string name="wifi_share_show_network">Papar rangkaian</string>
 	<string name="wifi_share_current_network">Rangkaian sekarang</string>
-	<string name="wifi_share_other_network">Other Wi-Fi networks</string>
+	<string name="wifi_share_other_network">Rangkaian lain</string>
 	<string name="wifi_share_know">OK</string>
-	<string name="wifi_share_summary1">MIUI users can share Kata Laluan protected public Wi-Fi networks with each other.</string>
-	<string name="wifi_share_summary2">Rangkaian Wi-Fi awam boleh dikongsi bersama dengan pengguna MIUI lain rangkaian, anda boleh berhubung terus dengan rangkaian yang tanpa menggunakan Kata Laluan pengguna  MIUI .</string>
-	<string name="wifi_share_summary3">Kongsi awam rangkaian Wi-Fi dengan rakan-rakan dan rakan-rakan</string>
-	<string name="wifi_share_add">Berkongsi Wi-Fi networ saya dengan orang awam(s)</string>
+	<string name="wifi_share_summary1">Pengguna MIUI boleh berkongsi rangkaian Wi-Fi awam (cafe, restoran, hotel, dll) dengan yang lain.</string>
+	<string name="wifi_share_summary2">Apabila pengguna MIUI yang lain berkongsi rangkaian, anda boleh berhubung secara terus tanpa menggunakan kata laluan.</string>
+	<string name="wifi_share_summary3">Beris emula dengan berkongsi rangkaian Wi-Fi awam anda dengan pengguna MIUI yang lain</string>
+	<string name="wifi_share_add">Kongsi rangkaian awam saya</string>
 	<string name="wifi_share_count">Anda telah berkongsi <xliff:g id="COUNT">%d</xliff:g> rangkaian</string>
-	<string name="wifi_share_notification_summary">MIUI has connected you to a Kata Laluan protected public Wi-Fi network</string>
-	<string name="wifi_share_add_summary">"Apabila anda berkongsi rangkaian awam Wi-Fi anda, Anda boleh menggunakan pengguna rangkaian lain"</string>
-	<string name="wifi_share_login">Kongsi Kata Laluan Wi-Fi awam</string>
-	<string name="wifi_share_login_summary">Rangkaian Wi-Fi awam boleh dikongsi dengan pengguna MIUI lain</string>
-	<string name="wifi_share_connected_title">Rangkaian disambungkan melalui MIUI berkongsi sambungan Wi-Fi</string>
-	<string name="wifi_share_connected_summary">"Anda disambungkan kepada rangkaian Wi-Fi awam yang telah dikongsi oleh pengguna lain"</string>
-	<string name="wifi_share_action_turn_on">Hidupkan Wi-Fi apabila berkongsi</string>
-	<string name="wifi_share_action_turn_on_summary">Sila log masuk menggunakan nama pengguna Xiaomi anda dan Kata Laluan</string>
-	<string name="wifi_share_action_turn_off">matikan Wi-Fi apabila berkongsi</string>
-	<string name="wifi_share_list_empty">Tiada perkongsian rangkaian Wi-Fi</string>
+	<string name="wifi_share_notification_summary">MIUI telah menguhubungkan anda ke rangkaian Wi-Fi awam.</string>
+	<string name="wifi_share_add_summary">Apabila anda berkongsi rangkaian awam anda, Anda boleh menggunakan rangkaian pengguna lain"</string>
+	<string name="wifi_share_login">Kongsi rangkaian Wi-Fi</string>
+	<string name="wifi_share_login_summary">Jika ini adalah rangkaian awam, anda boleh berkongsinya dengan pengguna MIUI lain</string>
+	<string name="wifi_share_connected_title">Berkongsi Wi-Fi MIUI</string>
+	<string name="wifi_share_connected_summary">Anda telah disambungkan kepada rangkaian Wi-Fi awam yang telah dikongsi oleh pengguna lain</string>
+	<string name="wifi_share_action_turn_on">Kongsi Wi-Fi</string>
+	<string name="wifi_share_action_turn_on_summary">Daftar masuk ke akaun Xiaomi anda untuk berkongsi</string>
+	<string name="wifi_share_action_turn_off">Hentikan perkongsian rangkaian</string>
+	<string name="wifi_share_list_empty">Tiada perkongsian rangkaian ditemui</string>
 	<string name="wifi_share_connect">Sambung</string>
 	<string name="wifi_add_network">Tambah rangkaian</string>
-	<string name="wifi_auto_connect">Sambungan otomatik</string>
+	<string name="wifi_auto_connect">Sambungan Automatik</string>
 	
-	<string name="wifi_share_qrcode_title">Share QR Code using Wi-Fi</string>
-	<string name="wifi_share_qrcode_summary">Use MIUI camera to scan QR Code</string>
-	<string name="wifi_share_qrcode_finish">Finish</string>
+	<string name="wifi_share_qrcode_title">Kongsi Wi-Fi</string>
+	<string name="wifi_share_qrcode_summary">Guna kamera MIUI camera untuk imbas kod QR</string>
+	<string name="wifi_share_qrcode_finish">Selesai</string>
 	
-	<string name="app_notifications_switch_label" msgid="9124072219553687583">"Custom notification"</string>
+	<string name="app_notifications_switch_label" msgid="9124072219553687583">"Notifikasi khas"</string>
 	
-	<string name="noise_suppression">Sekatan bunyi bising</string>
-	<string name="phone_call_noise_suppression">Panggilan telefon penyekatan bunyi</string>
+	<string name="noise_suppression">Penyekatan bunyi ambien</string>
+	<string name="phone_call_noise_suppression">Menyekat bunyi bising semasa panggilan</string>
 	
 	<string name="sync_wifi_only">Wi-Fi sahaja</string>
 	<string name="open_wifi_connect_title">Sambungkan untuk membuka rangkaian <xliff:g id="NAME">%1$s</xliff:g></string>
-	<string name="open_wifi_connect_summary">Klik untuk menguruskan</string>
+	<string name="open_wifi_connect_summary">Ketik untuk uruskan</string>
 	
 	<string name="miui_screensaver_state_on">Pasang</string>
 	<string name="miui_screensaver_state_off">Padam</string>
-	<string name="miui_screensaver_title">Screensaver</string>
-	<string name="activate_miui_screensaver">Bolehkan Screensaver</string>
+	<string name="miui_screensaver_title">Penyelamat Skrin</string>
+	<string name="activate_miui_screensaver">Penyelamat Skrin ketika tidur</string>
 	<string name="picture_source">Sumber Gambar</string>
 	<string name="only_when_charging">Hanya semasa mengecas</string>
 	<string name="miui_screensaver_show_time">Tempoh</string>
-	<string name="miui_screensaver_show_time_select_title">Menetapkan tempoh</string>
-	<string name="miui_screensaver_usage">Sebaik sahaja diaktifkan, gambar dalam album screensaver akan ditunjukkan berulang kali. 5 saat selepas skrin dimatikan.</string>
-	<string name="alert_show_screensaver_when_not_charging_title">Screensave apabila tidak dicajkan</string>
-	<string name="alert_show_screensaver_when_not_charging_msg">Kuasa akan digunakan dengan lebih cepat jika menunjukkan skrin apabila tidak mengecas. Adakah anda ingin mematikan pilihan ini?</string>
+	<string name="miui_screensaver_show_time_select_title">Menetapkan tempoh tayangan slaid</string>
+	<string name="miui_screensaver_usage">Gambar dalam album penyelamat skrin akan ditayangkan 5 saat selepas skrin dimatikan.</string>
+	<string name="alert_show_screensaver_when_not_charging_title">Perhatian</string>
+	<string name="alert_show_screensaver_when_not_charging_msg">Memaparkan penyelamat skrin akan memakan kuasa bateri tambahan.</string>
 	
 	<!-- preferred application settings -->
-	<string name="preferred_app_settings">Tetapan aplikasi asal</string>
-	<string name="preferred_app_settings_default">Asal</string>
-	<string name="preferred_app_settings_reset">kembalikan kepada asal</string>
-	<string name="preferred_app_settings_reset_message">Adakah anda pasti mahu ke tetapan asal?</string>
+	<string name="preferred_app_settings">Tetapan aplikasi lalai</string>
+	<string name="preferred_app_settings_default">Lalai</string>
+	<string name="preferred_app_settings_reset">Pemulihan lalai</string>
+	<string name="preferred_app_settings_reset_message">Pemulihan tetapan app lalai?</string>
 	
 	<!-- storage settings -->
 	<!-- SD card & phone storage settings title. Displayed as a title when showing the total usage of applications installed. Below it will be a number like "123.4 MB" indicating used storage. [CHAR LIMIT=50] -->
-	<string name="memory_apps_usage">Aplikasi (aplikasi data &amp; media kandungan)</string>
+	<string name="memory_apps_usage">App</string>
 	<!-- SD card & phone storage settings title. Displayed as a title when showing the total usage of audio files in /sdcard on the device. Below it will be a number like "123.4 MB" indicating used storage. [CHAR LIMIT=50] -->
-	<string name="memory_music_usage">Audio (music, nada dering, podcasts, Lain².)</string>
+	<string name="memory_music_usage">Audio</string>
   
 </resources>
