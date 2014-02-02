@@ -3,14 +3,14 @@
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Gedung</string>
     <string name="recommendation_tag">Cadangan</string>
-    <string name="rank_tag">Apps Teratas</string>
+    <string name="rank_tag">App Teratas</string>
     <string name="category_tag">Kategori</string>
     <string name="management_tag">Kemaskini</string>
     <string name="category_recommend_tag">Cadangan</string>
     <string name="hot_rank_tag">Popular</string>
     <string name="new_app_tag">Baru</string>
     <string name="menu_preferences">Tetapan</string>
-    <string name="menu_login">Log masuk</string>
+    <string name="menu_login">Daftar masuk</string>
     <string name="menu_account">Akaun saya</string>
     <string name="menu_install_all">Pasang semua</string>
     <string name="menu_download_manager">Muat turun</string>
@@ -22,18 +22,18 @@
     <string name="menu_sort_by_time">Tarikh</string>
     <string name="menu_sort_by_size">Saiz</string>
     <string name="quicksearchbox_description">Cari gedung</string>
-    <string name="data_save_mode_tip">Gambar disembunyikan bagi mengurangkan kegunaan data</string>
+    <string name="data_save_mode_tip">Gambar disembunyikan bagi mengurangkan penggunaan data</string>
     <string name="hot_subject">Koleksi</string>
     <string name="more_app">Apps yg kami suka</string>
     <string name="more_subject">Lebih Koleksi</string>
     <string name="ad_indicator">AD</string>
 
     <!-- login -->
-    <string name="login_first_install_title">Log masuk Akaun Xiaomi anda</string>
+    <string name="login_first_install_title">Daftar masuk ke Akaun Xiaomi anda</string>
     <string name="login_active_title">Aktifkan akaun anda?</string>
-    <string name="login_download_title">Log masuk Akaun Xiaomi</string>
+    <string name="login_download_title">Daftar masuk ke Akaun Xiaomi</string>
     <string name="login_skip">Melangkau</string>
-    <string name="login_ok">Log masuk</string>
+    <string name="login_ok">Daftar masuk</string>
     <string name="login_active">Aktifkan</string>
     <string name="account_not_activated">Akaun anda tidak diaktifkan. Sila aktifkan dan cuba lagi</string>
 
@@ -46,28 +46,28 @@
     <string name="pref_category_title_delta_update">Mengemaskini tambahan</string>
     <string name="pref_category_title_update_all">Kemaskini semua</string>
 
-    <string name="pref_title_auto_update_via_wifi">Auto-kemaskini apps melalui Wi-Fi</string>
+    <string name="pref_title_auto_update_via_wifi">Auto-kemaskini app melalui Wi-Fi</string>
     <string name="pref_title_auto_update_via_wifi_checkbox">Auto-kemaskini</string>
     <string name="pref_title_data_save">Kurangkan penggunaan data</string>
     <string name="pref_title_clear_search_record">Kosongkan sejarah carian</string>
     <string name="pref_title_update_notification">Kemaskini</string>
-    <string name="pref_list_use_online_server">Gunakan server produk</string>
-    <string name="pref_list_use_staging_server">Gunakan server pementasan</string>
-    <string name="pref_list_use_dev_staging_server">Gunakan server pementasan-dev</string>
-    <string name="pref_title_use_staging">Gunakan server pementasan</string>
+    <string name="pref_list_use_online_server">Gunakan pelayan produk</string>
+    <string name="pref_list_use_staging_server">Gunakan pelayan pementasan</string>
+    <string name="pref_list_use_dev_staging_server">Gunakan pelayan pementasan-dev</string>
+    <string name="pref_title_use_staging">Gunakan pelayan pementasan</string>
     <string name="pref_title_silent_install">Sembunyikan pemberitahuan pemasangan</string>
     <string name="pref_title_hotsubjects_notification">Koleksi</string>
     <string name="pref_title_network_diagnostics">Diagnostik rangkaian</string>
     <string name="pref_title_clear_cache">Padam cache</string>
-    <string name="pref_title_about">Megenai</string>
+    <string name="pref_title_about">Mengenai</string>
     <string name="pref_title_feature_intro">Ciri-ciri khas</string>
     <string name="pref_title_web_market">Gedung web</string>
     <string name="pref_title_web_dev">Pemaju</string>
     <string name="pref_title_version">Versi</string>
     <string name="pref_title_clear_session">Padam sesi</string>
     <string name="pref_title_show_report_data">@string/show_report_data</string>
-    <string name="pref_title_slient_install">Apabila anda mengetuk "Pasang" di Gedung Apps Xiaomi ini, apps yang anda memuat turun akan dipasang tanpa sebarang tetingkap pop timbul atau pemberitahuan selanjutnya.</string>
-    <string name="pref_title_auto_update">Apabila kemaskini  tersedia bagi apps yang telah anda pasang, mereka akan dimuatturun dan digunakan semasa anda tidak menggunakan telefon anda (dan hanya pada masa anda mempunyai sambungan Wi-Fi). Dengan cara ini, anda tidak perlu mengambil masa bagi memeriksa kemaskini secara manual.</string>
+    <string name="pref_title_slient_install">Apabila anda klik "Pasang" di Gedung Apps Xiaomi ini, apps yang anda memuat turun akan dipasang tanpa sebarang tetingkap pop timbul atau notifikasi selanjutnya.</string>
+    <string name="pref_title_auto_update">Apabila kemaskini  tersedia bagi app yang telah anda pasang, mereka akan dimuat turun dan digunakan semasa anda tidak menggunakan telefon anda (dan hanya pada masa anda mempunyai sambungan Wi-Fi). Dengan cara ini, anda tidak perlu mengambil masa bagi memeriksa kemaskini secara manual.</string>
     <string name="pref_title_delta_update">Untuk membantu mengurangkan penggunaan data mudah alih, Gedung Apps Xiaomi hanya akan memuatturun bahagian individu apps yang benar-benar telah diubah apabila anda mengemaskini.</string>
     <string name="pref_title_update_all">Untuk mendapatkan semua kemaskini yang tersedia bagi apps anda dengan satu sentuhan, pergi ke tab Kemaskini dan tap "Kemaskini semua".</string>
 
@@ -130,7 +130,7 @@
     <string name="version_label">Versi: </string>
     <string name="share_button">Kongsikan</string>
     <string name="update_info">Kemaskini</string>
-    <string name="description_info">Description</string>
+    <string name="description_info">Penerangan</string>
     <string name="delta_update">Kemaskini delta <xliff:g id="diff_size">%1$s</xliff:g></string>
     <string name="install">Pasang</string>
     <string name="delete_selected_apps">Buang</string>
@@ -149,19 +149,19 @@
     <string name="verifying">Mengesah\u2026</string>
     <string name="installing">Memasang\u2026</string>
     <string name="publish_info"><xliff:g id="month">%1$s</xliff:g>-<xliff:g id="date">%2$s</xliff:g> diterbitkan <xliff:g id="version">%3$s</xliff:g> versi</string>
-    <string name="permissions_title"><xliff:g id="app_name">%1$s</xliff:g> Butiran pengesahan</string>
-    <string name="permissions_expand_title">Pengesahan lain</string>
+    <string name="permissions_title"><xliff:g id="app_name">%1$s</xliff:g> Butiran keizinan</string>
+    <string name="permissions_expand_title">Keizinan lain</string>
     <!-- baidu search support -->
     <string name="version_name"><xliff:g id="version">%1$s</xliff:g> versi</string>
     <string name="search_other_market">Cari gedung-gedung lain</string>
     <string name="result_notice">Keputusan dibekal oleh Baidu App Center</string>
     <string name="search_not_found">\"<xliff:g id="search">%1$s</xliff:g>\" tidak dapat dicari</string>
     <!-- management -->
-    <string name="show_all_local_app">Tunjukkan apps yang telah dipasang</string>
-    <string name="show_all_local_app_with_count">Jumlah apps dipasang: (<xliff:g id="num">%1$d</xliff:g>)</string>
+    <string name="show_all_local_app">Tunjukkan app yang telah dipasang</string>
+    <string name="show_all_local_app_with_count">Jumlah app dipasang: (<xliff:g id="num">%1$d</xliff:g>)</string>
     <string name="enable_updata_local_app"><xliff:g id="app">%1$s</xliff:g> kemaskini tersedia</string>
     <string name="update_all">Kemaskini semua</string>
-    <string name="search_local_app_text_hint">Cari apps di <xliff:g id="num">%1$d</xliff:g> dipasang</string>
+    <string name="search_local_app_text_hint">Cari app di <xliff:g id="num">%1$d</xliff:g> dipasang</string>
     <string name="menu_update">Kemaskini</string>
     <string name="menu_ignore">Abaikan</string>
     <string name="menu_detail">Lihat butiran apps</string>
@@ -181,29 +181,29 @@
     <string name="connect_fail">Gagal memuatturun: Kehilangan sambungan rangkaian</string>
     <string name="connect_no_fit_fail">Gagal memuatturun: Malangnya, tidak ada pemasang bagi telefon anda</string>
     <string name="connect_no_enough_space">Memori dalaman telefon anda terlalu penuh</string>
-    <string name="download_start_fail">Gagal memuatturun</string>
-    <string name="download_fail">Gagal memuatturun</string>
-    <string name="install_hash_fail">Gagal memuatturun pakej pasang</string>
+    <string name="download_start_fail">Gagal memuat turun</string>
+    <string name="download_fail">Gagal memuat turun</string>
+    <string name="install_hash_fail">Gagal memuat turun pakej pasang</string>
     <string name="install_parse_fail">Gagal memasang: ralat parsing</string>
-    <string name="install_inconsistent_fail">Gagal memasang: Tandatangan apps tidak sepadan</string>
+    <string name="install_inconsistent_fail">Gagal memasang: Tandatangan app tidak sepadan</string>
     <string name="install_verification_fail">Proses pengesahan gagal</string>
-    <string name="install_missing_shared_library">Komponen yang diperlukan oleh apps telah hilang</string>
+    <string name="install_missing_shared_library">Komponen yang diperlukan oleh app telah hilang</string>
     <string name="install_sdcard_not_available">Pemasangan gagal: Tiada kad SD dikesan</string>
     <string name="install_storage_not_enough">Memori dalaman telefon anda terlalu penuh.</string>
     <string name="install_patch_fail">Gagal menampal</string>
     <string name="install_fail">Gagal memasang</string>
-    <string name="system_app_sign_not_match_fail">Gagal mengemaskini: Tandatangan apps tidak sepadan</string>
+    <string name="system_app_sign_not_match_fail">Gagal mengemaskini: Tandatangan app tidak sepadan</string>
     <string name="remove_package_fail">Gagal memasang: Masa process tamat</string>
 
     <!-- loading view message -->
     <string name="no_network">Tidak dapat sambung ke rangkaian. Semak tetapan sambungan anda dan cuba sekali lagi.</string>
     <string name="no_data">Permintaan gagal. Cuba lagi kemudian.</string>
     <string name="no_fitness">Tidak dapat cari apa-apa</string>
-    <string name="no_update">Semua apps anda adalah terkini</string>
-    <string name="no_local_apps">Tiada apps dipaHazesang</string>
+    <string name="no_update">Semua app anda adalah terkini</string>
+    <string name="no_local_apps">Tiada app dipasang</string>
     <string name="no_description">Tiada butiran</string>
     <string name="no_change_log">Tiada butiran kemaskini</string>
-    <string name="no_search">apps tidak dapat dicari</string>
+    <string name="no_search">App tidak dapat dicari</string>
     <string name="no_update_records">Tiada sejarah kemaskini</string>
     <string name="loading_app_list">Memuatkan senarai\u2026</string>
     <string name="loading_collection_list">Memuatkan senarai\u2026</string>
@@ -234,14 +234,14 @@
     <string name="notif_install_failed">Gagal memasang <xliff:g id="app">%1$s</xliff:g></string>
     <string name="notif_auto_update_via_wifi">Auto mengemaskini: "<xliff:g id="app">%1$s</xliff:g>"</string>
     <string name="notif_auto_update_successfull"><xliff:g id="app">%1$s</xliff:g> telah dikemaskini</string>
-    <string name="notif_auto_update_failed">Sesetengah apps anda gagal dikemaskini</string>
+    <string name="notif_auto_update_failed">Sesetengah app anda gagal dikemaskini</string>
     <string name="notif_summary_auto_update_successful"><xliff:g id="app_count">%1$s</xliff:g> Apps telah dikemaskini</string>
     <string name="notif_summary_auto_update_failed">Auto-kemaskini gagal</string>
     <string name="notif_description_from_market">dari Gedung</string>
-    <string name="notif_title_auto_update_on">Auto-kemaskini apps dihidupkan</string>
-    <string name="notif_summary_auto_update_on">Gedung Apps Xiaomi akan mengemaskinikan apps anda secara automatik</string>
+    <string name="notif_title_auto_update_on">Auto-kemaskini app dihidupkan</string>
+    <string name="notif_summary_auto_update_on">Gedung App Xiaomi akan mengemaskinikan app anda secara automatik</string>
     <string name="share_subject">Kongsikan <xliff:g id="app_name">%1$s</xliff:g></string>
-    <string name="share_text">Sini terdapat satu apps mungkin anda akan suka: <xliff:g id="app_name">%1$s</xliff:g>. Lihatnya di sini: <xliff:g id="app_url">%2$s</xliff:g></string>
+    <string name="share_text">Sini terdapat satu app mungkin anda akan suka: <xliff:g id="app_name">%1$s</xliff:g>. Lihatnya di sini: <xliff:g id="app_url">%2$s</xliff:g></string>
     <string name="already_bottom">Anda telah sampai ke bawah halaman</string>
 
     <!-- install check dialog -->
