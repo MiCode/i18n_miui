@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello dunia, Wt_version_queryActivity!</string>
+    <string name="app_name">Wt_version_query</string>
+    <string name="soft_version">Versi Dalaman</string>
+    <string name="miui_version">Versi MIUI</string>
+    <string name="hard_version">Versi Perkakasan</string>
+   <string name="build_date">Masa Binaan</string> 
+   <string name="version_Info">Version Info</string> 
+   <string name="software">Perisian:</string>
+   <string name="hardware">Perkakasan:</string>
+    <string name="software_update">Kemaskini Perisian</string>
+    <string name="sdcard_update">Kemaskini Kad SD</string>    
+    <string name="update_warning">Amaran</string>
+    <string name="update_warning1">Semasa proses naik taraf, jangan keluarkan bateri, Kad UIM dan Kad SD.</string>
+    <string name="update_warning2">Pastikan paras bateri mencukupi.</string>
+    <string name="update_warning3">Anda disarankan untuk menyandar kad SD sebelum proses naik taraf.</string>
+    <string name="no_sd_card">Tiada Kad SD</string>
+    <string name="no_update_file">Fail kemaskini tidak wujud</string>
+    <string name="update_info_tips">Proses naik taraf mengambil masa kira-kira 2-5 minit. \nJangan jalankan sebarang operasi lain sewaktu proses naik taraf berlaku.</string>
+    <string name="ok">ok</string>
+    <string name="cancel">batal</string>
+    <string name="settings_label">Tetapan</string>
+</resources>
