@@ -22,35 +22,35 @@ limitations under the License.
 	
 	<!-- Text in the dialog for confirming whether to remove an item from the search
 	history. [CHAR_LIMIT=NONE] -->
-	<string name="remove_from_history">Keluarkan dari sejarah carian</string>
+	<string name="remove_from_history">Adakah anda ingin keluarkan item ini daripada sejarah carian?</string>
 	
 	<!-- Toast text shown when the app fails to remove an item from
 	the search history. [CHAR_LIMIT=60] -->
-	<string name="remove_from_history_failed">"Tidak dapat mengeluarkan butiran dari sejarah"</string>
+	<string name="remove_from_history_failed">Tidak boleh keluarkan item daripada sejarah</string>
 	
 	<!-- Source selector -->
 	<string name="corpus_selection_heading">Carian</string>
 	<string name="corpus_label_global">Semua</string>
 	
 	<!-- Name of the combined Web source shown in QSB -->
-	<string name="corpus_label_web">Sesawang</string>
+	<string name="corpus_label_web">Web</string>
 	<!-- Description of the combined Web source shown in QSB -->
-	<string name="corpus_description_web">Carian sesawang, penanda buku dan sejarah pelayar</string>
+	<string name="corpus_description_web">Carian web, dan penanda buku</string>
 	
 	<!-- Name of the Apps source shown in QSB -->
-	<string name="corpus_label_apps">Aplikasi</string>
+	<string name="corpus_label_apps">App</string>
 	<!-- Settings description for the Apps source shown in QSB -->
-	<string name="corpus_description_apps">Nama-nama aplikasi dipasangkan</string>
+	<string name="corpus_description_apps">Nama aplikasi yang dipasang</string>
 	<!-- Search hint for the Apps source shown in QSB -->
-	<string name="corpus_hint_apps">Cari Aplikasi</string>
+	<string name="corpus_hint_apps">Cari App</string>
 	
 	<!-- Search settings stuff -->
 	
 	<!-- Search settings menu item -->
-	<string name="menu_settings">Penetapan Carian</string>
+	<string name="menu_settings">Tetapan Carian</string>
 	
 	<!-- Search settings title -->
-	<string name="search_settings">Penetapan Carian</string>
+	<string name="search_settings">Tetapan Carian</string>
 	
 	<!-- Title for Google Account category of search settings.
 	[CHAR LIMIT=20] -->
@@ -64,8 +64,8 @@ limitations under the License.
 	<string name="system_search_category_title">Telefon</string>
 	
 	<!-- Title and summary for 'search sources' link for system search -->
-	<string name="search_sources">Butiran boleh dicari</string>
-	<string name="search_sources_summary">Pilih apa yang hendak dicari pada telefon</string>
+	<string name="search_sources">Item boleh dicari</string>
+	<string name="search_sources_summary">Pilih apa yang hendak dicari dalam telefon</string>
 	
 	<!-- Title and summary used for the option to clear search shortcuts from the system
 	search history -->
@@ -73,7 +73,7 @@ limitations under the License.
 	<string name="clear_shortcuts_summary">Padamkan pintasan dan pilihan cadangan carian terkini</string>
 	
 	<!--[CHAR LIMIT=200] Title used in the dialog shown after choosing the 'clear search shortcuts' setting. -->
-	<string name="clear_shortcuts_prompt">"Ini akan memadamkan semua pintasan dan semua cadangan carian terkini. (Untuk memadamkan sejarah Pelayar, gunakan penetap Pelayar.)"</string>
+	<string name="clear_shortcuts_prompt">"Adakah anda ingin padam semua pintasan cadangan carian terpilih terkini?"\n\n"Untuk padam sejarah Pelayar anda, gunakan tetapan Pelayar."</string>
 	<!--[CHAR LIMIT=30] Text used on the button to clear shortcuts in the dialog shown after choosing the 'clear search shortcuts' setting. -->
 	<string name="clear_shortcuts_agree">Padam Pintasan</string>
 	<!--[CHAR LIMIT=30] Text used on the button to cancel in the dialog shown after choosing the 'clear search shortcuts' setting. -->
@@ -81,7 +81,7 @@ limitations under the License.
 	
 	<!-- Help menu item. Opens a web page with information about how to use Quick Search Box.
 	[CHAR LIMIT=20] -->
-	<string name="menu_help">Bantu</string>
+	<string name="menu_help">Bantuan</string>
 	
 	<!-- Search source label for the Google search source. -->
 	<string name="google_search_label">Google</string>
@@ -98,8 +98,8 @@ limitations under the License.
 	<string name="google_search_description">Cadangan carian Google</string>
 
     	<!-- Title for Voice Search hints bubble -->
-    	<string name="voice_search_hint_title">Try saying:</string>
+    	<string name="voice_search_hint_title">Cuba bercakap:</string>
 
-	<string name="search_in_web">Search in web</string>
-	<string name="search_in_app_store">Search in market</string>
+	<string name="search_in_web">Cari di web</string>
+	<string name="search_in_app_store">Cari di Gedung Play</string>
 </resources>
