@@ -4,41 +4,41 @@
     <string name="next">Seterusnya</string>
 
     <string name="continues">Teruskan</string>
-    <string name="shutdown">Shutdown</string>
+    <string name="shutdown">Tutup</string>
 
     <string name="other_service_label">Servis lain</string>
-    <string name="other_service_location">Servis lokasi</string>
-    <string name="other_service_location_summary">Servis lokasi membenarkan peta dan aplikasi lain untuk mengambil maklumat lokasi anda menggunakan GPS</string>
-    <string name="other_service_google_location">Servis lokasi Google</string>
+    <string name="other_service_location">Akses Lokasi</string>
+    <string name="other_service_location_summary">Benarkan peta dan app lain menentukan lokasi anda menerusi GPS</string>
+    <string name="other_service_google_location">Servis Lokasi Google</string>
     <string name="other_service_google_location_use">Lokasi &amp; Carian Google</string>
     <string name="other_service_google_location_use_summary">Benarkan Google gunakan lokasi anda untuk memantapkan keputusan carian dan servis lain</string>
-    <string name="other_service_google_location_use_help">"Benarkan servis lokasi Google untuk mengumpul data lokasi tanpa nama. Pengumpulan akan wujud walaupun tiada aplikasi diguna. Untuk mengubah tetapan ini, sila ke Tetapan &gt; Servis Lokasi</string>
-    <string name="other_service_permission_manager">Urus kebenaran aplikasi</string>
+    <string name="other_service_google_location_use_help">"Benarkan servis lokasi Google untuk mengumpul data lokasi tanpa nama. Pengumpulan akan wujud walaupun tiada aplikasi diguna.</string>
+    <string name="other_service_permission_manager">Urus keizinan aplikasi</string>
     <string name="other_service_permission_manager_summary">Memantau aplikasi untuk sekuriti dan privasi</string>
-    <string name="other_service_user_experience">Sertai program pengalaman pengguna</string>
-    <string name="other_service_user_experience_summary0">"Kami berpegang kepada anda untuk menggunakan produk serta kemudahan kami dan berharap anda membantu kami dengan memberikan maklumbalas"</string>
-    <string name="other_service_user_experience_summary1">Terima kasih pasukan MIUI</string>
+    <string name="other_service_user_experience">Program pengalaman pengguna</string>
+    <string name="other_service_user_experience_summary0">"BantuXiaomi memperbaiki produk dan servis dengan menghantar diagnostik tanpa nama dan penggunaan data."</string>
+    <string name="other_service_user_experience_summary1">"(Papar dasar privasi)"</string>
 
-    <string name="sim_card_detection_dialog_message">Mengesan kad SIM, sila tunggu\u2026</string>
-    <string name="sim_card_detection_label">Kesan kad SIM</string>
-    <string name="sim_card_detection_info">Tidak dapat mengatur akaun Xiaomi tanpa kad SIM. Anda perlukan kad SIM card untuk menggunakan synkronasi akaun, mengesan fon, dsb.</string>
-    <string name="sim_card_detection_status_absent">Kad SIM tidak dikesan!</string>
+    <string name="sim_card_detection_dialog_message">Memeriksa kad SIM\u2026</string>
+    <string name="sim_card_detection_label">Kad SIM</string>
+    <string name="sim_card_detection_info"></string>
+    <string name="sim_card_detection_status_absent">Tiada Kad SIM dikesan</string>
 
-    <string name="setup_complete_label">Aturan selesai</string>
-    <string name="setup_complete_info">Servis lepas jualan akan diaktifkan ketika anda menggunakan telefon anda kali pertama.</string>
+    <string name="setup_complete_label">Terima kasih</string>
+    <string name="setup_complete_info"></string>
     <string name="setup_complete_start">Mula menggunakan MIUI</string>
-    <string name="setup_complete_summary">Aturan selesai! Selamat menggunakan MIUI!</string>
+    <string name="setup_complete_summary">Pemasangan selesai! Selamat menggunakan MIUI :)</string>
 
     <string name="traffic_protection_label">Pemantauan trafik data</string>
-    <string name="traffic_protection_summary">Pemantauan trafik data akan mengingatkan anda apabila pelan data anda telah mencapai had.</string>
-    <string name="traffic_protection_unknown"><u>"Saya tidak tahu. Akan masukkan kemudian."</u></string>
-    <string name="traffic_protection_text_hint">Sila masukkan had pelan data anda.</string>
+    <string name="traffic_protection_summary">Set amaran bila anda telah mencapai had bulanan pelan data anda</string>
+    <string name="traffic_protection_unknown"><u>"Pasang kemudian"</u></string>
+    <string name="traffic_protection_text_hint">Masukkan had pelan data bulanan anda.</string>
 
     <string name="data_usage_summary">Jika anda belum melanggan pelan data, adalah disyorkan supaya mematikan data mudah alih. Jika tidak, kemungkinan karier anda akan mengenakan caj yuran tambahan.</string>
-    <string name="use_data">Hidupkan data</string>
+    <string name="use_data">Data dihidupkan</string>
 
-    <string name="default_gprs_sim_name">Sila input \"%s\" had pelan data</string>
-    <string name="input_method_category">Pilih cara input asal</string>
-    <string name="input_method">Cara input</string>
+    <string name="default_gprs_sim_name">Masukkan \"%s\" had pelan data bulanan</string>
+    <string name="input_method_category">Kaedah input lalai</string>
+    <string name="input_method">Kaedah input</string>
 
 </resources>
