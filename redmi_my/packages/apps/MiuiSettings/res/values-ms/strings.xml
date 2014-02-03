@@ -40,7 +40,7 @@
 	<string name="privacy_mode_enable_title">Mod Tetamu</string>
 	<string name="privacy_mode_enable_sum">Sembunyikan mesej, nota, gambar dan panggilan masuk daripada pengguna</string>
 	<string name="ac_enable_title">Keizinan</string>
-	<string name="ac_set_apps_title">Kunci Aplikasi</string>
+	<string name="ac_set_apps_title">Kunci App</string>
 	<string name="ac_privacy_mode_title">Kata Laluan</string>
 	<string name="ac_privacy_mode_sum">Perlukan kata laluan untuk batalkan Mod Tetamu</string>
 	<string name="access_control_password_title">Kata Laluan</string>
@@ -59,7 +59,7 @@
 	<string name="screen_timeout_title">Mod Tidur</string>
 	<string name="screen_never_timeout_title">Jangan Tidur</string>
 	<string name="screen_on_proximity_sensor_title">Cegah dail poket</string>
-	<string name="screen_on_proximity_sensor_summary">Fon akan automatik dikunci apabila dimasukkan dalam poket</string>
+	<string name="screen_on_proximity_sensor_summary">Telefon akan automatik dikunci apabila dimasukkan dalam poket</string>
 	<string name="preferred_launcher_title">Pelancar pilihan</string>
 	<string name="preferred_application_title">Pilihan <xliff:g id="APPLICATION_LABEL">%s</xliff:g></string>
 	<string name="preferred_application_warning_title">Ganti <xliff:g id="APPLICATION_LABEL">%s</xliff:g> lalai</string>
@@ -81,8 +81,8 @@
 	<string name="enable_snapshot_screenlock">Tekan lama butang Back untuk akses kamera</string>
 	<string name="disable_power_key_long_press_under_keyguard">Matikan menu butang Power</string>
 	<string name="trackball_wake_title">Bebola jejak terjaga</string>
-	<string name="pref_volume_wake_title">Terjaga dengan butang Volume</string>
-	<string name="pref_volume_wake_summary">Menekan butang Volume akan bangunkan peranti</string>
+	<string name="pref_volume_wake_title">Terjaga dengan butang Volum</string>
+	<string name="pref_volume_wake_summary">Menekan butang Volum akan bangunkan peranti</string>
 	
 	<string name="media_button">Butang media</string>
 	<string name="preferred_media_app_summary">Pilih pemain muzik</string>
@@ -219,7 +219,7 @@
 	
 	<!-- Broadcom, WAPI -->
 	<!-- Error message Certificate doesn't exits -->
-	<string name="wifi_wapi_certification_dont_exist">Rangkaian Kata Laluan yang anda masukkan tidak betul. Sila cuba lagi.</string>
+	<string name="wifi_wapi_certification_dont_exist">Kata Laluan rangkaian yang anda masukkan tidak betul. Sila cuba lagi.</string>
 	<!-- Caption for the wireless password -->
 	<string name="please_type_passphrase">Kata Laluan Wi-Fi</string>
 
@@ -443,13 +443,13 @@
 	<string name="vpn_create">Tambah VPN</string>
 	<string name="vpn_dns_servers">Pelayan DNS</string>
 	<string name="vpn_dns_servers_hint">e.g. 8.8.8.8</string>
-	<string name="vpn_routes">Mengemukakan laluan</string>
+	<string name="vpn_routes">Memajukan laluan</string>
 	<string name="vpn_routes_hint">e.g. 10.0.0.0/8</string>
 	<string name="sync_wifi_label">Wi-Fi</string>
 	<string name="wifi_enable">Wi-Fi</string>
 	<string name="bluetooth_enable">Bluetooth</string>
 	<string name="sync_enable">Hidupkan sync</string>
-	<string name="accessibility_enable">Permohonan Akses</string>
+	<string name="accessibility_enable">Kebolehcapaian</string>
 	<string name="development_enable">Pilihan Pemaju</string>
 	<string name="device_name">Nama peranti</string>
 	<string name="device_edit_title">Namakan semula peranti</string>
@@ -464,29 +464,29 @@
 	<string name="drive_mode_voice_report">Output teks-ke-ucapan</string>
 	<string name="drive_mode_phone_report">Info panggilan masuk</string>
 	<string name="drive_mode_sms_report">Mesej-mesej</string>
-	<string name="drive_mode_invert_stop_report">Sunyikan telefon</string>
-	<string name="drive_mode_auto_reply">Balasan pintas</string>
+	<string name="drive_mode_invert_stop_report">Pusingkan telefon untuk senyap</string>
+	<string name="drive_mode_auto_reply">Respon pantas</string>
 	<string name="drive_mode_calling_auto_sms_reply">Balas kepada panggilan</string>
 	<string name="drive_mode_sms_auto_sms_reply">Balas ke SMS</string>
 	<string name="drive_mode_only_contact_reply">Hanya balas kenalan</string>
 	<string name="drive_mode_auto_sms_reply_content">"Tidak boleh bercakap sekarang\u2026 Saya akan hubungi anda kemudian"</string>
-	<string name="drive_mode_auto_sms_reply_content_title">Balasan pintas</string>
+	<string name="drive_mode_auto_sms_reply_content_title">Respon pantas</string>
 	
 	<string name="wifi_network_prefix_length">Panjang awalan</string>
 	<string name="proxy_port_label">Port</string>
 	<string name="proxy_exclusionlist_label">Pintasan untuk</string>
 	<string name="proxy_hostname_label">Nama Hos</string>
 	
-	<string name="clear_activities_summary">Menggunakan aplikasi ini untuk sesetengah operasi secara automatik</string>
-	<string name="permission_detail_info">Info Lihat kebenaran</string>
-	<string name="permission_detail_info_summary">SEMUA Kebenaran: Safe %1$d，privasi %2$d，lain² %3$d</string>
-	<string name="permission_manage">Pengurusan kebenaran</string>
-	<string name="permission_manage_summary">Auto start, privasi, pengurusan kebenaran selamat</string>
+	<string name="clear_activities_summary">Guna app ini untuk sesetengah operasi secara lalai</string>
+	<string name="permission_detail_info">Butiran keizinan</string>
+	<string name="permission_detail_info_summary">"Keizinan: Safe %1$d，privasi %2$d，lain² %3$d"</string>
+	<string name="permission_manage">Urus keizinan</string>
+	<string name="permission_manage_summary">Auto-mula, privasi, pengurusan keizinan selamat</string>
 	
 	<string name="security_relative">Berkaitan sekuriti</string>
-	<string name="privacy_relative">Hal berkaitan privasi</string>
+	<string name="privacy_relative">Berkaitan privasi</string>
 	<string name="other_relative">Lain² Keizinan</string>
-	<string name="permission_manage_title">%s maklumat kebenaran</string>
+	<string name="permission_manage_title">%s maklumat keizinan</string>
 	
 	<string name="filter_apps_cached">Cached</string>
 	
@@ -521,36 +521,36 @@
 	<string name="brightness_auto_adjust_on">Efek kecerahan Auto boleh disesuaikan dengan slider bergerak. Efek kecerahan skrin akan berbeza dengan penyesuaian dan persekitaran anda.</string>
 	
 	<!-- private sms -->
-	<string name="private_sms_need_to_unlock">Sila masukkankata laluan SMS rahsia</string>
-	<string name="private_sms_reset_by_account">Daftar masuk Akaun Xiaomi untuk menetapkan Kata Laluan semula SMS rahsia </string>
-	<string name="private_sms_recording_intro_header">Lukiskan patern utk mengunci</string>
+	<string name="private_sms_need_to_unlock">Kata laluan diperlukan:</string>
+	<string name="private_sms_reset_by_account">Untuk set semula kata laluan, daftar masuk ke akaun Xiaomi anda</string>
+	<string name="private_sms_recording_intro_header">Lukiskan corak membuka kunci</string>
 	<string name="location_neighborhood_level">Benarkan data lokasi tanpa nama untuk dihantar kepada Google. Juga bolehkan aplikasi yang dibenarkan untuk menggunakan data dari sumber seperti Wi-Fi dan rangkaian mudah alih untuk menentukan lokasi anggaran anda.</string>
-	<string name="location_network_based">"Perkhidmatan lokasi Google"</string>
+    <string name="location_network_based">Wi-Fi &amp; Rangkaian mudah alih</string>
 	
 	<!-- android settings res -->
 	<string name="pointer_location_summary">Tunjuk koordinat sentuhan</string>
 	<string name="wifi_empty_list_wifi_off">Untuk melihat rangkaian yang ada, hidupkan Wi-Fi.</string>
 	<string name="user_dict_settings_empty_text">"Anda tidak mempunyai apa-apa kamus Tambah perkataan dengan menyentuh butang Tambah (+)"</string>
 	
-	<string name="dirac_control">Bunyi MI</string>
+	<string name="dirac_control">Kualiti Audio Optimum</string>
 	
-	<string name="unlock_set_unlock_launch_picker_change_summary">Tukar atau mematikan corak, PIN, atau keselamatan Kata Laluan</string>
+	<string name="unlock_set_unlock_launch_picker_change_summary">Tukar atau matikan corak, PIN, atau Kata Laluan</string>
 	<string name="unlock_set_unlock_pin_title">PIN</string>
 	<string name="unlock_set_unlock_password_title">Kata Laluan</string>
 	<string name="unlock_set_unlock_mode_pin">PIN</string>
 	<string name="unlock_set_unlock_mode_password">Kata Laluan</string>
-	<string name="unlock_disable_lock_pin_summary">menghapuskan PIN buka kunci</string>
-	<string name="unlock_change_lock_pin_title">Change unlock PIN</string>
+	<string name="unlock_disable_lock_pin_summary">Buang PIN</string>
+	<string name="unlock_change_lock_pin_title">Tukar PIN</string>
 	<string name="lockpassword_pin_too_short">PIN mestilah sekurang-kurangnyat %d digit</string>
 	<string name="lockpassword_pin_too_long">PIN mestilah kurang daripada <xliff:g id="number" example="17">%d</xliff:g> digit.</string>
 	<string name="lockpassword_pin_contains_non_digits">PIN mestilah mengandungi digit dari 0-9.</string>
-	<string name="lockpassword_pin_recently_used">"Pentadbir peranti tidak membenarkan menggunakan PIN baru-baru ini."</string>
+	<string name="lockpassword_pin_recently_used">"Pentadbir peranti tidak benarkan PIN"</string>
 	<string name="lockpassword_choose_your_pin_header">Pilih PIN anda</string>
 	<string name="lockpassword_confirm_your_pin_header">Sahkan PIN anda</string>
 	<string name="lockpassword_confirm_pins_dont_match">"PIN tidak sepadan"</string>
-	<string name="lockpassword_pin_set_toast">PIN telah ditetapkan</string>
+	<string name="lockpassword_pin_set_toast">PIN telah diset</string>
 	<string name="lockpattern_change_lock_pin_label">Tukar PIN</string>
-	<string name="credentials_configure_lock_screen_hint">Anda perlu menetapkan PIN kunci skrin atau kata laluan sebelum anda boleh menggunakan storan bertauliah.</string>
+	<string name="credentials_configure_lock_screen_hint">Anda perlu set kunci skrin sebelum anda boleh menggunakan storan bertauliah.</string>
 	
 	<string name="cancel_alert">Abaikan perubahan anda?</string>
 	<!-- Message displayed when there are no active services in a process. -->
@@ -572,15 +572,15 @@
 	<string name="lock_settings_common_title">Kunci tetapan</string>
 	<string name="turn_off_security_lock">Mematikan kunci skrin</string>
 	<string name="change_password">Tukar kata laluan</string>
-	<string name="change_security_lock">Kunci skrin lebih</string>
+	<string name="change_security_lock">Cuba cara lain untuk membuka kunci</string>
 	
 	<!-- nfc settings -->
 	<string name="nfc_category_title">NFC</string>
 	<string name="nfc_quick_toggle_summary">Membolehkan pertukaran data apabila telefon menyentuh peranti lain</string>
-	<string name="android_beam_disabled_summary">Tiada kerana NFC dipadamkan</string>
-	<string name="android_beam_on_summary">NFC perkongsian kandungan dibuka</string>
-	<string name="android_beam_off_summary">NFC perkongsian kandungan ditutup</string>
-	<string name="android_beam_explained">"Apabila ciri ini dihidupkan, anda boleh 'beam' kandungan aplikasi ke peranti NFC-mampu dengan memegang peranti berdekatan bersama-sama. Sebagai contoh, anda boleh 'beam' laman Browser, video YouTube, hubungan, dan banyak lagi. Hanya membawa peranti berdekatan bersama-sama (biasanya belakang ke belakang) dan kemudian sentuh skrin anda. Aplikasi menentukan apa yang akan dipancarkan."</string>
+	<string name="android_beam_disabled_summary">Perkongsian kandungan NFC, memerlukan NFC dihidupkan</string>
+	<string name="android_beam_on_summary">Perkongsian kandungan NFC dibuka</string>
+	<string name="android_beam_off_summary">Perkongsian kandungan NFC ditutup</string>
+	<string name="android_beam_explained">Anda boleh pancar laman web, video atau kandungan lain daripada skrin anda ke peranti lain yang menyokong Android Beam, dengan menyentuh peranti bersama-sama (selalunya belakang ke belakang).</string>
 	<string name="android_beam_tips">Pastikan dua peranti bersentuhan, dan kemudian sentuh kandungan yang anda ingin pancarkan.</string>
 	
 	<!-- wifi share -->
@@ -614,7 +614,7 @@
 	<string name="wifi_auto_connect">Sambungan Automatik</string>
 	
 	<string name="wifi_share_qrcode_title">Kongsi Wi-Fi</string>
-	<string name="wifi_share_qrcode_summary">Guna kamera MIUI camera untuk imbas kod QR</string>
+	<string name="wifi_share_qrcode_summary">Guna kamera MIUI untuk imbas kod QR</string>
 	<string name="wifi_share_qrcode_finish">Selesai</string>
 	
 	<string name="app_notifications_switch_label" msgid="9124072219553687583">"Notifikasi khas"</string>
