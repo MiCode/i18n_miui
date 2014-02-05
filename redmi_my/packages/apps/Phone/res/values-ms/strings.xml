@@ -24,7 +24,7 @@
 	and other settings UIs.  This is the version of the label for
 	tablet devices, where the phone app handles mobile data but not
 	actual phone calls. -->
-	<string name="phoneAppLabel" product="tablet">Data Rangkaian</string>
+	<string name="phoneAppLabel" product="tablet">Data Mudah Alih</string>
 	
 	<!-- Official label of the phone app, as seen in "Manage Applications"
 	and other settings UIs. -->
@@ -45,7 +45,7 @@
 	<!-- Incoming call screen, string when called from a pay phone -->
 	<string name="payphone">Telefon berbayar</string>
 	<!-- In-call screen: status label for a call that's on hold -->
-	<string name="onHold">Tunggu</string>
+	<string name="onHold">Sedang Menunggu</string>
 	<!-- Possible error messages with outgoing calls --><skip/>
 	<!-- In-call screen: call failure reason (busy) -->
 	<string name="callFailed_userBusy">Talian sibuk</string>
@@ -58,11 +58,11 @@
 	<!-- In-call screen: call failure reason (peer unreachable) -->
 	<string name="callFailed_number_unreachable">Nombor tidak dapat dihubungi</string>
 	<!-- In-call screen: call failure reason (incorrect username or password) -->
-	<string name="callFailed_invalid_credentials">Nama pengguna atau kata laluan tidak betul</string>
+	<string name="callFailed_invalid_credentials">ID pengguna atau kata laluan tidak betul</string>
 	<!-- In-call screen: call failure reason (calling from out of network is not allowed) -->
 	<string name="callFailed_out_of_network">Dipanggil dari luar rangkaian</string>
 	<!-- In-call screen: call failure reason (server error) -->
-	<string name="callFailed_server_error">Server ralat. Cuba lagi kemudian.</string>
+	<string name="callFailed_server_error">Ralat pelayan. Cuba lagi kemudian.</string>
 	<!-- In-call screen: call failure reason (no signal) -->
 	<string name="callFailed_noSignal">Tiada isyarat</string>
 	<!-- In-call screen: call failure reason (GSM ACM limit exceeded) -->
@@ -70,7 +70,7 @@
 	<!-- In-call screen: call failure reason (radio is off) -->
 	<string name="callFailed_powerOff">Radio dimatikan</string>
 	<!-- In-call screen: call failure reason (SIM error) -->
-	<string name="callFailed_simError">Tiada SIM atau SIM ralat</string>
+	<string name="callFailed_simError">Tiada SIM atau ralat SIM</string>
 	<!-- In-call screen: call failure reason (out of service) -->
 	<string name="callFailed_outOfService">Di luar kawasan perkhidmatan</string>
 	<!-- In-call screen: call failure reason (call denied because of current FDN setting) -->
@@ -117,7 +117,7 @@
 	<!-- "Audio mode" popup menu: Item label to select the speakerphone [CHAR LIMIT=25] -->
 	<string name="audio_mode_speaker">Pembesar suara</string>
 	<!-- "Audio mode" popup menu: Item label to select the handset earpiece [CHAR LIMIT=25] -->
-	<string name="audio_mode_earpiece">Cuping telinga telefon bimbit</string>
+	<string name="audio_mode_earpiece">Alat telinga telefon bimbit</string>
 	<!-- "Audio mode" popup menu: Item label to select the wired headset [CHAR LIMIT=25] -->
 	<string name="audio_mode_wired_headset">Set kepala berwayar</string>
 	<!-- "Audio mode" popup menu: Item label to select the bluetooth headset [CHAR LIMIT=25] -->
@@ -152,7 +152,7 @@
 	<string name="add_vm_number_str">Tambah nombor</string>
 	
 	<!-- Status message displayed on SIM PIN unlock panel -->
-	<string name="puk_unlocked">Kad SIM anda telah dinyahsekat. Telefon anda sedang dibuka\u2026</string>
+	<string name="puk_unlocked">Kad SIM anda telah dibuang sekatan. Telefon anda sedang dibuka\u2026</string>
 	<!-- network depersonalization -->
 	<!-- Label text for PIN entry widget on SIM Network Depersonalization panel -->
 	<string name="label_ndp">PIN buka kunci rangkaian SIM</string>
