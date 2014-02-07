@@ -33,10 +33,10 @@
     <string name="theme_component_title_ringtone">Nada dering</string>
     <string name="theme_component_title_notification">Pemberitahuan</string>
     <string name="theme_component_title_alarm">Penggera</string>
-    <string name="theme_component_title_contact">Dialer</string>
+    <string name="theme_component_title_contact">Pendail</string>
     <string name="theme_component_title_lockstyle">Skrin kekunci</string>
     <string name="theme_component_title_statusbar">Bar status</string>
-    <string name="theme_component_title_launcher">Rumah</string>
+    <string name="theme_component_title_launcher">Home</string>
     <string name="theme_component_title_audio_effect">Kesan audio</string>
     <string name="theme_component_title_alarmstyle">Gaya penggera</string>
     <string name="theme_component_title_clock">Jam</string>
@@ -95,13 +95,13 @@
 
     <string name="theme_batch_has_update_text">Tema %1$d mempunyai versi baru.</string>
     <string name="theme_batch_updating_text">Tema %1$d sedang dikemas kini\u2026</string>
-    <string name="theme_batch_update_all">Kemas kini seua</string>
-    <string name="theme_batch_update_dlg_title">Kemas kini</string>
-    <string name="theme_batch_update_dlg_content">Kemas kini sekarang?</string>
-    <string name="theme_batch_update_dlg_content_single">Kemas kini sekarang?</string>
+    <string name="theme_batch_update_all">Kemaskini semua</string>
+    <string name="theme_batch_update_dlg_title">Kemaskini</string>
+    <string name="theme_batch_update_dlg_content">Kemaskini sekarang?</string>
+    <string name="theme_batch_update_dlg_content_single">Kemaskini sekarang?</string>
 
-    <string name="theme_current_using_has_update">Tema semasa telah dikemas kini, klik sini untuk gunakan</string>
-    <string name="theme_immediately_apply_tip">Tema telah dikemas kini, gunakan serta-merta?</string>
+    <string name="theme_current_using_has_update">Tema semasa telah dikemaskini, klik sini untuk gunakan</string>
+    <string name="theme_immediately_apply_tip">Tema telah dikemaskini, gunakan serta-merta?</string>
     <string name="theme_name">%1$s</string>
 
     <string name="restore_default_theme_alert">Anda mungkin mangsa pemalsuan tema, sila melayari pasaran tema untuk membeli atau muat turun semula.</string>
