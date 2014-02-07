@@ -606,7 +606,7 @@
 	<!-- Strings for share user picker -->
 	<string name="by_sms">Mesej teks</string>
 	<string name="by_email">E-mel</string>
-	<string name="by_others">Lain-lain</string>
+	<string name="by_others"Lain-lain</string>
 	<string name="enter_email_hint">"Masukkan alamat e-mel"</string>
 	
 	<string name="messagelist_sender_self">Saya</string>
