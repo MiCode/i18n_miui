@@ -78,7 +78,7 @@
 	<string name="screen_key_long_press_timeout">Tentukan tempoh tekan lama</string>
 	
 	<string name="under_keyguard">Kunci skrin</string>
-	<string name="enable_snapshot_screenlock">Tekan lama butang Back untuk akses kamera</string>
+	<string name="enable_snapshot_screenlock">Tekan lama kekunci Back untuk akses kamera</string>
 	<string name="disable_power_key_long_press_under_keyguard">Matikan menu butang Power</string>
 	<string name="trackball_wake_title">Bebola jejak terjaga</string>
 	<string name="pref_volume_wake_title">Terjaga dengan butang Volum</string>
@@ -157,12 +157,12 @@
 	<string name="led_frequence_summary">Menetapkan jarak masa di antara LED berkelip</string>
 	<string name="led_pulse_summary">Apabila notifikasi baru diterima, kelipkan nadi LED</string>
 	<string name="show_rounded_corners">Papar sudut bulat</string>
-	<string name="pref_operational_key">Kunci pengendalian</string>
+	<string name="pref_operational_key">Kekunci pengendalian</string>
 	<string name="pref_button_light">Butang lampu</string>
-	<string name="pref_button_light_summary">Penunjuk kunci Menu, Home dan Back </string>
+	<string name="pref_button_light_summary">Penunjuk kekunci Menu, Home dan Back </string>
 	<string name="button_light_timeout">Tetapan cahaya butang</string>
 	<string name="screen_button_key">Kekunci maya skrin</string>
-	<string name="screen_button_custom">Sesuaikan posisi kekuci skrin</string>
+	<string name="screen_button_custom">Sesuaikan posisi kekunci skrin</string>
 	
 	<string name="headset_settings">"Fon kepala"</string>
 	<string name="headset_function">"Fungsi butang"</string>
@@ -569,7 +569,7 @@
 	<string name="xiaomi_cloud_service">MiCloud</string>
 	<string name="xiaomi_money_service">MiCredit</string>
 	
-	<string name="lock_settings_common_title">Kunci tetapan</string>
+	<string name="lock_settings_common_title">Tetapan Kunci</string>
 	<string name="turn_off_security_lock">Mematikan kunci skrin</string>
 	<string name="change_password">Tukar kata laluan</string>
 	<string name="change_security_lock">Cuba cara lain untuk membuka kunci</string>
