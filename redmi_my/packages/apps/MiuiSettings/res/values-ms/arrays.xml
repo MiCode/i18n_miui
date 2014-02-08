@@ -16,7 +16,7 @@
     
     <string-array name="usb_connection_mode_entries">
         <item>Tanya apabila sambungan</item>
-        <item>Caj shj</item>
+        <item>Cas sahaja</item>
         <item>Lekapkan Kad SD</item>
     </string-array>
 
@@ -86,9 +86,9 @@
     <!-- Screen key long press action -->
     <string-array name="screen_key_long_press_action">
         <item>Tiada</item>
-        <item>Tunjukkan Dulang apps terbaru</item>
+        <item>Tunjukkan dulang apps terkini</item>
         <item>Melancarkan Penolong</item>
-        <item>Melancarkan Google sekarang</item>
+        <item>Melancarkan Google Sekarang</item>
         <item>Tutupkan apps ini</item>
     </string-array>
 
@@ -115,7 +115,7 @@
     <string-array name="wfd_status">
         <item>Peranti disambungkan, mencipta sesi\u2026</item>
         <item>Sesi diciptakan.</item>
-        <item>Sesi diruntukan\u2026</item>
+        <item>Sesi diruntuhkan\u2026</item>
         <item>Sesi gagal.</item>
         <item>Masa tamat, mencuba semula\u2026</item>
         <item>Peranti disambungkan</item>
@@ -151,32 +151,32 @@
     </string-array>
 
     <string-array name="msd_pc_system_install_step_2_summary">
-        <item>2. MI 2 akan muncul sebagai peranti storan massa USB\n apabila disambungkan ke komputer anda.</item>
+        <item>2. HongMi akan muncul sebagai peranti storan massa USB\n apabila disambungkan ke komputer anda.</item>
         <item></item>
         <item>Memindahkan fail seperti yang anda lakukan ke mana-mana pemacu keras luaran.</item>
         <item></item>
     </string-array>
 
     <string-array name="msd_pc_system_install_finish_summary">
-        <item>Selepas anda memasang pemacu ini\nMI 2 akan muncul sebagai peranti storan massa USB apabila disambungkan ke komputer.</item>
-        <item>Bagi Windows Vista and Windows versi terkini,\npemain muzik MI 2 akan muncul di komputer anda secara automatik</item>
+        <item>Selepas anda memasang pemacu ini\nHongMi akan muncul sebagai peranti storan massa USB apabila disambungkan ke komputer.</item>
+        <item>Bagi Windows Vista and Windows versi terkini,\npemain muzik HongMi akan muncul di komputer anda secara automatik</item>
         <item>Semasa anda memasang pemacu ini\ntelefon akan dibuka secara automatik apabila disambungkan ke komputer.</item>
         <item></item>
     </string-array>
 
     <string-array name="screen_color_title">
-        <item>Mesra</item>
+        <item>Hangat</item>
         <item>Standard</item>
         <item>Dingin</item>
     </string-array>
 
     <string-array name="screen_saturation_title">
-        <item>Gemilang</item>
+        <item>Cemerlang</item>
         <item>Standard</item>
     </string-array>
 
     <string-array name="perm_hips_action">
-         <item>Gemilang</item>
+         <item>Benarkan</item>
          <item>Tanya</item>
          <item>Nafikan</item>
     </string-array>
@@ -187,10 +187,10 @@
     </string-array>
 
     <string-array name="change_security_lock_picker">
-        <item>Buka kunci dengan muka</item>
+        <item>Buka kunci muka</item>
         <item>Corak</item>
         <item>PIN</item>
-        <item>Katalaluan</item>
+        <item>Kata laluan</item>
     </string-array>
 
     <string-array name="phone_call_noise_suppression_title">
@@ -226,6 +226,6 @@
         <item>Kamera</item>
         <item>Galeri</item>
         <item>Muzik</item>
-        <item>Emel</item>
+        <item>E-mel</item>
     </string-array>
 </resources>
