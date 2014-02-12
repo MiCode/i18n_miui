@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <string name="app_name">Explorer</string>
+    <string name="app_name">Penjelajah</string>
     <string name="confirm">Sahkan</string>
     <string name="menu_item_ftp">FTP</string>
     <string name="menu_item_cleanup">Pembersihan</string>
