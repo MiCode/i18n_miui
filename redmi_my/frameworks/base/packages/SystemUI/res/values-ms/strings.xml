@@ -43,16 +43,16 @@
 
     <!-- Message shown in the middle of the screen after clicking on the recent apps button
          when there are no recent apps to show. Also used for accessibility. [CHAR LIMIT=45]-->
-    <string name="status_bar_no_recent_apps">Tiada App terdahulu</string>
+    <string name="status_bar_no_recent_apps">Tiada App terkini</string>
 
     <!-- Content description for the button to dismiss Recent Apps (only present on large
          devices) -->
-    <string name="status_bar_accessibility_dismiss_recents">Buang app terdahulu</string>
+    <string name="status_bar_accessibility_dismiss_recents">Buang app terkini</string>
 
     <!-- Message that is read when you enter recent apps in TalkBack -->
     <plurals name="status_bar_accessibility_recent_apps">
-        <item quantity="one">1 app terdahulu</item>
-        <item quantity="other">%d app terdahulu</item>
+        <item quantity="one">1 app terkini</item>
+        <item quantity="other">%d app terkini</item>
     </plurals>
 
     <!-- The label in the bar at the top of the status bar when there are no notifications
@@ -208,7 +208,7 @@
     <!-- Content description of the menu button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
     <string name="accessibility_menu">Menu</string>
     <!-- Content description of the recents button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
-    <string name="accessibility_recent">App Terdahulu</string>
+    <string name="accessibility_recent">App Terkini</string>
 
     <!-- Content description of the switch input method button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
     <string name="accessibility_ime_switch_button">Tukar butang cara input.</string>
@@ -378,7 +378,7 @@
     <!-- Content description for the quick settings panel (not shown on the screen). [CHAR LIMIT=NONE] -->
     <string name="accessibility_desc_quick_settings">Tetapan Pantas.</string>
     <!-- Content description for the recent apps panel (not shown on the screen). [CHAR LIMIT=NONE] -->
-    <string name="accessibility_desc_recent_apps">App terdahulu.</string>
+    <string name="accessibility_desc_recent_apps">App terkini.</string>
 
     <!-- Content description of the user tile in quick settings (not shown on the screen). [CHAR LIMIT=NONE] -->
     <string name="accessibility_quick_settings_user">Pengguna <xliff:g id="user" example="John Doe">%s</xliff:g>.</string>
