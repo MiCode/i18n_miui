@@ -54,7 +54,7 @@
 	<!-- In-call screen: call failure reason (client timed out) -->
 	<string name="callFailed_timedOut">Tiada jawapan, tamat masa</string>
 	<!-- In-call screen: call failure reason (server unreachable) -->
-	<string name="callFailed_server_unreachable">Server tidak dapat dihubungi</string>
+	<string name="callFailed_server_unreachable">Pelayan tidak dapat dihubungi</string>
 	<!-- In-call screen: call failure reason (peer unreachable) -->
 	<string name="callFailed_number_unreachable">Nombor tidak dapat dihubungi</string>
 	<!-- In-call screen: call failure reason (incorrect username or password) -->
@@ -1317,7 +1317,7 @@
 	<!-- Text of Internet-call registration status, registration failed due to invalid credentials [CHAR LIMIT=NONE] -->
 	<string name="registration_status_invalid_credentials">Pendaftaran akaun tidak berjaya: Nama pengguna atau kata laluan tidak betul</string>
 	<!-- Text of Internet-call registration status, registration failed due to unknown host exception [CHAR LIMIT=NONE] -->
-	<string name="registration_status_server_unreachable">Pendaftaran akaun tidak berjaya: Semak nama server.</string>
+	<string name="registration_status_server_unreachable">Pendaftaran akaun tidak berjaya: Semak nama pelayan.</string>
 	<!-- Text for describing the account's owner and status. For example, 'Active, in use by Google Talk', it means that the account managed by SIP service was registered by the application 'Google Talk' and the status is active. [CHAR LIMIT=NONE] -->
 	<string name="third_party_account_summary">Akaun ini sedang digunakan oleh app <xliff:g id="account_owner" example="Google Talk">%s</xliff:g>.</string>
 	
@@ -1328,7 +1328,7 @@
 	<string name="sip_edit_new_title">Maklumat akaun SIP</string>
 	
 	<!-- Text of the domain address preference. [CHAR LIMIT=NONE] -->
-	<string name="domain_address_title">Server</string>
+	<string name="domain_address_title">Pelayan</string>
 	<!-- Text of the username preference. [CHAR LIMIT=NONE] -->
 	<string name="username_title">Nama pengguna</string>
 	<!-- Text of the password preference. [CHAR LIMIT=NONE] -->
