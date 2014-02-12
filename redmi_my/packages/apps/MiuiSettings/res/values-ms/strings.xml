@@ -39,7 +39,7 @@
 	<string name="privacy_protect_title">Perlindungan Privasi</string>
 	<string name="privacy_mode_enable_title">Mod Tetamu</string>
 	<string name="privacy_mode_enable_sum">Sembunyikan mesej, nota, gambar dan panggilan masuk daripada pengguna</string>
-	<string name="ac_enable_title">Keizinan</string>
+	<string name="ac_enable_title">Kebenaran</string>
 	<string name="ac_set_apps_title">Kunci App</string>
 	<string name="ac_privacy_mode_title">Kata Laluan</string>
 	<string name="ac_privacy_mode_sum">Perlukan kata laluan untuk batalkan Mod Tetamu</string>
@@ -58,9 +58,9 @@
 	<string name="launcher_settings_title">Pelancar</string>
 	<string name="screen_timeout_title">Mod Tidur</string>
 	<string name="screen_never_timeout_title">Jangan Tidur</string>
-	<string name="screen_on_proximity_sensor_title">Cegah dail poket</string>
+	<string name="screen_on_proximity_sensor_title">Cegah Dail Poket</string>
 	<string name="screen_on_proximity_sensor_summary">Telefon akan automatik dikunci apabila dimasukkan dalam poket</string>
-	<string name="preferred_launcher_title">Pelancar pilihan</string>
+	<string name="preferred_launcher_title">Pelancar Pilihan</string>
 	<string name="preferred_application_title">Pilihan <xliff:g id="APPLICATION_LABEL">%s</xliff:g></string>
 	<string name="preferred_application_warning_title">Ganti <xliff:g id="APPLICATION_LABEL">%s</xliff:g> lalai</string>
 	<string name="preferred_application_warning_message">Menggantikan <xliff:g id="APPLICATION_LABEL">%1$s</xliff:g> lalai anda boleh meningkatkan penggunaan kuasa, mengurangkan kelajuan, dan boleh mengakibatkan kandungan telefon pada risiko bahaya. Sebaliknya guna <xliff:g id="APPLICATION_LABEL">%2$s</xliff:g>.</string>
@@ -77,32 +77,32 @@
 	<string name="back_key">Back</string>
 	<string name="screen_key_long_press_timeout">Tentukan tempoh tekan lama</string>
 	
-	<string name="under_keyguard">Kunci skrin</string>
+	<string name="under_keyguard">Kunci Skrin</string>
 	<string name="enable_snapshot_screenlock">Tekan lama kekunci Back untuk akses kamera</string>
 	<string name="disable_power_key_long_press_under_keyguard">Matikan menu butang Power</string>
 	<string name="trackball_wake_title">Bebola jejak terjaga</string>
 	<string name="pref_volume_wake_title">Terjaga dengan butang Volum</string>
 	<string name="pref_volume_wake_summary">Menekan butang Volum akan bangunkan peranti</string>
 	
-	<string name="media_button">Butang media</string>
+	<string name="media_button">Butang Media</string>
 	<string name="preferred_media_app_summary">Pilih pemain muzik</string>
 	<string name="no_media_button_receiver">Tidak</string>
 	<string name="camera_key_action_title">Butang MI</string>
 	<string name="camera_key_action_setting_title">Butang MI</string>
-	<string name="camera_key_action_category_title">Penggunaan kamera tidak dibenarkan.</string>
-	<string name="camera_key_action_none_title">Tiada tindakan</string>
+	<string name="camera_key_action_category_title">Penggunaan Kamera Tidak Dibenarkan.</string>
+	<string name="camera_key_action_none_title">Tiada Tindakan</string>
 	<string name="camera_key_action_shortcut_title">Jalan Pintas</string>
-	<string name="camera_key_action_toggle_title">Pencetus togol</string>
+	<string name="camera_key_action_toggle_title">Pencetus Togol</string>
 	<string name="camera_key_action_app_title">Buka aplikasi</string>
 	<string name="camera_key_action_shortcut_home">Skrin Utama</string>
-	<string name="camera_key_action_shortcut_screenshot">Tangkapan skrin</string>
+	<string name="camera_key_action_shortcut_screenshot">Tangkapan Skrin</string>
 	<string name="camera_key_action_shortcut_search">Cari</string>
 	<string name="camera_key_action_shortcut_call">Panggilan</string>
 	<string name="camera_key_action_shortcut_wake">Kunci Peranti</string>
 	
-	<string name="multi_touch_points_category_title">Titik Pelbagai-sentuh</string>
-	<string name="multi_touch_points_preference">Mula semula bagi membolehkan</string>
-	<string name="trackball_settings">Bebola jejak</string>
+	<string name="multi_touch_points_category_title">Titik Pelbagai-Sentuh</string>
+	<string name="multi_touch_points_preference">Mula Semula bagi membolehkan</string>
+	<string name="trackball_settings">Bebola Jejak</string>
 	
 	<string name="status_bar_settings">Notifikasi</string>
 	<string name="complete_settings">Tetapan Umum</string>
@@ -110,7 +110,7 @@
 	<string name="battery_settings">Bateri</string>
 	<string name="battery_settings_title">Bateri</string>
 	<string name="battery_indicator_style">Penunjuk Bateri</string>
-	<string name="power_usage_history">Penggunaan bateri</string>
+	<string name="power_usage_history">Penggunaan Bateri</string>
 	<string name="default_usb_mode">Penyambungan USB</string>
 	<string name="tether_settings_title_all">Penambatan</string>
 	<string name="radio_controls_title">Lagi</string>
@@ -211,11 +211,11 @@
 	<!-- Vibrate category title -->
 	<string name="vibrate_category_title">Getar</string>
 	<!-- Vibrate in silent title -->
-	<string name="vibrate_in_silent_title">Bergetar dalam mod senyap</string>
+	<string name="vibrate_in_silent_title">Bergetar dalam Mod Senyap</string>
 	<!-- Vibrate in normal title -->
 	
 	<string name="vibrate_in_normal_title">Bergetar ketika berdering</string>
-	<string name="silent_mode_title">Mod senyap</string>
+	<string name="silent_mode_title">Mod Senyap</string>
 	
 	<!-- Broadcom, WAPI -->
 	<!-- Error message Certificate doesn't exits -->
@@ -457,13 +457,13 @@
 	<string name="device_name_usage_point">Benarkan peranti untuk ditemui oleh peranti Bluetooth yang lain untuk membolehkan pemindahan fail dan fungsi-fungsi lain.</string>
 	<string name="device_name_input_error">Gagal menetapkan nama peranti, sila cuba lagi</string>
 	
-	<string name="drive_mode">Mod kereta</string>
-	<string name="enable_drive_mode">Mod kereta</string>
+	<string name="drive_mode">Mod Kereta</string>
+	<string name="enable_drive_mode">Mod Kereta</string>
 	<string name="drive_mode_title">Mod Kereta</string>
 	<string name="drive_mode_settings">Tetapan mod kereta</string>
 	<string name="drive_mode_voice_report">Output teks-ke-ucapan</string>
 	<string name="drive_mode_phone_report">Info panggilan masuk</string>
-	<string name="drive_mode_sms_report">Mesej-mesej</string>
+	<string name="drive_mode_sms_report">Mesej</string>
 	<string name="drive_mode_invert_stop_report">Pusingkan telefon untuk senyap</string>
 	<string name="drive_mode_auto_reply">Respon pantas</string>
 	<string name="drive_mode_calling_auto_sms_reply">Balas kepada panggilan</string>
@@ -478,15 +478,15 @@
 	<string name="proxy_hostname_label">Nama Hos</string>
 	
 	<string name="clear_activities_summary">Guna app ini untuk sesetengah operasi secara lalai</string>
-	<string name="permission_detail_info">Butiran keizinan</string>
-	<string name="permission_detail_info_summary">"Keizinan: Safe %1$d，privasi %2$d，lain² %3$d"</string>
-	<string name="permission_manage">Urus keizinan</string>
-	<string name="permission_manage_summary">Auto-mula, privasi, pengurusan keizinan selamat</string>
+	<string name="permission_detail_info">Butiran kebenaran</string>
+	<string name="permission_detail_info_summary">"Kebenaran: Sekuriti %1$d，Privasi %2$d，lain² %3$d"</string>
+	<string name="permission_manage">Urus kebenaran</string>
+	<string name="permission_manage_summary">Auto-mula, privasi, pengurusan kebenaran selamat</string>
 	
 	<string name="security_relative">Berkaitan sekuriti</string>
 	<string name="privacy_relative">Berkaitan privasi</string>
-	<string name="other_relative">Lain² Keizinan</string>
-	<string name="permission_manage_title">%s maklumat keizinan</string>
+	<string name="other_relative">Lain² Kebenaran</string>
+	<string name="permission_manage_title">%s maklumat kebenaran</string>
 	
 	<string name="filter_apps_cached">Cached</string>
 	
@@ -497,7 +497,7 @@
 	<string name="screen_saturation">Penepuan warna</string>
 	<string name="screen_color_temperature_and_saturation">Suhu warna &amp; Ketepuan</string>
 	
-	<string name="finish_application">Selesai</string>
+	<string name="finish_application">Tamatkan</string>
 	<string name="header_category_accounts">Akaun</string>
 	
 	<string name="auto_startup_application_manage">Auto-Mula</string>
@@ -541,7 +541,7 @@
 	<string name="unlock_set_unlock_mode_password">Kata Laluan</string>
 	<string name="unlock_disable_lock_pin_summary">Buang PIN</string>
 	<string name="unlock_change_lock_pin_title">Tukar PIN</string>
-	<string name="lockpassword_pin_too_short">PIN mestilah sekurang-kurangnyat %d digit</string>
+	<string name="lockpassword_pin_too_short">PIN mestilah sekurang-kurangnya %d digit</string>
 	<string name="lockpassword_pin_too_long">PIN mestilah kurang daripada <xliff:g id="number" example="17">%d</xliff:g> digit.</string>
 	<string name="lockpassword_pin_contains_non_digits">PIN mestilah mengandungi digit dari 0-9.</string>
 	<string name="lockpassword_pin_recently_used">"Pentadbir peranti tidak benarkan PIN"</string>
