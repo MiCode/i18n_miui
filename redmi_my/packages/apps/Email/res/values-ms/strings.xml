@@ -509,7 +509,7 @@
 	<string name="account_setup_basics_password_label">Kata laluan</string>
 	<!-- On "Set up email" screen, checkbox label for making the new account the default account -->
 	<string name="account_setup_basics_default_label">
-	Menhantar e-mel daripada akaun ini secara tetap</string>
+	Menghantar e-mel daripada akaun ini secara tetap</string>
 	<!-- Button name on "Set up email" screen -->
 	<string name="account_setup_basics_manual_setup_action">Tetapan manual</string>
 	<!-- Toast when we can't build a URI from the given email & password -->
@@ -674,7 +674,7 @@
 	<string name="account_setup_options_mail_check_frequency_1hour">Setiap jam</string>
 	<!-- Check box label on "Set up email" screen to make this the default account -->
 	<!-- Note, this should usually match the default account summary preference string -->
-	<string name="account_setup_options_default_label">Menhantar e-mel daripada akaun ini dengan tetap.</string>
+	<string name="account_setup_options_default_label">Menghantar e-mel daripada akaun ini dengan tetap.</string>
 	<!-- In Account setup options & Account Settings screens, check box for new-mail notification -->
 	<string name="account_setup_options_notify_label">Pemberitahuan ketika ketibaan e-mel</string>
 	<!-- In Account setup options screen, optional check box to also sync contacts -->
@@ -854,7 +854,7 @@
 	<string name="account_settings_default_label">Akaun ketentuan</string>
 	<!-- Check box "summary" label on "Account options" screen to make this the default account -->
 	<!-- Note, this should usually match the default account account setup checkbox string -->
-	<string name="account_settings_default_summary">Menhantar e-mel daripada akaun ini dengan tetap</string>
+	<string name="account_settings_default_summary">Menghantar e-mel daripada akaun ini dengan tetap</string>
 	<!-- On Settings screen, setting option name -->
 	<!-- Title of account preference for downloading attachments in background [CHAR LIMIT=32] -->
 	<string name="account_settings_background_attachments_label">
@@ -891,7 +891,7 @@
 	<string name="account_settings_edit_quick_responses_label">Gerak balas pantas</string>
 	<!-- On Settings screen, setting option summary [CHAR LIMIT=64] -->
 	<string name="account_settings_edit_quick_responses_summary">
-	Mengubah nota yang anda kerap memakai ketika menhantar e-mel</string>
+	Mengubah nota yang anda kerap memakai ketika menghantar e-mel</string>
 	<!-- On Settings screen, setting option name -->
 	<string name="account_settings_signature_hint">Lampirkan nota ke pesanan yang anda menghantar</string>
 	<!-- On Settings screen, section heading -->
