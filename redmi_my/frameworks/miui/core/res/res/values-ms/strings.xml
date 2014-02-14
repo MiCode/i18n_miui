@@ -371,7 +371,7 @@
     <string name="country_name_uz">UZ</string>
     <!--  = END: Countries -->
 
-    <string name="firewall_setting">Blocklist</string>
+    <string name="firewall_setting">Senarai Sekat</string>
 
     <!-- alphabet fast indexer -->
     <string-array name="alphabet_table">
