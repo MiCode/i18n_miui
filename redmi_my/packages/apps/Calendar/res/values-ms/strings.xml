@@ -26,7 +26,7 @@
     <!-- This is the label for the time of an event [CHAR LIMIT=30] -->
     <string name="when_label">Bila</string>
     <!-- This is the label for the timezone of an event [CHAR LIMIT=30] -->
-    <string name="timezone_label">Zon masa</string>
+    <string name="timezone_label">Zon Waktu</string>
     <!-- This is the label for the Guests/Attendees of an event -->
     <string name="attendees_label">Tetamu</string>
     <!-- Text to show when an event starts on the current day -->
@@ -486,12 +486,12 @@
     <string name="preferences_default_reminder_dialog">Masa peringatan lalai</string>
 
     <!-- Settings check box label to keep Calendar in a fixed 'home' time zone [CHAR LIMIT = 18] -->
-    <string name="preferences_use_home_tz_title">Gunakan zon masa tempatan</string>
+    <string name="preferences_use_home_tz_title">Gunakan zon waktu tempatan</string>
     <!-- Settings description of what setting Calendar to use a fixed 'home' time
         zone does [CHAR LIMIT = 60]-->
     <string name="preferences_use_home_tz_descrip">Paparkan kalendar dan masa acara dalam zon waktu tempatan apabila melancong</string>
     <!-- Settings title for selecting a 'home' time zone to display Calendar in [CHAR LIMIT = 18] -->
-    <string name="preferences_home_tz_title">Zon masa tempatan</string>
+    <string name="preferences_home_tz_title">Zon waktu tempatan</string>
 
     <!-- Title of the settings item to show week number in week view [CHAR LIMIT=40] -->
     <string name="preferences_show_week_num_title">Tunjukkan nombor minggu</string>
@@ -559,7 +559,7 @@
     <!-- Pick the ending time for a new event[CHAR LIMIT = NONE]-->
     <string name="accessibility_pick_end_time">Hingga</string>
     <!-- Select a time zone for a new event [CHAR LIMIT = NONE]-->
-    <string name="accessibility_pick_time_zone">Zon masa</string>
+    <string name="accessibility_pick_time_zone">Zon Waktu</string>
     <!-- Add a reminder to an event [CHAR LIMIT = NONE]-->
     <string name="accessibility_add_reminder">Tambah peringatan</string>
     <!-- Remove a reminder from an event [CHAR LIMIT = NONE]-->

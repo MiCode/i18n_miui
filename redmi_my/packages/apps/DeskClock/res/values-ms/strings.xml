@@ -263,21 +263,21 @@
     <string name="stopwatch_title">Jam henti-masa</string>
     <string name="timer_title">Pemasa</string>
 
-    <string name="menu_add_worldclock">Tambah zon masa</string>
+    <string name="menu_add_worldclock">Tambah zon waktu</string>
     <string name="menu_edit_systemtime">Jam sistem</string>
-    <string name="delete_timezone_title">Padam zon masa</string>
-    <string name="delelte_selected_timezone">Adakah anda pasti untuk memadam zon masa yang dipilih(s)?</string>
+    <string name="delete_timezone_title">Padam zon waktu</string>
+    <string name="delelte_selected_timezone">Adakah anda pasti untuk memadam zon waktu yang dipilih(s)?</string>
 
-    <string name="timezone_exist_error_message">Gagal untuk menambah zon masa. Zon masa telah ada, sila pilih semula.</string>
+    <string name="timezone_exist_error_message">Gagal untuk menambah zon waktu. Zon waktu telah ada, sila pilih semula.</string>
     <string-array name="alarm_in_furture">
-        <item>Alarm will sound in less than 1 minute</item>
-        <item>Alarm will sound in <xliff:g id="DAYS" example="2 days">%1$s</xliff:g></item>
-        <item>Alarm will sound in <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g></item>
-        <item>Alarm will sound in <xliff:g id="DAYS" example="2 days">%1$s </xliff:g><xliff:g id="HOURS" example="2 hours">%2$s</xliff:g></item>
-        <item>Alarm will sound in <xliff:g id="MINUTES" example="2 minutes">%3$s </xliff:g></item>
-        <item>Alarm will sound in <xliff:g id="DAYS" example="2 days">%1$s </xliff:g><xliff:g id="MINUTES" example="2 minutes">%3$s </xliff:g></item>
-        <item>Alarm will sound in <xliff:g id="HOURS" example="2 hours">%2$s </xliff:g><xliff:g id="MINUTES" example="2 minutes">%3$s </xliff:g></item>
-        <item>Alarm will sound in <xliff:g id="DAYS" example="2 days">%1$s </xliff:g><xliff:g id="HOURS" example="2 hours">%2$s </xliff:g><xliff:g id="MINUTES" example="2 minutes">%3$s </xliff:g></item>
+        <item>Penggera akan berbunyi dalam kurang dari 1 minit</item>
+        <item>Penggera akan berbunyi dalam <xliff:g id="DAYS" example="2 days">%1$s</xliff:g></item>
+        <item>Penggera akan berbunyi dalam <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g></item>
+        <item>Penggera akan berbunyi dalam <xliff:g id="DAYS" example="2 days">%1$s </xliff:g><xliff:g id="HOURS" example="2 hours">%2$s</xliff:g></item>
+        <item>Penggera akan berbunyi dalam <xliff:g id="MINUTES" example="2 minutes">%3$s </xliff:g></item>
+        <item>Penggera akan berbunyi dalam <xliff:g id="DAYS" example="2 days">%1$s </xliff:g><xliff:g id="MINUTES" example="2 minutes">%3$s </xliff:g></item>
+        <item>Penggera akan berbunyi dalam <xliff:g id="HOURS" example="2 hours">%2$s </xliff:g><xliff:g id="MINUTES" example="2 minutes">%3$s </xliff:g></item>
+        <item>Penggera akan berbunyi dalam <xliff:g id="DAYS" example="2 days">%1$s </xliff:g><xliff:g id="HOURS" example="2 hours">%2$s </xliff:g><xliff:g id="MINUTES" example="2 minutes">%3$s </xliff:g></item>
     </string-array>
 
     <string name="alarm_disabled">Diaktifkan</string>
@@ -287,9 +287,9 @@
     <string name="close_alarm">Tutup penggera</string>
 
     <string-array name="days">
-        <item>Yesterday</item>
-        <item>Today</item>
-        <item>Tomorrow</item>
+        <item>Semalam</item>
+        <item>Hari ini</item>
+        <item>Esok</item>
     </string-array>
 
     <string name="start">Mula</string>
@@ -326,18 +326,18 @@
     <string name="alarm_label_hint">Masukan label penggera</string>
 
     <string-array name="alarm_repeat_type">
-        <item>Once</item>
-        <item>Daily</item>
-        <item>Work days</item>
-        <item>Mon to Fri</item>
-        <item>Custom</item>
+        <item>Sekali</item>
+        <item>Setiap hari</item>
+        <item>Hari bekerja</item>
+        <item>Isnin hingga Jumaat</item>
+        <item>Sesuaikan</item>
     </string-array>
 
     <string-array name="alarm_repeat_type_no_workdays">
-        <item>Once</item>
-        <item>Daily</item>
-        <item>Mon to Fri</item>
-        <item>Custom</item>
+        <item>Sekali</item>
+        <item>Setiap hari</item>
+        <item>Isnin hingga Jumaat</item>
+        <item>Sesuaikan</item>
     </string-array>
 
     <string name="legal_workday_invalidate">Data sudah tamat tempoh (Sekarang, penggera akan berdering dari Isnin hingga Jumaat)</string>
