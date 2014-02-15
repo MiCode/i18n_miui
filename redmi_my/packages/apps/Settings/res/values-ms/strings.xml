@@ -399,14 +399,17 @@ limitations under the License.
 	<!-- Date/time settings.  Summary of the checkbox for choosing between 12 hour time or 24 hour time.  Sample of 24-hour time -->
 	<string name="date_time_24_hour_sample">13:00</string>
 	<!-- The title of the activity to pick a time zone. -->
-	<string name="choose_timezone">Pilih zon masa</string>
+	<string name="choose_timezone">Pilih zon waktu</string>
+		<!-- Do not translate. Used as the value for a setting. -->
+    <string name="default_date_format"><xliff:g id="default_date_format">dd/MM/yyyy</xliff:g></string>
 	
 	<!-- The option in the date-format picker for using the normal format
 	called for by the user's locale. -->
 	<string name="normal_date_format">Serantau (<xliff:g id="date" example="12-31-2009">%s</xliff:g>)</string>
+
 	
 	<!-- Label of preview text when tweaking font size -->
-	<string name="display_preview_label">Pra-tonton:</string>
+	<string name="display_preview_label">Pratonton:</string>
 	<!-- Label for chosen font size -->
 	<string name="display_font_size_label">Saiz tulisan:</string>
 	
