@@ -36,19 +36,19 @@
 	<string name="status_bar_recent_remove_item_title">Buang dari senarai</string>
 	
 	<!-- Title shown in recents popup for inspecting an application's properties -->
-	<string name="status_bar_recent_inspect_item_title">Info aplikasi</string>
+	<string name="status_bar_recent_inspect_item_title">Info app</string>
 	
 	<!-- Message shown in the middle of the screen after clicking on the recent apps button
 	when there are no recent apps to show. Also used for accessibility. [CHAR LIMIT=45]-->
-	<string name="status_bar_no_recent_apps">Tiada aplikasi sebelumnya</string>
+	<string name="status_bar_no_recent_apps">Tiada app terkini</string>
 	
 	<!-- Content description for the button to dismiss Recent Apps (only present on large
 	devices) -->
 	
 	<!-- Message that is read when you enter recent apps in TalkBack -->
 	<plurals name="status_bar_accessibility_recent_apps">
-		<item quantity="one">1 recent app</item>
-		<item quantity="other">%d recent apps</item>
+		<item quantity="one">1 app terkini</item>
+		<item quantity="other">%d app terkini</item>
 	</plurals>
 	
 	<string name="status_bar_recent_guide_all">Leret ke atas untuk tutup, leret ke bawah untuk kunci</string>
@@ -116,10 +116,10 @@
 	<string name="status_bar_use_physical_keyboard">Papan kekunci fizikal</string>
 	
 	<!-- Prompt for the USB device permission dialog [CHAR LIMIT=80] -->
-	<string name="usb_device_permission_prompt">Benarkan aplikasi <xliff:g id="application">%1$s</xliff:g> untuk akses peranti USB?</string>
+	<string name="usb_device_permission_prompt">Benarkan app <xliff:g id="application">%1$s</xliff:g> untuk akses peranti USB?</string>
 	
 	<!-- Prompt for the USB accessory permission dialog [CHAR LIMIT=80] -->
-	<string name="usb_accessory_permission_prompt">Benarkan aplikasi <xliff:g id="application">%1$s</xliff:g> untuk akses aksesori USB?</string>
+	<string name="usb_accessory_permission_prompt">Benarkan app <xliff:g id="application">%1$s</xliff:g> untuk akses aksesori USB?</string>
 	
 	<!-- Prompt for the USB device confirm dialog [CHAR LIMIT=80] -->
 	<string name="usb_device_confirm_prompt">Buka <xliff:g id="activity">%1$s</xliff:g> apabila peranti USB ini disambungkan?</string>
@@ -128,7 +128,7 @@
 	<string name="usb_accessory_confirm_prompt">Buka <xliff:g id="activity">%1$s</xliff:g> apabila aksesori USB ini disambungkan?</string>
 	
 	<!-- Prompt for the USB accessory URI dialog [CHAR LIMIT=80] -->
-	<string name="usb_accessory_uri_prompt">Tiada aplikasi yang dipasang berfungsi dengan aksesori USB ini. Ketahui lebih lanjut mengenai aksesori ini di <xliff:g id="url">%1$s</xliff:g></string>
+	<string name="usb_accessory_uri_prompt">Tiada app yang dipasang berfungsi dengan aksesori USB ini. Ketahui lebih lanjut mengenai aksesori ini di <xliff:g id="url">%1$s</xliff:g></string>
 	
 	<!-- Title for USB accessory dialog.  Used when the name of the accessory cannot be determined.  [CHAR LIMIT=50] -->
 	<string name="title_usb_accessory">Aksesori USB</string>
@@ -163,7 +163,7 @@
 	<string name="compat_mode_help_header">Keserasian zoom</string>
 	
 	<!-- Compatibility mode help screen: body text. [CHAR LIMIT=150] -->
-	<string name="compat_mode_help_body">Apabila aplikasi direka untuk skrin yang lebih kecil, kawalan zoom akan muncul di tepi jam.</string>
+	<string name="compat_mode_help_body">Apabila app direka untuk skrin yang lebih kecil, kawalan zoom akan muncul di tepi jam.</string>
 	
 	<!-- Notification ticker displayed when a screenshot is being saved to the Gallery. [CHAR LIMIT=30] -->
 	<string name="screenshot_saving_ticker">Menyimpan tangkapan skrin\u2026</string>
@@ -192,7 +192,7 @@
 	<!-- Content description of the menu button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
 	<string name="accessibility_menu">Menu</string>
 	<!-- Content description of the recents button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
-	<string name="accessibility_recent">Aplikasi sebelum</string>
+	<string name="accessibility_recent">App terkini</string>
 	
 	<!-- Content description of the switch input method button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
 	<string name="accessibility_ime_switch_button">Butang tukar kaedah input.</string>
@@ -352,7 +352,7 @@
 	
 	<!-- Title shown in notification popup for inspecting the responsible
 	application -->
-	<string name="status_bar_notification_inspect_item_title">Info aplikasi</string>
+	<string name="status_bar_notification_inspect_item_title">Info app</string>
 	
 	<!-- Title for the pseudo-notification shown when notifications are disabled (do-not-disturb
 	mode) -->
@@ -383,7 +383,7 @@
 	<string name="status_bar_time_format_24">HH:mm</string>
 	<string name="status_bar_date_format">E\nd.M.yyyy </string>
 	
-	<string name="status_bar_recent_memory_info">"%1$s / %2$s available"</string>
+	<string name="status_bar_recent_memory_info">"%1$s / %2$s tersedia"</string>
 	
 	<string name="usb_mode_notification">Storan USB</string>
 	<string name="usb_mode_dont_ask">Ingat pilihan ini</string>
@@ -436,11 +436,11 @@
 	
 	<!-- MI Button Settings -->
 	<string name="camera_key_action_setting_title">Butang MI</string>
-	<string name="camera_key_action_category_title">Guna jika aplikasi kamera tidak terbuka</string>
+	<string name="camera_key_action_category_title">Guna jika app kamera tidak terbuka</string>
 	<string name="camera_key_action_none_title">Tiada tindakan</string>
 	<string name="camera_key_action_shortcut_title">Jalan pintas</string>
 	<string name="camera_key_action_toggle_title">Pencetus togol</string>
-	<string name="camera_key_action_app_title">Buka aplikasi</string>
+	<string name="camera_key_action_app_title">Buka app</string>
 	<string name="camera_key_action_shortcut_home">Kembali ke skrin utama</string>
 	<string name="camera_key_action_shortcut_screenshot">Tangkapan skrin</string>
 	<string name="camera_key_action_shortcut_search">Carian</string>
@@ -458,7 +458,7 @@
 	<!-- On the keyguard screen, it shows the carrier the phone is connected to.  This is displayed if the phone is not connected to a carrier.-->
 	<string name="lockscreen_carrier_default">Tiada servis</string>
 	<!-- title for the USB activity chooser. -->
-	<string name="chooseUsbActivity">Pilih aplikasi untuk peranti USB</string>
+	<string name="chooseUsbActivity">Pilih app untuk peranti USB</string>
 	
 	<!-- See USB_STORAGE.  USB_STORAGE_DIALOG:  After the user selects the notification, a dialog is shown asking if he wants to mount.  This is the title. -->
 	<string name="usb_storage_title">USB disambungkan</string>
@@ -493,7 +493,7 @@
 	<!-- USB_STORAGE_KILL_STORAGE_USERS dialog  -->
 	<string name="dlg_confirm_kill_storage_users_title">Hidupkan storan USB</string>
 	<!-- USB_STORAGE_KILL_STORAGE_USERS dialog message text -->
-	<string name="dlg_confirm_kill_storage_users_text">Jika anda menghidupkan storan USB, sesetengah aplikasi yang anda gunakan akan berhenti dan menjadi tidak tersedia sehingga anda mematikan storan USB.</string>
+	<string name="dlg_confirm_kill_storage_users_text">Jika anda menghidupkan storan USB, sesetengah app yang anda gunakan akan berhenti dan menjadi tidak tersedia sehingga anda mematikan storan USB.</string>
 	<!-- USB_STORAGE_ERROR dialog  dialog-->
 	<string name="dlg_error_title">Operasi USB tidak berjaya</string>
 	<!-- USB_STORAGE_ERROR dialog  ok button-->
@@ -553,12 +553,12 @@
 	
 	<!-- screen key name -->
 	<string name="screen_button_custom">Sesuaikan posisi butang navigasi</string>
-	<string name="recent_apps_key">Butang aplikasi sebelumnya</string>
-	<string name="recent_apps_key_show">Papar butang aplikasi sebelumnya</string>
+	<string name="recent_apps_key">Butang app terkini</string>
+	<string name="recent_apps_key_show">Papar butang app terkini</string>
 	<string name="key_position_custom">Sesuaikan posisi kunci</string>
 	<string name="screen_key_menu">Butang Menu</string>
 	<string name="screen_key_home">Butang Home</string>
-	<string name="screen_key_recent_apps">Butang aplikasi sebelumnya</string>
+	<string name="screen_key_recent_apps">Butang app terkini</string>
 	<string name="screen_key_back">Butang Back</string>
 	
 	<!-- status bar Network flow -->
