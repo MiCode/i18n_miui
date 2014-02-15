@@ -34,5 +34,5 @@
     <string name="toast_backup_ended" msgid="3818080769548726424">"Sandaran selesai"</string>
     <string name="toast_restore_started" msgid="7881679218971277385">"Pemulihan bermula..."</string>
     <string name="toast_restore_ended" msgid="1764041639199696132">"Pemulihan berakhir"</string>
-    <string name="toast_timeout" msgid="5276598587087626877">"Operasi tamat masa"</string>
+    <string name="toast_timeout" msgid="5276598587087626877">"Tamat masa Operasi"</string>
 </resources>
