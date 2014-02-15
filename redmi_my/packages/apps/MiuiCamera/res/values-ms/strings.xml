@@ -779,7 +779,7 @@
 
     <string name="pref_video_slow_speed_title_simple_mode">Gerak perlahan</string>
 
-    <string name="simple_mode_title">Mod mudah</string>
+    <string name="simple_mode_title">Mod Mudah</string>
     <string name="pref_settings_mode">Kamera</string>
 
     <string name="pref_video_captrue_ability_title">Keupayaan tangkapan</string>
@@ -818,10 +818,10 @@
     <string name="contact_email">E-mel</string>
     <string name="contact_web">Laman</string>
     <string name="contact_address">Alamat</string>
-    <string name="contact_birthday">Hari Lahir</string>
+    <string name="contact_birthday">Tarikh Lahir</string>
     <string name="contact_note">Nota</string>
     <string name="success_message_import_from_account">Berjaya diimport</string>
-    <string name="web_url_warning">Kaitan laman web berasal dari sumber yang tidak diketahui dan boleh menjadi risiko keselamatan.</string>
+    <string name="web_url_warning">Pautan laman web berasal dari sumber yang tidak diketahui dan boleh menjadi risiko keselamatan.</string>
     <string name="web_url_apk_warning">App ini berasal dari sumber yang tidak diketahui dan boleh menjadi risiko keselamatan. Hanya pasang aplikasi dari sumber yang anda percayai.</string>
     <string name="wifi_ssid">SSID:</string>
     <string name="wifi_pwd">Kata laluan:</string>
@@ -831,11 +831,11 @@
     <string name="qq_details">Butiran QQ:</string>
     <string name="launch_qq">Lancar QQ dalam pelayar</string>
     <string name="download_qq">Muat turun QQ</string>
-    <string name="wifi_warning">Sebelum anda menyambung, mengesahkan bahawa rangkaian ini adalah selamat.</string>
+    <string name="wifi_warning">Sebelum anda menyambung, sahkan bahawa rangkaian ini adalah selamat.</string>
 
     <string name="cloud_album_details">Butiran album awan:</string>
-    <string name="visit_cloud_album">Lawati album awan</string>
-    <string name="find_cloud_album">Cari kod QR album awan</string>
+    <string name="visit_cloud_album">Lawati album Cloud</string>
+    <string name="find_cloud_album">Cari kod QR album Cloud</string>
 
     <string name="wifi_connecting">Menghubungkan\u2026</string>
     <string name="wifi_open_fail">Gagal membuka Wi-Fi</string>
