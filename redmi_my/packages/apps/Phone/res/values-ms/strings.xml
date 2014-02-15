@@ -1315,7 +1315,7 @@
 	<!-- Text of Internet-call registration status, registration failed with a reason; will try again later [CHAR LIMIT=NONE] -->
 	<string name="registration_status_failed_try_later">Pendaftaran akaun tidak berjaya: (<xliff:g id="registration_error_message" example="timed out">%s</xliff:g>); akan mencuba sebentar lagi</string>
 	<!-- Text of Internet-call registration status, registration failed due to invalid credentials [CHAR LIMIT=NONE] -->
-	<string name="registration_status_invalid_credentials">Pendaftaran akaun tidak berjaya: Nama pengguna atau kata laluan tidak betul</string>
+	<string name="registration_status_invalid_credentials">Pendaftaran akaun tidak berjaya: ID pengguna atau kata laluan tidak betul</string>
 	<!-- Text of Internet-call registration status, registration failed due to unknown host exception [CHAR LIMIT=NONE] -->
 	<string name="registration_status_server_unreachable">Pendaftaran akaun tidak berjaya: Semak nama pelayan.</string>
 	<!-- Text for describing the account's owner and status. For example, 'Active, in use by Google Talk', it means that the account managed by SIP service was registered by the application 'Google Talk' and the status is active. [CHAR LIMIT=NONE] -->
@@ -1330,7 +1330,7 @@
 	<!-- Text of the domain address preference. [CHAR LIMIT=NONE] -->
 	<string name="domain_address_title">Pelayan</string>
 	<!-- Text of the username preference. [CHAR LIMIT=NONE] -->
-	<string name="username_title">Nama pengguna</string>
+	<string name="username_title">ID pengguna</string>
 	<!-- Text of the password preference. [CHAR LIMIT=NONE] -->
 	<string name="password_title">Kata laluan</string>
 	<!-- Text of the display name preference. [CHAR LIMIT=NONE] -->
@@ -1350,14 +1350,14 @@
 	<!-- Text of the advanced settings section. [CHAR LIMIT=NONE] -->
 	<string name="advanced_settings">Tetapan tidak wajib</string>
 	<!-- Text of the username used in authentication. [CHAR LIMIT=NONE] -->
-	<string name="auth_username_title">Pengesahan nama pengguna</string>
+	<string name="auth_username_title">Pengesahan ID pengguna</string>
 	<!-- Help text of the auth_username field. [CHAR LIMIT=NONE] -->
-	<string name="auth_username_summary">Nama pengguna digunakan untuk pengesahan</string>
+	<string name="auth_username_summary">ID pengguna digunakan untuk pengesahan</string>
 	
 	<!-- Initial status of the preferences is '<Not set>'. [CHAR LIMIT=NONE] -->
 	<string name="default_preference_summary">&lt;Tidak ditetapkan&gt;</string>
 	<!-- Default value for the display-name preference summary. [CHAR LIMIT=NONE] -->
-	<string name="display_name_summary">&lt;Sama dengan nama pengguna&gt;</string>
+	<string name="display_name_summary">&lt;Sama dengan ID pengguna&gt;</string>
 	<!-- Default value for the outbound-proxy-address preference summary. [CHAR LIMIT=NONE] -->
 	<string name="optional_summary">&lt;Tidak wajib&gt;</string>
 	

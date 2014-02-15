@@ -465,7 +465,7 @@
 	<!-- Settings label -->
 	<string name="pref_security_remember_passwords">Ingat kata laluan</string>
 	<!-- Settings summary -->
-	<string name="pref_security_remember_passwords_summary">Simpan nama pengguna dan kata laluan untuk tapak web</string>
+	<string name="pref_security_remember_passwords_summary">Simpan ID pengguna dan kata laluan untuk tapak web</string>
 	<!-- Settings label -->
 	<string name="pref_security_save_form_data">Ingat data borang</string>
 	<!-- Settings summary -->
