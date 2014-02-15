@@ -117,14 +117,14 @@
 	<string name="unlock_set_unlock_summary">Sila set kunci skrin</string>
 	<string name="lock_settings_picker_settings">Set kunci skrin</string>
 	<string name="lock_screen_unlock_show">Lumpuhkan leretan skrin</string>
-	<string name="lock_screen_unlock_show_summary">Pergi terus ke skrin Utama atau input kata laluan ketika bangun</string>
+	<string name="lock_screen_unlock_show_summary">Pergi terus ke Skrin Utama atau input kata laluan ketika bangun</string>
 	<string name="date_time_settings">Tarikh &amp; masa</string>
 	<string name="timezone_settings">Zon waktu</string>
 	<string name="security_privacy_settings_title">Sekuriti</string>
 	<string name="unlock_set_unlock_none_title">Tiada</string>
 	<string name="nearby_wifi">Rangkaian yang tersedia</string>
 	<string name="unlock_set_enter_system">Langkau kunci skrin</string>
-	<string name="unlock_set_enter_system_summary">Pergi terus ke skrin Utama bila terjaga</string>
+	<string name="unlock_set_enter_system_summary">Pergi terus ke Skrin Utama bila terjaga</string>
 	<string name="forget_wifi_message">Telefon anda akan berhenti menyambung ke rangkaian ini secara automatik.</string>
 	<string name="no_nearby_wifi">Tiada rangkaian dikesan.</string>
 	<string name="manually_add_network">Tambah rangkaian</string>

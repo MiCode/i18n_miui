@@ -119,7 +119,7 @@ limitations under the License.
 	<string name="menu_copy">Salin</string>
 	
 	<!-- Menu item used to create a contact shortcut when viewing contact details. [CHAR LIMIT=30] -->
-	<string name="menu_create_contact_shortcut">Letak di skrin Utama</string>
+	<string name="menu_create_contact_shortcut">Letak di Skrin Utama</string>
 	
 	<!-- Menu item used to call a specific contact when viewing the details of that contact. -->
 	<string name="menu_call">Panggil Kenalan</string>
@@ -216,7 +216,7 @@ limitations under the License.
 	<string name="invalidContactMessage">"Kenalan tidak wujud."</string>
 	
 	<!-- Message displayed in a toast after you create a contact shortcut in the launcher [CHAR LIMIT=NONE]-->
-	<string name="createContactShortcutSuccessful">Widget kenalan ditambah ke skrin Utama.</string>
+	<string name="createContactShortcutSuccessful">Widget kenalan ditambah ke Skrin Utama.</string>
 	
 	<!-- When picking a contact from a list of all contacts there is an entry at the top of the
 	list that allows the user to create a new contact, which this string is used for -->
@@ -2015,7 +2015,7 @@ limitations under the License.
 	<string name="option_view_contact">Papar</string>
 	<string name="option_edit_contact">Edit</string>
 	<string name="option_delete_contact">Padam</string>
-	<string name="option_send_to_desktop">Tempatkan di skrin Utama</string>
+	<string name="option_send_to_desktop">Tempatkan di Skrin Utama</string>
 	<string name="option_send_to_others">Majukan</string>
 	<string name="option_not_star">Buang dari kegemaran</string>
 	<string name="option_not_in_group">Keluarkan</string>
@@ -2045,7 +2045,7 @@ limitations under the License.
 	
 	<!-- 桌面快捷方式 -->
 	<string name="open_contact">Lihat kenalan</string>
-	<string name="send_contact_shortcut_todesktop_success">Ditambah ke skrin Utama</string>
+	<string name="send_contact_shortcut_todesktop_success">Ditambah ke Skrin Utama</string>
 	<!-- Datetime picker -->
 	<string name="date_picker_label">Ingatkan 3-hari sebelum dan pada hari</string>
 	

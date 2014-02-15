@@ -467,9 +467,9 @@
 	<string name="must_pick_file">Pilih satu imej</string>
 	<string name="set_lock_or_wallpaper">Set sebagai kertas dinding</string>
 	<string name="set_lock_and_wallpaper">Menetapkan sebagai kertas dinding\u2026</string>
-	<string name="set_wallpaper">Menetapkan sebagai kertas dinding skrin Utama\u2026</string>
+	<string name="set_wallpaper">Menetapkan sebagai kertas dinding Skrin Utama\u2026</string>
 	<string name="set_lockscreen">Menetapkan sebagai kertas dinding skrin kunci\u2026</string>
-	<string name="wallpaper">Kertas dinding skrin Utama</string>
+	<string name="wallpaper">Kertas dinding Skrin Utama</string>
 	<string name="contact_photo">Set sebagai foto kenalan</string>
 	<string name="projection">Penayangan</string>
 	<string name="cut">Pangkas</string>

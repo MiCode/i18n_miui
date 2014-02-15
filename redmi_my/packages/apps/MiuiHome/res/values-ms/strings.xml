@@ -48,7 +48,7 @@
     <!-- Shortcuts -->
     <skip />
     <!-- Title of dialog box -->
-    <string name="menu_item_add_item">Letak di skrin Utama</string>
+    <string name="menu_item_add_item">Letak di Skrin Utama</string>
     <!-- Options in "Add to Home" dialog box; Title of the group containing the list of all apps -->
     <!-- Options in "Add to Home" dialog box; Title of the group containing the list of all shortcuts -->
     <string name="group_shortcuts">Pintasan</string>
@@ -62,7 +62,7 @@
     <!-- Options in "Add to Home" dialog box; Name of the Clock widget-->
     <!-- Options in "Add to Home" dialog box; Name of the Picture frame widget-->
     <!-- Error message when user has filled a home screen, possibly not used -->
-    <string name="out_of_space">Tiada lagi ruang di skrin Utama ini.</string>
+    <string name="out_of_space">Tiada lagi ruang di Skrin Utama ini.</string>
     <!-- Message displayed when a shortcut is created by an external app-->
     <!-- Message displayed when a shortcut is uninstalled by an external app-->
     <!-- Message displayed when an external appattemps to create a shortcut that already exists -->
@@ -85,8 +85,8 @@
     <!-- Verb, menu item used to initiate global search -->
     <string name="menu_search">Carian</string>
     <!-- Noun, menu item used to bring down the notifications shade -->
-    <string name="menu_workspace_preview">Pratonton skrin Utama</string>
-    <string name="menu_back_desktop">Kembali ke skrin Utama</string>
+    <string name="menu_workspace_preview">Pratonton Skrin Utama</string>
+    <string name="menu_back_desktop">Kembali ke Skrin Utama</string>
     <!-- Noun, menu item used to show the gestures settings -->
     <!-- Noun, menu item used to show the system settings -->
     <string name="menu_settings">Tetapan</string>
@@ -109,14 +109,14 @@
     <string name="permdesc_install_widget">Benarkan app untuk tambah widget tanpa campur tangan pengguna.</string>
     
     <!-- Permission short label -->
-    <string name="permlab_read_settings">Baca tetapan skrin Utama dan Pintasans</string>
+    <string name="permlab_read_settings">Baca tetapan Skrin Utama dan Pintasans</string>
     <!-- Permission description -->
-    <string name="permdesc_read_settings">Benarkan app untuk baca tetapan dan pintasan di skrin Utama.</string>
+    <string name="permdesc_read_settings">Benarkan app untuk baca tetapan dan pintasan di Skrin Utama.</string>
     
     <!-- Permission short label -->
     <string name="permlab_write_settings">Edit Home Settings and Shortcuts</string>
     <!-- Permission description -->
-    <string name="permdesc_write_settings">Benarkan app untuk tukar tetapan dan pintasan di skrin Utama.</string>
+    <string name="permdesc_write_settings">Benarkan app untuk tukar tetapan dan pintasan di Skrin Utama.</string>
     
     <!-- Widgets: -->
     <skip />
@@ -125,10 +125,10 @@
     <string name="loading_desktop">Memuatkan pelancar\u2026</string>
     <string name="start_activity_failed">Gagal untuk dimulakan</string>
     <string name="gadget_error_text">Widget gagal dimuatkan</string>
-    <string name="menu_edit">Edit skrin Utama</string>
+    <string name="menu_edit">Edit Skrin Utama</string>
     <string name="menu_sort">Susun app</string>
     <string name="menu_launcher_setting">Tetapan pelancar</string>
-    <string name="editing_tips">Edit skrin Utama</string>
+    <string name="editing_tips">Edit Skrin Utama</string>
     <string name="cant_remove_system_app">Tidak dapat buang app sistem</string>
     <string name="cant_remove_retained_app">Tidak dapat buang app ini</string>
     <plurals name="uninstall_dialog_title_format">
@@ -152,7 +152,7 @@
     <string name="install">Pasang</string>
     <string name="cant_remove_folder">Tidak dapat buang folder</string>
     <string name="failed_to_drop">Pindah gagal</string>
-    <string name="failed_to_drop_widget_nospace">Tiada ruang lagi di skrin Utama ini</string>
+    <string name="failed_to_drop_widget_nospace">Tiada ruang lagi di Skrin Utama ini</string>
     <string name="failed_to_drop_widget_invalid">Widget tidak sah</string>
     <string name="failed_to_delete_temporary">Gagal untuk padam.</string>
     <string name="widget_favorite_contacts_label">Kenalan Kegemaran</string>
@@ -195,7 +195,7 @@
     <string name="pref_wallpaper_scroll_type_title">Penjajaran Kertas Dinding</string>
     <string name="pref_cell_layout_size">Susun atur App</string>
     <string name="pref_keep_layout_title">Kunci kedudukan App</string>
-    <string name="pref_keep_layout_summary">Mengubah susun atur skrin Utama tidak akan menjejaskan kedudukan relatif antara satu sama lain</string>
+    <string name="pref_keep_layout_summary">Mengubah susun atur Skrin Utama tidak akan menjejaskan kedudukan relatif antara satu sama lain</string>
     
     <string name="widget_gadget_player">Muzik</string>
     <string name="buffering">Buffering\u2026</string>
@@ -256,7 +256,7 @@
     <string name="free_style_edit_bar_empty">Kosong</string>
     <string name="free_style_edit_bar_select_app">Pilih app</string>
     <string name="free_style_enter_tip">Leret ke bawah dengan dua jari untuk papar MiHome</string>
-    <string name="free_style_exit_tip">Leret ke atas dengan dua jari untuk kembali ke skrin Utama</string>
+    <string name="free_style_exit_tip">Leret ke atas dengan dua jari untuk kembali ke Skrin Utama</string>
     <string name="free_style_londing_text">Memuatkan\u2026</string>
     
     <string name="toggle_select_title">Pilih togol</string>
