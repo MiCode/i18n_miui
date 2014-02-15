@@ -13,20 +13,20 @@
     <string name="password">Kata laluan</string>
     <string name="captcha">Kod Captcha</string>
     <string name="vcode">Kod pengesahan</string>
-    <string name="bad_authentication">Nama pengguna atau kata laluan tidak sah</string>
+    <string name="bad_authentication">ID pengguna atau kata laluan tidak sah</string>
     <string name="int_phone_user_notice">Tambah kod negara anda jika anda menggunakan nombor mudah alih untuk mendaftar masuk.</string>
     <string name="micloud_welcome_skip_login"><u>Langkau langkah ini</u></string>
     <string name="micloud_account_name">Xiaomi</string>
     <string name="micloud_use_existing">Daftar Masuk</string>
-    <string name="micloud_reg_new">Cipta akaun baru</string>
-    <string name="micloud_error_empty_username">Masukkan nama pengguna anda</string>
+    <string name="micloud_reg_new">Cipta Akaun Baru</string>
+    <string name="micloud_error_empty_username">Masukkan ID pengguna anda</string>
     <string name="micloud_error_empty_pwd">Masukkan kata laluan</string>
     <string name="micloud_error_illegal_pwd">Kata laluan tidak sah</string>
-    <string name="micloud_error_empty_captcha_code">Memasukan kod captcha.</string>
-    <string name="micloud_error_empty_vcode">Memasukan kod pengesahan.</string>
-    <string name="micloud_email">Alamat e-mel</string>
+    <string name="micloud_error_empty_captcha_code">Memasukkan kod captcha.</string>
+    <string name="micloud_error_empty_vcode">Memasukkan kod pengesahan.</string>
+    <string name="micloud_email">Alamat E-mel</string>
     <string name="reg_type_phone">Daftar dengan telefon (disarankan)</string>
-    <string name="reg_type_email">Daftar dengan e-mel</string>
+    <string name="reg_type_email">Daftar dengan E-mel</string>
     <string name="micloud_input_password_prompt">Masukkan kata laluan</string>
     <string name="micloud_password_confirm_hint">Sahkan kata laluan</string>
     <string name="micloud_password_req_notice">
@@ -51,12 +51,12 @@
     <string name="micloud_active_email_visit">Periksa Peti Masuk anda di
         <xliff:g id="email">%s</xliff:g>
     </string>
-    <string name="micloud_click_email_to_valid">\n\nUntuk mengaktifkan akaun anda,\n ikut pautan pengaktifan dalam Peti Masuk e-mel anda.</string>
-    <string name="micloud_resend_active_email">Menghantar e-mel pengaktifan semula</string>
+    <string name="micloud_click_email_to_valid">\n\nUntuk mengaktifkan akaun anda,\n ikut pautan pengaktifan dalam Peti Masuk E-mel anda.</string>
+    <string name="micloud_resend_active_email">Menghantar E-mel pengaktifan semula</string>
     <string name="micloud_delete_account">Daftar Keluar</string>
     <string name="micloud_active_email_sent_1">"Pautan pengaktifan telah dihantar ke "</string>
     <string name="micloud_active_email_sent_2"/>
-    <string name="micloud_click_email">Klik link dalam e-mel tersebut untuk mengaktifkan akaun Xiaomi anda</string>
+    <string name="micloud_click_email">Klik link dalam E-mel tersebut untuk mengaktifkan akaun Xiaomi anda</string>
     <string name="completed">Tamat</string>
     <string name="header_data_and_synchronization">Data &amp; Segerak</string>
     <string name="title_reg">Daftar Akaun</string>
@@ -65,7 +65,7 @@
         	%1$s
         </xliff:g>
     </string>
-    <string name="email_already_be_used">Alamat e-mel ini telah didaftarkan dengan akaun lain</string>
+    <string name="email_already_be_used">Alamat E-mel ini telah didaftarkan dengan akaun lain</string>
     <string name="error_no_sms_service">Servis mesej teks SMS tidak tersedia</string>
     <string name="reg_by_email_failure">Gagal untuk mencipta akaun:
         <xliff:g id="reason">
@@ -83,7 +83,7 @@
     <string name="error_sim_not_ready">Tiada Kad SIM dijumpai</string>
     <string name="error_unknown">Ralat yang tidak diketahui</string>
     <string name="error_invalid_dev_id">Id peranti tidak sah</string>
-    <string name="error_user_name">Nama pengguna tidak sah</string>
+    <string name="error_user_name">ID pengguna tidak sah</string>
     <string name="quick_login_title">Kata laluan</string>
     <string name="quick_login_step2_title">2-langkah verifikasi</string>
     <string name="account_name">Akaun:
@@ -108,7 +108,7 @@
     <string name="send_sms_for_sync_title">Hantar mesej teks</string>
     <string name="send_sms_for_sync_notice">Mesej teks pengaktifan adalah bergantung pada caj data biasa</string>
     <string name="send_int_sms_for_sync_notice">Mesej teks pengaktifan adalah bergantung pada caj data antarabangsa</string>
-    <string name="failed_to_send_activate_email">Gagal untuk menghantar e-mel pengaktifan</string>
+    <string name="failed_to_send_activate_email">Gagal untuk menghantar E-mel pengaktifan</string>
     <string name="access_denied">Akses dinafikan</string>
     <string name="reging">Mendaftar\u2026</string>
     <string name="reg_success">Akaun dicipta</string>
@@ -168,7 +168,7 @@
     
     <string name="sina_weibo">Sina Weibo</string>
     <string name="bind_sina_weibo">Terikat dengan Sina Weibo</string>
-    <string name="bind_weibo_description">Cari dan segerak Mencari kenalan telefon, rakan dan informasi lain terus dari akaun anda</string>
+    <string name="bind_weibo_description">Cari dan segerakkan rakan anda daripada Sina Weibo</string>
     <string name="add_weibo_account">Tambah akaun</string>
     <string name="binded">Terikat</string>
     <string name="nobind">Jangan ikat</string>
@@ -182,11 +182,11 @@
     <string name="access_token_invalid_warning">Akaun Weibo tidak sah, sila menyambung semula</string>
     <string name="service_error">Ralat pelayan</string>
     
-    <string name="enable_micloud">Membolehkan perkhidmatan cloud</string>
-    <string name="micloud_summary">Login ke akaun Xiaomi untuk sync Kenalan, Galeri album dan fungsi lain.</string>
+    <string name="enable_micloud">Menghidupkan perkhidmatan Cloud</string>
+    <string name="micloud_summary">Daftar Masuk ke akaun Xiaomi untuk segerak Kenalan, Galeri album dan fungsi lain.</string>
     <string name="micloud_is_what">Apakah MiCloud?</string>
     <string name="available_functionality">Fungsi yang sedia ada</string>
-    <string name="internet_message">MiCloud messaging</string>
+    <string name="internet_message">Permesejan MiCloud</string>
     <string name="micloud_more">Maklumat lanjut</string>
     <string name="internet_comm">Servis Permesejan</string>
     <string name="cloud_messaging">Permesejan Wi-Fi</string>
@@ -195,18 +195,18 @@
     <string name="my_xiaomi_account">Akaun Xiaomi</string>
     <string name="micloud_intro_01_part_01">Jimatkan data mudah alih anda</string>
     <string name="micloud_intro_01_part_02">Mesej percuma melalui Wi-Fi.</string>
-    <string name="micloud_intro_02_part_01">Berhenti dari menggunakan pemacu ibujari dan akaun e-mel untuk memindahkan fail</string>
+    <string name="micloud_intro_02_part_01">Berhenti dari menggunakan pemacu ibujari dan akaun E-mel untuk memindahkan fail</string>
     <string name="micloud_intro_02_part_02">Segerak kenalan, mesej, foto dan banyak lagi merentasi peranti</string>
     <string name="micloud_intro_03_part_01">Melindungi kandungan telefon anda dari jauh.</string>
-    <string name="micloud_intro_03_part_02">Menguruskan data,mencari lokasi, mengunci dan memadamkan peranti anda dengan melayari i.xiaomi.com</string>
-    <string name="micloud_dspt">Perkhidmatan Cloud termasuk MiCloud messaging, mobile sync, mencari lokasi peranti dan lain-lain. Anda juga boleh menguruskan data anda atas talian pada bila-bila masa!</string>
-    <string name="cmcc_micloud_dspt">Perkhidmatan Cloud termasuk mobile sync, lokasi peranti dan lain-lain. Anda boleh menguruskan data anda online pada bila-bila masa!</string>
+    <string name="micloud_intro_03_part_02">Menguruskan data, mencari lokasi, mengunci dan memadamkan peranti anda dengan melayari i.xiaomi.com</string>
+    <string name="micloud_dspt">Perkhidmatan Cloud termasuk Permesejan MiCloud, segerak mudah alih, mencari lokasi peranti dan lain-lain. Anda juga boleh menguruskan data anda atas talian pada bila-bila masa!</string>
+    <string name="cmcc_micloud_dspt">Perkhidmatan Cloud termasuk segerak mudah alih, lokasi peranti dan lain-lain. Anda boleh menguruskan data anda online pada bila-bila masa!</string>
     <string name="start_micloud">Mula</string>
     
     <string name="micloud_proceed">Seterusnya</string>
     <string name="disable_micloud"><u>Matikan MiCloud</u></string>
     
-    <string name="master_alert_notif_title">Data ini diserentakkan terakhir kali dalam %s hari</string>
+    <string name="master_alert_notif_title">Data ini disegerakkan terakhir kali dalam %s hari</string>
     <string name="sub_alert_notif_title">Kunci servis segerak belum diaktifkan</string>
     <string name="alert_notif_title_dspt">Pemulihan segerak untuk memastikan sekuriti data</string>
     <string name="noRemind">Jangan ingatkan saya lagi</string>
