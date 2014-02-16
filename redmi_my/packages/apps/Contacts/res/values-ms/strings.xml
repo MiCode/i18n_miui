@@ -484,16 +484,16 @@ limitations under the License.
 	<string name="noContactsHelpTextForCreateShortcut">"Anda tidak mempunyai sebarang kenalan untuk dipaparkan."</string>
 	
 	<!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is disabled.  [CHAR LIMIT=NONE] -->
-	<string name="noContactsHelpText" product="tablet">"Anda tidak mempunyai sebarang kenalan untuk dipaparkan.You don\'t have any contacts to display.\n\nTo add contacts, touch <font fgcolor="#ffffffff"><b>Menu</b></font>, then touch:n
-	\n<li><font fgcolor="#ffffffff"><b>Accounts</b></font> to add or set up an account with contacts you can sync to the tablet\n</li>
-	\n<li><font fgcolor="#ffffffff"><b>New contact</b></font> to create a new contact from scratch\n</li>
-	\n<li><font fgcolor="#ffffffff"><b>Import/export</b></font> to import contacts from your SIM or SD card\n</li>"
+	<string name="noContactsHelpText" product="tablet">"Anda tidak mempunyai sebarang kenalan untuk dipaparkan.\n\nUntuk tambah kenalan, sentuh <font fgcolor="#ffffffff"><b>Menu</b></font>, kemudian sentuh:\n
+	\n<li><font fgcolor="#ffffffff"><b>Akaun</b></font> untuk tambah atau dirikan akaun dengan kenalan yang anda boleh segerakkan ke tablet\n</li>
+	\n<li><font fgcolor="#ffffffff"><b>Kenalan Baru</b></font> untuk cipta kenalan baru dari awal\n</li>
+	\n<li><font fgcolor="#ffffffff"><b>Import/Eksport</b></font> untuk import kenalan daripada kad SIM atau kad SD\n</li>"
 	</string>
 	<!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is disabled.  [CHAR LIMIT=NONE] -->
-	<string name="noContactsHelpText" product="default">"You don\'t have any contacts to display.\n\nTo add contacts, touch <font fgcolor="#ffffffff"><b>Menu</b></font>, then touch:\n
-	\n<li><font fgcolor="#ffffffff"><b>Accounts</b></font> to add or set up an account with contacts you can sync to the phone\n</li>
-	\n<li><font fgcolor="#ffffffff"><b>New contact</b></font> to create a new contact from scratch\n</li>
-	\n<li><font fgcolor="#ffffffff"><b>Import/Export</b></font> to import contacts from your SIM or SD card\n</li>"
+	<string name="noContactsHelpText" product="default">"Anda tidak mempunyai sebarang kenalan untuk dipaparkan.\n\nUntuk tambah kenalan, sentuh <font fgcolor="#ffffffff"><b>Menu</b></font>, kemudian sentuh:\n
+	\n<li><font fgcolor="#ffffffff"><b>Akaun</b></font> untuk tambah atau dirikan akaun dengan kenalan yang anda boleh segerakkan ke telefon\n</li>
+	\n<li><font fgcolor="#ffffffff"><b>Kenalan Baru</b></font> untuk cipta kenalan baru dari awal\n</li>
+	\n<li><font fgcolor="#ffffffff"><b>Import/Eksport</b></font> untuk import kenalan daripada kad SIM atau kad SD\n</li>"
 	</string>
 	
 	<!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is enabled.  [CHAR LIMIT=NONE] -->
@@ -729,7 +729,7 @@ limitations under the License.
 	
 	Used by AccessibilityService to announce the purpose of the button.
 	-->
-	<string name="description_minus_button">minus</string>
+	<string name="description_minus_button">tolak</string>
 	
 	<!-- String describing the Contact Editor Plus button
 	
@@ -746,18 +746,19 @@ limitations under the License.
 	<string name="description_view_contact_detail" msgid="2795575601596468581">View contact</string>
 	
 	<!-- Dialog message shown when (USB) storage does not exist [CHAR LIMIT=30] -->
-	<string name="no_sdcard_message" product="nosdcard">No storage was found.</string>
+	<string name="no_sdcard_message" product="nosdcard">Tiada storan ditemui.</string>
 	<!-- Dialog message shown when SDcard does not exist. [CHAR LIMIT=30] -->
-	<string name="no_sdcard_message" product="default">No SD card was found.</string>
+	<string name="no_sdcard_message" product="default">Tiada Kad SD ditemui.</string>
 	
 	<!-- Action string for selecting SIM for importing contacts -->
-	<string name="import_from_sim">Import dari kad SIM</string>
+	<string name="import_from_sim">Import dari kad SIM 1</string>
+	<string name="import_from_sim2">Import dari kad SIM 2</string>
 	
 	<!-- Action string for selecting (USB) storage for importing contacts [CHAR LIMIT=25] -->
-	<string name="import_from_sdcard" product="default">Import from storage</string>
+	<string name="import_from_sdcard" product="default">Import daripada storan</string>
 	
 	<!-- Action that exports all contacts to (USB) storage [CHAR LIMIT=25] -->
-	<string name="export_to_sdcard" product="default">Export to storage</string>
+	<string name="export_to_sdcard" product="default">Eksport ke storan</string>
 	
 	<!-- Action that shares visible contacts -->
 	<string name="share_visible_contacts">Kongsi kenalan dapat dilihat</string>
@@ -975,7 +976,7 @@ limitations under the License.
 	<string name="cancel_export_confirmation_message">Batalkan eksport <xliff:g id="filename" example="export.vcf">%s</xliff:g>?</string>
 	
 	<!-- Title shown in a Dialog telling users cancel vCard import/export operation is failed. [CHAR LIMIT=40] -->
-	<string name="cancel_vcard_import_or_export_failed">"Tidak berjaya membatalkan vCard import/eksport"</string>
+	<string name="cancel_vcard_import_or_export_failed">"Tidak berjaya membatalkan vCard Import/Eksport"</string>
 	
 	<!-- The string used to describe Contacts as a searchable item within system search settings. -->
 	<string name="search_settings_description">Nama kenalan anda</string>
@@ -1013,10 +1014,10 @@ limitations under the License.
 	<string name="menu_contacts_filter">Kenalan untuk dipaparkan</string>
 	
 	<!-- The menu item to bulk import or bulk export contacts from SIM card or SD card.  [CHAR LIMIT=30]-->
-	<string name="menu_import_export">Import/eksport</string>
+	<string name="menu_import_export">Import/Eksport</string>
 	
 	<!-- Dialog title when selecting the bulk operation to perform from a list. [CHAR LIMIT=36] -->
-	<string name="dialog_import_export">Import/eksport kenalan</string>
+	<string name="dialog_import_export">Import/Eksport kenalan</string>
 	
 	<!-- Dialog title when importing contacts from an external source. [CHAR LIMIT=36] -->
 	<string name="dialog_import">Import kenalan</string>
@@ -1273,7 +1274,7 @@ limitations under the License.
 	<string name="group_read_only">Tidak dapat disunting dalam peranti ini.</string>
 	
 	<!-- Label of the "sort list by" display option -->
-	<string name="display_options_sort_list_by">Susun senarai dengan</string>
+	<string name="display_options_sort_list_by">Susun senarai mengikut</string>
 	
 	<!-- An allowable value for the "sort list by" contact display option  -->
 	<string name="display_options_sort_by_given_name">Nama diberi</string>
@@ -1282,7 +1283,7 @@ limitations under the License.
 	<string name="display_options_sort_by_family_name">Nama keluarga</string>
 	
 	<!-- Label of the "view names as" display option -->
-	<string name="display_options_view_names_as">Paparkan nama kenalan sebagai</string>
+	<string name="display_options_view_names_as">Paparkan nama kenalan mengikut</string>
 	
 	<!-- An allowable value for the "view names as" contact display option  -->
 	<string name="display_options_view_given_name_first">Nama diberi dahulu</string>
@@ -1952,7 +1953,7 @@ limitations under the License.
 	<string name="export_vcard_description" product="nosdcard">Eksport vCard ke storan dalaman telefon</string>
 	<string name="export_vcard_description" product="default">Eksport vCard ke kad SD</string>
 	<string name="export_to_sim">Eksport ke kad SIM 1</string>
-    <string name="export_to_sim2">Eksport ke kad SIM 2</string>
+  <string name="export_to_sim2">Eksport ke kad SIM 2</string>
 	<string name="export_to_sim_title">Mengeksport ke kad SIM\u2026</string>
 	<string name="sim_card_no_free_space_title">Kad SIM penuh</string>
 	<string name="sim_card_no_free_space_message">Tiada ruang yang cukup dalam kad SIM anda</string>
