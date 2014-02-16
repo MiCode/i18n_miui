@@ -166,7 +166,7 @@
     <string name="sort_by_abc">Susun ikut nama</string>
     <string name="encryption">Penyulitan</string>
     <string name="default_folder_title_tools">Perkakas</string>
-    <string name="default_folder_title_recommend">Lagi App</string>
+    <string name="default_folder_title_recommend">Lagi app</string>
     <string name="default_folder_title_game">Permainan</string>
     <string name="default_folder_title_security">Sistem</string>
     <string name="default_shortcut_title_10086">google.com.my</string>
@@ -181,7 +181,7 @@
     <string name="pref_render_in_truecolor_summary">Mematikan pilihan ini akan meningkatkan prestasi melukis.</string>
     <string name="pref_enable_drawing_cache_title">Cache lukisan</string>
     <string name="pref_enable_drawing_cache_summary">Matikan untuk membebaskan memori (boleh menyebabkan lag)</string>
-    <string name="pref_icon_shadow_title">Bayang-bayang App</string>
+    <string name="pref_icon_shadow_title">Bayang-bayang app</string>
     <string name="pref_icon_shadow_summary">Hidupkan bayang-bayang app dan kesan refleksi dulang Kegemaran</string>
     <string name="pref_screen_transformation_type_title">Kesan peralihan skrin</string>
     <string name="transformation_type_classic">Slaid Klasik</string>
@@ -193,8 +193,8 @@
     <string name="transformation_type_stack">Cascade</string>
     <string name="transformation_type_rotate">Putaran</string>
     <string name="pref_wallpaper_scroll_type_title">Penjajaran Kertas Dinding</string>
-    <string name="pref_cell_layout_size">Susun atur App</string>
-    <string name="pref_keep_layout_title">Kunci kedudukan App</string>
+    <string name="pref_cell_layout_size">Susun atur app</string>
+    <string name="pref_keep_layout_title">Kunci kedudukan app</string>
     <string name="pref_keep_layout_summary">Mengubah susun atur Skrin Utama tidak akan menjejaskan kedudukan relatif antara satu sama lain</string>
     
     <string name="widget_gadget_player">Muzik</string>

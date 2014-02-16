@@ -2,8 +2,8 @@
 <resources>
 
     <string-array name="transformation_entries">
-        <item>Slaid klasik</item>
-        <item>Slaid klasik (tanpa lajakan)</item>
+        <item>Slaid Klasik</item>
+        <item>Slaid Klasik (Tanpa Lajakan)</item>
         <item>Crossfade</item>
         <item>Tumble</item>
         <item>Halaman</item>
@@ -13,14 +13,14 @@
     </string-array>
     
     <string-array name="wallpaper_scroll_entries">
-        <item>Tema default</item>
+        <item>Tema Lalai</item>
         <item>Tengah</item>
         <item>Kiri</item>
         <item>Kanan</item>
     </string-array>
     
     <string-array name="gadget_weather_theme_type_entries">
-        <item>Default</item>
+        <item>Lalai</item>
         <item>Klasik</item>
     </string-array>
 
