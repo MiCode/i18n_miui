@@ -18,13 +18,13 @@
     <string name="safetylegal_activity_unreachable">Tidak boleh berhubung ke rangkaian. Anda boleh melihat maklumat ini secara atas talian di %s.</string>
     <string name="miui_copyright_title">Hak Cipta</string>
     <string name="miui_user_agreement_title">Perjanjian Pengguna</string>
-    <string name="miui_privacy_policy_title">Dasar privasi</string>
+    <string name="miui_privacy_policy_title">Dasar Privasi</string>
     <string name="miui_mibi_license_title">Perjanjian Pengguna Mi Credit</string>
     <string name="miui_user_manual_title">Panduan Pengguna</string>
-    <string name="user_agreement1">Dengan menyentuh OK, anda bersetuju dengan terma dan syarat seperti digariskan oleh Xiaomi</string>
+    <string name="user_agreement1">Dengan menyentuh OK, anda bersetuju dengan terma dan syarat seperti digariskan oleh Xiaomi dalam</string>
     <string name="user_agreement2">" Perjanjian Pengguna"</string>
     <string name="user_agreement3">" dan "</string>
-    <string name="user_agreement4">"Polisi Privasi."</string>
+    <string name="user_agreement4">"Dasar Privasi."</string>
     <string name="user_agreement5"></string>
 
     <!-- Text for message to user while SD card is not available and the current feature depends on SD card. -->
