@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-	<string name="app_name">Perkhidmatan pembayaran</string>
-	<string name="format_time">MMM dd, yyyy hh:mmaa</string>
-	<string name="format_date">MMM. dd, yyyy</string>
+	<string name="app_name">Servis Pembayaran</string>
+	<string name="format_time">dd/MMMM/yyyy hh:mmaa</string>
+	<string name="format_date">dd/MMMM/yyyy</string>
 
 	<string name="label_order_name">Produk:</string>
 	<string name="label_order_price">Harga:</string>
@@ -10,7 +10,7 @@
 	<string name="order_price"><xliff:g id="value">%1$s</xliff:g> MiCredits</string>
 	<string name="password_hint">Masukkan kata laluan akaun</string>
 	<string name="password_error">Kata laluan salah.</string>
-	<string name="password_forget">forgot?</string>
+	<string name="password_forget">Lupa?</string>
 	<string name="progress_creating">Mengumpul maklumat pesanan\u2026</string>
 	<string name="progress_loading">Memproses\u2026</string>
 	<string name="button_cancel">Batal</string>
@@ -18,22 +18,22 @@
 	<string name="button_call">Panggil</string>
 	<string name="button_pay">Sah</string>
 	<string name="button_recharge_pay">Sah</string>
-	<string name="button_recharge">Top up</string>
+	<string name="button_recharge">Tambah Nilai</string>
 	<string name="balance_payment"><xliff:g id="value">%1$s</xliff:g> MiCredits</string>
 	<string name="balance_giftcard_payment"><xliff:g id="value">%1$s</xliff:g> MiCredits（(<xliff:g id="gift">%2$s</xliff:g>- Kad hadiah MiCredit)</string>
-	<string name="balance_no_giftcard_payment"><xliff:g id="value">%1$s</xliff:g> MiCredits (cannot use MiCredit gift card for this order)</string>
+	<string name="balance_no_giftcard_payment"><xliff:g id="value">%1$s</xliff:g> MiCredits (tidak boleh gunakan kad hadiah MiCredit untuk pesanan ini)</string>
 	
 	<string name="balance">Baki: <xliff:g id="value">%1$s</xliff:g> MiCredits</string>
-	<string name="giftcard_value">(<xliff:g id="value">%1$s</xliff:g> MiCredit kad hadiah)</string>
+	<string name="giftcard_value">(<xliff:g id="value">%1$s</xliff:g> kad hadiah MiCredit)</string>
 	<string name="frozen">(Beku)</string>
 	<string name="mili_center">MiCredit</string>
-	<string name="memu_refresh">Refresh</string>
+	<string name="memu_refresh">Muat Semula</string>
 	
-	<string name="error_mili_summary">Dana tidak mencukup.</string>
+	<string name="error_mili_summary">Dana tidak mencukupi.</string>
 	<string name="error_network_title">Ralat rangkaian</string>
 	<string name="error_network_summary">"Tidak dapat sambung ke rangkaian."</string>
-	<string name="error_auth_title">Log masuk ralat</string>
-	<string name="error_auth_summary">Log masuk akaun ralat, sila log masuk lagi.</string>
+	<string name="error_auth_title">Daftar masuk ralat</string>
+	<string name="error_auth_summary">Daftar masuk akaun ralat, sila daftar masuk lagi sekali.</string>
 	<string name="error_has_bought_title">Ulangi pembelian</string>
 	<string name="error_has_bought_summary">Anda telah membeli produk ini.</string>
 	<string name="error_server_title">Ralat server</string>
@@ -43,7 +43,7 @@
 	<string name="error_user_id_mismatch_title">Ralat akaun</string>
 	<string name="error_user_id_mismatch_summary">Sila periksa akaun anda dan cuba log masuk lagi</string>
 	<string name="error_illegal_order_title">Pesanan ralat</string>
-	<string name="error_illegal_order_summary">Pesanan ralat. Sila cube lagi kemudian.</string>
+	<string name="error_illegal_order_summary">Pesanan ralat. Sila cuba lagi kemudian.</string>
 	<string name="error_verify_title">Tiada kebenaran</string>
 	<string name="error_verify_summary">App anda tidak mempunyai kebenaran untuk meminta perkhidmatan ini</string>
 	<string name="error_expired_summary">Pesanan anda telah luput</string>
@@ -57,26 +57,26 @@
 	<string name="error_bankcard_verify_summary">Gagal mengesahkan No. Kad</string>
 	
 	<string name="title_recharge">Top up MiCredit</string>
-	<string name="recharge_group_favorite">Gunakan kaedah top-up yang sebelumnya</string>
-	<string name="recharge_group_others">Kaedah top-up lain</string>
-	<string name="recharge_prepaid_title">Kad pra-bayar</string>
+	<string name="recharge_group_favorite">Gunakan kaedah tambah nilai yang sebelumnya</string>
+	<string name="recharge_group_others">Kaedah tambah nilai lain</string>
+	<string name="recharge_prepaid_title">Kad prabayar</string>
 	<string name="recharge_alipay_title">Alipay</string>
 	<string name="recharge_tenpay_title">Tenpay</string>
 	<string name="recharge_bankcall_title">Kad Bank</string>
-	<string name="recharge_message_title">Mesej-mesej teks</string>
-	<string name="recharge_voucher_title">Kad iCredit</string>
+	<string name="recharge_message_title">Mesej teks</string>
+	<string name="recharge_voucher_title">Kad MiCredit</string>
 	<string name="recharge_pcpay_title">Komputer</string>
-	<string name="recharge_novalid_method">Tiada kaedah top-up yang sahih.</string>
+	<string name="recharge_novalid_method">Tiada kaedah tambah nilai yang sahih.</string>
 	
 	<string name="account_detail">"Akaun Xiaomi:\n<xliff:g id="account_id">%1$s</xliff:g></string>
 	
 	<string name="paytool_alipay">Alipay</string>
 	<string name="paytool_tenpay">Tenpay</string>
 	<string name="recharge_denomination"><xliff:g id="value">%1$s</xliff:g> yuan</string>
-	<string name="btn_recharge_large">Top up</string>
+	<string name="btn_recharge_large">Tambah Nilai</string>
 	<string name="recharge_other">Lihat kaedah lain</string>
-	<string name="btn_recharge_success">Top up selesai</string>
-	<string name="btn_recharge_success_quick">Top up selesai</string>
+	<string name="btn_recharge_success">Tambah nilai selesai</string>
+	<string name="btn_recharge_success_quick">Tambah nilai selesai</string>
 	<string name="btn_prev">Sebelumnya</string>
 	<string name="btn_next">Seterusnya</string>
 	
@@ -111,19 +111,19 @@
 	
 	<string name="voucher_input_password_prompt">Masukkan kod</string>
 	<string name="voucher_edit_hint">Kod</string>
-	<string name="voucher_edit_limit">angka-angka</string>
+	<string name="voucher_edit_limit">digit</string>
 	<string name="voucher_error_password">Kod baucar tidak sahih!</string>
-	<string name="progress_voucher_creating">Menambah MiCredit ke akaun anda, sila tunggu\u2026</string>
+    <string name="progress_voucher_creating">Tambah Nilai kad MiCredit\u2026</string>
 	
 	<string name="msg_picker_hint_1_1">1.</string>
-	<string name="msg_picker_hint_1_2">Mentop-up melalui teks mungkin lebih mahal: &lt;font color=red><xliff:g id="rmb">%1$d</xliff:g> yuan = <xliff:g id="mibi">%2$d</xliff:g> MiCredit&lt;/font></string>
+	<string name="msg_picker_hint_1_2">Menambah nilai melalui teks mungkin lebih mahal: &lt;font color=red><xliff:g id="rmb">%1$d</xliff:g> yuan = <xliff:g id="mibi">%2$d</xliff:g> MiCredit&lt;/font></string>
 	<string name="msg_picker_hint_2_1">2.</string>
-	<string name="msg_picker_hint_2_2">Pembawa mengecaj yuran perkhidmatan sebanyak <xliff:g id="value">%1$s</xliff:g> yuan setiap top-up</string>
+	<string name="msg_picker_hint_2_2">Pembawa mengecaj yuran perkhidmatan sebanyak <xliff:g id="value">%1$s</xliff:g> yuan setiap tambah nilai</string>
 	<string name="msg_picker_hint_3_1">3.</string>
-	<string name="msg_picker_hint_3_2">Top-up maksimum bulanan: <xliff:g id="value">%1$s</xliff:g> yuan</string>
+	<string name="msg_picker_hint_3_2">Tambah nilai maksimum bulanan: <xliff:g id="value">%1$s</xliff:g> yuan</string>
 	<string name="msg_denomination_type">MiCredit</string>
-	<string name="msg_error">Top-up gagal</string>
-	<string name="progress_msg_creating">Menjana pesanan top-up\u2026</string>
+	<string name="msg_error">Tambah nilai gagal</string>
+	<string name="progress_msg_creating">Menjana pesanan tambah nilai\u2026</string>
 	
 	<string name="msg_send_send_fail_error">Gagal menghantar mesej</string>
 	<string name="msg_send_no_sim_error">Gagal menghantar mesej: cuba masukkan semula kad SIM anda.</string>
@@ -150,7 +150,7 @@
 	<string name="giftcard_empty">Tiada kad hadiah.</string>
 	
 	<string name="bankcall_merchant">Penerima:</string>
-	<string name="bankcall_denom">Pembayaran:</string>
+	<string name="bankcall_denom">Amaun:</string>
 	<string name="bankcall_bank_account">"Kad Bank: "</string>
 	<string name="bankcall_xiaomi_company">Xiaomi Corporation (Beijing)</string>
 	<string name="bankcall_denom_number"><xliff:g id="denom">%1$s</xliff:g> yuan</string>
@@ -181,52 +181,52 @@
 	<string name="bankcall_saved_card_info"><xliff:g id="bank">%1$s</xliff:g> - No. Kad <xliff:g id="ending">%2$s</xliff:g></string>
 	
 	<string name="progress_submit_title">Permohonan dihantar</string>
-	<string name="progress_submit_recharge_summary">Adding Top-up for <xliff:g id="value">%1$s</xliff:g> MiCredits.</string>
-	<string name="progress_submit_hint">Top-up will be reflected in you account balance within 3 minutes.</string>
+	<string name="progress_submit_recharge_summary">Menambah tambah nilai untuk <xliff:g id="value">%1$s</xliff:g> MiCredits.</string>
+	<string name="progress_submit_hint">Tambah nilai akan dapat dilihat dalam akaun anda dalam masa 3 minit.</string>
 	<string name="btn_count_down_auto">Sila bertanya selepas <xliff:g id="count">%1$s</xliff:g> saat</string>
 	<string name="btn_query">Bertanya</string>
 	<string name="progress_querying">Memproses\u2026</string>
-	<string name="progress_success_recharge_title"><xliff:g id="value">%1$s</xliff:g> MiCredit top-up selesai</string>
+	<string name="progress_success_recharge_title"><xliff:g id="value">%1$s</xliff:g> tambah nilai MiCredit selesai</string>
 	<string name="progress_success_pay_title"><xliff:g id="value">%1$s</xliff:g> Pembayaran MiCredit selesai</string>
 	<string name="progress_success_recharge_summary">Baki akaun: <xliff:g id="balance">%1$s</xliff:g> MiCredits.</string>
 	<string name="progress_success_pay_summary"><xliff:g id="rechargeFee">%1$s</xliff:g> MiCredits ditambah, <xliff:g id="payFee">%2$s</xliff:g> MiCredits dibayar</string>
-	<string name="progress_error_recharge_title">Top-up gagal</string>
-	<string name="progress_error_recharge_summary">Top-up gagal! Sila cuba lagi kemudian.</string>
+	<string name="progress_error_recharge_title">Tambah nilai gagal</string>
+	<string name="progress_error_recharge_summary">Tambah nilai gagal, Sila cuba lagi kemudian.</string>
 	<string name="progress_error_pay_title">Pembayaran gagal</string>
-	<string name="progress_error_pay_summary"><xliff:g id="rechargeFee">%1$s</xliff:g> MiCredits ditambah, tetapi pembayaran gagal! Sila cuba lagi kemudian.</string>
+	<string name="progress_error_pay_summary"><xliff:g id="rechargeFee">%1$s</xliff:g> MiCredits ditambah, tetapi pembayaran gagal, Sila cuba lagi kemudian.</string>
 	<string name="progress_warning_waiting">"Pembayaran belum lagi sampai ke akaun anda."</string>
 	<string name="progress_warning_contact_server">Payment still hasn\'t reached your account. \n1. Please contact our Shenzhou customer service center：<xliff:g id="number">%1$s</xliff:g> \n2. When prompted, provide the serial number: <xliff:g id="order">%2$s</xliff:g>.</string>
 	<string name="progress_warning_check">Payment hasn\'t reached your account yet. \nWe will check again within two working days.</string>
 	<string name="btn_back">Kembali</string>
-	<string name="btn_recharge_other">Top up</string>
+	<string name="btn_recharge_other">Tambah nilai</string>
 	<string name="btn_call">Panggil</string>
 	
-	<string name="recharge_notification">Topping up: <xliff:g id="value">%1$s</xliff:g> MiCredits</string>
+	<string name="recharge_notification">Menambah nilai: <xliff:g id="value">%1$s</xliff:g> MiCredits</string>
 	<string name="giftcard_push_notification_prime_title">"Anda telah menerima sijil hadiah"</string>
 	<string name="giftcard_push_notification_sub_title"><xliff:g id="activityName">%1$s</xliff:g>: <xliff:g id="giftcardValue">%2$s</xliff:g> pemberian MiCredit.</string>
 	<string name="recharge_push_notification_prime_title"><xliff:g id="chargeXiaomiId">%1$d</xliff:g> ditambah <xliff:g id="chargeMibi">%2$s</xliff:g> MiCredits ke akaun anda</string>
-	<string name="recharge_push_notification_sub_title">Top-up selesai.</string>
+	<string name="recharge_push_notification_sub_title">Tambah nilai selesai.</string>
 	
 	<string name="title_mili_center">MiCredits</string>
-	<string name="title_recharge_record">Rekod-rekod Top-up</string>
-	<string name="title_pay_record">Rekod-rekod pembayaran</string>
+	<string name="title_recharge_record">Rekod tambah nilai</string>
+	<string name="title_pay_record">Rekod pembayaran</string>
 	<string name="title_transaction">Urus niaga</string>
-	<string name="title_giftcard">Promosi-promosi</string>
-	<string name="giftcard_record">Kad-kad hadiah saya</string>
-	<string name="title_discounts">Diskaun-diskaun</string>
-	<string name="btn_mili_center_recharge">Top up MiCredit</string>
+	<string name="title_giftcard">Promosi</string>
+	<string name="giftcard_record">Kad hadiah saya</string>
+	<string name="title_discounts">Diskaun</string>
+	<string name="btn_mili_center_recharge">Tambah nilai MiCredit</string>
 	<string name="fee"><xliff:g id="value">%1$s</xliff:g> MiCredit</string>
-	<string name="recharge_record_empty">Tiada rekod-rekod top-up.</string>
-	<string name="pay_record_empty">Tiada rekod-rekod pembayaran.</string>
-	<string name="progress_downloading">Loading\u2026</string>
+	<string name="recharge_record_empty">Tiada rekod tambah nilai.</string>
+	<string name="pay_record_empty">Tiada rekod pembayaran.</string>
+	<string name="progress_downloading">Memuatkan\u2026</string>
 	<string name="btn_net_connection_retry">Cuba lagi</string>
-	<string name="pay_record_typeall">Seuma</string>
+	<string name="pay_record_typeall">Semua</string>
 	
-	<string name="mibi_license_title">Persetujuan pengguna</string>
+	<string name="mibi_license_title">Persetujuan Pengguna</string>
 	<string name="mibi_license_message">Sentuh OK jika anda setuju kepada terma dan syarat yang diterangkan di dalam "<xliff:g id="agreement">%1$s</xliff:g>".</string>
-	<string name="mibi_license_message_span">Persetujuan pengguna MiCredit</string>
+	<string name="mibi_license_message_span">Persetujuan Pengguna MiCredit</string>
 	
-	<string name="security_setting">Tetapan keselamatan</string>
+	<string name="security_setting">Tetapan Sekuriti</string>
 	<string name="lockscreen_forgot_pattern_button_text"><u>Lupa corak kata laluan</u></string>
 	<string name="lockpattern_recording_intro_header">Lukiskan corak pembukaan:</string>
 	<string name="lockpattern_settings_help_how_to_record">Bagaimana melukis corak membuka</string>
@@ -239,7 +239,7 @@
 	<string name="lockpattern_recording_inprogress">Lepaskan jari apabila selesai.</string>
 	<string name="lockpattern_retry_text"><u>Tetapkan semula corak kata laluan</u></string>
 	<string name="forget_password"><u>Tetapkan semula kata laluan</u></string>
-	<string name="login">Login</string>
+	<string name="login">Daftar Masuk</string>
 	<string name="cancel">Batal</string>
 	<string name="change_security_lock">Tukarkan kunci keselamatan</string>
 	<string name="lockpassword_confirm_your_pattern_header">Sahkan corak anda</string>
@@ -254,7 +254,7 @@
 	<string name="lockpattern_too_many_failed_confirmation_attempts_header">&lt;font color=red>Terlalu banyak percubaan salah!&lt;/font></string>
 	<string name="lockpattern_need_to_unlock_footer" />
 	<string name="lockpattern_too_many_failed_confirmation_attempts_footer">Cuba lagi dalam <xliff:g id="number">%d</xliff:g> saat.</string>
-	<string name="title_myaccount">Akaun Mi: <xliff:g id="account">%s</xliff:g></string>
+	<string name="title_myaccount">Akaun saya: <xliff:g id="account">%s</xliff:g></string>
 	<string name="title_gesture">Corak kunci</string>
 	<string name="title_lockpattern">Corak kunci diperlukan</string>
 	<string name="title_visible_pattern">Buatkan corak boleh dilihat</string>
@@ -271,9 +271,9 @@
 	<string name="scan_prompt_password">Imbas <xliff:g id="carrier">%1$s</xliff:g> kata laluan kad pra-bayar</string>
 	<string name="scan_prompt_voucher">Imbas kata laluan MiCredit</string>
 	
-	<string name="detail_recharge_title">Sejarah Top-up</string>
-	<string name="detail_recharge_order">Nombor pesanan Top-up:</string>
-	<string name="detail_recharge_account">ID Top-up</string>
+	<string name="detail_recharge_title">Sejarah Tambah Nilai</string>
+	<string name="detail_recharge_order">Nombor pesanan Tambah Nilai:</string>
+	<string name="detail_recharge_account">ID Tambah Nilai</string>
 	<string name="detail_pay_account">ID pembayaran</string>
 	<string name="detail_recharge_method">Kaedah</string>
 	<string name="detail_recharge_amount">Amaun</string>
