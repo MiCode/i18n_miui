@@ -936,15 +936,15 @@
 	<string name="account_settings_delete_account_label">Padamkan akaun</string>
 	
 	<!-- Mailbox settings activity title [CHAR LIMIT=none] -->
-	<string name="mailbox_settings_activity_title">Pilihan penyelarian</string>
+	<string name="mailbox_settings_activity_title">Pilihan Segerak</string>
 	<!-- Mailbox settings activity title, with the target folder name [CHAR LIMIT=none] -->
-	<string name="mailbox_settings_activity_title_with_mailbox">Pilihan penyelarian (<xliff:g id="mailboxx_name" example="Family">%s</xliff:g>)</string>
+	<string name="mailbox_settings_activity_title_with_mailbox">Pilihan segerak (<xliff:g id="mailboxx_name" example="Family">%s</xliff:g>)</string>
 	<!-- Mailbox "sync settings" preference header [CHAR LIMIT=none] -->
-	<string name="mailbox_preferences_header">Tetapan penyelarian</string>
+	<string name="mailbox_preferences_header">Tetapan Segerak</string>
 	<!-- On mailbox settings screen: Mailbox check frequency setting label [CHAR LIMIT=none] -->
 	<string name="mailbox_settings_mailbox_check_frequency_label">Kekerapan untuk menyemak</string>
 	<!-- On mailbox settings screen: Mailbox sync window (the number of days to synchronize email for) setting label [CHAR LIMIT=none] -->
-	<string name="mailbox_settings_mailbox_sync_window_label">Pengambilan hari untuk penyelarian</string>
+	<string name="mailbox_settings_mailbox_sync_window_label">Segerak sejarah Peti Masuk</string>
 	
 	<!-- Strings used for account shortcut picker -->
 	<!-- String displayed in launcher [CHAR_LIMIT=10] -->
@@ -1088,7 +1088,7 @@
 	<xliff:g example="12">%2$s</xliff:g></string>
 	
 	<!-- Message shown during the first sync after an account is set up.  [CHAR LIMIT=NONE] -->
-	<string name="waitinf_for_sync_message_1">Penungguan untuk penyelarian</string>
+    <string name="waitinf_for_sync_message_1">Penyegerakkan...</string>
 	<!-- Message shown during the first sync after an account is set up.  [CHAR LIMIT=NONE] -->
 	<string name="waitinf_for_sync_message_2">E-mel anda akan muncul secepat mungkin.</string>
 	
@@ -1139,8 +1139,8 @@
 	<string name="action_bar_mailbox_list_title">Folder</string>
 	
 	<!-- Text used for default signature -->
-	<string name="default_signature">Hantar dari Mi telefon saya</string>
+	<string name="default_signature">Hantar dari Xiaomi saya</string>
 	
 	<!-- This is the message warning the user that they must sync manually when roaming. [CHAR LIMIT=none]-->
-	<string name="require_manual_sync_message">Penyelarian di latarbelakang untuk akaun ini adalah dinyahdayakan ketika dalam perayauan.</string>
+	<string name="require_manual_sync_message">Penyegerakkan di latarbelakang untuk akaun ini adalah dimatikan sewaktu perayauan.</string>
 </resources>
