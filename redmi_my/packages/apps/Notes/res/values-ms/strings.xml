@@ -9,8 +9,8 @@ xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 	<string name="notelist_string_info">\u0020</string>
 	<string name="notelist_menu_new">Tambah nota</string>
 	<string name="note_alert_expired">Telah luput</string>
-	<string name="format_date_ymd">yyyyMMdd</string>
-	<string name="format_datetime_mdhm">MMMd kk:mm</string>
+	<string name="format_date_ymd">ddMMyyyy</string>
+	<string name="format_datetime_mdhm">dd-MMMM-yyyy kk:mm</string>
 	<string name="notealert_ok">Dah dapat</string>
 	<string name="notealert_enter">Lihat sebentar</string>
 
