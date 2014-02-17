@@ -90,7 +90,7 @@
     <!-- Noun, menu item used to show the gestures settings -->
     <!-- Noun, menu item used to show the system settings -->
     <string name="menu_settings">Tetapan</string>
-    <string name="menu_reset_scene">Set semula ke susun atur lalai</string>
+    <string name="menu_reset_scene">Reset ke susun atur lalai</string>
     <string name="menu_exit_scene">Keluar MiSpace</string>
     
     <!-- Permissions: -->
@@ -114,7 +114,7 @@
     <string name="permdesc_read_settings">Benarkan app untuk baca tetapan dan pintasan di Skrin Utama.</string>
     
     <!-- Permission short label -->
-    <string name="permlab_write_settings">Edit Home Settings and Shortcuts</string>
+    <string name="permlab_write_settings">Edit Tetapan Skrin Utama dan Pintasan</string>
     <!-- Permission description -->
     <string name="permdesc_write_settings">Benarkan app untuk tukar tetapan dan pintasan di Skrin Utama.</string>
     
@@ -154,7 +154,7 @@
     <string name="failed_to_drop">Pindah gagal</string>
     <string name="failed_to_drop_widget_nospace">Tiada ruang lagi di Skrin Utama ini</string>
     <string name="failed_to_drop_widget_invalid">Widget tidak sah</string>
-    <string name="failed_to_delete_temporary">Gagal untuk padam.</string>
+    <string name="failed_to_delete_temporary">Gagal untuk buang.</string>
     <string name="widget_favorite_contacts_label">Kenalan Kegemaran</string>
     <string name="widget_favorite_contacts_edit">Editor</string>
     <string name="widget_favorite_contacts_style">Tukar saiz</string>
@@ -166,17 +166,17 @@
     <string name="sort_by_abc">Susun ikut nama</string>
     <string name="encryption">Penyulitan</string>
     <string name="default_folder_title_tools">Perkakas</string>
-    <string name="default_folder_title_recommend">Lagi app</string>
+    <string name="default_folder_title_recommend">Lagi App</string>
     <string name="default_folder_title_game">Permainan</string>
     <string name="default_folder_title_security">Sistem</string>
     <string name="default_shortcut_title_10086">google.com.my</string>
     
-    <string name="reset_scene_prompt">Skrin akan diset semula ke susun atur lalai</string>
+    <string name="reset_scene_prompt">Skrin akan direset ke susun atur lalai</string>
     
     <string name="preferences_title">Tetapan pelancar</string>
     <string name="preferences_general_title">Tetapan umum</string>
     <string name="pref_keep_in_memory_title">Simpan di memori</string>
-    <string name="pref_keep_in_memory_summary">Pelancar terus berjalan bila memori adalah rendah.</string>
+    <string name="pref_keep_in_memory_summary">Pelancar terus berjalan ketika memori rendah.</string>
     <string name="pref_render_in_truecolor_title">Grafik berkualiti tinggi</string>
     <string name="pref_render_in_truecolor_summary">Mematikan pilihan ini akan meningkatkan prestasi melukis.</string>
     <string name="pref_enable_drawing_cache_title">Cache lukisan</string>
@@ -185,11 +185,11 @@
     <string name="pref_icon_shadow_summary">Hidupkan bayang-bayang app dan kesan refleksi dulang Kegemaran</string>
     <string name="pref_screen_transformation_type_title">Kesan peralihan skrin</string>
     <string name="transformation_type_classic">Slaid Klasik</string>
-    <string name="transformation_type_classic_no_overshoot">Slaid Klasik (Tiada terlajak)</string>
+    <string name="transformation_type_classic_no_overshoot">Slaid Klasik (tidak terlajak)</string>
     <string name="transformation_type_crossfade">Crossfade</string>
     <string name="transformation_type_falldown">Tumble</string>
     <string name="transformation_type_cube">Kiub</string>
-    <string name="transformation_type_leftpage">Muka surat</string>
+    <string name="transformation_type_leftpage">Halaman</string>
     <string name="transformation_type_stack">Cascade</string>
     <string name="transformation_type_rotate">Putaran</string>
     <string name="pref_wallpaper_scroll_type_title">Penjajaran Kertas Dinding</string>
@@ -198,7 +198,7 @@
     <string name="pref_keep_layout_summary">Mengubah susun atur Skrin Utama tidak akan menjejaskan kedudukan relatif antara satu sama lain</string>
     
     <string name="widget_gadget_player">Muzik</string>
-    <string name="buffering">Buffering\u2026</string>
+    <string name="buffering">Penimbalan\u2026</string>
     <string name="emptyplaylist">Sentuh untuk tambah lagu</string>
     <string name="unknown_artist_name">Artis tidak dikenali</string>
     
@@ -224,7 +224,7 @@
     <string name="guide_tips_editing_mode">Sentuh &amp; tahan untuk mengambil widget</string>
     
     <!-- Adjust photo -->
-    <string name="photo_adjust">Preview</string>
+    <string name="photo_adjust">Pratonton</string>
     <string name="select_photo">Foto</string>
     <string name="select_frame">Bingkai</string>
     <string name="photo_confirm">Guna</string>
@@ -235,13 +235,13 @@
     <string name="gadget_weather_loading">Tiada data cuaca</string>
     <string name="gadget_weather_title_24">Cuaca 4X2</string>
     <string name="gadget_weather_title_14">Cuaca 4X1</string>
-    <string name="gadget_weather_app_not_installed">Klik untuk memasang cuaca MIUI</string>
-    <string name="gadget_weather_time_format">dd/MM EEE</string>
+    <string name="gadget_weather_app_not_installed">Klik untuk muat turun cuaca MIUI</string>
+    <string name="gadget_weather_time_format">dd/MM/yyyy EEEE</string>
     <string name="gadget_weather_theme_type">Jenis alat</string>
     <string name="gadget_weather_download_title">Muat turun</string>
     <string name="gadget_weather_download_message">Anda perlu muat turun kandungan app: %1$s. size: %2$s. Mulakan semula app selepas muat turun selesai.</string>
     <string name="gadget_weather_download_start">Muat turun</string>
-    <string name="gadget_weather_downloading">KAndungan sedang dimuat turun. Mulakan semula app selepas muat turun selesai</string>
+    <string name="gadget_weather_downloading">Kandungan sedang dimuat turun. Mulakan semula app selepas muat turun selesai</string>
     <string name="gadget_weather_low_temp">Suhu rendah</string>
     <string name="gadget_weather_aqi_title">Kualiti udara</string>
     <string name="aqi_quality_index_good">Baik</string>
@@ -265,7 +265,7 @@
     <string name="free_style_edit_tab_shortcut">Pintasan</string>
     <string name="free_style_edit_tab_free_component">Objek</string>
     <string name="free_style_edit_tab_widget">Widget</string>
-    <string name="free_style_edit_move_tip">Tekan lama untuk pindahkan item</string>
+    <string name="free_style_edit_move_tip">Tekan lama untuk alihkan item</string>
     <string name="free_style_edit_app">App</string>
     <string name="free_style_edit_drawer">Laci</string>
     <string name="free_style_drawer_title">Semua app</string>
