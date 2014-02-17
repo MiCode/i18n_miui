@@ -315,9 +315,9 @@
 	<string name="volume_media_description">Muzik, video, permainan, dan media lain</string>
 	<string name="volume_system_description">Pengatup kamera, kunci skrin dan lain-lain notifikasi sistem</string>
 	<string name="volume_bluetooth_description">Bluetooth</string>
-	<string name="volume_restore">Set semula aras</string>
-	<string name="volume_restore_alert">Semua tetapan volum akan dikembalikan kepada asal Adakah anda pasti?</string>
-	<string name="sound_category_calls_and_notification_title">Nada dering &amp; notifikasi</string>
+	<string name="volume_restore">Reset aras</string>
+	<string name="volume_restore_alert">Apabila anda reset volum kepada aras lalai, tetapan aras semasa anda akan dipadamkan</string>
+	<string name="sound_category_calls_and_notification_title">Nada Dering &amp; Notifikasi</string>
 	
 	<string name="font_size_preview">MIUI</string>
 	<string name="font_size_summary">"Tukarkan saiz tulisan sistem beroperasi"</string>
@@ -331,16 +331,16 @@
 	<string name="virus_scanner_title">Pengimbas Virus</string>
 	<string name="virus_scanner_scanning">Mengimbas\u2026</string>
 	<string name="virus_scanner_scan">Sentuh utk imbas</string>
-	<string name="virus_scanner_select_lib">Pilih definasi virus</string>
+	<string name="virus_scanner_select_lib">Pilih definisi virus</string>
 	<string name="virus_scanner_select_trust_lib">Pilih definisi virus</string>
 	<string name="virus_scanner_update_lib">Kemaskini definasi</string>
 	<string name="virus_scanner_select_multi">Memilih lebih daripada satu set definisi akan melambatkan pemasangan dan imbasan.</string>
 	<string name="virus_scanner_select_single">Hanya gunakan definisi dari sumber yang dipercayai.</string>
 	<string name="virus_scanner_select_OK">OK</string>
 	<string name="virus_scanner_select_Cancel">Batal</string>
-	<string name="virus_scanner_provider">Definasi oleh %s</string>
+	<string name="virus_scanner_provider">Definisi oleh %s</string>
 	<string name="virus_scanner_auto_update">Kemaskini secara otomatik</string>
-	<string name="virus_scanner_date_formater">dd MMM. yyyy</string>
+	<string name="virus_scanner_date_formater">dd MMMM yyyy</string>
 	<string name="virus_scanner_manual_update">" Dikemaskini %s "</string>
 	<string name="virus_scanner_lib_updating">Mengemaskini definisi\u2026</string>
 	<string name="virus_scanner_lib_already_latest">Anda sudah pun menggunakan definisi terkini. :)</string>
