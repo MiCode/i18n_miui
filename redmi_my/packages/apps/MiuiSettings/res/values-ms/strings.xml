@@ -623,6 +623,8 @@
 	<string name="phone_call_noise_suppression">Menyekat bunyi bising semasa panggilan</string>
 	
 	<string name="sync_wifi_only">Wi-Fi sahaja</string>
+    <string name="line_breaking_title">Optimumkan Teks</string>
+    <string name="line_breaking_summary">Optimumkan garis pemisah perenggan</string>
 	<string name="open_wifi_connect_title">Sambungkan untuk membuka rangkaian <xliff:g id="NAME">%1$s</xliff:g></string>
 	<string name="open_wifi_connect_summary">Ketik untuk uruskan</string>
 	
@@ -639,7 +641,7 @@
 	<string name="alert_show_screensaver_when_not_charging_msg">Memaparkan penyelamat skrin akan memakan kuasa bateri tambahan.</string>
 	
 	<!-- preferred application settings -->
-	<string name="preferred_app_settings">Tetapan aplikasi lalai</string>
+	<string name="preferred_app_settings">Tetapan app lalai</string>
 	<string name="preferred_app_settings_default">Lalai</string>
 	<string name="preferred_app_settings_reset">Pemulihan lalai</string>
 	<string name="preferred_app_settings_reset_message">Pemulihan tetapan app lalai?</string>
