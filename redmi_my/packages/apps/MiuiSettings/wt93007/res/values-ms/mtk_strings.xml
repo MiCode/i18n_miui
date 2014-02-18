@@ -15,111 +15,111 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     
-    <string name="bluetooth_advanced_settings">Advanced settings</string>
+    <string name="bluetooth_advanced_settings">Tetapan Lanjutan</string>
     <!-- Bluetooth settings.  The user-visible string that is used whenever referring to the FTP profile. -->
-    <string name="bluetooth_profile_ftp">File transfer</string>
+    <string name="bluetooth_profile_ftp">Pemindahan fail</string>
     <!-- Bluetooth settings.  Connection options screen.  The summary for the FTP checkbox preference that describes how checking it will set the FTP profile as preferred. -->
-    <string name="bluetooth_ftp_profile_summary_use_for">Use for file transfer</string>
-    <string name="bluetooth_ftp_profile_summary_connected">"Connected to file transfer"</string>
+    <string name="bluetooth_ftp_profile_summary_use_for">Guna untuk pemindahan fail</string>
+    <string name="bluetooth_ftp_profile_summary_connected">"Disambungkan untuk pemindahan fail"</string>
     
-    <string name="mtp_transfer_unmount_error_text">SD card can not be unmounted during file transferring</string>
-    <string name="mtp_transfer_erase_error_text">SD card can not be erased during file transferring</string>    
-    <string name="launch_error">"Couldn't launch the application!"</string>
-    <string name="dlg_confirm_unmount_usb_title" product="default">Unmount USB storage?</string>
-    <string name="dlg_confirm_unmount_usb_text" product="default">If you unmount the USB storage, some apps you are using will stop and may be unavailable until you remount the USB storage.</string>
+    <string name="mtp_transfer_unmount_error_text">Kad SD tidak boleh dinyahlekapkan sewaktu pemindahan fail</string>
+    <string name="mtp_transfer_erase_error_text">Kad SD tidak boleh dipadamkan sewaktu pemindahan fail</string>    
+    <string name="launch_error">"Tidak boleh melancarkan aplikasi!"</string>
+    <string name="dlg_confirm_unmount_usb_title" product="default">Nyahlekapkan storan USB?</string>
+    <string name="dlg_confirm_unmount_usb_text" product="default">Jika anda nyahlekapkan storan USB, sesetengah app yang anda gunakan akan terhenti dan mungkin tidak tersedia sehinggalah anda lekapkan semula storan USB.</string>
     <string name="dlg_error_unmount_usb_title" product="default"></string>
-    <string name="dlg_error_unmount_usb_text" product="default">Couldn\'t unmount USB storage. Try again later.</string>   
-    <string name="unmount_usb_inform_text" product="default">USB storage will be unmounted.</string>
-    <string name="sd_eject_usbstorage" product="default">Unmount USB storage</string>
-    <string name="sd_eject_usbstorage_summary" product="default">Unmount USB storage so you can safely remove it</string>
-    <string name="sd_mount_usbstorage" product="default">Mount USB storage</string>
-     <string name="sd_insert_usb_summary" product="default">Insert USB storage for mounting</string>
+    <string name="dlg_error_unmount_usb_text" product="default">Tidak boleh nyahlekapkan storan USB. Sila cuba sebentar lagi.</string>   
+    <string name="unmount_usb_inform_text" product="default">Storan USB akan dinyahlekapkan.</string>
+    <string name="sd_eject_usbstorage" product="default">Nyahlekap storan USB</string>
+    <string name="sd_eject_usbstorage_summary" product="default">Nyahlekap storan USB jadi anda boleh keluarkannya dengan selamat</string>
+    <string name="sd_mount_usbstorage" product="default">Lekap storan USB</string>
+     <string name="sd_insert_usb_summary" product="default">Masukkan storan USB untuk pelekap</string>
     
     <!-- Storage setting.  Title for UMS checkbox [CHAR LIMIT=30]-->
-    <string name="usb_ums_title">USB storage</string>
+    <string name="usb_ums_title">Storan USB</string>
     <!-- Storage setting.  Summary for UMS checkbox [CHAR LIMIT=NONE]-->
-    <string name="usb_ums_summary">"XP recommended. Lets you transfer files between your computer and your Android device."</string>
-    <string name="usb_charge_title">Charge only</string>
-    <string name="usb_charge_summary">Stop all USB fuctions.Lets you speed up USB charging and decrease power consumption.</string>
+    <string name="usb_ums_summary">"Disyorkan XP. Benarkan anda pindahkan fail antara komputer anda dan peranti Android anda."</string>
+    <string name="usb_charge_title">Cas sahaja</string>
+    <string name="usb_charge_summary">Hentikan semua fungsi USB. Benarkan anda mempercepatkan cas USB dan mengurangkan penggunaan kuasa.</string>
     
     <!-- Agps Settings -->
-    <string name="NI_Request_ID">Requestor ID</string>
-    <string name="NI_Request_ClientName">Client Name</string>
-    <string name="agps_str_verify">Verification</string>
-    <string name="agps_str_notify">Notification</string>
-    <string name="EM_NotifyDialog_title">EM Notify</string>
+    <string name="NI_Request_ID">ID Peminta</string>
+    <string name="NI_Request_ClientName">Nama Klien</string>
+    <string name="agps_str_verify">Verifikasi</string>
+    <string name="agps_str_notify">Notifikasi</string>
+    <string name="EM_NotifyDialog_title">Notifikasi EM</string>
     <string name="agps_OK">OK</string>
-    <string name="agps_str_allow">ALLOW</string>
-    <string name="agps_str_deny">DENY</string>
-    <string name="agps_str_error">Error</string>
-    <string name="AGPS_DEFAULT_STRING">A-GPS Default String</string>
-    <string name="AGPS_CAUSE_NETWORK_CREATE_FAIL">Network Create Fail</string>
-    <string name="AGPS_CAUSE_BAD_PUSH_CONTENT">Incorrect PUSH content</string>
-    <string name="AGPS_CAUSE_NOT_SUPPORTED">Unsupported Operation</string>
-    <string name="AGPS_CAUSE_REQ_NOT_ACCEPTED">Requeset Not Accepted</string>
-    <string name="AGPS_CAUSE_NO_RESOURCE">No Resourcce to Handle new process</string>
-    <string name="AGPS_CAUSE_NETWORK_DISCONN">Network Connection is Down</string>
-    <string name="AGPS_CAUSE_REMOTE_ABORT">Remote Side Abort the Session (receive SUPL END)</string>
-    <string name="AGPS_CAUSE_TIMER_EXPIRY">Expect Message not Back During a Specific Time Interval</string>
-    <string name="AGPS_CAUSE_REMOTE_MSG_ERROR">Receive Incorrect Message Content</string>
-    <string name="AGPS_CAUSE_USER_AGREE">User agree on confirmation</string>
-    <string name="AGPS_CAUSE_USER_DENY">User deny on confirmation</string>
-    <string name="AGPS_CAUSE_NO_POSITION">Only for NO Position</string>
-    <string name="AGPS_CAUSE_TLS_AUTH_FAIL"> TLS authentication fail</string>
-    <string name="USER_RESPONSE_TIMEOUT">Waiting verification timeout</string>
-    <string name="AGPS_MODEM_RESET_HAPPEN" translatable="false">Modem reset happen</string>
-    <string name="AGPS_EM_RECV_SI_REQ">SI Request Received</string>
-    <string name="AGPS_EM_POS_FIXED">Position Fixed</string>
-    <string name="AGPS_NOTIFY_ONLY">Location Request Notification</string>
-    <string name="AGPS_NOTIFY_ALLOW_NO_ANSWER">Location Request (Allow if no Answer)</string>
-    <string name="AGPS_NOTIFY_DENY_NO_ANSWER">Location Request (Deny if no Answer)</string>
-    <string name="AGPS_NOTIFY_PRIVACY"> Location Request (Privacy)</string>    
-    <string name="epo_entrance_title">EPO settings</string>
-    <string name="epo_entrance_summary">Click to modify EPO configurations</string>
-    <string name="agps_settings_title">A-GPS Settings</string>
-    <string name="epo_enable_confirm_title">EPO enable confirm</string>
-    <string name="epo_enable_confirm_message">It needs a wireless data connection to acquire GPS assistance data (EPO) that may cause extra network fee. Are you sure to turn on GPS assistance?</string>
-    <string name="epo_enable_confirm_allow">Continue</string>
-    <string name="epo_enable_confirm_deny">Cancel</string>
-    <string name="agps_enable_confirm_title">A-GPS Enable Confirm</string>
-    <string name="agps_enable_confirm">A-GPS needs a wireless data connection to acquire the assistant data that may cause extra fees. Are you sure to turn on the A-GPS?</string>
-    <string name="agps_enable_confirm_allow">Continue</string>
-    <string name="agps_enable_confirm_deny">Cancel</string>
-    <string name="epo_enable_title">GPS EPO assistance</string>
-    <string name="epo_enable_summary">Use GPS assistance data (EPO) to speed up GPS positioning.</string>
+    <string name="agps_str_allow">BENARKAN</string>
+    <string name="agps_str_deny">NAFIKAN</string>
+    <string name="agps_str_error">Ralat</string>
+    <string name="AGPS_DEFAULT_STRING">String Lalai A-GPS</string>
+    <string name="AGPS_CAUSE_NETWORK_CREATE_FAIL">Gagal Cipta Rangkaian</string>
+    <string name="AGPS_CAUSE_BAD_PUSH_CONTENT">Kandungan PUSH tidak betul</string>
+    <string name="AGPS_CAUSE_NOT_SUPPORTED">Operasi Tidak Disokong</string>
+    <string name="AGPS_CAUSE_REQ_NOT_ACCEPTED">Permintaan Tidak Diterima</string>
+    <string name="AGPS_CAUSE_NO_RESOURCE">Tiada Sumber untuk Kendalikan Proses Baru</string>
+    <string name="AGPS_CAUSE_NETWORK_DISCONN">Sambungan Rangkaian Terputus</string>
+    <string name="AGPS_CAUSE_REMOTE_ABORT">Pihak Jauh Menamatkan Sesi (terima SUPL END)</string>
+    <string name="AGPS_CAUSE_TIMER_EXPIRY">Jangka Mesej Tidak Datang Sewaktu Masa Selang Spesifik</string>
+    <string name="AGPS_CAUSE_REMOTE_MSG_ERROR">Terima Kandungan Mesej Yang Tidak Tepat</string>
+    <string name="AGPS_CAUSE_USER_AGREE">Pengguna disahkan bersetuju</string>
+    <string name="AGPS_CAUSE_USER_DENY">Pengguna disahkan nafi</string>
+    <string name="AGPS_CAUSE_NO_POSITION">Hanya untuk Tiada Kedudukan</string>
+    <string name="AGPS_CAUSE_TLS_AUTH_FAIL"> Pengesahan TLS gagal</string>
+    <string name="USER_RESPONSE_TIMEOUT">Menunggu pengesahan tamat</string>
+    <string name="AGPS_MODEM_RESET_HAPPEN" translatable="false">berlaku reset Modem</string>
+    <string name="AGPS_EM_RECV_SI_REQ">Permintaan SI Diterima</string>
+    <string name="AGPS_EM_POS_FIXED">Kedudukan Diperbaiki</string>
+    <string name="AGPS_NOTIFY_ONLY">Notifikasi Permintaan Lokasi</string>
+    <string name="AGPS_NOTIFY_ALLOW_NO_ANSWER">Permintaan Lokasi (Benarkan jika tiada Jawapan)</string>
+    <string name="AGPS_NOTIFY_DENY_NO_ANSWER">Permintaan Lokasi (Nafikan jika tiada Jawapan)</string>
+    <string name="AGPS_NOTIFY_PRIVACY"> Permintaan Lokasi (Privasi)</string>    
+    <string name="epo_entrance_title">Tetapan EPO</string>
+    <string name="epo_entrance_summary">Klik untuk ubah konfigurasi EPO</string>
+    <string name="agps_settings_title">Tetapan A-GPS</string>
+    <string name="epo_enable_confirm_title">Sahkan EPO Dihidupkan</string>
+    <string name="epo_enable_confirm_message">Ia memerlukan sambungan data tanpa wayar untuk mendapatkan data bantuan GPS (EPO) yang mungkin akan meningkatkan bayaran rangkaian. Anda pasti untuk menghidupkan bantuan GPS?</string>
+    <string name="epo_enable_confirm_allow">Teruskan</string>
+    <string name="epo_enable_confirm_deny">Batal</string>
+    <string name="agps_enable_confirm_title">Sahkan A-GPS Dihidupkan</string>
+    <string name="agps_enable_confirm">A-GPS memerlukan sambungan data tanpa wayar untuk mendapatkan data bantuan yang menyebabkan tambahan bayaran. Anda pasti untuk menghidupkan A-GPS?</string>
+    <string name="agps_enable_confirm_allow">Teruskan</string>
+    <string name="agps_enable_confirm_deny">Batal</string>
+    <string name="epo_enable_title">Bantuan GPS EPO</string>
+    <string name="epo_enable_summary">Guna data bantuan GPS (EPO) untuk mempercepatkan kedudukan GPS.</string>
     <string name="agps_settings_enable">A-GPS</string>
-    <string name="agps_settings_enable_on">GPS can speed up the fixed time of location with assistant data via wireless data connection</string>
-    <string name="agps_settings_enable_off">Use assistant data to speed up the fixed time of location with GPS</string>
-    <string name="agps_settings_eng_enable">A-GPS settings</string>
-    <string name="agps_settings_eng_summary">Set up A-GPS settings</string>   
-    <string name="agps_disable_on_reboot">Disable after Reboot</string>
-    <string name="agps_disable_on_reboot_summary">Disable A-GPS capability after reboot</string>
-    <string name="Network_Initiate">Network Request</string>
-    <string name="Network_Initiate_Summary_on">Allow network to request position</string>
-    <string name="Network_Initiate_Summary_off">Deny network to request position</string>
-    <string name="Network_Used">Network Used</string>
-    <string name="agps_profile_select">Profile Selector</string>
-    <string name="agps_profile_SLP_address_editbox_title">SLP Address</string>
-    <string name="port_title">SLP Port</string>
+    <string name="agps_settings_enable_on">GPS boleh mempercepatkan masa tetap lokasi dengan pembantu data melalui sambungan data tanpa wayar</string>
+    <string name="agps_settings_enable_off">Guna pembantu data untuk mempercepatkan masa tetap lokasi dengan GPS</string>
+    <string name="agps_settings_eng_enable">Tetapan A-GPS</string>
+    <string name="agps_settings_eng_summary">Tetapan Penyediaan A-GPS</string>   
+    <string name="agps_disable_on_reboot">Matikan selepas Mula Semula</string>
+    <string name="agps_disable_on_reboot_summary">Matikan keupayaan A-GPS selepas Mula Semula</string>
+    <string name="Network_Initiate">Permintaan Rangkaian</string>
+    <string name="Network_Initiate_Summary_on">Benarkan rangkaian untuk meminta kedudukan</string>
+    <string name="Network_Initiate_Summary_off">Nafikan rangkaian untuk meminta kedudukan</string>
+    <string name="Network_Used">Digunakan Rangkaian</string>
+    <string name="agps_profile_select">Pemilihan Profil</string>
+    <string name="agps_profile_SLP_address_editbox_title">Alamat SLP</string>
+    <string name="port_title">Port SLP</string>
     <string name="tls_title">TLS</string>
-    <string name="tls_summary_off">TLS is turned off</string>
-    <string name="tls_summary_on">TLS is turned on</string>
-    <string name="MobileNetwork_Category">Mobile Network</string>
-    <string name="AgpsHelp_Category">Help</string>
-    <string name="about_agps_title">About A-GPS</string>
-    <string name="about_agps_message">\t A-GPS (Assisted-GPS) is the system that can improve the startup performance and time-to-first-fix (TTFF) of GPS satellites.
-    \n\t An A-GPS capable device can connect to location servers to acquire the assist data through mobile network data connection.
-    \n\t Notice that the data traffic may cause extra fees under network roaming conditions. Please contact with your operators for the details.</string>
-    <string name="epo_auto_download_title">Auto download</string>
-    <string name="epo_auto_download_summary">Automatically download satellite position data</string>
-    <string name="epo_info_title">EPO file info</string>
-    <string name="epo_download_time_title">Download time</string>
-    <string name="epo_download_time_summary">Unavailable</string>
-    <string name="epo_start_time_title">Start time</string>
-    <string name="epo_start_time_summary">Unavailable</string>
-    <string name="epo_expire_time_title">Expire time</string>
-    <string name="epo_expire_time_summary">Unavailable</string>
-    <string name="epo_about_title">About EPO</string>
+    <string name="tls_summary_off">TLS ditutup</string>
+    <string name="tls_summary_on">TLS dibuka</string>
+    <string name="MobileNetwork_Category">Rangkaian Mudah Alih</string>
+    <string name="AgpsHelp_Category">Bantuan</string>
+    <string name="about_agps_title">Tentang A-GPS</string>
+    <string name="about_agps_message">\t A-GPS (Bantuan-GPS) adalah sistem yang boleh meningkatkan prestasi permulaan dan masa-ke-pertama-baiki (TTFF) satelit GPS.
+    \n\t Peranti berkebolehan A-GPS boleh berhubung ke pelayan lokasi untuk mendapatkan data pembantu melalui sambungan data rangkaian mudah alih.
+    \n\t Perhatikan bahawa trafik data boleh menyebabkan bayaran tambahan di bawah keadaan rangkaian perayauan. Sila hubungi pembekal perkhidmatan anda untuk maklumat lanjut.</string>
+    <string name="epo_auto_download_title">Auto muat turun</string>
+    <string name="epo_auto_download_summary">Muat turun data kedudukan satelit secara automatik</string>
+    <string name="epo_info_title">Info fail EPO</string>
+    <string name="epo_download_time_title">Masa Muat Turun</string>
+    <string name="epo_download_time_summary">Tidak Tersedia</string>
+    <string name="epo_start_time_title">Masa Mula</string>
+    <string name="epo_start_time_summary">Tidak Tersedia</string>
+    <string name="epo_expire_time_title">Masa Tamat</string>
+    <string name="epo_expire_time_summary">Tidak Tersedia</string>
+    <string name="epo_about_title">Tentang EPO</string>
     <string name="epo_about_message">\tEPO (Extended Prediction Orbit) is one of MediaTek\'s innovative proprietary off-line server based A-GPS technology. \n\tIt supports up to 30 days satellite orbit prediction, which can be used to greatly enhance user experience by improving GPS Time To First Fix (TTFF).</string>
     <string name="Network_Local_and_Roaming_Summary">Use A-GPS both under home and roaming network</string>
     <string name="Network_Only_Local_Summary">Use A-GPS only under home network</string>
