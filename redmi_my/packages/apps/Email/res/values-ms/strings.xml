@@ -533,23 +533,23 @@
 	Sedang menerima infomasi akaun\u2026</string>
 	<!-- Appears on screen while system is checking incoming server settings -->
 	<string name="account_setup_check_settings_check_incoming_msg">
-	Menyemak tetapan dari pelayan tibaan\u2026</string>
+	Menyemak tetapan pelayan masuk\u2026</string>
 	<!-- Appears on screen while system is checking outgoing server settings -->
 	<string name="account_setup_check_settings_check_outgoing_msg">
-	Menyemak tetapan pelayan bertolak\u2026</string>
+	Menyemak tetapan pelayan keluar\u2026</string>
 	
 	<!-- Title of "Set up email" screen after success [CHAR LIMIT=45] -->
 	<string name="account_setup_names_title">Persedian akaun</string>
 	<!-- Text that appears on "Set up email" screen after successfully setting up an account
 	[CHAR LIMIT=none] -->
 	<string name="account_setup_names_headline">
-	Akaun anda sudah bersedia, hanya E-mel sedang dalam pemprosesan</string>
+	Akaun anda sudah ditetapkan, dan e-mel dalam perjalanan!</string>
 	<!-- On "Set up email" screen, label of text field -->
 	<string name="account_setup_names_account_name_label">
-	Sila memberi nama kepada akaun ini (terpulang)</string>
+	Sila memberi nama kepada akaun ini (pilihan)</string>
 	<!-- On "Set up email" screen, label of text field -->
 	<string name="account_setup_names_user_name_label">
-	Nama anda (akan tersurat di dalam mesej yang anda hantar)</string>
+	Nama anda (dipaparkan dalam mesej yang anda hantar)</string>
 	<!-- On "Set up email" screen, error pop-up when user_name field is empty [CHAR LIMIT=none] -->
 	<string name="account_setup_names_user_name_empty_error">"Ini ruangan tidak boleh dikosongkan."</string>
 	
@@ -610,9 +610,9 @@
 	<string name="account_setup_incoming_imap_path_prefix_hint">Terpulang</string>
 	
 	<!-- "Outgoing server settings" screen, title [CHAR LIMIT=45] -->
-	<string name="account_setup_outgoing_title">Persedian akaun</string>
+	<string name="account_setup_outgoing_title">Persedian Akaun</string>
 	<!-- "Outgoing server settings" screen, headline (text over divider) [CHAR LIMIT=none] -->
-	<string name="account_setup_outgoing_headline">Tetapan pelayan bertolak</string>
+	<string name="account_setup_outgoing_headline">Pelayan Keluar</string>
 	<!-- On "Outgoing server settings" screen, label for text field -->
 	<string name="account_setup_outgoing_smtp_server_label">Pelayan SMTP</string>
 	<!-- On "Outgoing server settings" screen, label for text field -->
@@ -661,7 +661,7 @@
 	<!-- In Account setup options & Account Settings screens, label for email check frequency option -->
 	<string name="account_setup_options_mail_check_frequency_never">Tidak akan</string>
 	<!-- In Account setup options & Account Settings screens, label for email check frequency option -->
-	<string name="account_setup_options_mail_check_frequency_push">Automatik (Tolak)</string>
+	<string name="account_setup_options_mail_check_frequency_push">Automatik (Push)</string>
 	<!-- In Account setup options & Account Settings screens, email check frequency option -->
 	<string name="account_setup_options_mail_check_frequency_5min">Setiap 5 minit</string>
 	<!-- In Account setup options & Account Settings screens, email check frequency option -->
@@ -678,19 +678,19 @@
 	<!-- In Account setup options & Account Settings screens, check box for new-mail notification -->
 	<string name="account_setup_options_notify_label">Pemberitahuan ketika ketibaan E-mel</string>
 	<!-- In Account setup options screen, optional check box to also sync contacts -->
-	<string name="account_setup_options_sync_contacts_label">Selarikan kenalan dari akaun ini.
+	<string name="account_setup_options_sync_contacts_label">Segerakkan kenalan dari akaun ini.
 	</string>
 	<!-- In Account setup options screen, optional check box to also sync contacts -->
-	<string name="account_setup_options_sync_calendar_label">Selarikan kalendar dari akaun ini.</string>
+	<string name="account_setup_options_sync_calendar_label">Segerakkan kalendar dari akaun ini.</string>
 	<!-- In Account setup options screen, check box to sync email -->
-	<string name="account_setup_options_sync_email_label">Selarikan E-mel dari akaun ini.</string>
+	<string name="account_setup_options_sync_email_label">Segerakkan E-mel dari akaun ini.</string>
 	<!-- In Account setup options screen, check box to auto-download attachments  [CHAR LIMIT=none]
 	-->
 	<string name="account_setup_options_background_attachments_label">Apabila terdapat sambungan Wi-Fi, lampiran akan dimuat turun secara automatik</string>
 	<!-- Dialog title when "setup" could not finish -->
 	<string name="account_setup_failed_dlg_title">"Tidak akan tercapai"</string>
 	<!-- In Account setup options screen, label for email lookback selector -->
-	<string name="account_setup_options_mail_window_label">Hari-hari untuk selarikan</string>
+	<string name="account_setup_options_mail_window_label">Hari-hari untuk disegerakkan</string>
 	<!-- In account setup options & account settings screens (exchange), sync window length; this
 	implies loading a 'reasonable' number of messages [CHAR LIMIT=25] -->
 	<string name="account_setup_options_mail_window_auto">Automatik</string>
@@ -756,7 +756,7 @@
 	<!-- Additional diagnostic text when server access was denied; the user should contact the
 	administrator of the server for more information [CHAR LIMIT=none] -->
 	<string name="account_setup_failed_access_denied">
-	 Anda tiada keizinan untuk selari dengan pelayan ini. Sila hubungi pertadbir 
+	 Anda tiada kebenaran untuk segerak dengan pelayan ini. Sila hubungi pertadbir 
 	 pelayan untuk maklumat yang lanjut."</string>
 	
 	<!-- Dialog title when validation requires security provisioning (e.g. support
@@ -874,12 +874,12 @@
 	<string name="account_settings_incoming_label">Kedatangan Tetapan</string>
 	<!-- On Settings screen, setting option summary [CHAR LIMIT=64] -->
 	<string name="account_settings_incoming_summary">
-	ID pengguna, kata laluan, dan kedatangan tetapan pelayan yang lain</string>
+	ID pengguna, kata laluan, dan tetapan pelayan masuk yang lain</string>
 	<!-- On Settings screen, setting option name -->
-	<string name="account_settings_outgoing_label">Tetapan bertolak</string>
+	<string name="account_settings_outgoing_label">Tetapan keluar</string>
 	<!-- On Settings screen, setting option summary [CHAR LIMIT=64] -->
 	<string name="account_settings_outgoing_summary">
-	ID pengguna, kata laluan, dan tetapan pelayan bertolak yang lain</string>
+	ID pengguna, kata laluan, dan tetapan pelayan keluar yang lain</string>
 	<!-- On Settings screen, setting option name -->
 	<string name="account_settings_description_label">Nama akaun</string>
 	<!-- On Settings screen, setting option name -->
@@ -1012,7 +1012,7 @@
 	<!-- Label in preferences header to describe general preferences [CHAR LIMIT=32] -->
 	<string name="header_label_general_preferences">Umum</string>
 	<!-- First category in general preferences [CHAR LIMIT=64] -->
-	<string name="category_general_preferences">Aplikasi</string>
+	<string name="category_general_preferences">Keutamaan</string>
 	
 	<!-- General preference: Label of the setting for the direction to move to
 	when deleting the current message.
@@ -1021,7 +1021,7 @@
 	<!-- General preference: Description of the setting for the direction to move to
 	when deleting the current message.
 	Options contain "newer message","older message", etc. [CHAR LIMIT=64] -->
-	<string name="general_preference_auto_advance_summary">Sila memilih skrin anda untuk dipamerkan selepas anda padam mesej</string>
+	<string name="general_preference_auto_advance_summary">Pilih skrin mana untuk dipamerkan selepas anda padam mesej</string>
 	<!-- General preference: Title of the dialog box containing options for setting for
 	the direction to move to when deleting the current message.
 	Options contain "newer message","older message", etc. [CHAR LIMIT=32] -->
@@ -1029,15 +1029,15 @@
 	<!-- General preference: Option for the setting for
 	the direction to move to when deleting the current message.
 	This option is for "move to the newer message" [CHAR LIMIT=32] -->
-	<string name="general_preference_auto_advance_newer">Mesej terbaru</string>
+	<string name="general_preference_auto_advance_newer">Mesej lebih rbaru</string>
 	<!-- General preference: Option for the setting for
 	the direction to move to when deleting the current message.
 	This option is for "move to the older message" [CHAR LIMIT=32] -->
-	<string name="general_preference_auto_advance_older">Mesej yang lebih lama</string>
+	<string name="general_preference_auto_advance_older">Mesej lebih lama</string>
 	<!-- General preference: Option for the setting for
 	the direction to move to when deleting the current message.
 	This option is for "move back to the message list" [CHAR LIMIT=32] -->
-	<string name="general_preference_auto_advance_message_list">Senarai mesej</string>
+	<string name="general_preference_auto_advance_message_list">Peti Masuk</string>
 	
 	<!-- General preference: Label of the setting for the text zoom.  [CHAR LIMIT=32] -->
 	<string name="general_preference_text_zoom_label">Saiz tulisan mesej</string>
@@ -1105,13 +1105,13 @@
 	<string name="widget_loading">Sedang memuat\u2026</string>
 	<!-- Shown when no accounts are configured and the widget supports changing
 	on the fly [CHAR LIMIT=35] -->
-	<string name="widget_touch_to_configure">Menyentuh untuk konsfirasi.</string>
+	<string name="widget_touch_to_configure">Menyentuh untuk konfigurasi.</string>
 	<!-- Shown in a toast when no accounts are configured and the Email widget
 	cannot be created in the first place [CHAR LIMIT=none] -->
 	<string name="widget_no_accounts">"Anda belum menyediakan sesuatu akaun E-mel."</string>
 	<!-- Shown in a toast when no mailboxes have synced for the account and the Email widget
 	cannot be created in the first place [CHAR LIMIT=none] -->
-	<string name="widget_no_mailboxes">"Ini akaun tidak diselarikan. Cuba semula sebentar lagi."</string>
+	<string name="widget_no_mailboxes">"Akaun ini tidak disegerakkan. Cuba semula sebentar lagi."</string>
 	
 	<!-- Generic string shown instead of regular numbers, when a number is larger than 999.
 	This should not be altered if the original string ("999+") makes sense in the
@@ -1133,7 +1133,7 @@
 	
 	<!-- A warning message to show to the user when search results are taking a long
 	time. [CHAR LIMIT=NONE] -->
-	<string name="search_slow_warning_message">Sesetengah pelayan mungkin mengambil masa yang pajang.</string>
+	<string name="search_slow_warning_message">Sesetengah pelayan mungkin mengambil masa yang panjang.</string>
 	
 	<!-- Title shown on the action bar on the mailbox list screen. [CHAR LIMIT=16] -->
 	<string name="action_bar_mailbox_list_title">Folder</string>
