@@ -123,8 +123,8 @@
     </string-array>
 
     <string-array name ="network_use_entry">
-    	<item>Tanahair sahaja</item>
-    	<item>Tanahair + Perayauan</item>
+    	<item>Kediaman sahaja</item>
+    	<item>Kediaman + Perayauan</item>
     </string-array>
 
 <!--Add for MTK DateTime Settings-->
