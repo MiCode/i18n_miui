@@ -422,7 +422,7 @@
 	<string name="enable_antispam_strange_summary">Senyapkan panggilan pertama daripada nombor tidak dikenali</string>
 	
 	<string name="phone_info_divider">" ｜ "</string>
-	<string name="suspect_info">Be careful: You should always verify the identity of the contact first by phone or video before responding to any messages involving your personal finances.</string>
+	<string name="suspect_info">Sila hati-hati: Anda perlu sentiasa mengesahkan identiti kenalan pertama melalui telefon atau video sebelum memberi jawapan kepada mesej yang melibatkan kewangan peribadi anda.</string>
 	<string name="information">Informasi</string>
 	<string name="duringcall">Operasi tidak dibenarkan semasa panggilan</string>
 	<string name="data_connected_change">Tidak dapat tukar rangkaian apabila servis data sedang diguna. Berhentikan servis data sekarang dan pilih rangkaian lain yang sedia ada.</string>
