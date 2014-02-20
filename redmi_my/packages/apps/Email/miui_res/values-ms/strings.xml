@@ -5,11 +5,11 @@
     <string name="alert_selected_all_message">" Anda telah memilih %d mesej. Anda pasti？"</string>
 
     <string name="account_setup_index_title">"Panduan Tetapan Mel"</string>
-    <string name="account_setup_index_label">"Tambah akaun"</string>
-    <string name="account_setup_index_other_mails">"Akaun mel lain"</string>
+    <string name="account_setup_index_label">"Tambah Akaun"</string>
+    <string name="account_setup_index_other_mails">"Akaun Mel Lain"</string>
     <string name="account_setup_basic_label">"Sila isi maklumat untuk akaun %s anda :"</string>
-    <string name="account_setup_basic_name_label">"Nama anda (pilihan)"</string>
-    <string name="account_setup_basic_description_label">"Nama akaun (pilihan)"</string>
+    <string name="account_setup_basic_name_label">"Nama Anda (pilihan)"</string>
+    <string name="account_setup_basic_description_label">"Nama Akaun (pilihan)"</string>
 
     <string name="add_quick_responses_action">Karang</string>
     <string name="account_security_waiting_policy_key_message">"%s memerlukan maklumat tetapan sekuriti daripada pelayan , sila tunggu."</string>
@@ -20,7 +20,7 @@
     <string-array name="general_preference_auto_advance_summary_array">
         <item>"Pergi ke mesej baru selepas anda buang mesej"</item>
         <item>"Pergi ke mesej lama selepas anda buang mesej"</item>
-        <item>"Pergi ke Inbox selepas anda buang mesej"</item>
+        <item>"Pergi ke Peti Masuk selepas anda buang mesej"</item>
     </string-array>
     <string name="general_preference_auto_advance_dialog_title">"Auto-advance ke"</string>
     <string name="general_preferences_clear_trusted_senders_title">"Sembunyi imej"</string>

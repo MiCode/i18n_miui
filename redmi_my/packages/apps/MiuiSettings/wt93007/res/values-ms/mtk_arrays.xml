@@ -22,9 +22,9 @@
 <!-- Add by MTK SIM Management Settings-->
     <!-- SIM number display format -->
     <string-array name="gemini_sim_info_number_display_format_entries">
-        <item>First 4 digits</item>
-        <item>Last 4 digits</item>
-        <item>Do not display</item>
+        <item>4 digit pertama</item>
+        <item>4 digit terakhir</item>
+        <item>Jangan paparkan</item>
     </string-array>
 
     <!-- Do not translate. -->
@@ -39,9 +39,9 @@
     
     <!-- Show roaming reminder  -->
     <string-array name="gemini_sim_roaming_reminder_entries">
-        <item>Once</item>
-        <item>Always</item>
-        <item>Never</item>
+        <item>Sekali</item>
+        <item>Sentiasa</item>
+        <item>Jangan sekali-kali</item>
     </string-array>
 
     <string-array name="gemini_sim_roaming_reminder_values">
@@ -52,9 +52,9 @@
     
     <!-- GSM/UMTS Options strings -->
     <string-array name="gsm_umts_network_preferences_choices">
-        <item>GSM/WCDMA (auto mode)</item>
-        <item>WCDMA only</item>
-        <item>GSM only</item>
+        <item>GSM/WCDMA (mod auto)</item>
+        <item>WCDMA sahaja</item>
+        <item>GSM sahaja</item>
     </string-array>
     <string-array name="gsm_umts_network_preferences_values">
         <item translatable="false">"0"</item>
@@ -66,11 +66,11 @@
 
     <string-array name="wifi_connect_type_entries">
         <!-- auto connect to wifi -->
-        <item>Automatically connect</item>
+        <item>Hubung secara automatik</item>
         <!-- manual connect to wifi -->
-        <item>Manually connect</item>
+        <item>Hubung secara manual</item>
         <!-- always notify user when wifi is available -->
-        <item>Always ask</item>
+        <item>Sentiasa tanya</item>
     </string-array>
     <string-array name="wifi_connect_type_values">
         <!-- auto connect to wifi -->
@@ -123,15 +123,15 @@
     </string-array>
 
     <string-array name ="network_use_entry">
-    	<item>Only Home</item>
-    	<item>Home + Roaming</item>
+    	<item>Kediaman sahaja</item>
+    	<item>Kediaman + Perayauan</item>
     </string-array>
 
 <!--Add for MTK DateTime Settings-->
     <!-- For auto time sync values -->
     <string-array name="auto_time_entries">
-    	<item>Use network-provided time</item>
-    	<item>Use GPS-provided time</item>
+    	<item>Guna waktu dibekalkan-rangkaian</item>
+    	<item>Guna waktu dibekalkan-GPS</item>
     	<item>Off</item>
     </string-array>
 <!--End of MTK DateTime Settings-->
@@ -144,7 +144,7 @@
     </string-array>
     <!-- Add for APN types -->
     <string-array name="apn_type_generic" translatable="false">
-        <item>default</item>
+        <item>lalai</item>
         <item>mms</item>
         <item>supl</item>
         <item>wap</item>
@@ -205,9 +205,9 @@
         <item>8</item>
     </string-array>
     <string-array name="hdmi_video_mode_entries">
-        <item>Full screen</item>
-        <item>Best fit</item>
-        <item>Original size</item>
+        <item>Skrin penuh</item>
+        <item>Paling muat</item>
+        <item>Saiz asal</item>
     </string-array>
     <string-array name="hdmi_video_mode_entry_values">
         <item>0</item>
@@ -270,7 +270,7 @@
 	<!-- Wi-Fi settings.  Use a sim slot to do EAP-SIM authentication. -->
 	<string-array name="sim_slot">
 		<!-- Do not translate. -->
-		<item>(unspecified)</item>
+		<item>(tidak ditentukan)</item>
 		<!-- Do not translate. -->
 		<item>Sim Slot 1</item>
 		<!-- Do not translate. -->
@@ -293,11 +293,11 @@
     <!-- keep Wi-Fi hotspot on. Presented as a list dialog to the user to choose the Wi-Fi hotspot disable policy. -->
     <string-array name="wifi_hotspot_disable_policy_entries">
         <!-- Always keep Wi-Fi on when screen turns off. -->
-        <item>Always</item>
+        <item>Sentiasa</item>
         <!-- Keep Wi-Fi on when screen turns off and plugged in.  When on battery, go to sleep when screen turns off. -->
-        <item>Turn off when idle for 5 min</item>
+        <item>Matikan apabila terbiar selama 5 min</item>
         <!-- Do not keep Wi-Fi on when screen turns off. -->
-        <item>Turn off when idle for 10 min</item>
+        <item>Matikan apabila terbiar selama 10 min</item>
     </string-array>
     <!-- Match with wifi_hotspot_disable_policy_entries and the values of the settings in Settings class. --> 
     <!-- Do not translate. -->
@@ -336,8 +336,8 @@
     <!-- Do not translate. -->
 
     <string-array name="wifi_ap_wps_mode_entries">
-        <item>Push button</item>
-        <item>PIN from client</item>
+        <item>Butang Tekan</item>
+        <item>PIN daripada klien</item>
     </string-array>
     <!-- Do not translate. -->
     <string-array name="wifi_ap_wps_mode_values" translatable="false">
