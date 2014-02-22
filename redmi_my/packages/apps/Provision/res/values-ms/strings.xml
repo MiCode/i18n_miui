@@ -13,16 +13,16 @@
     <string name="other_service_google_location_use">Lokasi &amp; Carian Google</string>
     <string name="other_service_google_location_use_summary">Benarkan Google gunakan lokasi anda untuk memantapkan keputusan carian dan servis lain</string>
     <string name="other_service_google_location_use_help">"Benarkan servis lokasi Google untuk mengumpul data lokasi tanpa nama. Pengumpulan akan wujud walaupun tiada aplikasi diguna.</string>
-    <string name="other_service_permission_manager">Urus keizinan aplikasi</string>
+    <string name="other_service_permission_manager">Urus kebenaran aplikasi</string>
     <string name="other_service_permission_manager_summary">Memantau aplikasi untuk sekuriti dan privasi</string>
-    <string name="other_service_user_experience">Program pengalaman pengguna</string>
-    <string name="other_service_user_experience_summary0">"BantuXiaomi memperbaiki produk dan servis dengan menghantar diagnostik tanpa nama dan penggunaan data."</string>
+    <string name="other_service_user_experience">Program Pengalaman Pengguna</string>
+    <string name="other_service_user_experience_summary0">"Bantu Xiaomi memperbaiki produk dan servis dengan menghantar diagnostik tanpa nama dan penggunaan data."</string>
     <string name="other_service_user_experience_summary1">"(Papar dasar privasi)"</string>
 
     <string name="sim_card_detection_dialog_message">Memeriksa kad SIM\u2026</string>
     <string name="sim_card_detection_label">Kad SIM</string>
     <string name="sim_card_detection_info"></string>
-    <string name="sim_card_detection_status_absent">Tiada Kad SIM dikesan</string>
+    <string name="sim_card_detection_status_absent">Tiada kad SIM dikesan</string>
 
     <string name="setup_complete_label">Terima kasih</string>
     <string name="setup_complete_info"></string>
