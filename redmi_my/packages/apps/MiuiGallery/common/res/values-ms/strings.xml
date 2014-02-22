@@ -120,7 +120,7 @@
 	
 	<!-- String indicating timestamp of photo or video -->
 	<string name="show_on_map">Tunjukkan pada peta</string>
-	<string name="no_map_app">Tiada aplikasi ditemui untuk kendalikan tindakan ini</string>
+	<string name="no_map_app">Tiada app ditemui untuk kendalikan tindakan ini</string>
 	
 	<!-- Toast message prompted when the specified item is not found [CHAR LIMIT=40]-->
 	<string name="no_such_item">Tidak dapat mencari item</string>
@@ -131,7 +131,7 @@
 	
 	<!-- String used in a toast message indicating there is no application
 	available to handle a request [CHAR LIMIT=50] -->
-	<string name="activity_not_found">Tiada aplikasi untuk kendalikan tindakan ini</string>
+	<string name="activity_not_found">Tiada app ditemui untuk kendalikan tindakan ini</string>
 	
 	<!-- String used as a title of a progress dialog. The user can
 	choose to cache some Picasa picture albums on device, so it can
@@ -222,9 +222,9 @@
 	
 	<!-- A label of a menu item for user to sync the content [CHAR LIMIT=30] -->
 	
-	<string name="local_albums">Imej tempatan</string>
+	<string name="local_albums">Imej Tempatan</string>
 	<string name="cloud_albums">Album MiCloud</string>
-	<string name="home_my_captured_items">rakaman dalm gulungan kamera</string>
+	<string name="home_my_captured_items">Gambar Dalam Gulungan Kamera</string>
 	
 	<!-- A label on a button. The user clicks this button after he has
 	finished selection. [CHAR LIMIT=15] -->
@@ -391,7 +391,7 @@
 	<string name="set_hidden_album">Album tersembunyi</string>
 	<string name="remove_hidden_album">Munculkan album</string>
 	<string name="photos">Foto</string>
-	<string name="tab_lockscreen_text">Skrin kunci</string>
+	<string name="tab_lockscreen_text">Skrin Kunci</string>
 	<string name="tab_wallpaper_text">Skrin Utama</string>
 	<string name="tab_all_text">Set Keduanya</string>
 	
@@ -401,7 +401,7 @@
 	<string name="sync_history_power_on">Segerakkan sejarah imej hanya semasa mengecas</string>
 	<string name="sync_only_in_wifi_alert">Mematikan pilihan ini mungkin akan menambahkan penggunaan data mudah alih anda.</string>
 	<string name="sync_only_in_wifi">Muat naik melalui Wi-Fi sahaja</string>
-	<string name="sync_only_in_wifi_summary">Galeri akanmenggunakan rangkaian mudah alih anda untuk memuat naik imej ketika pilihan ini ditutup</string>
+	<string name="sync_only_in_wifi_summary">Galeri akan menggunakan rangkaian mudah alih anda untuk memuat naik imej ketika pilihan ini ditutup</string>
 	
 	<string name="alert">Notis</string>
 	<string name="gallery_cloud_provider_name">Album Cloud</string>
@@ -477,7 +477,7 @@
 	<string name="deleting_files">Memadamkan fail\u2026</string>
 	<string name="bigscreen_slide_exit">Keluar tayangan slaid</string>
 	<string name="bigscreen_slide_fail_cause_loading">Mulakan semula tayangan slaid selepas memuatkan imej</string>
-	<string name="defalt_local_mobile">Mudah alih</string>
+	<string name="defalt_local_mobile">Mudah Alih</string>
 	
 	<string name="cloudfolder_name_reserved">Nama folder tersebut dirizabkan</string>
     <string name="cloudfolder_contain_invalidate_char">Nama folder tidak boleh mengandungi \'%s\'</string>
@@ -550,13 +550,13 @@
 	<string name="operation_rename">Namakan semula</string>
 	<string name="operation_share">Kongsi</string>
 	<string name="operation_refresh">Memuat semula</string>
-	<string name="operation_set_as_screensaver">Set sebagai penyelamat Skrin</string>
+	<string name="operation_set_as_screensaver">Set sebagai penyelamat skrin</string>
 	<string name="operation_unset_as_screensaver">Batal penyelamat skrin</string>
 	<string name="operation_add_picture">Tambah gambar</string>
 	<string name="how_many_videos">%d video</string>
 	<string name="how_many_sub_folders">%d folder</string>
 	<string name="directory_info_divider">"  |  "</string>
-	<string name="how_many_pics">%d gambar</string>
+	<string name="how_many_pics">%d foto</string>
 	
 	<string name="global_setting">Tetapan</string>
 	
@@ -678,8 +678,8 @@
 	<string name="album_share_subtitle_normal">Dikongsi oleh <xliff:g id="USER_NAME">%1$s</xliff:g></string>
 	<string name="album_share_subtitle_accepting">Terima jemputan daripada <xliff:g id="USER_NAME">%1$s</xliff:g>\u2026</string>
 	<string name="album_share_subtitle_denying">Abaikan jemputan daripada <xliff:g id="USER_NAME">%1$s</xliff:g>\u2026</string>
-	<string name="album_share_subtitle_quitting">Exiting\u2026</string>
-	<string name="system_album">Album system</string>
+	<string name="album_share_subtitle_quitting">Keluar\u2026</string>
+	<string name="system_album">Album sistem</string>
 	<string name="owner_album_subtitle">Dikongsi dengan <xliff:g id="MEMBER_COUNT">%1$s</xliff:g> ahli</string>
 	
 	<string name="album_quota_fulfiled">Tidak boleh cipta album: Melebihi had album</string>
@@ -736,7 +736,7 @@
 	
 	<!-- tips of scanning barcode -->
 	<string name="scan_barcode_to_join">Imbas kod QR untuk menyertai album.</string>
-	<string name="where_is_barcode">Mana QR code?</string>
+	<string name="where_is_barcode">Mana kod QR?</string>
 	<string name="scan_barcode_guide">Untuk mendapatkan kod QR album, sentuh ikon Kongsi di sudut kanan atas.</string>
 	<string name="confirm">OK</string>
 	<string name="click_top_right">Tekan icon di sebelah kanan atas</string>

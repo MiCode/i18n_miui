@@ -538,7 +538,7 @@
 	<!-- android settings res -->
 	<string name="pointer_location_summary">Tunjuk koordinat sentuhan</string>
 	<string name="wifi_empty_list_wifi_off">Untuk melihat rangkaian yang ada, hidupkan Wi-Fi.</string>
-	<string name="user_dict_settings_empty_text">"Anda tidak mempunyai apa-apa kamus Tambah perkataan dengan menyentuh butang Tambah (+)"</string>
+    <string name="user_dict_settings_empty_text">Anda tidak mempunyai sebarang kamus\nTambah perkataan dengan menyentuh butang Tambah (+)</string>
 	
 	<string name="dirac_control">Kualiti Audio Optimum</string>
 	

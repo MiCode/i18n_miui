@@ -38,22 +38,26 @@
     <string name="mmiError">Masalah sambungan atau kod MMI tidak sah.</string>
     <string name="mmiFdnError">Pengendalian dihadkan kepada nombor dailan tetap sahaja.</string>
     <string name="serviceEnabled">Servis telah dihidupkan.</string>
-    <string name="serviceEnabledFor" msgid="6856228140453471041">"Servis dihidupkan untuk:"</string>
-    <string name="serviceDisabled" msgid="1937553226592516411">"Servis telah dimatikan."</string>
-    <string name="serviceRegistered" msgid="6275019082598102493">"Pendaftaran berjaya."</string>
-    <string name="serviceErased" msgid="1288584695297200972">"Pemadaman berjaya."</string>
-    <string name="passwordIncorrect" msgid="7612208839450128715">"Kata laluan salah"</string>
+    <string name="serviceEnabledFor">Servis dihidupkan untuk:</string>
+    <string name="serviceDisabled">Servis telah dimatikan.</string>
+    <string name="serviceRegistered">Pendaftaran berjaya.</string>
+    <!-- Displayed when a phone property such as a SIM password was erased. -->
+    <string name="serviceErased">Pemadaman berjaya.</string>
+    <string name="passwordIncorrect">Kata laluan salah.</string>
     <string name="mmiComplete" msgid="8232527495411698359">"MMI selesai."</string>
-    <string name="badPin" msgid="9015277645546710014">"PIN lama yang anda taipkan tidak betul."</string>
-    <string name="badPuk" msgid="5487257647081132201">"Kod PUK yang anda taipkan tidak betul."</string>
-    <string name="mismatchPin" msgid="609379054496863419">"PIN yang anda taip tidak sepadan."</string>
-    <string name="invalidPin" msgid="3850018445187475377">"Taipkan PIN yang mengandungi 4 hingga 8 nombor."</string>
-    <string name="invalidPuk" msgid="8761456210898036513">"Taipkan PUK yang mempunyai 8 nombor atau lebih panjang."</string>
-    <string name="needPuk" msgid="919668385956251611">"Kad SIM anda dikunci PUK. Taipkan kod PUK untuk membuka kuncinya."</string>
-    <string name="needPuk2" msgid="4526033371987193070">"Taipkan PUK2 untuk menyahsekat kad SIM."</string>
-    <string name="imei" msgid="2625429890869005782">"IMEI"</string>
-    <string name="meid" msgid="4841221237681254195">"MEID"</string>
-    <string name="ClipMmi" msgid="6952821216480289285">"ID Pemanggil Masuk"</string>
+    <string name="badPin">PIN lama yang anda taipkan tidak betul.</string>
+    <string name="badPuk">Kod PUK yang anda taipkan tidak betul.</string>
+    <string name="mismatchPin">PIN yang anda taip tidak sepadan.</string>
+    <string name="invalidPin">Taipkan PIN yang mengandungi 4 hingga 8 nombor.</string>
+    <string name="invalidPuk">Taipkan PUK yang mempunyai 8 nombor atau lebih panjang.</string>
+    <!-- Displayed to prompt the user to type the PUK password to unlock
+         the SIM card. -->
+    <string name="needPuk">Kad SIM anda dikunci PUK. Taipkan kod PUK untuk membuka kuncinya.</string>
+    <string name="needPuk2">Taipkan PUK2 untuk buka sekatan kad SIM.</string>
+    <!-- Title for the dialog used to display the user's IMEI number [CHAR LIMIT=10] -->
+    <string name="imei">IMEI</string>
+    <string name="meid">MEID</string>
+    <string name="ClipMmi">ID Pemanggil Masuk</string>
     <string name="ClirMmi" msgid="7784673673446833091">"ID Pemanggil Keluar"</string>
     <string name="CfMmi" msgid="5123218989141573515">"Pemajuan panggilan"</string>
     <string name="CwMmi" msgid="9129678056795016867">"Panggilan menunggu"</string>
@@ -150,7 +154,7 @@
     <string name="reboot_safemode_title" msgid="7054509914500140361">"Mula Semula ke Mod Selamat"</string>
     <string name="reboot_safemode_confirm" msgid="55293944502784668">"Adakah anda mahu Mula Semula ke dalam Mod Selamat? Ini akan mematikan semua app pihak ketiga yang telah anda pasang. Semua app itu akan dipulihkan semula apabila anda memula semula."</string>
     <string name="recent_tasks_title" msgid="3691764623638127888">"Terkini"</string>
-    <string name="no_recent_tasks" msgid="8794906658732193473">"Tiada app terbaru"</string>
+    <string name="no_recent_tasks" msgid="8794906658732193473">"Tiada app terkini"</string>
     <string name="global_actions" product="tablet" msgid="408477140088053665">"Pilihan tablet"</string>
     <string name="global_actions" product="default" msgid="2406416831541615258">"Pilihan telefon"</string>
     <string name="global_action_lock" msgid="2844945191792119712">"Kunci Skrin"</string>
@@ -209,8 +213,8 @@
     <string name="permgroupdesc_systemClock" msgid="3944359833624094992">"Tukar masa peranti atau zon waktu."</string>
     <string name="permgrouplab_statusBar" msgid="2095862568113945398">"Bar Status"</string>
     <string name="permgroupdesc_statusBar" msgid="6242593432226807171">"Tukar tetapan bar status peranti."</string>
-    <string name="permgrouplab_syncSettings" msgid="3341990986147826541">"Tetapan Penyegerakan"</string>
-    <string name="permgroupdesc_syncSettings" msgid="7603195265129031797">"Akses ke tetapan segerakan."</string>
+    <string name="permgrouplab_syncSettings" msgid="3341990986147826541">"Tetapan Segerak"</string>
+    <string name="permgroupdesc_syncSettings" msgid="7603195265129031797">"Akses ke tetapan segerak."</string>
     <string name="permgrouplab_accounts" msgid="3359646291125325519">"Akaun anda"</string>
     <string name="permgroupdesc_accounts" msgid="4948732641827091312">"Akses akaun yang tersedia."</string>
     <string name="permgrouplab_hardwareControls" msgid="7998214968791599326">"Kawalan perkakasan"</string>
@@ -369,7 +373,7 @@
     <string name="permlab_getPackageSize" msgid="7472921768357981986">"ukur ruang storan app"</string>
     <string name="permdesc_getPackageSize" msgid="3921068154420738296">"Membenarkan app mendapatkan semula kodnya, datanya dan saiz cachenya"</string>
     <string name="permlab_installPackages" msgid="2199128482820306924">"pasang terus app"</string>
-    <string name="permdesc_installPackages" msgid="5628530972548071284">"Membenarkan app untuk memasang pakej Android yang baharu atau yang dikemas kini. App hasad boleh menggunakannya untuk menambah app baharu dengan keizinan berkuasa secara sewenang-wenangnya."</string>
+    <string name="permdesc_installPackages" msgid="5628530972548071284">"Membenarkan app untuk memasang pakej Android yang baru atau yang dikemas kini. App hasad boleh menggunakannya untuk menambah app baru dengan keizinan berkuasa secara sewenang-wenangnya."</string>
     <string name="permlab_clearAppCache" msgid="7487279391723526815">"padamkan semua data cache app"</string>
     <string name="permdesc_clearAppCache" product="tablet" msgid="8974640871945434565">"Membenarkan app mengosongkan storan tablet dengan memadam fail dalam direktori cache app lain. Ini boleh menyebabkan app lain bermula lebih perlahan kerana perlu mendapatkan semula datanya."</string>
     <string name="permdesc_clearAppCache" product="default" msgid="2459441021956436779">"Membenarkan app mengosongkan storan telefon dengan memadam fail dalam direktori cache app lain. Ini boleh menyebabkan app lain bermula lebih perlahan kerana perlu mendapatkan semula datanya."</string>
@@ -428,11 +432,11 @@
     <string name="permdesc_writeCalendar" product="tablet" msgid="6679035520113668528">"Membenarkan app menambah, mengalih keluar, mengubah acara yang anda boleh ubah suai pada tablet anda, termasuk milik rakan atau rakan sekerja. Ini boleh membenarkan app menghantar mesej yang kelihatan seperti datang dari pemilik kalendar atau mengubah suai acara tanpa pengetahuan pemilik."</string>
     <string name="permdesc_writeCalendar" product="default" msgid="2324469496327249376">"Membenarkan app menambah, mengalih keluar, mengubah acara yang anda boleh ubah suai pada telefon anda, termasuk milik rakan atau rakan sekerja. Ini boleh membenarkan app menghantar mesej yang kelihatan seperti datang dari pemilik kalendar atau mengubah suai acara tanpa pengetahuan pemilik."</string>
     <string name="permlab_accessMockLocation" msgid="8688334974036823330">"gunakan sumber lokasi olok-olok untuk pengujian"</string>
-    <string name="permdesc_accessMockLocation" msgid="5808711039482051824">"Buat sumber lokasi palsu untuk menguji atau memasang pembekal lokasi baharu. Ini membenarkan app untuk membatalkan lokasi dan/atau status yang dikembalikan oleh sumber lokasi lain seperti GPS atau pembekal lokasi."</string>
+    <string name="permdesc_accessMockLocation" msgid="5808711039482051824">"Buat sumber lokasi palsu untuk menguji atau memasang pembekal lokasi baru. Ini membenarkan app untuk membatalkan lokasi dan/atau status yang dikembalikan oleh sumber lokasi lain seperti GPS atau pembekal lokasi."</string>
     <string name="permlab_accessLocationExtraCommands" msgid="2836308076720553837">"akses perintah tambahan pembekal lokasi"</string>
     <string name="permdesc_accessLocationExtraCommands" msgid="5945166642335800763">"Membenarkan app untuk mengakses arahan pembekal lokasi tambahan. Ini boleh membenarkan app untuk campur tangan dengan operasi GPS atau sumber lokasi lain."</string>
     <string name="permlab_installLocationProvider" msgid="6578101199825193873">"kebenaran untuk memasang pembekal lokasi"</string>
-    <string name="permdesc_installLocationProvider" msgid="9066146120470591509">"Buat sumber lokasi palsu untuk menguji atau memasang pembekal lokasi baharu. Ini membenarkan app untuk membatalkan lokasi dan/atau status yang dikembalikan oleh sumber lokasi lain seperti GPS atau pembekal lokasi."</string>
+    <string name="permdesc_installLocationProvider" msgid="9066146120470591509">"Buat sumber lokasi palsu untuk menguji atau memasang pembekal lokasi baru. Ini membenarkan app untuk membatalkan lokasi dan/atau status yang dikembalikan oleh sumber lokasi lain seperti GPS atau pembekal lokasi."</string>
     <string name="permlab_accessFineLocation" msgid="1191898061965273372">"lokasi tepat (GPS dan berasaskan rangkaian)"</string>
     <string name="permdesc_accessFineLocation" msgid="5295047563564981250">"Membenarkan app mendapatkan lokasi tepat anda menggunakan Sistem Kedudukan Global (GPS) atau sumber lokasi rangkaian seperti menara sel dan Wi-Fi. Servis lokasi ini mesti dihidupkan dan tersedia pada peranti anda untuk kegunaan app. App boleh menggunakan ini untuk menentukan tempat anda berada dan mungkin menggunakan kuasa bateri tambahan."</string>
     <string name="permlab_accessCoarseLocation" msgid="4887895362354239628">"lokasi anggaran (berasaskan rangkaian)"</string>
@@ -583,7 +587,7 @@
     <string name="permlab_readDictionary" msgid="4107101525746035718">"baca istilah yang anda tambahkan kepada kamus"</string>
     <string name="permdesc_readDictionary" msgid="659614600338904243">"Membenarkan app membaca semua perkataan, nama dan frasa yang mungkin telah disimpan oleh pengguna dalam kamus pengguna."</string>
     <string name="permlab_writeDictionary" msgid="2183110402314441106">"tambah perkataan ke kamus ditakrifkan pengguna"</string>
-    <string name="permdesc_writeDictionary" msgid="8185385716255065291">"Membenarkan app menulis perkataan baharu ke dalam kamus pengguna."</string>
+    <string name="permdesc_writeDictionary" msgid="8185385716255065291">"Membenarkan app menulis perkataan baru ke dalam kamus pengguna."</string>
     <string name="permlab_sdcardRead" product="nosdcard" msgid="8235341515605559677">"uji akses ke storan dilindungi"</string>
     <string name="permlab_sdcardRead" product="default" msgid="8235341515605559677">"uji akses ke storan dilindungi"</string>
     <string name="permdesc_sdcardRead" product="nosdcard" msgid="3642473292348132072">"App boleh uji kebenaran USB."</string>
@@ -742,9 +746,9 @@
     <string name="sipAddressTypeWork" msgid="6920725730797099047">"Kerja"</string>
     <string name="sipAddressTypeOther" msgid="4408436162950119849">"Lain-lain"</string>
     <string name="keyguard_password_enter_pin_code" msgid="3037685796058495017">"Taip kod PIN"</string>
-    <string name="keyguard_password_enter_puk_code" msgid="4800725266925845333">"Taip PUK dan kod PIN baharu"</string>
+    <string name="keyguard_password_enter_puk_code" msgid="4800725266925845333">"Taip PUK dan kod PIN baru"</string>
     <string name="keyguard_password_enter_puk_prompt" msgid="1341112146710087048">"Kod PUK"</string>
-    <string name="keyguard_password_enter_pin_prompt" msgid="8027680321614196258">"Kod PIN Baharu"</string>
+    <string name="keyguard_password_enter_pin_prompt" msgid="8027680321614196258">"Kod PIN baru"</string>
     <string name="keyguard_password_entry_touch_hint" msgid="7858547464982981384"><font size="17">"Sentuh untuk menaip kata laluan"</font></string>
     <string name="keyguard_password_enter_password_code" msgid="1054721668279049780">"Taip kata laluan untuk membuka kunci"</string>
     <string name="keyguard_password_enter_pin_password_code" msgid="6391755146112503443">"Taip PIN untuk membuka kunci"</string>
@@ -1074,9 +1078,9 @@
     <string name="heavy_weight_notification" msgid="9087063985776626166">"<xliff:g id="APP">%1$s</xliff:g> dijalankan"</string>
     <string name="heavy_weight_notification_detail" msgid="1721681741617898865">"Sentuh untuk bertukar ke app"</string>
     <string name="heavy_weight_switcher_title" msgid="7153167085403298169">"Tukar app?"</string>
-    <string name="heavy_weight_switcher_text" msgid="7022631924534406403">"App lain sudah pun dijalankan yang mesti dihentikan sebelum anda boleh memulakan yang baharu."</string>
+    <string name="heavy_weight_switcher_text" msgid="7022631924534406403">"App lain sudah pun dijalankan yang mesti dihentikan sebelum anda boleh memulakan yang baru."</string>
     <string name="old_app_action" msgid="493129172238566282">"Kembali ke <xliff:g id="OLD_APP">%1$s</xliff:g>"</string>
-    <string name="old_app_description" msgid="2082094275580358049">"Jangan mulakan app baharu."</string>
+    <string name="old_app_description" msgid="2082094275580358049">"Jangan mulakan app baru."</string>
     <string name="new_app_action" msgid="5472756926945440706">"Mulakan <xliff:g id="OLD_APP">%1$s</xliff:g>"</string>
     <string name="new_app_description" msgid="1932143598371537340">"Hentikan app lama tanpa menyimpan."</string>
     <string name="sendText" msgid="5209874571959469142">"Pilih tindakan untuk teks"</string>
