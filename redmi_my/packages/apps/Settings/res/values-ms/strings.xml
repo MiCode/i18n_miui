@@ -2671,7 +2671,7 @@ limitations under the License.
 	<!-- On Text & language settings screen, setting summary for the Auto-punctuate setting. -->
 	<string name="auto_punctuate_summary">Tekan kekunci Space dua kali untuk masukkan \u0022.\u0022</string>
 	<!-- On Security & location settings screen, setting check box name. Title of the checkbox to set whether password edit fields will show the most recent character typed and then hide it, or just hide it right away.  By hide, I mean mask it out. -->
-	<string name="show_password">Make passwords visible</string>
+	<string name="show_password">Jadikan kata laluan boleh dilihat</string>
 	<!-- On Security & location settings screen, setting check box summary. Summary for the visible passwords setting. -->
 	<string name="show_password_summary"></string>
 	<!-- Warning message about security implications of enabling an input method, displayed as a dialog
