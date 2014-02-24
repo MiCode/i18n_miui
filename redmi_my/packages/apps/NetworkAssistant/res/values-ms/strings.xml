@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="empty">""</string>
+    <string name="carrier_cmcc">"%1$s, %2$s, %3$s, %4$s"</string>
+    <string name="carrier_none_cmcc">"%1$s, %2$s, %3$s"</string>
+    <string name="mobile_type">"2G/3G"</string>
+    <string name="wifi_type">"Wi-Fi"</string>
+    <string name="process_kernel_label">"Android"</string>
+    <string name="mobile_traffic">"2G/3G:\u0020%s"</string>
+    <string name="wifi_traffic">"Wi-Fi:\u0020%s"</string>
+    <string name="warning_settings_toast">"%1$d%%\u0020\u0020%2$dMB"</string>
+    
+    <string name="widget_color_exceed_warn">#F9882C</string>
+    <string name="widget_color_uesd_none_exceed_warn">#579D00</string>
+    <string name="widget_color_used_all">#C00203</string>
+
+	<string name="app_name">Data Usage</string>
+    <string name="used_flux">Data usage</string>
+    <string name="sorted_flux">Usage history</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_traffic_adjust">Adjust usage history</string>
+    <string name="menu_traffic_settings">Monthly data limit</string>
+    <string name="powered_by"></string>
+    
+    <string name="pref_traffic_settings">Monthly data limit</string>
+    <string name="pref_traffic_adjust_title">Adjust usage history</string>
+    <string name="pref_traffic_daily_limit_settings">Daily data limit settings</string>
+    <!--  <string name="pref_traffic_daily_limit_settings_hint">当天流量超过限额时，自动断网</string>-->
+    <string name="pref_connect_settings_title">Monitor settings</string>
+    <string name="pref_connect_settings_notify_in_statusbar">Show data usage ticker</string>
+    <string name="pref_connect_settings_exceed_limit">Limit monthly data usage</string>
+    <string name="pref_connect_settings_exceed_limit_hint">Remind me and stop using my mobile data connection when I reach my monthly limit</string>
+    <string name="pref_connect_settings_enable_backgroung">Allow usage in background</string>
+    <string name="pref_connect_settings_enable_backgroung_hint">Allow apps to use your mobile data connection in the background</string>
+    
+    <string name="warning_title">Don\'t allow usage in background?</string>
+    <string name="close_txt">Don\'t allow</string>
+    <string name="cancel_txt">Cancel</string>
+    <string name="disable_background_connect_warning">If you don\'t allow mobile data connections in the background, some apps and services won\'t be able work normally unless you have a Wi-Fi connection.</string>
+	<string name="menu_refresh">Refresh</string>
+	<string name="menu_sort">Sort by\u2026</string>
+	<string name="menu_display_wifi">Show Wi-Fi traffic</string>
+	<string name="menu_hide_wifi">Hide Wi-Fi traffic</string>
+	<string name="menu_display_system_app">Show system processes</string>
+	<string name="menu_hide_system_app">Hide system processes</string>
+	
+	<string name="adjust_traffic_title">Adjust usage history</string>
+	<string name="month_traffic_settings_title">Monthly limit settings</string>
+	<string name="sort_dialog_title">Sort by\u2026</string>
+	<string name="current_warning_value">Warning value %s</string>
+	
+	<string name="batch_connect_control">App settings</string>
+	<string name="pref_category_adjust_traffic">Adjust data usage history</string>
+	<string name="adjust_traffic_manual_adjust">Input manually</string>
+	<string name="adjust_traffic_carrier_adjust">Sync with carrier</string>
+	<string name="adjust_traffic_relate_settings">Related settings</string>
+	<string name="adjust_traffic_carrier_settings_title">Mobile carrier</string>
+	<string name="adjust_traffic_auto_adjust_title">Sync with carrier</string>
+	<string name="adjust_traffic_auto_adjust_hint">Your data usage will be updated automatically based on data provided by your carrier</string>
+	<string name="manual_input_used_traffic_title">Adjust data usage history</string>
+	<string name="manual_input_used_traffic_hint">Enter data used in this cycle</string>
+	<string name="save">Save</string>
+    <string name="daily_limit_dialog_hint">Daily data limit</string>
+    <string name="input_hint">Enter limit</string>
+    <string name="daily_limit_dialog_disconnect_hint">Stop using my mobile data connection when I reach my daily limit</string>
+    <string name="daily_limit_result_no_limit">Don\'t remind me when I reach my daily limit</string>
+    <string name="daily_limit_result_no_disconnect">Remind me when my daily data usage exceeds %dM</string>
+    <string name="daily_limit_result">Stop using my mobile data connection when my daily data usage exceeds %dM</string>
+    <string name="edit_frame_free_traffic_title">Monthly data limit</string>
+    <string name="edit_frame_warning_title">Warning value</string>
+    <string name="edit_frame_month_start_title">Cycle start date</string>
+    <string name="carrier_query_number_title">Configure carrier inquiry number</string>
+    <string name="carrier_query_number_location">Location</string>
+    <string name="carrier_query_number_carrier">Carrier</string>
+    <string name="carrier_query_number_brand">Service</string>
+    <string name="unknown_location">Not set</string>
+    <string name="adjust_traffic_auto_adjust_open_hint">Data usage will be updated automatically based on info provided by your carrier.</string>
+    <string name="unknown_free_traffic_text">Don\'t know your monthly data limit?</string>
+    <string name="unknown_free_traffic_title">Talk to your carrier</string>
+    <string name="unknown_free_traffic_hint">Contact your mobile carrier to learn more about your monthly data limit.</string>
+    <string name="i_known_button">OK</string>
+    <string name="traffic_none">None</string>
+    <string name="disable_background_mobile_connect">Mobile data connections in the background have been disabled</string>
+    
+    <string name="control_app_internet">App settings</string>
+    <string name="fire_rule_program_list">App data permissions</string>
+    <string name="menu_new_install_app_settings">Set default</string>
+    <string name="traffic_suffix">data</string>
+    <string name="traffic_suffix_with_uint">data (MB)</string>
+    
+    <string name="app_detail_title">App details</string>
+    <string name="unknown_version">Unknown version</string>
+    <string name="app_detail_version">Version:\u0020%s</string>
+    <string name="app_detail_internet_control_category">App settings</string>
+    <string name="app_detail_internet_background">Allow app to use mobile data connection in the background</string>
+    <string name="app_detail_internet_background_traffic">Foreground: %1$s\u0020\u0020\u0020\u0020 Background: %2$s</string>
+    <string name="stop_app_button">Force quit</string>
+    <string name="detail_app_button">App details</string>
+	
+    <string name="plate_traffic_already_used">Used</string>
+	<string name="plate_traffic_remain">Remaining</string>
+	<string name="plate_traffic_exceed">Exceeded</string>
+	<string name="traffic_remain">Remaining</string>
+<!-- 	<string name="apply_rules_failed_known">OK</string>
+    <string name="apply_rules_failed">Failed to apply firewall, please try again. \n(%s)</string> -->
+    <string name="traffic_total">%s\nTotal</string>
+    <string name="traffic_used_status">%s\nUsed</string>
+    
+    <string name="unknown_traffic_hint">Your monthly data limit hasn\'t been configured</string>
+    <string name="finish_traffic_settings_hint">Data limit info updated</string>
+    <string name="finish_traffic_settings_title">Adjust usage data</string>
+    <string name="finish_traffic_settings_message">You\'ve %s used this cycle</string>
+    <string name="dialog_button_adjust">That\'s right</string>
+    
+    <string name="settings_page_adjust_summary_no_carrier">Carrier hasn\'t been set</string>
+    <string name="settings_page_traffic_summary">Available: %1$s "|" Warning value: %2$s "|" Cycle start date: %3$d</string>
+    <string name="settings_page_traffic_summary_no_settings">Data limit hasn\'t been configured "|" Cycle start date: %d</string>
+    
+    <string name="sync_traffic_ing">Inquiring\u2026</string>
+    <string name="sync_traffic_success">Data usage history updated</string>
+<!--     <string name="sync_traffic_fail_title">Inquiry failed</string> -->
+    <string name="sync_traffic_fail_message">No response from carrier. Their server may be busy. Try again later or contact your carrier %s.</string>
+    <string name="retry">Retry</string>
+    <string name="sync_fail_notify_title">%s inquiry failed</string>
+    <string name="sync_fail_notify_detail">Carrier didn\'t respond to inquiry</string>
+    
+<!--     <string name="traffic_package_widget_name">Network Assistant\u00281x4\u0029</string>
+    <string name="traffic_widget_name">Network Assistant\u00281x2\u0029</string>
+    <string name="widget_traffic_total">Package: %s</string>
+    <string name="widget_traffic_used_status">Used: %s</string>
+    <string name="today">Today</string>
+    <string name="this_month">This month</string> -->
+    
+    <string name="loading_app">Loading\u2026</string>
+    <string name="cannot_find_sms_cmd">Couldn\'t send SMS</string>
+	<string name="sms_template_match_fail">The SMS template you\'re using doesn\'t match your carrier\'s</string>
+	<string name="traffic_settings_error">You indicated that your monthly data limit is %1$s. However, the info provided by your carrier shows you only have %2$s remaining for the month.</string>
+	<string name="app_traffic_detail">" %s"</string>
+	<string name="sms_match_fail">SMS update failed</string>
+	
+	<string name="pref_network_status_bar">Notifications</string>
+    <string name="pref_network_speed_settings">Show network speed</string>
+    <string name="pref_network_speed_internal_title">Network speed update interval</string>
+    <string name="pref_netwotk_speed_internal_summary">Updated every %d seconds</string>
+    <string name="force_stop_dlg_title">Force quit?</string>
+    <!-- [CHAR LIMIT=200] Manage applications, text for dialog when killing persistent apps-->
+    <string name="force_stop_dlg_text">If you force quit an app, it may misbehave.</string>
+    <!-- 
+    <string name="sync_setting_city">Firstly, you should select one city\u2026</string>
+     -->
+    <string name="adjust_traffic_update">SMS update template</string>
+	<string name="adjust_traffic_sms_template_update">Edit SMS template</string>
+	<string name="updating">Updating\u2026</string>
+	<string name="update_success">Updated</string>
+	<string name="update_fail">Failed to update</string>
+	<string name="update_no_network">Couldn\'t connect to network</string>
+
+	<string name="adjust_traffic_carrier_summary_today">Last updated: Today %1$02d:%2$02d </string>
+	<string name="adjust_traffic_carrier_summary_yesterday">Last updated: Yesterday %1$02d:%2$02d</string>
+	<string name="adjust_traffic_carrier_summary_three_day_before">Last updated: 3 days ago</string>
+	<string name="adjust_traffic_carrier_summary_oneweek_before">Last updated: a week ago</string>
+	<string name="adjust_traffic_carrier_summary_more_oneweek_before">Last updated: Over a week ago</string>
+	<string name="adjust_traffic_carrier_summary_more_onemonth_before">Last updated: Over a month ago</string>
+	<string name="adjust_traffic_carrier_adjusting">Updating\u2026</string>
+	
+	<string name="menu_sort_by_name">Sort by name</string>
+	<string name="menu_sort_by_mobile_traffic">2G/3G traffic</string>
+	<string name="menu_sort_by_all_traffic">Data usage</string>
+	<string name="menu_sort_by_disabled">Disabled apps</string>
+	
+	<string name="notify_traffic_settings_format">%s hasn\'t been linked to your monthly data plan. Configure now?</string>
+    <string name="notify_carrier_settings_format">%s hasn\'t been linked to your monthly data plan. Configure now?</string>
+    <string name="notify_traffic_settings_cancel_hint">Data usage monitor will be disabled.</string>
+    <string name="carrier_settings_button">Carrier settings</string>
+    
+    <string name="sync_traffic_no_cmd_title">No SMS template</string>
+	<string name="sync_traffic_no_cmd_detail">"Submit your city, province and ICC\'s brand and carrier to the following forum: http:\u002F\u002Fwww.miui.com\u002Fforum\u002D172\u002D1.html"</string>
+	<string name="sync_traffic_no_cmd_detail_custom_config">"After you enter your data plan\'s info, submit your city, province and ICC\'s brand and carrier to the following forum: http:\u002F\u002Fwww.miui.com\u002Fforum\u002D172\u002D1.html"</string>
+	<string name="version_label">Version:</string>
+	
+	<string name="sms_template_updated_label">Updated:\u0020</string>
+	<string name="unknown">Unknown</string>
+	
+	<string name="overseas_unknown_traffic_hint">Your monthly data usage limit hasn\'t been configured</string>
+    <string name="overseas_menu_traffic_settings">Configure now</string>
+    <string name="overseas_menu_traffic_adjust">Adjust data usage history</string>
+    <string name="about">About</string>
+    <string name="fire_rule_title_bar">fire_rule_title_bar</string>
+    <string name="fire_wall_is_closed">You\'re using a firewall that may be preventing your phone from talking to your carrier</string>
+   
+    <string name="text_day">""</string>
+    <string name="text_done">Done</string>
+    <string name="text_save">Save</string>
+    
+    <string name="yesterday_mobile_format">%s\u0020"Yesterday "</string>
+	<string name="today_mobile_format">%s\u0020"Today "</string>
+	<string name="this_month_mobile_format">%s\u0020"This month "</string>
+	<string name="yesterday_wlan">Yesterday Wi-Fi</string>
+	<string name="today_wlan">Today Wi-Fi</string>
+	<string name="this_month_wlan">This month Wi-Fi</string>
+	
+	<string name="yesterday_total_traffic_format">%s\u0020"Yesterday "</string>
+	<string name="today_total_traffic_format">%s\u0020"Today "</string>
+	<string name="this_month_total_traffic_format">%s\u0020"This month "</string>
+	<string name="another_sim_card_adjusting">Hang on\u2026 Your other SIM card is being updated.</string>
+	
+	<string name="adjust_no_network_update_data_fail">Couldn\'t connect to network</string>
+	
+	<string name="custom_adjust_summary">%1$s, %2$s, %3$s</string>
+	
+	<string name="custom_adjust_title">Edit SMS template</string>
+	<string name="custom_adjust_sender">Sender number</string>
+	<string name="custom_adjust_command">Content</string>
+	<string name="custom_adjust_receiver">Receiver number</string>
+	<string name="custom_adjust_sender_hint">This number is used by your carrier to receive your query</string>
+	<string name="custom_adjust_command_hit">This is the content of the message that will be sent to carrier to get your data usage info</string>
+	<string name="custom_adjust_receiver_hint">This number is used by your carrier to send info back to your phone.</string>
+	<string name="custom_adjust_recevier_same_with_sender">Numbers are almost identical</string>
+	<string name="custom_adjust_is_empty">%s can\'t be empty</string>
+	
+	<string name="app_has_deleted">%s has been deleted</string>
+
+</resources>
