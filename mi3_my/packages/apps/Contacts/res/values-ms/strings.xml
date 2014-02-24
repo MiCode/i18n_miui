@@ -778,18 +778,18 @@ limitations under the License.
 	<string name="import_all_vcard_string">Import semua fail vCard</string>
 	
 	<!-- Dialog message shown when searching VCard data from (USB) storage [CHAR LIMIT=NONE] -->
-	<string name="searching_vcard_message" product="nosdcard">Searching for vCard data in storage\u2026</string>
+	<string name="searching_vcard_message" product="nosdcard">Mencari data vCard dalam storan\u2026</string>
 	<!-- Dialog message shown when searching VCard data from SD Card. [CHAR LIMIT=NONE] -->
-	<string name="searching_vcard_message" product="default">Searching for vCard data on SD card\u2026</string>
+	<string name="searching_vcard_message" product="default">Mencari data vCard dalam kad SD\u2026</string>
 	
-	<string name="scanning_sdcard_failed_title" product="nosdcard">The storage couldn\'t be scanned</string>
-	<string name="scanning_sdcard_failed_title" product="default">The SD card couldn\'t be scanned</string>
+	<string name="scanning_sdcard_failed_title" product="nosdcard">Storan tidak dapat diimbas</string>
+	<string name="scanning_sdcard_failed_title" product="default">Kad SD tidak dapat diimbas</string>
 	<!-- Dialog message shown when searching VCard data failed.
 	An exact reason for the failure should [CHAR LIMIT=NONE] -->
-	<string name="scanning_sdcard_failed_message" product="nosdcard">Reason: "<xliff:g id="fail_reason">%s</xliff:g>".</string>
+	<string name="scanning_sdcard_failed_message" product="nosdcard">Alasan: "<xliff:g id="fail_reason">%s</xliff:g>".</string>
 	<!-- Dialog message shown when searching VCard data failed.
 	An exact reason for the failure should [CHAR LIMIT=NONE] -->
-	<string name="scanning_sdcard_failed_message" product="default">Reason: "<xliff:g id="fail_reason">%s</xliff:g>".</string>
+	<string name="scanning_sdcard_failed_message" product="default">Alasan: "<xliff:g id="fail_reason">%s</xliff:g>".</string>
 	
 	<!-- The failed reason shown when Contacts app (especially vCard importer/exporter)
 	emitted some I/O error. Exact reason will be appended by the system. [CHAR LIMIT=NONE] -->
@@ -835,11 +835,11 @@ limitations under the License.
 	
 	<!-- The title shown when vCard importer is caching files to be imported into local temporary
 	data storage.  [CHAR LIMIT=40] -->
-	<string name="caching_vcard_title">Caching</string>
+	<string name="caching_vcard_title">Mengecache</string>
 	
 	<!-- The message shown when vCard importer is caching files to be imported into local temporary
 	data storage. [CHAR LIMIT=NONE] -->
-	<string name="caching_vcard_message">Caching vCard(s) kedalam telefon\u2026</string>
+	<string name="caching_vcard_message">Mengecache vCard(s) ke dalam telefon\u2026</string>
 	
 	<!-- Description shown when importing vCard data.
 	The argument is the name of a contact which is being read.
@@ -907,10 +907,10 @@ limitations under the License.
 	
 	<!-- The failed reason shown when vCard exporter could not create a file for the vCard since
 	there are too many files relevant to vCard. [CHAR LIMIT=NONE] -->
-	<string name="fail_reason_too_many_vcard" product="nosdcard">Too many vCard files are in the storage.</string>
+	<string name="fail_reason_too_many_vcard" product="nosdcard">Terlalu banyak fail vCard dalam storan.</string>
 	<!-- The failed reason shown when vCard exporter could not create a file for the vCard since
 	there are too many files relevant to vCard. -->
-	<string name="fail_reason_too_many_vcard" product="default">Too many vCard files are on the SD card.</string>
+	<string name="fail_reason_too_many_vcard" product="default">Terlalu banyak fail vCard dalam kad SD.</string>
 	
 	<!-- The failed reason shown when the given file name is too long for the system.
 	The length limit of each file is different in each Android device, so we don't need to
@@ -946,11 +946,11 @@ limitations under the License.
 	<!-- This error message shown when the user actually have no contact
 	(e.g. just after data-wiping), or, data providers of the contact list prohibits their
 	contacts from being exported to outside world via vcard exporter, etc. [CHAR LIMIT=NONE] -->
-	<string name="composer_has_no_exportable_contact" product="tablet">There are no exportable contacts. If you do have contacts on your tablet, some data providers may not allow the contacts to be exported from the tablet.</string>
+	<string name="composer_has_no_exportable_contact" product="tablet">Tiada kenalan yang boleh dieksport. Jika anda mempunyai kenalan dalam tablet anda, sesetengah pembekal data mungkin tidak membenarkan kenalan untuk dieksport daripada tablet.</string>
 	<!-- This error message shown when the user actually have no contact
 	(e.g. just after data-wiping), or, data providers of the contact list prohibits their
 	contacts from being exported to outside world via vcard exporter, etc. [CHAR LIMIT=NONE] -->
-	<string name="composer_has_no_exportable_contact" product="default">There are no exportable contacts. If you do have contacts on your phone, some data providers may not allow the contacts to be exported from the phone.</string>
+	<string name="composer_has_no_exportable_contact" product="default">Tiada kenalan yang boleh dieksport. Jika anda mempunyai kenalan dalam telefon anda, sesetengah pembekal data mungkin tidak membenarkan kenalan untuk dieksport daripada telefon.</string>
 	
 	<!-- The error reason the vCard composer may emit when vCard composer is not initialized
 	even when needed.

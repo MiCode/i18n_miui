@@ -102,7 +102,7 @@
 	<string name="plate_traffic_exceed">Melebihi</string>
 	<string name="traffic_remain">Masih tinggal</string>
 <!-- 	<string name="apply_rules_failed_known">OK</string>
-    <string name="apply_rules_failed">Failed to apply firewall, please try again. \n(%s)</string> -->
+    <string name="apply_rules_failed">Gagal untuk aplikasikan tembok api, sila cuba lagi. \n(%s)</string> -->
     <string name="traffic_total">%s\nJumlah</string>
     <string name="traffic_used_status">%s\nDigunakan</string>
     
@@ -118,7 +118,7 @@
     
     <string name="sync_traffic_ing">Pertanyaan\u2026</string>
     <string name="sync_traffic_success">Sejarah penggunaan data dikemaskinikan</string>
-<!--     <string name="sync_traffic_fail_title">Inquiry failed</string> -->
+<!--     <string name="sync_traffic_fail_title">Pertanyaan gagal</string> -->
     <string name="sync_traffic_fail_message">Tiada respon daripada pembekal perkhidmatan. Pelayan mereka mungkin sibuk. Cuba lagi kemudian atau hubungi pembekal perkhidmatan anda %s.</string>
     <string name="retry">Cuba semula</string>
     <string name="sync_fail_notify_title">%s pertanyaan gagal</string>
@@ -146,7 +146,7 @@
     <!-- [CHAR LIMIT=200] Manage applications, text for dialog when killing persistent apps-->
     <string name="force_stop_dlg_text">Jika anda Paksa Henti sesuatu app, ia mungkin berkelakuan ganjil.</string>
     <!-- 
-    <string name="sync_setting_city">Firstly, you should select one city\u2026</string>
+    <string name="sync_setting_city">Pertama sekali, anda perlu memilih satu bandar\u2026</string>
      -->
     <string name="adjust_traffic_update">Templat kemaskini SMS</string>
 	<string name="adjust_traffic_sms_template_update">Edit templat SMS</string>

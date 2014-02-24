@@ -102,7 +102,7 @@
 	<string name="plate_traffic_exceed">Melebihi</string>
 	<string name="traffic_remain">Masih tinggal</string>
     <string name="apply_rules_failed_known">OK</string>
-    <string name="apply_rules_failed">Failed to apply firewall, please try again. \n(%s)</string> -->
+    <string name="apply_rules_failed">Gagal untuk aplikasikan tembok api, sila cuba lagi. \n(%s)</string> -->
     <string name="traffic_total">%s\nJumlah</string>
     <string name="traffic_used_status">%s\nDigunakan</string>
     
@@ -118,7 +118,7 @@
     
     <string name="sync_traffic_ing">Pertanyaan\u2026</string>
     <string name="sync_traffic_success">Sejarah penggunaan data dikemaskinikan</string>
-    <string name="sync_traffic_fail_title">Inquiry failed</string>
+    <string name="sync_traffic_fail_title">Pertanyaan gagal</string>
     <string name="sync_traffic_fail_message">Tiada respon daripada pembekal perkhidmatan. Pelayan mereka mungkin sibuk. Cuba lagi kemudian atau hubungi pembekal perkhidmatan anda %s.</string>
     <string name="retry">Cuba semula</string>
     <string name="sync_fail_notify_title">%s pertanyaan gagal</string>
@@ -145,7 +145,7 @@
     <string name="force_stop_dlg_title">Paksa henti?</string>
     <!-- [CHAR LIMIT=200] Manage applications, text for dialog when killing persistent apps-->
     <string name="force_stop_dlg_text">Jika anda Paksa Henti sesuatu app, ia mungkin berkelakuan ganjil.</string>
-    <string name="sync_setting_city">Select your city\u2026</string>
+    <string name="sync_setting_city">Pilih bandar anda\u2026</string>
     <string name="adjust_traffic_update">Templat kemaskini SMS</string>
 	<string name="adjust_traffic_sms_template_update">Edit templat SMS</string>
 	<string name="updating">Mengemaskinikan\u2026</string>
@@ -218,15 +218,15 @@
 	
 	<string name="app_has_deleted">%s telah dipadamkan</string>
 	<!--added from 2.24 comparison-->
-	<string name="pref_connect_settings_monitor_running_app">Show blocked apps</string>
-	<string name="notify_traffic_settings_title">Configure your mobile data plan info now?</string>
-	<string name="notify_carrier_settings_title">Configure your mobile data plan info now?</string>
-	<string name="running_apps_activity_title">Restricted apps currently running</string>
-	<string name="network_control_service_notification_text">Touch to view mobile data settings</string>
-	<string name="network_control_service_notification_title_single">%1$s has been restricted from using %2$s connection</string>
-	<string name="network_control_service_notification_title_mutiple">%1$d have been restricted from using %2$s connection</string>
+	<string name="pref_connect_settings_monitor_running_app">Tunjuk app yang disekat</string>
+	<string name="notify_traffic_settings_title">Konfigurasi info pelan data mudah alih sekarang?</string>
+	<string name="notify_carrier_settings_title">Konfigurasi info pelan data mudah alih anda sekarang?</string>
+	<string name="running_apps_activity_title">App yang dihadkan sedang berjalan</string>
+	<string name="network_control_service_notification_text">Sentuh untuk lihat tetapan data mudah alih</string>
+	<string name="network_control_service_notification_title_single">%1$s telah dihadkan dari menggunakan sambungan %2$s</string>
+	<string name="network_control_service_notification_title_mutiple">%1$d telah dihadkan dari menggunakan sambungan %2$s</string>
 	<string name="network_control_service_notification_title_nettype_wifi">Wi-Fi</string>
-	<string name="network_control_service_notification_title_nettype_mobile">Mobile</string>
-	<string name="adjust_module_miss">Data usage adjustment module is missing</string>
+	<string name="network_control_service_notification_title_nettype_mobile">Mudah Alih</string>
+	<string name="adjust_module_miss">Modul pelarasan penggunaan data telah hilang</string>
 
 </resources>
