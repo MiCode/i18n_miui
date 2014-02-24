@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Serentak Xiaomi</string>
+    <string name="app_name">Segerakkan Xiaomi</string>
 
     <string name="sync_item_sms_title">Segerakkan Mesej</string>
     <string name="sync_item_sms_summary">Mesej akan disegerakkan secara automatik.</string>
