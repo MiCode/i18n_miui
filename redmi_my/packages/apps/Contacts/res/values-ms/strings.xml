@@ -554,7 +554,7 @@ limitations under the License.
 	<!-- Item label: jump to the in-call UI.
 	(Part of a list of options shown in the dialer when another call
 	is already in progress.) -->
-	<string name="dialer_returnToInCallScreen">Kembali ke panggilan</string>
+	<string name="dialer_returnToInCallScreen">Kembali ke panggilan yang sedang berlangsung</string>
 	
 	<!-- Item label: use the Dialer's dialpad to add another call.
 	(Part of a list of options shown in the dialer when another call
@@ -574,7 +574,7 @@ limitations under the License.
 	<string name="type_outgoing">Panggilan keluar</string>
 	
 	<!-- Title for missed call details screen -->
-	<string name="type_missed">Panggilan tak dijawab</string>
+	<string name="type_missed">Panggilan tidak dijawab</string>
 	
 	<!-- Title for voicemail details screen -->
 	<string name="type_voicemail">Mel suara</string>
@@ -717,7 +717,7 @@ limitations under the License.
 	
 	Used by AccessibilityService to announce the purpose of the view.
 	-->
-	<string name="description_digits_edittext">nombor untuk di dial</string>
+	<string name="description_digits_edittext">nombor untuk di dail</string>
 	
 	<!-- String describing the Contact Photo Image
 	
@@ -748,7 +748,7 @@ limitations under the License.
 	<!-- Dialog message shown when (USB) storage does not exist [CHAR LIMIT=30] -->
 	<string name="no_sdcard_message" product="nosdcard">Tiada storan ditemui.</string>
 	<!-- Dialog message shown when SDcard does not exist. [CHAR LIMIT=30] -->
-	<string name="no_sdcard_message" product="default">Tiada Kad SD ditemui.</string>
+	<string name="no_sdcard_message" product="default">Tiada kad SD ditemui.</string>
 	
 	<!-- Action string for selecting SIM for importing contacts -->
 	<string name="import_from_sim">Import dari kad SIM 1</string>
@@ -761,7 +761,7 @@ limitations under the License.
 	<string name="export_to_sdcard" product="default">Eksport ke storan</string>
 	
 	<!-- Action that shares visible contacts -->
-	<string name="share_visible_contacts">Kongsi kenalan dapat dilihat</string>
+	<string name="share_visible_contacts">Kongsi kenalan</string>
 	
 	<!-- One of alternatives shown when the system allows a user to select how many vCard files
 	should be imported. This message shows only when the system is certain that there's more
@@ -771,7 +771,7 @@ limitations under the License.
 	<!-- One of alternatives shown when the system allows a user to select how many vCard files
 	should be imported. This message shows only when the system is certain that there's more
 	than one vCard files available in the system. -->
-	<string name="import_multiple_vcard_string">Import beberapa fail vCard</string>
+	<string name="import_multiple_vcard_string">Import berbilang fail vCard</string>
 	
 	<!-- One of alternatives shown when the system allows a user to select how many vCard files
 	should be imported. This message shows only when the system is certain that there's more
@@ -779,18 +779,18 @@ limitations under the License.
 	<string name="import_all_vcard_string">Import semua fail vCard</string>
 	
 	<!-- Dialog message shown when searching VCard data from (USB) storage [CHAR LIMIT=NONE] -->
-	<string name="searching_vcard_message" product="nosdcard">Searching for vCard data in storage\u2026</string>
+	<string name="searching_vcard_message" product="nosdcard">Mencari data vCard dalam storan\u2026</string>
 	<!-- Dialog message shown when searching VCard data from SD Card. [CHAR LIMIT=NONE] -->
-	<string name="searching_vcard_message" product="default">Searching for vCard data on SD card\u2026</string>
+	<string name="searching_vcard_message" product="default">Mencari data vCard dalam kad SD\u2026</string>
 	
-	<string name="scanning_sdcard_failed_title" product="nosdcard">The storage couldn\'t be scanned</string>
-	<string name="scanning_sdcard_failed_title" product="default">The SD card couldn\'t be scanned</string>
+	<string name="scanning_sdcard_failed_title" product="nosdcard">Storan tidak dapat diimbas</string>
+	<string name="scanning_sdcard_failed_title" product="default">Kad SD tidak dapat diimbas</string>
 	<!-- Dialog message shown when searching VCard data failed.
 	An exact reason for the failure should [CHAR LIMIT=NONE] -->
-	<string name="scanning_sdcard_failed_message" product="nosdcard">Reason: "<xliff:g id="fail_reason">%s</xliff:g>".</string>
+	<string name="scanning_sdcard_failed_message" product="nosdcard">Alasan: "<xliff:g id="fail_reason">%s</xliff:g>".</string>
 	<!-- Dialog message shown when searching VCard data failed.
 	An exact reason for the failure should [CHAR LIMIT=NONE] -->
-	<string name="scanning_sdcard_failed_message" product="default">Reason: "<xliff:g id="fail_reason">%s</xliff:g>".</string>
+	<string name="scanning_sdcard_failed_message" product="default">Alasan: "<xliff:g id="fail_reason">%s</xliff:g>".</string>
 	
 	<!-- The failed reason shown when Contacts app (especially vCard importer/exporter)
 	emitted some I/O error. Exact reason will be appended by the system. [CHAR LIMIT=NONE] -->
@@ -798,12 +798,12 @@ limitations under the License.
 	
 	<!-- Failure reason show when Contacts app (especially vCard importer) encountered
 	low memory problem and could not proceed its import procedure. [CHAR LIMIT=NONE] -->
-	<string name="fail_reason_low_memory_during_import">Memori tidak mencukupi. Fail terlalu besar.</string>
+	<string name="fail_reason_low_memory_during_import">Memori tidak mencukupi. Fail mungkin terlalu besar.</string>
 	
 	<!-- The failed reason shown when vCard parser was not able to be parsed by the current vCard
 	implementation. This might happen even when the input vCard is completely valid, though
 	we believe it is rather rare in the actual world. [CHAR LIMIT=NONE] -->
-	<string name="fail_reason_vcard_parse_error">"Tidak dapat menghurai vCard tanpa sebab yang dijangka."</string>
+	<string name="fail_reason_vcard_parse_error">"Tidak dapat menghurai vCard dengan alasan yang tidak dijangka."</string>
 	
 	<!-- The failed reason shown when vCard importer doesn't support the format.
 	This may be shown when the vCard is corrupted [CHAR LIMIT=40] -->
@@ -819,28 +819,28 @@ limitations under the License.
 	<!-- The failure message shown when the system could not find any vCard file.
 	(with extension ".vcf" in SDCard.)
 	[CHAR LIMIT=128] -->
-	<string name="import_failure_no_vcard_file" product="default">No vCard file found on the SD card.</string>
+	<string name="import_failure_no_vcard_file" product="default">Tiada fail vCard ditemui dalam kad SD.</string>
 	
 	<!-- Fail reason shown when vCard importer failed to look over meta information stored in vCard file(s). -->
-	<string name="fail_reason_failed_to_collect_vcard_meta_info">"Tidak dapat mengumpul maklumat dari fail vCard."</string>
+	<string name="fail_reason_failed_to_collect_vcard_meta_info">"Tidak dapat mengumpul maklumat meta dari fail vCard yang diberi."</string>
 	
 	<!-- The failed reason shown when the import of some of vCard files failed during multiple vCard
 	files import. It includes the case where all files were failed to be imported. -->
 	<string name="fail_reason_failed_to_read_files">"Satu atau lebih fail tidak dapat di import (%s)."</string>
 	
 	<!-- The failed reason which should not be shown but it may in some buggy condition. [CHAR LIMIT=40] -->
-	<string name="fail_reason_unknown">Kesilapan yang tidak diketahui.</string>
+	<string name="fail_reason_unknown">Ralat yang tidak diketahui.</string>
 	
 	<!-- Dialog title shown when a user is asked to select vCard file. [CHAR LIMIT=25] -->
 	<string name="select_vcard_title">Pilih fail vCard</string>
 	
 	<!-- The title shown when vCard importer is caching files to be imported into local temporary
 	data storage.  [CHAR LIMIT=40] -->
-	<string name="caching_vcard_title">Caching</string>
+	<string name="caching_vcard_title">Mengcache</string>
 	
 	<!-- The message shown when vCard importer is caching files to be imported into local temporary
 	data storage. [CHAR LIMIT=NONE] -->
-	<string name="caching_vcard_message">Caching vCard(s) kedalam telefon\u2026</string>
+	<string name="caching_vcard_message">Mengcache vCard ke telefon\u2026</string>
 	
 	<!-- Description shown when importing vCard data.
 	The argument is the name of a contact which is being read.
@@ -896,7 +896,7 @@ limitations under the License.
 	<string name="confirm_export_message">Senarai kenalan anda akan dieksport ke fail: <xliff:g id="vcard_filename">%s</xliff:g>.</string>
 	
 	<!-- Dialog title shown when exporting Contact data failed. [CHAR LIMIT=20] -->
-	<string name="exporting_contact_failed_title">"TIdak dapat dieksport"</string>
+	<string name="exporting_contact_failed_title">"TIdak dapat eksport"</string>
 	
 	<!-- Dialog message shown when exporting Contact data failed. [CHAR LIMIT=NONE] -->
 	<string name="exporting_contact_failed_message">The contact data wasn\'t exported.\nReason: \"<xliff:g id="fail_reason">%s</xliff:g>\"</string>
@@ -908,10 +908,10 @@ limitations under the License.
 	
 	<!-- The failed reason shown when vCard exporter could not create a file for the vCard since
 	there are too many files relevant to vCard. [CHAR LIMIT=NONE] -->
-	<string name="fail_reason_too_many_vcard" product="nosdcard">Too many vCard files are in the storage.</string>
+	<string name="fail_reason_too_many_vcard" product="nosdcard">Terlalu banyak fail vCard dalam storan.</string>
 	<!-- The failed reason shown when vCard exporter could not create a file for the vCard since
 	there are too many files relevant to vCard. -->
-	<string name="fail_reason_too_many_vcard" product="default">Too many vCard files are on the SD card.</string>
+	<string name="fail_reason_too_many_vcard" product="default">Terlalu banyak fail vCard dalam kad SD.</string>
 	
 	<!-- The failed reason shown when the given file name is too long for the system.
 	The length limit of each file is different in each Android device, so we don't need to
@@ -919,7 +919,7 @@ limitations under the License.
 	<string name="fail_reason_too_long_filename">Nama fail terlalu panjang (\"<xliff:g id="filename">%s</xliff:g>\").</string>
 	
 	<!-- The title shown when exporting vCard is successfuly finished [CHAR LIMIT=40] -->
-	<string name="exporting_vcard_finished_title">Eksport selesai <xliff:g id="filename" example="export.vcf">%s</xliff:g>.</string>
+	<string name="exporting_vcard_finished_title">Selesai mengeksport <xliff:g id="filename" example="export.vcf">%s</xliff:g>.</string>
 	
 	<!-- The title shown when exporting vCard is canceled (probably by a user)
 	The argument is file name the user canceled importing.
@@ -938,7 +938,7 @@ limitations under the License.
 	
 	<!-- The failed reason shown when some error happend during contacts export.
 	Some exact reason must follow this. [CHAR LIMIT=NONE] -->
-	<string name="fail_reason_error_occurred_during_export">Ralat berlaku semasa mengeksport: \"<xliff:g id="exact_reason">%s</xliff:g>\".</string>
+	<string name="fail_reason_error_occurred_during_export">Ralat berlaku ketika mengeksport: \"<xliff:g id="exact_reason">%s</xliff:g>\".</string>
 	
 	<!-- The error reason the vCard composer "may" emit when database is corrupted or
 	something is going wrong. Usually users should not see this text. [CHAR LIMIT=NONE] -->
@@ -947,11 +947,11 @@ limitations under the License.
 	<!-- This error message shown when the user actually have no contact
 	(e.g. just after data-wiping), or, data providers of the contact list prohibits their
 	contacts from being exported to outside world via vcard exporter, etc. [CHAR LIMIT=NONE] -->
-	<string name="composer_has_no_exportable_contact" product="tablet">There are no exportable contacts. If you do have contacts on your tablet, some data providers may not allow the contacts to be exported from the tablet.</string>
+	<string name="composer_has_no_exportable_contact" product="tablet">Tiada kenalan yang dapat dieksport. Jika anda mempunyai kenalan dalam tablet anda, sesetengah pembekal data mungkin tidak benarkan kenalan untuk dieksport daripada tablet.</string>
 	<!-- This error message shown when the user actually have no contact
 	(e.g. just after data-wiping), or, data providers of the contact list prohibits their
 	contacts from being exported to outside world via vcard exporter, etc. [CHAR LIMIT=NONE] -->
-	<string name="composer_has_no_exportable_contact" product="default">There are no exportable contacts. If you do have contacts on your phone, some data providers may not allow the contacts to be exported from the phone.</string>
+	<string name="composer_has_no_exportable_contact" product="default">Tiada kenalan yang dapat dieksport. Jika anda mempunyai kenalan dalam telefon anda, sesetengah pembekal data mungkin tidak benarkan kenalan untuk dieksport daripada telefon.</string>
 	
 	<!-- The error reason the vCard composer may emit when vCard composer is not initialized
 	even when needed.
@@ -999,7 +999,7 @@ limitations under the License.
 	
 	<!-- Shown as a toast when the user taps on a QuickContact icon, and no application
 	was found that could perform the selected action. [CHAR LIMIT=NONE] -->
-	<string name="quickcontact_missing_app">Tiada aplikasi dapat mengendalikan tindakan ini.</string>
+	<string name="quickcontact_missing_app">Tiada app dapat mengendalikan tindakan ini.</string>
 	
 	<!-- Shown as the display name for a person when the name is missing or unknown. [CHAR LIMIT=18]-->
 	<string name="missing_name">(Tiada nama)</string>
@@ -1017,7 +1017,7 @@ limitations under the License.
 	<string name="menu_import_export">Import/Eksport</string>
 	
 	<!-- Dialog title when selecting the bulk operation to perform from a list. [CHAR LIMIT=36] -->
-	<string name="dialog_import_export">Import/Eksport kenalan</string>
+	<string name="dialog_import_export">Import/Eksport Kenalan</string>
 	
 	<!-- Dialog title when importing contacts from an external source. [CHAR LIMIT=36] -->
 	<string name="dialog_import">Import kenalan</string>
@@ -1026,7 +1026,7 @@ limitations under the License.
 	<string name="menu_share">Kongsi</string>
 	
 	<!-- Dialog title when picking the application to share a contact with. -->
-	<string name="share_via">Kongsi kenalan melalui</string>
+	<string name="share_via">Hantar</string>
 	
 	<!-- Toast indicating that sharing a contact has failed. [CHAR LIMIT=NONE]  -->
 	<string name="share_error">"Kenalan ini tidak boleh dikongsi."</string>
@@ -1049,10 +1049,10 @@ limitations under the License.
 	<string name="dialog_new_contact_account">Buat kenalan bawah akaun</string>
 	
 	<!-- Title for the disambiguation dialog that requests the user choose an account for the new group to be created under [CHAR LIMIT=NONE] -->
-	<string name="dialog_new_group_account">Buat kumpulan bawah akaun</string>
+	<string name="dialog_new_group_account">Cipta kumpulan bawah akaun</string>
 	
-	<string name="menu_sync_remove">Keluarkan dari kumpulan penyegerakan</string>
-	<string name="dialog_sync_add">Tambah selarasan kumpulan</string>
+	<string name="menu_sync_remove">Keluarkan penyegerakan kumpulan</string>
+	<string name="dialog_sync_add">Tambah penyegerakan kumpulan</string>
 	<string name="display_more_groups">Lebih kumpulan\u2026</string>
 	
 	<!-- List title for a special contacts group that covers all contacts. [CHAR LIMIT=25] -->
@@ -1064,16 +1064,16 @@ limitations under the License.
 	
 	<!-- Warning message given to users just before they remove a currently syncing
 	group that would also cause all ungrouped contacts to stop syncing.  [CHAR LIMIT=NONE] -->
-	<string name="display_warn_remove_ungrouped">Membuang \"<xliff:g id="group" example="Starred">%s</xliff:g>\" dari penyelarasan akan turut membuang kenalan yang tidak dikumpulkan.</string>
+	<string name="display_warn_remove_ungrouped">Membuang \"<xliff:g id="group" example="Starred">%s</xliff:g>\" dari penyegerakan akan turut membuang kenalan yang tidak dikumpulkan dari penyegerakan.</string>
 	
 	<!-- Title for data source when creating or editing a contact that doesn't
 	belong to a specific account.  This contact will only exist on the phone
 	and will not be synced. -->
-	<string name="account_phone" product="tablet">Tablet-only, unsynced</string>
+	<string name="account_phone" product="tablet">Tablet-sahaja, tidak disegerakkan</string>
 	<!-- Title for data source when creating or editing a contact that doesn't
 	belong to a specific account.  This contact will only exist on the phone
 	and will not be synced. -->
-	<string name="account_phone" product="default">Phone-only, unsynced</string>
+	<string name="account_phone" product="default">Telefon-sahaja, tidak disegerakkan</string>
 	
 	<!-- Action string for calling a custom phone number -->
 	<string name="call_custom">Panggil <xliff:g id="custom">%s</xliff:g></string>
@@ -1102,11 +1102,11 @@ limitations under the License.
 	<!-- Action string for calling a main phone number -->
 	<string name="call_main">Panggil utama</string>
 	<!-- Action string for calling an other fax phone number -->
-	<string name="call_other_fax">Panggil fax</string>
+	<string name="call_other_fax">Panggil faks</string>
 	<!-- Action string for calling a radio phone number -->
 	<string name="call_radio">Panggil radio</string>
 	<!-- Action string for calling a Telex phone number -->
-	<string name="call_telex">Panggil telex</string>
+	<string name="call_telex">Panggil teleks</string>
 	<!-- Action string for calling a TTY/TDD phone number -->
 	<string name="call_tty_tdd">Panggil TTY/TDD</string>
 	<!-- Action string for calling a work mobile phone number -->
@@ -1114,52 +1114,52 @@ limitations under the License.
 	<!-- Action string for calling a work pager phone number -->
 	<string name="call_work_pager">Panggil kerja alat kelui</string>
 	<!-- Action string for calling an assistant phone number -->
-	<string name="call_assistant">Panggilan <xliff:g id="assistant">%s</xliff:g></string>
+	<string name="call_assistant">Panggil <xliff:g id="assistant">%s</xliff:g></string>
 	<!-- Action string for calling a MMS phone number -->
 	<string name="call_mms">Panggil MMS</string>
 	
 	<!-- Action string for sending an SMS to a custom phone number -->
-	<string name="sms_custom">Teks <xliff:g id="custom">%s</xliff:g></string>
+	<string name="sms_custom">Mesej <xliff:g id="custom">%s</xliff:g></string>
 	<!-- Action string for sending an SMS to a home phone number -->
-	<string name="sms_home">Teks rumah</string>
+	<string name="sms_home">Mesej rumah</string>
 	<!-- Action string for sending an SMS to a mobile phone number -->
-	<string name="sms_mobile">Teks mudah alih</string>
+	<string name="sms_mobile">Mesej mudah alih</string>
 	<!-- Action string for sending an SMS to a work phone number -->
-	<string name="sms_work">Teks kerja</string>
+	<string name="sms_work">Mesej kerja</string>
 	<!-- Action string for sending an SMS to a work fax phone number -->
-	<string name="sms_fax_work">Teks faks kerja</string>
+	<string name="sms_fax_work">Mesej faks kerja</string>
 	<!-- Action string for sending an SMS to a home fax phone number -->
-	<string name="sms_fax_home">Teks faks rumah</string>
+	<string name="sms_fax_home">Mesej faks rumah</string>
 	<!-- Action string for sending an SMS to a pager phone number -->
-	<string name="sms_pager">Teks alat kelui</string>
+	<string name="sms_pager">Mesej alat kelui</string>
 	<!-- Action string for sending an SMS to an other phone number -->
-	<string name="sms_other">Teks</string>
+	<string name="sms_other">Mesej</string>
 	<!-- Action string for sending an SMS to a callback number -->
-	<string name="sms_callback">Teks panggilan balik</string>
+	<string name="sms_callback">Mesej panggilan balik</string>
 	<!-- Action string for sending an SMS to a car phone number -->
-	<string name="sms_car">Teks kereta</string>
+	<string name="sms_car">Mesej kereta</string>
 	<!-- Action string for sending an SMS to a company main phone number -->
-	<string name="sms_company_main">Text syarikat utama</string>
+	<string name="sms_company_main">Mesej syarikat utama</string>
 	<!-- Action string for sending an SMS to a ISDN phone number -->
-	<string name="sms_isdn">Teks ISDN</string>
+	<string name="sms_isdn">Mesej ISDN</string>
 	<!-- Action string for sending an SMS to a main phone number -->
-	<string name="sms_main">Teks utama</string>
+	<string name="sms_main">Mesej utama</string>
 	<!-- Action string for sending an SMS to an other fax phone number -->
-	<string name="sms_other_fax">Teks faks</string>
+	<string name="sms_other_fax">Mesej faks</string>
 	<!-- Action string for sending an SMS to a radio phone number -->
-	<string name="sms_radio">Teks radio</string>
+	<string name="sms_radio">Mesej radio</string>
 	<!-- Action string for sending an SMS to a Telex phone number -->
-	<string name="sms_telex">Teks telex</string>
+	<string name="sms_telex">Mesej telex</string>
 	<!-- Action string for sending an SMS to a TTY/TDD phone number -->
-	<string name="sms_tty_tdd">Teks TTY/TDD</string>
+	<string name="sms_tty_tdd">Mesej TTY/TDD</string>
 	<!-- Action string for sending an SMS to a work mobile phone number -->
-	<string name="sms_work_mobile">Teks mudah alih kerja</string>
+	<string name="sms_work_mobile">Mesej kerja mudah alih</string>
 	<!-- Action string for sending an SMS to a work pager phone number -->
-	<string name="sms_work_pager">Teks alat kelui kerja</string>
+	<string name="sms_work_pager">Mesej kerja alat kelui</string>
 	<!-- Action string for sending an SMS to an assistant phone number -->
-	<string name="sms_assistant">Teks <xliff:g id="assistant">%s</xliff:g></string>
+	<string name="sms_assistant">Mesej <xliff:g id="assistant">%s</xliff:g></string>
 	<!-- Action string for sending an SMS to a MMS phone number -->
-	<string name="sms_mms">Teks MMS</string>
+	<string name="sms_mms">Mesej MMS</string>
 	
 	<!-- Generic action string for text messaging a contact. Used by AccessibilityService to announce the purpose of the view. [CHAR LIMIT=NONE] -->
 	<string name="sms">Mesej teks</string>
@@ -1216,7 +1216,7 @@ limitations under the License.
 	<!-- Field title for the street of a structured postal address of a contact -->
 	<string name="postal_street">Jalan</string>
 	<!-- Field title for the PO box of a structured postal address of a contact -->
-	<string name="postal_pobox">PO box</string>
+	<string name="postal_pobox">Kotak PO</string>
 	<!-- Field title for the neighborhood of a structured postal address of a contact -->
 	<string name="postal_neighborhood">Kejiranan</string>
 	<!-- Field title for the city of a structured postal address of a contact -->
@@ -1287,7 +1287,7 @@ limitations under the License.
 	<string name="display_options_sort_by_family_name">Nama keluarga</string>
 	
 	<!-- Label of the "view names as" display option -->
-	<string name="display_options_view_names_as">Paparkan nama kenalan mengikut</string>
+	<string name="display_options_view_names_as">Paparkan nama kenalan sebagai</string>
 	
 	<!-- An allowable value for the "view names as" contact display option  -->
 	<string name="display_options_view_given_name_first">Nama diberi dahulu</string>
@@ -1314,15 +1314,15 @@ limitations under the License.
 	<string name="upgrade_in_progress">Senarai kenalan sedang dikemaskini.</string>
 	
 	<!-- Text shown in the contacts app if the background process updating contacts fails because of memory shortage [CHAR LIMIT=300] -->
-	<string name="upgrade_out_of_memory">Contacts are in the process of being upgraded.
-	\n\nThe upgrade process requires approximately <xliff:g id="size_in_megabytes">%s</xliff:g>
-	MB of internal storage.\n\nChoose one of the following options:</string>
+	<string name="upgrade_out_of_memory">Kenalan dalam proses dinaiktaraf.
+	\n\nProses naiktaraf memerlukan kira-kira <xliff:g id="size_in_megabytes">%s</xliff:g>
+	MB daripada storan dalaman.\n\nPilih satu daripada pilihan berikut:</string>
 	
 	<!-- Button shown in the contacts app if the background process updating contacts fails because of memory shortage [CHAR LIMIT=50] -->
 	<string name="upgrade_out_of_memory_uninstall">Membuang beberapa aplikasi</string>
 	
 	<!-- Button shown in the contacts app if the background process updating contacts fails because of memory shortage [CHAR LIMIT=50] -->
-	<string name="upgrade_out_of_memory_retry">Cuba lagi menaik taraf</string>
+	<string name="upgrade_out_of_memory_retry">Cuba lagi menaiktaraf</string>
 	
 	<!-- Title shown in the search result activity of contacts app while searching.  [CHAR LIMIT=20] -->
 	<string name="search_results_searching">Mencari\u2026</string>
@@ -1340,7 +1340,7 @@ limitations under the License.
 	<string name="menu_select_none">Nyahpilih semua</string>
 	
 	<!-- The text displayed when the contacts list is empty while displaying only selected contacts in multiple picker -->
-	<string name="no_contacts_selected">Kenalan belum dipilih.</string>
+	<string name="no_contacts_selected">Tiada kenalan dipilih.</string>
 	
 	<!-- The add field button shown in the editor under each editable Raw Contact [CHAR LIMIT=30] -->
 	<string name="add_field">Tambah bidang lain</string>
@@ -1390,11 +1390,11 @@ limitations under the License.
 	<!-- The message in a confirmation dialog shown when the user selects a
 	contact aggregation suggestion in Contact editor. [CHAR LIMIT=512]-->
 	<string name="aggregation_suggestion_edit_dialog_title">Sama nama</string>
-	<string name="aggregation_suggestion_edit_dialog_message">Tukar kepada suntingan kenalan 
-	sama-nama? Maklumat yang dimasukkan setakat ini akan di salin.</string>
+	<string name="aggregation_suggestion_edit_dialog_message">Tukar kepada mengedit kenalan 
+	sama-nama? Maklumat yang dimasukkan setakat ini akan disalin.</string>
 	
 	<!-- The button that creates a local copy of a corporate contact. [CHAR LIMIT=40]-->
-	<string name="menu_copyContact">Salin ke Kenalan saya</string>
+	<string name="menu_copyContact">Salin kepada Kenalan saya</string>
 	
 	<!-- The button that adds a contact to the predefined group "My Contacts" (as this is
 	mostly interesting for Google-contacts, this should have the same description as the
@@ -1464,10 +1464,10 @@ limitations under the License.
 	<string name="non_phone_caption">Nombor telefon</string>
 	
 	<!-- Button to add a phone number to contacts [CHAR LIMIT=25] -->
-	<string name="non_phone_add_to_contacts">Tambah pada kenalan</string>
+	<string name="non_phone_add_to_contacts">Tambah kepada kenalan</string>
 	
 	<!-- Title of the activity that allows the user to confirm the addition of a detail to 1 existing contact [CHAR LIMIT=25] -->
-	<string name="activity_title_confirm_add_detail">Tambah pada kenalan</string>
+	<string name="activity_title_confirm_add_detail">Tambah kepada kenalan</string>
 	
 	<!-- Button to close without add a phone number to contacts [CHAR LIMIT=25] -->
 	<string name="non_phone_close">Tutup</string>
@@ -1476,7 +1476,7 @@ limitations under the License.
     <string name="widget_name_and_phonetic"><xliff:g id="display_name" example="John Huber">%1$s</xliff:g> (<xliff:g id="phonetic_name">%2$s</xliff:g>)</string>
 	
 	<!-- Checkbox whether to provide a year for a birthday [CHAR LIMIT=30] -->
-	<string name="date_year_toggle">Tambah tahun</string>
+	<string name="date_year_toggle">Berikan tahun</string>
 	
 	<!-- Label for the widget that shows picture and social status of a contact [CHAR LIMIT=20] -->
 	<string name="social_widget_label">Kenalan</string>
@@ -1486,7 +1486,7 @@ limitations under the License.
 	
 	<!-- Button shown on the main contacts screen when there are no contacts on the device.
 	Creates a new contact. [CHAR LIMIT=128] -->
-	<string name="contacts_unavailable_create_contact">Buat kenalan baru</string>
+	<string name="contacts_unavailable_create_contact">Cipta kenalan baru</string>
 	
 	<!-- Button shown on the main contacts screen when there are no contacts on the device.
 	Navigates to account setup [CHAR LIMIT=128] -->
@@ -1516,7 +1516,7 @@ limitations under the License.
 	
 	<!-- Subtitle of the group detail page that describes how many people are in the current group [CHAR LIMIT=30] -->
 	<plurals name="num_contacts_in_group">
-		<item quantity="one"><xliff:g id="count">%1$d</xliff:g> orang daripada from <xliff:g id="account_type">%2$s</xliff:g></item>
+		<item quantity="one"><xliff:g id="count">%1$d</xliff:g> orang daripada <xliff:g id="account_type">%2$s</xliff:g></item>
 		<item quantity="other"><xliff:g id="count">%1$d</xliff:g> orang daripada <xliff:g id="account_type">%2$s</xliff:g></item>
 	</plurals>
 	
@@ -1566,8 +1566,8 @@ limitations under the License.
 	
 	<!-- Title of the notification of new voicemails. [CHAR LIMIT=30] -->
 	<plurals name="notification_voicemail_title">
-		<item quantity="one">Voicemail</item>
-		<item quantity="other"><xliff:g id="count">%1$d</xliff:g> Voicemails</item>
+		<item quantity="one">Mel suara</item>
+		<item quantity="other"><xliff:g id="count">%1$d</xliff:g> Mel suara</item>
 	</plurals>
 	
 	<!-- Used in the notification of a new voicemail for the action to play the voicemail. -->
@@ -1583,13 +1583,13 @@ limitations under the License.
 	-->
 
 	<!-- Text used in the ticker to notify the user of the latest voicemail. [CHAR LIMIT=30] -->
-	<string name="notification_new_voicemail_ticker">Mel suara baru dari <xliff:g id="caller">%1$s</xliff:g></string>
+	<string name="notification_new_voicemail_ticker">Mel suara baru daripada <xliff:g id="caller">%1$s</xliff:g></string>
 	
 	<!-- Message to show when there is an error playing back the voicemail. [CHAR LIMIT=40] -->
 	<string name="voicemail_playback_error">"Tidak dapat memainkan mel suara."</string>
 	
 	<!-- Message to display before we have prepared the media player, i.e. before we know duration. [CHAR LIMIT=40] -->
-	<string name="voicemail_buffering">Buffering\u2026</string>
+	<string name="voicemail_buffering">Menimbal\u2026</string>
 	
 	<!-- Message to display whilst we are waiting for the content to be fetched. [CHAR LIMIT=40] -->
 	<string name="voicemail_fetching_content">Mencapai mel suara\u2026</string>
@@ -1601,7 +1601,7 @@ limitations under the License.
 	<string name="call_log_new_header">Baru</string>
 	
 	<!-- The header in the call log used to identify items that have been already consumed [CHAR LIMIT=10] -->
-	<string name="call_log_old_header">Lama</string>
+	<string name="call_log_old_header">Lebih lama</string>
 	
 	<!--  Voicemail status message shown at the top of call log to notify the user that no new
 	voicemails are currently available. This can happen when both notification as well as data
@@ -1616,7 +1616,7 @@ limitations under the License.
 	<string name="voicemail_status_configure_voicemail">Sediakan mel suara anda.</string>
 	<!--  Voicemail status message shown at the top of call details screen to notify the user that
 	the audio of this voicemail is not available. [CHAR LIMIT=64] -->
-	<string name="voicemail_status_audio_not_available">Tiada audio.</string>
+	<string name="voicemail_status_audio_not_available">Tiada audio tersedia.</string>
 	
 	<!--  User action prompt shown next to a voicemail status message to let the user configure
 	visual voicemail. [CHAR LIMIT=20] -->
@@ -1634,26 +1634,26 @@ limitations under the License.
 	<!--  Faster than normal pvoicemail playback speed. [CHAR LIMIT=30] -->
 	<string name="voicemail_speed_faster">Kelajuan pantas</string>
 	<!--  Fastest voicemail playback speed. [CHAR LIMIT=30] -->
-	<string name="voicemail_speed_fastest">Kelajuan terpantas</string>
+	<string name="voicemail_speed_fastest">Kelajuan paling pantas</string>
 	
 
 	<!-- Hint text in the group name box in the edit group view. [CHAR LIMIT=20]-->
 	<string name="group_name_hint">"Nama kumpulan"</string>
 	
 	<!-- The "file name" displayed for vCards received directly via NFC [CHAR LIMIT=16] -->
-	<string name="nfc_vcard_file_name">Kenalan diterima dari NFC</string>
+	<string name="nfc_vcard_file_name">Kenalan diterima menerusi NFC</string>
 	
 	<!-- Menu item used to show only voicemails in the call log. [CHAR LIMIT=30] -->
-	<string name="menu_show_voicemails_only">Papar mel suara sahaja</string>
+	<string name="menu_show_voicemails_only">Tunjuk mel suara sahaja</string>
 	
 	<!-- Menu item used to show all calls in the call log. [CHAR LIMIT=30] -->
-	<string name="menu_show_all_calls">Papar semua panggilan</string>
+	<string name="menu_show_all_calls">Tunjuk semua panggilan</string>
 	
 	<!--  Used to display as default status when the contact is available for chat [CHAR LIMIT=19] -->
-	<string name="status_available">Wujud</string>
+	<string name="status_available">Tersedia</string>
 	
 	<!--  Used to display as default status when the contact is away or idle for chat [CHAR LIMIT=19] -->
-	<string name="status_away">Away</string>
+	<string name="status_away">Jauh</string>
 	
 	<!--  Used to display as default status when the contact is busy or Do not disturb for chat [CHAR LIMIT=19] -->
 	<string name="status_busy">Sibuk</string>
@@ -1760,10 +1760,10 @@ limitations under the License.
 	
 	<!-- String describing the text on the header of the profile contact in the contacts list
 	This may be programatically capitalized. [CHAR LIMIT=20] -->
-	<string name="user_profile_contacts_list_header" msgid="9154761216179882405">Me</string>
+	<string name="user_profile_contacts_list_header" msgid="9154761216179882405">Saya</string>
 	
 	<!-- Header label in the contact editor for a profile that is local to the device only (and not associated with any account) [CHAR LIMIT=25] -->
-	<string name="local_profile_title">Profil saya</string>
+	<string name="local_profile_title">Profil tempatan saya</string>
 	
 	<!-- Header label in the contact editor for a profile that comes from an external third-party app whose name is given by source [CHAR LIMIT=20] -->
 	<string name="external_profile_title">Profil <xliff:g id="external_source">%1$s</xliff:g> saya</string>
@@ -1788,7 +1788,7 @@ limitations under the License.
 	<string name="contact_editor_prompt_one_account">Kenalan baru akan di <xliff:g id="ACCOUNT_NAME">%1$s</xliff:g> segerakkan</string>
 	
 	<!-- Message in the contact editor prompt that asks the user which account they want to save the newly created contact to. [CHAR LIMIT=NONE] -->
-	<string name="contact_editor_prompt_multiple_accounts">Sila pilih akaun kenalan untuk disimpan ke</string>
+	<string name="contact_editor_prompt_multiple_accounts">Pilih akaun kenalan untuk disimpan ke</string>
 	
 	<!-- Button label to indicate that the user wants to save the newly created contact locally (instead of backing it up online) [CHAR LIMIT=20] -->
 	<string name="keep_local">Simpan tempatan</string>
@@ -1801,22 +1801,22 @@ limitations under the License.
 	
 	<!-- Dialog message which is shown when the user tries to make a phone call
 	to prohibited phone numbers [CHAR LIMIT=NONE] -->
-	<string name="dialog_phone_call_prohibited_message" msgid="4313552620858880999">Call not sent</string>
+	<string name="dialog_phone_call_prohibited_message" msgid="4313552620858880999">Panggilan tidak dihantar</string>
 	
 	<!-- Dialog message which is shown when the user tries to check voicemail
 	while the system isn't ready for the access. [CHAR LIMIT=NONE] -->
-	<string name="dialog_voicemail_not_ready_message">Untuk tetapkan mel suara, sila pergi ke Menu &gt; Tetapan.</string>
+	<string name="dialog_voicemail_not_ready_message">Untuk pasang mel suara, sila pergi ke Menu &gt; Tetapan.</string>
 	
 	<!-- Dialog message which is shown when the user tries to check voicemail
 	while the system is in airplane mode. The user cannot access to
 	voicemail service in Airplane mode. [CHAR LIMI=NONE] -->
-	<string name="dialog_voicemail_airplane_mode_message">Untuk memanggil mel suara, sila tutup mod pesawat.</string>
+	<string name="dialog_voicemail_airplane_mode_message">Untuk memanggil mel suara, sila tutup Mod Pesawat terlebih dahulu.</string>
 	
 	<!-- Content description for the fake action menu overflow button.
 	This should be same as the description for the real action menu
 	overflow button available in ActionBar.
 	[CHAR LIMIT=NONE] -->
-	<string name="action_menu_overflow_description" msgid="2295659037509008453">More options</string>
+	<string name="action_menu_overflow_description" msgid="2295659037509008453">Lagi pilihan</string>
 	
 	<!-- Dialer related resources -->
 	<string name="summary_kind_title">Ringkasan</string>
@@ -1862,27 +1862,28 @@ limitations under the License.
 	<string name="t9_search_guide_pinyin">Taip 7 dan 5 untuk mencari, cth. Steve Jobs</string>
 	<string name="t9_search_guide_zhuyin">Taip 7 dan 5 untuk mencari, cth. Steve Jobs</string>
 	<string name="date_time_set">Set</string>
-	<string name="sim_no_contact">Tiada kenalan pada kad SIM</string>
-	<string name="sim_indexed_contact_not_exist">Kedudukan %1$d pada kad SIM tidak sah, sepatutnya di antara %2$d dan %3$d.</string>
+	<string name="sim_no_contact">Tiada kenalan dalam kad SIM</string>
+	<string name="sim_indexed_contact_not_exist">Kedudukan %1$d dalam kad SIM tidak sah, sepatutnya di antara %2$d dan %3$d.</string>
 	<string name="sim_contact_search_error">Ralat berlaku</string>
 	<string name="service_provider">Directori</string>
 	
 	<string name="zero_items_selected">Pilih item</string>
 	<plurals name="number_of_items_selected">
-		<item quantity="one">%1$d item dipilih</item>
-		<item quantity="other">%1$d item dipilih</item>
+		<item quantity="one">%1$d dipilih</item>
+		<item quantity="other">%1$d dipilih</item>
 	</plurals>
 	
 	<string name="select_all">Pilih semua</string>
-	<string name="deselect_all">Batal pilih semua</string>
+	<string name="deselect_all">Nyahpilih semua</string>
 	<string name="select_none">Tiada apa-apa yang dipilih</string>
 	<string name="toast_finish_delete_call_log">Log panggilan telah dipadam</string>
 	<string name="confirm_delete_contact_all_call_logs">Padam log panggilan?</string>
 	<string name="confirm_delete_selected_all_call_logs">Padam log panggilan?</string>
 	<string name="calllog_menu_blacklist">Sekat</string>
 	<string name="calllog_menu_edit_before_call">Edit</string>
-	<string name="calllog_menu_send_sms">Hantar pesanan</string>
+	<string name="calllog_menu_send_sms">Hantar mesej</string>
 	<string name="menu_call_ip_number">Dail panggilan IP (dail %s)</string>
+    <string name="menu_dial_ip_number">Dail panggilan IP</string>
 	<string name="delete_contact_calllog_title">Padam log panggilan?</string>
 	<string name="delete_unknown_contact_calllog_title">Padam log panggilan kenalan yang tidak dikenali?</string>
 	
@@ -1933,12 +1934,12 @@ limitations under the License.
 	<!-- 联系人设置 -->
 	<string name="preference_import">Import</string>
 	<string name="preference_export">Eksport</string>
-	<string name="preference_others">Lain</string>
+	<string name="preference_others">Lain-lain</string>
 	<string name="wipe_data">Kosongkan data</string>
 	<string name="check_unsynchronized_accounts">Ingatkan saya untuk segerak akaun</string>
 	<string name="frequency_three_days">Setiap 3 hari</string>
 	<string name="frequency_weekly">Setiap minggu</string>
-	<string name="frequency_none">Tidak pernah</string>
+	<string name="frequency_none">Jangan sekali-kali</string>
 	<string name="dirty_contacts_notification_title">Segerak kenalan?</string>
 	<string name="dirty_contacts_notification_description">%d perubahan tidak disegerakkan dengan akaun Xiaomi anda.</string>
 	<string name="dirty_contacts_notification_message">(Anda boleh matikan peringatan ini dalam Tetapan)</string>
@@ -1954,9 +1955,9 @@ limitations under the License.
 	<string name="delete_duplicate_message">"Menggabungkan kenalan\u2026"</string>
 	<string name="label_no_duplicate_contacts">Tiada kenalan berulang ditemui</string>
 	<string name="quit_dialog_confirm_title">Anda tidak menggabungkan sebarang kenalan</string>
-
+    <string name="label_duplicate_count">(%1$d)</string>
 	<string name="preference_import_export">Import/Eksport</string>
-	<string name="preference_import_export_title">Import/Eksport kenalan</string>
+	<string name="preference_import_export_title">Import/Eksport Kenalan</string>
 	<string name="import_vcard_description" product="nosdcard">Import kenalan anda dari storan dalaman telefon</string>
 	<string name="import_vcard_description" product="default">Import kenalan anda dari kad SD</string>
 	<string name="export_vcard_description" product="nosdcard">Eksport vCard ke storan dalaman telefon</string>
@@ -2003,16 +2004,16 @@ limitations under the License.
 	<string name="preference_telocation_summary_countrycode_on">Auto-dail kod negara</string>
 	<string name="preference_telocation_summary_countrycode_off">Jangan auto-dail kod negara</string>
 	<string name="preference_phone">Telefon</string>
-	<string name="preference_dial_pad_touch_tone_title">Nada sentuh dial pad</string>
+	<string name="preference_dial_pad_touch_tone_title">Nada sentuh pad dail</string>
 	<string name="preference_auto_ip_title">Awalan IP automatik</string>
 	<string name="preference_auto_ip_summary_disable">Dimatikan</string>
 	<string name="preference_auto_ip_summary_on">Awalan IP karier: %s</string>
 	<string name="preference_phone_more_title">Tetapan panggilan</string>
-	<string name="preference_dial_pad_touch_tone_switch">Nada sentuh dial pad</string>
+	<string name="preference_dial_pad_touch_tone_switch">Nada sentuh pad dail</string>
 	<string name="preference_tone_title">Nada</string>
 	<string name="preference_dial_pad_touch_tone_default">Lalai</string>
-	<string name="preference_dial_pad_touch_tone_piano">Bunyi piano</string>
-	<string name="preference_dial_pad_touch_tone_human">Suara manusia</string>
+	<string name="preference_dial_pad_touch_tone_piano">Kekunci piano</string>
+	<string name="preference_dial_pad_touch_tone_human">Suara</string>
 	<string name="ic_menu_done">Selesai</string>
 	<string name="cloud_antispam_title" >Kenalpasti nombor tidak dikenali</string>
 	
@@ -2027,24 +2028,24 @@ limitations under the License.
 	<string name="option_delete_contact">Padam</string>
 	<string name="option_send_to_desktop">Tempatkan di Skrin Utama</string>
 	<string name="option_send_to_others">Majukan</string>
-	<string name="option_not_star">Buang dari kegemaran</string>
+	<string name="option_not_star">Buang dari Kegemaran</string>
 	<string name="option_not_in_group">Keluarkan</string>
 	
 	<!-- Group long click menu -->
 	<string name="option_view_group">Papar</string>
-	<string name="option_rename_group">Namakan semula</string>
+	<string name="option_rename_group">Namakan Semula</string>
 	<string name="option_delete_group">Padam</string>
 	
 	<!-- Delete Contact -->
 	<string name="deleteConfirmation_title">Padam</string>
 	<string name="readOnlyContactDeleteConfirmationDetail">\"%s\" mengandungi maklumat daripada berbilang akaun. Maklumat daripada akaun baca-sahaja akan disembunyikan dalam senarai kenalan anda.</string>
-	<string name="multipleContactDeleteConfirmationDetail">Memadam \"%s\" akan memadam maklumat daripada berbilang akaun.</string>
+	<string name="multipleContactDeleteConfirmationDetail">Memadamkan \"%s\" akan memadam maklumat daripada berbilang akaun.</string>
 	<string name="deleteConfirmationDetail">Padam \"%s\"?.</string>
 	
 	<!-- 编辑称呼 -->
 	<string name="nickname_picker_name_column">Nama kenalan</string>
 	<string name="nickname_picker_nickname_column">Gelaran</string>
-	<string name="not_applied">Tidak digunakan</string>
+	<string name="not_applied">Tidak diaplikasikan</string>
 	<string name="toast_for_saving_nickname">Nama samaran disimpan</string>
 	<string name="toast_for_failed_saving_nickname">Gagal untuk menyimpan nama samaran</string>
 	<string name="nickname_editor_title">Edit nama samaran</string>
@@ -2057,7 +2058,7 @@ limitations under the License.
 	<string name="open_contact">Lihat kenalan</string>
 	<string name="send_contact_shortcut_todesktop_success">Ditambah ke Skrin Utama</string>
 	<!-- Datetime picker -->
-	<string name="date_picker_label">Ingatkan 3-hari sebelum dan pada hari</string>
+	<string name="date_picker_label">Ingatkan saya 3 hari sebelum dan pada hari</string>
 	
 	<!-- 联系人详情 -->
 	<string name="today">Hari ini</string>
@@ -2065,7 +2066,7 @@ limitations under the License.
 	<string name="ringLabelsGroup">Nada dering</string>
 	<string name="default_ringtone">Nada dering lalai</string>
 	<string name="recent_number">Terkini</string>
-	<string name="cloud_antispam_mark" >Label sebagai spam</string>
+	<string name="cloud_antispam_mark" >Labelkan sebagai spam</string>
 	<string name="antispam_mark_my_contribution">Tunjuk pengguna lain yang saya labelkan nombor ini</string>
 	<string name="antispam_provider_format">Dilabel sebagai spam oleh %s</string>
 	<string name="type_mx_msg">Mesej Cloud</string>
@@ -2118,24 +2119,24 @@ limitations under the License.
 	<string name="btn_rotation">Putaran</string>
 	<string name="contact_pick_photo">Foto</string>
 	<string name="select_photo_from_photo_package">Pilih foto daripada pakej foto</string>
-	<string name="select_new_photo_from_photo_package">Lihat folder</string>
-	<string name="photo_package_activity_title">Lihat folder</string>
+	<string name="select_new_photo_from_photo_package">Jelajah folder</string>
+	<string name="photo_package_activity_title">Jelajah folder</string>
 	<string name="btn_delete_one_contact">Padam kenalan</string>
 	<string name="btn_delete_multi_contacts">Padam %d kenalan</string>
 	<string name="btn_split_contact">Asingkan</string>
 	<string name="use_photo_as_primary2">Gunakan %1$s\'s foto kenalan</string>
-	<string name="label_custom_type">Tersendiri</string>
+	<string name="label_custom_type">Khas</string>
 	
 	<string name="pkgLabel">Kenalan dan pendail</string>
 	
 	<!-- Smart Groups -->
 	<string name="preference_smart_group_title">Kumpulan pintar</string>
 	<string name="preference_smart_group_company_title">Mengikut syarikat</string>
-	<string name="preference_smart_group_company_summary">Kumpulan mengikut syarikat</string>
+	<string name="preference_smart_group_company_summary">Kumpul mengikut syarikat</string>
 	<string name="preference_smart_group_location_title">Mengikut lokasi</string>
-	<string name="preference_smart_group_location_summary">Kumpulan mengikut kod kawasan</string>
+	<string name="preference_smart_group_location_summary">Kumpul mengikut kod kawasan</string>
 	<string name="preference_smart_group_frequency_title">Mengikut yang terkini</string>
-	<string name="preference_smart_group_frequency_summary">Kumpulan mengikut yang terkini</string>
+	<string name="preference_smart_group_frequency_summary">Kumpul mengikut yang terkini</string>
 	
 	<plurals name="smart_group_member_count">
 		<item quantity="one">1 orang</item>
@@ -2154,7 +2155,7 @@ limitations under the License.
 	<string name="smart_group_frequency_3">Dalam tempoh 6 bulan</string>
 	<string name="smart_group_frequency_4">Lebih 6 bulan</string>
 	
-	<string name="contact_detail_calllog_call_record_tips">Rekod panggilan</string>
+	<string name="contact_detail_calllog_call_record_tips">Rakam panggilan</string>
 	<string name="contact_detail_calllog_call_note_tips">Nota</string>
 	
 	<!-- 蓝牙从其它手机导入联系人 -->
@@ -2163,10 +2164,10 @@ limitations under the License.
 	<string name="device_version_title">Pilih model</string>
 	<string name="device_list_title">Pilih telefon</string>
 	<string name="next">Seterusnya</string>
-	<string name="previous">Sebelumnya</string>
+	<string name="previous">Terdahulu</string>
 	<string name="scan">Imbas</string>
 	<string name="device_bluetooth_title">Pindah kenalan</string>
-	<string name="device_version_header_no_bluetooth">Import kenalan dari kad SIM</string>
+	<string name="device_version_header_no_bluetooth">Import kenalan menggunakan kad SIM</string>
 	<string name="device_version_header_bluetooth">Pastikan Bluetooth dihidupkan</string>
 	
 	<!-- DeviceListActivity -->
@@ -2189,7 +2190,7 @@ limitations under the License.
 	<string name="device_other_title">Telefon lain</string>
 	<string name="device_other_guide">Jika telefon anda tidak tersenarai, sila gunakan langkah dibawah</string>
 	<string name="my_phone_provider_bluetooth">Telefon saya ada Bluetooth</string>
-	<string name="my_phone_not_provider_bluetooth">Telefon tidak mempunyai Bluetooth</string>
+	<string name="my_phone_not_provider_bluetooth">Telefon saya tidak mempunyai Bluetooth</string>
 	<string name="other_phone">Telefon lain</string>
 	<string name="device_import_title">Import</string>
 	<string name="device_import_progress_begin_message">Mengimport\u2026</string>
@@ -2199,7 +2200,7 @@ limitations under the License.
 	<string name="hint_distance">kekalkan jarak</string>
 	<string name="hint_more_contact">Gabung kenalan berulang</string>
 	<string name="device_import_account_dialog_title">Pilih akaun</string>
-	<string name="device_import_account_dialog_title_suffix">\n(menjumpai %1$s kenalan)</string>
+	<string name="device_import_account_dialog_title_suffix">\n(ditemui %1$s kenalan)</string>
 	<string name="device_import_local_account">Akaun tempatan</string>
 	<string name="import_name">Nama</string>
 	<string name="import_percent">0%</string>
@@ -2212,6 +2213,7 @@ limitations under the License.
 	<string name="device_import_done_toast">%1$d kenalan di import</string>
 	<string name="device_import_progress_toast">%1$d kenalan di import</string>
 	<string name="no_contact_in_other_phone">Tiada kenalan dikesan</string>
+    <string name="no_connection_dialog_title">Sambungan Bluetooth gagal</string>
 	
 	<!-- Import Weibo contacts -->
 	<string name="sina_weibo">Sina Weibo</string>
@@ -2231,7 +2233,7 @@ limitations under the License.
 	<string name="add_xiaomi_account_dialog_btn">Guna akaun Xiaomi</string>
 	<string name="keep_local_btn">Simpan dalam telefon sahaja</string>
 	
-	<string name="batch_delete">Padam secara berkumpulan</string>
+	<string name="batch_delete">Padam secara pukal</string>
 	<string name="batch_delete_msg">Padam %d kenalan? \n\n Data kenalan tersimpan di akaun Xiaomi anda juga akan dipadamkan.</string>
 	
 	<string name="starred_contacts">Kegemaran</string>
@@ -2251,7 +2253,7 @@ limitations under the License.
 	<string name="import_all_sim_entries_miui">Import semua kenalan</string>
 	<string name="import_sim_entry_miui">Import</string>
 	<string name="delete_sim_entry_miui">Buang</string>
-	<string name="simContacts_airplaneMode">Untuk mengimport kenalan dari kad SIM, sila matikan mod Pesawat.</string>
+	<string name="simContacts_airplaneMode">Untuk mengimport kenalan dari kad SIM, sila matikan Mod Pesawat.</string>
 	<string name="readingSimContacts">Membaca kad SIM\u2026</string>
 	<string name="confirm_delete_sim_entry_miui">Buang %d kenalan terpilih dalam kad SIM?</string>
 	<string name="importing_sim_contacts_miui">Mengimport kenalan daripada kad SIM\u2026</string>
@@ -2287,9 +2289,9 @@ limitations under the License.
 	<string name="sim_contact_existing">Kenalan telah wujud</string>
 	<string name="sim_contact_invalid">Kenalan SIM tidak sah</string>
 	
-	<string name="sim_error_generic_failure">Kegagalan berlaku.</string>
+	<string name="sim_error_generic_failure">Ralat berlaku.</string>
 	<string name="sim_error_storage_full">Storan penuh</string>
-	<string name="sim_error_not_ready">Memasukkan kenalan SIM\u2026</string>
+	<string name="sim_error_not_ready">Memuatkan kenalan SIM\u2026</string>
 	<string name="sim_error_text_too_long">Nama terlalu panjang</string>
 	<string name="sim_error_number_too_long">Nombor terlalu panjang</string>
 	<string name="sim_error_email_too_long">E-mel terlalu panjang</string>
@@ -2312,4 +2314,5 @@ limitations under the License.
 	<string name="yellowpage_navigation_search_result_service_error">Servis tidak tersedia</string>
 	<string name="yellowpage_navigation_search_result_unknown_error">Ralat tidak diketahui</string>
 	<string name="yellowpage_navigation_menu_order">Tempahan saya</string>
+    <string name="yellowpage_navigation_send_to_desktop_succeeded">Ditambah ke Skrin Utama</string>
 </resources>
