@@ -57,6 +57,13 @@
 	<!-- Display Settings -->
 	<string name="launcher_settings_title">Pelancar</string>
 	<string name="screen_timeout_title">Mod Tidur</string>
+    <string name="touch_title">Sentuh</string>
+    <string name="touch_sensitive_title">Mod Sarung Tangan</string>
+    <string name="touch_sensitive_summary">Jadikan skrin sesentuh lebih sensitif untuk hidupkan operasi ketika anda memakai sarung tangan</string>
+    <string name="touch_sensitive_turn_off_title">Mod Sarung Tangan ditutup</string>
+    <string name="touch_sensitive_turn_off_summary">Tutup untuk halang dail poket juga?</string>
+    <string name="touch_sensitive_turn_off_confirm">OK</string>
+    <string name="touch_sensitive_turn_off_cancel">Batal</string>
 	<string name="screen_never_timeout_title">Jangan Tidur</string>
 	<string name="screen_on_proximity_sensor_title">Cegah Dail Poket</string>
 	<string name="screen_on_proximity_sensor_summary">Telefon akan automatik dikunci apabila dimasukkan dalam poket</string>
@@ -71,7 +78,7 @@
 	<string name="key_settings_title">Butang</string>
 	<string name="key_settings">Butang</string>
 	<string name="screen_key_long_press">Tekan lama butang navigasi</string>
-	<string name="screen_key_long_press_action">Fungsi pencetus</string>
+	<string name="screen_key_long_press_action">Fungsi Pencetus</string>
 	<string name="menu_key">Menu</string>
 	<string name="home_key">Home</string>
 	<string name="back_key">Back</string>
@@ -118,14 +125,15 @@
 	<string name="lock_settings_picker_settings">Set kunci skrin</string>
 	<string name="lock_screen_unlock_show">Lumpuhkan leretan skrin</string>
 	<string name="lock_screen_unlock_show_summary">Pergi terus ke Skrin Utama atau input kata laluan ketika bangun</string>
-	<string name="date_time_settings">Tarikh &amp; masa</string>
-	<string name="timezone_settings">Zon waktu</string>
+	<string name="date_time_settings">Tarikh &amp; Masa</string>
+	<string name="timezone_settings">Zon Waktu</string>
 	<string name="security_privacy_settings_title">Sekuriti</string>
 	<string name="unlock_set_unlock_none_title">Tiada</string>
 	<string name="nearby_wifi">Rangkaian yang tersedia</string>
 	<string name="unlock_set_enter_system">Langkau kunci skrin</string>
 	<string name="unlock_set_enter_system_summary">Pergi terus ke Skrin Utama bila terjaga</string>
 	<string name="forget_wifi_message">Telefon anda akan berhenti menyambung ke rangkaian ini secara automatik.</string>
+    <string name="button_disconnect_network">Diputuskan dari rangkaian</string>
 	<string name="no_nearby_wifi">Tiada rangkaian dikesan.</string>
 	<string name="manually_add_network">Tambah rangkaian</string>
 	<string name="network_detail"><xliff:g id="NETWORK">%s</xliff:g> Butiran rangkaian</string>
@@ -140,7 +148,7 @@
 	<string name="lockpattern_settings_enable_power_button_instantly_locks">Butang Power kuncikan skrin</string>
 	
 	<!-- Led Settings -->
-	<string name="incoming_call_vibrate_abbreviation">"Panggilan"</string>
+	<string name="incoming_call_vibrate_abbreviation">"Panggilan "</string>
 	<string name="notification_vibrate_abbreviation">"Notifikasi "</string>
 	<string name="mms_vibrate_abbreviation">"Mesej "</string>
 	<!-- Sound settings screen, breathing light color title -->
@@ -152,19 +160,19 @@
 	<string name="breathing_light_freq_title">Kekerapan LED berkelip</string>
 	<!-- Sound settings screen, breathing light freq summary-->
 	<string name="breathing_light_freq_summary">Berdenyut apabila ada notifikasi baru</string>
-	<string name="led_settings">Lampu notifikasi</string>
+	<string name="led_settings">Lampu Notifikasi</string>
 	<string name="led_colors_summary">Notifikasi</string>
 	<string name="led_frequence_summary">Menetapkan jarak masa di antara LED berkelip</string>
-	<string name="led_pulse_summary">Apabila notifikasi baru diterima, kelipkan nadi LED</string>
+	<string name="led_pulse_summary">Apabila notifikasi baru diterima, kelipkan denyut LED</string>
 	<string name="show_rounded_corners">Papar sudut bulat</string>
 	<string name="pref_operational_key">Kekunci pengendalian</string>
-	<string name="pref_button_light">Butang lampu</string>
+	<string name="pref_button_light">Butang Lampu</string>
 	<string name="pref_button_light_summary">Penunjuk kekunci Menu, Home dan Back </string>
 	<string name="button_light_timeout">Tetapan cahaya butang</string>
 	<string name="screen_button_key">Kekunci maya skrin</string>
 	<string name="screen_button_custom">Sesuaikan posisi kekunci skrin</string>
 	
-	<string name="headset_settings">"Fon kepala"</string>
+	<string name="headset_settings">"Fon Kepala"</string>
 	<string name="headset_function">"Fungsi butang"</string>
 	<string name="headset_mode_volume">"Kawal aras volum"</string>
 	<string name="headset_mode_music">"Kawal Pemain Muzik"</string>
@@ -214,7 +222,7 @@
 	<string name="vibrate_in_silent_title">Bergetar dalam Mod Senyap</string>
 	<!-- Vibrate in normal title -->
 	
-	<string name="vibrate_in_normal_title">Bergetar ketika berdering</string>
+	<string name="vibrate_in_normal_title">Bergetar ketika Berdering</string>
 	<string name="silent_mode_title">Mod Senyap</string>
 	
 	<!-- Broadcom, WAPI -->
@@ -224,12 +232,12 @@
 	<string name="please_type_passphrase">Kata Laluan Wi-Fi</string>
 
 	<!-- Wi-Fi settings screen, connect to network dialog box, spinner -->
-	<string name="wifi_certificate">Perakuan</string>
+	<string name="wifi_certificate">Sijil</string>
 	
 	<!-- Title of the WAPI certificate manage -->
 	<string name="wifi_wapi_cert_mgmt_titlebar">WAPI Certificate Management</string>
 	<!-- Action message of the install WAPI certificate -->
-	<string name="wifi_wapi_cert_install">Memasang Perakuan WAPI</string>
+	<string name="wifi_wapi_cert_install">Memasang Sijil WAPI</string>
 	<!-- Button caption to install wapi certificate button -->
 	<string name="wifi_wapi_cert_install_button">Pasang</string>
 	<!-- Button caption to uninstall wapi certificate button -->
@@ -237,31 +245,31 @@
 	<!-- Button caption to  cancel wapi certificate button -->
 	<string name="wifi_wapi_cert_cancel_button">Batal</string>
 	<!-- Action message of the uninstall WAPI certificate -->
-	<string name="wifi_wapi_cert_uninstall">Membuang WAPI Certificate</string>
+	<string name="wifi_wapi_cert_uninstall">Membuang Sijil WAPI</string>
 	<!-- Caption for entering the directroy of wapi certificate which you want to storage -->
 	<string name="wifi_wapi_cert_create_subdir">Mewujudkan direktori</string>
 	<!-- Caption for entering the directroy of wapi certificate which you want to delet -->
-	<string name="wifi_wapi_cert_delet_subdir">Memilih perakuan sesuai</string>
+	<string name="wifi_wapi_cert_delet_subdir">Memilih sijil sesuai</string>
 	<!-- Caption for the wapi as certificate -->
-	<string name="wifi_wapi_as_cert">Perakuan AS</string>
+	<string name="wifi_wapi_as_cert">Sijil AS</string>
 	<!-- Caption for the wapi user certificate -->
-	<string name="wifi_wapi_user_cert">Perakuan pengguna</string>
+	<string name="wifi_wapi_user_cert">Sijil pengguna</string>
 	<string name="wifi_wapi_cert_mgmt_subdir_name_is_empty">Sila masukkan nama direktori</string>
 	<string name="wifi_wapi_cert_mgmt_subdir_exist">Direktori dengan nama yang sama sudah wujud.</string>
 	<string name="wifi_wapi_cert_mgmt_subdir_create_fail">Gagal mencipta direktori</string>
-	<string name="wifi_wapi_cert_mgmt_as_name_is_empty">Masukan nama perakuan AS</string>
-	<string name="wifi_wapi_cert_mgmt_as_dont_exist">Kad SD tidak mempunya perakuan AS</string>
-	<string name="wifi_wapi_cert_mgmt_as_format_is_wrong">Format perakuan AS adalah salah</string>
-	<string name="wifi_wapi_cert_mgmt_user_format_is_wrong">Format perakuan pengguna adalah salah</string>
-	<string name="wifi_wapi_cert_mgmt_user_name_is_empty">Masukkan nama perakuan pengguna</string>
-	<string name="wifi_wapi_cert_mgmt_user_dont_exist">Masukkan nama perakuan pengguna</string>
+	<string name="wifi_wapi_cert_mgmt_as_name_is_empty">Masukan nama sijil AS</string>
+	<string name="wifi_wapi_cert_mgmt_as_dont_exist">Kad SD tidak mempunyai sijil AS</string>
+	<string name="wifi_wapi_cert_mgmt_as_format_is_wrong">Format sijil AS adalah salah</string>
+	<string name="wifi_wapi_cert_mgmt_user_format_is_wrong">Format sijil pengguna adalah salah</string>
+	<string name="wifi_wapi_cert_mgmt_user_name_is_empty">Masukkan nama sijil pengguna</string>
+	<string name="wifi_wapi_cert_mgmt_user_dont_exist">Masukkan nama sijil pengguna</string>
 	<!--Wi-Fi settings screen, network context menu item -->
 	<string name="wifi_context_menu_connect">Sambungkan</string>
 	<!--Wi-Fi settings screen, network context menu item -->
 	<string name="wifi_context_menu_forget">Lupakan</string>
 	<!--Wi-Fi settings screen, network context menu item -->
 	<string name="wifi_context_menu_change_password">Tukar Kata Laluan</string>
-	<string name="wifi_context_menu_change_wapi_certificate">Tukar Perakuan WAPI</string>
+	<string name="wifi_context_menu_change_wapi_certificate">Tukar Sijil WAPI</string>
 	
 	<!-- Broadcom, WAPI -->
 	
@@ -298,10 +306,10 @@
 	<string name="storage_format">Format</string>
 	<string name="internal_storage">Storan dalaman</string>
 	
-	<string name="usage_log">Statistik penggunaan aplikasi</string>
+	<string name="usage_log">Statistik penggunaan app</string>
 	<string name="bluetooth_device_searchable">Boleh ditemui</string>
 	
-	<string name="usb_msd_title">Storan hebat</string>
+    <string name="usb_msd_title">Peranti Soran Massa</string>
 	<string name="usb_msd_summary">Pindah fail melalui Windows atau Mac</string>
 	<string name="usb_msd_driver_installer_title">Cakera pemasang driver (MSD)</string>
 	<string name="usb_msd_driver_installer_summary">Dapatkan driver untuk Windows dan OSX</string>
@@ -309,13 +317,13 @@
 	<string name="show_magnifier_when_input">Kaca pembesar teks</string>
 	
 	<!-- Volume settings -->
-	<string name="volume_ring_description">Nada dering &amp; notifikasi</string>
+	<string name="volume_ring_description">Nada Dering &amp; Notifikasi</string>
 	<string name="volume_alarm_description">Penggera</string>
 	<string name="volume_voice_description">Suara</string>
 	<string name="volume_media_description">Muzik, video, permainan, dan media lain</string>
 	<string name="volume_system_description">Pengatup kamera, kunci skrin dan lain-lain notifikasi sistem</string>
 	<string name="volume_bluetooth_description">Bluetooth</string>
-	<string name="volume_restore">Reset aras</string>
+	<string name="volume_restore">Reset Aras</string>
 	<string name="volume_restore_alert">Apabila anda reset volum kepada aras lalai, tetapan aras semasa anda akan dipadamkan</string>
 	<string name="sound_category_calls_and_notification_title">Nada Dering &amp; Notifikasi</string>
 	
@@ -387,9 +395,9 @@
 	<string name="equalizer">"EQ"</string>
 	
 	<!-- Menu option to launch Wi-Fi Direct settings [CHAR LIMIT=20]-->
-	<string name="wifi_menu_p2p">Terus Wi-Fi</string>
+	<string name="wifi_menu_p2p">Wi-Fi Langsung</string>
 	<!-- Used in the 1st-level settings screen to launch Wi-Fi Direct settings [CHAR LIMIT=25] -->
-	<string name="wifi_p2p_settings_title">Terus Wi-Fi</string>
+	<string name="wifi_p2p_settings_title">Wi-Fi Langsung</string>
 	
 	<!-- Wi-Fi Display settings -->
 	<string name="wifi_menu_wfd">Paparan Wi-Fi</string>
@@ -421,21 +429,21 @@
 	<!-- msd driver -->
 	<string name="msd_help_title">Bantuan MTP</string>
 	<string name="msd_help_summary">Kesukaran mengakses peranti anda melalui komputer?\nPilih sistem pengendalian komputer anda:</string>
-	<string name="msd_install_succeed">Driver berjaya diapasang</string>
+	<string name="msd_install_succeed">Driver berjaya dipasang</string>
 	<string name="msd_install_next">Seterusnya</string>
 	<string name="msd_install">Pasang semula driver.</string>
 	<string name="msd_install_finish">OK</string>
 	<string name="msd_install_windows_xp_step_2_1">"1.Jika Wizard Persediaan muncul,sila ikuti langkah-langkah untuk melengkapkan pemasangan"</string>
-	<string name="msd_install_retry_windows_xp">"Jika komputer tidak mengesan MI 2 dengan betul, cuba yang berikut:"</string>
-	<string name="msd_install_retry_windows_vista">"If the computer failed to detect your phone,\nTry reconnecting the USB cable."</string>
-	<string name="msd_install_retry_mac">"Jika komputer tidak mengesan MI 2 dengan betul, cuba yang berikut:"</string>
-	<string name="msd_install_retry_linux">"Jika komputer anda tidak mengesan telefon,\nCuba yang berikut:\n1) Gunakan pemasangan alat sudo kebolehan memasang mtpfs libfuse-dev libmad0-dev\n2) Buat direktori mkdir / media / mtp\n3) kebenaran kumpulan Sahkan pengguna dalam kumpulan pengguna fius semasa\n4) Re-login\n5) Akses dipasang mtpfs peranti / media / mtp melalui fail explorer; sama seperti direktori tempatan\n6) Uninstall peranti fusermount-u / media / mtp Nota: Untuk Ubuntu 8.04 persekitaran"</string>
+    <string name="msd_install_retry_windows_xp">"Jika komputer gagal mengesan telefon anda,\nCuba yang berikut:\n<li>1) Sambung semula kabel USB.</li>\n<li>2) Pasang semula pemacu.</li>"</string>
+	<string name="msd_install_retry_windows_vista">"Jika komputer gagal mengesan telefon anda,\nCuba sambung semula kabel USB."</string>
+	<string name="msd_install_retry_mac">"Jika komputer gagal mengesan telefon anda, cuba yang berikut:"</string>
+	<string name="msd_install_retry_linux">"Jika komputer gagal mengesan telefon anda,\nCuba yang berikut:\n1) Gunakan pemasangan alat sudo kebolehan memasang mtpfs libfuse-dev libmad0-dev\n2) Buat direktori mkdir / media / mtp\n3) kebenaran kumpulan Sahkan pengguna dalam kumpulan pengguna fius semasa\n4) Re-login\n5) Akses dipasang mtpfs peranti / media / mtp melalui fail explorer; sama seperti direktori tempatan\n6) Uninstall peranti fusermount-u / media / mtp Nota: Untuk Ubuntu 8.04 persekitaran"</string>
 	
-	<string name="msd_install_status_undo">Memasang driver</string>
-	<string name="msd_install_status_done">Driver telah dipasang</string>
-	<string name="msd_driver_download">Memuat turun driver</string>
-	<string name="msd_driver_windows_xp_download">Untuk pengguna Windows, muat turun driver dan klik pada Setup.exe to install\nDapatkan driver di http://miui.com/win</string>
-	<string name="msd_driver_mac_download">Untuk pengguna Mac, muat turun driver dan klik pada AndroidFileTransfer.dmg untuk memasang\nDapatkan driver di http://miui.com/mac</string>
+	<string name="msd_install_status_undo">Memasang pemacu</string>
+	<string name="msd_install_status_done">Pemacu telah dipasang</string>
+	<string name="msd_driver_download">Memuat turun pemacu</string>
+	<string name="msd_driver_windows_xp_download">Untuk pengguna Windows, muat turun pemacu dan klik pada Setup.exe untuk pasang\nDapatkan pemacu di http://miui.com/win</string>
+	<string name="msd_driver_mac_download">Untuk pengguna Mac, muat turun pemacu dan klik pada AndroidFileTransfer.dmg untuk memasang\nDapatkan pemacu di http://miui.com/mac</string>
 	
 	<string name="vpn_settings_password">VPN</string>
 	<string name="vpn_safe">Sekuriti</string>
@@ -448,11 +456,11 @@
 	<string name="sync_wifi_label">Wi-Fi</string>
 	<string name="wifi_enable">Wi-Fi</string>
 	<string name="bluetooth_enable">Bluetooth</string>
-	<string name="sync_enable">Hidupkan segerak</string>
+	<string name="sync_enable">Hidupkan auto segerak</string>
 	<string name="accessibility_enable">Kebolehcapaian</string>
 	<string name="development_enable">Pilihan Pemaju</string>
-	<string name="device_name">Nama peranti</string>
-	<string name="device_edit_title">Namakan semula peranti</string>
+	<string name="device_name">Nama Peranti</string>
+	<string name="device_edit_title">Namakan semula telefon</string>
 	<string name="device_name_input_hint">Tetapkan nama peranti anda</string>
 	<string name="device_name_usage_point">Benarkan peranti untuk ditemui oleh peranti Bluetooth yang lain untuk membolehkan pemindahan fail dan fungsi-fungsi lain.</string>
 	<string name="device_name_input_error">Gagal menetapkan nama peranti, sila cuba lagi</string>
@@ -460,12 +468,12 @@
 	<string name="drive_mode">Mod Kereta</string>
 	<string name="enable_drive_mode">Mod Kereta</string>
 	<string name="drive_mode_title">Mod Kereta</string>
-	<string name="drive_mode_settings">Tetapan mod kereta</string>
+	<string name="drive_mode_settings">Tetapan Mod Kereta</string>
 	<string name="drive_mode_voice_report">Output teks-ke-ucapan</string>
-	<string name="drive_mode_phone_report">Info panggilan masuk</string>
+	<string name="drive_mode_phone_report">Info Panggilan Masuk</string>
 	<string name="drive_mode_sms_report">Mesej</string>
 	<string name="drive_mode_invert_stop_report">Pusingkan telefon untuk senyap</string>
-	<string name="drive_mode_auto_reply">Respon pantas</string>
+	<string name="drive_mode_auto_reply">Respon Pantas</string>
 	<string name="drive_mode_calling_auto_sms_reply">Balas kepada panggilan</string>
 	<string name="drive_mode_sms_auto_sms_reply">Balas ke SMS</string>
 	<string name="drive_mode_only_contact_reply">Hanya balas kenalan</string>
@@ -488,7 +496,7 @@
 	<string name="other_relative">Lain² Kebenaran</string>
 	<string name="permission_manage_title">%s maklumat kebenaran</string>
 	
-	<string name="filter_apps_cached">Cached</string>
+	<string name="filter_apps_cached">DiCache</string>
 	
 	
 	<string name="screen">Skrin</string>
@@ -506,7 +514,7 @@
 	<string name="application_item_disable">Nafikan</string>
 	<string name="application_item_permission">Benarkan</string>
 	<string name="application_item_already_permission">Dibenarkan</string>
-	<string name="application_forbid_auto_startup">Nafikan %s daripada bermula di latar belakang</string>
+	<string name="application_forbid_auto_startup">Larang %s daripada bermula di latar belakang</string>
 	<string name="floating_window_switch_label">Tunjukkan pop tibul tetingkap</string>
 	<string name="floating_window_switch_label_disable">Sembunyikan pop timbul tetingkap</string>
 	<string name="app_floating_window_dlg_enable">"Menghidupkan <xliff:g id="PACKAGE_NAME">%1$s</xliff:g>\'s tetapan tetingkap terapung memerlukan apl untuk memulakan semula. Adakah anda pasti anda mahu membolehkan?"</string>
@@ -522,15 +530,15 @@
 	
 	<!-- private sms -->
 	<string name="private_sms_need_to_unlock">Kata laluan diperlukan:</string>
-	<string name="private_sms_reset_by_account">Untuk set semula kata laluan, daftar masuk ke akaun Xiaomi anda</string>
+	<string name="private_sms_reset_by_account">Untuk reset kata laluan, daftar masuk ke akaun Xiaomi anda</string>
 	<string name="private_sms_recording_intro_header">Lukiskan corak membuka kunci</string>
 	<string name="location_neighborhood_level">Benarkan data lokasi tanpa nama untuk dihantar kepada Google. Juga bolehkan aplikasi yang dibenarkan untuk menggunakan data dari sumber seperti Wi-Fi dan rangkaian mudah alih untuk menentukan lokasi anggaran anda.</string>
-    <string name="location_network_based">Wi-Fi &amp; Rangkaian mudah alih</string>
+    <string name="location_network_based">Wi-Fi &amp; Rangkaian Mudah Alih</string>
 	
 	<!-- android settings res -->
 	<string name="pointer_location_summary">Tunjuk koordinat sentuhan</string>
 	<string name="wifi_empty_list_wifi_off">Untuk melihat rangkaian yang ada, hidupkan Wi-Fi.</string>
-	<string name="user_dict_settings_empty_text">"Anda tidak mempunyai apa-apa kamus Tambah perkataan dengan menyentuh butang Tambah (+)"</string>
+    <string name="user_dict_settings_empty_text">Anda tidak mempunyai sebarang kamus\nTambah perkataan dengan menyentuh butang Tambah (+)</string>
 	
 	<string name="dirac_control">Kualiti Audio Optimum</string>
 	
@@ -617,7 +625,7 @@
 	<string name="wifi_share_qrcode_summary">Guna kamera MIUI untuk imbas kod QR</string>
 	<string name="wifi_share_qrcode_finish">Selesai</string>
 	
-	<string name="app_notifications_switch_label" msgid="9124072219553687583">"Notifikasi khas"</string>
+	<string name="app_notifications_switch_label" msgid="9124072219553687583">"Notifikasi Khas"</string>
 	
 	<string name="noise_suppression">Penyekatan bunyi ambien</string>
 	<string name="phone_call_noise_suppression">Menyekat bunyi bising semasa panggilan</string>

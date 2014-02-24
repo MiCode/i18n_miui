@@ -805,9 +805,9 @@
 
 
     <!-- GSM/UMTS Options start -->
-    <string name="gemini_gsm_umts_network_preferences_title">Network Mode</string>
-    <string name="gemini_gsm_umts_network_preferneces_summary">Not implemented yet! </string>
-    <string name="gemini_gsm_umts_network_preferences_dialogtitle">Network Mode</string>
+    <string name="gemini_gsm_umts_network_preferences_title">Mod Rangkaian</string>
+    <string name="gemini_gsm_umts_network_preferneces_summary">Belum dilaksanakan lagi! </string>
+    <string name="gemini_gsm_umts_network_preferences_dialogtitle">Mod Rangkaian</string>
     <string name="gemini_3g_indic">3G</string>
     <string name="gemini_sim_management_title">Digital Standard</string>
     <string name="gemini_general_settings_title">General settings</string>
@@ -1548,8 +1548,8 @@
 	
     <!-- Network select start -->
 	  <string name="network_select">Network Selecting</string>
-	  <string name="query_preferred_fail">Query/Set Network Mode Failed!</string>
-	  <string name="network_mode_set_label">Set preferred network type:</string>
+	  <string name="query_preferred_fail">Query/Set Mod Rangkaian gagal!</string>
+	  <string name="network_mode_set_label">Set jenis rangkaian diutamakan:</string>
 	<!-- Network select end -->
 
     <!-- HQA NFC Start -->

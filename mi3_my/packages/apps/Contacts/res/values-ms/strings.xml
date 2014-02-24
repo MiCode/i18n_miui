@@ -1883,7 +1883,7 @@ limitations under the License.
 	<string name="deselect_all">Batal pilih semua</string>
 	<string name="select_none">Tiada apa-apa yang dipilih</string>
 	<string name="toast_finish_delete_call_log">Log panggilan telah dipadam</string>
-	<string name="toast_finish_delete_selected_call_log">Selected call log deleted</string>
+	<string name="toast_finish_delete_selected_call_log">Log panggilan terpilih telah dipadam</string>
 	<string name="confirm_delete_contact_all_call_logs">Padam log panggilan?</string>
 	<string name="confirm_delete_selected_all_call_logs">Padam log panggilan?</string>
 	<string name="calllog_menu_blacklist">Sekat</string>
@@ -1892,8 +1892,8 @@ limitations under the License.
 	<string name="menu_call_ip_number">Dail panggilan IP (dail %s)</string>
 	<string name="delete_contact_calllog_title">Padam log panggilan?</string>
 	<string name="delete_unknown_contact_calllog_title">Padam log panggilan kenalan yang tidak dikenali?</string>
-	<string name="callrecordview_menu_batch_delete">Delete batch</string>
-	<string name="delete_call_log_selected_title">Delete selected call log?</string>
+	<string name="callrecordview_menu_batch_delete">Padam secara pukal</string>
+	<string name="delete_call_log_selected_title">Padam log panggilan terpilih?</string>
 	
 	<!-- edit contact card -->
 	<string name="edit_contact_card_title">Edit kad kenalan</string>
@@ -2361,9 +2361,9 @@ limitations under the License.
 	<string name="yellowpage_navigation_search_result_unknown_error">Ralat tidak diketahui</string>
 	<string name="yellowpage_navigation_menu_order">Tempahan saya</string>
 
-	<string name="yellowpage_navigation_send_to_desktop_succeeded">Added to Home screen</string>
-	<string name="yellowpage_navigation_network_location_not_enabled_title">Enable network location service</string>
-	<string name="yellowpage_navigation_network_location_not_enabled_summary">Directory provides services according to your city and enabling WLAN &amp; mobile network location service can improve the quality of services.</string>
-	<string name="yellowpage_navigation_network_location_enable">Enable now</string>
-	<string name="yellowpage_navigation_network_location_enable_later">Enable later</string>
+	<string name="yellowpage_navigation_send_to_desktop_succeeded">Ditambah ke Skrin Utama</string>
+	<string name="yellowpage_navigation_network_location_not_enabled_title">Hidupkan servis lokasi rangkaian</string>
+	<string name="yellowpage_navigation_network_location_not_enabled_summary">Direktori menyediakan servis berdasarkan bandar anda dan menghidupkan servis lokasi WLAN &amp; rangkaian mudah alih akan memperbaiki qualiti servis.</string>
+	<string name="yellowpage_navigation_network_location_enable">Hidupkan sekarang</string>
+	<string name="yellowpage_navigation_network_location_enable_later">Hidupkan kemudian</string>
 </resources>

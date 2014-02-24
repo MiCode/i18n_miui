@@ -127,7 +127,7 @@
     <string name="gadget_error_text">Widget gagal dimuatkan</string>
     <string name="menu_edit">Edit Skrin Utama</string>
     <string name="menu_sort">Susun app</string>
-    <string name="menu_launcher_setting">Tetapan pelancar</string>
+    <string name="menu_launcher_setting">Tetapan Pelancar</string>
     <string name="editing_tips">Edit Skrin Utama</string>
     <string name="cant_remove_system_app">Tidak dapat buang app sistem</string>
     <string name="cant_remove_retained_app">Tidak dapat buang app ini</string>
@@ -173,8 +173,8 @@
     
     <string name="reset_scene_prompt">Skrin akan direset ke susun atur lalai</string>
     
-    <string name="preferences_title">Tetapan pelancar</string>
-    <string name="preferences_general_title">Tetapan umum</string>
+    <string name="preferences_title">Tetapan Pelancar</string>
+    <string name="preferences_general_title">Tetapan Umum</string>
     <string name="pref_keep_in_memory_title">Simpan di memori</string>
     <string name="pref_keep_in_memory_summary">Pelancar terus berjalan ketika memori rendah.</string>
     <string name="pref_render_in_truecolor_title">Grafik berkualiti tinggi</string>

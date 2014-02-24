@@ -31,11 +31,11 @@ limitations under the License.
 	
 	<!-- Name of activity that allows users to create shortcuts on the home screen to dial a contact.
 	This shows up in a list of things like bookmark, folder, music playlist, etc -->
-	<string name="shortcutDialContact">Dail terus</string>
+	<string name="shortcutDialContact">Dail langsung</string>
 	
 	<!-- Name of activity that allows users to create shortcuts on the home screen to message (SMS) a contact.
 	This shows up in a list of things like bookmark, folder, music playlist, etc -->
-	<string name="shortcutMessageContact">Mesej terus</string>
+	<string name="shortcutMessageContact">Mesej langsung</string>
 	
 	<!-- Activity title when the user is selecting a contact for a shortcut. -->
 	<string name="shortcutActivityTitle">Pilih pintasan kenalan</string>
@@ -86,7 +86,7 @@ limitations under the License.
 	<string name="contactDetailAbout">Perihal</string>
 	
 	<!-- The tab label for the contact detail activity that displays information about the contact [CHAR LIMIT=15] -->
-	<string name="contactDetailUpdates">Updates</string>
+	<string name="contactDetailUpdates">Kemaskini</string>
 	
 	<!-- Hint text in the search box when the user hits the Search key while in the contacts app -->
 	<string name="searchHint">Cari Kenalan</string>
@@ -152,7 +152,7 @@ limitations under the License.
 	<string name="menu_joinAggregate">Gabung</string>
 	
 	<!-- Heading of the Join Contact screen -->
-	<string name="titleJoinContactDataWith">Gabung kenalan</string>
+	<string name="titleJoinContactDataWith">Gabung Kenalan</string>
 	
 	<!-- Info blurb on the Join Contact screen [CHAR LIMIT=NONE]-->
 	<string name="blurbJoinContactDataWith">Pilih kenalan yang ingin digabungkan dengan <xliff:g id="name">%s</xliff:g>:</string>
@@ -259,7 +259,7 @@ limitations under the License.
 	
 	<!-- Title of the dialog used to set a custom label for a contact detail, like a phone number or email address.
 	For example, this may be used to set a phone number's label to "Vaction house" -->
-	<string name="customLabelPickerTitle">Label nama tersendiri</string>
+	<string name="customLabelPickerTitle">Label khas nama</string>
 	
 	<!-- Check box label that allows calls to the contact to be sent directly to voicemail -->
 	<string name="send_to_voicemail_checkbox">Hantar panggilan terus ke mel suara</string>
@@ -337,12 +337,12 @@ limitations under the License.
 	<string name="listSingleContact">Kenalan tunggal</string>
 	
 	<!-- Displayed at the top of the contacts showing single contact. [CHAR LIMIT=64] -->
-	<string name="listCustomView">Kenalan dalam paparan tersendiri</string>
+	<string name="listCustomView">Kenalan dalam paparan khas</string>
 	
 	<!-- Displayed at the top of the contacts showing the total number of contacts found when "Only contacts with phones" not selected [CHAR LIMIT=30] -->
 	<plurals name="listFoundAllContacts">
-		<item quantity="one">1 found</item>
-		<item quantity="other"><xliff:g id="count">%d</xliff:g> found</item>
+		<item quantity="one">1 ditemui</item>
+		<item quantity="other"><xliff:g id="count">%d</xliff:g> ditemui</item>
 	</plurals>
 	
 	<!-- Displayed at the top of search results indicating that more contacts were found than shown [CHAR LIMIT=64] -->
@@ -398,7 +398,7 @@ limitations under the License.
 	<string name="recentCallsIconLabel">Log panggilan</string>
 	
 	<!-- Menu item used to send an SMS or MMS message to a phone number  -->
-	<string name="menu_sendTextMessage">Hantar teks mesej</string>
+	<string name="menu_sendTextMessage">Hantar mesej teks</string>
 	
 	<!-- Menu item used to call a contact from the call log -->
 	<string name="recentCalls_callNumber">Panggil <xliff:g id="name">%s</xliff:g></string>
@@ -485,58 +485,58 @@ limitations under the License.
 	
 	<!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is disabled.  [CHAR LIMIT=NONE] -->
 	<string name="noContactsHelpText" product="tablet">"Anda tidak mempunyai sebarang kenalan untuk dipaparkan.\n\nUntuk tambah kenalan, sentuh <font fgcolor="#ffffffff"><b>Menu</b></font>, kemudian sentuh:\n
-	\n<li><font fgcolor="#ffffffff"><b>Akaun</b></font> untuk tambah atau dirikan akaun dengan kenalan yang anda boleh segerakkan ke tablet\n</li>
+	\n<li><font fgcolor="#ffffffff"><b>Akaun</b></font> untuk tambah atau pasang akaun dengan kenalan yang anda boleh segerakkan ke tablet\n</li>
 	\n<li><font fgcolor="#ffffffff"><b>Kenalan Baru</b></font> untuk cipta kenalan baru dari awal\n</li>
 	\n<li><font fgcolor="#ffffffff"><b>Import/Eksport</b></font> untuk import kenalan daripada kad SIM atau kad SD\n</li>"
 	</string>
 	<!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is disabled.  [CHAR LIMIT=NONE] -->
 	<string name="noContactsHelpText" product="default">"Anda tidak mempunyai sebarang kenalan untuk dipaparkan.\n\nUntuk tambah kenalan, sentuh <font fgcolor="#ffffffff"><b>Menu</b></font>, kemudian sentuh:\n
-	\n<li><font fgcolor="#ffffffff"><b>Akaun</b></font> untuk tambah atau dirikan akaun dengan kenalan yang anda boleh segerakkan ke telefon\n</li>
+	\n<li><font fgcolor="#ffffffff"><b>Akaun</b></font> untuk tambah atau pasang akaun dengan kenalan yang anda boleh segerakkan ke telefon\n</li>
 	\n<li><font fgcolor="#ffffffff"><b>Kenalan Baru</b></font> untuk cipta kenalan baru dari awal\n</li>
 	\n<li><font fgcolor="#ffffffff"><b>Import/Eksport</b></font> untuk import kenalan daripada kad SIM atau kad SD\n</li>"
 	</string>
 	
 	<!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is enabled.  [CHAR LIMIT=NONE] -->
-	<string name="noContactsHelpTextWithSync" product="tablet">"You don\'t have any contacts to display. (If you just added an account, it can take a few minutes to sync contacts.)\n\nTo add contacts, touch <font fgcolor="#ffffffff"><b>Menu</b></font>, then touch:\n
-	\n<li><font fgcolor="#ffffffff"><b>Accounts</b></font> to add or set up an account with contacts you can sync to the tablet\n</li>
-	\n<li><font fgcolor="#ffffffff"><b>Display options</b></font> to change which contacts are visible\n</li>
-	\n<li><font fgcolor="#ffffffff"><b>New contact</b></font> to create a new contact from scratch\n</li>
-	\n<li><font fgcolor="#ffffffff"><b>Import/Export</b></font> to import contacts from your SIM or SD card\n</li>"
+	<string name="noContactsHelpTextWithSync" product="tablet">"Anda tidak mempunyai sebarang kenalan untuk dipaparkan.\n\nUntuk tambah kenalan, sentuh <font fgcolor="#ffffffff"><b>Menu</b></font>, kemudian sentuh:\n
+	\n<li><font fgcolor="#ffffffff"><b>Akaun</b></font> untuk tambah atau pasang akaun dengan kenalan yang anda boleh segerakkan ke tablet\n</li>
+	\n<li><font fgcolor="#ffffffff"><b>Pilihan Paparan</b></font> untuk ubah Kenalan mana yang boleh dilihat\n</li>
+	\n<li><font fgcolor="#ffffffff"><b>Kenalan Baru</b></font> untuk cipta kenalan baru dari awal\n</li>
+	\n<li><font fgcolor="#ffffffff"><b>Import/Eksport</b></font> untuk import kenalan daripada kad SIM atau kad SD\n</li>"
 	</string>
 	<!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is enabled.  [CHAR LIMIT=NONE] -->
-	<string name="noContactsHelpTextWithSync" product="default">"You don\'t have any contacts to display. (If you just added an account, it can take a few minutes to sync contacts.)\n\nTo add contacts, touch <font fgcolor="#ffffffff"><b>Menu</b></font>, then touch:\n
-	\n<li><font fgcolor="#ffffffff"><b>Accounts</b></font> to add or set up an account with contacts you can sync to the phone\n</li>
-	\n<li><font fgcolor="#ffffffff"><b>Display options</b></font> to change which contacts are visible\n</li>
-	\n<li><font fgcolor="#ffffffff"><b>New contact</b></font> to create a new contact from scratch\n</li>
-	\n<li><font fgcolor="#ffffffff"><b>Import/Export</b></font> to import contacts from your SIM or SD card\n</li>"
+	<string name="noContactsHelpTextWithSync" product="default">"Anda tidak mempunyai sebarang kenalan untuk dipaparkan.\n\nUntuk tambah kenalan, sentuh <font fgcolor="#ffffffff"><b>Menu</b></font>, kemudian sentuh:\n
+	\n<li><font fgcolor="#ffffffff"><b>Akaun</b></font> untuk tambah atau pasang akaun dengan kenalan yang anda boleh segerakkan ke telefon\n</li>
+	\n<li><font fgcolor="#ffffffff"><b>Pilihan Paparan</b></font> untuk ubah Kenalan mana yang boleh dilihat\n</li>
+	\n<li><font fgcolor="#ffffffff"><b>Kenalan Baru</b></font> untuk cipta kenalan baru dari awal\n</li>
+	\n<li><font fgcolor="#ffffffff"><b>Import/Eksport</b></font> untuk import kenalan daripada kad SIM atau kad SD\n</li>"
 	</string>
 	
 	<!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is disabled, and there is no sim card (cdma).  [CHAR LIMIT=NONE]-->
-	<string name="noContactsNoSimHelpText" product="tablet">"You don\'t have any contacts to display.\n\nTo add contacts, touch <font fgcolor="#ffffffff"><b>Menu</b></font>, then touch:\n
-	\n<li><font fgcolor="#ffffffff"><b>Accounts</b></font> to add or set up an account with contacts you can sync to the tablet\n</li>
-	\n<li><font fgcolor="#ffffffff"><b>New contact</b></font> to create a new contact from scratch\n</li>
-	\n<li><font fgcolor="#ffffffff"><b>Import/Export</b></font> to import contacts from your SD card\n</li>"
+	<string name="noContactsNoSimHelpText" product="tablet">"Anda tidak mempunyai sebarang kenalan untuk dipaparkan.\n\nUntuk tambah kenalan, sentuh <font fgcolor="#ffffffff"><b>Menu</b></font>, kemudian sentuh:\n
+	\n<li><font fgcolor="#ffffffff"><b>Akaun</b></font> untuk tambah atau pasang akaun dengan kenalan yang anda boleh segerakkan ke tablet\n</li>
+	\n<li><font fgcolor="#ffffffff"><b>Kenalan Baru</b></font> untuk cipta kenalan baru dari awal\n</li>
+	\n<li><font fgcolor="#ffffffff"><b>Import/Eksport</b></font> untuk import kenalan daripada kad SIM atau kad SD\n</li>"
 	</string>
 	<!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is disabled, and there is no sim card (cdma).  [CHAR LIMIT=NONE]-->
-	<string name="noContactsNoSimHelpText" product="default">"You don\'t have any contacts to display.\n\nTo add contacts, touch <font fgcolor="#ffffffff"><b>Menu</b></font>, then touch:\n
-	\n<li><font fgcolor="#ffffffff"><b>Accounts</b></font> to add or set up an account with contacts you can sync to the phone\n</li>
-	\n<li><font fgcolor="#ffffffff"><b>New contact</b></font> to create a new contact from scratch\n</li>
-	\n<li><font fgcolor="#ffffffff"><b>Import/Export</b></font> to import contacts from your SD card\n</li>"
+	<string name="noContactsNoSimHelpText" product="default">"Anda tidak mempunyai sebarang kenalan untuk dipaparkan.\n\nUntuk tambah kenalan, sentuh <font fgcolor="#ffffffff"><b>Menu</b></font>, kemudian sentuh:\n
+	\n<li><font fgcolor="#ffffffff"><b>Akaun</b></font> untuk tambah atau pasang akaun dengan kenalan yang anda boleh segerakkan ke telefon\n</li>
+	\n<li><font fgcolor="#ffffffff"><b>Kenalan Baru</b></font> untuk cipta kenalan baru dari awal\n</li>
+	\n<li><font fgcolor="#ffffffff"><b>Import/Eksport</b></font> untuk import kenalan daripada kad SIM atau kad SD\n</li>"
 	</string>
 	
 	<!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is enabled, and there is no sim card (cdma).  [CHAR LIMIT=NONE] -->
-	<string name="noContactsNoSimHelpTextWithSync" product="tablet">"You don\'t have any contacts to display. (If you just added an account, it can take a few minutes to sync contacts.)\n\nTo add contacts, touch <font fgcolor="#ffffffff"><b>Menu</b></font>, then touch:\n
-	\n<li><font fgcolor="#ffffffff"><b>Accounts</b></font> to add or set up an account with contacts you can sync to the tablet\n</li>
-	\n<li><font fgcolor="#ffffffff"><b>Display options</b></font> to change which contacts are visible\n</li>
-	\n<li><font fgcolor="#ffffffff"><b>New contact</b></font> to create a new contact from scratch\n</li>
-	\n<li><font fgcolor="#ffffffff"><b>Import/Export</b></font> to import contacts from your SD card\n</li>"
+	<string name="noContactsNoSimHelpTextWithSync" product="tablet">"Anda tidak mempunyai sebarang kenalan untuk dipaparkan.\n\nUntuk tambah kenalan, sentuh <font fgcolor="#ffffffff"><b>Menu</b></font>, kemudian sentuh:\n
+	\n<li><font fgcolor="#ffffffff"><b>Akaun</b></font> untuk tambah atau pasang akaun dengan kenalan yang anda boleh segerakkan ke tablet\n</li>
+	\n<li><font fgcolor="#ffffffff"><b>Pilihan Paparan</b></font> untuk ubah Kenalan mana yang boleh dilihat\n</li>
+	\n<li><font fgcolor="#ffffffff"><b>Kenalan Baru</b></font> untuk cipta kenalan baru dari awal\n</li>
+	\n<li><font fgcolor="#ffffffff"><b>Import/Eksport</b></font> untuk import kenalan daripada kad SIM atau kad SD\n</li>"
 	</string>
 	<!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is enabled, and there is no sim card (cdma).  [CHAR LIMIT=NONE] -->
-	<string name="noContactsNoSimHelpTextWithSync" product="default">"You don\'t have any contacts to display. (If you just added an account, it can take a few minutes to sync contacts.)\n\nTo add contacts, touch <font fgcolor="#ffffffff"><b>Menu</b></font>, then touch:\n
-	\n<li><font fgcolor="#ffffffff"><b>Accounts</b></font> to add or set up an account with contacts you can sync to the phone\n</li>
-	\n<li><font fgcolor="#ffffffff"><b>Display options</b></font> to change which contacts are visible\n</li>
-	\n<li><font fgcolor="#ffffffff"><b>New contact</b></font> to create a new contact from scratch\n</li>
-	\n<li><font fgcolor="#ffffffff"><b>Import/Export</b></font> to import contacts from your SD card\n</li>"
+	<string name="noContactsNoSimHelpTextWithSync" product="default">"Anda tidak mempunyai sebarang kenalan untuk dipaparkan.\n\nUntuk tambah kenalan, sentuh <font fgcolor="#ffffffff"><b>Menu</b></font>, kemudian sentuh:\n
+	\n<li><font fgcolor="#ffffffff"><b>Akaun</b></font> untuk tambah atau pasang akaun dengan kenalan yang anda boleh segerakkan ke telefon\n</li>
+	\n<li><font fgcolor="#ffffffff"><b>Pilihan Paparan</b></font> untuk ubah Kenalan mana yang boleh dilihat\n</li>
+	\n<li><font fgcolor="#ffffffff"><b>Kenalan Baru</b></font> untuk cipta kenalan baru dari awal\n</li>
+	\n<li><font fgcolor="#ffffffff"><b>Import/Eksport</b></font> untuk import kenalan daripada kad SIM atau kad SD\n</li>"
 	</string>
 	
 	<!-- Displayed full screen when the user has no favorites and they are displaying the favorites tab. [CHAR LIMIT=NONE] -->
@@ -1084,9 +1084,9 @@ limitations under the License.
 	<!-- Action string for calling a work phone number -->
 	<string name="call_work">Panggil kerja</string>
 	<!-- Action string for calling a work fax phone number -->
-	<string name="call_fax_work">Panggil kerja fax</string>
+	<string name="call_fax_work">Panggil faks kerja</string>
 	<!-- Action string for calling a home fax phone number -->
-	<string name="call_fax_home">Panggil rumah fax</string>
+	<string name="call_fax_home">Panggil faks rumah</string>
 	<!-- Action string for calling a pager phone number -->
 	<string name="call_pager">Panggil alat kelui</string>
 	<!-- Action string for calling an other phone number -->
@@ -1165,18 +1165,18 @@ limitations under the License.
 	<string name="sms">Mesej teks</string>
 	
 	<!-- Action string for sending an email to a home email address -->
-	<string name="email_home">Mel elektronik utama</string>
+	<string name="email_home">E-mel rumah</string>
 	<!-- Action string for sending an email to a mobile email address -->
-	<string name="email_mobile">Mel elektronik bimbit</string>
+	<string name="email_mobile">E-mel mudah alih</string>
 	<!-- Action string for sending an email to a work email address -->
-	<string name="email_work">E-mel elektronik</string>
+	<string name="email_work">E-mel kerja</string>
 	<!-- Action string for sending an email to an other email address -->
-	<string name="email_other">E-mel elektronik</string>
+	<string name="email_other">E-mel lain</string>
 	<!-- Action string for sending an email to a custom email address -->
-	<string name="email_custom">E-mel elektronik <xliff:g id="custom">%s</xliff:g></string>
+	<string name="email_custom">E-mel khas <xliff:g id="custom">%s</xliff:g></string>
 	
 	<!-- Generic action string for sending an email -->
-	<string name="email">E-mel elektronik</string>
+	<string name="email">E-mel</string>
 	
 	<!-- Action string for viewing a home postal address -->
 	<string name="map_home">Paparkan alamat rumah</string>
@@ -1188,28 +1188,28 @@ limitations under the License.
 	<string name="map_custom">Paparkan <xliff:g id="custom">%s</xliff:g> alamat</string>
 	
 	<!-- Action string for starting an IM chat with the AIM protocol -->
-	<string name="chat_aim">AIM</string>
+	<string name="chat_aim">Sembang guna AIM</string>
 	<!-- Action string for starting an IM chat with the MSN or Windows Live protocol -->
-	<string name="chat_msn">Windows Live</string>
+	<string name="chat_msn">Sembang guna Windows Live</string>
 	<!-- Action string for starting an IM chat with the Yahoo protocol -->
-	<string name="chat_yahoo">Yahoo</string>
+	<string name="chat_yahoo">Sembang guna Yahoo</string>
 	<!-- Action string for starting an IM chat with the Skype protocol -->
-	<string name="chat_skype">Skype</string>
+	<string name="chat_skype">Sembang guna Skype</string>
 	<!-- Action string for starting an IM chat with the QQ protocol -->
-	<string name="chat_qq">QQ</string>
+	<string name="chat_qq">Sembang guna QQ</string>
 	<!-- Action string for starting an IM chat with the Google Talk protocol -->
-	<string name="chat_gtalk">Google Talk</string>
+	<string name="chat_gtalk">Sembang guna Google Talk</string>
 	<!-- Action string for starting an IM chat with the ICQ protocol -->
-	<string name="chat_icq">ICQ</string>
+	<string name="chat_icq">Sembang guna ICQ</string>
 	<!-- Action string for starting an IM chat with the Jabber protocol -->
-	<string name="chat_jabber">Jabber</string>
+	<string name="chat_jabber">Sembang guna Jabber</string>
 	
 	<!-- Generic action string for starting an IM chat -->
-	<string name="chat">Berbual</string>
+	<string name="chat">Sembang</string>
 	<!-- Generic action string for starting an audio chat. Used by AccessibilityService to announce the purpose of the view. [CHAR LIMIT=NONE] -->
-	<string name="audio_chat">Berbual Suara</string>
+	<string name="audio_chat">Sembang Suara</string>
 	<!-- Generic action string for starting a video chat. Used by AccessibilityService to announce the purpose of the view. [CHAR LIMIT=NONE] -->
-	<string name="video_chat">Sembang video</string>
+	<string name="video_chat">Sembang Video</string>
 	
 	<!-- Field title for the full postal address of a contact [CHAR LIMIT=64]-->
 	<string name="postal_address">Alamat</string>
@@ -1233,7 +1233,7 @@ limitations under the License.
 	<!-- Field title for the given name of a contact -->
 	<string name="name_given">Nama diberi</string>
 	<!-- Field title for the family name of a contact -->
-	<string name="name_family">Nama Keluarga</string>
+	<string name="name_family">Nama keluarga</string>
 	<!-- Field title for the prefix name of a contact -->
 	<string name="name_prefix">Nama awalan</string>
 	<!-- Field title for the middle name of a contact -->
@@ -1250,10 +1250,10 @@ limitations under the License.
 	<string name="name_phonetic">Nama fonetik</string>
 	
 	<!-- Title for the list of all contact details that come from third-party sources (including a corporate directory) [CHAR LIMIT=20] -->
-	<string name="connections">Sambungan</string>
+	<string name="connections">Hubungan</string>
 	
 	<!-- Label of the button to open the "add connection" popup where the user can invite a contact to other social networks or services [CHAR LIMIT=32] -->
-	<string name="add_connection_button">Tambah sambungan</string>
+	<string name="add_connection_button">Tambah hubungan</string>
 	
 	<!-- Section title for the page containing the contact's social updates on the contact card (this abbreviated version of "Recent updates" is used when "updates" is already shown as the title of the page) [CHAR LIMIT=20]-->
 	<string name="recent" msgid="2062236709538790412">Terkini</string>
@@ -1261,17 +1261,21 @@ limitations under the License.
 	<!-- Section title for the page containing the contact's social updates on the contact card [CHAR LIMIT=20]-->
 	<string name="recent_updates" msgid="2018245636796411442">Kemaskini Terkini</string>
 	
+    <!-- String describing which account type a contact came from when editing it -->
+    <string name="account_type_format"><xliff:g id="source" example="Gmail">%1$s</xliff:g> kenalan</string>
+    <!-- String describing which account a contact came from when editing it -->
+    <string name="from_account_format"><xliff:g id="source" example="user@gmail.com">%1$s</xliff:g></string>
 	<!-- Checkbox asking the user if they want to display a particular photo for a contact -->
 	<string name="use_photo_as_primary">Gunakan gambar ini</string>
 	
 	<!-- Text used to explain that a contact cannot be edited from the People application since the data is read only [CHAR LIMIT=40] -->
-	<string name="contact_read_only">Tidak dapat disunting melalui applikasi ini.</string>
+	<string name="contact_read_only">Tidak dapat diedit melalui app ini.</string>
 	
 	<!-- Text describing that a contact has no information available other than name and photo. [CHAR LIMIT=60] -->
 	<string name="no_contact_details">Tiada maklumat tambahan untuk kenalan ini.</string>
 	
 	<!-- Text used to explain that a group cannot be edited since the data is read only [CHAR LIMIT=40] -->
-	<string name="group_read_only">Tidak dapat disunting dalam peranti ini.</string>
+	<string name="group_read_only">Tidak dapat diedit dalam peranti ini.</string>
 	
 	<!-- Label of the "sort list by" display option -->
 	<string name="display_options_sort_list_by">Susun senarai mengikut</string>
@@ -1371,8 +1375,8 @@ limitations under the License.
 	<!-- Shows how many contacts have been merged. The value 1 is not shown but should be translated
 	anyway if we change our mind later -->
 	<plurals name="merge_info">
-		<item quantity="one">not merged</item>
-		<item quantity="other">merged from <xliff:g id="count">%0$d</xliff:g> sources</item>
+		<item quantity="one">tidak digabungkan</item>
+		<item quantity="other">digabungkan dari <xliff:g id="count">%0$d</xliff:g> sumber</item>
 	</plurals>
 	
 	<!-- The name of the invisible local contact directory -->
@@ -1390,13 +1394,13 @@ limitations under the License.
 	sama-nama? Maklumat yang dimasukkan setakat ini akan di salin.</string>
 	
 	<!-- The button that creates a local copy of a corporate contact. [CHAR LIMIT=40]-->
-	<string name="menu_copyContact">Salin ke kenalan saya</string>
+	<string name="menu_copyContact">Salin ke Kenalan saya</string>
 	
 	<!-- The button that adds a contact to the predefined group "My Contacts" (as this is
 	mostly interesting for Google-contacts, this should have the same description as the
 	function of GMail/Contacts on the Web
 	[CHAR LIMIT=40] -->
-	<string name="add_to_my_contacts">Tambah kepada kenalan saya</string>
+	<string name="add_to_my_contacts">Tambah kepada Kenalan saya</string>
 	
 	<!-- The description of the directory where the contact was found [CHAR LIMIT=100]-->
 	<string name="contact_directory_description">Direktori <xliff:g id="type" example="Corporate Directory">%1$s</xliff:g></string>
@@ -1414,13 +1418,13 @@ limitations under the License.
 	<string name="list_filter_all_accounts">Semua kenalan</string>
 	
 	<!-- Contact list filter label indicating that the list is showing all starred contacts [CHAR LIMIT=64] -->
-	<string name="list_filter_all_starred">Membintangi</string>
+	<string name="list_filter_all_starred">Dibintangkan</string>
 	
 	<!-- Contact list filter indicating that the list shows groups chosen by the user [CHAR LIMIT=64] -->
-	<string name="list_filter_custom">Tersendiri</string>
+	<string name="list_filter_custom">Khas</string>
 	
 	<!-- Contact list filter selection indicating that the list shows groups chosen by the user [CHAR LIMIT=64] -->
-	<string name="list_filter_customize">Tersendiri</string>
+	<string name="list_filter_customize">Menyesuaikan</string>
 	
 	<!-- Contact list filter selection indicating that the list shows all contacts with phone numbers [CHAR LIMIT=64] -->
 	<string name="list_filter_phones">Semua kenalan dengan nombor telefon</string>
@@ -1429,7 +1433,7 @@ limitations under the License.
 	<string name="list_filter_single">Kenalan</string>
 	
 	<!-- Title of the activity that allows the user to customize filtering of contact list [CHAR LIMIT=128] -->
-	<string name="custom_list_filter">Tentukan pandangan tersendiri</string>
+	<string name="custom_list_filter">Tentukan pandangan khas</string>
 	
 	<!-- Message that appears in the favorites tab of the Phone app when the contact list has not fully loaded yet (below the favorite and frequent contacts) [CHAR LIMIT=20] -->
 	<string name="contact_list_loading">Memuatkan\u2026</string>
@@ -1449,6 +1453,9 @@ limitations under the License.
 	<!-- The preference section title for contact display options [CHAR LIMIT=128] -->
 	<string name="preference_displayOptions">Pilihan paparan</string>
 	
+    <!-- Text used to show a organization that has both a company and title. This is used in the Detail-View
+    of a Contact. This is mostly about the formatting of the two elements, so it should be kept small [CHAR LIMIT=79] -->
+    <string name="organization_company_and_title"><xliff:g id="company" example="Technical Program Manager">%1$s</xliff:g>, <xliff:g id="company" example="Google Inc.">%2$s</xliff:g></string>
 
 	<!-- Query hint displayed inside the search field [CHAR LIMIT=64] -->
 	<string name="hint_findContacts">Cari kenalan</string>
@@ -1465,6 +1472,8 @@ limitations under the License.
 	<!-- Button to close without add a phone number to contacts [CHAR LIMIT=25] -->
 	<string name="non_phone_close">Tutup</string>
 	
+    <!-- Format string that combines the name and the phonetic name for the widget. if the phonetic name is empty, only the display name is used instead [CHAR LIMIT=25] -->
+    <string name="widget_name_and_phonetic"><xliff:g id="display_name" example="John Huber">%1$s</xliff:g> (<xliff:g id="phonetic_name">%2$s</xliff:g>)</string>
 	
 	<!-- Checkbox whether to provide a year for a birthday [CHAR LIMIT=30] -->
 	<string name="date_year_toggle">Tambah tahun</string>

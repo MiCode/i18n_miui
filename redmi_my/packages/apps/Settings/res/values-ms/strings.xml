@@ -26,9 +26,21 @@ limitations under the License.
 	<!-- Strings for Dialog create button -->
 	<string name="create">Cipta</string>
 	
+    <!-- Strings for Dialog allow button -->
+    <string name="allow">Benarkan</string>
+    <!-- Strings for Dialog deny button -->
+    <string name="deny">Nafikan</string>
 	<!-- Device Info --> <skip />
 	<!-- Device Info screen. Used for a status item's value when the proper value is not known -->
 	<string name="device_info_default">Tidak diketahui</string>
+    <!-- [CHAR LIMIT=NONE] Device Info screen. Countdown for user taps to enable development settings -->
+    <plurals name="show_dev_countdown">
+        <item quantity="one">Anda sekarang lagi <xliff:g id="step_count">%1$d</xliff:g> langkah untuk menjadi pemaju.</item>
+        <item quantity="other">Anda sekarang lagi <xliff:g id="step_count">%1$d</xliff:g> langkah untuk menjadi pemaju.</item>
+    <!-- [CHAR LIMIT=NONE] Device Info screen. Confirmation that developer settings are enabled -->
+    <string name="show_dev_on">Anda sekarang menjadi pemaju!</string>
+    <!-- [CHAR LIMIT=NONE] Device Info screen. Okay we get it, stop pressing, you already have it on -->
+    <string name="show_dev_already">Tidak perlu, anda sudah pun menjadi pemaju.</string>
 	
 	<!-- Category headings in left-pane header menu --> <skip />
 	<!-- Settings main menu category heading. Wireless and networks (Wi-Fi, Bluetooth, data usage...). [CHAR LIMIT=40] -->
@@ -118,7 +130,7 @@ limitations under the License.
 	<!-- Used for diagnostic info screens, precise translation isn't needed. Unmounts the SD card from the phone, meaning it will become available for an attached computer  [CHAR LIMIT=25] -->
 	<string name="sdcard_unmount" product="nosdcard">Nyahlekap storan USB</string>
 	<!-- Used for diagnostic info screens, precise translation isn't needed. Unmounts the SD card from the phone, meaning it will become available for an attached computer  -->
-	<string name="sdcard_unmount" product="default">Nyahlekap Kad SD</string>
+	<string name="sdcard_unmount" product="default">Nyahlekap kad SD</string>
 	
 	<!-- Used for diagnostic info screens, precise translation isn't needed. Formats the SD card in the phone, meaning it will be erased and reformatted [CHAR LIMIT=25] -->
 	<string name="sdcard_format" product="nosdcard">Padam storan USB</string>
@@ -138,7 +150,7 @@ limitations under the License.
 	<!-- Title for a notification shown. [CHAR LIMIT=25] -->
 	<string name="sdcard_setting" product="nosdcard">Storan USB</string>
 	<!-- Title for a notification shown. -->
-	<string name="sdcard_setting" product="default">Kad SD</string>
+	<string name="sdcard_setting" product="default">kad SD</string>
 	
 	<!-- Battery Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
 	<string name="battery_info_status_label">Status bateri:</string>
@@ -313,13 +325,13 @@ limitations under the License.
     <string name="bluetooth_ask_lasting_discovery" product="default">Satu app ingin jadikan telefon anda boleh ditemui oleh peranti Bluetooth yang lain. Anda boleh tukar ini kemudian dalam tetapan Bluetooth. Benarkan?</string>
 	
 	<!-- Strings for asking to the user whether to allow an app to enable bluetooth and discovery mode -->
-	<string name="bluetooth_ask_enablement_and_discovery" product="tablet">"Satu aplikasi pada tablet anda ingin menghidupkan Bluetooth dan menjadikan tablet anda boleh ditemui oleh peranti lain selama <xliff:g id="timeout">%1$d</xliff:g> saat. Benarkan?"</string>
+	<string name="bluetooth_ask_enablement_and_discovery" product="tablet">"Satu app pada tablet anda ingin menghidupkan Bluetooth dan menjadikan tablet anda boleh ditemui oleh peranti lain selama <xliff:g id="timeout">%1$d</xliff:g> saat. Benarkan?"</string>
 	<!-- Strings for asking to the user whether to allow an app to enable bluetooth and discovery mode -->
-	<string name="bluetooth_ask_enablement_and_discovery" product="default">"Satu aplikasi pada telefon anda ingin menghidupkan Bluetooth dan menjadikan telefon anda boleh ditemui oleh peranti lain selama <xliff:g id="timeout">%1$d</xliff:g> saat. Benarkan?"</string>
+	<string name="bluetooth_ask_enablement_and_discovery" product="default">"Satu app pada telefon anda ingin menghidupkan Bluetooth dan menjadikan telefon anda boleh ditemui oleh peranti lain selama <xliff:g id="timeout">%1$d</xliff:g> saat. Benarkan?"</string>
 	
 	<!-- Strings for asking to the user whether to allow an app to enable bluetooth and discovery mode -->
-	<string name="bluetooth_ask_enablement_and_lasting_discovery" product="tablet">"Satu aplikasi pada tablet anda ingin menghidupkan Bluetooth dan menjadikan tablet anda boleh ditemui oleh peranti lain. Benarkan?"</string>
-	<string name="bluetooth_ask_enablement_and_lasting_discovery" product="default">"Satu aplikasi pada telefon anda ingin menghidupkan Bluetooth dan menjadikan telefon anda boleh ditemui oleh peranti lain. Benarkan?"</string>
+	<string name="bluetooth_ask_enablement_and_lasting_discovery" product="tablet">"Satu app pada tablet anda ingin menghidupkan Bluetooth dan menjadikan tablet anda boleh ditemui oleh peranti lain. Benarkan?"</string>
+	<string name="bluetooth_ask_enablement_and_lasting_discovery" product="default">"Satu app pada telefon anda ingin menghidupkan Bluetooth dan menjadikan telefon anda boleh ditemui oleh peranti lain. Benarkan?"</string>
 	
 	<!-- Strings for msg to display to user while bluetooth is turning on [CHAR LIMIT=60] -->
 	<string name="bluetooth_turning_on">Menghidupkan Bluetooth\u2026</string>
@@ -347,10 +359,10 @@ limitations under the License.
 	
 	<string name="bluetooth_dun_connection_permission_request">Permintah penyambungan Dun</string>
 	<!-- Notification message when a remote Bluetooth device wants to connect to a Bluetooth profile [CHAR LIMIT=none]-->
-	<string name="bluetooth_connection_notif_message">"Sentuh untuk bersambung ke \u0022<xliff:g id="device_name">%1$s</xliff:g>\u0022."</string>
+	<string name="bluetooth_connection_notif_message">"Sentuh untuk sambung ke \u0022<xliff:g id="device_name">%1$s</xliff:g>\u0022."</string>
 	
 	<!-- Bluetooth connection permission Alert Activity text [CHAR LIMIT=none]-->
-	<string name="bluetooth_connection_dialog_text">"Adakah anda ingin menyambung ke \u0022<xliff:g id="device_name">%1$s</xliff:g>\u0022?"</string>
+	<string name="bluetooth_connection_dialog_text">"Adakah anda ingin sambung ke \u0022<xliff:g id="device_name">%1$s</xliff:g>\u0022?"</string>
 	
 	<!-- Activity label of BluetoothPbPermissionActivity, also used as Strings in the permission dialog [CHAR LIMIT=none] -->
 	<string name="bluetooth_phonebook_request">"Permintaan buku telefon"</string>
@@ -475,9 +487,9 @@ limitations under the License.
 	<!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
 	<string name="radio_info_imei_label">IMEI:</string>
 	<!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
-	<string name="radio_info_call_redirect_label">Panggilan arah semula:</string>
+	<string name="radio_info_call_redirect_label">Mengalihkan Panggilan:</string>
 	<!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
-	<string name="radio_info_ppp_resets_label">Bilangan penetapan semula PPP sejak mula:</string>
+	<string name="radio_info_ppp_resets_label">Bilangan reset PPP sejak mula:</string>
 	<!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
 	<string name="radio_info_gsm_disconnects_label">Memutuskan sambungan GSM :</string>
 	<!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
@@ -489,7 +501,7 @@ limitations under the License.
 	<!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
 	<string name="radio_info_gsm_service_label">Servis GSM :</string>
 	<!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
-	<string name="radio_info_signal_strength_label">Kekuatan Signal :</string>
+	<string name="radio_info_signal_strength_label">Kekuatan Isyarat :</string>
 	<!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
 	<string name="radio_info_call_status_label">Status panggilan:</string>
 	<!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
@@ -546,21 +558,21 @@ limitations under the License.
 	<!-- Message when there is no SD card present [CHAR LIMIT=30] -->
 	<string name="sdcard_settings_not_present_status" product="nosdcard">Storan USB tidak dilekapkan.</string>
 	<!-- Message when there is no SD card present -->
-	<string name="sdcard_settings_not_present_status" product="default">Tiada Kad SD.</string>
+	<string name="sdcard_settings_not_present_status" product="default">Tiada kad SD.</string>
 	<!-- Th label for the available (free) sapce on the SD card -->
 	<string name="sdcard_settings_available_bytes_label">Baits tersedia:</string>
 	<!-- Message when the SD card is being used by the computer as mass storage [CHAR LIMIT=30] -->
 	<string name="sdcard_settings_mass_storage_status" product="nosdcard">Storan USB sedang digunakan sebagai peranti storan massa.</string>
 	<!-- Message when the SD card is being used by the computer as mass storage -->
-	<string name="sdcard_settings_mass_storage_status" product="default">Kad SD sedang digunakan sebagai peranti storan massa.</string>
+	<string name="sdcard_settings_mass_storage_status" product="default">kad SD sedang digunakan sebagai peranti storan massa.</string>
 	<!-- Message when it is safe to remove the SD card [CHAR LIMIT=30] -->
 	<string name="sdcard_settings_unmounted_status" product="nosdcard">Ia kini selamat untuk mengeluarkan storan USB.</string>
 	<!-- Message when it is safe to remove the SD card -->
-	<string name="sdcard_settings_unmounted_status" product="default">Ia kini selamat untuk mengeluarkan Kad SD.</string>
+	<string name="sdcard_settings_unmounted_status" product="default">Ia kini selamat untuk mengeluarkan kad SD.</string>
 	<!-- Error message when the SD card was removed without properly unmounting [CHAR LIMIT=30] -->
 	<string name="sdcard_settings_bad_removal_status" product="nosdcard">Storan USB telah dikeluarkan semasa masih digunakan!</string>
 	<!-- Error message when the SD card was removed without properly unmounting -->
-	<string name="sdcard_settings_bad_removal_status" product="default">Kad SD telah dikeluarkan semasa masih digunakan!</string>
+	<string name="sdcard_settings_bad_removal_status" product="default">kad SD telah dikeluarkan semasa masih digunakan!</string>
 	<!-- Label for used bytes on the SD card -->
 	<string name="sdcard_settings_used_bytes_label">Baits yang digunakan:</string>
 	<!-- Message when it is scanning the SD card for new files [CHAR LIMIT=30]  -->
@@ -570,7 +582,7 @@ limitations under the License.
 	<!-- Message when the SD card is mounted as read only [CHAR LIMIT=30] -->
 	<string name="sdcard_settings_read_only_status" product="nosdcard">Storan USB dilekapkan baca-sahaja.</string>
 	<!-- Message when the SD card is mounted as read only -->
-	<string name="sdcard_settings_read_only_status" product="default">Kad SD dilekapkan baca-sahaja.</string>
+	<string name="sdcard_settings_read_only_status" product="default">kad SD dilekapkan baca-sahaja.</string>
 	<!-- SetupWizard strings used by DateTimeSettingsSetupWizard.  The button label for going to the next screen without storing the setting. [CHAR LIMIT=5] -->
 	<string name="skip_label">Langkau</string>
 	<!-- SetupWizard strings used by DateTimeSettingsSetupWizard.  The button label for going to the next screen. -->
@@ -700,11 +712,15 @@ limitations under the License.
 	<!-- Text shown next to checkbox for showing owner info on LockScreen [CHAR LIMIT=50]-->
 	<string name="show_owner_info_on_lockscreen_label">Papar maklumat pemilik pada kunci skrin</string>
 	<!-- Text shown for title of owner info setting [CHAR LIMIT=20]-->
-	<string name="owner_info_settings_title">Info Pemilik</string>
+	<string name="owner_info_settings_title">Maklumat Pemilik</string>
 	<!-- Text shown for summary of owner info setting [CHAR LIMIT=40]-->
     <string name="owner_info_settings_summary"></string>
 	<!-- Hint text shown in owner info edit text [CHAR LIMIT=50] -->
 	<string name="owner_info_settings_edit_text_hint">Taip teks untuk dipaparkan pada kunci skrin</string>
+    <!-- Text shown next to checkbox for showing user info on LockScreen [CHAR LIMIT=50]-->
+    <string name="show_user_info_on_lockscreen_label">Tunjuk maklumat pengguna di kunci skrin</string>
+    <!-- Text shown for title of user info setting [CHAR LIMIT=20]-->
+    <string name="user_info_settings_title">Maklumat Pengguna</string>
 	<!-- Main Settings screen setting option title for the item to take you to the location screen -->
 	<string name="location_settings_title">Servis Lokasi</string>
 	<!-- Main Settings screen setting option title for the item to take you to the security screen -->
@@ -828,17 +844,17 @@ limitations under the License.
 	
 	<!-- Security Picker --><skip />
 	<!--  Title for security picker to choose the unlock method: None/Pattern/PIN/Password [CHAR LIMIT=22] -->
-	<string name="lock_settings_picker_title">Pilih Skrin Kunci</string>
+	<string name="lock_settings_picker_title">Pilih kunci skrin</string>
 	
 	<!--  Title for security picker when choosing a facelock's backup unlock method: Pattern/PIN [CHAR LIMIT=22] -->
-	<string name="backup_lock_settings_picker_title">Pilih Sunci Sandaran</string>
+	<string name="backup_lock_settings_picker_title">Pilih kunci sandaran</string>
 	
 	<!--  Main Security lock settings --><skip />
 	<!--  Title for PreferenceScreen to launch picker for security method when there is none [CHAR LIMIT=22] -->
-	<string name="unlock_set_unlock_launch_picker_title">Skrin Kunci</string>
+	<string name="unlock_set_unlock_launch_picker_title">Kunci Skrin</string>
 	
 	<!--  Title for PreferenceScreen to change security method: None/Pattern/PIN/Password [CHAR LIMIT=22] -->
-	<string name="unlock_set_unlock_launch_picker_change_title">Tukar Kunci Skrin</string>
+	<string name="unlock_set_unlock_launch_picker_change_title">Tukar Skrin Kunci</string>
 	
 	<!--  Summary for PreferenceScreen to changeecurity method: None/Pattern/PIN/Password [CHAR LIMIT=45]  -->
 	<string name="unlock_set_unlock_launch_picker_change_summary">Tukar atau matikan corak, PIN, atau sekuriti kata laluan</string>
@@ -896,7 +912,7 @@ limitations under the License.
 	<string name="unlock_set_unlock_mode_password">Kata Laluan</string>
 	
 	<!-- Title for option to turn of password/pin/pattern unlock. [CHAR LIMIT=22] -->
-	<string name="unlock_disable_lock_title">Matikan Skrin Kunci</string>
+	<string name="unlock_disable_lock_title">Matikan kunci skrin</string>
 	
 	<!-- Summary shown under unlock_disable_lock_title when pattern is in use and can be removed [CHAR LIMIT=45] -->
 	<string name="unlock_disable_lock_pattern_summary">Buang corak buka kunci</string>
@@ -1096,7 +1112,7 @@ limitations under the License.
 	<!-- Bluetooth settings.  Context menu item for a device.  Action will disconnect from all profiles on the device. -->
 	<string name="bluetooth_device_context_disconnect">Putuskan sambungan</string>
 	<!-- Bluetooth settings.  Context menu item for a device.  Action will first pair, and then connect to all profiles on the device. -->
-	<string name="bluetooth_device_context_pair_connect">Pasang &amp; sambung</string>
+	<string name="bluetooth_device_context_pair_connect">Pasang &amp; Sambung</string>
 	<!-- Bluetooth settings.  Context menu item for a device.  Action will remove pairing with the device. -->
 	<string name="bluetooth_device_context_unpair">Putus pasangan</string>
 	<!-- Bluetooth settings.  Context menu item for a device.  Action will disconnect and remove pairing with the device. -->
@@ -1208,6 +1224,48 @@ limitations under the License.
 	<!-- Bluetooth settings.  Dock Setting Dialog - Remember setting and don't ask user again -->
 	<string name="bluetooth_dock_settings_remember">Ingat tetapan</string>
 	
+    <!-- Wifi Display settings. The title of the screen. [CHAR LIMIT=40] -->
+    <string name="wifi_display_settings_title">Paparan Tanpa Wayar</string>
+    <!-- Wifi Display settings. Text displayed when Wifi display is off and device list is empty [CHAR LIMIT=80]-->
+    <string name="wifi_display_settings_empty_list_wifi_display_off">Untuk lihat peranti, hidupkan paparan tanpa wayar.</string>
+    <!-- Wifi Display settings. Text displayed when Wifi Display is off and device list is empty [CHAR LIMIT=80]-->
+    <string name="wifi_display_settings_empty_list_wifi_display_disabled">Paparan tanpa wayar dimatikan kerana Wi-Fi ditutup.</string>
+    <!-- Wifi Display settings. The title of the action button that initiates a search for nearby devices [CHAR LIMIT=20] -->
+    <string name="wifi_display_search_for_devices">Mencari paparan</string>
+    <!-- Wifi Display settings. The title of the action button while a search for nearby devices is in progress [CHAR LIMIT=20] -->
+    <string name="wifi_display_searching_for_devices">Mencari\u2026</string>
+    <!-- Wifi Display settings. Text that appears when scanning for devices is finished and no nearby device was found [CHAR LIMIT=40]-->
+    <string name="wifi_display_no_devices_found">Tiada paparan tanpa wayar berhampiran ditemui.</string>
+    <!-- Wifi Display settings. The sub heading for devices which have already been paired with this device. [CHAR LIMIT=40] -->
+    <string name="wifi_display_paired_devices">Paparan berpasangan</string>
+    <!-- Wifi Display settings. The sub heading for available devices during and after scanning. [CHAR LIMIT=40] -->
+    <string name="wifi_display_available_devices">Peranti tersedia</string>
+    <!-- Wifi Display settings. The status summary for connecting devices. [CHAR LIMIT=40] -->
+    <string name="wifi_display_status_connecting">Menyambungkan</string>
+    <!-- Wifi Display settings. The status summary for connected devices. [CHAR LIMIT=40] -->
+    <string name="wifi_display_status_connected">Bersambung</string>
+    <!-- Wifi Display settings. The status summary for available devices. [CHAR LIMIT=40] -->
+    <string name="wifi_display_status_available">Tersedia</string>
+    <!-- Wifi Display settings. Image description for device details button. This opens the screen to rename, unpair, etc. a single device. -->
+    <string name="wifi_display_details">Tetapan paparan</string>
+    <!-- Wifi Display settings. Disconnect dialog.  The title of the dialog. [CHAR LIMIT=40] -->
+    <string name="wifi_display_disconnect_title">Putuskan sambungan?</string>
+    <!-- Wifi Display settings. Disconnect dialog.  Message for disconnecting from the display. [CHAR LIMIT=NONE] -->
+    <string name="wifi_display_disconnect_text">Ini akan menamatkan sambungan dengan:&lt;br>&lt;b><xliff:g id="device_name">%1$s</xliff:g>&lt;/b></string>
+    <!-- Wifi Display settings. Options dialog.  The title of the dialog. [CHAR LIMIT=40] -->
+    <string name="wifi_display_options_title">Pilihan paparan tanpa wayar</string>
+    <!-- Wifi Display settings. Options dialog.  The forget button text. [CHAR LIMIT=20] -->
+    <string name="wifi_display_options_forget">Lupakan</string>
+    <!-- Wifi Display settings. Options dialog.  The done button text. [CHAR LIMIT=20] -->
+    <string name="wifi_display_options_done">Selesai</string>
+    <!-- Wifi Display settings. Options dialog.  The name label used when prompting the user to rename the display. [CHAR LIMIT=20] -->
+    <string name="wifi_display_options_name">Nama</string>
+    <!-- Wifi Display settings. Summary shown in Display settings. Text used for 'On' state. [CHAR LIMIT=40] -->
+    <string name="wifi_display_summary_on">Buka</string>
+    <!-- Wifi Display settings. Summary shown in Display settings. Text used for 'Off' state. [CHAR LIMIT=40] -->
+    <string name="wifi_display_summary_off">Tutup</string>
+    <!-- Wifi Display settings. Summary shown in Display settings. Text used for 'Disabled' state. [CHAR LIMIT=40] -->
+    <string name="wifi_display_summary_disabled">Dimatikan</string>
 	<!-- NFC settings -->
 	<!-- Used in the 1st-level settings screen to turn on NFC -->
 	<string name="nfc_quick_toggle_title">NFC</string>
@@ -1221,13 +1279,13 @@ limitations under the License.
 	<!-- Used to describe the on state of the Android Beam feature [CHAR LIMIT=NONE] -->
 	<string name="android_beam_on_summary">Bersedia untuk menghantar kandungan app melalui NFC</string>
 	<!-- Used to describe the off state of the Android Beam feature [CHAR LIMIT=NONE] -->
-	<string name="android_beam_off_summary">Mati</string>
+	<string name="android_beam_off_summary">Tutup</string>
 	<!-- Used to describe the enabled state of the Android Beam feature when NFC, which it relies on, is turned off [CHAR LIMIT=NONE] -->
-	<string name="android_beam_disabled_summary">Tidak tersedia kerana NFC dimatikan</string>
+	<string name="android_beam_disabled_summary">Tidak tersedia kerana NFC ditutup</string>
 	<!-- Used in the Android Beam sharing preferences screen. This phrase is a trademark. [CHAR LIMIT=32] -->
-	<string name="android_beam_label">Android Beam</string>
+	<string name="android_beam_label">Pancaran Android</string>
 	<!-- Explanation of the Android Beam feature in the Android Beam settings panel. The use of "beam" here is as a verb and not considered trademarked. [CHAR LIMIT=NONE] -->
-	<string name="android_beam_explained">"Apabila ciri ini dihidupkan, anda boleh pancarkan kandungan app ke peranti NFC-mampu dengan memegang peranti berdekatan bersama-sama. Sebagai contoh, anda boleh 'beam' laman Pelayar, video YouTube, hubungan, dan banyak lagi. Hanya membawa peranti berdekatan bersama-sama (biasanya belakang ke belakang) dan kemudian sentuh skrin anda. App menentukan apa yang akan dipancarkan."</string>
+	<string name="android_beam_explained">"Apabila ciri ini dihidupkan, anda boleh pancarkan kandungan app ke peranti NFC-mampu dengan memegang peranti berdekatan bersama-sama. Sebagai contoh, anda boleh pancar laman Pelayar, video YouTube, kenalan, dan banyak lagi. Hanya membawa peranti berdekatan bersama-sama (biasanya belakang ke belakang) dan kemudian sentuh skrin anda. App menentukan apa yang akan dipancarkan."</string>
 	
 	<!-- Network service discovery settings -->
 	<!-- Used in the 1st-level settings screen to turn on NSD -->
@@ -1280,11 +1338,11 @@ limitations under the License.
 	<!-- Header for the list of wifi networks-->
 	<string name="wifi_access_points">Rangkaian Wi-Fi</string>
 	<!-- Menu option to do WPS Push Button [CHAR LIMIT=25]-->
-	<string name="wifi_menu_wps_pbc">Butang Tolak WPS </string>
+	<string name="wifi_menu_wps_pbc">Butang Push WPS </string>
 	<!-- Menu option to do WPS Pin Entry [CHAR LIMIT=25]-->
 	<string name="wifi_menu_wps_pin">Kemasukan Pin WPS</string>
 	<!-- Menu option to launch Wi-Fi Direct settings [CHAR LIMIT=20]-->
-	<string name="wifi_menu_p2p">Wi-Fi Terus</string>
+	<string name="wifi_menu_p2p">Wi-Fi Langsung</string>
 	<!-- Menu option to scan Wi-Fi networks -->
 	<string name="wifi_menu_scan">Imbas</string>
 	<!-- Menu option to Wi-Fi advanced settings -->
@@ -1305,6 +1363,8 @@ limitations under the License.
 	<string name="wifi_more">Lagi</string>
 	<!-- Wi-Fi settings. wps menu title [CHAR LIMIT=25]-->
 	<string name="wifi_setup_wps">Pemasangan automatik (WPS)</string>
+    <!-- Message informing that wifi is required during setup [CHAR LIMIT=NONE] -->
+    <string name="wifi_required_info_text">Untuk menyempurnakan pemasangan, tablet anda perlukan akses ke Wi-Fi. Selepas pemasangan, anda boleh tukar antara data mudah alih dan Wi-Fi.</string>
 	
 	<!-- Dialog for Access Points --> <skip />
 	<!-- Label to show/hide advanced options -->
@@ -1326,9 +1386,9 @@ limitations under the License.
 	<!-- Text displayed when WPS fails to start [CHAR LIMIT=150] -->
 	<string name="wifi_wps_failed_generic">WPS gagal. Sila cuba lagi dalam beberapa minit.</string>
 	<!-- Text displayed when WPS fails due to WEP [CHAR LIMIT=150] -->
-	<string name="wifi_wps_failed_wep">Tetapan sekuriti router wayarles (WEP) tersebut tidak disokong</string>
+	<string name="wifi_wps_failed_wep">Tetapan sekuriti router tanpa wayar (WEP) tersebut tidak disokong</string>
 	<!-- Text displayed when WPS fails to TKIP [CHAR LIMIT=150] -->
-	<string name="wifi_wps_failed_tkip">Tetapan sekuriti router wayarles (TKIP) tersebut tidak disokong</string>
+	<string name="wifi_wps_failed_tkip">Tetapan sekuriti router tanpa wayar (TKIP) tersebut tidak disokong</string>
 	<!-- Text displayed when WPS fails due to authentication issues [CHAR LIMIT=150] -->
 	<string name="wifi_wps_failed_auth">Kegagalan pengesahan. Sila cuba lagi.</string>
 	<!-- Text displayed when WPS fails due to another session [CHAR LIMIT=150] -->
@@ -1350,9 +1410,9 @@ limitations under the License.
 	<!-- Label for the phase2 -->
 	<string name="please_select_phase2">Pengesahan fasa 2</string>
 	<!-- Label for the EAP CA certificate of the network -->
-	<string name="wifi_eap_ca_cert">Perakuan CA</string>
+	<string name="wifi_eap_ca_cert">Sijil CA</string>
 	<!-- Label for the EAP user certificate of the network -->
-	<string name="wifi_eap_user_cert">Perakuan pengguna</string>
+	<string name="wifi_eap_user_cert">Sijil pengguna</string>
 	<!-- Label for the EAP identity of the network -->
 	<string name="wifi_eap_identity">Identiti</string>
 	<!-- Label for the EAP anonymous identity of the network -->
@@ -1408,7 +1468,23 @@ limitations under the License.
 	<string name="wifi_failed_save_message">Gagal menyimpan rangkaian</string>
 	<!-- Button label to dismiss the dialog -->
 	<string name="wifi_cancel">Batal</string>
+    <!-- Button for skipping a step after having been warned of a potential concern [CHAR LIMIT=30] -->
+    <string name="wifi_skip_anyway" msgid="5205612884736051138">Langkau Juga</string>
+    <!-- Button for going to the previous screen or step [CHAR LIMIT=20] -->
+    <string name="wifi_dont_skip">Jangan Langkau</string>
 	
+    <!-- Text warning about skipping Wi-Fi with a mobile connect (tablet) [CHAR LIMIT=NONE]-->
+    <string name="wifi_skipped_message" product="tablet" msgid="6518433975501257341">AMARAN: Anda mungkin dikenakan caj tambahan.\n\nPemasangan tablet boleh memerlukan aktiviti rangkaian yang ketara.</string>
+    <!-- Text warning about skipping Wi-Fi with a mobile connect (phone) [CHAR LIMIT=NONE]-->
+    <string name="wifi_skipped_message" product="default" msgid="4376150150678208848">AMARAN: Anda mungkin dikenakan caj tambahan.\n\nPemasangan telefon boleh memerlukan aktiviti rangkaian yang ketara.</string>
+    <!-- Text warning about skipping Wi-Fi without a mobile connect (tablet) [CHAR LIMIT=NONE] -->
+    <string name="wifi_and_mobile_skipped_message" product="tablet" msgid="5647058314212144925">AMARAN: Tablet tidak dapat mengesahkan bahawa perisian anda adalah yang terkini.</string>
+    <!-- Text warning about skipping Wi-Fi without a mobile connect (phone) [CHAR LIMIT=NONE] -->
+    <string name="wifi_and_mobile_skipped_message" product="default" msgid="1288483646141987070">AMARAN: Telefon tidak dapat mengesahkan bahawa perisian anda adalah yang terkini.</string>
+    <!-- Text alerting that Wi-Fi couldn't connect (tablet) [CHAR LIMIT=NONE] -->
+    <string name="wifi_connect_failed_message" product="tablet" msgid="2006689630582761529">Tablet tidak dapat menyambung ke rangkaian Wi-Fi ini.</string>
+    <!-- Text alerting that Wi-Fi couldn't connect (phone) [CHAR LIMIT=NONE] -->
+    <string name="wifi_connect_failed_message" product="default" msgid="8220901976514642385">Telefon tidak dapat menyambung ke rangkaian Wi-Fi ini.</string>
 	<!-- Wi-Fi Advanced Settings --> <skip />
 	<!-- Wi-Fi settings screen, advanced, settings section.  This is a header shown above advanced wifi settings. -->
 	<string name="wifi_advanced_titlebar">Lanjutan Wi-Fi</string>
@@ -1440,13 +1516,20 @@ limitations under the License.
 	<string name="wifi_ip_settings_invalid_network_prefix_length">Taip panjang awalan rangkaian antara 0 dan 32.</string>
 	<!-- Label for the DNS (first one) -->
 	<string name="wifi_dns1">DNS 1</string>
+    <!-- Hint text for DNS -->
+    <string name="wifi_dns1_hint" translatable="false">8.8.8.8</string>
 	<!-- Label for the DNS (second one)-->
 	<string name="wifi_dns2">DNS 2</string>
+    <!-- Hint text for DNS -->
+    <string name="wifi_dns2_hint" translatable="false">8.8.4.4</string>
 	<!-- Label for the gateway of the network -->
 	<string name="wifi_gateway">Gateway</string>
+    <!-- Hint text for the gateway -->
+    <string name="wifi_gateway_hint" translatable="false">192.168.1.1</string>
 	<!-- Label for the network prefix of the network [CHAR LIMIT=25]-->
-	<string name="wifi_network_prefix_length">Panjang awalan rangkaian</string>
-	
+    <string name="wifi_network_prefix_length">Network prefix length</string>
+    <!-- Hint text for network prefix length -->
+    <string name="wifi_network_prefix_length_hint" translatable="false">24</string>
 	
 	<!-- Wi-Fi p2p / Wi-Fi Direct settings -->
 	<!-- Used in the 1st-level settings screen to launch Wi-fi Direct settings [CHAR LIMIT=25] -->
@@ -1481,16 +1564,22 @@ limitations under the License.
 	<string name="wifi_p2p_cancel_connect_title">Batalkan jemputan?</string>
 	<!-- Message text for disconnection from one device-->
 	<string name="wifi_p2p_cancel_connect_message">Adakah anda mahu batalkan jemputan untuk berhubung dengan <xliff:g id="peer_name">%1$s</xliff:g>?</string>
+    <!-- Message text for remembered group deletion-->
+    <string name="wifi_p2p_delete_group_message">Lupakan kumpulan ini?</string>
 	
 	<!-- Wifi AP settings-->
 	<!-- Label for wifi tether checkbox. Toggles Access Point on/off -->
 	<string name="wifi_tether_checkbox_text">Hotspot Wi-Fi Mudah Alih</string>
+    <!-- Summary text when turning hotspot on -->
+    <string name="wifi_tether_starting">Menghidupkan hotspot\u2026</string>
+    <!-- Summary text when turning hotspot off -->
+    <string name="wifi_tether_stopping">Mematikan hotspot\u2026</string>
 	<!-- Subtext for wifi tether checkbox on success -->
 	<string name="wifi_tether_enabled_subtext">Hotspot mudah alih <xliff:g id="network_ssid">%1$s</xliff:g> aktif</string>
 	<!-- Subtext for wifi tether checkbox on failure -->
 	<string name="wifi_tether_failed_subtext">Ralat hotspot Wi-Fi mudah alih</string>
 	<!-- Used to open the ssid and security dialog for Wifi Access Point -->
-	<string name="wifi_tether_configure_ap_text">Pasang Wi-Fi hotspot</string>
+	<string name="wifi_tether_configure_ap_text">Pasang hotspot Wi-Fi</string>
 	<!-- Subtext on configuration preference to indicate SSID and security chosen -->
 	<string name="wifi_tether_configure_subtext"><xliff:g id="network_ssid">%1$s</xliff:g> <xliff:g id="network_security">%2$s</xliff:g>Hotspot  Wi-Fi mudah alih </string>
 	<!-- Default access point SSID used for tethering -->
@@ -1539,9 +1628,9 @@ limitations under the License.
 	<!-- Sound settings screen, setting check box label -->
 	<string name="dtmf_tone_enable_title">Nada Sentuh Pad Dail</string>
 	<!-- Sound settings screen, setting check box label -->
-	<string name="sound_effects_enable_title">Bunyi Sentuh </string>
+	<string name="sound_effects_enable_title">Bunyi Sentuh</string>
 	<!-- Sound settings screen, setting check box label -->
-	<string name="lock_sounds_enable_title">Bunyi Skrin Kunci</string>
+	<string name="lock_sounds_enable_title">Bunyi Kunci Skrin</string>
 	<!-- Sound settings screen, setting check box label -->
 	<string name="haptic_feedback_enable_title">Bergetar apabila Sentuh</string>
 	<!-- Sound settings screen, setting option name checkbox to enable/disable audio recording features that improve audio recording in noisy environments -->
@@ -1549,7 +1638,7 @@ limitations under the License.
 	<!-- Volume description for media volume -->
 	<string name="volume_media_description">Muzik, video, permainan, &amp; media lain</string>
 	<!-- Volume description for ringtone and notification volume -->
-	<string name="volume_ring_description">Nada dering &amp; Notifikasi</string>
+	<string name="volume_ring_description">Nada Dering &amp; Notifikasi</string>
 	<!-- Volume description for notification volume -->
 	<string name="volume_notification_description">Notifikasi</string>
 	<!-- Volume description for alarm volume -->
@@ -1652,7 +1741,7 @@ limitations under the License.
 	the device is docked -->
 	<string name="screensaver_activate_on_dock_title">Turut bermula apabila sambung kepada peranti</string>
 	<!-- Sound & display settings screen, setting option name to change whether the screen adjusts automatically based on lighting conditions -->
-	<string name="automatic_brightness">Kecerahan automatik</string>
+	<string name="automatic_brightness">Kecerahan Automatik</string>
 	<!-- [CHAR LIMIT=30] Sound & display settings screen, setting option name to change font size -->
 	<string name="title_font_size">Saiz Tulisan</string>
 	<!-- [CHAR LIMIT=40] Sound & display settings screen, title of dialog for picking font size -->
@@ -1779,7 +1868,9 @@ limitations under the License.
 	<!-- About phone, status item title.  The ICCID of the current LTE device. [CHAR LIMIT=30] -->
 	<string name="status_icc_id">ICCID</string>
 	<!-- About phone, status item title for the type of data phone network we're connected to, for example 3G or Edge or GPRS -->
-	<string name="status_network_type">Jenis Rangkaian Mudah Alih</string>
+    <string name="status_network_type">Jenis Rangkaian Mudah Alih</string>
+    <!-- About phone, status item title for the latest area info cell broadcast received (Brazil only). -->
+    <string name="status_latest_area_info">Info Operator</string>
 	<!-- About phone, status item title. The status of data access.  For example, the value may be "Connected" -->
 	<string name="status_data_state">Keadaan Rangkaian Mudah Alih</string>
 	<!-- About phone, status item title. The status of whether we have service.  for example, the value may be "In service" -->
@@ -1810,6 +1901,8 @@ limitations under the License.
 	<string name="sd_memory" product="default">Kad SD</string>
 	<!-- SD card & phone storage settings title. The amount of free space for some storage partition.  For example, this is listed under both the "Internal phone storage" section and the "SD card" section. -->
 	<string name="memory_available">Tersedia</string>
+    <!-- SD card & phone storage settings title. The amount of free space for some storage partition when the volume is read-only. [CHAR LIMIT=64] -->
+    <string name="memory_available_read_only">Tersedia (baca-sahaja)</string>
 	<!-- SD card & phone storage settings screen heading.  The total amount of storage space for some storage partition.  For example, this is listed under both the "Internal phone storage" section and the "SD card" section -->
 	<string name="memory_size">Jumlah Ruang</string>
 	<!-- SD card & phone storage settings summary. Displayed when the total memory usage is being calculated. Will be replaced with a number like "12.3 GB" when finished calucating. [CHAR LIMIT=30] -->
@@ -1826,14 +1919,16 @@ limitations under the License.
 	<string name="memory_music_usage">Audio (muzik, nada dering, podcast, dll.)</string>
 	<!-- SD card & phone storage settings title. Displayed as a title when showing the total usage of misc files on the device. Below it will be a number like "123.4 MB" indicating used storage. [CHAR LIMIT=50] -->
 	<string name="memory_media_misc_usage">Pelbagai</string>
+    <!-- Storage item representing all cached data on device. [CHAR LIMIT=48] -->
+    <string name="memory_media_cache_usage">Data yang dicacheCached data</string>
 	<!-- SD card & phone storage settings item title that will result in the phone unmounting the SD card.  This will be done before the user phyiscally removes the SD card from the phone.  Kind of like the "Safely remove" on some operating systems.   [CHAR LIMIT=25] -->
 	<string name="sd_eject" product="nosdcard">Nyahlekap Storan Kongsi</string>
 	<!-- SD card & phone storage settings item title that will result in the phone unmounting the SD card.  This will be done before the user phyiscally removes the SD card from the phone.  Kind of like the "Safely remove" on some operating systems.   -->
-	<string name="sd_eject" product="default">Nyahlekap Kad SD</string>
+	<string name="sd_eject" product="default">Nyahlekap kad SD</string>
 	<!-- SD card & phone storage settings item title that will result in the phone unmounting the SD card.  This will be done before the user phyiscally removes the SD card from the phone.  Kind of like the "Safely remove" on some operating systems.   [CHAR LIMIT=30] -->
 	<string name="sd_eject_summary" product="nosdcard">Nyahlekap Storan Dalaman USB</string>
 	<!-- SD card & phone storage settings item title that will result in the phone unmounting the SD card.  This will be done before the user phyiscally removes the SD card from the phone.  Kind of like the "Safely remove" on some operating systems.   -->
-	<string name="sd_eject_summary" product="default">Nyahlekap Kad SD supaya anda boleh mengeluarkannya dengan selamat.</string>
+	<string name="sd_eject_summary" product="default">Nyahlekap kad SD supaya anda boleh mengeluarkannya dengan selamat.</string>
 	<!-- SD card & phone storage settings item title for toggling PTP mode on and off.  When PTP mode is on the device will appear on the USB bus as a PTP camera device instead of an MTP music player.   -->
 	
 	<!-- SD card & phone storage settings item summary that is displayed when no SD card is inserted.  This version of the string can probably never come up on current hardware. [CHAR LIMIT=25] -->
@@ -1844,7 +1939,7 @@ limitations under the License.
 	<!-- Storage setting item that will mount USB storage if it unmounted. A user should never see this. [CHAR LIMIT=25] -->
 	<string name="sd_mount" product="nosdcard">Lekap storan USB</string>
 	<!-- SD card & phone storage settings item title that will result in the phone mounting the SD card. -->
-	<string name="sd_mount" product="default">Lekap Kad SD</string>
+	<string name="sd_mount" product="default">Lekap kad SD</string>
 	
 	<!-- Subtext for Mount USB storage in Storage settings. User should never see this since we use automount. -->
 	<string name="sd_mount_summary" product="nosdcard"></string>
@@ -1883,7 +1978,7 @@ limitations under the License.
 	<!-- SD card unmount informative text   [CHAR LIMIT=NONE] -->
 	<string name="unmount_inform_text" product="nosdcard">Storan USB akan dinyahlekap.</string>
 	<!-- SD card unmount informative text   [CHAR LIMIT=NONE] -->
-	<string name="unmount_inform_text" product="default">Kad SD akan dinyahlekap.</string>
+	<string name="unmount_inform_text" product="default">kad SD akan dinyahlekap.</string>
 	<!-- SD card eject progress title   -->
 	<string name="sd_ejecting_title">Nyahlekapkan</string>
 	<!-- SD card eject progress text   -->
@@ -1997,7 +2092,7 @@ limitations under the License.
 	
 	<!-- Master Clear -->
 	<!-- SD card & phone storage settings screen, setting option name under Internal phone storage heading -->
-	<string name="master_clear_title">Tetapan Semula Data Kilang</string>
+	<string name="master_clear_title">Reset data kilang</string>
 	<!-- SD card & phone storage settings screen, setting option summary text under Internal phone storage heading -->
 	<string name="master_clear_summary" product="tablet">Padamkan semua data pada tablet</string>
 	<!-- SD card & phone storage settings screen, setting option summary text under Internal phone storage heading -->
@@ -2037,7 +2132,7 @@ limitations under the License.
 	<!-- Master clear failed message -->
 	<string name="master_clear_failed">"Tiada penetapan semula dijalankan kerana servis Sistem Clear tidak tersedia."</string>
 	<!-- Master clear confirmation screen title [CHAR LIMIT=30] -->
-	<string name="master_clear_confirm_title">Menetapkan Semula?</string>
+	<string name="master_clear_confirm_title">Reset?</string>
 	
 	<!-- Media Format -->
 	<!-- Internal Storage & phone storage settings screen, setting option name under Internal phone storage heading -->
@@ -2047,7 +2142,7 @@ limitations under the License.
 	<!-- Internal Storage & phone storage settings screen, button on screen after user selects Factory data reset [CHAR LIMIT=25] -->
 	<string name="internal_media_format_button_text">Padamkan storan dalaman</string>
 	<!-- Internal Storage & phone storage settings screen, message on screen after user selects Format media button [CHAR LIMIT=NONE] -->
-	<string name="internal_media_format_final_desc">"Padamkan storan Dalaman, memadam semua fail yang disimpan? Anda tidak boleh menterbalikkan tindakan ini! Telefon akan mula semula selepas storan dalaman dipadam!"</string>
+	<string name="internal_media_format_final_desc">"Padamkan storan dalaman, memadam semua fail yang disimpan? Anda tidak boleh menterbalikkan tindakan ini! Telefon akan mula semula selepas storan dalaman dipadam!"</string>
 	<!-- SD card & phone storage settings screen, setting option name under Internal phone storage heading [CHAR LIMIT=25] -->
 	<string name="media_format_title" product="nosdcard">Padam storan USB</string>
 	<!-- SD card & phone storage settings screen, setting option name under Internal phone storage heading -->
@@ -2150,18 +2245,26 @@ limitations under the License.
 	<string name="location_neighborhood_level_wifi">Lokasi Ditentukan oleh Wi-Fi</string>
 	<!-- [CHAR LIMIT=30] Security & location settings screen, setting check box label for GPS satellites -->
 	<string name="location_gps">Satelit GPS</string>
+    <!-- [CHAR LIMIT=100] Security & location settings screen, setting check box summary for GPS satellites on a tablet -->
+    <string name="location_street_level" product="tablet">Benarkan app menggunakan GPS di tablet anda untuk menentukan lokasi anda</string>
 	<!-- [CHAR LIMIT=100] Security & location settings screen, setting check box summary for GPS satellites -->
-	<string name="location_street_level">Benarkan app menggunakan GPS untuk menentukan lokasi anda</string>
+	<string name="location_street_level">Benarkan app menggunakan GPS di telefon anda untuk menentukan lokasi anda</string>
 	<!-- Security & location settings screen, setting check box label if Assisted GPS should be enabled -->
 	<string name="assisted_gps">Guna Bantuan GPS</string>
 	<!-- Security & location settings screen, setting summary when Assisted GPS check box is selected -->
-	<string name="assisted_gps_enabled">Guna pelayan untuk membantu GPS (nyahtanda untuk mengurangkan penggunaan rangkaian)</string>
+	<string name="assisted_gps_enabled">Guna pelayan untuk membantu GPS (buang tanda untuk mengurangkan penggunaan rangkaian)</string>
 	<!-- Security & location settings screen, setting summary when Assisted GPS check box is clear -->
-	<string name="assisted_gps_disabled">Gunakan pelayan untuk membantu GPS (nyahtanda untuk meningkatkan prestasi GPS)</string>
+	<string name="assisted_gps_disabled">Gunakan pelayan untuk membantu GPS (buang tanda untuk meningkatkan prestasi GPS)</string>
 	<!-- [CHAR_LIMIT=30] Security & location settings screen, setting check box label for Google search -->
 	<string name="use_location_title">Lokasi &amp; Carian Google</string>
 	<!-- [CHAR_LIMIT=100] Security & location settings screen, setting check box summary for Google search -->
-	<string name="use_location_summary">Benarkan Google menggunakan lokasi anda untuk meningkatkan hasil carian dan servis lain</string>
+    <string name="use_location_summary">Benarkan Google menggunakan lokasi anda untuk meningkatkan hasil carian dan servis lain</string>
+    <!-- [CHAR LIMIT=45] Label for turning on/off location access completely. -->
+    <string name="location_access_title">Akses ke Lokasi Saya</string>
+    <!-- [CHAR LIMIT=none] Description text for location access switch -->
+    <string name="location_access_summary">Benarkan app yang telah meminta kebenaran untuk guna maklumat lokasi anda</string>
+    <!-- [CHAR LIMIT=45] Section heading for location sources -->
+    <string name="location_sources_heading">Location sources</string>
 	
 	<!-- About --> <skip />
 	<!-- Main settings screen, setting title for the user to go into the About phone screen -->
@@ -2286,6 +2389,11 @@ limitations under the License.
 	<!-- Security & location settings screen, change unlock pattern screen countdown hint on bottom of screen after too many incorrect attempts -->
 	<string name="lockpattern_too_many_failed_confirmation_attempts_footer">Cuba lagi dalam <xliff:g id="number">%d</xliff:g> saat.</string>
 	
+	<!-- Displayed when user launches a widget configuration activity that was uninstalled -->
+    	<string name="activity_not_found">App ini tidak dipasang dalam telefon anda.</string>
+
+	
+	
 	<!-- ChooseLockPatternTutorial --> <skip />
 	<!-- ChooseLockPatternTutorial, button labels: This is to cancel the tutorial -->
 	<string name="skip_button_label">Batal</string>
@@ -2329,6 +2437,10 @@ limitations under the License.
 	dari sumber yang tidak diketahui. Anda bersetuju bahawa anda bertanggungjawab sepenuhnya untuk sebarang
 	kerosakan kepada telefon atau kehilangan data yang boleh berlaku daripada penggunaan
 	app ini.</string>
+    <!-- Applications settings screen, setting check box title. If checked, the system will send package verification requests to package verifiers on the device who will ultimately allow or reject the installation of applications. [CHAR LIMIT=30] -->
+    <string name="verify_applications">Sahkan app</string>
+    <!-- Applications settings screen, setting check box summary. This is the summary for "App Check" checkbox. [CHAR LIMIT=none] -->
+    <string name="verify_applications_summary">Jangan benarkan atau beri amaran sebelum memasang app yang mungkin menyebabkan kerosakan</string>
 	<!-- Applications settings screen, setting check box title. If checked, applications show more settings options. -->
 	<string name="advanced_settings">Tetapan Lanjutan</string>
 	<!-- Applications settings screen, setting check box summary.  This is the summary for "Advanced settings" checkbox  -->
@@ -2366,7 +2478,7 @@ limitations under the License.
 	<!--  Manage applications, individual application info screen, label under Storage heading.  The amount of space taken up by the app's data on USB storage [CHARSIZE=40] -->
 	<string name="external_data_size_label" product="nosdcard">Data storan USB</string>
 	<!--  Manage applications, individual application info screen, label under Storage heading.  The amount of space taken up by the app's data on the SD card [CHARSIZE=40] -->
-	<string name="external_data_size_label" product="default">kad SD</string>
+	<string name="external_data_size_label" product="default">Kad SD</string>
 	<!-- Manage applications, individual application info screen, button label under Storage heading. Button to remove the application from the system. -->
     <string name="uninstall_text">Buang</string>
     <!-- Manage applications, individual application info screen, menu item to uninstall an application for all users. -->
@@ -2390,7 +2502,7 @@ limitations under the License.
 	<!-- Manage applications, individual application screen, button label under Launch by default heading.  This is used to clear any default actions that may be assigned to this app.  -->
 	<string name="clear_activities">Padam lalai</string>
 	<!-- Manage applications, individual application info screen, screen, message text under screen compatibility heading -->
-	<string name="screen_compatibility_text">Aplikasi ini mungkin tidak direka bentuk untuk skrin anda. Anda boleh mengawal bagaimana ia
+	<string name="screen_compatibility_text">App ini mungkin tidak direka untuk skrin anda. Anda boleh mengawal bagaimana ia
 	disesuaikan pada skrin anda di sini.</string>
 	<!-- Manage applications, individual application screen, checkbox to control asking for compatibility mode.  -->
 	<string name="ask_compatibility">Tanya apabila dilancarkan</string>
@@ -2439,7 +2551,7 @@ limitations under the License.
 	<string name="filter_apps_onsdcard" product="nosdcard">Storan USB</string>
 	<!-- Text for filter option in ManageApps screen to display list of
 	packages installed on sdcard. -->
-	<string name="filter_apps_onsdcard" product="default">Dalam Kad SD</string>
+	<string name="filter_apps_onsdcard" product="default">Dalam kad SD</string>
 	<!-- [CHAR LIMIT=25] Manage applications, text telling using an application is disabled. -->
 	<string name="disabled">Dimatikan</string>
     <!-- [CHAR LIMIT=25] Manage applications, text telling using an application is not installed. -->
@@ -2447,17 +2559,17 @@ limitations under the License.
 	<!-- [CHAR LIMIT=25] Text shown when there are no applications to display. -->
 	<string name="no_applications">Tiada app.</string>
 	<!-- [CHAR LIMIT=15] Manage applications, label for chart showing internal storage use. -->
-	<string name="internal_storage">Storan Dalaman</string>
+	<string name="internal_storage">Storan dalaman</string>
 	<!-- [CHAR LIMIT=15] Manage applications, label for chart showing SD card storage use. -->
 	<string name="sd_card_storage" product="nosdcard">Storan USB</string>
 	<!-- [CHAR LIMIT=15] Manage applications, label for chart showing SD card storage use. -->
-	<string name="sd_card_storage" product="default">Storan Kad SD</string>
+	<string name="sd_card_storage" product="default">Storan kad SD</string>
 	<!-- Manage app screen, shown when the activity is busy recomputing the size of each app -->
 	<string name="recompute_size">Saiz Recomputing\u2026</string>
 	<!-- Manage applications, individual application screen, confirmation dialog title. Displays when user selects to "Clear data". -->
 	<string name="clear_data_dlg_title">Buang data app?</string>
 	<!-- Manage applications, individual application screen, confirmation dialog message. Displays when user selects to "Clear data". It warns the user of the consequences of clearing the data for an app. -->
-	<string name="clear_data_dlg_text">"Semua data aplikasi ini akan dipadamkan secara kekal. Ini termasuk semua fail, tetapan, akaun, pangkalan data, dan lain-lain."</string>
+	<string name="clear_data_dlg_text">"Semua data app ini akan dipadamkan secara kekal. Ini termasuk semua fail, tetapan, akaun, pangkalan data, dan lain-lain."</string>
 	<!-- Manage applications, individual application screen, confirmation dialog button. Displays when user selects to "Clear data". Goes through with the clearing of the data. -->
 	<string name="dlg_ok">OK</string>
 	<!-- Manage applications, individual application screen, confirmation dialog button. Displays when user selects to "Clear data". -->
@@ -2465,9 +2577,9 @@ limitations under the License.
 	<!-- Manage applications, individual application dialog box title. Shown when the user somehow got into a state where it wants to manage some app that isn't found. -->
     <string name="app_not_found_dlg_title"></string>
 	<!-- Manage applications, individual application dialog box message. Shown when the user somehow got into a state where it wants to manage some app that isn't found. -->
-	<string name="app_not_found_dlg_text">App ini tidak ditemui dalam senarai aplikasi yang dipasang.</string>
+	<string name="app_not_found_dlg_text">App ini tidak ditemui dalam senarai app yang dipasang.</string>
 	<!-- Manage applications, individual application dialog box message. Shown when there was an error trying to clear the data. -->
-	<string name="clear_data_failed">Tidak boleh padam data aplikasi.</string>
+	<string name="clear_data_failed">Tidak boleh padam data app.</string>
 	<!-- Manage applications, factory reset dialog title for system applications. -->
 	<string name="app_factory_reset_dlg_title">Buangkan kemaskini?</string>
 	<!-- Manage applications, factory reset option dialog text for system applications. -->
@@ -2475,7 +2587,7 @@ limitations under the License.
 	<!-- Manage applications, title for dialog if clear data fails-->
 	<string name="clear_failed_dlg_title">Kosongkan data</string>
 	<!-- Manage applications, text for dialog if clear data fails-->
-	<string name="clear_failed_dlg_text">Tidak boleh padam data untuk aplikasi.</string>
+	<string name="clear_failed_dlg_text">Tidak boleh padam data untuk app.</string>
 	<!-- Manage applications, individual application info screen, text that appears under the "Permissions" heading. This describes the permissions that the application has. -->
 	<string name="security_settings_desc" product="tablet">App ini boleh akses yang berikut dalam tablet anda:</string>
 	<!-- Manage applications, individual application info screen, text that appears under the "Permissions" heading. This describes the permissions that the application has. -->
@@ -2502,6 +2614,10 @@ limitations under the License.
 	<string name="join_many_items_first"><xliff:g id="first_item">%1$s</xliff:g>, <xliff:g id="all_but_first_and_last_item">%2$s</xliff:g></string>
 	<!-- [CHAR_LIMIT=NONE] Format to put the middle items together in a series of 4 or more items in a list -->
 	<string name="join_many_items_middle"><xliff:g id="added_item">%1$s</xliff:g>, <xliff:g id="rest_of_items">%2$s</xliff:g></string>
+    <!-- Manage applications, individual application info screen, text that appears under the "Permissions" heading after the app has tried to send to a premium SMS. [CHAR LIMIT=50] -->
+    <string name="security_settings_billing_desc">App ini mungkin akan caj duit anda:</string>
+    <!-- Manage applications, text for permission to send to premium SMS short codes. [CHAR LIMIT=40] -->
+    <string name="security_settings_premium_sms_desc">Hantar SMS premium</string>
 	<string name="computing_size">Pengkomputeran\u2026</string>
 	<string name="invalid_size_value">"Tidak dapat mengira saiz pakej."</string>
 	<!-- String displayed when list is empty -->
@@ -2517,7 +2633,7 @@ limitations under the License.
 	<!-- Manage applications, text for Move button  to move app to sdcard [CHAR LIMIT=25] -->
 	<string name="move_app_to_sdcard" product="nosdcard">Pindah ke storan USB</string>
 	<!-- Manage applications, text for Move button  to move app to sdcard -->
-	<string name="move_app_to_sdcard" product="default">Pindah ke Kad SD</string>
+	<string name="move_app_to_sdcard" product="default">Pindah ke kad SD</string>
 	<!-- Manage applications, title for dialog when killing persistent apps-->
 	<!-- Manage applications, text for Move button when move is in progress -->
 	<string name="moving">Memindah</string>
@@ -2585,6 +2701,10 @@ limitations under the License.
 	<string name="memory">RAM</string>
 	<!-- Text to label a process entry with the process name. -->
 	<string name="service_process_name"><xliff:g id="process">%1$s</xliff:g></string>
+    <!-- [CHAR LIMIT=NONE] Label of a running process that represents another user -->
+    <string name="running_process_item_user_label">Pengguna: <xliff:g id="user_name">%1$s</xliff:g></string>
+    <!-- [CHAR LIMIT=NONE] Label of a running process that represents a removed -->
+    <string name="running_process_item_removed_user_label">Pengguna dibuang</string>
 	<!-- Descriptive text of a running process: singular process, singular service. -->
 	<string name="running_processes_item_description_s_s"><xliff:g id="numprocess">%1$d</xliff:g> 
 	proses dan <xliff:g id="numservices">%2$d</xliff:g> servis</string>
@@ -2671,7 +2791,7 @@ limitations under the License.
 	<!-- On Text & language settings screen, setting summary for the Auto-punctuate setting. -->
 	<string name="auto_punctuate_summary">Tekan kekunci Space dua kali untuk masukkan \u0022.\u0022</string>
 	<!-- On Security & location settings screen, setting check box name. Title of the checkbox to set whether password edit fields will show the most recent character typed and then hide it, or just hide it right away.  By hide, I mean mask it out. -->
-	<string name="show_password">Make passwords visible</string>
+	<string name="show_password">Jadikan kata laluan boleh dilihat</string>
 	<!-- On Security & location settings screen, setting check box summary. Summary for the visible passwords setting. -->
 	<string name="show_password_summary"></string>
 	<!-- Warning message about security implications of enabling an input method, displayed as a dialog
@@ -2769,6 +2889,8 @@ limitations under the License.
 	<string name="testing_phone_info" product="default">Info Telefon</string>
 	<!-- In the Testing screen. The item title of the activity that shows a bunch of battery-related information.  -->
 	<string name="testing_battery_info">Info Bateri</string>
+    <!-- Do not translate. In the Testing screen. The item title of the activity that shows a bunch of SIM-related operations.  -->
+    <string name="testing_sim_toolkit">Kit Panduan SIM</string>
 	
 	<!-- The title of the item to go into the Quick launch settings. -->
 	<string name="quick_launch_title">Lancar Pantas</string>
@@ -2806,7 +2928,7 @@ limitations under the License.
 	<!-- An option to always show input method selector [CHAR LIMIT=25] -->
 	<string name="input_method_selector_always_show_title">Sentiasa Tunjuk</string>
 	<!-- An option to always hide input method selector [CHAR LIMIT=25] -->
-	<string name="input_method_selector_always_hide_title">Sentiasa Tersembunyi</string>
+	<string name="input_method_selector_always_hide_title">Sentiasa Sembunyi</string>
 	<!-- Title for configuring input method settings [CHAR LIMIT=35] -->
 	<string name="configure_input_method">Pasang Kaedah Input</string>
 	<!-- Title for settings of each IME [CHAR LIMIT=25] -->
@@ -2870,13 +2992,13 @@ limitations under the License.
 	<string name="enforce_read_external_confirm_message" product="nosdcard">Apabila storan USB dilindungi, app mesti meminta kebenaran untuk membaca data daripada storan luaran.\n\nSesetengah app tidak akan berfungsi sehingga dikemaskini oleh pemajunya.</string>
 	
 	<!-- Title of checkbox setting that protects external storage. [CHAR LIMIT=32] -->
-	<string name="enforce_read_external_title" product="default">Lindungi Kad SD</string>
+	<string name="enforce_read_external_title" product="default">Lindungi kad SD</string>
 	<!-- Summary of checkbox setting that protects external storage. [CHAR LIMIT=64] -->
-	<string name="enforce_read_external_summary" product="default">App mesti meminta kebenaran untuk membaca Kad SD</string>
+	<string name="enforce_read_external_summary" product="default">App mesti meminta kebenaran untuk membaca kad SD</string>
 	<!-- Title of dialog confirming that user wants to protect external storage. [CHAR LIMIT=32] -->
-	<string name="enforce_read_external_confirm_title" product="default">Lindungi Kad SD?</string>
+	<string name="enforce_read_external_confirm_title" product="default">Lindungi kad SD?</string>
 	<!-- Message of dialog confirming that user wants to protect external storage. [CHAR LIMIT=NONE] -->
-	<string name="enforce_read_external_confirm_message" product="default">Apabila Kad SD dilindungi, app mesti meminta kebenaran untuk membaca data daripada storan luaran.\n\nSesetengah app tidak akan berfungsi sehingga dikemaskini oleh pemajunya.</string>
+	<string name="enforce_read_external_confirm_message" product="default">Apabila kad SD dilindungi, app mesti meminta kebenaran untuk membaca data daripada storan luaran.\n\nSesetengah app tidak akan berfungsi sehingga dikemaskini oleh pemajunya.</string>
 	
 	<!-- Title for the screen that lets the user choose a gadget to add to the home screen
 	(or other screens that can host gadgets).  Note to translators: we're still determining
@@ -2936,8 +3058,28 @@ limitations under the License.
 	
 	<!-- Title for the accessibility preference category of system related preferences. [CHAR LIMIT=25] -->
 	<string name="accessibility_system_title">Sistem</string>
-	<!-- Title for the accessibility preference to enable large text. [CHAR LIMIT=35] -->
-	<string name="accessibility_toggle_large_text_title">Teks besar</string>
+    <!-- Title for the accessibility preference screen to enable screen magnification. [CHAR LIMIT=35] -->
+    <string name="accessibility_screen_magnification_title">Gerakan Magnifikasi</string>
+    <!-- Summary for the accessibility preference screen to enable screen magnification. [CHAR LIMIT=none] -->
+    <string name="accessibility_screen_magnification_summary">Apabila ciri ini dihidupkan, anda boleh zum masuk dan keluar dengan mengetuk skrin tiga kali.\n\nKetika zum masuk, anda boleh:\n<ul><li>Pan: Seret dua atau lebih jari di skrin.</li>\n<li>Laras aras zum: Picit dua atau lebih jari bersama-sama atau disebarkan mereka terpisah.</li></ul>\n\nAnda boleh membesarkan sementara apa yang dibawah jari anda dengan mengetuk tiga kali dan pegang. Dalam keadaan diperbesarkan ini, anda boleh menyeret jari anda untuk meneroka bahagian yang berlainan di skrin. Angkat jari anda untuk kembali ke keadaan anda sebelum ini.\n\nNota: Ketuk tiga kali untuk kerja-kerja pembesaran di mana-mana kecuali papan kekunci dan navigasi bar.</string>
+    <!-- Title for the preference to enable the global geture that turns on accessibility. [CHAR LIMIT=35] -->
+    <string name="accessibility_global_gesture_preference_title">Pintasan Kebolehcapaian</string>
+    <!-- Summary for the preference to enable the global geture that turns on accessibility (on state). [CHAR LIMIT=60] -->
+    <string name="accessibility_global_gesture_preference_summary_on">Buka</string>
+    <!-- Summary for the preference screen to enable the global geture that turns on accessibility (off state). [CHAR LIMIT=35] -->
+    <string name="accessibility_global_gesture_preference_summary_off">Tutup</string>
+    <!--  Description for the preference screen to enable the global geture taht turns on accessibility. [CHAR LIMIT=none] -->
+    <string name="accessibility_global_gesture_preference_description">Ketika ciri ini dibuka, anda boleh hidupkan ciri kebolehcapaian dengan cepat dalam dua langkah:\n\nLangkah 1: Tekan dan pegang butang power sehingga anda dengar bunyi atau rasa getaran.\n\nLangkah 2: Sentuh dan pegang dua jari sehingga anda dengar pengesahan audio.\n\nJika peranti mempunyai berbilang pengguna, guna pintasan ini di skrin kunci sementara waktu menghidupkan kebolehcapaian sehingga peranti dibuka kunci.</string>
+    <!-- Title for the accessibility preference to enable large text. [CHAR LIMIT=35] -->
+    <string name="accessibility_toggle_large_text_preference_title">Teks Besar</string>
+    <!-- Title for the accessibility preference to enable screen magnification. [CHAR LIMIT=35] -->
+    <string name="accessibility_toggle_screen_magnification_preference_title">Pembesaran Skrin</string>
+    <!-- Title for the accessibility preference to auto update screen magnification. [CHAR LIMIT=35] -->
+    <string name="accessibility_toggle_screen_magnification_auto_update_preference_title">Auto
+        kemaskini pembesaran skrin</string>
+    <!-- Summary for the accessibility preference to auto update screen magnification. [CHAR LIMIT=50] -->
+    <string name="accessibility_toggle_screen_magnification_auto_update_preference_summary">Kemaskini
+        pembesaran skrin pada peralihan app</string>
 	<!-- Title for the accessibility preference to power button to end a call. [CHAR LIMIT=35] -->
 	<string name="accessibility_power_button_ends_call_title">Butang Power tamatkan panggilan</string>
 	<!-- Title for the accessibility preference to speak passwords. [CHAR LIMIT=35] -->
@@ -2951,9 +3093,9 @@ limitations under the License.
 	<string name="accessibility_menu_item_settings">Tetapan</string>
 	
 	<!-- Summary for the enabled state of an accessiblity serivce. [CHAR LIMIT=10] -->
-	<string name="accessibility_service_state_on">On</string>
+	<string name="accessibility_service_state_on">Buka</string>
 	<!-- Summary for the disabled state of an accessiblity serivce. [CHAR LIMIT=10] -->
-	<string name="accessibility_service_state_off">Off</string>
+	<string name="accessibility_service_state_off">Tutup</string>
 	
 	<!-- Summary for the allowed state of script injection. [CHAR LIMIT=15] -->
 	<string name="accessibility_script_injection_allowed">Dibenarkan</string>
@@ -2972,15 +3114,15 @@ limitations under the License.
 	<!-- Summary for a warning message about security implications of enabling an accessibility service,
 	displayed as a dialog message when the user selects to enable an accessibility service (tablet). [CHAR LIMIT=NONE] -->
 	<string name="accessibility_service_security_warning_summary" product="tablet">
-	<xliff:g id="accessibility_service_name">%1$s</xliff:g> can
-	collect all of the text you type, except passwords. This includes personal data such as credit card
-	numbers. It can also collect data about your interactions with the tablet.</string>
+	<xliff:g id="accessibility_service_name">%1$s</xliff:g> boleh
+	mengumpul semua teks yang anda taip, kecuali kata laluan. Ini termasuk data peribadi seperti nombor kad kredit.
+	Ia juga boleh mengumpul data tentang interaksi anda dengan tablet.</string>
 	<!-- Summary for a warning message about security implications of enabling an accessibility service,
 	displayed as a dialog message when the user selects to enable an accessibility service (phone). [CHAR LIMIT=NONE] -->
 	<string name="accessibility_service_security_warning_summary" product="default">
-	<xliff:g id="accessibility_service_name">%1$s</xliff:g> can
-	collect all of the text you type, except passwords. This includes personal data such as credit card
-	numbers. It can also collect data about your interactions with the phone.</string>
+	<xliff:g id="accessibility_service_name">%1$s</xliff:g> boleh
+	mengumpul semua teks yang anda taip, kecuali kata laluan. Ini termasuk data peribadi seperti nombor kad kredit
+	Ia juga boleh mengumpul data tentang interaksi anda dengan telefon.</string>
 	
 	<!-- Title for a warning about disabling an accessibility service displayed as a dialog message when the user
 	selects to disable that service. This avoids accidental disabling. [CHAR LIMIT=NONE] -->
@@ -3156,6 +3298,8 @@ limitations under the License.
 	<!-- Suggestion for getting apps to consume less power -->
 	<string name="battery_sugg_apps_settings">App mungkin akan tawarkan tetapan untuk mengurangkan kegunaan bateri</string>
 	
+    <!-- [CHAR LIMIT=50] Description for power consumed by users -->
+    <string name="battery_desc_users">Bateri diguna oleh pengguna</string>
 	<!-- Menu label for viewing battery usage since unplugged -->
 	<string name="menu_stats_unplugged"><xliff:g id="unplugged">%1$s</xliff:g> sejak dinyahcas</string>
 	<!-- Menu label for viewing battery usage since unplugged -->
@@ -3184,10 +3328,10 @@ limitations under the License.
 	<!-- Title for the voice recognizer setting in voice input/output settings -->
 	<string name="recognizer_title">Pengecam suara</string>
 	<!-- Title for the link to settings for the chosen voice recognizer in voice input/output settings -->
-	<string name="recognizer_settings_title">Carian suara</string>
+	<string name="recognizer_settings_title">Carian Suara</string>
 	<!-- Summary for the link to settings for the chosen voice recognizer in voice input/output settings.
 	Would say something like, e.g., "Settings for 'Google'". -->
-	<string name="recognizer_settings_summary">Tetapan utk \'<xliff:g id="recognizer_name">%s</xliff:g>\'</string>
+	<string name="recognizer_settings_summary">Tetapan untuk \'<xliff:g id="recognizer_name">%s</xliff:g>\'</string>
 	
 	<!-- Text-To-Speech (TTS) settings --><skip />
 	<!-- Name of the TTS package as listed by the package manager. -->
@@ -3295,11 +3439,11 @@ limitations under the License.
 	<!-- Title of preference to install certificates from SD card [CHAR LIMIT=30] -->
 	<string name="credentials_install" product="nosdcard">Pasang daripada storan</string>
 	<!-- Title of preference to install certificates from SD card [CHAR LIMIT=30] -->
-	<string name="credentials_install" product="default">Pasang daripada Kad SD</string>
+	<string name="credentials_install" product="default">Pasang daripada kad SD</string>
 	<!-- Summary of preference to install certificates from SD card [CHAR LIMIT=NONE] -->
 	<string name="credentials_install_summary" product="nosdcard">Pasang perakuan daripada storan</string>
 	<!-- Summary of preference to install certificates from SD card [CHAR LIMIT=NONE] -->
-	<string name="credentials_install_summary" product="default">Pasang perakuan daripada Kad SD</string>
+	<string name="credentials_install_summary" product="default">Pasang perakuan daripada kad SD</string>
 	<!-- Title of preference to reset credential storage [CHAR LIMIT=30] -->
 	<string name="credentials_reset">Kosongkan tauliah</string>
 	<!-- Summary of preference to reset credential storage [CHAR LIMIT=NONE] -->
@@ -3324,7 +3468,7 @@ limitations under the License.
 	<string name="credentials_reset_hint">Buang segala kandungan?</string>
 	<string name="credentials_password_too_short">Kata laluan mesti mempunyai sekurang-kurangnya 8 aksara.</string>
 	<!-- Error message [CHAR LIMIT=NONE] -->
-	<string name="credentials_wrong_password">Katalaluan salah.</string>
+	<string name="credentials_wrong_password">Kata laluan salah.</string>
 	<!-- Error message [CHAR LIMIT=NONE] -->
 	<string name="credentials_reset_warning">Kata laluan salah. Anda mempunyai satu lagi peluang sebelum storan tauliah dipadamkan.</string>
 	<!-- Error message [CHAR LIMIT=NONE] -->
@@ -3434,7 +3578,7 @@ limitations under the License.
 	the device is connecting a network the user specified.
 	The argument should be the name of the network.
 	[CHAR LIMIT=50] -->
-	<string name="wifi_setup_title_connecting_network">Menyambungkan ke rangkaian Wi-Fi %s…</string>
+    <string name="wifi_setup_title_connecting_network">Menyambungkan ke rangkaian Wi-Fi <xliff:g id="network_name" example="Happy Mobile">%s</xliff:g>\u2026</string>
 	<!-- Title shown in Wifi Setup For Setup Wizard with XL screen when
 	the device successfully connected to a network the user specified.
 	The argument should be the name of the network.
@@ -3547,7 +3691,7 @@ limitations under the License.
 	<!-- Data synchronization settings screen, message of dialog that confirms the user's unchecking of background data [CHAR LIMIT=200] -->
 	<string name="background_data_dialog_message">Mematikan data latar belakang melanjutkan hayat bateri dan mengurangkan penggunaan data. Sesetengah app mungkin masih menggunakan sambungan data latar belakang.</string>
 	<!-- Title for a checkbox that enables data synchronization in the account and sync screen [CHAR LIMIT=35] -->
-	<string name="sync_automatically">Data app Auto-Segerak</string>
+	<string name="sync_automatically">Auto-Segerak data app</string>
 	
 	<!-- Sync status messages on Accounts & Synchronization settings --><skip />
 	<!-- Sync status shown when sync is enabled [CHAR LIMIT=25] -->
@@ -3555,7 +3699,7 @@ limitations under the License.
 	<!-- Sync status shown when sync is disabled [CHAR LIMIT=25] -->
 	<string name="sync_disabled">Segerak tidak aktif</string>
 	<!-- Sync status shown when last sync resulted in an error [CHAR LIMIT=25] -->
-	<string name="sync_error">Segerak ralat</string>
+	<string name="sync_error">Ralat Segerak</string>
 	<!-- Last synced date/time for accounts that synced [CHAR LIMIT=none] -->
 	<string name="last_synced">Kali terakhr disegerakkan <xliff:g id="last_sync_time">%1$s</xliff:g></string>
 	<!-- Sync status shown when sync is disabled [CHAR LIMIT=30] -->
@@ -3570,7 +3714,7 @@ limitations under the License.
 	<!-- Data synchronization settings screen, menu option -->
 	<string name="sync_menu_sync_cancel">Batal Segerak</string>
 	<!-- Data synchronization settings screen, summary of a sync provider (for example, Gmail) when autosync is off and the user wants to do a one-time sync. -->
-	<string name="sync_one_time_sync">Sentuh utk segerak sekarang <xliff:g id="last_sync_time">\n%1$s</xliff:g></string>
+	<string name="sync_one_time_sync">Sentuh untuk segerak sekarang <xliff:g id="last_sync_time">\n%1$s</xliff:g></string>
 	<!-- Data synchronization settings screen, checkbox setting option name. Controls whether Gmail should be synced.  Should use "Gmail" to refer to this app.-->
 	<string name="sync_gmail">Gmail</string>
 	<!-- Data synchronization settings screen, checkbox setting option name. Controls whether Calendar shoudl be synced. -->
@@ -3696,8 +3840,16 @@ limitations under the License.
 	<!-- UI debug setting: show GPU rendering screen updates summary [CHAR LIMIT=50] -->
 	<string name="show_hw_screen_updates_summary">Kelipkan pandangan di dalam tingkap apabila diaktifkan dengan GPU</string>
 	
+    <!-- UI debug setting: show when hardware layers get updated [CHAR LIMIT=25] -->
+    <string name="show_hw_layers_updates">Tunjuk kemaskini lapisan perkakasan</string>
+    <!-- UI debug setting: show hardware layers updates summary [CHAR LIMIT=50] -->
+    <string name="show_hw_layers_updates_summary">Kelipkan lapisan hijau perkakasan ketika mereka kemaskini</string>
+    <!-- UI debug setting: show the amount of overdraw in apps using the GPU [CHAR LIMIT=25] -->
+    <string name="show_hw_overdraw">Tunjuk GPU yang melebihi had</string>
+    <!-- UI debug setting: Show the amount of overdraw summary [CHAR LIMIT=50] -->
+    <string name="show_hw_overdraw_summary">Dari terbaik ke terburuk: biru, hijau, merah muda, merah</string>
 	<!-- UI debug setting: disable use of overlays? [CHAR LIMIT=25] -->
-	<string name="disable_overlays">Matikan HW overlays</string>
+	<string name="disable_overlays">Matikan lapisan HW</string>
 	<!-- UI debug setting: disable use of overlays summary [CHAR LIMIT=50] -->
 	<string name="disable_overlays_summary">Sentiasa gunakan GPU untuk komposisikan skrin</string>
 	
@@ -3713,6 +3865,8 @@ limitations under the License.
 	<!-- UI debug setting: enable low-level traces, all enabled summary [CHAR LIMIT=NONE] -->
 	<string name="enable_traces_summary_all">Semua kesan dihidupkan pada masa ini</string>
 	
+    <!-- UI debug setting: enable various types of OpenGL traces [CHAR LIMIT=25] -->
+    <string name="enable_opengl_traces_title">Hidupkan jejak OpenGL</string>
 	<!-- UI debug setting: show layout bounds information [CHAR LIMIT=25] -->
 	<string name="debug_layout">Tunjuk batas susun atur</string>
 	<!-- UI debug setting: show layout bounds information summary [CHAR LIMIT=50] -->
@@ -3728,6 +3882,10 @@ limitations under the License.
 	<!-- UI debug setting: force hardware acceleration summary [CHAR LIMIT=50] -->
 	<string name="force_hw_ui_summary">Paksa penggunaan GPU untuk lukisan 2d</string>
 	
+    <!-- UI debug setting: force anti-aliasing to render apps [CHAR LIMIT=25] -->
+    <string name="force_msaa">Paksa 4x MSAA</string>
+    <!-- UI debug setting: force anti-aliasing summary [CHAR LIMIT=50] -->
+    <string name="force_msaa_summary">Hidupkan 4x MSAA dalam app OpenGL ES 2.0</string>
 	<!-- UI debug setting: profile time taken by hardware acceleration to render apps [CHAR LIMIT=25] -->
 	<string name="track_frame_time">Profil rendering GPU</string>
 	<!-- UI debug setting: profile hardware acceleration summary [CHAR LIMIT=50] -->
@@ -3742,6 +3900,8 @@ limitations under the License.
 	<!-- UI debug setting: scaling factor for all Animator-based animations [CHAR LIMIT=25] -->
 	<string name="animator_duration_scale_title">Skala tempoh Animator</string>
 	
+    <!-- UI debug setting: simulate secondary display devices using overlays [CHAR LIMIT=25] -->
+    <string name="overlay_display_devices_title">Simulasi paparan kedua</string>
 	<!-- Preference category for application debugging development settings. [CHAR LIMIT=25] -->
 	<string name="debug_applications_category">App</string>
 	
@@ -3780,7 +3940,7 @@ limitations under the License.
 	<string name="data_usage_menu_auto_sync">Auto-Segerak data</string>
 	
 	<!-- Title for option to change data usage cycle day. [CHAR LIMIT=32] -->
-	<string name="data_usage_change_cycle">Ubahkan kitaran\u2026</string>
+	<string name="data_usage_change_cycle">Tukar kitaran\u2026</string>
 	<!-- Body of dialog prompting user to change numerical day of month that data usage cycle should reset. [CHAR LIMIT=64] -->
 	<string name="data_usage_pick_cycle_day">Hari dalam bulan untuk reset kitaran penggunaan data:</string>
 	<!-- Label shown when no applications used data during selected time period. [CHAR LIMIT=48] -->
@@ -3848,7 +4008,7 @@ limitations under the License.
 	<!--  Body of dialog shown when user enables global auto sync [CHAR LIMIT=none] -->
 	<string name="data_usage_auto_sync_on_dialog" product="default">Any changes you make to your accounts on the web will be automatically copied to your phone.nnSome accounts may also automatically copy any changes you make on the phone to the web. A Google Account works this way.nnTo choose which kinds of information to sync within each account, go to Settings &gt; Accounts.</string>
 	<!--  Title of dialog shown when user disables global auto sync [CHAR LIMIT=32] -->
-	<string name="data_usage_auto_sync_off_dialog_title">Matikan auo-segerak data?</string>
+	<string name="data_usage_auto_sync_off_dialog_title">Matikan auto-segerak data?</string>
 	<!--  Body of dialog shown when user disables global auto sync [CHAR LIMIT=none] -->
 	<string name="data_usage_auto_sync_off_dialog">"Ini akan memelihara data dan penggunaan bateri, tetapi anda akan perlu segerak setiap akaun secara manual untuk mengumpul maklumat terkini. Dan anda tidak akan menerima notifikasi apabila kemaskini berlaku."</string>
 	
@@ -3922,13 +4082,13 @@ limitations under the License.
 	<!-- Input label for the IPSec identifier of a VPN profile. [CHAR LIMIT=40] -->
 	<string name="vpn_ipsec_identifier">Mengenal pasti IPSec</string>
 	<!-- Input label for the IPSec pre-shared key of a VPN profile. [CHAR LIMIT=40] -->
-	<string name="vpn_ipsec_secret">IPSec pre-shared key</string>
+	<string name="vpn_ipsec_secret">Kunci pra-kongsi IPSec</string>
 	<!-- Selection label for the IPSec user certificate of a VPN profile. [CHAR LIMIT=40] -->
-	<string name="vpn_ipsec_user_cert">IPSec user certificate</string>
+	<string name="vpn_ipsec_user_cert">Sijil pengguna IPSec</string>
 	<!-- Selection label for the IPSec CA certificate of a VPN profile. [CHAR LIMIT=40] -->
-	<string name="vpn_ipsec_ca_cert">IPSec CA certificate</string>
+	<string name="vpn_ipsec_ca_cert">Sijil CA IPSec</string>
 	<!-- Selection label for the IPSec server certificate of a VPN profile. [CHAR LIMIT=40] -->
-	<string name="vpn_ipsec_server_cert">IPSec server certificate</string>
+	<string name="vpn_ipsec_server_cert">Sijil pelayan IPSec</string>
 	<!-- Checkbox label to show advanced options of a VPN profile. [CHAR LIMIT=40] -->
 	<string name="vpn_show_options">Tunjukkan Pilihan Lanjutan</string>
 	<!-- Input label for the DNS search domains of a VPN profile. [CHAR LIMIT=40] -->
@@ -3938,9 +4098,9 @@ limitations under the License.
 	<!-- Input label for the forwarding routes of a VPN profile. [CHAR LIMIT=40] -->
 	<string name="vpn_routes">Laluan dimajukan</string>
 	<!-- Input label for the username of a VPN profile. [CHAR LIMIT=40] -->
-	<string name="vpn_username">ID pengguna</string>
+	<string name="vpn_username">ID Pengguna</string>
 	<!-- Input label for the password of a VPN profile. [CHAR LIMIT=40] -->
-	<string name="vpn_password">Password</string>
+	<string name="vpn_password">Kata Laluan</string>
 	<!-- Checkbox label to save the username and the password in a VPN profile. [CHAR LIMIT=40] -->
 	<string name="vpn_save_login">Simpan maklumat akaun</string>
 	<!-- Hint for not using an optional feature in a VPN profile. [CHAR LIMIT=40] -->

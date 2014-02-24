@@ -17,14 +17,14 @@
     <string name="backup_theme_name">Sandaran saya</string>
 
     <string name="theme_description_title_default">Lalai</string>
-    <string name="theme_description_title_customized">Penyesuaian</string>
+    <string name="theme_description_title_customized">Khas</string>
 
     <string name="component_category_finest_title">UMUM</string>
     <string name="component_category_more_title">LANJUTAN</string>
     <string name="theme_component_title_framework">Rangka kerja</string>
     <string name="theme_component_title_mms">Mesej</string>
     <string name="theme_component_title_wallpaper">Skrin Utama</string>
-    <string name="theme_component_title_lockwallpaper">Kunci Skrin</string>
+    <string name="theme_component_title_lockwallpaper">Skrin Kunci</string>
     <string name="theme_component_title_miwallpaper">Dimuat turun</string>
     <string name="theme_component_title_icon">Ikon</string>
     <string name="theme_component_title_boot_animation">Animasi Mula Semula</string>
@@ -48,7 +48,7 @@
     <string name="apply_lockscreen_paper_tips">Skrin kunci ini tidak menyokong kertas dinding berbeza</string>
 
     <string name="theme_import_from_sdcard">Import dari Kad SD</string>
-    <string name="theme_select_others">Sesuaikan</string>
+    <string name="theme_select_others">Khas</string>
     <string name="third_party_pickers_activity_title">Set %1$s</string>
     <string name="lockstyle_personal_settings">Penyesuaian</string>
 
@@ -56,8 +56,8 @@
     <string name="desktop_wallpaper">Skrin Utama</string>
     <string name="live_wallpaper">Kertas dinding hidup</string>
     <string name="mi_wallpaper">Kertas dinding MIUI</string>
-    <string name="lockscreen_wallpaper">Kunci Skrin</string>
-    <string name="change_wallpaper">Kertas dinding</string>
+    <string name="lockscreen_wallpaper">Skrin Kunci</string>
+    <string name="change_wallpaper">Kertas Dinding</string>
 
     <string name="component_settings_title">Menyesuaikan tema</string>
     <string name="component_select_title">Komponen %1$s dipilih</string>
@@ -68,10 +68,10 @@
     <string name="apply_font_btn_exclude">Aplikasi tema tanpa tulisan</string>
 
     <string name="title_local">Tempatan</string>
-    <string name="title_online">Atas talian</string>
+    <string name="title_online">Atas Talian</string>
     <string name="title_component">Komponen</string>
 
-    <string name="title_system_resource">Sumber sistem</string>
+    <string name="title_system_resource">Sumber Sistem</string>
 
     <string name="long_ringtone_resource">Panjang</string>
     <string name="short_ringtone_resource">Pendek</string>
@@ -80,7 +80,7 @@
     <string name="resource_preview">Pratonton</string>
     <string name="wallpaper_set_as_both">Set kedua-duanya</string>
     <string name="wallpaper_set_as_destop">Set sebagai Skrin Utama</string>
-    <string name="wallpaper_set_as_lockscreen">Set sebagai Kunci Skrin</string>
+    <string name="wallpaper_set_as_lockscreen">Set sebagai Skrin Kunci</string>
     <string name="wallpaper_crop">Potong</string>
     <string name="wallpaper_loading_text">Memuatkan\u2026</string>
     <string name="wallpaper_decoded_error">Gagal untuk memuatkan</string>

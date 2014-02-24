@@ -22,7 +22,7 @@
         <item>"Pergi ke mesej lama selepas anda buang mesej"</item>
         <item>"Pergi ke Peti Masuk selepas anda buang mesej"</item>
     </string-array>
-    <string name="general_preference_auto_advance_dialog_title">"Auto-advance ke"</string>
+    <string name="general_preference_auto_advance_dialog_title">"Auto-maju ke"</string>
     <string name="general_preferences_clear_trusted_senders_title">"Sembunyi imej"</string>
     <string name="cleared_trusted_senders_message">"Imej terkandung dalam mel tidak akan ditunjuk secara automatik."</string>
 </resources>

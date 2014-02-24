@@ -8,7 +8,7 @@
     <string name="cit_fail">Gagal</string>
     <string name="cit_tool">Peralatan tambahan</string>
     <string name="cit_hide_menu">Sembunyikan menu</string>
-    <string name="cit_not_available">Pegujian ini tidak tersedia pada versi MIUI ini</string>
+    <string name="cit_not_available">Pengujian ini tidak tersedia pada versi MIUI ini</string>
     <string name="cit_version_check_title">Semak maklumat versi</string>
     <string name="cit_sim_check_title">Kad SIM</string>
     <string name="cit_keyboard_test_title">Butang</string>

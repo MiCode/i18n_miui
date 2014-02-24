@@ -86,10 +86,10 @@
     <!-- Screen key long press action -->
     <string-array name="screen_key_long_press_action">
         <item>Tiada</item>
-        <item>Tunjukkan dulang apps terkini</item>
+        <item>Tunjukkan Dulang App Terkini</item>
         <item>Melancarkan Penolong</item>
         <item>Melancarkan Google Sekarang</item>
-        <item>Tutupkan apps ini</item>
+        <item>Tutupkan App ini</item>
     </string-array>
 
     <!-- Screen key long press interval -->

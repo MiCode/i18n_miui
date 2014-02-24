@@ -225,9 +225,9 @@
     <string name="pref_camera_focusmode_entry_macro">Macro</string>
     <string name="pref_camera_focusmode_entry_continuous">CAF</string>
     <string name="pref_camera_focusmode_entry_manual">Manual</string>
-    <string name="pref_camera_focusmode_entry_lock">Lock</string>
+    <string name="pref_camera_focusmode_entry_lock">Kunci</string>
 
-    <string name="pref_video_focusmode_title">Focus mode</string>
+    <string name="pref_video_focusmode_title">Mod Fokus</string>
     <string name="pref_video_focusmode_entry_continuous">CAF</string>
     <string name="pref_video_focusmode_entry_auto">Tap</string>
 
@@ -257,7 +257,7 @@
     <string name="pref_camera_whitebalance_entry_fluorescent">Pendarfluor</string>
     <string name="pref_camera_whitebalance_entry_cloudy">Mendung</string>
     <string name="pref_camera_whitebalance_entry_manual">Manual</string>
-    <string name="pref_camera_whitebalance_entry_measure">Measure</string>
+    <string name="pref_camera_whitebalance_entry_measure">Mengukur</string>
 
     <!-- Settings screen, Select Color effect title -->
     <string name="pref_camera_coloreffect_title">Penapis</string>
@@ -279,15 +279,15 @@
     <string name="pref_camera_touchafaec_entry_on">Hidupkan</string>
 
     <!-- Settings screen, Multiple levels entries -->
-    <string name="pref_camera_multilevel_entry_lowest">Lowest</string>
-    <string name="pref_camera_multilevel_entry_lower">Lower</string>
-    <string name="pref_camera_multilevel_entry_low">Low</string>
+    <string name="pref_camera_multilevel_entry_lowest">Paling rendah</string>
+    <string name="pref_camera_multilevel_entry_lower">Lebih rendah</string>
+    <string name="pref_camera_multilevel_entry_low">Rendah</string>
     <string name="pref_camera_multilevel_entry_normal">Normal</string>
-    <string name="pref_camera_multilevel_entry_high">High</string>
-    <string name="pref_camera_multilevel_entry_higher">Higher</string>
-    <string name="pref_camera_multilevel_entry_highest">Highest</string>
-    <string name="pref_camera_default_suffix">(Default)</string>
-    <string name="pref_camera_multilevel_entry_middle">Middle (default)</string>
+    <string name="pref_camera_multilevel_entry_high">Tinggi</string>
+    <string name="pref_camera_multilevel_entry_higher">Lebih tinggi </string>
+    <string name="pref_camera_multilevel_entry_highest">Paling tinggi</string>
+    <string name="pref_camera_default_suffix">(Lalai)</string>
+    <string name="pref_camera_multilevel_entry_middle">Tengah (lalai)</string>
 
 
     <!-- Settings screen, Multiple levels entries -->
@@ -672,7 +672,7 @@
     <string name = "pref_camera_volumekey_function_entry_volume">Kelantangan</string>
     <string name = "pref_camera_volumekey_function_entry_shutter">Pengatup</string>
     <string name = "pref_camera_volumekey_function_entry_zooming">Zoom</string>
-    <string name = "pref_camera_volumekey_function_entry_exposure">Exposure</string>
+    <string name = "pref_camera_volumekey_function_entry_exposure">Dedahan</string>
     <string name = "pref_camera_volumekey_function_title">Butang kelantangan</string>
 
     <!-- 长按连拍 -->
@@ -878,56 +878,56 @@
     <string name="pref_camera_watermark_entry_off">Tutup</string>
     <string name="pref_camera_watermark_entry_on">Buka</string>
 
-    <string name="pref_scan_qrcode_title">Scan QR code</string>
+    <string name="pref_scan_qrcode_title">Imbas kod Scan</string>
     <string name="pref_scan_qrcode_entry_off">Off</string>
     <string name="pref_scan_qrcode_entry_on">On</string>
 
-    <string name="pref_manual_exposure_title">Manual exposure</string>
-    <string name="pref_camera_exposuretime_title">Exposure time</string>
+    <string name="pref_manual_exposure_title">Dedahan Manual</string>
+    <string name="pref_camera_exposuretime_title">Tempoh Dedahan</string>
 
     <!-- Face analyze -->
-    <string name="face_analyze_info">Age: %2$s (%1$s)</string>
-    <string name="face_analyze_info_male">Male</string>
-    <string name="face_analyze_info_female">Female</string>
-    <string name="face_beauty_intelligent_title">Auto adjust</string>
-    <string name="face_beauty_manual_title">Manual adjust</string>
-    <string name="face_beauty_simple_mode_title">Skin tones</string>
+    <string name="face_analyze_info">Umur: %2$s (%1$s)</string>
+    <string name="face_analyze_info_male">Lelaki</string>
+    <string name="face_analyze_info_female">Perempuan</string>
+    <string name="face_beauty_intelligent_title">Auto laras</string>
+    <string name="face_beauty_manual_title">Manual laras</string>
+    <string name="face_beauty_simple_mode_title">Ton Kulit</string>
 
     <string name="face_beauty_intelligent_level_0">Off</string>
-    <string name="face_beauty_intelligent_level_1">Low</string>
-    <string name="face_beauty_intelligent_level_2">Mid</string>
-    <string name="face_beauty_intelligent_level_3">High</string>
-    <string name="pref_camera_show_gender_age_title">Face recognition</string>
+    <string name="face_beauty_intelligent_level_1">Rendah</string>
+    <string name="face_beauty_intelligent_level_2">Pertengahan</string>
+    <string name="face_beauty_intelligent_level_3">Tinggi</string>
+    <string name="pref_camera_show_gender_age_title">Pengecaman Wajah</string>
 
     <string name="pref_camera_show_gender_age_entry_off">Off</string>
-    <string name="pref_camera_show_gender_age_entry_on">Display age and gender</string>
-    <string name="pref_camera_show_gender_age_entry_alias">Display age</string>
-    <string name="toast_burst_snap_forbidden_when_face_beauty_open">Burst shooting is not supported when enhance skin tones is enabled</string>
-    <string name="face_beauty_age_alias_male_0_7">Male 0-7</string>
-    <string name="face_beauty_age_alias_male_8_17">Male 8-17</string>
-    <string name="face_beauty_age_alias_male_18_30">Male 18-30</string>
-    <string name="face_beauty_age_alias_male_31_44">Male 31-44</string>
-    <string name="face_beauty_age_alias_male_45_60">Male 45-60</string>
-    <string name="face_beauty_age_alias_male_60_m">Male 60+</string>
-    <string name="face_beauty_age_alias_female_0_7">Female 0-7</string>
-    <string name="face_beauty_age_alias_female_8_17">Female 8-17</string>
-    <string name="face_beauty_age_alias_female_18_30">Female 18-30</string>
-    <string name="face_beauty_age_alias_female_31_44">Female 31-44</string>
-    <string name="face_beauty_age_alias_female_45_60">Female 45-60</string>
-    <string name="face_beauty_age_alias_female_60_m">Female 60+</string>
-    <string name="simple_mode_button_text_face_beauty">Close enhance skin tones</string>
-    <string name="pref_camera_multiple_face_beauty_title">Enhance skin tones</string>
-    <string name="pref_camera_multiple_face_beauty_entry_off">1 person</string>
-    <string name="pref_camera_multiple_face_beauty_entry_on">2 people</string>
+    <string name="pref_camera_show_gender_age_entry_on">Papar umur dan jantina</string>
+    <string name="pref_camera_show_gender_age_entry_alias">Papar umur</string>
+    <string name="toast_burst_snap_forbidden_when_face_beauty_open">Rakaman Letus tidak disokong apabila penambah tona kulit dihidupkan</string>
+    <string name="face_beauty_age_alias_male_0_7">Lelaki 0-7</string>
+    <string name="face_beauty_age_alias_male_8_17">Lelaki 8-17</string>
+    <string name="face_beauty_age_alias_male_18_30">Lelaki 18-30</string>
+    <string name="face_beauty_age_alias_male_31_44">Lelaki 31-44</string>
+    <string name="face_beauty_age_alias_male_45_60">Lelaki 45-60</string>
+    <string name="face_beauty_age_alias_male_60_m">Lelaki 60+</string>
+    <string name="face_beauty_age_alias_female_0_7">Perempuan 0-7</string>
+    <string name="face_beauty_age_alias_female_8_17">Perempuan 8-17</string>
+    <string name="face_beauty_age_alias_female_18_30">Perempuan 18-30</string>
+    <string name="face_beauty_age_alias_female_31_44">Perempuan 31-44</string>
+    <string name="face_beauty_age_alias_female_45_60">Perempuan 45-60</string>
+    <string name="face_beauty_age_alias_female_60_m">Perempuan 60+</string>
+    <string name="simple_mode_button_text_face_beauty">Tutup penambah ona kulit</string>
+    <string name="pref_camera_multiple_face_beauty_title">Tambah tona kulit</string>
+    <string name="pref_camera_multiple_face_beauty_entry_off">1 orang</string>
+    <string name="pref_camera_multiple_face_beauty_entry_on">2 orang</string>
 
-    <string name="measure_whitebalance_button">Measure</string>
-    <string name="measure_whitebalance_text">Place a sheet of white paper 6 inches away from the rear camera\'s lens. Then take a picture.</string>
+    <string name="measure_whitebalance_button">Ukuran</string>
+    <string name="measure_whitebalance_text">Tempatkan sehelai kertas putih 6 inci jauh daripada lens kamera belakang. Kemudian tangkap gambar.</string>
 
-    <string name="pref_camera_hdr_type_title">HDR type</string>
+    <string name="pref_camera_hdr_type_title">Jenis HDR</string>
     <string name="pref_camera_hdr_type_entry_normal">Normal</string>
-    <string name="pref_camera_hdr_type_entry_live">Live</string>
+    <string name="pref_camera_hdr_type_entry_live">Langsung</string>
 
 
-    <string name="accessibility_ev_control">Exposure compensation</string>
+    <string name="accessibility_ev_control"Pendedahan ganti rugi</string>
 
 </resources>

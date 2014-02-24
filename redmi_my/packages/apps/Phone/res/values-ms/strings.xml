@@ -46,6 +46,8 @@
 	<string name="payphone">Telefon berbayar</string>
 	<!-- In-call screen: status label for a call that's on hold -->
 	<string name="onHold">Sedang Menunggu</string>
+    <!-- In-call screen: status label for the current active call -->
+    <string name="ongoing">Panggilan semasa</string>
 	<!-- Possible error messages with outgoing calls --><skip/>
 	<!-- In-call screen: call failure reason (busy) -->
 	<string name="callFailed_userBusy">Talian sibuk</string>
@@ -71,6 +73,8 @@
 	<string name="callFailed_powerOff">Radio dimatikan</string>
 	<!-- In-call screen: call failure reason (SIM error) -->
 	<string name="callFailed_simError">Tiada SIM atau ralat SIM</string>
+    <!-- In-call screen: call failure reason (SIM error) with slot number -->
+    <string name="callFailed_simError_slotNumber">Tiada SIM atau ralat SIM dalam slot <xliff:g id="slotNumber">%d</xliff:g></string>
 	<!-- In-call screen: call failure reason (out of service) -->
 	<string name="callFailed_outOfService">Di luar kawasan perkhidmatan</string>
 	<!-- In-call screen: call failure reason (call denied because of current FDN setting) -->
@@ -400,6 +404,8 @@
 	</string-array>
 	
 	<!-- voicemail setting strings --><skip/>
+    <!-- Call settings screen, Label used in "Save voicemail number" dialog -->
+    <string name="vm_save_number">Simpan nombor mel suara</string>
 	<!-- Call settings screen, Set voicemail number dialog text -->
 	<string name="vm_changed">Nombor mel suara ditukar.</string>
 	<!-- Call settings screen, Set voicemail number dialog text -->
@@ -445,39 +451,39 @@
 	<!-- Available networks screen, setting summary text -->
 	<string name="sum_select_automatically">Pilih rangkaian diutamakan secara automatik</string>
 	<string name="register_automatically">Pendaftaran automatik\u2026</string>
-	<string name="preferred_network_mode_title">Mod rangkaian</string>
+	<string name="preferred_network_mode_title">Mod Rangkaian</string>
 	<string name="preferred_network_mode_summary">Tukar mod operasi rangkaian</string>
-	<string name="preferred_network_mode_dialogtitle">Mod rangkaian utama</string>
+	<string name="preferred_network_mode_dialogtitle">Mod Rangkaian diutamakan</string>
 	<!-- Mobile network settings, summary for preferred network mode WCDMA preferred[CHAR LIMIT=100] -->
-	<string name="preferred_network_mode_wcdma_perf_summary">Mod rangkaian utama: WCDMA diutamakan</string>
+	<string name="preferred_network_mode_wcdma_perf_summary">Mod Rangkaian diutamakan: WCDMA diutamakan</string>
 	<!-- Mobile network settings, summary for preferred network mode GSM [CHAR LIMIT=100] -->
-	<string name="preferred_network_mode_gsm_only_summary">Mod rangkaian utaman: GSM sahaja</string>
+	<string name="preferred_network_mode_gsm_only_summary">Mod Rangkaian diutamakan: GSM sahaja</string>
 	<!-- Mobile network settings, summary for preferred network mode WCDMA only [CHAR LIMIT=100] -->
-	<string name="preferred_network_mode_wcdma_only_summary">Mod rangkaian utama: WCDMA sahaja</string>
+	<string name="preferred_network_mode_wcdma_only_summary">Mod Rangkaian diutamakan: WCDMA sahaja</string>
 	<!-- Mobile network settings, summary for preferred network mode GSM / UMTS [CHAR LIMIT=100] -->
-	<string name="preferred_network_mode_gsm_wcdma_summary">Mod rangkaian utama: GSM / WCDMA</string>
+	<string name="preferred_network_mode_gsm_wcdma_summary">Mod Rangkaian diutamakan: GSM / WCDMA</string>
 	<!-- Mobile network settings, summary for preferred network mode CDMA [CHAR LIMIT=100] -->
-	<string name="preferred_network_mode_cdma_summary">Mod rangkaian utama: CDMA</string>
+	<string name="preferred_network_mode_cdma_summary">Mod Rangkaian diutamakan: CDMA</string>
 	<!-- Mobile network settings, summary for preferred network mode CDMA / EvDo [CHAR LIMIT=100] -->
-	<string name="preferred_network_mode_cdma_evdo_summary">Mod rangkaian utama: CDMA / EvDo</string>
+	<string name="preferred_network_mode_cdma_evdo_summary">Mod Rangkaian diutamakan: CDMA / EvDo</string>
 	<!-- Mobile network settings, summary for preferred network mode CDMA only [CHAR LIMIT=100] -->
-	<string name="preferred_network_mode_cdma_only_summary">Mod rangkaian utama: CDMA sahaja</string>
+	<string name="preferred_network_mode_cdma_only_summary">Mod Rangkaian diutamakan: CDMA sahaja</string>
 	<!-- Mobile network settings, summary for preferred network mode EvDo only [CHAR LIMIT=100] -->
-	<string name="preferred_network_mode_evdo_only_summary">Mod rangkaian utama: EvDo sahaja</string>
+	<string name="preferred_network_mode_evdo_only_summary">Mod Rangkaian diutamakan: EvDo sahaja</string>
 	<!-- Mobile network settings, summary for preferred network mode CDMA/EvDo/GSM/WCDMA[CHAR LIMIT=100] -->
-	<string name="preferred_network_mode_cdma_evdo_gsm_wcdma_summary">Mod rangkaian utama: CDMA/EvDo/GSM/WCDMA</string>
+	<string name="preferred_network_mode_cdma_evdo_gsm_wcdma_summary">Mod Rangkaian diutamakan: CDMA/EvDo/GSM/WCDMA</string>
 	<!-- Mobile network settings, summary for preferred network mode LTE [CHAR LIMIT=100] -->
-	<string name="preferred_network_mode_lte_summary">"Mod rangkaian utama: LTE "</string>
+	<string name="preferred_network_mode_lte_summary">"Mod Rangkaian diutamakan: LTE "</string>
 	<!-- Mobile network settings, summary for preferred network mode GSM/WCDMA/LTE [CHAR LIMIT=100] -->
-	<string name="preferred_network_mode_lte_gsm_wcdma_summary">Mod rangkaian utama: GSM/WCDMA/LTE</string>
+	<string name="preferred_network_mode_lte_gsm_wcdma_summary">Mod Rangkaian diutamakan: GSM/WCDMA/LTE</string>
 	<!-- Mobile network settings, summary for preferred network mode CDMA+LTE/EVDO[CHAR LIMIT=100] -->
-	<string name="preferred_network_mode_lte_cdma_evdo_summary">Mod rangkaian utama: CDMA+LTE/EVDO</string>
+	<string name="preferred_network_mode_lte_cdma_evdo_summary">Mod Rangkaian diutamakan: CDMA+LTE/EVDO</string>
 	<!-- Mobile network settings, summary for preferred network mode Global[CHAR LIMIT=100] -->
-	<string name="preferred_network_mode_global_summary">Mod rangkaian utama: Global</string>
+	<string name="preferred_network_mode_global_summary">Mod Rangkaian diutamakan: Global</string>
 	<!-- Mobile network settings, summary for preferred network mode LTE / WCDMA[CHAR LIMIT=100] -->
-	<string name="preferred_network_mode_lte_wcdma_summary">Mod rangkaian utama: LTE / WCDMA</string>
+	<string name="preferred_network_mode_lte_wcdma_summary">Mod Rangkaian diutamakan: LTE / WCDMA</string>
 	<!-- Mobile network settings, summary for preferred network mode LTE / CDMA[CHAR LIMIT=100] -->
-	<string name="preferred_network_mode_lte_cdma_summary">Mod rangkaian utama: LTE / CDMA</string>
+	<string name="preferred_network_mode_lte_cdma_summary">Mod Rangkaian diutamakan: LTE / CDMA</string>
 	
 	
 	<string-array name="preferred_network_mode_choices">
@@ -501,6 +507,11 @@
 		<item>LTE/CDMA</item>
 		<item>CDMA</item>
 	</string-array>
+    <string-array name="preferred_network_mode_values_lte" translatable="false">
+        <item>"7"</item>
+        <item>"4"</item>
+    </string-array>
+    <string name="network_setting_all_forbidden_dialog">Tiada rangkaian tersedia. Sila cuba tukar servis 3G, atau klik rangkaian terlarang untuk daftar secara manual.</string>
 
 	<!-- Mobile network settings screen, data enabling checkbox name -->
 	<string name="data_enabled">Hidupkan data</string>
@@ -509,13 +520,13 @@
 	<!-- Mobile network settings screen, setting check box name -->
 	<string name="roaming">Perayauan data</string>
 	<!-- Mobile network settings screen, setting summary text when check box is selected -->
-	<string name="roaming_enable">Sambung ke perkhidmatan data semasa merayau</string>
+	<string name="roaming_enable">Sambung ke servis data semasa perayauan</string>
 	<!-- Mobile network settings screen, setting summary text when check box is clear -->
-	<string name="roaming_disable">Sambung ke perkhidmatan data semasa merayau</string>
+	<string name="roaming_disable">Sambung ke servis data semasa perayauan</string>
 	<!-- Mobile network settings UI: notification message shown when you
 	lose data connectivity because you're roaming and you have the
 	"data roaming" feature turned off. -->
-	<string name="roaming_reenable_message">Anda telah kehilangan sambungan data kerana anda biarkan rangkaian asal anda dengan data perayauan yang sudah dimatikan.</string>
+	<string name="roaming_reenable_message">Anda telah kehilangan sambungan data kerana anda biarkan rangkaian kediaman anda dengan data perayauan yang sudah dimatikan.</string>
 	<!-- Mobile network settings screen, dialog message when user selects the Data roaming check box -->
 	<string name="roaming_warning">Benarkan perayauan data? Anda mungkin akan dikenakan caj perayauan yang tinggi!</string>
 	<string name="gsm_umts_options">Pilihan GSM/UMTS</string>
@@ -530,6 +541,7 @@
 	<string name="throttle_data_usage">Penggunaan data</string>
 	<!-- Data usage settings screen option for checking the current usage -->
 	<string name="throttle_current_usage">Data yang digunakan dalam tempoh semasa</string>
+    <string name="reset_data_usage">Reset amaun data</string>
 	<!-- Data usage settings screen option for time frame-->
 	<string name="throttle_time_frame">Tempoh penggunaan data</string>
 	<!-- Data usage settings screen option for throttling rate-->
@@ -537,9 +549,9 @@
 	<!-- Data usage settings screen option for accessing the carrier website-->
 	<string name="throttle_help">Ketahui lebih lanjut</string>
 	
-	<string name="throttle_status_subtext"><xliff:g id="used">%1$s</xliff:g> (<xliff:g id="used">%2$d</xliff:g>\u066A) drpd <xliff:g id="used">%3$s</xliff:g> tempoh maksima\nTempoh seterusnya bermula pada <xliff:g id="used">%4$d</xliff:g> hari (<xliff:g id="used">%5$s</xliff:g>)</string>
+	<string name="throttle_status_subtext"><xliff:g id="used">%1$s</xliff:g> (<xliff:g id="used">%2$d</xliff:g>\u066A) daripada <xliff:g id="used">%3$s</xliff:g> tempoh maksima\nTempoh seterusnya bermula pada <xliff:g id="used">%4$d</xliff:g> hari (<xliff:g id="used">%5$s</xliff:g>)</string>
 	
-	<string name="throttle_data_usage_subtext"><xliff:g id="used">%1$s</xliff:g> (<xliff:g id="used">%2$d</xliff:g>\u066A) drpd <xliff:g id="used">%3$s</xliff:g> tempoh maksima</string>
+	<string name="throttle_data_usage_subtext"><xliff:g id="used">%1$s</xliff:g> (<xliff:g id="used">%2$d</xliff:g>\u066A) daripada <xliff:g id="used">%3$s</xliff:g> tempoh maksima</string>
 	
 	<string name="throttle_data_rate_reduced_subtext"><xliff:g id="used">%1$s</xliff:g> melebihi maksimum\nKadar data dikurangkan ke <xliff:g id="used">%2$d</xliff:g> Kb/s</string>
 	
@@ -555,7 +567,7 @@
 	<string name="cell_bc_sms_enable">SMS Siaran Sel dihidupkan</string>
 	<string name="cell_bc_sms_disable">SMS Siaran Sel dimatikan</string>
 	
-	<string name="cb_sms_settings">Cell Broadcast SMS settings</string>
+	<string name="cb_sms_settings">Tetapan SMS Siara Sel</string>
 	
 	<string name="enable_disable_emergency_broadcast">Siaran Kecemasan</string>
 	<string name="emergency_broadcast_enable">Siaran Kecemasan telah dihidupkan</string>
@@ -644,7 +656,7 @@
 	<string name="multi_category_disable">Pelbagai Kategori dimatikan</string>
 	
 	<!-- Mobile network settings screen, setting option name -->
-	<string name="prefer_2g">Hanya menggunakan rangkaian 2G</string>
+	<string name="prefer_2g">Guna hanya rangkaian 2G</string>
 	<!-- Mobile network settings screen, setting summary text -->
 	<string name="prefer_2g_summary">Menjimatkan bateri</string>
 	
@@ -657,7 +669,7 @@
 	<string name="cdma_system_select_dialogtitle">Sistem pilih</string>
 	<string-array name="cdma_system_select_choices">
 	<!-- System select dialog screen, setting option name -->
-		<item>Asal sahaja</item>
+		<item>Kediaman sahaja</item>
 		<!-- Remove the following option "Affiliated Networks" from the option list -->
 		<!-- <item>Affiliated Networks</item> -->
 		<!-- System select dialog screen, setting option name -->
@@ -730,7 +742,7 @@
 	<!-- Call settings, FDN screen, setting option name -->
 	<string name="sum_fdn_manage_list">Urus senarai nombor telefon</string>
 	<!-- Voice privacy on CDMA is an added layer of voice encryption. Theoretically, it would be harder to break in to a phone call with this feature enabled. -->
-	<string name="voice_privacy">Pemperibadian Suara</string>
+	<string name="voice_privacy">Privasi Suara</string>
 	<string name="voice_privacy_summary">Hidupkan mod peribadi yang dipertingkatkan</string>
 	<string name="tty_mode_option_title">Mod TTY</string>
 	<string name="tty_mode_option_summary">Tetap mod TTY</string>
@@ -943,9 +955,10 @@
 	<string name="notification_missedCallsMsg"><xliff:g id="num_missed_calls">%s</xliff:g> panggilan terlepas</string>
 	<!-- Missed call notification message used for a single missed call, including
 	the caller-id info from the missed call -->
-	<string name="notification_missedCallTicker">Panggilan terlepas drpd <xliff:g id="missed_call_from">%s</xliff:g></string>
+	<string name="notification_missedCallTicker">Panggilan terlepas daripada <xliff:g id="missed_call_from">%s</xliff:g></string>
 	<!-- The "label" of the in-call Notification for an ongoing call, used
 	as the format string for a Chronometer widget. [CHAR LIMIT=60] -->
+    <string name="notification_ongoing_call_format">Panggilan semasa (<xliff:g id="duration">%s</xliff:g>)</string>
 	<string name="notification_ongoing_call">Panggilan berjalan</string>
 	<!-- The "label" of the in-call Notification for a call that's on hold -->
 	<string name="notification_on_hold">Tunggu</string>
@@ -1512,6 +1525,11 @@
 	-->
 	<string name="description_image_button_pound">paun</string>
 	
+    <!-- String describing the Search ImageButton
+         Used by AccessibilityService to announce the purpose of the button.
+         [CHAR LIMIT=NONE]
+    -->
+    <string name="description_search_button">Carian</string>
 	<!-- String describing the Dial ImageButton
 	
 	Used by AccessibilityService to announce the purpose of the button.
@@ -1545,8 +1563,9 @@
 	<string name="voicemail_notification_vibarte_when_dialog_title" msgid="8995274609647451109">Vibrate</string>
 	
 	<!-- Voicemail ringtone title [CHAR LIMIT=40] -->
-	<string name="voicemail_notification_ringtone_title">Nada dering</string>
+	<string name="voicemail_notification_ringtone_title">Bunyi</string>
 	
+    <string name="default_notification_description">Bunyi lalai (<xliff:g id="default_sound_title">%1$s</xliff:g>)</string>
 	<!-- The vibrate notification modes for voicemail notifications -->
 	<string-array name="voicemail_notification_vibrate_when_entries">
 		<!-- Always [CHAR LIMIT=40] -->
@@ -1554,7 +1573,7 @@
 		<!-- Only when the phone is in Silent mode [CHAR LIMIT=40] -->
 		<item msgid="8091719131860840185">Apabila senyap sahaja</item>
 		<!-- Never [CHAR LIMIT=40] -->
-		<item msgid="4552962311897985633">Jangan</item>
+		<item msgid="4552962311897985633">Jangan sekali-kali</item>
 	</string-array>
 	
 	<!-- Setting option name to pick ringtone (a list dialog comes up). [CHAR LIMIT=30] -->

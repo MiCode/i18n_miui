@@ -151,10 +151,10 @@
     <string name="user_agreement_p3">&#160; dan &#160;</string>
     <string name="user_agreement_p4">Dasar Privasi</string>
     <string name="user_agreement_p5">Dengan mendaftar akaun, anda bersetuju dengan\n &#160;</string>
-    <string name="skip_setup_account_title">Melangkau tetapan akaun</string>
-    <string name="skip_setup_account_msg">Anda boleh menyediakan akaun kemudian melalui Tetapan</string>
-    <string name="account_dspt">Segerak dan Sandaran kenalan, mesej, gambar dan nota anda</string>
-    <string name="remove_unactivated_account_notice">Akaun Xiaomi ini belum diaktifkan, adakah anda ingin memadamkannya?</string>
+    <string name="skip_setup_account_title">Langkau pemasangan</string>
+    <string name="skip_setup_account_msg">Anda boleh memasang akaun kemudian melalui Tetapan</string>
+    <string name="account_dspt">Segerak dan Sandarkan kenalan, mesej, gambar dan nota anda</string>
+    <string name="remove_unactivated_account_notice">Akaun Xiaomi anda belum diaktifkan.</string>
     <string name="remove_confirm">Daftar Keluar</string>
     <string name="find_password_on_web_msg">Sila layari account.xiaomi.com untuk mendapatkan kata laluan anda semula</string>
     <string name="relogin">Daftar Masuk</string>
@@ -176,16 +176,16 @@
     <string name="update_contacts">Mengemaskini buku alamat</string>
     <string name="update_contacts_description">Mengemaskinikan kenalan anda dan informasi lain</string>
     <string name="updated_contacts">Mengemaskinikan %s kenalan</string>
-    <string name="updated_nothing">Tiada apa-apa pun yang berlaku!</string>
-    <string name="process_result">Keputusan:</string>
+    <string name="updated_nothing">Tiada apa untuk disegerakkan</string>
+    <string name="process_result">Butiran segerak:</string>
     <string name="access_token_expired_warning">Akaun Weibo telah tamat tempoh, sila menyambung semula</string>
     <string name="access_token_invalid_warning">Akaun Weibo tidak sah, sila menyambung semula</string>
-    <string name="service_error">Ralat pelayan</string>
+    <string name="service_error">Ralat servis</string>
     
-    <string name="enable_micloud">Menghidupkan perkhidmatan Cloud</string>
+    <string name="enable_micloud">Cipta akaun atau daftar masuk</string>
     <string name="micloud_summary">Daftar Masuk ke akaun Xiaomi untuk segerak Kenalan, Galeri album dan fungsi lain.</string>
-    <string name="micloud_is_what">Apakah MiCloud?</string>
-    <string name="available_functionality">Fungsi yang sedia ada</string>
+    <string name="micloud_is_what">Apa itu MiCloud?</string>
+    <string name="available_functionality">Fungsi yang tersedia</string>
     <string name="internet_message">Permesejan MiCloud</string>
     <string name="micloud_more">Maklumat lanjut</string>
     <string name="internet_comm">Servis Permesejan</string>
@@ -200,13 +200,13 @@
     <string name="micloud_intro_03_part_01">Melindungi kandungan telefon anda dari jauh.</string>
     <string name="micloud_intro_03_part_02">Menguruskan data, mencari lokasi, mengunci dan memadamkan peranti anda dengan melayari i.xiaomi.com</string>
     <string name="micloud_dspt">Perkhidmatan Cloud termasuk Permesejan MiCloud, segerak mudah alih, mencari lokasi peranti dan lain-lain. Anda juga boleh menguruskan data anda atas talian pada bila-bila masa!</string>
-    <string name="cmcc_micloud_dspt">Perkhidmatan Cloud termasuk segerak mudah alih, lokasi peranti dan lain-lain. Anda boleh menguruskan data anda online pada bila-bila masa!</string>
+    <string name="cmcc_micloud_dspt">Perkhidmatan Cloud termasuk segerak mudah alih, lokasi peranti dan lain-lain. Anda boleh menguruskan data anda atas talian pada bila-bila masa!</string>
     <string name="start_micloud">Mula</string>
     
     <string name="micloud_proceed">Seterusnya</string>
     <string name="disable_micloud"><u>Matikan MiCloud</u></string>
     
-    <string name="master_alert_notif_title">Data ini disegerakkan terakhir kali dalam %s hari</string>
+    <string name="master_alert_notif_title">Data ini telah disegerakkan terakhir kali dalam %s hari yang lepas</string>
     <string name="sub_alert_notif_title">Kunci servis segerak belum diaktifkan</string>
     <string name="alert_notif_title_dspt">Pemulihan segerak untuk memastikan sekuriti data</string>
     <string name="noRemind">Jangan ingatkan saya lagi</string>
