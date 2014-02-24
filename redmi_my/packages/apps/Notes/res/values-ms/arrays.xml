@@ -17,7 +17,7 @@
 
     <string-array name="font_size_names">
         <item>Kecil</item>
-        <item>Default</item>
+        <item>Lalai</item>
         <item>Besar</item>
         <item>Super</item>
     </string-array>

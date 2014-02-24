@@ -36,7 +36,7 @@
     <!-- label for the folder that contains Camera videos in the gallery -->
 
     <!-- alert to the user to wait for some operation to complete -->
-    <string name="wait">Hang on\u2026</string>
+    <string name="wait">Tunggu\u2026</string>
 
     <!-- alert to the user that USB storage must be available before using the camera [CHAR LIMIT=NONE] -->
     <string name="no_storage" product="nosdcard">Masukkan kad SD sebelum menggunakan kamera</string>
@@ -110,11 +110,11 @@
     <string name="pref_captrue_mirror_entry_on">Hidupkan</string>
 
     <!-- The Video quality settings in preference [CHAR LIMIT=21] -->
-    <string name="pref_video_quality_title">Video quality</string>
+    <string name="pref_video_quality_title">Kualiti video</string>
 
 
     <!-- Video quality setting entry. Videos will be recorded in 1080p quality. [CHAR LIMIT=24] -->
-    <string name="pref_video_quality_entry_1080p">FULL HD</string>
+    <string name="pref_video_quality_entry_1080p">HD Penuh</string>
     <!-- Video quality setting entry. Videos will be recorded in 720p quality. [CHAR LIMIT=24] -->
     <string name="pref_video_quality_entry_720p">HD</string>
     <!-- Video quality setting entry. Videos will be recorded in 480p quality. [CHAR LIMIT=24] -->
@@ -742,7 +742,7 @@
     <string name="folder_imported">Diimport</string>
     <string name="folder_screenshot">Tangkapan skrin</string>
     <string name="deleted">Dipadam</string>
-    <string name="undo">Undo</string>
+    <string name="undo">Buat asal</string>
     <string name="ok">OK</string>
     <string name="cancel">Batal</string>
     <string name="set_as">Tetap sebagai</string>
@@ -862,7 +862,7 @@
     <string name="download_qq">Muat turun QQ</string>
     <string name="wifi_warning">Sebelum anda menyambung, sahkan bahawa rangkaian ini adalah selamat.</string>
 
-    <string name="cloud_album_details">Butiran album awan:</string>
+    <string name="cloud_album_details">Butiran album Cloud:</string>
     <string name="visit_cloud_album">Lawati album Cloud</string>
     <string name="find_cloud_album">Cari kod QR album Cloud</string>
 
@@ -878,7 +878,7 @@
     <string name="pref_camera_watermark_entry_off">Tutup</string>
     <string name="pref_camera_watermark_entry_on">Buka</string>
 
-    <string name="pref_scan_qrcode_title">Imbas kod Scan</string>
+    <string name="pref_scan_qrcode_title">Imbas kod QR</string>
     <string name="pref_scan_qrcode_entry_off">Off</string>
     <string name="pref_scan_qrcode_entry_on">On</string>
 
@@ -915,7 +915,7 @@
     <string name="face_beauty_age_alias_female_31_44">Perempuan 31-44</string>
     <string name="face_beauty_age_alias_female_45_60">Perempuan 45-60</string>
     <string name="face_beauty_age_alias_female_60_m">Perempuan 60+</string>
-    <string name="simple_mode_button_text_face_beauty">Tutup penambah ona kulit</string>
+    <string name="simple_mode_button_text_face_beauty">Tutup penambah tona kulit</string>
     <string name="pref_camera_multiple_face_beauty_title">Tambah tona kulit</string>
     <string name="pref_camera_multiple_face_beauty_entry_off">1 orang</string>
     <string name="pref_camera_multiple_face_beauty_entry_on">2 orang</string>
