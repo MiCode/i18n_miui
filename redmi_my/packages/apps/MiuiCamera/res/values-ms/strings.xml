@@ -36,7 +36,7 @@
     <!-- label for the folder that contains Camera videos in the gallery -->
 
     <!-- alert to the user to wait for some operation to complete -->
-    <string name="wait">Hang on\u2026</string>
+    <string name="wait">Tunggu\u2026</string>
 
     <!-- alert to the user that USB storage must be available before using the camera [CHAR LIMIT=NONE] -->
     <string name="no_storage" product="nosdcard">Masukkan kad SD sebelum menggunakan kamera</string>
@@ -68,7 +68,7 @@
 
     <string name="confirm_location_message">Simpan maklumat lokasi dalam gambar?</string>
     <string name="save">Simpan</string>
-    <string name="no_save">Jangan simpan</string>
+    <string name="no_save">Jangan Simpan</string>
 
     <!-- button in review mode indicating that the video just taken should be played [CHAR LIMIT=10] -->
 
