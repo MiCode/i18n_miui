@@ -3,82 +3,86 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
 	<!-- Bookmark related -->
-	<string name="local_bookmarks">Tempatan</string>
+	<string name="local_bookmarks">Xiaomi</string>
 	<string name="google_bookmarks">"Google: "</string>
-	<string name="bookmarks_management">Penanda</string>
+	<string name="bookmarks_management">Penanda Buku</string>
 	<string name="bookmarks_root_folder">Folder root</string>
-	<string name="bookmarks_content_is_null">Tiada penanda</string>
+	<string name="bookmarks_content_is_null">Tiada penanda buku</string>
 	
 	<!-- History related -->
 	<string name="history_browsed">Sejarah pelayaran</string>
 	<string name="history_track">Sejarah</string>
-	<string name="history_most_visited">Paling banyak dikunjungi</string>
+	<string name="history_most_visited">Paling kerap dikunjungi</string>
 	<string name="history_saved_webpage">Simpan halaman web</string>
-	<string name="clear_history">Padam bersih sejarah</string>
-	<string name="clear_history_group">Padam bersih semua %s sejarah</string>
-	<string name="open_history_group_in_new_window">Buka semua %s item sejarah dalam tingkap baru</string>
-	<string name="open_history_most_visited_group_in_new_window">Buka semua halaman web yang paling dikunjungi</string>
-	<string name="pref_privacy_clear_history_dlg">Padamkan sejarah navigasi penyemak imbas?</string>
+	<string name="clear_history">Kosongkan sejarah</string>
+    <string name="clear_history_group">Kosongkan sejarah (%s halaman)</string>
+    <string name="open_history_group_in_new_window">Buka sejarah dalam tab baru (%s halaman)</string>
+	<string name="open_history_most_visited_group_in_new_window">Buka semua halaman web yang kerap dikunjungi</string>
+	<string name="pref_privacy_clear_history_dlg">Padamkan sejarah?</string>
 	<string name="pref_privacy_clear_history_by_group_dlg">Adakah anda pasti anda mahu mengosongkan sejarah pelayaran anda?</string>
 	
 	<string name="edit">Edit</string>
-	<string name="delete">Buang</string>
+	<string name="delete">Padam</string>
 	<string name="multi_select_title"><xliff:g id="number">%1$s</xliff:g> dipilih</string>
-	<string name="delete_multi_bookmarks_alert_title" >Buang <xliff:g id="number">%1$s</xliff:g> item?</string>
+	<string name="delete_multi_bookmarks_alert_title" >Padam <xliff:g id="number">%1$s</xliff:g> item?</string>
 	
-	<string name="add_bookmark">Tambah penanda</string>
-	<string name="send_bookmark_to_home_screen">Hantar ke skrin utama</string>
-	<string name="bookmark_title">Label</string>
-	<string name="bookmark_url">URL</string>
+	<string name="add_bookmark">Tambah penanda buku</string>
+	<string name="send_bookmark_to_home_screen">Tempatkan di Skrin Utama</string>
+	<string name="bookmark_title">Nama Penanda Buku</string>
+    <string name="bookmark_url">Url http://</string>
 	<string name="bookmark_add_to">Tambah kepada</string>
 	<string name="add_folder">Tambah folder</string>
 	<string name="folder_name">Nama folder</string>
-	<string name="same_folder_name_warning">Folder ini sudah wujud</string>
-	<string name="same_bookmarks_warning">Penanda ini sudah wujud</string>
-	<string name="have_sent_bookmark_to_home_screen">Penanda dihantar ke skrin utama</string>
-	<string name="already_in_top_level">Penanda sudah di peringkat tertinggi</string>
+	<string name="same_folder_name_warning">Folder dengan nama yang sama sudah wujud</string>
+	<string name="same_bookmarks_warning">Anda sudah menanda buku halaman ini</string>
+	<string name="have_sent_bookmark_to_home_screen">Tempatkan di Skrin Utama</string>
+	<string name="already_in_top_level">Penanda buku sudah di peringkat tertinggi</string>
 	
 	<string name="bookmark_this_page_to_readmodelist">Tambah halaman ini kepada penanda Senarai Membaca</string>
 	<string name="readmodelist_bookmarks_to_show">Senarai Membaca</string>
-	<string name="bookmark_to_readmodelist_saved">Sudah menyimpan kepada penanda Senarai Membaca.</string>
-	<string name="bookmark_to_readmodelist_not_saved">"Tidak dapat menyimpan penanda Senarai Membaca."</string>
-	<string name="readmode_reach_last_page">Halaman terakhir telah dicapai</string>
+	<string name="bookmark_to_readmodelist_saved">Disimpan ke Senarai Membaca.</string>
+	<string name="bookmark_to_readmodelist_not_saved">"Gagal untuk simpan Senarai Membaca."</string>
+    <string name="readmode_reach_last_page">"Ini adalah halaman terakhir"</string>
 	
-	<string name="save_bookmark">Simpan penanda</string>
-	<string name="delete_bookmark">Buang penanda</string>
+	<string name="save_bookmark">tanda buku</string>
+	<string name="delete_bookmark">buang tanda buku</string>
 	<string name="send_to_popular">popular</string>
-	<string name="copy_link">salin link</string>
-	<string name="share_link">Kongsi pautan</string>
+	<string name="copy_link">salin pautan</string>
+	<string name="share_link">kongsi pautan</string>
 	<string name="open_all_bookmarks">Buka semua</string>
-	<string name="move_to_up_folder">Tahap atas</string>
-	<string name="bookmark_folder_needs_title">Nama folder diperlukan</string>
+	<string name="move_to_up_folder">Pergi atas satu aras</string>
+    <string name="bookmark_folder_needs_title">"Masukkan nama folder"</string>
 	
 	<!-- Name of tab containing yellow page sites -->
-	<string name="tab_yellowpage">Halaman kuning</string>
+    <string name="tab_yellowpage">Popular</string>
 	
 	<!-- Name of tab containing quick link sites -->
-	<string name="tab_quicklinks">Pautan pantas</string>
+	<string name="tab_quicklinks">Berguna</string>
 	
 	<!-- Settings label -->
-	<string name="pref_content_night_read_mode">Hidupkan Mod Malam</string>
+	<string name="pref_content_night_read_mode">Mod Malam</string>
 	
 	<string-array name="pref_homepage_choices">
 		<!-- Setting choice to set the homepage to the miui_home page [CHAR LIMIT=40] -->
-		<item>Default laman mula</item>
+		<item>Halaman Mula lalai</item>
 		<!-- Setting choice to set the homepage to a user entered URL [CHAR LIMIT=40] -->
-		<item>Khas</item>
+        <item>Khas</item>
+    </string-array>
+    <string-array name="pref_homepage_values" translatable="false">
+        <item>miui_home</item>
+        <item>lain-lain</item>
 	</string-array>
 	
-	<string name="general_set_default_browser_title">Tetapkan sebagai pelayar default</string>
+	<string name="general_set_default_browser_title">Set sebagai pelayar lalai</string>
 	<string name="general_set_default_browser_dialog_summary">Guna app bersepadu MIUI untuk prestasi yang cepat dan lancar</string>
 	<string name="general_set_default_browser_dialog_close_txt">Tutup</string>
-	<string name="general_set_default_browser_dialog_ok_txt">OK</string>
+	<string name="general_set_default_browser_dialog_ok_txt">Sahkan</string>
 	
 	<!-- Checkbox setting for enabling/disabling the ExitOnClosingLastTab feature [CHAR-LIMIT=32] -->
-	<string name="pref_exit_on_closing_last_tab_enabled_title">Keluar apabila tab terakhir ditutup</string>
+	<string name="pref_exit_on_closing_last_tab_enabled_title">Tutup app dengan tab terakhir</string>
 	
 	<string name="url_hint">Cari atau taip URL</string>
-	<string name="search_hint">Buat carian atau taipkan URL</string>
+	<string name="search_hint">Carian</string>
 	
 	<string name="contextmenu_download_image_as">Simpan imej sebagai</string>
 	
@@ -148,9 +152,9 @@
 	<string name="pref_clear_cache_for_exit">Padam cache apabila keluar</string>
 	<string name="pref_clear_history_for_exit">Padam sejarah apabila keluar</string>
 	
-	<string name="recover_from_crash">Teruskan dengan sesi penyemak imbas lepas</string>
+	<string name="recover_from_crash">Teruskan dengan sesi Pelayar lepas</string>
 	<string name="recover">Pulih</string>
-	<string name="crash_recovcery_message">Pelayar tutup secara tidak sengaja. Adakah anda ingin mendapatkan semula sesi penyemak imbas terakhir?</string>
+	<string name="crash_recovcery_message">Pelayar tutup secara tidak sengaja. Adakah anda ingin mendapatkan semula sesi Pelayar terakhir?</string>
 	
 	<string name="pref_autologin_progress_in_background">Log masuk ke tapak Google menggunakan <xliff:g>%s</xliff:g> di latar belakang</string>
 	
@@ -181,7 +185,7 @@
 	<string name="find_on_page">Cari dalam halaman</string>
 	<string name="url_copy_done">URL disalin</string>
 	
-	<string name="empty_history">Tiada sejarah penyemak imbas.</string>
+	<string name="empty_history">Tiada sejarah Pelayar.</string>
 	<string name="pref_setting_title">Tetapan halaman</string>
 	<string-array name="pref_default_zoom_choices">
 		<item>Small</item>
@@ -197,10 +201,10 @@
 	<string name="geolocation_permissions_prompt_toast_disallowed">Tapak ini tidak boleh mengakses lokasi anda. Tukarkannya pada skrin Tetapan &gt; Lanjutan &gt; Laman web.</string>
 	
 	<!-- Traffic Management: pre-load summary -->
-	<string name="pref_data_preload_summary">": Benarkan penyemak imbas untuk mempramuat hasil carian berkeyakinan tinggi di latar belakang"</string>
-	<string name="pref_link_prefetch_summary">": Benarkan penyemak imbas mempramuat halaman web dikaitkan di latar belakang"</string>
-	<string name="pref_video_preload_summary">": Benarkan penyemak imbas untuk pra-muat video apabila disokong oleh pelayan"</string>
-	<string name="pref_images_preload_summary">": Benarkan penyemak imbas untuk pra-muatan imej apabila disokong oleh pelayan"</string>
+	<string name="pref_data_preload_summary">": Benarkan Pelayar untuk mempramuat hasil carian berkeyakinan tinggi di latar belakang"</string>
+	<string name="pref_link_prefetch_summary">": Benarkan Pelayar mempramuat halaman web dikaitkan di latar belakang"</string>
+	<string name="pref_video_preload_summary">": Benarkan Pelayar untuk pra-muat video apabila disokong oleh pelayan"</string>
+	<string name="pref_images_preload_summary">": Benarkan Pelayar untuk pra-muatan imej apabila disokong oleh pelayan"</string>
 	
 	<!-- Traffic Management: pre-load title -->
 	<string name="pref_images_preload_title">Pra-muatan imej</string>
@@ -215,15 +219,15 @@
 	</string-array>
 	
 	<!-- Traffic Management:  images pre-load values -->
-	<string name="pref_images_preload_value_never_summary">Tidak Membenarkan penyemak imbas untuk pra-muatan imej</string>
+	<string name="pref_images_preload_value_never_summary">Tidak Membenarkan Pelayar untuk pra-muatan imej</string>
 	<string name="pref_images_preload_value_wifi_only_summary">Pra-muatan imej dengan Wi-Fi sahaja</string>
-	<string name="pref_images_preload_value_always_summary">Sentiasa Membenarkan penyemak imbas untuk pra-muatan imej apabila disokong oleh pelayan</string>
+	<string name="pref_images_preload_value_always_summary">Sentiasa Membenarkan Pelayar untuk pra-muatan imej apabila disokong oleh pelayan</string>
 	
 	<!-- Traffic Management: data_preload -->
 	<string name="pref_data_preload_value_never_summary">Jangan membenarkan pengimbas untuk membuka keputusan sensitif di latar belakang</string>
 	
 	<!-- Traffic Management: link_prefetch -->
-	<string name="pref_link_prefetch_value_never_summary">Jangan sekali-kali benarkan penyemak imbas untuk pramuat laman web yang dihubungi di latar belakang</string>
+	<string name="pref_link_prefetch_value_never_summary">Jangan sekali-kali benarkan Pelayar untuk pramuat laman web yang dihubungi di latar belakang</string>
 	
 	<!-- Traffic Management: video preload -->
 	<string name="pref_video_preload_value_never_summary">"Jangan benar pelayar untuk pramuat video-video"</string>
@@ -233,7 +237,7 @@
 	
 	<!-- Save bandwidth mode -->
 	<string name="pref_save_bandwidth_mode_title">"Pengunaan data mudah alih"</string>
-	<string name="pref_save_bandwidth_mode_summary">"Apabila dihidupkan, penyemak imbas tidak akan menggunakan rangkaian mudah alih anda untuk pramuat halaman atau tunjuk imej secara automatik".</string>
+	<string name="pref_save_bandwidth_mode_summary">"Apabila dihidupkan, Pelayar tidak akan menggunakan rangkaian mudah alih anda untuk pramuat halaman atau tunjuk imej secara automatik".</string>
 	<string name="menu_enable_save_bandwidth_mode">"Hidupkan had data mudah alih"</string>
 	<string name="menu_disable_save_bandwidth_mode">"Matikan had data mudah alih"</string>
 	<string name="menu_save_bandwidth_mode_first_clicked_txt">"Jangan gunakan rangkaian mudah alih untuk pramuat halaman atau memaparkan imej-imej secara automatik"</string>
