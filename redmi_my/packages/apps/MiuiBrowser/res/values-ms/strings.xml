@@ -87,12 +87,12 @@
 	<string name="contextmenu_download_image_as">Simpan imej sebagai</string>
 	
 	<!-- Advanced Setting -->
-	<string name="pref_extras_reset_default_title">Tetapkan semula lalai</string>
+	<string name="pref_extras_reset_default_title">Lain-lain</string>
 	<string name="pref_extras_reset_default">Tetapkan semula kepada lalai</string>
 	<string name="pref_extras_reset_default_dlg">Kembalikan tetapan kepada nilai lalai?</string>
 	
 	<string name="pref_ua_title">Pengurusan ejen pengguna</string>
-	<string name="pref_ua_string">Tali ejen pengguna</string>
+	<string name="pref_ua_string">String ejen pengguna</string>
 	<string-array name="pref_ua_choices">
 		<item>Android</item>
 		<item>Desktop</item>
@@ -102,31 +102,33 @@
 	<string name="pref_ua_mione_entry">MiOne</string>
 
 	<!-- Settings label -->
-	<string name="pref_content_search_engine">Tetapkan enjin carian</string>
+	<string name="pref_content_search_engine">Enjin carian</string>
+    <!-- Settings label -->
+    <string name="pref_content_search_engine">Set enjin carian untuk bar tajuk</string>
 	
 	<string name="pref_reading_mode_enabled_title">Mod Membaca</string>
 	<string name="pref_reading_mode_enabled_title_summary">JavaScript perlu dihidupkan</string>
-	<string name="pref_developer_options">Developer options</string>
-	<string name="pref_developer_options_summary">Debugging atau laporkan kesilapan</string>
-	<string name="add_xiaomi_account_warning">Sila log masuk akaun Xiaomi dahulu</string>
-	<string name="report_reading_mode_issue">Laporkan isu mod membaca kepada MIUI</string>
+	<string name="pref_developer_options">Pilihan Pemaju</string>
+	<string name="pref_developer_options_summary">Penyahpepijatan atau pilihan laporan</string>
+	<string name="add_xiaomi_account_warning">Sila daftar masuk ke akaun Xiaomi anda</string>
+	<string name="report_reading_mode_issue">Laporkan isu kepada MIUI</string>
 	
-	<string name="pref_key_gesture_title">Kunci dan gerak isyarat</string>
+    <string name="pref_key_gesture_title">Butang &amp; Gerak Isyarat</string>
 	<!-- 按键设置 -->
 	<string name="pref_key_title">Tetapan butang</string>
-	<string name="pref_volume_key_enabled">Kunci kelantangan</string>
-	<string name="pref_volume_key_operation">Operasi untuk kunci kelantangan</string>
+	<string name="pref_volume_key_enabled">Butang volum</string>
+	<string name="pref_volume_key_operation">Fungsi butang volum</string>
 	<string-array name="pref_volume_key_choices">
-		<item>Laman sebelum/Laman selepas</item>
-		<item>Tab sebelum/Tab selepas</item>
+		<item>Halaman sebelum/Halaman seterusnya</item>
+		<item>Tab sebelum/Tab seterusnya</item>
 	</string-array>
 
 	<!-- 手势操作 -->
-	<string name="pref_gesture_title">Operasi gerak isyarat</string>
-	<string name="pref_fling_on_border_enabled">Lempar pada penhujung</string>
-	<string name="pref_fling_on_border_enabled_title_summary">Slaid dari penghujung skrin</string>
+	<string name="pref_gesture_title">Gerak isyarat</string>
+	<string name="pref_fling_on_border_enabled">Leret dari bucu</string>
+	<string name="pref_fling_on_border_enabled_title_summary">Leret dari kiri atau kanan bucu skrin untuk tukar antara tab</string>
 	<string-array name="pref_fling_on_border_choices">
-		<item>Laman maju/undur</item>
+		<item>Halaman ke depan/ke belakang</item>
 		<item>Tukar tetingkap</item>
 	</string-array>
 	
@@ -145,25 +147,25 @@
 	<!-- Menu item to exit browser. [CHAR-LIMIT=30]-->
 	<string name="menu_exit">Keluar</string>
 	<!-- Confirmation dialog message confirming to exit browser -->
-	<string name="exit_browser_warning">Tutup browser?</string>
-	<string name="not_remind_again">Jangan ingatkan saya lagi</string>
+	<string name="exit_browser_warning">Keluar Pelayar?</string>
+	<string name="not_remind_again">Ingat pilihan saya</string>
 	<string name="pref_general_exit_setting_title">Tetapan Keluar</string>
-	<string name="pref_confirm_for_exit">Mengesah apabila keluar</string>
-	<string name="pref_clear_cache_for_exit">Padam cache apabila keluar</string>
-	<string name="pref_clear_history_for_exit">Padam sejarah apabila keluar</string>
+	<string name="pref_confirm_for_exit">Sahkan sebelum keluar</string>
+	<string name="pref_clear_cache_for_exit">Kosongkan cache sewaktu keluar</string>
+	<string name="pref_clear_history_for_exit">Kosongkan sejarah sewaktu keluar</string>
 	
-	<string name="recover_from_crash">Teruskan dengan sesi Pelayar lepas</string>
+	<string name="recover_from_crash">Buka semula sesi terakhir</string>
 	<string name="recover">Pulih</string>
-	<string name="crash_recovcery_message">Pelayar tutup secara tidak sengaja. Adakah anda ingin mendapatkan semula sesi Pelayar terakhir?</string>
+	<string name="crash_recovcery_message">Alamak! Pelayar tertutup secara tidak diduga. Adakah anda ingin buka semula tab anda daripada sesi terakhir?</string>
 	
-	<string name="pref_autologin_progress_in_background">Log masuk ke tapak Google menggunakan <xliff:g>%s</xliff:g> di latar belakang</string>
+	<string name="pref_autologin_progress_in_background">Daftar masuk ke laman Google menggunakan <xliff:g>%s</xliff:g> di latar belakang</string>
 	
 	<string name="menu_enable_night_mode">Hidupkan mod malam</string>
 	<string name="menu_disable_night_mode">Matikan mod malam</string>
 	
 	<string name="search_cancel">Batal</string>
 	<string name="search">Cari</string>
-	<string name="clear_search_history">Padam sejarah</string>
+	<string name="clear_search_history">Kosongkan sejarah</string>
 	
 	<string name="search_baidu">Baidu</string>
 	<string name="search_sogou">Segou</string>
@@ -180,21 +182,21 @@
 	
 	<string name="MIUI_startpage">Halaman mula</string>
 	
-	<string name="accessibility_button_newtab">Membuka tab baru</string>
+	<string name="accessibility_button_newtab">Halaman baru</string>
 	
 	<string name="find_on_page">Cari dalam halaman</string>
-	<string name="url_copy_done">URL disalin</string>
+	<string name="url_copy_done">URL disalin ke klipbod</string>
 	
-	<string name="empty_history">Tiada sejarah Pelayar.</string>
+	<string name="empty_history">Tiada sejarah.</string>
 	<string name="pref_setting_title">Tetapan halaman</string>
 	<string-array name="pref_default_zoom_choices">
-		<item>Small</item>
-		<item>Medium</item>
-		<item>Large</item>
+		<item>Kecil</item>
+		<item>Sederhana</item>
+		<item>Besar</item>
 	</string-array>
 	
 	<string name="pref_general_setting_title">Tetapan</string>
-	<string name="pref_extras_website_settings">Tetapan tapak web</string>
+	<string name="pref_extras_website_settings">Data laman web</string>
 	
 	<!-- Permissions prompt toast -->
 	<string name="geolocation_permissions_prompt_toast_allowed">Tapak ini boleh mengakses lokasi anda. Tukarkannya pada skrin Tetapan &gt; Lanjutan &gt; Laman Web.</string>
@@ -207,20 +209,20 @@
 	<string name="pref_images_preload_summary">": Benarkan Pelayar untuk pra-muatan imej apabila disokong oleh pelayan"</string>
 	
 	<!-- Traffic Management: pre-load title -->
-	<string name="pref_images_preload_title">Pra-muatan imej</string>
+	<string name="pref_images_preload_title">Pramuat imej</string>
 	
 	<!-- Traffic Management: title -->
-	<string name="pref_images_preload_dialogtitle">Pra-muatan imej\u2026</string>
+	<string name="pref_images_preload_dialogtitle">Pramuat imej</string>
 	
 	<string-array name="pref_images_preload_choices">
-		<item>Tidak pernah</item>
+		<item>Jangan sekali-kali</item>
 		<item>Hanya guna Wi-Fi</item>
 		<item>Selalu</item>
 	</string-array>
 	
 	<!-- Traffic Management:  images pre-load values -->
-	<string name="pref_images_preload_value_never_summary">Tidak Membenarkan Pelayar untuk pra-muatan imej</string>
-	<string name="pref_images_preload_value_wifi_only_summary">Pra-muatan imej dengan Wi-Fi sahaja</string>
+	<string name="pref_images_preload_value_never_summary">Tidak Membenarkan Pelayar untuk pramuatan imej</string>
+	<string name="pref_images_preload_value_wifi_only_summary">Pramuatan imej dengan Wi-Fi sahaja</string>
 	<string name="pref_images_preload_value_always_summary">Sentiasa Membenarkan Pelayar untuk pra-muatan imej apabila disokong oleh pelayan</string>
 	
 	<!-- Traffic Management: data_preload -->
@@ -230,7 +232,7 @@
 	<string name="pref_link_prefetch_value_never_summary">Jangan sekali-kali benarkan Pelayar untuk pramuat laman web yang dihubungi di latar belakang</string>
 	
 	<!-- Traffic Management: video preload -->
-	<string name="pref_video_preload_value_never_summary">"Jangan benar pelayar untuk pramuat video-video"</string>
+	<string name="pref_video_preload_value_never_summary">"Jangan benar pelayar untuk pramuat video"</string>
 	
 	<!-- Setting homepage -->
 	<string name="pref_data_title" msgid="7255058703417796578">"Pengurusan jalur lebar"</string>
@@ -261,9 +263,9 @@
 	
 	<string name="notif_install_successful">Muat turun berjaya</string>
 	<string name="in_incognito">Mod Incognito mode sedang aktif, tiada sejarah pelayaran akan ditinggalkan.</string>
-	<string name="alert_tips">Laman web yang anda lawati boleh menimbulkan risiko keselamatan yang berpotensi, anda mahu teruskan?</string>
+	<string name="alert_tips">Laman web yang anda lawati boleh menimbulkan risiko keselamatan </string>
 	
-	<string name="stop_loading">Henti muat</string>
+	<string name="stop_loading">Berhenti</string>
 	<string name="close_all_tab_alert_title">Tutup semua tab</string>
 	<string name="close_all_tab_alert_message">Adakah anda pasti bahawa anda ingin menutup semua tab?</string>
 	<string name="file_picker">Pilih tempat</string>
@@ -273,10 +275,10 @@
 	<string name="storage_sd_card">Kad SD</string>
 	<string name="storage_usb">Storan USB</string>
 	<string name="save_dialog_title">Simpan</string>
-	<string name="save_file_already_exist_alert_title">Fail sudah wujud!</string>
-	<string name="save_file_already_exist_alert_message">Fail sudah wujud, anda ingin menulis ganti ini?</string>
-	<string name="filename_empty_alert_message">"Nama fail tidak boleh dikosongkan"</string>
-	<string name="filename_illegal_alert_message">Nama fail ada huruf yang haram, fail akan dibuang secara automatik.</string>
+	<string name="save_file_already_exist_alert_title">Amaran</string>
+	<string name="save_file_already_exist_alert_message">Fail dengan nama yang sama sudah wujud, adakah anda ingin menulis ganti ini?</string>
+	<string name="filename_empty_alert_message">Masukkan nama fail :)</string>
+	<string name="filename_illegal_alert_message">Nama fail ada huruf yang tidak sah, fail akan dibuang secara automatik.</string>
 	<string name="download_failed">Muat turun gagal</string>
 	<string name="download_complete">Muat turun selesai</string>
 	<string name="app_update_install">Versi baru sudah dimuat turun dan sedia untuk pemasangan</string>
@@ -284,20 +286,20 @@
 	
 	<!-- clip dialog -->
 	<string name="clip_dialog_title">Buka link yang telah disalin?</string>
-	<string name="quicklinks_management">Pautan pantas</string>
+	<string name="quicklinks_management">Popular</string>
 	<string name="download">Muat turun</string>
-	<string name="loading_rest_candidates">Memuatkan calon lain</string>
-	<string name="downloading">Sedang dimuat turun\u2026</string>
-	<string name="downloaded">Sudah dimuat turun!</string>
+    <string name="loading_rest_candidates">Memuatkan\u2026</string>
+	<string name="downloading">Memuat turun\u2026</string>
+    <string name="downloaded">Muat turun selesai</string>
 	<string name="disk_space_used"><xliff:g id="number">%1$s</xliff:g> telah diguna</string>
 	<string name="disk_space_selected"><xliff:g id="number">%1$s</xliff:g> dipilih</string>
-	<string name="disk_space_available"><xliff:g id="number">%1$s</xliff:g> sedia ada</string>
+	<string name="disk_space_available"><xliff:g id="number">%1$s</xliff:g> tersedia</string>
 	<string name="not_enough_disk_space_alert">Ruang cakera tidak mencukupi</string>
-	<string name="download_video_alert_title">Notis Muat Turun!</string>
+	<string name="download_video_alert_title">Muat Turun</string>
 	<string name="download_video_alert_message">Jika plan rangkaian anda terdapat caj data, muat turun video akan menggunakan elaun anda, adakah anda ingin meneruskan?</string>
 	<string name="download_video_start_down_toast">"Muat turun <xliff:g id="number">%1$s</xliff:g> video(s)"</string>
 	<string name="menu_download_video">"Muat turun video"</string>
-	<string name="download_video_unseleted_all">"Batalkan semua piliha"n</string>
+	<string name="download_video_unseleted_all">"Nyahpilih semua "</string>
 	<string name="download_video_please_select_video">"Pilih video"</string>
 	<string name="download_video_please_download_market">"Sila memasang MiApps sebelum menggunakan fungsi ini."</string>
 	<string name="download_video_no_title_default_name">"Video tiada nama"</string>
@@ -336,32 +338,32 @@
 	<string name="download_dialog_file_length_lessthan1kb">"Kurang daripada 1K"</string>
 	<string name="download_dialog_default_path_invalid">"Tempat muat turun salah, tempat muat turun default akan digunakan"</string>
 	<string name="modify_download_path_no_sdcard_dlg_msg" product="nosdcard">Storan USB diperlukan untuk mengubahsuai laluan ini</string>
-	<string name="modify_download_path_no_sdcard_dlg_msg" product="default">An SD card is required to modify this path</string>
+	<string name="modify_download_path_no_sdcard_dlg_msg" product="default">Kad SD diperlukan untuk mengubahsuai laluan ini</string>
 	
-	<string name="geolocation_permissions_prompt_toast_disallowed" msgid="156443445797377409">"Laman ini tidak boleh mengakses lokasi anda"</string>
+	<string name="geolocation_permissions_prompt_toast_disallowed" msgid="156443445797377409">"Laman ini tidak boleh akses lokasi anda"</string>
 	<string name="pref_content_homepage" msgid="3324574611613105696">"Set laman mula"</string>
 	
 	<string name="bottom_bar_tabs_long_click_up_tip_txt">Leret ke atas untuk tutup</string>
 	<string name="bottom_bar_tabs_long_click_down_tip_txt">Leret ke bawah untuk tutup</string>
-	<string name="bottom_bar_tabs_long_click_last_tab_tip_txt">Tab terakhir</string>
+	<string name="bottom_bar_tabs_long_click_last_tab_tip_txt">Ini adalah tab terakhir</string>
 	
-	<string name="network_show_wifi_setting_tip_dialog_setting_cate_title">Rangkaian Wi-Fi tersedia</string>
+	<string name="network_show_wifi_setting_tip_dialog_setting_cate_title">Notifikasi Wi-Fi tersedia</string>
 	<string name="network_show_wifi_setting_tip_dialog_setting_title">"Jika anda menggunakan data mudah alih untuk mengakses Internet, MIUI akan memberitahu anda jika sambungan Wi-Fi yang berdekatan boleh didapati"</string>
-	<string name="network_show_wifi_setting_tip_dialog_title">Sambungan Wi-Fi tempatan boleh didapati</string>
+	<string name="network_show_wifi_setting_tip_dialog_title">Sambungan Wi-Fi tempatan tersedia</string>
 	<string name="network_show_wifi_setting_tip_dialog_description">Sambungan Wi-Fi dijumpai, adakah anda ingin menyambung?</string>
 	<string name="network_show_wifi_setting_tip_dialog_notshow">Simpan</string>
 	
 	<!-- quicklinks -->
-	<string name="user_defined_webpage">Tambah URL</string>
+	<string name="user_defined_webpage">Tambah ke halaman mula</string>
 	<string name="quicklink_user_define_webpage_title">Nama</string>
 	<string name="quicklink_user_define_webpage_url">URL</string>
-	<string name="user_defined_webpage_title">Tambah URL ke halaman utama</string>
-	<string name="quicklinks_most_visited">Tambah laman web yang paling banyak dikunjungi untuk memulakan halaman</string>
+	<string name="user_defined_webpage_title">Tambah URL ke halaman mula</string>
+	<string name="quicklinks_most_visited">Tambah  laman web yang paling banyak dikunjungi untuk memulakan halaman</string>
 	<string name="quicklinks_most_visited_title">Tambah ke halaman mula</string>
 	<string name="quicklinks_most_visited_subtitle">Tunjuk tapak baru-baru ini melawat di Tab Baru</string>
 	<string name="quicklinks_group_default_subtitle">Kosongkan</string>
 	<string name="add_quicklink_to_popular">Tambah ke halaman mula</string>
-	<string name="quicklink_saved_before">Laman telah ditambah ke halaman mula</string>
+	<string name="quicklink_saved_before">Laman ini telah ditambah</string>
 	
 	<string name="network_alert_message">Tiada Wi-Fi, guna rangkaian mudah alih?</string>
 	<string name="yes">Ya</string>
