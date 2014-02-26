@@ -20,8 +20,8 @@
     <string name="camera_error_title">Ralat kamera</string>
 
     <!-- message for the dialog showing the error of camera hardware -->
-    <string name="cannot_connect_camera_once">Tidak boleh menyambung kepada kamera</string>
-    <string name="cannot_connect_camera_twice">Masih tidak boleh disambungkan ke kamera. Cuba memulakan semula telefon anda dan lihat jika masalah masih berterusan.</string>
+    <string name="cannot_connect_camera_once">Tidak boleh menyambung ke kamera</string>
+    <string name="cannot_connect_camera_twice">Masih tidak boleh disambungkan ke kamera. Cuba mulakan semula telefon anda.</string>
     <!-- message for the dialog showing the camera is disabled because of security policies. Camera cannot be used. -->
     <string name="camera_disabled">Kamera telah dimatikan</string>
 
@@ -92,18 +92,19 @@
     <string name="pref_camera_recordlocation_title">Simpan maklumat lokasi</string>
 
     <!-- Settings screen, Record location dialog choices -->
-    <string name="pref_camera_recordlocation_entry_off">Matikan</string>
-    <string name="pref_camera_recordlocation_entry_on">Hidupkan</string>
+    <string name="pref_camera_recordlocation_entry_off">Tutup</string>
+    <string name="pref_camera_recordlocation_entry_on">Buka</string>
 
     <string name="pref_camera_sound_title">Bunyi kamera</string>
+    <string name="pref_camera_sound_title_entry_off">Tutup</string>
+    <string name="pref_camera_sound_title_entry_on">Buka</string>
 
-    <string name="pref_camera_sound_title_entry_off">Matikan</string>
-    <string name="pref_camera_sound_title_entry_on">Hidupkan</string>
-    <string name="pref_camera_sound_entry_off">Matikan</string>
-    <string name="pref_camera_sound_entry_on">Hidupkan</string>
 
-    <string name="pref_camera_auto_focus_title_entry_off">Matikan</string>
-    <string name="pref_camera_auto_focus_title_entry_on">Hidupkan</string>
+    <string name="pref_camera_sound_entry_off">Tutup</string>
+    <string name="pref_camera_sound_entry_on">Buka</string>
+
+    <string name="pref_camera_auto_focus_title_entry_off">Tutup</string>
+    <string name="pref_camera_auto_focus_title_entry_on">Buka</string>
 
     <string name="pref_captrue_mirror_title">Kamera hadapan</string>
     <string name="pref_captrue_mirror_entry_off">Matikan</string>
@@ -204,9 +205,10 @@
     <string name="pref_camera_jpegquality_title">Kualiti gambar</string>
 
     <!-- Settings screen, Picture quality dialog radio button choices -->
-    <string name="pref_camera_jpegquality_entry_superfine">Terbaik</string>
-    <string name="pref_camera_jpegquality_entry_fine">Baik</string>
-    <string name="pref_camera_jpegquality_entry_normal">Standard</string>
+
+    <string name="pref_camera_jpegquality_entry_high">Tinggi</string>
+    <string name="pref_camera_jpegquality_entry_normal">Biasa</string>
+    <string name="pref_camera_jpegquality_entry_low">Rendah</string>
 
      <!-- Settings screen, Select Histogram title -->
      <string name="pref_camera_histogram_title">Histogram</string>
@@ -216,13 +218,13 @@
      <string name="pref_camera_histogram_entry_disable">Matikan</string>
 
     <!-- Settings screen, Focus mode title -->
-    <string name="pref_camera_focusmode_title">Mod fokus</string>
+    <string name="pref_camera_focusmode_title">Mod Fokus</string>
 
     <!-- Settings screen, Focue mode dialog radio button choices -->
     <string name="pref_camera_focusmode_entry_auto">Auto</string>
     <string name="pref_camera_focusmode_entry_normal">Standard</string>
     <string name="pref_camera_focusmode_entry_infinity">Infiniti</string>
-    <string name="pref_camera_focusmode_entry_macro">Macro</string>
+    <string name="pref_camera_focusmode_entry_macro">Makro</string>
     <string name="pref_camera_focusmode_entry_continuous">CAF</string>
     <string name="pref_camera_focusmode_entry_manual">Manual</string>
     <string name="pref_camera_focusmode_entry_lock">Kunci</string>
@@ -239,12 +241,12 @@
 
 
     <!-- Settings screen, Flash mode title -->
-    <string name="pref_camera_flashmode_title">Mod flash</string>
+    <string name="pref_camera_flashmode_title">Mod Pancar</string>
 
     <!-- Settings screen, Flash mode dialog radio button choices -->
     <string name="pref_camera_flashmode_entry_auto">Auto</string>
-    <string name="pref_camera_flashmode_entry_on">Hidupkan</string>
-    <string name="pref_camera_flashmode_entry_off">Matikan</string>
+    <string name="pref_camera_flashmode_entry_on">Buka</string>
+    <string name="pref_camera_flashmode_entry_off">Tutup</string>
 
     <!-- Settings screen, white balance title -->
     <string name="pref_camera_whitebalance_title">Imbangan putih</string>
@@ -253,7 +255,7 @@
     <!-- Settings screen, White balance dialog radio button choices -->
     <string name="pref_camera_whitebalance_entry_auto">Auto</string>
     <string name="pref_camera_whitebalance_entry_incandescent">Lampu Pijar</string>
-    <string name="pref_camera_whitebalance_entry_daylight">Siang</string>
+    <string name="pref_camera_whitebalance_entry_daylight">Cahaya Siang</string>
     <string name="pref_camera_whitebalance_entry_fluorescent">Pendarfluor</string>
     <string name="pref_camera_whitebalance_entry_cloudy">Mendung</string>
     <string name="pref_camera_whitebalance_entry_manual">Manual</string>
@@ -275,8 +277,8 @@
     <string name="pref_camera_touchafaec_title">Sentuh AF/AEC</string>
 
     <!-- Settings screen, Touch AF/AEC dialog radio button choices -->
-    <string name="pref_camera_touchafaec_entry_off">Matikan</string>
-    <string name="pref_camera_touchafaec_entry_on">Hidupkan</string>
+    <string name="pref_camera_touchafaec_entry_off">Tutup</string>
+    <string name="pref_camera_touchafaec_entry_on">Buka</string>
 
     <!-- Settings screen, Multiple levels entries -->
     <string name="pref_camera_multilevel_entry_lowest">Paling rendah</string>
@@ -315,7 +317,7 @@
     <string name="pref_camera_saturation_title">Ketepuan</string>
 
     <!-- Settings screen, Select Scene mode -->
-    <string name="pref_camera_scenemode_title">Mod pemandangan</string>
+    <string name="pref_camera_scenemode_title">Mod Pemandangan</string>
 
     <!-- Settings menu, scene mode choices -->
     <string name="pref_camera_scenemode_entry_off">Tutup</string>
@@ -338,13 +340,13 @@
     <string name="pref_camera_scenemode_entry_sunset">Matahari terbenam</string>
     <!-- Scene mode for taking a photo as sharp as possible. -->
     <!-- Scene mode optimized for taking images of fireworks. -->
-    <string name="pref_camera_scenemode_entry_fireworks">Mercun</string>
+    <string name="pref_camera_scenemode_entry_fireworks">Bunga Api</string>
     <!-- Scene mode optimized for taking images during sports . -->
     <string name="pref_camera_scenemode_entry_sports">Sukan</string>
     <!-- Scene mode optimized for taking indoor low-lights pictures. [CHAR LIMIT=16] -->
     <!-- Scene mode optimized for capturing the naturally warm color of scenes lit by candles. [CHAR LIMIT=16] -->
     <!-- Scene mode for taking a photo with backlight. -->
-    <string name="pref_camera_scenemode_entry_backlight">Lampu belakang</string>
+    <string name="pref_camera_scenemode_entry_backlight">Lampu Belakang</string>
     <!-- Scene mode optimized for taking images of flowers. -->
     <string name="pref_camera_scenemode_entry_flowers">Bunga</string>
     <!-- Scene mode optimized for taking images of AR. -->
@@ -381,7 +383,7 @@
      <!-- Settings screen, Select preview title -->
 
     <!-- Settings screen, preview dialog radio button choices -->
-     <string name="pref_camera_preview_entry_off">off</string>
+     <string name="pref_camera_preview_entry_off">tutup</string>
      <string name="pref_camera_preview_entry_1000">1 saat</string>
      <string name="pref_camera_preview_entry_2000">2 saat</string>
      <string name="pref_camera_preview_entry_5000">5 saat</string>
@@ -391,9 +393,10 @@
 
      <!-- Default Anti Banding setting. -->
      <string name="pref_camera_antibanding_default">50hz</string>
+     <string name="pref_camera_antibanding_60">60hz</string>
 
      <!-- Settings screen, Anti Banding entries -->
-     <string name="pref_camera_antibanding_entry_0">Off</string>
+     <string name="pref_camera_antibanding_entry_0">Tutup</string>
      <string name="pref_camera_antibanding_entry_1">50 Hz</string>
      <string name="pref_camera_antibanding_entry_2">60 Hz</string>
      <string name="pref_camera_antibanding_entry_3">Auto</string>
@@ -402,9 +405,9 @@
     <string name="dialog_ok">OK</string>
 
     <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
-    <string name="spaceIsLow_content" product="nosdcard">Storan USB anda kehabisan ruang. Buangkan beberapa imej atau fail lain.</string>
+    <string name="spaceIsLow_content" product="nosdcard">Storan USB anda kehabisan ruang</string>
     <!-- Low-memory dialog message [CHAR LIMIT=NONE] -->
-    <string name="spaceIsLow_content" product="default">Kad SD anda kehabisan ruang. Buangkan beberapa imej atau fail lain.</string>
+    <string name="spaceIsLow_content" product="default">Kad SD anda kehabisan ruang</string>
 
     <!-- The messsage shown when video record reaches size limit. -->
     <string name="video_reach_size_limit">Had saiz tercapai.</string>
@@ -419,7 +422,7 @@
      <string name="pref_camera_hfr_entry_4x">120</string>
 
      <!-- Video speed -->
-     <string name="pref_video_speed_title">Kelajuan merakam video</string>
+     <string name="pref_video_speed_title">Kelajuan Merakam Video</string>
      <string name="pref_video_speed_default">Biasa</string>
 
      <string name="pref_video_speed_entry_normal">Biasa</string>
@@ -445,7 +448,7 @@
     <!-- Toast saying that there is no video to share. [CHAR LIMIT=30] -->
 
     <!-- The text shown when the panorama panning speed is to fast [CHAR LIMIT=12] -->
-    <string name="pano_too_fast_prompt">Itu terlalu laju</string>
+    <string name="pano_too_fast_prompt">Terlalu laju</string>
     <string name="pano_how_to_use_prompt">Sentuh butang pengatup untuk menangkap panorama</string>
     <string name="pano_how_to_use_prompt_to_move">Gerakkan peranti secara lancar dalam pergerakan mendatar</string>
     <string name="pano_how_to_use_prompt_go_on_moving">Teruskan\u2026</string>
@@ -470,7 +473,7 @@
 
     <!-- Toast telling users tapping on the viewfinder will trigger autofocus [CHAR LIMIT=28] -->
     <string name="tap_to_focus">Sentuh untuk fokus</string>
-    <string name="tap_to_exposure">Sentuh untuk melaraskan pendedahan secara manual</string>
+    <string name="tap_to_exposure">Sentuh untuk laras pendedahan secara manual</string>
 
     <!-- Title of video effect setting popup window -->
 
@@ -498,7 +501,7 @@
     <string name="effect_backdropper_gallery">Pilih sendiri</string>
 
     <!-- Message displayed in overlay during background replacement training [CHAR LIMIT=180]-->
-    <string name="bg_replacement_message">Letakkan peranti anda di bawah dan Langkah keluar dari pandangan seketika</string>
+    <string name="bg_replacement_message">Letakkan peranti anda atas permukaan yang stabil,\n dan langkah keluar dari pandangan seketika</string>
 
     <!-- Toast after trying to select a setting that is not allowed to change in effect [CHAR LIMIT=50] -->
 
@@ -509,10 +512,10 @@
     <string name="disable_video_snapshot_hint">Gambar video dilumpuhkan apabila kesan khas dihidupkan</string>
 
     <!-- The messsage shown if user selects a snapshot resolution lower than the current video size. -->
-    <string name="snapshot_lower_than_video">Saiz gambar lebih rendah dari saiz video. Mengehadkan saiz video. Sila pilih resolusi yang lebih tinggi atau yang sama pada saiz terkini video. </string>
+    <string name="snapshot_lower_than_video">Saiz gambar lebih rendah dari saiz video. Mengehadkan saiz video. Sila pilih resolusi yang lebih tinggi atau yang sama untuk saiz video semasa. </string>
 
     <!-- The messsage shown if user selects a snapshot resolution in low power mode. -->
-    <string name="snapshotsize_low_powermode">Resolusi gambar pada Mod Rendah Kuasa tidak disokong. Gamabr saiz video akan digunakan. Sila pilih mod Kuasa Tinggi untuk saiz gambar.
+    <string name="snapshotsize_low_powermode">Resolusi gambar tidak disokong oleh tetapan pengurusan kuasa semasa. Saiz video  Gamabr saiz video akan digunakan. Sila pilih mod Kuasa Tinggi untuk saiz gambar.
     </string>
 
     <!-- The messsage shown if user tries to take snapshot during D1/QCIF resolution. -->
@@ -544,7 +547,7 @@
     <!-- The decrement button in camera preference such as exposure, picture size. [CHAR LIMIT = NONE] -->
     <!-- The increment button in camera preference such as exposure, picture size. [CHAR LIMIT = NONE] -->
     <!-- The on/off switch in camera settings, such as store location. [CHAR LIMIT = NONE] -->
-    <string name="accessibility_camera_picker">Suis kamera depan dan belakang</string>
+    <string name="accessibility_camera_picker">Tukar kamera depan dan belakang</string>
     <string name="accessibilit_camera_video_switch_picker_and_state">Togol kamera dan video (sedang menggunakan  %s)</string>
     <string name="accessibility_camera_flashmode">Selalu pancar</string>
     <string name="accessibility_camera_auto_flashmode">Pancaran automatik</string>
@@ -731,11 +734,11 @@
     <string name="import_complete">Import selesai</string>
     <string name="import_fail">Import gagal.</string>
     <string name="auto">Auto</string>
-    <string name="flash_on">Denyar dilepaskan</string>
-    <string name="flash_off">Tiada denyar</string>
+    <string name="flash_on">Pancaran dilepaskan</string>
+    <string name="flash_off">Tiada pancaran</string>
     <string name="manual">Manual</string>
     <string name="close">Tutup</string>
-    <string name="details_title">%1$d daripada %2$d perkara:</string>
+    <string name="details_title">%1$d daripada %2$d item:</string>
     <string name="set_label_local_albums">Album tempatan</string>
     <string name="folder_camera">Kamera</string>
     <string name="folder_download">Muat turun</string>
@@ -745,9 +748,9 @@
     <string name="undo">Buat asal</string>
     <string name="ok">OK</string>
     <string name="cancel">Batal</string>
-    <string name="set_as">Tetap sebagai</string>
+    <string name="set_as">Set sebagai</string>
     <string name="no_thumbnail">Tiada imej kecil</string>
-    <string name="loading">Sedang muat\u2026</string>
+    <string name="loading">Memuatkan\u2026</string>
     <string name="crop_saved">
         Imej yang dipangkas disimpan ke <xliff:g id="folder_name">%s</xliff:g>.</string>
     <string name="video_err">Tidak boleh memnyiarkan video.</string>
@@ -761,7 +764,7 @@
     <string name="white_balance">Imbangan putih</string>
     <string name="focal_length">Panjang tumpuan</string>
     <string name="aperture">Apertur</string>
-    <string name="flash">Denyar</string>
+    <string name="flash">Pancaran</string>
     <string name="description">Penerangan</string>
     <string name="duration">Tempoh</string>
     <string name="file_size">Saiz fail</string>
