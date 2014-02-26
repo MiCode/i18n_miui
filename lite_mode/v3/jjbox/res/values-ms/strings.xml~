@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- jjbox -->
+    <string name="app_name">Lagi</string>
+    <string name="grid_empty_text">Lagi App</string>
+</resources>

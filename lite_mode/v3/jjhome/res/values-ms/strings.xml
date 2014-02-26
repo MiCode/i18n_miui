@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- jjhome -->
+<string name="app_name">Skrin Utama</string>
+<string name="launcher_settings">Tetapan Skrin Utama</string>
+<string name="system_settings">Tetapan Sistem</string>
+<string name="contact_empty_title">Tambah</string>
+<string name="feedback">Maklum Balas</string>
+<string name="edit_home">Edit Skrin Utama</string>
+<string name="loading_home">Memuatkan Skrin Utama\2026</string>
+<string name="failed_to_drop">Gagal untuk pindahkan</string>
+<string name="delete_zone_title">Padam App</string>
+<string name="cant_delete_system_app">Anda tidak boleh padam app sistem</string>
+<string name="uninstall_ok">Padam</string>
+<string name="uninstall_cancel">Batal</string>
+<string name="uninstall_app_hint">Padam app ini?</string>
+<string name="uninstall_contact_hint">Buang kenalan ini dari Skrin Utama anda?</string>
+<string name="enter_edit_mode">Edit mod Skrin Utama</string>
+<string name="clock_year_format">dd/MM/yyyy</string>
+<string name="about_us">Tentang Kami</string>
+<string name="sunday">Ahad</string>
+<string name="monday">Isnin</string>
+<string name="tuesday">Selasa</string>
+<string name="wensday">Rabu</string>
+<string name="thursday">Khamis</string>
+<string name="friday">Jumaat</string>
+<string name="saturday">Sabtu</string>
+
+<string name="title_activity_about">TentangAktiviti</string>
+<string name="action_settings">Tetapan</string>
+<string name="hello_world">Hello dunia!</string>
+    <string name="dl_failure_notification">"Couldn't download message %1$s from %2$s."</string>
+</resources>
