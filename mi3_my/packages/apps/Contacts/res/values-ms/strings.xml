@@ -549,7 +549,7 @@ limitations under the License.
 	<!-- Item label: jump to the in-call DTMF dialpad.
 	(Part of a list of options shown in the dialer when another call
 	is already in progress.) -->
-	<string name="dialer_useDtmfDialpad">Guna sesentuh nada pad kekunci</string>
+	<string name="dialer_useDtmfDialpad">Guna nada sesentuh pad kekunci</string>
 	
 	<!-- Item label: jump to the in-call UI.
 	(Part of a list of options shown in the dialer when another call
@@ -1917,41 +1917,44 @@ limitations under the License.
 
 	<plurals name="pick_favorites_list_title">
 
-	    <item quantity="other">%1$d kegemaran</item>
+	    <item quantity="one">%1$d kegemaran</item>
+        <item quantity="other">%1$d kegemaran</item>
 	</plurals>
 
 	<plurals name="pick_recent_list_title">
-
+        <item quantity="one">1 kenalan terkini</item>
 	    <item quantity="other">%1$d kenalan terkini</item>
 	</plurals>
 	
 	<string name="noRecentContacts">Tiada kenalan terkini</string>
 	
 	<plurals name="hint_search_contacts">
-
+        <item quantity="one">%1$d kenalan</item>
 	    <item quantity="other">%1$d kenalan</item>
 	</plurals>
 
 	<plurals name="hint_search_phone_numbers">
-
-	    <item quantity="other">%1$d nombor kenalan</item>
+        <item quantity="one">%1$d nombor</item>
+	    <item quantity="other">%1$d nombor</item>
 	</plurals>
 
 	<plurals name="hint_search_emails">
-
-	    <item quantity="other">%1$d e-mel</item>
+        <item quantity="one">"1 e-mel kenalan"</item>
+	    <item quantity="other">%1$d e-mel kenalan</item>
 	</plurals>
 	
 	<!-- Contats Picker -->
 
 	<plurals name="pick_favorites_contacts_list_title">
 
-	    <item quantity="other">%1$d kegemaran</item>
+	    <item quantity="one">%1$d kegemaran</item>
+        <item quantity="other">%1$d kegemaran</item>
 	</plurals>
 
 	<plurals name="pick_recent_contacts_list_title">
 
-	    <item quantity="other">%1$d kenalan terkini</item>
+	    <item quantity="one">%1$d kenalan terkini</item>
+        <item quantity="other">%1$d kenalan terkini</item>
 	</plurals>
 
 	<string name="loading_groups">Memuatkan kumpulan\u2026</string>
@@ -1964,7 +1967,7 @@ limitations under the License.
 	<string name="group_add_fail_toast">Gagal untuk tambah kenalan</string>
 
 	<plurals name="group_add_success_toast">
-
+        <item quantity="one">"%1$d kenalan ditambah"</item>
 		<item quantity="other">"<xliff:g id="count"> %1$d </xliff:g> kenalan ditambah"</item>
 	</plurals>
 
@@ -1995,7 +1998,7 @@ limitations under the License.
 	<string name="delete_duplicate_message">"Menggabungkan kenalan\u2026"</string>
 	<string name="label_no_duplicate_contacts">Tiada kenalan berulang ditemui</string>
 	<string name="quit_dialog_confirm_title">Anda tidak menggabungkan sebarang kenalan</string>
-
+    <string name="label_duplicate_count">(%1$d)</string>
 	<string name="preference_import_export">Import/Eksport</string>
 	<string name="preference_import_export_title">Import/Eksport kenalan</string>
 	<string name="import_vcard_description" product="nosdcard">Import kenalan anda dari storan dalaman telefon</string>
@@ -2024,7 +2027,7 @@ limitations under the License.
 	<string name="rebuild_t9_index_dialog_message">Membina semula indeks data\u2026</string>
 	<string name="pref_key_rebuild_t9_index_title">Bina semula indeks data</string>
 	<string name="pref_key_rebuild_t9_index_message">Dapat membetulkan kegagalan carian kenalan</string>
-	<string name="pref_key_sim_manage">Pengurusan SIM</string>
+	<string name="pref_key_sim_manage">Konfigurasi kad SIM</string>
 	<string name="pref_key_photo">Foto</string>
 	<string name="pref_key_photo_word_title">Berikan foto kenalan</string>
 	<string name="pref_key_photo_word_summary">Memberi gambar kepada kenalan yang tiada gambar secara automatik.</string>
@@ -2043,7 +2046,7 @@ limitations under the License.
 	<string name="preference_telocation_summary_countrycode_on">Auto-dail kod negara</string>
 	<string name="preference_telocation_summary_countrycode_off">Jangan auto-dail kod negara</string>
 	<string name="preference_phone">Telefon</string>
-	<string name="preference_dial_pad_touch_tone_title">Nada sentuh dial pad</string>
+	<string name="preference_dial_pad_touch_tone_title">Nada sentuh pad dail</string>
 	<string name="preference_auto_ip_title">Awalan IP automatik</string>
 	<string name="preference_auto_ip_summary_disable">Dimatikan</string>
 	<string name="preference_auto_ip_summary_on">Awalan IP karier: %s</string>
@@ -2068,7 +2071,7 @@ limitations under the License.
 	<string name="option_send_to_desktop">Tempatkan di Skrin Utama</string>
 	<string name="option_send_to_others">Majukan</string>
 	<string name="option_not_star">Buang dari kegemaran</string>
-	<string name="option_not_in_group">Keluarkan</string>
+	<string name="option_not_in_group">Buang</string>
 	
 	<!-- Group long click menu -->
 	<string name="option_view_group">Papar</string>
@@ -2097,7 +2100,7 @@ limitations under the License.
 	<string name="open_contact">Lihat kenalan</string>
 	<string name="send_contact_shortcut_todesktop_success">Ditambah ke Skrin Utama</string>
 	<!-- Datetime picker -->
-	<string name="date_picker_label">Ingatkan 3-hari sebelum dan pada hari</string>
+	<string name="date_picker_label">Ingatkan 3 hari sebelum dan pada hari</string>
 	
 	<!-- 联系人详情 -->
 	<string name="today">Hari ini</string>
@@ -2164,7 +2167,7 @@ limitations under the License.
 	<string name="btn_delete_multi_contacts">Padam %d kenalan</string>
 	<string name="btn_split_contact">Asingkan</string>
 	<string name="use_photo_as_primary2">Gunakan %1$s\'s foto kenalan</string>
-	<string name="label_custom_type">Tersendiri</string>
+	<string name="label_custom_type">Khas</string>
 
 	<string name="pkgLabel">Kenalan dan pendail</string>
 
@@ -2178,7 +2181,7 @@ limitations under the License.
 	<string name="preference_smart_group_frequency_summary">Kumpulan mengikut yang terkini</string>
 
 	<plurals name="smart_group_member_count">
-
+        <item quantity="one">1 orang</item>
 	    <item quantity="other"><xliff:g id="count">%d</xliff:g> orang</item>
 	</plurals>
 	<string name="smart_group_action_bar_title">%1$s-%2$s, %3$s</string>
@@ -2252,10 +2255,11 @@ limitations under the License.
 	
 	<plurals name="device_import_done_toast">
 
-	    <item quantity="other">%1$d kenalan di import</item>
+	    <item quantity="one">%1$d kenalan diimport</item>
+        <item quantity="other">%1$d kenalan diimport</item>
 	</plurals>
 
-	<string name="device_import_progress_toast">%1$d kenalan di import</string>
+	<string name="device_import_progress_toast">%1$d kenalan diimport</string>
 	<string name="no_contact_in_other_phone">Tiada kenalan dikesan</string>
 	
 	<!-- Import Weibo contacts -->
@@ -2306,8 +2310,8 @@ limitations under the License.
 	<string name="simContacts_empty">Tiada kenalan dalam kad SIM.</string>
 
 	<plurals name="numSelectedSimContacts">
-
-
+        <item quantity="zero">"%1$d dipilih"</item>
+        <item quantity="one">"%1$d dipilih"</item>
 	    <item quantity="other">"<xliff:g id="count"> %1$d </xliff:g> dipilih"</item>
 	</plurals>
 
@@ -2350,7 +2354,7 @@ limitations under the License.
 	<string name="login_ok">Daftar masuk</string>
 	<string name="yellowpage_navigation_search_hint">Carian</string>
 	<string name="yellowpage_navigation_no_content">Tiada hasil carian</string>
-	<string name="yellowpage_navigation_search_offline_hint">Tidak boleh berhubung ke Internet</string>
+	<string name="yellowpage_navigation_search_offline_hint">Anda di luar talian</string>
 	<string name="refresh">Muat semula</string>
 	<string name="yellowpage_navigation_search_city_name_hint">Bandar</string>
 
