@@ -661,13 +661,13 @@
 	<string name="memory_music_usage">Audio</string>
 	
 	<!-- oldman -->
-    <string name="oldman_mode_entry_title">Mod Lite</string>
-    <string name="oldman_mode_entry_name">Mod Lite</string>
-    <string name="oldman_mode_settings_caption">Tetapan Mod Lite</string>
-    <string name="oldman_mode_enabled_name">Mod Lite</string>
+    <string name="oldman_mode_entry_title">Mod Ringkas</string>
+    <string name="oldman_mode_entry_name">Mod Ringkas</string>
+    <string name="oldman_mode_settings_caption">Tetapan Mod Ringkas</string>
+    <string name="oldman_mode_enabled_name">Mod Ringkas</string>
     <string name="oldman_mode_summary">Guna Skrin Utama dan Menu yang dipermudahkan</string>
-    <string name="oldman_mode_confirm_title">Mula semula untuk memasuki Mod Lite?</string>
-    <string name="oldman_mode_confirm_will_oldman_mode_text">Telefon anda akan mula semula dan memasuki Mod Lite.</string>
-    <string name="oldman_mode_confirm_will_normal_mode_text">Keluar Mod Lite?</string>
+    <string name="oldman_mode_confirm_title">Mula semula untuk memasuki Mod Ringkas?</string>
+    <string name="oldman_mode_confirm_will_oldman_mode_text">Telefon anda akan mula semula dan memasuki Mod Ringkas.</string>
+    <string name="oldman_mode_confirm_will_normal_mode_text">Keluar Mod Ringkas?</string>
   
 </resources>
