@@ -622,4 +622,14 @@
 	
 	<!-- usb share net -->
 	<string name="usb_share_net_info">Guna internet komputer</string>
+
+    <!-- appended 2.27 -->
+    <string name="status_bar_and_notification_bar">Notification shade and status bar</string>
+    <string name="settings_show_screenshot_notification">Show screenshot notification</string>
+    <string name="settings_show_carrier">Show service provider</string>
+    <string name="settings_custom_carrier">Edit service provider name</string>
+    <string name="settings_no_carrier">None</string>
+    <string name="settings_show_carrier_summary">Only display on lock screen</string>
+    <string name="settings_basic_settings">Basic settings</string>
+    <string name="settings_advanced">Additional settings </string>
 </resources>

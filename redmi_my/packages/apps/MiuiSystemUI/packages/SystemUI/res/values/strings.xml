@@ -413,6 +413,7 @@
     <string name="call_status_dialing">Dialing</string>
 
     <string name="status_bar_style_settings">Notifications</string>
+    <string name="status_bar_and_notification_bar">Notification shade and status bar</string>
     <string name="settings_toggle_layout_style">Toggle layout style</string>
     <string name="settings_toggle_layout_style_compact">Bar</string>
     <string name="settings_toggle_layout_style_single_page">Page</string>
@@ -425,21 +426,24 @@
     <string name="filter_item_description"></string>
     <string name="settings_notification_bar">Notification shade</string>
     <string name="settings_toggle_position">Manage toggles</string>
-    <string name="settings_toggle_collapse_after_clicked">Collapse after toggle touch</string>
-    <string name="settings_screenshot_notification_disabled">No screenshot notification</string>
-    <string name="settings_expanded_view">Pull down settings</string>
+    <string name="settings_toggle_collapse_after_clicked">Collapse after touch</string>
+    <string name="settings_show_screenshot_notification">Show screenshot notification</string>
     <string name="settings_status_bar">Status bar</string>
     <string name="settings_show_network_speed">Show connection speed</string>
-    <string name="settings_expandable_under_fullscreen">Enable in full-screen mode</string>
-    <string name="settings_expandable_under_fullscreen_summary">Enable pull down for notification shade in full-screen mode</string>
     <string name="settings_expandable_under_keyguard">Enable on lock screen</string>
-    <string name="settings_expandable_under_keyguard_summary">Enable pull down for notification shade at lock screen</string>
+    <string name="settings_show_carrier">Show service provider</string>
+    <string name="settings_custom_carrier">Edit service provider name</string>
+    <string name="settings_no_carrier">None</string>
+    <string name="settings_show_carrier_summary">Only display on lock screen</string>
+    <string name="settings_basic_settings">Basic settings</string>
+    <string name="settings_advanced">Additional settings </string>
+    <string name="settings_show_flow_info">Show flow details</string>
 
     <string name="settings_toggle_position_divider_page">%1$d toggles above this bar are active</string>
     <string name="settings_toggle_position_divider_list">Toggles above this bar are active</string>
 
     <string name="settings_toggle_position_reset">Reset toggles</string>
-    <string name="settings_show_flow_info">Show flow details</string>
+
 
     <!-- MI Button Settings -->
     <string name="camera_key_action_setting_title">MI Button</string>
@@ -614,9 +618,10 @@
     <string name="headset_custom">"Customize"</string>
 
     <!-- oldman -->
-    <string name="oldman_status_bar_time_format">HH:mm</string>
-    <string name="oldman_airplane_mode_text" msgid="1439152806320786912">"Airplane"</string>
-    <string name="oldman_incall_text" msgid="1439152806320786912">"incall"</string>
+    <string name="oldman_status_bar_time_format_24">HH:mm</string>
+    <string name="oldman_status_bar_time_format_12">h:mm</string>
+    <string name="oldman_airplane_mode_text">"airplane"</string>
+    <string name="oldman_incall_text">"incall"</string>
     <string name="audio_effect_settings">"Set headphones type"</string>
     <string name="audio_effect_info">"Optimize audio"</string>
     <string name="audio_effect_custom">"Configure"</string>
