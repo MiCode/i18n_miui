@@ -417,7 +417,7 @@
     <!-- The label for WEP Secury Key -->
     <string name="wifi_WEP_secury_key">Securi Kunci</string>
     <!--add for Wi-Fi hotspot auto-sleep policy-->
-    <string name="wifi_tether_auto_disable_title">Terus ON hotspot Wi-Fi</string>
+    <string name="wifi_tether_auto_disable_title">Terus buka hotspot Wi-Fi</string>
 
     <string name="wifi_disconnect" translatable="false">Diputuskan</string>
     <string name="wifi_menu_disconnect" translatable="false">Diputuskan daripada rangkaian</string>
@@ -619,7 +619,7 @@
     <!-- Do not translate. -->
     <string name="evdo_signal_strength_info">Evdo</string>
     <string name="security_not_set">Sekuriti tidak diset</string>
-    <string name="lockdown_vpn_already_connected">Sentiasa buka VPNA telah dihidupkan untuk sambungan.</string> 
+    <string name="lockdown_vpn_already_connected">Sentiasa buka VPN telah dihidupkan untuk sambungan.</string> 
 
     <string name="wifi_ap_no_connected">0 berhubung</string>
     <string name="wifi_ap_no_blocked">0 disekat</string>
