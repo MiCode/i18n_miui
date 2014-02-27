@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">JeejenMms</string>
+    <string name="wap_push_title">"[WAP Push] "</string>
+    <string name="message_queued">"Tidak boleh hantar mesej anda buat masa sekarang. Ia akan dihantar apabila servis sudah tersedia."</string>
+    <string name="download_later">"Tidak boleh muat turun buat masa sekarang. Cuba lagi kemudian."</string>
+    <string name="invalid_destination">Alamat destinasi tidak sah.</string>
+    <string name="service_network_problem">"Tidak boleh hantar kerana masalah rangkaian."</string>
+    <string name="service_message_not_found">Mesej tamat tempoh atau tidak tersedia.</string>
+    <string name="service_not_activated">Servis tidak diaktifkan dalam rangkaian.</string>
+    <string name="no_subject">(Tiada subjek)</string>
+    <string name="unknown_sender">Penghantar tidak dikenali</string>
+    <string name="dl_failure_notification">"Tidak boleh memuat turun mesej %1$s daripada %2$s."</string>
+</resources>
