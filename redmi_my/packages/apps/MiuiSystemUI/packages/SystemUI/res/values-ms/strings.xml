@@ -159,17 +159,17 @@
 	
 	<!-- Checkbox label for application compatibility mode ON (zooming app to look like it's running
 	on a phone).  [CHAR LIMIT=25] -->
-	<string name="compat_mode_on">Zoom untuk memenuhi skrin</string>
+	<string name="compat_mode_on">Zum untuk memenuhi skrin</string>
 	
 	<!-- Checkbox label for application compatibility mode OFF (normal mode on tablets).
 	[CHAR LIMIT=25] -->
 	<string name="compat_mode_off">Regangkan untuk mengisi skrin</string>
 	
 	<!-- Compatibility mode help screen: header text. [CHAR LIMIT=50] -->
-	<string name="compat_mode_help_header">Keserasian zoom</string>
+	<string name="compat_mode_help_header">Keserasian zum</string>
 	
 	<!-- Compatibility mode help screen: body text. [CHAR LIMIT=150] -->
-	<string name="compat_mode_help_body">Apabila app direka untuk skrin yang lebih kecil, kawalan zoom akan muncul di tepi jam.</string>
+	<string name="compat_mode_help_body">Apabila app direka untuk skrin yang lebih kecil, kawalan zum akan muncul di tepi jam.</string>
 	
 	<!-- Notification ticker displayed when a screenshot is being saved to the Gallery. [CHAR LIMIT=30] -->
 	<string name="screenshot_saving_ticker">Menyimpan tangkapan skrin\u2026</string>
@@ -203,10 +203,10 @@
 	<!-- Content description of the switch input method button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
 	<string name="accessibility_ime_switch_button">Butang tukar kaedah input.</string>
 	<!-- Content description of the compatibility zoom button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
-	<string name="accessibility_compatibility_zoom_button">Butang zoom keserasian.</string>
+	<string name="accessibility_compatibility_zoom_button">Butang zum keserasian.</string>
 	
 	<!-- Content description of picture of the compatibility zoom example for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
-	<string name="accessibility_compatibility_zoom_example">Zoom lebih kecil untuk skrin yang lebih besar.</string>
+	<string name="accessibility_compatibility_zoom_example">Zum lebih kecil untuk skrin yang lebih besar.</string>
 	
 	<!-- Content description of the bluetooth icon when connected for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
 	<string name="accessibility_bluetooth_connected">Bluetooth disambungkan.</string>
@@ -308,7 +308,7 @@
 	<!-- Content description of the acquiring GPS icon in the notification panel for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
 	
 	<!-- Content description of the TeleTypewriter(TTY) enabled icon in the notification panel for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
-	<string name="accessibility_tty_enabled">TeleTypewriter diaktifkan.</string>
+	<string name="accessibility_tty_enabled">TeleTypewriter dihidupkan.</string>
 	
 	<!-- Content description of the ringer vibrate icon in the notification panel for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
 	<string name="accessibility_ringer_vibrate">Pendering bergetar</string>
@@ -328,9 +328,9 @@
 	<!-- Title of dialog shown when data usage has exceeded limit and has been disabled. [CHAR LIMIT=48] -->
 	<string name="data_usage_disabled_dialog_title">Data dimatikan</string>
 	<!-- Body of dialog shown when data usage has exceeded limit and has been disabled. [CHAR LIMIT=NONE] -->
-	<string name="data_usage_disabled_dialog">Anda telah mencapai had penggunaan data yang dinyatakan.\n\nJika anda mengaktifkan semula data, anda mungkin dikenakan caj oleh pembekal perkhidmatan.</string>
+	<string name="data_usage_disabled_dialog">Anda telah mencapai had penggunaan data yang dinyatakan.\n\nJika anda menghidupkan semula data, anda mungkin dikenakan caj oleh pembekal perkhidmatan.</string>
 	<!-- Dialog button indicating that data connection should be re-enabled. [CHAR LIMIT=28] -->
-	<string name="data_usage_disabled_dialog_enable">Mengaktifkan semula data</string>
+	<string name="data_usage_disabled_dialog_enable">Menghidupkan semula data</string>
 	
 	<!-- Text to display underneath the graphical signal strength meter when
 	no connection is available. [CHAR LIMIT=20] -->
@@ -387,7 +387,7 @@
 	<!-- Time format options (refer to android docs for syntax) -->
 	<string name="status_bar_time_format_12">h:mma</string>
 	<string name="status_bar_time_format_24">HH:mm</string>
-	<string name="status_bar_date_format">E\nd.M.yyyy </string>
+	<string name="status_bar_date_format">E\ndd.MM.yyyy </string>
 	
 	<string name="status_bar_recent_memory_info">"%1$s / %2$s tersedia"</string>
 	
@@ -425,7 +425,7 @@
 	<string name="filter_item_description"></string>
 	<string name="settings_notification_bar">Panel notifikasi</string>
 	<string name="settings_toggle_position">Urus togol</string>
-	<string name="settings_toggle_collapse_after_clicked">Tutup apabila togol disentuh</string>
+	<string name="settings_toggle_collapse_after_clicked">Tutup lepas disentuh</string>
 	<string name="settings_screenshot_notification_disabled">Tiada notifikasi tangkapan skrin</string>
 	<string name="settings_expanded_view">Tetapan Tarik Turun</string>
 	<string name="settings_status_bar">Bar Status</string>
@@ -434,11 +434,12 @@
 	<string name="settings_expandable_under_fullscreen_summary">Hidupkan tarik turun untuk panel notifikasi dalam mod skrin penuh</string>
 	<string name="settings_expandable_under_keyguard">Hidupkan di Skrin Kunci</string>
 	<string name="settings_expandable_under_keyguard_summary">Hidupkan tarik turun untuk panel notifikasi di skrin kunci</string>
+    <string name="settings_show_flow_info">Papar butiran aliran</string>
 	
 	<string name="settings_toggle_position_divider_page">%1$d togol di atas bar ini adalah aktif</string>
 	<string name="settings_toggle_position_divider_list">Togol di atas bar ini adalah aktif</string>
 	<string name="settings_toggle_position_reset">Reset togol</string>
-	<string name="settings_show_flow_info">Papar butiran aliran</string>
+
 	
 	<!-- MI Button Settings -->
 	<string name="camera_key_action_setting_title">Butang MI</string>
