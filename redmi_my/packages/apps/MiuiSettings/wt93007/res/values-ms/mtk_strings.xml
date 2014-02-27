@@ -627,7 +627,7 @@
     <string name="sim_lock">Dikunci</string>
     <string name="enable_wifi_tether">Hidupkan hotspot Wi-Fi</string>
     <string name="enable_gps">Enable gps</string>
-    <string name="enable_gps_confirm_message">Ia memerlukan sambugnan data tanpa wayar untuk memperolehi data bantuan GPS (EPO, A-GPS) yang akan menambahkan bayaran rangkaian. Anda pasti untuk hidupkan GPS?</string>
+    <string name="enable_gps_confirm_message">Ia memerlukan sambungan data tanpa wayar untuk memperolehi data bantuan GPS (EPO, A-GPS) yang akan menambahkan bayaran rangkaian. Anda pasti untuk hidupkan GPS?</string>
 
     <string name="gsm_to_wifi_connect_type_title">Sellular->WLAN</string>
     <string name="wifi_connect_ap_summary">Nyatakan jenis sambungan rangkaian</string>
