@@ -24,7 +24,7 @@
     <string name="unlocking_sim_card">Membuka kunci kad SIM</string>
     <string name="short_pukcode_error_msg">Anda perlu masukkan sekurang-kurangnya 8 digit.</string>
     <string name="short_pincode_error_msg">Sila masukkan 4&#8211;8 digit</string>
-    <string name="input_pin_code">Masukkan PIN</string>
+    <string name="input_pin_code">Masuk PIN</string>
     <string name="input_pin_code_to_unlock">Masukkan kod PIN untuk membuka kunci peranti</string>
     <string name="pincode_set_to_default_msg">Kod PIN code telah diset ke 1234, anda boleh ubahnya di sini:</string>
     <string name="incorrect_pukcode_remaining_attempts">Kod PUK salah, percubaan tinggal %d</string>

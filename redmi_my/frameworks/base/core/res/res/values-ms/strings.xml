@@ -675,7 +675,7 @@
     <item msgid="2506857312718630823">"ICQ"</item>
     <item msgid="1648797903785279353">"Jabber"</item>
   </string-array>
-    <string name="phoneTypeCustom" msgid="1644738059053355820">"Peribadi"</string>
+    <string name="phoneTypeCustom" msgid="1644738059053355820">"Khas"</string>
     <string name="phoneTypeHome" msgid="2570923463033985887">"Rumah"</string>
     <string name="phoneTypeMobile" msgid="6501463557754751037">"Mudah Alih"</string>
     <string name="phoneTypeWork" msgid="8863939667059911633">"Kerja"</string>
@@ -696,24 +696,24 @@
     <string name="phoneTypeWorkPager" msgid="649938731231157056">"Alat Kelui Kerja"</string>
     <string name="phoneTypeAssistant" msgid="5596772636128562884">"Pembantu"</string>
     <string name="phoneTypeMms" msgid="7254492275502768992">"MMS"</string>
-    <string name="eventTypeCustom" msgid="7837586198458073404">"Peribadi"</string>
+    <string name="eventTypeCustom" msgid="7837586198458073404">"Khas"</string>
     <string name="eventTypeBirthday" msgid="2813379844211390740">"Tarikh Lahir"</string>
     <string name="eventTypeAnniversary" msgid="3876779744518284000">"Ulang tahun"</string>
     <string name="eventTypeOther" msgid="7388178939010143077">"Lain-lain"</string>
-    <string name="emailTypeCustom" msgid="8525960257804213846">"Peribadi"</string>
+    <string name="emailTypeCustom" msgid="8525960257804213846">"Khas"</string>
     <string name="emailTypeHome" msgid="449227236140433919">"Rumah"</string>
     <string name="emailTypeWork" msgid="3548058059601149973">"Kerja"</string>
     <string name="emailTypeOther" msgid="2923008695272639549">"Lain-lain"</string>
     <string name="emailTypeMobile" msgid="119919005321166205">"Mudah Alih"</string>
-    <string name="postalTypeCustom" msgid="8903206903060479902">"Peribadi"</string>
+    <string name="postalTypeCustom" msgid="8903206903060479902">"Khas"</string>
     <string name="postalTypeHome" msgid="8165756977184483097">"Rumah"</string>
     <string name="postalTypeWork" msgid="5268172772387694495">"Kerja"</string>
     <string name="postalTypeOther" msgid="2726111966623584341">"Lain-lain"</string>
-    <string name="imTypeCustom" msgid="2074028755527826046">"Peribadi"</string>
+    <string name="imTypeCustom" msgid="2074028755527826046">"Khas"</string>
     <string name="imTypeHome" msgid="6241181032954263892">"Rumah"</string>
     <string name="imTypeWork" msgid="1371489290242433090">"Kerja"</string>
     <string name="imTypeOther" msgid="5377007495735915478">"Lain-lain"</string>
-    <string name="imProtocolCustom" msgid="6919453836618749992">"Peribadi"</string>
+    <string name="imProtocolCustom" msgid="6919453836618749992">"Khas"</string>
     <string name="imProtocolAim" msgid="7050360612368383417">"AIM"</string>
     <string name="imProtocolMsn" msgid="144556545420769442">"Windows Live"</string>
     <string name="imProtocolYahoo" msgid="8271439408469021273">"Yahoo"</string>
@@ -725,8 +725,8 @@
     <string name="imProtocolNetMeeting" msgid="8287625655986827971">"NetMeeting"</string>
     <string name="orgTypeWork" msgid="29268870505363872">"Kerja"</string>
     <string name="orgTypeOther" msgid="3951781131570124082">"Lain-lain"</string>
-    <string name="orgTypeCustom" msgid="225523415372088322">"Peribadi"</string>
-    <string name="relationTypeCustom" msgid="3542403679827297300">"Peribadi"</string>
+    <string name="orgTypeCustom" msgid="225523415372088322">"Khas"</string>
+    <string name="relationTypeCustom" msgid="3542403679827297300">"Khas"</string>
     <string name="relationTypeAssistant" msgid="6274334825195379076">"Pembantu"</string>
     <string name="relationTypeBrother" msgid="8757913506784067713">"Abang/Adik"</string>
     <string name="relationTypeChild" msgid="1890746277276881626">"Anak"</string>
@@ -741,7 +741,7 @@
     <string name="relationTypeRelative" msgid="1799819930085610271">"Saudara"</string>
     <string name="relationTypeSister" msgid="1735983554479076481">"Kakak/Adik"</string>
     <string name="relationTypeSpouse" msgid="394136939428698117">"Pasangan"</string>
-    <string name="sipAddressTypeCustom" msgid="2473580593111590945">"Peribadi"</string>
+    <string name="sipAddressTypeCustom" msgid="2473580593111590945">"Khas"</string>
     <string name="sipAddressTypeHome" msgid="6093598181069359295">"Rumah"</string>
     <string name="sipAddressTypeWork" msgid="6920725730797099047">"Kerja"</string>
     <string name="sipAddressTypeOther" msgid="4408436162950119849">"Lain-lain"</string>
@@ -1438,17 +1438,17 @@
     <string name="kg_wrong_pin" msgid="1131306510833563801">"PIN salah"</string>
     <string name="kg_too_many_failed_attempts_countdown" msgid="6358110221603297548">"Cuba lagi dalam <xliff:g id="NUMBER">%d</xliff:g> saat."</string>
     <string name="kg_pattern_instructions" msgid="398978611683075868">"Lukiskan corak anda"</string>
-    <string name="kg_sim_pin_instructions" msgid="2319508550934557331">"Masukkan PIN SIM"</string>
-    <string name="kg_pin_instructions" msgid="2377242233495111557">"Masukkan PIN"</string>
-    <string name="kg_password_instructions" msgid="5753646556186936819">"Masukkan Kata Laluan"</string>
-    <string name="kg_puk_enter_puk_hint" msgid="453227143861735537">"Kini SIM dimatikan. Masukkan kod PUK untuk meneruskan. Hubungi pembawa untuk mulairan."</string>
-    <string name="kg_puk_enter_pin_hint" msgid="7871604527429602024">"Masukkan kod PIN yang diingini"</string>
+    <string name="kg_sim_pin_instructions" msgid="2319508550934557331">"Masuk PIN SIM"</string>
+    <string name="kg_pin_instructions" msgid="2377242233495111557">"Masuk PIN"</string>
+    <string name="kg_password_instructions" msgid="5753646556186936819">"Masuk Kata Laluan"</string>
+    <string name="kg_puk_enter_puk_hint" msgid="453227143861735537">"Kini SIM dimatikan. Masuk kod PUK untuk meneruskan. Hubungi pembawa untuk mulairan."</string>
+    <string name="kg_puk_enter_pin_hint" msgid="7871604527429602024">"Masuk kod PIN yang diingini"</string>
     <string name="kg_enter_confirm_pin_hint" msgid="325676184762529976">"Sahkan kod PIN yang diingini"</string>
     <string name="kg_sim_unlock_progress_dialog_message" msgid="8950398016976865762">"Membuka kunci kad SIM..."</string>
     <string name="kg_password_wrong_pin_code" msgid="1139324887413846912">"Kod PIN salah."</string>
     <string name="kg_invalid_sim_pin_hint" msgid="8795159358110620001">"Taipkan PIN yang mengandungi 4 hingga 8 nombor."</string>
     <string name="kg_invalid_sim_puk_hint" msgid="7553388325654369575">"Kod PUK mestilah 8 nombor atau lebih."</string>
-    <string name="kg_invalid_puk" msgid="3638289409676051243">"Masukkan semula kod PIN yang betul. Percubaan berulang akan mematikan SIM secara kekal."</string>
+    <string name="kg_invalid_puk" msgid="3638289409676051243">"Masuk semula kod PIN yang betul. Percubaan berulang akan mematikan SIM secara kekal."</string>
     <string name="kg_invalid_confirm_pin_hint" product="default" msgid="7003469261464593516">"Kod PIN tidak sepadan"</string>
     <string name="kg_login_too_many_attempts" msgid="6486842094005698475">"Terlalu banyak percubaan melukis corak"</string>
     <string name="kg_login_instructions" msgid="1100551261265506448">"Untuk membuka kunci, log masuk dengan akaun Google anda."</string>
