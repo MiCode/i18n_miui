@@ -37,6 +37,7 @@ limitations under the License.
     <plurals name="show_dev_countdown">
         <item quantity="one">Anda sekarang lagi <xliff:g id="step_count">%1$d</xliff:g> langkah untuk menjadi pemaju.</item>
         <item quantity="other">Anda sekarang lagi <xliff:g id="step_count">%1$d</xliff:g> langkah untuk menjadi pemaju.</item>
+    </plurals>
     <!-- [CHAR LIMIT=NONE] Device Info screen. Confirmation that developer settings are enabled -->
     <string name="show_dev_on">Anda sekarang menjadi pemaju!</string>
     <!-- [CHAR LIMIT=NONE] Device Info screen. Okay we get it, stop pressing, you already have it on -->
