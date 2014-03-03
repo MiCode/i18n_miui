@@ -296,7 +296,7 @@
 
     <!-- String displayed as the alert summary while loading the alert name from
          the media player. [CHAR LIMIT=NONE] -->
-    <string name="loading_ringtone"Memuatkan nada dering\u2026</string>
+    <string name="loading_ringtone">Memuatkan nada dering\u2026</string>
 
     <!-- Label on the main screen control used to set alarm [CHAR LIMIT=30]-->
     <string name="control_set_alarm">Set penggera</string>
