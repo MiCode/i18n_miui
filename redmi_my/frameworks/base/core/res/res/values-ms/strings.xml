@@ -831,7 +831,6 @@
     <string name="keyguard_accessibility_slide_unlock" msgid="2959928478764697254">"Buka kunci luncur."</string>
     <string name="keyguard_accessibility_pattern_unlock" msgid="1490840706075246612">"Buka kunci corak."</string>
     <string name="keyguard_accessibility_face_unlock" msgid="4817282543351718535">"Buka Kunci wajah"</string>
-    <string name="keyguard_accessibility_face_unlock" msgid="4817282543351718535">"Buka Kunci wajah"</string>
     <string name="keyguard_accessibility_pin_unlock" msgid="2469687111784035046">"Buka kunci pin."</string>
     <string name="keyguard_accessibility_password_unlock" msgid="7675777623912155089">"Buka kunci kata laluan."</string>
     <string name="keyguard_accessibility_pattern_area" msgid="7679891324509597904">"Kawasan corak."</string>
