@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-
-    <string name="dl_failure_notification">"Couldn't download message %1$s from %2$s."</string>
-</resources>
