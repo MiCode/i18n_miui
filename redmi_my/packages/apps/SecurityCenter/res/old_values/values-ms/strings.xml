@@ -14,7 +14,7 @@
     <string name="cleaner">Pembersih</string>
     <string name="power_mgr">Kuasa</string>
     <!-- #################### main begin #################### -->
-    <string name="protection_adb">"USB debugging "</string>
+    <string name="protection_adb">"Penyahpepijatan USB "</string>
     <string name="protection_perm">"Penetapan keizinan "</string>
     <string name="protection_sms">"SMS ditapis "</string>
     <string name="start_checking_protection">Menyemak perlindungan masa sebenar&#8230;</string>
@@ -46,7 +46,7 @@
     <string name="virus_scanner_provider">Virus definitions provided by Tencent</string>
     <string name="virus_scanner_module">Tencent</string>
     <string name="virus_scanner_auto_update">" Kemaskini secara otomatik "</string>
-    <string name="virus_scanner_date_formater">dd Mmm. yyyy</string>
+    <string name="virus_scanner_date_formater">dd Mmm yyyy</string>
     <string name="virus_scanner_manual_update">" Dikemaskini %s "</string>
     <string name="virus_scanner_lib_updating">Mengemaskini definisi&#8230;</string>
     <string name="virus_scanner_lib_already_latest">Anda sudah pun menggunakan definisi terkini.</string>
@@ -62,7 +62,7 @@
     <string name="virus_scan_app_continue">Sambung imbasan</string>
     <string name="virus_scan_app_uninstall">Padam %d aplikasi</string>
     <string name="virus_scan_app_force_stop">Imbasan ditangguh</string>
-    <string name="virus_scan_app_find_risk">%d risiko terjumpa. Membuang mereka dengan serta-merta!</string>
+    <string name="virus_scan_app_find_risk">%d risiko dijumpai. Buang mereka dengan serta-merta!</string>
     <string name="virus_scan_app_scan_finish">Imbasan Siap</string>
     <string name="virus_scan_app_no_risk">Tiada risiko ditemui</string>
     <!-- #################### virus scan end #################### -->
@@ -126,7 +126,7 @@
     <string name="fw_menu_new_blacklist_title">Tambah ke senarai sekat</string>
     <string name="fw_menu_new_whitelist_title">Tambah ke pengecualian</string>
     <string name="fw_menu_new_manual">Tambah nombor</string>
-    <string name="fw_add_list_title">Taiukan nombor telefon</string>
+    <string name="fw_add_list_title">Tambah senarai nombor telefon</string>
     <string name="fw_menu_pick_from_contact">Pilih dari kenalan</string>
     <string name="fw_menu_remove">Padam</string>
     <string name="confirm">OK</string>
@@ -163,7 +163,7 @@
     <string name="clear_all_calllog">Padamkan log panggilan</string>
     <string name="clear_all_mslog">Kosongkan log mesej</string>
     <string name="calllog">Log panggilan</string>
-    <string name="firewall_log">Log firewall</string>
+    <string name="firewall_log">Log tembok api</string>
     <!-- reasons -->
 
 
@@ -207,7 +207,7 @@
 
     <!-- Added from V5 -->
     <!-- Tab -->
-    <string name="blacklist_tab_title">Senarai Halang</string>
+    <string name="blacklist_tab_title">Senarai Sekat</string>
     <string name="whitelist_tab_title">Pengecualian</string>
     <string name="new_bw_list_button">Tambah Kenalan</string>
 

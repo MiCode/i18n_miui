@@ -2,21 +2,21 @@
 <resources>
 
     <string-array name="score_descriptions">
-        <item>Blocklist is off</item>
-        <item>Permissions manager is off</item>
-        <item>Trash is too large</item>
-        <item>Virus definitions timed out</item>
-        <item>Too many background processes</item>
+        <item>Senarai Sekat ditutup</item>
+        <item>Pengurus Kebenaran ditutup</item>
+        <item>Sampah terlalu besar</item>
+        <item>Definisi Virus tamat masa</item>
+        <item>Terlalu banyak proses latar belakang</item>
     </string-array>
     <string-array name="score_suggests">
-        <item>Enable blocklist</item>
-        <item>Enable app permission controls</item>
-        <item>Clean garbage</item>
-        <item>Update virus library</item>
-        <item>You\'re running a lot of apps in the background\u2026</item>
+        <item>Hidupkan Senarai Sekat</item>
+        <item>Hidupkan kawalan kebenaran app</item>
+        <item>Bersihkan sampah</item>
+        <item>Kemaskini pustaka virus</item>
+        <item>Anda telah menjalankan banyak app di latar belakang\u2026</item>
     </string-array>
 
-    <string name="score_good_state">Phone is optimized</string>
-    <string name="score_need_optimize">Sweep recommended</string>
+    <string name="score_good_state">Telefon telah dioptimumkan</string>
+    <string name="score_need_optimize">Disyorkan untuk menyapu</string>
 
 </resources>

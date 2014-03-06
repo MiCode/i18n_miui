@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="power_dialog_auto_clean_memory_items">
-        <item>After 1 minute</item>
-        <item>After 5 minutes</item>
-        <item>After 10 minutes</item>
-        <item>Never</item>
+        <item>Selepas 1 minit</item>
+        <item>Selepas 5 minit</item>
+        <item>Selepas 10 minit</item>
+        <item>Jangan sekali-kali</item>
     </string-array>
 
     <string-array name="power_dialog_sleep_items">
-        <item>15 seconds</item>
-        <item>30 seconds</item>
-        <item>1 minute</item>
-        <item>2 minutes</item>
-        <item>5 minutes</item>
-        <item>10 minutes</item>
-        <item>Never</item>
+        <item>15 saat</item>
+        <item>30 saat</item>
+        <item>1 minit</item>
+        <item>2 minit</item>
+        <item>5 minit</item>
+        <item>10 minit</item>
+        <item>Jangan sekali-kali</item>
     </string-array>
 
      <string-array name="power_dialog_cpu_state_items">
-        <item>High performance</item>
-        <item>Balance</item>
-        <item>Battery saving</item>
+        <item>Prestasi Tinggi</item>
+        <item>Seimbang</item>
+        <item>Penjimatan Bateri</item>
     </string-array>
 
     <string-array name="power_dialog_vibration_items">
-        <item>Never vibrate</item>
-        <item>Vibrate when ringer is silenced</item>
-        <item>Always vibrate</item>
+        <item>Jangan Bergetar</item>
+        <item>Bergetar apabila deringan disenyapkan</item>
+        <item>Sentiasa Bergetar</item>
     </string-array>
 
     <string-array name="power_dialog_vibration_items_values">

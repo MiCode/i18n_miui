@@ -2,14 +2,14 @@
 <resources>
     <!-- permission manager begin -->
     <string-array name="perm_hips_action">
-         <item>Allow</item>
-         <item>Ask</item>
-         <item>Deny</item>
+         <item>Benarkan</item>
+         <item>Tanya</item>
+         <item>Nafikan</item>
     </string-array>
 
     <string-array name="power_mode_entries">
-        <item>High performance</item>
-        <item>Balance</item>
-        <item>Battery saving</item>
+        <item>Prestasi tinggi</item>
+        <item>Seimbang</item>
+        <item>Penjimatan bateri</item>
     </string-array>
 </resources>

@@ -8,9 +8,9 @@
     </string-array>
     <!-- permission manager begin -->
     <string-array name="perm_hips_action">
-         <item>Allow</item>
-         <item>Ask</item>
-         <item>Deny</item>
+         <item>Benarkan</item>
+         <item>Tanya</item>
+         <item>Nafikan</item>
     </string-array>
     <!-- permission manager end -->
     <string-array name="opt_score_entries">
@@ -50,8 +50,8 @@
         <item>@drawable/digit_small_9</item>
     </array>
     <string-array name="power_mode_entries">
-        <item>High performance</item>
-        <item>Balance</item>
-        <item>Battery saving</item>
+        <item>Prestasi Tinggi</item>
+        <item>Seimbang</item>
+        <item>Penjimatan Bateri</item>
     </string-array>
 </resources>
