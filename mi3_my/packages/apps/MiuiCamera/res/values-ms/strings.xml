@@ -288,7 +288,6 @@
     <string name="pref_camera_multilevel_entry_high">Tinggi</string>
     <string name="pref_camera_multilevel_entry_higher">Lebih tinggi </string>
     <string name="pref_camera_multilevel_entry_highest">Paling tinggi</string>
-    <string name="pref_camera_default_suffix">(Lalai)</string>
     <string name="pref_camera_multilevel_entry_middle">Tengah (lalai)</string>
 
 
@@ -662,10 +661,6 @@
     <string name="pref_grp_advanced_settings">Tetapan lanjutan</string>
     <string name="pref_grp_restore_settings">Memulihkan tetapan lalai</string>
     <string name="pref_camera_settings_title">Tetapan</string>
-
-    <string name="pref_video_focusmode_title">Mod fokus</string>
-    <string name="pref_video_focusmode_entry_continuous">CAF</string>
-    <string name="pref_video_focusmode_entry_auto">Tap</string>
 
     <!-- 参考线 -->
     <string name="pref_camera_referenceline_entry_off">Tutup</string>
