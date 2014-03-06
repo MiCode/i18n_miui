@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- permission manager begin -->
+    <string-array name="perm_hips_action">
+         <item>Allow</item>
+         <item>Ask</item>
+         <item>Deny</item>
+    </string-array>
+
+    <string-array name="power_mode_entries">
+        <item>High performance</item>
+        <item>Balance</item>
+        <item>Battery saving</item>
+    </string-array>
+</resources>

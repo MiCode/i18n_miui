@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">Sekuriti</string>
+    <string name="action_settings">Tetapan tapisan</string>
+    <string name="hello_world">Hi Dunia!</string>
+    <string name="optimize_now">Mula</string>
+    <string name="score">Markah</string>
+    <string name="valuation">Disyorkan pembersihan</string>
+    <string name="virus_scan">Imbasan Virus</string>
+    <string name="network_assistant">"Penggunaan Data "</string>
+    <string name="anti_spam">Senarai sekat</string>
+    <string name="permission_mgr">Kebenaran</string>
+    <string name="cleaner">Pembersih</string>
+    <string name="power_mgr">Kuasa</string>
+    <!-- #################### main begin #################### -->
+    <string name="protection_adb">"USB debugging "</string>
+    <string name="protection_perm">"Penetapan keizinan "</string>
+    <string name="protection_sms">"SMS ditapis "</string>
+    <string name="start_checking_protection">Menyemak perlindungan masa sebenar&#8230;</string>
+    <string name="finish_checking_protection">"Selesai menyemak lindungan 'realtime'&#8230;"</string>
+    <string name="start_checking_memory">Memeriksa keadaan memori&#8230;</string>
+    <string name="finish_checking_memory">Selesai menyemak keadaan memori&#8230;</string>
+    <string name="start_checking_trash">Semakan aplikasi cache&#8230;</string>
+    <string name="finish_checking_trash">Selesai menyemak cache aplikasi&#8230;</string>
+    <string name="checking">Periksa&#8230;</string>
+    <string name="start_optimize_protection">Mengoptimumkan perlindungan masa sebenar&#8230;</string>
+    <string name="finish_optimize_protection">"Selesai menyemak lindungan 'realtime'&#8230;"</string>
+    <string name="start_optimize_memory">Mengoptimumkan Keadaan memori&#8230;</string>
+    <string name="finish_optimize_memory">Selesai mengoptimumkan keadaan memori&#8230;</string>
+    <string name="start_optimize_trash">Mengoptimumkan aplikasi cache&#8230;</string>
+    <string name="finish_optimize_trash">Selesai menyemak cache aplikasi&#8230;</string>
+    <string name="optimizing">Mengoptimumkan&#8230;</string>
+    <!-- #################### main end #################### -->
+
+
+    <!-- #################### virus scanner begin #################### -->
+    <string name="virus_scanner_title">Pengimbas Virus</string>
+    <string name="virus_scanner_scanning">Mengimbas&#8230;</string>
+    <string name="virus_scanner_scan">Sentuh utk imbas</string>
+    <string name="virus_scanner_select_lib">Pilih definasi virus</string>
+    <string name="virus_scanner_select_trust_lib">Pilih definasi virus</string>
+    <string name="virus_scanner_update_lib">Kemaskini definasi</string>
+    <string name="virus_scanner_select_multi">Memilih lebih daripada satu set definisi akan melambatkan pemasangan dan imbasan.</string>
+    <string name="virus_scanner_select_single">Hanya gunakan definisi dari sumber yang dipercayai.</string>
+    <string name="virus_scanner_provider">Virus definitions provided by Tencent</string>
+    <string name="virus_scanner_module">Tencent</string>
+    <string name="virus_scanner_auto_update">" Kemaskini secara otomatik "</string>
+    <string name="virus_scanner_date_formater">dd Mmm. yyyy</string>
+    <string name="virus_scanner_manual_update">" Dikemaskini %s "</string>
+    <string name="virus_scanner_lib_updating">Mengemaskini definisi&#8230;</string>
+    <string name="virus_scanner_lib_already_latest">Anda sudah pun menggunakan definisi terkini.</string>
+    <string name="virus_scan_app_safe_scanning">Mengimbas&#8230;</string>
+    <string name="virus_scan_app_multi_engines">Anda menggunakan lebih daripada satu set definisi. Imbasan ini mungkin mengambil masa yang lama.</string>
+    <string name="virus_scan_app_scanning">Mengimbas#8230;</string>
+    <string name="virus_scan_app_waiting"> Menunggu#8230;</string>
+    <string name="virus_scan_app_passed">Telah diimbas</string>
+    <string name="virus_scan_app_risk">Risiko ditemui</string>
+    <string name="virus_scan_app_stop">Berhenti imbasan</string>
+    <string name="virus_scan_app_solve">Semua yang pemprosesan</string>
+    <string name="virus_scan_app_finish">Imbasan Siap</string>
+    <string name="virus_scan_app_continue">Sambung imbasan</string>
+    <string name="virus_scan_app_uninstall">Padam %d aplikasi</string>
+    <string name="virus_scan_app_force_stop">Imbasan ditangguh</string>
+    <string name="virus_scan_app_find_risk">%d risiko terjumpa. Membuang mereka dengan serta-merta!</string>
+    <string name="virus_scan_app_scan_finish">Imbasan Siap</string>
+    <string name="virus_scan_app_no_risk">Tiada risiko ditemui</string>
+    <!-- #################### virus scan end #################### -->
+
+
+    <!-- #################### anti-spam begin #################### -->
+    <!-- Added for firewall -->
+    <string name="firewall_settings_tab_title">Peraturan</string>
+    <string name="black_white_list_tab_title">Tapisan</string>
+    <string name="call_log_tab_title">Log panggilan</string>
+    <string name="mms_log_tab_title">Mesej log</string>
+    <string name="fw_blacklist">Senarai sekat</string>
+    <string name="fw_whitelist">Pengecualian</string>
+    <string name="enable_firewall">Sekatkan panggilan yang tidak dimahu</string>
+    <string name="fw_action_settings">Tetapan tapisan</string>
+    <string name="fw_time_settings">Dijadualkan</string>
+    <string name="fw_start_time">Dari</string>
+    <string name="fw_end_time">Ke</string>
+    <string name="fw_all_day">Harian</string>
+    <string name="fw_period">Tetapkan masa</string>
+    <string name="fw_advanced_settings">Tetapan sekat lanjutan</string>
+    <string name="anti_stranger_title">Halang panggilan dari nombor yang tidak dikenali</string>
+    <string name="anti_stranger_summary">Halang panggilan dari nombor yang tidak disenarai di dalam senarai kenalan</string>
+    <string name="anti_private_title">Halang nombor swasta</string>
+    <string name="anti_private_summary">Halang nombor swasta atau ditahan</string>
+    <string name="fw_keyword_filter">Spam penapis</string>
+    <string name="fw_keyword_filter_summary">Halangkan mesej yang mengandungi kata kunci yang dipilih</string>
+    <string name="fw_set_keyword">Tetapkan tapisan kata kunci</string>
+    <string name="fw_notification_settings">Tetapan pemberitahuan</string>
+    <string name="show_firewall_notification">Paparkan notifikasi yg dihalang</string>
+    <string name="show_notification">Tunjukkan notifikasi</string>
+    <string name="opt_reject_blacklist">Menolak panggilan dari nombor-nombor pada senarai sekat</string>
+    <string name="opt_reject_blacklist_stranger">Menolak panggilan dari nombor-nombor yang tidak diketahui</string>
+    <string name="opt_reject_blacklist_stranger_summary">Panggilan dari nombor disekat akan ditolak secara automatik</string>
+    <string name="opt_accept_whitelist">Terima panggilan dari nombor-nombor pada senarai pengecualian</string>
+    <string name="opt_reject_all">Menolak semua panggilan</string>
+
+    <!-- actions -->
+    <string name="firewall_action">Sekatkan tindakan</string>
+    <string name="act_call">Tukarkan aliran panggilan serta-merta</string>
+    <string name="act_hangup_call">Jangan catat panggilan ditukar aliran</string>
+    <string name="act_hangup_call_summary">Panggilan yang ditukar aliran tidak akan muncul dalam catatan panggilan anda</string>
+    <string name="act_mute_call">Diamkan panggilan yang tidak diingini</string>
+    <string name="act_mute_call_summary">Panggilan masuk daripada nombor yang dihalang tidak akan dipapar tetapi tetap akan dicatatkan</string>
+    <string name="act_ignore_call">Jangan catat panggilan yang tidak diingini</string>
+    <string name="act_action_reject_reject">Tukarkan aliran panggilan masuk dan mesej</string>
+    <string name="act_action_reject_mute">Tukarkan aliran panggilan masuk dan diamkan mesej</string>
+    <string name="act_action_reject_accept">Tukar aliran panggilan</string>
+    <string name="act_action_mute_reject">Senyapkan panggilan masuk dan Tukar aliran mesej</string>
+    <string name="act_action_mute_mute">Senyapkan panggilan masuk dan mesej</string>
+    <string name="act_action_mute_accept">Panggilan masuk disenyapkan</string>
+    <string name="act_action_accept_reject">Mesej-mesej dituukar aliran</string>
+    <string name="act_action_accept_mute">Mesej-mesej disenyapkan</string>
+    <string name="act_action_accept_accept">Tentukan</string>
+    <string name="act_ms">Log mesej-mesej</string>
+    <string name="act_del_ms">Jangan papar</string>
+    <string name="act_del_ms_summary">Panggilan ditolak tidak akan dipaparkan</string>
+    <string name="act_mute_ms">Diamkan pemberitahuan</string>
+    <string name="act_mute_ms_summary">Pemberitahuan tidak diaktifkan tetapi mesej-mesej masih boleh dilihat</string>
+    <string name="act_ignore_ms">Abaikan pemberitahuan</string>
+    <string name="fw_menu_new_blacklist_title">Tambah ke senarai sekat</string>
+    <string name="fw_menu_new_whitelist_title">Tambah ke pengecualian</string>
+    <string name="fw_menu_new_manual">Tambah nombor</string>
+    <string name="fw_add_list_title">Taiukan nombor telefon</string>
+    <string name="fw_menu_pick_from_contact">Pilih dari kenalan</string>
+    <string name="fw_menu_remove">Padam</string>
+    <string name="confirm">OK</string>
+    <string name="no">Batal</string>
+    <string name="fw_clear_blacklist">Padamkan senarai sekat</string>
+    <string name="fw_clear_whitelist">Padamkan pengecualian</string>
+    <string name="fw_restore_ms">Pulihkan mesej-mesej</string>
+    <string name="fw_ms">Masa mesej: <xliff:g>%s</xliff:g> (<xliff:g>%d</xliff:g>)</string>
+    <string name="fw_call">Masa panggilan: <xliff:g>%s</xliff:g> (<xliff:g>%d</xliff:g>)</string>
+    <string name="fw_import_blacklist">Impot senarai sekat</string>
+    <string name="fw_import_whitelist">Impot pengecualian</string>
+    <string name="fw_import_blacklist_confirm">%d nombor-nombor dipilih, adakah anda pasti untuk mengimport ke dalam blocklist?</string>
+    <string name="fw_import_whitelist_confirm">%d nombor-nombor dipilih, adakah anda pasti untuk mengimport ke dalam pengecualian?</string>
+    <string name="fw_blacklist_hint">Panggilan dan mesej akan disekat secara biasa</string>
+    <string name="fw_whitelist_hint">Panggilan dan mesej tidak akan disekat</string>
+    <string name="fw_no_effect">Mod tetamu tidak dibolehkan. Adakah anda hendak membolehkannya?</string>
+    <string name="fw_call_muted">Panggilan didiamkan.</string>
+    <string name="fw_call_rejected">Panggilan dialihkan.</string>
+    <string name="fw_call_imported">Impot log panggilan</string>
+    <string name="fw_ms_muted">Mesej disunyikan.</string>
+    <string name="fw_ms_rejected">Mesej tidak diterima.</string>
+    <string name="fw_ms_filtered">Mesej ditapiskan.</string>
+    <string name="fw_ms_imported">Mesej-mesej diimpot.</string>
+    <string name="fw_keyword_list">Senarai katakunci</string>
+    <string name="fw_keyword_list_hint">Kata kunci yang dimasukkan disini akan diguna untuk menyekat kemasukan mesej-mesej</string>
+    <string name="menu_edit">Edit</string>
+    <string name="fw_add_keyword">Tambah katakunci</string>
+    <string name="fw_edit_keyword">Edit katakunci</string>
+    <string name="fw_clear_all_keyword">Padamkan semua katakunci</string>
+    <string name="fw_add_keyword_existing">Kata kunci: %s sudah ditentukan</string>
+
+    <!-- Added by Libra -->
+    <string name="member_firewall_log">Disekat: Nombor <xliff:g id="tel_count">%d</xliff:g>, maklumat <xliff:g id="ms_count">%d</xliff:g></string>
+    <string name="clear_all_calllog">Padamkan log panggilan</string>
+    <string name="clear_all_mslog">Kosongkan log mesej</string>
+    <string name="calllog">Log panggilan</string>
+    <string name="firewall_log">Log firewall</string>
+    <!-- reasons -->
+
+
+    <!-- notification -->
+    <string name="fw_on">Jangan mengganggu dibolehkan</string>
+    <string name="fw_blocked">Log yang disekat</string>
+    <string name="fw_blocked_count">Dipintas: <xliff:g id="opt">%d</xliff:g> Panggilan dan <xliff:g id="opt">%d</xliff:g> Mesej</string>
+    <string name="firewall_settings">Jangan ganggu tetapan</string>
+    <string name="remove">Padam</string>
+    <string name="emptylist_fwlog_call">Panggilan disekat akan dilog sini.</string>
+    <string name="emptylist_fwlog_ms">Semua teks disekat dan mesej MMS akan dilog sini.</string>
+    <string name="add_button">Tambah</string>
+    <string name="save_button">Simpan</string>
+    <string name="cancel_button">Batal</string>
+    <string name="add_blacklist">Tambah ke senarai halang</string>
+    <string name="add_whitelist">Tambah ke pengecualian</string>
+    <string name="edit_blacklist">Tukar nota</string>
+    <string name="edit_whitelist">Tukar nota</string>
+    <string name="fw_notes_hint">Nota (ikut pilihan)</string>
+    <string name="number_add_hint">Memasukkan nombor</string>
+    <string name="fw_in_blacklist">%s sudah disekat.</string>
+    <string name="fw_in_whitelist">%s adalah pengecualian.</string>
+    <string name="fw_import_ms">Impot log panggilan dan mesej-mesej</string>
+    <string name="confirm_clear_blacklist">Kosongkan senarai halang?</string>
+    <string name="confirm_clear_whitelist">Kosongkan pengecualian?</string>
+    <string name="context_call">Panggil</string>
+    <string name="context_ms">Hantar SMS</string>
+    <string name="context_new_contact">Kenalan baru</string>
+    <string name="context_add_contact">Tambah ke kenalan yang sedia ada</string>
+    <string name="check_all">Pilih semua</string>
+    <string name="check_nothing">Jangan pilih semua</string>
+    <string name="close_rule">Melumpuhkan peraturan firewall</string>
+    <string name="fw_log_inf">Log</string>
+    <string name="remove_contact">Padam kenalan ini?</string>
+    <string name="remove_inf">Padam info?</string>
+    <string name="remove_sms">Memadam semua log mesej?</string>
+    <string name="remove_call_log">Memadam semua log panggilan?</string>
+    <string name="remove_keyword">Memdam kata kunci ini?</string>
+    <string name="remove_all_keywords">Memadam semua kata kunci?</string>
+    <string name="remove_delete">Padam</string>
+
+    <!-- Added from V5 -->
+    <!-- Tab -->
+    <string name="blacklist_tab_title">Senarai Halang</string>
+    <string name="whitelist_tab_title">Pengecualian</string>
+    <string name="new_bw_list_button">Tambah Kenalan</string>
+
+    <!-- Add for mark -->
+    <string name="mark_number_dialog_maintitle">Sekat dan laporkan nombor</string>
+    <string name="mark_number_dialog_subtitle">Dibangunkan sempena Sogou</string>
+    <string name="custom_mark_category">Custom</string>
+    <string name="smart_antispam">Mengenalpasti nombor yang tidak diketahui</string>
+    <string name="turn_on_smart_antispam_hint">Kenal pasti panggilan yang tidak diingini</string>
+    <string name="turn_on_smart_antispam_title">Mengenalpasti nombor yang tidak diketahui</string>
+    <string name="turn_on_smart_antispam_summary_on">Hanya tersedia apabila disambungkan kepada Wi-Fi atau rangkaian 3G</string>
+    <string name="turn_on_smart_antispam_summary_off">Menyaring menggunakan pangkalan data nombor tempatan</string>
+    <!-- #################### anti-spam end #################### -->
+
+</resources>
