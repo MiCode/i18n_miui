@@ -604,7 +604,7 @@
 	<string name="wifi_share_know">OK</string>
 	<string name="wifi_share_summary1">Pengguna MIUI boleh berkongsi rangkaian Wi-Fi awam (cafe, restoran, hotel, dll) dengan yang lain.</string>
 	<string name="wifi_share_summary2">Apabila pengguna MIUI yang lain berkongsi rangkaian, anda boleh berhubung secara terus tanpa menggunakan kata laluan.</string>
-	<string name="wifi_share_summary3">Beris emula dengan berkongsi rangkaian Wi-Fi awam anda dengan pengguna MIUI yang lain</string>
+	<string name="wifi_share_summary3">Beri semula dengan berkongsi rangkaian Wi-Fi awam anda dengan pengguna MIUI yang lain</string>
 	<string name="wifi_share_add">Kongsi rangkaian awam saya</string>
 	<string name="wifi_share_count">Anda telah berkongsi <xliff:g id="COUNT">%d</xliff:g> rangkaian</string>
 	<string name="wifi_share_notification_summary">MIUI telah menguhubungkan anda ke rangkaian Wi-Fi awam.</string>

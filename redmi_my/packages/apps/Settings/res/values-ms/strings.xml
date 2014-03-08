@@ -1921,7 +1921,7 @@ limitations under the License.
 	<!-- SD card & phone storage settings title. Displayed as a title when showing the total usage of misc files on the device. Below it will be a number like "123.4 MB" indicating used storage. [CHAR LIMIT=50] -->
 	<string name="memory_media_misc_usage">Pelbagai</string>
     <!-- Storage item representing all cached data on device. [CHAR LIMIT=48] -->
-    <string name="memory_media_cache_usage">Data yang dicacheCached data</string>
+    <string name="memory_media_cache_usage">Data yang dicache</string>
 	<!-- SD card & phone storage settings item title that will result in the phone unmounting the SD card.  This will be done before the user phyiscally removes the SD card from the phone.  Kind of like the "Safely remove" on some operating systems.   [CHAR LIMIT=25] -->
 	<string name="sd_eject" product="nosdcard">Nyahlekap Storan Kongsi</string>
 	<!-- SD card & phone storage settings item title that will result in the phone unmounting the SD card.  This will be done before the user phyiscally removes the SD card from the phone.  Kind of like the "Safely remove" on some operating systems.   -->

@@ -501,7 +501,7 @@
 	<string name="other_relative">Lain² Kebenaran</string>
 	<string name="permission_manage_title">%s maklumat kebenaran</string>
 	
-	<string name="filter_apps_cached">Cached</string>
+	<string name="filter_apps_cached">DiCache</string>
 	
 	
 	<string name="screen">Skrin</string>
@@ -574,7 +574,7 @@
 	<string name="service_stop_description">Perkhidmatan ini dimulakan oleh aplikasinya. Menghentikannya boleh mengakibatkan aplikasi gagal.</string>
 	
 	<!-- NFC & Android Beam related -->
-	<string name="android_beam_witch_label">Enable Android Beam</string>
+	<string name="android_beam_witch_label">Hidupkan Android Beam</string>
 	<string name="sim_management_title">Pengurusan SIM</string>
 	<string name="sim_status_title">Status SIM</string>
 	<string name="slot_status_title">Maklumat IMEI</string>
@@ -598,8 +598,8 @@
 	
 	<!-- wifi share -->
 	<string name="wifi_share">Kongsi Wi-Fi</string>
-	<string name="wifi_share_turn_on">On</string>
-	<string name="wifi_share_turn_off">Off</string>
+	<string name="wifi_share_turn_on">Buka</string>
+	<string name="wifi_share_turn_off">Tutup</string>
 	<string name="wifi_share_upload">Kongsi</string>
 	<string name="wifi_share_uploading">Berkongsi\u2026</string>
 	<string name="wifi_share_upload_finish">Dikongsi</string>
@@ -609,7 +609,7 @@
 	<string name="wifi_share_know">OK</string>
 	<string name="wifi_share_summary1">Pengguna MIUI boleh berkongsi rangkaian Wi-Fi awam (cafe, restoran, hotel, dll) dengan yang lain.</string>
 	<string name="wifi_share_summary2">Apabila pengguna MIUI yang lain berkongsi rangkaian, anda boleh berhubung secara terus tanpa menggunakan kata laluan.</string>
-	<string name="wifi_share_summary3">Beris emula dengan berkongsi rangkaian Wi-Fi awam anda dengan pengguna MIUI yang lain</string>
+	<string name="wifi_share_summary3">Beri semula dengan berkongsi rangkaian Wi-Fi awam anda dengan pengguna MIUI yang lain</string>
 	<string name="wifi_share_add">Kongsi rangkaian awam saya</string>
 	<string name="wifi_share_count">Anda telah berkongsi <xliff:g id="COUNT">%d</xliff:g> rangkaian</string>
 	<string name="wifi_share_notification_summary">MIUI telah menguhubungkan anda ke rangkaian Wi-Fi awam.</string>
