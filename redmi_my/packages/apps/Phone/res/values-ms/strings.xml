@@ -541,7 +541,6 @@
 	<string name="throttle_data_usage">Penggunaan data</string>
 	<!-- Data usage settings screen option for checking the current usage -->
 	<string name="throttle_current_usage">Data yang digunakan dalam tempoh semasa</string>
-    <string name="reset_data_usage">Reset amaun data</string>
 	<!-- Data usage settings screen option for time frame-->
 	<string name="throttle_time_frame">Tempoh penggunaan data</string>
 	<!-- Data usage settings screen option for throttling rate-->
