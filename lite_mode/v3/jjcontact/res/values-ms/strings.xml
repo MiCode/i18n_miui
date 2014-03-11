@@ -142,7 +142,7 @@
     <string name="camera_unknown_error">Ralat tidak diketahui berlaku</string>
     <string name="camera_crop_title">Edit Imej</string>
     
-    <string name="time_list_year_format">dd/MM</string>
+    <string name="time_list_year_format">dd/MM/yyyy</string>
     <string name="time_list_month_format">dd/MM</string>
     <string name="time_list_12hour_format">h:mm</string>
     <string name="time_list_24hour_format">H:mm</string>

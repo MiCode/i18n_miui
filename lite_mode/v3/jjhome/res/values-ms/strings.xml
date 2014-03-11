@@ -2,7 +2,7 @@
 <resources>
 <!-- jjhome -->
 <string name="app_name">Skrin Utama</string>
-<string name="launcher_settings">Tetapan Skrin Utama</string>
+<string name="launcher_settings">Tetapan</string>
 <string name="system_settings">Tetapan Sistem</string>
 <string name="contact_empty_title">Tambah</string>
 <string name="feedback">Maklum Balas</string>
@@ -29,5 +29,5 @@
 <string name="title_activity_about">TentangAktiviti</string>
 <string name="action_settings">Tetapan</string>
 <string name="hello_world">Hello dunia!</string>
-    <string name="dl_failure_notification">"Couldn't download message %1$s from %2$s."</string>
+    <string name="dl_failure_notification">"Tidak dapat muat turun mesej %1$s daripada %2$s."</string>
 </resources>

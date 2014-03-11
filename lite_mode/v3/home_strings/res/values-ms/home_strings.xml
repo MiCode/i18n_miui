@@ -6,7 +6,7 @@
     <string name="app_camera_name">Kamera</string>
     <string name="app_music_name">Muzik</string>
     <string name="app_calculator_name">Kalkulator</string>
-    <string name="launcher_settings">Tetapan Skrin Utama</string>
+    <string name="launcher_settings">Tetapan</string>
     <string name="system_settings">Tetapan Sistem</string>
     <string name="launcher_edit">Edit Skrin Utama</string>
     <string name="contact_empty_title">Tambah</string>
@@ -21,7 +21,7 @@
     <string name="uninstall_app_hint">Buang app ini?</string>
     <string name="uninstall_contact_hint">Padam kenalan ini?</string>
     <string name="enter_edit_mode">Edit Skrin Utama</string>
-    <string name="clock_year_format">dd/MM</string>
+    <string name="clock_year_format">dd/MM/yyyy</string>
     <string name="about_us">Mengenai Kami</string>
     <string name="sunday">Ahad</string>
     <string name="monday">Isnin</string>
@@ -145,7 +145,7 @@
     <string name="jeejen_lunar_year">年</string>
     <string name="jeejen_year">年</string>
     <string name="jeejen_month">月</string>
-    <string name="jeejen_timeutil_year_format">dd/MM</string>
+    <string name="jeejen_timeutil_year_format">dd/MM/yyyy</string>
     <string name="jeejen_lunar_name">农历</string>
     <string name="jeejen_10_geng">庚</string>
     <string name="jeejen_10_xing">辛</string>
@@ -203,7 +203,7 @@
 	
 	<!--jjcontacts-->
 	<string name="mms_not_enable_tts">"Tidak boleh baca mesej. Anda belum hidupkan bantuan suara."</string>
-	<string name="contact_selection_title">Pilih kenalan</string>
+	<string name="contact_selection_title">Pilih Kenalan</string>
 	<string name="contact_export_to_simcard_completed_3_hint">Dieksport %1$d | Digabungkan %2$d</string>
 	<string name="contact_export_to_simcard_completed_4_hint">Tiada kenalan untuk dieksportkan</string>
 	<string name="contact_selection_friend_title">Kerap</string>
