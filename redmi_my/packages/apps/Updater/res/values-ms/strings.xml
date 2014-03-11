@@ -93,8 +93,8 @@
   <string name="sign_in_info">"Markah kemaskini anda adalah: <xliff:g id="RANK">%1$s</xliff:g>\n<xliff:g id="TOTAL">%2$s</xliff:g> pengguna telah daftar masuk kedalam MIUI<xliff:g id="VERSION">%3$s</xliff:g>"</string>
   <string name="sign_in_info_total_more">"Markah kemaskini: <xliff:g id="RANK">%1$s</xliff:g>\nMenjangkau <xliff:g id="TOTAL">%2$s</xliff:g> pengguna telah daftar masuk kedalam MIUI<xliff:g id="VERSION">%3$s</xliff:g>"</string>
   <string name="sign_in_info_rank_more">"Markah kemaskini: <xliff:g id="RANK">%1$s</xliff:g>\nMenjangkau <xliff:g id="TOTAL">%2$s</xliff:g> pengguna telah daftar masuk kedalam MIUI <xliff:g id="VERSION">%3$s</xliff:g>"</string>
-  <string name="sign_in_add_account">Sila aktifkan akaun Xiaomi anda.</string>
-  <string name="sign_in_add_account_helper">Telefon anda tidak menpunyai akaun MIUI yang aktif, tambah satu akaun untuk menerima markah pengguna.</string>
+  <string name="sign_in_add_account">Sila aktifkan akaun Xiaomi anda</string>
+  <string name="sign_in_add_account_helper">Tiada akaun MIUI dijumpai</string>
   <string name="my_rank">Kemaskini markah:</string>
 
   <string name="check_update">Semak kemaskini</string>
