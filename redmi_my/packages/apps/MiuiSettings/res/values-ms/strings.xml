@@ -219,17 +219,17 @@
 	<!-- Vibrate category title -->
 	<string name="vibrate_category_title">Getar</string>
 	<!-- Vibrate in silent title -->
-	<string name="vibrate_in_silent_title">Bergetar dalam Mod Senyap</string>
+	<string name="vibrate_in_silent_title">Bergetar ketika senyap</string>
 	<!-- Vibrate in normal title -->
 	
-	<string name="vibrate_in_normal_title">Bergetar ketika Berdering</string>
+	<string name="vibrate_in_normal_title">Bergetar ketika dering</string>
 	<string name="silent_mode_title">Mod Senyap</string>
 	
 	<!-- Broadcom, WAPI -->
 	<!-- Error message Certificate doesn't exits -->
 	<string name="wifi_wapi_certification_dont_exist">Kata Laluan rangkaian yang anda masukkan tidak betul. Sila cuba lagi.</string>
 	<!-- Caption for the wireless password -->
-	<string name="please_type_passphrase">Kata Laluan Wi-Fi</string>
+	<string name="please_type_passphrase">Kata laluan Wi-Fi</string>
 
 	<!-- Wi-Fi settings screen, connect to network dialog box, spinner -->
 	<string name="wifi_certificate">Sijil</string>
@@ -483,7 +483,7 @@
 	<string name="wifi_network_prefix_length">Panjang awalan</string>
 	<string name="proxy_port_label">Port</string>
 	<string name="proxy_exclusionlist_label">Pintasan untuk</string>
-	<string name="proxy_hostname_label">Nama Hos</string>
+	<string name="proxy_hostname_label">Nama hos</string>
 	
 	<string name="clear_activities_summary">Guna app ini untuk sesetengah operasi secara lalai</string>
 	<string name="permission_detail_info">Butiran kebenaran</string>
@@ -496,7 +496,7 @@
 	<string name="other_relative">Lain² Kebenaran</string>
 	<string name="permission_manage_title">%s maklumat kebenaran</string>
 	
-	<string name="filter_apps_cached">DiCache</string>
+	<string name="filter_apps_cached">Dicache</string>
 	
 	
 	<string name="screen">Skrin</string>
@@ -569,7 +569,7 @@
 	<string name="service_stop_description">Perkhidmatan ini dimulakan oleh aplikasinya. Menghentikannya boleh mengakibatkan aplikasi gagal.</string>
 	
 	<!-- NFC & Android Beam related -->
-	<string name="android_beam_witch_label">Enable Android Beam</string>
+	<string name="android_beam_witch_label">Hidupkan Android Beam</string>
 	<string name="sim_management_title">Pengurusan SIM</string>
 	<string name="sim_status_title">Status SIM</string>
 	<string name="slot_status_title">Maklumat IMEI</string>
@@ -593,8 +593,8 @@
 	
 	<!-- wifi share -->
 	<string name="wifi_share">Kongsi Wi-Fi</string>
-	<string name="wifi_share_turn_on">On</string>
-	<string name="wifi_share_turn_off">Off</string>
+	<string name="wifi_share_turn_on">Buka</string>
+	<string name="wifi_share_turn_off">Tutup</string>
 	<string name="wifi_share_upload">Kongsi</string>
 	<string name="wifi_share_uploading">Berkongsi\u2026</string>
 	<string name="wifi_share_upload_finish">Dikongsi</string>
@@ -631,7 +631,7 @@
 	<string name="phone_call_noise_suppression">Menyekat bunyi bising semasa panggilan</string>
 	
 	<string name="sync_wifi_only">Wi-Fi sahaja</string>
-    <string name="line_breaking_title">Optimumkan Teks</string>
+    <string name="line_breaking_title">Optimumkan teks</string>
     <string name="line_breaking_summary">Optimumkan garis pemisah perenggan</string>
 	<string name="open_wifi_connect_title">Sambungkan untuk membuka rangkaian <xliff:g id="NAME">%1$s</xliff:g></string>
 	<string name="open_wifi_connect_summary">Ketik untuk uruskan</string>
@@ -639,7 +639,7 @@
 	<string name="miui_screensaver_state_on">Pasang</string>
 	<string name="miui_screensaver_state_off">Padam</string>
 	<string name="miui_screensaver_title">Penyelamat Skrin</string>
-	<string name="activate_miui_screensaver">Penyelamat Skrin ketika tidur</string>
+	<string name="activate_miui_screensaver">Penyelamat skrin ketika tidur</string>
 	<string name="picture_source">Sumber Gambar</string>
 	<string name="only_when_charging">Hanya semasa mengecas</string>
 	<string name="miui_screensaver_show_time">Tempoh</string>

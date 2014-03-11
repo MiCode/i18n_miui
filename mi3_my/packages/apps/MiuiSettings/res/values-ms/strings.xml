@@ -219,25 +219,25 @@
 	<!-- Vibrate category title -->
 	<string name="vibrate_category_title">Getar</string>
 	<!-- Vibrate in silent title -->
-	<string name="vibrate_in_silent_title">Bergetar dalam Mod Senyap</string>
+	<string name="vibrate_in_silent_title">Bergetar ketika senyap</string>
 	<!-- Vibrate in normal title -->
 	
-	<string name="vibrate_in_normal_title">Bergetar ketika berdering</string>
+	<string name="vibrate_in_normal_title">Bergetar ketika dering</string>
 	<string name="silent_mode_title">Mod Senyap</string>
 	
 	<!-- Broadcom, WAPI -->
 	<!-- Error message Certificate doesn't exits -->
 	<string name="wifi_wapi_certification_dont_exist">Kata Laluan rangkaian yang anda masukkan tidak betul. Sila cuba lagi.</string>
 	<!-- Caption for the wireless password -->
-	<string name="please_type_passphrase">Kata Laluan Wi-Fi</string>
+	<string name="please_type_passphrase">Kata laluan Wi-Fi</string>
 
 	<!-- Wi-Fi settings screen, connect to network dialog box, spinner -->
 	<string name="wifi_certificate">Perakuan</string>
 	
 	<!-- Title of the WAPI certificate manage -->
-	<string name="wifi_wapi_cert_mgmt_titlebar">WAPI Certificate Management</string>
+	<string name="wifi_wapi_cert_mgmt_titlebar">Pengurusan perakuan WAPI</string>
 	<!-- Action message of the install WAPI certificate -->
-	<string name="wifi_wapi_cert_install">Memasang Perakuan WAPI</string>
+	<string name="wifi_wapi_cert_install">Memasang perakuan WAPI</string>
 	<!-- Button caption to install wapi certificate button -->
 	<string name="wifi_wapi_cert_install_button">Pasang</string>
 	<!-- Button caption to uninstall wapi certificate button -->
@@ -245,7 +245,7 @@
 	<!-- Button caption to  cancel wapi certificate button -->
 	<string name="wifi_wapi_cert_cancel_button">Batal</string>
 	<!-- Action message of the uninstall WAPI certificate -->
-	<string name="wifi_wapi_cert_uninstall">Membuang WAPI Certificate</string>
+	<string name="wifi_wapi_cert_uninstall">Membuang perakuan WAPI</string>
 	<!-- Caption for entering the directroy of wapi certificate which you want to storage -->
 	<string name="wifi_wapi_cert_create_subdir">Mewujudkan direktori</string>
 	<!-- Caption for entering the directroy of wapi certificate which you want to delet -->
@@ -258,7 +258,7 @@
 	<string name="wifi_wapi_cert_mgmt_subdir_exist">Direktori dengan nama yang sama sudah wujud.</string>
 	<string name="wifi_wapi_cert_mgmt_subdir_create_fail">Gagal mencipta direktori</string>
 	<string name="wifi_wapi_cert_mgmt_as_name_is_empty">Masukan nama perakuan AS</string>
-	<string name="wifi_wapi_cert_mgmt_as_dont_exist">Kad SD tidak mempunya perakuan AS</string>
+	<string name="wifi_wapi_cert_mgmt_as_dont_exist">Kad SD tidak mempunyai perakuan AS</string>
 	<string name="wifi_wapi_cert_mgmt_as_format_is_wrong">Format perakuan AS adalah salah</string>
 	<string name="wifi_wapi_cert_mgmt_user_format_is_wrong">Format perakuan pengguna adalah salah</string>
 	<string name="wifi_wapi_cert_mgmt_user_name_is_empty">Masukkan nama perakuan pengguna</string>
@@ -268,8 +268,8 @@
 	<!--Wi-Fi settings screen, network context menu item -->
 	<string name="wifi_context_menu_forget">Lupakan</string>
 	<!--Wi-Fi settings screen, network context menu item -->
-	<string name="wifi_context_menu_change_password">Tukar Kata Laluan</string>
-	<string name="wifi_context_menu_change_wapi_certificate">Tukar Perakuan WAPI</string>
+	<string name="wifi_context_menu_change_password">Tukar kata laluan</string>
+	<string name="wifi_context_menu_change_wapi_certificate">Tukar perakuan WAPI</string>
 	
 	<!-- Broadcom, WAPI -->
 	
@@ -409,7 +409,7 @@
 	<!-- Used in the 1st-level settings screen to launch Wi-Fi Display settings [CHAR LIMIT=25] -->
 	<string name="wfd_settings_title">Paparan Wi-Fi</string>
 	<string name="wfd_settings_description">Sambung untuk paparan melalui Wi-Fi</string>
-	<string name="wfd_enabler_title">Aktifkan Paparan Wi-Fi </string>
+	<string name="wfd_enabler_title">Aktifkan paparan Wi-Fi </string>
 	<string name="wfd_enable_wifi_diag_title">Anda hanya boleh menggunakan Wi-Fi Paparkan apabila Wi-Fi diaktifkan. menghidupkan?</string>
 	<!-- Menu option to discover peers-->
 	<string name="wfd_menu_search">Mencari peranti</string>
@@ -444,11 +444,11 @@
 	<string name="msd_install_retry_mac">"Jika komputer tidak mengesan MI 2 dengan betul, cuba yang berikut:"</string>
 	<string name="msd_install_retry_linux">"Jika komputer anda tidak mengesan telefon,\nCuba yang berikut:\n1) Gunakan pemasangan alat sudo kebolehan memasang mtpfs libfuse-dev libmad0-dev\n2) Buat direktori mkdir / media / mtp\n3) kebenaran kumpulan Sahkan pengguna dalam kumpulan pengguna fius semasa\n4) Re-login\n5) Akses dipasang mtpfs peranti / media / mtp melalui fail explorer; sama seperti direktori tempatan\n6) Uninstall peranti fusermount-u / media / mtp Nota: Untuk Ubuntu 8.04 persekitaran"</string>
 	
-	<string name="msd_install_status_undo">Memasang driver</string>
-	<string name="msd_install_status_done">Driver telah dipasang</string>
-	<string name="msd_driver_download">Memuat turun driver</string>
-	<string name="msd_driver_windows_xp_download">Untuk pengguna Windows, muat turun driver dan klik pada Setup.exe to install\nDapatkan driver di http://miui.com/win</string>
-	<string name="msd_driver_mac_download">Untuk pengguna Mac, muat turun driver dan klik pada AndroidFileTransfer.dmg untuk memasang\nDapatkan driver di http://miui.com/mac</string>
+	<string name="msd_install_status_undo">Memasang pemacu</string>
+	<string name="msd_install_status_done">Pemacu telah dipasang</string>
+	<string name="msd_driver_download">Memuat turun pemacu</string>
+	<string name="msd_driver_windows_xp_download">Untuk pengguna Windows, muat turun pemacu dan klik pada Setup.exe to pasang\nDapatkan pemacu di http://miui.com/win</string>
+	<string name="msd_driver_mac_download">Untuk pengguna Mac, muat turun pemacu dan klik pada AndroidFileTransfer.dmg untuk memasang\nDapatkan pemacu di http://miui.com/mac</string>
 	
 	<string name="vpn_settings_password">VPN</string>
 	<string name="vpn_safe">Sekuriti</string>
@@ -501,7 +501,7 @@
 	<string name="other_relative">Lain² Kebenaran</string>
 	<string name="permission_manage_title">%s maklumat kebenaran</string>
 	
-	<string name="filter_apps_cached">DiCache</string>
+	<string name="filter_apps_cached">Dicache</string>
 	
 	
 	<string name="screen">Skrin</string>
