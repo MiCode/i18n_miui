@@ -1328,7 +1328,7 @@ limitations under the License.
 	<!-- Checkbox summary for option to toggle poor network detection -->
 	<string name="wifi_poor_network_detection_summary">Jangan gunakan rangkaian Wi-Fi kecuali ia mempunyai sambungan internet yang baik</string>
 	<!-- Setting title for setting the wifi sleep policy. Do we keep Wi-Fi active when the screen turns off? -->
-	<string name="wifi_setting_sleep_policy_title">Biarkan Wi-Fi aktif semasa tidur</string>
+	<string name="wifi_setting_sleep_policy_title">Aktifkan Wi-Fi semasa tidur</string>
 	<!-- Generic error message when the sleep policy could not be set. -->
 	<string name="wifi_setting_sleep_policy_error">Terdapat masalah menukar tetapan</string>
 	<!-- Checkbox title for option to toggle suspend power optimizations -->
