@@ -70,12 +70,12 @@
 	<string name="battery_low_title">Sambungkan pengecas</string>
 	
 	<!-- When the battery is low, this is displayed to the user in a dialog. The subtitle of the low battery alert. [CHAR LIMIT=NONE] -->
-	<string name="battery_low_subtitle">Bateri semakin rendah.</string>
+	<string name="battery_low_subtitle">Bateri semakin lemah.</string>
 	
 	<!-- A message that appears when the battery level is getting low in a dialog.  This is
 	appened to the subtitle of the low battery alert.  "number" is the percentage of battery
 	remaining [CHAR LIMIT=none]-->
-	<string name="battery_low_percent_format"><xliff:g id="number">%d%%</xliff:g> baki</string>
+	<string name="battery_low_percent_format">Baki tinggal <xliff:g id="number">%d%%</xliff:g></string>
 	
 	<!-- A message that appears when a USB charger is plugged in and the device does not
 	support charging on it.  That is, a charger that fits into the USB port and goes into
