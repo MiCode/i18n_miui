@@ -111,11 +111,11 @@
     <string name="t9_edit_text_hint">Masukkan nombor telefon</string>
     <string name="t9_insert_to_contact">Tambah ke kenalan</string>
     <string name="t9_send_sms">Hantar mesej</string>
-    <string name="menu_settings">Tetapan saya</string>
-    <string name="menu_aboutus">Mengenai kami</string>
-    <string name="system_settings">Tetapan sistem</string>
+    <string name="menu_settings">Tetapan Saya</string>
+    <string name="menu_aboutus">Mengenai Kami</string>
+    <string name="system_settings">Tetapan Sistem</string>
     <string name="menu_edit">Edit</string>
-    <string name="send_sms_contact_is_empty_hint">Pilih kenalan</string>
+    <string name="send_sms_contact_is_empty_hint">Pilih Kenalan</string>
     <string name="sending_sms">Menghantar mesej</string>
     <string name="op_ok">OK</string>
     <string name="op_overlapped">Masih bekerja\u2026</string>
@@ -136,7 +136,7 @@
     <string name="register_success">Selamat Datang!\n Helo %1$s, akaun anda telah diaktifkan.</string>
     <string name="welcome">Selamat Datang</string>
     <string name="register_success2">Akaun diaktifkan</string>
-    <string name="search_contact_hint">Cari kenalan</string>
+    <string name="search_contact_hint">Cari Kenalan</string>
     <string name="please_wait">Mencari\u2026</string>
     <string name="next">Seterusnya</string>
     <string name="rephotograph">Ambil semula</string>
