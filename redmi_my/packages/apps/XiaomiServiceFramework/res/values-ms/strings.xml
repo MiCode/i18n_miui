@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
     <string name="app_name">Xiaomi service framework</string>
-    
     <string name="show_password">Paparkan kata laluan</string>
-    
     <string name="account">Akaun</string>
     <string name="account_hint_text">E-mel atau Nombor telefon</string>
     <string name="login">Daftar Masuk</string>
@@ -29,9 +28,7 @@
     <string name="reg_type_email">Daftar dengan E-mel</string>
     <string name="micloud_input_password_prompt">Masukkan kata laluan</string>
     <string name="micloud_password_confirm_hint">Sahkan kata laluan</string>
-    <string name="micloud_password_req_notice">
-    8~16 aksara, termasuk nombor, abjad, huruf sensitif
-    </string>
+    <string name="micloud_password_req_notice">    8~16 aksara, termasuk nombor, abjad, huruf sensitif</string>
     <string name="micloud_password_error_inconsistent">Kata laluan tidak sepadan</string>
     <string name="micloud_active_alert_title">Hantar mesej teks</string>
     <string name="micloud_via_sms_alert">Mesej pengaktifan mungkin dikenakan caj tambahan oleh pembekal perkhidmatan anda</string>
@@ -48,30 +45,20 @@
     <string name="micloud_activate_back_btn">Batal</string>
     <string name="micloud_activate_retry_btn">Cuba semula</string>
     <string name="micloud_account_not_actived">Akaun anda belum diaktifkan</string>
-    <string name="micloud_active_email_visit">Periksa Peti Masuk anda di
-        <xliff:g id="email">%s</xliff:g>
-    </string>
+    <string name="micloud_active_email_visit">Periksa Peti Masuk anda di<xliff:g id="email">%s</xliff:g></string>
     <string name="micloud_click_email_to_valid">\n\nUntuk mengaktifkan akaun anda,\n ikut pautan pengaktifan dalam Peti Masuk E-mel anda.</string>
     <string name="micloud_resend_active_email">Menghantar E-mel pengaktifan semula</string>
     <string name="micloud_delete_account">Daftar Keluar</string>
     <string name="micloud_active_email_sent_1">"Pautan pengaktifan telah dihantar ke "</string>
-    <string name="micloud_active_email_sent_2"/>
+    <string name="micloud_active_email_sent_2" />
     <string name="micloud_click_email">Klik link dalam E-mel tersebut untuk mengaktifkan akaun Xiaomi anda</string>
     <string name="completed">Tamat</string>
     <string name="header_data_and_synchronization">Data &amp; Segerak</string>
     <string name="title_reg">Daftar Akaun</string>
-    <string name="micloud_account_label">Akaun:
-        <xliff:g id="name">
-        	%1$s
-        </xliff:g>
-    </string>
+    <string name="micloud_account_label">Akaun:<xliff:g id="name">        	%1$s</xliff:g></string>
     <string name="email_already_be_used">Alamat E-mel ini telah didaftarkan dengan akaun lain</string>
     <string name="error_no_sms_service">Servis mesej teks SMS tidak tersedia</string>
-    <string name="reg_by_email_failure">Gagal untuk mencipta akaun:
-        <xliff:g id="reason">
-            %1$s
-        </xliff:g>
-    </string>
+    <string name="reg_by_email_failure">Gagal untuk mencipta akaun:<xliff:g id="reason">            %1$s</xliff:g></string>
     <string name="unactivated_user">Akaun belum diaktifkan</string>
     <string name="reg_failed">Pendaftaran gagal</string>
     <string name="login_instead_reg">Daftar masuk menggunakan nombor telefon ini</string>
@@ -86,11 +73,7 @@
     <string name="error_user_name">ID pengguna tidak sah</string>
     <string name="quick_login_title">Kata laluan</string>
     <string name="quick_login_step2_title">2-langkah verifikasi</string>
-    <string name="account_name">Akaun:
-        <xliff:g id="account">
-            %1$s
-        </xliff:g>
-    </string>
+    <string name="account_name">Akaun:<xliff:g id="account">            %1$s</xliff:g></string>
     <string name="input_password_hint">Masukkan kata laluan</string>
     <string name="input_captcha_hint">Masukkan captcha</string>
     <string name="input_vcode_hint">Masukkan kod pengesahan</string>
@@ -113,16 +96,13 @@
     <string name="reging">Mendaftar\u2026</string>
     <string name="reg_success">Akaun dicipta</string>
     <string name="reg_success_summary"><xliff:g id="code">%1$s</xliff:g> telah terikat dengan akaun anda. Anda boleh gunakannya untuk mendaftar masuk atau mendapatkan semula kata laluan anda.</string>
-    
     <string name="sync_on">On</string>
     <string name="sync_off">Off</string>
-    
     <string name="btn_activate">Aktifkan</string>
     <string name="sim_changed_notification_content">Kad SIM belum diaktifkan</string>
     <string name="activating">Mengaktifkan\u2026</string>
     <string name="check_phone_error_title">Gagal untuk menghidupkan segerak</string>
     <string name="check_phone_io_error">Ralat rangkaian</string>
-    
     <string name="other_settings">Tetapan lain</string>
     <string name="find_device">Mencari peranti</string>
     <string name="find_device_check_phone_error_title">Gagal menghidupkan ciri Pengesan Pranti</string>
@@ -139,13 +119,11 @@
     <string name="i_know">OK</string>
     <string name="find_device_disabled_title">Pengesan Peranti dimatikan</string>
     <string name="find_device_disabled_notice">"Anda boleh togol ciri Pengesan Peranti melalui Tetapan > Akaun &amp; Segerak > Akaun Xiaomi"</string>
-    
     <string name="activate_phone_send_sms_fail">Gagal untuk hantar SMS pengaktifan</string>
     <string name="activate_phone_server_error">Ralat pelayan</string>
     <string name="activate_phone_failed_notif_title">Gagal untuk memulakan Mi Cloud</string>
     <string name="activate_phone_send_sms_failed_notif">Gagal untuk hantar SMS pengaktifan</string>
     <string name="activate_phone_server_error_notif">Ralat pelayan</string>
-    
     <string name="user_agreement_p1">Dengan mendaftar masuk, anda bersetuju dengan\n &#160;</string>
     <string name="user_agreement_p2">Syarat dan Terma Servis Xiaomi</string>
     <string name="user_agreement_p3">&#160; dan &#160;</string>
@@ -162,10 +140,8 @@
     <string name="skip_login_u"><u>Melangkau daftar masuk</u></string>
     <string name="removing_account">Mendaftar keluar\u2026</string>
     <string name="checking_account">Mengesahkan\u2026</string>
-    
     <string name="button_cancel">Batal</string>
     <string name="mili_center">MiCredit</string>
-    
     <string name="sina_weibo">Sina Weibo</string>
     <string name="bind_sina_weibo">Terikat dengan Sina Weibo</string>
     <string name="bind_weibo_description">Cari dan segerakkan rakan anda daripada Sina Weibo</string>
@@ -181,7 +157,6 @@
     <string name="access_token_expired_warning">Akaun Weibo telah tamat tempoh, sila menyambung semula</string>
     <string name="access_token_invalid_warning">Akaun Weibo tidak sah, sila menyambung semula</string>
     <string name="service_error">Ralat servis</string>
-    
     <string name="enable_micloud">Cipta akaun atau daftar masuk</string>
     <string name="micloud_summary">Daftar Masuk ke akaun Xiaomi untuk segerak Kenalan, Galeri album dan fungsi lain.</string>
     <string name="micloud_is_what">Apa itu MiCloud?</string>
@@ -202,10 +177,8 @@
     <string name="micloud_dspt">Perkhidmatan Cloud termasuk Permesejan MiCloud, segerak mudah alih, mencari lokasi peranti dan lain-lain. Anda juga boleh menguruskan data anda atas talian pada bila-bila masa!</string>
     <string name="cmcc_micloud_dspt">Perkhidmatan Cloud termasuk segerak mudah alih, lokasi peranti dan lain-lain. Anda boleh menguruskan data anda atas talian pada bila-bila masa!</string>
     <string name="start_micloud">Mula</string>
-    
     <string name="micloud_proceed">Seterusnya</string>
     <string name="disable_micloud"><u>Matikan MiCloud</u></string>
-    
     <string name="master_alert_notif_title">Data ini telah disegerakkan terakhir kali dalam %s hari yang lepas</string>
     <string name="sub_alert_notif_title">Kunci servis segerak belum diaktifkan</string>
     <string name="alert_notif_title_dspt">Pemulihan segerak untuk memastikan sekuriti data</string>
@@ -213,23 +186,18 @@
     <string name="restoreSync">Pemulihan</string>
     <string name="enableAll">Hidupkan semua</string>
     <string name="master_alert_notif_dspt" formatted="false">"%s kenalan, %s mesej, %s foto, %s nota dan data lain belum disegerakkan.</string>
-
     <string name="sub_alert_notif_dspt" formatted="false">"%s kenalan, %s mesej, %s foto, %s nota dan data lain belum disegerakkan.</string>
-
-    
     <string name="wipe_data_dialog_title">Sesetengah item belum disegerakkan</string>
     <string name="wipe_data_dialog_msg">%s item belum disegerakkan. Data yang belum disegerak akan hilang jika anda teruskan.</string>
     <string name="dirty_contacts_count">%d kenalan</string>
     <string name="dirty_mms_count">%d mesej</string>
     <string name="dirty_note_count">%d nota</string>
-
     <string name="wrong_captcha">Kod captcha yang anda masukkan tidak sah</string>
     <string name="wrong_vcode">Kod pengesahan yang anda masukkan tidak sah</string>
     <string name="input_vcode_prompt">Masukkan kod pengesahan</string>
     <string name="trust_device">Saya mempercayai peranti ini</string>
     <string name="vcode_prompt_long">Masukkan kod pengesahan yang dijana oleh Token Sekuriti Xiaomi</string>
     <string name="vcode_notification_title">Pengesahan daftar masuk anda tidak lengkap</string>
-    
     <string name="activate_phone_failed_notif_title_msim">Gagal untuk memulakan MiCloud bagi SIM %s</string>
     <string name="activate_status_title_activating">Pengaktifan kad SIM\u2026</string>
     <string name="activate_status_title_activating_msim">Pengaktifan kad SIM %s</string>
@@ -243,7 +211,6 @@
     <string name="activate_status_desc_sending_sms">Penghantaran\u2026</string>
     <string name="activate_status_desc_sms_sent">Pengaktifan SMS telah dihantar</string>
     <string name="activate_status_desc_sim_absent">Tiada Kad SIM dikesan</string>
-    
     <string name="activate_status_desc_acquire_phone_number">Mendapatkan nombor telefon dari pelayan</string>
     <string name="activate_status_desc_acquire_phone_number_server_error_wait">Ralat pelayan belaku ketika cuba mendapatkan nombor telefon. Mencuba semula\u2026</string>
     <string name="activate_status_desc_acquire_phone_number_server_io_error_wait">Ralat I/O pelayan belaku ketika cuba mendapatkan nombor telefon. Mencuba semula\u2026</string>
@@ -251,7 +218,6 @@
     <string name="activate_status_desc_acquire_phone_number_server_error">Ralat pelayan berlaku ketika cuba mendapatkan nombor telefon.</string>
     <string name="activate_status_desc_acquire_phone_number_server_io_error">Ralat I/O pelayan ketika cuba mendapatkan nombor telefon.</string>
     <string name="activate_status_desc_acquire_phone_number_server_no_info">Gagal mendapatkan nombor telefon</string>
-    
     <string name="activate_status_desc_acquire_sim_user_id">Mendapatkan info pendaftaran daripada pelayan</string>
     <string name="activate_status_desc_acquire_sim_user_id_server_error_wait">Ralat pelayan berkalu ketika cuba mendapatkan info pendaftaran. Mencuba semula\u2026</string>
     <string name="activate_status_desc_acquire_sim_user_id_server_io_error_wait">Ralat I/O pelayan ketika cuba mendapatkan info pendaftaran. Mencuba semula\u2026</string>
@@ -259,7 +225,6 @@
     <string name="activate_status_desc_acquire_sim_user_id_server_error">Ralat pelayan berlaku ketika cuba mendapatkan info pendaftaran.</string>
     <string name="activate_status_desc_acquire_sim_user_id_server_io_error">Ralat I/O pelayan ketika cuba mendapatkan info pendaftaran</string>
     <string name="activate_status_desc_acquire_sim_user_id_server_no_info">Gagal mendapatkan info pendaftaran</string>
-    
     <string name="activate_status_desc_acquire_sim_pass_token">Mendapatkan info sekuriti daripada pelayan</string>
     <string name="activate_status_desc_acquire_sim_pass_token_server_error_wait">Ralat pelayan berlaku ketika cuba memperolehi info sekuriti. Mencuba semula\u2026</string>
     <string name="activate_status_desc_acquire_sim_pass_token_server_io_error_wait">Ralat I/O pelayan ketika cuba mendapatkan info sekuriti. Mencuba semula\u2026</string>
@@ -268,9 +233,7 @@
     <string name="activate_status_desc_acquire_sim_pass_token_server_io_error">Ralat I/O pelayan ketika cuba memperolehi info sekuriti.</string>
     <string name="activate_status_desc_acquire_sim_pass_token_server_no_info">Gagal mendapatkan info sekuriti</string>
     <string name="activate_status_desc_acquire_sim_pass_token_password_error">Kata laluan Token Sekuriti Xiaomi yang anda masukkan tidak betul</string>
-    
     <string name="checking_input">Memeriksa input\u2026</string>
-    
     <string name="micloud_data_loading">Loading\u2026</string>
     <string name="micloud_space_full_influence"><u>Apa terjadi sekiranya saya kehabisan ruang?</u></string>
     <string name="micloud_title_dspt" formatted="false">"Jumlah ruang %s\n digunakan %s | tinggal %s"</string>
@@ -296,7 +259,7 @@
     <string name="micloud_warn_full_sum">Buat masa sekarang, item baru tidak akan disegerakkan dengan akaun Mi Cloud anda."</string>
     <string name="micloud_none">Tiada</string>
     <string name="micloud_full_influence_dspt">"Semua foto, video, nota dan apps akan disandarkan ke akaun Mi Cloud anda.</string>
-    
     <string name="enable_sync_dspt">Segerak tidak dihidupkan</string>
     <string name="enable_sync">Hidupkan segerak</string>
+
 </resources>

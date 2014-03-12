@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <string name="xiaomi_account_type_unsupported">Sistem tidak menyokong akaun Xiaomi.</string>
     <string name="no_login_xiaomi_account">Log masuk dengan akaun Xiaomi anda untuk menghantar komen.</string>
     <string name="authenticating"><CDATA>Sedang mengesahkan</CDATA></string>
     <string name="authenticated_failed">Gagal log masuk</string>
     <string name="authenticating_manually">Gagal disahkan</string>
-        
     <string name="app_name">Pemain Mi</string>
     <string name="video_library">Video</string>
     <string name="all_specials">Spesial</string>
-    
     <string name="director_colon">"Pengarah: "</string>
     <string name="actors_colon">"Pelakon: "</string>
     <string name="tags_colon">"Genre: "</string>
@@ -20,32 +19,26 @@
     <string name="minute">minit</string>
     <string name="seconds">saat</string>
     <string name="review_success">Komen dihantar</string>
-    
     <string name="subchannel_all">Semua</string>
-    
     <string name="filter_media">Penapis</string>
     <string name="clear_history">Padamkan sejarah</string>
     <string name="clear_cache">Padamkan cache imej</string>
     <string name="clear_offline">Padamkan cache media luar talian</string>
     <string name="xiaomi_user">Pengguna Xiaomi</string>
-    
     <string name="all">Semua</string>
-    
     <string name="brief_intro">Ringkasan</string>
     <string name="movie_comment">Komen</string>
     <string name="view_all_reviews">%d komen lagi</string>
     <string name="add_review">Tambah komen</string>
     <string name="all_reviews">Komen</string>
     <string name="recommendation">Cadangan</string>
-     
     <string name="special_subject">Spesial</string>
     <string name="rank">Penilaian</string>
     <string name="others">Lain-lain</string>
     <string name="music">Muzik</string>
-
     <string name="comment">Komen</string>
     <string name="livetv">Langsung</string>
-    <string name="comment_hint">(had 300 perkataan)</string> 
+    <string name="comment_hint">(had 300 perkataan)</string>
     <string name="comment_hint_tip">Komen anda akan dipaparkan selepas semakan ringkas.</string>
     <string name="comment_max_error">Komen anda tidak boleh melebihi 300 perkataan</string>
     <string name="comment_can_input_prefix"></string>
@@ -56,15 +49,14 @@
     <string name="comment_detailInfo">Komen</string>
     <string name="comment_submiting">Sedang dihantarkan\u2026</string>
     <string name="search">Carian</string>
-    
-  	<!-- these codes are updated -->
+
+    <!-- these codes are updated -->
     <string name="year">Tahun</string>
     <string name="month">Bulan</string>
     <string name="day">Hari</string>
     <string name="update">Dikemaskinikan</string>
     <string name="manage">Mengurus</string>
     <string name="finish">Selesai</string>
-    
     <string name="di_count_ji">Ep. %d</string>
     <string name="di_count_qi">Musim %s</string>
     <string name="update_to_count_ji">Dikemaskinikan sampai Ep. %d</string>
@@ -75,7 +67,8 @@
     <string name="count_ge">%d item</string>
     <string name="gong_count_xiang">%d item</string>
     <string name="gong_count_dlna">%d DLNA</string>
-	<!-- these codes are updated -->
+    <!-- these codes are updated -->
+
 
     <!-- jni response error message -->
     <string name="jni_res_connect_error">Tidak dapat menyambung ke rangkaian</string>
@@ -85,41 +78,34 @@
     <string name="jni_res_unkown_error">Ralat tidak diketahui berlaku</string>
     <string name="jni_invalid_param">Parameter tidak sahih</string>
     <string name="jni_no_media_source">Tiada sumber media</string>
-
     <string name="load_data_failed">Tidak dapat menyambung ke rangkaian</string>
-    <string name="loading_video"> <CDATA>Memuatkan </CDATA> </string>
-    <string name="loading_tv"> <CDATA>Memuatkan </CDATA> </string>
-    <string name="loading"> <CDATA>Memuatkan </CDATA> </string>
+    <string name="loading_video"><CDATA>Memuatkan </CDATA></string>
+    <string name="loading_tv"><CDATA>Memuatkan </CDATA></string>
+    <string name="loading"><CDATA>Memuatkan </CDATA></string>
     <string name="no_filter_media">Tidak dapat mencari apa-apa. Cuba mengubah carian anda.</string>
     <string name="no_search_result">Tidak dapat mencari apa-apa. Cuba mengubah carian anda.</string>
     <string name="no_media">Kosong</string>
     <string name="no_reviews">Tiada komen</string>
     <string name="no_tv">Tiada saluran</string>
-
     <string name="no_special_subject">Kosong</string>
     <string name="loading_review_failed">Gagal memuatkan komen</string>
     <string name="loading_review"><CDATA>Memuatkan </CDATA></string>
-    <string name="searching"> <CDATA>Sedang mencari </CDATA> </string>
-    
+    <string name="searching"><CDATA>Sedang mencari </CDATA></string>
     <string name="recentplay">Dimainkan baru-baru ini</string>
     <string name="clearplayhistory">Padamkan sejarah</string>
     <string name="no_playhistory">Tiada sejarah</string>
-    
     <string name="declaration">Terma penggunaan</string>
     <string name="cancel">Batal</string>
     <string name="ok">OK</string>
     <string name="good">OK</string>
     <string name="declaration_content">Adakah anda menerima terma penggunaan yang ditetapkan oleh Sohu Video, iQiyi dan pembekal kandungan video lain?</string>
-    
     <string name="today">Hari ini</string>
     <string name="yestorday">Semalam</string>
     <string name="playvideo">Main</string>
-    
     <string name="fullscreen_hint_horizontal">Untuk memasuki skrin penuh, sentuh ikon di sudut atas kiri</string>
     <string name="fullscreen_hint_vertical">Untuk memasuki skrin penuh, sentuh butang di bawah</string>
     <string name="fullscreen_hint_auto">Sedang memasuki skrin penuh\u2026</string>
     <string name="file_not_exist">Fail tidak dijumpai</string>
-    
     <string name="play">Main</string>
     <string name="favorite">Bintang</string>
     <string name="cancel_favorite">Nyahbintang</string>
@@ -139,47 +125,34 @@
     <string name="no_myfavorite_advice">Dicadangkan</string>
     <string name="myfavorite_onlylocal">Dibintangkan</string>
     <string name="no_myfavorite_advice_onlylocal">Bintangkan video tempatan</string>
-    
     <string name="alreadyselected">Terpilih</string>
     <string name="mediasetupdated">Siri dikemaskinikan</string>
     <string name="updatedalready">Dikemaskinikan</string>
     <string name="mediaset">Siri</string>
-    
     <string name="select_all">Pilih semua</string>
     <string name="cancel_select_all">Nyahpilih semua</string>
-    
     <string name="login_tip_title">Log masuk</string>
     <string name="login_tip_content">Log masuk dengan akaun Xiaomi anda untuk sync dan mengemaskinikan rancangan yang anda mengikuti sekarang.</string>
-    
     <string name="nologin_no_waitfornewset">Anda perlu log masuk untuk mengikuti rancangan.</string>
-
     <string name="video">Video</string>
     <string name="mycamera">Video saya</string>
     <string name="mydlna">Sumber DLNA</string>
     <string name="have_no_cameravideo">Tiada video</string>
     <string name="open_camera">Kamera</string>
-    
     <string name="delete">Buang</string>
     <string name="browse_folder">Pelayar</string>
     <string name="channel_more">Lagi</string>
-    
     <string name="comment_publish">Hantar</string>
     <string name="write_comment">Tambah komen</string>
-    
     <string name="delete_media">Buang</string>
     <string name="delete_media_content">Buang item ini?</string>
-    
     <string name="clear_playhistory">Padamkan sejarah pemain</string>
     <string name="clear_playhistory_tip">Sejarah pemain video akan dipadamkan.</string>
-    
     <string name="filter_mediaex">Penapis</string>
-    
     <string name="pick_video_to_delete">Pilih item</string>
     <string name="pick_video_to_myfavorite">Pilih item</string>
     <string name="pick_myfavorite_to_cancel">Pilih item</string>
-    
     <string name="fullscreen_to_play">Skrin penuh</string>
-    
     <string name="connecting">Sedang menyambung\u2026</string>
     <string name="retrieving">Sedang mendapatkan semula\u2026</string>
     <string name="cant_connecting">Tidak dapat sambung ke pelayan</string>
@@ -190,7 +163,6 @@
     <string name="live_tabs_hot">Hangat</string>
     <string name="live_tabs_all">Lihat semua</string>
     <string name="live_tabs_choice">Pilih sendiri</string>
-
     <string name="live_pending_symbol"><CDATA>Buffering </CDATA></string>
     <string name="live_pending_to_be_play">Memuatkan\u2026</string>
     <string name="button_all">Semua</string>
@@ -214,19 +186,15 @@
 
     <string name="reloading_tip">Tidak dapat menyambung ke rangkaian</string>
     <string name="retry">Cuba semula</string>
-    
     <string name="no_subject">Tiada tajuk</string>
-    
     <string name="hide_media">Sembunyikan</string>
     <string name="cancel_hide">Nyahsembunyikan</string>
     <string name="show_hidemedia">Tunjukkan fail tersembunyi</string>
     <string name="notshow_hidemedia">Jangan menunjukkan fail tersembunyi</string>
     <string name="pick_video_to_hide">Pilih item</string>
     <string name="pick_hide_to_show">Pilih item</string>
-    
     <string name="hided_cannot_favorite">Tidak boleh bintangkan item tersembunyi</string>
     <string name="favorited_cannot_hide">Tidak boleh sembunyikan item dibintangkan</string>
-    
     <string name="setting">Tetapan</string>
     <string name="network_setting">Rangkaian</string>
     <string name="offline_setting">Media luar talian</string>
@@ -240,7 +208,6 @@
     <string name="continue_to_play_nextset_summary">Apabila episod yang anda menonton tamat, episod yang seterusnya akan bermula secara automatik</string>
     <string name="clear_cache_summary">Padamkan imej yang dicache daripada pelayar Video</string>
     <string name="clear_offline_summary">Padamkan video yang dicache</string>
-    
     <string name="load_file_fail">Fail tempatan dimusnahkan</string>
     <string name="load_offline_file_fail">Fail luar talian dimusnahkan, sila cache semula</string>
     <string name="load_failed_to_try">Gagal memuatkan</string>
@@ -265,7 +232,6 @@
     <string name="download_geturl_fail">Gagal mendapatkan Url, sila semak rangkaian dan cuba lagi.</string>
     <string name="download_fail">Caching gagal</string>
     <string name="download_finish">Caching siap</string>
-    
     <string name="offline_max_promote">Menunggu untuk cache, paling banyak 2 tugasan caching boleh berjalan pada masa yang sama.</string>
     <string name="offline_alert_title">Notifikasi Caching</string>
     <string name="offline_no_wifi">Anda tidak menggunakan wifi, sila semak pilihan selular di halaman tetapan jika anda mahu cache sekarang.</string>
@@ -273,9 +239,7 @@
     <string name="alert_ignore">Jangan tunjukkan halaman ini lagi</string>
     <string name="offline_no_source">Tiada sumber caching yang tersedia</string>
     <string name="offline_select_better_source">Telah beralih kepada sumber caching yang tersedia</string>
-    
     <string name="key_back_down_toast">Untuk keluar, sentuh Undur sekali lagi</string>
-
     <string name="clear_cache_success">Cache dipadamkan</string>
 
     <!-- media detail select source popup begin -->
@@ -302,12 +266,14 @@
     <string name="hint_can_not_get_source_info">Tidak dapat mencari maklumat sumber video</string>
     <string name="hint_without_selected_set">Tiada sumber yang dipilih, mencari sumber secara automatik\u2026</string>
     <!-- media detail select source popup end -->
-    
+
+
     <!-- live player begin -->
     <string name="btnplayerselect">Pilih saluran</string>
     <string name="btnplayerforecast">Ramalan</string>
-	<!-- live player end -->
-    
+    <!-- live player end -->
+
+
     <!-- search begin -->
     <string name="find_media_count_bu">%d keputusan</string>
     <string name="find_media_searching">Sedang mencari\u2026</string>
@@ -316,6 +282,7 @@
     <string name="search_result_recommend_hint">Tidak dapat mencari apa-apa</string>
     <string name="search_result_recommend_title">Semua orang menonton</string>
     <!-- search end -->
+
 
     <!-- Device Browser start -->
     <string name="browse_devices">Melayar peranti</string>
