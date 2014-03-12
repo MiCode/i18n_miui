@@ -105,20 +105,18 @@
     <string name="user_guide">Pengenalan kepada KuaiPan</string>
     <string name="user_guide_summary">Gambaran ringkas</string>
     <string name="rename_failed">gagal menamakan semula %1$s</string>
-    
+
     <plurals name="directory_item_count">
         <item quantity="one">1 item</item>
         <item quantity="other"><xliff:g id="count">%d</xliff:g> items</item>
     </plurals>
-    
+
     <string name="directory_no_item">Folder Kosong</string>
     <string name="error_open_file_failed_no_app_found">Tiada aplikasi didapati untuk mengendalikan perbuatan ini.</string>
     <string name="no_enough_space">Tiada ruang yang cukup</string>
     <string name="directory_info_divider">"  |  "</string>
-    
     <string name="no_enough_storage_title">Tiada ruang yang cukup</string>
     <string name="no_enough_storage_indication">Ruang storan peranti sudah penuh.</string>
-    
     <string name="ui_bar_txt_download_progress">%1$d fail yang tinggal untuk dimuat turun</string>
     <string name="ui_bar_txt_upload_progress">%1$d fail yang tinggal untuk memuat naik</string>
     <string name="ui_main_menu_option_task_manage">Mengurus pindahan</string>
@@ -142,7 +140,6 @@
     <string name="no_more_space">Tiada ruang mencukupi</string>
     <string name="sd_full">Memori dalaman telefon penuh</string>
     <string name="file_too_large">Gagal untuk memuat naik: Fail terlalu besar</string>
-    
     <string name="create_new_folder_failed">Gagal mencipta folder</string>
     <string name="user_guide_kuaipan_copy">Akses fail anda dari berbilang peranti</string>
     <string name="user_guide_upload_to_kuaipan">Menyimpan item di Kuaipan dari telefon anda</string>
@@ -150,7 +147,6 @@
     <string name="user_guide_other_version">Juga tersedia untuk platform lain</string>
     <string name="upload_file_toolarge_message">"%1$d gagal untuk dimuat naik: Anda tidak boleh memuat naik fail yang lebih besar daripada 300MB</string>
     <string name="cution">Tips</string>
-    
     <string name="clean_trash_box">Kosongkan tong sampah</string>
     <string name="trash_box_link">Untuk kosongkan tong sampah anda, lawati <b>pan.xiaomi.com</b></string>
     <string name="clean_title">Padam fail lebih daripada 30 hari</string>
@@ -161,7 +157,6 @@
     <string name="space_info">KuaiPan: Ruang rangkaian: %1$s tersedia ada，jumlah: %2$s</string>
     <string name="trash_box_capacity">Tong sampah %1$s"</string>
     <string name="data_capacity">Data %1$s</string>
-    
     <string name="send_to_midrive">KuaiPan</string>
     <string name="choose_upload_location">Memuat naik ke folder KuaiPan</string>
     <string name="send_to_midrive_failed_message">Jenis fail ini tidak disokong</string>
@@ -173,20 +168,16 @@
     <string name="operation_decompressing">Mengekstrak\u2026</string>
     <string name="decompress_success">Pengekstrakan selesai</string>
     <string name="decompress_fail">Pengekstrakan gagal: arkib rosak atau fail dengan nama yang sama sudah wujud</string>
-    
     <string name="decompress_to_here">Ekstrak ke sini</string>
     <string name="decompress_to">Ekstrak ke\u2026</string>
-    
     <string name="decompress_confirm">Ekstrak</string>
     <string name="decompress_cancel">Batal</string>
-    
     <string name="kuaipan_prompt">Notis</string>
     <string name="kuaipan_prompt_message">\n Dukacita dimaklumkan pelayan kami sedang diperbaiki pada masa ini. Sila cuba lagi selepas ini\u2026\n</string>
     <string name="move_failed">Gagal untuk dipotong</string>
     <string name="copy_failed">Gagal untuk menyalin</string>
     <string name="delete_failed">Gagal untuk memadam</string>
     <string name="toast_file_not_can_read">Tiada app ditemui untuk kendalikan tindakan ini.</string>
-    
     <string name="ui_main_menu_option_sign_in">Daftar masuk</string>
     <string name="sign_description">Mendaftar masuk\u2026</string>
     <string name="signin_error">Gagal berhubung ke pelayan. Sila periksa sambungan rangkaian.</string>
@@ -194,23 +185,17 @@
     <string name="already_signin_description">Anda telah mendaftar masuk</string>
     <string name="pull_to_signin">Leret ke bawah untuk mendaftar masuk</string>
     <string name="release_to_signin">Lepaskan untuk mendaftar masuk</string>
-    
     <string name="server_control_settings">Tetapan</string>
     <string name="server_control_advanced_settings">Tetapan FTP</string>
     <string name="server_control_charset">Pengekodan pindahan</string>
-    
     <string name="utf8_title">UTF-8</string>
     <string name="utf8_summary">Pengekodan lalai sistem FTP</string>
-    
     <string name="gbk_title">GBK</string>
     <string name="gbk_summary">Pengekodan lalai Simplified Chinese Windows</string>
-    
     <string name="big5_title">BIG5</string>
     <string name="big5_summary">Pengekodan lalai Traditional Chinese Windows</string>
-    
     <string name="stay_awake_title">Terus berjaga</string>
     <string name="stay_awake_summary">Skrin tidak akan tidur ketika menggunakan FTP</string>
-    
     <string name="ftp_transfer_secure">Sekuriti</string>
     <string name="ftp_port_number">Nombor port</string>
     <string name="ftp_account_req_notice">4 ~ 16 abjad, huruf dan angka, kes sensitif</string>
@@ -220,7 +205,6 @@
     <string name="ftp_username_hint">ID pengguna</string>
     <string name="ftp_password_hint">Kata laluan</string>
     <string name="ftp_invalid_username_or_password">ID pengguna atau kata laluan tidak sah</string>
-    
     <string name="add_task">Tambah tugasan</string>
     <string name="adding_upload_tasks">Menambah tugasan\u2026</string>
     <string name="create_new_folder_desctiption">Mencipta folder\u2026</string>
@@ -229,7 +213,6 @@
     <string name="share_link_failed">Gagal untuk jana pautan</string>
     <string name="choose_send_type">Pilih cara penghantaran</string>
     <string name="download_link_completed">%1$s berkongsi melalui KuaiPan. Sentuh pautan di bawah untuk lihat </string>
-    
     <string name="transing">Menghantar\u2026</string>
     <string name="finished">Selesai</string>
     <string name="uploading">Memuat naik\u2026</string>
@@ -246,12 +229,10 @@
     <string name="operation_pause_all">Hentikan sebentar semua</string>
     <string name="operation_resume_all">Sambung semula semua</string>
     <string name="operating">Pemprosesan\u2026</string>
-    
     <string name="trans_task">Pindahan rangkaian</string>
     <string name="des_running_trans">%1$d fail belum dipindahkan</string>
     <string name="trans_task_delete_confirm_message">Padam %1$d tugasan terpilih?</string>
     <string name="forward_to_web_recycle_prompt">&lt;a href=\"%1$s\">Sentuh&lt;/a> untuk ke Tong Sampah</string>
-    
     <string name="storage_internal">Storan dalaman</string>
     <string name="storage_sd_card">Kad SD</string>
     <string name="storage_usb">Storan USB</string>
@@ -259,7 +240,7 @@
     <string name="bind_account_summary">Segerakkan akaun KuaiPan anda yang sedia ada dengan Akaun Xiaomi anda</string>
     <string name="binded_accout_title">Akaun disegerakkan</string>
     <string name="binded_accout_description">Akaun Xiaomi anda telah disegerakkan dengan KuaiPan. Anda kini boleh menggunakan Akaun Xiaomi anda untuk mengakses data yang anda telah simpan di KuaiPan.</string>
-    
+
     <!-- for 文件清理 -->
     <string name="file_cleanup">Pembersihan fail</string>
     <string name="scanning_on_going">Mengimbas\u2026</string>
@@ -273,12 +254,10 @@
     <string name="version_text">Versi <xliff:g id="version_num">%1$s</xliff:g></string>
     <string name="uninstall_app_data">Padam app dan semua data app</string>
     <string name="start_cleanup">Pembersihan</string>
-    
     <string name="header_text_scanning">Mengimbas\u2026</string>
     <string name="header_text_scanned">Imbasan selesai</string>
     <string name="header_text_cleaning">Membersih\u2026</string>
     <string name="header_text_cleaned">Selesai</string>
-    
     <string name="waiting_for_cleaning">Menunggu\u2026</string>
     <string name="item_name">Folder tiada bernama</string>
     <string name="waiting_for_scanning">Menunggu\u2026</string>
@@ -286,38 +265,30 @@
     <string name="cleaning">Membersih\u2026</string>
     <string name="cleaned">Selesai</string>
     <string name="cleanup_stopped">Pembersihan dihentikan</string>
-    
     <string name="temp_file_title">Fail sementara</string>
     <string name="thumbnail_title">Imej Kecil</string>
     <string name="app_cache_title">Cache app</string>
     <string name="empty_dir_title">Kosongkan direktori</string>
     <string name="app_garbage_title">Sampah</string>
-    
     <string name="temp_file_cleanup_indication" formatted="false">%s fail sementara</string>
     <string name="thumbnail_cleanup_indication" formatted="false">%s imej kecil</string>
     <string name="app_cache_cleanup_indication" formatted="false">%s cache</string>
     <string name="empty_dir_cleanup_indication" formatted="false">%s fail lain</string>
     <string name="app_garbage_cleanup_indication" formatted="false">%s sampah</string>
-    
     <string name="no_temp_file_indication">Tiada fail sementara</string>
     <string name="no_thumbnail_indication">Tiada imej kecil</string>
     <string name="no_app_cache_indication">Tiada cache app</string>
     <string name="no_empty_dir_indication">Tiada direktori kosong</string>
     <string name="no_app_garbage_indication">Tiada sampah</string>
-    
     <string name="cancel_app_garbage_cleanup">Jangan bersihkan</string>
     <string name="clean_app_garbage" formatted="false">Padam %d item</string>
     <string name="app_garbage_path">Lokasi:</string>
-    
     <string name="give_up_cleaning">Batal</string>
     <string name="restart_cleaning">Mulakan semula</string>
     <string name="cleanup_complete">Selesai</string>
-    
     <string name="count_down_time">Bermula dalam %d saat</string>
     <string name="cancel_with_count_down">Batal (%d)</string>
-    
     <string name="garbage_size_metric" formatted="false">Sampah\: %s\n</string>
-    
     <string name="account_bind_prompt">Migrasi data pengguna\u2026 Ini mungkin akan mengambil masa beberapa minit.</string>
     <string name="migrate_announcement_title">Migrasi selesai</string>
     <string name="migrate_announcement_msg">Segerakkan akaun KuaiPan anda yang sedia ada dengan Akaun Xiaomi anda dalam tetapan KuaiPan</string>
@@ -331,8 +302,9 @@
     <string name="open_changed_file_message">Fail yang anda cuba untuk membuka telah diubahsuai. Untuk menyelesaikan masalah ini:\n1. Muat turun fail sekali lagi untuk memastikan anda mempunyai versi yang paling terkini.\n2. Muat naik fail tersebut ke akaun KuaiPan anda.</string>
     <string name="ui_filechange_btn_upload">Memuat naik fail</string>
     <string name="folder_exist">Folder sudah wujud</string>
-    
+
     <!-- for unmount usb storage -->
     <string name="unmount_inform_text">Nyahlekap storan USB.</string>
     <string name="dlg_error_unmount_text">Gagal untuk nyahlekap storan USB.</string>
+
 </resources>
