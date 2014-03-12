@@ -1,0 +1,11 @@
+<strings>
+	<string name="langid" value="ms" />
+	<string name="yinli_format" value="" />
+	<string name="gongli_format" value="MM/dd/yyyy E" />
+	<string name="call_hint" value=" Missed call: %d" />
+	<string name="sms_hint" value="Unread SMS: %d" />
+	<string name="charging_hint" value="Charging, %d%%" />
+	<string name="low_battery_hint" value="Low battery" />
+	<string name="full_battery_hint" value="Done charging" />
+	<string name="slide_to_unlock_hint" value="Swipe up to unlock" />
+</strings>
