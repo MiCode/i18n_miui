@@ -392,50 +392,50 @@ limitations under the License.
 
     <!--
     The content description for the "all contacts" tab.
-	
+
 	Note: AccessibilityServices use this attribute to announce what the view represents.
 	This is especially valuable for views without textual representation like ImageView.
-	
+
 	[CHAR LIMIT=NONE]
     -->
     <string name="contactsAllLabel">Kenalan</string>
 
     <!--
     The content description text for the groups tab.
-	
+
 	Note: AccessibilityServices use this attribute to announce what the view represents.
 	This is especially valuable for views without textual representation like ImageView.
-	
+
 	[CHAR LIMIT=NONE]
     -->
     <string name="contactsGroupsLabel">Kumpulan</string>
 
     <!--
     The description text for the favorites tab.
-	
+
 	Note: AccessibilityServices use this attribute to announce what the view represents.
 	This is especially valuable for views without textual representation like ImageView.
-	
+
 	[CHAR LIMIT=NONE]
     -->
     <string name="contactsFavoritesLabel">Kegemaran</string>
 
     <!--
     The description text for the dialer tab.
-	
+
 	Note: AccessibilityServices use this attribute to announce what the view represents.
 	This is especially valuable for views without textual representation like ImageView.
-	
+
 	[CHAR LIMIT=NONE]
     -->
     <string name="dialerIconLabel">Terkini</string>
 
     <!--
     The description text for the call log tab.
-	
+
 	Note: AccessibilityServices use this attribute to announce what the view represents.
 	This is especially valuable for views without textual representation like ImageView.
-	
+
 	[CHAR LIMIT=NONE]
     -->
     <string name="recentCallsIconLabel">Log panggilan</string>
@@ -629,7 +629,7 @@ limitations under the License.
 
     <!--
     String describing the image on ImageButton one
-	
+
 	Note: AccessibilityServices use this attribute to announce what the view represents.
 	This is especially valuable for views without textual representation like ImageView.
     -->
@@ -637,7 +637,7 @@ limitations under the License.
 
     <!--
     String describing the image on ImageButton two
-	
+
 	Note: AccessibilityServices use this attribute to announce what the view represents.
 	This is especially valuable for views without textual representation like ImageView.
     -->
@@ -645,7 +645,7 @@ limitations under the License.
 
     <!--
     String describing the image on ImageButton three
-	
+
 	Note: AccessibilityServices use this attribute to announce what the view represents.
 	This is especially valuable for views without textual representation like ImageView.
     -->
@@ -653,7 +653,7 @@ limitations under the License.
 
     <!--
     String describing the image on ImageButton four
-	
+
 	Note: AccessibilityServices use this attribute to announce what the view represents.
 	This is especially valuable for views without textual representation like ImageView.
     -->
@@ -661,7 +661,7 @@ limitations under the License.
 
     <!--
     String describing the image on ImageButton five
-	
+
 	Note: AccessibilityServices use this attribute to announce what the view represents.
 	This is especially valuable for views without textual representation like ImageView.
     -->
@@ -669,7 +669,7 @@ limitations under the License.
 
     <!--
     String describing the image on ImageButton six
-	
+
 	Note: AccessibilityServices use this attribute to announce what the view represents.
 	This is especially valuable for views without textual representation like ImageView.
     -->
@@ -677,7 +677,7 @@ limitations under the License.
 
     <!--
     String describing the image on ImageButton seven
-	
+
 	Note: AccessibilityServices use this attribute to announce what the view represents.
 	This is especially valuable for views without textual representation like ImageView.
     -->
@@ -685,7 +685,7 @@ limitations under the License.
 
     <!--
     String describing the image on ImageButton eight
-	
+
 	Note: AccessibilityServices use this attribute to announce what the view represents.
 	This is especially valuable for views without textual representation like ImageView.
     -->
@@ -693,7 +693,7 @@ limitations under the License.
 
     <!--
     String describing the image on ImageButton nine
-	
+
 	Note: AccessibilityServices use this attribute to announce what the view represents.
 	This is especially valuable for views without textual representation like ImageView.
     -->
@@ -701,7 +701,7 @@ limitations under the License.
 
     <!--
     String describing the image on ImageButton star
-	
+
 	Note: AccessibilityServices use this attribute to announce what the view represents.
 	This is especially valuable for views without textual representation like ImageView.
     -->
@@ -709,7 +709,7 @@ limitations under the License.
 
     <!--
     String describing the image on ImageButton zero
-	
+
 	Note: AccessibilityServices use this attribute to announce what the view represents.
 	This is especially valuable for views without textual representation like ImageView.
     -->
@@ -717,7 +717,7 @@ limitations under the License.
 
     <!--
     String describing the image on ImageButton pound
-	
+
 	Note: AccessibilityServices use this attribute to announce what the view represents.
 	This is especially valuable for views without textual representation like ImageView.
     -->
@@ -725,14 +725,14 @@ limitations under the License.
 
     <!--
     String describing the Voicemail ImageButton
-	
+
 	Used by AccessibilityService to announce the purpose of the button.
     -->
     <string name="description_voicemail_button">Mel suara</string>
 
     <!--
     String describing the Search ImageButton
-	
+
 	Used by AccessibilityService to announce the purpose of the button.
 	[CHAR LIMIT=NONE]
     -->
@@ -740,51 +740,51 @@ limitations under the License.
 
     <!--
     String describing the Dial ImageButton
-	
+
 	Used by AccessibilityService to announce the purpose of the button.
     -->
     <string name="description_dial_button">dail</string>
 
     <!--
     String describing the Delete/Backspace ImageButton
-	
+
 	Used by AccessibilityService to announce the purpose of the button.
     -->
     <string name="description_delete_button">backspace</string>
 
     <!--
     String describing the digits text box containing the number to dial.
-	
+
 	Used by AccessibilityService to announce the purpose of the view.
     -->
     <string name="description_digits_edittext">nombor untuk di dail</string>
 
     <!--
     String describing the Contact Photo Image
-	
+
 	Used by AccessibilityService to announce the purpose of the view.
     -->
     <string name="description_contact_photo">Gambar kenalan</string>
 
     <!--
     String describing the Contact Editor Minus button
-	
+
 	Used by AccessibilityService to announce the purpose of the button.
     -->
     <string name="description_minus_button">tolak</string>
 
     <!--
     String describing the Contact Editor Plus button
-	
+
 	Used by AccessibilityService to announce the purpose of the button.
     -->
     <string name="description_plus_button">tambah</string>
 
     <!--
     String describing a contact picture that introduces users to the contact detail screen.
-	
+
 	Used by AccessibilityService to announce the purpose of the button.
-	
+
 	[CHAR LIMIT=NONE]
     -->
     <string name="description_view_contact_detail" msgid="2795575601596468581">View contact</string>
@@ -1487,7 +1487,7 @@ limitations under the License.
 
     <!--
     String describing the Star/Favorite checkbox
-	
+
 	Used by AccessibilityService to announce the purpose of the view.
     -->
     <string name="description_star">kegemaran</string>
@@ -1719,7 +1719,7 @@ limitations under the License.
 	The first argument may be one or more callers, the most recent ones.
 	The second argument is an additional callers.
 	This string is used to build a list of callers.
-	
+
 	[CHAR LIMIT=10]
     -->
 
@@ -1813,7 +1813,7 @@ limitations under the License.
 
     <!--
     String describing the icon in the call log used to play a voicemail.
-	
+
 	Note: AccessibilityServices use this attribute to announce what the view represents.
 	This is especially valuable for views without textual representation like ImageView.
     -->
@@ -1821,7 +1821,7 @@ limitations under the License.
 
     <!--
     String describing the icon in the call log used to represent an incoming call.
-	
+
 	Note: AccessibilityServices use this attribute to announce what the view represents.
 	This is especially valuable for views without textual representation like ImageView.
     -->
@@ -1829,7 +1829,7 @@ limitations under the License.
 
     <!--
     String describing the icon in the call log used to represent an outgoing call.
-	
+
 	Note: AccessibilityServices use this attribute to announce what the view represents.
 	This is especially valuable for views without textual representation like ImageView.
     -->
@@ -1838,7 +1838,7 @@ limitations under the License.
 
     <!--
     String describing the icon in the call log used to represent a missed call.
-	
+
 	Note: AccessibilityServices use this attribute to announce what the view represents.
 	This is especially valuable for views without textual representation like ImageView.
     -->
@@ -1847,7 +1847,7 @@ limitations under the License.
 
     <!--
     String describing the icon in the call log used to represent a voicemail left to the user.
-	
+
 	Note: AccessibilityServices use this attribute to announce what the view represents.
 	This is especially valuable for views without textual representation like ImageView.
     -->
@@ -1855,7 +1855,7 @@ limitations under the License.
 
     <!--
     String describing the button to add a contact for the current number.
-	
+
 	Note: AccessibilityServices use this attribute to announce what the view represents.
 	This is especially valuable for views without textual representation like ImageView.
     -->
@@ -1863,7 +1863,7 @@ limitations under the License.
 
     <!--
     String describing the button to view the contact for the current number.
-	
+
 	Note: AccessibilityServices use this attribute to announce what the view represents.
 	This is especially valuable for views without textual representation like ImageView.
     -->
@@ -1871,7 +1871,7 @@ limitations under the License.
 
     <!--
     String describing the button to call a number or contact.
-	
+
 	Note: AccessibilityServices use this attribute to announce what the view represents.
 	This is especially valuable for views without textual representation like ImageView.
     -->
@@ -1879,7 +1879,7 @@ limitations under the License.
 
     <!--
     String describing the button to SMS a number or contact.
-	
+
 	Note: AccessibilityServices use this attribute to announce what the view represents.
 	This is especially valuable for views without textual representation like ImageView.
 	[CHAR LIMIT=NONE]
@@ -1889,7 +1889,7 @@ limitations under the License.
     <!--
     String describing the icon in the call log used to represent an unheard voicemail left to
 	the user.
-	
+
 	Note: AccessibilityServices use this attribute to announce what the view represents.
 	This is especially valuable for views without textual representation like ImageView.
 	[CHAR LIMIT=NONE]
@@ -1898,7 +1898,7 @@ limitations under the License.
 
     <!--
     String describing the button to send a text message on quick contact.
-	
+
 	Note: AccessibilityServices use this attribute to announce what the view represents.
 	This is especially valuable for views without textual representation like ImageView.
 	[CHAR LIMIT=NONE]
@@ -1907,7 +1907,7 @@ limitations under the License.
 
     <!--
     String describing the text for a phone number in quick contact.
-	
+
 	Note: AccessibilityServices use this attribute to announce what the view represents.
 	This is especially valuable for views without textual representation like ImageView.
     -->
@@ -1915,7 +1915,7 @@ limitations under the License.
 
     <!--
     String describing the text for photo of a contact in a contacts list.
-	
+
 	Note: AccessibilityServices use this attribute to announce what the view represents.
 	This is especially valuable for views without textual representation like ImageView.
     -->
