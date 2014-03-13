@@ -313,7 +313,7 @@
     <string name="gemini_sim_info_editor_name_dup_title">Penyimpanan Gagal</string>
     <string name="gemini_sim_info_editor_name_dup_msg">Nama berulang untuk kad SIM</string>
     <string name="gemini_sim_info_editor_number">Masukkan Nombor Telefon</string>
-    <string name="gemini_sim_info_editor_color">Set warna latar belakang</string> 
+    <string name="gemini_sim_info_editor_color">Set warna latar belakang</string>
     <string name="gemini_sim_info_editor_number_display_format">Papar nombor</string>
     <string name="gemini_no_sim_indicator">Tiada kad SIM</string>
     <string name="gemini_sim_list_default_title">Senarai kad SIM</string>
@@ -396,7 +396,7 @@
     <!-- Label for the toast if user use eap-sim/aka in airplane mode -->
     <string name="eap_sim_aka_airplanemode">Sila tutup Mod Pesawat untuk gunakan EAP-SIM/AKA</string>
     <!-- Label for the toast if user use eap-sim/aka when sim card is absent -->
-    <string name="eap_sim_aka_no_sim_error">Anda mesti masukkan kad SIM untuk gunakan EAP-SIM/AKA</string>	
+    <string name="eap_sim_aka_no_sim_error">Anda mesti masukkan kad SIM untuk gunakan EAP-SIM/AKA</string>
     <!-- Label for the toast if user use eap-sim/aka when user don't select a sim slot -->
     <string name="eap_sim_aka_no_sim_slot_selected">Anda mesti pilih slot SIM untuk gunakan EAP-SIM/AKA</string>
     <!--for wifi security title-->
@@ -482,7 +482,7 @@
     <string name="tethering_apn_settings_title">Tetapan APN</string>
     <!-- Thethering apn settings menu -->
     <string name="tethering_apn_settings_summary">Konfigurasi APN untuk penambatan</string>
-    <string name="usb_tether_type_title">Jenis penambatan USB</string> 
+    <string name="usb_tether_type_title">Jenis penambatan USB</string>
     <string name="usb_connect_as_cdrom_category">"Sambung sebagai CD-ROM"</string>
 
     <!--Wi-Fi hotspot client management start -->
@@ -526,13 +526,13 @@
     <!--Wi-Fi hotspot client management end -->
 
     <string name="cpu_dtm_title">Mod Penjimatan Kuasa CPU</string>
-    <string name="cpu_dtm_summary">Hadkan prestasi maksimum CPU untuk memelihara hayat bateri dan merendahkan suhu peranti.</string>      
+    <string name="cpu_dtm_summary">Hadkan prestasi maksimum CPU untuk memelihara hayat bateri dan merendahkan suhu peranti.</string>
     <!-- Wifi Settings IPV4 and IPV6 -->
     <string name="wifi_advanced_ipv4_address_title">Alamat IPv4</string>
     <string name="wifi_advanced_ipv6_address_title">Alamat IPv6</string>
     <string name="wifi_ipv4_address">Alamat IPv4</string>
     <string name="wifi_ipv6_address">Alamat IPv6</string> 
-    
+
     <!-- MTK  datausage  start-->
     <string name="mtk_datausage_show_on_lockscreen">Tunjuk di Skrin Kunci</string>
     <string name="mtk_datausage_update">Kemaskini penggunaan data</string>
@@ -551,10 +551,10 @@
     <string name="display_personalize">Peribadikan</string>
     <string name="display_default">Paparan</string>
     <!-- Sound Enhanecement -->
-    <string name="sound_enhancement_title">Peningkatan Bunyi</string> 
+    <string name="sound_enhancement_title">Peningkatan Bunyi</string>
     <!-- Do not translate. -->
     <string name="music_plus_title" translatable="false">BesAudEnh</string>
-    <string name="music_plus_summary">Penambah audio untuk fon telinga</string> 
+    <string name="music_plus_summary">Penambah audio untuk fon telinga</string>
     <string name="auto_backlight_title">Cahaya Latar Ekonomi</string>
     <string name="auto_backlight_summary">Menyesuaikan cahaya latar untuk menjimatkan kuasa secara automatik</string>
 
@@ -575,7 +575,7 @@
     <string name="beam_share_history_title">Sejarah kongsi pancaran</string>
     <string name="beam_share_clear_confirm_dialog_title">Padam semua</string>
     <string name="beam_share_clear_confirm_dialog_message">Padam semua sejarah?</string>
-    <string name="beam_share_receive_fail_dialog_message">"<xliff:g id="file_name">%1$s</xliff:g> tidak berjaya diterima."</string>        
+    <string name="beam_share_receive_fail_dialog_message">"<xliff:g id="file_name">%1$s</xliff:g> tidak berjaya diterima."</string>
     <string name="beam_share_clear_item_dailog_title">Buang</string>
     <string name="beam_share_clear_item_dailog_message">Item akan dibuang.</string>
 
