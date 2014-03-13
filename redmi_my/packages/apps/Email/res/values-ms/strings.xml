@@ -793,14 +793,14 @@
     Additional diagnostic text when server connection failed due to our inability to support a
 	required EAS protocol version [CHAR LIMIT=none]
     -->
-    <string name="account_setup_failed_protocol_unsupported">	 Anda telah menaip alamat pelayan yang tidak tepat atau E-mel tidak menandungi versi protokol 
-	 yong diperlukan oleh pelayan."</string>
+    <string name="account_setup_failed_protocol_unsupported">    Anda telah menaip alamat pelayan yang tidak tepat atau E-mel tidak menandungi versi protokol
+     yong diperlukan oleh pelayan."</string>
     <!--
     Additional diagnostic text when server access was denied; the user should contact the
 	administrator of the server for more information [CHAR LIMIT=none]
     -->
-    <string name="account_setup_failed_access_denied">	 Anda tiada kebenaran untuk segerak dengan pelayan ini. Sila hubungi pertadbir 
-	 pelayan untuk maklumat lanjut."</string>
+    <string name="account_setup_failed_access_denied">	 Anda tiada kebenaran untuk segerak dengan pelayan ini. Sila hubungi pertadbir
+    pelayan untuk maklumat lanjut."</string>
 
     <!--
     Dialog title when validation requires security provisioning (e.g. support
@@ -809,38 +809,38 @@
     <string name="account_setup_security_required_title">Pentadbiran Sekuriti Jauh</string>
     <!--
     Additional diagnostic text when validation requires security provisioning (e.g. support
-	for device lock PIN, or remote wipe.) and we ask the user permission before continuing.
-	[CHAR LIMIT=none]
+    for device lock PIN, or remote wipe.) and we ask the user permission before continuing.
+    [CHAR LIMIT=none]
     -->
     <string name="account_setup_security_policies_required_fmt">     Pelayan ini <xliff:g id="server">%s</xliff:g> memerlukan keizinan 
         anda supaya ianya boleh dikawal jauh sesetengah ciri-ciri keselamatan daripada peranti Android anda. Adakah anda ingin menamatkan proses penyediaan akaun ini?</string>
     <!--
     Additional diagnostic text when validation failed due to required provisioning not
-	being supported [CHAR LIMIT=none]
+    being supported [CHAR LIMIT=none]
     -->
-    <string name="account_setup_failed_security_policies_unsupported">	 Peranti android anda tidak mengandungi ciri keselamatan yang diperlukan oleh pelayan, 
-	 termasuk: <xliff:g id="error">%s</xliff:g></string>
+    <string name="account_setup_failed_security_policies_unsupported">	 Peranti android anda tidak mengandungi ciri keselamatan yang diperlukan oleh pelayan,
+     termasuk: <xliff:g id="error">%s</xliff:g></string>
     <!-- The user name can only be changed during initial account setup. [CHAR LIMIT=none] -->
-    <string name="account_setup_username_uneditable_error">"Anda tidak boleh menukar ID pengguna akaun. 
+    <string name="account_setup_username_uneditable_error">"Anda tidak boleh menukar ID pengguna akaun.
 	 Untuk menambah akaun dengan ID pengguna yang lain, sila sentuh Tambah Akaun."</string>
     <!--
     Warning given to users when they request disabling device administration (i.e. that their
 	administered accounts will be deleted) [CHAR LIMIT=none]
     -->
-    <string name="disable_admin_warning">"AMARAN: Menyahaktifkan pihak berkuasa app E-mel untuk 
-	 mentadbir peranti anda akan membuang semua akaun E-mel yang memerlukannya, bersama dengan E-mel, kenalan, 
-	 peristiwa dalam kalendar, dan data lain."</string>
+    <string name="disable_admin_warning">"AMARAN: Menyahaktifkan pihak berkuasa app E-mel untuk
+     mentadbir peranti anda akan membuang semua akaun E-mel yang memerlukannya, bersama dengan E-mel, kenalan,
+     peristiwa dalam kalendar, dan data lain."</string>
 
     <!--
     Dialog shown when the account requires some amount of device security provisioning,
-	just before jumping into system settings such as Device Policy grant, PIN/password,
-	or encryption setup.  [CHAR_LIMIT=40]
+    just before jumping into system settings such as Device Policy grant, PIN/password,
+    or encryption setup.  [CHAR_LIMIT=40]
     -->
     <string name="account_security_dialog_title">Kemaskini sekuriti</string>
     <!--
     Additional diagnostic text when the account requires some amount of device security
-	provisioning, just before jumping into system settings such as Device Policy grant,
-	PIN/password, or encryption setup.  [CHAR LIMIT=none]
+    provisioning, just before jumping into system settings such as Device Policy grant,
+    PIN/password, or encryption setup.  [CHAR LIMIT=none]
     -->
     <string name="account_security_dialog_content_fmt"><xliff:g id="account">%s</xliff:g> memerlukan anda untuk mengemaskini tetapan sekuriti anda.</string>
 
@@ -852,17 +852,17 @@
     <string name="account_security_title">Sekuriti peranti</string>
     <!--
     Additional diagnostic text when the email app asserts control of the phone.
-	[CHAR LIMIT=none]
+    [CHAR LIMIT=none]
     -->
-    <string name="account_security_policy_explanation_fmt">	 Pelayan ini <xliff:g id="server">%s</xliff:g> memerlukan anda 
-	 membenarkannya untuk kawalan jauh sesetengah ciri-ciri sekuriti peranti Android anda.</string>
+    <string name="account_security_policy_explanation_fmt">	 Pelayan ini <xliff:g id="server">%s</xliff:g> memerlukan anda
+     membenarkannya untuk kawalan jauh sesetengah ciri-ciri sekuriti peranti Android anda.</string>
 
     <!-- "Setup could not finish" dialog action button -->
     <string name="account_setup_failed_dlg_edit_details_action">Edit butiran</string>
 
     <!-- Notification ticker when device password is getting ready to expire [CHAR_LIMIT=80] -->
-    <string name="password_expire_warning_ticker_fmt">		\"<xliff:g id="account">%s</xliff:g>\" memerlukan anda untuk menukar  
-		PIN atau kata laluan kunci skrin anda.</string>
+    <string name="password_expire_warning_ticker_fmt">		\"<xliff:g id="account">%s</xliff:g>\" memerlukan anda untuk menukar
+        PIN atau kata laluan kunci skrin anda.</string>
     <!--
     Notification content title when device password is getting ready to expire
 	[CHAR_LIMIT=30]
@@ -882,8 +882,8 @@
     <!-- Dialog title if device pin/password has already expired. [CHAR_LIMIT=40] -->
     <string name="password_expired_dialog_title">Kata laluan untuk kunci skrin telah luput</string>
     <!-- Dialog content device pin/password has already expired. [CHAR_LIMIT=none] -->
-    <string name="password_expired_dialog_content_fmt">	 Data dalam <xliff:g id="account">%s</xliff:g> sedang dipadam dari peranti anda. 
-	 Anda boleh memulihkanya dengan menukar PIN atau kata laluan kunci skrin anda. Tukarkannya sekarang?</string>
+    <string name="password_expired_dialog_content_fmt">	 Data dalam <xliff:g id="account">%s</xliff:g> sedang dipadam dari peranti anda.
+     Anda boleh memulihkanya dengan menukar PIN atau kata laluan kunci skrin anda. Tukarkannya sekarang?</string>
 
     <!--
     On AccountSettingsXL, dialog text if you try to exit in/out/eas fragment (server settings)
@@ -1019,10 +1019,10 @@
     <string name="toast_mailbox_not_found">"Folder tidak dijumpai. Ia berkemungkinan telah dibuang."</string>
 
     <!-- Message that appears when adding a Windows Live Hotmail Plus account -->
-    <string name="provider_note_live">"Hanya sesetengah akaun \"Plus\" termasuk akses POP 
-	membenarkan program ini untuk berhubung. Jika anda tidak dapat mendaftar masuk 
+    <string name="provider_note_live">"Hanya sesetengah akaun \"Plus\" termasuk akses POP
+	membenarkan program ini untuk berhubung. Jika anda tidak dapat mendaftar masuk
 	dengan alamat E-mel dan kata laluan yang tepat, anda berkemungkinan tidak membayar untuk akaun
-	\"Plus\". Sila buka pelayar web untuk mendapatkan akses terhadap akaun-akaun 
+	\"Plus\". Sila buka pelayar web untuk mendapatkan akses terhadap akaun-akaun
 	E-mel tersebut."</string>
     <!-- Message that appears when adding a T-Online account -->
     <string name="provider_note_t_online">Sebelum penyediaan akaun E-mel ini, sila layari laman web T-Online dan cipta kata laluan untuk mengakses E-mel POP3.</string>
