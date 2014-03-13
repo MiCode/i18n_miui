@@ -813,7 +813,7 @@
     [CHAR LIMIT=none]
     -->
     <string name="account_setup_security_policies_required_fmt">     Pelayan ini <xliff:g id="server">%s</xliff:g> memerlukan keizinan
-        anda supaya ianya boleh dikawal jauh sesetengah ciri-ciri keselamatan daripada peranti Android anda. Adakah anda ingin menamatkan proses penyediaan akaun ini?</string>
+    anda supaya ianya boleh dikawal jauh sesetengah ciri-ciri keselamatan daripada peranti Android anda. Adakah anda ingin menamatkan proses penyediaan akaun ini?</string>
     <!--
     Additional diagnostic text when validation failed due to required provisioning not
     being supported [CHAR LIMIT=none]
@@ -822,10 +822,10 @@
      termasuk: <xliff:g id="error">%s</xliff:g></string>
     <!-- The user name can only be changed during initial account setup. [CHAR LIMIT=none] -->
     <string name="account_setup_username_uneditable_error">"Anda tidak boleh menukar ID pengguna akaun.
-	 Untuk menambah akaun dengan ID pengguna yang lain, sila sentuh Tambah Akaun."</string>
+     Untuk menambah akaun dengan ID pengguna yang lain, sila sentuh Tambah Akaun."</string>
     <!--
     Warning given to users when they request disabling device administration (i.e. that their
-	administered accounts will be deleted) [CHAR LIMIT=none]
+    administered accounts will be deleted) [CHAR LIMIT=none]
     -->
     <string name="disable_admin_warning">"AMARAN: Menyahaktifkan pihak berkuasa app E-mel untuk
      mentadbir peranti anda akan membuang semua akaun E-mel yang memerlukannya, bersama dengan E-mel, kenalan,
