@@ -13,7 +13,7 @@
         <item>Peratusan</item>
         <item>Bar teratas</item>
     </string-array>
-    
+
     <string-array name="usb_connection_mode_entries">
         <item>Tanya apabila sambungan</item>
         <item>Cas sahaja</item>

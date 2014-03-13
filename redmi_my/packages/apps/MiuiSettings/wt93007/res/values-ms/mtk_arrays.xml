@@ -18,7 +18,7 @@
 */
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-        
+
 <!-- Add by MTK SIM Management Settings-->
     <!-- SIM number display format -->
     <string-array name="gemini_sim_info_number_display_format_entries">
@@ -36,7 +36,7 @@
         <!-- Do not translate. -->
         <item  translatable="false">0</item>
     </string-array>
-    
+
     <!-- Show roaming reminder  -->
     <string-array name="gemini_sim_roaming_reminder_entries">
         <item>Sekali</item>
@@ -49,7 +49,7 @@
         <item translatable="false">1</item>
         <item translatable="false">2</item>
     </string-array>
-    
+
     <!-- GSM/UMTS Options strings -->
     <string-array name="gsm_umts_network_preferences_choices">
         <item>GSM/WCDMA (mod auto)</item>
@@ -61,7 +61,7 @@
         <item translatable="false">"2"</item>
         <item translatable="false">"1"</item>
         <!--<item>"3"</item>-->
-    </string-array>	
+    </string-array>
 <!-- End of Sim Management Settings-->
 
     <string-array name="wifi_connect_type_entries">
@@ -123,16 +123,16 @@
     </string-array>
 
     <string-array name ="network_use_entry">
-    	<item>Kediaman sahaja</item>
-    	<item>Kediaman + Perayauan</item>
+        <item>Kediaman sahaja</item>
+        <item>Kediaman + Perayauan</item>
     </string-array>
 
 <!--Add for MTK DateTime Settings-->
     <!-- For auto time sync values -->
     <string-array name="auto_time_entries">
-    	<item>Guna waktu dibekalkan-rangkaian</item>
-    	<item>Guna waktu dibekalkan-GPS</item>
-    	<item>Off</item>
+        <item>Guna waktu dibekalkan-rangkaian</item>
+        <item>Guna waktu dibekalkan-GPS</item>
+        <item>Off</item>
     </string-array>
 <!--End of MTK DateTime Settings-->
 
@@ -163,10 +163,10 @@
         <item>supl</item>
         <item>wap</item>
         <item>tethering</item>
-    </string-array>    
+    </string-array>
     <string-array name="apn_type_orange_tethering_only" translatable="false">
         <item>tethering</item>
-    </string-array>    
+    </string-array>
     <string-array name="hdmi_video_resolution_entries">
         <item>Auto</item>
         <item>720P</item>
@@ -231,11 +231,11 @@
         <item>3</item>
     </string-array>
     <!-- MT8193 deep color table
-	HDMI_DEEP_COLOR_AUTO=0, 0	
-	HDMI_NO_DEEP_COLOR,	      1
- 	HDMI_DEEP_COLOR_10_BIT,	2
- 	HDMI_DEEP_COLOR_12_BIT,	3
-    	-->
+    HDMI_DEEP_COLOR_AUTO=0, 0
+    HDMI_NO_DEEP_COLOR,1
+    HDMI_DEEP_COLOR_10_BIT,2
+    HDMI_DEEP_COLOR_12_BIT,3
+-->
     <string-array name="hdmi_deep_color_entries">
         <item>8bit</item>
         <item>Auto</item>
@@ -299,7 +299,7 @@
         <!-- Do not keep Wi-Fi on when screen turns off. -->
         <item>Matikan apabila terbiar selama 10 min</item>
     </string-array>
-    <!-- Match with wifi_hotspot_disable_policy_entries and the values of the settings in Settings class. --> 
+    <!-- Match with wifi_hotspot_disable_policy_entries and the values of the settings in Settings class. -->
     <!-- Do not translate. -->
     <string-array name="wifi_hotspot_disable_policy_values">
         <!-- Do not translate. -->
@@ -318,7 +318,7 @@
         <item>0</item>
         <item>1</item>
     </string-array>
-    
+
     <!-- Do not translate. -->
     <string-array name="usb_tether_type_entries">
         <!-- Do not translate. -->
