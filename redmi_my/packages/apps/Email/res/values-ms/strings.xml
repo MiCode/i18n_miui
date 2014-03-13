@@ -812,7 +812,7 @@
     for device lock PIN, or remote wipe.) and we ask the user permission before continuing.
     [CHAR LIMIT=none]
     -->
-    <string name="account_setup_security_policies_required_fmt">     Pelayan ini <xliff:g id="server">%s</xliff:g> memerlukan keizinan 
+    <string name="account_setup_security_policies_required_fmt">     Pelayan ini <xliff:g id="server">%s</xliff:g> memerlukan keizinan
         anda supaya ianya boleh dikawal jauh sesetengah ciri-ciri keselamatan daripada peranti Android anda. Adakah anda ingin menamatkan proses penyediaan akaun ini?</string>
     <!--
     Additional diagnostic text when validation failed due to required provisioning not
