@@ -76,11 +76,11 @@
     <string name="dialog_file_missing_body">Fail yang telah dimuat turun tidak dijumpai.</string>
     <!-- Text for dialog when user clicks on a download that failed due to insufficient space on
          external storage [CHAR LIMIT=200] -->
-    <string name="dialog_insufficient_space_on_external">Muat turun tidak dapat dihabiskan. Tiada ruang yang 
+    <string name="dialog_insufficient_space_on_external">Muat turun tidak dapat dihabiskan. Tiada ruang yang
     mencukupi pada storan luaran anda.</string>
     <!-- Text for dialog when user clicks on a download that failed due to insufficient space on
          the internal download cache [CHAR LIMIT=200] -->
-    <string name="dialog_insufficient_space_on_cache">Muat turun tidak dapat dihabiskan. Tiada ruang yang 
+    <string name="dialog_insufficient_space_on_cache">Muat turun tidak dapat dihabiskan. Tiada ruang yang
     mencukupi pada storan dalaman anda.</string>
     <!-- Text for dialog when user clicks on a download that failed because it was interrupted and
          the server doesn't support resuming downloads [CHAR LIMIT=200] -->
