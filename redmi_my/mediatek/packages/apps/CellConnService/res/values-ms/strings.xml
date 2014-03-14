@@ -1,48 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-	<string name="app_name">CellConnectionService</string>
-	<string name="button_ok">OK</string>
-	<string name="button_cancel">Batal</string>
-	<string name="confirm_radio_title">SIM telah dimatikan</string>
-	<string name="confirm_radio_msg">
-		<xliff:g id="operator_name" example="CMCC">%1$s</xliff:g>
-		telah dimatikan. Adakah anda ingin aktifkan kad SIM ini?
-	</string>
-	<string name="confirm_radio_flight_mode_on_and_msg">
-		Mod Pesawat telah On dan
-  </string>
-	<string name="confirm_radio_flight_mode_on_sim_off_msg">
-		<xliff:g id="operator_name" example="CMCC"> %1$s</xliff:g>
-		telah dimatikan. Adakah anda ingin mematikan Mod Pesawat dan aktifkan kad SIM ini?
-	</string>
-	<string name="confirm_radio_flight_mode_on_sim_on_msg">
-   Matikan Mod Pesawat? 
-  </string>  
-	<string name="confirm_radio_msg_single">
-		Matikan Mod Pesawat?
-	</string>
-	<string name="confirm_pin_title">Kad SIM dikunci</string>
-	<string name="confirm_pin_msg">Kad SIM terpilih dikunci.</string>
-	<string name="confirm_simmelock_title">SIM ME dikunci</string>
-	<string name="confirm_simmelock_msg">Slot SIM terpilih dikunci.</string>
-	<string name="confirm_fdn_title">FDN didayakan</string>
-	<string name="confirm_fdn_msg">Nombor-nombor dail tetap telah didayakan.</string>
-	<string name="confirm_roaming_title">Amaran perayauan</string>
-	<string name="confirm_roaming_msg">Kad SIM yang anda gunakan kini diperayauan. The SIM card that you are about to use is
-		now roaming. Anda mungkin dikenakan caj tambahan. Adakah anda ingin teruskan?</string>
-  <string name="confirm_roaming_withPrefer_msg">
-    Kad SIM yang anda gunakan kini
-    diperayauan. Sebaliknya adakah anda ingin menggunakan kad SIM tempatan?
-  </string>
-  <string name="confirm_roaming_lbutton">Teruskan</string>
-  <string name="confirm_roaming_rbutton">Batal</string>
-  <string name="confirm_roamingWithPrefer_lbutton">SIM tempatan</string>
-  <string name="confirm_roamingWithPrefer_rbutton">SIM perayauan</string>
-	<string name="confirm_radio_lbutton">Hidupkan</string>
-	<string name="confirm_unlock_lbutton">Buka</string>
-	<string name="confirm_unlock_fail">Dibatalkan</string>
-	<string name="confirm_turnon_radio_fail">Dibatalkan</string>
-	<string name="confirm_permit_roaming_fail">Anda telah membatalkan tindakan ini ke atas kad SIM perayauan.</string>
-	<string name="confirm_sim_locked_message">Kad SIM telah dikunci secara kekal.</string>
+
+    <string name="app_name">CellConnectionService</string>
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Batal</string>
+    <string name="confirm_radio_title">SIM telah dimatikan</string>
+    <string name="confirm_radio_msg"><xliff:g id="operator_name" example="CMCC">%1$s</xliff:g>telah dimatikan. Adakah anda ingin aktifkan kad SIM ini?</string>
+    <string name="confirm_radio_flight_mode_on_and_msg">Mod Pesawat telah On dan</string>
+    <string name="confirm_radio_flight_mode_on_sim_off_msg"><xliff:g id="operator_name" example="CMCC"> %1$s</xliff:g>telah dimatikan. Adakah anda ingin mematikan Mod Pesawat dan aktifkan kad SIM ini?</string>
+    <string name="confirm_radio_flight_mode_on_sim_on_msg">   Matikan Mod Pesawat? </string>
+    <string name="confirm_radio_msg_single">Matikan Mod Pesawat?</string>
+    <string name="confirm_pin_title">Kad SIM dikunci</string>
+    <string name="confirm_pin_msg">Kad SIM terpilih dikunci.</string>
+    <string name="confirm_simmelock_title">SIM ME dikunci</string>
+    <string name="confirm_simmelock_msg">Slot SIM terpilih dikunci.</string>
+    <string name="confirm_fdn_title">FDN didayakan</string>
+    <string name="confirm_fdn_msg">Nombor-nombor dail tetap telah didayakan.</string>
+    <string name="confirm_roaming_title">Amaran perayauan</string>
+    <string name="confirm_roaming_msg">Kad SIM yang anda gunakan kini diperayauan. The SIM card that you are about to use is
+        now roaming. Anda mungkin dikenakan caj tambahan. Adakah anda ingin teruskan?</string>
+    <string name="confirm_roaming_withPrefer_msg">    Kad SIM yang anda gunakan kini
+    diperayauan. Sebaliknya adakah anda ingin menggunakan kad SIM tempatan?</string>
+    <string name="confirm_roaming_lbutton">Teruskan</string>
+    <string name="confirm_roaming_rbutton">Batal</string>
+    <string name="confirm_roamingWithPrefer_lbutton">SIM tempatan</string>
+    <string name="confirm_roamingWithPrefer_rbutton">SIM perayauan</string>
+    <string name="confirm_radio_lbutton">Hidupkan</string>
+    <string name="confirm_unlock_lbutton">Buka</string>
+    <string name="confirm_unlock_fail">Dibatalkan</string>
+    <string name="confirm_turnon_radio_fail">Dibatalkan</string>
+    <string name="confirm_permit_roaming_fail">Anda telah membatalkan tindakan ini ke atas kad SIM perayauan.</string>
+    <string name="confirm_sim_locked_message">Kad SIM telah dikunci secara kekal.</string>
     <string name="confirm_slot_locked_message">Slot SIM telah dikunci secara kekal.</string>
+
 </resources>

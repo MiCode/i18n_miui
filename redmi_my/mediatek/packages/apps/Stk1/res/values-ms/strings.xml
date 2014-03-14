@@ -88,17 +88,13 @@
     <string name="lable_submit_multimedia_message">Submit multimedia message</string>
     <string name="lable_display_multimedia_message">Display multimedia message</string>
     <string name="lable_activate">Activate</string>
-    
+
     <string name="action_launch_browser">Launch browser</string>
     <string name="action_setup_call">Dial</string>
-    
     <string name="lable_busy_on_bip">App is busy on BIP commands, please try again later.</string>
-    
     <string name="main_menu_not_initialized">Main menu is not initialized</string>
-    
     <string name="lable_busy_on_call">The phone is busy on call, please finish the call first</string>
-    
     <string name="lable_on_flight_mode">This app can not be used when Airplane mode is on</string>
-    <string name="lable_sim_not_ready">SIM Toolkit is not ready or unsupported</string>    
+    <string name="lable_sim_not_ready">SIM Toolkit is not ready or unsupported</string>
     <string name="cu_usimapp_name">USIM卡应用</string>
 </resources>
