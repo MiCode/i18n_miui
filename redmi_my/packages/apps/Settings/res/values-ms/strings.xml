@@ -3051,9 +3051,9 @@ limitations under the License.
 	<skip />
 	
 	<!-- Settings title in main settings screen for accessibility settings -->
-	<string name="accessibility_settings">Kebolehcapaian</string>
+	<string name="accessibility_settings">Aksesibiliti</string>
 	<!-- Settings title for accessibility settings screen -->
-	<string name="accessibility_settings_title">Tetapan Kebolehcapaian</string>
+	<string name="accessibility_settings_title">Tetapan Aksesibiliti</string>
 	
 	<!--  Title for the accessibility preference category of accessibility services. [CHAR LIMIT=25] -->
 	<string name="accessibility_services_title">Servis</string>
@@ -3065,13 +3065,13 @@ limitations under the License.
     <!-- Summary for the accessibility preference screen to enable screen magnification. [CHAR LIMIT=none] -->
     <string name="accessibility_screen_magnification_summary">Apabila ciri ini dihidupkan, anda boleh zum masuk dan keluar dengan mengetuk skrin tiga kali.\n\nKetika zum masuk, anda boleh:\n<ul><li>Pan: Seret dua atau lebih jari di skrin.</li>\n<li>Laras aras zum: Picit dua atau lebih jari bersama-sama atau disebarkan mereka terpisah.</li></ul>\n\nAnda boleh membesarkan sementara apa yang dibawah jari anda dengan mengetuk tiga kali dan pegang. Dalam keadaan diperbesarkan ini, anda boleh menyeret jari anda untuk meneroka bahagian yang berlainan di skrin. Angkat jari anda untuk kembali ke keadaan anda sebelum ini.\n\nNota: Ketuk tiga kali untuk kerja-kerja pembesaran di mana-mana kecuali papan kekunci dan navigasi bar.</string>
     <!-- Title for the preference to enable the global geture that turns on accessibility. [CHAR LIMIT=35] -->
-    <string name="accessibility_global_gesture_preference_title">Pintasan Kebolehcapaian</string>
+    <string name="accessibility_global_gesture_preference_title">Pintasan Aksesibiliti</string>
     <!-- Summary for the preference to enable the global geture that turns on accessibility (on state). [CHAR LIMIT=60] -->
     <string name="accessibility_global_gesture_preference_summary_on">Buka</string>
     <!-- Summary for the preference screen to enable the global geture that turns on accessibility (off state). [CHAR LIMIT=35] -->
     <string name="accessibility_global_gesture_preference_summary_off">Tutup</string>
     <!--  Description for the preference screen to enable the global geture taht turns on accessibility. [CHAR LIMIT=none] -->
-    <string name="accessibility_global_gesture_preference_description">Ketika ciri ini dibuka, anda boleh hidupkan ciri kebolehcapaian dengan cepat dalam dua langkah:\n\nLangkah 1: Tekan dan pegang butang power sehingga anda dengar bunyi atau rasa getaran.\n\nLangkah 2: Sentuh dan pegang dua jari sehingga anda dengar pengesahan audio.\n\nJika peranti mempunyai berbilang pengguna, guna pintasan ini di skrin kunci sementara waktu menghidupkan kebolehcapaian sehingga peranti dibuka kunci.</string>
+    <string name="accessibility_global_gesture_preference_description">Ketika ciri ini dibuka, anda boleh hidupkan ciri aksesibiliti dengan cepat dalam dua langkah:\n\nLangkah 1: Tekan dan pegang butang power sehingga anda dengar bunyi atau rasa getaran.\n\nLangkah 2: Sentuh dan pegang dua jari sehingga anda dengar pengesahan audio.\n\nJika peranti mempunyai berbilang pengguna, guna pintasan ini di skrin kunci sementara waktu menghidupkan aksesibiliti sehingga peranti dibuka kunci.</string>
     <!-- Title for the accessibility preference to enable large text. [CHAR LIMIT=35] -->
     <string name="accessibility_toggle_large_text_preference_title">Teks Besar</string>
     <!-- Title for the accessibility preference to enable screen magnification. [CHAR LIMIT=35] -->
@@ -3089,7 +3089,7 @@ limitations under the License.
 	<!-- Title for accessibility preference to choose long-press delay i.e. timeout before it is detected. [CHAR LIMIT=35] -->
 	<string name="accessibility_long_press_timeout_title">Sentuh &amp; pegang kelewatan</string>
 	<!-- Title for accessibility preference to install accessibility scripts from Google. [CHAR LIMIT=35] -->
-	<string name="accessibility_script_injection_title">Meningkatkan kebolehcapaian web</string>
+	<string name="accessibility_script_injection_title">Meningkatkan aksesibiliti web</string>
 	
 	<!-- Title for accessibility menu item to lauch a settings activity. [CHAR LIMIT=15] -->
 	<string name="accessibility_menu_item_settings">Tetapan</string>

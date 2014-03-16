@@ -545,7 +545,7 @@
 	<string name="pref_default_text_encoding_dialogtitle">Pengekodan teks</string>
 
 	<!-- Title for accessibility settings [CHAR LIMIT=25] -->
-	<string name="pref_accessibility_title">Kebolehcapaian</string>
+	<string name="pref_accessibility_title">Aksesibiliti</string>
 	<!-- Font size settings category under accessibility settings [CHAR LIMIT=50] -->
 	<string name="pref_font_size_category">Saiz teks</string>
 	<!-- Title for lab settings [CHAR LIMIT=25] -->
