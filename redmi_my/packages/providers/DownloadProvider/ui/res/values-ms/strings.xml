@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2010 The Android Open Source Project
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2010 The Android Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -12,118 +12,43 @@
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
      See the License for the specific language governing permissions and
      limitations under the License.
--->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- The name of the application that appears in the launcher [CHAR LIMIT=15] -->
-    <string name="app_label">Muat Turun</string>
-    <!-- The title that appears at the top of the activity listing downloads [CHAR LIMIT=25] -->
-    <string name="download_title">Muat Turun</string>
-    <!-- The title that appears at the top of the activity listing downloads sorted by date [CHAR LIMIT=40] -->
-    <string name="download_title_sorted_by_date">Muat Turun - Susun mengikut tarikh</string>
-    <!-- The title that appears at the top of the activity listing downloads sorted by size [CHAR LIMIT=40] -->
-    <string name="download_title_sorted_by_size">Muat Turun - Susun mengikut saiz</string>
+ -->
 
-    <!-- Appears in lieu of the list of downloads if there are no downloads to view
-         [CHAR LIMIT=200] -->
-    <string name="no_downloads">Tiada muat turun</string>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label" msgid="3070921713463294774">"Muat turun"</string>
+    <string name="download_title_sorted_by_date" msgid="5898014492155434221">"Muat turun - Diisih mengikut tarikh"</string>
+    <string name="download_title_sorted_by_size" msgid="1417193166677094813">"Muat turun - Diisih mengikut saiz"</string>
+    <string name="no_downloads" msgid="1029667411186146836">"Tiada muat turun."</string>
+    <string name="missing_title" msgid="830115697868833773">"&lt;Tidak  diketahui&gt;"</string>
+    <string name="button_sort_by_size" msgid="7331549713691146251">"Isih mengikut saiz"</string>
+    <string name="button_sort_by_date" msgid="8800842892684101528">"Isih mengikut tarikh"</string>
+    <string name="download_queued" msgid="104973307780629904">"Baris gilir"</string>
+    <string name="download_running" msgid="4656462962155580641">"Sdg dijlnkn"</string>
+    <string name="download_success" msgid="7006048006543495236">"Selesai"</string>
+    <string name="download_error" msgid="3107369653921738690">"Gagal"</string>
+    <string name="dialog_title_not_available" msgid="4479021195995400471">"Muat Turun Gagal"</string>
+    <string name="dialog_failed_body" msgid="587545111677064427">"Adakah anda mahu mencuba semula muat turun fail kemudian atau memadamnya dari baris gilir?"</string>
+    <string name="dialog_title_queued_body" msgid="3062862079904954824">"Fail belum lagi tersedia"</string>
+    <string name="dialog_queued_body" msgid="2506935748423351902">"Fail ini dibaris gilir untuk muat turun akan datang."</string>
+    <string name="dialog_file_missing_body" msgid="2783781332668129395">"Fail yang telah dimuat turun tidak dapat ditemui."</string>
+    <string name="dialog_insufficient_space_on_external" msgid="7534108515812329821">"Tidak dapat menyelesaikan muat turun. Ruang pada storan luaran tidak mencukupi."</string>
+    <string name="dialog_insufficient_space_on_cache" msgid="8387210487235302129">"Tidak dapat menyelesaikan muat turun. Ruang pada storan muat turun dalaman tidak mencukupi."</string>
+    <string name="dialog_cannot_resume" msgid="7704082031608361756">"Muat turun terganggu. Ia tidak boleh disambung semula."</string>
+    <string name="dialog_file_already_exists" msgid="2663737850617642888">"Tidak boleh memuat turun. Fail destinasi sudah pun wujud."</string>
+    <string name="dialog_media_not_found" msgid="5308602145105720991">"Tidak memuat turun. Media luaran tidak tersedia."</string>
+    <string name="download_no_application_title" msgid="3501359021635168387">"Tidak boleh membuka fail"</string>
+    <string name="remove_download" msgid="6372920256257247857">"Alih keluar"</string>
+    <string name="delete_download" msgid="76629022653866471">"Padam"</string>
+    <string name="keep_queued_download" msgid="5144882786014818569">"Simpan"</string>
+    <string name="cancel_running_download" msgid="5232704030969221112">"Batal"</string>
+    <string name="retry_download" msgid="7617100787922717912">"Cuba semula"</string>
+    <string name="deselect_all" msgid="7986832738563338661">"Nyahpilih Semua"</string>
+    <string name="select_all" msgid="5854385570247421586">"Pilih Semua"</string>
+    <string name="selected_count" msgid="2101564570019753277">"Pilihan <xliff:g id="NUMBER">%1$d</xliff:g> dari <xliff:g id="TOTAL">%2$d</xliff:g>"</string>
+    <string name="download_share_dialog" msgid="3355867339806448955">"Kongsi melalui"</string>
 
-    <!-- Default title for an item in the download list for which no title was provided by the app.
-         [CHAR LIMIT=20] -->
-    <string name="missing_title">&lt;Tidak diketahui&gt;</string>
-
-    <!-- Button to display sort-by-size option [CHAR LIMIT=25] -->
-    <string name="button_sort_by_size">Susun mengikut saiz</string>
-    <!-- Button to display sort-by-date option [CHAR LIMIT=25] -->
-    <string name="button_sort_by_date">Susun mengikut tarikh</string>
-
-    <!-- Status messages -->
-
-    <!-- Status indicating that the download has been queued to start in the future.  Appears for an
-         individual item in the download list.  [CHAR LIMIT=11] -->
-    <string name="download_queued">Beratur</string>
-    <!-- Status indicating that the system is currently downloading the file.  Appears for an
-         individual item in the download list.  [CHAR LIMIT=11] -->
-    <string name="download_running">Sedang berjalan</string>
-    <!-- Status indicating that the download has completed successfully. Appears for an individual
-         item in the download list.  [CHAR LIMIT=11] -->
-    <string name="download_success">Selesai</string>
-    <!-- Status indicating that the download has ended without completing successfully.  Appears for
-         an individual item in the download list.  [CHAR LIMIT=11] -->
-    <string name="download_error">Gagal</string>
-    <!-- Status indicating that the download has ended due to insufficient space.  Appears for
-         an individual item in the download list.  [CHAR LIMIT=11] -->
-    <string name="download_error_insufficient_space">Ruang tidak mencukupi</string>
-
-    <!-- Dialog/toast messages -->
-
-    <!-- Title of dialog that is shown when the user clicks a download for which no file is
-         available, either because the download hasn't started or because the download failed
-         [CHAR LIMIT=25] -->
-    <string name="dialog_title_not_available">Muat turun Gagal</string>
-    <!-- Text for dialog when user clicks on a download that failed [CHAR LIMIT=200] -->
-    <string name="dialog_failed_body">Adakah anda ingin untuk mencuba semula muat turun fail
-    kemudian atau memadamnya dari barisan?</string>
-    <!-- Title for dialog when user clicks on a download that has not yet begun, but will be started
-         in the future. [CHAR LIMIT=25] -->
-    <string name="dialog_title_queued_body">Fail belum tersedia</string>
-    <!-- Text for dialog when user clicks on a download that has not yet begun, but will be started
-         in the future. [CHAR LIMIT=200] -->
-    <string name="dialog_queued_body">Fail ini beratur untuk dimuat turun kemudian.</string>
-    <!-- Title for dialog when user clicks on a completed download but the file is missing-->
-    <string name="dialog_file_missing_title">Gagal untuk membuka fail</string>
-    <!-- Text for dialog when user clicks on a completed download but the file is missing
-         [CHAR LIMIT=200] -->
-    <string name="dialog_file_missing_body">Fail yang telah dimuat turun tidak dijumpai.</string>
-    <!-- Text for dialog when user clicks on a download that failed due to insufficient space on
-         external storage [CHAR LIMIT=200] -->
-    <string name="dialog_insufficient_space_on_external">Muat turun tidak dapat dihabiskan. Tiada ruang yang
-    mencukupi pada storan luaran anda.</string>
-    <!-- Text for dialog when user clicks on a download that failed due to insufficient space on
-         the internal download cache [CHAR LIMIT=200] -->
-    <string name="dialog_insufficient_space_on_cache">Muat turun tidak dapat dihabiskan. Tiada ruang yang
-    mencukupi pada storan dalaman anda.</string>
-    <!-- Text for dialog when user clicks on a download that failed because it was interrupted and
-         the server doesn't support resuming downloads [CHAR LIMIT=200] -->
-    <string name="dialog_cannot_resume">Download turun terganggu, tidak boleh disambung semula.</string>
-    <!-- Text for dialog when user clicks on a download that failed because the requested
-         destination file already exists [CHAR LIMIT=200] -->
-    <string name="dialog_file_already_exists">Tidak dapat muat turun, destinasi fail tersebut telah wujud.
-    </string>
-    <!-- Text for dialog when user clicks on a download that failed because it was requested to go
-         on the external media, which is not mounted [CHAR LIMIT=200] -->
-    <string name="dialog_media_not_found">Tidak dapat muat turun. Media luaran tidak tersedia.
-    </string>
-    <!-- Text for a toast appearing when a user clicks on a completed download, informing the user
-         that there is no application on the device that can open the file that was downloaded
-         [CHAR LIMIT=200] -->
-    <string name="download_no_application_title">Fail tidak dapat dibuka</string>
-
-    <!-- Buttons -->
-
-    <!-- Text for button to remove the entry for a download that has not yet begun or that has
-         failed [CHAR LIMIT=25] -->
-    <string name="remove_download">Buang</string>
-    <!-- Text for button to delete a download that has completed, or to delete multiple download
-         entries [CHAR LIMIT=25] -->
-    <string name="delete_download">Padam</string>
-    <!-- Text for button to keep a download that has not yet begun [CHAR LIMIT=25] -->
-    <string name="keep_queued_download">Keep</string>
-    <!-- Text for button to cancel a download that is currently in progress [CHAR LIMIT=25] -->
-    <string name="cancel_running_download">Batal</string>
-    <!-- Text for button appearing in a dialog to restart a download, either one that failed or one
-         for which the downloaded file is now missing [CHAR LIMIT=25] -->
-    <string name="retry_download">Cuba semula</string>
-    <!-- Text for button appearing in the pop-up selection menu to deselect all currently selected
-    downloads in the download list [CHAR LIMIT=25] -->
-    <string name="deselect_all">Nyahpilih semua</string>
-    <!-- Text for menu to select all downloads in the download list [CHAR LIMIT=25] -->
-    <string name="select_all">Pilih Semua</string>
-    <!-- number of downloads selected [CHAR LIMIT=50] -->
-    <string name="selected_count">Dipilih <xliff:g id="number" example="3">%1$d</xliff:g> daripada <xliff:g id="total" example="15">%2$d</xliff:g></string>
-    <!-- title shown when displaying list of apps to choose from when share is clicked on
-        [CHAR LIMIT = 20] -->
-    <string name="download_share_dialog">Kongsi melalui</string>
-
+    <!-- Added by MIUI -->
     <string name="download_when_network_connected">"Muat turun menggunakan rangkaian Mudah alih"</string>
 
     <string name="download_paused">"Muat turun dihentikan seketika"</string>

@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2008 The Android Open Source Project
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2008 The Android Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -12,21 +12,14 @@
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
      See the License for the specific language governing permissions and
      limitations under the License.
--->
+ -->
 
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label" product="tablet" msgid="9194799012395299737">"Konfigurasi Rangkaian Mudah Alih"</string>
+    <string name="app_label" product="default" msgid="4282451239358791628">"Storan Telefon/Pemesejan"</string>
 
-    <!-- Official label of the TelephonyProvider, as seen in the "Manage
-         Applications" UI.  This is the version of the label for tablet
-         devices, where the TelephonyProvider stores configuration info
-         about the mobile data network. [CHAR LIMIT=40] -->
-    <string name="app_label" product="tablet">Konfigurasi Rangkaian Mudah Alih</string>
-
-    <!-- Official label of the TelephonyProvider, as seen in the "Manage
-         Applications" UI.  The TelephonyProvider stores configuration
-         info about the carrier and cell network, and also provides
-         storage for SMS and MMS messages. [CHAR LIMIT=25] -->
-    <string name="app_label" product="default">Penyimpanan Telefon/Mesej</string>
+    <!-- Added by MIUI -->
 
     <string name="sms_provider_label">SMS</string>
     <string name="mms_provider_label">MMS</string>
