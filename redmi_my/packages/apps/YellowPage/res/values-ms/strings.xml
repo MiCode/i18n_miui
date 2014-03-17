@@ -11,9 +11,10 @@
     <string name="network_unavaliable">Gagal berhubung ke rangkaian</string>
     <string name="service_unavailiable">Servis tidak tersedia</string>
     <string name="data_error">Ralat berlaku</string>
+    <string name="locating_fail">Gagal kesan lokasi, sila periksa servis lokasi atau cuba lagi</string>
 
     <!-- YellowPage related -->
-    <string name="yellow_page_detail_title">Tentang</string>
+    <string name="yellow_page_detail_title">Mengenai</string>
     <string name="yellow_page_call_log_title">Log panggilan</string>
     <string name="yellow_page_website">Laman web rasmi</string>
     <string name="menu_copy_text">Salin ke klipbod</string>
@@ -29,7 +30,7 @@
 
     <!-- Call log related -->
     <string name="callrecordview_item_newcontact">Kenalan baru</string>
-    <string name="callrecordview_item_op_time_minutes_seconds">%1$d minit %2$d saatc</string>
+    <string name="callrecordview_item_op_time_minutes_seconds">%1$d minit %2$d saat</string>
     <string name="callrecordview_item_op_time_only_minutes">%d minit</string>
     <string name="callrecordview_item_op_time_only_seconds">%d saat</string>
     <string name="callrecordview_item_op_time_short_outgoing">Panggilan keluar:\u0020</string>
@@ -46,8 +47,8 @@
 
     <!-- Yellowpage menu related -->
     <string name="menu_delete_call_log">Padam log panggilan</string>
-    <string name="menu_add_black_list">Tambah ke senaraihitam</string>
-    <string name="menu_remove_black_list">Buang dari senaraihitam</string>
+    <string name="menu_add_black_list">Tambah ke senarai sekat</string>
+    <string name="menu_remove_black_list">Buang dari senarai sekat</string>
     <string name="menu_about_yellow_page">Mengenai halaman ini</string>
     <string name="menu_correct_yellow_page">Pembetulan</string>
     <string name="menu_refresh">Muat semula</string>
@@ -78,7 +79,7 @@
     <string name="title_about_yellow_page">Mengenai</string>
 
     <!-- Payment related -->
-    <string name="payment_back">Balik</string>
+    <string name="payment_back">Kembali</string>
     <string name="payment_failed_common_problems">Ralat berlaku ketika pembayaran</string>
     <string name="payment_unknown_status_title">Gagal mengesahkan status bayaran</string>
     <string name="payment_unknown_status_summary">Periksa sambungan rangkaian anda and cuba lagi.</string>
@@ -92,16 +93,16 @@
     <string name="recharge_pay_hint">Sokongan disediakan oleh Xiaomi</string>
     <string name="mishop_web_payment_title">Pembayaran MiStore</string>
     <string name="recharge_pay_hint_license">Notis tambah nilai</string>
-    <string name="recharge_title">Top-up</string>
+    <string name="recharge_title">Tambah nilai</string>
     <string name="recharge_payment_result_ok_title">MYR %s ditambah</string>
     <string name="recharge_payment_result_ok_summary">Sahkan jumlah ini adalah cerminan dalam baki anda.</string>
     <string name="recharge_payment_result_failed_title">Tambah nilai gagal</string>
     <string name="recharge_payment_result_failed_summary">Sila cuba lagi</string>
     <string name="recharge_payment_result_progress_summary">Menyemak hasil pembayaran\u2026</string>
     <string name="recharge_phone_number_error">Nombor telefon yang anda masukkan tidak sah.</string>
-    <string name="recharge_user_confirm_title">Sah</string>
-    <string name="recharge_user_confirm_summary">"Anda akan dicaj %1$s untuk MYR %2$s Jumlah keseluruhan: MYR %3$s"</string>
-    <string name="recharge_order_id">Order ID:</string>
+    <string name="recharge_user_confirm_title">Sahkan</string>
+    <string name="recharge_user_confirm_summary">"Anda akan dicaj MYR %2$s untuk %1$s. Jumlah keseluruhan: MYR %3$s"</string>
+    <string name="recharge_order_id">ID Pesanan:</string>
     <string name="recharge_status_description">Status:</string>
     <string name="recharge_actual_price">Harga:</string>
     <string name="recharge_order_original_price">MYR %s</string>
@@ -109,6 +110,8 @@
     <string name="recharge_order_pay">Pembayaran</string>
     <string name="recharge_history">Sejarah tambah nilai</string>
     <string name="recharge_history_empty">Tiada sejarah</string>
+    <string name="recharge_my_phone_number">Nombor saya</string>
+    <string name="recharge_unknown_number">Tidak diketahui</string>
 
     <!-- 运营商流量套餐相关 -->
     <string name="packages_pay">Beli</string>
@@ -135,7 +138,7 @@
     <string name="express_inquiry_serial_number_prefix">Nombor: \u0020</string>
     <string name="express_inquiry_no_result">Tiada keputusan</string>
     <string name="express_inquiry_internal_failure">Ralat berlaku.\nSila periksa nombor penjejakan</string>
-    <string name="express_inquiry_data_owner_prefix">Maklumat Penjejakan disediakan oleh </string>
+    <string name="express_inquiry_data_owner_prefix">Maklumat penjejakan disediakan oleh </string>
     <string name="express_inquiry_data_owner_suffix"></string>
     <string name="scan">Imbas</string>
     <string name="express_inqiury_select_logistics">Syarikat penghantaran</string>
@@ -158,6 +161,7 @@
     <string name="balance_inquiry_default_sp_name">Operator</string>
     <string name="balance_inquiry_send_sms_hint">Satu mesej teks akan dihantar kepada pembekal perkhidmatan anda untuk memeriksa baki anda (percuma)</string>
     <string name="balance_inquiry_send_sms_summmary">Periksa baki anda</string>
+    <string name="balance_inquiry_send_sms_fail_hint">Gagal hantar SMS. Periksa status kad SIM anda.</string>
 
     <!-- 导航相关 -->
     <string name="navigation_search_automatically_positioned_city">Bandar semasa</string>
@@ -170,7 +174,10 @@
     <!-- Order related -->
     <string name="order_empty_hint">Tiada tempahan</string>
     <string name="order_merchant_title">Tempahan saya</string>
+    <string name="order_merchant_title_format">%1$s-%2$s</string>
     <string name="order_id">Order ID: %s</string>
+    <string name="order_status">%s</string>
+    <string name="order_price">%s</string>
 
     <!-- Frequently used yellowpage related -->
     <string name="general_yellow_page_title">Umum</string>
@@ -178,8 +185,12 @@
     <string name="general_favorite_title">Kegemaran</string>
     <string name="general_no_yellow_page">Senarai kosong</string>
     <string name="general_menu_favorite">Kegemaran</string>
-    <string name="general_menu_unfavorite">Dikeluarkan dari kegemaran</string>
+    <string name="general_menu_unfavorite">Keluarkan dari kegemaran</string>
     <string name="general_menu_delete_recent">Buang terkini</string>
     <string name="general_cancel_favorite_ok">Kegemaran dikeluarkan</string>
-    <string name="general_delete_recent_ok">Terkini dibuang</string>
+    <string name="general_delete_recent_ok">Terkini dipadamkan</string>
+    <!-- Nearby yellowpage related -->
+    <string name="nearby_yellow_page_title">Berhampiran</string>
+    <string name="nearby_no_yellow_page">Tiada keputusan berhampiran</string>
+    <string name="nearby_yellow_page_title_format">%1$s-%2$s</string>
 </resources>
