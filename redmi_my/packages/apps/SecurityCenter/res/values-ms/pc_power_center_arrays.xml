@@ -18,15 +18,15 @@
     </string-array>
 
      <string-array name="power_dialog_cpu_state_items">
-        <item>Prestasi Tinggi</item>
+        <item>Prestasi tinggi</item>
         <item>Seimbang</item>
-        <item>Penjimatan Bateri</item>
+        <item>Penjimatan bateri</item>
     </string-array>
 
     <string-array name="power_dialog_vibration_items">
-        <item>Jangan Bergetar</item>
+        <item>Jangan bergetar</item>
         <item>Bergetar apabila deringan disenyapkan</item>
-        <item>Sentiasa Bergetar</item>
+        <item>Sentiasa bergetar</item>
     </string-array>
 
     <string-array name="power_dialog_vibration_items_values">
