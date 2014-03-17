@@ -311,8 +311,8 @@
 	
 	<string name="usb_msd_title">Storan hebat</string>
 	<string name="usb_msd_summary">Pindah fail melalui Windows atau Mac</string>
-	<string name="usb_msd_driver_installer_title">Cakera pemasang driver (MSD)</string>
-	<string name="usb_msd_driver_installer_summary">Dapatkan driver untuk Windows dan OSX</string>
+	<string name="usb_msd_driver_installer_title">Cakera pemasang pemacu (MSD)</string>
+	<string name="usb_msd_driver_installer_summary">Dapatkan pemacu untuk Windows dan OSX</string>
 	<string name="input_settings">Tetapan input</string>
 	<string name="show_magnifier_when_input">Kaca pembesar teks</string>
 	
@@ -434,9 +434,9 @@
 	<!-- msd driver -->
 	<string name="msd_help_title">Bantuan MTP</string>
 	<string name="msd_help_summary">Kesukaran mengakses peranti anda melalui komputer?\nPilih sistem pengendalian komputer anda:</string>
-	<string name="msd_install_succeed">Driver berjaya diapasang</string>
+	<string name="msd_install_succeed">Pemacu berjaya dipasang</string>
 	<string name="msd_install_next">Seterusnya</string>
-	<string name="msd_install">Pasang semula driver.</string>
+	<string name="msd_install">Pasang semula pemacu.</string>
 	<string name="msd_install_finish">OK</string>
 	<string name="msd_install_windows_xp_step_2_1">"1.Jika Wizard Persediaan muncul,sila ikuti langkah-langkah untuk melengkapkan pemasangan"</string>
 	<string name="msd_install_retry_windows_xp">"Jika komputer tidak mengesan MI 2 dengan betul, cuba yang berikut:"</string>
@@ -462,7 +462,7 @@
 	<string name="wifi_enable">Wi-Fi</string>
 	<string name="bluetooth_enable">Bluetooth</string>
 	<string name="sync_enable">Hidupkan segerak</string>
-	<string name="accessibility_enable">Kebolehcapaian</string>
+	<string name="accessibility_enable">Aksesibiliti</string>
 	<string name="development_enable">Pilihan Pemaju</string>
 	<string name="device_name">Nama peranti</string>
 	<string name="device_edit_title">Namakan semula peranti</string>

@@ -793,13 +793,12 @@
     Additional diagnostic text when server connection failed due to our inability to support a
 	required EAS protocol version [CHAR LIMIT=none]
     -->
-    <string name="account_setup_failed_protocol_unsupported">    Anda telah menaip alamat pelayan yang tidak tepat atau E-mel tidak menandungi versi protokol
-     yong diperlukan oleh pelayan."</string>
+    <string name="account_setup_failed_protocol_unsupported">    Anda telah menaip alamat pelayan yang tidak tepat atau E-mel tidak mengandungi versi protokol yang diperlukan oleh pelayan."</string>
     <!--
     Additional diagnostic text when server access was denied; the user should contact the
 	administrator of the server for more information [CHAR LIMIT=none]
     -->
-    <string name="account_setup_failed_access_denied">	 Anda tiada kebenaran untuk segerak dengan pelayan ini. Sila hubungi pertadbir
+    <string name="account_setup_failed_access_denied">	 Anda tiada kebenaran untuk segerak dengan pelayan ini. Sila hubungi pentadbir
     pelayan untuk maklumat lanjut."</string>
 
     <!--
