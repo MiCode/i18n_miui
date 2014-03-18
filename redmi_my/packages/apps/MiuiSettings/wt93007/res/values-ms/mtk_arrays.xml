@@ -130,7 +130,7 @@
 <!--Add for MTK DateTime Settings-->
     <!-- For auto time sync values -->
     <string-array name="auto_time_entries">
-        <item>Guna waktu dibekalkan-rangkaian</item>
+        <item>Guna waktu dibekalkan-Rangkaian</item>
         <item>Guna waktu dibekalkan-GPS</item>
         <item>Off</item>
     </string-array>
@@ -150,7 +150,7 @@
         <item>wap</item>
     </string-array>
     <string-array name="apn_type_cmcc" translatable="false">
-        <item>default</item>
+        <item>lalai</item>
         <item>mms</item>
         <item>supl</item>
         <item>wap</item>
@@ -158,14 +158,14 @@
         <item>cmmail</item>
     </string-array>
     <string-array name="apn_type_orange" translatable="false">
-        <item>default</item>
+        <item>lalai</item>
         <item>mms</item>
         <item>supl</item>
         <item>wap</item>
-        <item>tethering</item>
+        <item>penambatan</item>
     </string-array>
     <string-array name="apn_type_orange_tethering_only" translatable="false">
-        <item>tethering</item>
+        <item>penambatan</item>
     </string-array>
     <string-array name="hdmi_video_resolution_entries">
         <item>Auto</item>
@@ -346,14 +346,14 @@
     </string-array>
     <!-- Do not translate. -->
     <string-array name="wifi_ap_max_connection_entries">
-        <item>1 user</item>
-        <item>2 users</item>
-        <item>3 users</item>
-        <item>4 users</item>
-        <item>5 users</item>
-        <item>6 users</item>
-        <item>7 users</item>
-        <item>8 users</item>
+        <item>1 pengguna</item>
+        <item>2 pengguna</item>
+        <item>3 pengguna</item>
+        <item>4 pengguna</item>
+        <item>5 pengguna</item>
+        <item>6 pengguna</item>
+        <item>7 pengguna</item>
+        <item>8 pengguna</item>
     </string-array>
     <!-- Do not translate. -->
     <string-array name="wifi_ap_max_connection_values" translatable="false">
