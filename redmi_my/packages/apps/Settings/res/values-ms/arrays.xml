@@ -91,20 +91,20 @@
 
     <!-- Default speech rate choices -->
     <string-array name="tts_rate_entries">
-        <item>Amat Perlahan</item>
+        <item>Amat perlahan</item>
         <item>Perlahan</item>
         <item>Biasa</item>
         <item>Cepat</item>
-        <item>Amat Cepat</item>
+        <item>Amat cepat</item>
     </string-array>
 
     <!-- Default pitch choices -->
     <string-array name="tts_pitch_entries">
-        <item>Amat Rendah</item>
+        <item>Amat rendah</item>
         <item>Rendah</item>
         <item>Biasa</item>
         <item>Tinggi</item>
-        <item>Amat Tinggi</item>
+        <item>Amat tinggi</item>
     </string-array>
 
     <!-- Wi-Fi settings -->
@@ -121,7 +121,7 @@
         <!-- Status message of Wi-Fi when it is authenticating. -->
         <item>Mengesahkan\u2026</item>
         <!-- Status message of Wi-Fi when it is obtaining IP address. -->
-        <item>Mendapatkan Alamat IP\u2026</item>
+        <item>Mendapatkan alamat IP\u2026</item>
         <!-- Status message of Wi-Fi when it is connected. -->
         <item>Disambungkan</item>
         <!-- Status message of Wi-Fi when it is suspended. -->
@@ -150,7 +150,7 @@
         <!-- Status message of Wi-Fi when it is authenticating with a network. -->
         <item>Mengesahkan dengan <xliff:g id="network_name">%1$s</xliff:g>\u2026</item>
         <!-- Status message of Wi-Fi when it is obtaining IP address from a network. -->
-        <item>Mendapatkan Alamat IP daripada <xliff:g id="network_name">%1$s</xliff:g>\u2026</item>
+        <item>Mendapatkan alamat IP daripada <xliff:g id="network_name">%1$s</xliff:g>\u2026</item>
         <!-- Status message of Wi-Fi when it is connected to a network. -->
         <item>Disambungkan ke <xliff:g id="network_name">%1$s</xliff:g></item>
         <!-- Status message of Wi-Fi when it is suspended. -->
@@ -212,7 +212,7 @@
         <item>Lemah</item>
         <item>Biasa</item>
         <item>Bagus</item>
-        <item>Amat Bagus</item>
+        <item>Amat bagus</item>
     </string-array>
 
     <!-- Wi-Fi settings. Presented as a list dialog to the user to choose the Wi-Fi sleep policy. -->
@@ -233,7 +233,7 @@
         <!-- Keep Wi-Fi on when screen turns off and plugged in.  When on battery, go to sleep when screen turns off. -->
         <item>Hanya ketika dipalamkan </item>
         <!-- Do not keep Wi-Fi on when screen turns off, for Wi-Fi-only devices, no other data connection -->
-        <item>Jangan</item>
+        <item>Jangan sekali-kali</item>
     </string-array>
 
     <!-- Wi-Fi settings. Presented as a list dialog to the user to choose the Wi-Fi frequency band. -->
@@ -241,16 +241,16 @@
         <!-- Operation on both 2.4 GHz and 5 GHz [CHAR LIMIT=25]-->
         <item>Auto</item>
         <!-- Operation on 5 GHz alone [CHAR LIMIT=25]-->
-        <item>5 GHz shj</item>
+        <item>5 GHz sahaja</item>
         <!-- Operation on 2.4 GHz alone [CHAR LIMIT=25]-->
-        <item>2.4 GHz shj</item>
+        <item>2.4 GHz sahaja</item>
     </string-array>
 
     <!-- Display options for UsageStats class -->
     <string-array name="usage_stats_display_order_types">
         <item>Masa penggunaan</item>
         <item>Kiraan pelancaran</item>
-        <item>Nama App</item>
+        <item>Nama app</item>
     </string-array>
 
     <!-- EAP method -->
@@ -292,7 +292,7 @@
     <string-array name="emergency_tone_entries">
         <item>Matikan</item>
         <item>Isyarat</item>
-        <item>Bergetar</item>
+        <item>Getar</item>
     </string-array>
 
     <!-- Authentication Types used in APN editor -->
@@ -383,7 +383,7 @@
     
     <!-- Titles for app process limit preference. [CHAR LIMIT=35] -->
     <string-array name="app_process_limit_entries">
-        <item>Had standard</item>
+        <item>Had piawaian</item>
         <item>Tiada proses latar belakang</item>
         <item>Paling banyak 1 proses</item>
         <item>Paling banyak 2 proses</item>
@@ -442,7 +442,7 @@
     <string-array name="multi_sim_summaries_voice">
         <item> Langganan 1 </item>
         <item> Langganan 2 </item>
-        <item> Pengguna Segera </item>
+        <item> Pengguna segera </item>
     </string-array>
 
     <!-- Multi SIM voice settings.  The type of Subscriptions to show. -->

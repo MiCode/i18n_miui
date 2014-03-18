@@ -86,7 +86,7 @@ limitations under the License.
 	<!-- Phone Info screen. Status label.  Used for diagnostic info screens, precise translation isn't needed -->
 	<string name="radioInfo_service_in">Dalam servis</string>
 	<!-- Phone Info screen. Status label.  Used for diagnostic info screens, precise translation isn't needed -->
-	<string name="radioInfo_service_out">Luar servis</string>
+	<string name="radioInfo_service_out">Di luar servis</string>
 	<!-- Phone Info screen. Status label.  Used for diagnostic info screens, precise translation isn't needed -->
 	<string name="radioInfo_service_emergency">Panggilan kecemasan sahaja</string>
 	<!-- Phone Info screen. Status label.  Used for diagnostic info screens, precise translation isn't needed -->
@@ -98,7 +98,7 @@ limitations under the License.
 	<string name="radioInfo_roaming_not">Perayauan tidak aktif</string>
 	
 	<!-- Phone Info screen. Status label.  Used for diagnostic info screens, precise translation isn't needed -->
-	<string name="radioInfo_phone_idle">Idle</string>
+	<string name="radioInfo_phone_idle">Terbiar</string>
 	<!-- Phone Info screen. Status label.  Used for diagnostic info screens, precise translation isn't needed -->
 	<string name="radioInfo_phone_ringing">Berdering</string>
 	<!-- Phone Info screen. Status label.  Used for diagnostic info screens, precise translation isn't needed -->
@@ -143,7 +143,7 @@ limitations under the License.
 	<!-- choice for the font size spinner -->
 	<string name="medium_font">Sederhana</string>
 	<!-- choice for the font size spinner -->
-	<string name="large_font">Bedar</string>
+	<string name="large_font">Besar</string>
 	
 	<!-- Button. Chosen when they want to save the chosen text size. -->
 	<string name="font_size_save">OK</string>
@@ -151,7 +151,7 @@ limitations under the License.
 	<!-- Title for a notification shown. [CHAR LIMIT=25] -->
 	<string name="sdcard_setting" product="nosdcard">Storan USB</string>
 	<!-- Title for a notification shown. -->
-	<string name="sdcard_setting" product="default">kad SD</string>
+	<string name="sdcard_setting" product="default">Kad SD</string>
 	
 	<!-- Battery Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
 	<string name="battery_info_status_label">Status bateri:</string>
@@ -216,7 +216,7 @@ limitations under the License.
 	<!-- Battery Info screen. Value for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
 	<string name="battery_info_health_dead">Mati</string>
 	<!-- Battery Info screen. Value for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
-	<string name="battery_info_health_over_voltage">Volt berlebihan</string>
+	<string name="battery_info_health_over_voltage">Voltan berlebihan</string>
 	<!-- Battery Info screen. Value for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
 	<string name="battery_info_health_unspecified_failure">Ralat tidak diketahui</string>
 	<!-- Battery Info screen. Value for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
@@ -229,7 +229,7 @@ limitations under the License.
 	<!-- Bluetooth settings screen, summary after selecting Discoverable check box [CHAR LIMIT=50] -->
 	<string name="bluetooth_is_discoverable">Boleh dilihat oleh semua peranti Bluetooth berhampiran (<xliff:g id="discoverable_time_period">%1$s</xliff:g>)</string>
 	<!-- Bluetooth settings screen, summary when Discoverable duration is set to "forever" [CHAR LIMIT=50] -->
-	<string name="bluetooth_is_discoverable_always">Boleh dilihat oleh semua peranti berhampiran</string>
+	<string name="bluetooth_is_discoverable_always">Boleh dilihat kepada semua peranti berhampiran</string>
 	<!-- Bluetooth settings screen, summary text when not discoverable and no paired devices [CHAR LIMIT=50] -->
 	<string name="bluetooth_not_visible_to_other_devices">Tidak kelihatan kepada peranti Bluetooth lain</string>
 	<!-- Bluetooth settings screen, summary text when not discoverable with paired devices [CHAR LIMIT=50] -->
@@ -272,7 +272,7 @@ limitations under the License.
 	<!-- Bluetooth settings.  Dialog title to disable a single profile of a device. [CHAR LIMIT=40] -->
 	<string name="bluetooth_disable_profile_title">Matikan profil?</string>
 	<!-- Bluetooth settings.  Message for disabling a profile of a bluetooth device. [CHAR LIMIT=NONE] -->
-	<string name="bluetooth_disable_profile_message">Ini akan matikan: &lt;br>&lt;b><xliff:g id="profile_name">%1$s</xliff:g>&lt;/b>&lt;br>&lt;br> Dari: &lt;br>&lt;b><xliff:g id="device_name">%2$s</xliff:g>&lt;/b></string>
+	<string name="bluetooth_disable_profile_message">Ini akan mematikan: &lt;br>&lt;b><xliff:g id="profile_name">%1$s</xliff:g>&lt;/b>&lt;br>&lt;br> Dari: &lt;br>&lt;b><xliff:g id="device_name">%2$s</xliff:g>&lt;/b></string>
 	
 	<!-- Bluetooth settings.  Message when connected to a device. [CHAR LIMIT=40] -->
 	<string name="bluetooth_connected">Disambung</string>
@@ -314,7 +314,7 @@ limitations under the License.
 	<string name="bluetooth_permission_request">"Permintaan kebenaran Bluetooth"</string>
 	
 	<!-- Strings for asking to the user whether to allow an app to enable bluetooth -->
-	<string name="bluetooth_ask_enablement">"Ada app yang ingin membuka Bluetooth. Benarkan?"</string>
+	<string name="bluetooth_ask_enablement">"Ada app yang ingin hidupkan Bluetooth. Benarkan?"</string>
 	
 	<!-- Strings for asking to the user whether to allow an app to enable discovery mode -->
 	<string name="bluetooth_ask_discovery" product="tablet">"Satu app pada tablet anda ingin menjadikan tablet anda boleh ditemui oleh peranti Bluetooth yang lain selama <xliff:g id="timeout">%1$d</xliff:g> saat. Benarkan?"</string>
@@ -406,7 +406,7 @@ limitations under the License.
 	<string name="bluetooth_dun_remember_choice">"Jangan tanya lagi"</string>
 	
 	<!-- Date & time settings screen title -->
-	<string name="date_and_time">Tetapan Tarikh &amp; Masa</string>
+	<string name="date_and_time">Tetapan tarikh &amp; masa</string>
 	<!-- Date/time settings.  Summary of the checkbox for choosing between 12 hour time or 24 hour time.  Sample of 12-hour time -->
 	<string name="date_time_12_hour_sample">1:00 pm</string>
 	<!-- Date/time settings.  Summary of the checkbox for choosing between 12 hour time or 24 hour time.  Sample of 24-hour time -->
@@ -440,13 +440,13 @@ limitations under the License.
 	<string name="intent_sender_account_label">Akaun:</string>
 	
 	<!-- HTTP proxy settings title -->
-	<string name="proxy_settings_title">Tetapan Proksi</string>
+	<string name="proxy_settings_title">Tetapan proksi</string>
 	<!-- HTTP proxy settings. Button to clear the proxy box. -->
-	<string name="proxy_clear_text">Padam</string>
+	<string name="proxy_clear_text">Kosongkan</string>
 	<!-- HTTP proxy settings. The port number label. -->
-	<string name="proxy_port_label">Port Proksi</string>
+	<string name="proxy_port_label">Port proksi</string>
 	<!-- HTTP proxy settings. The exclusion list label. -->
-	<string name="proxy_exclusionlist_label">Pintas proksi untuk</string>
+	<string name="proxy_exclusionlist_label">Langkau proksi untuk</string>
 	<!-- HTTP proxy settings. The hint text for proxy exclusion list. [CHAR LIMIT=50]-->
 	<string name="proxy_exclusionlist_hint">contoh.com,mycomp.test.com,localhost</string>
 	<!-- HTTP proxy settings. The button to restore the defaults. -->
@@ -454,7 +454,7 @@ limitations under the License.
 	<!-- HTTP proxy settings. The button to save. -->
 	<string name="proxy_action_text">Selesai</string>
 	<!-- HTTP proxy settings. The text field for the hostname -->
-	<string name="proxy_hostname_label">Proksi nama hos</string>
+	<string name="proxy_hostname_label">Nama hos proksi</string>
 	<!-- HTTP proxy settings. The hint text field for the hostname. [CHAR LIMIT=50] -->
 	<string name="proxy_hostname_hint">proxy.contoh.com</string>
 	<!-- HTTP proxy settings. Title if there is an error-->
@@ -477,7 +477,7 @@ limitations under the License.
 	<!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
 	<string name="radio_info_signal_location_label">Lokasi:</string>
 	<!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
-	<string name="radio_info_neighboring_location_label">Jiran CID:</string>
+	<string name="radio_info_neighboring_location_label">CID berjiran:</string>
 	<!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
 	<string name="radio_info_data_attempts_label">Percubaan data :</string>
 	<!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
@@ -502,15 +502,15 @@ limitations under the License.
 	<!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
 	<string name="radio_info_gsm_service_label">Servis GSM :</string>
 	<!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
-	<string name="radio_info_signal_strength_label">Kekuatan Isyarat :</string>
+	<string name="radio_info_signal_strength_label">Kekuatan isyarat :</string>
 	<!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
 	<string name="radio_info_call_status_label">Status panggilan:</string>
 	<!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
 	<string name="radio_info_ppp_sent_label">PPP dihantar:</string>
 	<!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
-	<string name="radio_info_radio_resets_label">Radio resets:</string>
+	<string name="radio_info_radio_resets_label">Radio reset:</string>
 	<!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
-	<string name="radio_info_message_waiting_label">Menunggu mesej:</string>
+	<string name="radio_info_message_waiting_label">Mesej menunggu:</string>
 	<!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
 	<string name="radio_info_phone_number_label">Nombor telefon:</string>
 	<!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
@@ -518,7 +518,7 @@ limitations under the License.
 	<!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
 	<string name="radio_info_network_type_label">Jenis rangkaian:</string>
 	<!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
-	<string name="radio_info_set_perferred_label">Tetapkan jenis rangkaian digemari:</string>
+	<string name="radio_info_set_perferred_label">Set jenis rangkaian pilihan:</string>
 	<!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
 	<string name="radio_info_ping_ipaddr">Ping IpAddr:</string>
 	<!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
@@ -565,15 +565,15 @@ limitations under the License.
 	<!-- Message when the SD card is being used by the computer as mass storage [CHAR LIMIT=30] -->
 	<string name="sdcard_settings_mass_storage_status" product="nosdcard">Storan USB sedang digunakan sebagai peranti storan massa.</string>
 	<!-- Message when the SD card is being used by the computer as mass storage -->
-	<string name="sdcard_settings_mass_storage_status" product="default">kad SD sedang digunakan sebagai peranti storan massa.</string>
+	<string name="sdcard_settings_mass_storage_status" product="default">Kad SD sedang digunakan sebagai peranti storan massa.</string>
 	<!-- Message when it is safe to remove the SD card [CHAR LIMIT=30] -->
-	<string name="sdcard_settings_unmounted_status" product="nosdcard">Ia kini selamat untuk mengeluarkan storan USB.</string>
+	<string name="sdcard_settings_unmounted_status" product="nosdcard">Ia kini selamat untuk keluarkan storan USB.</string>
 	<!-- Message when it is safe to remove the SD card -->
-	<string name="sdcard_settings_unmounted_status" product="default">Ia kini selamat untuk mengeluarkan kad SD.</string>
+	<string name="sdcard_settings_unmounted_status" product="default">Ia kini selamat untuk keluarkan kad SD.</string>
 	<!-- Error message when the SD card was removed without properly unmounting [CHAR LIMIT=30] -->
 	<string name="sdcard_settings_bad_removal_status" product="nosdcard">Storan USB telah dikeluarkan semasa masih digunakan!</string>
 	<!-- Error message when the SD card was removed without properly unmounting -->
-	<string name="sdcard_settings_bad_removal_status" product="default">kad SD telah dikeluarkan semasa masih digunakan!</string>
+	<string name="sdcard_settings_bad_removal_status" product="default">Kad SD telah dikeluarkan semasa masih digunakan!</string>
 	<!-- Label for used bytes on the SD card -->
 	<string name="sdcard_settings_used_bytes_label">Baits yang digunakan:</string>
 	<!-- Message when it is scanning the SD card for new files [CHAR LIMIT=30]  -->
@@ -583,7 +583,7 @@ limitations under the License.
 	<!-- Message when the SD card is mounted as read only [CHAR LIMIT=30] -->
 	<string name="sdcard_settings_read_only_status" product="nosdcard">Storan USB dilekapkan baca-sahaja.</string>
 	<!-- Message when the SD card is mounted as read only -->
-	<string name="sdcard_settings_read_only_status" product="default">kad SD dilekapkan baca-sahaja.</string>
+	<string name="sdcard_settings_read_only_status" product="default">Kad SD dilekapkan baca-sahaja.</string>
 	<!-- SetupWizard strings used by DateTimeSettingsSetupWizard.  The button label for going to the next screen without storing the setting. [CHAR LIMIT=5] -->
 	<string name="skip_label">Langkau</string>
 	<!-- SetupWizard strings used by DateTimeSettingsSetupWizard.  The button label for going to the next screen. -->
@@ -630,12 +630,12 @@ limitations under the License.
 	<!-- Main Settings screen settings title for things like airplane mode, tethering, NFC, VPN.  This will take you to another screen with those settings. -->
 	<string name="radio_controls_title">Lagi\u2026</string>
 	<!-- Wireless Settings screen title for things like Wi-Fi, bluetooth, airplane mode. -->
-	<string name="wireless_networks_settings_title">Tanpa wayar &amp; Rangkaian</string>
+	<string name="wireless_networks_settings_title">Tanpa wayar &amp; rangkaian</string>
 	<!-- Main Settings screen settings summary text for the "Wireless controls" setting -->
-	<string name="radio_controls_summary">Menguruskan Wi-Fi, Bluetooth, Mod Pesawat, Rangkaian Mudah Alih, &amp; VPN</string>
+	<string name="radio_controls_summary">Menguruskan Wi-Fi, Bluetooth, Mod Pesawat, rangkaian mudah alih, &amp; VPN</string>
 	
 	<!-- mobile network settings screen, setting check box title -->
-	<string name="roaming">Perayauan Data</string>
+	<string name="roaming">Perayauan data</string>
 	<!-- mobile network settings screen, setting option summary text when check box is selected -->
 	<string name="roaming_enable">Sambung ke servis data semasa perayauan</string>
 	<!-- mobile network settings screen, setting option summary text when check box is clear -->
@@ -647,21 +647,21 @@ limitations under the License.
 	<!-- mobile network settings screen, message in dialog box that appears when you select the "Data roaming" check box -->
 	<string name="roaming_warning">Apabila anda membenarkan data perayauan, anda mungkin dikenakan caj perayauan yang ketara!</string>
 	<!-- mobile network settings screen, title of dialog box that appears when you select the "Data roaming" check box -->
-	<string name="roaming_reenable_title">Membenarkan Perayauan Data?</string>
+	<string name="roaming_reenable_title">Membenarkan perayauan data?</string>
 	<!-- mobile network settings screen, setting option name -->
-	<string name="networks">Pilihan Pengendali</string>
+	<string name="networks">Pilihan operator</string>
 	<!-- mobile network settings screen, setting option summary text -->
-	<string name="sum_carrier_select">Pilih Pengendali Rangkaian</string>
+	<string name="sum_carrier_select">Pilih operator rangkaian</string>
 	
 	<!-- Date and time settings --><skip />
 	<!-- Main Settings screen setting option name to go into the date and time settings-->
-	<string name="date_and_time_settings_title">Tarikh &amp; Masa</string>
+	<string name="date_and_time_settings_title">Tarikh &amp; masa</string>
 	<!-- Title for Date & Time settings screen in SetupWizard [CHAR LIMIT=40] -->
 	<string name="date_and_time_settings_title_setup_wizard">Set tarikh dan masa</string>
 	<!-- Main Settings screen setting option summary text for the item to go into the date and time settings. -->
 	<string name="date_and_time_settings_summary">Set tarikh, masa, zon waktu, &amp; format</string>
 	<!-- Date & time setting screen setting check box title if the date and time should be determined automatically [CHAR LIMIT=25] -->
-	<string name="date_time_auto">Tarikh &amp; Masa Automatik</string>
+	<string name="date_time_auto">Tarikh &amp; masa automatik</string>
 	<!-- Date & time setting screen setting option summary text when Automatic check box is selected
 	(that is, when date and time should be determined automatically) [CHAR LIMIT=100] -->
 	<string name="date_time_auto_summaryOn">Guna masa disediakan oleh rangkaian</string>
@@ -669,7 +669,7 @@ limitations under the License.
 	[CHAR LIMIT=100] -->
 	<string name="date_time_auto_summaryOff">Guna masa disediakan oleh rangkaian</string>
 	<!-- Date & time setting screen setting check box title if the time zone should be determined automatically [CHAR LIMIT=25] -->
-	<string name="zone_auto">Zon Waktu Automatik</string>
+	<string name="zone_auto">Zon waktu automatik</string>
 	<!-- Date & time setting screen setting option summary text when Automatic time zone check box is selected (that is, when date and time should be determined automatically)
 	[CHAR LIMIT=100]  -->
 	<string name="zone_auto_summaryOn">Guna zon waktu disediakan oleh rangkaian</string>
@@ -677,15 +677,15 @@ limitations under the License.
 	[CHAR LIMIT=100] -->
 	<string name="zone_auto_summaryOff">Guna zon waktu disediakan oleh rangkaian</string>
 	<!-- Date & time setting screen setting check box title -->
-	<string name="date_time_24hour">Guna Format 24-jam</string>
+	<string name="date_time_24hour">Guna format 24-jam</string>
 	<!-- Date & time setting screen setting option title -->
-	<string name="date_time_set_time">Set Masa</string>
+	<string name="date_time_set_time">Set masa</string>
 	<!-- Date & time setting screen setting option title -->
-	<string name="date_time_set_timezone">Pilih Zon Waktu</string>
+	<string name="date_time_set_timezone">Pilih zon waktu</string>
 	<!-- Date & time setting screen setting option title -->
-	<string name="date_time_set_date">Set Tarikh</string>
+	<string name="date_time_set_date">Set tarikh</string>
 	<!-- Date & time setting screen setting option title.  This setting allows the user to choose how the date should be displayed in apps (what ordering for month and day, etc.) -->
-	<string name="date_time_date_format">Pilih Format Tarikh</string>
+	<string name="date_time_date_format">Pilih format tarikh</string>
 	<!-- Menu item on Select time zone screen -->
 	<string name="zone_list_menu_sort_alphabetically">Susun ikut abjad</string>
 	<!-- Menu item on Select time zone screen -->
@@ -702,36 +702,36 @@ limitations under the License.
 	<!-- Security settings screen when using face unlock, setting option name to start an activity that allows the user to improve accuracy by adding additional enrollment faces -->
 	<string name="biometric_weak_improve_matching_title">Tingkatkan pemadanan muka</string>
 	<!-- On the security settings screen when using face unlock.  This checkbox is used to toggle whether liveliness detection is required.  If it is checked the user must blink during unlock to prove it's not a photo  -->
-	<string name="biometric_weak_liveliness_title">Periksa Keceriaan</string>
+	<string name="biometric_weak_liveliness_title">Periksa keceriaan</string>
 	<!-- On the security settings screen when using face unlock.  The summary of the liveliness checkbox -->
 	<string name="biometric_weak_liveliness_summary" msgid="7980026533493781616">Perlukan mata berkelip ketika buka kunci</string>
 	
 	<!-- Security settings screen, setting option name to change screen timeout -->
-	<string name="lock_after_timeout">Kunci Secara Automatik</string>
+	<string name="lock_after_timeout">Kunci secara automatik</string>
 	<!-- Security settings screen, setting option summary to change screen timeout -->
 	<string name="lock_after_timeout_summary"><xliff:g id="timeout_string">%1$s</xliff:g> selepas tidur</string>
 	<!-- Text shown next to checkbox for showing owner info on LockScreen [CHAR LIMIT=50]-->
-	<string name="show_owner_info_on_lockscreen_label">Papar maklumat pemilik pada kunci skrin</string>
+	<string name="show_owner_info_on_lockscreen_label">Papar maklumat pemilik pada skrin kunci</string>
 	<!-- Text shown for title of owner info setting [CHAR LIMIT=20]-->
-	<string name="owner_info_settings_title">Maklumat Pemilik</string>
+	<string name="owner_info_settings_title">Maklumat pemilik</string>
 	<!-- Text shown for summary of owner info setting [CHAR LIMIT=40]-->
     <string name="owner_info_settings_summary"></string>
 	<!-- Hint text shown in owner info edit text [CHAR LIMIT=50] -->
-	<string name="owner_info_settings_edit_text_hint">Taip teks untuk dipaparkan pada kunci skrin</string>
+	<string name="owner_info_settings_edit_text_hint">Taip teks untuk dipaparkan pada skrin kunci</string>
     <!-- Text shown next to checkbox for showing user info on LockScreen [CHAR LIMIT=50]-->
-    <string name="show_user_info_on_lockscreen_label">Tunjuk maklumat pengguna di kunci skrin</string>
+    <string name="show_user_info_on_lockscreen_label">Tunjuk maklumat pengguna di skrin kunci</string>
     <!-- Text shown for title of user info setting [CHAR LIMIT=20]-->
-    <string name="user_info_settings_title">Maklumat Pengguna</string>
+    <string name="user_info_settings_title">Maklumat pengguna</string>
 	<!-- Main Settings screen setting option title for the item to take you to the location screen -->
-	<string name="location_settings_title">Servis Lokasi</string>
+	<string name="location_settings_title">Servis lokasi</string>
 	<!-- Main Settings screen setting option title for the item to take you to the security screen -->
 	<string name="security_settings_title">Sekuriti</string>
 	<!-- Main Settings screen setting option summary text for the item tot ake you to the security and location screen -->
-	<string name="security_settings_summary">Set Lokasi Saya, buka kunci skrin, kunci kad SIM, kunci storan bukti kelayakan </string>
+	<string name="security_settings_summary">Set Lokasi saya, buka kunci skrin, kunci kad SIM, kunci storan bukti kelayakan </string>
 	<!-- Main Settings screen setting option summary text for the item to take you to the CDMA security and location screen -->
-	<string name="cdma_security_settings_summary">Set Lokasi Saya, buka kunci skrin, kunci storan bukti kelayakan</string>
+	<string name="cdma_security_settings_summary">Set Lokasi saya, buka kunci skrin, kunci storan bukti kelayakan</string>
 	<!-- In the security screen, the header title for settings related to  Passwords-->
-	<string name="security_passwords_title">Kata Laluan</string>
+	<string name="security_passwords_title">Kata laluan</string>
 	
 	<!-- Title of the preferences category for preference items to control encryption -->
 	<string name="crypt_keeper_settings_title">Enkripsi</string>
@@ -839,7 +839,7 @@ limitations under the License.
 	</string>
 	
 	<!-- Image button description to switch input method -->
-	<string name="crypt_keeper_switch_input_method">Tukar Kaedah Input</string>
+	<string name="crypt_keeper_switch_input_method">Tukar kaedah input</string>
 	
 	<!-- Unlock Picker Settings --><skip />
 	
@@ -852,10 +852,10 @@ limitations under the License.
 	
 	<!--  Main Security lock settings --><skip />
 	<!--  Title for PreferenceScreen to launch picker for security method when there is none [CHAR LIMIT=22] -->
-	<string name="unlock_set_unlock_launch_picker_title">Kunci Skrin</string>
+	<string name="unlock_set_unlock_launch_picker_title">Kunci skrin</string>
 	
 	<!--  Title for PreferenceScreen to change security method: None/Pattern/PIN/Password [CHAR LIMIT=22] -->
-	<string name="unlock_set_unlock_launch_picker_change_title">Tukar Skrin Kunci</string>
+	<string name="unlock_set_unlock_launch_picker_change_title">Tukar skrin kunci</string>
 	
 	<!--  Summary for PreferenceScreen to changeecurity method: None/Pattern/PIN/Password [CHAR LIMIT=45]  -->
 	<string name="unlock_set_unlock_launch_picker_change_summary">Tukar atau matikan corak, PIN, atau sekuriti kata laluan</string>
@@ -874,7 +874,7 @@ limitations under the License.
 	<!-- Title for preference that disables unlock security [CHAR LIMIT=22] -->
 	<string name="unlock_set_unlock_none_title">Slaid</string>
 	<!-- Summary for preference that disables unlock security [CHAR LIMIT=45]-->
-	<string name="unlock_set_unlock_none_summary">Tiada Sekuriti</string>
+	<string name="unlock_set_unlock_none_summary">Tiada sekuriti</string>
 	
 	<!-- Title for preference that guides the user through a weak biometric lock [CHAR LIMIT=22] -->
 	<string name="unlock_set_unlock_biometric_weak_title">Buka Kunci Wajah</string>
@@ -884,17 +884,17 @@ limitations under the License.
 	<!-- Title for preference that guides the user through creating an unlock pattern [CHAR LIMIT=22]-->
 	<string name="unlock_set_unlock_pattern_title">Corak</string>
 	<!-- Summary for preference that guides the user through creating an unlock pattern [CHAR LIMIT=45] -->
-	<string name="unlock_set_unlock_pattern_summary">Sekuriti Sederhana</string>
+	<string name="unlock_set_unlock_pattern_summary">Sekuriti sederhana</string>
 	
 	<!-- Title for preference that guides the user through creating an unlock PIN (Personal Identification Number) [CHAR LIMIT=22] -->
 	<string name="unlock_set_unlock_pin_title">PIN</string>
 	<!-- Summary for preference that guides the user through creating an unlock PIN (Personal Identification Number) [CHAR LIMIT=45] -->
-	<string name="unlock_set_unlock_pin_summary">Sekuriti Sederhana hingga Tinggi</string>
+	<string name="unlock_set_unlock_pin_summary">Sekuriti sederhana hingga tinggi</string>
 	
 	<!-- Title for preference that guides the user through creating an unlock password [CHAR LIMIT=22] -->
-	<string name="unlock_set_unlock_password_title">Kata Laluan</string>
+	<string name="unlock_set_unlock_password_title">Kata laluan</string>
 	<!-- Title for preference that guides the user through creating an unlock password [CHAR LIMIT=45] -->
-	<string name="unlock_set_unlock_password_summary">Sekuriti Tinggi</string>
+	<string name="unlock_set_unlock_password_summary">Sekuriti tinggi</string>
 	
 	<!-- Summary for preference that has been disabled by because of the DevicePolicyAdmin, or because device encryption is enabled, or because there are credentials in the credential storage [CHAR LIMIT=50] -->
 	<string name="unlock_set_unlock_disabled_summary">Dimatikan oleh pentadbir, dasar enkripsi atau storan kelayakan</string>
@@ -910,7 +910,7 @@ limitations under the License.
 	<!-- Summary for "Configure lockscreen" when security PIN is enabled [CHAR LIMIT=45] -->
 	<string name="unlock_set_unlock_mode_pin">PIN</string>
 	<!-- Summary for "Configure lockscreen" when security password is enabled [CHAR LIMIT=45] -->
-	<string name="unlock_set_unlock_mode_password">Kata Laluan</string>
+	<string name="unlock_set_unlock_mode_password">Kata laluan</string>
 	
 	<!-- Title for option to turn of password/pin/pattern unlock. [CHAR LIMIT=22] -->
 	<string name="unlock_disable_lock_title">Matikan kunci skrin</string>
@@ -1018,10 +1018,10 @@ limitations under the License.
 	<string name="lock_setup" msgid="5507462851158901718">Pemasangan telah selesai.</string>
 	
 	<!-- In the security screen, the header title for settings related to device admins -->
-	<string name="device_admin_title">Pentadbiran Peranti</string>
+	<string name="device_admin_title">Pentadbiran peranti</string>
 	
 	<!-- Title of preference to manage device admins -->
-	<string name="manage_device_admin">Pentadbir Peranti</string>
+	<string name="manage_device_admin">Pentadbir peranti</string>
 	
 	<!-- Summary of preference to manage device policies -->
 	<string name="manage_device_admin_summary">Lihat atau nyahaktif pentadbir peranti</string>
@@ -1097,9 +1097,9 @@ limitations under the License.
 	<string name="bluetooth_connecting_error_message">"Tidak dapat disambung ke\u2026 <xliff:g id="device_name">%1$s</xliff:g>."</string>
 	
 	<!-- Bluetooth settings: The title of the preference (list item) that initiates a scan for devices -->
-	<string name="bluetooth_preference_scan_title">Imbas Untuk Peranti</string>
+	<string name="bluetooth_preference_scan_title">Imbas Untuk peranti</string>
 	<!-- Bluetooth settings: The title of the action button that initiates a search for nearby devices [CHAR LIMIT=20] -->
-	<string name="bluetooth_search_for_devices">Cari Peranti</string>
+	<string name="bluetooth_search_for_devices">Cari peranti</string>
 	<!-- Bluetooth settings: The title of the action button while a search for nearby devices is in progress [CHAR LIMIT=20] -->
 	<string name="bluetooth_searching_for_devices">Mencari\u2026</string>
 	<!-- Bluetooth settings: The sub heading for device settings. [CHAR LIMIT=30] -->
@@ -1113,7 +1113,7 @@ limitations under the License.
 	<!-- Bluetooth settings.  Context menu item for a device.  Action will disconnect from all profiles on the device. -->
 	<string name="bluetooth_device_context_disconnect">Putuskan sambungan</string>
 	<!-- Bluetooth settings.  Context menu item for a device.  Action will first pair, and then connect to all profiles on the device. -->
-	<string name="bluetooth_device_context_pair_connect">Pasang &amp; Sambung</string>
+	<string name="bluetooth_device_context_pair_connect">Berpasang &amp; sambung</string>
 	<!-- Bluetooth settings.  Context menu item for a device.  Action will remove pairing with the device. -->
 	<string name="bluetooth_device_context_unpair">Putus pasangan</string>
 	<!-- Bluetooth settings.  Context menu item for a device.  Action will disconnect and remove pairing with the device. -->
@@ -1123,13 +1123,13 @@ limitations under the License.
 	<!-- Bluetooth settings.  Menu option to Bluetooth advanced settings [CHAR LIMIT=20]-->
 	<string name="bluetooth_menu_advanced">Lanjutan</string>
 	<!-- Bluetooth settings. Title of the advanced bluetooth settings screen [CHAR LIMIT=30]-->
-	<string name="bluetooth_advanced_titlebar">Bluetooth Lanjutan</string>
+	<string name="bluetooth_advanced_titlebar">Bluetooth lanjutan</string>
 	<!-- Bluetooth settings. Text displayed when Bluetooth is off and device list is empty [CHAR LIMIT=50]-->
 	<string name="bluetooth_empty_list_bluetooth_off">Untuk melihat peranti, hidupkan Bluetooth.</string>
 	
 	
 	<!-- Bluetooth settings.  The title of the screen to pick which profiles to connect to on the device.  For example, headphones may have both A2DP and headset, this allows the user to choose which one he wants to connect to. -->
-	<string name="bluetooth_connect_specific_profiles_title">Bersambung ke\u2026</string>
+	<string name="bluetooth_connect_specific_profiles_title">Sambung ke\u2026</string>
 	
 	<!-- Bluetooth settings.  The user-visible string that is used whenever referring to the A2DP profile. -->
 	<string name="bluetooth_profile_a2dp">Audio media</string>
@@ -1215,7 +1215,7 @@ limitations under the License.
 	<string name="bluetooth_pan_profile_summary_use_for">Guna untuk akses Internet</string>
 	
 	<!-- Bluetooth settings.  Dock Setting Title -->
-	<string name="bluetooth_dock_settings">Tetapan Dok</string>
+	<string name="bluetooth_dock_settings">Tetapan dok</string>
 	<!-- Bluetooth settings.  Dock Setting Dialog Title -->
 	<string name="bluetooth_dock_settings_title">Guna dok untuk audio</string>
 	<!-- Bluetooth settings.  Dock Setting Dialog - Checkbox selection 1: Use dock as speaker phone -->
@@ -1226,7 +1226,7 @@ limitations under the License.
 	<string name="bluetooth_dock_settings_remember">Ingat tetapan</string>
 	
     <!-- Wifi Display settings. The title of the screen. [CHAR LIMIT=40] -->
-    <string name="wifi_display_settings_title">Paparan Tanpa Wayar</string>
+    <string name="wifi_display_settings_title">Paparan tanpa Wwyar</string>
     <!-- Wifi Display settings. Text displayed when Wifi display is off and device list is empty [CHAR LIMIT=80]-->
     <string name="wifi_display_settings_empty_list_wifi_display_off">Untuk lihat peranti, hidupkan paparan tanpa wayar.</string>
     <!-- Wifi Display settings. Text displayed when Wifi Display is off and device list is empty [CHAR LIMIT=80]-->
@@ -1284,7 +1284,7 @@ limitations under the License.
 	<!-- Used to describe the enabled state of the Android Beam feature when NFC, which it relies on, is turned off [CHAR LIMIT=NONE] -->
 	<string name="android_beam_disabled_summary">Tidak tersedia kerana NFC ditutup</string>
 	<!-- Used in the Android Beam sharing preferences screen. This phrase is a trademark. [CHAR LIMIT=32] -->
-	<string name="android_beam_label">Pancaran Android</string>
+	<string name="android_beam_label">Android Beam</string>
 	<!-- Explanation of the Android Beam feature in the Android Beam settings panel. The use of "beam" here is as a verb and not considered trademarked. [CHAR LIMIT=NONE] -->
 	<string name="android_beam_explained">"Apabila ciri ini dihidupkan, anda boleh pancarkan kandungan app ke peranti NFC-mampu dengan memegang peranti berdekatan bersama-sama. Sebagai contoh, anda boleh pancar laman Pelayar, video YouTube, kenalan, dan banyak lagi. Hanya membawa peranti berdekatan bersama-sama (biasanya belakang ke belakang) dan kemudian sentuh skrin anda. App menentukan apa yang akan dipancarkan."</string>
 	
@@ -1306,7 +1306,7 @@ limitations under the License.
 	<!-- Title of the Wi-fi settings entry in the left top level menu -->
 	<string name="wifi_settings_title">Wi-Fi</string>
 	<!-- Summary text of the Wi-fi settings screen -->
-	<string name="wifi_settings_summary">Pasang &amp; urus titik akses tanpa wayar wayarles</string>
+	<string name="wifi_settings_summary">Tetapkan &amp; urus pusat akses tanpa wayar wayarles</string>
 	<!-- Used in the 1st-level settings screen to turn on Wi-Fi  [CHAR LIMIT=60] -->
 	<string name="wifi_setup_wizard_title">Pilih Wi-Fi</string>
 	<!-- Summary text when turning Wi-Fi or bluetooth on -->
@@ -1318,11 +1318,11 @@ limitations under the License.
 	<!-- Toast message when Wi-Fi or bluetooth is disallowed in airplane mode -->
 	<string name="wifi_in_airplane_mode">Dalam Mod Pesawat</string>
 	<!-- Toast message when Wi-Fi cannot scan for networks -->
-	<string name="wifi_fail_to_scan">Tidak dapat mengimbas untuk rangkaian</string>
+	<string name="wifi_fail_to_scan">Tidak dapat imbas untuk rangkaian</string>
 	<!-- Checkbox title for option to notify user when open networks are nearby -->
 	<string name="wifi_notify_open_networks">Notifikasi rangkaian</string>
 	<!-- Checkbox summary for option to notify user when open networks are nearby -->
-	<string name="wifi_notify_open_networks_summary">Beritahu saya apabila rangkaian terbuka tersedia</string>
+	<string name="wifi_notify_open_networks_summary">Maklumkan saya apabila rangkaian terbuka tersedia</string>
 	<!-- Checkbox title for option to toggle poor network detection -->
 	<string name="wifi_poor_network_detection">Elakkan sambungan lemah</string>
 	<!-- Checkbox summary for option to toggle poor network detection -->
@@ -1340,6 +1340,8 @@ limitations under the License.
 	<string name="wifi_access_points">Rangkaian Wi-Fi</string>
 	<!-- Menu option to do WPS Push Button [CHAR LIMIT=25]-->
 	<string name="wifi_menu_wps_pbc">Butang Push WPS </string>
+    <!-- Content description for menu button in Wifi setup. Not shown on the screen. [CHAR LIMIT=NONE] -->
+    <string name="wifi_menu_more_options">Lagi pilihan</string>
 	<!-- Menu option to do WPS Pin Entry [CHAR LIMIT=25]-->
 	<string name="wifi_menu_wps_pin">Kemasukan Pin WPS</string>
 	<!-- Menu option to launch Wi-Fi Direct settings [CHAR LIMIT=20]-->
@@ -1353,13 +1355,13 @@ limitations under the License.
 	<!-- Menu option to delete a Wi-Fi network -->
 	<string name="wifi_menu_forget">Lupakan rangkaian</string>
 	<!-- Menu option to modify a Wi-Fi network configuration -->
-	<string name="wifi_menu_modify">Ubah suai rangkaian</string>
+	<string name="wifi_menu_modify">Ubahsuai rangkaian</string>
 	<!-- Wi-Fi settings. text displayed when Wi-Fi is off and network list is empty [CHAR LIMIT=50]-->
 	<string name="wifi_empty_list_wifi_off">Untuk melihat rangkaian tersedia, hidupkan Wi-Fi.</string>
 	<!-- Wi-Fi settings. text displayed when Wi-Fi is on and network list is empty [CHAR LIMIT=50]-->
 	<string name="wifi_empty_list_wifi_on">Mencari rangkaian Wi-Fi\u2026</string>
 	<!-- Wi-Fi settings. title for setup other network button [CHAR LIMIT=35]-->
-	<string name="wifi_other_network">Rangkaian Lain\u2026</string>
+	<string name="wifi_other_network">Rangkaian lain\u2026</string>
 	<!-- Wi-Fi settings. content description for more button [CHAR LIMIT=50]-->
 	<string name="wifi_more">Lagi</string>
 	<!-- Wi-Fi settings. wps menu title [CHAR LIMIT=25]-->
@@ -1403,7 +1405,7 @@ limitations under the License.
 	<!-- Label for the status of the connection -->
 	<string name="wifi_status">Status</string>
 	<!-- Label for the link speed of the connection -->
-	<string name="wifi_speed">Kelajuan Link</string>
+	<string name="wifi_speed">Kelajuan talian</string>
 	<!-- Label for the IP address of the connection -->
 	<string name="wifi_ip_address">Alamat IP</string>
 	<!-- Label for the EAP method of the network -->
@@ -1419,7 +1421,7 @@ limitations under the License.
 	<!-- Label for the EAP anonymous identity of the network -->
 	<string name="wifi_eap_anonymous">Identiti tanpa nama</string>
 	<!-- Label for the password of the secured network -->
-	<string name="wifi_password">Kata Laluan</string>
+	<string name="wifi_password">Kata laluan</string>
 	<!-- Label for the check box to show password -->
 	<string name="wifi_show_password">Tunjukkan kata laluan</string>
 	<!-- Label for the spinner to show ip settings [CHAR LIMIT=25] -->
@@ -1438,7 +1440,7 @@ limitations under the License.
 	or certificate). -->
 	<string name="wifi_disabled_password_failure">Masalah pengesahan</string>
 	<!-- Summary for the remembered network but currently not in range. -->
-	<string name="wifi_not_in_range">Tidak berada dalam lingkungan</string>
+	<string name="wifi_not_in_range">Di luar lingkungan</string>
 	<!-- Substring of status line when Wi-Fi Protected Setup (WPS) is available and
 	string is listed first [CHAR LIMIT=20]-->
 	<string name="wifi_wps_available_first_item">WPS tersedia</string>
@@ -1470,9 +1472,9 @@ limitations under the License.
 	<!-- Button label to dismiss the dialog -->
 	<string name="wifi_cancel">Batal</string>
     <!-- Button for skipping a step after having been warned of a potential concern [CHAR LIMIT=30] -->
-    <string name="wifi_skip_anyway" msgid="5205612884736051138">Langkau Juga</string>
+    <string name="wifi_skip_anyway" msgid="5205612884736051138">Langkau jua</string>
     <!-- Button for going to the previous screen or step [CHAR LIMIT=20] -->
-    <string name="wifi_dont_skip">Jangan Langkau</string>
+    <string name="wifi_dont_skip">Jangan langkau</string>
 	
     <!-- Text warning about skipping Wi-Fi with a mobile connect (tablet) [CHAR LIMIT=NONE]-->
     <string name="wifi_skipped_message" product="tablet" msgid="6518433975501257341">AMARAN: Anda mungkin dikenakan caj tambahan.\n\nPemasangan tablet boleh memerlukan aktiviti rangkaian yang ketara.</string>
@@ -1535,14 +1537,14 @@ limitations under the License.
 	<!-- Wi-Fi p2p / Wi-Fi Direct settings -->
 	<!-- Used in the 1st-level settings screen to launch Wi-fi Direct settings [CHAR LIMIT=25] -->
 	<string name="wifi_p2p_settings_title">Wi-Fi Direct</string>
-	<string name="wifi_p2p_device_info">Info Peranti</string>
+	<string name="wifi_p2p_device_info">Maklumat peranti</string>
 	<string name="wifi_p2p_persist_network">Ingat sambungan ini</string>
 	<!-- Menu option to discover peers-->
 	<string name="wifi_p2p_menu_search">Mencari peranti</string>
 	<!-- Menu option when discovery is in progress [CHAR LIMIT=25] -->
 	<string name="wifi_p2p_menu_searching">Mencari\u2026</string>
 	<!-- Menu option to Rename-->
-	<string name="wifi_p2p_menu_rename">Menamakan semula peranti</string>
+	<string name="wifi_p2p_menu_rename">Namakan semula peranti</string>
 	<!-- Menu option to create a group-->
 	<string name="wifi_p2p_menu_create_group">Cipta kumpulan</string>
 	<!-- Menu option to remove a group-->
@@ -1570,7 +1572,7 @@ limitations under the License.
 	
 	<!-- Wifi AP settings-->
 	<!-- Label for wifi tether checkbox. Toggles Access Point on/off -->
-	<string name="wifi_tether_checkbox_text">Hotspot Wi-Fi Mudah Alih</string>
+	<string name="wifi_tether_checkbox_text">Hotspot Wi-Fi mudah alih</string>
     <!-- Summary text when turning hotspot on -->
     <string name="wifi_tether_starting">Menghidupkan hotspot\u2026</string>
     <!-- Summary text when turning hotspot off -->
@@ -1582,7 +1584,7 @@ limitations under the License.
 	<!-- Used to open the ssid and security dialog for Wifi Access Point -->
 	<string name="wifi_tether_configure_ap_text">Pasang hotspot Wi-Fi</string>
 	<!-- Subtext on configuration preference to indicate SSID and security chosen -->
-	<string name="wifi_tether_configure_subtext"><xliff:g id="network_ssid">%1$s</xliff:g> <xliff:g id="network_security">%2$s</xliff:g>Hotspot  Wi-Fi mudah alih </string>
+	<string name="wifi_tether_configure_subtext"><xliff:g id="network_ssid">%1$s</xliff:g> <xliff:g id="network_security">%2$s</xliff:g> hotspot Wi-Fi mudah alih </string>
 	<!-- Default access point SSID used for tethering -->
 	<string name="wifi_tether_configure_ssid_default">AndroidHotspot</string>
 
@@ -1600,17 +1602,17 @@ limitations under the License.
 	<!-- Sound settings screen, volume title -->
 	<string name="all_volume_title">Volum</string>
 	<!-- Sound settings screen, music effects title [CHAR LIMIT=30]-->
-	<string name="musicfx_title">Kesan Muzik</string>
+	<string name="musicfx_title">Kesan muzik</string>
 	<!-- Sound settings screen, setting option name -->
-	<string name="ring_volume_title">Volum Pendering</string>
+	<string name="ring_volume_title">Volum pendering</string>
 	<!-- Sound settings screen, setting option name checkbox -->
-	<string name="vibrate_in_silent_title">Bergetar ketika senyap</string>
+	<string name="vibrate_in_silent_title">Getar ketika senyap</string>
 	<!-- Sound settings screen, setting option name -->
 	<string name="notification_sound_title">Bunyi notifikasi lalai</string>
 	<!-- Sound settings screen, notification light repeat pulsing title -->
 	<string name="notification_pulse_title">Lampu notifikasi denyut</string>
 	<!-- Sound settings screen, the title of the volume bar to adjust the incoming call volume -->
-	<string name="incoming_call_volume_title">Nada Dering</string>
+	<string name="incoming_call_volume_title">Nada dering</string>
 	<!-- Sound settings screen, the title of the volume bar to adjust the notification volume -->
 	<string name="notification_volume_title">Notifikasi</string>
 	<!-- Sound settings screen, the caption of the checkbox for having the notification volume be
@@ -1633,9 +1635,9 @@ limitations under the License.
 	<!-- Sound settings screen, setting check box label -->
 	<string name="lock_sounds_enable_title">Bunyi kunci skrin</string>
 	<!-- Sound settings screen, setting check box label -->
-	<string name="haptic_feedback_enable_title">Bergetar apabila sentuh</string>
+	<string name="haptic_feedback_enable_title">Getar apabila sentuh</string>
 	<!-- Sound settings screen, setting option name checkbox to enable/disable audio recording features that improve audio recording in noisy environments -->
-	<string name="audio_record_proc_title">Pembatalan Bunyi Bising</string>
+	<string name="audio_record_proc_title">Pembatalan hingar</string>
 	<!-- Volume description for media volume -->
 	<string name="volume_media_description">Muzik, video, permainan, &amp; media lain</string>
 	<!-- Volume description for ringtone and notification volume -->
@@ -1645,16 +1647,16 @@ limitations under the License.
 	<!-- Volume description for alarm volume -->
 	<string name="volume_alarm_description">Penggera</string>
 	<!-- Image description for ringer volume mute button. -->
-	<string name="volume_ring_mute">Senyapkan nada dering &amp; notifikasi</string>
+	<string name="volume_ring_mute">Bisukan nada dering &amp; notifikasi</string>
 	<!-- Image description for media volume mute button. -->
-	<string name="volume_media_mute">Senyapkan muzik &amp; media lain</string>
+	<string name="volume_media_mute">Bisukan muzik &amp; media lain</string>
 	<!-- Image description for notification volume mute button. -->
-	<string name="volume_notification_mute">Senyapkan notifikasi</string>
+	<string name="volume_notification_mute">Bisukan notifikasi</string>
 	<!-- Image description for alarm volume mute button. -->
-	<string name="volume_alarm_mute">Senyapkan penggera</string>
+	<string name="volume_alarm_mute">Bisukan penggera</string>
 	<!-- Sound settings screen, setting option name checkbox. About vibration setting
 	during incoming calls. [CHAR LIMIT=30] -->
-	<string name="vibrate_when_ringing_title">Bergetar ketika dering</string>
+	<string name="vibrate_when_ringing_title">Getar ketika dering</string>
 	
 	<!-- Dock settings title, top level -->
 	<string name="dock_settings">Dok</string>
@@ -1713,7 +1715,7 @@ limitations under the License.
 	<!-- Sound & display settings screen, setting option name to change brightness -->
 	<string name="brightness">Kecerahan</string>
 	<!-- Sound & display settings screen, setting option summary to change brightness -->
-	<string name="brightness_summary">Laraskan kecerahan skrin</string>
+	<string name="brightness_summary">Laras kecerahan skrin</string>
 	<!-- Sound & display settings screen, setting option name to change screen timeout -->
 	<string name="screen_timeout">Tidur</string>
 	<!-- Sound & display settings screen, setting option summary to change screen timeout -->
@@ -2017,7 +2019,7 @@ limitations under the License.
 	<!-- APN settings screen title -->
 	<string name="apn_settings">APNs</string>
 	<!-- Screen title after user selects APNs setting option -->
-	<string name="apn_edit">Edit Pusat Akses</string>
+	<string name="apn_edit">Edit pusat akses</string>
 	<!-- Edit access point label summary text when no value has been set -->
 	<string name="apn_not_set">Tidak ditetapkan</string>
 	<!-- Edit access point labels: A label the user can give to the APN to allow him to differentiate it from the others -->
@@ -2029,7 +2031,7 @@ limitations under the License.
 	<!-- Edit access point labels: The port number of the proxy to use for this APN -->
 	<string name="apn_http_port">Port</string>
 	<!-- Edit access point labels: The username that will be used when conencting to this APN-->
-	<string name="apn_user">Nama pengguna</string>
+	<string name="apn_user">ID pengguna</string>
 	<!-- Edit access point labels: The password that will be used when connecting to this APN -->
 	<string name="apn_password">Kata laluan</string>
 	<!-- Edit access point labels: The server address to conenct to for this APN -->
@@ -2119,9 +2121,9 @@ limitations under the License.
 	<!-- SD card & phone storage settings screen, description for check box to erase USB storage [CHAR LIMIT=NONE] -->
 	<string name="erase_external_storage_description" product="default">Memadam semua data pada kad SD, seperti muzik atau foto</string>
 	<!-- SD card & phone storage settings screen, button on screen after user selects Factory data reset -->
-	<string name="master_clear_button_text" product="tablet">Menetap semula tablet</string>
+	<string name="master_clear_button_text" product="tablet">Reset tablet</string>
 	<!-- SD card & phone storage settings screen, button on screen after user selects Factory data reset -->
-	<string name="master_clear_button_text" product="default">Menetap semula telefon</string>
+	<string name="master_clear_button_text" product="default">Reset telefon</string>
 	<!-- SD card & phone storage settings screen, message on screen after user selects Reset phone button -->
 	<string name="master_clear_final_desc">"Memadam semua maklumat peribadi anda dan app yang dimuat turun? Anda tidak boleh menterbalikkan tindakan ini!"</string>
 	<!-- SD card & phone storage settings screen, button on screen after user selects Reset phone button -->
@@ -2131,7 +2133,7 @@ limitations under the License.
 	<!-- Explanation of drawing unlock pattern to reset phone -->
 	<string name="master_clear_gesture_explanation">Anda perlu melukis corak buka kunci anda untuk mengesahkan tetapan semula data kilang.</string>
 	<!-- Master clear failed message -->
-	<string name="master_clear_failed">"Tiada penetapan semula dijalankan kerana servis Sistem Clear tidak tersedia."</string>
+	<string name="master_clear_failed">"Tiada penetapan semula dijalankan kerana servis Kosongkan Sistem tidak tersedia."</string>
 	<!-- Master clear confirmation screen title [CHAR LIMIT=30] -->
 	<string name="master_clear_confirm_title">Reset?</string>
 	
@@ -2174,7 +2176,7 @@ limitations under the License.
 	<string name="media_format_gesture_explanation" product="default">YAnda perlu melukis corak buka kunci anda untuk mengesahkan bahawa anda mahu memadamkan kad SD.</string>
 	
 	<!-- Main settings screen, Call settings title for item to go into the call settings -->
-	<string name="call_settings_title">Tetapan Panggilan</string>
+	<string name="call_settings_title">Tetapan panggilan</string>
 	<!-- Main settings screen, Call settings summary for item to go into call settings -->
 	<string name="call_settings_summary">Pasang mel suara, pemajuan panggilan, panggilan menunggu, ID pemanggil</string>
 	
@@ -2182,13 +2184,13 @@ limitations under the License.
 	<!-- Tethering controls, item title to go into the tethering settings when only USB tethering is available [CHAR LIMIT=25]-->
 	<string name="tether_settings_title_usb">Penambatan USB</string>
 	<!-- Tethering controls, item title to go into the tethering settings when only Wifi tethering is available [CHAR LIMIT=25]-->
-	<string name="tether_settings_title_wifi">Hotspot Mudah Alih</string>
+	<string name="tether_settings_title_wifi">Hotspot mudah alih</string>
 	<!-- Tethering controls, item title to go into the tethering settings when only Bluetooth tethering is available [CHAR LIMIT=25]-->
 	<string name="tether_settings_title_bluetooth">Penambatan Bluetooth</string>
 	<!-- Tethering controls, item title to go into the tethering settings when USB and Bluetooth tethering are available [CHAR LIMIT=25]-->
 	<string name="tether_settings_title_usb_bluetooth">Penambatan</string>
 	<!-- Tethering controls, item title to go into the tethering settings when USB, Bluetooth and Wifi tethering are available [CHAR LIMIT=25]-->
-	<string name="tether_settings_title_all">Penambatan &amp; Hotspot Mudah Alih</string>
+	<string name="tether_settings_title_all">Penambatan &amp; hotspot mudah alih</string>
 	
 	<!-- USB Tethering options -->
 	<string name="usb_title">USB</string>
@@ -2234,12 +2236,12 @@ limitations under the License.
 	<string name="tethering_help_button_text">Bantuan</string>
 	
 	<!-- Wireless controls, item title to go into the network settings -->
-	<string name="network_settings_title">Rangkaian Mudah Alih</string>
+	<string name="network_settings_title">Rangkaian mudah alih</string>
 	
 	<!-- Security & location settings screen, section header for settings relating to location -->
 	<string name="location_title">Lokasi saya</string>
 	<!-- [CHAR LIMIT=30] Security & location settings screen, setting check box label for Google location service (cell ID, wifi, etc.) -->
-    <string name="location_network_based">Wi-Fi &amp; Lokasi Rangkaian Mudah Alih</string>
+    <string name="location_network_based">Lokasi Wi-Fi &amp; rangkaian mudah alih</string>
 	<!-- [CHAR LIMIT=130] Security & location settings screen, setting summary for Google location service check box-->
 	<string name="location_neighborhood_level">Benarkan app guna servis lokasi Google untuk anggar lokasi anda lebih cepat. Data lokasi tanpa nama akan dikumpul dan dihantar kepada Google.</string>
 	<!-- [CHAR LIMIT=130] Security & location settings screen, setting summary when Use wireless networks check box is selected, for wifi-only devices -->
@@ -2251,7 +2253,7 @@ limitations under the License.
 	<!-- [CHAR LIMIT=100] Security & location settings screen, setting check box summary for GPS satellites -->
 	<string name="location_street_level">Benarkan app menggunakan GPS di telefon anda untuk menentukan lokasi anda</string>
 	<!-- Security & location settings screen, setting check box label if Assisted GPS should be enabled -->
-	<string name="assisted_gps">Guna Bantuan GPS</string>
+	<string name="assisted_gps">Guna bantuan GPS</string>
 	<!-- Security & location settings screen, setting summary when Assisted GPS check box is selected -->
 	<string name="assisted_gps_enabled">Guna pelayan untuk membantu GPS (buang tanda untuk mengurangkan penggunaan rangkaian)</string>
 	<!-- Security & location settings screen, setting summary when Assisted GPS check box is clear -->
@@ -2269,41 +2271,41 @@ limitations under the License.
 	
 	<!-- About --> <skip />
 	<!-- Main settings screen, setting title for the user to go into the About phone screen -->
-	<string name="about_settings" product="tablet">Mengenai Tablet</string>
+	<string name="about_settings" product="tablet">Mengenai tablet</string>
 	<!-- Main settings screen, setting title for the user to go into the About phone screen -->
-	<string name="about_settings" product="default">Mengenai Telefon</string>
+	<string name="about_settings" product="default">Mengenai telefon</string>
 	<!-- Main settings screen, setting summary for the user to go into the About phone screen-->
 	<string name="about_settings_summary">Lihat info undang-undang, status, versi perisian</string>
 	<!-- About phone settings screen, setting option name to go to dialog that shows legal info -->
-	<string name="legal_information">Info Undang-Undang</string>
+	<string name="legal_information">Maklumat guaman</string>
 	<!-- About phone settings screen, setting option name to see a list of contributors -->
 	<string name="contributors_title">Penyumbang</string>
     <!-- About phone settings screen, setting option name to show regulatory information [CHAR LIMIT=25] -->
-    <string name="regulatory_information">Informasi Kawal Selia</string>
+    <string name="regulatory_information">Maklumat kawal selia</string>
 	<!-- Note: this may be replaced by a more-specific title of the activity that will get launched --> <skip />
 	<!-- About phone settings screen, setting option name to see copyright-related info -->
-	<string name="copyright_title">Hak Cipta</string>
+	<string name="copyright_title">Hak cipta</string>
 	<!-- Note: this may be replaced by a more-specific title of the activity that will get launched --> <skip />
 	<!-- About phone settings screen, setting option name to see licensing info -->
 	<string name="license_title">Lesen</string>
 	<!-- Note: this may be replaced by a more-specific title of the activity that will get launched --> <skip />
 	<!-- About phone settings screen, setting option name to see terms and conditions -->
-	<string name="terms_title">Terma dan Syarat</string>
+	<string name="terms_title">Terma dan syarat</string>
 	
 	<!-- Title for actual Settings license activity. --> <skip />
 	<!-- About phone settings, Legal information setting option name and title of dialog box holding license info -->
-	<string name="settings_license_activity_title">Lesen Sumber Terbuka</string>
+	<string name="settings_license_activity_title">Lesen sumber terbuka</string>
 	<!-- About phone settings screen, Open source license dialog message when licenses cannot be loaded -->
 	<string name="settings_license_activity_unavailable">Terdapat masalah memuatkan lesen.</string>
 	<!-- About phone settings screen, Open source license dialog title until license is fully loaded -->
 	<string name="settings_license_activity_loading">Memuatkan\u2026</string>
 	
 	<!-- About phone settings, Safety Legal information setting option name and title of dialog box holding safety legal info -->
-	<string name="settings_safetylegal_title">Informasi Keselamatan</string>
+	<string name="settings_safetylegal_title">Informasi keselamatan</string>
 	<!-- About phone settings, Safety Legal information setting option name and title of dialog box holding safety legal info -->
-	<string name="settings_safetylegal_activity_title">Informasi Keselamatan</string>
+	<string name="settings_safetylegal_activity_title">Maklumat Keselamatan</string>
 	<!-- About phone settings screen, Safety legal dialog message when data network is not connected -->
-	<string name="settings_safetylegal_activity_unreachable">"Anda tidak mempunyai sambungan data. Untuk melihat informasi ini sekarang, pergi ke %s dari mana-mana komputer yang bersambung ke Internet."</string>
+	<string name="settings_safetylegal_activity_unreachable">"Anda tidak mempunyai sambungan data. Untuk melihat maklumat ini sekarang, pergi ke %s dari mana-mana komputer yang bersambung ke Internet."</string>
 	<!-- About phone settings screen, Safety Legal dialog title until the link is fully loaded -->
 	<string name="settings_safetylegal_activity_loading">Memuatkan\u2026</string>
 	
@@ -2336,7 +2338,7 @@ limitations under the License.
 	
 	<!-- Lock Pattern settings -->
 	<!-- Security & location settings screen, header -->
-	<string name="lock_settings_title">Sekuriti Skrin</string>
+	<string name="lock_settings_title">Sekuriti skrin</string>
 	<!-- Security & location settings screen, setting option name -->
 	<string name="lockpattern_change_lock_pattern_label">Tukar corak buka kunci</string>
 	<!-- Security & location settings screen, change unlock pattern screen instruction when the user chooses "Change unlock pattern".  We first ask the user toe nter the current pattern, and this is the message seen -->
@@ -2377,9 +2379,9 @@ limitations under the License.
 	<!-- Security & location settings screen, setting check box title. This setting controls whether a visible green line is drawn as the user moves his finger around while drawing the unlock pattern.  If checked, this line is drawn.  If unchecked, there is nothing drawn so the user does not reveal his pattern while he unlocks the phone.-->
 	<string name="lockpattern_settings_enable_visible_pattern_title">Buatkan corak boleh dilihat</string>
 	<!-- Security & location settings screen, setting check box title. This setting controls whether tactile feedback will be produced when the user draws the pattern.-->
-	<string name="lockpattern_settings_enable_tactile_feedback_title">Bergetar apabila sentuh</string>
+	<string name="lockpattern_settings_enable_tactile_feedback_title">Getar apabila sentuh</string>
 	<!-- Security & location settings screen, setting check box title. This controls whether the device locks immediately when the power button is pressed. [CHAR LIMIT=28]-->
-	<string name="lockpattern_settings_enable_power_button_instantly_locks">Butang Power Mengunci Segera</string>
+	<string name="lockpattern_settings_enable_power_button_instantly_locks">Butang Kuasa kunci segera</string>
 	<!-- Security & location settings screen, setting option name when user has never set an unlock pattern -->
 	<string name="lockpattern_settings_choose_lock_pattern">Set corak buka kunci</string>
 	<!-- Security & location settings screen, setting option name when user has previously set an unlock pattern and wants to change to a new pattern -->
@@ -2426,7 +2428,7 @@ limitations under the License.
 	<!-- Applications settings screen heading. The header for the Application settings screen. -->
 	<string name="applications_settings_header">Tetapan App</string>
 	<!-- Applications settings screen, setting check box title. If checked, the system allows installation of applications that are downloaded from random places, such as web sites.  -->
-	<string name="install_applications">Sumber Tidak Diketahui</string>
+	<string name="install_applications">Sumber tidak diketahui</string>
 	<!-- Applications settings screen, setting check box summary.  This is the summary for "Unknown sources" checkbox  -->
 	<string name="install_unknown_applications">Benarkan pemasangan app dari sumber yang tidak diketahui</string>
 	<!-- Applications settings screen, message text of alert that appears if user selects the "Unknown sources" check box -->
@@ -2444,7 +2446,7 @@ limitations under the License.
     <!-- Applications settings screen, setting check box summary. This is the summary for "App Check" checkbox. [CHAR LIMIT=none] -->
     <string name="verify_applications_summary">Jangan benarkan atau beri amaran sebelum memasang app yang mungkin menyebabkan kerosakan</string>
 	<!-- Applications settings screen, setting check box title. If checked, applications show more settings options. -->
-	<string name="advanced_settings">Tetapan Lanjutan</string>
+	<string name="advanced_settings">Tetapan lanjutan</string>
 	<!-- Applications settings screen, setting check box summary.  This is the summary for "Advanced settings" checkbox  -->
 	<string name="advanced_settings_summary">Hidupkan pilihan tetapan lanjutan</string>
 	<!-- Manage applications, individual application info screen title. For example, if they click on "Browser" in "Manage applications", the title of the next screen will be this -->
@@ -2462,13 +2464,13 @@ limitations under the License.
 	<!-- Manage applications, Header name used for cache information -->
 	<string name="cache_header_label">Cache</string>
 	<!-- Manage applications, text label for button -->
-	<string name="clear_cache_btn_text">Padamkan cache</string>
+	<string name="clear_cache_btn_text">Kosongkan cache</string>
 	<!-- Manage applications, label that appears next to the cache size -->
 	<string name="cache_size_label">Cache</string>
 	<!-- Manage applications, Header name used for other controls -->
 	<string name="controls_label">Kawalan</string>
 	<!-- Manage applications, text label for button to kill / force stop an application -->
-	<string name="force_stop">Paksa Henti</string>
+	<string name="force_stop">Paksa henti</string>
 	<!-- Manage applications, individual application info screen,label under Storage heading.  The total storage space taken up by this app. -->
 	<string name="total_size_label">Jumlah</string>
 	<!-- Manage applications, individual application info screen, label under Storage heading. The amount of space taken up by the application itself (for example, the java compield files and things like that) -->
@@ -2502,7 +2504,7 @@ limitations under the License.
 	<!-- Manage applications, individual application screen, text under Launch by default heading if the app is NOT a default for actions -->
 	<string name="auto_launch_disable_text">Tiada set lalai.</string>
 	<!-- Manage applications, individual application screen, button label under Launch by default heading.  This is used to clear any default actions that may be assigned to this app.  -->
-	<string name="clear_activities">Padam lalai</string>
+	<string name="clear_activities">Kosongkan lalai</string>
 	<!-- Manage applications, individual application info screen, screen, message text under screen compatibility heading -->
 	<string name="screen_compatibility_text">App ini mungkin tidak direka untuk skrin anda. Anda boleh mengawal bagaimana ia
 	disesuaikan pada skrin anda di sini.</string>
@@ -2511,19 +2513,19 @@ limitations under the License.
 	<!-- Manage applications, individual application screen, checkbox to control compatibility mode.  -->
 	<string name="enable_compatibility">Skala App</string>
 	<!-- Manage apps, individual app screen, substituted for the application's label when the app's label CAN NOT be determined.-->
-	<string name="unknown">Tidak Diketahui</string>
+	<string name="unknown">Tidak diketahui</string>
 	<!-- [CHAR LIMIT=25] Manage applications screen, menu item.  Sorts all of the apps in the list alphabetically. -->
-	<string name="sort_order_alpha">Susun mengikut nama</string>
+	<string name="sort_order_alpha">Susun ikut nama</string>
 	<!-- Manage applications screen, menu item. Sorts all of the apps in the list based on their file size.  This is used to uninstall when space is getting low. -->
-	<string name="sort_order_size">Susun mengikut saiz</string>
+	<string name="sort_order_size">Susun ikut saiz</string>
 	<!-- [CHAR LIMIT=25] Manage applications screen, menu item.  Show running services. -->
 	<string name="show_running_services">Tunjuk servis berjalan</string>
 	<!-- [CHAR LIMIT=25] Manage applications screen, menu item.  Show background cached processes. -->
 	<string name="show_background_processes">Tunjuk proses cache</string>
 	<!-- [CHAR LIMIT=NONE] Manage applications screen, menu item.  Reset all of user's app preferences. -->
-	<string name="reset_app_preferences">Reset pilihan aplikasi</string>
+	<string name="reset_app_preferences">Reset pilihan app</string>
 	<!-- [CHAR LIMIT=NONE] Manage applications screen, menu item.  Title of dialog to confirm resetting user's app preferences. -->
-	<string name="reset_app_preferences_title">Reset pilihan aplikasi?</string>
+	<string name="reset_app_preferences_title">Reset pilihan app?</string>
 	<!-- [CHAR LIMIT=NONE] Manage applications screen, menu item.  Body of dialog to confirm resetting user's app preferences. -->
 	<string name="reset_app_preferences_desc">Ini akan reset semua pilihan untuk:\n\n
 	<li>App yang dimatikan</li>\n
@@ -2536,7 +2538,7 @@ limitations under the License.
 	<!-- Manage applications screen, individual app screen, button label when the user wants to manage the space taken up by an app. -->
 	<string name="manage_space_text">Uruskan ruang</string>
 	<!-- Text for menu option in ManageApps screen to present various menu options -->
-	<string name="filter">Tapisan</string>
+	<string name="filter">Penapis</string>
 	<!-- Title of dialog for presenting filter options -->
 	<string name="filter_dlg_title">Pilih pilihan tapisan</string>
 	<!-- Text for filter option in ManageApps screen to display all installed
@@ -2583,7 +2585,7 @@ limitations under the License.
 	<!-- Manage applications, individual application dialog box message. Shown when there was an error trying to clear the data. -->
 	<string name="clear_data_failed">Tidak boleh padam data app.</string>
 	<!-- Manage applications, factory reset dialog title for system applications. -->
-	<string name="app_factory_reset_dlg_title">Buangkan kemaskini?</string>
+	<string name="app_factory_reset_dlg_title">Buang kemaskini?</string>
 	<!-- Manage applications, factory reset option dialog text for system applications. -->
 	<string name="app_factory_reset_dlg_text">Segala kemaskini pada sistem app Android ini akan dibuangkan</string>
 	<!-- Manage applications, title for dialog if clear data fails-->
@@ -2623,7 +2625,7 @@ limitations under the License.
 	<string name="computing_size">Pengkomputeran\u2026</string>
 	<string name="invalid_size_value">"Tidak dapat mengira saiz pakej."</string>
 	<!-- String displayed when list is empty -->
-	<string name="empty_list_msg">"Anda tidak mempunyai sebarang aplikasi pihak ketiga dipasangkan."</string>
+	<string name="empty_list_msg">"Anda tidak mempunyai sebarang app pihak ketiga dipasangkan."</string>
 	<!-- Manage applications, version string displayed in app snippet -->
 	<string name="version_text">Versi <xliff:g id="version_num">%1$s</xliff:g></string>
 	<!-- Manage applications, text for Move button -->
@@ -2649,7 +2651,7 @@ limitations under the License.
 	
 	<string name="force_stop_dlg_title">Paksa henti?</string>
 	<!-- [CHAR LIMIT=200] Manage applications, text for dialog when killing persistent apps-->
-	<string name="force_stop_dlg_text">Jika anda paksa aplikasi berhenti, ia mungkin berkelakuan aneh.</string>
+	<string name="force_stop_dlg_text">Jika anda paksa app berhenti, ia mungkin berkelakuan aneh.</string>
 	<!-- Manage applications, text for dialog when moving an app -->
     <string name="move_app_failed_dlg_title"></string>
 	<!-- Manage applications, text for dialog moving an app -->
@@ -2665,10 +2667,10 @@ limitations under the License.
 	berkelakuan aneh.</string>
 	
 	<!-- [CHAR LIMIT=30] Manage applications, title for dialog when disabling notifications for an app -->
-	<string name="app_disable_notifications_dlg_title">Buang data dan matikan app?</string>
+	<string name="app_disable_notifications_dlg_title">Padam data dan matikan app?</string>
     <!-- [CHAR LIMIT=NONE] Manage applications, text for dialog when disabling update apps -->
     <string name="app_special_disable_dlg_text">Jika anda matikan app terbina dalam, app lain 
-    mungkin berkelakuan aneh.  Data anda akan juga dibuang.</string>
+    mungkin berkelakuan aneh.  Data anda akan juga dipadamkan.</string>
 	<!-- [CHAR LIMIT=200] Manage applications, text for dialog when disabling notifications for an app -->
     <string name="app_disable_notifications_dlg_title">Tutup notifikasi?</string>
     <!-- [CHAR LIMIT=200] Manage applications, text for dialog when disabling notifications for an app -->
@@ -2690,7 +2692,7 @@ limitations under the License.
 	<!-- Label for a process item representing a background process -->
 	<string name="cached">Proses latar belakang yang dicache</string>
 	<!-- [CHAR LIMIT=25] Text shown when there are no services running -->
-	<string name="no_running_services">Tida yang berjalan.</string>
+	<string name="no_running_services">Tiada yang berjalan.</string>
 	<!-- Running services, description for a service in the started state -->
 	<string name="service_started_by_app">Dimulakan oleh app.</string>
 	<!-- Running services, description for a service in the started state -->
@@ -2767,33 +2769,33 @@ limitations under the License.
 	
 	<!-- Language Settings --> <skip />
 	<!-- Title of setting on main settings screen.  This item will take the user to the screen to tweak settings realted to locale and text -->
-	<string name="language_settings">Bahasa &amp; Input</string>
+	<string name="language_settings">Bahasa &amp; input</string>
 	<!-- Title of Language and keyboard settings screen -->
-	<string name="language_keyboard_settings_title">Bahasa &amp; Input</string>
+	<string name="language_keyboard_settings_title">Bahasa &amp; input</string>
 	<!-- On Language & keyboard settings screen, heading. Inside the "Language & keyboard settings" screen, this is the header for settings that relate to language (select the system language, user dictionary for the language). -->
-	<string name="language_settings_category">Tetapan Bahasa</string>
+	<string name="language_settings_category">Tetapan bahasa</string>
 	<!-- On Language & keyboard settings screen, heading. Inside the "Language & keyboard settings" screen, this is the header for settings that relate to keyboard (enable/disable each keyboard, settings for each keyboard). -->
-	<string name="keyboard_settings_category">Papan Kekunci &amp; Kaedah Input</string>
+	<string name="keyboard_settings_category">Papan kekunci &amp; kaedah input</string>
 	<!-- On Text & language settings screen, setting option name. title of the setting to take the user to a screen to select the locale. -->
 	<string name="phone_language">Bahasa</string>
 	<!-- On Text & language settings screen, setting option name. summary of the setting to take the user to a screen to select the locale. -->
 	<string name="phone_language_summary">""</string>
 	<!-- On Text & language settings screen, setting option name. title of the setting to enable autoreplace of entered text. auto replace is a feature that will automatically correct mistyped words. -->
-	<string name="auto_replace">Auto-Ganti</string>
+	<string name="auto_replace">Auto-ganti</string>
 	<!-- On Text & language settings screen, setting summary.  This is the summary for the "Auto-replace" setting. -->
 	<string name="auto_replace_summary">Betulkan perkataan salah dieja</string>
 	<!-- On Text & language settings screen, setting option name.  title of the setting to enable autocapitalization of entered text.  for example, after the user finishes a sentence, the next letter he types will automatically be capitalizated. [CHAR LIMIT=25] -->
-	<string name="auto_caps">Auto-Huruf Besar</string>
+	<string name="auto_caps">Auto-huruf besar</string>
 	<!-- On Text & language settings screen, setting summary. Summary for the Auto-cap setting. [CHAR LIMIT=100]-->
 	<string name="auto_caps_summary">Huruf-besarkan huruf pertama dalam ayat</string>
 	<!-- On Text & language settings screen, setting option name. title of the setting to enable automatic punctuation of entered text.  for example, it will change an entered "youre" to "you're". -->
-	<string name="auto_punctuate">Auto-Tanda Baca</string>
+	<string name="auto_punctuate">Auto-tanda baca</string>
 	<!-- On Text & language settings screen, category for physical keyboard text entry options. -->
 	<string name="hardkeyboard_category">Tetapan papan kekunci fizikal</string>
 	<!-- On Text & language settings screen, setting summary for the Auto-punctuate setting. -->
 	<string name="auto_punctuate_summary">Tekan kekunci Space dua kali untuk masukkan \u0022.\u0022</string>
 	<!-- On Security & location settings screen, setting check box name. Title of the checkbox to set whether password edit fields will show the most recent character typed and then hide it, or just hide it right away.  By hide, I mean mask it out. -->
-	<string name="show_password">Jadikan kata laluan boleh dilihat</string>
+	<string name="show_password">Tunjuk kata laluan</string>
 	<!-- On Security & location settings screen, setting check box summary. Summary for the visible passwords setting. -->
 	<string name="show_password_summary"></string>
 	<!-- Warning message about security implications of enabling an input method, displayed as a dialog
@@ -2818,20 +2820,20 @@ limitations under the License.
 	<string name="failed_to_open_app_settings_toast">Gagal membuka tetapan untuk <xliff:g id="spell_application_name">%1$s</xliff:g></string>
 	
 	<!-- On Language & input settings screen, heading. Inside the "Language & input settings" screen, this is the header for settings that relate to mouse and trackpad devices. [CHAR LIMIT=40] -->
-	<string name="pointer_settings_category">Tetikus/Pad Jejak</string>
+	<string name="pointer_settings_category">Tetikus/Pad jejak</string>
 	<!-- On Language & input settings screen, setting summary.  Setting for mouse pointer speed. [CHAR LIMIT=35] -->
-	<string name="pointer_speed">Kelajuan Penuding</string>
+	<string name="pointer_speed">Kelajuan penuding</string>
 	
 	<!-- On Language & input settings screen, heading. Inside the "Language & input settings" screen, this is the header for settings that relate to game controller devices. [CHAR LIMIT=40] -->
 	<string name="game_controller_settings_category">Pengawal Mainan</string>
 	<!-- On Language & input settings screen, setting title.  Setting to redirect vibration to input devices. [CHAR LIMIT=35] -->
-	<string name="vibrate_input_devices">Guna Penggetar</string>
+	<string name="vibrate_input_devices">Guna penggetar</string>
 	<!-- On Language & input settings screen, setting summary.  Setting to redirect vibration to input devices. [CHAR LIMIT=100] -->
 	<string name="vibrate_input_devices_summary">Mengalihkan penggetar ke pengawal permainan apabila disambung.</string>
 	
 	<!-- Keyboard Layout Preference Dialog --> <skip />
 	<!-- Title for the keyboard layout preference dialog. [CHAR LIMIT=35] -->
-	<string name="keyboard_layout_dialog_title">Pilih Susun Atur Papan Kekunci</string>
+	<string name="keyboard_layout_dialog_title">Pilih susun atur papan kekunci</string>
 	<!-- Button to configure keyboard layouts.  [CHAR LIMIT=35] -->
 	<string name="keyboard_layout_dialog_setup_button">Sediakan susun atur papan kekunci</string>
 	<!-- Hint describing how to switch keyboard layouts using the keyboard.  [CHAR LIMIT=48] -->
@@ -2841,15 +2843,15 @@ limitations under the License.
 	
 	<!-- Keyboard Layout Picker --> <skip />
 	<!-- Title for the keyboard layout picker activity. [CHAR LIMIT=35] -->
-	<string name="keyboard_layout_picker_title">Susun Atur Papan Kekunci</string>
+	<string name="keyboard_layout_picker_title">Susun atur papan kekunci</string>
 	
 	<!-- User dictionary settings --><skip />
 	<!-- User dictionary settings, The titlebar text of the User dictionary settings screen. -->
-	<string name="user_dict_settings_titlebar">Kamus Pengguna</string>
+	<string name="user_dict_settings_titlebar">Kamus pengguna</string>
 	<!-- User dictionary settings, The title of the list item to go into the User dictionary settings screen when there is only one user dictionary. [CHAR LIMIT=35] -->
-	<string name="user_dict_single_settings_title">Kamus Peribadi</string>
+	<string name="user_dict_single_settings_title">Kamus peribadi</string>
 	<!-- User dictionary settings, The title of the list item to go into the User dictionary list when there are several user dictionaries. [CHAR LIMIT=35] -->
-	<string name="user_dict_multiple_settings_title">Kamus Peribadi</string>
+	<string name="user_dict_multiple_settings_title">Kamus peribadi</string>
 	<!-- User dictionary settings.  The summary of the listem item to go into the User dictionary settings screen. -->
     <string name="user_dict_settings_summary">""</string>
 	<!-- User dictionary settings. The title of the menu item to add a new word to the user dictionary. -->
@@ -2859,7 +2861,7 @@ limitations under the License.
 	<!-- User dictionary settings. The title of the screen to add/edit a new word to the user dictionary; it describes the phrase that will be added to the user dictionary. [CHAR LIMIT=25] -->
 	<string name="user_dict_settings_add_screen_title">Frasa</string>
 	<!-- User dictionary settings. Text on the dialog button to pop more options for adding a word. [CHAR LIMIT=16] -->
-	<string name="user_dict_settings_add_dialog_more_options">Lebih Pilihan</string>
+	<string name="user_dict_settings_add_dialog_more_options">Lebih pilihan</string>
 	<!-- User dictionary settings. Text on the dialog button mask advanced options. [CHAR LIMIT=15] -->
 	<string name="user_dict_settings_add_dialog_less_options">Kurang pilihan</string>
 	<!-- User dictionary settings. Text on the dialog button to confirm adding a word. [CHAR LIMIT=15] -->
@@ -2886,16 +2888,16 @@ limitations under the License.
 	<!-- This is for diagnostics screen. The title of a screen with various items realted to launching screens that will giev the user info. For example, it contains "Phone information" and "Battery information" -->
 	<string name="testing">Menguji</string>
 	<!-- In the Testing screen.  The item title of the activity that shows a bunch of phone-related information.  -->
-	<string name="testing_phone_info" product="tablet">Info Tablet</string>
+	<string name="testing_phone_info" product="tablet">Maklumat tablet</string>
 	<!-- In the Testing screen.  The item title of the activity that shows a bunch of phone-related information.  -->
-	<string name="testing_phone_info" product="default">Info Telefon</string>
+	<string name="testing_phone_info" product="default">Maklumat telefon</string>
 	<!-- In the Testing screen. The item title of the activity that shows a bunch of battery-related information.  -->
-	<string name="testing_battery_info">Info Bateri</string>
+	<string name="testing_battery_info">Maklumat Bateri</string>
     <!-- Do not translate. In the Testing screen. The item title of the activity that shows a bunch of SIM-related operations.  -->
-    <string name="testing_sim_toolkit">Kit Panduan SIM</string>
+    <string name="testing_sim_toolkit">Kit panduan SIM</string>
 	
 	<!-- The title of the item to go into the Quick launch settings. -->
-	<string name="quick_launch_title">Lancar Pantas</string>
+	<string name="quick_launch_title">Lancar pantas</string>
 	<!-- The summary of the item to go into the Quick launch settings. This is a description of what Quick launch offers. -->
 	<string name="quick_launch_summary">Set pintasan papan kekunci untuk melancarkan app</string>
 	<!-- On the Quick launch settings screen, title of the item for shortcut letters that are not assigned to an application yet. Quick launch is assigning a global shortcut to launch a specific app. -->
@@ -2918,21 +2920,21 @@ limitations under the License.
 	<string name="quick_launch_display_mode_shortcuts">Pintasan</string>
 	
 	<!-- Input methods Settings -->
-	<string name="input_methods_settings_title">Input Teks</string>
+	<string name="input_methods_settings_title">Input teks</string>
 	<!-- Setting name for Input Method chooser -->
-	<string name="input_method">Kaedah Input</string>
+	<string name="input_method">Kaedah input</string>
 	<!-- Title for the option to press to choose the current input method [CHAR LIMIT=35] -->
 	<string name="current_input_method">Lalai</string>
 	<!-- Title for setting the visibility of input method selector [CHAR LIMIT=35] -->
-	<string name="input_method_selector">Pemilih Kaedah Input</string>
+	<string name="input_method_selector">Pemilih kaedah input</string>
 	<!-- An option to always show input method selector automatically when needed [CHAR LIMIT=25] -->
 	<string name="input_method_selector_show_automatically_title">Automatik</string>
 	<!-- An option to always show input method selector [CHAR LIMIT=25] -->
-	<string name="input_method_selector_always_show_title">Sentiasa Tunjuk</string>
+	<string name="input_method_selector_always_show_title">Sentiasa tunjuk</string>
 	<!-- An option to always hide input method selector [CHAR LIMIT=25] -->
-	<string name="input_method_selector_always_hide_title">Sentiasa Sembunyi</string>
+	<string name="input_method_selector_always_hide_title">Sentiasa sembunyi</string>
 	<!-- Title for configuring input method settings [CHAR LIMIT=35] -->
-	<string name="configure_input_method">Pasang Kaedah Input</string>
+	<string name="configure_input_method">Pasang kaedah input</string>
 	<!-- Title for settings of each IME [CHAR LIMIT=25] -->
 	<string name="input_method_settings">Tetapan</string>
 	<!-- Spoken description for IME settings image button [CHAR LIMIT=NONE] -->
@@ -2942,7 +2944,7 @@ limitations under the License.
 	<!-- Title for settings whether or not the framework will select input methods in an IME based on the current system locale. [CHAR LIMIT=35] -->
 	<string name="use_system_language_to_select_input_method_subtypes">Guna bahasa sistem</string>
 	<!-- Input Methods Settings localized format string for generating the appropriate "Foo settings" menu label for the Input Method named "Foo" [CHAR LIMIT=35] -->
-	<string name="input_methods_settings_label_format"><xliff:g id="ime_name">%1$s</xliff:g> Tetapan</string>
+	<string name="input_methods_settings_label_format"><xliff:g id="ime_name">%1$s</xliff:g> tetapan</string>
 	<!-- Title for the settings of selecting active input methods of an IME [CHAR LIMIT=35] -->
 	<string name="input_methods_and_subtype_enabler_title">Pilih kaedah input aktif</string>
 	<!-- Summary for on-screen keyboard settings -->
@@ -2953,17 +2955,17 @@ limitations under the License.
 	<string name="builtin_keyboard_settings_summary">Tetapan papan kekunci fizikal</string>
 	
 	<!-- Development Settings.  the title for the item to take the user to Development settings.  Development settings are settings meant for application developers.  -->
-	<string name="development_settings_title">Pilihan Pemaju</string>
+	<string name="development_settings_title">Pilihan pemaju</string>
 	<!-- Development Settings summary.  The summary of the item to take the user to Development settings.  Development settings are settings meant for application developers. -->
 	<string name="development_settings_summary">Set pilihan untuk pembangunan app</string>
 	<!-- Setting checkbox title for Whether to enable USB debugging support on the phone. -->
 	<string name="enable_adb">Penyahpepijatan USB</string>
 	<!-- Setting checkbox summary for Whether to enable USB debugging support on the phone -->
-	<string name="enable_adb_summary">Mod Nyahpepijat apabila USB disambungkan</string>
+	<string name="enable_adb_summary">Mod nyahpepijat apabila USB disambungkan</string>
     <!-- [CHAR LIMIT=NONE] Setting checkbox title for Whether to include bug report item in power menu. -->
-    <string name="bugreport_in_power">Laporan pepijat menu Power</string>
+    <string name="bugreport_in_power">Laporan pepijat menu Kuasa</string>
     <!-- [CHAR LIMIT=NONE] Setting checkbox summary for Whether to include bug report item in power -->
-    <string name="bugreport_in_power_summary">Termasuk pilihan dalam menu Power untuk mengambil laporan pepijat</string>
+    <string name="bugreport_in_power_summary">Termasuk pilihan dalam menu Kuasa untuk mengambil laporan pepijat</string>
 	<!-- Setting Checkbox title whether to keep the screen on when plugged in to a power source -->
 	<string name="keep_screen_on">Sentiasa bangun</string>
 	<!-- setting Checkbox summary whether to keep the screen on when plugged in  -->
@@ -2973,7 +2975,7 @@ limitations under the License.
 	<!-- setting Checkbox summary whether to allow mock locations  -->
 	<string name="allow_mock_location_summary">Benarkan lokasi mock</string>
 	<!-- Title of warning dialog about the implications of enabling USB debugging -->
-	<string name="adb_warning_title">Benarkan Penyahpepijatan USB?</string>
+	<string name="adb_warning_title">Benarkan penyahpepijatan USB?</string>
 	<!-- Warning text to user about the implications of enabling USB debugging -->
 	<string name="adb_warning_message">Penyahpepijatan USB dimaksudkan untuk tujuan pembangunan sahaja. Gunakannya untuk menyalin data antara komputer anda dan peranti anda, memasang app pada peranti anda tanpa notifikasi, dan membaca data log.</string>
 	<!-- Title of warning dialog about the implications of enabling developer settings -->
@@ -3005,12 +3007,12 @@ limitations under the License.
 	<!-- Title for the screen that lets the user choose a gadget to add to the home screen
 	(or other screens that can host gadgets).  Note to translators: we're still determining
 	the final name for Gadgets/Widgets, so please translate both for now. -->
-	<string name="gadget_picker_title">Pilih Gajet</string>
+	<string name="gadget_picker_title">Pilih gajet</string>
 	
 	<!-- Title for the screen that lets the user choose a widget to add to the home screen
 	(or other screens that can host widgets).  Note to translators: we're still determining
 	the final name for Gadgets/Widgets, so please translate both for now. -->
-	<string name="widget_picker_title">Pilih Widget</string>
+	<string name="widget_picker_title">Pilih widget</string>
 	
 	<!-- Title in dialog that pops up when an app requests permission to bind a widget [CHAR LIMIT=NONE] -->
 	<string name="allow_bind_app_widget_activity_allow_bind_title">Cipta widget dan benarkan akses?</string>
@@ -3034,18 +3036,18 @@ limitations under the License.
 	<string name="battery_history_seconds"><xliff:g id="seconds">%1$d</xliff:g>s</string>
 	
 	<!-- XXX remove? Strings used for displaying usage statistics -->
-	<string name="usage_stats_label">Statistik Penggunaan</string>
+	<string name="usage_stats_label">Statistik penggunaan</string>
 	
 	<!-- In the Testing screen. The item title of the activity that shows usage statistics.  -->
-	<string name="testing_usage_stats">Statistik Penggunaan</string>
+	<string name="testing_usage_stats">Statistik penggunaan</string>
 	<!-- label for text to indicate sort options -->
-	<string name="display_order_text">Susun mengikut:</string>
+	<string name="display_order_text">Susun ikut:</string>
 	<!-- label for application name -->
 	<string name="app_name_label">App</string>
 	<!-- label for launch count -->
 	<string name="launch_count_label">Kira</string>
 	<!-- label for usage time -->
-	<string name="usage_time_label">Tempoh Penggunaan</string>
+	<string name="usage_time_label">Tempoh penggunaan</string>
 	
 	<!-- Accessibility settings -->
 	<skip />
@@ -3053,7 +3055,7 @@ limitations under the License.
 	<!-- Settings title in main settings screen for accessibility settings -->
 	<string name="accessibility_settings">Aksesibiliti</string>
 	<!-- Settings title for accessibility settings screen -->
-	<string name="accessibility_settings_title">Tetapan Aksesibiliti</string>
+	<string name="accessibility_settings_title">Tetapan aksesibiliti</string>
 	
 	<!--  Title for the accessibility preference category of accessibility services. [CHAR LIMIT=25] -->
 	<string name="accessibility_services_title">Servis</string>
@@ -3061,17 +3063,17 @@ limitations under the License.
 	<!-- Title for the accessibility preference category of system related preferences. [CHAR LIMIT=25] -->
 	<string name="accessibility_system_title">Sistem</string>
     <!-- Title for the accessibility preference screen to enable screen magnification. [CHAR LIMIT=35] -->
-    <string name="accessibility_screen_magnification_title">Gerakan Magnifikasi</string>
+    <string name="accessibility_screen_magnification_title">Gerakan magnifikasi</string>
     <!-- Summary for the accessibility preference screen to enable screen magnification. [CHAR LIMIT=none] -->
     <string name="accessibility_screen_magnification_summary">Apabila ciri ini dihidupkan, anda boleh zum masuk dan keluar dengan mengetuk skrin tiga kali.\n\nKetika zum masuk, anda boleh:\n<ul><li>Pan: Seret dua atau lebih jari di skrin.</li>\n<li>Laras aras zum: Picit dua atau lebih jari bersama-sama atau disebarkan mereka terpisah.</li></ul>\n\nAnda boleh membesarkan sementara apa yang dibawah jari anda dengan mengetuk tiga kali dan pegang. Dalam keadaan diperbesarkan ini, anda boleh menyeret jari anda untuk meneroka bahagian yang berlainan di skrin. Angkat jari anda untuk kembali ke keadaan anda sebelum ini.\n\nNota: Ketuk tiga kali untuk kerja-kerja pembesaran di mana-mana kecuali papan kekunci dan navigasi bar.</string>
     <!-- Title for the preference to enable the global geture that turns on accessibility. [CHAR LIMIT=35] -->
-    <string name="accessibility_global_gesture_preference_title">Pintasan Aksesibiliti</string>
+    <string name="accessibility_global_gesture_preference_title">Pintasan aksesibiliti</string>
     <!-- Summary for the preference to enable the global geture that turns on accessibility (on state). [CHAR LIMIT=60] -->
     <string name="accessibility_global_gesture_preference_summary_on">Buka</string>
     <!-- Summary for the preference screen to enable the global geture that turns on accessibility (off state). [CHAR LIMIT=35] -->
     <string name="accessibility_global_gesture_preference_summary_off">Tutup</string>
     <!--  Description for the preference screen to enable the global geture taht turns on accessibility. [CHAR LIMIT=none] -->
-    <string name="accessibility_global_gesture_preference_description">Ketika ciri ini dibuka, anda boleh hidupkan ciri aksesibiliti dengan cepat dalam dua langkah:\n\nLangkah 1: Tekan dan pegang butang power sehingga anda dengar bunyi atau rasa getaran.\n\nLangkah 2: Sentuh dan pegang dua jari sehingga anda dengar pengesahan audio.\n\nJika peranti mempunyai berbilang pengguna, guna pintasan ini di skrin kunci sementara waktu menghidupkan aksesibiliti sehingga peranti dibuka kunci.</string>
+    <string name="accessibility_global_gesture_preference_description">Ketika ciri ini dibuka, anda boleh hidupkan ciri aksesibiliti dengan cepat dalam dua langkah:\n\nLangkah 1: Tekan dan pegang butang Kuasa sehingga anda dengar bunyi atau rasa getaran.\n\nLangkah 2: Sentuh dan pegang dua jari sehingga anda dengar pengesahan audio.\n\nJika peranti mempunyai berbilang pengguna, guna pintasan ini di skrin kunci sementara waktu menghidupkan aksesibiliti sehingga peranti dibuka kunci.</string>
     <!-- Title for the accessibility preference to enable large text. [CHAR LIMIT=35] -->
     <string name="accessibility_toggle_large_text_preference_title">Teks Besar</string>
     <!-- Title for the accessibility preference to enable screen magnification. [CHAR LIMIT=35] -->
@@ -3083,13 +3085,13 @@ limitations under the License.
     <string name="accessibility_toggle_screen_magnification_auto_update_preference_summary">Kemaskini
         pembesaran skrin pada peralihan app</string>
 	<!-- Title for the accessibility preference to power button to end a call. [CHAR LIMIT=35] -->
-	<string name="accessibility_power_button_ends_call_title">Butang Power tamatkan panggilan</string>
+	<string name="accessibility_power_button_ends_call_title">Butang Kuasa tamat panggilan</string>
 	<!-- Title for the accessibility preference to speak passwords. [CHAR LIMIT=35] -->
 	<string name="accessibility_speak_password_title">Tutur kata laluan</string>
 	<!-- Title for accessibility preference to choose long-press delay i.e. timeout before it is detected. [CHAR LIMIT=35] -->
-	<string name="accessibility_long_press_timeout_title">Sentuh &amp; pegang kelewatan</string>
+	<string name="accessibility_long_press_timeout_title">Kelambatan sentuh &amp; pegang</string>
 	<!-- Title for accessibility preference to install accessibility scripts from Google. [CHAR LIMIT=35] -->
-	<string name="accessibility_script_injection_title">Meningkatkan aksesibiliti web</string>
+	<string name="accessibility_script_injection_title">Tingkat aksesibiliti web</string>
 	
 	<!-- Title for accessibility menu item to lauch a settings activity. [CHAR LIMIT=15] -->
 	<string name="accessibility_menu_item_settings">Tetapan</string>
@@ -3163,7 +3165,7 @@ limitations under the License.
 	<!-- Activity title for App Fuel Gauge summary -->
 	<string name="power_usage_summary_title">Bateri</string>
 	<!-- Activity title summary for App Fuel Gauge summary -->
-	<string name="power_usage_summary">Apa yang telah mengunakan bateri</string>
+	<string name="power_usage_summary">Apa yang telah menggunakan bateri</string>
 	<!-- Message to show when battery usage data is not available [CHAR LIMIT=30] -->
 	<string name="power_usage_not_available">Data penggunaan bateri tidak tersedia.</string>
 	<!-- Battery usage since unplugged -->
@@ -3183,27 +3185,27 @@ limitations under the License.
 	<!-- [CHAR LIMIT=25] Label for battery stats wifi running state graph -->
 	<string name="battery_stats_wifi_running_label">Wi-Fi</string>
 	<!-- [CHAR LIMIT=25] Label for battery stats wake lock state graph -->
-	<string name="battery_stats_wake_lock_label">Terbangun</string>
+	<string name="battery_stats_wake_lock_label">Bangun</string>
 	<!-- [CHAR LIMIT=25] Label for battery stats phone signal strength graph -->
 	<string name="battery_stats_phone_signal_label">Mobile network signal</string>
 	<!-- Battery usage during last unplugged period -->
 	<string name="battery_stats_last_duration">@string/menu_stats_last_unplugged</string>
 	<!-- CPU awake time title -->
-	<string name="awake">Masa peranti terjaga</string>
+	<string name="awake">Masa peranti bangun</string>
 	<!-- Wifi on time -->
 	<string name="wifi_on_time">Masa Wi-Fi hidup</string>
 	<!-- Bluetooth on time -->
 	<string name="bluetooth_on_time">Masa Wi-Fi hidup</string>
 	
 	<!-- Activity title for battery usage history details -->
-	<string name="history_details_title">Butiran Sejarah</string>
+	<string name="history_details_title">Butiran sejarah</string>
 	
 	<!-- Activity title for battery usage details for an app. or power consumer -->
-	<string name="details_title">Butiran Guna maklumat</string>
+	<string name="details_title">Butiran guna</string>
 	<!-- Subtitle for application/subsystem details -->
-	<string name="details_subtitle">Butiran Guna</string>
+	<string name="details_subtitle">Butiran guna</string>
 	<!-- Subtitle for possible options -->
-	<string name="controls_subtitle">Laraskan guna kuasa</string>
+	<string name="controls_subtitle">Laras guna kuasa</string>
 	<!-- Subtitle for list of packages -->
 	<string name="packages_subtitle">Termasuk pakej</string>
 	
@@ -3227,19 +3229,19 @@ limitations under the License.
 	<!-- Label for CPU usage in foreground -->
 	<string name="usage_type_cpu_foreground">Latar hadapan CPU</string>
 	<!-- [CHAR LIMIT=25] Label for keeping device from sleeping -->
-	<string name="usage_type_wake_lock">Sentiasa terjaga</string>
+	<string name="usage_type_wake_lock">Sentiasa bangun</string>
 	<!-- Label for GPS usage time -->
 	<string name="usage_type_gps">GPS</string>
 	<!-- [CHAR LIMIT=25] Label for WIFI usage time -->
-	<string name="usage_type_wifi_running">Wi-Fi Berjalan</string>
+	<string name="usage_type_wifi_running">Wi-Fi berjalan</string>
 	<!-- Label for Phone usage time -->
 	<string name="usage_type_phone" product="tablet">Tablet</string>
 	<!-- Label for Phone usage time -->
 	<string name="usage_type_phone" product="default">Telefon</string>
 	<!-- Label for Data sent -->
-	<string name="usage_type_data_send">Data Dihantar</string>
+	<string name="usage_type_data_send">Data dihantar</string>
 	<!-- Label for Data received -->
-	<string name="usage_type_data_recv">Data Diterima</string>
+	<string name="usage_type_data_recv">Data diterima</string>
 	<!-- Label for Audio usage time -->
 	<string name="usage_type_audio">Audio</string>
 	<!-- Label for Video usage time -->
@@ -3249,13 +3251,13 @@ limitations under the License.
 	<!-- Label for time that there was no cell coverage -->
 	<string name="usage_type_no_coverage">Masa tanpa isyarat</string>
 	<!-- Label for force stop action -->
-	<string name="battery_action_stop">Paksa Henti</string>
+	<string name="battery_action_stop">Paksa henti</string>
 	<!-- Label for app details action -->
-	<string name="battery_action_app_details">Info App</string>
+	<string name="battery_action_app_details">Info app</string>
 	<!-- Label for app settings action -->
-	<string name="battery_action_app_settings">Tetapan App</string>
+	<string name="battery_action_app_settings">Tetapan app</string>
 	<!-- Label for display settings -->
-	<string name="battery_action_display">Tetapan Skrin</string>
+	<string name="battery_action_display">Tetapan skrin</string>
 	<!-- Label for wifi settings -->
 	<string name="battery_action_wifi">Tetapan Wi-Fi</string>
 	<!-- Label for bluetooth settings -->
@@ -3265,9 +3267,9 @@ limitations under the License.
 	<string name="battery_desc_voice">Bateri diguna oleh panggilan suara</string>
 	
 	<!-- Description for standby detail -->
-	<string name="battery_desc_standby" product="tablet">Bateri diguna ketika tablet idle</string>
+	<string name="battery_desc_standby" product="tablet">Bateri diguna ketika tablet terbiar</string>
 	<!-- Description for standby detail -->
-	<string name="battery_desc_standby" product="default">Bateri diguna ketika telefon idle</string>
+	<string name="battery_desc_standby" product="default">Bateri diguna ketika telefon terbiar</string>
 	
 	<!-- Description for cell radio detail -->
 	<string name="battery_desc_radio">Bateri diguna oleh radio sel</string>
@@ -3287,7 +3289,7 @@ limitations under the License.
 	<!-- Description for bluetooth power consumption detail -->
 	<string name="battery_desc_bluetooth">Bateri diguna oleh Bluetooth</string>
 	<!-- Suggestion for bluetooth -->
-	<string name="battery_sugg_bluetooth_basic">"Tutupkan Bluetooth apabila tidak diguna"</string>
+	<string name="battery_sugg_bluetooth_basic">"Tutup Bluetooth apabila tidak diguna"</string>
 	<!-- Suggestion for bluetooth headset -->
 	<string name="battery_sugg_bluetooth_headset">Cuba menyambung ke peranti Bluetooth yang lain</string>
 	
@@ -3307,9 +3309,9 @@ limitations under the License.
 	<!-- Menu label for viewing battery usage since unplugged -->
 	<string name="menu_stats_last_unplugged">Sementara terakhir dicabut plagnya untuk <xliff:g id="unplugged">%1$s</xliff:g></string>
 	<!-- Menu label for viewing battery usage total -->
-	<string name="menu_stats_total">Jumlah Penggunaan</string>
+	<string name="menu_stats_total">Jumlah penggunaan</string>
 	<!-- Menu label for refreshing with latest usage numbers -->
-	<string name="menu_stats_refresh">Muat Semula</string>
+	<string name="menu_stats_refresh">Muat semula</string>
 	
 	<!-- Label for kernel threads -->
 	<string name="process_kernel_label">Android OS</string>
@@ -3318,11 +3320,11 @@ limitations under the License.
 	
 	<!-- Voice input/output settings --><skip />
 	<!-- Title of setting on main settings screen. This item will take the user to the screen to tweak settings related to speech functionality -->
-	<string name="voice_input_output_settings">Input &amp; Output Suara</string>
+	<string name="voice_input_output_settings">Input &amp; output suara</string>
 	<!-- Main voice input/output settings screen title -->
 	<string name="voice_input_output_settings_title">Tetapan input &amp; output suara</string>
 	<!-- Title of voice search settings list item within voice input/output settings -->
-	<string name="voice_search_settings_title">Carian Suara</string>
+	<string name="voice_search_settings_title">Carian suara</string>
 	<!-- Title of keyboard settings list item within voice input/output settings -->
 	<string name="keyboard_settings_title">Papan kekunci Android</string>
 	<!-- Title for the 'voice input' category of voice input/output settings -->
@@ -3330,28 +3332,28 @@ limitations under the License.
 	<!-- Title for the voice recognizer setting in voice input/output settings -->
 	<string name="recognizer_title">Pengecam suara</string>
 	<!-- Title for the link to settings for the chosen voice recognizer in voice input/output settings -->
-	<string name="recognizer_settings_title">Carian Suara</string>
+	<string name="recognizer_settings_title">Carian suara</string>
 	<!-- Summary for the link to settings for the chosen voice recognizer in voice input/output settings.
 	Would say something like, e.g., "Settings for 'Google'". -->
 	<string name="recognizer_settings_summary">Tetapan untuk \'<xliff:g id="recognizer_name">%s</xliff:g>\'</string>
 	
 	<!-- Text-To-Speech (TTS) settings --><skip />
 	<!-- Name of the TTS package as listed by the package manager. -->
-	<string name="tts_settings">Tetapan Teks-ke-Ucapan</string>
+	<string name="tts_settings">Tetapan teks-ke-ucapan</string>
 	<!-- TTS option item name in the main settings screen -->
-	<string name="tts_settings_title">Output Teks-ke-ucapan</string>
+	<string name="tts_settings_title">Output teks-ke-ucapan</string>
 	<!-- On main TTS Settings screen, title for toggle used to force use of default TTS settings -->
-	<string name="use_default_tts_settings_title">Sentiasa menggunakan tetapan saya</string>
+	<string name="use_default_tts_settings_title">Sentiasa guna tetapan saya</string>
 	<!-- On main TTS Settings screen, summary for toggle used to force use of default TTS settings -->
 	<string name="use_default_tts_settings_summary">Tetapan lalai di bawah mengatasi tetapan app </string>
 	<!-- On main TTS Settings screen, section header for default TTS settings -->
-	<string name="tts_default_settings_section">Tetapan Lalai</string>
+	<string name="tts_default_settings_section">Tetapan lalai</string>
 	<!-- On main TTS Settings screen, in default settings section, setting default synthesis engine for synthesized voice -->
-	<string name="tts_default_synth_title">Enjin Lalai</string>
+	<string name="tts_default_synth_title">Enjin lalai</string>
 	<!-- On main TTS Settings screen, summary for default synthesis engine for synthesized voice -->
 	<string name="tts_default_synth_summary">Set enjin sintesis pertuturan yang akan digunakan untuk teks pertuturan</string>
 	<!-- On main TTS Settings screen, in default settings section, setting default speech rate for synthesized voice -->
-	<string name="tts_default_rate_title">Kadar Pertuturan</string>
+	<string name="tts_default_rate_title">Kadar pertuturan</string>
 	<!-- On main TTS Settings screen, summary for default speech rate for synthesized voice -->
 	<string name="tts_default_rate_summary">Kelajuan di mana teks yang dituturkan</string>
 	<!-- On main TTS Settings screen, in default settings section, setting default pitch for synthesized voice -->
@@ -3413,31 +3415,31 @@ limitations under the License.
 	<!-- On Pico TTS Settings screen, summary text to indicate that a voice is male -->
 	<string name="pico_voice_summary_male">Lelaki</string>
 	<!-- [CHAR LIMIT=33] Notification title that appears when the installation of a new TTS engine completed -->
-	<string name="tts_notif_engine_install_title">Aktifkan enjin baru sebelum digunakan</string>
+	<string name="tts_notif_engine_install_title">Enjin sintesis ucapan dipasang</string>
 	<!-- [CHAR LIMIT=30] Notification message that appears after the user has installed a new TTS engine,
 	to warn the user that this engine cannot be used before the checkbox for that engine
 	in TTS settings is checked. -->
 	<string name="tts_notif_engine_install_message">Aktifkan enjin baru sebelum digunakan.</string>
 	<!-- [CHAR LIMIT=150] Text for screen readers / accessibility programs for
 	the image that launches the TTS engine settings when clicked. -->
-	<string name="tts_engine_settings_button">Tetapan enjin Pelancaran</string>
+	<string name="tts_engine_settings_button">Tetapan enjin pelancar</string>
 	<!-- [CHAR LIMIT=50] The text for the settings section that users to set a
 	preferred text to speech engine -->
-	<string name="tts_engine_preference_section_title">enjin pilihan</string>
+	<string name="tts_engine_preference_section_title">Enjin pilihan</string>
 	<!-- [CHAR LIMIT=50] Title of the settings section that displays general preferences
 	that are applicable to all engines, such as the speech rate -->
 	<string name="tts_general_section_title">Umum</string>
 	
 	<!-- Power Control Widget -->
-	<string name="gadget_title">Pengawal Power</string>
-	<string name="gadget_toggle_wifi">Mengemaskini Tetapan Wi-Fi</string>
-	<string name="gadget_toggle_bluetooth">Mengemaskini Tetapan Bluetooth</string>
+	<string name="gadget_title">Pengawal kuasa</string>
+	<string name="gadget_toggle_wifi">Mengemaskini tetapan Wi-Fi</string>
+	<string name="gadget_toggle_bluetooth">Mengemaskini tetapan Bluetooth</string>
 	
 	<!-- Title of preference to enter the VPN settings activity -->
 	<string name="vpn_settings_title">VPN</string>
 	
 	<!-- Title of preference group for credential storage settings [CHAR LIMIT=30] -->
-	<string name="credentials_title">Storan Bertauliah</string>
+	<string name="credentials_title">Storan tauliah</string>
 	<!-- Title of preference to install certificates from SD card [CHAR LIMIT=30] -->
 	<string name="credentials_install" product="nosdcard">Pasang daripada storan</string>
 	<!-- Title of preference to install certificates from SD card [CHAR LIMIT=30] -->
@@ -3485,25 +3487,25 @@ limitations under the License.
 	<string name="credentials_configure_lock_screen_hint">Anda perlu menetapkan PIN kunci skrin atau kata laluan sebelum anda boleh menggunakan storan tauliah.</string>
 	
 	<!-- Sound settings screen, setting check box label -->
-	<string name="emergency_tone_title">Nada Kecemasan</string>
+	<string name="emergency_tone_title">Nada kecemasan</string>
 	<!-- Sound settings screen, setting option summary text -->
 	<string name="emergency_tone_summary">Set kelakuan ketika panggilan kecemasan dibuat</string>
 	
 	<!-- Backup and reset Settings screen --><skip />
 	<!-- Backup and reset settings menu title -->
-	<string name="privacy_settings">Sandaran &amp; Reset</string>
+	<string name="privacy_settings">Sandaran &amp; reset</string>
 	<!-- Privacy settings activity title -->
-	<string name="privacy_settings_title">Sandaran &amp; Reset</string>
+	<string name="privacy_settings_title">Sandaran &amp; reset</string>
 	<!-- Backup section title -->
-	<string name="backup_section_title">Sandaran &amp; Pemulihan</string>
+	<string name="backup_section_title">Sandaran &amp; pemulihan</string>
 	<!-- Personal data section title -->
-	<string name="personal_data_section_title">Data Peribadi</string>
+	<string name="personal_data_section_title">Data peribadi</string>
 	<!-- Backup data menu title -->
 	<string name="backup_data_title">Sandarkan data saya</string>
 	<!-- Summary text of the "back up data" setting -->
 	<string name="backup_data_summary">Sandarkan data app, kata laluan Wi-Fi, dan tetapan lain ke pelayan Google</string>
 	<!-- Configure backup account options menu title [CHAR LIMIT=25]-->
-	<string name="backup_configure_account_title">Akaun Sandaran</string>
+	<string name="backup_configure_account_title">Akaun sandaran</string>
 	<!-- Default summary text of the "Configure backup account" setting [CHAR LIMIT=80]-->
 	<string name="backup_configure_account_default_summary">Tiada akaun yang sedang menyimpan data sandaran.</string>
 	<!-- Auto-restore menu title -->
@@ -3512,9 +3514,9 @@ limitations under the License.
 	<string name="auto_restore_summary">Apabila memasang semula app, pulihkan tetapan yang disandarkan dan data</string>
 	
 	<!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
-	<string name="local_backup_password_title">Kata laluan sandaran Desktop</string>
+	<string name="local_backup_password_title">Kata laluan sandaran desktop</string>
 	<!-- Summary text of the "local backup password" setting when the user has not supplied a password -->
-	<string name="local_backup_password_summary_none">Sandaran penuh Desktop tidak dilindungi pada masa ini</string>
+	<string name="local_backup_password_summary_none">Sandaran penuh desktop tidak dilindungi pada masa ini</string>
 	<!-- Summary text of the "local backup password" setting when the user has already supplied a password -->
 	<string name="local_backup_password_summary_change">Sentuh untuk tukar atau buang kata laluan untuk sandaran penuh desktop</string>
 	
@@ -3534,11 +3536,11 @@ limitations under the License.
 	<!-- Device admin settings activity title -->
 	<string name="device_admin_settings_title">Tetapan pentadbiran peranti</string>
 	<!-- Label for screen showing the active device policy -->
-	<string name="active_device_admin_msg">Pentadbir Peranti</string>
+	<string name="active_device_admin_msg">Pentadbir peranti</string>
 	<!-- Label for button to remove the active device admin -->
 	<string name="remove_device_admin">Nyahaktifkan</string>
 	<!-- Label for screen showing to select device policy -->
-	<string name="select_device_admin_msg">Pentadbir Peranti</string>
+	<string name="select_device_admin_msg">Pentadbir peranti</string>
 	<!-- Message when there are no available device admins to display -->
 	<string name="no_device_admins">Tiada pentadbir peranti tersedia</string>
 	
@@ -3547,7 +3549,7 @@ limitations under the License.
 	<!-- Label for button to set the active device admin -->
 	<string name="add_device_admin">Aktifkan</string>
 	<!-- Device admin add activity title -->
-	<string name="device_admin_add_title">Pentadbir Peranti</string>
+	<string name="device_admin_add_title">Pentadbir peranti</string>
 	<!-- Device admin warning message about policies an admin can use -->
 	<string name="device_admin_warning">Mengaktifkan pentadbir ini akan membenarkan aplikasi <xliff:g id="app_name">%1$s</xliff:g> untuk melaksanakan operasi berikut:</string>
 
@@ -3562,7 +3564,7 @@ limitations under the License.
 	
 	<!-- Category title for phone call's ringtone and vibration settings in the Sound Setting.
 	[CHAR LIMIT=40] -->
-	<string name="sound_category_call_ringtone_vibrate_title">Nada Dering Panggilan &amp; Getaran</string>
+	<string name="sound_category_call_ringtone_vibrate_title">Nada dering panggilan &amp; getaran</string>
 	
 	<!-- Category title for system-wide notification and feedback settings in the Sound Setting.
 	[CHAR LIMIT=40] -->
@@ -3589,13 +3591,13 @@ limitations under the License.
 	<!-- Title shown in Wifi Setup For Setup Wizard with XL screen when
 	a user is adding a network.
 	[CHAR LIMIT=50] -->
-	<string name="wifi_setup_title_add_network">Tambah Rangkaian</string>
+	<string name="wifi_setup_title_add_network">Tambah rangkaian</string>
 	<!-- Text message shown when Wifi is not connected.
 	Used in Wifi Setup For Setup Wizard with XL screen. -->
-	<string name="wifi_setup_not_connected">Tidak Bersambung</string>
+	<string name="wifi_setup_not_connected">Tidak bersambung</string>
 	<!-- Button message shown on the button adding manual setting.
 	Used in Wifi Setup For Setup Wizard with XL screen. -->
-	<string name="wifi_setup_add_network">Tambah Rangkaian</string>
+	<string name="wifi_setup_add_network">Tambah rangkaian</string>
 	<!-- Button message shown on the button refreshing a list of network.
 	Used in Wifi Setup For Setup Wizard with XL screen. -->
 	<string name="wifi_setup_refresh_list">Muat semula senarai</string>
@@ -3610,7 +3612,7 @@ limitations under the License.
 	<string name="wifi_setup_back">Kembali</string>
 	<!-- Button label to show detailed dialog for a selected Wi-Fi settings.
 	Used in SetupWizard for XLarge screen [CHAR LIMIT=20] -->
-	<string name="wifi_setup_detail">Butiran Rangkaian</string>
+	<string name="wifi_setup_detail">Butiran rangkaian</string>
 	<!-- Button label to connect to a Wi-Fi network.
 	Used in SetupWizard for XLarge screen [CHAR LIMIT=10] -->
 	<string name="wifi_setup_connect">Sambung</string>
@@ -3657,11 +3659,11 @@ limitations under the License.
 	<!-- The message shown above available networks when a user clicked a network secured by
 	EAP. We don't allow the user to connect it.
 	Used in Wifi Setup For Setup Wizard with XL screen. [CHAR LIMIT=35] -->
-	<string name="wifi_setup_status_eap_not_supported">EAP Tidak Disokong.</string>
+	<string name="wifi_setup_status_eap_not_supported">EAP tidak disokong.</string>
 	<!-- Message shown when users select EAP in Wi-Fi settings for SetupWizard,
 	saying EAP can't be configured in SetupWizard flow.
 	[CHAR LIMIT=NONE] -->
-	<string name="wifi_setup_eap_not_supported">"Anda tidak boleh mengkonfigurasi sambungan Wi-Fi EAP semasa pemasangan. Selepas pemasangan, anda boleh melakukannya dalam Tetapan &gt; Tanpa Wayar &amp; Rangkaian\u0090"</string>
+	<string name="wifi_setup_eap_not_supported">"Anda tidak boleh mengkonfigurasi sambungan Wi-Fi EAP semasa pemasangan. Selepas pemasangan, anda boleh melakukannya dalam Tetapan &gt; Tanpa wayar &amp; rangkaian\u0090"</string>
 	<!-- Message shown when the device is connecting a network [CHAR LIMIT=NONE] -->
 	<string name="wifi_setup_description_connecting">Menyambung boleh mengambil masa beberapa minit\u2026</string>
 	<!-- Message shown when the device is connected to a network [CHAR LIMIT=NONE] -->
@@ -3693,7 +3695,7 @@ limitations under the License.
 	<!-- Data synchronization settings screen, message of dialog that confirms the user's unchecking of background data [CHAR LIMIT=200] -->
 	<string name="background_data_dialog_message">Mematikan data latar belakang melanjutkan hayat bateri dan mengurangkan penggunaan data. Sesetengah app mungkin masih menggunakan sambungan data latar belakang.</string>
 	<!-- Title for a checkbox that enables data synchronization in the account and sync screen [CHAR LIMIT=35] -->
-	<string name="sync_automatically">Auto-Segerak data app</string>
+	<string name="sync_automatically">Auto-segerak data app</string>
 	
 	<!-- Sync status messages on Accounts & Synchronization settings --><skip />
 	<!-- Sync status shown when sync is enabled [CHAR LIMIT=25] -->
@@ -3701,20 +3703,20 @@ limitations under the License.
 	<!-- Sync status shown when sync is disabled [CHAR LIMIT=25] -->
 	<string name="sync_disabled">Segerak tidak aktif</string>
 	<!-- Sync status shown when last sync resulted in an error [CHAR LIMIT=25] -->
-	<string name="sync_error">Ralat Segerak</string>
+	<string name="sync_error">Ralat segerak</string>
 	<!-- Last synced date/time for accounts that synced [CHAR LIMIT=none] -->
 	<string name="last_synced">Kali terakhr disegerakkan <xliff:g id="last_sync_time">%1$s</xliff:g></string>
 	<!-- Sync status shown when sync is disabled [CHAR LIMIT=30] -->
-	<string name="sync_in_progress">Menyegerakkan sekarang\u2026</string>
+	<string name="sync_in_progress">Segerakkan sekarang\u2026</string>
 	
 	<!-- Data synchronization settings screen, setting option name -->
-	<string name="settings_backup">Sandarkan Tetapan</string>
+	<string name="settings_backup">Sandarkan tetapan</string>
 	<!-- Data synchronization settings screen, setting option summary text when check box is selected -->
 	<string name="settings_backup_summary">Sandarkan tetapan saya</string>
 	<!-- Data synchronization settings screen, menu option -->
 	<string name="sync_menu_sync_now">Segerak sekarang</string>
 	<!-- Data synchronization settings screen, menu option -->
-	<string name="sync_menu_sync_cancel">Batal Segerak</string>
+	<string name="sync_menu_sync_cancel">Batal segerak</string>
 	<!-- Data synchronization settings screen, summary of a sync provider (for example, Gmail) when autosync is off and the user wants to do a one-time sync. -->
 	<string name="sync_one_time_sync">Sentuh untuk segerak sekarang <xliff:g id="last_sync_time">\n%1$s</xliff:g></string>
 	<!-- Data synchronization settings screen, checkbox setting option name. Controls whether Gmail should be synced.  Should use "Gmail" to refer to this app.-->
@@ -3725,34 +3727,34 @@ limitations under the License.
 	<string name="sync_contacts">Kenalan</string>
 	<!-- Message introducing the user to Google Sync. -->
 	<string name="sync_plug"><font fgcolor="#ffffffff">Selamat datang ke Google sync!</font>
-	\nPendekatan Google untuk segerakkan data untuk membenarkan akses kepada kenalan anda, temujanji dan banyak lagi dari mana sahaja anda berada.
+	\nPendekatan Google untuk segerakkan data bagi membenarkan akses kepada kenalan anda, temujanji dan banyak lagi dari mana sahaja anda berada.
 	</string>
 	
 	<!-- Header title for those settings relating to application syncing. -->
 	<string name="header_application_sync_settings">Tetapan segerak app</string>
 	
 	<!-- Header for data and synchronization -->
-	<string name="header_data_and_synchronization">Data &amp; Penyegerakkan</string>
+	<string name="header_data_and_synchronization">Data &amp; penyegerakkan</string>
 	<!-- Preference item that lets the user change password -->
-	<string name="preference_change_password_title">Tukar Kata Laluan</string>
+	<string name="preference_change_password_title">Tukar kata laluan</string>
 	<!-- Header that appears at the top of Account Settings screen -->
-	<string name="header_account_settings">Tetapan Akaun</string>
+	<string name="header_account_settings">Tetapan akaun</string>
 	<!-- Button label to remove current account -->
-	<string name="remove_account_label">Buang Akaun</string>
+	<string name="remove_account_label">Buang akaun</string>
 	<!-- Title shown in AddAccount -->
 	<string name="header_add_an_account">Tambah akaun</string>
 	<!-- Button shown when this activity is run from SetupWizard -->
 	<string name="finish_button_label">Selesai</string>
 	<!-- Title of remove message for remove account dialog -->
-	<string name="really_remove_account_title">Buang Akaun?</string>
+	<string name="really_remove_account_title">Buang akaun?</string>
 	<!-- Remove account message in dialog [CHAR LIMIT=NONE] -->
-	<string name="really_remove_account_message" product="tablet">Removing this account will delete all of its messages, contacts, and other data from the tablet!</string>
+	<string name="really_remove_account_message" product="tablet">Membuang akaun ini akan buang semua mesej, kenalan dan data lain daripada tablet!</string>
 	<!-- Remove account message in dialog [CHAR LIMIT=NONE] -->
-	<string name="really_remove_account_message" product="default">Removing this account will delete all of its messages, contacts, and other data from the phone!</string>
+	<string name="really_remove_account_message" product="default">Membuang akaun ini akan buang semua mesej, kenalan dan data lain daripada telefon!</string>
 	<!-- This is shown if the autheticator for a given account fails to remove it. -->
-	<string name="remove_account_failed" product="tablet">This account is required by some apps. You can only remove it by resetting the tablet to factory defaults (which deletes all your personal data) in Settings &gt; Backup &amp; reset.</string>
+	<string name="remove_account_failed" product="tablet">Akaun ini diperlukan oleh sesetengah app. Anda hanya boleh buang ia dengan reset tablet ke tetapan lalai kilang (akan buang semua data peribadi anda) dalam Tetapan &gt; Sandaran &amp; reset.</string>
 	<!-- This is shown if the autheticator for a given account fails to remove it. -->
-	<string name="remove_account_failed" product="default">This account is required by some apps. You can only remove it by resetting the phone to factory defaults (which deletes all your personal data) in Settings &gt; Backup &amp; reset.</string>
+	<string name="remove_account_failed" product="default">Akaun ini diperlukan oleh sesetengah app. Anda hanya boleh buang ia dengan reset telefon ke tetapan lalai kilang (akan buang semua data peribadi anda) dalam Tetapan &gt; Sandaran &amp; reset.</string>
 	<!-- What to show in messaging that refers to this provider, e.g. AccountSyncSettings -->
 	<string name="provider_label">Langganan Push</string>
 	<!-- Formatter in AccountSyncSettings for each application we wish to synchronize, e.g. "Sync Calendar" -->
@@ -3763,8 +3765,8 @@ limitations under the License.
 	<string name="cant_sync_dialog_message">Segerak untuk item ini dimatikan buat masa ini. Untuk menukar tetapan ini, sementara waktu hidupkan data latar belakang dan segerak automatik.</string>
 	
 	<string name="wimax_settings">Tetapan 4G</string>
-	<string name="wimax_settings_summary">Pasang &amp; Urus Rangkaian dan Modem 4G</string>
-	<string name="status_wimax_mac_address">4G MAC address</string>
+	<string name="wimax_settings_summary">Tetapkan &amp; urus rangkaian dan modem 4G</string>
+	<string name="status_wimax_mac_address">Alamat MAC 4G</string>
 	<!-- This is displayed to the user when the device needs to be decrypted -->
 	<string name="enter_password">Taip kata laluan untuk dekripsi storan</string>
 	<!-- This is displayed when the password is entered incorrectly -->
@@ -3774,9 +3776,9 @@ limitations under the License.
 	<!-- Menu item/button 'delete' -->
 	<string name="delete">Padam</string>
 	<!-- Misc files [CHAR LIMIT=25] -->
-	<string name="misc_files">Pelbagai file</string>
+	<string name="misc_files">Pelbagai fail</string>
 	<!-- number of misc files selected [CHAR LIMIT=40] -->
-	<string name="misc_files_selected_count">Terpilih <xliff:g id="number" example="3">%1$d</xliff:g> daripada <xliff:g id="total" example="15">%2$d</xliff:g></string>
+	<string name="misc_files_selected_count">dipilih <xliff:g id="number" example="3">%1$d</xliff:g> daripada <xliff:g id="total" example="15">%2$d</xliff:g></string>
 	<!-- number of bytes represented by the selected misc files [CHAR LIMIT=40] -->
 	<string name="misc_files_selected_count_bytes"><xliff:g id="number" example="3.25MB">%1$s</xliff:g> daripada <xliff:g id="total" example="15.25MB">%2$s</xliff:g></string>
 	<!--  action to select all [CHAR LIMIT=30] -->
@@ -3811,19 +3813,19 @@ limitations under the License.
 	<string name="debug_input_category">Input</string>
 	
 	<!-- Preference category for drawing debugging development settings. [CHAR LIMIT=25] -->
-	<string name="debug_drawing_category">Melukis</string>
+	<string name="debug_drawing_category">Lukisan</string>
 	
 	<!-- Preference category for monitoring debugging development settings. [CHAR LIMIT=25] -->
-	<string name="debug_monitoring_category">Pengawasan</string>
+	<string name="debug_monitoring_category">Pemantauan</string>
 	
 	<!-- UI debug setting: always enable strict mode? [CHAR LIMIT=25] -->
 	<string name="strict_mode">Mod tegas dihidupkan</string>
 	<!-- UI debug setting: show strict mode summary [CHAR LIMIT=50] -->
-	<string name="strict_mode_summary">Kelipkan Skrin  apabila aplikasi melakukan operasi 
-	yg memakan masa pada tajuk utama</string>
+	<string name="strict_mode_summary">Kelipkan skrin  apabila aplikasi melakukan operasi 
+	yg memakan masa pada thread utama</string>
 	
 	<!-- UI debug setting: show pointer location? [CHAR LIMIT=25] -->
-	<string name="pointer_location">Lokasi Penuding</string>
+	<string name="pointer_location">Lokasi penuding</string>
 	<!-- UI debug setting: show pointer location summary [CHAR LIMIT=50] -->
 	<string name="pointer_location_summary">Tindihan atas skrin menunjukkan data sentuh semasa</string>
 	
@@ -3833,30 +3835,30 @@ limitations under the License.
 	<string name="show_touches_summary">Tunjuk maklum balas visual untuk sentuhan</string>
 	
 	<!-- UI debug setting: show where surface updates happen? [CHAR LIMIT=25] -->
-	<string name="show_screen_updates">Tunjuk kemaskini permukaan</string>
+	<string name="show_screen_updates">Kemaskini permukaan</string>
 	<!-- UI debug setting: show surface updates summary [CHAR LIMIT=50] -->
 	<string name="show_screen_updates_summary">Kelipkan permukaan tingkap keseluruhan apabila mereka kemaskini</string>
 	
 	<!-- UI debug setting: show where window updates happen with GPU rendering? [CHAR LIMIT=25] -->
-	<string name="show_hw_screen_updates">Tunjukkan kemaskini paparan GPU</string>
+	<string name="show_hw_screen_updates">Kemaskini paparan GPU</string>
 	<!-- UI debug setting: show GPU rendering screen updates summary [CHAR LIMIT=50] -->
 	<string name="show_hw_screen_updates_summary">Kelipkan pandangan di dalam tingkap apabila diaktifkan dengan GPU</string>
 	
     <!-- UI debug setting: show when hardware layers get updated [CHAR LIMIT=25] -->
-    <string name="show_hw_layers_updates">Tunjuk kemaskini lapisan perkakasan</string>
+    <string name="show_hw_layers_updates">Kemaskini lapisan perkakasan</string>
     <!-- UI debug setting: show hardware layers updates summary [CHAR LIMIT=50] -->
     <string name="show_hw_layers_updates_summary">Kelipkan lapisan hijau perkakasan ketika mereka kemaskini</string>
     <!-- UI debug setting: show the amount of overdraw in apps using the GPU [CHAR LIMIT=25] -->
-    <string name="show_hw_overdraw">Tunjuk GPU yang melebihi had</string>
+    <string name="show_hw_overdraw">GPU lebihi had</string>
     <!-- UI debug setting: Show the amount of overdraw summary [CHAR LIMIT=50] -->
     <string name="show_hw_overdraw_summary">Dari terbaik ke terburuk: biru, hijau, merah muda, merah</string>
 	<!-- UI debug setting: disable use of overlays? [CHAR LIMIT=25] -->
-	<string name="disable_overlays">Matikan lapisan HW</string>
+	<string name="disable_overlays">Matikan tindihan HW</string>
 	<!-- UI debug setting: disable use of overlays summary [CHAR LIMIT=50] -->
 	<string name="disable_overlays_summary">Sentiasa gunakan GPU untuk komposisikan skrin</string>
 	
 	<!-- UI debug setting: enable low-level traces? [CHAR LIMIT=25] -->
-	<string name="enable_traces_title">Bolehkan Pengesanan</string>
+	<string name="enable_traces_title">Hidupkan pengesanan</string>
 	<!-- UI debug setting: title for dialog to enable low-level traces [CHAR LIMIT=25] -->
 	<string name="enable_traces_dialog_title">Pilih kesan yang dihidupkan</string>
 	
@@ -3870,7 +3872,7 @@ limitations under the License.
     <!-- UI debug setting: enable various types of OpenGL traces [CHAR LIMIT=25] -->
     <string name="enable_opengl_traces_title">Hidupkan jejak OpenGL</string>
 	<!-- UI debug setting: show layout bounds information [CHAR LIMIT=25] -->
-	<string name="debug_layout">Tunjuk batas susun atur</string>
+	<string name="debug_layout">Batas susun atur</string>
 	<!-- UI debug setting: show layout bounds information summary [CHAR LIMIT=50] -->
 	<string name="debug_layout_summary">Tunjukkan batas klip,margin dan lain-lain.</string>
 	
@@ -3891,7 +3893,7 @@ limitations under the License.
 	<!-- UI debug setting: profile time taken by hardware acceleration to render apps [CHAR LIMIT=25] -->
 	<string name="track_frame_time">Profil rendering GPU</string>
 	<!-- UI debug setting: profile hardware acceleration summary [CHAR LIMIT=50] -->
-	<string name="track_frame_time_summary">Mengukur masa rendering di dumpsys shell ADB gfxinfo</string>
+	<string name="track_frame_time_summary">Mengukur masa rendering di adb shell dumpsys gfxinfo</string>
 	
 	<!-- UI debug setting: scaling factor for window animations [CHAR LIMIT=25] -->
 	<string name="window_animation_scale_title">Skala animasi tetingkap</string>
@@ -3900,7 +3902,7 @@ limitations under the License.
 	<string name="transition_animation_scale_title">Skala animasi peralihan</string>
 	
 	<!-- UI debug setting: scaling factor for all Animator-based animations [CHAR LIMIT=25] -->
-	<string name="animator_duration_scale_title">Skala tempoh Animator</string>
+	<string name="animator_duration_scale_title">Skala tempoh animator</string>
 	
     <!-- UI debug setting: simulate secondary display devices using overlays [CHAR LIMIT=25] -->
     <string name="overlay_display_devices_title">Simulasi paparan kedua</string>
@@ -3917,29 +3919,29 @@ limitations under the License.
 	<string name="app_process_limit_title">Had proses latar belakang</string>
 	
 	<!-- UI debug setting: show all ANRs? [CHAR LIMIT=25] -->
-	<string name="show_all_anrs">Tunjuk Semua ANRs</string>
+	<string name="show_all_anrs">Tunjuk semua ANRs</string>
 	<!-- UI debug setting: show all ANRs summary [CHAR LIMIT=50] -->
-	<string name="show_all_anrs_summary">Menunjukkan dialog App Tidak Respon 
+	<string name="show_all_anrs_summary">Tunjuk dialog App Tidak Respon 
 	bagi app latar belakang</string>
 	
 	<!-- Activity title for network data usage summary. [CHAR LIMIT=25] -->
-	<string name="data_usage_summary_title">Penggunaan Data</string>
+	<string name="data_usage_summary_title">Penggunaan data</string>
 	<!-- Title for option to pick visible time range from a list available usage periods. [CHAR LIMIT=25] -->
 	<string name="data_usage_cycle">Kitaran penggunaan data</string>
 	<!-- Title for checkbox menu option to enable mobile data when roaming. [CHAR LIMIT=26] -->
-	<string name="data_usage_menu_roaming">Perayauan Data</string>
+	<string name="data_usage_menu_roaming">Perayauan data</string>
 	<!-- Title for checkbox menu option to restrict background data usage. [CHAR LIMIT=26] -->
 	<string name="data_usage_menu_restrict_background">Hadkan data latar belakang</string>
 	<!-- Title for checkbox menu option to show 4G mobile data usage separate from other mobile data usage. [CHAR LIMIT=26] -->
 	<string name="data_usage_menu_split_4g">Asingkan penggunaan 4G</string>
 	<!-- Title for checkbox menu option to show Wi-Fi data usage. [CHAR LIMIT=26] -->
-	<string name="data_usage_menu_show_wifi">Tunjukkan penggunaan Wi-Fi</string>
+	<string name="data_usage_menu_show_wifi">Tunjuk penggunaan Wi-Fi</string>
 	<!-- Title for checkbox menu option to show Ethernet data usage. [CHAR LIMIT=26] -->
-	<string name="data_usage_menu_show_ethernet">Tunjukkan penggunaan Ethernet</string>
+	<string name="data_usage_menu_show_ethernet">Tunjuk penggunaan Ethernet</string>
 	<!-- Title for menu option to configure metered networks. [CHAR LIMIT=26] -->
-	<string name="data_usage_menu_metered">Hotspots Mudah Alih</string>
+	<string name="data_usage_menu_metered">Hotspot mudah alih</string>
 	<!--  Title for menu option to enable global auto-sync of account data -->
-	<string name="data_usage_menu_auto_sync">Auto-Segerak data</string>
+	<string name="data_usage_menu_auto_sync">Auto-segerak data</string>
 	
 	<!-- Title for option to change data usage cycle day. [CHAR LIMIT=32] -->
 	<string name="data_usage_change_cycle">Tukar kitaran\u2026</string>
@@ -3948,12 +3950,12 @@ limitations under the License.
 	<!-- Label shown when no applications used data during selected time period. [CHAR LIMIT=48] -->
 	<string name="data_usage_empty">Tiada app yang menggunakan data dalam tempoh ini.</string>
 	<!-- Label for data usage occuring while application in foreground. [CHAR LIMIT=48] -->
-	<string name="data_usage_label_foreground">Latar Hadapan</string>
+	<string name="data_usage_label_foreground">Latar hadapan</string>
 	<!-- Label for data usage occuring while application in background. [CHAR LIMIT=48] -->
-	<string name="data_usage_label_background">Latar Belakang</string>
+	<string name="data_usage_label_background">Latar belakang</string>
 	
 	<!-- Label for application which has its data usage restricted. [CHAR LIMIT=16] -->
-	<string name="data_usage_app_restricted">Terhad</string>
+	<string name="data_usage_app_restricted">Dihadkan</string>
 	
 	<!-- Body of dialog shown to request confirmation that mobile data will be disabled. [CHAR LIMIT=NONE] -->
 	<string name="data_usage_disable_mobile">Matikan data mudah alih?</string>
@@ -3971,19 +3973,19 @@ limitations under the License.
 	<!-- Tab title for showing Ethernet data usage. [CHAR LIMIT=10] -->
 	<string name="data_usage_tab_ethernet">Ethernet</string>
 	<!-- Tab title for showing combined mobile data usage. [CHAR LIMIT=10] -->
-	<string name="data_usage_tab_mobile">Mudah Alih</string>
+	<string name="data_usage_tab_mobile">Mudah alih</string>
 	<!-- Tab title for showing 4G data usage. [CHAR LIMIT=10] -->
 	<string name="data_usage_tab_4g">4G</string>
 	<!-- Tab title for showing 2G and 3G data usage. [CHAR LIMIT=10] -->
 	<string name="data_usage_tab_3g">2G-3G</string>
 	
 	<!-- Title shown when current operation applies to mobile networks. [CHAR LIMIT=10] -->
-	<string name="data_usage_list_mobile">Mudah Alih</string>
+	<string name="data_usage_list_mobile">Mudah alih</string>
 	<!-- Title shown when current operation applies to no networks. [CHAR LIMIT=10] -->
 	<string name="data_usage_list_none">Tiada</string>
 	
 	<!-- Toggle switch title for enabling all mobile data network connections. [CHAR LIMIT=32] -->
-	<string name="data_usage_enable_mobile">Data Mudah Alih</string>
+	<string name="data_usage_enable_mobile">Data mudah alih</string>
 	<!-- Toggle switch title for enabling 2G and 3G data network connections. [CHAR LIMIT=32] -->
 	<string name="data_usage_enable_3g">Data 2G-3G</string>
 	<!-- Toggle switch title for enabling 4G data network connection. [CHAR LIMIT=32] -->
@@ -4056,27 +4058,27 @@ limitations under the License.
 	<string name="data_usage_total_during_range_mobile" product="default"><xliff:g id="range" example="Jul 1 - Jul 31">%2$s</xliff:g>: about <xliff:g id="total" example="128KB">%1$s</xliff:g> used, as measured by your phone. Your carrier\'s data usage accounting may differ.</string>
 	
 	<!-- Dialog title for selecting metered networks. [CHAR LIMIT=25] -->
-	<string name="data_usage_metered_title">Hotspots Mudah Alih</string>
+	<string name="data_usage_metered_title">Hotspots mudah alih</string>
 	<!-- Dialog body for selecting paid networks. [CHAR LIMIT=NONE] -->
 	<string name="data_usage_metered_body">Pilih rangkaian Wi-Fi yang merupakan hotspot mudah alih. App boleh dihadkan daripada menggunakan rangkaian ini apabila di latar belakang. App ini juga memberi amaran sebelum menggunakan rangkaian ini untuk muat turun yang besar.</string>
 	<!-- Header for list of mobile networks. [CHAR LIMIT=32] -->
-	<string name="data_usage_metered_mobile">Rangkaian Mudah Alih</string>
+	<string name="data_usage_metered_mobile">Rangkaian mudah alih</string>
 	<!-- Header for list of Wi-Fi networks. [CHAR LIMIT=32] -->
 	<string name="data_usage_metered_wifi">Rangkaian Wi-Fi</string>
 	<!-- Body text prompting user to enable Wi-Fi to configure metered networks. [CHAR LIMIT=64] -->
 	<string name="data_usage_metered_wifi_disabled">Untuk memilih hotspots mudah alih, bukakan Wi-Fi.</string>
 	
 	<!-- Button at the bottom of the CryptKeeper screen to make an emergency call. -->
-	<string name="cryptkeeper_emergency_call">Panggilan Kecemasan</string>
+	<string name="cryptkeeper_emergency_call">Panggilan kecemasan</string>
 	<!-- Button at the bottom of the CryptKeeper screen that lets the user return to a call -->
-	<string name="cryptkeeper_return_to_call">Kembali ke Panggilan</string>
+	<string name="cryptkeeper_return_to_call">Kembali ke panggilan</string>
 	
 	<!-- Input label for the name of a VPN profile. [CHAR LIMIT=40] -->
 	<string name="vpn_name">Nama</string>
 	<!-- Input label for the type of a VPN profile. [CHAR LIMIT=40] -->
 	<string name="vpn_type">Jenis</string>
 	<!-- Input label for the server address of a VPN profile. [CHAR LIMIT=40] -->
-	<string name="vpn_server">Alamat Pelayan</string>
+	<string name="vpn_server">Alamat pelayan</string>
 	<!-- Checkbox label to enable PPP encryption for a VPN profile. [CHAR LIMIT=40] -->
 	<string name="vpn_mppe">Enkripsi PPP (MPPE)</string>
 	<!-- Input label for the L2TP secret of a VPN profile. [CHAR LIMIT=40] -->
@@ -4092,17 +4094,17 @@ limitations under the License.
 	<!-- Selection label for the IPSec server certificate of a VPN profile. [CHAR LIMIT=40] -->
 	<string name="vpn_ipsec_server_cert">Sijil pelayan IPSec</string>
 	<!-- Checkbox label to show advanced options of a VPN profile. [CHAR LIMIT=40] -->
-	<string name="vpn_show_options">Tunjukkan Pilihan Lanjutan</string>
+	<string name="vpn_show_options">Tunjukkan pilihan lanjutan</string>
 	<!-- Input label for the DNS search domains of a VPN profile. [CHAR LIMIT=40] -->
-	<string name="vpn_search_domains">Carian Domain DNS</string>
+	<string name="vpn_search_domains">Carian domain DNS</string>
 	<!-- Input label for the DNS servers of a VPN profile. [CHAR LIMIT=40] -->
 	<string name="vpn_dns_servers">Pelayan DNS</string>
 	<!-- Input label for the forwarding routes of a VPN profile. [CHAR LIMIT=40] -->
-	<string name="vpn_routes">Laluan dimajukan</string>
+    <string name="vpn_routes">Memajukan laluan (e.g. 10.0.0.0/8)</string>
 	<!-- Input label for the username of a VPN profile. [CHAR LIMIT=40] -->
 	<string name="vpn_username">ID Pengguna</string>
 	<!-- Input label for the password of a VPN profile. [CHAR LIMIT=40] -->
-	<string name="vpn_password">Kata Laluan</string>
+	<string name="vpn_password">Kata laluan</string>
 	<!-- Checkbox label to save the username and the password in a VPN profile. [CHAR LIMIT=40] -->
 	<string name="vpn_save_login">Simpan maklumat akaun</string>
 	<!-- Hint for not using an optional feature in a VPN profile. [CHAR LIMIT=40] -->
@@ -4121,7 +4123,7 @@ limitations under the License.
 	<!-- Dialog title to edit a VPN profile. [CHAR LIMIT=40] -->
 	<string name="vpn_edit">Edit profil VPN</string>
 	<!-- Dialog title to connect to a VPN profile. [CHAR LIMIT=40] -->
-	<string name="vpn_connect_to">Sambung kepada <xliff:g id="profile" example="School">%s</xliff:g></string>
+	<string name="vpn_connect_to">Sambung ke <xliff:g id="profile" example="School">%s</xliff:g></string>
 	
 	<!-- Preference title for VPN settings. [CHAR LIMIT=40] -->
 	<string name="vpn_title">VPN</string>
@@ -4155,12 +4157,12 @@ limitations under the License.
 	<string name="trusted_credentials_remove_confirmation">Padam selamanya perakuan CA pengguna?</string>
 	
 	<!--  Title for spell checker settings -->
-	<string name="spellcheckers_settings_title">Penyemak Ejaan</string>
+	<string name="spellcheckers_settings_title">Penyemak ejaan</string>
 	
 	<!-- Prompt for the user to enter their current full-backup password -->
 	<string name="current_backup_pw_prompt">Taip kata laluan sandaran penuh semasa anda di sini</string>
 	<!-- Prompt for the user to enter a new full-backup password -->
-	<string name="new_backup_pw_prompt">Taip Kata Laluan baru untuk sandaran penuh baru</string>
+	<string name="new_backup_pw_prompt">Taip Kata laluan baru untuk sandaran penuh baru</string>
 	<!-- Prompt for the user to confirm the new full-backup password by re-entering it -->
 	<string name="confirm_new_backup_pw_prompt">Taip semula kata laluan sandaran penuh baru anda di sini</string>
 	
@@ -4172,21 +4174,21 @@ limitations under the License.
 	<!-- Representation of a numerical percentage. [CHAR LIMIT=8] -->
 	<string name="percentage"><xliff:g id="number" example="30">%d</xliff:g>%%</string>
 	<!-- Multi Sim Settings screen, Select Sub label -->
-	<string name="sel_sub_title">Konfigur langganan</string>
+	<string name="sel_sub_title">Konfigurasi langganan</string>
 	<!-- Multi Sim Settings screen, Select Sub Summary label -->
 	<string name="sel_sub_summary">Pilih Langganan SUB-1 and SUB-2</string>
 	<!-- Select Subscription screen title -->
 	<string name="select_subscription">Pilih langganan</string>
 	
 	<!-- Main settings screen, Multi Sim settings title for item to go into the Multi settings -->
-	<string name="multi_sim_settings_title">Tetapan Multi SIM </string>
+	<string name="multi_sim_settings_title">Tetapan multi SIM </string>
 	<!-- Main settings screen, Multi Sim settings summary for item to go into Multi settings -->
-	<string name="multi_sim_settings_summary">Sediakan Multi Sim Tetapan untuk suara, data dan SMS</string>
+	<string name="multi_sim_settings_summary">Sediakan tetapan multi SIM untuk suara, data dan SMS</string>
 	
 	<!-- Multi Sim Settings screen, Voice box label -->
 	<string name="voice_title">Suara/USSD/MMI</string>
 	<!-- Multi Sim Settings screen, Voice Summary label -->
-	<string name="voice_summary">Pilih Langganan Panggilan Suara</string>
+	<string name="voice_summary">Pilih langganan panggilan suara</string>
 	
 	<!-- Multi Sim Settings screen, Data box label -->
 	<string name="data_title">Panggilan data</string>
@@ -4196,12 +4198,12 @@ limitations under the License.
 	<!-- Multi Sim Settings screen, SMS box label -->
 	<string name="sms_title">SMS</string>
 	<!-- Multi Sim Settings screen, Voice Summary label -->
-	<string name="sms_summary">Pilih Langganan untuk Menghantar SMS</string>
+	<string name="sms_summary">Pilih langganan untuk menghantar SMS</string>
 	
 	<!-- Multi Sim Settings screen, Set DDS progress dialog message -->
 	<string name="set_data_subscription_progress">Set langganan data dalam perkembangan</string>
 	<!-- Multi Sim Settings screen, Set DDS success message -->
-	<string name="set_dds_success">Set langganan data Berjaya</string>
+	<string name="set_dds_success">Set langganan data berjaya</string>
 	<!-- Multi Sim Settings screen, Set DDS failure message -->
 	<string name="set_dds_failed">Kesilapan dalam set langganan data. Membersihkan apa-apa sambungan data yang sedia ada dan cuba lagi.</string>
 	<!-- Multi Sim Settings screen, Set DDS error message -->
@@ -4224,7 +4226,7 @@ limitations under the License.
 	<!-- A menu item in "About phone" that allows the user to update the phone with settings
 	from their cell phone carrier. The use of the string is similar to the string
 	"system_update_settings_list_item_title" in this project. [CHAR LIMIT=25] -->
-	<string name="additional_system_update_settings_list_item_title">Tambahan Kemaskini Sistem</string>
+	<string name="additional_system_update_settings_list_item_title">Tambahan kemaskini sistem</string>
 	
 	<!-- User settings -->
 	<skip/>
@@ -4242,7 +4244,7 @@ limitations under the License.
 	<!-- User details screen title [CHAR LIMIT=25] -->
 	<string name="user_details_title">Edit </string>
 	<!-- User information section title [CHAR LIMIT=30] -->
-	<string name="user_information_heading">Info Pengguna</string>
+	<string name="user_information_heading">Info pengguna</string>
 	<!-- User name title [CHAR LIMIT=25] -->
 	<string name="user_name_title">Nama</string>
 	<!-- User restrictions section title [CHAR LIMIT=30] -->
@@ -4250,7 +4252,7 @@ limitations under the License.
 	<!-- User restrictions, does market require PIN protection [CHAR LIMIT=30] -->
 	<string name="user_market_requires_pin">Memerlukan PIN</string>
 	<!-- User restrictions, maximum content rating for apps [CHAR LIMIT=25] -->
-	<string name="user_max_content_rating">Rating Kandungan</string>
+	<string name="user_max_content_rating">Rating kandungan</string>
 	<!-- Section title for list of system apps [CHAR LIMIT=30] -->
 	<string name="user_system_apps_heading">Aplikasi sistem</string>
 	<!-- Section title for list of downloaded apps [CHAR LIMIT=30] -->
@@ -4258,9 +4260,9 @@ limitations under the License.
 	<!-- User details discard user menu [CHAR LIMIT=20] -->
 	<string name="user_discard_user_menu">Membuang</string>
 	<!-- User details remove user menu [CHAR LIMIT=20] -->
-	<string name="user_remove_user_menu">Padam Pengguna</string>
+	<string name="user_remove_user_menu">Padam pengguna</string>
 	<!-- User details new user name [CHAR LIMIT=30] -->
-	<string name="user_new_user_name">Pengguna Baru</string>
+	<string name="user_new_user_name">Pengguna baru</string>
 	<!-- User removal confirmation title [CHAR LIMIT=25] -->
 	<string name="user_confirm_remove_title">Padam pengguna?</string>
 	<!-- User removal confirmation message [CHAR LIMIT=none] -->
@@ -4274,7 +4276,7 @@ limitations under the License.
 	<string name="help_label">Bantuan</string>
 	
 	<!-- Cell Broadcast settings title [CHAR LIMIT=50] -->
-	<string name="cell_broadcast_settings">Siaran Sel</string>
+	<string name="cell_broadcast_settings">Siaran sel</string>
 	<!-- Cell Broadcast settings description [CHAR LIMIT=100] -->
 	<string name="cell_broadcast_settings_summary">Pilih jenis isyarat kecemasan untuk dipaparkan.</string>
 </resources>
