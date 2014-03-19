@@ -56,7 +56,7 @@
 
     <!-- Display settings.  The delay in inactivity before the dream is shown. These are shown in a list dialog. -->
     <string-array name="dream_timeout_entries">
-        <item>Jangan</item>
+        <item>Jangan sekali-kali</item>
         <item>15 saat</item>
         <item>30 saat</item>
         <item>1 minit</item>
@@ -82,9 +82,9 @@
     
     <string-array name="entries_font_size">
         <item msgid="6490061470416867723">Kecil</item>
-        <item msgid="3579015730662088893">Biasa</item>
+        <item msgid="3579015730662088893">Normal</item>
         <item msgid="1678068858001018666">Besar</item>
-        <item msgid="490158884605093126">Amat Besar</item>
+        <item msgid="490158884605093126">Amat besar</item>
     </string-array>
 
     <!-- TTS settings -->
@@ -222,7 +222,7 @@
         <!-- Keep Wi-Fi on when screen turns off and plugged in.  When on battery, go to sleep when screen turns off. -->
         <item>Hanya ketika dipalamkan</item>
         <!-- Do not keep Wi-Fi on when screen turns off. -->
-        <item>Jangan (Menambah penggunaan data)</item>
+        <item>Jangan (tingkat penggunaan data)</item>
     </string-array>
 
     <!-- Wi-Fi settings. Presented as a list dialog to the user to choose the Wi-Fi sleep policy. Used when
@@ -345,7 +345,7 @@
     <string-array name="hdcp_checking_summaries" >
         <item>Jangan gunakan penyemakan HDCP</item>
         <item>Gunakan penyemakan HDCP bagi kandungan DRM sahaja</item>
-        <item>Sentiasa gunakan penyemakan HDCP</item>
+        <item>Sentiasa guna penyemakan HDCP</item>
     </string-array>
 
     <!-- Titles for window animation scale preference. [CHAR LIMIT=35] -->
@@ -381,6 +381,13 @@
         <item>Skala Animasi 10x</item>
     </string-array>
     
+    <!-- Titles for OpenGL traces preference. [CHAR LIMIT=35] -->
+    <string-array name="enable_opengl_traces_entries">
+        <item>Tiada</item>
+        <item>Logcat</item>
+        <item>Systrace (Grafik)</item>
+        <item>Panggil tindanan pada glGetError</item>
+    </string-array>
     <!-- Titles for app process limit preference. [CHAR LIMIT=35] -->
     <string-array name="app_process_limit_entries">
         <item>Had piawaian</item>

@@ -552,7 +552,7 @@
     <string name="internal_format_summary">Padam semua data dalam storan dalaman anda</string>
     <string name="bugreport_tool_log_toast_generate_bugreport">Menjanakan laporan pepijat (mengambil masa kira-kira 1 minit)</string>
     <string name="bugreport_tool_log_toast">Log disimpan ke %s</string>
-    <string name="wifi_tether_setting_title">Tetapan asasBasic settings</string>
+    <string name="wifi_tether_setting_title">Tetapan asas</string>
     <string name="audio_profile_settings_title">Profil audio</string>
     <string name="enable_wifi_display">Paparan tanpa wayar</string>
     <string name="xiaomi_cloud_service">MiCloud</string>
@@ -608,7 +608,7 @@
     <string name="wifi_share_connect">Sambung</string>
     <string name="wifi_add_network">Tambah rangkaian</string>
     <string name="wifi_share_qrcode_title">Kongsi Wi-Fi</string>
-    <string name="wifi_share_qrcode_summary">Guna Kmera untuk imbas Kod QR</string>
+    <string name="wifi_share_qrcode_summary">Guna Kamera untuk imbas Kod QR</string>
     <string name="wifi_share_qrcode_finish">Selesai</string>
     <!-- oldman -->
     <string name="oldman_mode_entry_title">Mod Ringkas</string>
