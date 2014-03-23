@@ -1,102 +1,102 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name">Blocklist</string>
+    <string name="app_name">Daftar Blokir</string>
 
     <!--  notification -->
-    <string name="fw_blocked">Blocked:</string>
-    <string name="fw_blocked_count">Blocked <xliff:g id="opt">%d</xliff:g> calls and <xliff:g id="opt">%d</xliff:g> messages</string>
+    <string name="fw_blocked">Diblokir:</string>
+    <string name="fw_blocked_count">Diblokir <xliff:g id="opt">%d</xliff:g> panggilan dan<xliff:g id="opt">%d</xliff:g> pesan</string>
 
     <!-- Tab/Other View -->
-    <string name="tab_title">Blocklist</string>
-    <string name="tab_block_log">Blocked log</string>
-    <string name="tab_blacklist">Blocklist</string>
-    <string name="tab_sms">Message log</string>
-    <string name="tab_call">Call log</string>
-    <string name="bl_block_info">Blocked: <xliff:g id="tel_count">%d</xliff:g> calls "|" <xliff:g id="ms_count">%d</xliff:g> messages</string>
-    <string name="bl_no_block_call">No blocked calls</string>
-    <string name="bl_no_block_sms">No blocked messages</string>
-    <string name="bl_no_blacklist">No blocked numbers</string>
+    <string name="tab_title">Daftar Blokir</string>
+    <string name="tab_block_log">Catatan Blokir</string>
+    <string name="tab_blacklist">Daftar Blokir</string>
+    <string name="tab_sms">Catatan Pesan</string>
+    <string name="tab_call">Catatan Panggilan</string>
+    <string name="bl_block_info">Diblokir: <xliff:g id="tel_count">%d</xliff:g> panggilan "|" <xliff:g id="ms_count">%d</xliff:g> pesan</string>
+    <string name="bl_no_block_call">Tidak ada panggilan yang diblokir</string>
+    <string name="bl_no_block_sms">Tidak ada pesan yang diblokir</string>
+    <string name="bl_no_blacklist">Tidak ada nomor yang diblokir</string>
     <string name="log_count">(%d)</string>
 
-    <string name="tab_block_log_unKnowNumber">Unknown number</string>
+    <string name="tab_block_log_unKnowNumber">Nomor tidak dikenal</string>
 
     <!-- Mark info -->
-    <string name="marked_by_user">"You marked it as "</string>
-    <string name="marked_by_others">"%d other users marked it as "</string>
+    <string name="marked_by_user">"Anda menandainya sebagai "</string>
+    <string name="marked_by_others">"%d pengguna lainnya menandainya sebagai "</string>
 
     <!-- Dialog -->
-    <string name="dlg_clear_all_sms">Delete blocked messages?</string>
-    <string name="dlg_clear_all_call">Clear blocked calls?</string>
-    <string name="dlg_clear_current_sms">Delete all blocked messages sent from this number?</string>
-    <string name="dlg_clear_current_call">Clear all blocked calls from this number?</string>
-    <string name="dlg_clear_all_ok">Clear all</string>
-    <string name="dlg_clear_current_ok">Delete</string>
-    <string name="dlg_no_block">Unblock this number?</string>
-    <string name="dlg_no_block_ok">Unblock</string>
-    <string name="dlg_add_blacklist">Block this number?</string>
-    <string name="dlg_remove_blacklist">Unblock this number?</string>
-    <string name="dlg_remove_blacklist_ok">Unblock</string>
-    <string name="dlg_clear_blacklist">Clear blocklist?</string>
-    <string name="dlg_clear_blacklist_ok">Clear</string>
-    <string name="dlg_bl_add_manual">Add number to blocklist</string>
-    <string name="dlg_add_manual_ok">Add</string>
-    <string name="dlg_add_manual_hint">Enter phone number</string>
-    <string name="dlg_import_blacklist">Adding to blocklist\u2026</string>
-    <string name="dlg_import_whitelist">Adding to exceptions\u2026</string>
-    <string name="dlg_add_keyword">Add keywords</string>
-    <string name="dlg_edit_keyword">Edit keyword</string>
-    <string name="dlg_delete_keyword">Remove selected keywords?</string>
-    <string name="dlg_keyword_ok">Save</string>
-    <string name="dlg_retore">Restore to message inbox?</string>
-    <string name="dlg_retore_ok">Restore</string>
-    <string name="toast_keyword_blank">You need to enter a keyword :)</string>
-    <string name="toast_keyword_exist">Keyword saved</string>
-    <string name="toast_keyword_invalid">The keyword you entered is invalid</string>
+    <string name="dlg_clear_all_sms">Hapus pesan yang diblokir?</string>
+    <string name="dlg_clear_all_call">Hapus panggilan yang diblokir?</string>
+    <string name="dlg_clear_current_sms">Hapus semua pesan terkirim yang terblokir dari nomor ini?</string>
+    <string name="dlg_clear_current_call">Hapus semua panggilan terblokir dari nomor ini?</string>
+    <string name="dlg_clear_all_ok">Hapus semua</string>
+    <string name="dlg_clear_current_ok">Hapus</string>
+    <string name="dlg_no_block">Lepaskan blokir dari nomor ini?</string>
+    <string name="dlg_no_block_ok">Lepaskan Blokir</string>
+    <string name="dlg_add_blacklist">Blokir nomor ini?</string>
+    <string name="dlg_remove_blacklist">Lepaskan blokir dari nomor ini?</string>
+    <string name="dlg_remove_blacklist_ok">Lepaskan Blokir</string>
+    <string name="dlg_clear_blacklist">Hapus daftar blokir?</string>
+    <string name="dlg_clear_blacklist_ok">Hapus</string>
+    <string name="dlg_bl_add_manual">Tambahkan nomor ke daftar blokir</string>
+    <string name="dlg_add_manual_ok">Tambahkan</string>
+    <string name="dlg_add_manual_hint">Masukan nomor telepon</string>
+    <string name="dlg_import_blacklist">Tambahkan ke daftar blokir\u2026</string>
+    <string name="dlg_import_whitelist">Tambahkan ke pengecualian\u2026</string>
+    <string name="dlg_add_keyword">Tambahkan kata kunci</string>
+    <string name="dlg_edit_keyword">Ubah kata kunci</string>
+    <string name="dlg_delete_keyword">Hapus kata kunci yang dipilih?</string>
+    <string name="dlg_keyword_ok">Simpan</string>
+    <string name="dlg_retore">Pulihkan ke kotak masuk pesan?</string>
+    <string name="dlg_retore_ok">Pulihkan</string>
+    <string name="toast_keyword_blank">Anda harus memasukkan kata kunci :)</string>
+    <string name="toast_keyword_exist">Kata kunci disimpan</string>
+    <string name="toast_keyword_invalid">Kata kunci yang anda masukkan tidak valid</string>
 
     <!-- Menu -->
-    <string name="menu_clear_all_sms">Delete blocked messages</string>
-    <string name="menu_clear_all_call">Clear blocked calls</string>
-    <string name="menu_clear_current_sms">Delete all blocked messages sent from this number</string>
-    <string name="menu_clear_current_call">Clear all calls from this number</string>
-    <string name="menu_no_block">Unblock</string>
-    <string name="menu_mark">Report number</string>
-    <string name="menu_call">Dial</string>
-    <string name="menu_sms">Send message</string>
-    <string name="menu_restore">Restore to inbox</string>
-    <string name="menu_bl_call_log">View blocked calls</string>
-    <string name="menu_bl_sms_log">View blocked messages</string>
-    <string name="menu_bl_remove">Unblock</string>
-    <string name="menu_bl_clear">Clear blocklist</string>
-    <string name="menu_bl_add_manual">Add</string>
-    <string name="menu_bl_add_contact">Contacts</string>
-    <string name="menu_add_new_contact">New contact</string>
-    <string name="menu_add_into_contact">Add to existing contact</string>
-    <string name="menu_add">Add</string>
-    <string name="menu_edit">Edit</string>
-    <string name="menu_remove">Remove</string>
+    <string name="menu_clear_all_sms">Hapus pesan yang diblokir</string>
+    <string name="menu_clear_all_call">Hapus panggilan yang diblokir</string>
+    <string name="menu_clear_current_sms">Hapus semua pesan terkirim yang terblokir dari nomor ini?</string>
+    <string name="menu_clear_current_call">Hapus semua panggilan dari nomor ini</string>
+    <string name="menu_no_block">Lepaskan blokir</string>
+    <string name="menu_mark">Laporkan nomor</string>
+    <string name="menu_call">Panggil</string>
+    <string name="menu_sms">Kirim pesan</string>
+    <string name="menu_restore">Pulihkan ke kotak masuk</string>
+    <string name="menu_bl_call_log">Tampilkan panggilan yang diblokir</string>
+    <string name="menu_bl_sms_log">Tampilkan pesan yang diblokir</string>
+    <string name="menu_bl_remove">Lepaskan blokir</string>
+    <string name="menu_bl_clear">Hapus daftar blokir</string>
+    <string name="menu_bl_add_manual">Tambahkan</string>
+    <string name="menu_bl_add_contact">Kontak</string>
+    <string name="menu_add_new_contact">Kontak baru</string>
+    <string name="menu_add_into_contact">Tambahkan ke kontak yang sudah ada</string>
+    <string name="menu_add">Tambahkan</string>
+    <string name="menu_edit">Ubah</string>
+    <string name="menu_remove">Hapus</string>
 
     <!-- Settings -->
-    <string name="st_settings_name">Blocklist settings</string>
-    <string name="st_block_setting_group">Blocklist settings</string>
-    <string name="st_block_setting_title">Calls and messages</string>
-    <string name="st_block_all">Block calls and messgaes</string>
-    <string name="st_mute_all">Silence calls and messages</string>
-    <string name="st_block_mute">Block calls and silence messages</string>
-    <string name="st_mute_block">Silence calls and block messages</string>
-    <string name="st_call_group">Calls</string>
-    <string name="st_sms_group">Messages</string>
-    <string name="st_block_title">Divert to blocked log</string>
-    <string name="st_mute_title">Don\'t ring or vibrate</string>
-    <string name="st_common_setting_group">Filter settings</string>
-    <string name="st_block_private_call_button">Block private numbers</string>
-    <string name="st_filter_sms_button">Filter messages</string>
-    <string name="st_filter_keywords_setting_title">Set keyword filter</string>
-    <string name="st_filter_keywords_title">Keyword filter</string>
-    <string name="st_filter_keywords_setting_summary1">Messages sent from unknown numbers that contain the following words will be blocked.</string>
-    <string name="st_filter_keywords_setting_summary2">You can separate keywords using a comma</string>
-    <string name="st_advanced_setting_group">Advanced</string>
-    <string name="st_block_unknown_call">Block unknown callers</string>
-    <string name="st_block_unknown_sms">Block unknown messages</string>
-    <string name="st_other_setting_group">Other settings</string>
-    <string name="st_show_block_notification">Show blocked notification</string>
+    <string name="st_settings_name">Pengaturan daftar blokir</string>
+    <string name="st_block_setting_group">Pengaturan daftar blokir</string>
+    <string name="st_block_setting_title">Panggilan dan pesan</string>
+    <string name="st_block_all">Blokir panggilan dan pesan</string>
+    <string name="st_mute_all">Heningkan panggilan dan pesan</string>
+    <string name="st_block_mute">Blokir panggilan dan heningkan pesan</string>
+    <string name="st_mute_block">Heningkan panggilan dan blokir pesan</string>
+    <string name="st_call_group">Panggilan</string>
+    <string name="st_sms_group">Pesan</string>
+    <string name="st_block_title">Alihkan ke catatan blokir</string>
+    <string name="st_mute_title">Tidak berdering atau bergetar</string>
+    <string name="st_common_setting_group">Pengaturan penyaringan</string>
+    <string name="st_block_private_call_button">Blokir nomor pribadi</string>
+    <string name="st_filter_sms_button">Saring pesan</string>
+    <string name="st_filter_keywords_setting_title">Atur penyaringan kata kunci</string>
+    <string name="st_filter_keywords_title">Penyaringan kata kunci</string>
+    <string name="st_filter_keywords_setting_summary1">Pesan terkirim dari nomor tidak dikenal yang mengandung kata-kata berikut ini akan diblokir.</string>
+    <string name="st_filter_keywords_setting_summary2">Anda dapat memisahkan kata kunci menggunakan koma</string>
+    <string name="st_advanced_setting_group">Lanjutan</string>
+    <string name="st_block_unknown_call">Blokir panggilan tidak dikenal</string>
+    <string name="st_block_unknown_sms">Blokir pesan tidak dikenalBlock unknown messages</string>
+    <string name="st_other_setting_group">Pengaturan lainnya</string>
+    <string name="st_show_block_notification">Tampilkan notifikasi yang diblokir</string>
 </resources>
