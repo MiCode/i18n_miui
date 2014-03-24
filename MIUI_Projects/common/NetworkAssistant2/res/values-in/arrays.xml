@@ -8,40 +8,40 @@
         <item>GB</item>
     </string-array>
     <string-array name="date_of_traffic">
-        <item>Yesterday</item>
-        <item>Today</item>
-        <item>This month</item>
+        <item>Kemarin</item>
+        <item>Hari ini</item>
+        <item>Bulan ini</item>
     </string-array>
     <string-array name="date_of_app_all">
-        <item>Yesterday (Data)</item>
-        <item>Today (Data)</item>
-        <item>This month (Data)</item>
-        <item>Yesterday Wi-Fi</item>
-        <item>Today Wi-Fi</item>
-        <item>This month Wi-Fi</item>
+        <item>Kemarin (Data)</item>
+        <item>Hari ini (Data)</item>
+        <item>Bulan ini (Data)</item>
+        <item>Kemarin Wi-Fi</item>
+        <item>Hari ini Wi-Fi</item>
+        <item>Bulan ini Wi-Fi</item>
     </string-array>
     <string-array name="date_of_app">
-        <item>Yesterday (Data)</item>
-        <item>Today (Data)</item>
-        <item>This month (Data)</item>
+        <item>Kemarin (Data)</item>
+        <item>Hari ini (Data)</item>
+        <item>Bulan ini (Data)</item>
     </string-array>
     <string-array name="network_speed_update_internals">
-        <item>3 secs</item>
-        <item>4 secs</item>
-        <item>5 secs</item>
-        <item>6 secs</item>
-        <item>7 secs</item>
-        <item>8 secs</item>
-        <item>9 secs</item>
+        <item>3 detik</item>
+        <item>4 detik</item>
+        <item>5 detik</item>
+        <item>6 detik</item>
+        <item>7 detik</item>
+        <item>8 detik</item>
+        <item>9 detik</item>
     </string-array>
     <string-array name="traffic_sort_type">
-        <item>Data usage</item>
-        <item>Wi-Fi usage</item>
-        <item>Total usage</item>
+        <item>Penggunaan data</item>
+        <item>Penggunaan Wi-Fi</item>
+        <item>Total penggunaan</item>
     </string-array>
     <string-array name="traffic_setting_sms_template">
-        <item>Get message template automatically</item>
-        <item>Set message template manually</item>
+        <item>Dapatkan template pesan secara otomatis</item>
+        <item>Atur template pesan secara otomatis</item>
     </string-array>
 
 </resources>
