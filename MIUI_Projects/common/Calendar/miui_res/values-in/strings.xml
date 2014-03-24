@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="day_view_new_event_hint">"New event"</string>
-    <string name="button_day">"D"</string>
-    <string name="button_month">"M"</string>
+    <string name="day_view_new_event_hint">"Acara baru"</string>
+    <string name="button_day">"H"</string>
+    <string name="button_month">"B"</string>
 
     <!-- 设置 -->
-    <string name="account_and_calendar">Account and calendar</string>
-    <string name="account_and_calendar_to_display">Account and calendar to display</string>
-    <string name="default_reminder_mode">Default reminder mode</string>
-    <string name="time_zone">Time zone</string>
-    <string name="show_all_lunar">Show all lunar</string>
-    <string name="show_almanac">Show almanac</string>
+    <string name="account_and_calendar">Akun dan kalender</string>
+    <string name="account_and_calendar_to_display">Akun dan kalender yang ditampilkan</string>
+    <string name="default_reminder_mode">Mode pengingat default</string>
+    <string name="time_zone">Zona waktu</string>
+    <string name="show_all_lunar">Tampilkan semua kalender bulan</string>
+    <string name="show_almanac">Tampilkan almanak</string>
 
     <!-- Month List -->
     <string name="event_lunar_month">月</string>
     <string name="huangli_good_type">宜</string>
     <string name="huangli_bad_type">忌</string>
-    <string name="event_all_day_label">All Day</string>
-    <string name="today_no_events">No agenda today</string>
+    <string name="event_all_day_label">Semua hari</string>
+    <string name="today_no_events">Tidak ada agenda hari ini</string>
 
     <!-- New Event -->
-    <string name="event_account">Calendar account</string>
-    <string name="hint_what">Event reminder content</string>
-    <string name="event_show_more">Show</string>
-    <string name="event_hide_more">Hide</string>
+    <string name="event_account">Akun kalender</string>
+    <string name="hint_what">Isi pengingat acara</string>
+    <string name="event_show_more">Tampilkan</string>
+    <string name="event_hide_more">Sembunyikan</string>
     <string name="presence_label">Status</string>
 
     <!-- 日历详情 -->
-    <string name="event_info_when">When:\u0020</string>
-    <string name="event_info_repeat">Repetition:\u0020</string>
-    <string name="event_info_where">Where:\u0020</string>
-    <string name="event_info_descrip">Description:\u0020</string>
+    <string name="event_info_when">Kapan:\u0020</string>
+    <string name="event_info_repeat">Pengulangan:\u0020</string>
+    <string name="event_info_where">Dimana:\u0020</string>
+    <string name="event_info_descrip">Penjelasan:\u0020</string>
 
     <!-- No translation -->
     <string name="chongsha">冲煞</string>
@@ -44,23 +44,23 @@
     <string name="activity_summary">充值10元抽奖</string>
 
     <!-- Date Picker -->
-    <string name="lunar_date">Lunar Date</string>
+    <string name="lunar_date">Tanggal Bulan</string>
 
     <!-- Widget -->
-    <string name="widget_select_style">Select a style</string>
-    <string name="widget_events">The next events</string>
-    <string name="widget_no_events">Next, no agenda</string>
+    <string name="widget_select_style">Pilih tampilan</string>
+    <string name="widget_events">Acara selanjutnya</string>
+    <string name="widget_no_events">Selanjutnya, tidak ada agenda</string>
 
     <string name="month_medium_january">Jan</string>
     <string name="month_medium_february">Feb</string>
     <string name="month_medium_march">Mar</string>
     <string name="month_medium_april">Apr</string>
-    <string name="month_medium_may">May</string>
+    <string name="month_medium_may">Mei</string>
     <string name="month_medium_june">Jun</string>
     <string name="month_medium_july">Jul</string>
-    <string name="month_medium_august">Aug</string>
+    <string name="month_medium_august">Ags</string>
     <string name="month_medium_september">Sep</string>
-    <string name="month_medium_october">Oct</string>
+    <string name="month_medium_october">Okt</string>
     <string name="month_medium_november">Nov</string>
-    <string name="month_medium_december">Dec</string>
+    <string name="month_medium_december">Des</string>
 </resources>
