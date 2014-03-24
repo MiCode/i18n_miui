@@ -16,9 +16,9 @@
 
 <resources>
     <!-- Application name -->
-    <string name="app_name">Calculator</string>
+    <string name="app_name">Kalkulator</string>
     <!-- If there is a syntax error in the user entered calculation, an error dialog will appear.  This is the title. -->
-    <string name="error">Error</string>
+    <string name="error">Kesalahan</string>
     <!-- Displayed numbers for the digit buttons -->
     <string name="digit0">0</string>
     <!-- Displayed numbers for the digit buttons -->
@@ -94,43 +94,43 @@
     <!-- Do not translate. -->
     <string name="factorial">!</string>
     <!-- Menu item text to take user to the screen with the basic digits and operators. -->
-    <string name="basic">Basic panel</string>
+    <string name="basic">Panel dasar</string>
     <!-- Menu item text to take user to the screen with the advanced functions, such as sin, cos, ln, log, etc. -->
-    <string name="advanced">Advanced panel</string>
+    <string name="advanced">Panel canggih</string>
     <!-- Menu item text to clear the calculation history. -->
-    <string name="clear_history">Clear history</string>
+    <string name="clear_history">Hapus riwayat</string>
     <!-- Toast shown when text is copied to the clipboard. -->
-    <string name="text_copied_toast">Text copied.</string>
+    <string name="text_copied_toast">Salin teks.</string>
 
-    <string name="standard">standard</string>
-    <string name="scientific">scientific</string>
+    <string name="standard">standar</string>
+    <string name="scientific">ilmiah</string>
 
     <!--Content descriptions for accessibility. These strings will be read aloud to users who are using the calculator with
     accessibility features enabled and should reflect the mathematical concept instead of a direct representation of what is shown
     on the button-->
-    <string name="leftParenDesc">left parenthesis</string>
-    <string name="rightParenDesc">right parenthesis</string>
-    <string name="factorialDesc">factorial</string>
-    <string name="lnDesc">natural logarithm</string>
-    <string name="lgDesc">logarithm</string>
-    <string name="sqrtDesc">square root</string>
-    <string name="divDesc">divide</string>
-    <string name="mulDesc">multiply</string>
-    <string name="plusDesc">plus</string>
-    <string name="minusDesc">minus</string>
-    <string name="dotDesc">point</string>
-    <string name="powerDesc">power</string>
-    <string name="delDesc">delete</string>
-    <string name="clearDesc">clear</string>
-    <string name="tanDesc">tangent</string>
-    <string name="sinDesc">sine</string>
-    <string name="cosDesc">cosine</string>
-    <string name="eDesc">Euler\'s number</string>
+    <string name="leftParenDesc">kurung kiri</string>
+    <string name="rightParenDesc">kurung kanan</string>
+    <string name="factorialDesc">faktorial</string>
+    <string name="lnDesc">logaritma natural</string>
+    <string name="lgDesc">logaritma</string>
+    <string name="sqrtDesc">akar pangkat dua</string>
+    <string name="divDesc">dibagi</string>
+    <string name="mulDesc">dikali</string>
+    <string name="plusDesc">ditambah</string>
+    <string name="minusDesc">dikurangi</string>
+    <string name="dotDesc">koma</string>
+    <string name="powerDesc">tenaga</string>
+    <string name="delDesc">hapus</string>
+    <string name="clearDesc">bersihkan</string>
+    <string name="tanDesc">tangen</string>
+    <string name="sinDesc">sin</string>
+    <string name="cosDesc">cosin</string>
+    <string name="eDesc">Nomor euler</string>
     <string name="piDesc">pi</string>
-    <string name="equalDesc">equals</string>
+    <string name="equalDesc">sama dengan</string>
     <string name="equal_on_history">=</string>
-    <string name="switch_to_scientific_pad">switch to scientific pad</string>
-    <string name="switch_to_standard_pad">switch to standard pad</string>
+    <string name="switch_to_scientific_pad">ganti ke pad ilmiah</string>
+    <string name="switch_to_standard_pad">ganti ke pad standar</string>
 
     <!--Content descriptions for accessibility used as keys when determining which mathematical
     concept description to speak when accessibility features are enabled. Order of the array is
@@ -161,38 +161,38 @@
      what is shown in the text field. Order of the array is important.-->
     <string-array name="operatorDescs">
         <!-- Description for mathematical ( [CHAR LIMIT=200]-->
-        <item>left parenthesis</item>
+        <item>kurung kiri</item>
         <!-- Description for mathematical ) [CHAR LIMIT=200]-->
-        <item>right parenthesis</item>
+        <item>kurung kanan</item>
         <!-- Description for mathematical ! (factorial) function [CHAR LIMIT=200]-->
-        <item>factorial</item>
+        <item>faktorial</item>
         <!-- Description for mathematical ln [CHAR LIMIT=200]-->
-        <item>natural logarithm</item>
+        <item>logaritma natural</item>
         <!-- Description for mathematical log [CHAR LIMIT=200]-->
-        <item>logarithm</item>
+        <item>logaritma</item>
         <!-- Description for mathematical square root [CHAR LIMIT=200]-->
-        <item>square root</item>
+        <item>akar pangkat dua</item>
         <!-- Description for mathematical / [CHAR LIMIT=200]-->
-        <item>divided by</item>
+        <item>dibagi</item>
         <!-- Description for mathematical x [CHAR LIMIT=200]-->
-        <item>multiplied by</item>
+        <item>dikali</item>
         <!-- Description for mathematical + [CHAR LIMIT=200]-->
-        <item>plus</item>
+        <item>ditambah</item>
         <!-- Description for mathematical - [CHAR LIMIT=200]-->
-        <item>minus</item>
+        <item>dikurangi</item>
         <!-- Description for mathematical . [CHAR LIMIT=200]-->
-        <item>&#160;point&#160;</item>
+        <item>&#160;koma&#160;</item>
         <!-- Description for mathematical ^ [CHAR LIMIT=200]-->
-        <item>power</item>
+        <item>tenaga</item>
         <!-- Description for mathematical TAN [CHAR LIMIT=200]-->
-        <item>tangent</item>
+        <item>tangen</item>
         <!-- Description for mathematical SIN [CHAR LIMIT=200]-->
-        <item>sine</item>
+        <item>sin</item>
         <!-- Description for mathematical COS [CHAR LIMIT=200]-->
-        <item>cosine</item>
+        <item>cosin</item>
         <!-- Description for mathematical PI [CHAR LIMIT=200]-->
         <item>pi</item>
         <!-- Description for mathematical = [CHAR LIMIT=200]-->
-        <item>equals</item>
+        <item>sama dengan</item>
     </string-array>
 </resources>
