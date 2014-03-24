@@ -113,7 +113,7 @@
     <string name="factorialDesc">faktorial</string>
     <string name="lnDesc">logaritma natural</string>
     <string name="lgDesc">logaritma</string>
-    <string name="sqrtDesc">akar pangkat dua</string>
+    <string name="sqrtDesc">akar kuadrat</string>
     <string name="divDesc">dibagi</string>
     <string name="mulDesc">dikali</string>
     <string name="plusDesc">ditambah</string>
@@ -171,7 +171,7 @@
         <!-- Description for mathematical log [CHAR LIMIT=200]-->
         <item>logaritma</item>
         <!-- Description for mathematical square root [CHAR LIMIT=200]-->
-        <item>akar pangkat dua</item>
+        <item>akar kuadrat</item>
         <!-- Description for mathematical / [CHAR LIMIT=200]-->
         <item>dibagi</item>
         <!-- Description for mathematical x [CHAR LIMIT=200]-->
