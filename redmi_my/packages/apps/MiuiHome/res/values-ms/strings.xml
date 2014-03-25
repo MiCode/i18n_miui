@@ -43,11 +43,11 @@
     <!-- Title of dialog box -->
     <!-- Buttons in Rename folder dialog box -->
     <!-- Buttons in Rename folder dialog box -->
-    <string name="cancel_action">Cancel</string>
-    <string name="apply_as_lock_wallpaper">Apply</string>
-    <string name="apply_as_lock_wallpaper_message">Apply this wallpaper to your lock screen too?</string>
-    <string name="lock_screen_failed_message">Failed to apply</string>
-    <string name="lock_screen_success_message">Applied</string>
+    <string name="cancel_action">Batal</string>
+    <string name="apply_as_lock_wallpaper">Gunakan</string>
+    <string name="apply_as_lock_wallpaper_message">Gunakan kertas dinding ini untuk skrin kunci juga?</string>
+    <string name="lock_screen_failed_message">Gagal untuk digunakan</string>
+    <string name="lock_screen_success_message">Digunakan</string>
 
     <!-- Shortcuts -->
     <skip />
@@ -113,7 +113,7 @@
     <string name="permdesc_install_widget">Benarkan app untuk tambah widget tanpa campur tangan pengguna.</string>
 
     <!-- Permission short label -->
-    <string name="permlab_read_settings">Baca tetapan Skrin Utama dan Pintasans</string>
+    <string name="permlab_read_settings">Baca tetapan Skrin Utama dan Pintasan</string>
     <!-- Permission description -->
     <string name="permdesc_read_settings">Benarkan app untuk baca tetapan dan pintasan di Skrin Utama.</string>
 
@@ -126,17 +126,17 @@
     <skip />
 
     <!-- ADD BY LIBRA -->
-    <string name="loading_desktop">Memuatkan pelancar\u2026</string>
+    <string name="loading_desktop">Memuatkan Pelancar\u2026</string>
     <string name="start_activity_failed">Gagal untuk dimulakan</string>
     <string name="gadget_error_text">Widget gagal dimuatkan</string>
     <string name="menu_edit">Edit Skrin Utama</string>
     <string name="menu_sort">Susun app</string>
     <string name="menu_launcher_setting">Tetapan Pelancar</string>
     <string name="editing_tips">Edit Skrin Utama</string>
-    <string name="multi_selecting_tips">To select an app, touch its icon</string>
-    <string name="editing_add_widget_tips">Edit widgets</string>
-    <string name="editing_set_wallpaper_tips">Choose wallpaper</string>
-    <string name="editing_set_transition_effect_tips">Choose screen transition effect</string>
+    <string name="multi_selecting_tips">Untuk pilih app, sentuh icon berkaitan</string>
+    <string name="editing_add_widget_tips">Edit widget</string>
+    <string name="editing_set_wallpaper_tips">Pilih kertas dinding</string>
+    <string name="editing_set_transition_effect_tips">Pilih efek peralihan skrin</string>
     <string name="cant_remove_system_app">Tidak dapat buang app sistem</string>
     <string name="cant_remove_retained_app">Tidak dapat buang app ini</string>
     <plurals name="uninstall_dialog_title_format">
@@ -270,7 +270,7 @@
     <string name="toggle_select_title">Pilih togol</string>
     <string name="toggle_title">Togol</string>
 
-    <string name="settings_shortcut">"Settings"</string>
+    <string name="settings_shortcut">"Tetapan"</string>
     <string name="free_style_edit_tab_shortcut">Pintasan</string>
     <string name="free_style_edit_tab_free_component">Objek</string>
     <string name="free_style_edit_tab_widget">Widget</string>

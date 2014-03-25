@@ -52,9 +52,9 @@
         <item>Jerebu</item>
     </array>
     <string-array name="editing_mode_entries">
-        <item>Move apps</item>
-        <item>Widgets</item>
-        <item>Wallpaper</item>
-        <item>Effects</item>
+        <item>Pindah app</item>
+        <item>Widget</item>
+        <item>Kertas dinding</item>
+        <item>Efek</item>
     </string-array>
 </resources>
