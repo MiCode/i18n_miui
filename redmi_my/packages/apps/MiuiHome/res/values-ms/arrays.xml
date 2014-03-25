@@ -51,4 +51,10 @@
         <item>Berdebu</item>
         <item>Jerebu</item>
     </array>
+    <string-array name="editing_mode_entries">
+        <item>Move apps</item>
+        <item>Widgets</item>
+        <item>Wallpaper</item>
+        <item>Effects</item>
+    </string-array>
 </resources>

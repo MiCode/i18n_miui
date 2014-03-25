@@ -33,8 +33,8 @@
         <item>1.0</item>
     </array>
     <string-array name="transformation_entries">
-        <item>Classic slide</item>
-        <item>Classic slide (no overshoot)</item>
+        <item>Overslide</item>
+        <item>Slide</item>
         <item>Crossfade</item>
         <item>Tumble</item>
         <item>Page</item>
@@ -105,4 +105,16 @@
         <item>Floating Dust</item>3  浮尘
         <item>Haze</item>4  霾
     </array>
+    <string-array name="editing_mode_entries">
+        <item>Move apps</item>
+        <item>Widgets</item>
+        <item>Wallpaper</item>
+        <item>Effects</item>
+    </string-array>
+    <string-array name="editing_mode_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
 </resources>
