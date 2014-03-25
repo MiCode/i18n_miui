@@ -19,9 +19,9 @@
          [CHAR LIMIT=10]
     -->
     <string-array name="reminder_methods_labels">
-        <item>Notification</item>
+        <item>Notifikasi</item>
         <item>Email</item>
-        <item>Text message</item>
+        <item>Pesan teks</item>
         <item>Alarm</item>
     </string-array>
 
@@ -41,23 +41,23 @@
          [CHAR LIMIT=15]
     -->
     <string-array name="reminder_minutes_labels">
-        <item>None</item>
-        <item>0 minutes</item>
-        <item>1 minute</item>
-        <item>5 minutes</item>
-        <item>10 minutes</item>
-        <item>15 minutes</item>
-        <item>20 minutes</item>
-        <item>25 minutes</item>
-        <item>30 minutes</item>
-        <item>45 minutes</item>
-        <item>1 hour</item>
-        <item>2 hours</item>
-        <item>3 hours</item>
-        <item>12 hours</item>
-        <item>24 hours</item>
-        <item>2 days</item>
-        <item>1 week</item>
+        <item>Tidak ada</item>
+        <item>0 menit</item>
+        <item>1 menit</item>
+        <item>5 menit</item>
+        <item>10 menit</item>
+        <item>15 menit</item>
+        <item>20 menit</item>
+        <item>25 menit</item>
+        <item>30 menit</item>
+        <item>45 menit</item>
+        <item>1 jam</item>
+        <item>2 jam</item>
+        <item>3 jam</item>
+        <item>12 jam</item>
+        <item>24 jam</item>
+        <item>2 hari</item>
+        <item>1 pekan</item>
     </string-array>
 
     <integer-array name="reminder_minutes_values" translatable="false">
@@ -85,23 +85,23 @@
          [CHAR LIMIT=12]
     -->
        <string-array name="preferences_default_reminder_labels">
-        <item>None</item>
-        <item>0 minutes</item>
-        <item>1 minute</item>
-        <item>5 minutes</item>
-        <item>10 minutes</item>
-        <item>15 minutes</item>
-        <item>20 minutes</item>
-        <item>25 minutes</item>
-        <item>30 minutes</item>
-        <item>45 minutes</item>
-        <item>1 hour</item>
-        <item>2 hours</item>
-        <item>3 hours</item>
-        <item>12 hours</item>
-        <item>24 hours</item>
-        <item>2 days</item>
-        <item>1 week</item>
+        <item>Tidak ada</item>
+        <item>0 menit</item>
+        <item>1 menit</item>
+        <item>5 menit</item>
+        <item>10 menit</item>
+        <item>15 menit</item>
+        <item>20 menit</item>
+        <item>25 menit</item>
+        <item>30 menit</item>
+        <item>45 menit</item>
+        <item>1 jam</item>
+        <item>2 jam</item>
+        <item>3 jam</item>
+        <item>12 jam</item>
+        <item>24 jam</item>
+        <item>2 hari</item>
+        <item>1 pekan</item>
     </string-array>
 
     <string-array name="preferences_default_reminder_values" translatable="false">
@@ -125,10 +125,10 @@
     </string-array>
 
     <string-array name="preferences_week_start_day_labels">
-        <item>Locale default</item>
-        <item>Saturday</item>
-        <item>Sunday</item>
-        <item>Monday</item>
+        <item>Default lokal</item>
+        <item>Sabtu</item>
+        <item>Minggu</item>
+        <item>Senin</item>
     </string-array>
 
     <string-array name="preferences_week_start_day_values" translatable="false">
@@ -320,9 +320,9 @@
     </string-array>
 
     <string-array name="availability">
-        <item>Busy</item>
-        <item>Available</item>
-        <item>Tentative</item>
+        <item>Sibuk</item>
+        <item>Tersedia</item>
+        <item>Sementara</item>
     </string-array>
 
     <!-- This maps reminder_methods_labels to internal constants. -->
@@ -334,24 +334,24 @@
 
     <string-array name="visibility">
         <item>Default</item>
-        <item>Private</item>
-        <item>Public</item>
+        <item>Pribadi</item>
+        <item>Publik</item>
     </string-array>
 
     <string-array name="ordinal_labels">
-        <item>first</item>
-        <item>second</item>
-        <item>third</item>
-        <item>fourth</item>
-        <item>last</item>
+        <item>pertama</item>
+        <item>kedua</item>
+        <item>ketiga</item>
+        <item>keempat</item>
+        <item>terakhir</item>
     </string-array>
 
     <!-- Invitation responses -->
     <string-array name="response_labels1">
-        <item>No response</item>
-        <item>Yes</item>
-        <item>Maybe</item>
-        <item>No</item>
+        <item>Tidak ada respon</item>
+        <item>Ya</item>
+        <item>Mungin</item>
+        <item>Tidak</item>
     </string-array>
 
     <!-- The corresponding indices are defined in DeleteEventHelper.java -->
@@ -360,9 +360,9 @@
     -->
     <skip/>
     <string-array name="delete_repeating_labels">
-        <item>Only this event</item>
-        <item>This and future events</item>
-        <item>All events</item>
+        <item>Hanya acara ini</item>
+        <item>Acara ini dan nanti</item>
+        <item>Semua acara</item>
     </string-array>
 
     <!-- DO NOT TRANSLATE These values need to correspond to the indices
@@ -382,8 +382,8 @@
      -->
     <skip/>
     <string-array name="delete_repeating_labels_no_selected">
-        <item>This &amp; future events</item>
-        <item>All events</item>
+        <item>Acara ini &amp; nanti</item>
+        <item>Semua acara</item>
     </string-array>
 
     <!-- The corresponding array indices are defined in EventInfoActivity.java -->
@@ -392,16 +392,16 @@
     respond to an invitation that repeats. -->
     <string-array name="change_response_labels">
         <!-- The choice for responding to only one instance of a repeating event -->
-        <item>Only this event</item>
+        <item>Hanya acara ini</item>
         <!-- The choice for responding to all instances of a repeating event -->
-        <item>All events in the series</item>
+        <item>Semua rangkaian acara</item>
     </string-array>
 
     <!-- Strings for buttons in drop down menu -->
     <string-array name="buttons_list">
-        <item>Day</item>
-        <item>Week</item>
-        <item>Month</item>
+        <item>Hari</item>
+        <item>Pekan</item>
+        <item>Bulan</item>
         <item>Agenda</item>
     </string-array>
 </resources>
