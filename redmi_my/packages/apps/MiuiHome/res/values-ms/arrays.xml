@@ -2,12 +2,12 @@
 <resources>
 
     <string-array name="transformation_entries">
-        <item>Slaid Klasik</item>
-        <item>Slaid Klasik (Tanpa Lajakan)</item>
-        <item>Crossfade</item>
-        <item>Tumble</item>
+        <item>Overslaid</item>
+        <item>Slaid</item>
+        <item>Krosfed</item>
+        <item>Tambel</item>
         <item>Halaman</item>
-        <item>Cascade</item>
+        <item>Kasked</item>
         <item>Putar</item>
         <item>Kiub</item>
     </string-array>
