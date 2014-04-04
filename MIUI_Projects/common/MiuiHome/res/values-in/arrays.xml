@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="widget_sizes" translatable="false">
-        <item>sunting_area_kotak_1_1</item>
-        <item>sunting_area_kotak_1_2</item>
-        <item>sunting_area_kotak_1_3</item>
-        <item>sunting_area_kotak_1_4</item>
-        <item>sunting_area_kotak_2_1</item>
-        <item>sunting_area_kotak_2_2</item>
-        <item>sunting_area_kotak_2_3</item>
-        <item>sunting_area_kotak_2_4</item>
-        <item>sunting_area_kotak_3_1</item>
-        <item>sunting_area_kotak_3_2</item>
-        <item>sunting_area_kotak_3_3</item>
-        <item>sunting_area_kotak_3_4</item>
-        <item>sunting_area_kotak_4_1</item>
-        <item>sunting_area_kotak_4_2</item>
-        <item>sunting_area_kotak_4_3</item>
-        <item>sunting_area_kotak_4_4</item>
+        <item>home_edit_box_area_1_1</item>
+        <item>home_edit_box_area_1_2</item>
+        <item>home_edit_box_area_1_3</item>
+        <item>home_edit_box_area_1_4</item>
+        <item>home_edit_box_area_2_1</item>
+        <item>home_edit_box_area_2_2</item>
+        <item>home_edit_box_area_2_3</item>
+        <item>home_edit_box_area_2_4</item>
+        <item>home_edit_box_area_3_1</item>
+        <item>home_edit_box_area_3_2</item>
+        <item>home_edit_box_area_3_3</item>
+        <item>home_edit_box_area_3_4</item>
+        <item>home_edit_box_area_4_1</item>
+        <item>home_edit_box_area_4_2</item>
+        <item>home_edit_box_area_4_3</item>
+        <item>home_edit_box_area_4_4</item>
     </string-array>
     <array name="item_shake_animation_scaler">
         <item>0dp</item>
