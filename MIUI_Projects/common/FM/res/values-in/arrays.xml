@@ -332,7 +332,7 @@
     </string-array>
 
     <array name="fm_mhz_number_entryValues">
-        <item>@drawable/fm_mhz_kosong</item>
+        <item>@drawable/fm_mhz_empty</item>
         <item>@drawable/fm_mhz_0</item>
         <item>@drawable/fm_mhz_1</item>
         <item>@drawable/fm_mhz_2</item>
@@ -343,7 +343,7 @@
         <item>@drawable/fm_mhz_7</item>
         <item>@drawable/fm_mhz_8</item>
         <item>@drawable/fm_mhz_9</item>
-        <item>@drawable/fm_mhz_poin</item>
+        <item>@drawable/fm_mhz_point</item>
     </array>
 
     <string-array name="freq_entries">
@@ -362,7 +362,7 @@
     </string-array>
 
     <array name="freq_entryValues">
-        <item>@drawable/fm_nomor_kosong</item>
+        <item>@drawable/fm_nomor_empty</item>
         <item>@drawable/fm_nomor_0</item>
         <item>@drawable/fm_nomor_1</item>
         <item>@drawable/fm_nomor_2</item>
@@ -373,6 +373,6 @@
         <item>@drawable/fm_nomor_7</item>
         <item>@drawable/fm_nomor_8</item>
         <item>@drawable/fm_nomor_9</item>
-        <item>@drawable/fm_nomor_poin</item>
+        <item>@drawable/fm_nomor_point</item>
     </array>
 </resources>
