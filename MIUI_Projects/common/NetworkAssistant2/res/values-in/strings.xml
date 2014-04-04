@@ -83,7 +83,7 @@
     <string name="pref_check_network_diagnostics">Periksa apakah sambungan data berfungsi normal </string>
     <string name="pref_category_title_other">Pengaturan tambahan</string>
     <string name="pref_title_update_notification">Tampilkan pemberitahuan penggunaan data</string>
-    <string name="pref_title_traffic_speed_state">Tampilkan kecepatan jaringan di status bar</string>
+    <string name="pref_title_traffic_speed_state">Tampilkan kecepatan jaringan</string>
     <string name="pref_show_mobile_traffic">Bila Anda membuka telepon Anda, menunjukkan statistik penggunaan data untuk periode saat perangkat Anda terkunci (harus lebih dari
 3 menit)</string>
     <string name="pref_title_mobile_traffic">Tampilkan penggunaan data sementara terkunci</string>
@@ -92,6 +92,7 @@
     <string name="pref_version">Versi %s</string>
     <string name="pref_leisure_no_overlay">Aktif</string>
     <string name="pref_leisure_not_opened">Tidak aktif</string>
+    <string name="pref_new_installed_preconfig_title">Pengaturan default untuk aplikasi baru</string>
 
     <!-- adjust traffic settings -->
     <string name="pref_manual_adjust">Set statistik penggunaan data secara manual</string>
@@ -173,22 +174,24 @@
 
     <!-- data usage notification message -->
     <string name="data_usage_warning_title">Peringatan penggunaan data</string>
-    <string name="data_usage_warning_body">Sentuh untuk melihat rincian penggunaan data.</string>
+    <string name="data_usage_warning_body">Sentuh untuk melihat rincian penggunaan data</string>
     <string name="data_usage_mobile_limit_title">Mobile data telah dinonaktifkan</string>
-    <string name="data_usage_limit_body">Sentuh untuk mengaktifkan mobile data.</string>
+    <string name="data_usage_limit_body">Sentuh untuk mengaktifkan mobile data</string>
     <string name="data_usage_disabled_dialog">"Anda telah mencapai batas penggunaan data Anda. Penggunaan melebihi batas data, dapat mengakibatkan biaya lebih mahal."</string>
     <string name="data_usage_disabled_dialog_enable">Aktifkan data</string>
     <string name="data_usage_mobile_limit_snoozed_title">"Melebihi batas penggunaan data"</string>
-    <string name="data_usage_limit_snoozed_body">"Anda telah melebihi batas penggunaan data."</string>
+    <string name="data_usage_limit_snoozed_body">"Anda telah melebihi batas penggunaan data"</string>
     <string name="data_usage_restricted_title">Latar belakang data dibatasi</string>
     <string name="data_usage_restricted_body">Sentuh untuk mengaktifkan latar belakang data</string>
     <string name="data_usage_leisure_warning_title">Batas maksimum penggunaan data</string>
-    <string name="data_usage_leisure_warning_body">Sentuh untuk melihat rincian penggunaan data.</string>
+    <string name="data_usage_leisure_warning_body">Sentuh untuk melihat rincian penggunaan data</string>
     <string name="data_usage_correction_timeout_title">Sinkronisasi habisnya waktu penggunaan data</string>
-    <string name="data_usage_correction_timeout_body">Sentuh untuk update secara manual.</string>
+    <string name="data_usage_correction_timeout_body">Sentuh untuk update secara manual</string>
     <string name="data_usage_no_total_package_title">Penggunaan data</string>
     <string name="data_usage_no_total_package_body">Apakah Anda ingin menetapkan batas penggunaan data?</string>
     <string name="data_usage_no_total_package_body_dual">Apakah Anda ingin menetapkan batas penggunaan data untuk %s?</string>
+    <string name="network_assistant_upgraded_title">Pembaruan selesai</string>
+    <string name="network_assistant_upgraded_body">Tekan untuk membatasi penggunaan data</string>
 
     <!-- Lock screen traffic warn -->
     <string name="lock_screen_traffic_warn_title">Peringatan penggunaan data</string>
@@ -203,7 +206,7 @@
     <string name="traffic_protection_label">Peringatan penggunaan data</string>
     <string name="traffic_protection_summary">Atur pemberitahuan ketika penggunaan data Anda mencapai tingkat tertentu</string>
     <string name="traffic_protection_unknown"><u>Atur nanti</u></string>
-    <string name="traffic_protection_text_hint">Tentukan batas penggunaan data</string>
+    <string name="traffic_protection_text_hint">Tentukan batas penggunaan data untuk %s</string>
     <string name="traffic_protection_next">Selanjutnya</string>
     <string name="traffic_protection_data_usage_summary"> "Penggunaan melebihi batas data yang rencana operator Anda dapat mengakibatkan biaya lebihan mahal."</string>
     <string name="traffic_protection_use_data">Data enabled</string>
