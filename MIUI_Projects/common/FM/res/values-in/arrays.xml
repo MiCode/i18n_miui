@@ -29,10 +29,10 @@
 <resources>
 
   <string-array name="sleep_duration_values">
-    <item>15 minutes</item>
-    <item>30 minutes</item>
-    <item>45 minutes</item>
-    <item>1 Hour</item>
+    <item>15 menit</item>
+    <item>30 menit</item>
+    <item>45 menit</item>
+    <item>1 Jam</item>
   </string-array>
 
     <!-- This array should be in seconds and should match the values above -->
@@ -44,33 +44,33 @@
   </string-array>
 
   <string-array name="search_category_rbds_entries">
-    <item>All Stations</item>
-    <item>Adult Hits</item>
-    <item>Classical</item>
-    <item>Classic Rock</item>
-    <item>College</item>
-    <item>Country</item>
-    <item>Emergency</item>
-    <item>Emergency Test</item>
-    <item>Foreign Language</item>
-    <item>Information</item>
+    <item>Semua Stasiun</item>
+    <item>Hits Dewasa</item>
+    <item>Klasik</item>
+    <item>Rock Klasik</item>
+    <item>Perguruan Tinggi</item>
+    <item>Negara</item>
+    <item>Darurat</item>
+    <item>Tes Darurat</item>
+    <item>Bahasa Asing</item>
+    <item>Informasi</item>
     <item>Jazz</item>
-    <item>News</item>
+    <item>Berita</item>
     <item>Nostalgia</item>
-    <item>Oldies</item>
-    <item>Personality</item>
-    <item>Public</item>
-    <item>Religious Music</item>
-    <item>Religious Talk</item>
+    <item>Lama</item>
+    <item>Kepribadian</item>
+    <item>Publik</item>
+    <item>Musik Keagamaan</item>
+    <item>Percakapan Keagamaan</item>
     <item>Rhythm and Blues</item>
     <item>Rock</item>
     <item>Soft</item>
     <item>Soft Rock</item>
     <item>Soft Rhythm and Blues</item>
-    <item>Sports</item>
-    <item>Talk</item>
+    <item>Olahraga</item>
+    <item>Percakapan</item>
     <item>Top 40</item>
-    <item>Weather</item>
+    <item>Cuaca</item>
   </string-array>
 
   <string-array name="search_category_rbds_values">
@@ -105,38 +105,38 @@
 
 
   <string-array name="search_category_rds_entries">
-    <item>All Stations</item>
-    <item>Culture</item>
-    <item>Current Affairs</item>
-    <item>Children\'s programs</item>
-    <item>Country Music</item>
-    <item>Documentary</item>
+    <item>Semua Stasiun</item>
+    <item>Kultur</item>
+    <item>Saat Ini</item>
+    <item>Program Anak</item>
+    <item>Musik Negara</item>
+    <item>Dokumentasi</item>
     <item>Drama</item>
-    <item>Easy Listening Music</item>
-    <item>Education</item>
-    <item>Emergency</item>
-    <item>Emergency Test</item>
-    <item>Finance</item>
-    <item>Folk Music</item>
-    <item>Information</item>
-    <item>Jazz Music</item>
+    <item>Musik Ringan</item>
+    <item>Edukasi</item>
+    <item>Darurat</item>
+    <item>Tes Darurat</item>
+    <item>Keuangan</item>
+    <item>Musik Rakyat</item>
+    <item>Informasi</item>
+    <item>Musik Jazz</item>
     <item>Light classical</item>
-    <item>Leisure</item>
-    <item>News</item>
-    <item>National Music</item>
-    <item>Other Music</item>
-    <item>Oldies Music</item>
-    <item>Phone In</item>
-    <item>Pop Music</item>
-    <item>Religion</item>
-    <item>Rock Music</item>
-    <item>Science</item>
-    <item>Serious classical</item>
-    <item>Social Affairs</item>
-    <item>Sport</item>
-    <item>Travel</item>
-    <item>Varied</item>
-    <item>Weather</item>
+    <item>Rekreasi</item>
+    <item>Berita</item>
+    <item>Musik Nasional</item>
+    <item>Musik Lainnya</item>
+    <item>Musik Lama</item>
+    <item>Telepon</item>
+    <item>Musik Pop</item>
+    <item>Keagamaan</item>
+    <item>Musik Rock</item>
+    <item>Pengetahuan</item>
+    <item>Klasik Serius</item>
+    <item>Sosial</item>
+    <item>Olahraga</item>
+    <item>Perjalanan</item>
+    <item>Variasi</item>
+    <item>Cuaca</item>
   </string-array>
 
   <string-array name="search_category_rds_values">
@@ -175,49 +175,49 @@
   </string-array>
 
   <string-array name="presetlist_edit_category">
-    <item>Rename</item>
-    <item>Auto-Select</item>
-    <item>Delete</item>
+    <item>Ubah</item>
+    <item>Pilih Otomatis</item>
+    <item>Hapus</item>
   </string-array>
 
 
   <string-array name="regional_band_entries">
-    <item>North America</item>
-    <item>Europe</item>
-    <item>Japan</item>
-    <item>Japan (Wide)</item>
+    <item>Amerika Utara</item>
+    <item>Eropa</item>
+    <item>Jepang</item>
+    <item>Jepang</item>
     <item>Australia</item>
     <item>Austria</item>
-    <item>Belgium</item>
+    <item>Belgia</item>
     <item>Brazil</item>
-    <item>China</item>
-    <item>Czech</item>
+    <item>Cina</item>
+    <item>Ceko</item>
     <item>Denmark</item>
-    <item>Finland</item>
-    <item>France</item>
-    <item>Germany</item>
-    <item>Greece</item>
+    <item>Finlandia</item>
+    <item>Perancis</item>
+    <item>Jerman</item>
+    <item>Yunani</item>
     <item>Hong Kong</item>
     <item>India</item>
-    <item>Ireland</item>
-    <item>Italy</item>
+    <item>Irlandia</item>
+    <item>Italia</item>
     <item>Korea</item>
-    <item>Mexico</item>
-    <item>Netherlands</item>
-    <item>New Zealand</item>
-    <item>Norway</item>
-    <item>Poland</item>
+    <item>Meksiko</item>
+    <item>Belanda</item>
+    <item>Selandia Baru</item>
+    <item>Norwegia</item>
+    <item>Polandia</item>
     <item>Portugal</item>
-    <item>Russia</item>
-    <item>Singapore</item>
+    <item>Rusia</item>
+    <item>Singapura</item>
     <item>Slovakia</item>
-    <item>Spain</item>
-    <item>Switzerland</item>
-    <item>Sweden</item>
+    <item>Spanyol</item>
+    <item>Swiss</item>
+    <item>Swedia</item>
     <item>Taiwan</item>
-    <item>Turkey</item>
-    <item>United Kingdom </item>
-    <item>United States</item>
+    <item>Turki</item>
+    <item>Inggris</item>
+    <item>Amerika Serikat</item>
   </string-array>
 
   <string-array name="regional_band_values">
@@ -260,60 +260,60 @@
   </string-array>
 
   <string-array name="regional_band_summary">
-    <item>North America (87.5MHz To 108.0MHz In 200 Khz Steps)</item>
-    <item>Europe (87.5MHz To 108.0MHz In 100 Khz Steps)</item>
-    <item>Japan (76.0MHz To  90.0MHz In 100 Khz Steps)</item>
-    <item>Japan (Wide) (90.0MHz To 108.0MHz In 50 Khz Steps)</item>
+    <item>Amerika Utara (87.5MHz To 108.0MHz In 200 Khz Steps)</item>
+    <item>Eropa (87.5MHz To 108.0MHz In 100 Khz Steps)</item>
+    <item>Jepang (76.0MHz To  90.0MHz In 100 Khz Steps)</item>
+    <item>Jepang (90.0MHz To 108.0MHz In 50 Khz Steps)</item>
     <item>Australia (87.7MHz To 108.0MHz In 100 Khz Steps)</item>
     <item>Austria (87.5MHz To 108.0MHz In  50 Khz Steps)</item>
-    <item>Belgium (87.5MHz To 108.0MHz In 100 Khz Steps)</item>
+    <item>Belgia (87.5MHz To 108.0MHz In 100 Khz Steps)</item>
     <item>Brazil (87.8MHz To 108.0MHz In 200 Khz Step)</item>
-    <item>China (87.0MHz To 108.0MHz In 100 Khz Steps)</item>
-    <item>Czech (87.5MHz To 108.0MHz In 100 Khz Steps)</item>
+    <item>Cina (87.0MHz To 108.0MHz In 100 Khz Steps)</item>
+    <item>Ceko (87.5MHz To 108.0MHz In 100 Khz Steps)</item>
     <item>Denmark (87.5MHz To 108.0MHz In 50 Khz Steps)</item>
-    <item>Finland (87.5MHz To 108.0MHz In 100 Khz Steps)</item>
-    <item>France (87.5MHz To 108.0MHz In 100 Khz Steps)</item>
-    <item>Germany (87.5MHz To 108.0MHz In 50 Khz Steps)</item>
-    <item>Greece (87.5MHz To 108.0MHz In 50 Khz Steps)</item>
+    <item>Finlandia (87.5MHz To 108.0MHz In 100 Khz Steps)</item>
+    <item>Perancis (87.5MHz To 108.0MHz In 100 Khz Steps)</item>
+    <item>Jerman (87.5MHz To 108.0MHz In 50 Khz Steps)</item>
+    <item>Yunani (87.5MHz To 108.0MHz In 50 Khz Steps)</item>
     <item>Hong Kong (87.5MHz To 108.0MHz In 100 Khz Steps)</item>
     <item>India (91.0MHz To 106.4MHz In 100 Khz Steps)</item>
-    <item>Ireland (87.5MHz To 108.0MHz In 50 Khz Steps)</item>
-    <item>Italy (87.5MHz To 108.0MHz In 50 Khz Steps)</item>
+    <item>Irlandia (87.5MHz To 108.0MHz In 50 Khz Steps)</item>
+    <item>Italia (87.5MHz To 108.0MHz In 50 Khz Steps)</item>
     <item>Korea (87.5MHz To 108.0MHz In 200 Khz Steps)</item>
-    <item>Mexico (88.1MHz To 107.9MHz In 200 Khz Steps)</item>
-    <item>Netherlands (87.5MHz To 108.0MHz In 100 Khz Steps)</item>
-    <item>New Zealand (88.0MHz To 107.0MHz In 100 Khz Steps)</item>
-    <item>Norway (87.5MHz To 108.0MHz In 100 Khz Steps)</item>
-    <item>Poland (88.0MHz To 108.0MHz In 50 Khz Steps)</item>
+    <item>Meksiko (88.1MHz To 107.9MHz In 200 Khz Steps)</item>
+    <item>Belanda (87.5MHz To 108.0MHz In 100 Khz Steps)</item>
+    <item>Selandia Baru (88.0MHz To 107.0MHz In 100 Khz Steps)</item>
+    <item>Norwegia (87.5MHz To 108.0MHz In 100 Khz Steps)</item>
+    <item>Polandia (88.0MHz To 108.0MHz In 50 Khz Steps)</item>
     <item>Portugal (87.5MHz To 108.0MHz In 50 Khz Steps)</item>
-    <item>Russia (87.5MHz To 108.0MHz In 100 Khz Steps)</item>
-    <item>Singapore (88.0MHz To 108.0MHz In 100 Khz Steps)</item>
+    <item>Rusia (87.5MHz To 108.0MHz In 100 Khz Steps)</item>
+    <item>Singapura (88.0MHz To 108.0MHz In 100 Khz Steps)</item>
     <item>Slovakia (87.5MHz To 108.0MHz In 100 Khz Steps)</item>
-    <item>Spain (87.5MHz To 108.0MHz In 100 Khz Steps)</item>
-    <item>Switzerland (87.5MHz To 108.0MHz In 100 Khz Steps)</item>
-    <item>Sweden (87.5MHz To 108.0MHz In 100 Khz Steps)</item>
+    <item>Spanyol (87.5MHz To 108.0MHz In 100 Khz Steps)</item>
+    <item>Swiss (87.5MHz To 108.0MHz In 100 Khz Steps)</item>
+    <item>Swedia (87.5MHz To 108.0MHz In 100 Khz Steps)</item>
     <item>Taiwan (87.5MHz To 108.0MHz In 100 Khz Steps)</item>
-    <item>Turkey (87.5MHz To 108.0MHz In 100 Khz Steps)</item>
-    <item>United Kingdom (87.5MHz To 108.0MHz In 100 Khz Steps)</item>
-    <item>United States (88.1MHz To 107.9MHz In 200 Khz Steps)</item>
+    <item>Turki (87.5MHz To 108.0MHz In 100 Khz Steps)</item>
+    <item>Inggris (87.5MHz To 108.0MHz In 100 Khz Steps)</item>
+    <item>Amerika Serikat (88.1MHz To 107.9MHz In 200 Khz Steps)</item>
   </string-array>
 
     <string-array name="rf_cfg">
-       <item> Get Current Station Parameters</item>
-       <item> Get Station Parameters Repeat 20 times</item>
-       <item> Get Search  station parameters</item>
-       <item> Get FM Band sweep parameters</item>
-       <item> Configure FM Search Parameters</item>
+       <item> Mendapatkan Parameter Stasiun Saat ini</item>
+       <item> Mendapatkan Parameter Stasiun yang Diulang 20 kali</item>
+       <item> Mendapatkan Parameter Stasiun Pencarian</item>
+       <item> Mendapatkan Pita FM Pembentang Parameter</item>
+       <item> Konfigurasi FM Parameter Pencarian</item>
     </string-array>
     <string-array name="cfg_rf">
-       <item> Set FM RSSI Delta</item>
-       <item> Set Signal Threshold</item>
-       <item> RF Statistics</item>
+       <item> Atur FM RSSI Delta</item>
+       <item> Atur Ambang Sinyal</item>
+       <item> Statistik RF</item>
     </string-array>
     <string-array name="stats_options">
-        <item> Select the option</item>
-        <item> Configure FM Search parameters</item>
-        <item> RF Statistics</item>
+        <item> Pilih opsi</item>
+        <item> Konfigurasi Parameter Pencarian FM</item>
+        <item> Statistik RF</item>
     </string-array>
 
     <string-array name="fm_mhz_number_entries">
@@ -332,7 +332,7 @@
     </string-array>
 
     <array name="fm_mhz_number_entryValues">
-        <item>@drawable/fm_mhz_empty</item>
+        <item>@drawable/fm_mhz_kosong</item>
         <item>@drawable/fm_mhz_0</item>
         <item>@drawable/fm_mhz_1</item>
         <item>@drawable/fm_mhz_2</item>
@@ -343,7 +343,7 @@
         <item>@drawable/fm_mhz_7</item>
         <item>@drawable/fm_mhz_8</item>
         <item>@drawable/fm_mhz_9</item>
-        <item>@drawable/fm_mhz_point</item>
+        <item>@drawable/fm_mhz_poin</item>
     </array>
 
     <string-array name="freq_entries">
@@ -362,17 +362,17 @@
     </string-array>
 
     <array name="freq_entryValues">
-        <item>@drawable/fm_number_empty</item>
-        <item>@drawable/fm_number_0</item>
-        <item>@drawable/fm_number_1</item>
-        <item>@drawable/fm_number_2</item>
-        <item>@drawable/fm_number_3</item>
-        <item>@drawable/fm_number_4</item>
-        <item>@drawable/fm_number_5</item>
-        <item>@drawable/fm_number_6</item>
-        <item>@drawable/fm_number_7</item>
-        <item>@drawable/fm_number_8</item>
-        <item>@drawable/fm_number_9</item>
-        <item>@drawable/fm_number_point</item>
+        <item>@drawable/fm_nomor_kosong</item>
+        <item>@drawable/fm_nomor_0</item>
+        <item>@drawable/fm_nomor_1</item>
+        <item>@drawable/fm_nomor_2</item>
+        <item>@drawable/fm_nomor_3</item>
+        <item>@drawable/fm_nomor_4</item>
+        <item>@drawable/fm_nomor_5</item>
+        <item>@drawable/fm_nomor_6</item>
+        <item>@drawable/fm_nomor_7</item>
+        <item>@drawable/fm_nomor_8</item>
+        <item>@drawable/fm_nomor_9</item>
+        <item>@drawable/fm_nomor_poin</item>
     </array>
 </resources>
