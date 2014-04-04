@@ -41,21 +41,14 @@
          [CHAR LIMIT=15]
     -->
     <string-array name="reminder_minutes_labels">
-        <item>Tidak ada</item>
+        <item>No reminder</item>
         <item>0 menit</item>
-        <item>1 menit</item>
         <item>5 menit</item>
         <item>10 menit</item>
         <item>15 menit</item>
-        <item>20 menit</item>
-        <item>25 menit</item>
         <item>30 menit</item>
-        <item>45 menit</item>
         <item>1 jam</item>
-        <item>2 jam</item>
-        <item>3 jam</item>
-        <item>12 jam</item>
-        <item>24 jam</item>
+        <item>1 hari</item>
         <item>2 hari</item>
         <item>1 pekan</item>
     </string-array>
@@ -63,18 +56,11 @@
     <integer-array name="reminder_minutes_values" translatable="false">
         <item>-1</item>
         <item>0</item>
-        <item>1</item>
         <item>5</item>
         <item>10</item>
         <item>15</item>
-        <item>20</item>
-        <item>25</item>
         <item>30</item>
-        <item>45</item>
         <item>60</item>
-        <item>120</item>
-        <item>180</item>
-        <item>720</item>
         <item>1440</item>
         <item>2880</item>
         <item>10080</item>
@@ -85,21 +71,13 @@
          [CHAR LIMIT=12]
     -->
        <string-array name="preferences_default_reminder_labels">
-        <item>Tidak ada</item>
         <item>0 menit</item>
-        <item>1 menit</item>
         <item>5 menit</item>
         <item>10 menit</item>
         <item>15 menit</item>
-        <item>20 menit</item>
-        <item>25 menit</item>
         <item>30 menit</item>
-        <item>45 menit</item>
         <item>1 jam</item>
-        <item>2 jam</item>
-        <item>3 jam</item>
-        <item>12 jam</item>
-        <item>24 jam</item>
+        <item>1 hari</item>
         <item>2 hari</item>
         <item>1 pekan</item>
     </string-array>
@@ -107,18 +85,11 @@
     <string-array name="preferences_default_reminder_values" translatable="false">
         <item>"-1"</item>
         <item>"0"</item>
-        <item>"1"</item>
         <item>"5"</item>
         <item>"10"</item>
         <item>"15"</item>
-        <item>"20"</item>
-        <item>"25"</item>
         <item>"30"</item>
-        <item>"45"</item>
         <item>"60"</item>
-        <item>"120"</item>
-        <item>"180"</item>
-        <item>"720"</item>
         <item>"1440"</item>
         <item>"2880"</item>
         <item>"10080"</item>
