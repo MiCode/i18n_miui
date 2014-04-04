@@ -16,6 +16,17 @@
     <string name="data_error">An error occurred</string>
     <string name="locating_fail">Failed to locate, please check location service or try again</string>
     <string name="no_more_result">No more results</string>
+    <string name="downloading">Downloading\u2026</string>
+    <string name="download_completed">Download completed！SD card path: %s</string>
+    <string name="download_failed">Download failed</string>
+    <string name="download_failed_storage">Download failed, please check your SD card</string>
+    <string name="download_failed_network">Download failed, please check your network settings</string>
+    <string name="download_failed_gone">Download failed, file doesn\'t exists</string>
+    <string name="download_failed_server">Download failed, please try again later</string>
+    <string name="download_failed_cannot_resume">Download failed, please try again later</string>
+    <string name="download_failed_file_exists">File already exists</string>
+    <string name="download_failed_space">Download failed, insufficient space</string>
+    <string name="download_failed_blocked">Download failed, cannot connect to network</string>
 
     <!-- YellowPage related -->
     <string name="yellow_page_detail_title">About</string>
@@ -137,7 +148,7 @@
     <string name="login_ok">Sign in</string>
     <string name="login_before_use">You need to sign in first</string>
 
-    <!--  Express inquiry related -->
+    <!--  Express related -->
     <string name="express_inquiry">Tracking</string>
     <string name="express_inquiry_serial_number_indication">Tracking number</string>
     <string name="express_inquiry_logistics_indication">Delivery company</string>
@@ -156,6 +167,38 @@
     <string name="express_inquiry_no_history">No history</string>
     <string name="express_inquiry_delete_warning_single">Delete this entry?</string>
     <string name="express_inquiry_delete_warning_multiple">Delete %d selected history entries?</string>
+
+    <string name="express_sender">Sender</string>
+    <string name="express_sender_info">Sender info</string>
+    <string name="express_addressee">Addressee</string>
+    <string name="express_addressee_info">Addressee info</string>
+    <string name="express_add_new_address">Add address</string>
+    <string name="express_next_step">Next</string>
+    <string name="express_create_order">Create</string>
+    <string name="express_view_order">View orders</string>
+    <string name="express_go_back">Back</string>
+    <string name="express_address_delete_warning">Are you sure?</string>
+    <string name="express_sender_name">Sender name</string>
+    <string name="express_addressee_name">Addressee name</string>
+    <string name="express_phone">Telephone</string>
+    <string name="express_detailed_address">Address</string>
+    <string name="express_no_address">Empty</string>
+    <string name="express_order_confirmation">Order confirmation</string>
+    <string name="express_select_sender">From</string>
+    <string name="express_select_addressee">To</string>
+    <string name="express_region_pick_title">Choose region</string>
+    <string name="express_address_warning_no_name">Name is required</string>
+    <string name="express_address_warning_no_phone">Phone is required</string>
+    <string name="express_address_warning_no_area">Region is required</string>
+    <string name="express_address_warning_no_full_address">Address is required</string>
+    <string name="exapress_save_address_to_contact">Save address in contact</string>
+    <string name="express_sender_region">Sender region</string>
+    <string name="express_addressee_region">Addressee region</string>
+    <string name="express_select_address">Address</string>
+    <string name="express_address_info">Address info</string>
+    <string name="express_address_name">Name</string>
+    <string name="express_address_region">Region</string>
+    <string name="express_address_deleted">Address deleted</string>
 
     <!-- Scams numbers related -->
     <string name="remind_user_suspect_number_title">Suspicious number</string>

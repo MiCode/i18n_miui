@@ -279,6 +279,7 @@
     <string name="sdcard_error_message">An error occurred while accessing the SD card</string>
     <!-- label underneath icon used to indicate there was an error accessing the sd card -->
     <string name="sdcard_error_message_nosdcard">An error occurred while accessing USB storage</string>
+    <string name="no_music_to_play">No music to play</string>
     <!-- Default name of artist that doesn't have a name in the metadata -->
     <string name="unknown_artist_name">Unknown artist</string>
     <!-- Default name of album that doesn't have a name in the metadata -->

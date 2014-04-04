@@ -3,19 +3,21 @@
     <string name="day_view_new_event_hint">"New event"</string>
     <string name="button_day">"D"</string>
     <string name="button_month">"M"</string>
+    <string name="action_bar_today">"T"</string>
 
     <!-- 设置 -->
     <string name="account_and_calendar">Account and calendar</string>
     <string name="account_and_calendar_to_display">Account and calendar to display</string>
     <string name="default_reminder_mode">Default reminder mode</string>
     <string name="time_zone">Time zone</string>
-    <string name="show_all_lunar">Show all lunar</string>
-    <string name="show_almanac">Show almanac</string>
 
     <!-- Month List -->
     <string name="event_lunar_month">月</string>
+    <string name="huangli_label">老黄历</string>
+    <string name="holiday_label">节日</string>
     <string name="huangli_good_type">宜</string>
     <string name="huangli_bad_type">忌</string>
+
     <string name="event_all_day_label">All Day</string>
     <string name="today_no_events">No agenda today</string>
 
@@ -63,4 +65,28 @@
     <string name="month_medium_october">Oct</string>
     <string name="month_medium_november">Nov</string>
     <string name="month_medium_december">Dec</string>
+
+    <!-- 在线订阅 -->
+    <string name="online_calendar_activity_label">订阅日历</string>
+    <string name="tab_local">已订阅</string>
+    <string name="tab_online">在线</string>
+    <string name="add_calendar">订阅</string>
+    <string name="exist_calendar">已订阅</string>
+    <string name="delete_calendar">退订</string>
+    <string name="delete_topic_dialog_title">确认要退订\"%s\"吗？</string>
+    <string name="add_topic_success">订阅\"%s\"成功</string>
+    <string name="delete_topic_success">退订\"%s\"成功</string>
+    <string name="calendar_server_error">网络错误</string>
+    <string name="label_recent_events">近期事件</string>
+    <string name="no_local_calendar">没有订阅日历 :)</string>
+    <string name="no_network">无网络，请联网再刷新一下试试 :)</string>
+    <string name="refresh">刷新</string>
+    <string name="movable_list_header_label">简介</string>
+    <string name="today_weather_unavailable">无法获取天气信息</string>
+    <string name="subscribe_all">全部订阅</string>
+    <string name="enter_calendar">进入日历</string>
+
+    <string name="pref_title_no_remind">No reminder</string>
+    <string name="pref_title_notification_remind">Notification reminder</string>
+    <string name="pref_title_alert_remind">Pop-up reminder</string>
 </resources>
