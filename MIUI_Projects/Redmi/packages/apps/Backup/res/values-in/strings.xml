@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="app_name">Cadangan</string>
+  <string name="local_app_name">Cadangan</string>
+  <string name="local_home_title">Cadangan lokal</string>
+  <string name="button_backup">Cadangkan</string>
+  <string name="start_backup">Cadangkan</string>
+  <string name="button_cancel">Batal</string>
+  <string name="backup_empty">Tidak ada cadangan</string>
+  <string name="backup_items_sysdata_tailer">" \u0020berkas data sistem, "</string>
+  <string name="backup_items_app_tailer">" \u0020penyaringan aplikasi data"</string>
+  <string name="backup_failed">Pencadangan gagal</string>
+  <string name="backup_recently">" \u0020(terbaru) "</string>
+  <string name="sdcard_unmounted">Tidak ada kartu SD terdeteksi</string>
+  <string-array name="backup_dialog_content_type">
+    <item>Data Wi-Fi</item>
+    <item>Semua aplikasi</item>
+  </string-array>
+  <string-array name="system_package_label">
+    <item>Penelusur</item>
+    <item>Galeri</item>
+    <item>Perizinan</item>
+    <item>Kamera</item>
+    <item>Penggunaan data</item>
+    <item>Data cuaca</item>
+    <item>Cuaca</item>
+  </string-array>
+  <string-array name="system_data_label">
+    <item>Kontak</item>
+    <item>Catatan panggilan</item>
+    <item>Pesan</item>
+    <item>Pesan multimedia</item>
+    <item>Pengaturan sistem</item>
+    <item>Pengaturan Wi-Fi </item>
+    <item>Tampilan layar awal</item>
+    <item>Pengaturan alarm </item>
+    <item>Catatan </item>
+    <item>DND </item>
+    <item>Akun</item>
+  </string-array>
+  <string name="backup_progress">Mencadangkan\u2026;</string>
+  <string name="button_ok">OK</string>
+  <string name="button_continue">Teruskan</string>
+  <string name="backup_finished">Cadangan selesai</string>
+  <string name="backup_report">Tampilkan rincian cadangan </string>
+  <string name="backup_hint">Telepon jangan dimatikan</string>
+  <string name="menu_patch_delete">Hapus cadangan</string>
+  <string name="delete"> Hapus </string><string name="cancel">Batal</string>
+  <string name="delete_backup_process">Menghapus\u2026</string>
+  <string name="backup_error">Gagal mencadangkan</string>
+  <string name="delete_failed_backup_confirm">Cadanagan ini tidak dapat digunakan untuk memulihkan data anda karena terjadi kesalahan.</string>
+  <string name="batch_delete_backup_confirm">Hapus <xliff:g id="COUNT">%d</xliff:g> cadangan?</string>
+  <string name="start_restore">Pulihkan</string>
+  <string name="backup_file_error">Gagal mencadangkan</string>
+  <string-array name="app_type_desc">
+    <item>Data</item>
+    <item>Aplikasi</item>
+    <item>Aplikasi data data</item>
+  </string-array>
+  <string name="unit_byte">\u0020 bytes</string>
+  <string name="unit_piece">\u0020 hal</string>
+  <string name="restore_finished">Pemuihan selesai</string>
+  <string name="restore_report">Laporan pemulihan</string>
+  <string name="restore_progress">Memulihkan\u2026</string>
+  <string name="restore_contacts_hit">Anda harus catat masuk lagi untuk menampilkan data yang dipulihkan.</string>
+  <string name="restore_telephony_hit">Pemulihan akan memulai kembali aplikasi Telepon.</string>
+  <string name="restore_launcher_layout_hit">Pengaturan pemulihan peluncur</string>
+  <string name="settings_summary">": pengaturan telepon dan pesan"</string>
+  <string name="account_summary">Cadangkan Akun Google, Akun Xiaomi, dan data pengguna lainnya</string>
+  <string name="cloud_app_name">Cadangan Mi Cloud</string>
+  <string name="cloud_home_title">Mi Cloud</string>
+  <string name="prompt_reading">Membaca\u2026</string>
+  <string name="prompt_sending">Megunggah\u2026</string>
+  <string name="prompt_writing">Menyimpan\u2026</string>
+  <string name="backup_new">Baru:</string>
+  <string name="backup_update">Pembaruan</string>
+  <string name="backup_delete">Hapus:</string>
+  <string name="findlost_contact">Pulihkan kontak</string>
+  <string name="findlost_contact_online">Pulihkan kontak dari Mi Cloud</string>
+  <string name="cloud_backup_login">Daftar masuk menggunakan akun Xiaomi anda</string>
+  <string name="cloud_backup_hint">Untuk mengakses cadangan anda, daftar masuk sekarang</string>
+  <string name="cloud_backup_window_title">Cadangan Mi Cloud</string>
+  <string name="cloud_restore_window_title">Pemulihan Mi Cloud</string>
+  <string name="cloud_restore_title">Pulihkan data cadangan</string>
+  <string name="local_backup_window_title">Data cadangan lokal</string>
+  <string name="local_restore_window_title">Pemulihan lokal</string>
+  <string name="account_login">Daftar masuk</string>
+  <string name="miliao_account_login">Daftar masuk menggunakan MiTalk</string>
+  <string name="miliao_account_guide">Buat Akun Xiaomi untuk menikmati semua layanan dalam jaringan Xiaomi</string>
+  <string name="auto_backup">Cadankan secara otomatis</string>
+  <string name="contact_title">Kontak</string>
+  <string name="call_title">Catatan panggilan</string>
+  <string name="sms_title">Pesan</string>
+  <string name="mms_title">Pesan multimedia</string>
+  <string name="wifi_title">Pengaturan Wi-Fi</string>
+  <string name="note_title">Catatan</string>
+  <string name="compute_backup_info">Mengambil info cadangan\u2026</string>
+  <string name="compute_delete_contact_info">Mencari kontak untuk dihapus\u2026</string>
+  <string name="unknown_hint">Tidak dikenal</string>
+  <string-array name="cloud_data_label">
+    <item>Kontak</item>
+    <item>Catatan panggilan</item>
+    <item>Pesan</item>
+    <item>Pengaturan Wi-Fi</item>
+    <item>Catatan</item>
+  </string-array>
+  <string-array name="cloud_account_data">
+    <item>Kontak</item>
+    <item>Pengaturan Wi-Fi</item>
+    <item>Catatan</item>
+  </string-array>
+  <string-array name="cloud_sim_data">
+    <item>Catatan panggilan</item>
+    <item>Pesan</item>
+  </string-array>
+  <string name="task_progress">Kemajuan</string>
+  <string name="task_pending">Menunggu\u2026</string>
+  <string name="task_pre_running">Memulai\u2026</string>
+  <string name="task_post_running">Pemprosesan\u2026</string>
+  <string name="task_finished">Cadangan selesai</string>
+  <string name="task_canceled">Cadangan dibatalkan</string>
+  <string name="task_failed">Gagal</string>
+  <string name="task_canceled_local"> <xliff:g id="PERCENT">%s</xliff:g> telah dibatalkan</string>
+  <string name="task_canceled_all_local">Batal</string>
+  <string name="task_failed_local">Gagal untuk menyelesaikan: <xliff:g id="PERCENT">%s</xliff:g></string>
+  <string name="task_failed_all_local">Gagal</string>
+  <string name="task_backup_finished_local">Cadangan selesai</string>
+  <string name="task_restore_finished_local">Pemulihan selesai</string>
+  <string name="task_restore_none">Pemulihan tidak diperlukan</string>
+  <string name="task_stopped_exception">Pemulihan dibatalkan</string>
+  <string name="sdcard_no_enough_space">Tidak cukup ruang</string>
+  <string name="sdcard_no_enough_space_message">Tidak cukup ruang di kartu SD telepon anda.</string>
+  <string name="data_no_enough_space">Tidak cukup ruang</string>
+  <string name="data_no_enough_space_message">Tidak cukup ruang di memori internal telepon anda.</string>
+  <string name="task_running_hint">Proses ini sedang berjalan di latar belakang</string>
+  <string name="task_running_dialog">Cadangan dan pemulihan sedang berjalan. Tekan OK untuk melihat.</string>
+  <string name="task_running_backup_hint">Tugas ini sedang berjalan di latar belakang</string>
+  <string name="task_running_restore_hint">Tugas ini sedang berjalan di latar belakang</string>
+  <string name="task_running_backup_dialog">Cadangan sedang berjalan. Tekan untuk melihat.</string>
+  <string name="task_running_restore_dialog">Pemulihan sedang berjalan. Tekan OK untuk melihat.</string>
+  <string name="task_service_not_launched">Proses belum dimulai</string>
+  <string name="task_local_backup_cancel_dialog">Cadanagan belum selesia. Tetap dibatalkan?</string>
+  <string name="task_cloud_backup_cancel_dialog">Cadanagan belum selesai. Tetap dibatalkan?</string>
+  <string name="task_restore_cancel_dialog">Menghentikan sekarang akan menyebabkan kehilangan data.</string>
+  <string name="task_backup_cancel_progress">Membatalkan cadangan\u2026</string>
+  <string name="task_restore_cancel_progress">Membatalkan\u2026</string>
+  <string name="nothing_searched">Tidak menemukan apapun</string>
+  <string name="restore_counts">Pemulihan:</string>
+  <string name="service_stoped">Layanan dihentikan</string>
+  <string name="sc_network_unavailable">Kesalahan koneksi jaringan</string>
+  <string name="sc_bad_request">Permintaan buruk</string>
+  <string name="sc_unaccess_password_file">Jangan simpan sandi Wi-Fi</string>
+  <string name="sc_service_unavailable">Mi Cloud tidak tersedia</string>
+  <string name="sc_unauthorized">Mohon daftar masuk lagi</string>
+  <string name="sc_request_timeout">Permintaan habis</string>
+  <string name="sc_precondition_failed">Anda harus mentautkan Akun Xiaomi menggunakan alamat email yang valid</string>
+  <string name="sc_internal_server_error">Kesalahan server internal</string>
+  <string name="sc_others">Terjadi kesalahan</string>
+  <string name="succeed">Selesai</string>
+  <string name="fail">Gagal</string>
+  <string name="button_return">Kembali</string>
+  <string name="button_next">Selanjutnya</string>
+  <string name="button_finish">Selesai</string>
+  <string name="progress_backup_hint">Membuat cadangan\u2026</string>
+  <string name="cancel_backup">Berhenti</string>
+  <string name="restore_contact">Pulihkan kontak</string>
+  <string name="restore_contact_content">Pemulihan mungkin akan menggandakan kontak.</string>
+  <string name="progress_restore_hint">Pemulihan\u2026</string>
+  <string name="cancel_restore">Berhenti</string>
+  <string name="restore_failed">Pemulihan gagal</string>
+  <string name="local_select_sysdata">Sistem</string>
+  <string name="local_select_userapp">Aplikasi</string>
+  <string name="local_select_account_contact">Akun &amp; kontak</string>
+  <string name="local_no_backup">Tidak ada cadangan lokal</string>
+  <string name="auto_backup_setting">Pengaturan cadangan otomtais</string>
+  <string name="auto_backup_open">Cadangan otomtasi</string>
+  <string name="auto_backup_only_wifi">Hanya ketika terhubung dengan Wi-Fi</string>
+  <string name="auto_backup_date">Frekuensi cadangan</string>
+  <string name="auto_backup_time">Waktu cadangan</string>
+  <string name="auto_backup_choose_title">Pilih hal untuk dicadangkan</string>
+  <string name="auto_backup_choose">Hal yang dicadangkan</string>
+  <string name="auto_backup_choose_empty">Tidak ada cadangan</string>
+  <string name="auto_backup_all_user_apps">Semua aplikasi</string>
+  <string name="auto_backup_selected_user_apps">Aplikasi terpilih</string>
+  <string name="auto_backup_select_user_apps">Pilih aplikasi</string>
+  <string name="auto_backup_system_data">Sistem</string>
+  <string name="auto_backup_user_data">Aplikasi</string>
+  <string name="auto_backup_progress">Membuat cadangan\u2026</string>
+  <string name="backup">Cadangan</string>
+  <string name="restore">Pemulihan</string>
+  <string name="cloud_last_backup">Cadangan terakhir:</string>
+  <string name="cloud_search">Mencari\u2026</string>
+  <string name="cloud_no_backup">Tidak ada cadangan</string>
+  <string name="current_account">Hai, <xliff:g id="ACCOUNT">%s</xliff:g></string>
+  <string name="current_sim">Kartu SIM yang ada</string>
+  <string name="date_format" translatable="false">dd-MM-yyyy HH:mm:ss</string>
+  <string name="dir_date_format" translatable="false">dd-MM-yyyy_HH-mm-ss</string>
+  <string name="no_network">Tidak dapat terhubung ke jaringan</string>
+  <string name="retry">Coba lagi</string>
+  <string name="select_all">Pilih semua</string>
+  <string name="reverse_all">Hapus semua</string>
+  <string name="refresh">Segarkan</string>
+  <string name="cloud_item_info_summary">\u0020(Lokal: <xliff:g id="LOCAL_COUNT">%1$s</xliff:g> | Mi Cloud: <xliff:g id="CLOUD_COUNT">%2$s</xliff:g>)</string>
+  <string name="total_num"><xliff:g id="COUNT">%d</xliff:g> total</string>
+  <string name="cloud_restore_guide">Pemulihkan data pengguna untuk <xliff:g id="APP">%s</xliff:g>, tekan Pemulihan</string>
+  <string name="import_from_xiaomi_account_hint1">1.\tUnduh aplikasi MiTalk dan daftar masuk.\n\thttp://www.miliao.com\n\n2.\tGo untuk pengaturan MiTalk dan pilih "Cadangkan kontak ke Akun Xiaomi"</string>
+  <string name="import_from_xiaomi_account_hint2"> Jika anda telah memiliki cadangan, tekan Selanjutnya.</string>
+  <string name="import_from_xiaomi_account_hint_title">Gunakan MiTalk untuk mencadangkan kontak anda di lintas perangkat.</string>
+  <string name="guarded_mode_dialog_title">Anda menggunakan mode Tam</string><string name="guarded_mode_dialog_message">Fungsi ini tidak diizinkan dalam mode Tamu.</string>
+  <string name="multi_select_title"><xliff:g id="number" example="15">%1$s</xliff:g> dipilih</string>
+  <!-- encrypt -->
+  <string name="enable_encrypt_title">Hidupkan enkripsi</string>
+  <string name="disable_encrypt_title">Matikan enkripsi</string>
+  <string name="enable_encrypt_indicator">Tekan untuk enkrip</string>
+  <string name="enable_encrypt">Hidupkan</string>
+  <string name="already_enable_encrypt">Enkripsi dihidupkan</string>
+  <string name="enable_encrypt_summery1">Anda harus daftar masuk menggunakan Akun Xiaomi anda untuk mengakses cadangan yang terenkrispi.</string>
+  <string name="enable_encrypt_summery2">Cadanagan anda akan terenkripsi secara otomatis. Anda harus daftar masuk ke Akun Xiaomi anda untuk mengakses cadangan yang terenkripsi.</string>
+  <string name="enable_encrypt_xiaomi_account">Cadangan ini dibuat oleh <xliff:g id="account" example="110000">%1$s</xliff:g>. Untuk pemulihan, hapus akun yang ada
+dan daftar masuk sebagai <xliff:g id="account" example="110000">%2$s</xliff:g>.</string>
+  <string name="enable_encrypt_ok">OK</string>
+  <string name="no_encrypt_password">Tidak ada sandi</string>
+  <string name="enable_encrypt_fail">Enkripsi gagal</string>
+  <string name="read_encrypt_fail">Tidak dapat membaca cadangan terenkripsi</string>
+  <string name="exchange_account">Ganti akun</string>
+
+    <string name="system_backup">Cadanagan</string>
+    <string name="backup_empty_info">" Cadangkan data, pengaturan dan aplikasi anda"</string>
+    <string name="system_backup_info">Pengaturan sistem dan susunan layar utama</string>
+    <string name="software_backup_info">Data aplikasi</string>
+    <string name="account_contact_backup_info">Akun Google, Akun Xiaomi, dan data Kontak</string>
+    <string name="select_backup_item">Pilih hal</string>
+    <string name="restore_data">Pulihkan data</string>
+    <string name="backup_data">Cadangan data</string>
+</resources>
+
