@@ -154,7 +154,7 @@
     <string name="uninstall_dialog_message">Pencopotan aplikasi akan menghapus semua aplikasi data.</string>
     <plurals name="uninstall_result_succeeded">
         <item quantity="one">Aplikasi dicopot dari pemasangan</item>
-        <item quantity="other">%1$ aplikasi dicopot dari pemasangan</item>
+        <item quantity="other">%1$d aplikasi dicopot dari pemasangan</item>
     </plurals>
     <plurals name="uninstall_result_failed">
         <item quantity="one">Tidak dapat mencopot pemasangan <xliff:g id="appname">%s</xliff:g></item>
