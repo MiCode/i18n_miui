@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="lockscreen_emergency_call">Panggilan darurat</string>
+    <string name="lockscreen_forgot_pattern_button_text">Lupa</string>
+    <string name="lockscreen_transport_prev_description">Sebelumnya</string>
+    <string name="lockscreen_transport_next_description">Selanjutnya</string>
+    <string name="lockscreen_transport_play_description">Tombol main</string>
+
+    <string name="lockscreen_too_many_failed_attempts_countdown">Coba lagi dalam %d detik.</string>
+    <string name="lockscreen_pattern_wrong">Coba lagi:</string>
+    <string name="lockscreen_pattern_instructions">Gambar pola untuk buka kunci</string>
+
+    <string name="unlockscreen_recharging_message">Mengisi %d%%</string>
+    <string name="unlockscreen_recharge_completed">Pengisian lempat</string>
+    <string name="unlockscreen_low_battery">Konek ke pengisi baterai</string>
+
+    <string name="emergency_call_string">Darurat</string>
+    <string name="forget_password_string">Lupa sandi</string>
+    <string name="miui_unlockscreen_password_wrong">Coba lagi:</string>
+    <string name="contact_carrier_message">Hubungkan ponsel selular anda jika anda memiliki pertanyaan tambahan.</string>
+    <string name="input_puk_code">Masukkan PUK</string>
+    <string name="input_puk_code_to_unlock">Masukkan kode PUK untuk membuka kunci perangkat</string>
+    <string name="unlocking_sim_card">Membuka kunci kartu SIM</string>
+    <string name="short_pukcode_error_msg">Anda harus memasukkan minimal 8 digit.</string>
+    <string name="short_pincode_error_msg">Mohon masukkan 4&#8211;8 digit</string>
+    <string name="input_pin_code">Masukkan PIN</string>
+    <string name="input_pin_code_to_unlock">Masukkan kode PIN untuk membuka kunci perangkat</string>
+    <string name="pincode_set_to_default_msg">Kode PIN diubah ke 1234, anda dapat merubahnya disini:</string>
+    <string name="incorrect_pukcode_remaining_attempts">Kode PUK salah, kesempatan tersisa %d</string>
+    <string name="incorrect_pincode_remaining_attempts">Kode PIN salah, kesempatan tersisa %d</string>
+    <string name="incorrect_pukcode">Kode PUK salah</string>
+    <string name="incorrect_pincode">Kode PIN salah</string>
+    <string name="puk_operation_failed">Operasi PUK gagal.</string>
+    <string name="pin_operation_failed">Operasi PIN gagal.</string>
+    <string name="return_to_me_message">Jika kehilangan, tolong dikembalikan ke</string>
+    <string name="unlock_string">OK</string>
+    <string name="open_wifi_settings">Membuka koneksi jaringan</string>
+    <string name="lock_screen_date">dd-MM-EEEE</string>
+
+    <string name="lockscreen_failed_attempts_almost_glogin" product="tablet">
+        Anda telah memasukkan sandi yang salah <xliff:g id="number">%d</xliff:g> kali.
+        Setelah <xliff:g id="number">%d</xliff:g> kesempatan lagi,
+        anda diminta untuk membuka kunci tablet anda menggunakan akun daftar masuk.\n\n
+        Coba lagi dalam <xliff:g id="number">%d</xliff:g> detik.
+    </string>
+
+    <string name="lockscreen_failed_attempts_almost_glogin" product="default">
+        Anda telah memasukkan sandi yang salah <xliff:g id="number">%d</xliff:g> kali.
+        Setelah <xliff:g id="number">%d</xliff:g> kesempatan lagi,
+        anda diminta untuk membuka kunci tablet anda menggunakan akun daftar masuk.\n\n
+        Coba lagi dalam <xliff:g id="number">%d</xliff:g> detik.
+    </string>
+</resources>
