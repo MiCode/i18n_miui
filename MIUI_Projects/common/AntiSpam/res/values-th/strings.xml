@@ -1,102 +1,102 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name">Blocklist</string>
+    <string name="app_name">รายการบล็อก</string>
 
     <!--  notification -->
-    <string name="fw_blocked">Blocked:</string>
-    <string name="fw_blocked_count">Blocked <xliff:g id="opt">%d</xliff:g> calls and <xliff:g id="opt">%d</xliff:g> messages</string>
+    <string name="fw_blocked">บล็อก:</string>
+    <string name="fw_blocked_count">บล็อก <xliff:g id="opt">%d</xliff:g> สายเข้าและ <xliff:g id="opt">%d</xliff:g> ข้อความ</string>
 
     <!-- Tab/Other View -->
-    <string name="tab_title">Blocklist</string>
-    <string name="tab_block_log">Blocked log</string>
-    <string name="tab_blacklist">Blocklist</string>
-    <string name="tab_sms">Message log</string>
-    <string name="tab_call">Call log</string>
-    <string name="bl_block_info">Blocked: <xliff:g id="tel_count">%d</xliff:g> calls "|" <xliff:g id="ms_count">%d</xliff:g> messages</string>
-    <string name="bl_no_block_call">No blocked calls</string>
-    <string name="bl_no_block_sms">No blocked messages</string>
-    <string name="bl_no_blacklist">No blocked numbers</string>
+    <string name="tab_title">รายการบล็อก</string>
+    <string name="tab_block_log">บันทึกการบล็อก</string>
+    <string name="tab_blacklist">รายการบล็อก</string>
+    <string name="tab_sms">บันทึกการใช้งานข้อความ</string>
+    <string name="tab_call">บันทึกการใช้งานสายเข้า</string>
+    <string name="bl_block_info">บล็อก: <xliff:g id="tel_count">%d</xliff:g> สายเข้า "|" <xliff:g id="ms_count">%d</xliff:g> ข้อความ</string>
+    <string name="bl_no_block_call">ไม่มีบล็อกสายเข้า</string>
+    <string name="bl_no_block_sms">ไม่มีบล็อกข้อความ</string>
+    <string name="bl_no_blacklist">ไม่มีบล็อกหมายเลข</string>
     <string name="log_count">(%d)</string>
 
-    <string name="tab_block_log_unKnowNumber">Unknown number</string>
+    <string name="tab_block_log_unKnowNumber">เบอร์โทรไม่รู้จัก</string>
 
     <!-- Mark info -->
-    <string name="marked_by_user">"You marked it as "</string>
-    <string name="marked_by_others">"%d other users marked it as "</string>
+    <string name="marked_by_user">"ทำเครื่องหมายเป็น "</string>
+    <string name="marked_by_others">"%d ผู้ใช้อื่นจะทำเครื่องหมายเป็น "</string>
 
     <!-- Dialog -->
-    <string name="dlg_clear_all_sms">Delete blocked messages?</string>
-    <string name="dlg_clear_all_call">Clear blocked calls?</string>
-    <string name="dlg_clear_current_sms">Delete all blocked messages sent from this number?</string>
-    <string name="dlg_clear_current_call">Clear all blocked calls from this number?</string>
-    <string name="dlg_clear_all_ok">Clear all</string>
-    <string name="dlg_clear_current_ok">Delete</string>
-    <string name="dlg_no_block">Unblock this number?</string>
-    <string name="dlg_no_block_ok">Unblock</string>
-    <string name="dlg_add_blacklist">Block this number?</string>
-    <string name="dlg_remove_blacklist">Unblock this number?</string>
-    <string name="dlg_remove_blacklist_ok">Unblock</string>
-    <string name="dlg_clear_blacklist">Clear blocklist?</string>
-    <string name="dlg_clear_blacklist_ok">Clear</string>
-    <string name="dlg_bl_add_manual">Add number to blocklist</string>
-    <string name="dlg_add_manual_ok">Add</string>
-    <string name="dlg_add_manual_hint">Enter phone number</string>
-    <string name="dlg_import_blacklist">Adding to blocklist\u2026</string>
-    <string name="dlg_import_whitelist">Adding to exceptions\u2026</string>
-    <string name="dlg_add_keyword">Add keywords</string>
-    <string name="dlg_edit_keyword">Edit keyword</string>
-    <string name="dlg_delete_keyword">Remove selected keywords?</string>
-    <string name="dlg_keyword_ok">Save</string>
-    <string name="dlg_retore">Restore to message inbox?</string>
-    <string name="dlg_retore_ok">Restore</string>
-    <string name="toast_keyword_blank">You need to enter a keyword :)</string>
-    <string name="toast_keyword_exist">Keyword saved</string>
-    <string name="toast_keyword_invalid">The keyword you entered is invalid</string>
+    <string name="dlg_clear_all_sms">ลบข้อความบล็อก?</string>
+    <string name="dlg_clear_all_call">ล้างบล็อกสายเข้า?</string>
+    <string name="dlg_clear_current_sms">ลบข้อความบล็อกทั้งหมดจากหมายเลขนี้?</string>
+    <string name="dlg_clear_current_call">ล้างการโทรทั้งหมดจากหมายเลขนี้?</string>
+    <string name="dlg_clear_all_ok">ล้างทั้งหมด</string>
+    <string name="dlg_clear_current_ok">ลบ</string>
+    <string name="dlg_no_block">ปลดล็อกหมายเลขนี้?</string>
+    <string name="dlg_no_block_ok">ปลดล็อก</string>
+    <string name="dlg_add_blacklist">บล็อกหมายเลขนี้?</string>
+    <string name="dlg_remove_blacklist">ปลดล็อกหมายเลขนี้?</string>
+    <string name="dlg_remove_blacklist_ok">ปลดล็อก</string>
+    <string name="dlg_clear_blacklist">ล้างรายการบล็อก?</string>
+    <string name="dlg_clear_blacklist_ok">ล้าง</string>
+    <string name="dlg_bl_add_manual">เพิ่มหมายเลขไปยังรายการบล็อก</string>
+    <string name="dlg_add_manual_ok">เพิ่ม</string>
+    <string name="dlg_add_manual_hint">ใส่หมายเลขโทรศัพท์</string>
+    <string name="dlg_import_blacklist">กำลังเพิ่มไปยังรายการบล็อก\u2026</string>
+    <string name="dlg_import_whitelist">กำลังเพิ่มไปยังข้อยกเว้น\u2026</string>
+    <string name="dlg_add_keyword">เพิ่มคีย์เวิร์ด</string>
+    <string name="dlg_edit_keyword">แก้ไขคีย์เวิร์ด</string>
+    <string name="dlg_delete_keyword">ลบคีย์เวิร์ดที่เลือก?</string>
+    <string name="dlg_keyword_ok">บันทึก</string>
+    <string name="dlg_retore">คืนค่าไปยังกล่องข้อความ?</string>
+    <string name="dlg_retore_ok">คืนค่า</string>
+    <string name="toast_keyword_blank">จำเป็นต้องใส่คีย์เวิร์ด</string>
+    <string name="toast_keyword_exist">บันทึกคีย์เวิร์ดแล้ว</string>
+    <string name="toast_keyword_invalid">คีย์เวิรืดที่ใส่ไม่ถูกต้อง</string>
 
     <!-- Menu -->
-    <string name="menu_clear_all_sms">Delete blocked messages</string>
-    <string name="menu_clear_all_call">Clear blocked calls</string>
-    <string name="menu_clear_current_sms">Delete all blocked messages sent from this number</string>
-    <string name="menu_clear_current_call">Clear all calls from this number</string>
-    <string name="menu_no_block">Unblock</string>
-    <string name="menu_mark">Report number</string>
-    <string name="menu_call">Dial</string>
-    <string name="menu_sms">Send message</string>
-    <string name="menu_restore">Restore to inbox</string>
-    <string name="menu_bl_call_log">View blocked calls</string>
-    <string name="menu_bl_sms_log">View blocked messages</string>
-    <string name="menu_bl_remove">Unblock</string>
-    <string name="menu_bl_clear">Clear blocklist</string>
-    <string name="menu_bl_add_manual">Add</string>
-    <string name="menu_bl_add_contact">Contacts</string>
-    <string name="menu_add_new_contact">New contact</string>
-    <string name="menu_add_into_contact">Add to existing contact</string>
-    <string name="menu_add">Add</string>
-    <string name="menu_edit">Edit</string>
-    <string name="menu_remove">Remove</string>
+    <string name="menu_clear_all_sms">ลบบล็อกข้อความ</string>
+    <string name="menu_clear_all_call">ล้างบล็อกสายเข้า</string>
+    <string name="menu_clear_current_sms">ลบข้อความบล็อกทั้งหมดจากหมายเลขนี้</string>
+    <string name="menu_clear_current_call">ล้างการโทรทั้งหมดจากหมายเลขนี้</string>
+    <string name="menu_no_block">ปลดล็อก</string>
+    <string name="menu_mark">รายงานหมายเลข</string>
+    <string name="menu_call">โทร</string>
+    <string name="menu_sms">ส่งข้อความ</string>
+    <string name="menu_restore">คืนค่าไปยังข้อความเข้า</string>
+    <string name="menu_bl_call_log">แสดงบล็อกสายเข้า</string>
+    <string name="menu_bl_sms_log">แสดงบล็อกข้อความ</string>
+    <string name="menu_bl_remove">ปลดล็อก</string>
+    <string name="menu_bl_clear">ล้างรายการบล็อก</string>
+    <string name="menu_bl_add_manual">เพิ่ม</string>
+    <string name="menu_bl_add_contact">รายชื่อ</string>
+    <string name="menu_add_new_contact">รายชื่อใหม่</string>
+    <string name="menu_add_into_contact">เพิ่มไปยังรายชื่อที่มีอยู่แล้ว</string>
+    <string name="menu_add">เพิ่ม</string>
+    <string name="menu_edit">แก้ไข</string>
+    <string name="menu_remove">ลบ</string>
 
     <!-- Settings -->
-    <string name="st_settings_name">Blocklist settings</string>
-    <string name="st_block_setting_group">Blocklist settings</string>
-    <string name="st_block_setting_title">Calls and messages</string>
-    <string name="st_block_all">Block calls and messgaes</string>
-    <string name="st_mute_all">Silence calls and messages</string>
-    <string name="st_block_mute">Block calls and silence messages</string>
-    <string name="st_mute_block">Silence calls and block messages</string>
-    <string name="st_call_group">Calls</string>
-    <string name="st_sms_group">Messages</string>
-    <string name="st_block_title">Divert to blocked log</string>
-    <string name="st_mute_title">Don\'t ring or vibrate</string>
-    <string name="st_common_setting_group">Filter settings</string>
-    <string name="st_block_private_call_button">Block private numbers</string>
-    <string name="st_filter_sms_button">Filter messages</string>
-    <string name="st_filter_keywords_setting_title">Set keyword filter</string>
-    <string name="st_filter_keywords_title">Keyword filter</string>
-    <string name="st_filter_keywords_setting_summary1">Messages sent from unknown numbers that contain the following words will be blocked.</string>
-    <string name="st_filter_keywords_setting_summary2">You can separate keywords using a comma</string>
-    <string name="st_advanced_setting_group">Advanced</string>
-    <string name="st_block_unknown_call">Block unknown callers</string>
-    <string name="st_block_unknown_sms">Block unknown messages</string>
-    <string name="st_other_setting_group">Other settings</string>
-    <string name="st_show_block_notification">Show blocked notification</string>
+    <string name="st_settings_name">การตั้งค่ารายการบล็อก</string>
+    <string name="st_block_setting_group">การตั้งค่ารายการบล็อก</string>
+    <string name="st_block_setting_title">สายเข้าและข้อความ</string>
+    <string name="st_block_all">บล็อกสายเข้าและข้อความ</string>
+    <string name="st_mute_all">เงียบเสียงสายเข้าและข้อความ</string>
+    <string name="st_block_mute">บล็อกสายเข้าและเงียบเสียงข้อความ</string>
+    <string name="st_mute_block">เงียบเสียงสายเข้าและบล็อกข้อความ</string>
+    <string name="st_call_group">สายเข้า</string>
+    <string name="st_sms_group">ข้อความ</string>
+    <string name="st_block_title">โอนไปยังรายการบล็อก</string>
+    <string name="st_mute_title">ห้ามเสียงเรียกเข้าหรือสั่น</string>
+    <string name="st_common_setting_group">การตั้งค่าการกรอง</string>
+    <string name="st_block_private_call_button">บล็อกเบอร์ส่วนตัว</string>
+    <string name="st_filter_sms_button">กรองข้อความ</string>
+    <string name="st_filter_keywords_setting_title">ตั้งการกรองคีย์เวิร์ด</string>
+    <string name="st_filter_keywords_title">กรองคีย์เวิร์ด</string>
+    <string name="st_filter_keywords_setting_summary1">ข้อความถูกส่งจากเบอร์ไม่รู้จักหากตรงกับคำในคีย์เวิร์ดจะถูกบล็อก</string>
+    <string name="st_filter_keywords_setting_summary2">สามารถแยกคีย์เวิร์ดโดยใช้คอมม่า</string>
+    <string name="st_advanced_setting_group">ขั้นสูง</string>
+    <string name="st_block_unknown_call">บล็อกสายเข้าไม่รู้จัก</string>
+    <string name="st_block_unknown_sms">บล็อกข้อความไม่รู้จัก</string>
+    <string name="st_other_setting_group">การตั้งค่าอื่นๆ</string>
+    <string name="st_show_block_notification">แสดงการแจ้งเตือนบล็อก</string>
 </resources>
