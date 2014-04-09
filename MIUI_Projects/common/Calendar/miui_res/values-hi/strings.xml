@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="day_view_new_event_hint">"नया इवेंट"</string>
+    <string name="button_day">"D"</string>
+    <string name="button_month">"M"</string>
+
+    <!-- 设置 -->
+    <string name="account_and_calendar">अकाउंट और कैलेंडर</string>
+    <string name="account_and_calendar_to_display">अकाउंट और कैलेंडर  प्रदर्शित करने के लिए</string>
+    <string name="default_reminder_mode">डिफ़ॉल्ट अनुस्मारक मोड</string>
+    <string name="time_zone">समय क्षेत्र</string>
+    <string name="show_all_lunar"> चांद्र सभी दिखाएँ</string>
+    <string name="show_almanac">पंचांग दिखाएँ</string>
+
+    <!-- Month List -->
+    <string name="event_lunar_month">माह</string>
+    <string name="huangli_good_type">चाहिए</string>
+    <string name="huangli_bad_type">बचें</string>
+    <string name="event_all_day_label">पूरा दीन</string>
+    <string name="today_no_events">आज कोई एजेंडा नहीं</string>
+
+    <!-- New Event -->
+    <string name="event_account"> कैलेंडर अकाउंट</string>
+    <string name="hint_what">घटना अनुस्मारक सामग्री</string>
+    <string name="event_show_more">दिखाइए</string>
+    <string name="event_hide_more">छिपाइए</string>
+    <string name="presence_label">स्तिति</string>
+
+    <!-- 日历详情 -->
+    <string name="event_info_when">कब:\u0020</string>
+    <string name="event_info_repeat">पुनरावृत्ति:\u0020</string>
+    <string name="event_info_where">किधर:\u0020</string>
+    <string name="event_info_descrip">विवरण:\u0020</string>
+
+    <!-- No translation -->
+    <string name="chongsha">冲煞</string>
+    <string name="wuxing">五行</string>
+    <string name="xingxiu">星宿</string>
+    <string name="taishen">胎神</string>
+    <string name="pengzu">彭祖</string>
+    <string name="zhushen">诸神</string>
+
+    <string name="activity_title">MIUI新年送礼</string>
+    <string name="activity_summary">充值10元抽奖</string>
+
+    <!-- Date Picker -->
+    <string name="lunar_date">चंद्र तिथि</string>
+
+    <!-- Widget -->
+    <string name="widget_select_style">स्टाइल का चयन कीजिए</string>
+    <string name="widget_events">अगले इवेंट</string>
+    <string name="widget_no_events">अगले , कोई अजेंडा नहीं</string>
+
+    <string name="month_medium_january">जनवरी</string>
+    <string name="month_medium_february">फरवरी</string>
+    <string name="month_medium_march">मार्च</string>
+    <string name="month_medium_april">अप्रैल</string>
+    <string name="month_medium_may">मई</string>
+    <string name="month_medium_june">जून</string>
+    <string name="month_medium_july">जुलाई</string>
+    <string name="month_medium_august">अगस्त</string>
+    <string name="month_medium_september">सितम्बर</string>
+    <string name="month_medium_october">अक्टूबर</string>
+    <string name="month_medium_november">नवंबर</string>
+    <string name="month_medium_december">दिसंबर</string>
+</resources>

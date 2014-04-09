@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">एक्सप्लोरर</string>
+    <string name="confirm">पुष्टि करें</string>
+    <string name="menu_item_ftp">FTP</string>
+    <string name="menu_item_cleanup">क्लीनउप</string>
+    <string name="menu_item_search">खोजे</string>
+    <string name="operation_create_folder">नया फोल्डर</string>
+    <string name="menu_item_sort">क्रमबद्ध करें</string>
+    <string name="menu_item_sort_name">नाम</string>
+    <string name="menu_item_sort_size">साइज़</string>
+    <string name="menu_item_sort_date">तारीख</string>
+    <string name="menu_item_sort_type">प्रकार</string>
+    <string name="operation_favorite">स्टार</string>
+    <string name="operation_unfavorite">अनस्टार</string>
+    <string name="operation_copy">कॉपी</string>
+    <string name="operation_paste">पेस्ट</string>
+    <string name="operation_move">कट</string>
+    <string name="operation_send">भेजें</string>
+    <string name="operation_rename">नाम बदलें</string>
+    <string name="operation_delete"> डिलीट</string>
+    <string name="operation_info">विवरण</string>
+    <string name="operation_cancel">रद्द करें</string>
+    <string name="operation_refresh">रेफ्रेश</string>
+    <string name="operation_show_sys">छुपी फ़ाइलें दिखाएँ</string>
+    <string name="operation_hide_sys">छुपी फ़ाइलें नहीं दिखाएँ</string>
+    <string name="cancel">रद्द करें</string>
+    <string name="background">बॅकग्राउंड  में डाउनलोड  </string>
+    <string name="no_file">खाली</string>
+    <string name="tab_category">श्रेणियाँ</string>
+    <string name="tab_phone">फ़ोन</string>
+    <string name="category_all">सब</string>
+    <string name="category_music">म्यूज़िक</string>
+    <string name="category_video">वीडियोस</string>
+    <string name="category_picture">आकृतियाँ</string>
+    <string name="category_theme">थीम्स</string>
+    <string name="category_document">डॉक्युमेंट्स</string>
+    <string name="category_zip">अचिव्रस</string>
+    <string name="category_apk">APKs</string>
+    <string name="category_other">अन्य</string>
+    <string name="category_favorite">तारांकित </string>
+    <string name="category_bluetooth">ब्लुतूथ</string>
+    <string name="category_log">लोग्स</string>
+    <string name="category_mirouter">Mi राउटर</string>
+    <string name="colon">": "</string>
+    <string name="operation_rename_message">फोल्डर का नाम</string>
+    <string name="operation_create_folder_message">फोल्डर का नाम</string>
+    <string name="operation_delete_confirm_message"> डिलीट</string>
+    <string name="operation_delete_confirm_message_folder">फोल्डर की सभी सामग्री डिलीट हो जाएगी.\r\n</string>
+    <string name="delete_folder">ये फोल्डर डिलीट करे?</string>
+    <string name="delete_folders">डिलीट %1$d?</string>
+    <string name="delete_file">ये फाइल डिलीट करे?</string>
+    <string name="delete_files">डिलीट %1$d फाइलस?</string>
+
+    <plurals name="delete_files_confirm">
+        <item quantity="one">1 फाइल डिलीट</item>
+        <item quantity="other">%1$d फाइलस डिलीट</item>
+    </plurals>
+
+    <plurals name="delete_folders_confirm">
+        <item quantity="one">" और 1 फ़ोल्डर?"</item>
+        <item quantity="other">" और %1$d फोल्डर्स?"</item>
+    </plurals>
+
+    <string name="new_folder_name">बेनाम फ़ोल्डर</string>
+    <string name="sd_card_size">SD कार्ड: <xliff:g id="total_size">%1$s</xliff:g></string>
+    <string name="sd_card_available">उपलब्ध: <xliff:g id="available_size">%1$s</xliff:g></string>
+    <string name="file_info_location">स्थान: </string>
+    <string name="file_info_size">साइज़: </string>
+    <string name="file_info_modified">समय: </string>
+    <string name="file_info_canread">रिदेबल: </string>
+    <string name="file_info_canwrite">राईटेबल: </string>
+    <string name="file_info_ishidden">छुपी: </string>
+    <string name="yes">हां </string>
+    <string name="no">नहीं</string>
+    <string name="operation_deleting">डिलीटिंग\u2026</string>
+    <string name="operation_pasting">कॉपीयिंग\u2026</string>
+    <string name="operation_moving">स्थानांतरित\u2026</string>
+    <string name="confirm_know">ठीक</string>
+    <string name="error_info_cant_send_folder">ईस प्रकार की फाइल समर्थित नहीं है.</string>
+    <string name="fail_to_create_folder">फोल्डर बनाने में असफल : पर्याप्त जगाह नहीं या फ़ोल्डर पहले से मौजूद है.</string>
+    <string name="fail_to_create_folder_unknown">फोल्डर बनाने में असफल. </string>
+    <string name="fail_to_rename">एक ही नाम के फ़ाइल या फ़ोल्डर पहले से मौजूद है. </string>
+    <string name="error_filename_too_long">उस फ़ाइल का नाम बहुत लंबा है. </string>
+    <string name="enable_sd_card"> SD कार्ड डालें या USB Mass storage बंद करे.</string>
+    <string name="start_server">शुरू</string>
+    <string name="stop_server">बंद</string>
+    <string name="notif_server_starting">FTP सर्वर \u2026 शुरू हो रहा है</string>
+    <string name="notif_title">FTP सर्वर चल रहा है.</string>
+    <string name="storage_warning">बाहरी  संग्रहण उपलब्ध नहीं है.</string>
+    <string name="wifi_state">Wi-Fi की स्थिति</string>
+    <string name="instruction_pre">FTP सर्वर शुरू करने के लिए टच  करे.</string>
+    <string name="instruction">निम्नलिखित पता FTP क्लाएंट मे डाले: </string>
+    <string name="no_wifi">कोई Wi-Fi कनेक्शन मोजूद नही है.</string>
+    <string name="no_wifi_hint">अपने कनेक्शन सेटिंग्स की जाँच करें.</string>
+    <string name="search_title">खोजे</string>
+    <string name="search_hint">खोजे</string>
+    <string name="dialog_select_type">प्रकार का चयन करें</string>
+    <string name="dialog_type_text">टेक्स्ट</string>
+    <string name="dialog_type_audio">ऑडियो</string>
+    <string name="dialog_type_video">वीडियो</string>
+    <string name="dialog_type_image">आकृति</string>
+    <string name="favorite_photo">फ़ोटो</string>
+    <string name="favorite_screen_cap">MIUI स्क्रीनशॉटस</string>
+    <string name="favorite_ringtone">रिंगटोन्स</string>
+    <string name="file_loading">लोडिंग\u2026</string>
+    <string name="multi_select_title"><xliff:g id="number">%1$s</xliff:g>चयनित </string>
+    <string name="tab_networkdisk">KuaiPan</string>
+    <string name="operation_download_link">डाउनलोड लिंक उत्पन्न करें</string>
+    <string name="ui_filechange_btn_download">डाउनलोड  फाइलस</string>
+    <string name="show_message">ईस फाइल को खोलने से पहले इस फाइल को डाउनलोड करने की जरूरत हे.</string>
+    <string name="ui_main_progress_txt_open_file">डाउनलोडिंग\u2026</string>
+    <string name="networkView_notConnected">कोई नेटवर्क उपलब्ध नहीं हे.</string>
+    <string name="ui_main_toast_favorite_removed">अतारांकित </string>
+    <string name="ui_main_toast_operation_failed">अतारांकित करने में असफल  %1$s</string>
+    <string name="user_guide">KuaiPan का परिचय</string>
+    <string name="user_guide_summary">संक्षिप्त अवलोकन</string>
+    <string name="rename_failed">नाम बदल ने मे असफल %1$s</string>
+    <plurals name="directory_item_count">
+        <item quantity="one">1 आइटम</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> आइटम्स</item>
+    </plurals>
+    <string name="directory_no_item">खाली फ़ोल्डर</string>
+    <string name="error_open_file_failed_no_app_found">कोई ऐप इस क्रिया को पूरा करने के लिए नही पाई गाई हे.</string>
+    <string name="no_enough_space">पर्याप्त जगाह नहीं हे</string>
+    <string name="directory_info_divider">"  |  "</string>
+
+    <string name="no_enough_storage_title">पर्याप्त जगाह नहीं हे</string>
+    <string name="no_enough_storage_indication">डिवाइस पूरा भरा है.</string>
+
+    <plurals name="ui_bar_txt_download_progress">
+        <item quantity="one">1 फाइल डाउनलोड करने की बाकी</item>
+        <item quantity="other">%1$d फाइलस डाउनलोड करने की बाकी</item>
+    </plurals>
+
+    <plurals name="ui_bar_txt_upload_progress">
+        <item quantity="one">1 फाइल अपलोड करने की बाकी</item>
+        <item quantity="other">%1$d फाइलस अपलोड करने की बाकी</item>
+    </plurals>
+
+    <string name="ui_main_menu_option_task_manage">मैनेज ट्रान्सफर्स</string>
+    <string name="kuaipan_label">Kuaipan</string>
+    <string name="create_kuaipan_shortcut_pref">होम स्क्रीन पर रखें </string>
+    <string name="login_reg_content0">कहीं से Kuaipan का उपयोग करें.</string>
+    <string name="login_reg_content">स्टोर फाइल्स ओर अनेक डिवाईसिस पे सिंक करे ,\nसुविधा के लिए नेटवर्क ज़रूरी.</string>
+    <string name="start_use_xiaomi_account">KuaiPan की मदद से शुरू करे</string>
+    <string name="pan_settting">KuaiPan सेटिंग्स </string>
+    <string name="xiaomi_account">Xiaomi खाता</string>
+    <string name="space_usage">उपयोग की गयी जगाह</string>
+    <string name="used">उपयोग</string>
+    <string name="loading">लोडिंग\u2026</string>
+    <string name="load_err">लोड करने में असफल</string>
+    <string name="local_cache_size">स्थानीय कॅश साइज़: %s</string>
+    <string name="net_lose_connected">कनेक्शन  खो गया</string>
+    <string name="wangpan_root_path">Kuaipan</string>
+    <string name="kuaipan_over_space">पर्याप्त जगाह नहीं हे</string>
+    <string name="kuaipan_tech_support">kuaipan.cn में साइन इन करें </string>
+    <string name="no_tasks">कोई कार्य नहीं </string>
+    <string name="no_more_space">पर्याप्त जगाह नहीं हे</string>
+    <string name="sd_full">आपके फोन की आंतरिक जगाह भर गई हे</string>
+    <string name="file_too_large">अपलोड करने में असफल: फ़ाइल बहुत बड़ी है. </string>
+
+    <string name="create_new_folder_failed">फोल्डर बनाने में असफल </string>
+    <string name="user_guide_kuaipan_copy">अनेक डिवाईसिस से फाइल्स का उपयोग करे</string>
+    <string name="user_guide_upload_to_kuaipan">अपने फोन से Kuaipan पर आइटम स्टोर  करे</string>
+    <string name="user_guide_download_other_version">Windows or OSX के लिए Kuaipan डाउनलोड करें </string>
+    <string name="user_guide_other_version">अन्य प्लेटफार्मों पर भी उपलब्ध है.</string>
+    <string name="upload_file_toolarge_message">%1$d अपलोड करने में असफल: 300M से अधिक फाइल को अपलोड नही कर सकते हैं.</string>
+    <string name="cution">टिप्स</string>
+
+    <string name="clean_trash_box">रिसाइकल बिन खाली हे</string>
+    <string name="trash_box_link">रिसाइकल बिन खाली करने के लिए, देखिए <b>pan.xiaomi.com.</b></string>
+    <string name="clean_title">30 दिन से अधिक आयु की फ़ाइलों को डिलीट करे</string>
+    <string name="clean_message"> %1$s जगाह खाली हे.</string>
+    <string name="trash_box_message1">जगाह खाली करने के लिए अनावश्यक फ़ाइलों को डिलीट कर दें.</string>
+    <string name="trash_box_message2">जगाह खाली करने के लिए रिसाइकल बिन को खाली कर दें.</string>
+    <string name="close">बंद</string>
+    <string name="space_info">KuaiPan: %1$s available, %2$s in total</string>
+    <string name="trash_box_capacity">रिसाइकल बिन %1$s</string>
+    <string name="data_capacity">डेटा %1$s</string>
+
+    <string name="send_to_midrive">KuaiPan</string>
+    <string name="choose_upload_location">KuaiPan फ़ोल्डर में अपलोड करें</string>
+    <string name="send_to_midrive_failed_message">इस प्रकार प्रकार फ़ाइल समर्थित नहीं है.</string>
+    <string name="operation_compress">कॉमप्रेस</string>
+    <string name="compress_title">कॉमप्रेस</string>
+    <string name="compress_message">कॉमप्रेस करे\u2026</string>
+    <string name="compress_fail">कंप्रेशन असफल: ईस नाम की फाइल पहले से मोजूद हे.</string>
+    <string name="operation_compressing">कंप्रेसिंग\u2026</string>
+    <string name="operation_decompressing">एक्सट्रॅक्टिंग\u2026</string>
+    <string name="decompress_success">एक्सट्रॅक्टिंग पूरा हुआ</string>
+    <string name="decompress_fail">एक्सट्रॅक्षन असफल: संग्रह करप्टेड या ईस नाम की फाइल पहले से मोजूद हे.</string>
+
+    <string name="decompress_to_here">यहां एक्सट्रॅक्ट करे;</string>
+    <string name="decompress_to">एक्सट्रॅक्ट करे\u2026</string>
+
+    <string name="decompress_confirm">एक्सट्रॅक्ट</string>
+    <string name="decompress_cancel">रद्द करें</string>
+
+    <string name="kuaipan_prompt">नोटिस</string>
+    <string name="kuaipan_prompt_message">\n दुर्भाग्य से हमारे सर्वर ईस समय रखरखाव के लिए बंद है. कृपया बाद में पुन: प्रयास करें\u2026\n</string>
+    <string name="move_failed">कट करने में असफल</string>
+    <string name="copy_failed">कॉपी करने में असफल</string>
+    <string name="delete_failed">डिलीट करने में असफल</string>
+    <string name="toast_file_not_can_read">कोई ऐप इस क्रिया को पूरा करने के लिए नही पाई गाई हे.</string>
+
+    <string name="ui_main_menu_option_sign_in">साइन इन</string>
+    <string name="sign_description">साइनिंग इन\u2026</string>
+    <string name="signin_error">सर्वर से कनेक्ट करने में असफल. अपने नेटवर्क कनेक्शन की जाँच करें.</string>
+    <string name="signin_success">आपका स्वागत है!\nFree space added\: %1$s</string>
+    <string name="already_signin_description">आप ने पहले से साइन इन किया है.</string>
+    <string name="pull_to_signin">साइन इन करने के लिए नीचे स्वाइप करे.</string>
+    <string name="release_to_signin">साइन इन करने के लिए रिलीस करे</string>
+
+    <string name="server_control_settings">सेटिंग्स</string>
+    <string name="server_control_advanced_settings">FTP सेटिंग्स</string>
+    <string name="server_control_charset">स्थानांतरण एनकोडिंग</string>
+
+    <string name="utf8_title">UTF-8</string>
+    <string name="utf8_summary">सिस्टम FTP डिफ़ॉल्ट एन्कोडिंग</string>
+
+    <string name="gbk_title">GBK</string>
+    <string name="gbk_summary">सरल चाइनीस विंडोस डिफॉल्ट एनकोडिंग</string>
+
+    <string name="big5_title">BIG5</string>
+    <string name="big5_summary">पारंपरिक चाइनीस विंडोस डिफॉल्ट एनकोडिंग</string>
+
+    <string name="stay_awake_title">स्टे अवेक</string>
+    <string name="stay_awake_summary">FTP का उपयोग करते समय स्क्रीन सो कभी बंद नहीं होगी</string>
+
+    <string name="ftp_transfer_secure">सुरक्षा</string>
+    <string name="ftp_port_number">पोर्ट नंबर</string>
+    <string name="ftp_account_req_notice"> 4~16 वर्ण, अक्षर और अंक, केस सेन्सिटिव</string>
+    <string name="ftp_open_port_error">पोर्ट खोलने में त्रुटि: आपके नेटवर्क कनेक्शन की जाँच करें या पोर्ट  नंबर रिसेट करें.</string>
+    <string name="ftp_anonymous_login">बेनाम साइन इन</string>
+    <string name="ftp_username_and_passworld">साइन इन</string>
+    <string name="ftp_username_hint">यूज़रनेम</string>
+    <string name="ftp_password_hint">पासवर्ड</string>
+    <string name="ftp_invalid_username_or_password">अमान्य यूज़रनेम या पासवर्ड</string>
+
+    <string name="add_task">टास्क जोड़े</string>
+    <string name="adding_upload_tasks">टास्क जोड़ रहे है\u2026</string>
+    <string name="create_new_folder_desctiption">\u2026 फोल्डर बना रहे हे</string>
+    <string name="create_share_link_description">\u2026 लिंकं बना रहे हे</string>
+    <string name="rename_description">\u2026 नाम बदल रहे हे</string>
+    <string name="share_link_failed">लिंक उत्पन्न करने में असफल</string>
+    <string name="choose_send_type">पद्धति चुनें </string>
+    <string name="download_link_completed">%1$s  KuaiPan के माध्यम से. देखने के लिए नीचे दिए गए लिंक टच करे :</string>
+
+    <string name="transing">भेजा जा रहा है\u2026</string>
+    <string name="finished">पूरा</string>
+    <string name="uploading">अपलोड हो रहा है\u2026</string>
+    <string name="downloading">डाउनलोड  हो रहा है\u2026</string>
+    <string name="waiting">Waiting\u2026</string>
+    <string name="wait_wifi">Wi-Fi की प्रतीक्षा कर रहा है\u2026</string>
+    <string name="wait_net">नेटवर्क की प्रतीक्षा कर रहा है\u2026</string>
+    <string name="wait_sdcard">SD कार्ड की प्रतीक्षा कर रहा है\u2026</string>
+    <string name="paused">रोका गया</string>
+    <string name="upload_failed">अपलोड असफल</string>
+    <string name="download_failed">डाउनलोड असफल</string>
+    <string name="operation_pause">रोकें</string>
+    <string name="operation_resume">शुरू</string>
+    <string name="operation_pause_all">सभी रोकें</string>
+    <string name="operation_resume_all">सब फिर से शुरू</string>
+    <string name="operating">प्रसंस्करण\u2026</string>
+
+    <string name="trans_task">नेटवर्क स्थानांतरण</string>
+    <string name="des_running_trans">%1$d फाइलें स्थानांतरीत नहीं की गाई हे.</string>
+    <string name="trans_task_delete_confirm_message">%1$d टास्क को डिलीट करे?</string>
+    <string name="forward_to_web_recycle_prompt">&lt;a href=\"%1$s\">Touch&lt;/a>to go to रिसाइकल बिन मे जाने के लिए</string>
+
+    <string name="storage_internal">आंतरिक संग्रहण</string>
+    <string name="storage_sd_card">SD कार्ड</string>
+    <string name="storage_usb">USB संग्रहण</string>
+    <string name="bind_account">मौजूदा खाता सिंक करे</string>
+    <string name="bind_account_summary">अपने Xiaomi खाते के साथ अपने मौजूदा KuaiPan खाता सिंक करे</string>
+    <string name="binded_accout_title">खाते सिंक हो गये</string>
+    <string name="binded_accout_description">आपका Xiaomi खाता KuaiPan खाते के साथ सिंक हो गया हे. अब आप  KuaiPan पर संग्रहित कीये गये डेटा का उपयोग करने के लिए अपने Xiaomi खाते का उपयोग कर सकते हैं.</string>
+
+    <!-- for file cleanup -->
+    <string name="file_cleanup">फाइल क्लीनप</string>
+    <string name="scanning_on_going">स्कैनिंग\u2026</string>
+    <string name="scanning">स्कैनिंग <xliff:g id="count">%d</xliff:g> ऐप \u2026 (total <xliff:g id="total">%d</xliff:g> ऐप)</string>
+    <string name="sys_size_title">कुल संग्रहण</string>
+    <string name="sys_size">कुल संग्रहण <xliff:g id="size">%1$s</xliff:g></string>
+    <string name="application_size_label">ऐप</string>
+    <string name="data_size_label">डेटा</string>
+    <string name="cache_size_label">Cache</string>
+    <string name="sd_size_label">यूज़र संग्रहण</string>
+    <string name="version_text">version <xliff:g id="version_num">%1$s</xliff:g></string>
+    <string name="uninstall_app_data">सभी ऐप और सभी डेटा डिलीट करे</string>
+    <string name="start_cleanup">क्लीनप</string>
+
+    <string name="header_text_scanning">स्कैनिंग\u2026</string>
+    <string name="header_text_scanned">स्कैन  पूरा हुआ</string>
+    <string name="header_text_cleaning">क्लीनिंग\u2026</string>
+    <string name="header_text_cleaned">पूरा हुआ</string>
+
+    <string name="waiting_for_cleaning">प्रतीक्षा\u2026</string>
+    <string name="item_name">बेनाम फ़ोल्डर</string>
+    <string name="waiting_for_scanning">प्रतीक्षा\u2026</string>
+    <string name="scanned">स्कैन  पूरा हुआ</string>
+    <string name="cleaning">क्लीनिंग\u2026</string>
+    <string name="cleaned">पूरा हुआ</string>
+    <string name="cleanup_stopped">क्लीनअप रोक दिया</string>
+
+    <string name="temp_file_title">अस्थाई फ़ाइलें</string>
+    <string name="thumbnail_title">थंबनेल्स</string>
+    <string name="app_cache_title">ऐप cache</string>
+    <string name="empty_dir_title">खाली डाइरेक्टरीस</string>
+    <string name="app_garbage_title">ट्राश</string>
+
+    <string name="temp_file_cleanup_indication" formatted="false">%s अस्थाई फ़ाइलें</string>
+    <string name="thumbnail_cleanup_indication" formatted="false">%s थंबनेल्स</string>
+    <string name="app_cache_cleanup_indication" formatted="false">%s cache</string>
+    <string name="empty_dir_cleanup_indication" formatted="false">%s अन्य फाइलें</string>
+    <string name="app_garbage_cleanup_indication" formatted="false">%s ट्राश</string>
+
+    <string name="no_temp_file_indication">कोई अस्थायी फ़ाइलें नही हे</string>
+    <string name="no_thumbnail_indication">कोई थंबनेल्स नही हे</string>
+    <string name="no_app_cache_indication">कोई ऐप cache नही हे</string>
+    <string name="no_empty_dir_indication">कोई खाली डाइरेक्टरीस नही हे</string>
+    <string name="no_app_garbage_indication">कोई ट्राश नही हे</string>
+
+    <string name="cancel_app_garbage_cleanup">क्लीनउप नही करना</string>
+    <string name="clean_app_garbage" formatted="false">डिलीट %d आइटम(s)</string>
+    <string name="app_garbage_path">स्थान:</string>
+
+    <string name="give_up_cleaning">रद्द करें</string>
+    <string name="restart_cleaning">पुनः प्रारंभ</string>
+    <string name="cleanup_complete">पूरा हुआ</string>
+
+    <string name="count_down_time">%d सेकंड में शुरू</string>
+    <string name="cancel_with_count_down">रद्द करें (%d)</string>
+
+    <string name="garbage_size_metric" formatted="false">ट्राश\: %s\n</string>
+
+    <string name="garbage_item_name_format" formatted="false">%s ( %s )</string>
+    <string name="garbage_item_path_format" formatted="false">%s %s</string>
+    <string name="account_bind_prompt">माइग्रेटिंग यूज़र डेटा\u2026 ईस मे कुछ मिनट लग सकते हैं.</string>
+    <string name="migrate_announcement_title">माइग्रेशन पूरा हुआ</string>
+    <string name="migrate_announcement_msg">KuaiPan सेटिंग्स में अपने Xiaomi खाते के साथ अपने मौजूदा KuaiPan खाते सिंक करें .</string>
+    <string name="query_bind_state">KuaiPan साथ कनेक्ट\u2026</string>
+    <string name="operation_deleting_detail">डिलीटिंग (%1$d/%2$d)</string>
+    <string name="operation_moving_detail">स्थानांतरित (%1$d/%2$d)</string>
+    <string name="operation_copying">कॉपीयिंग\u2026</string>
+    <string name="operation_copying_detail">कॉपीयिंग (%1$d/%2$d)</string>
+    <string name="name_illegal">एक नाम डाले</string>
+    <string name="open_changed_file_title">परिवर्तन लागू</string>
+    <string name="open_changed_file_message">आप जिस फाइल को  खोलने का प्रयास कर रहे हैं वो बदल दी गई है.  इस समस्या को दूर करने के लिए:\n1. आप के पास  सबसे हाल का संस्करण हे ये सुनिश्चित करने के लिए फाइल फिरसे डाउनलोड करे.\n2. उसे आपके KuaiPan खाते मे अपलोड करे.</string>
+    <string name="ui_filechange_btn_upload">उपलोआड फाइल्स</string>
+    <string name="folder_exist">फ़ोल्डर पहले से मौजूद है</string>
+
+    <!-- for unmount usb storage -->
+    <string name="unmount_inform_text">उनमाउंट USB संग्रहण?</string>
+    <string name="dlg_error_unmount_text">USB संग्रहण उनमाउंट करने मे असफल.</string>
+</resources>
