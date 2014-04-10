@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="cache_manage_title">Hapus %1$d berkas tembolok untuk membebaskan %2$s ruang</string>
+    <string name="cache_list_empty_hints">Tidak ada berkas tembolok</string>
+
+</resources>
