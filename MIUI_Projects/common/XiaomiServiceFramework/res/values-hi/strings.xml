@@ -209,7 +209,7 @@
 
     <string name="master_alert_notif_title">%s दिनों पहले डेटा अंतिम बार सिंक किया था</string>
     <string name="sub_alert_notif_title">प्रमुख सिंक सेवा सक्षम नहीं किया गये है</string>
-    <string name="alert_notif_title_dspt">डाटा सुरक्षा सुनिश्चित करने के लिए सिंक पुनर्स्थापितstring>
+    <string name="alert_notif_title_dspt">डाटा सुरक्षा सुनिश्चित करने के लिए सिंक पुनर्स्थापित</string>
     <string name="noRemind">फिर मुझे याद मत दिलाओ</string>
     <string name="restoreSync">पुनर्स्थापित</string>
     <string name="enableAll">सभी एनेबल करे</string>
