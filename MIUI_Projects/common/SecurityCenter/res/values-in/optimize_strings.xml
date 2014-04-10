@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="opt_clean_garbage">%d MB dibersihkan</string>
+    <string name="opt_killed_process">%d proses dimatikan</string>
+    <string name="opt_freed_ram">Freed %dMBs of memory </string>
+    <string name="opt_virus_scan">Pindai sekarang</string>
+    <string name="opt_disabled_autorun">Nonaktifkan %d program awal mula</string>
+    <string name="opt_restore_perm">Pulihkan perizinan pribadi default untuk %d program</string>
+    <string name="opt_progress_started">Optimasi\u2026</string>
+    <string name="opt_progress_done">Selesai</string>
+    <string name="opt_score_desc">pts</string>
+    <string name="opt_score">83</string>
+    <string name="opt_done_desc">Selesai</string>
+    <string name="opt_cancel_desc">Batal</string>
+    <string name="opt_resume_desc">Lanjutkan</string>
+    <string name="opt_state_running">Optimasi\u2026</string>
+    <string name="opt_state_pause">Rehat</string>
+    <string name="opt_state_done">Selesai</string>
+    <string name="opt_garbage_size">Ukuran sampah:</string>
+    <string name="opt_scanning">Memindai\u2026:</string>
+    <string name="opt_virus_suggest">%d berkas yang mencurigakan terdeteksi. Kami menyarankan untuk memindai virus.</string>
+    <string name="opt_quickscan_ok">Sistem bersih</string>
+
+    <string name="opt_item_cache_clean">Bersihkan sampah</string>
+    <string name="opt_item_procs_clean">Kelola proses</string>
+    <string name="opt_item_file_scan">Pindai berkas</string>
+    <string name="opt_item_autorun">Memulai otomtais</string>
+    <string name="opt_item_app_perm">Perizinan</string>
+    <string name="opt_waiting">Menunggu</string>
+</resources>
