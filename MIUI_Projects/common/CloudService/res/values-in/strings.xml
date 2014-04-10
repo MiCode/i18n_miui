@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Xiaomi sync</string>
+    <string name="app_name">Sinkronisasi Xiaomi</string>
 
-    <string name="sync_item_sms_title">Sync messages</string>
-    <string name="sync_item_sms_summary">Sync text messages across devices</string>
-    <string name="sub_sync_item_sms_title_wifi_only">Sync MMS: Wi-Fi only</string>
-    <string name="sub_sync_item_sms_summary">Reduces data usage</string>
+    <string name="sync_item_sms_title">Sinkronkan pesan - pesan</string>
+    <string name="sync_item_sms_summary">Sinkronkan pesan teks antar perangkat</string>
+    <string name="sub_sync_item_sms_title_wifi_only">Sinkronkan  MMS: pada Wi-Fi saja</string>
+    <string name="sub_sync_item_sms_summary">Kurangi penggunaan data</string>
     <!-- 联系人同步设置 -->
-    <string name="pref_title_sync_my_profile_title">Sync my profile</string>
-    <string name="pref_title_sync_contacts_title">Sync contacts</string>
-    <string name="pref_title_sync_display_photo_on_wifi_only">Display photos: Wi-Fi only</string>
-    <string name="pref_summary_sync_display_photo_on_wifi_only">Reduces data usage</string>
-    <string name="find_device">Locate device</string>
-    <string name="find_device_stop_noise">Tap OK to silence</string>
-    <string name="find_device_noise_title">Locate device sound</string>
+    <string name="pref_title_sync_my_profile_title">Sinkronkan profil saya</string>
+    <string name="pref_title_sync_contacts_title">Sinkronkan kontak</string>
+    <string name="pref_title_sync_display_photo_on_wifi_only">Tampilkan foto - foto: pada Wi-Fi saja</string>
+    <string name="pref_summary_sync_display_photo_on_wifi_only">Kurangi penggunaan data</string>
+    <string name="find_device">Temukan lokasi perangkat</string>
+    <string name="find_device_stop_noise">Sentuh OK untuk mode sunyi</string>
+    <string name="find_device_noise_title">Temukan lokasi suara perangkat</string>
     <!-- CallLog Sync Settings -->
-    <string name="sync_item_calllog_title">Sync call logs</string>
-    <string name="sync_item_calllog_summary">Sync records of calls made and received on this phone</string>
+    <string name="sync_item_calllog_title">Sinkronkan catatn log panggilan</string>
+    <string name="sync_item_calllog_summary">Sinkronkan rekam data panggilan dan penerimaan pada perangkat ini</string>
 </resources>
