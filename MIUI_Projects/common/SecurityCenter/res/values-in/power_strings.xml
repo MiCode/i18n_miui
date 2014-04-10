@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="power_autorun_control_title">Mulai otomatis</string>
+    <string name="power_autorun_control_desc">Meningkatkan jumlah program yang dimulai otomatis akan meningkatkan konsumsi daya telepon anda</string>
+    <string name="power_usage_sort_title">Tampilkan konsumsi daya</string>
+    <string name="power_usage_sort_desc">Urutkan program berdasarkan konsumsi daya</string>
+    <string name="power_mode_select_title">Pengaturan daya</string>
+    <string name="power_mode_select_desc">Pilih konfigurasi daya untuk menyesuaikan kebutusan anda</string>
+    <string name="power_used_prefix">Penggunaan daya</string>
+    <string name="power_used_hours_test">8</string>
+    <string name="power_used_hours">Jam</string>
+    <string name="power_used_mins_test">23</string>
+    <string name="power_used_mins">Menit</string>
+    <string name="power_battery_history_days">%1$d Hari %2$d Jam%3$d Menit</string>
+    <string name="power_battery_history_hours">%1$d Jam %2$d Menit</string>
+    <string name="power_battery_history_minutes">%1$d Menit</string>
+    <string name="power_battery_history_zero_minutes">0 Menit</string>
+    <string name="power_autorun_empty">Tidak ada aplikasi yang dapat ditambahkan </string>
+    <string name="power_autorun_apps_empty">Tidak ada aplikasi mulai otomatis</string>
+    <string name="power_perm_logs_empty">Tidak ada log</string>
+</resources>
