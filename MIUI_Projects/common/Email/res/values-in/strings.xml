@@ -17,20 +17,18 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Permissions label for reading attachments -->
-    <string name="permission_read_attachment_label">Read email attachments</string>
+    <string name="permission_read_attachment_label">Baca isi sisipan pesan</string>
     <!-- Permissions description for reading attachments -->
-    <string name="permission_read_attachment_desc">Allows this application to read your email
-        attachments.</string>
+    <string name="permission_read_attachment_desc">Izinkan aplikasi untuk membaca isi sisipan pesan.</string>
     <!-- Permissions label for accessing the main provider -->
-    <string name="permission_access_provider_label">Access email provider data</string>
+    <string name="permission_access_provider_label">Akses data penyedia email</string>
     <!-- Permissions description for accessing the main provider -->
-    <string name="permission_access_provider_desc">Allows this application to access your email
-        database, including received messages, sent messages, usernames, and passwords.</string>
+    <string name="permission_access_provider_desc">Izinkan aplikasi ini untuk mengakses basis data surel, termasuk menerima pesan, mengirim pesan , nama user, dan kata sandi.</string>
 
     <!-- Name of application on Home screen -->
-    <string name="app_name">Mail</string>
+    <string name="app_name">Kotak Surat</string>
     <!-- Title of compose screen -->
-    <string name="compose_title">Compose</string>
+    <string name="compose_title">Buat baru</string>
     <!-- Title of debug screen -->
     <string name="debug_title">Debug</string>
 
@@ -38,131 +36,128 @@
     <skip />
 
     <!-- Button name used as part of a multi-step process -->
-    <string name="next_action">Next</string>
+    <string name="next_action">Selanjutnya</string>
     <!-- Button name used to confirm acceptance of dialog boxes, warnings, errors, etc. -->
     <string name="okay_action">OK</string>
     <!-- Button name used to cancel out of dialog boxes -->
-    <string name="cancel_action">Cancel</string>
+    <string name="cancel_action">Batal</string>
     <!-- Button name used to move to previous step during setup sequence [CHAR_LIMIT=16] -->
-    <string name="previous_action">Previous</string>
+    <string name="previous_action">Sebelumnya</string>
     <!-- Menu item/button name -->
-    <string name="send_action">Send</string>
+    <string name="send_action">Kirim</string>
     <!-- Menu item/button name -->
-    <string name="reply_action">Reply</string>
+    <string name="reply_action">Balas</string>
     <!-- Menu item/button name -->
-    <string name="reply_all_action">Reply all</string>
+    <string name="reply_all_action">Balas Semua</string>
     <!-- Menu item/button name -->
-    <string name="delete_action">Delete</string>
+    <string name="delete_action">Hapus</string>
     <!-- Menu item/button name -->
-    <string name="forward_action">Forward</string>
+    <string name="forward_action">Teruskan</string>
     <!-- Menu/Button item name and label for marking a message as a favorite
          (usually called starred) [CHAR LIMIT=40] -->
-    <string name="favorite_action">Star</string>
+    <string name="favorite_action">Tandai Bintang</string>
     <!--  Button name used to complete a multi-step process -->
-    <string name="done_action">Done</string>
+    <string name="done_action">Selesai</string>
     <!--  Button name used to create a new quick response [CHAR_LIMIT=16] -->
-    <string name="create_action">Compose</string>
+    <string name="create_action">Buat Baru</string>
     <!--  Button name used to delete a quick response [CHAR_LIMIT=16] -->
-    <string name="delete_quick_response_action">Delete</string>
+    <string name="delete_quick_response_action">Hapus</string>
     <!-- Message informing user when a list that would contain quick responses
             is empty [CHAR_LIMIT=80] -->
-    <string name="quick_responses_empty_view">No quick responses</string>
+    <string name="quick_responses_empty_view">Tidak ada respon cepat</string>
     <!-- Menu item/button name -->
-    <string name="discard_action">Discard</string>
+    <string name="discard_action">Buang</string>
     <!-- Menu item/button name [CHAR_LIMIT=16] -->
-    <string name="save_draft_action">Save draft</string>
+    <string name="save_draft_action">Simpan konsep</string>
     <!-- Menu item/button name. Pressing will insert previously saved text
             into message body. [CHAR_LIMIT=24] -->
-    <string name="show_quick_text_list_dialog_action">Insert quick response</string>
+    <string name="show_quick_text_list_dialog_action">Masukan respon cepat</string>
     <!-- Menu item/button name -->
-    <string name="read_action">Mark read</string>
+    <string name="read_action">Tandai terbaca</string>
     <!-- Menu item/button name -->
-    <string name="unread_action">Mark unread</string>
+    <string name="unread_action">Tandai  belum terbaca</string>
     <!-- Menu item/button name -->
-    <string name="set_star_action">Star</string>
+    <string name="set_star_action">Bintangi</string>
     <!-- Menu item/button name -->
-    <string name="remove_star_action">Unstar</string>
+    <string name="remove_star_action">Hilangkan tanda bintang</string>
     <!-- Menu item -->
-    <string name="refresh_action">Refresh</string>
+    <string name="refresh_action">Perbaharui</string>
     <!-- Menu item -->
-    <string name="add_account_action">Add account</string>
+    <string name="add_account_action">Tambah akun</string>
     <!-- Menu item -->
-    <string name="compose_action">Compose</string>
+    <string name="compose_action">Buat baru</string>
     <!-- Menu item/button name -->
-    <string name="search_action">Search</string>
+    <string name="search_action">Cari</string>
     <!-- Menu item -->
-    <string name="account_settings_action">Account settings</string>
+    <string name="account_settings_action">Pengaturan  akun</string>
     <!-- Menu item for settings [CHAR LIMIT=40]-->
-    <string name="settings_action">Settings</string>
+    <string name="settings_action">Pengaturan</string>
     <!-- Menu item [CHAR LIMIT=32] -->
-    <string name="mailbox_settings_action">Sync options</string>
+    <string name="mailbox_settings_action">Pilihan sinkronisasi</string>
     <!-- Menu item -->
-    <string name="mark_as_unread_action">Mark as unread</string>
+    <string name="mark_as_unread_action">Tandai belum terbaca</string>
     <!-- Menu item for moving messages to folders [CHAR LIMIT=10] -->
-    <string name="move_action">Move</string>
+    <string name="move_action">Pindahkan</string>
     <!-- Menu item for navigating to an newer message [CHAR LIMIT=10] -->
-    <string name="newer_action">Newer</string>
+    <string name="newer_action">Lebih baru</string>
     <!-- Menu item for navigating to an older message [CHAR LIMIT=10] -->
-    <string name="older_action">Older</string>
+    <string name="older_action">Lebih lampau</string>
     <!-- Button label for adding CC/BCC fields on message compose. [CHAR LIMIT=16] -->
     <string name="plus_cc_label">+ Cc/Bcc</string>
     <!-- Menu item label for adding CC/BCC fields on message compose. [CHAR LIMIT=20] -->
-    <string name="add_cc_bcc_menu">Add Cc/Bcc</string>
+    <string name="add_cc_bcc_menu">Tambah Cc/Bcc</string>
     <!-- Menu item label for adding an attachment on message compose. [CHAR LIMIT=20] -->
-    <string name="add_file_attachment">Attach files</string>
+    <string name="add_file_attachment">Sisipkan berkas</string>
     <!-- Generic button [CHAR LIMIT=16] -->
-    <string name="close_action">Close</string>
+    <string name="close_action">Tutup</string>
     <!-- Command shown on Outbox to send all pending messages [CHAR LIMIT=20] -->
-    <string name="message_list_send_pending_messages_action">Send all messages</string>
+    <string name="message_list_send_pending_messages_action">Kirim semua pesan</string>
     <!-- Appears in choose attachment dialog title -->
-    <string name="choose_attachment_dialog_title">Choose attachment</string>
+    <string name="choose_attachment_dialog_title">Pilih sisipan</string>
     <!-- Dialog title to select a mailbox to which the user moves messages [CHAR LIMIT=20] -->
-    <string name="move_to_folder_dialog_title">Move to</string>
+    <string name="move_to_folder_dialog_title">Pindahkan ke</string>
     <!-- Appears in message list view while messages are being loaded [CHAR LIMIT=260dip] -->
-    <string name="status_loading_messages">Loading messages\u2026</string>
+    <string name="status_loading_messages">Muat semua pesan\u2026</string>
     <!-- Appears in message list view when there's a network error. -->
     <!-- Also appears in a toast, in the message viewer, when there's a network error. -->
-    <string name="status_network_error">Network error</string>
+    <string name="status_network_error">Galat pada jaringan</string>
     <!-- Dialog text when we are unable to load the message for display -->
-    <string name="error_loading_message_body">Couldn\'t load the message text. The message
-        may be too large to view.</string>
+    <string name="error_loading_message_body">Tidak dapat memuat pesan teks. Pesan ini mungkin terlalu besar untuk ditampilkan.</string>
     <!-- Text shown with dragged messages to indicate how many are being dragged [CHAR LIMIT=40]-->
     <plurals name="move_messages">
-        <item quantity="one">Move message</item>
-        <item quantity="other">Move messages</item>
+        <item quantity="one">Pindahkan pesan</item>
+        <item quantity="other">Pindahkan pesan</item>
     </plurals>
     <!-- Toast shown when a message(s) can't be moved because it's not supported by the POP3
         protocol. [CHAR LIMIT=none]-->
-    <string name="cannot_move_protocol_not_supported_toast">Move isn\'t supported on POP3 accounts
+    <string name="cannot_move_protocol_not_supported_toast">Pemindahan tidak didukung pada akun - akun POP3
         </string>
     <!-- Toast shown when messages can't be moved because the selection contains multiple accounts'
         messages. [CHAR LIMIT=none]-->
-    <string name="cannot_move_multiple_accounts_toast">Can\'t move because selection contains multiple
-        accounts</string>
+    <string name="cannot_move_multiple_accounts_toast">Tidak dapat memindah karena terdapat beberapa akun</string>
     <!-- Toast shown when messages can't be moved because they're in a special mailbox.  "Drafts",
         "Outbox" and "Sent". [CHAR LIMIT=none]-->
-    <string name="cannot_move_special_mailboxes_toast">Messages in Drafts, Outbox, and Sent can\'t be
-        moved</string>
+    <string name="cannot_move_special_mailboxes_toast">Pesan dalam folder Konsep, Pesan keluar dan Pesan terkirim tidak dapat dipindah</string>
 
     <!-- Notification message in notifications window when one account has
          one or more new messages; e.g, "279 unread (someone@google.com)". -->
     <plurals name="notification_new_one_account_fmt">
         <!-- Case of one new message. -->
-        <item quantity="one"><xliff:g id="unread_message_count" example="1">%1$d</xliff:g> unread (<xliff:g id="account">%2$s</xliff:g>)</item>
+        <item quantity="one"><xliff:g id="unread_message_count" example="1">%1$d</xliff:g> belum terbaca (<xliff:g id="account">%2$s</xliff:g>)</item>
 
         <!-- Case of "few" (small number of) new messages. -->
-        <item quantity="few"><xliff:g id="unread_message_count" example="2">%1$d</xliff:g> unread (<xliff:g id="account">%2$s</xliff:g>)</item>
+        <item quantity="few"><xliff:g id="unread_message_count" example="2">%1$d</xliff:g> belum terbaca (<xliff:g id="account">%2$s</xliff:g>)</item>
 
         <!-- Case of a plural number of new messages. -->
-        <item quantity="other"><xliff:g id="unread_message_count" example="279">%1$d</xliff:g> unread (<xliff:g id="account">%2$s</xliff:g>)</item>
+        <item quantity="other"><xliff:g id="unread_message_count" example="279">%1$d</xliff:g> belum terbaca (<xliff:g id="account">%2$s</xliff:g>)</item>
     </plurals>
 
     <!-- Notification message in notifications window when 2+ accounts have new mail; e.g, "in 3 accounts". -->
     <plurals name="notification_new_multi_account_fmt">
         <!-- Case of "few" (small number of) accounts with unread messages. -->
-        <item quantity="few">in <xliff:g id="number_accounts" example="2">%d</xliff:g> accounts</item>
+        <item quantity="few">in <xliff:g id="number_accounts" example="2">%d</xliff:g> akun</item>
         <!-- Case of plural number of accounts with unread messages. -->
-        <item quantity="other">in <xliff:g id="number_accounts" example="10">%d</xliff:g> accounts</item>
+        <item quantity="other">in <xliff:g id="number_accounts" example="10">%d</xliff:g> akun</item>
     </plurals>
     <!-- String to indicate which account received a new message. [CHAR LIMIT=none] -->
     <string name="notification_to_account">to <xliff:g id="receiver_name"
@@ -170,319 +165,313 @@
 
     <!-- Notification for multiple messages [CHAR LIMIT=60] -->
     <string name="notification_multiple_new_messages_fmt">
-        <xliff:g example="2">%1$d</xliff:g> new messages</string>
+        <xliff:g example="2">%1$d</xliff:g> pesan baru</string>
 
     <!-- Name given to "all accounts" in the account picker for shortcuts and widget [CHAR LIMIT=20] -->
-    <string name="account_name_display_all">All accounts</string>
+    <string name="account_name_display_all">Semua akun</string>
 
     <!-- The number of accounts configured. [CHAR LIMIT=16] -->
     <plurals name="number_of_accounts">
-        <item quantity="one"><xliff:g id="num_accounts" example="1">%1$d</xliff:g> account</item>
-        <item quantity="other"><xliff:g id="num_accounts" example="2">%1$d</xliff:g> accounts</item>
+        <item quantity="one"><xliff:g id="num_accounts" example="1">%1$d</xliff:g> akun</item>
+        <item quantity="other"><xliff:g id="num_accounts" example="2">%1$d</xliff:g> akun</item>
     </plurals>
     <!-- The next set of strings are used server-side and must not be localized. -->
     <!-- Do Not Translate.  This is the name of the "inbox" folder, on the server. -->
-    <string name="mailbox_name_server_inbox" translatable="false">Inbox</string>
+    <string name="mailbox_name_server_inbox" translatable="false">Kotak masuk</string>
     <!-- Do Not Translate.  This is the name of the "outbox" folder, on the server. -->
-    <string name="mailbox_name_server_outbox" translatable="false">Outbox</string>
+    <string name="mailbox_name_server_outbox" translatable="false">Pesan keluar</string>
     <!-- Do Not Translate.  This is the name of the "drafts" folder, on the server. -->
-    <string name="mailbox_name_server_drafts" translatable="false">Drafts</string>
+    <string name="mailbox_name_server_drafts" translatable="false">Konsep</string>
     <!-- Do Not Translate.  This is the name of the "trash" folder, on the server. -->
-    <string name="mailbox_name_server_trash" translatable="false">Trash</string>
+    <string name="mailbox_name_server_trash" translatable="false">Sampah</string>
     <!-- Do Not Translate.  This is the name of the "sent" folder, on the server. -->
-    <string name="mailbox_name_server_sent" translatable="false">Sent</string>
+    <string name="mailbox_name_server_sent" translatable="false">Pesan terkirim</string>
     <!-- Do Not Translate.  This is the name of the "junk" folder, on the server. -->
     <string name="mailbox_name_server_junk" translatable="false">Spam</string>
 
     <!-- The next set of strings are used in local display and may be localized. -->
     <!-- In the UI, the inbox will be displayed with this name -->
-    <string name="mailbox_name_display_inbox">Inbox</string>
+    <string name="mailbox_name_display_inbox">Kotak masuk</string>
     <!-- In the UI, the outbox will be displayed with this name -->
-    <string name="mailbox_name_display_outbox">Outbox</string>
+    <string name="mailbox_name_display_outbox">Pesan keluar</string>
     <!-- In the UI, the drafts will be displayed with this name -->
-    <string name="mailbox_name_display_drafts">Drafts</string>
+    <string name="mailbox_name_display_drafts">Konsep</string>
     <!-- In the UI, the trash will be displayed with this name -->
-    <string name="mailbox_name_display_trash">Trash</string>
+    <string name="mailbox_name_display_trash">Sampah</string>
     <!-- In the UI, the sent will be displayed with this name -->
-    <string name="mailbox_name_display_sent">Sent</string>
+    <string name="mailbox_name_display_sent">Pesan terkirim</string>
     <!-- In the UI, the junk will be displayed with this name -->
     <string name="mailbox_name_display_junk">Spam</string>
     <!-- In the UI, the unread will be displayed with this name [CHAR LIMIT=15] -->
-    <string name="mailbox_name_display_unread">Unread</string>
+    <string name="mailbox_name_display_unread">Belum terbaca</string>
     <!-- In the shortcut/widget configuration UI, the label for selecting only the unread messages in an account's inbox [CHAR LIMIT=30] -->
-    <string name="picker_mailbox_name_all_unread">Inbox (unread)</string>
+    <string name="picker_mailbox_name_all_unread">Kotak masuk (belum terbaca)</string>
     <!-- In the shortcut/widget configuration UI, the label for selecting all messages in an account's inbox [CHAR LIMIT=30] -->
-    <string name="picker_mailbox_name_all_inbox">Inbox (all)</string>
+    <string name="picker_mailbox_name_all_inbox">Kotak masuk (semua)</string>
     <!-- In the shortcut/widget configuration UI, use this for the "all accounts" account list item [CHAR LIMIT=30] -->
-    <string name="picker_combined_view_fmt">Combined view (<xliff:g id="count">%s</xliff:g>)</string>
+    <string name="picker_combined_view_fmt">Tampilan kombinasi(<xliff:g id="count">%s</xliff:g>)</string>
     <!-- Count of accounts; used in picker_combined_view_fmt -->
     <plurals name="picker_combined_view_account_count">
-        <item quantity="one"  ><xliff:g id="account_count" example="1">%d</xliff:g> account</item>
-        <item quantity="other"><xliff:g id="account_count" example="9">%d</xliff:g> accounts</item>
+        <item quantity="one"  ><xliff:g id="account_count" example="1">%d</xliff:g> akun</item>
+        <item quantity="other"><xliff:g id="account_count" example="9">%d</xliff:g> akun</item>
     </plurals>
 
     <!-- Version number, shown only on debug screen -->
-    <string name="debug_version_fmt">Version: <xliff:g id="version">%s</xliff:g></string>
+    <string name="debug_version_fmt">Versi: <xliff:g id="version">%s</xliff:g></string>
     <!-- Do Not Translate.  Checkbox label, shown only on debug screen -->
     <string name="debug_enable_debug_logging_label" translatable="false">
-        Enable extra debug logging?</string>
+        Aktifkan pencatat log tambahan?</string>
     <!-- Do Not Translate.  Checkbox label, shown only on debug screen -->
     <string name="debug_enable_exchange_logging_label" translatable="false">
-        Enable exchange parser logging? (extremely verbose)</string>
+        Aktifkan pencatat log pengolahan pertukaran pesan? (verbose ekstrim)</string>
     <!-- Do Not Translate.  Checkbox label, shown only on debug screen -->
     <string name="debug_enable_exchange_file_logging_label" translatable="false">
-        Enable exchange sd card logging?</string>
+        Aktifkan pencatat log pertukaran pada kartu memori?</string>
     <!-- Do Not Translate.  Button label, shown only on debug screen -->
     <string name="debug_clear_webview_cache" translatable="false">
-        Clear WebView cache</string>
+        Hapus data cadangan WebView</string>
     <!-- Do Not Translate.  Checkbox label, shown on debug screen. -->
     <string name="debug_disable_graphics_acceleration_label" translatable="false">
-        Disable hardware graphics acceleration</string>
+        Nonaktifkan akselerasi grafis pada perangkat keras</string>
     <!-- Do Not Translate.  Checkbox label, shown on debug screen. -->
     <string name="debug_force_one_minute_refresh_label" translatable="false">
-        Force 1-minute refresh for POP/IMAP</string>
+        Paksa pembaharuan tiap  1-menit untuk POP/IMAP</string>
     <!-- Do Not Translate.  Checkbox label, shown on debug screen. -->
     <string name="debug_enable_strict_mode_label" translatable="false">
-        Enable strict mode (with logging)</string>
+        Aktifkan mode ketat (dengan pencatat log)</string>
 
     <!-- The summary section entry in the AccountFolder list to display all inboxes -->
-    <string name="account_folder_list_summary_inbox">Inbox</string>
+    <string name="account_folder_list_summary_inbox">Kotak masuk</string>
     <!-- The summary section entry in the AccountFolder list to display all starred
         [CHAR LIMIT=200dip] -->
-    <string name="account_folder_list_summary_starred">Starred</string>
+    <string name="account_folder_list_summary_starred">Ditandai bintang</string>
     <!-- The summary section entry in the AccountFolder list to display all drafts
         [CHAR LIMIT=200dip] -->
-    <string name="account_folder_list_summary_drafts">Drafts</string>
+    <string name="account_folder_list_summary_drafts">Konsep</string>
     <!-- The summary section entry in the AccountFolder list to display all outboxes
         [CHAR LIMIT=200dip] -->
-    <string name="account_folder_list_summary_outbox">Outbox</string>
+    <string name="account_folder_list_summary_outbox">Kotak keluar</string>
 
     <!-- Label shown in the account selector to select "Combined view", which contains
          Combined Inbox, Combined Outbox, etc. [CHAR LIMIT=30] -->
-    <string name="mailbox_list_account_selector_combined_view">Combined view</string>
+    <string name="mailbox_list_account_selector_combined_view">Tampilan kombinasi</string>
     <!-- Label shown in the account/mailbox selector to switch to the show all the top-level mailboxes. [CHAR LIMIT=30] -->
-    <string name="mailbox_list_account_selector_show_all_folders">All folders</string>
+    <string name="mailbox_list_account_selector_show_all_folders">Seluruh folder</string>
     <!-- Account list header in the account/mailbox selector. [CHAR LIMIT=30] -->
-    <string name="mailbox_list_account_selector_account_header">Accounts</string>
+    <string name="mailbox_list_account_selector_account_header">Akun</string>
     <!-- Recent mailbox header in the account/mailbox selector. [CHAR LIMIT=30] -->
     <string name="mailbox_list_account_selector_mailbox_header_fmt">
-        Recent folders (<xliff:g id="email_address">%s</xliff:g>)</string>
+        Folder terakhir (<xliff:g id="email_address">%s</xliff:g>)</string>
 
     <!-- Mailbox list header for user folders [CHAR LIMIT=30] -->
-    <string name="mailbox_list_user_mailboxes">ALL FOLDERS</string>
+    <string name="mailbox_list_user_mailboxes">SEMUA FOLDER</string>
     <!-- Mailbox list header for recent folders [CHAR LIMIT=30] -->
-    <string name="mailbox_list_recent_mailboxes">Recent folders</string>
+    <string name="mailbox_list_recent_mailboxes">Folder terakhir</string>
 
     <!-- Announces the subject field for a message for users with accessibility requirements -->
-    <string name="message_subject_description">Subject</string>
+    <string name="message_subject_description">Subjek</string>
     <!-- Announces that a message has no sender or subject
             to users with accessibility requirements -->
-    <string name="message_is_empty_description">No subject</string>
+    <string name="message_is_empty_description">Tanpa Subjekt</string>
     <!-- Appears at the bottom of list of messages; user selects to load more messages from that folder. -->
-    <string name="message_list_load_more_messages_action">View more messages</string>
+    <string name="message_list_load_more_messages_action">Tampilkan lebih banyak pesan</string>
     <!--  The number of messages that are currently selected for various operations such as
           "delete message(s)" [CHAR LIMIT=32] -->
     <plurals name="message_view_selected_message_count">
-        <item quantity="one"  ><xliff:g id="message_count" example="1">%d</xliff:g> selected</item>
-        <item quantity="other"><xliff:g id="message_count" example="9">%d</xliff:g> selected</item>
+        <item quantity="one"  ><xliff:g id="message_count" example="1">%d</xliff:g> dipilih</item>
+        <item quantity="other"><xliff:g id="message_count" example="9">%d</xliff:g> dipilih</item>
     </plurals>
     <!-- Message to show when there are no messages (emails) in the selected mailbox.
          [CHAR LIMIT=26] -->
-    <string name="message_list_no_messages">Empty</string>
+    <string name="message_list_no_messages">Kosong</string>
     <!-- Hint text in To field -->
-    <string name="message_compose_to_hint">To</string>
+    <string name="message_compose_to_hint">Ke</string>
     <!-- Hint text in Cc field -->
     <string name="message_compose_cc_hint">Cc</string>
     <!-- Hint text in Bcc field -->
     <string name="message_compose_bcc_hint">Bcc</string>
     <!-- Hint text in Subject field -->
-    <string name="message_compose_subject_hint">Subject</string>
+    <string name="message_compose_subject_hint">Subjek</string>
     <!-- Label for From field [CHAR LIMIT=12] -->
-    <string name="message_compose_from_label">From</string>
+    <string name="message_compose_from_label">Dari</string>
     <!-- Label for To field [CHAR LIMIT=12] -->
-    <string name="to">To</string>
+    <string name="to">Ke</string>
     <!-- Label for Cc field [CHAR LIMIT=12] -->
     <string name="cc">Cc</string>
     <!-- Label for Bcc field [CHAR LIMIT=12] -->
     <string name="bcc">Bcc</string>
     <!-- Label for Subject field [CHAR LIMIT=12] -->
-    <string name="subject_hint">Subject</string>
+    <string name="subject_hint">Subjek</string>
     <!-- Hint text in Message composer body field -->
-    <string name="body_hint">Compose mail</string>
+    <string name="body_hint">Buat pesan</string>
     <!-- Header for forwarded original messages -->
-    <string name="message_compose_fwd_header_fmt">\n\n-------- Original Message --------\nSubject: <xliff:g id="subject">%1$s</xliff:g>\nFrom: <xliff:g id="sender">%2$s</xliff:g>\nTo: <xliff:g id="to">%3$s</xliff:g>\nCC: <xliff:g id="cc">%4$s</xliff:g>\n\n</string>
+    <string name="message_compose_fwd_header_fmt">\n\n-------- Pesan Asli --------\nSubjek: <xliff:g id="subject">%1$s</xliff:g>\nDari: <xliff:g id="sender">%2$s</xliff:g>\nKepada: <xliff:g id="to">%3$s</xliff:g>\nCC: <xliff:g id="cc">%4$s</xliff:g>\n\n</string>
     <!-- Header for replied-to messages -->
-    <string name="message_compose_reply_header_fmt">\n\n<xliff:g id="sender">%s</xliff:g> wrote:\n\n</string>
+    <string name="message_compose_reply_header_fmt">\n\n<xliff:g id="sender">%s</xliff:g> menulis:\n\n</string>
     <!-- Heading that appears before forwarded text -->
-    <string name="message_compose_quoted_text_label">Include quoted text</string>
+    <string name="message_compose_quoted_text_label">Kutip dalam teks</string>
     <!-- Label of checkbox to include original message in a forwarded/replied message
          [CHAR_LIMIT=32] -->
-    <string name="message_compose_include_quoted_text_checkbox_label">Include text</string>
+    <string name="message_compose_include_quoted_text_checkbox_label">Masukan teks</string>
     <!-- Toast that appears if you try to send with no recipients. -->
-    <string name="message_compose_error_no_recipients">You must add at least one recipient</string>
+    <string name="message_compose_error_no_recipients">Anda harus mencantumkan setidaknya satu penerima</string>
     <!-- An address field contains invalid email addresses. -->
-    <string name="message_compose_error_invalid_email">Some email addresses are invalid</string>
+    <string name="message_compose_error_invalid_email">Beberapa email tidak valid</string>
     <!-- Toast that appears when an attachment is too big to send. -->
-    <string name="message_compose_attachment_size">File too large to attach</string>
+    <string name="message_compose_attachment_size">Berkas terlalu besar untuk disisipkan</string>
     <!-- Title for dialog containing list of quick responses that user may insert
             into message body. [CHAR_LIMIT=30] -->
-    <string name="message_compose_insert_quick_response_list_title">Insert quick response</string>
+    <string name="message_compose_insert_quick_response_list_title">Masukan respon cepat</string>
     <!-- Display name for composed message, indicating the destination of the message.
       e.g. "John and 2 others" -->
-    <string name="message_compose_display_name"><xliff:g id="name" example="John">%1$s</xliff:g> and <xliff:g id="number" example="27">%2$d</xliff:g> others</string>
+    <string name="message_compose_display_name"><xliff:g id="name" example="John">%1$s</xliff:g> dan <xliff:g id="number" example="27">%2$d</xliff:g> lainnya</string>
     <!-- Label for To field in read message view -->
-    <string name="message_view_to_label">To:</string>
+    <string name="message_view_to_label">Kepada:</string>
     <!-- Label for CC field in read message view -->
     <string name="message_view_cc_label">Cc:</string>
     <string name="message_view_bcc_label">Bcc:</string>
     <!-- Label for the date field. [CHAR LIMIT=20]-->
-    <string name="message_view_date_label">Date:</string>
+    <string name="message_view_date_label">Tanggal:</string>
     <!-- Label for the from field. [CHAR LIMIT=20]-->
-    <string name="message_view_from_label">From:</string>
+    <string name="message_view_from_label">Dari:</string>
     <!-- Label for the subject field. [CHAR LIMIT=20]-->
-    <string name="message_view_subject_label">Subject:</string>
+    <string name="message_view_subject_label">Subjek:</string>
     <!-- Button name to view an attachment [CHAR LIMIT=10]-->
-    <string name="message_view_attachment_view_action">View</string>
+    <string name="message_view_attachment_view_action">Tampilkan</string>
     <!-- Button name to install an .apk attachment [CHAR LIMIT=10]-->
-    <string name="message_view_attachment_install_action">Install</string>
+    <string name="message_view_attachment_install_action">Pasang</string>
     <!-- Button name to play a media (i.e. audio/video) attachment [CHAR LIMIT=10]-->
-    <string name="message_view_attachment_play_action">Play</string>
+    <string name="message_view_attachment_play_action">Putar</string>
     <!-- Button name, to load an attachment from the mail server [CHAR LIMIT=10]-->
-    <string name="message_view_attachment_load_action">Load</string>
+    <string name="message_view_attachment_load_action">Muat</string>
     <!-- Button name, to show info about an attachment from the mail server [CHAR LIMIT=10]-->
     <string name="message_view_attachment_info_action">Info</string>
     <!-- Button name, to save the attachment to SD card [CHAR LIMIT=10]-->
-    <string name="message_view_attachment_save_action">Save</string>
+    <string name="message_view_attachment_save_action">Simpan</string>
     <!-- Disabled button text to indicate an attachment has been saved [CHAR LIMIT=10] -->
-    <string name="message_view_attachment_saved">Saved</string>
+    <string name="message_view_attachment_saved">Tersimpan</string>
     <!-- Button name, to cancel a queued attachment download [CHAR LIMIT=10]-->
     <string name="message_view_attachment_cancel_action">Stop</string>
     <!-- Toast after saving attachment [CHAR LIMIT=30] -->
-    <string name="message_view_status_attachment_saved">Attachment saved
+    <string name="message_view_status_attachment_saved">Sisipan tersimpan
 as <xliff:g id="filename">%s</xliff:g></string>
     <!-- Toast after attachment could not be saved [CHAR LIMIT=30] -->
-    <string name="message_view_status_attachment_not_saved">Couldn\'t save the attachment</string>
+    <string name="message_view_status_attachment_not_saved">Tidak dapat menyimpan sisipan</string>
     <!-- Toast upon using "send" when one or more attachments will need to be background loaded
       [CHAR LIMIT=none]-->
-    <string name="message_view_attachment_background_load">Note: One or more attachments in your
-        forwarded message will be downloaded prior to sending.</string>
+    <string name="message_view_attachment_background_load">catatan: Satu atau lebih sisipan dalam pesan yang diteruskan akan diunduh untuk pengiriman.</string>
     <!--Button on the message view screen to show the message content [CHAR LIMIT=16] -->
-    <string name="message_view_show_message_action">Message</string>
+    <string name="message_view_show_message_action">Pesan</string>
     <!--Button on the message view screen to show the calendar invite [CHAR LIMIT=16] -->
-    <string name="message_view_show_invite_action">Invite</string>
+    <string name="message_view_show_invite_action">Undang</string>
     <!--Button on the message view screen to show the attachments [CHAR LIMIT=16] -->
     <plurals name="message_view_show_attachments_action">
-        <item quantity="one">Attachment <xliff:g id="num_attachment" example="1" >%1$d</xliff:g>
+        <item quantity="one">Sisipan <xliff:g id="num_attachment" example="1" >%1$d</xliff:g>
             </item>
-        <item quantity="other">Attachments <xliff:g id="num_attachment" example="3" >%1$d</xliff:g>
+        <item quantity="other">Sisipan <xliff:g id="num_attachment" example="3" >%1$d</xliff:g>
             </item>
     </plurals>
     <!-- Button on the message view screen to show the embedded pictures [CHAR LIMIT=16] -->
-    <string name="message_view_show_pictures_action">Show images</string>
+    <string name="message_view_show_pictures_action">Tampilkan gambar</string>
     <!-- Button on the message view screen to always show pictures from the given
          sender [CHAR LIMIT=32] -->
-    <string name="message_view_always_show_pictures_button">Always show</string>
+    <string name="message_view_always_show_pictures_button">Selalu tampilkan gambar</string>
     <!-- Prompt on the message view screen whether or not to always show pictures from the
          given sender [CHAR LIMIT=80] -->
     <string name="message_view_always_show_pictures_prompt"
-        >Always show images from this sender</string>
+        >Selalu tampilkan gambar dari pengirim ini</string>
     <!-- Confirmation toast to indicate that the user has chosen to always show
          pictures from the given sender [CHAR LIMIT=160] -->
     <string name="message_view_always_show_pictures_confirmation"
-      >Pictures from this sender will be shown automatically</string>
+      >Gambar gambar dari pengirim ini otomatis ditampilkan</string>
     <!-- Calendar invitation, label of the button to open in calendar [CHAR LIMIT=24] -->
-    <string name="message_view_invite_view">View in Calendar</string>
+    <string name="message_view_invite_view">Tampilkan dalam kalender</string>
     <!-- String shown with a calendar invitation. -->
-    <string name="message_view_invite_title">Calendar invite</string>
+    <string name="message_view_invite_title">Undang Kalender</string>
     <!-- String shown with a calendar invitation. -->
-    <string name="message_view_invite_text">Going?</string>
+    <string name="message_view_invite_text">Berangkat?</string>
     <!-- Button text: Calendar invitation: Accept. The leading space is used for spacing -->
-    <string name="message_view_invite_accept">" Yes"</string>
+    <string name="message_view_invite_accept">" Ya"</string>
     <!-- Button text: Calendar invitation: Maybe. The leading space is used for spacing -->
-    <string name="message_view_invite_maybe">" Maybe"</string>
+    <string name="message_view_invite_maybe">" Mungkin"</string>
     <!-- Button text: Calendar invitation: Decline. The leading space is used for spacing -->
-    <string name="message_view_invite_decline">" No"</string>
+    <string name="message_view_invite_decline">" Tidak"</string>
     <!-- Toast shown following a meeting invite reply, accepted -->
-    <string name="message_view_invite_toast_yes">You\'ve accepted this invitation</string>
+    <string name="message_view_invite_toast_yes">Anda telah menerima undangan ini</string>
     <!-- Toast shown following a meeting invite reply, maybe -->
     <string name="message_view_invite_toast_maybe">
-        You\'ve replied \"maybe\" to this invitation</string>
+       Anda telah menjawab mungkin untuk undangan ini</string>
     <!-- Toast shown following a meeting invite reply, declined -->
-    <string name="message_view_invite_toast_no">You\'ve declined this invitation</string>
+    <string name="message_view_invite_toast_no">Anda telah menolak undangan ini</string>
     <!--Confirmation dialog title shown when user tries to delete messages.  [CHAR LIMIT=16] -->
     <!-- Link label to show to/cc/bcc of the curent message [CHAR LIMIT=32] -->
-    <string name="message_view_show_details">Show details</string>
+    <string name="message_view_show_details">Tampilkan detail</string>
     <!-- Title of the dialog box to show to/cc/bcc of the message.  [CHAR LIMIT=32] -->
-    <string name="message_view_message_details_dialog_title">Message details</string>
+    <string name="message_view_message_details_dialog_title">Detail pesan</string>
 
     <!-- Title for most attachment info dialogs [CHAR LIMIT=32] -->
-    <string name="attachment_info_dialog_default_title">Attachment info</string>
+    <string name="attachment_info_dialog_default_title">Informasi sisipan</string>
     <!-- Title when Wi-Fi settings prevent attachments from downloading [CHAR LIMIT=32] -->
-    <string name="attachment_info_dialog_wifi_title">Wi-Fi connection required</string>
+    <string name="attachment_info_dialog_wifi_title">Koneksi Wi-Fi diperlukan</string>
     <!-- Text of button to launch the Wi-Fi settings activity [CHAR LIMIT=24] -->
-    <string name="attachment_info_wifi_settings">Wi-Fi settings</string>
+    <string name="attachment_info_wifi_settings">Pengaturan Wi-Fi</string>
     <!-- Text of button to launch the application settings activity [CHAR LIMIT=24] -->
-    <string name="attachment_info_application_settings">App settings</string>
+    <string name="attachment_info_application_settings">Pengaturan aplikasi</string>
     <!-- Message body when we don't know exactly why an attachment can't be shown -->
-    <string name="attachment_info_unknown">Can\'t open attachment.</string>
+    <string name="attachment_info_unknown">Tidak dapat membukan berkas sisipan.</string>
     <!-- Message body when the attachment is suspected of being malware -->
     <string name="attachment_info_malware">
-            You\'d better not save or open this file because this type of attachment
-            might contain malicious software.</string>
+            Anda lebih baik tidak membuka berkas sisipan ini, kemungkinan mengandung program berbahaya.</string>
     <!-- Message body when the attachment can't be loaded due to security policy restrictions -->
     <string name="attachment_info_policy">
-            This attachment can\'t be saved or opened because of
-            this account\'s security policies.</string>
+            Berkas sisipan ini tidak dapat dibuka karena aturan keamanan pada akun ini.</string>
     <!-- Message body when the attachment can only be downloaded over Wi-Fi -->
     <string name="attachment_info_wifi_only">
-            This attachment is too large to download over a mobile network.
-            You can download it the next time you connect to a Wi-Fi network.</string>
+            Berkas sisipan ini terlalu besar untuk diunduh melalui jaringan seluler.
+            Anda dapat mengunduhnya lain waktu ketika terhubung dengan jaringan Wi-Fi.</string>
     <!-- Message body when no activities can open the attachment -->
     <string name="attachment_info_no_intent">
-            There is no installed app that can open this attachment.</string>
+            Tidak ada aplikasi terpasang yang sesuai untuk membuka berkas sisipan ini.</string>
     <!-- Message body when the attachment is an application, but, side loading is disabled -->
     <string name="attachment_info_sideload_disabled">
-            This attachment is an app. You must check Unknown Sources
-            in Settings &gt; Apps before you can install it.</string>
+            Berkas sisipan ini adalah sebuah aplikasi. Anda harus mencentang sumber tak dikenal pada pengaturan aplikasi sebelum memasang aplikasi ini.</string>
     <!-- Message body when the attachment is an application, and side loading is enabled -->
     <string name="attachment_info_apk_install_disabled">
-            Apps can\'t be installed directly from email. First save
-            this app and then install it using the Downloads app.</string>
+            Aplikasi ini tidak dapat dipasang langsung lewat surel. Pertama tama simpan apliaksi ini menggunakan aplikasi pengunduh.</string>
     <!-- Error banner when an attachment could not be downloaded due to a problem at the server
             [CHAR LIMIT=100] -->
-    <string name="attachment_not_found">Couldn\'t download the attachment.</string>
+    <string name="attachment_not_found">Tidak dapat mengunduh berkas sisipan</string>
 
     <!-- String used in place of a message that could not be properly decoded (e.g. bad base64
          data was received.) [CHAR LIMIT=none] -->
-    <string name="message_decode_error">There was an error while decoding the message.</string>
+    <string name="message_decode_error">Terjadi galat saat decoding pesan</string>.</string>
 
     <!-- Title of the EML viewer activity. [CHAR LIMIT=32] -->
-    <string name="eml_view_title">Viewing
+    <string name="eml_view_title">Menampilkan
             <xliff:g id="filename" example="test.eml">%s</xliff:g></string>
 
     <string name="message_delete_dialog_title"></string>
     <!--Confirmation dialog text shown when user tries to delete messages.  [CHAR LIMIT=32] -->
     <plurals name="message_delete_confirm">
-        <item quantity="one">Delete this message?</item>
-        <item quantity="other">Delete these messages?</item>
+        <item quantity="one">Hapus pesan ini?</item>
+        <item quantity="other">Hapus pesan - pesan ini?</item>
     </plurals>
     <!-- Toast shown briefly while deleting a message -->
     <plurals name="message_deleted_toast">
-        <item quantity="one">Message deleted</item>
-        <item quantity="other">Messages deleted</item>
+        <item quantity="one">Pesan dihapus</item>
+        <item quantity="other">Pesan - pesan dihapus</item>
     </plurals>
     <!-- Toast shown briefly while deleting an unsent (draft) message -->
-    <string name="message_discarded_toast">Message discarded</string>
+    <string name="message_discarded_toast">Pesan dibuang</string>
     <!-- Toast shown briefly while saving a draft -->
-    <string name="message_saved_toast">Message saved as draft</string>
+    <string name="message_saved_toast">Pesan disimpan sebagai konsep</string>
     <!-- String that is displayed when the attachment could not be displayed. -->
-    <string name="message_view_display_attachment_toast">Can\'t display
-        attachment</string>
+    <string name="message_view_display_attachment_toast">Tidak dapat menampilkan sisipan</string>
     <!-- String that is displayed when the attachment could not be loaded.[CHAR LIMIT=none] -->
-    <string name="message_view_load_attachment_failed_toast">Couldn\'t load attachment \"
+    <string name="message_view_load_attachment_failed_toast">Tidak dapat memuat sisipan \"
         <xliff:g id="filename">%s</xliff:g>\"</string>
     <!-- String that is displayed when a long message is being parsed. [CHAR LIMIT=none] -->
-    <string name="message_view_parse_message_toast">Opening message\u2026</string>
+    <string name="message_view_parse_message_toast">Membuka pesan\u2026</string>
     <!-- Toast shown after moving a message to a different mailbox. [CHAR LIMIT=none]-->
     <plurals name="message_moved_toast">
         <item quantity="one"  ><xliff:g id="num_message" example="1" >%1$d</xliff:g>
@@ -492,15 +481,15 @@ as <xliff:g id="filename">%s</xliff:g></string>
     </plurals>
 
     <!-- Notification ticker when a forwarded attachment couldn't be sent [CHAR LIMIT=none] -->
-    <string name="forward_download_failed_ticker">Couldn\'t forward one or more attachments.</string>
+    <string name="forward_download_failed_ticker">Tidak dapat meneruskan satu atau lebih berkas sisipan.</string>
     <!-- Notification title when a forwarded attachment couldn't be sent [CHAR LIMIT=30]-->
-    <string name="forward_download_failed_title">Attachment not forwarded</string>
+    <string name="forward_download_failed_title">Sisipan tidak diteruskan</string>
 
     <!-- Notification ticker when email account authentication fails [CHAR LIMIT=none] -->
     <string name="login_failed_ticker">
-        <xliff:g id="account_name">%s</xliff:g> signin failed.</string>
+        <xliff:g id="account_name">%s</xliff:g> gagal masuk.</string>
     <!-- Notification title when email account authentication fails [CHAR LIMIT=30]-->
-    <string name="login_failed_title">Couldn\'t sign in</string>
+    <string name="login_failed_title">Tidak dapat masuk</string>
 
     <!-- Size unit for bytes for attachments [CHAR LIMIT=10] -->
     <plurals name="message_view_attachment_bytes">
@@ -524,91 +513,89 @@ as <xliff:g id="filename">%s</xliff:g></string>
     </plurals>
 
     <!-- The label of the next button on the message view screen. -->
-    <string name="message_view_move_to_newer">Newer</string>
+    <string name="message_view_move_to_newer">Lebih baru</string>
     <!-- The label of the previous button on the message view screen. -->
-    <string name="message_view_move_to_older">Older</string>
+    <string name="message_view_move_to_older">Lebih lampau</string>
 
     <!-- A simple divider between subject and message snippet in the message list view
         [CHAR LIMIT=4]-->
     <string name="message_list_subject_snippet_divider">\u0020\u2014\u0020</string>
 
     <!-- Title of screen when setting up new email account [CHAR LIMIT=45] -->
-    <string name="account_setup_basics_title">Account setup</string>
+    <string name="account_setup_basics_title">Pengaturan akun</string>
     <!-- Title of the screen when adding exchange account [CHAR LIMIT=45] -->
     <string name="account_setup_basics_exchange_title">
-        Add an Exchange account</string>
+        Tambah akun Exchange</string>
     <!-- Title of the screen when adding exchange account [CHAR LIMIT=45] -->
     <string name="account_setup_basics_exchange_title_alternate">
-        Add an Exchange ActiveSync account</string>
+        Tambah sebuah akun Exchange ActiveSync</string>
     <!-- Headline of screen when setting up new email account (large text over divider)
         [CHAR LIMIT=none] -->
-    <string name="account_setup_basics_headline">Email account</string>
+    <string name="account_setup_basics_headline">Akun Surel</string>
     <!-- On "Set up email" screen, enthusiastic welcome message. -->
-    <string name="accounts_welcome">You can set up email for most accounts in just a few steps.
+    <string name="accounts_welcome">Anda dapat mengatur hampir semua akun surel dalam beberapa tahap.
         </string>
     <!-- On "Set up email" screen, enthusiastic welcome message (in EAS mode). -->
-    <string name="accounts_welcome_exchange">You can set up an Exchange account in just a few
-        steps.</string>
+    <string name="accounts_welcome_exchange">Anda dapat mengatur hampir semua akun Exchange dalam beberapa tahap.</string>
     <!-- On "Set up email" screen, enthusiastic welcome message (in EAS mode). -->
     <string name="accounts_welcome_exchange_alternate">
-        You can set up an Exchange ActiveSync account in just a few steps.</string>
+        Anda dapat mengatur hampir semua akun Exchange ActiveSync dalam beberapa tahap.</string>
     <!-- On "Set up email" screen, hint for account email address text field -->
-    <string name="account_setup_basics_email_label">Email address</string>
+    <string name="account_setup_basics_email_label">Alamat Surel</string>
     <!-- On "Set up email" screen, hint for account email password text field -->
-    <string name="account_setup_basics_password_label">Password</string>
+    <string name="account_setup_basics_password_label">Kata Sandi</string>
     <!-- On "Set up email" screen, checkbox label for making the new account the default account -->
     <string name="account_setup_basics_default_label">
-        Send email from this account by default.</string>
+        Secara baku kirim surel dari akun ini.</string>
     <!-- Button name on "Set up email" screen -->
-    <string name="account_setup_basics_manual_setup_action">Manual setup</string>
+    <string name="account_setup_basics_manual_setup_action">Pengaturan manual</string>
     <!-- Toast when we can't build a URI from the given email & password -->
     <!-- Note, the error message in the toast is purposefully vague, because I *don't* know
         exactly what's wrong. -->
     <string name="account_setup_username_password_toast">
-        Enter a valid email address and password</string>
+        Masukan alaman surel dan kata sandi yang valid</string>
     <!-- Title of dialog shown when a duplicate account is created -->
-    <string name="account_duplicate_dlg_title">Duplicate account</string>
+    <string name="account_duplicate_dlg_title">Akun ganda</string>
     <!-- Message of dialog shown when a duplicate account is created.  The display name of
          the duplicate account is displayed. -->
     <string name="account_duplicate_dlg_message_fmt">
-        You\'re already using this username for the account \"<xliff:g id="duplicate">%s</xliff:g>\".
+        Anda telah menggunakan nama user untuk akun ini \"<xliff:g id="duplicate">%s</xliff:g>\".
     </string>
     <!-- String that is displayed as error text for passwords with leading or trailing
          spaces.  [CHAR LIMIT=none] -->
-    <string name="account_password_spaces_error">This password starts or ends with one or more
-        space characters. Many servers don\'t support passwords with spaces.</string>
+    <string name="account_password_spaces_error">Kata sandi ini diawali atau diakhiri oleh satu atau lebih karakter spasi bebrapa server tidak mendukung kata sandi dengan spasi.</string>
 
     <!-- On check-settings screen, this is the initially-displayed message. -->
     <string name="account_setup_check_settings_retr_info_msg">
-    Retrieving account information\u2026</string>
+    Menerima informasi akun\u2026</string>
     <!-- Appears on screen while system is checking incoming server settings -->
     <string name="account_setup_check_settings_check_incoming_msg">
-    Checking incoming server settings\u2026</string>
+    Memeriksa pengaturan server penerima\u2026</string>
     <!-- Appears on screen while system is checking outgoing server settings -->
     <string name="account_setup_check_settings_check_outgoing_msg">
-    Checking outgoing server settings\u2026</string>
+    Memeriksa pengaturan server pengirim\u2026</string>
 
     <!-- Title of "Set up email" screen after success [CHAR LIMIT=45] -->
-    <string name="account_setup_names_title">Account setup</string>
+    <string name="account_setup_names_title">Pengaturan Akun</string>
     <!-- Text that appears on "Set up email" screen after successfully setting up an account
         [CHAR LIMIT=none] -->
     <string name="account_setup_names_headline">
-        Your account is set up, and email is on its way!</string>
+        Pengaturan akun selesai surel sedang menuju kesini!</string>
     <!-- On "Set up email" screen, label of text field -->
     <string name="account_setup_names_account_name_label">
-        Give this account a name (optional)</string>
+        Berikan nama untuk akun ini (pilihan)</string>
     <!-- On "Set up email" screen, label of text field -->
     <string name="account_setup_names_user_name_label">
-        Your name (displayed on outgoing messages)</string>
+        Nama Anda (ditampilkan pada pesan terkirim)</string>
     <!-- On "Set up email" screen, error pop-up when user_name field is empty [CHAR LIMIT=none] -->
-    <string name="account_setup_names_user_name_empty_error">This field can\'t be blank.</string>
+    <string name="account_setup_names_user_name_empty_error">Kolom ini tidak boleh kosong.</string>
 
     <!-- Activity Title for the account type selector (IMAP or POP3 or EAS) [CHAR LIMIT=45] -->
-    <string name="account_setup_account_type_title">Account setup</string>
+    <string name="account_setup_account_type_title">Pengaturan akun</string>
     <!-- Headline for the the account type selector (IMAP or POP3 or EAS) [CHAR LIMIT=none] -->
-    <string name="account_setup_account_type_headline">Account type</string>
+    <string name="account_setup_account_type_headline">Jenis akun</string>
     <!-- "Add new email account" screen, text that appears on screen -->
-    <string name="account_setup_account_type_instructions">What type of account is this?</string>
+    <string name="account_setup_account_type_instructions">Jenis akun apa ini?</string>
 
     <!-- Do Not Translate. "Add new email account" screen, button name in response to what
          type of account this is -->
@@ -625,28 +612,28 @@ as <xliff:g id="filename">%s</xliff:g></string>
          translatable="false">Microsoft Exchange ActiveSync</string>
 
     <!-- "Incoming server settings" screen, title [CHAR LIMIT=45] -->
-    <string name="account_setup_incoming_title">Account setup</string>
+    <string name="account_setup_incoming_title">Pengaturan Akun</string>
     <!-- "Incoming server settings" screen, headline (text over divider) [CHAR LIMIT=none] -->
-    <string name="account_setup_incoming_headline">Incoming server settings</string>
+    <string name="account_setup_incoming_headline">Pengaturan server penerima</string>
     <!-- "Incoming server settings" screen, label for text field -->
-    <string name="account_setup_incoming_username_label">Username</string>
+    <string name="account_setup_incoming_username_label">Nama user</string>
     <!-- "Incoming server settings" screen, label for text field -->
-    <string name="account_setup_incoming_password_label">Password</string>
+    <string name="account_setup_incoming_password_label">Kata sandi</string>
     <!-- "Incoming server settings" screen, label for text field -->
-    <string name="account_setup_incoming_pop_server_label">POP3 server</string>
+    <string name="account_setup_incoming_pop_server_label">Server POP3</string>
     <!-- "Incoming server settings" screen, label for text field -->
-    <string name="account_setup_incoming_imap_server_label">IMAP server</string>
+    <string name="account_setup_incoming_imap_server_label">Server IMAP</string>
     <!-- "Incoming server settings" screen, label for text field -->
     <string name="account_setup_incoming_port_label">Port</string>
     <!-- "Incoming server settings" screen, label for pop-up menu -->
-    <string name="account_setup_incoming_security_label">Security type</string>
+    <string name="account_setup_incoming_security_label">Jenis Pengamanan</string>
     <!-- "Incoming server settings" screen, option for "Security type" pop-up menu indicating
         the desire for an unencrypted session -->
-    <string name="account_setup_incoming_security_none_label">None</string>
+    <string name="account_setup_incoming_security_none_label">Tidak ada</string>
     <!-- "Incoming server settings" screen, option for "Security type" pop-up menu indicating
         the desire for an encrypted session on the selected port, accepting all SSL certificates -->
     <string name="account_setup_incoming_security_ssl_trust_certificates_label">
-        SSL/TLS (Accept all certificates)</string>
+        SSL/TLS (Terima semua jenis sertifikat)</string>
     <!-- "Incoming server settings" screen, option for "Security type" pop-up menu indicating
         the desire for an encrypted session on the selected port, including SSL certificate
         checks -->
@@ -655,432 +642,417 @@ as <xliff:g id="filename">%s</xliff:g></string>
         the desire for an encrypted session overlaid on a plain text session using the selected
         port, accepting all SSL certificates -->
     <string name="account_setup_incoming_security_tls_trust_certificates_label">
-        STARTTLS (accept all certificates)</string>
+        STARTTLS (Terima semua jenis sertifikat)</string>
     <!-- "Incoming server settings" screen, option for "Security type" pop-up menu indicating
         the desire for an encrypted session overlaid on a plain text session on the selected
         port, including SSL certificate checks -->
     <string name="account_setup_incoming_security_tls_label">STARTTLS</string>
     <!-- "Incoming server settings" screen, label for pop-up menu -->
-    <string name="account_setup_incoming_delete_policy_label">Delete email from server</string>
+    <string name="account_setup_incoming_delete_policy_label">Hapus semua email dari server</string>
     <!-- "Incoming server settings" screen, options in pop-up menu for Delete email from server: -->
     <!-- "Incoming server settings" screen, options in pop-up menu for Delete email from server: -->
-    <string name="account_setup_incoming_delete_policy_never_label">Never</string>
+    <string name="account_setup_incoming_delete_policy_never_label">Tidak pernah</string>
     <!-- "Incoming server settings" screen, options in pop-up menu for Delete email from server: -->
     <string name="account_setup_incoming_delete_policy_delete_label">
-        When I delete from Inbox</string>
+       Ketika saya menghapus di Kotak Masukx</string>
     <!-- "Incoming server settings" screen, label for setting IMAP path prefix: -->
-    <string name="account_setup_incoming_imap_path_prefix_label">IMAP path prefix</string>
+    <string name="account_setup_incoming_imap_path_prefix_label">prefiks IMAP </string>
     <!-- "Incoming server settings" screen, hint for setting IMAP path prefix: -->
-    <string name="account_setup_incoming_imap_path_prefix_hint">Optional</string>
+    <string name="account_setup_incoming_imap_path_prefix_hint">Pilihan</string>
 
     <!-- "Outgoing server settings" screen, title [CHAR LIMIT=45] -->
-    <string name="account_setup_outgoing_title">Account setup</string>
+    <string name="account_setup_outgoing_title">Pengaturan akun</string>
     <!-- "Outgoing server settings" screen, headline (text over divider) [CHAR LIMIT=none] -->
-    <string name="account_setup_outgoing_headline">Outgoing</string>
+    <string name="account_setup_outgoing_headline">Terkirim</string>
     <!-- On "Outgoing server settings" screen, label for text field -->
-    <string name="account_setup_outgoing_smtp_server_label">SMTP server</string>
+    <string name="account_setup_outgoing_smtp_server_label">Server SMTP</string>
     <!-- On "Outgoing server settings" screen, label for text field -->
     <string name="account_setup_outgoing_port_label">Port</string>
     <!-- On "Outgoing server settings" screen, label for pop-up menu -->
-    <string name="account_setup_outgoing_security_label">Security type</string>
+    <string name="account_setup_outgoing_security_label">Jenis pengamanan</string>
     <!-- On "Outgoing server settings" screen, label for check box -->
-    <string name="account_setup_outgoing_require_login_label">Require sign-in.</string>
+    <string name="account_setup_outgoing_require_login_label">Dibutuhkan sign-in.</string>
     <!-- On "Outgoing server settings" screen, label for text field -->
-    <string name="account_setup_outgoing_username_label">Username</string>
+    <string name="account_setup_outgoing_username_label">Nama user</string>
     <!-- On "Outgoing server settings" screen, label for text field -->
-    <string name="account_setup_outgoing_password_label">Password</string>
+    <string name="account_setup_outgoing_password_label">Kata sandi</string>
 
     <!-- Title of "Exchange server settings" screen [CHAR LIMIT=45] -->
-    <string name="account_setup_exchange_title">Account setup</string>
+    <string name="account_setup_exchange_title">Pengaturan akun</string>
     <!-- Headline of "Exchange server settings" screen (text over divider) [CHAR LIMIT=none] -->
-    <string name="account_setup_exchange_headline">Server settings</string>
+    <string name="account_setup_exchange_headline">Pengaturan server</string>
     <!-- On "Exchange" setup screen, the name of the server -->
     <string name="account_setup_exchange_server_label">Server</string>
     <!-- On "Exchange" setup screen, the domain\\username -->
-    <string name="account_setup_exchange_username_label">Domain\\Username</string>
+    <string name="account_setup_exchange_username_label">Domain\\Nama user</string>
     <!-- On "Exchange" setup screen, the use-SSL checkbox label -->
-    <string name="account_setup_exchange_ssl_label">Use secure connection (SSL)</string>
+    <string name="account_setup_exchange_ssl_label">Gunakan koneksi aman (SSL)</string>
     <!-- On "Exchange" setup screen, the trust ssl certificates checkbox label -->
-    <string name="account_setup_exchange_trust_certificates_label">Accept all SSL certificates</string>
+    <string name="account_setup_exchange_trust_certificates_label">Terima semua jenis sertifikat</string>
     <!-- On "Exchange" setup screen, a heading title for the current client certificate [CHAR LIMIT=50] -->
-    <string name="account_setup_exchange_certificate_title">Client certificate</string>
+    <string name="account_setup_exchange_certificate_title">Sertifikan klien</string>
     <!-- On "Exchange" setup screen, a button label to include a client certificate [CHAR LIMIT=35] -->
-    <string name="account_setup_exchange_select_certificate">Select</string>
+    <string name="account_setup_exchange_select_certificate">Pilih</string>
     <!-- On "Exchange" setup screen, a button label to include a client certificate [CHAR LIMIT=35] -->
-    <string name="account_setup_exchange_use_certificate">Use client certificate</string>
+    <string name="account_setup_exchange_use_certificate">Gunakan sertifikan klien</string>
     <!-- On "Exchange" setup screen, a button label to remove the currently used client certificate [CHAR LIMIT=35] -->
-    <string name="account_setup_exchange_remove_certificate">Remove</string>
+    <string name="account_setup_exchange_remove_certificate">Hapus</string>
     <!-- On "Exchange" setup screen, placeholder text to indicate no client
          certificate is used [CHAR LIMIT=50] -->
-    <string name="account_setup_exchange_no_certificate">None</string>
+    <string name="account_setup_exchange_no_certificate">Tidak ada</string>
     <!-- On "Exchange" setup screen, the exchange device-id label [CHAR LIMIT=30] -->
-    <string name="account_setup_exchange_device_id_label">Mobile Device ID</string>
+    <string name="account_setup_exchange_device_id_label">Identitas piranti seluler</string>
 
     <!-- In Account setup options screen, Activity title [CHAR LIMIT=45] -->
-    <string name="account_setup_options_title">Account settings</string>
+    <string name="account_setup_options_title">Pengaturan akun</string>
     <!-- In Account setup options screen, Activity headline [CHAR LIMIT=none] -->
-    <string name="account_setup_options_headline">Account options</string>
+    <string name="account_setup_options_headline">Pilihan Akun</string>
     <!-- In Account setup options screen, label for email check frequency selector -->
-    <string name="account_setup_options_mail_check_frequency_label">Check for new mail</string>
+    <string name="account_setup_options_mail_check_frequency_label">Periksa pesan baru</string>
     <!-- In Account setup options & Account Settings screens, label for email check frequency option -->
-    <string name="account_setup_options_mail_check_frequency_never">Never</string>
+    <string name="account_setup_options_mail_check_frequency_never">Tidak pernah</string>
     <!-- In Account setup options & Account Settings screens, label for email check frequency option -->
-    <string name="account_setup_options_mail_check_frequency_push">Automatic (Push)</string>
+    <string name="account_setup_options_mail_check_frequency_push">Otomatis (Push)</string>
     <!-- In Account setup options & Account Settings screens, email check frequency option -->
-    <string name="account_setup_options_mail_check_frequency_5min">Every 5 minutes</string>
+    <string name="account_setup_options_mail_check_frequency_5min">Tiap 5 menit</string>
     <!-- In Account setup options & Account Settings screens, email check frequency option -->
-    <string name="account_setup_options_mail_check_frequency_10min">Every 10 minutes</string>
+    <string name="account_setup_options_mail_check_frequency_10min">Tiap 10 menit</string>
     <!-- In Account setup options & Account Settings screens, email check frequency option -->
-    <string name="account_setup_options_mail_check_frequency_15min">Every 15 minutes</string>
+    <string name="account_setup_options_mail_check_frequency_15min">Tiap 15 menit</string>
     <!-- In Account setup options & Account Settings screens, email check frequency option -->
-    <string name="account_setup_options_mail_check_frequency_30min">Every 30 minutes</string>
+    <string name="account_setup_options_mail_check_frequency_30min">Tiap 30 menit</string>
     <!-- In Account setup options & Account Settings screens, email check frequency option -->
-    <string name="account_setup_options_mail_check_frequency_1hour">Every hour</string>
+    <string name="account_setup_options_mail_check_frequency_1hour">Tiap jam</string>
     <!-- Check box label on "Set up email" screen to make this the default account -->
     <!-- Note, this should usually match the default account summary preference string -->
-    <string name="account_setup_options_default_label">Send email from this account by default</string>
+    <string name="account_setup_options_default_label">Kirim surel dari akun ini secara baku</string>
     <!-- In Account setup options & Account Settings screens, check box for new-mail notification -->
-    <string name="account_setup_options_notify_label">Notify me when email arrives</string>
+    <string name="account_setup_options_notify_label">Notifikasi ketika ada pesan baru</string>
     <!-- In Account setup options screen, optional check box to also sync contacts -->
-    <string name="account_setup_options_sync_contacts_label">Sync contacts from this account
+    <string name="account_setup_options_sync_contacts_label">Sinkronkan kontak dari akun ini
     </string>
     <!-- In Account setup options screen, optional check box to also sync contacts -->
-    <string name="account_setup_options_sync_calendar_label">Sync calendar from this account
+    <string name="account_setup_options_sync_calendar_label">Sinkrinkan kalender dari akun ini
     </string>
     <!-- In Account setup options screen, check box to sync email -->
-    <string name="account_setup_options_sync_email_label">Sync email from this account
+    <string name="account_setup_options_sync_email_label">Sinkronkan surel dari akun ini
     </string>
     <!-- In Account setup options screen, check box to auto-download attachments  [CHAR LIMIT=none]
         -->
     <string name="account_setup_options_background_attachments_label">
-        Automatically download attachments when connected to Wi-Fi</string>
+        Otomatis unduh berkas sisipan ketika terkoneksi Wi-Fi</string>
     <!-- Dialog title when "setup" could not finish -->
-    <string name="account_setup_failed_dlg_title">Couldn\'t finish</string>
+    <string name="account_setup_failed_dlg_title">Tidak dapat menyelesaikan</string>
     <!-- In Account setup options screen, label for email lookback selector -->
-    <string name="account_setup_options_mail_window_label">Days to sync</string>
+    <string name="account_setup_options_mail_window_label">hari untuk mensinkronkan</string>
     <!-- In account setup options & account settings screens (exchange), sync window length; this
         implies loading a 'reasonable' number of messages [CHAR LIMIT=25] -->
-    <string name="account_setup_options_mail_window_auto">Automatic</string>
+    <string name="account_setup_options_mail_window_auto">Otomatis</string>
     <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->
-    <string name="account_setup_options_mail_window_1day">1 day</string>
+    <string name="account_setup_options_mail_window_1day">1 hari</string>
     <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->
-    <string name="account_setup_options_mail_window_3days">3 days</string>
+    <string name="account_setup_options_mail_window_3days">3 hari</string>
     <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->
-    <string name="account_setup_options_mail_window_1week">1 week</string>
+    <string name="account_setup_options_mail_window_1week">1 minggu</string>
     <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->
-    <string name="account_setup_options_mail_window_2weeks">2 weeks</string>
+    <string name="account_setup_options_mail_window_2weeks">2 minggu</string>
     <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->
-    <string name="account_setup_options_mail_window_1month">1 month</string>
+    <string name="account_setup_options_mail_window_1month">1 bulan</string>
     <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->
-    <string name="account_setup_options_mail_window_all">All</string>
+    <string name="account_setup_options_mail_window_all">Semua</string>
     <!-- Per-mailbox sync window setting.  This means "use the account's sync window setting" [CHAR LIMIT=25] -->
-    <string name="account_setup_options_mail_window_default">Use account\'s default</string>
+    <string name="account_setup_options_mail_window_default">Gunakan bawaan akun</string>
 
     <!-- "Setup could not finish" dialog text; e.g., Username or password incorrect -->
-    <string name="account_setup_failed_dlg_auth_message">Username or password incorrect.</string>
+    <string name="account_setup_failed_dlg_auth_message">Nama user dan kata sandi tidak tepat.</string>
     <!-- "Setup could not finish" dialog text; e.g., Username or password incorrect\n(ERR01 Account does not exist) -->
-    <string name="account_setup_failed_dlg_auth_message_fmt">Username or password incorrect.\n(<xliff:g id="error">%s</xliff:g>)</string>
+    <string name="account_setup_failed_dlg_auth_message_fmt">UNama user dan kata sandi tidak tepat.\n(<xliff:g id="error">%s</xliff:g>)</string>
 
     <!-- An error message presented to the user when the server's identity
          cannot be established or trusted [CHAR LIMIT=NONE] -->
     <string name="account_setup_failed_dlg_certificate_message"
-        >Can\'t safely connect to server.</string>
+        >Tidak dapat terhubung secara aman ke server.</string>
     <!-- An error message presented to the user when the server's identity
          cannot be established or trusted [CHAR LIMIT=NONE] -->
     <string name="account_setup_failed_dlg_certificate_message_fmt"
-        >Can\'t safely connect to server.\n(<xliff:g id="error">%s</xliff:g>)</string>
+        >Tidak dapat terhubung secara aman ke server.\n(<xliff:g id="error">%s</xliff:g>)</string>
     <!-- An error message presented to the user when the server requires a
          client certificate to connect [CHAR LIMIT=NONE] -->
     <string name="account_setup_failed_certificate_required"
-        >Client certificate is required. Connect to server with client certificate?</string>
+        >Sertifikat klien diperlukan. Hubungkan server menggunakan sertifikat klien?</string>
     <!-- An error message presented to the user when the certificate they
          specified for connecting to a server is inaccessible [CHAR LIMIT=NONE] -->
     <string name="account_setup_failed_certificate_inaccessible"
-        >Certificate is invalid or inaccessible.</string>
+        >Sertifikat tidak valid atau tidak dapat diakses.</string>
 
     <!-- Dialog text for ambiguous setup failure; server error/bad credentials [CHAR LIMIT=none] -->
     <string name="account_setup_failed_check_credentials_message">
-         The server responded with an error. Check your username and password
-         then try again.</string>
+         Server memberikan respon galat. Periksa nama user dan kata sandi lalu coba lagi.</string>
 
     <!-- "Setup could not finish" dialog text; e.g., Cannot connect to server -->
-    <string name="account_setup_failed_dlg_server_message">Can\'t connect to server.</string>
+    <string name="account_setup_failed_dlg_server_message">Tidak dapat terhubung dengan server.</string>
     <!-- "Setup could not finish" dialog text; e.g., Cannot connect to server\n(Connection timed out) -->
-    <string name="account_setup_failed_dlg_server_message_fmt">Can\'t connect to server.\n(<xliff:g id="error">%s</xliff:g>)</string>
+    <string name="account_setup_failed_dlg_server_message_fmt">Tidak dapat terhubung dengan server.\n(<xliff:g id="error">%s</xliff:g>)</string>
 
     <!-- Additional diagnostic text when TLS was required but the server doesn't support it -->
-    <string name="account_setup_failed_tls_required">TLS required but not supported by server.</string>
+    <string name="account_setup_failed_tls_required">TLS dibutuhkan tapi tidak didukung oleh server.</string>
     <!-- Additional diagnostic text when server does not support any of our authentication methods -->
-    <string name="account_setup_failed_auth_required">Authentication methods aren\'t supported by server.</string>
+    <string name="account_setup_failed_auth_required">Mode otentifikasi tidak didukung oleh server.</string>
     <!-- Additional diagnostic text when server connection failed due to security error -->
-    <string name="account_setup_failed_security">Couldn\'t open connection to server due to security error.</string>
+    <string name="account_setup_failed_security">Tidak dapat terhubung dengan server karena galat pada pengaman.</string>
     <!-- Additional diagnostic text when server connection failed due to io error (connection) -->
-    <string name="account_setup_failed_ioerror">Couldn\'t open connection to server.</string>
+    <string name="account_setup_failed_ioerror">Tidak dapat membukan koneksi ke server.</string>
     <!-- Additional diagnostic text when server connection failed due to our inability to support a
          required EAS protocol version [CHAR LIMIT=none] -->
     <string name="account_setup_failed_protocol_unsupported">
-         You typed an incorrect server address or the server requires a protocol version that
-         Email doesn\'t support.</string>
+         Anda memasukan alamat server yang salah atau server membutuhkan versi protokol yang tidak didukung oleh surel.</string>
     <!-- Additional diagnostic text when server access was denied; the user should contact the
          administrator of the server for more information [CHAR LIMIT=none] -->
     <string name="account_setup_failed_access_denied">
-         You don\'t have permission to sync with this server. Contact your server\'s
-         administrator for more information.</string>
+         Anda tidak memiliki izin untuk sinkron dengan server ini. Hubungi pengelola server untuk informasi lebih lanjut.</string>
 
     <!-- Dialog title when validation requires security provisioning (e.g. support
          for device lock PIN, or remote wipe.) and we ask the user permission before continuing -->
-    <string name="account_setup_security_required_title">Remote security administration</string>
+    <string name="account_setup_security_required_title">Administrasi keamanan jarak jauh</string>
     <!-- Additional diagnostic text when validation requires security provisioning (e.g. support
          for device lock PIN, or remote wipe.) and we ask the user permission before continuing.
          [CHAR LIMIT=none] -->
     <string name="account_setup_security_policies_required_fmt">
-         The server <xliff:g id="server">%s</xliff:g> requires that you allow it to remotely control
-         some security features of your Android device.  Do you want to finish setting up this
-         account?</string>
+         Server ini <xliff:g id="server">%s</xliff:g> memerlukan kamu untuk mengendalikan jarak jauh beberapa fitur keamanan untuk perangkat Android anda.  Apakah anda ingin menyelesaikan pengaturan untuk akun ini?</string>
     <!-- Additional diagnostic text when validation failed due to required provisioning not
          being supported [CHAR LIMIT=none] -->
     <string name="account_setup_failed_security_policies_unsupported">
-         This server requires security features that your Android device doesn\'t support,
-          including: <xliff:g id="error">%s</xliff:g></string>
+         Server ini membutuhkan fitur keamanan yang tidak didukung perangkat Android anda seperti: <xliff:g id="error">%s</xliff:g></string>
     <!-- The user name can only be changed during initial account setup. [CHAR LIMIT=none] -->
-    <string name="account_setup_username_uneditable_error">You can\'t change an account\'s username.
-         To add an account with a different username, touch Add Account.</string>
+    <string name="account_setup_username_uneditable_error">Anda tidak dapat mengubah nama user akun ini. Untuk menambah akun dengan nama user berbeda, sentuh tombol Tambah Akun.</string>
     <!-- Warning given to users when they request disabling device administration (i.e. that their
          administered accounts will be deleted) [CHAR LIMIT=none] -->
-    <string name="disable_admin_warning">WARNING: Deactivating the Email app\'s authority
-         to administer your device will delete all email accounts that require it, along with their
-         email, contacts, calendar events, and other data.</string>
+    <string name="disable_admin_warning">PERINGATAN: Menonaktifkan otoritas aplikasi Email untuk mengelola perangkat anda akan menghapus seluruh akun email yang membutuhkannya, termasuk dengan surel, kontak, kalender event, dan data lainnya.
+         </string>
 
     <!-- Dialog shown when the account requires some amount of device security provisioning,
          just before jumping into system settings such as Device Policy grant, PIN/password,
          or encryption setup.  [CHAR_LIMIT=40] -->
-    <string name="account_security_dialog_title">Security update</string>
+    <string name="account_security_dialog_title">Pembaharuan keamanan</string>
     <!-- Additional diagnostic text when the account requires some amount of device security
          provisioning, just before jumping into system settings such as Device Policy grant,
          PIN/password, or encryption setup.  [CHAR LIMIT=none] -->
     <string name="account_security_dialog_content_fmt">
-         <xliff:g id="account">%s</xliff:g> requires that you update your security settings.</string>
+         <xliff:g id="account">%s</xliff:g>Anda dibutuhkan untuk memperbaharui pengaturan keamanan.</string>
 
     <!-- Notification ticker when device security required (note: unused in Holo XL) -->
     <string name="security_notification_ticker_fmt">
-            Account \"<xliff:g id="account">%s</xliff:g>\" requires security settings update.
+            Account \"<xliff:g id="account">%s</xliff:g>\" dibutuhkan pemharuan pengaturan keamanan.
     </string>
     <!-- Notification content title when device security required [CHAR_LIMIT=30] -->
-    <string name="security_notification_content_title">Security update required</string>
+    <string name="security_notification_content_title">Pembaharuan keamanan dibutuhkan</string>
     <!-- Title of the activity that dispatches changes to device security.  Not normally seen. -->
-    <string name="account_security_title">Device security</string>
+    <string name="account_security_title">Keamanan perangkat</string>
     <!-- Additional diagnostic text when the email app asserts control of the phone.
         [CHAR LIMIT=none] -->
     <string name="account_security_policy_explanation_fmt">
-         The server <xliff:g id="server">%s</xliff:g> requires that you allow it to remotely control
-         some security features of your Android device.</string>
+         The server <xliff:g id="server">%s</xliff:g> anda dibutuhkan untuk dapat mengndalikan beberapa fitur keamanan pada perangkat Android anda dari jarak jauh.</string>
 
     <!-- "Setup could not finish" dialog action button -->
-    <string name="account_setup_failed_dlg_edit_details_action">Edit details</string>
+    <string name="account_setup_failed_dlg_edit_details_action">Sunting detail</string>
 
     <!-- Notification ticker when device password is getting ready to expire [CHAR_LIMIT=80] -->
     <string name="password_expire_warning_ticker_fmt">
-            \"<xliff:g id="account">%s</xliff:g>\" requires that you change your lock screen
-            PIN or password.</string>
+            \"<xliff:g id="account">%s</xliff:g>\" anda dibutuhkan untuk mengganti PIN atau kata sandi pengunci layar.</string>
     <!-- Notification content title when device password is getting ready to expire
             [CHAR_LIMIT=30] -->
-    <string name="password_expire_warning_content_title">Lock screen password expiring</string>
+    <string name="password_expire_warning_content_title">Kata sandi pengunci layar kadaluarsa</string>
 
     <!-- Notification ticker when device password has expired [CHAR_LIMIT=80] -->
-    <string name="password_expired_ticker">Your lock screen PIN or password has expired.</string>
+    <string name="password_expired_ticker">PIN dan Kata sandi pengunci layar anda sudah kadaluarsa.</string>
     <!-- Notification content title when device password has expired [CHAR_LIMIT=28] -->
-    <string name="password_expired_content_title">Lock screen password expired</string>
+    <string name="password_expired_content_title">Kata sandi pengunci layar kadaluarsa</string>
 
     <!-- Dialog title if device pin/password is going to expire soon. [CHAR_LIMIT=40] -->
-    <string name="password_expire_warning_dialog_title">Lock screen password expiring</string>
+    <string name="password_expire_warning_dialog_title">Kata sandi pengunci layar kadaluarsa</string>
     <!-- Dialog content device pin/password is going to expire soon. [CHAR_LIMIT=none] -->
     <string name="password_expire_warning_dialog_content_fmt">
-         You must change your lock screen PIN or password soon, or the data for
-         <xliff:g id="account">%s</xliff:g> will be erased. Change it now?</string>
+         Anda harus mengganti PIN atau kata sandi pengunci layar anda segera, atau data untuk akun
+         <xliff:g id="account">%s</xliff:g> akan dihapus. Ubah sekarang?</string>
 
     <!-- Dialog title if device pin/password has already expired. [CHAR_LIMIT=40] -->
-    <string name="password_expired_dialog_title">Lock screen password expired</string>
+    <string name="password_expired_dialog_title">Kata sandi pengunci layar kadaluarsa</string>
     <!-- Dialog content device pin/password has already expired. [CHAR_LIMIT=none] -->
     <string name="password_expired_dialog_content_fmt">
-         The data for <xliff:g id="account">%s</xliff:g> is being erased from your device.
-         You can restore it by changing your lock screen PIN or password. Change it now?</string>
+         Data dari akun <xliff:g id="account">%s</xliff:g> sedang dihapus dari perangkat.
+         Anda dapat mengembalikan dengan mengubah PIN atau kata sandi pengunci layar Anda. Ubah sekarang?</string>
 
     <!-- On AccountSettingsXL, dialog text if you try to exit in/out/eas fragment (server settings)
          without checking/saving [CHAR LIMIT=none]-->
-    <string name="account_settings_exit_server_settings">Discard unsaved changes?</string>
+    <string name="account_settings_exit_server_settings">Batalkan  perubahan yang belum tersimpan?</string>
 
     <!-- On AccountSettingsXL, dialog title if you were brought here due to a login failure.
         [CHAR_LIMIT=40] -->
-    <string name="account_settings_login_dialog_title">Couldn\'t sign in</string>
+    <string name="account_settings_login_dialog_title">Tidak dapat masuk</string>
     <!-- On AccountSettingsXL, dialog content if you were brought here due to a login failure.
         [CHAR_LIMIT=none] -->
     <string name="account_settings_login_dialog_content_fmt">
-         The username or password for <xliff:g id="account">%s</xliff:g> is incorrect.
-         Update them now?</string>
+         Nama user atau kata sandi untuk <xliff:g id="account">%s</xliff:g> tidak tepat.
+         perbaharui sekarang?</string>
 
     <!-- On Settings screen, setting option name -->
-    <string name="account_settings_default_label">Default account</string>
+    <string name="account_settings_default_label">Akun baku</string>
     <!-- Check box "summary" label on "Account options" screen to make this the default account -->
     <!-- Note, this should usually match the default account account setup checkbox string -->
-    <string name="account_settings_default_summary">Use this account to send photos, videos, and other content</string>
+    <string name="account_settings_default_summary">Gunakan akun ini untuk mengirim foto, video, atau konten lain</string>
     <!-- On Settings screen, setting option name -->
     <!-- Title of account preference for downloading attachments in background [CHAR LIMIT=32] -->
     <string name="account_settings_background_attachments_label">
-        Download attachments</string>
+        Unduh berkas sisipan</string>
     <!-- Summary of account preference for downloading attachments in background [CHAR LIMIT=64] -->
     <string name="account_settings_background_attachments_summary">
-        Automatically download attachments when connected to Wi-Fi</string>
-    <string name="account_settings_notify_label">Mail notifications</string>
+        Unduh otomatis berkas sisipan ketika terhubung dengan jaringan Wi-Fi</string>
+    <string name="account_settings_notify_label">Notifikasi Surel</string>
     <!-- On Settings screen, summary line when called via AccountManager for Exchange accounts
         [CHAR LIMIT=50] -->
-    <string name="account_settings_summary">Sync frequency, notifications, etc.</string>
+    <string name="account_settings_summary">Sinkronisasi secara rutin , notifikasi dlsb.</string>
     <!-- On Settings screen, setting summary text -->
-    <string name="account_settings_notify_summary">Display mail notifications in the status bar</string>
+    <string name="account_settings_notify_summary">Tampilkan notifikasi surel pada status bar</string>
     <!-- On Settings screen, setting option name and title of dialog box that opens -->
-    <string name="account_settings_mail_check_frequency_label">Check for new mail</string>
+    <string name="account_settings_mail_check_frequency_label">Periksa surel baru</string>
     <!-- On Settings screen, setting option name -->
-    <string name="account_settings_incoming_label">Incoming</string>
+    <string name="account_settings_incoming_label">Surel Masuk</string>
    <!-- On Settings screen, setting option summary [CHAR LIMIT=64] -->
     <string name="account_settings_incoming_summary">
-        Username, password, and other incoming server settings</string>
+        Nama user, kata sandi, dan pengaturan server penerima</string>
     <!-- On Settings screen, setting option name -->
-    <string name="account_settings_outgoing_label">Outgoing</string>
+    <string name="account_settings_outgoing_label">Surel keluar</string>
    <!-- On Settings screen, setting option summary [CHAR LIMIT=64] -->
     <string name="account_settings_outgoing_summary">
-        Username, password, and other outgoing server settings</string>
+        Nama user, kata sandi, dan pengaturan server pengirim</string>
     <!-- On Settings screen, setting option name -->
-    <string name="account_settings_description_label">Account</string>
+    <string name="account_settings_description_label">Akun</string>
     <!-- On Settings screen, setting option name -->
-    <string name="account_settings_name_label">Your name</string>
+    <string name="account_settings_name_label">Nama Anda</string>
     <!-- On Settings screen, setting option name -->
-    <string name="account_settings_signature_label">Signature</string>
+    <string name="account_settings_signature_label">Tanda tangan</string>
     <!-- On Settings screen, setting option name. Allows user to modify saved quick responses
         for insertion in message body. [CHAR_LIMIT=24]-->
-    <string name="account_settings_edit_quick_responses_label">Quick responses</string>
+    <string name="account_settings_edit_quick_responses_label">Respon cepat</string>
     <!-- On Settings screen, setting option summary [CHAR LIMIT=64] -->
     <string name="account_settings_edit_quick_responses_summary">
-        A clipboard of responses that you can access quickly</string>
+        Sebuah clipboard dari respon - respon yang dapat anda akses dengan cepat</string>
     <!-- On Settings screen, setting option name -->
-    <string name="account_settings_signature_hint">Automatically insert text at the bottom of every message you send</string>
+    <string name="account_settings_signature_hint">Masukan teks otomatis dibagian bawah pesan yang anda kirim</string>
     <!-- On Settings screen, section heading -->
-    <string name="account_settings_notifications">Notifications</string>
+    <string name="account_settings_notifications">Notifikasi</string>
     <!-- On Settings screen, section heading for data usage [CHAR LIMIT=70] -->
-    <string name="account_settings_data_usage">Data usage</string>
+    <string name="account_settings_data_usage">Penggunaan data</string>
 
     <!-- On settings screen, dialog heading informing user to edit a quick response -->
-    <string name="edit_quick_response_dialog">Edit quick response</string>
+    <string name="edit_quick_response_dialog">Sunting respon cepat</string>
     <!-- On settings screen, edit quick response dialog's "save" button -->
-    <string name="save_action">Save</string>
+    <string name="save_action">Simpan</string>
 
     <!-- On settings screen, sync contacts check box label [CHAR LIMIT=20]-->
-    <string name="account_settings_sync_contacts_enable">Sync contacts</string>
+    <string name="account_settings_sync_contacts_enable">Sinkronkan kontak</string>
     <!-- On settings screen, sync contacts summary text [CHAR LIMIT=35] -->
-    <string name="account_settings_sync_contacts_summary">Sync contacts for this account</string>
+    <string name="account_settings_sync_contacts_summary">Sinkronkan kontak untuk akun ini</string>
     <!-- On settings screen, sync calendar check box label [CHAR LIMIT=20]-->
-        <string name="account_settings_sync_calendar_enable">Sync Calendar</string>
+        <string name="account_settings_sync_calendar_enable">Sinkronkan kalendar</string>
     <!-- On settings screen, sync calendar summary text [CHAR LIMIT=35] -->
-    <string name="account_settings_sync_calendar_summary">Sync calendar for this account</string>
+    <string name="account_settings_sync_calendar_summary">Sinkronkan kalendar untuk akun ini</string>
     <!-- On settings screen, sync email check box label [CHAR LIMIT=20]-->
-    <string name="account_settings_sync_email_enable">Sync mail</string>
+    <string name="account_settings_sync_email_enable">Sinkronkan pesan</string>
     <!-- On settings screen, sync email summary text [CHAR LIMIT=35] -->
-    <string name="account_settings_sync_email_summary">Sync mail for this account</string>
+    <string name="account_settings_sync_email_summary">Sinkronkan pesan untuk akun ini</string>
 
     <!-- On Settings screen, vibrate pop-up menu label -->
-    <string name="account_settings_vibrate_when_label">Vibrate</string>
+    <string name="account_settings_vibrate_when_label">Getaran</string>
 
     <!-- On Settings screen, setting option name -->
-    <string name="account_settings_ringtone">Sound</string>
+    <string name="account_settings_ringtone">Suara</string>
     <!-- On Settings screen, section heading -->
-    <string name="account_settings_servers">Server settings</string>
+    <string name="account_settings_servers">Pengaturan server</string>
     <!-- Title of Remove account confirmation dialog box -->
-    <string name="account_delete_dlg_title">Remove account</string>
+    <string name="account_delete_dlg_title">Hapus akun</string>
     <!-- Message of Remove account confirmation dialog box -->
     <string name="account_delete_dlg_instructions_fmt">
-    The account \"<xliff:g id="account">%s</xliff:g>\" will be removed from Mail.</string>
+    Akun \"<xliff:g id="account">%s</xliff:g>\" akan dihapus dari Surel.</string>
 
     <!-- On Settings screen, section heading for delete account [CHAR LIMIT=none] -->
-    <string name="account_settings_category_delete_account">REMOVE ACCOUNT</string>
+    <string name="account_settings_category_delete_account">HAPUS AKUN</string>
     <!-- On Settings screen, settings option for delete account [CHAR LIMIT=none] -->
-    <string name="account_settings_delete_account_label">Remove account</string>
+    <string name="account_settings_delete_account_label">Hapus akun</string>
 
     <!-- Mailbox settings activity title [CHAR LIMIT=none] -->
-    <string name="mailbox_settings_activity_title">Sync options</string>
+    <string name="mailbox_settings_activity_title">Pilihan sinkronisasi</string>
     <!-- Mailbox settings activity title, with the target folder name [CHAR LIMIT=none] -->
-    <string name="mailbox_settings_activity_title_with_mailbox">Sync options (<xliff:g id="mailboxx_name" example="Family">%s</xliff:g>)</string>
+    <string name="mailbox_settings_activity_title_with_mailbox">Pilihan sinkronisasi (<xliff:g id="mailboxx_name" example="Family">%s</xliff:g>)</string>
     <!-- Mailbox "sync settings" preference header [CHAR LIMIT=none] -->
-    <string name="mailbox_preferences_header">SYNC SETTINGS</string>
+    <string name="mailbox_preferences_header">PENGATURAN SINKRONISASI</string>
     <!-- On mailbox settings screen: Mailbox check frequency setting label [CHAR LIMIT=none] -->
-    <string name="mailbox_settings_mailbox_check_frequency_label">Check frequency</string>
+    <string name="mailbox_settings_mailbox_check_frequency_label">Frekwensi pemeriksaan</string>
     <!-- On mailbox settings screen: Mailbox sync window (the number of days to synchronize email for) setting label [CHAR LIMIT=none] -->
-    <string name="mailbox_settings_mailbox_sync_window_label">Sync inbox history</string>
+    <string name="mailbox_settings_mailbox_sync_window_label">Sinkronisasi sejarah kotak masuk</string>
 
     <!-- Strings used for account shortcut picker -->
     <!-- String displayed in launcher [CHAR_LIMIT=10] -->
-    <string name="account_shortcut_picker_name">Account</string>
+    <string name="account_shortcut_picker_name">Akun</string>
     <!-- Title of the account list for the shortcut picker [CHAR_LIMIT=20] -->
-    <string name="account_shortcut_picker_title">Choose an account</string>
+    <string name="account_shortcut_picker_title">Pilih akun</string>
     <!-- Title of mailbox list for the shortcut picker [CHAR_LIMIT=20] -->
-    <string name="mailbox_shortcut_picker_title">Choose a folder</string>
+    <string name="mailbox_shortcut_picker_title">Pilih folder</string>
 
     <!-- Toast shown when the selected account no longer exists.  This is used when, for example,
          a shotcut or a widget is stale and points at a deleted account.
          [CHAR_LIMIT=none]-->
-    <string name="toast_account_not_found">Account wasn\'t found. It may have been removed.</string>
+    <string name="toast_account_not_found">Akun tidak ditemukan atau telah sudah dihapus.</string>
 
     <!-- Toast shown when the selected folder no longer exists.  This is used when, for example,
          a shotcut or a widget is stale and points at a deleted folder.
          [CHAR_LIMIT=none]-->
-    <string name="toast_mailbox_not_found">Folder wasn\'t found. It may have been removed.</string>
+    <string name="toast_mailbox_not_found">Folder tidak ditemukan atau telah sudah dihapus.</string>
 
     <!-- Message that appears when adding a Windows Live Hotmail Plus account -->
-    <string name="provider_note_live">Only some \"Plus\" accounts include POP access
-        allowing this program to connect. If you\'re not able to sign in with
-        your correct email address and password, you may not have a paid
-        \"Plus\" account. Launch the web browser to gain access to
-        these email accounts.</string>
+    <string name="provider_note_live">Hanya beberapa \"Plus\" akun yang menyertakan akses POP untuk terhubung dengan program ini. 
+    Jika anda tidak dapat masuk dengan surel dan kata sandi yang tepat, anda mungkin tidak memiliki \"Plus\" akun berbayar. Jalankan perambah web untuk mendapatkan akses ke akun surel ini.</string>
     <!-- Message that appears when adding a T-Online account -->
-    <string name="provider_note_t_online">Before setting up this email account, visit the T-Online website and create a password for POP3 email access.</string>
+    <string name="provider_note_t_online">Sebelum mengatur akun surel, kunjungi situs T-Online dan buat kata sandi untuk akun POP3 surel.</string>
 
     <!-- Name of Microsoft Exchange account type; used by AccountManager -->
-    <string name="exchange_name">Corporate</string>
+    <string name="exchange_name">Perusahaan</string>
     <!-- Name of Microsoft Exchange account type; used by AccountManager -->
     <string name="exchange_name_alternate">Microsoft Exchange ActiveSync</string>
 
     <!-- Message that appears if the AccountManager cannot create the system Account -->
-    <string name="system_account_create_failed">Couldn\'t create the account. Try again.</string>
+    <string name="system_account_create_failed">Tidak dapat membuat akun. Silahkan coba lagi.</string>
 
     <!-- Strings that support the DeviceAdmin / DevicePolicyManager API -->
     <!-- Name of the DeviceAdmin (seen in settings & in user confirmation screen) -->
-    <string name="device_admin_label">MAIL</string>
+    <string name="device_admin_label">SUREL</string>
     <!-- Long-form description of the DeviceAdmin (2nd line in settings & in user conf. screen) -->
-    <string name="device_admin_description">Enables server-specified security policies</string>
+    <string name="device_admin_description">Aktifkan aturan keamanan spesifik-server</string>
 
     <!-- Strings used for GAL access -->
 
     <!-- Displayed in small separator in to/cc/bcc dropdowns, when searching GAL begins.
          Example:  "Searching bigcompany.com..." -->
-    <string name="gal_searching_fmt">Searching <xliff:g id="domain">%s</xliff:g>\u2026</string>
+    <string name="gal_searching_fmt">Cari <xliff:g id="domain">%s</xliff:g>\u2026</string>
     <!-- Displayed in small separator in to/cc/bcc dropdowns, when searching GAL completes,
          and all of the server results are being displayed.  Example:
          "5 results from bigcompany.com..."  -->
     <plurals name="gal_completed_fmt">
         <!-- Case of one result from server. -->
-        <item quantity="one"><xliff:g id="results" example="1">%1$d</xliff:g> result
-        from <xliff:g id="domain">%2$s</xliff:g></item>
+        <item quantity="one"><xliff:g id="results" example="1">%1$d</xliff:g> hasil dari  <xliff:g id="domain">%2$s</xliff:g></item>
 
         <!-- Case of multiple results from server -->
-        <item quantity="other"><xliff:g id="results" example="20">%1$d</xliff:g> results
-        from <xliff:g id="domain">%2$s</xliff:g></item>
+        <item quantity="other"><xliff:g id="results" example="20">%1$d</xliff:g> hasil dari <xliff:g id="domain">%2$s</xliff:g></item>
     </plurals>
 
     <!-- Settings activity title [CHAR LIMIT=40]-->
-    <string name="settings_activity_title">Settings</string>
+    <string name="settings_activity_title">Pengaturan</string>
 
     <!-- General Preferences Screen -->
     <!-- Label in preferences header to describe general preferences [CHAR LIMIT=32] -->
-    <string name="header_label_general_preferences">General</string>
+    <string name="header_label_general_preferences">Umum</string>
     <!-- First category in general preferences [CHAR LIMIT=64] -->
-    <string name="category_general_preferences">PREFERENCES</string>
+    <string name="category_general_preferences">PENAMPILAN</string>
 
     <!-- General preference: Label of the setting for the direction to move to
          when deleting the current message.
@@ -1089,37 +1061,36 @@ as <xliff:g id="filename">%s</xliff:g></string>
     <!-- General preference: Description of the setting for the direction to move to
          when deleting the current message.
          Options contain "newer message","older message", etc. [CHAR LIMIT=64] -->
-    <string name="general_preference_auto_advance_summary">
-         Choose which screen to show after you delete a message</string>
+    <string name="general_preference_auto_advance_summary">Pilih layar yang mana yang ingin ditampilkan setelah Anda menghapus pesan</string>
     <!-- General preference: Title of the dialog box containing options for setting for
          the direction to move to when deleting the current message.
          Options contain "newer message","older message", etc. [CHAR LIMIT=32] -->
-    <string name="general_preference_auto_advance_dialog_title">Advance to</string>
+    <string name="general_preference_auto_advance_dialog_title">Pindah ke</string>
     <!-- General preference: Option for the setting for
          the direction to move to when deleting the current message.
          This option is for "move to the newer message" [CHAR LIMIT=32] -->
-    <string name="general_preference_auto_advance_newer">Newer message</string>
+    <string name="general_preference_auto_advance_newer">Pesan lebih baru</string>
     <!-- General preference: Option for the setting for
          the direction to move to when deleting the current message.
          This option is for "move to the older message" [CHAR LIMIT=32] -->
-    <string name="general_preference_auto_advance_older">Older message</string>
+    <string name="general_preference_auto_advance_older">Pesan lebih lampau</string>
     <!-- General preference: Option for the setting for
          the direction to move to when deleting the current message.
          This option is for "move back to the message list" [CHAR LIMIT=32] -->
-    <string name="general_preference_auto_advance_message_list">Inbox</string>
+    <string name="general_preference_auto_advance_message_list">Kotak masuk</string>
 
     <!-- General preference: Label of the setting for the text zoom.  [CHAR LIMIT=32] -->
-    <string name="general_preference_text_zoom_label">Font size</string>
+    <string name="general_preference_text_zoom_label">Ukuran huruf</string>
     <!-- General preference: Description of each setting for text zoom.  The entries here must
          correspond to the strings general_preference_text_zoom_tiny,
          general_preference_text_zoom_small, general_preference_text_zoom_normal, etc.
          [CHAR LIMIT=64] -->
     <string-array name="general_preference_text_zoom_summary_array">
-        <item>Tiny text</item>
-        <item>Small text</item>
-        <item>Default text</item>
-        <item>Large text</item>
-        <item>Huge text</item>
+        <item>Teks sangat kecil</item>
+        <item>Teks kecil</item>
+        <item>Teks bawaan</item>
+        <item>Teks besar</item>
+        <item>Teks sangat besar</item>
     </string-array>
 
     <!-- The message text size values -->
@@ -1132,64 +1103,64 @@ as <xliff:g id="filename">%s</xliff:g></string>
     </string-array>
 
     <!-- General preference: Title of the dialog box with options for text zoom. [CHAR LIMIT=32] -->
-    <string name="general_preference_text_zoom_dialog_title">Message text size</string>
+    <string name="general_preference_text_zoom_dialog_title">Ukuran teks pesan</string>
     <!-- General preference:  Text zoom.  Value is "tiny" (-2) [CHAR LIMIT=32] -->
-    <string name="general_preference_text_zoom_tiny">Tiny</string>
+    <string name="general_preference_text_zoom_tiny">Sangat kecil</string>
     <!-- General preference:  Text zoom.  Value is "small" (-1) [CHAR LIMIT=32] -->
-    <string name="general_preference_text_zoom_small">Small</string>
+    <string name="general_preference_text_zoom_small">Kecil</string>
     <!-- General preference:  Text zoom.  Value is "normal" (0) [CHAR LIMIT=32] -->
-    <string name="general_preference_text_zoom_normal">Default</string>
+    <string name="general_preference_text_zoom_normal">Bawaan</string>
     <!-- General preference:  Text zoom.  Value is "large" (+1) [CHAR LIMIT=32] -->
-    <string name="general_preference_text_zoom_large">Large</string>
+    <string name="general_preference_text_zoom_large">Besar</string>
     <!-- General preference:  Text zoom.  Value is "huge" (+2) [CHAR LIMIT=32] -->
-    <string name="general_preference_text_zoom_huge">Huge</string>
+    <string name="general_preference_text_zoom_huge">Sangat besar</string>
 
     <!--  Settings screen, Reply to all default setting title  [CHAR LIMIT=30] -->
-    <string msgid="6469564953937885304" name="general_preference_reply_all_label">Always Reply all</string>
+    <string msgid="6469564953937885304" name="general_preference_reply_all_label">Selalu balas semua</string>
     <!--  Settings screen, Reply to all default setting summary [CHAR LIMIT=70] -->
-    <string msgid="3356918650886350497" name="general_preference_reply_all_summary">Make Reply all the default setting for all your replies</string>
+    <string msgid="3356918650886350497" name="general_preference_reply_all_summary">Buat balas semua menjadi pengaturan baku untuk semua balasan Anda</string>
 
     <!-- Settings screen, title used to clear the setting for the list of
          senders to automatically show pictures for [CHAR LIMIT=80] -->
     <string name="general_preferences_clear_trusted_senders_title"
-        >Ask to show pictures</string>
+        >Tanya untuk menampilkan gambar</string>
     <!-- Settings screen, summary for clearing the settings for the list of
          senders to automatically show pictures for [CHAR LIMIT=160] -->
     <string name="general_preferences_clear_trusted_senders_summary"
-        >Images embedded in mail will not be shown automatically.</string>
+        >Gambar dipasang dari sumber lain pada pesan sehingga tidak ditampilkan secara otomatis.</string>
     <!-- Message shown in toast when the user taps to clear the lsit of senders
          to automatically show pictures for [CHAR LIMIT=80] -->
-    <string name="trusted_senders_cleared">\"Show pictures\" cleared</string>
+    <string name="trusted_senders_cleared">\"Show pictures\" terpercaya</string>
 
     <!-- Generic string for "current position" / "total number" [CHAR LIMIT=12] -->
     <string name="position_of_count"><xliff:g example="1">%1$d</xliff:g> of <xliff:g
             example="12">%2$s</xliff:g></string>
 
     <!-- Message shown during the first sync after an account is set up.  [CHAR LIMIT=NONE] -->
-    <string name="waitinf_for_sync_message_1">Syncing...</string>
+    <string name="waitinf_for_sync_message_1">Menyinkronkan...</string>
     <!-- Message shown during the first sync after an account is set up.  [CHAR LIMIT=NONE] -->
-    <string name="waitinf_for_sync_message_2">Your inbox will appear soon.</string>
+    <string name="waitinf_for_sync_message_2">Kotak masuk anda akan tampil beberapa saat lagi.</string>
 
     <!-- Widget -->
     <!-- Instruction for how to move to different widget views [CHAR LIMIT=20] -->
-    <string name="widget_other_views">Touch icon to change.</string>
+    <string name="widget_other_views">Sentuh ikon untuk melakukan perubahan.</string>
     <!-- Header for the "Combined Inbox" view (showing mail in all inboxes) [CHAR LIMIT=20] -->
-    <string name="widget_all_mail">Combined Inbox</string>
+    <string name="widget_all_mail">Kota masuk kombinasi</string>
     <!-- Header for the "Unread" widget view (showing all unread mail) [CHAR LIMIT=20] -->
-    <string name="widget_unread">Unread</string>
+    <string name="widget_unread">Belum terbaca</string>
     <!-- Header for the "Starred" widget view (showing all starred mail) [CHAR LIMIT=20] -->
-    <string name="widget_starred">Starred</string>
+    <string name="widget_starred">Ditandai bintang</string>
     <!-- Shown when waiting for mail data to be loaded into the widget list view [CHAR LIMIT=20] -->
-    <string name="widget_loading">Loading\u2026</string>
+    <string name="widget_loading">Memuat\u2026</string>
     <!-- Shown when no accounts are configured and the widget supports changing
          on the fly [CHAR LIMIT=35] -->
-    <string name="widget_touch_to_configure">Touch to set up.</string>
+    <string name="widget_touch_to_configure">Sentuh untuk mengatur.</string>
     <!-- Shown in a toast when no accounts are configured and the Email widget
          cannot be created in the first place [CHAR LIMIT=none] -->
-    <string name="widget_no_accounts">You haven\'t set up an email account yet</string>
+    <string name="widget_no_accounts">Anda belum membuat akun surel</string>
     <!-- Shown in a toast when no mailboxes have synced for the account and the Email widget
          cannot be created in the first place [CHAR LIMIT=none] -->
-    <string name="widget_no_mailboxes">This account isn\'t synced. Try again later.</string>
+    <string name="widget_no_mailboxes">Akun ini belum tersinkron. Coba lagi beberapa saat.</string>
 
     <!-- Generic string shown instead of regular numbers, when a number is larger than 999.
          This should not be altered if the original string ("999+") makes sense in the
@@ -1197,34 +1168,34 @@ as <xliff:g id="filename">%s</xliff:g></string>
     <string name="more_than_999">999+</string>
 
     <!-- The hint used in the search box when searching all mailboxes [CHAR LIMIT=35] -->
-    <string name="search_hint">Search mail</string>
+    <string name="search_hint">Cari surel</string>
 
     <!-- The hint used in the search box when searching a single mailbox [CHAR LIMIT=35] -->
-    <string name="search_mailbox_hint">Search <xliff:g example="Inbox">%1$s</xliff:g></string>
+    <string name="search_mailbox_hint">Cari <xliff:g example="Inbox">%1$s</xliff:g></string>
 
     <!-- The title above the messages list when showing search results. [CHAR LIMIT=50] -->
     <string name="search_header_text_fmt"
-          >Results</string>
+          >Hasil</string>
 
     <!-- A warning title to show to the user when search results are taking a long
          time. [CHAR LIMIT=NONE] -->
-    <string name="search_slow_warning_title">Waiting for results</string>
+    <string name="search_slow_warning_title">Menunggu hasil</string>
 
     <!-- A warning message to show to the user when search results are taking a long
          time. [CHAR LIMIT=NONE] -->
-    <string name="search_slow_warning_message">Some servers may take a long time.</string>
+    <string name="search_slow_warning_message">Beberapa server membutuhkan waktu lebih.</string>
 
     <!-- Title shown on the action bar on the mailbox list screen. [CHAR LIMIT=16] -->
-    <string name="action_bar_mailbox_list_title">Folders</string>
+    <string name="action_bar_mailbox_list_title">Folder</string>
 
     <!-- A long placeholder string to be used in template XML files message_list_item_*.xml.
          Used only in layout computation, and never actually exposed to the user. -->
-    <string name="long_string" translatable="false">looooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooong</string>
+    <string name="long_string" translatable="false">paaaaaaaanjaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaang</string>
 
     <!-- Text used for default signature -->
-    <string name="default_signature">"Sent from my Xiaomi"</string>
+    <string name="default_signature">"Dikirim dari Xiaomi"</string>
 
     <!-- This is the message warning the user that they must sync manually when roaming. [CHAR LIMIT=none]-->
-    <string name="require_manual_sync_message">Background sync for this account is disabled while\
+    <string name="require_manual_sync_message">Sinkron di latar untuk akun ini dinonaktifkan sementara\
      roaming.</string>
 </resources>
