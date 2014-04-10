@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="protection_category_dangerous_title">Resiko (%d)</string>
+    <string name="protection_category_recommend_title">Perubahan yang disarankan (%d)</string>
+    <string name="protection_category_security_title">Bersih (%d)</string>
+    <string name="title_virus_no">Virus terdeteksi</string>
+    <string name="title_virus_yes">Tidak ada virus terdeteksi</string>
+    <string name="summary_virus">Ditemukan %2$d virus</string>
+    <string name="title_permission_no">Pengawasan perizinan mati</string>
+    <string name="title_permission_yes">Pengawasan perizinan nyala</string>
+    <string name="summary_permission">Lindungi privasi saya dari aplikasi pihak ketiga</string>
+    <string name="title_mms_no">Penyaringan pesan dinonaktifkan</string>
+    <string name="title_mms_yes">Penyaringan pesan diaktifkan</string>
+    <string name="summary_mms">Saring pesan yang tidak diinginkan (jualan, iklan, dll.)</string>
+    <string name="title_usb_no">USB debugging nyala</string>
+    <string name="title_usb_yes">USB debugging mati</string>
+    <string name="summary_usb">Cegah penyebaran virus via koneksi USB</string>
+    <string name="title_virus_update_no">Pembaruan otomatis definisi virus mati</string>
+    <string name="title_virus_update_yes">Pembaruan otomatis definisi virus nyala</string>
+    <string name="summary_virus_update">Pembaruan definisi virus secara otomatis ketika terhubung ke Wi-Fi</string>
+    <string name="title_install_virus_no">Pengawas pemasangan mati</string>
+    <string name="title_install_virus_yes">Pengawas pemasangan nyala</string>
+    <string name="summary_install_virus">Periksa virus di aplikasi sebelum dipasang</string>
+    <string name="title_miui_update_no">Ditemukan pembaruan MIUI: %s</string>
+    <string name="title_miui_update_yes">MIUI terbaru</string>
+    <string name="title_app_update_no">%d aplikasi telah diperbarui</string>
+    <string name="title_app_update_yes">Semua aplikasi telah diperbarui</string>
+    <string name="title_data_flow_no">Pengawasan penggunaan data mati</string>
+    <string name="title_data_flow_yes">Pengawasan penggunaan data nyala</string>
+    <string name="title_show_notification_yes">Tampilkan di notifikasi nyala</string>
+    <string name="title_show_notification_no">Tampilkan di notifikasi mati</string>
+    <string name="button_text_fix">Perbaikan</string>
+    <string name="button_text_view">Tampilkan</string>
+    <string name="button_text_security">Pengaman</string>
+
+    <!-- ############ -->
+    <string name="item_virus">Virus</string>
+    <string name="item_usb_debug">USB debugging</string>
+    <string name="item_virus_lib">Perbarui definisi virus secara otomatis</string>
+    <string name="item_install_monitor">Pengawasan pemasangan</string>
+    <string name="item_app_permission">Perizinan aplikasi</string>
+    <string name="item_mms">Saring pesan yang tidak diinginkan</string>
+
+</resources>
