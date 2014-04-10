@@ -17,64 +17,64 @@
     <!-- General strings -->
 
     <!-- title for the dialog showing the error of camera hardware -->
-    <string name="camera_error_title">Camera error</string>
+    <string name="camera_error_title">Kamera bermasalah</string>
 
     <!-- message for the dialog showing the error of camera hardware -->
-    <string name="cannot_connect_camera">Can\'t connect to Camera.</string>
+    <string name="cannot_connect_camera">Tidak dapat terhubung dengan kamera.</string>
 
     <!-- message for the dialog showing the camera is disabled because of security policies. Camera cannot be used. -->
-    <string name="camera_disabled">Camera has been disabled for security reasons.</string>
+    <string name="camera_disabled">Kamera telah dinonaktifkan untuk alasan keamanan.</string>
 
     <!-- label for the icon meaning 'show me all the images that were taken with the camera' -->
-    <string name="camera_label">Camera</string>
+    <string name="camera_label">Kamera</string>
 
     <!-- label for the 'video recording application shown in the top level 'all applications' -->
-    <string name="video_camera_label">Video camera</string>
+    <string name="video_camera_label">Kamera Video</string>
 
     <!-- label for the folder that contains Camera pictures in the gallery -->
 
     <!-- label for the folder that contains Camera videos in the gallery -->
 
     <!-- alert to the user to wait for some operation to complete -->
-    <string name="wait">Working\u2026</string>
+    <string name="wait">Bekerja\u2026</string>
 
     <!-- alert to the user that USB storage must be available before using the camera [CHAR LIMIT=NONE] -->
-    <string name="no_storage" product="nosdcard">Insert SD card now.</string>
+    <string name="no_storage" product="nosdcard">Masukkan SD card sekarang.</string>
     <!-- alert to the user that an SD card must be installed before using the camera -->
-    <string name="no_storage" product="default">Insert an SD card now.</string>
+    <string name="no_storage" product="default">Masukkan SD card sekarang.</string>
 
     <!-- alert to the user that the USB storage is too full to complete the operation [CHAR LIMIT=NONE] -->
-    <string name="not_enough_space" product="nosdcard">Internal storage is full</string>
+    <string name="not_enough_space" product="nosdcard">Penyimpanan internal penuh</string>
     <!-- alert to the user that the SD card is too full to complete the operation -->
-    <string name="not_enough_space" product="default">SD card is full</string>
+    <string name="not_enough_space" product="default">SD card penuh</string>
 
     <!-- alert to the user that the USB storage is being disk-checked [CHAR LIMIT=30] -->
-    <string name="preparing_sd" product="nosdcard">Preparing internal storage\u2026</string>
+    <string name="preparing_sd" product="nosdcard">Menyiapkan penyimpanan internal\u2026</string>
     <!-- alert to the user that the SD card is being disk-checked -->
-    <string name="preparing_sd" product="default">Checking SD card\u2026</string>
+    <string name="preparing_sd" product="default">Memeriksa SD card\u2026</string>
 
     <!-- alert to the user that the camera fails to read or write the USB storage. [CHAR LIMIT=NONE] -->
-    <string name="access_sd_fail" product="nosdcard">Couldn\'t access USB storage.</string>
+    <string name="access_sd_fail" product="nosdcard">Tidak dapat mengakses penyimpanan USB.</string>
     <!-- alert to the user that the camera fails to read or write the SD card. -->
-    <string name="access_sd_fail" product="default">Couldn\'t access SD card.</string>
+    <string name="access_sd_fail" product="default">Tidak dapat menyimpan SD Card.</string>
 
-    <string name="access_phone_fail_no_product">Couldn\'t access USB storage.</string>
-    <string name="access_sd_fail_no_product">Couldn\'t access SD card.</string>
+    <string name="access_phone_fail_no_product">Tidak dapat mengakses penyimpanan USB.</string>
+    <string name="access_sd_fail_no_product">Tidak dapat mengakses SD card.</string>
 
     <!-- Confirmation dialog when restoring settings -->
-    <string name="confirm_restore_title">Restore defaults</string>
-    <string name="confirm_restore_message">Restore Camera default settings?</string>
-    <string name="confirm_change_mode_title">Switch mode</string>
-    <string name="confirm_change_to_expert_mode_message">Switch to advanced mode?</string>
-    <string name="confirm_change_to_simple_mode_message">Switch to simple mode?</string>
-    <string name="confirm_location_message">Record location in captured photos?</string>
-    <string name="open">Record</string>
-    <string name="skip">Don\'t record</string>
+    <string name="confirm_restore_title">Kembalikan kepengaturan standar</string>
+    <string name="confirm_restore_message">Kembalikan kepengaturan kamera standar ?</string>
+    <string name="confirm_change_mode_title">Perpindahan modus</string>
+    <string name="confirm_change_to_expert_mode_message">Pindah ke modus advance?</string>
+    <string name="confirm_change_to_simple_mode_message">Pindah ke modus simple?</string>
+    <string name="confirm_location_message">Simpan lokasi pada foto?</string>
+    <string name="open">Rekam</string>
+    <string name="skip">Jangan direkam</string>
 
     <!-- button in review mode indicating that the video just taken should be played [CHAR LIMIT=10] -->
 
     <!-- button in review mode indicating that the photo taking, video recording, and panorama saving session should be canceled [CHAR LIMIT=10] -->
-    <string name="review_cancel">CANCEL</string>
+    <string name="review_cancel">BATALKAN</string>
 
     <!-- button in review mode indicating that the taken photo/video is OK to be attached/uploaded [CHAR LIMIT=10] -->
 
@@ -87,32 +87,32 @@
     <!-- A lable that overlays on top of the preview frame to indicate the camcorder is in time lapse mode [CHAR LIMIT=35] -->
 
     <!-- Settings screen, camera selection dialog title. Users can select a camera from the phone (front-facing or back-facing). [CHAR LIMIT=20] -->
-    <string name="pref_camera_id_title">Select camera</string>
+    <string name="pref_camera_id_title">Pilih kamera</string>
 
     <string name="pref_camera_id_default" translatable="false">0</string>
 
     <!-- Settings screen, setting title text -->
-    <string name="pref_camera_recordlocation_title">Store location info</string>
+    <string name="pref_camera_recordlocation_title">Simpan info lokasi</string>
 
     <string name="pref_camera_recordlocation_default" translatable="false">false</string>
 
     <!-- Settings screen, Record location dialog choices -->
-    <string name="pref_camera_recordlocation_entry_off">Off</string>
-    <string name="pref_camera_recordlocation_entry_on">On</string>
+    <string name="pref_camera_recordlocation_entry_off">Matikan</string>
+    <string name="pref_camera_recordlocation_entry_on">Nyalakan</string>
 
-    <string name="pref_camera_sound_title">Camera sounds</string>
+    <string name="pref_camera_sound_title">Suara Kamera</string>
     <string name="pref_camera_sound_default" translatable="false">off</string>
-    <string name="pref_camera_sound_title_entry_off">Off</string>
-    <string name="pref_camera_sound_title_entry_on">On</string>
-    <string name="pref_camera_sound_entry_off">off</string>
-    <string name="pref_camera_sound_entry_on">on</string>
+    <string name="pref_camera_sound_title_entry_off">Matikan</string>
+    <string name="pref_camera_sound_title_entry_on">Nyalakan</string>
+    <string name="pref_camera_sound_entry_off">matikan</string>
+    <string name="pref_camera_sound_entry_on">Nyalakan</string>
 
-    <string name="pref_camera_auto_focus_title_entry_off">Off</string>
-    <string name="pref_camera_auto_focus_title_entry_on">On</string>
+    <string name="pref_camera_auto_focus_title_entry_off">Matikan</string>
+    <string name="pref_camera_auto_focus_title_entry_on">Nyalakan</string>
 
     <string name="pref_captrue_mirror_title">Front camera</string>
-    <string name="pref_captrue_mirror_entry_off">Off</string>
-    <string name="pref_captrue_mirror_entry_on">On</string>
+    <string name="pref_captrue_mirror_entry_off">Matikan</string>
+    <string name="pref_captrue_mirror_entry_on">Nyalakan</string>
 
     <string name="pref_captrue_mirror_default" translatable="false">off</string>
     <string name="pref_captrue_mirror_value_off" translatable="false">off</string>
@@ -145,33 +145,33 @@
     <string name="pref_video_time_lapse_frame_interval_title">Time lapse interval</string>
     <string name="pref_video_time_lapse_frame_interval_default" translatable="false">120</string>
     <!-- The time interval between frame capture for time lapse recording -->
-    <string name="pref_video_time_lapse_frame_interval_entry_2" >Interval of 0.06 seconds(2 times)</string>
-    <string name="pref_video_time_lapse_frame_interval_entry_4" >Interval of 0.12 seconds(4 times)</string>
-    <string name="pref_video_time_lapse_frame_interval_entry_10" >Interval of 0.3 seconds(10 times)</string>
-    <string name="pref_video_time_lapse_frame_interval_entry_30" >Interval of 1 second(30 times)</string>
-    <string name="pref_video_time_lapse_frame_interval_entry_60" >Interval of 2 seconds(60 times)</string>
-    <string name="pref_video_time_lapse_frame_interval_entry_90" >Interval of 3 seconds(90 times)</string>
-    <string name="pref_video_time_lapse_frame_interval_entry_120" >Interval of 4 seconds(120 times)</string>
-    <string name="pref_video_time_lapse_frame_interval_entry_150" >Interval of 5 seconds(150 times)</string>
-    <string name="pref_video_time_lapse_frame_interval_entry_240" >Interval of 8 seconds(240 times)</string>
-    <string name="pref_video_time_lapse_frame_interval_entry_300" >Interval of 10 seconds(300 times)</string>
-    <string name="pref_video_time_lapse_frame_interval_entry_450" >Interval of 15 seconds(450 times)</string>
-    <string name="pref_video_time_lapse_frame_interval_entry_900" >Interval of 30 seconds(900 times)</string>
-    <string name="pref_video_time_lapse_frame_interval_entry_1800" >Interval of 60 seconds(1800 times)</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_2" >Setiap 0.06 detik (2 kali)</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_4" >Setiap 0.12 detik (4 kali)</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_10" >Setiap 0.3 detik (10 kali)</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_30" >Setiap 1 detik (30 kali)</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_60" >Setiap 2 detik (60 kali)</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_90" >Setiap 3 detik (90 kali)</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_120" >Setiap 4 detik (120 kali)</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_150" >Setiap 5 detik (150 kali)</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_240" >Setiap 8 detik (240 kali)</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_300" >Setiap 10 detik (300 kali)</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_450" >Setiap 15 detik (450 kali)</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_900" >Setiap 30 detik (900 kali)</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_1800" >Setiap 60 detik (1800 kali)</string>
 
     <!-- Settings screen, Camera setting category title -->
-    <string name="pref_camera_settings_category">Camera settings</string>
+    <string name="pref_camera_settings_category">Pengaturan kamera</string>
 
     <!-- Settings screen, Camcorder setting category title -->
-    <string name="pref_camcorder_settings_category">Camera settings</string>
+    <string name="pref_camcorder_settings_category">Pengaturan kamera</string>
 
     <!-- Settings screen, Picture size title -->
-    <string name="pref_camera_picturesize_title">Picture size</string>
-    <string name="pref_camera_picturesize_title_simple_mode" msgid="4333724936665883006">"Camera frame"</string>
+    <string name="pref_camera_picturesize_title">Ukuran gambar</string>
+    <string name="pref_camera_picturesize_title_simple_mode" msgid="4333724936665883006">"Frame kamera"</string>
 
     <!-- simple mode -->
     <string name="pref_camera_picturesize_entry_standard">Standard 4:3</string>
-    <string name="pref_camera_picturesize_entry_full_screen">Full screen 16:9</string>
+    <string name="pref_camera_picturesize_entry_full_screen">Layar penuh 16:9</string>
 
     <!-- professional mode -->
     <string name="pref_camera_picturesize_professional_entry_4208x3120">13M(4208x3120)</string>
@@ -203,7 +203,7 @@
     <string name="pref_camera_picture_format_default">jpeg</string>
 
     <!-- Settings screen, Select Picture format title -->
-    <string name="pref_camera_picture_format_title">Select picture format</string>
+    <string name="pref_camera_picture_format_title">Pilih format gambar</string>
 
     <!-- Settings screen, picture format dialog radio button choices -->
     <string name="pref_camera_picture_format_entry_jpeg">Jpeg</string>
@@ -213,7 +213,7 @@
     <string name="pref_camera_picture_format_value_jpeg">jpeg</string>
     <string name="pref_camera_picture_format_value_raw">raw</string>
     <!-- Settings screen, Picture quality title -->
-    <string name="pref_camera_jpegquality_title">Picture quality</string>
+    <string name="pref_camera_jpegquality_title">Kualitas gambar</string>
 
     <!-- Settings screen, Picture quality dialog radio button choices -->
     <string name="pref_camera_jpegquality_entry_superfine">Super fine</string>
@@ -221,30 +221,30 @@
     <string name="pref_camera_jpegquality_entry_normal">Standard</string>
 
      <!-- Default auto histogram setting. Do not translate. -->
-     <string name="pref_camera_histogram_default">disable</string>
+     <string name="pref_camera_histogram_default">dimatikan</string>
 
      <!-- Settings screen, Select Histogram title -->
      <string name="pref_camera_histogram_title">Histogram</string>
 
      <!-- Settings screen, Histogram radio button choices -->
-     <string name="pref_camera_histogram_entry_enable">Enable</string>
-     <string name="pref_camera_histogram_entry_disable">Disable</string>
+     <string name="pref_camera_histogram_entry_enable">Dinyalakan</string>
+     <string name="pref_camera_histogram_entry_disable">Dimatikan</string>
 
      <!-- Histogram entry values. Do not translate. -->
-     <string name="pref_camera_histogram_value_enable">enable</string>
-     <string name="pref_camera_histogram_value_disable">disable</string>
+     <string name="pref_camera_histogram_value_enable">dinyalakan</string>
+     <string name="pref_camera_histogram_value_disable">dimatikan</string>
 
     <!-- Settings screen, Focus mode title -->
-    <string name="pref_camera_focusmode_title">Focus mode</string>
+    <string name="pref_camera_focusmode_title">Modus Fokus</string>
 
     <!-- Settings screen, Focue mode dialog radio button choices -->
-    <string name="pref_camera_focusmode_entry_auto">Auto</string>
-    <string name="pref_camera_focusmode_entry_normal">Standard</string>
-    <string name="pref_camera_focusmode_entry_infinity">Infinity</string>
-    <string name="pref_camera_focusmode_entry_macro">Macro</string>
+    <string name="pref_camera_focusmode_entry_auto">Otomatis</string>
+    <string name="pref_camera_focusmode_entry_normal">Standar</string>
+    <string name="pref_camera_focusmode_entry_infinity">Tak terbatas</string>
+    <string name="pref_camera_focusmode_entry_macro">Makro</string>
     <string name="pref_camera_focusmode_entry_continuous">CAF</string>
 
-    <string name="pref_camera_focusmode_value_default">auto</string>
+    <string name="pref_camera_focusmode_value_default">otomatis</string>
     <!-- Default flash mode setting.-->
     <string name="pref_camera_flashmode_default" translatable="false">auto</string>
 
@@ -255,12 +255,12 @@
     <string name="pref_camera_flashmode_no_flash" translatable="false">no_flash</string>
 
     <!-- Settings screen, Flash mode title -->
-    <string name="pref_camera_flashmode_title">Flash mode</string>
+    <string name="pref_camera_flashmode_title">Modus flash</string>
 
     <!-- Settings screen, Flash mode dialog radio button choices -->
-    <string name="pref_camera_flashmode_entry_auto">Auto</string>
-    <string name="pref_camera_flashmode_entry_on">On</string>
-    <string name="pref_camera_flashmode_entry_off">Off</string>
+    <string name="pref_camera_flashmode_entry_auto">Otomatis</string>
+    <string name="pref_camera_flashmode_entry_on">Nyalakan</string>
+    <string name="pref_camera_flashmode_entry_off">Matikan</string>
 
     <!-- Default videocamera flash mode setting.-->
     <string name="pref_camera_video_flashmode_default" translatable="false">off</string>
@@ -269,21 +269,21 @@
     <string name="pref_camera_whitebalance_default" translatable="false">auto</string>
 
     <!-- Settings screen, white balance title -->
-    <string name="pref_camera_whitebalance_title">White balance</string>
-    <string name="pref_camera_whitebalance_k_value_title">White Balance K Value</string>
+    <string name="pref_camera_whitebalance_title">Kalibrasi warna putih</string>
+    <string name="pref_camera_whitebalance_k_value_title">Kalibrasi warna putih - nilai K</string>
 
     <!-- Settings screen, White balance dialog radio button choices -->
-    <string name="pref_camera_whitebalance_entry_auto">Auto</string>
-    <string name="pref_camera_whitebalance_entry_incandescent">Incandescent</string>
-    <string name="pref_camera_whitebalance_entry_daylight">Daylight</string>
-    <string name="pref_camera_whitebalance_entry_fluorescent">Fluorescent</string>
-    <string name="pref_camera_whitebalance_entry_cloudy">Cloudy</string>
+    <string name="pref_camera_whitebalance_entry_auto">Otomatis</string>
+    <string name="pref_camera_whitebalance_entry_incandescent">Lampu pijar</string>
+    <string name="pref_camera_whitebalance_entry_daylight">Sinar matahari</string>
+    <string name="pref_camera_whitebalance_entry_fluorescent">Lampu neon</string>
+    <string name="pref_camera_whitebalance_entry_cloudy">Berawan</string>
 
     <!-- Default color effect setting. -->
     <string name="pref_camera_coloreffect_default" translatable="false">none</string>
 
     <!-- Settings screen, Select Color effect title -->
-    <string name="pref_camera_coloreffect_title">Color effects</string>
+    <string name="pref_camera_coloreffect_title">Efek warna</string>
 
     <!-- Settings screen, Color effect dialog radio button choices -->
     <string name="pref_camera_coloreffect_entry_none"></string>
@@ -304,23 +304,23 @@
     <string name="pref_camera_touchafaec_title">Touch AF/AEC</string>
 
     <!-- Settings screen, Touch AF/AEC dialog radio button choices -->
-    <string name="pref_camera_touchafaec_entry_off">Off</string>
-    <string name="pref_camera_touchafaec_entry_on">On</string>
+    <string name="pref_camera_touchafaec_entry_off">Matikan</string>
+    <string name="pref_camera_touchafaec_entry_on">Nyalakan</string>
 
     <!-- Settings screen, Multiple levels entries -->
-    <string name="pref_camera_sharpness_entry_low">Low</string>
-    <string name="pref_camera_sharpness_entry_middle">Middle (default)</string>
-    <string name="pref_camera_sharpness_entry_high">High</string>
+    <string name="pref_camera_sharpness_entry_low">Rendah</string>
+    <string name="pref_camera_sharpness_entry_middle">Biasa (default)</string>
+    <string name="pref_camera_sharpness_entry_high">tinggi</string>
 
     <!-- Settings screen, Multiple levels entries -->
-    <string name="pref_camera_contrast_entry_low">Low</string>
-    <string name="pref_camera_contrast_entry_middle">Middle (default)</string>
-    <string name="pref_camera_contrast_entry_high">High</string>
+    <string name="pref_camera_contrast_entry_low">Rendah</string>
+    <string name="pref_camera_contrast_entry_middle">Biasa (default)</string>
+    <string name="pref_camera_contrast_entry_high">Tinggi</string>
 
     <!-- Settings screen, Multiple levels entries -->
-    <string name="pref_camera_saturation_entry_low">Low</string>
-    <string name="pref_camera_saturation_entry_middle">Middle</string>
-    <string name="pref_camera_saturation_entry_high">High</string>
+    <string name="pref_camera_saturation_entry_low">Rendah</string>
+    <string name="pref_camera_saturation_entry_middle">Biasa</string>
+    <string name="pref_camera_saturation_entry_high">Tinggi</string>
     <string name="pref_camera_default_suffix">" (default)"</string>
 
     <!-- Default sharpness setting. Do not translate. -->
@@ -333,57 +333,57 @@
     <string name="pref_camera_contrast_default">middle</string>
 
     <!-- Settings screen, Select contrast title -->
-    <string name="pref_camera_contrast_title">Contrast</string>
+    <string name="pref_camera_contrast_title">Kontras</string>
 
     <!-- Default saturation setting. Do not translate. -->
     <string name="pref_camera_saturation_default">middle</string>
 
     <!-- Settings screen, Select saturation title -->
-    <string name="pref_camera_saturation_title">Saturation</string>
+    <string name="pref_camera_saturation_title">Saturasi</string>
 
     <!-- Default scene mode setting. -->
     <string name="pref_camera_scenemode_default" translatable="false">auto</string>
 
     <!-- Settings screen, Select Scene mode -->
-    <string name="pref_camera_scenemode_title">Scene mode</string>
+    <string name="pref_camera_scenemode_title">Mode pemotretan</string>
 
     <!-- Settings menu, scene mode choices -->
-    <string name="pref_camera_scenemode_entry_off">Off</string>
-    <string name="pref_camera_scenemode_entry_auto">Auto</string>
+    <string name="pref_camera_scenemode_entry_off">Matikan</string>
+    <string name="pref_camera_scenemode_entry_auto">Otomatis</string>
     <!-- Scene mode that takes an image quickly with little motion blur. -->
     <!-- Scene mode that takes an image with as little noise as possible so details of the subject are maintained. -->
-    <string name="pref_camera_scenemode_entry_portrait">Portrait</string>
+    <string name="pref_camera_scenemode_entry_portrait">Potret</string>
     <!-- Scene mode that takes an image of a landscape assuming all subjects are relatively far from the phone. -->
-    <string name="pref_camera_scenemode_entry_landscape">Landscape</string>
+    <string name="pref_camera_scenemode_entry_landscape">Pemandangan</string>
     <!-- Scene mode that takes long exposures to capture night scenes without flash. -->
-    <string name="pref_camera_scenemode_entry_night">Night</string>
+    <string name="pref_camera_scenemode_entry_night">Malam hari</string>
     <!-- Scene mode that takes night shots with long exposure and flash to illuminate the subject while still capturing darker detail in the background. -->
-    <string name="pref_camera_scenemode_entry_night_portrait">Night portrait</string>
+    <string name="pref_camera_scenemode_entry_night_portrait">potret malam</string>
     <!-- Scene mode to be used in a stage show. -->
     <!-- Scene mode optimized for taking images on the beach. -->
-    <string name="pref_camera_scenemode_entry_beach">Beach</string>
+    <string name="pref_camera_scenemode_entry_beach">Pantai</string>
     <!-- Scene mode optimized for taking images in the snow. -->
-    <string name="pref_camera_scenemode_entry_snow">Snow</string>
+    <string name="pref_camera_scenemode_entry_snow">Salju</string>
     <!-- Scene mode optimized for taking images in the sunset. -->
-    <string name="pref_camera_scenemode_entry_sunset">Sunset</string>
+    <string name="pref_camera_scenemode_entry_sunset">Senja</string>
     <!-- Scene mode for taking a photo as sharp as possible. -->
     <!-- Scene mode optimized for taking images of fireworks. -->
-    <string name="pref_camera_scenemode_entry_fireworks">Fireworks</string>
+    <string name="pref_camera_scenemode_entry_fireworks">Kembang Api</string>
     <!-- Scene mode optimized for taking images during sports . -->
-    <string name="pref_camera_scenemode_entry_sports">Sports</string>
+    <string name="pref_camera_scenemode_entry_sports">Olah raga</string>
     <!-- Scene mode optimized for taking indoor low-lights pictures. [CHAR LIMIT=16] -->
     <!-- Scene mode optimized for capturing the naturally warm color of scenes lit by candles. [CHAR LIMIT=16] -->
     <!-- Scene mode for taking a photo with backlight. -->
-    <string name="pref_camera_scenemode_entry_backlight">Backlight</string>
+    <string name="pref_camera_scenemode_entry_backlight">Cahaya Latar</string>
     <!-- Scene mode optimized for taking images of flowers. -->
-    <string name="pref_camera_scenemode_entry_flowers">Flowers</string>
+    <string name="pref_camera_scenemode_entry_flowers">Bunga</string>
     <!-- Scene mode optimized for taking images of AR. -->
 
     <!-- Default auto scene detection setting. -->
     <string name="pref_camera_scenedetect_default" translatable="false">off</string>
 
     <!-- Settings screen, Select Auto Scene Detection -->
-    <string name="pref_camera_scenedetect_title">Auto Scene Detection</string>
+    <string name="pref_camera_scenedetect_title">Deteksi pemotretan otomatis</string>
 
     <!-- Settings menu, auto scene detection choices -->
     <!-- Scene detection set to on - supports backlight and snow cloudy detection. -->
@@ -459,9 +459,9 @@
     <string name="dialog_ok">OK</string>
 
     <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
-    <string name="spaceIsLow_content" product="nosdcard">Your USB storage is running out of space.</string>
+    <string name="spaceIsLow_content" product="nosdcard">Ruang penyimpanan USB akan habis.</string>
     <!-- Low-memory dialog message [CHAR LIMIT=NONE] -->
-    <string name="spaceIsLow_content" product="default">Your SD card is running out of space.</string>
+    <string name="spaceIsLow_content" product="default">Ruang penyimpanan SD card akan habis.</string>
 
     <!-- Camera format string for new image files. Passed to java.text.SimpleDateFormat. -->
     <string name="image_file_name_format" translatable="false">"'IMG'_yyyyMMdd_HHmmss"</string>
@@ -473,16 +473,16 @@
     <string name="pano_file_name_format" translatable="false">"'PANO'_yyyyMMdd_HHmmss"</string>
 
     <!-- The messsage shown when video record reaches size limit. -->
-    <string name="video_reach_size_limit">Size limit reached.</string>
+    <string name="video_reach_size_limit">Batas ukuran telah tercapai.</string>
 
      <!-- Default hfr setting. Do not translate. -->
      <string name="pref_camera_hfr_default">90</string>
 
      <!-- Settings screen, Select hfr title -->
-     <string name="pref_camera_hfr_title">High frame rate (slow motion)</string>
+     <string name="pref_camera_hfr_title">Frame rate yang tinggi (gerak lambat)</string>
 
      <!-- Settings screen, hfr radio button choices -->
-     <string name="pref_camera_hfr_entry_off">Off</string>
+     <string name="pref_camera_hfr_entry_off">Matikan</string>
      <string name="pref_camera_hfr_entry_2x">60</string>
      <string name="pref_camera_hfr_entry_3x">90</string>
      <string name="pref_camera_hfr_entry_4x">120</string>
@@ -494,16 +494,16 @@
      <string name="pref_camera_hfr_value_4x">120</string>
 
      <!-- Video speed -->
-     <string name="pref_video_speed_title">Video Capture Speed</string>
+     <string name="pref_video_speed_title">Kecepatan penangkapan Video</string>
      <string name="pref_video_speed_default">normal</string>
 
      <string name="pref_video_speed_entry_normal">Normal</string>
-     <string name="pref_video_speed_entry_fast">Fast</string>
-     <string name="pref_video_speed_entry_slow">Slow</string>
+     <string name="pref_video_speed_entry_fast">Cepat</string>
+     <string name="pref_video_speed_entry_slow">Lambat</string>
 
      <string name="pref_video_speed_value_normal">normal</string>
-     <string name="pref_video_speed_value_fast">fast</string>
-     <string name="pref_video_speed_value_slow">slow</string>
+     <string name="pref_video_speed_value_fast">cepat</string>
+     <string name="pref_video_speed_value_slow">lambat</string>
 
     <!-- The text of menu item to switch the mode to Camera. [CHAR LIMIT=NONE] -->
 
@@ -520,19 +520,19 @@
     <!-- Toast saying that there is no video to share. [CHAR LIMIT=30] -->
 
     <!-- The text shown when the panorama panning speed is to fast [CHAR LIMIT=12] -->
-    <string name="pano_too_fast_prompt">Too fast</string>
-    <string name="pano_how_to_use_prompt">To capture a panoramic photo, \ntouch the Shutter button</string>
-    <string name="pano_how_to_use_prompt_to_move">Begin panning slowly</string>
-    <string name="pano_how_to_use_prompt_go_on_moving">Keep going\u2026</string>
+    <string name="pano_too_fast_prompt">Terlalu cepat</string>
+    <string name="pano_how_to_use_prompt">Untuk memotret foto panorama, sentuh tombol Shutter</string>
+    <string name="pano_how_to_use_prompt_to_move">Mulailah perlahan-lahan panning</string>
+    <string name="pano_how_to_use_prompt_go_on_moving">tetap gerakkan\u2026</string>
 
     <!-- The text shown in the progress dialog when panorama preview is generating in the background [CHAR LIMIT=30] -->
-    <string name="pano_dialog_prepare_preview">Preparing panorama</string>
+    <string name="pano_dialog_prepare_preview">Mempersiapkan Panorama</string>
 
     <!-- The text shown in the progress dialog when waiting for previous panorama finishing [CHAR LIMIT=40] -->
-    <string name="pano_dialog_waiting_previous">Waiting for previous panorama to finish</string>
+    <string name="pano_dialog_waiting_previous">Menunggu panorama sebelumnya selesai</string>
 
     <!-- The text shown in the dialog when panorama saving failed [CHAR LIMIT=40] -->
-    <string name="pano_dialog_panorama_failed">Couldn\'t save panorama.</string>
+    <string name="pano_dialog_panorama_failed">Tidak dapat menyimpan panorama.</string>
 
     <!-- The text shown on the dialog title in the dialogs for Panorama [CHAR LIMIT=12] -->
     <string name="pano_dialog_title">Panorama</string>
@@ -541,80 +541,80 @@
     <!-- The text shown on the top-left corner of the screen to indicate the capturing is on going [CHAR LIMIT=27] -->
 
     <!-- The text shown on the bottom-left corner of the screen to indicate that the saving is in process [CHAR LIMIT=13] -->
-    <string name="pano_review_saving_indication_str">Saving\u2026</string>
+    <string name="pano_review_saving_indication_str">Menyimpan\u2026</string>
 
     <!-- Toast telling users tapping on the viewfinder will trigger autofocus [CHAR LIMIT=28] -->
-    <string name="tap_to_focus">Touch to focus</string>
+    <string name="tap_to_focus">Sentuh untuk fokus</string>
 
     <!-- Default effect setting that clears the effect. -->
     <string name="pref_video_effect_default" translatable="false">none</string>
 
     <!-- Title of video effect setting popup window -->
 
-    <!-- Effect setting item that clear the effect. [CHAR LIMIT=14] -->
-    <string name="effect_none">None</string>
+<!-- Effect setting item that clear the effect. [CHAR LIMIT=14] -->
+    <string name="effect_none">Tidak ada</string>
     <!-- Effect setting item that squeezes the face. [CHAR LIMIT=14] -->
-    <string name="effect_goofy_face_squeeze">Squeeze</string>
+    <string name="effect_goofy_face_squeeze">Dipencet</string>
     <!-- Effect setting item that makes eyes big. [CHAR LIMIT=14] -->
-    <string name="effect_goofy_face_big_eyes">Big eyes</string>
+    <string name="effect_goofy_face_big_eyes">Mata Besar</string>
     <!-- Effect setting item that makes mouth big. [CHAR LIMIT=14] -->
-    <string name="effect_goofy_face_big_mouth">Big mouth</string>
+    <string name="effect_goofy_face_big_mouth">Mulut besar</string>
     <!-- Effect setting item that makes mouth small. [CHAR LIMIT=14] -->
-    <string name="effect_goofy_face_small_mouth">Small mouth</string>
+    <string name="effect_goofy_face_small_mouth">Mulut kecil</string>
     <!-- Effect setting item that makes nose big. [CHAR LIMIT=14] -->
-    <string name="effect_goofy_face_big_nose">Big nose</string>
+    <string name="effect_goofy_face_big_nose">Hidung besar</string>
     <!-- Effect setting item that makes eyes small. [CHAR LIMIT=14] -->
-    <string name="effect_goofy_face_small_eyes">Small eyes</string>
+    <string name="effect_goofy_face_small_eyes">Mata kecil</string>
     <!-- Effect setting item that replaces background with Android in Space. [CHAR LIMIT=14] -->
-    <string name="effect_backdropper_space">In space</string>
+    <string name="effect_backdropper_space">Dalam ruangan</string>
     <!-- Effect setting item that replaces background with a sunset. [CHAR LIMIT=14] -->
-    <string name="effect_backdropper_sunset">Sunset</string>
+    <string name="effect_backdropper_sunset">Senja</string>
     <!-- Effect setting item that replaces background with a disco effect. [CHAR LIMIT=14] -->
-    <string name="effect_backdropper_disco">Disco</string>
+    <string name="effect_backdropper_disco">Disko</string>
     <!-- Effect setting item that replaces background with video from gallery. [CHAR LIMIT=14] -->
-    <string name="effect_backdropper_gallery">Choose your own</string>
+    <string name="effect_backdropper_gallery">Pilih sendiri</string>
 
     <!-- Message displayed in overlay during background replacement training [CHAR LIMIT=180]-->
-    <string name="bg_replacement_message">Set your device down\nStep out of view for a moment</string>
+    <string name="bg_replacement_message">Atur perangkat pada permukaan yang stabil,\n dan melangkah keluar dari tampilan sejenak</string>
 
     <!-- Toast after trying to select a setting that is not allowed to change in effect [CHAR LIMIT=50] -->
 
     <!-- Toast telling users tapping on the viewfinder will take a picture [CHAR LIMIT=65] -->
-    <string name="video_snapshot_hint">Take a photo during video recording by touching the preview screen.</string>
+    <string name="video_snapshot_hint">Ambil foto saat merekam video dengan menyentuh layar.</string>
 
     <!-- Toast telling users video snapshot is disabled when the effects are on and a user tries to tap on the viewfinder [CHAR LIMIT=65] -->
-    <string name="disable_video_snapshot_hint">Video snapshot is disabled when special effects are on.</string>
+    <string name="disable_video_snapshot_hint">Video snapshot akan dinonaktifkan ketika menggunakan efek khusus.</string>
 
     <!-- The messsage shown if user selects a snapshot resolution lower than the current video size. -->
-    <string name="snapshot_lower_than_video">Video snapshot size lower than video size. Capping to Video size. Please select a resolution higher or equal to the current video size. </string>
+    <string name="snapshot_lower_than_video">Resolusi video snapshot lebih rendah dari ukuran video. Capping ukuran video. Pilih resolusi yang lebih tinggi atau sama dengan ukuran video sekarang.</string>
 
     <!-- The messsage shown if user selects a snapshot resolution in low power mode. -->
-    <string name="snapshotsize_low_powermode">Picture resolution in Low Power Mode is not supported. Video size snapshot will be used. Please select High power mode for picture size.
+    <string name="snapshotsize_low_powermode">Resolusi gambar pada modus Low Power tidak didukung. Ukuran video snapshot akan digunakan. Silahkan pilih modus High power untuk menaikkan resolusi gambar.
     </string>
 
     <!-- The messsage shown if user tries to take snapshot during D1/QCIF resolution. -->
-    <string name="snapshot_qcif_and_d1">Only Video snapshot size supported for this resolution. </string>
+    <string name="snapshot_qcif_and_d1">Hanya Video berukuran snapshot didukung untuk resolusi ini. </string>
 
     <!-- A button in effect setting popup to clear the effect. [CHAR LIMIT=26] -->
-    <string name="clear_effects">Clear effects</string>
+    <string name="clear_effects">Bersihkan efek</string>
 
     <!-- Title of category for silly face effects. [CHAR LIMIT=26] -->
-    <string name="effect_silly_faces">SILLY FACES</string>
+    <string name="effect_silly_faces">MUKA LUCU</string>
 
     <!-- Title of category for background replacement effects. [CHAR LIMIT=26] -->
-    <string name="effect_background">BACKGROUND</string>
+    <string name="effect_background">LATARBELAKANG</string>
 
     <!-- The shutter button. [CHAR LIMIT = NONE] -->
-    <string name="accessibility_shutter_button">Shutter button</string>
+    <string name="accessibility_shutter_button">Tombol shutter</string>
     <!-- The button to review the thumbnail. [CHAR LIMIT = NONE] -->
-    <string name="accessibility_review_thumbnail">Most recent photo</string>
+    <string name="accessibility_review_thumbnail">Foto paling terbaru</string>
     <!-- The front/back camera switch. [CHAR LIMIT = NONE] -->
-    <string name="accessibility_camera_picker">Switch cameras</string>
+    <string name="accessibility_camera_picker">Ganti kamera</string>
     <!-- The mode picker to switch between camera, video and panorama. [CHAR LIMIT = NONE] -->
     <!-- The button to switch to the second-level indicators of the camera settings. [CHAR LIMIT = NONE] -->
     <!-- The button to back to the first-level indicators of the camera settings. [CHAR LIMIT = NONE] -->
     <!-- The zoom control button. [CHAR LIMIT = NONE] -->
-    <string name="accessibility_zoom_control">Zoom control</string>
+    <string name="accessibility_zoom_control">Kontrol zoom</string>
     <!-- The decrement button in camera preference such as exposure, picture size. [CHAR LIMIT = NONE] -->
     <!-- The increment button in camera preference such as exposure, picture size. [CHAR LIMIT = NONE] -->
     <!-- The on/off switch in camera settings, such as store location. [CHAR LIMIT = NONE] -->
@@ -628,8 +628,8 @@
     <string name="pref_camera_autoexposure_title">Auto exposure settings</string>
 
     <!-- Settings screen, auto exposure dialog radio button choices -->
-    <string name="pref_camera_autoexposure_entry_frameaverage">Frame average</string>
-    <string name="pref_camera_autoexposure_entry_centerweighted">Center weighted</string>
+    <string name="pref_camera_autoexposure_entry_frameaverage">Rata-rata Frame</string>
+    <string name="pref_camera_autoexposure_entry_centerweighted">Berpusat ditengah</string>
     <string name="pref_camera_autoexposure_entry_spotmetering">Spot metering</string>
 
     <!-- Auto exposure entry values. Do not translate. -->
@@ -650,31 +650,31 @@
     <string name="pref_camera_audioencoder_default" translatable="false">aac</string>
 
     <!-- Settings screen, Audio encoder title -->
-    <string name="pref_camera_audio_capture_title">Audio</string>
+    <string name="pref_camera_audio_capture_title">Suara</string>
 
     <!-- Settings screen, Audio encoder dialog radio button choices -->
     <!-- Default video duration setting. A numerical value.-->
     <string name="pref_camera_video_duration_default" translatable="false">10</string>
 
     <!-- Settings screen, Video duration title -->
-    <string name="pref_camera_video_duration_title">Video duration</string>
+    <string name="pref_camera_video_duration_title">Durasi video</string>
 
     <!-- Settings screen, Video duration dialog radio button choices -->
-    <string name="pref_camera_video_duration_entry_mms">30 seconds(MMS)</string>
-    <string name="pref_camera_video_duration_entry_10">10 minutes</string>
-    <string name="pref_camera_video_duration_entry_30">30 minutes</string>
-    <string name="pref_camera_video_duration_entry_120">No limit</string>
+    <string name="pref_camera_video_duration_entry_mms">30 detik(MMS)</string>
+    <string name="pref_camera_video_duration_entry_10">10 menit</string>
+    <string name="pref_camera_video_duration_entry_30">30 menit</string>
+    <string name="pref_camera_video_duration_entry_120">Tanpa batas</string>
 
     <!-- Default Skin Tone Enhancement setting. Do not translate. -->
     <string name="pref_camera_skinToneEnhancement_default">disable</string>
 
     <!-- Settings screen, Select Skin Tone Enhancement title -->
-    <string name="pref_camera_skinToneEnhancement_title">Enhance skin tones</string>
+    <string name="pref_camera_skinToneEnhancement_title">Penguat warna kulit</string>
 
     <!-- Settings screen, Skin Tone Enhancement radio button choices -->
-    <string name="pref_camera_skinToneEnhancement_entry_auto">Auto-enhance</string>
-    <string name="pref_camera_skinToneEnhancement_entry_enable">Enable</string>
-    <string name="pref_camera_skinToneEnhancement_entry_disable">Disable</string>
+    <string name="pref_camera_skinToneEnhancement_entry_auto">Otomatis</string>
+    <string name="pref_camera_skinToneEnhancement_entry_enable">Nyala</string>
+    <string name="pref_camera_skinToneEnhancement_entry_disable">Mati</string>
 
     <!-- Skin Tone Enhancement entry values. Do not translate. -->
     <string name="pref_camera_skinToneEnhancement_value_auto" translatable="false">auto</string>
@@ -694,21 +694,21 @@
      <!-- Auto exposure entry values. Do not translate. -->
 
     <!-- Settings screen, ZSL location dialog choices -->
-    <string name="pref_camera_zsl_entry_off">Off</string>
-    <string name="pref_camera_zsl_entry_on">On</string>
+    <string name="pref_camera_zsl_entry_off">Matikan</string>
+    <string name="pref_camera_zsl_entry_on">Nyalakan</string>
 
-    <string name="pref_camera_zsl_value_off">off</string>
-    <string name="pref_camera_zsl_value_on">on</string>
+    <string name="pref_camera_zsl_value_off">matikan</string>
+    <string name="pref_camera_zsl_value_on">nyalakan</string>
 
     <!-- Default face  detection setting. -->
     <string name="pref_camera_facedetection_default" translatable="false">on</string>
 
     <!-- Settings screen, Select Face Detection -->
-    <string name="pref_camera_facedetection_title">Face detection</string>
+    <string name="pref_camera_facedetection_title">Deteksi wajah</string>
 
     <!-- Settings menu, Face Detection choices -->
-    <string name="pref_camera_facedetection_entry_off">Off</string>
-    <string name="pref_camera_facedetection_entry_on">On</string>
+    <string name="pref_camera_facedetection_entry_off">Matikan</string>
+    <string name="pref_camera_facedetection_entry_on">Nyalakan</string>
 
     <!-- Settings screen, Power mode dialog radio button choices -->
 
@@ -734,149 +734,149 @@
      <!-- The message is shown in dialog when the app encounters an unsupported resolution for HFR mode -->
 
      <!-- The message is shown in dialog when the app encounters an unsupported video codec for HFR mode -->
-     <string name="error_app_unsupported_hfr_codec">Only H264 video encoding is supported when HFR is ON</string>
-     <string name="error_app_unsupported_hfr_720p">720P can support up to 90FPS</string>
+     <string name="error_app_unsupported_hfr_codec">Hanya video dengan H264 yang didukung ketika HFR dinyalakan</string>
+     <string name="error_app_unsupported_hfr_720p">720P dapat mendukung sampai 90FPS</string>
 
      <!-- The message is shown in dialog when the app encounters an unsupported video resolution-->
-     <string name="error_app_unsupported">Unsupported video resolution for this encoder type</string>
+     <string name="error_app_unsupported">Resolusi video tidak didukung untuk jenis encoder ini</string>
 
     <string name="pref_camera_ae_bracket_hdr_title">HDR</string>
     <string name="pref_camera_hand_night_title">HHT</string>
 
      <!-- Settings screen, AE bracketing and HDR location dialog choices -->
-     <string name="pref_camera_ae_bracket_hdr_entry_off">Off</string>
+     <string name="pref_camera_ae_bracket_hdr_entry_off">Matikan</string>
      <string name="pref_camera_ae_bracket_hdr_entry_hdr">HDR</string>
      <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">AE-Bracket</string>
 
-     <string name="pref_camera_ae_bracket_hdr_value_off">Off</string>
+     <string name="pref_camera_ae_bracket_hdr_value_off">Matikan</string>
      <string name="pref_camera_ae_bracket_hdr_value_hdr">HDR</string>
      <string name="pref_camera_ae_bracket_hdr_value_ae_bracket">AE-Bracket</string>
 
     <string name="pref_camera_ae_bracket_hdr_default" translatable="false">Off</string>
     <string name="hdr_exit_button_text">Exit HDR mode</string>
-    <string name="hand_night_exit_button_text">Exit Handheld Twilight mode</string>
+    <string name="hand_night_exit_button_text">Keluar dari modus Handheld Twilight</string>
 
     <!-- 设置相关 -->
-    <string name="videocamera_settings_label">Video camera settings</string>
-    <string name="camera_settings_label">Camera settings</string>
-    <string name="pref_grp_picture_settings">Picture settings</string>
-    <string name="pref_grp_capture_settings">Capture settings</string>
+    <string name="videocamera_settings_label">Pengaturan kamera video</string>
+    <string name="camera_settings_label">Pengaturan kamera</string>
+    <string name="pref_grp_picture_settings">Pengaturan gambar</string>
+    <string name="pref_grp_capture_settings">pengaturan pengambilan</string>
     <string name="pref_advanced_settings">Advanced</string>
-    <string name="pref_advanced_functions">Advanced settings</string>
-    <string name="pref_grp_advanced_settings">Advanced settings</string>
-    <string name="pref_grp_restore_settings">Restore settings</string>
-    <string name="pref_camera_settings_title">Settings</string>
+    <string name="pref_advanced_functions">Pengaturan advanced </string>
+    <string name="pref_grp_advanced_settings">Pengaturan settings</string>
+    <string name="pref_grp_restore_settings">Kembalikan pengaturan</string>
+    <string name="pref_camera_settings_title">Pengaturan</string>
 
     <!-- continuous focus -->
     <string name="pref_video_continuous_focus">Continuous focus</string>
-    <string name="pref_video_continuous_focus_entry_off">Off</string>
-    <string name="pref_video_continuous_focus_entry_on">On</string>
+    <string name="pref_video_continuous_focus_entry_off">Matikan</string>
+    <string name="pref_video_continuous_focus_entry_on">Nyalakan</string>
     <!-- Default video continuous_focus setting. Do not translate. -->
     <string name="pref_video_continuous_focus_entryvalue_default">caf-off</string>
 
     <!-- 参考线 -->
-    <string name="pref_camera_referenceline_entry_off">Off</string>
-    <string name="pref_camera_referenceline_entry_on">On</string>
+    <string name="pref_camera_referenceline_entry_off">Matikan</string>
+    <string name="pref_camera_referenceline_entry_on">Nyalakan</string>
     <!-- Default reference line setting. Do not translate. -->
     <string name="pref_camera_referenceline_entryvalue_off">referenceline-off</string>
     <string name="pref_camera_referenceline_entryvalue_on">referenceline-on</string>
 
     <!--音量键功能 -->
-    <string name = "pref_camera_volumekey_function_entry_volume">Volume</string>
+    <string name = "pref_camera_volumekey_function_entry_volume">Suara</string>
     <string name = "pref_camera_volumekey_function_entry_shutter">Shutter</string>
     <string name = "pref_camera_volumekey_function_entry_zooming">Zoom</string>
-    <string name = "pref_camera_volumekey_function_title">Volume buttons</string>
+    <string name = "pref_camera_volumekey_function_title">Tombol pengatur suara</string>
     <string name = "pref_camera_volumekey_function_default" translatable="false">zoom</string>
 
     <!-- 长按连拍 -->
     <string name = "pref_camera_long_pressing_burst_shooting_title">Burst shoot</string>
-    <string name = "pref_camera_long_pressing_burst_shooting_entry_off">Off</string>
-    <string name = "pref_camera_long_pressing_burst_shooting_entry_on">On</string>
+    <string name = "pref_camera_long_pressing_burst_shooting_entry_off">Matikan</string>
+    <string name = "pref_camera_long_pressing_burst_shooting_entry_on">Nyalakan</string>
     <string name = "pref_camera_long_pressing_burst_shooting_default">on</string>
 
     <!-- 白平衡K值 -->
-    <string name="pref_camera_current_k_value">Current value</string>
+    <string name="pref_camera_current_k_value">Nilai sekarang</string>
 
     <!-- notify user when fail to start audio capture -->
-    <string name="error_fail_to_start_audio_capture">Failed to start audio capture. Microphone may be being used by other apps.</string>
+    <string name="error_fail_to_start_audio_capture">Gagal unutk merekam suara. Kemungkinan Microphone sedang digunakan oleh aplikasi lain.</string>
 
     <!-- notify user when start audio capture -->
-    <string name="toast_start_audio_capture">Make a sound to trigger the shutter</string>
-    <string name="record_back_pressed_hint">Touch again to stop recording</string>
-    <string name="can_not_play_video">Unlock screen to view playback</string>
+    <string name="toast_start_audio_capture">Buat suara untuk memicu shutter</string>
+    <string name="record_back_pressed_hint">Sentuh lagi untuk berhenti merekam</string>
+    <string name="can_not_play_video">Buka layar untuk memutar kembali</string>
     <!-- The button to switch to Video mode. [CHAR LIMIT = NONE] -->
     <!-- The button to switch to Panorama mode. [CHAR LIMIT = NONE] -->
 
     <!-- burst snap -->
-    <string name="toast_burst_snap_finished_start">"Burst shoot finished:"</string>
-    <string name="toast_burst_snap_finished_end">photos</string>
+    <string name="toast_burst_snap_finished_start">"Pengambilan gambar beruntun selesai:"</string>
+    <string name="toast_burst_snap_finished_end">foto</string>
     <string name="toast_burst_snap_forbidden_when_hdr_open">Burst shooting is not supported when HDR is ON</string>
-    <string name="toast_burst_snap_forbidden_when_audio_capture_open">Burst shooting is not supported when Audio Capture is ON</string>
-    <string name="toast_burst_snap_forbidden_when_iso_not_auto">Burst shooting is not supported when ISO is not set to \'auto\'.</string>
+    <string name="toast_burst_snap_forbidden_when_audio_capture_open">Pengambilan gambar beruntun tidak dapat dilakukan ketika HDR menyala</string>
+    <string name="toast_burst_snap_forbidden_when_iso_not_auto">Anda perlu mengeset ISO \'otomatis\'.</string>
 
-    <string name="time_lapse_error">Invalid video-size for time-lapse recording</string>
+    <string name="time_lapse_error">Tidak dapat menggunakan ukuran video ini untuk perekaman time-lapse</string>
 
     <!-- MovieSolid -->
     <string name="pref_camera_movie_solid_default">on</string>
     <string name="pref_camera_movie_solid_title">Movie solid</string>
-    <string name="pref_camera_movie_solid_entry_off">Off</string>
-    <string name="pref_camera_movie_solid_entry_on">On</string>
+    <string name="pref_camera_movie_solid_entry_off">Matikan</string>
+    <string name="pref_camera_movie_solid_entry_on">Nyalakan</string>
     <string name="pref_camera_movie_solid_value_off">off</string>
     <string name="pref_camera_movie_solid_value_on">on</string>
 
     <!-- Storage option -->
     <string name="pref_camera_storage_external_default">off</string>
-    <string name="pref_camera_storage_external_title">Storage device</string>
-    <string name="pref_camera_storage_external_entry_off">Phone storage</string>
+    <string name="pref_camera_storage_external_title">Media penyimpanan</string>
+    <string name="pref_camera_storage_external_entry_off">Penyimpanan telepon</string>
     <string name="pref_camera_storage_external_entry_on">SD card</string>
     <string name="pref_camera_storage_external_value_off">off</string>
     <string name="pref_camera_storage_external_value_on">on</string>
 
     <!-- Add for Gallery3d Start -->
     <string name="unit_mm">mm</string>
-    <string name="share">Share</string>
-    <string name="send">Send</string>
-    <string name="Import">Import</string>
-    <string name="delete">Delete</string>
+    <string name="share">Berbagi</string>
+    <string name="send">Kirim</string>
+    <string name="Import">Impor</string>
+    <string name="delete">Hapus</string>
     <string name="slideshow">Slideshow</string>
     <string name="edit">Edit</string>
-    <string name="rotate_left">Rotate left</string>
-    <string name="rotate_right">Rotate right</string>
-    <string name="set_image">Set picture as</string>
+    <string name="rotate_left">Putar ke kiri</string>
+    <string name="rotate_right">Putar ke kanan</string>
+    <string name="set_image">Jadikan gambar sebagai</string>
     <string name="details">Details</string>
-    <string name="show_on_map">Show on map</string>
-    <string name="select_image">Select photo</string>
-    <string name="select_video">Select video</string>
-    <string name="select_item">Select item</string>
+    <string name="show_on_map">Tunjukkan pada peta</string>
+    <string name="select_image">Pilih foto</string>
+    <string name="select_video">Pilih video</string>
+    <string name="select_item">pilih item</string>
     <string name="details_ms">%1$02d:%2$02d</string>
     <string name="details_hms">%1$d:%2$02d:%3$02d</string>
-    <string name="import_complete">Import complete</string>
-    <string name="import_fail">Import failed</string>
-    <string name="auto">Auto</string>
-    <string name="flash_on">Flash fired</string>
-    <string name="flash_off">No flash</string>
+    <string name="import_complete">Impor selesai</string>
+    <string name="import_fail">Impor gagal</string>
+    <string name="auto">Otomatis</string>
+    <string name="flash_on">Flash Dinyalakan</string>
+    <string name="flash_off">Flash dimatikan</string>
     <string name="manual">Manual</string>
-    <string name="close">Close</string>
+    <string name="close">Tutup</string>
     <string name="details_title">%1$d of %2$d items:</string>
-    <string name="set_label_local_albums">Local albums</string>
-    <string name="folder_camera">Camera</string>
-    <string name="folder_download">Download</string>
-    <string name="folder_imported">Imported</string>
+    <string name="set_label_local_albums">Album lokal</string>
+    <string name="folder_camera">Kamera</string>
+    <string name="folder_download">Unduh</string>
+    <string name="folder_imported">Diimport</string>
     <string name="folder_screenshot">Screenshot</string>
-    <string name="deleted">Deleted</string>
-    <string name="undo">Undo</string>
+    <string name="deleted">Dihapus</string>
+    <string name="undo">Ulangi</string>
     <string name="ok">OK</string>
-    <string name="cancel">Cancel</string>
-    <string name="set_as">Set as</string>
-    <string name="no_thumbnail">No thumbnail</string>
-    <string name="loading">Loading\u2026</string>
+    <string name="cancel">batalkan</string>
+    <string name="set_as">Jadikan sebagai</string>
+    <string name="no_thumbnail">tanpa thumbnail</string>
+    <string name="loading">Memuat\u2026</string>
     <string name="crop_saved">
         Cropped image saved to <xliff:g id="folder_name">%s</xliff:g>.</string>
-    <string name="video_err">Can\'t play video</string>
+    <string name="video_err">Tidak dapat memutar video</string>
         <!-- String Delete the selected media item(s) [CHAR LIMIT=50] -->
     <plurals name="delete_selection">
-        <item quantity="one">Delete selected item?</item>
-        <item quantity="other">Delete selected items?</item>
+        <item quantity="one">Hapus item yang dipilih?</item>
+        <item quantity="other">Hapus item yang dipilih?</item>
     </plurals>
     <string name="iso">ISO</string>
     <string name="exposure_time">Exposure time</string>
@@ -884,120 +884,120 @@
     <string name="focal_length">Focal Length</string>
     <string name="aperture">Aperture</string>
     <string name="flash">Flash</string>
-    <string name="description">Description</string>
-    <string name="duration">Duration</string>
-    <string name="file_size">File size</string>
-    <string name="height">Height</string>
-    <string name="loading_video">Loading video\u2026</string>
-    <string name="location">Location</string>
-    <string name="maker">Maker</string>
+    <string name="description">Deskripsi</string>
+    <string name="duration">Durasi</string>
+    <string name="file_size">Besar file</string>
+    <string name="height">Tinggi</string>
+    <string name="loading_video">Memuat video\u2026</string>
+    <string name="location">Lokasi</string>
+    <string name="maker">Pembuat</string>
     <string name="mimetype">MIME type</string>
     <string name="model">Model</string>
-    <string name="orientation">Orientation</string>
+    <string name="orientation">orientasi</string>
     <string name="path">Path</string>
-    <string name="time">Time</string>
-    <string name="title">Title</string>
-    <string name="group_by">Group by</string>
-    <string name="group_by_album">By album</string>
-    <string name="group_by_faces">By people</string>
-    <string name="group_by_location">By location</string>
-    <string name="group_by_tags">By tags</string>
-    <string name="group_by_time">By time</string>
-    <string name="locations">Locations</string>
-    <string name="people">People</string>
-    <string name="resume_playing_message">Resume playing from %s?</string>
-    <string name="resume_playing_restart">Start over</string>
-    <string name="resume_playing_resume">Resume playing</string>
-    <string name="resume_playing_title">Resume video</string>
-    <string name="show_all">Images &amp; videos</string>
-    <string name="show_images_only">Images only</string>
-    <string name="show_videos_only">Videos only</string>
+    <string name="time">Waktu</string>
+    <string name="title">Judul</string>
+    <string name="group_by">Dikelompokkan dengan</string>
+    <string name="group_by_album">dengan album</string>
+    <string name="group_by_faces">dengan orang</string>
+    <string name="group_by_location">dengan lokasi</string>
+    <string name="group_by_tags">dengan tags</string>
+    <string name="group_by_time">dengan waktu</string>
+    <string name="locations">Lokasi</string>
+    <string name="people">Orang</string>
+    <string name="resume_playing_message">Lanjutkan menonton dari %s?</string>
+    <string name="resume_playing_restart">memulai kembali</string>
+    <string name="resume_playing_resume">Melanjutkan menonton</string>
+    <string name="resume_playing_title">Melanjutkan video</string>
+    <string name="show_all">Gambar &amp; video</string>
+    <string name="show_images_only">hanya gambar</string>
+    <string name="show_videos_only">hanya video</string>
     <string name="tags">Tags</string>
-    <string name="times">Times</string>
-    <string name="width">Width</string>
+    <string name="times">Waktu</string>
+    <string name="width">Lebar</string>
     <string name="albums">Albums</string>
-    <string name="select_all">Select all</string>
-    <string name="set_label_all_albums">All albums</string>
-    <string name="send_multiple_files_hint_format">%s sent</string>
+    <string name="select_all">Pilih semua</string>
+    <string name="set_label_all_albums">Semua album</string>
+    <string name="send_multiple_files_hint_format">%s terkirim</string>
     <!-- Add for Gallery3d End -->
 
-    <string name="simple_mode_button_text_hdr">Close HDR mode</string>
-    <string name="simple_mode_button_text_hand_night">Close Handheld Twilight mode</string>
-    <string name="simple_mode_button_text_panorama">Close panorama</string>
-    <string name="simple_mode_button_text_color_effect">Close filters</string>
-    <string name="simple_mode_button_text_audio_capture">Close audio capture</string>
-    <string name="simple_mode_button_text_slow_video">Close slow-motion</string>
+    <string name="simple_mode_button_text_hdr">Tutup modus HDR</string>
+    <string name="simple_mode_button_text_hand_night">Tutup modus Handheld Twilight</string>
+    <string name="simple_mode_button_text_panorama">Tutup panorama</string>
+    <string name="simple_mode_button_text_color_effect">Tutup filters</string>
+    <string name="simple_mode_button_text_audio_capture">tutup penangkapan suara</string>
+    <string name="simple_mode_button_text_slow_video">Tutup slow-motion</string>
 
     <string name="pref_camera_coloreffect_title_simple_mode">Filters</string>
     <string name="pref_video_slow_speed_title_simple_mode">Slow-motion</string>
 
-    <string name="simple_mode_title">Simple mode</string>
-    <string name="pref_settings_mode">Camera mode</string>
+    <string name="simple_mode_title">Modus simple</string>
+    <string name="pref_settings_mode">Modus kamera</string>
 
-    <string name="pref_video_captrue_ability_title">Capture ability</string>
+    <string name="pref_video_captrue_ability_title">Kemampuan penangkapan</string>
 
 
     <!-- QR code camera_app_root-->
-    <string name="find_mecard_qrcode">Find Mecard QR code</string>
-    <string name="find_wechat_qrcode">Find WeChat QR code</string>
-    <string name="find_market_qrcode">Find Market QR code</string>
-    <string name="find_web_qrcode">Find Web QR code</string>
-    <string name="find_other_qrcode">Find other QR code</string>
-    <string name="find_qq_qrcode">Find QQ QR code</string>
-    <string name="find_wifi_qrcode">Find Wi-Fi QR code</string>
-    <string name="see_qrcode_detals">See details</string>
+    <string name="find_mecard_qrcode">Cari kode QR Mecard</string>
+    <string name="find_wechat_qrcode">Cari kode QR WeChat</string>
+    <string name="find_market_qrcode">Cari kode QR Market </string>
+    <string name="find_web_qrcode">Cari kode QR  Web</string>
+    <string name="find_other_qrcode">Cari kode QR lainnya</string>
+    <string name="find_qq_qrcode">Cari kode QR QQ</string>
+    <string name="find_wifi_qrcode">Cari kode QR Wi-Fi</string>
+    <string name="see_qrcode_detals">Lihat lebih lengkap</string>
 
     <!-- QR code fragment-->
-    <string name="scan_qrcode">Scan QR code</string>
-    <string name="app_details">App details:</string>
-    <string name="website_details">Web site details:</string>
-    <string name="contact_details">Contact details:</string>
-    <string name="wechat_details">WeChat details:</string>
-    <string name="qr_code_details">QR code details:</string>
-    <string name="import_contact">Import contact</string>
-    <string name="secure_access_web_url">Secure access</string>
-    <string name="download_by_browser">Download with Browser</string>
-    <string name="launch_market">Launch Market</string>
-    <string name="launch_wechat">Launch WeChat</string>
-    <string name="download_wechat">Download WeChat</string>
-    <string name="see_app_details">See app details</string>
-    <string name="copy_text">Copy text</string>
-    <string name="copy_text_success">Text copied</string>
-    <string name="contact_name">Name</string>
-    <string name="contact_nickname">Nickname</string>
-    <string name="contact_company">Company</string>
-    <string name="contact_title">Title</string>
-    <string name="contact_phone">Phone</string>
+    <string name="scan_qrcode">Pindai Kode QR </string>
+    <string name="app_details">Detail Aplikasi:</string>
+    <string name="website_details">Detail website:</string>
+    <string name="contact_details">Detail kontak:</string>
+    <string name="wechat_details">Detail WeChat:</string>
+    <string name="qr_code_details">Detail kode QR:</string>
+    <string name="import_contact">Impor kontak</string>
+    <string name="secure_access_web_url">Akses yang aman</string>
+    <string name="download_by_browser">Download dengan browser</string>
+    <string name="launch_market">Luncurkan Aplikasi Xiaomi Market</string>
+    <string name="launch_wechat">Luncurkan WeChat</string>
+    <string name="download_wechat">Unduh WeChat</string>
+    <string name="see_app_details">Lihat detail aplikasi</string>
+    <string name="copy_text">Kopi teks</string>
+    <string name="copy_text_success">Teks dikopi</string>
+    <string name="contact_name">Nama</string>
+    <string name="contact_nickname">Nama panggilan</string>
+    <string name="contact_company">Perusahaan</string>
+    <string name="contact_title">Jabatan</string>
+    <string name="contact_phone">Telepon</string>
     <string name="contact_email">Email</string>
     <string name="contact_web">Web</string>
-    <string name="contact_address">Address</string>
-    <string name="contact_birthday">Birthday</string>
-    <string name="contact_note">Note</string>
-    <string name="success_message_import_from_account">Imported</string>
-    <string name="web_url_warning">The linked web site comes from an unknown source and may be a security risk.</string>
-    <string name="web_url_apk_warning">This app comes from an unknown source and may be a security risk. Only install apps from sources you trust.</string>
+    <string name="contact_address">Alamat</string>
+    <string name="contact_birthday">Ulang Tahun</string>
+    <string name="contact_note">Catatan</string>
+    <string name="success_message_import_from_account">Berhasil diimpor</string>
+    <string name="web_url_warning">Situs web yang ditautkan berasal dari sumber yang tidak diketahui dan mungkin menjadi resiko keamanan.</string>
+    <string name="web_url_apk_warning">Aplikasi ini berasal dari sumber yang tidak diketahui dan mungkin menjadi resiko keamanan. Installah aplikasi dari sumber yang Anda percaya.</string>
     <string name="wifi_ssid">SSID:</string>
     <string name="wifi_pwd">Password:</string>
     <string name="wifi_security">Security:</string>
-    <string name="wifi_details">Wi-Fi details:</string>
-    <string name="connect_wifi">Connect to this network</string>
-    <string name="qq_details">QQ details:</string>
-    <string name="launch_qq">Launch QQ in Browser</string>
-    <string name="download_qq">Download QQ</string>
-    <string name="wifi_warning">Before you connect, verify that the network you\'re using is secure.</string>
+    <string name="wifi_details">Detail Wi-Fi:</string>
+    <string name="connect_wifi">Terhubung ke network ini</string>
+    <string name="qq_details">Detail QQ:</string>
+    <string name="launch_qq">Luncurkan QQ dibrowser</string>
+    <string name="download_qq">Unduh QQ</string>
+    <string name="wifi_warning">Sebelum tersambung, pastikan jaringan yang digunakan aman.</string>
 
-    <string name="cloud_album_details">Cloud album details:</string>
-    <string name="visit_cloud_album">Visit cloud album</string>
-    <string name="find_cloud_album">Find a cloud album QR code</string>
+    <string name="cloud_album_details">Detail album Cloud:</string>
+    <string name="visit_cloud_album">Kunjungi album cloud</string>
+    <string name="find_cloud_album">Cari kode QR album cloud </string>
 
-    <string name="wifi_connecting">Connecting\u2026</string>
-    <string name="wifi_open_fail">Unable to open Wi-Fi</string>
+    <string name="wifi_connecting">Menyambungkan\u2026</string>
+    <string name="wifi_open_fail">Tidak dapat membuka Wi-Fi</string>
     <string name="wifi_connect_fail">Connection timed out</string>
-    <string name="wifi_connect_success">Connected</string>
+    <string name="wifi_connect_success">Terhubung</string>
 
-    <string name="pref_scan_qrcode_title">Scan QR Code</string>
-    <string name="pref_scan_qrcode_entry_off">Off</string>
-    <string name="pref_scan_qrcode_entry_on">On</string>
+    <string name="pref_scan_qrcode_title">Pindai kode QR</string>
+    <string name="pref_scan_qrcode_entry_off">Matikan</string>
+    <string name="pref_scan_qrcode_entry_on">Nyalakan</string>
     <string name="pref_scan_qrcode_default" translatable="false">on</string>
     <string name="pref_scan_qrcode_value_off" translatable="false">off</string>
     <string name="pref_scan_qrcode_value_on" translatable="false">on</string>
