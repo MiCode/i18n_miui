@@ -186,4 +186,5 @@
     <string name="toast_fm_not_stated">FM Radio hasn\'t started yet</string>
     <string name="toast_fm_error_startfailed">Recordding error.Another app may be using the recording function. Please check and try again.</string>
     <string name="toast_fm_recorder_access_error">Can\'t record while you\'re in Guest mode</string>
+    <string name="msg_fm_starting">Starting\u2026</string>
 </resources>

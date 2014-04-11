@@ -555,8 +555,6 @@
     <string name="menu_item_sort_name_desc">Name (ascending)</string>
     <string name="menu_item_sort_size_asc">Size (ascending)</string>
     <string name="menu_item_sort_size_desc">Size (descending)</string>
-    <string name="menu_item_sort_visit_asc">Frequency (ascending)</string>
-    <string name="menu_item_sort_visit_desc">Frequency (descending)</string>
     <string name="menu_item_sort_date_asc">Date (ascending)</string>
     <string name="menu_item_sort_date_desc">Date (descending)</string>
     <string name="operation_rename">Rename</string>
@@ -748,6 +746,7 @@
     <string name="autohomemain">Autohomemain</string>
     <string name="baidu_bdmobile_downloads">Baidu Mobile</string>
     <string name="tieba">Tie Ba</string>
+    <string name="yellow_page">Directory</string>
     <!-- white list ends -->
 
     <!-- tips of scanning barcode -->

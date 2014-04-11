@@ -11,13 +11,6 @@
     <string name="default_reminder_mode">Default reminder mode</string>
     <string name="time_zone">Time zone</string>
 
-    <!-- Month List -->
-    <string name="event_lunar_month">月</string>
-    <string name="huangli_label">老黄历</string>
-    <string name="holiday_label">节日</string>
-    <string name="huangli_good_type">宜</string>
-    <string name="huangli_bad_type">忌</string>
-
     <string name="event_all_day_label">All Day</string>
     <string name="today_no_events">No agenda today</string>
 
@@ -33,17 +26,6 @@
     <string name="event_info_repeat">Repetition:\u0020</string>
     <string name="event_info_where">Where:\u0020</string>
     <string name="event_info_descrip">Description:\u0020</string>
-
-    <!-- No translation -->
-    <string name="chongsha">冲煞</string>
-    <string name="wuxing">五行</string>
-    <string name="xingxiu">星宿</string>
-    <string name="taishen">胎神</string>
-    <string name="pengzu">彭祖</string>
-    <string name="zhushen">诸神</string>
-
-    <string name="activity_title">MIUI新年送礼</string>
-    <string name="activity_summary">充值10元抽奖</string>
 
     <!-- Date Picker -->
     <string name="lunar_date">Lunar Date</string>
@@ -66,27 +48,11 @@
     <string name="month_medium_november">Nov</string>
     <string name="month_medium_december">Dec</string>
 
-    <!-- 在线订阅 -->
-    <string name="online_calendar_activity_label">订阅日历</string>
-    <string name="tab_local">已订阅</string>
-    <string name="tab_online">在线</string>
-    <string name="add_calendar">订阅</string>
-    <string name="exist_calendar">已订阅</string>
-    <string name="delete_calendar">退订</string>
-    <string name="delete_topic_dialog_title">确认要退订\"%s\"吗？</string>
-    <string name="add_topic_success">订阅\"%s\"成功</string>
-    <string name="delete_topic_success">退订\"%s\"成功</string>
-    <string name="calendar_server_error">网络错误</string>
-    <string name="label_recent_events">近期事件</string>
-    <string name="no_local_calendar">没有订阅日历 :)</string>
-    <string name="no_network">无网络，请联网再刷新一下试试 :)</string>
-    <string name="refresh">刷新</string>
-    <string name="movable_list_header_label">简介</string>
-    <string name="today_weather_unavailable">无法获取天气信息</string>
-    <string name="subscribe_all">全部订阅</string>
-    <string name="enter_calendar">进入日历</string>
-
     <string name="pref_title_no_remind">No reminder</string>
     <string name="pref_title_notification_remind">Notification reminder</string>
     <string name="pref_title_alert_remind">Pop-up reminder</string>
+    <string name="pref_title_alarm_remind">Alarm reminder</string>
+
+    <string name="event_date_format">MM/dd</string>
+    <string name="event_full_date_format">MM/dd/yyyy</string>
 </resources>
