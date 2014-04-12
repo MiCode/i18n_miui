@@ -186,4 +186,5 @@
     <string name="toast_fm_not_stated">Radio FM tidak memulai</string>
     <string name="toast_fm_error_startfailed">Kesalahan perekaman. Aplikasi lain mungkin memakai fungsi perekaman. Silahkan cek dan coba lagi.</string>
     <string name="toast_fm_recorder_access_error">Tidak bisa merekam saat Anda berada dalam mode tamu</string>
+	<string name="msg_fm_starting">Memulai\u2026</string>
 </resources>

@@ -85,7 +85,7 @@
     <string name="pref_title_update_notification">Tampilkan pemberitahuan penggunaan data</string>
     <string name="pref_title_traffic_speed_state">Tampilkan kecepatan jaringan</string>
     <string name="pref_show_mobile_traffic">Bila Anda membuka telepon Anda, menunjukkan statistik penggunaan data untuk periode saat perangkat Anda terkunci (harus lebih dari
-3 menit)</string>
+5 menit)</string>
     <string name="pref_title_mobile_traffic">Tampilkan penggunaan data sementara terkunci</string>
     <string name="pref_title_declaration">Deklarasi penting</string>
     <string name="pref_about">Tentang</string>

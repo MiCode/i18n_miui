@@ -555,8 +555,6 @@
     <string name="menu_item_sort_name_desc">Nama (naik)</string>
     <string name="menu_item_sort_size_asc">Ukuran (naik)</string>
     <string name="menu_item_sort_size_desc">Ukuran (turun)</string>
-    <string name="menu_item_sort_visit_asc">Frekuensi (naik)</string>
-    <string name="menu_item_sort_visit_desc">Frekuensi (turun)</string>
     <string name="menu_item_sort_date_asc">Tanggal (naik)</string>
     <string name="menu_item_sort_date_desc">Tanggal (turun)</string>
     <string name="operation_rename">Ubah nama</string>
@@ -748,6 +746,7 @@
     <string name="autohomemain">Autohomemain</string>
     <string name="baidu_bdmobile_downloads">Baidu Mobile</string>
     <string name="tieba">Tie Ba</string>
+	<string name="yellow_page">Direktori</string>
     <!-- white list ends -->
 
     <!-- tips of scanning barcode -->
