@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="app_name">สำรองข้อมูล</string>
+  <string name="local_app_name">สำรองข้อมูล</string>
+  <string name="local_home_title">สำรองข้อมูลภายใน</string>
+  <string name="button_backup">สำรองข้อมูล</string>
+  <string name="start_backup">สำรองข้อมูล</string>
+  <string name="button_cancel">ยกเลิก</string>
+  <string name="backup_empty">ไม่มีสำรองข้อมูล</string>
+  <string name="backup_items_sysdata_tailer">" \u0020ไฟล์ข้อมูลระบบ "</string>
+  <string name="backup_items_app_tailer">" \u0020ไฟล์ข้อมูลแอป "</string>
+  <string name="backup_failed">สำรองข้อมูลล้มเหลว</string>
+  <string name="backup_recently">" \u0020(ล่าสุด) "</string>
+  <string name="sdcard_unmounted">ไม่พบการ์ดความจำ</string>
+  <string-array name="backup_dialog_content_type">
+    <item>ข้อมูล  Wi-Fi</item>
+    <item>แอปทั้งหมด</item>
+  </string-array>
+  <string-array name="system_package_label">
+    <item>เบราเซอร์</item>
+    <item>คลังภาพ</item>
+    <item>อนุญาติ</item>
+    <item>กล้อง</item>
+    <item>ทราฟฟิก</item>
+    <item>ข้อมูลพยากรณ์อากาศ</item>
+    <item>พยากรณ์อากาศ</item>
+  </string-array>
+  <string-array name="system_data_label">
+    <item>รายชื่อ</item>
+    <item>บันทึกการโทร</item>
+    <item>ข้อความ</item>
+    <item>ข้อความมัลติมีเดีย</item>
+    <item>การตั้งค่าระบบ</item>
+    <item>การตั้งค่า  Wi-Fi</item>
+    <item>รูปแบบหน้าจอ</item>
+    <item>การตั้งค่าการปลุก</item>
+    <item>โน๊ต</item>
+    <item>ห้ามรบกวน</item>
+    <item>บัญชี</item>
+  </string-array>
+  <string name="backup_progress">กำลังสำรองข้อมูล\u2026;</string>
+  <string name="button_ok">ตกลง</string>
+  <string name="button_continue">เริ่มต่อ</string>
+  <string name="backup_finished">สำรองข้อมูลเสร็จสิ้น</string>
+  <string name="backup_report">แสดงรายละเอียดสำรองข้อมูล</string>
+  <string name="backup_hint">ห้ามปิดโทรศัพท์มือถือ</string>
+  <string name="menu_patch_delete">ลบสำรองข้อมูล</string>
+  <string name="delete">ลบ</string><string name="cancel">ยกเลิก</string>
+  <string name="delete_backup_process">กำลังลบ\u2026</string>
+  <string name="backup_error">สำรองข้อมูลล้มเหลว</string>
+  <string name="delete_failed_backup_confirm">สำรองข้อมูลไม่สามารถคืนค่าข้อมูลอาจเพราะเกิดข้อผิดพลาดขึ้น</string>
+  <string name="batch_delete_backup_confirm">ลบ <xliff:g id="COUNT">%d</xliff:g> สำรองข้อมูล?</string>
+  <string name="start_restore">คืนค่า</string>
+  <string name="backup_file_error">สำรองข้อมูลล้มเหลว</string>
+  <string-array name="app_type_desc">
+    <item>ข้อมูล</item>
+    <item>แอป</item>
+    <item>แอปและข้อมูล</item>
+  </string-array>
+  <string name="unit_byte">\u0020 ไบต์</string>
+  <string name="unit_piece">\u0020 รายการ</string>
+  <string name="restore_finished">คืนค่าเสร็จสิ้น</string>
+  <string name="restore_report">รายงานการคืนค่า</string>
+  <string name="restore_progress">กำลังคืนค่า\u2026</string>
+  <string name="restore_contacts_hit">จำเป็นต้องเข้าระบบอีกครั้งเพื่อแสดงข้อมูลการคืนค่า</string>
+  <string name="restore_telephony_hit">กำลังคืนค่าจะรีสตาร์ทแอปโทรศัพท์</string>
+  <string name="restore_launcher_layout_hit">คืนค่าการตั้งค่าตัวเรียกใช้</string>
+  <string name="settings_summary">": การตั้งค่าโทรศัพท์และข้อความ"</string>
+  <string name="account_summary">คืนค่าบัญชี Google บัญชี Xiaomi และข้อมูลผู้ใช้อื่นๆ</string>
+  <string name="cloud_app_name">สำรองข้อมูล Mi คลาวด์</string>
+  <string name="cloud_home_title">Mi คลาวด์</string>
+  <string name="prompt_reading">กำลังอ่าน\u2026</string>
+  <string name="prompt_sending">กำลังอัปโหลด\u2026</string>
+  <string name="prompt_writing">กำลังบันทึก\u2026</string>
+  <string name="backup_new">ใหม่:</string>
+  <string name="backup_update">อัปเดต</string>
+  <string name="backup_delete">ลบ:</string>
+  <string name="findlost_contact">คืนค่ารายชื่อ</string>
+  <string name="findlost_contact_online">คืนค่ารายชื่อจากคลาวด์</string>
+  <string name="cloud_backup_login">เข้าระบบด้วยบัญชี Xiaomi</string>
+  <string name="cloud_backup_hint">เพื่อเข้าถึงสำรองข้อมูล กรุณาเข้าระบบเดี๋ยวนี้</string>
+  <string name="cloud_backup_window_title">สำรองข้อมูลคลาวด์</string>
+  <string name="cloud_restore_window_title">คืนค่าคลาวด์</string>
+  <string name="cloud_restore_title">คืนค่าสำรองข้อมูล</string>
+  <string name="local_backup_window_title">สำรองข้อมูลภายใน</string>
+  <string name="local_restore_window_title">คืนค่าภายใน</string>
+  <string name="account_login">เข้าระบบ</string>
+  <string name="miliao_account_login">เข้าระบบด้วยทอร์ค</string>
+  <string name="miliao_account_guide">สร้างบัญชี Xiaomi เพื่อใช้งานบริการ Xiaomi</string>
+  <string name="auto_backup">สำรองข้อมูลอัตโนมัติ</string>
+  <string name="contact_title">รายชื่อ</string>
+  <string name="call_title">บันทึกการโทร</string>
+  <string name="sms_title">ข้อความ</string>
+  <string name="mms_title">ข้อความมัลติมีเดีย</string>
+  <string name="wifi_title">การตั้งค่า   Wi-Fi</string>
+  <string name="note_title">โน๊ต</string>
+  <string name="compute_backup_info">กำลังรับรายละเอียดสำรองข้อมูล\u2026</string>
+  <string name="compute_delete_contact_info">กำลังค้นหารายชื่อเพื่อลบ\u2026</string>
+  <string name="unknown_hint">ไม่รู้จัก</string>
+  <string-array name="cloud_data_label">
+    <item>รายชื่อ</item>
+    <item>บันทึกการโทร</item>
+    <item>ข้อความ</item>
+    <item>การตั้งค่า  Wi-Fi</item>
+    <item>โน๊ต</item>
+  </string-array>
+  <string-array name="cloud_account_data">
+    <item>รายชื่อ</item>
+    <item>การตั้งค่า  Wi-Fi</item>
+    <item>โน๊ต</item>
+  </string-array>
+  <string-array name="cloud_sim_data">
+    <item>บันทึกการโทร</item>
+    <item>ข้อความ</item>
+  </string-array>
+  <string name="task_progress">ดำเนินการ</string>
+  <string name="task_pending">กำลังรอ\u2026</string>
+  <string name="task_pre_running">กำลังเริ่มต้น\u2026</string>
+  <string name="task_post_running">กำลังดำเนินการ\u2026</string>
+  <string name="task_finished">สำรองข้อมูลเสร็จสิ้น</string>
+  <string name="task_canceled">ยกเลิกสำรองข้อมูล</string>
+  <string name="task_failed">ล้มเหลว</string>
+  <string name="task_canceled_local"> <xliff:g id="PERCENT">%s</xliff:g> ถูกยกเลิก</string>
+  <string name="task_canceled_all_local">ยกเลิก</string>
+  <string name="task_failed_local">ล้มเหลว: <xliff:g id="PERCENT">%s</xliff:g></string>
+  <string name="task_failed_all_local">ล้มเหลว</string>
+  <string name="task_backup_finished_local">สำรองข้อมูลเสร็จสิ้น</string>
+  <string name="task_restore_finished_local">คืนค่าเสร็จสิ้น</string>
+  <string name="task_restore_none">ไม่จำเป็นต้องคืนค่า</string>
+  <string name="task_stopped_exception">ยกเลิกคืนค่า</string>
+  <string name="sdcard_no_enough_space">พื้นที่ไม่เพียงพอ</string>
+  <string name="sdcard_no_enough_space_message">พื้นที่บนการ์ดความจำไม่เพียงพอ</string>
+  <string name="data_no_enough_space">พื้นที่ไม่เพียงพอ</string>
+  <string name="data_no_enough_space_message">พื้นที่บนโทรศัพท์ไม่เพียงพอ</string>
+  <string name="task_running_hint">ดำเนินการแล้วในพื้นหลัง</string>
+  <string name="task_running_dialog">ดำเนินการสำรองข้อมูลและคืนค่า สัมผัส ตกลง เพื่อแสดง</string>
+  <string name="task_running_backup_hint">ดำเนินการแล้วในพื้นหลัง</string>
+  <string name="task_running_restore_hint">ดำเนินการแล้วในพื้นหลัง</string>
+  <string name="task_running_backup_dialog">ดำเนินการสำรองข้อมูล สัมผัส ตกลง เพื่อแสดง</string>
+  <string name="task_running_restore_dialog">ดำเนินการคืนค่า สัมผัส ตกลง เพื่อแสดง</string>
+  <string name="task_service_not_launched">ยังไม่เริ่มดำเนินการ</string>
+  <string name="task_local_backup_cancel_dialog">สำรองข้อมูลยังไม่เสร็จสิ้น ต้องการยกเลิก?</string>
+  <string name="task_cloud_backup_cancel_dialog">สำรองข้อมูลยังไม่เสร็จสิ้น ต้องการยกเลิก?</string>
+  <string name="task_restore_cancel_dialog">หากหยุดดำเนินการตอนนี้อาจจะทำให้ข้อมูลสูญหาย</string>
+  <string name="task_backup_cancel_progress">กำลังยกเลิกสำรองข้อมูล\u2026</string>
+  <string name="task_restore_cancel_progress">กำลังยกเลิก\u2026</string>
+  <string name="nothing_searched">ไม่พบข้อมูล</string>
+  <string name="restore_counts">คืนค่า:</string>
+  <string name="service_stoped">บริการถูกหยุดแล้ว</string>
+  <string name="sc_network_unavailable">การเชื่อมต่อเครือข่ายล้มเหลว</string>
+  <string name="sc_bad_request">Bad request</string>
+  <string name="sc_unaccess_password_file">ไม่เก็บรหัสผ่าน Wi-Fi</string>
+  <string name="sc_service_unavailable">ไม่สามารถใช้งานคลาวด์ได้</string>
+  <string name="sc_unauthorized">กรุณาเข้าระบบอีกครั้ง</string>
+  <string name="sc_request_timeout">หมดเวลาการร้องขอ</string>
+  <string name="sc_precondition_failed">จำเป็นต้องเชื่อมต่อบัญชี Xiaomi ด้วยอีเมลที่ถูกต้อง</string>
+  <string name="sc_internal_server_error">ข้อผิดพลาดเซิร์ฟเวอร์</string>
+  <string name="sc_others">ข้อผิดพลาด</string>
+  <string name="succeed">เสร็จสิ้น</string>
+  <string name="fail">ล้มเหลว</string>
+  <string name="button_return">ย้อนกลับ</string>
+  <string name="button_next">ถัดไป</string>
+  <string name="button_finish">เสร็จสิ้น</string>
+  <string name="progress_backup_hint">กำลังสำรองข้อมูล\u2026</string>
+  <string name="cancel_backup">หยุด</string>
+  <string name="restore_contact">คืนค่ารายชื่อ</string>
+  <string name="restore_contact_content">กำลังคืนค่าอาจจะสร้างรายชื่อซ้ำกัน</string>
+  <string name="progress_restore_hint">กำลังคืนค่า\u2026</string>
+  <string name="cancel_restore">หยุด</string>
+  <string name="restore_failed">คืนค่าล้มเหลว</string>
+  <string name="local_select_sysdata">ระบบ</string>
+  <string name="local_select_userapp">แอป</string>
+  <string name="local_select_account_contact">บัญชี &amp; รายชื่อ</string>
+  <string name="local_no_backup">ไม่มีสำรองข้อมูลภายใน</string>
+  <string name="auto_backup_setting">การตั้งค่าสำรองข้อมูลอัตโนมัติ</string>
+  <string name="auto_backup_open">สำรองข้อมูลอัตโนมัติ</string>
+  <string name="auto_backup_only_wifi">เมื่อเชื่อมต่อ Wi-Fiเท่านั้น</string>
+  <string name="auto_backup_date">ความถี่สำรองข้อมูล</string>
+  <string name="auto_backup_time">เวลาสำรองข้อมูล</string>
+  <string name="auto_backup_choose_title">เลือกรายการสำรองข้อมูล</string>
+  <string name="auto_backup_choose">รายการสำรองข้อมูล</string>
+  <string name="auto_backup_choose_empty">ไม่มีสำรองข้อมูล</string>
+  <string name="auto_backup_all_user_apps">แอปทั้งหมด</string>
+  <string name="auto_backup_selected_user_apps">แอปที่เลือกแล้ว</string>
+  <string name="auto_backup_select_user_apps">เลือกแอป</string>
+  <string name="auto_backup_system_data">ระบบ</string>
+  <string name="auto_backup_user_data">แอป</string>
+  <string name="auto_backup_progress">กำลังสำรองข้อมูล\u2026</string>
+  <string name="backup">สำรองข้อมูล</string>
+  <string name="restore">คืนค่า</string>
+  <string name="cloud_last_backup">สำรองข้อมูลล่าสุด:</string>
+  <string name="cloud_search">กำลังค้นหา\u2026</string>
+  <string name="cloud_no_backup">ไม่มีสำรองข้อมูล</string>
+  <string name="current_account">สวัสดี <xliff:g id="ACCOUNT">%s</xliff:g></string>
+  <string name="current_sim">ซิมการ์ดปัจจุบัน</string>
+  <string name="date_format" translatable="false">yyyy-MM-dd HH:mm:ss</string>
+  <string name="dir_date_format" translatable="false">yyyy-MM-dd_HH-mm-ss</string>
+  <string name="no_network">ไม่สามารถเชื่อมต่อไปยังเครือข่ายได้</string>
+  <string name="retry">ลองใหม่</string>
+  <string name="select_all">เลือกทั้งหมด</string>
+  <string name="reverse_all">ล้างทั้งหมด</string>
+  <string name="refresh">รีเฟรช</string>
+  <string name="cloud_item_info_summary">\u0020(ภายใน: <xliff:g id="LOCAL_COUNT">%1$s</xliff:g> | คลาวด์: <xliff:g id="CLOUD_COUNT">%2$s</xliff:g>)</string>
+  <string name="total_num"><xliff:g id="COUNT">%d</xliff:g> ทั้งหมด</string>
+  <string name="cloud_restore_guide">คืนค่าข้อมูลผู้ใช้ <xliff:g id="APP">%s</xliff:g> สัมผัสเพื่อคืนค่า</string>
+  <string name="import_from_xiaomi_account_hint1">1.\tดาวน์โหลดแอปพลิเคชันทอร์คและเข้าระบบ\n\thttp://www.miliao.com\n\n2.\tไปยังการตั้งค่าทอร์คและเลือก "สำรองข้อมูลรายชื่อไปยังบัญชี"</string>
+  <string name="import_from_xiaomi_account_hint2">หากสำรองข้อมูลแล้ว สัมผัส ถัดไป</string>
+  <string name="import_from_xiaomi_account_hint_title">ใช้ทอร์คเพื่อสำรองข้อมูลรายชื่อระหว่างอุปกรณ์</string>
+  <string name="guarded_mode_dialog_title">โหมดผู้เยี่ยมชม</string><string name="guarded_mode_dialog_message">ฟังก์ชันนี้ไม่อนุญาตในโหมดผู้เยี่ยมชม</string>
+  <string name="multi_select_title"><xliff:g id="number" example="15">%1$s</xliff:g> เลือกแล้ว</string>
+  <!-- encrypt -->
+  <string name="enable_encrypt_title">เปิดใช้งานการเข้ารหัส</string>
+  <string name="disable_encrypt_title">ปิดใช้งานการเข้ารหัส</string>
+  <string name="enable_encrypt_indicator">สัมผัสเพื่อเข้ารหัส</string>
+  <string name="enable_encrypt">เปิดใช้งาน</string>
+  <string name="already_enable_encrypt">เปิดใช้งานการเข้ารหัสแล้ว</string>
+  <string name="enable_encrypt_summery1">จำเป็นต้องเข้าระบบด้วยบัญชี Xiaomi เพื่อเข้าถึงการเข้ารหัสสำรองข้อมูล</string>
+  <string name="enable_encrypt_summery2">สำรองข้อมูลจะทำการเข้ารหัสอัตโนมัติ จำเป็นต้องเข้าระบบบัญชี Xiaomi เพื่อเช้าถึงการเข้ารหัสสำรองข้อมูล</string>
+  <string name="enable_encrypt_xiaomi_account">สำรองข้อมูลสร้างโดย <xliff:g id="account" example="110000">%1$s</xliff:g> เพื่อคืนค่า ลบบัญชีปัจจุบัน
+และเข้าระบบ <xliff:g id="account" example="110000">%2$s</xliff:g></string>
+  <string name="enable_encrypt_ok">ตกลง</string>
+  <string name="no_encrypt_password">ไม่มีรหัสผ่าน</string>
+  <string name="enable_encrypt_fail">การเข้ารหัสล้มเหลว</string>
+  <string name="read_encrypt_fail">ไม่สามรถอ่านการเข้ารหัสสำรองข้อมูลได้</string>
+  <string name="exchange_account">สลับบัญชี</string>
+
+    <string name="system_backup">สำรองข้อมูล</string>
+    <string name="backup_empty_info">" สำรองข้อมูล การตั้งค่าและแอปพลิเคชัน"</string>
+    <string name="system_backup_info">การตั้งค่าระบบและรูปแบบหน้าจอ</string>
+    <string name="software_backup_info">ข้อมูลแอป</string>
+    <string name="account_contact_backup_info">บัญชี Google บัญชี Xiaomi และข้อมูลรายชื่อ</string>
+    <string name="select_backup_item">เลือกรายการ</string>
+    <string name="restore_data">คืนค่าข้อมูล</string>
+    <string name="backup_data">สำรองข้อมูล</string>
+
+    <!-- cloud app backup & restore-->
+    <string name="cloud_app_backup_title">สำรองข้อมูลไปยังคลาวด์</string>
+    <string name="cloud_app_just_show_in_current_device">แสดงแอปพลิเคชันบนอุปกรณ์นี้เท่านั้น</string>
+    <string name="cloud_app_mine">แอปดาวน์โหลด</string>
+    <string name="cloud_app_backup_summary">สำรองแอปพลิเคชันและข้อมูลผู้ใช้เมื่อกำลังชาร์ตแบตเตอรี่และเชื่อมต่อ Wi-Fi</string>
+    <string name="cloud_app_function_summary">เมื่อสำรองข้อมูลไปยังคลาวด์ สามารถคืนค่าจากอุปกรณ์อื่นๆได้</string>
+    <string name="cloud_app_restore_action_bar_title">%1$s ข้อมูลสำรองข้อมูลแล้ว</string>
+    <string name="cloud_app_current_device">อุปกรณ์ปัจจุบัน</string>
+    <string name="cloud_app_other_devices">อุปกรณ์อื่นๆ</string>
+    <string name="cloud_app_delete_data">ลบสำรองข้อมูล</string>
+    <string name="cloud_app_backup_date">"สำรองข้อมูลบน "</string>
+    <string name="cloud_app_total_size">ขนาด: %1$s</string>
+    <string name="cloud_app_version_size">เวอร์ชัน: %1$s ขนาด: %2$s</string>
+    <string name="cloud_app_restore_prompt">กำลังคืนค่าจะแทนที่ข้อมูลผู้ใช้ด้วยข้อมูลที่สำรองในคลาวด์</string>
+    <string name="cloud_app_remove_prompt">%1$s จะถูกลบ</string>
+    <string name="cloud_app_find_backup_prompt_1">ก่อนจะคืนค่า ต้องการบันทึกข้อมูลภายใน?</string>
+    <string name="cloud_app_find_backup_prompt_2">หากไม่บันทึกข้อมูลตอนนี้ จะถูกแทนที่เมื่อทำการคืนค่า</string>
+    <string name="cloud_app_restore_data_title">คืนค่าข้อมูลผู้ใช้</string>
+    <string name="cloud_app_restore_app_and_data">คืนค่าแอปและข้อมูลผู้ใช้</string>
+    <string name="cloud_app_restore_summary">คืนค่าแอปติดตั้งก่อนหน้าและข้อมูลผู้ใช้</string>
+    <string name="cloud_app_restore_data">คืนค่าแอปติดตั้งก่อนหน้า</string>
+    <string name="cloud_app_dont_restore">ห้ามคืนค่า</string>
+    <string name="cloud_app_restore_wifi_prompt">จำเป็นต้องเชื่อมต่อไปยังอินเตอร์เน็ตโดยใช้ Wi-Fiเพื่อคืนค่าข้อมูล</string>
+    <string name="cloud_app_restore_query_error_prompt">รับข้อมูลจากคลาวด์ล้มเหลว แอปและข้อมูลผู้ใช้จะคืนค่าอัตโนมัติเมื่ออุปกรณ์เข้าถึงการสำรองข้อมูล</string>
+    <string name="cloud_app_device">อุปกรณ์</string>
+    <string name="cloud_app_data_in_other_devices">ไม่สำรองบนอุปกรณ์นี้</string>
+    <string name="cloud_app_no_data">ไม่มีข้อมูล</string>
+    <string name="cloud_app_invalid_op">ไม่สามารถแสดงข้อมูลคลาวด์ขณะกำลังสำรองข้อมูลหรือคืนค่า</string>
+    <string name="cloud_app_invalid_op_when_removing">ไม่สามารถแสดงข้อมูลคลาวด์ขณะกำลังลบข้อมูล</string>
+    <string name="cloud_app_remove_pending">กำลังรอ\u2026</string>
+    <string name="cloud_app_remove_progress">กำลังลบ\u2026</string>
+    <string name="cloud_app_restore_pending">กำลังรอ\u2026</string>
+    <string name="cloud_app_restore_progress">กำลังคืนค่า\u2026</string>
+    <string name="cloud_app_backup_pending">กำลงัรอ\u2026</string>
+    <string name="cloud_app_backup_progress">กำลังสำรองข้อมูล\u2026</string>
+    <string name="cloud_app_remove_error">ไม่สามารถลบได้</string>
+    <string name="cloud_app_restore_error">คืนค่าล้มเหลว</string>
+    <string name="cloud_app_restore_success">คืนค่าสำรองแอปแล้ว</string>
+    <string name="cloud_app_wait_wifi">กำลังรอการเชื่อมต่อ Wi-Fi</string>
+
+    <string name="cloud_app_backup_cancel">กำลงัยกเลิกสำรองข้อมูล\u2026</string>
+    <string name="cloud_app_restore_cancel">กำลังยกเลิกคืนค่า\u2026</string>
+    <string name="cloud_app_remove_cancel">กำลังยกเลิก\u2026</string>
+
+    <string name="cloud_app_backup_cancel_prompt_title">หยุดสำรองข้อมูล</string>
+    <string name="cloud_app_restore_cancel_prompt_title">หยุดคืนค่า</string>
+    <string name="cloud_app_remove_cancel_prompt_title">หยุดลบ</string>
+
+    <string name="cloud_app_backup_cancel_prompt_message">สำรองข้อมูลไม่เสร็จสิ้น ต้องการยกเลิก?</string>
+    <string name="cloud_app_restore_cancel_prompt_message">คืนค่าไม่เสร็จสิ้น ต้องการยกเลิก?</string>
+    <string name="cloud_app_remove_cancel_prompt_message">ดำเนินการลบไม่เสร็จสิ้น ต้องการยกเลิก?</string>
+    <string name="cloud_app_check_data">กำลังรับข้อมูลจากคลาวด์\u2026</string>
+    <string name="cloud_app_check_data_timeout">หมดเวลาการเชื่อมต่อ</string>
+    <string name="cloud_app_load_data">กำลังรับรายละเอียดสำรองข้อมูล\u2026</string>
+    <string name="cloud_app_load_data_timeout">หมดเวลาการเชื่อมต่อ</string>
+    <string name="cloud_app_check_data_fail">ไม่สามรถรับข้อมูลจากคลาวด์ได้</string>
+    <string name="cloud_app_no_network">ไม่สามารถเชื่อมต่อเครือข่ายได้</string>
+    <string name="cloud_app_no_wifi">ไม่สามารถเชื่อมต่อเครือข่าย Wi-Fiได้</string>
+    <string name="cloud_app_no_wifi_connect">ไม่สามารถเชื่อมต่อเครือข่าย Wi-Fiได้</string>
+    <string name="cloud_app_loading_with_mobile_network_prompt">ใช้การเชื่อมต่อมือถือเพื่อดำเนินการนี้?</string>
+
+    <string name="just_support_op_with_wifi_connected">สามารถใช้ฟังก์ชันนี้เมื่อเชื่อมต่อ Wi-Fiเท่านั้น</string>
+    <string name="button_restore">คืนค่า</string>
+    <string name="button_abandon">แทนที่</string>
+    <string name="button_delete">ลบ</string>
+    <string name="customization"><u>ปรับแต่ง</u></string>
+    <string name="customization_under_wifi_prompt">สามารถใช้ฟังก์ชันนี้เมื่อเชื่อมต่อ Wi-Fiเท่านั้น</string>
+    <string name="my_phone">โทรศัพท์</string>
+
+</resources>
+
