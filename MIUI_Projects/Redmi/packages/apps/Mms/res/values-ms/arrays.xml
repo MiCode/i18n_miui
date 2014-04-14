@@ -47,27 +47,27 @@
          to the array DEFAULT_SMILEY_RES_IDS in SmileyParser.java and to default_smiley_texts
          above. -->
     <string-array name="default_smiley_names">
-        <item>Happy</item>                   <!-- 0: :-) -->
-        <item>Sad</item>                     <!-- 1: :-( -->
-        <item>Winking</item>                 <!-- 2: ;-) -->
-        <item>Tongue sticking out</item>     <!-- 3: :-P -->
-        <item>Surprised</item>               <!-- 4: =-O -->
-        <item>Kissing</item>                 <!-- 5: :-* -->
-        <item>Yelling</item>                 <!-- 6: :O -->
-        <item>Cool</item>                    <!-- 7: B-) -->
-        <item>Money mouth</item>             <!-- 8: :-$ -->
-        <item>Foot in mouth</item>           <!-- 9: :-! -->
-        <item>Embarrassed</item>             <!-- 10: :-[ -->
-        <item>Angel</item>                   <!-- 11: O:-) -->
-        <item>Undecided</item>               <!-- 12: :-\\ -->
-        <item>Crying</item>                  <!-- 13: :\'( -->
-        <item>Lips are sealed</item>         <!-- 14: :-X -->
-        <item>Laughing</item>                <!-- 15: :-D -->
-        <item>Confused</item>                <!-- 16: o_O -->
-        <item>Heart</item>                   <!-- 17: <3 -->
-        <item>Mad</item>                     <!-- 18: x-( -->
-        <item>Smirk</item>                   <!-- 19: :-/ -->
-        <item>Poker face</item>              <!-- 20: :-I -->
+        <item>Senang</item>                   <!-- 0: :-) -->
+        <item>Sedih</item>                     <!-- 1: :-( -->
+        <item>Kedip</item>                 <!-- 2: ;-) -->
+        <item>Mengeluarkan lidah</item>     <!-- 3: :-P -->
+        <item>Kejutan</item>               <!-- 4: =-O -->
+        <item>Cium</item>                 <!-- 5: :-* -->
+        <item>Terkejut</item>                 <!-- 6: :O -->
+        <item>Keren</item>                    <!-- 7: B-) -->
+        <item>Uang mulut</item>             <!-- 8: :-$ -->
+        <item>Kaki dimulut</item>           <!-- 9: :-! -->
+        <item>Malu</item>             <!-- 10: :-[ -->
+        <item>Malaikat</item>                   <!-- 11: O:-) -->
+        <item>Ragu-ragu</item>               <!-- 12: :-\\ -->
+        <item>Menangis</item>                  <!-- 13: :\'( -->
+        <item>Tutup mulut</item>         <!-- 14: :-X -->
+        <item>Tertawa</item>                <!-- 15: :-D -->
+        <item>Bingung</item>                <!-- 16: o_O -->
+        <item>Hati</item>                   <!-- 17: <3 -->
+        <item>Gila</item>                     <!-- 18: x-( -->
+        <item>Menyeringai</item>                   <!-- 19: :-/ -->
+        <item>Muka tak berperasaan</item>              <!-- 20: :-I -->
     </string-array>
 
     <string-array name="prefEntries_ringtone_repeat">
@@ -87,46 +87,46 @@
     </string-array>
 
     <string-array name="contact_entries">
-        <item>Name</item>
-        <item>Nickname</item>
-        <item>Phone</item>
+        <item>Nama</item>
+        <item>Nama panggilan</item>
+        <item>Telepon</item>
         <item>E-mail</item>
-        <item>Organization</item>
+        <item>Organisasi</item>
         <item>IM</item>
-        <item>SIP Phone</item>
-        <item>Birthday</item>
+        <item>Telepon SIP</item>
+        <item>Ulang tahun</item>
         <item>Website</item>
-        <item>Address</item>
-        <item>Note</item>
+        <item>Alamat</item>
+        <item>Catatan</item>
     </string-array>
 
     <string-array translatable="false" name="contact_values">
-        <item>vnd.android.cursor.item/name</item>
-        <item>vnd.android.cursor.item/nickname</item>
-        <item>vnd.android.cursor.item/phone_v2</item>
+        <item>vnd.android.cursor.item/nama</item>
+        <item>vnd.android.cursor.item/nama_panggilan</item>
+        <item>vnd.android.cursor.item/telepon_v2</item>
         <item>vnd.android.cursor.item/email_v2</item>
-        <item>vnd.android.cursor.item/organization</item>
+        <item>vnd.android.cursor.item/organisasi</item>
         <item>vnd.android.cursor.item/im</item>
-        <item>vnd.android.cursor.item/sip_address</item>
-        <item>vnd.android.cursor.item/contact_event</item>
+        <item>vnd.android.cursor.item/telepon_sip</item>
+        <item>vnd.android.cursor.item/kontak_event</item>
         <item>vnd.android.cursor.item/website</item>
-        <item>vnd.android.cursor.item/postal-address_v2</item>
-        <item>vnd.android.cursor.item/note</item>
+        <item>vnd.android.cursor.item/kode-area_v2</item>
+        <item>vnd.android.cursor.item/catatan</item>
     </string-array>
 
     <string-array name="entries_date_type">
-        <item>Time received</item>
-        <item>Time sent</item>
+        <item>Waktu diterima</item>
+        <item>Waktu dikirim</item>
     </string-array>
 
     <string-array name="resent_via_entries_sms">
-        <item>Via message</item>
-        <item>Via Cloud message</item>
+        <item>Via Pesan</item>
+        <item>Via Pesan awan</item>
     </string-array>
 
     <string-array name="resent_via_entries_mms">
-        <item>Via message</item>
-        <item>Via Cloud message</item>
+        <item>Via Pesan</item>
+        <item>Via Pesan awan</item>
     </string-array>
 
     <string-array translatable="false" name="entryvalues_date_type">
