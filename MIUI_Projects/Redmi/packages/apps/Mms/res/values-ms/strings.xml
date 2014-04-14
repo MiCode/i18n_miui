@@ -1,0 +1,1024 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (C) 2007-2008 Esmertec AG.
+ * Copyright (C) 2007-2008 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+ 
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- The name of the SMS/MMS app as it appears to the user in the Home screen, task switcher, etc. -->
+    <string name="app_label">Pesan</string>
+ 
+    <!-- Command name to open a Compose screen; displays in conversation list -->
+    <string name="new_message">Pesan baru</string>
+    <!-- Context menu item on an individual message for dialing the sender's phone number -->
+    <!-- Context menu item on an individual message for emailing the sender -->
+ 
+    <!-- Menu item for starting a new conversation -->
+    <string name="menu_compose_new">Buat pesan</string>
+    <!-- Menu item for accessing application settings -->
+    <string name="menu_preferences">Pengaturan</string>
+    <!-- Menu shown in the context menu when long pressing on a message when the message contains
+         one or more phone numbers and/or email addresses and the number or email is new to
+         contacts. [CHAR LIMIT=50] -->
+    <!-- Menu item to call the recipient of the conversation on the phone (imperative verb) -->
+    <!-- Menu item for search -->
+    <!-- Menu item for deleting all conversations -->
+    <!-- Context menu item on an individual conversation for deleting that conversation -->
+    <!-- Context menu item on an individual conversation for viewing that conversation -->
+    <!-- Menu item for debugging - do not localize -->
+    <!-- Message that appears on screen while SIM card messages are retrieved -->
+    <string name="refreshing">Melakukan refresh\u2026</string>
+ 
+    <!-- Tag appearing on conversations in the conversation list that contain a draft message -->
+ 
+    <!-- Subject to display in the conversation list if there is no subject -->
+    <string name="no_subject_view">(tidak ada subjek)</string>
+ 
+    <!-- Name of the local user when displaying sender of an outgoing message (personal pronoun) -->
+    <string name="messagelist_sender_self">Saya</string>
+    <!-- Context menu item on an individual message for viewing an attached slideshow -->
+    <!-- Context menu item on an individual message for viewing message details such as time and date -->
+    <string name="view_message_details">Lihat detil</string>
+    <!-- Context menu item on an individual message for viewing a delivery report -->
+    <!-- Context menu item on an individual message for deleting only that message -->
+    <string name="delete_message">Hapus</string>
+    <!-- Time and date a message is due to expire -->
+    <string name="expire_on">"Tidak berlaku: <xliff:g id="date">%s</xliff:g>"</string>
+    <!-- Abbreviation for "kilobyte" -->
+    <string name="kilobyte">KB</string>
+ 
+    <!-- Dialog box title brought up when warning the user that a message could not be delivered -->
+    <string name="undelivered_msg_dialog_title">Pesan tidak terkirim</string>
+    <!-- Dialog box message indicating that a message could not be delivered, including the time of last attempt -->
+    <string name="undelivered_msg_dialog_body">Tidak dapat mengirim pesan.\nMencoba membuat: <xliff:g id="message">%s</xliff:g>.</string>
+    <!-- Dialog box message indicating that a message could not be delivered -->
+    <string name="undelivered_sms_dialog_body">Tidak dapat mengirim pesan.</string>
+    <!-- Menu item for deleting the entire conversation currently being viewed -->
+    <!-- Context menu item on an individual message for forwarding it to another recipient -->
+    <string name="menu_forward">Lanjutkan</string>
+    <!-- Text of a button appearing for MMS messages that have not yet been downloaded, causing the message
+         to be downloaded (imperative verb) -->
+    <string name="download">Unduh</string>
+    <!-- Message displayed in place of the "download message" button once it has been pressed,
+         indicating that the download is in progress -->
+    <string name="downloading">Mengunduh</string>
+    <!-- Formatting for subject displayed inline, prepended to MMS message text -->
+    <!-- Text to display when the actual text is inaccessible due to DRM protection -->
+    <!-- Error message to display when DRM rights are insufficient to access some data -->
+    <string name="insufficient_drm_rights">Hak cukup DRM terdeteksi.</string>
+    <!-- Individual message context menu item -->
+    <string name="copy_message_text">Salin teks</string>
+    <!-- Text to display when copying message text finished -->
+    <string name="copy_message_text_success">Menyalin teks selesai</string>
+ 
+    <!-- Header for context menu on an individual message -->
+    <!-- Button text on edit slide screen indicating the user wants to finish editing that slide -->
+    <string name="done">Selesai</string>
+ 
+    <!-- Menu item in slideshow edit screen for moving the selected slide up in the order -->
+    <string name="move_up">Pindah ke atas</string>
+    <!-- Menu item in slideshow edit screen for moving the selected slide down in the order -->
+    <string name="move_down">Pindah ke bawah</string>
+    <!-- Menu item in slideshow edit screen for removing the selected slide from the slideshow -->
+    <string name="remove_slide">Hapus slide</string>
+    <!-- Menu item in slideshow edit screen for adding a new slide to the slideshow -->
+    <string name="add_slide">Tambahkan slide (setelah)</string>
+    <!-- Text displayed below "Add slide" item in slideshow edit screen -->
+    <string name="add_slide_hint">Sentuh untuk membuat slide baru</string>
+    <!-- Menu item in slideshow edit screen for discarding the entire slideshow -->
+    <string name="discard_slideshow">Buang slideshow</string>
+    <!-- Header of slideshow showing which slide is being displayed -->
+    <string name="slide_show_part">Bagian <xliff:g id="part">%1$s</xliff:g>/<xliff:g id="total">%2$s</xliff:g></string>
+ 
+    <!-- Menu item in slide edit screen for removing the text from the slide being edited -->
+    <string name="remove_text">Hapus teks</string>
+    <!-- Menu item in slide edit screen for adding a picture to the slide being edited -->
+    <string name="add_picture">Tambahkan gambar</string>
+    <!-- Menu item in slide edit screen for removing the picture from the slide being edited -->
+    <string name="remove_picture">Hapus gambar</string>
+    <!-- Menu item in slide edit screen for adding music to the slide being edited -->
+    <string name="add_music">Tambahkan musik</string>
+    <!-- Menu item in slide edit screen for removing the music from the slide being edited -->
+    <string name="remove_music">Hapus musik</string>
+    <!-- Menu item in slide edit screen for adding a video to the slide being edited -->
+    <string name="add_video">Tambahkan video</string>
+    <!-- Menu item in slide edit screen for removing the video from the slide being edited -->
+    <string name="remove_video">Hapus video</string>
+ 
+    <!-- Hint displayed in message recipient text box when starting a new conversation -->
+    <!-- Hint displayed in subject edit text box when adding a subject -->
+    <string name="subject_hint">Subjek</string>
+ 
+    <!-- Menu item in conversation screen for attaching something to the message being composed -->
+    <!-- Menu item in conversation screen for adding a subject to the message being composed -->
+    <!-- Menu item in conversation screen for discarding the message currently being composed -->
+    <string name="discard">Buang</string>
+ 
+    <!-- Button next to an attachment during message composition to view the attachment (imperative verb) -->
+    <string name="view">Lihat</string>
+    <!-- Button next to an attachment during message composition to replace the attachment (imperative verb) -->
+    <string name="replace">Ganti</string>
+    <!-- Button next to an attachment during message composition to remove the attachment (imperative verb) -->
+    <string name="remove">Hapus</string>
+ 
+    <!-- Button in conversation screen for sending the SMS message currently being composed (imperative verb) -->
+    <string name="send">Kirim</string>
+    <!-- Text to appear directly below the "Send" text on the SMS/MMS send button. The "MMS" text is on a second line in a smaller font. This is similar to saying "Send (mms)". -->
+    <string name="mms">MMS</string>
+ 
+    <!-- Menu item in conversation screen for returning to the conversation list -->
+ 
+    <!-- Hint text in message body field when keyboard is exposed -->
+    <string name="type_to_compose_text_enter_to_send">Ketik pesan</string>
+    <!-- Hint text in message body field when keyboard is hidden -->
+ 
+    <!-- Toast message while an image is being resized -->
+    <string name="compressing">Gambar terlalu besar. Mengompres gambar\u2026</string>
+ 
+    <!-- Error message indicating the format for the specified media type (e.g. "picture") is unsupported -->
+    <string name="unsupported_media_format">Format <xliff:g id="name">%1$s</xliff:g> tidak didukung.</string>
+    <!-- Message prompting the user to select a different item; item string as type-appropriate (e.g. "picture") -->
+    <string name="select_different_media">Pilih yang berbeda <xliff:g id="name">%1$s</xliff:g>.</string>
+    <!-- Message indicating that the message size limit has been reached -->
+    <string name="exceed_message_size_limitation">Batas pesan yang ditentukan tercapai.</string>
+    <!-- Message indicating that the message is too big and there is no space to attach a video -->
+    <string name="message_too_big_for_video">Pesan terlalu besar untuk melampirkan video.</string>
+    <!-- Error message indicating that the item trying to be attached could not be added -->
+    <string name="failed_to_add_media">Anda dapat menambahkan <xliff:g id="name">%1$s</xliff:g> pada pesan anda.</string>
+    <!-- Error message indicating that the picture being attached and resized could not be resized -->
+    <string name="failed_to_resize_image">Gambar tidak dirubah ukurannya.</string>
+    <!-- Error message indicating that an image being attached is still too large to send even after resize -->
+    <string name="resize_image_error_information">Gambar ini terlalu besar untuk dikirim, bahkan ketika dirubah ukurannya.</string>
+    <!-- String prepended to forwarded messages to indicate they were forwarded -->
+    <string name="forward_prefix">Melanjutkan:\u0020</string>
+    <!-- Dialog box title that appears when a draft message will not be saved due to invalid recipients -->
+    <string name="discard_message">Buang</string>
+    <!-- Dialog message text explaining that a draft message will not be saved due to invalid recipients -->
+    <string name="discard_message_reason">Pesan Anda akan dibuang karena tidak memiliki penerima yang valid.</string>
+    <!-- Dialog box title indicating which recipients are invalid when the user tries to send a message with invalid recipients -->
+    <string name="has_invalid_recipient">Penerima yang tidak valid: &lt;<xliff:g id="name">%1$s</xliff:g>&gt;</string>
+    <!-- While sending a message, if it has invalid recipient, display this message. -->
+    <string name="invalid_destination">Alamat yang tidak valid.</string>
+    <!-- While sending a message, this error is expected to be generated when user does not have
+         MMS enabled on his account. [CHAR LIMIT=NONE] -->
+    <string name="service_not_activated">Layanan tidak aktif dalam jaringan</string>
+    <!-- If a message has expired and is no longer available on MMSC, show this toast. [CHAR LIMIT=NONE] -->
+    <string name="service_message_not_found">Masa berlaku pesan tidak tersedia</string>
+    <!-- If a message can't be sent because of a MMSC network problem, show this toast. [CHAR LIMIT=NONE] -->
+    <string name="service_network_problem">Tidak dapat mengirim ketika jaringan bermasalah</string>
+    <!-- Dialog message text when the user tries to send a message with invalid recipients -->
+    <string name="invalid_recipient_message">Betulkan pengirim atau mereka tidak akan menerima pesan.</string>
+    <!-- Dialog box title indicating the message cannot be sent because there are no valid recipients -->
+    <string name="cannot_send_message">Tidak dapat mengirim pesan</string>
+    <!-- Dialog message text indicating the message cannot be sent because there are no valid recipients -->
+    <string name="cannot_send_message_reason">Pesan anda tidak mempunyai penerima yang valid.</string>
+    <!-- Error message displayed when the user attempts to forward a message with DRM-locked contents -->
+    <string name="cannot_forward_drm_obj">Objek DRM disertakan dalam pesan tidak dapat diteruskan.</string>
+ 
+    <!-- Brief message that appears when converting a message from SMS to MMS. -->
+    <string name="converting_to_picture_message">Mengkonversi ke pesan multimedia\u2026</string>
+    <!-- Brief message that appears when converting a message from MMS to SMS. -->
+    <string name="converting_to_text_message">Mengkonversi ke pesan teks\u2026</string>
+    <!-- Brief message that appears when the maximum number of slides has been reached -->
+    <string name="cannot_add_slide_anymore">Tidak dapat menambahkan slide lebih.</string>
+    <!-- Brief message that appears when user tries to add picture to a slide which already has a video. -->
+    <string name="cannot_add_picture_and_video">Tidak dapat menambahkan video dan gambar ke dalam satu slide.</string>
+    <!-- Brief message that appears when the message cannot be saved -->
+    <!-- Brief message that appears when a message has automatically been saved as a draft -->
+    <string name="message_saved_as_draft">Pesan disimpan sebagai konsep.</string>
+    <!-- Brief message that appears when too many recipients have been added -->
+    <string name="too_many_recipients">Pesan memiliki terlalu banyak penerima (<xliff:g id="currentCount">%1$s</xliff:g>). Anda tidak dapat menambahkan lebih dari <xliff:g id="maxLimit">%2$s</xliff:g> penerima.</string>
+    <!-- Brief message that appears when too many videos/pictures are imported -->
+    <string name="too_many_attachments">Ada batas dari <xliff:g id="maxLimit">%1$s</xliff:g> lampiran. Hanya yang pertama <xliff:g id="currentCount">%2$s</xliff:g> yang akan ditambahkan.</string>
+    <!-- Alert dialog title when adding attachments is taking a while -->
+    <string name="adding_attachments_title">Menambahkan lampiran</string>
+    <!-- Alert dialog when adding attachments is taking a while -->
+    <string name="adding_attachments">Tunggu sementara item ditambahkan ke slideshow.</string>
+ 
+    <!-- Error message indicating that an audio attachment cannot be played -->
+ 
+    <!-- Button in the slide editor screen used to preview the slide (imperative verb) -->
+    <string name="preview">Perlihatkan</string>
+    <!-- Menu item in the slide editor screen used to preview the entire slideshow (imperative verb) -->
+    <string name="preview_slideshow">Perlihatkan</string>
+    <!-- Button in the slide editor screen used to replace the attached picture -->
+    <string name="replace_image">Ganti gambar</string>
+    <!-- String for slide duration in seconds -->
+    <string name="duration_sec">Durasi (<xliff:g id="duration">%s</xliff:g> detik)</string>
+    <!-- Dialog box title for duration selector -->
+    <string name="duration_selector_title">"Durasi untuk slide "</string>
+    <!-- Dialog box title for slide layout selector -->
+    <string name="layout_selector_title">"Tata letak slideshow "</string>
+    <!-- Slide layout option for layout at the top -->
+    <!-- Slide layout option for layout at the bottom -->
+    <!-- Hint in slide text field before text is typed -->
+    <string name="type_to_compose_text_or_leave_blank">Ketik pesan, atau biarkan kosong</string>
+    <!-- Toast when the user enters a non-numeric value for the duration of a slide -->
+    <string name="duration_not_a_number">Durasi harus berupa nomor</string>
+    <!-- Toast when the user enters a zero value for the duration of a slide -->
+    <string name="duration_zero">Durasi harus besar dari 0 detik</string>
+ 
+    <!-- In duration selection dialog box, short version of "seconds" -->
+    <string name="secs">detik</string>
+    <!-- Options for slide duration in duration selection dialog box -->
+    <string-array name="select_dialog_items">
+         <item>1 detik</item>
+         <item>2 detik</item>
+         <item>3 detik</item>
+         <item>4 detik</item>
+         <item>5 detik</item>
+         <item>6 detik</item>
+         <item>7 detik</item>
+         <item>8 detik</item>
+         <item>9 detik</item>
+         <item>10 detik</item>
+         <item>Lainnya</item>
+    </string-array>
+ 
+    <!-- Context menu item on a message recipient for viewing their contact info -->
+    <string name="menu_view_contact">Lihat kontak</string>
+    <!-- Context menu item on a message recipient for adding them to the user's
+         contacts (used if the recipient is not already in the address book) -->
+ 
+    <!-- Sender to be used if the sender address has been hidden -->
+    <string name="hidden_sender_address">Sembunyikan alamat pengirim</string>
+ 
+    <!-- Text to be used for affirmative response button in dialog boxes -->
+    <string name="yes">OK</string>
+    <!-- Text to be used for negative response button in dialog boxes -->
+    <string name="no">Batal</string>
+    <!-- Text to be used for affirmative response button in setting SMS limits dialog box -->
+    <string name="set">Sesuaikan</string>
+ 
+    <!-- Button text used for playing an attachment or slideshow (imperative verb) -->
+    <string name="play">Putar</string>
+    <!-- Button text used for editing a slideshow (imperative verb) -->
+    <string name="edit">Sunting</string>
+    <!-- Button used for trying to send a message that has some valid recipients and some
+         invalid recipients, in spite of the warning presented to the user -->
+    <string name="try_to_send">Mencoba untuk mengirim</string>
+ 
+    <!-- Title of Settings screen -->
+    <string name="preferences_title">"Pengaturan"</string>
+    <!-- Settings screen menu item for restoring all settings to default -->
+ 
+    <!-- Settings screen, section heading for notifications -->
+    <string name="pref_notification_settings_title">Pemberitahuan</string>
+    <!-- Settings screen, section heading for MMS-specific settings -->
+    <string name="pref_mms_settings_title">"Pesan multimedia(MMS)"</string>
+    <!-- Settings screen, section heading for SMS-specific settings -->
+    <!-- Settings screen, section heading for storage-specific settings -->
+ 
+    <!-- Settings item description for entering SIM card message screen -->
+    <string name="pref_summary_manage_sim_messages">Mengelola pesan yang tersimpan di kartu SIM Anda</string>
+    <!-- Settings item description for boolean MMS delivery report setting -->
+    <!-- Settings item description for boolean MMS read report setting -->
+    <string name="pref_summary_mms_read_reports">Meminta laporan baca setiap pesan yang Anda kirim</string>
+    <!-- Settings item description for boolean SMS delivery report setting -->
+    <!-- Settings item description for boolean auto-delete messages setting -->
+    <!-- Settings item description for integer auto-delete sms message limit -->
+    <string name="pref_summary_delete_limit"><xliff:g id="count">%1$s</xliff:g> pesan per percakapan</string>
+    <!-- Settings item for entering SIM card message screen -->
+    <string name="pref_title_manage_sim_messages">Kelola pesan kartu SIM</string>
+    <!-- Settings item for boolean option to enable/disable MMS delivery reports -->
+    <!-- Settings item for boolean option to enable/disable MMS read reports -->
+    <string name="pref_title_mms_read_reports">Baca laporan</string>
+    <!-- Settings item for boolean option to enable/disable SMS delivery reports -->
+    <!-- Settings item for boolean option to enable/disable auto-deletion of messages -->
+    <!-- Settings item for integer option to set SMS delete limit -->
+    <string name="pref_title_sms_delete">Batas pesan teks</string>
+    <!-- Settings item for integer option to set MMS delete limit -->
+    <string name="pref_title_mms_delete">Batas pesan multimedia</string>
+    <!-- Settings item for boolean option to display message notifications -->
+    <!-- Settings item description for boolean message notification option -->
+    <!-- Settings item for boolean option to vibrate during message notification -->
+    <!-- Settings item description for boolean vibrate option -->
+    <!-- Settings item for entering ringtone selection screen -->
+    <!-- Settings item for setting the number of message to save for each conversation -->
+    <string name="pref_messages_to_save">Tetapkan jumlah pesan untuk menyimpan</string>
+ 
+    <!-- The vibrate notification modes -->
+    <string-array name="prefEntries_vibrateWhen">
+        <!-- Always -->
+        <item>Selalu</item>
+        <!-- Only when the phone is in Silent mode -->
+        <item>Hanya ketika diam</item>
+        <!-- Never -->
+        <item>Tidak pernah</item>
+    </string-array>
+ 
+    <!-- The default vibrateWhen value, when none is set -->
+    <string translatable="false" name="prefDefault_vibrateWhen">tidak pernah</string>
+    <!-- The value to use when migrating from old versions for a true vibrate setting -->
+    <string translatable="false" name="prefDefault_vibrate_true">selalu</string>
+    <!-- The value to use when migrating from old versions for a false vibrate setting -->
+    <string translatable="false" name="prefDefault_vibrate_false">tidak pernah</string>
+ 
+    <!-- The vibrateWhen values -->
+    <string-array translatable="false" name="prefValues_vibrateWhen">
+        <item>selalu</item>
+        <item>diam</item>
+        <item>tidak pernah</item>
+    </string-array>
+ 
+    <!-- Dialog title for the Vibrate dialog -->
+ 
+    <!-- Settings item for boolean option to auto-retrieve incoming MMS messages -->
+    <string name="pref_title_mms_auto_retrieval">Otomatis-mengambil MMS</string>
+    <!-- Settings item description for boolean MMS auto-retrieve option -->
+    <string name="pref_summary_mms_auto_retrieval">Otomatis mengambil MMS</string>
+    <!-- Settings item for boolean option to auto-retrieve incoming MMS messages when roaming -->
+    <string name="pref_title_mms_retrieval_during_roaming">Diluar jangkauan Otomatis-mengambil</string>
+    <!-- Settings item description for boolean MMS auto-retrieve while roaming option -->
+    <string name="pref_summary_mms_retrieval_during_roaming">Otomatis mengambil pesan ketika diluar jangkauan</string>
+ 
+    <!-- Label prepended to recipient's name in Undelivered Messages screen -->
+    <string name="to_label">"Ke "</string>
+ 
+    <!-- Confirm Delete -->
+    <!-- Delete confirmation dialog title -->
+    <string name="confirm_dialog_title">Hapus?</string>
+    <!-- Delete confirmation dialog title for locked messages -->
+    <string name="confirm_dialog_locked_title">Hapus pesan yang dikunci?</string>
+    <!-- This message is displayed in a confirmation dialog when the user selects one or more
+         conversations and then taps the "Delete" button. -->
+    <plurals name="confirm_delete_conversation">
+        <!-- Case of 1 result. -->
+        <item quantity="one">Hapus percakapan ini?</item>
+        <!-- Case of 0 or 2 or more results. -->
+        <item quantity="other">Hapus <xliff:g id="number" example="15">%1$s</xliff:g> percakapan?</item>
+    </plurals>
+    <string name="confirm_delete_conversation">Hapus seluruh percakapan?</string>
+    <!-- Delete all threads confirmation dialog message -->
+    <string name="confirm_delete_all_conversations">Hapus seluruh percakapan?</string>
+    <!-- Delete group message confirmation dialog message -->
+    <string name="confirm_delete_group_message">Hapus pesan grup?</string>
+    <!-- Delete message confirmation dialog message -->
+    <string name="confirm_delete_message">Hapus pesan ini?</string>
+    <!-- Delete message confirmation dialog message for a locked message -->
+    <string name="confirm_delete_locked_message">Hapus pesan yang dikunci?</string>
+    <!-- Delete all the messages on the SIM dialog message -->
+    <string name="confirm_delete_all_SIM_messages">Hapus semua pesan SIM?</string>
+    <!-- Delete the selected message on the SIM dialog message -->
+    <string name="confirm_delete_SIM_message">Hapus pesan SIM ini?</string>
+    <string name="confirm_restore_all_title">Kembalikan semua pesan yang dikirim dari nomor ini?</string>
+    <string name="confirm_no_block_title">Buka blokir nomor ini dan kembalikan semua pesan yang dikirim dari nomor ini?</string>
+    <string name="confirm_no_block_positive">Buka blokir</string>
+    <string name="confirm_restore_title">Kembalikan pesan yang dipilih?</string>
+    <string name="confirm_restore_positive">Kembalikan</string>
+    <!-- Delete unlocked checkbox title -->
+    <string name="delete_unlocked">Hapus pesan yang dikunci</string>
+    <!-- Delete button title -->
+    <string name="delete">Hapus</string>
+    <string name="stick">Sematkan</string>
+    <string name="unstick">Lepas dari sematan</string>
+    <string name="stick_conversation">Sematkan percakapan sekarang</string>
+    <string name="unstick_conversation">Lepas dari sematan percakapan sekarang</string>
+    <string name="sticked_conversation">Percakapan sudah disematkan</string>
+    <string name="unsticked_conversation">Percakapan sudah dilepas dari sematan</string>
+    <string name="invalid_conversation">Percakapan tidak valid</string>
+    <!-- Action bar mode title when multi-selecting conversations -->
+    <!-- Show this in the middle of the main activity when there are no conversations [CHAR LIMIT=none] -->
+    <string name="no_conversations">Tidak ada percakapan</string>
+    <!-- Show this in the middle of the main activity when conversations are loading [CHAR LIMIT=none] -->
+    <string name="loading_conversations">Memuat percakapan\u2026</string>
+ 
+    <!-- When the user tries to view message details and some error occurs while
+         retrieving those details, this message will be shown. -->
+    <string name="cannot_get_details">Tidak dapat mendapatkan detil.</string>
+    <!-- Title of "Message details" dialog -->
+    <string name="message_details_title">Detil pesan</string>
+    <!-- Label in "Message details" dialog -->
+    <string name="message_type_label">Tipe:\u0020</string>
+    <!-- "Type" value in "Message details" dialog -->
+    <string name="text_message">Pesan teks</string>
+    <!-- "Type" value in "Message details" dialog -->
+    <string name="multimedia_message">Pesan multimedia</string>
+    <!-- "Type" value in "Message details" dialog -->
+    <string name="multimedia_notification">Pemberitahuan pesan multimedia</string>
+    <!-- Label in "Message details" dialog showing who sent the message. -->
+    <string name="from_label">Dari:\u0020</string>
+    <!-- Label in "Message details" dialog -->
+    <string name="to_address_label">Untuk:\u0020</string>
+    <!-- Label in "Message details" dialog -->
+    <string name="bcc_label">Bcc:\u0020</string>
+    <!-- Label in "Message details" dialog -->
+    <string name="sent_label">Dikirim:\u0020</string>
+    <!-- Label in "Message details" dialog -->
+    <string name="received_label">Diterima:\u0020</string>
+    <!-- Label in "Message details" dialog -->
+    <string name="saved_label">Disimpan:\u0020</string>
+    <!-- Label in "Message details" dialog -->
+    <string name="subject_label">Subjek:\u0020</string>
+    <!-- Label in "Message details" dialog -->
+    <string name="message_size_label">Ukuran pesan:\u0020</string>
+    <!-- Label in "Message details" dialog -->
+    <string name="priority_label">Prioritas:\u0020</string>
+    <!-- "Priority" value in "Message details" dialog -->
+    <string name="priority_high">Tinggi</string>
+    <!-- "Priority" value in "Message details" dialog -->
+    <string name="priority_normal">Normal</string>
+    <!-- "Priority" value in "Message details" dialog -->
+    <string name="priority_low">Rendah</string>
+    <!-- Label in "Message details" dialog -->
+    <string name="message_class_label">Kelas pesan:\u0020</string>
+    <!-- Label in "Message details" dialog -->
+    <string name="error_code_label">Kesalahan kode:\u0020</string>
+ 
+   <!-- Menu title for editing a message -->
+   <string name="menu_edit">Sunting</string>
+   <!-- Menu title for deleting undelivered messages or messages on
+        the SIM card. -->
+   <string name="menu_delete_messages">Hapus pesan</string>
+   <!-- Menu title for locking a message -->
+   <string name="menu_lock">Kunci</string>
+   <!-- Menu title for unlocking a message -->
+   <string name="menu_unlock">Buka kunci</string>
+ 
+    <!-- Manage SIM Messages -->
+    <!-- Menu title to copy a selected message from the SIM card to the phone. -->
+    <string name="sim_copy_to_phone_memory" product="tablet">Salin ke memori tablet</string>
+    <!-- Menu title to copy a selected message from the SIM card to the phone. -->
+    <string name="sim_copy_to_phone_memory" product="default">Salin ke memori telepon</string>
+    <!-- Menu title to delete a selected messaged from the SIM card. -->
+    <string name="sim_delete">Hapus</string>
+    <!-- Title of screen displaying messages on SIM card -->
+    <string name="sim_manage_messages_title">Pesan teks dalam kartu SIM</string>
+    <!-- Context menu item but currently commented out in 1.0. -->
+    <string name="sim_view">Lihat</string>
+    <!-- Message that appears on the "SMS messges on SIM card" screen when there are no messages on the SIM card -->
+    <string name="sim_empty">Tidak ada pesan dalam kartu SIM</string>
+ 
+    <!-- Delivery Header View -->
+    <!-- Title of "Report" window -->
+ 
+    <!-- Delivery Report Activity -->
+    <!-- Status in "Report" window -->
+    <!-- Status in "Report" window -->
+    <string name="status_pending">Ditunda</string>
+    <!-- Status in "Report" window -->
+    <string name="status_read">Dibaca</string>
+    <!-- Status in "Report" window -->
+    <string name="status_received">Diterima</string>
+    <!-- Status in "Report" window -->
+    <string name="status_failed">Gagal</string>
+    <!-- Status in "Report" window -->
+    <string name="status_unread">Tidak terbaca</string>
+    <!-- Status in "Report" window -->
+    <string name="status_rejected">Ditolak</string>
+    <!-- Label in "Report" window -->
+    <string name="recipient_label">Penerima:\u0020</string>
+    <!-- Label in "Report" window -->
+    <string name="status_label">Status:\u0020</string>
+ 
+    <!-- Attachment Type Selector Adapter. This string is an option in the "Attach" dialog, "Add music" dialog -->
+    <string name="attach_image">Gambar</string>
+    <!-- Attachment Type Selector Adapter. This string is an option in the "Attach" dialog, "Add music" dialog -->
+    <string name="attach_take_photo">Ambil photo atau gambar</string>
+    <!-- Attachment Type Selector Adapter. This string is an option in the "Attach" dialog, "Add music" dialog -->
+    <string name="attach_video">Video</string>
+    <!-- Attachment Type Selector Adapter. This string is an option in the "Attach" dialog, "Add music" dialog -->
+    <string name="attach_record_video">Ambil video</string>
+    <!-- Attachment Type Selector Adapter. This string is an option in the "Attach" dialog, "Add music" dialog -->
+    <string name="attach_sound">Audio</string>
+    <!-- Attachment Type Selector Adapter. This string is an option in the "Attach" dialog, "Add music" dialog -->
+    <string name="attach_record_sound">Rekam audio</string>
+    <!-- Attachment Type Selector Adapter. This string is an option in the "Attach" dialog, "Add music" dialog -->
+    <string name="attach_slideshow">Slideshow</string>
+ 
+    <!-- Layout Selector Adapter. Slideshow layout dialog option for aligning an icon. -->
+    <string name="select_bottom_text">Teks dibawah</string>
+    <!-- Layout Selector Adapter. Slideshow layout dialog option for aligning an icon. -->
+    <string name="select_top_text">Teks diatas</string>
+ 
+    <!-- Delivery Report Toast dialog content -->
+    <string name="delivery_toast_body">Pesan diterima oleh %s</string>
+ 
+    <!-- Delivery Report Notification dialog title. -->
+    <string name="notification_multiple"><xliff:g id="count">%s</xliff:g> pesan tidak terbaca</string>
+    <!-- Delivery Report Notification dialog title. -->
+    <string name="notification_multiple_title">Pean baru</string>
+ 
+    <!-- Failed to send/download Notification dialog title. -->
+    <string name="notification_failed_multiple"><xliff:g id="count">%s</xliff:g> pesan tidak dapat dikirim</string>
+    <!-- Failed to send/download Notification dialog title. -->
+    <string name="notification_failed_multiple_title">Pesan tidak terkirim</string>
+ 
+    <!-- Sim Full Notification dialog title. -->
+    <string name="sim_full_title">Kartu SIM penuh</string>
+    <!-- Sim Full Notification dialog text. -->
+    <string name="sim_full_body">Hapus beberapa pesan untuk membuat ruang.</string>
+ 
+    <!-- Device Full Notification dialog title. -->
+    <string name="sms_full_title">Memori pesan teks penuh</string>
+    <!-- Device Full Notification dialog text. -->
+    <string name="sms_full_body">Pesan masuk ditolak: Tidak ada ruang cukup dalam perangkat.</string>
+ 
+    <!-- Sms's Being Rejected Notification dialog title. -->
+    <string name="sms_rejected_title">Pesan teks ditolak</string>
+    <!-- Sms's Being Rejected Notification dialog text. -->
+    <string name="sms_rejected_body">Sebuah pesan masuk yang ditolak</string>
+ 
+    <!-- Multimedia type used in building other messages.
+         For instance: Sorry, you cannot add this audio to your message. -->
+    <string name="type_audio">audio</string>
+    <!-- Multimedia type used in building other messages.
+         For instance: Sorry, you cannot add this picture to your message. -->
+    <string name="type_picture">gambar</string>
+    <!-- Multimedia type used in building other messages.
+         For instance: Sorry, you cannot add this video to your message. -->
+    <string name="type_video">video</string>
+    <!-- Multimedia type used in building other messages.
+         For instance: Sorry, you cannot add this attachment to your message. -->
+    <string name="type_attachment">lampiran</string>
+ 
+    <!-- Dialog title for the Read Report dialog. -->
+    <string name="confirm">Konfirmasi</string>
+    <!-- Dialog text for the Read Report dialog. -->
+    <string name="message_send_read_report">Laporan baca akan dikirim.</string>
+ 
+    <!-- This is the text of a toast message briefly displayed when a problem occurs
+         while sending. -->
+    <string name="message_queued">Tidak dapat mengirim pesan sekarang. Akan dikirim ketika layanan tersedia.</string>
+ 
+    <!-- dialog error message when only is FDN is allowed. -->
+    <string name="fdn_check_failure">Anda hanya dapat mengirim pesan ke nomor panggilan tetap.</string>
+ 
+    <!-- Download Manager -->
+    <!-- When an error occurs downloading a new message and a subject isn't available, substitute
+         this default subject. -->
+    <string name="no_subject">(Tidak ada subjek)</string>
+    <!-- When an error occurs downloading a new message and the sender is unknown, substitute
+         this default text. -->
+    <string name="unknown_sender">Pengirim tidak diketahui</string>
+    <!-- When an error occurs downloading a new message, display this message.
+         An example: Download of message Wanna get pizza from dorkman was unsuccessful. -->
+    <string name="dl_failure_notification">Tidak dapat mengunduh pesan <xliff:g id="subject">%1$s</xliff:g> dari <xliff:g id="from">%2$s</xliff:g>.</string>
+ 
+    <!-- This is the confirm rate limit alert dialog title. -->
+    <string name="rate_limit_surpassed">Konfirmasi</string>
+    <!-- This is the confirm rate limit alert dialog text. -->
+    <string name="confirm_rate_limit">Sejumlah besar pesan multimedia sedang dikirim.</string>
+ 
+    <!-- Message Failed Notification -->
+    <!-- Dialog box title when receiving a message failed. -->
+    <string name="message_download_failed_title">Pesan tidak terunduh</string>
+    <!-- Dialog box title when sending a message failed. -->
+    <string name="message_send_failed_title">Pesan tidak terkirim</string>
+    <!-- Dialog box message text when failure occurs sending a message. -->
+    <string name="message_failed_body">Sentuh untuk melihat pesan dan coba lagi.</string>
+    <!-- Dialog box message when there's a problem retrieving messages. -->
+    <string name="download_later">Tidak dapat mengunduh sekarang. Coba lagi nanti.</string>
+ 
+    <!-- Title for audio file picker -->
+    <string name="select_audio">Pilih audio</string>
+    <!-- Menu title to copy an attachment to the shared storage [CHAR LIMIT=25] -->
+    <string name="copy_to_sdcard">Simpan lampiran</string>
+    <!-- Toast message on successful copy to shared storage [CHAR LIMIT=30] -->
+    <string name="copy_to_sdcard_success">Simpan lampiran sebagai %s</string>
+    <!-- Toast message on failed copy to shared storage [CHAR LIMIT=30] -->
+    <string name="copy_to_sdcard_fail">Tidak dapat menyimpan lampiran</string>
+    <!-- Menu title to save a sound as a ringtone -->
+    <string name="save_ringtone">Simpan sebagai nada dering</string>
+    <!-- Toast message on successful copying ringtone to drm provider -->
+    <string name="saved_ringtone">Nada dering tersimpan</string>
+    <!-- Toast message on failed copying ringtone to drm provider -->
+    <string name="saved_ringtone_fail">Tidak dapat menyimpan nada dering</string>
+    <!-- Menu item -->
+ 
+    <!-- This is the dialog title for the "Select link" dialog, shown when the user clicks on a
+    chat in the chat history view if there are links in the chat message. The dialog displays the
+    links if there are any -->
+    <string name="select_link_title">Pilih tindakan</string>
+ 
+    <!-- Name of the Nth slide, shown in the list in the slideshow editor. -->
+    <string name="slide_number">Slide <xliff:g id="number" example="5">%s</xliff:g></string>
+    <!-- Duration of the slide, shown in the list in the slideshow editor -->
+    <plurals name="slide_duration">
+        <!-- Case of 1-second duration. -->
+        <item quantity="one"><xliff:g id="number" example="1">%s</xliff:g> detik</item>
+        <!-- Case of "few" (small number of) seconds of duration. -->
+        <item quantity="few"><xliff:g id="number" example="2">%s</xliff:g> detik</item>
+        <!-- Case of multiple-second duration. -->
+        <item quantity="other"><xliff:g id="number" example="15">%s</xliff:g> detik</item>
+    </plurals>
+ 
+    <!-- Title of the delivery report activity. -->
+    <string name="delivery_report_activity">Laporan terkirim</string>
+ 
+    <!-- Title of the activity that tells the user about storage limits. -->
+    <string name="storage_limits_activity">Batas ruang</string>
+ 
+    <!-- Title of the slide duration editor activity. -->
+    <string name="change_duration_activity">Ganti durasi</string>
+ 
+    <!-- Title of the slideshow editor activity. -->
+    <string name="edit_slideshow_activity">Sunting slideshow</string>
+ 
+    <!-- Title of the slide editor activity. -->
+    <string name="edit_slide_activity">Sunting slide</string>
+ 
+    <!-- Title of the slideshow activity. -->
+    <string name="slideshow_activity">Slideshow</string>
+ 
+    <!-- Title of the class-0 message activity. -->
+    <string name="class_0_message_activity">Kelas 0 pesan</string>
+ 
+    <!-- Application name shown when searching -->
+    <string name="search_label">Pesan</string>
+ 
+    <!-- Search hint -->
+    <string name="search_hint">Cari pesan</string>
+ 
+    <!-- Search activity name -->
+    <string name="search">Pesan</string>
+    <!-- Search setting description -->
+    <string name="search_setting_description">Teks dalam pesan</string>
+ 
+    <!--  Search empty results -->
+    <string name="search_empty">Tidak menemukan</string>
+ 
+    <!--  Search results title -->
+    <plurals name="search_results_title">
+        <!-- Case of 1 result. -->
+        <item quantity="one"><xliff:g id="number" example="1">%1$s</xliff:g> hasil dari \"<xliff:g id="search" example="???">%2$s</xliff:g>\"</item>
+        <!-- Case of 0 or 2 or more results. -->
+        <item quantity="other"><xliff:g id="number" example="15">%1$s</xliff:g> hasil dari \"<xliff:g id="search" example="???">%2$s</xliff:g>\"</item>
+    </plurals>
+ 
+    <!--- String saved in history searches. -->
+ 
+    <!-- Button title in Messaging preferences. -->
+    <!-- Text for the preferences button. -->
+    <!--- Button title in preferences to clear the search history. It's a verb action that takes place
+          immediately when clicked. -->
+    <!--- Button description in preferences to clear the search history. -->
+ 
+    <!-- Dialog text for display mode save dialog. -->
+    <string name="save">Simpan</string>
+ 
+    <!-- Dialog title for dialog that informs user about new storage settings. -->
+ 
+    <!-- Dialog message for dialog that informs user about new storage settings. -->
+    <string name="storage_limits_message">Batasi jumlah pesan yang Anda simpan per percakapan?</string>
+ 
+    <!-- Button title for dialog that informs user about new storage settings. -->
+    <string name="storage_limits_setting">Sesuaikan batas</string>
+ 
+    <!-- Button title to dismiss dialog that informs user about new storage settings. -->
+    <string name="storage_limits_setting_dismiss">Tidak ada batas</string>
+ 
+    <!-- Toast message when a user tries to send a Mms message when there are already too many
+         outstanding unsent message. -->
+    <string name="too_many_unsent_mms">Tidak dapat mengirim pesan sekarang. Terlalu banyak pesan multimedia terkirim.</string>
+ 
+    <!-- Brief small label shown to right of message when it is being sent. -->
+ 
+    <!-- Title of progress dialog for picker -->
+    <string name="pick_too_many_recipients">Terlalu banyak penerima</string>
+ 
+    <!-- Message of progress dialog for picker -->
+    <string name="adding_recipients">Menambahkan penerima\u2026</string>
+ 
+    <!-- In conversation list items, this is the separator between a contact's name
+         and the draft stamp [CHAR LIMIT=5] -->
+ 
+    <!-- In conversation list items, this comes after the receipient's name and contains
+         the number of messages in the thread [CHAR LIMIT=5] -->
+ 
+    <!-- For debugging: Dialog box title indicating there's a situation where data has unexpectedly
+         changed -->
+    <string name="error_state">Keadaan tidak konsisten</string>
+    <!-- For debugging: Dialog box text indicating there's a situation where data has unexpectedly
+         changed -->
+    <string name="error_state_text">Keadaan percakapan dan penerima tidak konsisten. Silakan menangkap laporan bug dan melaporkannya melalui http://go/droidanizer </string>
+ 
+    <!-- In the title of the compose message activity, when there are multiple recipients, we show
+         the number of recipients in the subtitle of the action bar. There's never a case of one. [CHAR LIMIT=50] -->
+    <plurals name="recipient_count">
+        <!-- Case of 0 or 2 or more results. -->
+        <item quantity="other"><xliff:g id="number" example="15">%1$s</xliff:g> orang-orang</item>
+    </plurals>
+ 
+    <!-- Message of the dialog used to disable messaging notifications [CHAR LIMIT=none] -->
+    <string name="disable_notifications_dialog_message">Hentikan pemberitahuan pesan teks duplikat dari default Messaging app?</string>
+ 
+    <!-- Add by MIUI -->
+    <!-- tab title -->
+    <string name="conversation">Pesan</string>
+    <string name="bookmark">Ditandai</string>
+    <string name="festival">Respon cepat</string>
+ 
+    <string name="add_smiley">Emoticon</string>
+    <string name="add_bookmark">Ditandai</string>
+    <string name="add_contact">Kontak</string>
+    <string name="add_nickname">Nama panggilan</string>
+    <string name="add_festival">Respon cepat</string>
+ 
+    <string name="add_nickname_title">Sunting nama panggilan</string>
+    <string name="edit_nickname_for_nocontact">Anda harus menambahkan penerima terlebih dahulu</string>
+    <string name="edit_nickname_for_nocontact_by_robot">Anda harus menambahkan penerima terlebih dahulu</string>
+    <string name="nickname_placeholder">Nama panggilan</string>
+ 
+    <!-- Label for the "Me" number of this phone. -->
+    <string name="me">Saya</string>
+ 
+    <!-- Title of multiple recipients conversation or in new message for recipients count-->
+    <string name="to_count">%d penerima</string>
+ 
+    <!-- in new message for recipients count-->
+    <string name="recipient_editor_count_format">%d</string>
+ 
+    <!-- For debugging: Dialog box title indicating there's a situation where data has unexpectedly
+         changed -->
+    <string name="new_message_arrived">Anda mendapat pesan baru</string>
+ 
+    <!-- Festival sms category tab -->
+    <string name="festival_sms_category_count_format">%s</string>
+    <string name="festival_sms_loading">Memuat\u2026</string>
+    <string name="refresh">Refresh</string>
+    <string name="refresh_failed">Gagal memperbaharui</string>
+    <string name="database_corruption">Memperbaiki\u2026</string>
+ 
+    <!-- for message list item -->
+    <string name="send_to">Untuk:</string>
+    <string name="send_to_count">Kirim %1$s pesan</string>
+    <string name="send_to_index_contact">%1$s/%2$s</string>
+    <string name="message_received">Diterima</string>
+    <string name="message_failed">Gagal</string>
+    <string name="message_pending">Mengirim</string>
+    <string name="message_readed">Dibaca</string>
+    <string name="message_rejected">Ditolak</string>
+    <string name="resent_message">Kirim ulang</string>
+    <string name="group_resend_message">Kirim ulang (%d)</string>
+    <string name="nosend_message">"Jangan kirim"</string>
+    <string name="group_message_failed_title">Gagal mengirim ke %d kontak</string>
+    <string name="context_menu_view_mms">Lihat MMS</string>
+    <string name="context_menu_call">Telepon</string>
+    <string name="context_menu_send_sms">Kirim pesan</string>
+    <string name="context_menu_browse_web">Jelajah</string>
+    <string name="context_menu_send_mail">Kirim email</string>
+    <string name="context_menu_copy">Salin</string>
+    <string name="context_menu_copy_notice">Disalin ke clipboard</string>
+    <string name="context_menu_new_contact">Kontak baru</string>
+    <string name="context_menu_add_contact">Tambahkan ke kontak</string>
+    <string name="context_menu_view_contact">Lihat kontak</string>
+    <string name="context_menu_contact">Kontak: %1$s</string>
+ 
+    <!-- Theme setting -->
+    <string name="pref_sms_theme_title">Lihat</string>
+    <string name="pref_time_auto_group_title">Pesan group</string>
+    <string name="pref_time_auto_group_summary">Pesan group diurutkan oleh waktu</string>
+ 
+    <!--  for bookmark -->
+    <string name="bookmark_list_title">Ditandai</string>
+    <string name="save_to_sim">Simpan ke kartu SIM</string>
+    <string name="delete_bookmark">Hapus tandai</string>
+    <string name="view_bookmark">Lihat pesan asli</string>
+    <string name="bookmark_confirm_delete_message">Hapus pesan yang ditandai?</string>
+    <string name="bookmark_empty">Tidak ada pesan yang ditandai</string>
+ 
+    <!-- Sms phrase -->
+    <string name="phrase_list_title">Respon cepat</string>
+    <string name="new_phrase">Tambahkan respon cepat</string>
+    <string name="edit_phrase">Sunting respon cepat</string>
+    <string name="new_phrase_hint">Masukkan respon baru</string>
+    <string name="delete_phrase">Hapus respon</string>
+    <string name="phrase_confirm_delete_message">Respon cepat ini akan dihapus.</string>
+    <string name="phrase_from">Dari %1s</string>
+    <string name="phrase_empty">Tidak ada respon</string>
+ 
+    <!-- preference -->
+    <string name="pref_title_notification_body_enabled">Memperlihatkan pesan</string>
+    <string name="pref_summary_notification_body_enabled">Perlihatkan pesan dalam layar kunci dan status bar</string>
+    <string name="pref_summary_notification_body_enabled_when_secure">Anda dapat melihat pesan dalam mode Guest</string>
+    <string name="pref_title_new_message_popup">Pemberitahuan popup</string>
+    <string name="pref_summary_new_message_popup">Perlihatkan pemberitahuan popup ketika pesan diterima</string>
+    <string name="pref_summary_new_message_popup_when_secure">Jangan perlihatkan pesan teks dalam mode Guest</string>
+    <string name="pref_title_wake_up_screen">Bangunkan layar</string>
+    <string name="pref_summary_wake_up_screen">Bangunkan layar ketika pesan diterima</string>
+    <string name="pref_title_delivery_reports">Laporan terkirim</string>
+    <string name="pref_summary_delivery_reports">Minta laporan terkirim setiap Anda mengirim pesan</string>
+    <string name="pref_title_ringtone_repeat">Nada Pesan</string>
+ 
+    <string name="pref_other_title">Lainnya</string>
+    <string name="pref_system_title">Sistem</string>
+    <string name="pref_advanced_settings_title">Pengaturan lanjutan</string>
+    <string name="pref_edit_smsc_address">Nomor pusat SMS</string>
+    <string name="pref_title_allow_si_sl_push">Izinkan WAP push</string>
+    <string name="pref_summary_allow_si_sl_push">Izinkan pesan WAP push(SI/SL)</string>
+    <string name="pref_title_show_recent_contacts">Tampilkan kontak terbaru</string>
+    <string name="pref_summary_show_recent_contacts">Tampilkan kontak terbaru ketika mengetik pesan baru</string>
+    <string name="pref_title_hide_festival">Sembunyikan tab rekomendasi</string>
+    <string name="pref_summary_hide_festival">Sembunyikan tab rekomendasi untuk bahasa non-Chinese</string>
+ 
+    <!-- Signature -->
+ 
+    <string name="send_signature_confirm_dialog_title">Kirim pesan</string>
+    <string name="send_signature_confirm_dialog_message">Tidak ada pesan ditemukan. Kirim hanya tanda tangan Anda?</string>
+ 
+    <!-- edit mode -->
+    <string name="enter_edit_mode">Sunting pesan</string>
+    <string name="check_all">Pilih semua</string>
+    <string name="batch_delete_confirm_dialog_message">Hapus %1$s pesan?</string>
+    <string name="batch_deleting_progress_message">Menghapus\u2026</string>
+    <string name="batch_deleting_message_progress_message">Menghapus\u2026</string>
+ 
+    <string name="attach_subject">Subjek</string>
+ 
+    <!-- flatshow -->
+    <string name="flatshow_page_no">%1$d</string>
+ 
+    <string name="prepare_send">Bersiap untuk mengirim\u2026</string>
+    <string name="activity_not_found">Tidak ada aplikasi ditemukan untuk menindak lanjuti</string>
+    <string name="activity_not_found_uri">Tidak ada aplikasi ditemukan untuk menindak lanjuti</string>
+    <string name="fetion_prefix">[Fetion]</string>
+    <string name="chenghu_disable_mms">Anda dapat menggunakan nama panggilan dalam MMS</string>
+ 
+    <string name="non_english_subject_limit">Batas 13 karakter</string>
+    <string name="text_in_popup_saved_to_clipboard">Disalin ke clipboard</string>
+ 
+    <string name="guild_add_recipients">Sentuh untuk menambahkan penerima dari buku telepon</string>
+    <string name="guild_add_attachments">Sentuh untuk menambahkan emoticon dan konten lainnya</string>
+ 
+    <string name="privacy_mode_hint">Tidak dapat mengirim pesan dalam mode Guest</string>
+    <string name="wap_push_title">"[WAP Push] "</string>
+    <string name="message_too_big_for_audio">Pesan terlalu besar</string>
+    <string name="add_timing">Waktu</string>
+ 
+    <string name="pref_title_system_mms_priority">Tetapkan sebagai standar</string>
+    <string name="pref_summary_on_system_mms_priority">tetapkan pesan aplikasi MIUI sebagai standar aplikasi untuk mengirim dan menerima MMS</string>
+    <string name="pref_summary_off_system_mms_priority">Gunakan aplikasi pihak ke tiga untuk mengirim dan menerima MMS</string>
+ 
+    <!-- Title of timed message dialog -->
+    <string name="title_timed_message_dialog">Tetapkan waktu pesan</string>
+    <!-- prompt of the timed message -->
+    <!-- For timed message dialog if user set the time before current time -->
+    <string name="error_timed_msg">"Waktu tidak valid."</string>
+    <!-- Menu item -->
+    <!-- To send wrapper for timestamp -->
+    <string name="to_send_wrapper" >"Akan dikirim pada %s"</string>
+ 
+    <string name="group_message">Pesan group</string>
+    <string name="close">Tutup</string>
+    <string name="timed_message_expired_title">%d waktu pesan tidak terkirim</string>
+    <string name="timed_message_expired_title_2">Kirim sekarang?</string>
+    <string name="timed_message_to">untuk</string>
+    <string name="timed_message_in_total"> (%d pesan)</string>
+    <string name="processing">Sedang diproses\u2026</string>
+    <string name="title_date_type">Timestamp</string>
+ 
+    <string name="mx_msg">Pesan Cloud</string>
+    <string name="mx_enable">Pesan Cloud</string>
+    <string name="mx_warning_notice">Sebuah teks akan dikirim untuk mengaktifkan Pesan Cloud (biaya penggunaan data normal berlaku).</string>
+    <string name="mx_int_warning_notice">Sebuah teks internasional akan dikirim untuk mengaktifkan Pesan Cloud (biaya penggunaan data normal berlaku).</string>
+    <string name="mx_btn_enable">Aktif</string>
+    <string name="ex_type_sms">pesan/MMS</string>
+    <string name="ex_type_mx">Pesan Cloud</string>
+    <string name="mx_dspt">Pesan Cloud memungkinkan Anda mengirim pesan bolak-balik dengan orang lain yang menggunakan MIUI</string>
+    <string name="mx_current_status">Status: online</string>
+    <string name="mx_count_dspt">Anda telah mengirim %1$d teks dan %2$d MMS</string>
+    <string name="mx_auto_resend_sms">Kirim sebagai teks</string>
+    <string name="mx_auto_resend_sms_summary">Kirim sebagai teks melalui koneksi data ponsel ketika Anda tidak terhubung ke Wi-Fi(biaya penggunaan data normal berlaku).</string>
+    <string name="mx_auto_resend_mms">Send as MMS</string>
+    <string name="mx_auto_resend_mms_summary">Kirim sebagai MMS melalui koneksi data ponsel ketika Anda tidak terhubung ke Wi-Fi(biaya penggunaan data normal berlaku)</string>
+    <string name="msg_type_hint_sms">Pesan teks</string>
+    <string name="msg_type_hint_mms">Pesan multimedia (MMS)</string>
+    <string name="msg_type_hint_mx">Pesan Cloud</string>
+    <string name="mx_reactivate">Aktifkan kembali Pesan Cloud</string>
+    <string name="mx_activate_error_title">Gagal mengaktifkan kembali</string>
+    <string name="mx_activate_error_sim_change">Kartu SIM telah berubah: Anda perlu mengaktifkan Pesan Cloud.</string>
+    <string name="mx_activate_error_malformed_info">Koneksi hilang: Anda perlu mengaktifkan Pesan Cloud.</string>
+    <string name="mx_activate_error_server">Gagal mengaktifkan kembali.</string>
+    <string name="mx_activate_hint_sim_change">Sebuah teks akan dikirim untuk mengaktifkan Pesan Cloud (biaya penggunaan data normal berlaku).</string>
+    <string name="mx_activate_int_hint_sim_change">Sebuah teks internasional akan dikirim untuk mengaktifkan Pesan Cloud (biaya penggunaan data normal berlaku).</string>
+    <string name="mx_activate_hint_malformed_info">Sebuah teks akan dikirim untuk mengaktifkan Pesan Cloud (biaya penggunaan data normal berlaku).</string>
+    <string name="mx_activate_int_hint_malformed_info">Sebuah teks internasional akan dikirim untuk mengaktifkan Pesan Cloud (biaya penggunaan data normal berlaku).</string>
+    <string name="mx_activate_hint_server">Sebuah teks akan dikirim untuk mengaktifkan Pesan Cloud (biaya penggunaan data normal berlaku).</string>
+    <string name="mx_activate_int_hint_server">Sebuah teks internasional akan dikirim untuk mengaktifkan Pesan Cloud (biaya penggunaan data normal berlaku).</string>
+    <string name="need_download">Sinkronisasi\u2026</string>
+    <string name="found_wild_messages_title">Unduh pesan</string>
+    <string name="found_wild_messages">Unduh pesan dari kartu SIM lainnya?</string>
+    <string name="found_old_messages_title">Unggah pesan dari kartu SIM?</string>
+    <string name="found_old_messages">Unggah pesan dari %1$s untuk %2$s?</string>
+    <string name="show_all_messages">Perlihatkan semua pesan</string>
+    <string name="loading_all_messages">Memuat pesan\u2026</string>
+    <string name="mx_online">Online</string>
+    <string name="mx_offline">Offline</string>
+    <string name="mx_enable_popup_msg">Pesan Cloud memungkinkan Anda mengirim pesan bolak-balik dengan orang lain yang menggunakan MIUI. Biaya penggunaan data normal berlaku, kecuali jika Anda terhubung dengan Wi-Fi.</string>
+    <string name="mx_enable_int_popup_msg">Pesan Cloud memungkinkan Anda mengirim pesan bolak-balik dengan orang lain yang menggunakan MIUI. Biaya penggunaan data normal berlaku, kecuali jika Anda terhubung dengan Wi-Fi.</string>
+    <string name="mx_activation_done">Pesan Cloud aktif</string>
+    <string name="mx_activate_popup_msg">Pesan Cloud memungkinkan Anda mengirim pesan bolak-balik dengan orang lain yang menggunakan MIUI. Biaya penggunaan data normal berlaku, kecuali jika Anda terhubung dengan Wi-Fi.</string>
+    <string name="mx_activate_int_popup_msg">Pesan Cloud memungkinkan Anda mengirim pesan bolak-balik dengan orang lain yang menggunakan MIUI. Biaya penggunaan data normal berlaku, kecuali jika Anda terhubung dengan Wi-Fi.</string>
+    <string name="mx_btn_enable_now">Aktif</string>
+ 
+    <string name="loading_mms">Memuat\u2026</string>
+    <string name="add_number_to_sender">Tambahkan nomor untuk %s</string>
+ 
+    <string name="unknown_num">Nomor tidak diketahui</string>
+ 
+    <string name="in_sms">Pesan</string>
+    <string name="sms_content">Konten:</string>
+    <string name="hint_search_sms">%d pesan</string>
+ 
+    <plurals name="message_count">
+        <item quantity="one"><xliff:g id="number" example="1">%1$s</xliff:g> pesan</item>
+        <item quantity="other"><xliff:g id="number" example="15">%1$s</xliff:g> pesan</item>
+    </plurals>
+ 
+    <string name="search_show_more_results">Perlihatkan lainnya</string>
+ 
+    <string name="add_private_contact">Tambah kontak pribadi</string>
+    <string name="private_settings">Pengaturan pesan pribadi</string>
+    <string name="prvate_contact">Kontak pribadi</string>
+    <string name="private_message">Pesan pribadi</string>
+    <string name="private_protect">Kata sandi</string>
+    <string name="private_new_notification">Pemberitahuan pesan</string>
+    <string name="enable_password_protect">Membutuhkan kata sandi</string>
+    <string name="enable_visible_pattern_title">Membuat pola yang terlihat</string>
+    <string name="importing_progress_private_message">mengimport pesan\u2026</string>
+    <string name="exporting_progress_private_message">mengexport pesan\u2026</string>
+    <string name="confirm_export_dialog_title">Hapus dari kontak pribadi</string>
+    <string name="confirm_export_dialog_description">Sebelumnya percakapan dengan kontak ini tidak akan lagi disembunyikan.</string>
+    <string name="number_add_hint">Masukkan nomor telepon</string>
+    <string name="menu_new_manual">Masukkan nomor telepon</string>
+    <string name="menu_pick_from_contact">Pilih dari kontak</string>
+ 
+    <string name="select_local_audio">Pilih audio</string>
+    <string name="select_local_video">Pilih video</string>
+ 
+    <string name="mx_recommend_msg">Sentuh untuk mengaktifkan Pesan Messaging.</string>
+ 
+    <string name="set_smsc_address_title_miui">Tetapkan nomor pusat SMS</string>
+ 
+    <string name="sim_card1">Kartu SIM 1</string>
+    <string name="sim_card2">Kartu SIM 2</string>
+    <string name="sim_card_cloud">%s (Pesan Cloud)</string>
+ 
+    <string name="forward_from">Teruskan dari:</string>
+    <string name="pref_forward_title">Teruskan</string>
+    <string name="pref_title_fwd_sender_info">Teruskan informasi pengirim</string>
+    <string name="saved_to_sim">Tersimpan</string>
+    <string name="save_to_sim_failed">Gagal menyimpan</string>
+    <string name="restored_to_phone_memory">Dikembalikan</string>
+    <string name="restore_to_phone_memory_failed">Gagal mengembalikan</string>
+ 
+    <string name="pref_title_card_format">Bagikan format kartu</string>
+    <string name="pref_title_miui_card">Dikirim via kartu</string>
+    <string name="pref_title_vcard">Dikirim via vCard</string>
+ 
+    <string name="type_vcard">vCard</string>
+    <string name="add_slide_before">Tambah intro slide</string>
+    <string name="context_menu_add_to_browser_favorite">Tambahkan ke bookmark jelajah</string>
+ 
+    <string name="restore_all_button_msg">Kembalikan semua pesan yang dikirim dari nomor ini</string>
+    <string name="no_block_button_msg">Hapus blokir nomor ini</string>
+ 
+    <string name="restore_blocked_message">Kembalikan pesan</string>
+    <string name="overwrite_edited_content">Konten yang anda sunting akan ditimpah.</string>
+ 
+    <string name="back_to_message_list">Kembali ke daftar pesan</string>
+    <string name="select_recipient">Pilih penerima</string>
+    <string name="add_attachment">Tambahkan lampiran</string>
+    <string name="send_sms">Kirim pesan</string>
+    <string name="file_share_message_description">Saya ingin berbagi beberapa berkas dengan Anda.</string>
+ 
+    <string name="addBlackList">Tambahkan ke daftar blokir</string>
+    <string name="confirm_add_blacklist_dialog_dspt">Tambahkan nomor ini ke daftar blokir Anda?</string>
+    <string name="batch_adding_progress_message">Menambahkan\u2026</string>
+ 
+    <string name="invalid_private_contact">Kontak pribadi tidak valid</string>
+ 
+    <string name="sp_conversation_title">Pemberitahuan pesan</string>
+    <string name="title_collapse_sp_messages">Pean grup operator</string>
+    <string name="pref_collapse_sp_messages_summary">Pemberitahuan group dari operator ke dalam percakapan yang sama</string>
+ 
+    <string name="sp_mark_as_read_title">Tandai semua telah dibaca</string>
+    <string name="sp_mark_as_read">Tandai semua telah dibaca?</string>
+    <string name="sp_mark_as_read_progress">Menandai telah dibaca\u2026</string>
+ 
+    <string name="refill_now">Refill sekarang</string>
+ 
+    <string name="toast_feedback_start">Mengumpulkan log data\u2026</string>
+    <string name="toast_feedback_finish">Laporan Anda akan dikirim ketika Anda terhubung ke Wi-Fi</string>
+    <string name="toast_feedback_max">"Anda tidak dapat mengirimkan lebih dari 3 laporan setiap hari"</string>
+    <string name="toast_description_required">Deskripsi tidak boleh kosong</string>
+    <string name="pref_key_mx_feedback"> Berikan umpan balik</string>
+    <string name="pref_summary_mx_feedback">Laporkan kesalahan bugs dan kirim umpan balik langsung ke Xiaomi</string>
+    <string name="feedback_description_hint">Tulis pesan anda disini</string>
+    <string name="feedback_submit">Kirim umpan balik</string>
+</resources>
