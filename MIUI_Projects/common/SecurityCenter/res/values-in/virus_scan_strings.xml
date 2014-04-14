@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="virus_scan_virus_title">%d viruses detected!</string>
-    <string name="virus_scan_risk_title">%d suspicious apps detected</string>
-    <string name="virus_button_clear">Clean up</string>
+    <string name="virus_scan_virus_title">%d virus dideteksi!</string>
+    <string name="virus_scan_risk_title">%d apl yang mencurigakan dideteksi</string>
+    <string name="virus_button_clear">Bersihkan</string>
     <string name="virus_activity_title">Virus</string>
-    <string name="virus_single_virusapk_title">Virus details</string>
-    <string name="virus_single_virusapk_button_clear">Clean up</string>
-    <string name="virus_single_virus_name">Name:</string>
-    <string name="virus_single_app_install_date">Install date:</string>
-    <string name="virus_single_app_file_date">Date created:</string>
-    <string name="virus_single_virus_description">Description:</string>
-    <string name="virus_single_riskapk_title">Suspicious app details</string>
+    <string name="virus_single_virusapk_title">Detail virus</string>
+    <string name="virus_single_virusapk_button_clear">Bersihkan</string>
+    <string name="virus_single_virus_name">Nama:</string>
+    <string name="virus_single_app_install_date">Tanggal dipasang:</string>
+    <string name="virus_single_app_file_date">Tanggal dibuat:</string>
+    <string name="virus_single_virus_description">Deskripsi:</string>
+    <string name="virus_single_riskapk_title">Detail apl mencurigakan</string>
     <string name="virus_scan_list_item_virus">Virus</string>
-    <string name="virus_scan_list_item_risk">Risk</string>
-    <string name="virus_scan_start">Virus scan</string>
-    <string name="virus_scan_support">Powered by Tencent</string>
+    <string name="virus_scan_list_item_risk">Resiko</string>
+    <string name="virus_scan_start">Pindai virus</string>
+    <string name="virus_scan_support">Didukung oleh Tencent</string>
     <string name="virus_scan_last_time">Most recent scan: %s</string>
     <string name="virus_scan_safe">Clear</string>
     <string name="virus_scan_dangerous">Risk</string>
