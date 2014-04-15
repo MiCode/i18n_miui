@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Lista de Bloqueio</string>
+
+    <!--  notification -->
+    <string name="fw_blocked">Bloqueado:</string>
+    <string name="fw_blocked_count">Bloqueadas <xliff:g id="opt">%d</xliff:g> chamadas e <xliff:g id="opt">%d</xliff:g> mensagens</string>
+
+    <!-- Tab/Other View -->
+    <string name="tab_title">Lista de Bloqueio</string>
+    <string name="tab_block_log">Registro de bloqueios</string>
+    <string name="tab_blacklist">Lista de Bloqueio</string>
+    <string name="tab_sms">Registro de mensagens</string>
+    <string name="tab_call">Registro de chamadas</string>
+    <string name="bl_block_info">Bloqueadas: <xliff:g id="tel_count">%d</xliff:g> chamadas "|" <xliff:g id="ms_count">%d</xliff:g> mensagens</string>
+    <string name="bl_no_block_call">Nenhuma chamada bloqueada</string>
+    <string name="bl_no_block_sms">Nenhuma mensagem bloqueada</string>
+    <string name="bl_no_blacklist">Nenhum número bloqueado</string>
+    <string name="log_count">(%d)</string>
+
+    <string name="tab_block_log_unKnowNumber">Número desconhecido</string>
+
+    <!-- Mark info -->
+    <string name="marked_by_user">"Você marcou como "</string>
+    <string name="marked_by_others">"%d outros usuários marcaram como "</string>
+
+    <!-- Dialog -->
+    <string name="dlg_clear_all_sms">Excluir mensagens bloqueadas?</string>
+    <string name="dlg_clear_all_call">Limpar chamadas bloqueadas?</string>
+    <string name="dlg_clear_current_sms">Excluir todas as mensagens bloqueadas deste número?</string>
+    <string name="dlg_clear_current_call">Limpar todas as chamadas bloqueadas deste número?</string>
+    <string name="dlg_clear_all_ok">Limpar tudo</string>
+    <string name="dlg_clear_current_ok">Excluir</string>
+    <string name="dlg_no_block">Desbloquear este número?</string>
+    <string name="dlg_no_block_ok">Desbloquear</string>
+    <string name="dlg_add_blacklist">Bloquear este número?</string>
+    <string name="dlg_remove_blacklist">Desbloquear este número?</string>
+    <string name="dlg_remove_blacklist_ok">Desbloquear</string>
+    <string name="dlg_clear_blacklist">Limpar lista de bloqueio?</string>
+    <string name="dlg_clear_blacklist_ok">Limpar</string>
+    <string name="dlg_bl_add_manual">Adicionar número à lista de bloqueio</string>
+    <string name="dlg_add_manual_ok">Adicionar</string>
+    <string name="dlg_add_manual_hint">Insira o número de telefone</string>
+    <string name="dlg_import_blacklist">Adicionando à lista de bloqueio\u2026</string>
+    <string name="dlg_import_whitelist">Adicionando à lista de exceções\u2026</string>
+    <string name="dlg_add_keyword">Adicionar palavras-chave</string>
+    <string name="dlg_edit_keyword">Editar palavra-chave</string>
+    <string name="dlg_delete_keyword">Remover palavras-chave selecionadas?</string>
+    <string name="dlg_keyword_ok">Salvar</string>
+    <string name="dlg_retore">Restaurar mensagem para a caixa de mensagens?</string>
+    <string name="dlg_retore_ok">Restaurar</string>
+    <string name="toast_keyword_blank">Você precisa inserir uma palavra-chave :)</string>
+    <string name="toast_keyword_exist">Palavra-chave salva</string>
+    <string name="toast_keyword_invalid">A palavra-chave inserida é inválida</string>
+
+    <!-- Menu -->
+    <string name="menu_clear_all_sms">Excluir mensagens bloqueadas</string>
+    <string name="menu_clear_all_call">Limpar chamadas bloqueadas</string>
+    <string name="menu_clear_current_sms">Excluir todas as mensagens bloqueadas deste número</string>
+    <string name="menu_clear_current_call">Limpar todas as chamadas bloqueadas deste número</string>
+    <string name="menu_no_block">Desbloquear</string>
+    <string name="menu_mark">Denunciar número</string>
+    <string name="menu_call">Discar</string>
+    <string name="menu_sms">Enviar mensagem</string>
+    <string name="menu_restore">Restaurar mensagem</string>
+    <string name="menu_bl_call_log">Ver chamadas bloqueadas</string>
+    <string name="menu_bl_sms_log">Ver mensagens bloqueadas</string>
+    <string name="menu_bl_remove">Desbloquear</string>
+    <string name="menu_bl_clear">Limpar lista de bloqueio</string>
+    <string name="menu_bl_add_manual">Adicionar</string>
+    <string name="menu_bl_add_contact">Contatos</string>
+    <string name="menu_add_new_contact">Novo contato</string>
+    <string name="menu_add_into_contact">Adicionar a contato existente</string>
+    <string name="menu_add">Adicionar</string>
+    <string name="menu_edit">Editar</string>
+    <string name="menu_remove">Remover</string>
+
+    <!-- Settings -->
+    <string name="st_settings_name">Configurações da lista de bloqueio</string>
+    <string name="st_block_setting_group">Configurações da lista de bloqueio</string>
+    <string name="st_block_setting_title">Chamadas e mensagens</string>
+    <string name="st_block_all">Bloquear chamadas e mensagens</string>
+    <string name="st_mute_all">Silenciar chamadas e mensagens</string>
+    <string name="st_block_mute">Bloquear chamadas e silenciar mensagens</string>
+    <string name="st_mute_block">Silenciar chamadas e bloquear mensagens</string>
+    <string name="st_call_group">Chamadass</string>
+    <string name="st_sms_group">Mensagens</string>
+    <string name="st_block_title">Desviar para registro de bloqueio</string>
+    <string name="st_mute_title">Não tocar ou vibrar</string>
+    <string name="st_common_setting_group">Configurações de filtro</string>
+    <string name="st_block_private_call_button">Bloquear números privados</string>
+    <string name="st_filter_sms_button">Filtrar mensagens</string>
+    <string name="st_filter_keywords_setting_title">Definir filtro de palavras-chave</string>
+    <string name="st_filter_keywords_title">Filtro de palavras-chave</string>
+    <string name="st_filter_keywords_setting_summary1">Mensagens enviadas de números desconhecidos que contenham as seguintes palavras-chave serão bloqueados.</string>
+    <string name="st_filter_keywords_setting_summary2">Você pode separar palavras-chave utilizando uma vírgula</string>
+    <string name="st_advanced_setting_group">Avançado</string>
+    <string name="st_block_unknown_call">Bloquear números desconhecidos</string>
+    <string name="st_block_unknown_sms">Bloquear mensagens desconhecidas</string>
+    <string name="st_other_setting_group">Outras configurações</string>
+    <string name="st_show_block_notification">Exibir notificação de bloqueio</string>
+</resources>
