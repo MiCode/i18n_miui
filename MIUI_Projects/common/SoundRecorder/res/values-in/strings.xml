@@ -16,21 +16,21 @@
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- application name and title of error dialogs-->
-    <string name="app_name">Recorder</string>
+    <string name="app_name">Perekam</string>
 
     <!-- Screen title before and during recording -->
     <!-- Screen title after recording -->
     <!-- Screen title while playing back a recording -->
     <!-- Label shown during recording -->
-    <string name="recording">Recording</string>
+    <string name="recording">Merekam</string>
     <!-- Label shown when the recording is stopped for a reason other than the user stopping it (e.g. the sd card was removed) -->
-    <string name="recording_stopped">Recording stopped</string>
+    <string name="recording_stopped">Berhenti merekam</string>
     <!-- label shown when there is not enough space to record something -->
-    <string name="storage_is_full">Not enough space</string>
+    <string name="storage_is_full">Tidak ada cukup ruang</string>
     <!-- label shown when the recording has reached maximum allowed file size -->
-    <string name="max_length_reached">Maximum length reached</string>
+    <string name="max_length_reached">Mencapai batas rekaman</string>
     <!-- label shown when there is no sd card available to record to -->
-    <string name="insert_sd_card">Insert SD card now</string>
+    <string name="insert_sd_card">Masukan sdcard sekarang</string>
     <!-- label shown when there is more than 1 minute but less than 9 minutes of space left to record -->
     <!-- label shown when there is less than 1 minute of space left to record -->
 
@@ -45,133 +45,134 @@
     <!-- the name under which recordings will be visible in the media database is formatted like this -->
     <string name="audio_db_title_format"><xliff:g id="format">yyyy-MM-dd HH:mm:ss</xliff:g></string>
     <!-- all recordings will show up in the media database with this 'artist' name -->
-    <string name="audio_db_artist_name">Your recordings</string>
+    <string name="audio_db_artist_name">Rekaman anda</string>
     <!-- all recordings will show up in the media database with this 'album' name -->
-    <string name="audio_db_album_name">Audio recordings</string>
+    <string name="audio_db_album_name">Rekaman suara</string>
     <!-- all recordings will show up in the media database in a playlist with this name -->
-    <string name="audio_db_playlist_name">My recordings</string>
+    <string name="audio_db_playlist_name">Rekaman saya</string>
     <!-- shown as the message in a dialog when an error occured because of an error accessing the sd card -->
-    <string name="error_sdcard_access">Unable to access external or internal storage</string>
+    <string name="error_sdcard_access">Tidak mampu mengakses penyimpanan internal atau eksternal</string>
     <!-- shown as the message in a dialog when the app encountered an unspecified internal error -->
-    <string name="error_app_internal">Another app may be using the recording function. Please check and try again.</string>
-    <string name="error_app_internal_title">Sound recorder error</string>
+    <string name="error_app_internal">Aplikasi lain sedang menggunakan fungsi perekam. Tolong periksa dan mencoba lagi</string>
+    <string name="error_app_internal_title">Suara perekam bermasalah</string>
     <!-- shown as the message in a dialog when the recording could not be added to the media database -->
-    <string name="error_mediadb_new_record">Unable to save recorded audio</string>
+    <string name="error_mediadb_new_record">Tidak dapat menyimpan suara perekam</string>
 
     <!-- add for libra begin -->
-    <string name="default_record_name">Untitled</string>
-    <string name="menu_view_record_list">My recordings</string>
-    <string name="delete_dialog_message">Delete recording?</string>
-    <string name="overwrite_dialog_message">A recording with the same name already exists. Do you want to overwrite it?</string>
-    <string name="notification_recording">Recording\u2026</string>
-    <string name="notification_playback">Playing\u2026</string>
-    <string name="notification_stopped">Recording stopped</string>
-    <string name="notification_warning">Storage low (less than %d minutes)</string>
-    <string name="record_list">Recordings</string>
-    <string name="record_list_fm">FM Recordings</string>
-    <string name="record_list_call">Call Recordings</string>
-    <string name="record_list_cloud">Cloud Recordings</string>
-    <string name="record_list_cloud_fm">Cloud FM Recordings</string>
-    <string name="record_list_cloud_call">Cloud call Recordings</string>
-    <string name="sd_card_not_available">SD card is unavailable</string>
-    <string name="call_record">Call recordings(%d)</string>
-    <string name="fm_record">Radio recordings(%d)</string>
-    <string name="cloud_record">Recording in cloud(%d)</string>
-    <string name="open_file_explorer">Browse with Explorer</string>
-    <string name="no_file">No recordings</string>
-    <string name="loading_recording">Loading recordings</string>
-    <string name="mark_now">(Current)</string>
-    <string name="second">%d seconds</string>
-    <string name="minute">%d minutes </string>
-    <string name="hour">%d hours </string>
-    <string name="call_record_or">or</string>
-    <string name="dialog_play">Play</string>
-    <string name="dialog_send">Send</string>
-    <string name="dialog_warning">Warning</string>
-    <string name="alert_message_delete_record">Delete selected recordings?</string>
-    <string name="unknown_caller">Unknown caller</string>
+    <string name="default_record_name">Tidak ada judul</string>
+    <string name="menu_view_record_list">Rekaman saya</string>
+    <string name="delete_dialog_message">Hapus rekaman?</string>
+    <string name="overwrite_dialog_message">Suatu perekaman dengan nama yang sama telah ada. Apakah anda ingin menimpahnya?</string>
+    <string name="notification_recording">Rekaman\u2026</string>
+    <string name="notification_playback">Dimainkan\u2026</string>
+    <string name="notification_stopped">Rekaman berhenti</string>
+    <string name="notification_warning">Kapasitas penyimpanan rendah (hanya merekam dibawah %d menit)</string>
+    <string name="record_list">Merekam</string>
+    <string name="record_list_fm">Merekam radio FM</string>
+    <string name="record_list_call">Merekam panggilan</string>
+    <string name="record_list_cloud">Merekam penyimpan dalam jumlah besar</string>
+    <string name="record_list_cloud_fm">Merekam radio FM dengan penyimpanan dalam jumlah besar</string>
+    <string name="record_list_cloud_call">Merekam panggilan dengan penyimpanan dalam jumlah besar</string>
+    <string name="sd_card_not_available">Kartu SD tidak terdeteksi</string>
+    <string name="call_record">Merekam panggilan(%d)</string>
+    <string name="fm_record">Merekam radio(%d)</string>
+    <string name="cloud_record">Merekam dengan penyimpanan dalam jumlah banyak(%d)</string>
+    <string name="open_file_explorer">Jelajah dengan penjelajah berkas</string>
+    <string name="no_file">Tidak ada rekaman</string>
+    <string name="loading_recording">Memuat rekaman</string>
+    <string name="mark_now">(Sedang berlangsung)</string>
+    <string name="second">%d detik</string>
+    <string name="minute">%d menit </string>
+    <string name="hour">%d jam </string>
+    <string name="call_record_or">atau</string>
+    <string name="dialog_play">Mainkan</string>
+    <string name="dialog_send">Kirim</string>
+    <string name="dialog_warning">Peringatan</string>
+    <string name="alert_message_delete_record">Menghapus rekaman yang dipilih?</string>
+    <string name="unknown_caller">Panggilan tidak diketahui</string>
 
     <!-- add for libra end -->
 
-    <string name="rename">Rename</string>
-    <string name="send_to">Share</string>
-    <string name="delete">Delete</string>
-    <string name="deleting_message">Deleting\u2026</string>
-    <string name="rename_dialog_title">Rename recording</string>
-    <string name="rename_illegal">The name you entered is invalid.</string>
-    <string name="rename_duplicate">A recording with the same name already exists.</string>
-    <string name="record_picker_title">Choose a recording</string>
+    <string name="rename">Pemberian nama ulang</string>
+    <string name="send_to">Bagikan</string>
+    <string name="delete">Hapus</string>
+    <string name="deleting_message">Menghapus\u2026</string>
+    <string name="rename_dialog_title">Pemberian nama rekaman</string>
+    <string name="rename_illegal">Nama yang dimasukan tidak sesuai.</string>
+    <string name="rename_duplicate">Rekaman dengan nama yang sama sudah ada.</string>
+    <string name="record_picker_title">Memilih rekaman</string>
 
-    <string name="dialog_title_storage_full">Not enough space</string>
-    <string name="dialog_content_storage_full">Recording stopped because there\'s not enough space left on your phone\'s internal memory.</string>
+    <string name="dialog_title_storage_full">Tidak cukup tempat</string>
+    <string name="dialog_content_storage_full">Perekaman dihentikan sebab ruang penyimpanan tidak cukup\melebihi batas penyimpanan pada ponsel anda.</string>
 
-    <string name="status_bar_anti_disturb">Phone muted</string>
-    <string name="status_bar_recording">Recording\u2026</string>
-    <string name="status_bar_back">To go back, touch this bar</string>
-    <string name="status_bar_recording_pause">"Recorder paused"</string>
-    <string name="record_saving">Saving\u2026</string>
-    <string name="record_loading">Loading\u2026</string>
-    <string name="low_battery_message_title">Low battery</string>
-    <string name="low_battery_warning">Recording may be lost if your phone runs out of power.</string>
-    <string name="low_battery_error"> Less than 5% power remaining. To ensure that your recording is not lost, Recorder has stopped and saved.</string>
-    <string name="access_error">Can\'t record while you\'re in Guest mode</string>
+    <string name="status_bar_anti_disturb">Dering ponsel dibisukan</string>
+    <string name="status_bar_recording">Perekaman\u2026</string>
+    <string name="status_bar_back">Untuk kembali, sentuh disini</string>
+    <string name="status_bar_recording_pause">"Perekam berhenti sejenak"</string>
+    <string name="record_saving">Menyimpan\u2026</string>
+    <string name="record_loading">Memuat\u2026</string>
+    <string name="low_battery_message_title">Daya batre lemah</string>
+    <string name="low_battery_warning">Perekam mungkin saja hilang dikarnakan daya batre lemah.</string>
+    <string name="low_battery_error"> Daya batre kurang dari 5%. Untuk memastikan bahwa rekaman anda tidak hilang, Perekam telah dihentikan dan disimpan terlebih dahulu.</string>
+    <string name="access_error">Tidak dapat merekam disaat keadaan Guest</string>
 
-    <string name="record_name_hour">.</string>
-    <string name="sound_recorder_settings">Settings</string>
-    <string name="menu_settings">Settings</string>
-    <string name="preference_led_indicator">Recording at lock screen</string>
-    <string name="preference_led_indicator_prompt">When recording at lock screen, indicate in status bar and pulse notification light</string>
-    <string name="preference_record_type_title">Recording type</string>
-    <string name="preference_scenes">Setting for scenes</string>
-    <string name="preference_record_type_dialog_title">Choose a recording type</string>
-    <string name="preference_record_scenes_dialog_title">Select a recording scene</string>
-    <string name="preference_silent_mode">Mute ring when recording</string>
-    <string name="preference_enable_earpiece_title">Use receiver to play audio</string>
-    <string name="preference_enable_earpiece_summary">Use the receiver speaker for external playback</string>
+    <string name="record_name_hour">Jam nama perekaman.</string>
+    <string name="sound_recorder_settings">Pengaturan</string>
+    <string name="menu_settings">Pengaturan</string>
+    <string name="preference_led_indicator">Merekam dilayar kunci</string>
+    <string name="preference_led_indicator_prompt">Ketika merekam dilayar kunci, bisa terlihat distatusbar dan pemberitahuan cahaya</string>
+    <string name="preference_record_type_title">Jenis perekaman</string>
+    <string name="preference_scenes">Pengaturan untuk peristiwa</string>
+    <string name="preference_record_type_dialog_title">Pilih jenis perekaman</string>
+    <string name="preference_record_scenes_dialog_title">pilih jenis peristiwa perekaman</string>
+    <string name="preference_silent_mode">Membisukan dering ketika merekam</string>
+    <string name="preference_enable_earpiece_title">Menggunakan penerima untuk memainkan suara</string>
+    <string name="preference_enable_earpiece_summary">Menggunakan speaker penerima untuk memainkan ulang diluar</string>
 
-    <string name="error_filename_too_long">Filename is too long</string>
-    <string name="error_filename_illegal_char">File name contains at least one invalid character.</string>
+    <string name="error_filename_too_long">Nama berkas terlalu panjang</string>
+    <string name="error_filename_illegal_char">Berkas nama berisi sedikitnya satu karakter cacat.</string>
     <string name="duration_format_hour">%sh</string>
     <string name="duration_format_minute">%sm</string>
     <string name="duration_format_second">%ss</string>
-    <string name="toast_max_record_time">%1$s can record for about %2$s</string>
-    <string name="message_file_size_error">Recording has reached the maximum length supported by %s</string>
-    <string name="start_recording">Start recording</string>
-    <string name="pause">Pause</string>
-    <string name="play_record">Play</string>
-    <string name="stop_recording">Stop recording</string>
-    <string name="view_list_of_recordings">View recordings</string>
-    <string name="search_for_recordings_in_folders">Search for recordings with Explorer</string>
-    <string name="back">Back</string>
-    <string name="toast_uninstall_fileexplorer">Explorer app isn\'t installed</string>
+    <string name="toast_max_record_time">%1$s Bisa merekam sekitar %2$s</string>
+    <string name="message_file_size_error">Perekaman telah mencapai panjangnya yang maksimum yang didukung oleh %s</string>
+    <string name="start_recording">Memulai merekam</string>
+    <string name="pause">Berhenti sejenak</string>
+    <string name="play_record">Mainkan</string>
+    <string name="stop_recording">Berhenti merekam</string>
+    <string name="view_list_of_recordings">Melihat rekaman</string>
+    <string name="search_for_recordings_in_folders">Mencari rekaman dengan penjelajah berkas</string>
+    <string name="back">Kembali</string>
+    <string name="toast_uninstall_fileexplorer">Aplikasi penjelajah berkas tidak terpasang</string>
 
-    <string name="record_download">Download from Mi Cloud</string>
-    <string name="record_download_msg">Recordings can only be played after they have finished downloading.</string>
-    <string name="record_download_msg_reload">This recording doesn\'t exist</string>
-    <string name="record_download_complete">Complete</string>
-    <string name="record_download_paused">Paused</string>
-    <string name="record_download_failed">Failed</string>
+    <string name="record_download">Mengunduh dari Mi Cloud</string>
+    <string name="record_download_msg">Rekaman hanya bisa dimainkan setelah proses perekaman selesai.</string>
+    <string name="record_download_msg_reload">Rekaman tersebut tidak tersedia</string>
+    <string name="record_download_complete">Lengkap</string>
+    <string name="record_download_paused">Berhenti sejenak</string>
+    <string name="record_download_failed">Gagal</string>
     <string name="record_download_progress">%d%%</string>
-    <string name="record_download_activity">Recording downloader</string>
-    <string name="retry">Retry</string>
-    <string name="start">Resume</string>
-    <string name="record_download_manager">Download manager</string>
-    <string name="record_downloading_notification">Downloading\u2026</string>
-    <string name="record_downloading_notification_count">%d downloading</string>
-    <string name="record_downloading_notification_complete">Download complete</string>
+    <string name="record_download_activity">Pengunduhan perekaman</string>
+    <string name="retry">Mencoba kembali</string>
+    <string name="start">Melanjutkan</string>
+    <string name="record_download_manager">Pengolah unduhan</string>
+    <string name="record_downloading_notification">Mengunduh\u2026</string>
+    <string name="record_downloading_notification_count">%d mengunduh</string>
+    <string name="record_downloading_notification_complete">Pengunduhan lengkap</string>
 
-    <string name="sync_records">Sync with Mi Cloud</string>
-    <string name="sync_only_in_wifi">Only use Wi-Fi to sync</string>
-    <string name="sync_only_in_wifi_summary">Recorder will use your mobile data connection to download or upload recordings when this option is switched off</string>
-    <string name="sync_only_in_wifi_alert">Turning off this option may increase your mobile data usage (this may cost you money).</string>
+    <string name="sync_records">Penyatuan dengan Mi Cloud</string>
+    <string name="sync_only_in_wifi">Hanya menggunakan Wi-Fi untuk proses penyatuan</string>
+    <string name="sync_only_in_wifi_summary">Perekam akan menggunakan koneksi data anda untuk mengunduh atau mengunggah hasil rekaman ketika pilihan ini dimatikan</string>
+    <string name="sync_only_in_wifi_alert">Mematikan proses ini dikenakan pemakaian data anda(ini akan memakan biaya).</string>
 
-    <string name="wifi_recommended_title">Traffic reminder</string>
-    <string name="wifi_recommended_body">About to download via the operator nextwork：\n
-        Downloading the file may result in higher traffic costs.
+    <string name="wifi_recommended_title">Peringatan penggunaan proses</string>
+    <string name="wifi_recommended_body">Pengunduhan memakai operator jaringan：\n
+        Pengunduhan berkas mengakibatkan pembiayaan proses lebih tinggi.
     </string>
-    <string name="button_queue_for_wifi">Queue</string>
-    <string name="button_start_now">Download</string>
-    <string name="notification_title_all_paused">Download paused</string>
-    <string name="notification_message_all_paused">May increase mobile data usage.</string>
+    <string name="button_queue_for_wifi">Antrian</string>
+    <string name="button_start_now">Pengunduhan</string>
+    <string name="notification_title_all_paused">Pengunduhan diberhentikan sejenak</string>
+    <string name="notification_message_all_paused">Peningkatan penggunaan koneksi data.</string>
 
 </resources>
+

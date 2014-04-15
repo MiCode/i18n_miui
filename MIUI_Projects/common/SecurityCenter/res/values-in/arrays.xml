@@ -50,8 +50,8 @@
         <item>@drawable/digit_small_9</item>
     </array>
     <string-array name="power_mode_entries">
-        <item>High performance</item>
-        <item>Balance</item>
-        <item>Battery saving</item>
+        <item>Performa tinggi</item>
+        <item>Seimbang</item>
+        <item>Hemat baterai</item>
     </string-array>
 </resources>

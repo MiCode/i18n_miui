@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Readme</string>
-    <string name="loading_userbook">Loading...</string>
-    <string name="bakc_key_toast_txt">Press again to exit</string>
+    <string name="app_name">Baca terlebih dahulu</string>
+    <string name="loading_userbook">Memuat...</string>
+    <string name="bakc_key_toast_txt">Tekan kembali untuk keluar</string>
 </resources>

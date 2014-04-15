@@ -2,6 +2,6 @@
 <resources
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="mi_wallpaper_title">Mi Wallpaper</string>
-    <string name="mi_wallpaper_loading">Loading Mi-Wallpaper...</string>
+    <string name="mi_wallpaper_title">Gambar dari MI</string>
+    <string name="mi_wallpaper_loading">Memuat Gambar-MI...</string>
 </resources>
