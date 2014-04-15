@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- -->
+    <!-- Label shown on launcher icon -->
+    <string name="app_label">Relógio</string>
+
+    <!-- Title for AlarmClock activity -->
+    <string name="alarm_list_title">Alarmes</string>
+
+    <!-- Menu item on Alarm Clock screen: Add alarm -->
+    <string name="add_alarm">Adicionar alarme</string>
+
+    <!-- Menu item on Alarm Clock screen: Desk clock -->
+    <string name="menu_desk_clock">Relógio de mesa</string>
+
+    <!-- Menu item on Alarm Clock screen: Edit alarm -->
+
+    <!-- Context Menu Item on Alarm Settings screen: Delete alarm -->
+    <string name="delete_alarm">Excluir alarme</string>
+
+    <!-- Context Menu Item on Alarm Settings screen: Enable alarm -->
+
+    <!-- Context Menu Item on Alarm Settings screen: Disable alarm -->
+
+    <!-- Delete alarm confirmation dialog message. -->
+    <string name="delete_alarm_confirm">Excluir este alarme?</string>
+
+    <!-- Menu item on Alarm Clock screen: Show clock -->
+
+    <!-- Menu item on Alarm Clock screen: Hide clock -->
+
+    <!-- Setting label on Set alarm screen: Label -->
+    <string name="label">Marcador</string>
+
+    <!-- Default label to display for an alarm -->
+    <string name="default_label">Alarme</string>
+
+    <!-- Preference category on Alarm Settings screen: Set alarm -->
+    <string name="set_alarm">Definir alarme</string>
+
+    <!-- Setting labels on Set alarm screen: Vibration on or off -->
+    <string name="alarm_vibrate">Vibrar</string>
+
+    <!-- Setting labels on Set alarm screen: Repeat -->
+    <string name="alarm_repeat">Repetir</string>
+
+    <!-- Setting labels on Set alarm screen: Select alarm ringtone  -->
+    <string name="alert">Toque</string>
+
+    <!-- Setting labels on Set alarm screen: Set time  -->
+    <string name="time">Horário</string>
+
+    <!-- Button labels on the alarm dialog: Dismiss -->
+
+    <!-- Alarm Alert screen: this message is shown after an alarm rung
+         unattended for a number of minutes.  It tells the user that
+         the alarm has been silenced.-->
+    <string name="alarm_alert_alert_silenced">Alarme silenciado após <xliff:g id="minutes">%d</xliff:g> minutos.</string>
+
+    <string name="timer_alert_alert_silenced">Timer silenciado após <xliff:g id="minutes">%d</xliff:g> minutos.</string>
+
+    <!-- Button labels on the alarm dialog: Snooze -->
+
+    <!-- Toast that appears after Alarm is snoozed from the Alarm
+         dialog. Says the alarm will snooze for xxx minutes.  -->
+    <string name="alarm_alert_snooze_set">Soneca de <xliff:g id="minutes">%d</xliff:g> minutos.</string>
+
+    <!-- 0: nothing
+         1: days
+         2:      hours
+         3: days hours
+         4:            minutes
+         5: days       minutes
+         6:      hours minutes
+         7: days hours minutes
+    --><skip />
+
+    <!-- Alarm confirmation toast: Describes how long from now until
+         alarm fires -->
+    <string-array name="alarm_set">
+        <item>Alarme definido para menos de um minuto a partir de agora.</item>
+        <item>Alarme definido para <xliff:g id="DAYS" example="2 days">%1$s</xliff:g> a partir de agora.</item>
+        <item>Alarme definido para <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g> a partir de agora.</item>
+        <item>Alarme definido para <xliff:g id="DAYS" example="2 days">%1$s</xliff:g> e <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g> a partir de agora.</item>
+        <item>Alarme definido para <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g> a partir de agora.</item>
+        <item>Alarme definido para <xliff:g id="DAYS" example="2 days">%1$s</xliff:g> e<xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g> a partir de agora.</item>
+        <item>Alarme definido para <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g> e <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g> a partir de agora.</item>
+        <item>Alarme definido para <xliff:g id="DAYS" example="2 days">%1$s</xliff:g>, <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g>, e <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g> a partir de agora.</item>
+    </string-array>
+
+    <!-- Alarm confirmation toast: singular day -->
+    <string name="day">"1 dia"</string>
+
+    <!-- Alarm confirmation toast: plural days -->
+    <string name="days">"<xliff:g id="days">%s</xliff:g> dias"</string>
+
+    <!-- Alarm confirmation toast: singular hour -->
+    <string name="hour">1 hora</string>
+
+    <!-- Alarm confirmation toast: plural hours -->
+    <string name="hours"><xliff:g id="hours">%s</xliff:g> horas</string>
+
+    <!-- Alarm confirmation toast: singular minute  -->
+    <string name="minute">"1 minuto"</string>
+
+    <!-- Alarm confirmation toast: plural minutes  -->
+    <string name="minutes">"<xliff:g id="minutes">%s</xliff:g> minutos"</string>
+
+    <!-- Repeat options that appear under an alarm on main Alarm Clock
+         screen to identify repetition schedule: special case for when
+         the alarm is set to repeat every day -->
+    <string name="every_day">Todos os dias</string>
+
+    <string name="legal_workday">Dias úteis</string>
+
+    <!-- Repeat options that appear under an alarm on main Alarm Clock
+         screen to identify repetition schedule: special case for when
+         the alarm is set to never repeat -->
+    <string name="never">Nunca</string>
+
+    <!-- Repeat options that appear under an alarm on main Alarm Clock
+         screen to identify repetition schedule: concatenate days with
+         this character, i.e. "Mon, Tue, Wed" -->
+    <string name="day_concat">", "</string>
+
+    <!-- Appears at the top of the Clock Picker screen: Tell user to
+         select a clock to display -->
+
+    <!-- Label for analog clock gadget, shown in list of all gadgets -->
+    <string name="analog_gadget">Relógio analógico</string>
+
+    <!-- Menu item title for general Alarm Clock Settings -->
+    <string name="settings">Configurações</string>
+
+    <!-- Setting title for whether the alarm should play in silent mode.
+         Usually, silent mode only affects the ringer, but this setting
+         will make the alarms respect silent mode too. -->
+    <string name="alarm_in_silent_mode_title">Alarme em modo silencioso</string>
+
+    <!-- Setting title for changing the snooze duration. -->
+    <string name="snooze_duration_title">Duração da soneca</string>
+
+    <!-- Entries listed in the ListPreference when invoking the snooze duration
+         preference. -->
+    <string-array name="snooze_duration_entries">
+      <item>1 minuto</item>
+      <item>5 minutos</item>
+      <item>10 minutos</item>
+      <item>15 minutos</item>
+      <item>20 minutos</item>
+      <item>25 minutos</item>
+      <item>30 minutos</item>
+    </string-array>
+
+    <!-- Values that are retrieved from the ListPreference. These must match
+         the snooze_duration_entries above. -->
+    <string-array name="snooze_duration_values">
+      <item>1</item>
+      <item>5</item>
+      <item>10</item>
+      <item>15</item>
+      <item>20</item>
+      <item>25</item>
+      <item>30</item>
+    </string-array>
+
+    <!-- Auto silence preference title -->
+    <string name="auto_silence_title">Silenciar alarme</string>
+
+    <!-- Auto silence summary string set based on the preference value. -->
+    <string name="auto_silence_summary">Silenciar alarme após
+      <xliff:g id="minutes">%d</xliff:g> minutos</string>
+
+    <!-- Auto silence summary when turned off -->
+    <string name="auto_silence_never">Nunca</string>
+
+    <!-- Entries listed in the ListPreference when invoking the auto silence
+         preference. -->
+    <string-array name="auto_silence_entries">
+      <item>Nunca</item>
+      <item>1 minuto</item>
+      <item>5 minutos</item>
+      <item>10 minutos</item>
+      <item>15 minutos</item>
+      <item>20 minutos</item>
+      <item>25 minutos</item>
+      <item>30 minutos</item>
+    </string-array>
+
+    <!-- Values that are retrieved from the ListPreference. These must match
+         the auto_silence_entries above. -->
+    <string-array name="auto_silence_values" translatable="false">
+      <item>-1</item> <!-- Off -->
+      <item>1</item>
+      <item>5</item>
+      <item>10</item>
+      <item>15</item>
+      <item>20</item>
+      <item>25</item>
+      <item>30</item>
+    </string-array>
+
+    <!-- Done button when editing an alarm. -->
+    <string name="done">Concluído</string>
+
+    <!-- Revert button when editing an alarm. -->
+    <string name="revert">Reverter</string>
+
+    <!-- Delete button when editing an alarm. -->
+    <string name="delete">Excluir</string>
+
+    <!-- Setting title for changing the alarm volume. -->
+    <string name="alarm_volume_title">Volume do alarme</string>
+
+    <!-- Setting summary for changing the alarm volume. -->
+    <string name="alarm_volume_summary">Definir volume do alarme</string>
+
+    <!-- Summary for the alarm preference when silent is chosen. -->
+    <string name="silent_alarm_summary">Silencioso</string>
+
+    <!-- Text to display in the small text of the notification -->
+    <string name="alarm_notify_text">Soneca ou cancelar alarme.</string>
+
+    <!-- Text to display in the notification ticker and label -->
+    <string name="alarm_notify_snooze_label"><xliff:g id="label">%s</xliff:g> (em modo soneca)</string>
+
+    <!-- Text to display in the notification when the alarm has been snoozed -->
+
+    <string name="snooze_confirm_cancel">Cancelar soneca</string>
+
+    <!-- Title of the setting to change hardware button behavior. This string
+         should be changed for each piece of hardware. [CHAR LIMIT=20] -->
+    <string name="volume_button_setting_title">Botões de volume</string>
+
+    <!-- Dialog title of the volume and power setting. -->
+
+    <!-- The summary of the side button setting. -->
+    <string name="volume_button_setting_summary">Define o efeito dos botões de volume durante um alarme</string>
+
+    <!-- Entries listed in the setting for the side-button action. -->
+    <string-array name="volume_button_setting_entries">
+        <item>Não fazem nada</item>
+        <item>Ativam soneca</item>
+        <item>Cancelam alarme</item>
+    </string-array>
+
+    <!-- Values for the side-button setting. -->
+    <string-array name="volume_button_setting_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <!-- Title of the ringtone setting. -->
+
+    <!-- Accessibility labels for Clock activity buttons --><skip/>
+
+    <!-- A short representation of charging information, e.g "34%" -->
+    <string name="battery_charging_level"><xliff:g id="number">%d</xliff:g><xliff:g id="percent">%%</xliff:g></string>
+
+    <!-- What to show the user if the weather widget exists but fails to
+         respond. This is a sign of an error; if the weather widget is not
+         present on the device, we show nothing at all. -->
+
+    <string name="menu_item_dock_settings" msgid="9161438664257429372">Configurações de dock</string>
+
+    <!-- A description for the DeskClock alarm sound playback service.
+         [CHAR LIMIT=NONE] -->
+    <string name="alarm_klaxon_service_desc">Serviço de reprodução de áudio para alarmes definidos no Relógio.</string>
+
+    <!-- String displayed as the alert summary while loading the alert name from
+         the media player. [CHAR LIMIT=NONE] -->
+    <string name="loading_ringtone">Carregando toque\u2026</string>
+
+    <!-- Label on the main screen control used to set alarm [CHAR LIMIT=30]-->
+    <string name="control_set_alarm">Definir alarme</string>
+
+    <!-- Label on the main screen control used to set alarm when there is already an existing alarm [CHAR LIMIT=30]-->
+    <string name="control_set_alarm_with_existing">Alarme definido: <xliff:g id="time">%s</xliff:g></string>
+
+    <string name="common_settings">Configurações</string>
+    <string name="alarm_settings">Configurações de alarme</string>
+
+    <string name="worldclock_title">Relógio</string>
+    <string name="stopwatch_title">Cronômetro</string>
+    <string name="timer_title">Timer</string>
+
+    <string name="menu_add_worldclock">Novo relógio</string>
+    <string name="menu_edit_systemtime">Hora do sistema</string>
+    <string name="delete_timezone_title">Excluir fuso horário</string>
+    <string name="delelte_selected_timezone">Excluir fusos horários selecionados?</string>
+
+    <string name="timezone_exist_error_message">Você já está exibindo este fuso horário</string>
+
+    <string-array name="alarm_in_furture">
+        <item>Alarme tocará em menos de um minuto </item>
+        <item>Alarme tocará em <xliff:g id="DAYS" example="2 days">%1$s</xliff:g></item>
+        <item>Alarme tocará em <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g></item>
+        <item>Alarme tocará em <xliff:g id="DAYS" example="2 days">%1$s </xliff:g> e <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g></item>
+        <item>Alarme tocará em <xliff:g id="MINUTES" example="2 minutes">%3$s </xliff:g></item>
+        <item>Alarme tocará em <xliff:g id="DAYS" example="2 days">%1$s </xliff:g> e <xliff:g id="MINUTES" example="2 minutes">%3$s </xliff:g></item>
+        <item>Alarme tocará em <xliff:g id="HOURS" example="2 hours">%2$s </xliff:g> e <xliff:g id="MINUTES" example="2 minutes">%3$s </xliff:g></item>
+        <item>Alarme tocará em <xliff:g id="DAYS" example="2 days">%1$s </xliff:g>, <xliff:g id="HOURS" example="2 hours">%2$s </xliff:g> e <xliff:g id="MINUTES" example="2 minutes">%3$s </xliff:g></item>
+    </string-array>
+
+    <string name="alarm_disabled">Desativado</string>
+    <string name="alarm_ascending_mode_title">Volume crescente</string>
+    <string name="alarm_ascending_mode_summary">O volume do alarme aumentará gradualmente aé o nível selecionado</string>
+
+    <string name="close_alarm">Fechar alarme</string>
+
+    <string-array name="days">
+        <item>Ontem</item>
+        <item>Hoje</item>
+        <item>Amanhã</item>
+    </string-array>
+
+    <string name="start">Iniciar</string>
+    <string name="pause">Pausar</string>
+    <string name="reset">Zerar</string>
+    <string name="lap">Volta</string>
+    <string name="timer_continue">Continuar</string>
+
+    <string name="worldclock_empty_text">Nenhum relógio</string>
+    <string name="alarmclock_empty_text">Nenhum alarme</string>
+    <string name="stopwatch_lap_empty_text">Nenhuma volta</string>
+
+    <string name="timer_got_it">OK</string>
+    <string name="timer_start_alarm">Tempo esgotado</string>
+    <string name="dialog_confirm_abort">Descartar mudanças?</string>
+    <string name="confirm_abort">Descartar</string>
+    <string name="remind_ringtone">Toque</string>
+    <string name="keep_screen_on">Manter tela ativa</string>
+    <string name="start_up">Iniciar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="timer_message_with_hour">%1$d horas e %2$d minutos</string>
+    <string name="timer_message">%1$d minutos</string>
+
+    <string name="shutdown_alarm_title">Alarme com telefone desligado</string>
+    <string name="shutdown_alarm_enable_summary">O alarme tocará mesmo com o telefone desligado</string>
+    <string name="shutdown_alarm_disable_summary">O alarme não tocará com o telefone desligado</string>
+
+    <string name="workday_alarm_clock">Alarme de dias úteis</string>
+
+    <string name="system_time_setting">Configurações</string>
+    <string name="lap_num">Volta</string>
+
+    <string name="hour_unit">H</string>
+    <string name="alarm_label_hint">Marcador do alarme</string>
+
+    <string-array name="alarm_repeat_type">
+        <item>Nunca</item>
+        <item>Diariamente</item>
+        <item>Dias úteis</item>
+        <item>Seg a Sex</item>
+        <item>Personalizado</item>
+    </string-array>
+
+    <string-array name="alarm_repeat_type_no_workdays">
+        <item>Nunca</item>
+        <item>Diariamente</item>
+        <item>Seg a Sex</item>
+        <item>Personalizado</item>
+    </string-array>
+
+    <string name="legal_workday_invalidate">Dados expirados (O Alarme toca de Seg a Sex)</string>
+    <string name="legal_workday_invalidate_message">(Dados expirados. Atualize nas configurações)</string>
+    <string name="legal_workday_message">" (Alarme desligado durante feriados)"</string>
+
+    <string name="default_alarm_alert">Definir toque de alarme padrão</string>
+    <string name="default_alarm_title">Toque padrão</string>
+
+    <string name="alarm_alert">Toque padrão</string>
+    <string name="alarm_screen">Tela de alarme e toque</string>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sincronização Xiaomi</string>
+
+    <string name="sync_item_sms_title">Sincronizar SMS</string>
+    <string name="sync_item_sms_summary">Sincroniza mensagens de texto entre sua conta Xiaomi e telefone</string>
+    <string name="sub_sync_item_sms_title_wifi_only">Sincronizar MMS: Somente em Wi-Fi</string>
+    <string name="sub_sync_item_sms_summary">Esta opção reduz o uso de dados móveis</string>
+    <!-- 联系人同步设置 -->
+    <string name="pref_title_sync_my_profile_title">Sincronizar meu perfil</string>
+    <string name="pref_title_sync_contacts_title">Sincronizar contatos</string>
+    <string name="pref_title_sync_display_photo_on_wifi_only">Exibir fotos: Somente em Wi-Fi</string>
+    <string name="pref_summary_sync_display_photo_on_wifi_only">Esta opção reduz o uso de dados móveis</string>
+    <string name="find_device">Localizar dispositivo</string>
+    <string name="find_device_stop_noise">Toque em OK para silenciar</string>
+    <string name="find_device_noise_title">Localizar dispositivo pelo som</string>
+    <!-- CallLog Sync Settings -->
+    <string name="sync_item_calllog_title">Sincronizar registro de chamadas</string>
+    <string name="sync_item_calllog_summary">Sincroniza o registro de chamadas efetuadas e recebidas em seu telefone</string>
+</resources>
