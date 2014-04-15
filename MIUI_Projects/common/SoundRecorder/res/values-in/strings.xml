@@ -173,6 +173,7 @@
     <string name="button_start_now">Pengunduhan</string>
     <string name="notification_title_all_paused">Pengunduhan diberhentikan sejenak</string>
     <string name="notification_message_all_paused">Peningkatan penggunaan koneksi data.</string>
-
+	<string name="toast_file_is_downloading">Mengunduh berkas ini, mohon tunggu</string>
+	
 </resources>
 
