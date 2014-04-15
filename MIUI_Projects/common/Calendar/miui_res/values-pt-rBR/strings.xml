@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="day_view_new_event_hint">"Novo evento"</string>
+    <string name="button_day">"D"</string>
+    <string name="button_month">"M"</string>
+    <string name="action_bar_today">"H"</string>
+
+    <!-- 设置 -->
+    <string name="account_and_calendar">Conta e Agenda</string>
+    <string name="account_and_calendar_to_display">Conta e agenda a exibir</string>
+    <string name="default_reminder_mode">Modo de lembrete padrão</string>
+    <string name="time_zone">Fuso horário</string>
+
+    <string name="event_all_day_label">O dia inteiro</string>
+    <string name="today_no_events">Não há eventos hoje</string>
+
+    <!-- New Event -->
+    <string name="event_account">Conta da agenda</string>
+    <string name="hint_what">Conteúdo do lembrete de evento</string>
+    <string name="event_show_more">Mostrar</string>
+    <string name="event_hide_more">Ocultar</string>
+    <string name="presence_label">Estado</string>
+
+    <!-- 日历详情 -->
+    <string name="event_info_when">Quando:\u0020</string>
+    <string name="event_info_repeat">Repetição:\u0020</string>
+    <string name="event_info_where">Onde:\u0020</string>
+    <string name="event_info_descrip">Descrição:\u0020</string>
+
+    <!-- Date Picker -->
+    <string name="lunar_date">Calendário Lunar</string>
+
+    <!-- Widget -->
+    <string name="widget_select_style">Selecionar um estilo</string>
+    <string name="widget_events">Próximos eventos</string>
+    <string name="widget_no_events">Não há eventos futuros na agenda</string>
+
+    <string name="month_medium_january">Jan</string>
+    <string name="month_medium_february">Fev</string>
+    <string name="month_medium_march">Mar</string>
+    <string name="month_medium_april">Abr</string>
+    <string name="month_medium_may">Mai</string>
+    <string name="month_medium_june">Jun</string>
+    <string name="month_medium_july">Jul</string>
+    <string name="month_medium_august">Ago</string>
+    <string name="month_medium_september">Set</string>
+    <string name="month_medium_october">Out</string>
+    <string name="month_medium_november">Nov</string>
+    <string name="month_medium_december">Dez</string>
+
+    <string name="pref_title_no_remind">Sem lembrete</string>
+    <string name="pref_title_notification_remind">Notificações de lembrete</string>
+    <string name="pref_title_alert_remind">Notificação pop-up</string>
+    <string name="pref_title_alarm_remind">Toque de notificação</string>
+
+    <string name="event_date_format">dd/MM</string>
+    <string name="event_full_date_format">dd/MM/yyyy</string>
+</resources>
