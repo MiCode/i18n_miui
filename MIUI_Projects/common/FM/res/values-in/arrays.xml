@@ -362,17 +362,17 @@
     </string-array>
 
     <array name="freq_entryValues">
-        <item>@drawable/fm_nomor_empty</item>
-        <item>@drawable/fm_nomor_0</item>
-        <item>@drawable/fm_nomor_1</item>
-        <item>@drawable/fm_nomor_2</item>
-        <item>@drawable/fm_nomor_3</item>
-        <item>@drawable/fm_nomor_4</item>
-        <item>@drawable/fm_nomor_5</item>
-        <item>@drawable/fm_nomor_6</item>
-        <item>@drawable/fm_nomor_7</item>
-        <item>@drawable/fm_nomor_8</item>
-        <item>@drawable/fm_nomor_9</item>
-        <item>@drawable/fm_nomor_point</item>
+        <item>@drawable/fm_number_empty</item>
+        <item>@drawable/fm_number_0</item>
+        <item>@drawable/fm_number_1</item>
+        <item>@drawable/fm_number_2</item>
+        <item>@drawable/fm_number_3</item>
+        <item>@drawable/fm_number_4</item>
+        <item>@drawable/fm_number_5</item>
+        <item>@drawable/fm_number_6</item>
+        <item>@drawable/fm_number_7</item>
+        <item>@drawable/fm_number_8</item>
+        <item>@drawable/fm_number_9</item>
+        <item>@drawable/fm_number_point</item>
     </array>
 </resources>
