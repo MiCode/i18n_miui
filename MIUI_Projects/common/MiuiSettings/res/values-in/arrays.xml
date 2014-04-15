@@ -2,9 +2,9 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Sound settings. The haptic feedback strength -->
     <string-array name="haptic_feedback_level_entries">
-        <item>Strong</item>
-        <item>Medium</item>
-        <item>Light</item>
+        <item>Kuat</item>
+        <item>Menengah</item>
+        <item>Ringan</item>
     </string-array>
 
     <!-- Do not translate. -->
@@ -18,9 +18,9 @@
     </string-array>
 
     <string-array name="media_feedback_level_entries">
-        <item>Strong</item>
-        <item>Medium</item>
-        <item>Light</item>
+        <item>Kuat</item>
+        <item>Menengah</item>
+        <item>Ringan</item>
     </string-array>
 
     <!-- Do not translate. -->
@@ -33,11 +33,11 @@
         <item>0</item>
     </string-array>
 
-    <!-- Display settings.  The style of battery status showed in status bar. These are shown in a list dialog. -->
+    <!-- Display settings. The style of battery status showed in status bar. These are shown in a list dialog. -->
     <string-array name="battery_indicator_style_entries">
-        <item>Graphical</item>
-        <item>Percentage</item>
-        <item>Top bar</item>
+        <item>Grafis</item>
+        <item>Presentasi</item>
+        <item>Bar bagian atas</item>
     </string-array>
 
     <string-array name="battery_indicator_style_values" translatable="false">
@@ -47,9 +47,9 @@
     </string-array>
 
     <string-array name="usb_connection_mode_entries">
-        <item>Ask upon connection</item>
-        <item>Charge only</item>
-        <item>Mount SD card</item>
+        <item>Tanyakan ketika terhubung</item>
+        <item>Mode pengisian daya saja</item>
+        <item>Muat kartu memori</item>
     </string-array>
 
     <string-array name="usb_connection_mode_values" translatable="false">
@@ -105,26 +105,26 @@
 
     <!-- Display settings. Available colors for breathing LED -->
     <string-array name="mi1_led_color_entries">
-        <item>Blue</item>
-        <item>Red</item>
-        <item>Green</item>
-        <item>Pink</item>
+        <item>Biru</item>
+        <item>Merah</item>
+        <item>Hijau</item>
+        <item>Merah Muda</item>
         <item>Violet</item>
-        <item>Purple</item>
+        <item>Ungu</item>
     </string-array>
 
     <!-- Display settings. Available colors for breathing LED -->
     <string-array name="led_color_entries">
-        <item>Blue</item>
-        <item>Red</item>
-        <item>Yellow</item>
-        <item>Green</item>
+        <item>Biru</item>
+        <item>Merah</item>
+        <item>Kuning</item>
+        <item>Hijau</item>
         <item>Cyan</item>
-        <item>White</item>
+        <item>Putih</item>
         <item>Violet</item>
     </string-array>
 
-    <!-- Do not translate.  Always enabled app list -->
+    <!-- Do not translate. Always enabled app list -->
     <string-array name="always_enabled_app_list">
         <!-- Do not translate. -->
         <item>com.android.providers.applications</item>
@@ -151,7 +151,7 @@
     </string-array>
 
     <!-- Match this with the order of NetworkInfo.DetailedState. --> <skip />
-    <!-- Wi-Fi settings.  The type of security a Wi-Fi network has.  The user can choose this when he adds a manual network, or configures an existing network. -->
+    <!-- Wi-Fi settings. The type of security a Wi-Fi network has. The user can choose this when he adds a manual network, or configures an existing network. -->
     <string-array name="wifi_security_only_wapi_cert_entries">
         <!-- The Wi-Fi network has WAPI certificate security -->
         <item>WAPI CERT</item>
@@ -196,11 +196,11 @@
 
     <!-- Screen key long press action -->
     <string-array name="screen_key_long_press_action">
-        <item>None</item>
-        <item>Show recent apps tray</item>
-        <item>Launch Assistant</item>
-        <item>Launch Google now</item>
-        <item>Close current app</item>
+        <item>Tidak ada aksi</item>
+        <item>Tampilkan aplikasi yang terakhir diakses</item>
+        <item>Jalankan aplikasi Assistant</item>
+        <item>Jalankan aplikasi Google now</item>
+        <item>Tutup aplikasi aktif saat ini</item>
     </string-array>
 
     <!-- Screen key long press action value -->
@@ -214,10 +214,10 @@
 
     <!-- Screen key long press interval -->
     <string-array name="screen_key_long_press_timeout">
-        <item>0.5 second</item>
-        <item>1 second</item>
-        <item>1.5 seconds</item>
-        <item>2 seconds</item>
+        <item>0.5 detik</item>
+        <item>1 detik</item>
+        <item>1.5 detik</item>
+        <item>2 detik</item>
     </string-array>
 
     <!-- Screen key long press interval value -->
@@ -230,12 +230,12 @@
 
     <!-- Timeout for screen button -->
     <string-array name="button_light_timeout_entries">
-        <item>1 second</item>
-        <item>2 seconds</item>
-        <item>5 seconds</item>
-        <item>10 seconds</item>
-        <item>20 seconds</item>
-        <item>Always</item>
+        <item>1 detik</item>
+        <item>2 detik</item>
+        <item>5 detik</item>
+        <item>10 detik</item>
+        <item>20 detik</item>
+        <item>Selalu</item>
     </string-array>
 
     <!-- Timeout for screen button value-->
@@ -311,65 +311,65 @@
     <!-- Match this with the order of WfdSettings Session Status -->
     <!-- Wi-Fi Display settings device status message -->
     <string-array name="wfd_status">
-        <item>Device connected, creating session\u2026</item>
-        <item>Session created.</item>
-        <item>Session tearing down\u2026</item>
-        <item>Session failed.</item>
-        <item>Timed out, retrying\u2026</item>
-        <item>Device connected</item>
+        <item>Perangkat terhubung, membuat sesi baru\u2026</item>
+        <item>Sesi baru berhasil dibuat.</item>
+        <item>Menghapus Sesi\u2026</item>
+        <item>Sesi gagal.</item>
+        <item>Waktu habis, mencoba lagi\u2026</item>
+        <item>Perangkat terhubung</item>
     </string-array>
 
     <!-- power mode -->
     <string-array name="power_mode_entries">
-        <item>High performance</item>
-        <item>Balance</item>
-        <item>Battery saving</item>
+        <item>Performa tinggi</item>
+        <item>Seimbang</item>
+        <item>Hemat batere</item>
     </string-array>
 
     <!-- msd driver -->
     <string-array name="msd_pc_system">
-        <item>Windows XP and older versions of Windows</item>
-        <item>Windows Vista and newer versions of Windows</item>
+        <item>Windows XP dan versi windows yang lebih lama</item>
+        <item>Windows Vista dan versi windows yang lebih baru</item>
         <item>Mac OS</item>
         <item>Linux</item>
     </string-array>
 
     <string-array name="msd_pc_system_install_start_summary">
-        <item>For Windows XP and older versions of Windows,\ndriver must be installed manually</item>
-        <item>For Windows Vista and newer versions of Windows, \nthe music player will appear automatically</item>
-        <item>For Mac OS,\ndriver must be installed manually</item>
+        <item>Untuk Windows XP dan versi windows yang lebih lama,\ndriver harus dipasang secara manual</item>
+        <item>Untuk Windows Vista dan versi windows yang lebih baru, \npemutar musik akan tampil secara otomatis</item>
+        <item>Untuk Mac OS,\ndriver harus dipasang secara manual</item>
         <item></item>
     </string-array>
 
     <string-array name="msd_pc_system_install_step_1_summary">
-        <item>(Ignore the Setup Wizard)\nWhen connected, Xiaomi will appear as a USB mass storage device.\n Open and select Setup.exe to install</item>
+        <item>(Abaikan Pemandu Pengaturan)\nKetika terhubung, Xiaomi akan tampil sebagai perangkat penyimpan data dalam bentuk USB.\n Buka dan jalankan Setup.exe untuk memasang aplikasi</item>
         <item></item>
-        <item>When connected, Xiaomi will appear as a USB mass storage device on your desktop.\nOpen and select AndroidFileTransfer.dmg to install.</item>
+        <item>Ketika terhubung, Xiaomi akan tampil sebagai perangkat penyimpan data dalam bentuk USB pada desktop Anda.\nBuka dan jalankan AndroidFileTransfer.dmg untuk memasang aplikasi.</item>
         <item></item>
     </string-array>
 
     <string-array name="msd_pc_system_install_step_2_summary">
-        <item>2. MI 2 will appear as a USB mass storage\n device when connected to your computer.</item>
+        <item>2. MI 2 akan tampil sebagai perangkat penyimpan data dalam bentuk USB\n ketika terhubung dengan komputer.</item>
         <item></item>
-        <item>Transfer files like you would to any other external hard drive.</item>
+        <item>Lakukan perpindahan berkas seperti halnya pada hard drive eksternal.</item>
         <item></item>
     </string-array>
 
     <string-array name="msd_pc_system_install_finish_summary">
-        <item>After you install this driver\nMI 2 will appear as a USB mass storage device when connected to a computer.</item>
-        <item>For Windows Vista and newer versions of Windows,\nthe MI 2 music player will appear on your computer automatically</item>
-        <item>When you install this driver\nphone will open automatically when connected to a computer.</item>
+        <item>Setelah Anda memasang driver\nMI 2 akan tampil sebagai perangkat penyimpan data dalam bentuk USB ketika terhubung dengan komputer.</item>
+        <item>Untuk Windows Vista dan versi windows yang lebih baru,\npemutar musik MI 2 akan tampil secara otomatis.</item>
+        <item>Ketika anda sudah memasang driver\nperangkat akan terbuka secara otomatis saat terhubung dengan komputer.</item>
         <item></item>
     </string-array>
 
     <string-array name="screen_color_title">
-        <item>Warm</item>
+        <item>Hangat</item>
         <item>Standard</item>
-        <item>Cool</item>
+        <item>Dingin</item>
     </string-array>
 
     <string-array name="screen_saturation_title">
-        <item>Brilliant</item>
+        <item>Cemerlang</item>
         <item>Standard</item>
     </string-array>
 
@@ -381,9 +381,9 @@
     </string-array>
 
     <string-array name="perm_hips_action">
-         <item>Allow</item>
-         <item>Ask</item>
-         <item>Deny</item>
+         <item>Izinkan</item>
+         <item>Tanya</item>
+         <item>Tolak</item>
     </string-array>
 
     <string-array name="startup_hips_values">
@@ -392,8 +392,8 @@
     </string-array>
 
     <string-array name="startup_hips_action">
-         <item>Allow</item>
-         <item>Deny</item>
+         <item>Izinkan</item>
+         <item>Tolak</item>
     </string-array>
 
     <!-- String values for Color Calibration (SRGB) Settings preference. -->
@@ -419,17 +419,17 @@
     </string-array>
 
     <string-array name="change_security_lock_picker_key">
-        <item>facial</item>
-        <item>pattern</item>
-        <item>numerical</item>
-        <item>mixed</item>
+        <item>deteksi wajah</item>
+        <item>pola kunci</item>
+        <item>kode angka</item>
+        <item>kombinasi</item>
     </string-array>
 
     <string-array name="change_security_lock_picker">
-        <item>Face unlock</item>
-        <item>Pattern</item>
-        <item>PIN</item>
-        <item>Password</item>
+        <item>Pembuka kunci deteksi wajah</item>
+        <item>Pola kunci</item>
+        <item>Nomor PIN</item>
+        <item>Kata Sandi</item>
     </string-array>
 
      <!-- Do not translate. -->
@@ -450,15 +450,15 @@
         <item>2147483647</item>
     </string-array>
 
-    <!-- Display settings.  The delay in inactivity before the screen is turned off. These are shown in a list dialog. -->
+    <!-- Display settings. The delay in inactivity before the screen is turned off. These are shown in a list dialog. -->
     <string-array name="screen_timeout_entries">
-        <item>15 seconds</item>
-        <item>30 seconds</item>
-        <item>1 minute</item>
-        <item>2 minutes</item>
-        <item>5 minutes</item>
-        <item>10 minutes</item>
-        <item>Never</item>
+        <item>15 detik</item>
+        <item>30 detik</item>
+        <item>1 menit</item>
+        <item>2 menit</item>
+        <item>5 menit</item>
+        <item>10 menit</item>
+        <item>Tidak pernah</item>
     </string-array>
 
     <!-- VIP名单list -->
@@ -474,11 +474,11 @@
 
     <string-array name="wifi_connect_type_entries">
         <!-- auto connect to wifi -->
-        <item>Automatically connect</item>
+        <item>Otomatis menghubungkan</item>
         <!-- manual connect to wifi -->
-        <item>Manually connect</item>
+        <item>Hubungkan secara manual</item>
         <!-- always notify user when wifi is available -->
-        <item>Always ask</item>
+        <item>Selalu tanyakan</item>
     </string-array>
     <string-array name="wifi_connect_type_values" translatable="false">
         <!-- auto connect to wifi -->
@@ -495,11 +495,11 @@
         <item>2</item>
     </string-array>
     <string-array name="slideshow_time_entries" >
-        <item>5 minutes</item>
-        <item>15 minutes</item>
-        <item>30 minutes</item>
-        <item>1 hour</item>
-        <item>Unlimited</item>
+        <item>5 menit</item>
+        <item>15 menit</item>
+        <item>30 menit</item>
+        <item>1 jam</item>
+        <item>Tak terbatas</item>
     </string-array>
 
     <string-array name="slideshow_time_entryValues" tranlatable="false" >
@@ -513,19 +513,19 @@
     <!-- preferred application settings -->
     <string-array name="preferred_app_entries" >
         <item>Launcher</item>
-        <item>Dial</item>
-        <item>Messaging</item>
-        <item>Browser</item>
-        <item>Camera</item>
-        <item>Gallery</item>
-        <item>Music</item>
-        <item>Email</item>
+        <item>Panggilan telepon</item>
+        <item>Pesan</item>
+        <item>Perambah web</item>
+        <item>Kamera</item>
+        <item>Galeri</item>
+        <item>Pemutar musik</item>
+        <item>Surel</item>
     </string-array>
 
     <!-- summary for network speed slow -->
     <string-array name="network_speed_slow_summary" >
-        <item>Network is slow due to too much traffic</item>
-        <item>Network is slow due to weak signal strength</item>
-        <item>Moving\u2026</item>
+        <item>Jaringan sedang lamban karena lalulintas yang terlalu padat</item>
+        <item>Jaringan sedang lamban karena sinyal terlalu lemah</item>
+        <item>Bergerak\u2026</item>
     </string-array>
 </resources>
