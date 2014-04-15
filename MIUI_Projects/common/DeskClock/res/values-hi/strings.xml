@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- -->
+    <!-- Label shown on launcher icon -->
+    <string name="app_label">घड़ी</string>
+
+    <!-- Title for AlarmClock activity -->
+    <string name="alarm_list_title">अलार्म</string>
+
+    <!-- Menu item on Alarm Clock screen: Add alarm -->
+    <string name="add_alarm">अलार्म  जोड़ें</string>
+
+    <!-- Menu item on Alarm Clock screen: Desk clock -->
+    <string name="menu_desk_clock">डेस्क घड़ी</string>
+
+    <!-- Menu item on Alarm Clock screen: Edit alarm -->
+
+    <!-- Context Menu Item on Alarm Settings screen: Delete alarm -->
+    <string name="delete_alarm">अलार्म  निकाले </string>
+
+    <!-- Context Menu Item on Alarm Settings screen: Enable alarm -->
+
+    <!-- Context Menu Item on Alarm Settings screen: Disable alarm -->
+
+    <!-- Delete alarm confirmation dialog message. -->
+    <string name="delete_alarm_confirm">इस अलार्म को निकाले</string>
+
+    <!-- Menu item on Alarm Clock screen: Show clock -->
+
+    <!-- Menu item on Alarm Clock screen: Hide clock -->
+
+    <!-- Setting label on Set alarm screen: Label -->
+    <string name="label">लेबल सेट करे</string>
+
+    <!-- Default label to display for an alarm -->
+    <string name="default_label">अलार्म</string>
+
+    <!-- Preference category on Alarm Settings screen: Set alarm -->
+    <string name="set_alarm">अलार्म  जोड़ें</string>
+
+    <!-- Setting labels on Set alarm screen: Vibration on or off -->
+    <string name="alarm_vibrate">कंपन</string>
+
+    <!-- Setting labels on Set alarm screen: Repeat -->
+    <string name="alarm_repeat">दुबारा</string>
+
+    <!-- Setting labels on Set alarm screen: Select alarm ringtone  -->
+    <string name="alert">रिंगटोन</string>
+
+    <!-- Setting labels on Set alarm screen: Set time  -->
+    <string name="time">समय</string>
+
+    <!-- Button labels on the alarm dialog: Dismiss -->
+
+    <!-- Alarm Alert screen: this message is shown after an alarm rung
+         unattended for a number of minutes.  It tells the user that
+         the alarm has been silenced.-->
+    <string name="alarm_alert_alert_silenced">इस के बाद अलार्म  मौन<xliff:g id="minutes">%d</xliff:g>  मिनट.</string>
+
+    <string name="timer_alert_alert_silenced">टाइमर के बाद मौन <xliff:g id="minutes">%d</xliff:g> मिनट.</string>
+
+    <!-- Button labels on the alarm dialog: Snooze -->
+
+    <!-- Toast that appears after Alarm is snoozed from the Alarm
+         dialog. Says the alarm will snooze for xxx minutes.  -->
+    <string name="alarm_alert_snooze_set">स्नूज़िंग के लिए <xliff:g id="minutes">%d</xliff:g>  मिनट.</string>
+
+    <!-- 0: nothing
+         1: days
+         2:      hours
+         3: days hours
+         4:            minutes
+         5: days       minutes
+         6:      hours minutes
+         7: days hours minutes
+    --><skip />
+
+    <!-- Alarm confirmation toast: Describes how long from now until
+         alarm fires -->
+    <string-array name="alarm_set">
+        <item>अलार्म अब से कम से कम 1 मिनट के लिए सेट किया है.</item>
+        <item>अलार्म अब से <xliff:g id="DAYS" example="2 days">%1$s</xliff:g>दिन के लिए सेट </item>
+        <item>अलार्म अब से  <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g>घंटे के लिए सेट</item>
+        <item>अलार्म अब से  <xliff:g id="DAYS" example="2 days">%1$s</xliff:g> दिन और <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g>घंटे के लिए सेट</item>
+        <item>अलार्म अब से  <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g>मिनटके लिए सेट</item>
+        <item>अलार्म अब से  <xliff:g id="DAYS" example="2 days">%1$s</xliff:g>  दिन और <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g> मिनट के लिए सेट</item>
+        <item>अलार्म अब से  <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g>घंटे और<xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g> मिनट के लिए सेट</item>
+        <item>अलार्म अब से  <xliff:g id="DAYS" example="2 days">%1$s</xliff:g> दिन, <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g>,घंटे और <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g> मिनट के लिए सेट</item>
+    </string-array>
+
+    <!-- Alarm confirmation toast: singular day -->
+    <string name="day">"1 दिन"</string>
+
+    <!-- Alarm confirmation toast: plural days -->
+    <string name="days">"<xliff:g id="days">%s</xliff:g>  दिन"</string>
+
+    <!-- Alarm confirmation toast: singular hour -->
+    <string name="hour">1 घंटा</string>
+
+    <!-- Alarm confirmation toast: plural hours -->
+    <string name="hours"><xliff:g id="hours">%s</xliff:g> घंटे</string>
+
+    <!-- Alarm confirmation toast: singular minute  -->
+    <string name="minute">"1 मिनट"</string>
+
+    <!-- Alarm confirmation toast: plural minutes  -->
+    <string name="minutes">"<xliff:g id="minutes">%s</xliff:g> मिनट"</string>
+
+    <!-- Repeat options that appear under an alarm on main Alarm Clock
+         screen to identify repetition schedule: special case for when
+         the alarm is set to repeat every day -->
+    <string name="every_day">प्रतिदिन</string>
+
+    <string name="legal_workday">कानूनी कार्यदिवस</string>
+
+    <!-- Repeat options that appear under an alarm on main Alarm Clock
+         screen to identify repetition schedule: special case for when
+         the alarm is set to never repeat -->
+    <string name="never">एक बार</string>
+
+    <!-- Repeat options that appear under an alarm on main Alarm Clock
+         screen to identify repetition schedule: concatenate days with
+         this character, i.e. "Mon, Tue, Wed" -->
+    <string name="day_concat">". "</string>
+
+    <!-- Appears at the top of the Clock Picker screen: Tell user to
+         select a clock to display -->
+
+    <!-- Label for analog clock gadget, shown in list of all gadgets -->
+    <string name="analog_gadget">आधुनकि घड़ी</string>
+
+    <!-- Menu item title for general Alarm Clock Settings -->
+    <string name="settings">सेटिंग्स</string>
+
+    <!-- Setting title for whether the alarm should play in silent mode.
+         Usually, silent mode only affects the ringer, but this setting
+         will make the alarms respect silent mode too. -->
+    <string name="alarm_in_silent_mode_title">अलार्म मौन अवस्था में </string>
+
+    <!-- Setting title for changing the snooze duration. -->
+    <string name="snooze_duration_title">स्नूज़ अवधि</string>
+
+    <!-- Entries listed in the ListPreference when invoking the snooze duration
+         preference. -->
+    <string-array name="snooze_duration_entries">
+      <item>1 मिनट</item>
+      <item>5 मिनट</item>
+      <item>10 मिनट</item>
+      <item>15 मिनट</item>
+      <item>20 मिनट</item>
+      <item>25 मिनट</item>
+      <item>30 मिनट</item>
+    </string-array>
+
+    <!-- Values that are retrieved from the ListPreference. These must match
+         the snooze_duration_entries above. -->
+    <string-array name="snooze_duration_values">
+      <item>1</item>
+      <item>5</item>
+      <item>10</item>
+      <item>15</item>
+      <item>20</item>
+      <item>25</item>
+      <item>30</item>
+    </string-array>
+
+    <!-- Auto silence preference title -->
+    <string name="auto_silence_title">स्वत:-मौन</string>
+
+    <!-- Auto silence summary string set based on the preference value. -->
+    <string name="auto_silence_summary">इस के बाद अलार्म  मौन
+      <xliff:g id="minutes">%d</xliff:g> मिनट</string>
+
+    <!-- Auto silence summary when turned off -->
+    <string name="auto_silence_never">कभी नहीं</string>
+
+    <!-- Entries listed in the ListPreference when invoking the auto silence
+         preference. -->
+    <string-array name="auto_silence_entries">
+      <item>कभी नहीं</item>
+      <item>1 मिनट</item>
+      <item>5 मिनट</item>
+      <item>10 मिनट</item>
+      <item>15 मिनट</item>
+      <item>20 मिनट</item>
+      <item>25 मिनट</item>
+      <item>30 मिनट</item>
+    </string-array>
+
+    <!-- Values that are retrieved from the ListPreference. These must match
+         the auto_silence_entries above. -->
+    <string-array name="auto_silence_values" translatable="false">
+      <item>-1</item> <!-- Off -->
+      <item>1</item>
+      <item>5</item>
+      <item>10</item>
+      <item>15</item>
+      <item>20</item>
+      <item>25</item>
+      <item>30</item>
+    </string-array>
+
+    <!-- Done button when editing an alarm. -->
+    <string name="done">पूर्ण</string>
+
+    <!-- Revert button when editing an alarm. -->
+    <string name="revert">पलटना</string>
+
+    <!-- Delete button when editing an alarm. -->
+    <string name="delete">निकाले</string>
+
+    <!-- Setting title for changing the alarm volume. -->
+    <string name="alarm_volume_title">अलार्म  ध्वनि</string>
+
+    <!-- Setting summary for changing the alarm volume. -->
+    <string name="alarm_volume_summary">अलार्म ध्वनि सेट करे</string>
+
+    <!-- Summary for the alarm preference when silent is chosen. -->
+    <string name="silent_alarm_summary">मौन</string>
+
+    <!-- Text to display in the small text of the notification -->
+    <string name="alarm_notify_text">स्नूज़ या डिसमिस अलार्म.</string>
+
+    <!-- Text to display in the notification ticker and label -->
+    <string name="alarm_notify_snooze_label"><xliff:g id="label">%s</xliff:g>स्नूज़</string>
+
+    <!-- Text to display in the notification when the alarm has been snoozed -->
+
+    <string name="snooze_confirm_cancel">स्नूज़ रद्द करें</string>
+
+    <!-- Title of the setting to change hardware button behavior. This string
+         should be changed for each piece of hardware. [CHAR LIMIT=20] -->
+    <string name="volume_button_setting_title">ध्वनि बटन</string>
+
+    <!-- Dialog title of the volume and power setting. -->
+
+    <!-- The summary of the side button setting. -->
+    <string name="volume_button_setting_summary">सेट मात्रा बटन अलार्म के दौरान ध्वनि बटन का कार्य सेट करे </string>
+
+    <!-- Entries listed in the setting for the side-button action. -->
+    <string-array name="volume_button_setting_entries">
+        <item>कुछ भी मत करो</item>
+        <item>स्नूज़</item>
+        <item>बर्खास्त</item>
+    </string-array>
+
+    <!-- Values for the side-button setting. -->
+    <string-array name="volume_button_setting_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <!-- Title of the ringtone setting. -->
+
+    <!-- Accessibility labels for Clock activity buttons --><skip/>
+
+    <!-- A short representation of charging information, e.g "34%" -->
+    <string name="battery_charging_level"><xliff:g id="number">%d</xliff:g><xliff:g id="percent">%%</xliff:g></string>
+
+    <!-- What to show the user if the weather widget exists but fails to
+         respond. This is a sign of an error; if the weather widget is not
+         present on the device, we show nothing at all. -->
+
+    <string name="menu_item_dock_settings" msgid="9161438664257429372">डॉक सेटिंग्स</string>
+
+    <!-- A description for the DeskClock alarm sound playback service.
+         [CHAR LIMIT=NONE] -->
+    <string name="alarm_klaxon_service_desc">घड़ी में सेट अलार्म के लिए ध्वनि प्लेबैक सेवा.</string>
+
+    <!-- String displayed as the alert summary while loading the alert name from
+         the media player. [CHAR LIMIT=NONE] -->
+    <string name="loading_ringtone">रिंगटोन लोड कर रहा हे\u2026</string>
+
+    <!-- Label on the main screen control used to set alarm [CHAR LIMIT=30]-->
+    <string name="control_set_alarm">अलार्म  जोड़ें</string>
+
+    <!-- Label on the main screen control used to set alarm when there is already an existing alarm [CHAR LIMIT=30]-->
+    <string name="control_set_alarm_with_existing">अलार्म  जोड़ें: <xliff:g id="time">%s</xliff:g></string>
+
+    <string name="common_settings">सेटिंग्स</string>
+    <string name="alarm_settings">अलार्म सेटिंग्स</string>
+
+    <string name="worldclock_title">घड़ी </string>
+    <string name="stopwatch_title">स्टॉपवॉच</string>
+    <string name="timer_title">टाइमर</string>
+
+    <string name="menu_add_worldclock">अलार्म  जोड़ें</string>
+    <string name="menu_edit_systemtime">सिस्टम समय</string>
+    <string name="delete_timezone_title">समय क्षेत्र निकाले</string>
+    <string name="delelte_selected_timezone">चुना हुआ समय क्षेत्र निकाले ?</string>
+
+    <string name="timezone_exist_error_message">आप पहले से ही उस समय क्षेत्र को प्रदर्शित कर रहे हैं</string>
+
+    <string-array name="alarm_in_furture">
+        <item>आलर्म 1 मिनट से कम मे बजेगा </item>
+        <item>आलर्म के बजने कि अव्धि<xliff:g id="DAYS" example="2 days">%1$s</xliff:g></item>
+        <item>आलर्म के बजने कि अव्धि <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g></item>
+        <item>आलर्म के बजने कि अव्धि <xliff:g id="DAYS" example="2 days">%1$s </xliff:g><xliff:g id="HOURS" example="2 hours">%2$s</xliff:g></item>
+        <item>आलर्म के बजने कि अव्धि <xliff:g id="MINUTES" example="2 minutes">%3$s </xliff:g></item>
+        <item>आलर्म के बजने कि अव्धि <xliff:g id="DAYS" example="2 days">%1$s </xliff:g><xliff:g id="MINUTES" example="2 minutes">%3$s </xliff:g></item>
+        <item>आलर्म के बजने कि अव्धि <xliff:g id="HOURS" example="2 hours">%2$s </xliff:g><xliff:g id="MINUTES" example="2 minutes">%3$s </xliff:g></item>
+        <item>आलर्म के बजने कि अव्धि <xliff:g id="DAYS" example="2 days">%1$s </xliff:g><xliff:g id="HOURS" example="2 hours">%2$s </xliff:g><xliff:g id="MINUTES" example="2 minutes">%3$s </xliff:g></item>
+    </string-array>
+
+    <string name="alarm_disabled">निष्क्रिय कर दिया</string>
+    <string name="alarm_ascending_mode_title">आरोही क्र्म मे ध्वनि</string>
+    <string name="alarm_ascending_mode_summary">अलार्म  ध्वनि को धीरे - धीरे चयनित स्तर पे आरोहण करे</string>
+
+    <string name="close_alarm">अलार्म बंद </string>
+
+    <string-array name="days">
+        <item>बिता हुआ कल</item>
+        <item>आज</item>
+        <item>आने वाला कल</item>
+    </string-array>
+
+    <string name="start">प्रारंभ</string>
+    <string name="pause">रोके</string>
+    <string name="reset">दोबारा</string>
+    <string name="lap">लैप</string>
+    <string name="timer_continue">जारी रखे </string>
+
+    <string name="worldclock_empty_text">कोई घड़ी नही </string>
+    <string name="alarmclock_empty_text">कोई अलर्म नही </string>
+    <string name="stopwatch_lap_empty_text">कोई लैप नही </string>
+
+    <string name="timer_got_it">ठीक</string>
+    <string name="timer_start_alarm">समय सम्पात!</string>
+    <string name="dialog_confirm_abort">बदलाव निकाल दे?</string>
+    <string name="confirm_abort">निकाल दे</string>
+    <string name="remind_ringtone">रिंगटोन</string>
+    <string name="keep_screen_on">स्क्रीन चालू  रखे</string>
+    <string name="start_up">प्रारंभ</string>
+    <string name="cancel">रद्द करें</string>
+    <string name="timer_message_with_hour">%1$d घंटे और %2$d मिनट</string>
+    <string name="timer_message">%1$d मिनट</string>
+
+    <string name="shutdown_alarm_title">अलार्म बंद करे</string>
+    <string name="shutdown_alarm_enable_summary">अलार्म बंद करे चालू  है</string>
+    <string name="shutdown_alarm_disable_summary">अलार्म बंद करे बंद है</string>
+
+    <string name="workday_alarm_clock">कार्यदिवस अलार्म</string>
+
+    <string name="system_time_setting">सेटिंग्स</string>
+    <string name="lap_num">Lap</string>
+
+    <string name="hour_unit">Hr</string>
+    <string name="alarm_label_hint">कार्यदिवस अलार्म लेबल</string>
+
+    <string-array name="alarm_repeat_type">
+        <item>एक बार</item>
+        <item>रोजाना</item>
+        <item>कार्यदिवस</item>
+        <item>सोम से शुक्र</item>
+        <item>कस्टम</item>
+    </string-array>
+
+    <string-array name="alarm_repeat_type_no_workdays">
+        <item>एक बार</item>
+        <item>रोजाना</item>
+        <item>सोम से शुक्र</item>
+        <item>कस्टम</item>
+    </string-array>
+
+    <string name="legal_workday_invalidate">डेटा समाप्त (सोम से शुक्र को अलार्म बजता है)</string>
+    <string name="legal_workday_invalidate_message">(डेटा समाप्त . सेटिंग्स में अपडेट)</string>
+    <string name="legal_workday_message">" (छुट्टियों के दौरान अलार्म बंद)"</string>
+
+    <string name="default_alarm_alert">सेट डिफ़ॉल्ट अलार्म ध्वनि</string>
+    <string name="default_alarm_title">डिफ़ॉल्ट  ध्वनि</string>
+
+    <string name="alarm_alert">डिफ़ॉल्ट  ध्वनि</string>
+    <string name="alarm_screen">अलार्म स्क्रीन और रिंगटोन</string>
+</resources>

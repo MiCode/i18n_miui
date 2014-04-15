@@ -21,7 +21,7 @@
     <string-array name="reminder_methods_labels">
         <item>सूचना</item>
         <item>ईमेल</item>
-        <item>टेक्स्ट मेसेज</item>
+        <item>टेक्स्ट संदेश</item>
         <item>अलार्म</item>
     </string-array>
 
@@ -334,8 +334,8 @@
 
     <string-array name="visibility">
         <item>डिफॉल्ट</item>
-        <item>प्राइवेट</item>
-        <item>पब्लिक</item>
+        <item>निजी</item>
+        <item>सार्वजनिक </item>
     </string-array>
 
     <string-array name="ordinal_labels">
@@ -365,7 +365,7 @@
         <item>सभी इवेंट</item>
     </string-array>
 
-    <!-- DO NOT TRANSLATE These values need to correspond to the indices
+    <!-- Do Not Translate These values need to correspond to the indices
          defined in DeleteEventHelper.java-->
     <integer-array name="delete_repeating_values">
         <item>0</item>

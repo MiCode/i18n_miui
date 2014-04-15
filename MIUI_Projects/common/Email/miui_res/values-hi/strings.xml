@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="alert_title_selected">"सभी का चयन करें"</string>
+    <string name="alert_selected_all_message">" अपने %d संदेश का चयन किया है. आप निश्चित हैं ？"</string>
+
+    <string name="account_setup_index_title">"मेल सेटिंग की मार्गदर्शिका"</string>
+    <string name="account_setup_index_label">"खाता जोड़ें"</string>
+    <string name="account_setup_index_other_mails">"अन्य"</string>
+    <string name="account_setup_basic_label">"आपके %s खाते के लिए जानकारी भरें :"</string>
+    <string name="account_setup_basic_name_label">"आपका नाम (वैकल्पिक)"</string>
+    <string name="account_setup_basic_description_label">"खाते का नाम (वैकल्पिक)"</string>
+
+    <string name="add_quick_responses_action">लिखें</string>
+    <string name="account_security_waiting_policy_key_message">"%s सर्वर से सुरक्षा सेटिंग की जानकारी ले रहा है，कृपया प्रतीक्षा करें."</string>
+
+    <!-- Text used for default signature -->
+    <string name="default_signature">"Xiaomi के द्वारा भेजा गया"</string>
+
+    <string-array name="general_preference_auto_advance_summary_array">
+        <item>"आप संदेश को निकालने के बाद नए संदेश में  जाए"</item>
+        <item>"आप संदेश को निकालने के बाद पुराने संदेश में जाए"</item>
+        <item>"आप संदेश को निकालने के बाद इनबॉक्स में जाए"</item>
+    </string-array>
+    <string name="general_preference_auto_advance_dialog_title">"स्वतः अग्रिम करने के लिए"</string>
+    <string name="general_preferences_clear_trusted_senders_title">"छवियाँ छुपाएं"</string>
+    <string name="cleared_trusted_senders_message">"मेल में एम्बेडेड छवियाँ स्वचालित रूप से प्रदर्शित नहीं होगी."</string>
+</resources>

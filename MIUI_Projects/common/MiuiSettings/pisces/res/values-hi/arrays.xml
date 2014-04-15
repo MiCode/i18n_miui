@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- msd driver -->
+    <string-array name="msd_pc_system_install_start_summary">
+        <item>Windows XP या पुराने संस्करणों के लिए, ड्राइवर मैन्युअल रूप से स्थापित करने की आवश्यकता है</item>
+        <item>Windows Vista या नए संस्करणों के लिए, MI3 म्यूजिक प्लेयर अपने कंप्यूटर पर दिखाई देगा</item>
+        <item>मैक ओएस ऑपरेटिंग सिस्टम के लिए, ड्राइवर सॉफ्टवेयर मैन्युअल रूप से स्थापित करने की आवश्यकता है</item>
+        <item></item>
+    </string-array>
+
+    <string-array name="msd_pc_system_install_step_2_summary">
+        <item>2.MI 3 मोबाइल स्टोरेज आपके कंप्यूटर पर दिखाई देगा, अब आप फ़ाइलों को हस्तांतरण कर सकते हैं </item>
+        <item></item>
+        <item>कंप्यूटर ऑटो खुला फोन के डेटा को पढ़ने के लिए और अब आप फ़ाइलों को हस्तांतरण कर सकते हैं</item>
+        <item></item>
+    </string-array>
+
+    <string-array name="msd_pc_system_install_finish_summary">
+        <item>आप अगर ये ड्राइवर इनस्टॉल किए हैं तो स्टोरेज ड्राइव आप के कंप्यूटर पर दिखेगा.</item>
+        <item>Windows Vista या नए संस्करणों के लिए, MI3 म्यूजिक प्लेयर अपने कंप्यूटर पर दिखाई देगा</item>
+        <item>कंप्यूटर ऑटो खुला फोन के डेटा को पढ़ने के लिए और अब आप फ़ाइलों को हस्तांतरण कर सकते हैं</item>
+        <item></item>
+    </string-array>
+</resources>

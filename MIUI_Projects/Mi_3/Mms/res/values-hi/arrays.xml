@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ * Copyright (C) 2008 Esmertec AG.
+ * Copyright (C) 2008 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ -->
+<resources>
+    <!-- NOTE: if you change anything about this array, you must make the corresponding change
+         to the array DEFAULT_SMILEY_RES_IDS in MessageListItem.java and to default_smiley_names
+         below. -->
+    <string-array name="default_smiley_texts">
+      <item>:-)</item>   <!-- 0: Happy -->
+      <item>:-(</item>   <!-- 1: Sad -->
+      <item>;-)</item>   <!-- 2: Winking -->
+      <item>:-P</item>   <!-- 3: Tongue sticking out -->
+      <item>=-O</item>   <!-- 4: Surprised -->
+      <item>:-*</item>   <!-- 5: Kissing -->
+      <item>:O</item>    <!-- 6: Yelling -->
+      <item>B-)</item>   <!-- 7: Cool -->
+      <item>:-$</item>   <!-- 8: Money mouth -->
+      <item>:-!</item>   <!-- 9: Foot in mouth -->
+      <item>:-[</item>   <!-- 10: Embarrassed -->
+      <item>O:-)</item>  <!-- 11: Angel -->
+      <item>:-\\</item>  <!-- 12: Undecided -->
+      <item>:\'(</item>  <!-- 13: Crying -->
+      <item>:-X</item>   <!-- 14: Lips are sealed -->
+      <item>:-D</item>   <!-- 15: Laughing -->
+      <item>o_O</item>   <!-- 16: Confused -->
+      <item>&lt;3</item> <!-- 17: Heart -->
+      <item>x-(</item>   <!-- 18: Mad -->
+      <item>:-/</item>   <!-- 19: Smirk -->
+      <item>:-I</item>   <!-- 20: Poker face -->
+    </string-array>
+
+    <!-- NOTE: if you change anything about this array, you must make the corresponding change
+         to the array DEFAULT_SMILEY_RES_IDS in SmileyParser.java and to default_smiley_texts
+         above. -->
+    <string-array name="default_smiley_names">
+        <item>खुश</item>                   <!-- 0: :-) -->
+        <item>दुखी</item>                     <!-- 1: :-( -->
+        <item>आंख मारना</item>                 <!-- 2: ;-) -->
+        <item>जीभ निकालना</item>     <!-- 3: :-P -->
+        <item>हैरान </item>               <!-- 4: =-O -->
+        <item>चुंबन</item>                 <!-- 5: :-* -->
+        <item>चिल्लाना</item>                 <!-- 6: :O -->
+        <item>कूल</item>                    <!-- 7: B-) -->
+        <item>पैसे का मुंह</item>             <!-- 8: :-$ -->
+        <item>फुट इन माउथ</item>           <!-- 9: :-! -->
+        <item>शर्मिंदा</item>             <!-- 10: :-[ -->
+        <item>फरिश्ता</item>                   <!-- 11: O:-) -->
+        <item>दुविधा में पड़ा हुआ</item>               <!-- 12: :-\\ -->
+        <item>रो रहा हे</item>                  <!-- 13: :\'( -->
+        <item>होंठ बंद हैं</item>         <!-- 14: :-X -->
+        <item>हँस रहा हे</item>                <!-- 15: :-D -->
+        <item>परेशान</item>                <!-- 16: o_O -->
+        <item>दिल</item>                   <!-- 17: <3 -->
+        <item>पागल</item>                     <!-- 18: x-( -->
+        <item>बनावटी हंसी</item>                   <!-- 19: :-/ -->
+        <item>पोकर चेहरा</item>              <!-- 20: :-I -->
+    </string-array>
+
+    <string-array name="prefEntries_ringtone_repeat">
+        <item>1x</item>
+        <item>2x</item>
+        <item>3x</item>
+        <item>5x</item>
+        <item>10x</item>
+    </string-array>
+
+    <string-array translatable="false" name="prefValues_ringtone_repeat">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>5</item>
+        <item>10</item>
+    </string-array>
+
+    <string-array name="contact_entries">
+        <item>नाम </item>
+        <item>उपनाम </item>
+        <item>फ़ोन</item>
+        <item>ई मेल </item>
+        <item>संस्था</item>
+        <item>IM</item>
+        <item>SIP फोन</item>
+        <item>जन्मदिन</item>
+        <item>वेबसाइट</item>
+        <item>पता</item>
+        <item>नोट</item>
+    </string-array>
+
+    <string-array translatable="false" name="contact_values">
+        <item>vnd.android.cursor.item/name</item>
+        <item>vnd.android.cursor.item/nickname</item>
+        <item>vnd.android.cursor.item/phone_v2</item>
+        <item>vnd.android.cursor.item/email_v2</item>
+        <item>vnd.android.cursor.item/organization</item>
+        <item>vnd.android.cursor.item/im</item>
+        <item>vnd.android.cursor.item/sip_address</item>
+        <item>vnd.android.cursor.item/contact_event</item>
+        <item>vnd.android.cursor.item/website</item>
+        <item>vnd.android.cursor.item/postal-address_v2</item>
+        <item>vnd.android.cursor.item/note</item>
+    </string-array>
+
+    <string-array name="entries_date_type">
+        <item>प्राप्त करने का समय</item>
+        <item>भेजने का समय</item>
+    </string-array>
+
+    <string-array name="resent_via_entries_sms">
+        <item>संदेश के माध्यम से</item>
+        <item>क्लाउड संदेश के माध्यम से</item>
+    </string-array>
+
+    <string-array name="resent_via_entries_mms">
+        <item>संदेश के माध्यम से</item>
+        <item>क्लाउड संदेश के माध्यम से</item>
+    </string-array>
+
+    <string-array translatable="false" name="entryvalues_date_type">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- SIM password can't be changed as SIM LOCK is not enabled: -->
+    <string name="sim_pin_change_failed_enable_sim_lock">सिम / RUIM पिन बदलने में असमर्थ.\n सिम / RUIM लॉक सक्षम करें.</string>
+    <!-- SIM lock can't be changed - not supported -->
+    <string name="sim_enable_disable_lock_not_supported">सिम / RUIM पिन बदलने में असमर्थ.\n सिम / RUIM यह समर्थन नहीं करता.</string>
+    <!-- SIM card lock settings screen, toast displayed on wrong PIN1: -->
+    <string name="sim_pin_attempts">\nबचे हुए प्रयास :</string>
+
+    <string name="sim_enter_pin_hints">(इनपुट 4-8 डिजिटल)</string>
+    <string name="gemini_data_connection">डेटा कनेक्शन</string>
+    <string name="gemini_sim_info_editor_name">संपादित सिम नाम</string>
+    <string name="gemini_sim_info_editor_name_dup_title">असफल हुए सहेजे</string>
+    <string name="gemini_sim_info_editor_name_dup_msg">सिम कार्ड के लिए डुप्लिकेट नाम</string>
+    <string name="gemini_sim_info_editor_number">फोन नंबर दर्ज करें</string>
+    <string name="gemini_no_sim_indicator">कोई सिम कार्ड नहीं</string>
+    <!-- Strings for SIM management begin-->
+    <string name="gemini_sim_management_title">सिम मैनेजमैंट</string>
+    <string name="gemini_sim_info_title">सिम जानकारी</string>
+    <string name="sim_status_summary">सिम संबंधी जानकारी</string>
+    <string name="gemini_default_sim_title">डिफ़ॉल्ट सेटिंग्स</string>
+    <string name="gemini_general_settings_title">सामान्य सेटिंग्स</string>
+    <string name="gemini_roaming_settings_title">रोमिंग</string>
+    <string name="gemini_data_roaming_title">डेटा रोमिंग</string>
+    <string name="gemini_data_roaming_summary">रोमिंग के समय डेटा सेवाओं से कनेक्ट</string>
+    <string name="enable_sim">सक्षम</string>
+    <string name="sim_lock">बन्द है</string>
+    <!-- Dual sim settings activate progress message string -->
+    <string name="gemini_sim_mode_progress_activating_message">सक्रिय कर रहा है\u2026</string>
+    <!-- Dual sim settings deactivate progress message string -->
+    <string name="gemini_sim_mode_progress_deactivating_message">Deactivating\u2026</string>
+    <string name="sim_radio_off">सक्रिय नहीं किया गया</string>
+    <string name="set_mobile_data_failed">सेट असफल रहा</string>
+    <string name="mobile_data_switching_message">मोबाइल डेटा कनेक्शन स्विचिंग. कृपया प्रतीक्षा करें\u2026</string>
+    <string name="ct_mobile_data_hints">स्लॉट 1 में कार्ड डाटा सक्षम है, जबकि आप स्लॉट 2 में कार्ड डेटा सेवा को चालू नहीं किया जा सकता.</string>
+</resources>

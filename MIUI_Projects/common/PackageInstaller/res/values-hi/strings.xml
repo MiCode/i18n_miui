@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">पैकेज इंस्टालर</string>
+    <string name="install">इनस्टॉल</string>
+    <string name="done">पूर्ण</string>
+    <!-- TODO REMOVE LATER -->
+    <string name="security_settings_desc">इस आवेदन की अनुमति करने के लिए :</string>
+    <string name="cancel">रद्द करें</string>
+    <string name="unknown">अज्ञात</string>
+    <string name="installing">इनस्टॉल चल रहा है\u2026</string>
+    <string name="install_done">एप्लीकेशन इनस्टॉल हुआ</string>
+    <string name="install_confirm_question">आप इस आवेदन को इनस्टॉल करना चाहते हैं?</string>
+    <string name="install_failed">आवेदन नहीं इनस्टॉल हुई</string>
+    <!-- Reason displayed when installation fails because the installation package itself is invalid
+        in some way (e.g., corrupt) [CHAR LIMIT=100] -->
+    <string name="install_failed_invalid_apk">पैकेज भ्रष्ट होना प्रतीत होता है.</string>
+    <!-- Reason displayed when installation fails because the package an existing package is
+        installed with a conflicting package author signature [CHAR LIMIT=100] -->
+    <string name="install_failed_inconsistent_certificates">परस्पर विरोधी हस्ताक्षर के साथ एक ही नाम से मौजूदा पैकेज पहले ही इनस्टॉल है.</string>
+    <!-- Reason displayed when installation fails because the package specifies a minimum compatible
+        OS version that is newer than our current OS version. [CHAR LIMIT=100] -->
+    <string name="install_failed_older_sdk">पैकेज केवल एंड्राइड के नए संस्करण पर काम करता है.</string>
+    <!-- Reason displayed when installation fails because the package specifies it is compatible
+        only with a CPU that the current tablet doesn't have. [CHAR LIMIT=100] -->
+    <string name="install_failed_cpu_abi_incompatible" product="tablet">यह आवेदन इस टेबलेट का सीपीयू के साथ संगत नहीं है.</string>
+    <!-- Reason displayed when installation fails because the package specifies it is compatible
+        only with a CPU that the current phone doesn't have. [CHAR LIMIT=100] -->
+    <string name="install_failed_cpu_abi_incompatible" product="default">यह आवेदन इस फ़ोन के CPU के साथ संगत नहीं है.</string>
+    <!-- Reason displayed when installation fails because the package was deleted during the
+        installation process. [CHAR LIMIT=100] -->
+    <string name="install_failed_file_not_found">इनस्टॉल पूरा होने के पहले निर्दिष्ट पैकेज हटाया गया था.</string>
+    <!-- Reason displayed when installation fails because the package could not be verified
+        because the package verifier rejected it. [CHAR LIMIT=100] -->
+    <string name="install_failed_verify_failed">पैकेज वेरिफिकेशन पारित नहीं किया था इनस्टॉल नहीं हो सकता .</string>
+    <!-- Reason displayed when installation fails because the package could not be verified
+        before the internal system timer expired. [CHAR LIMIT=100] -->
+    <string name="install_failed_verify_timeout">इस पैकेज को सत्यापित करने की कोशिश कर रहा है, जबकि मध्यांतर हुआ. बाद में इसे फिर से इनस्टॉल करने का प्रयास करें.</string>
+    <!-- Message presented when an application could not be installed on the tablet for some reason. [CHAR LIMIT=100] -->
+    <string name="install_failed_msg" product="tablet"><xliff:g id="app_name">%1$s</xliff:g> इस टेबलेट पर स्थापित नहीं किया जा सका.</string>
+    <!-- Message presented when an application could not be installed on the phone for some reason. [CHAR LIMIT=100] -->
+    <string name="install_failed_msg" product="default"><xliff:g id="app_name">%1$s</xliff:g> इस फोन पर इनस्टॉल नहीं हो सकता.</string>
+    <string name="launch">खोलें</string>
+    <string name="unknown_apps_dlg_title">इनस्टॉल अवरुद्ध</string>
+    <!-- Message presented in a dialog box when a package is requested to be installed, but the "Allow unknown applications" checkbox is not enabled. [CHAR LIMIT=100] -->
+    <string name="unknown_apps_dlg_text" product="tablet">"सुरक्षा कारणों से, अपने टेबलेट अनौपचारिक चैनलों से प्राप्त एप्लीकेशन स्थापित करने के मना करने के लिए निर्धारित किया गया है.\
+प्रतिबंध हटाने के लिए आप किसी भी चैनल से एप्लीकेशन के इनस्टॉल कर सकते हैं,\
+लेकिन अपने फोन और व्यक्तिगत डेटा अज्ञात स्रोतों के एप्लीकेशन द्वारा हमला किया जा सकता है,\
+और आप संभावित परिणामों के लिए पूरी जिम्मेदारी लेते हैं.\n
+तुम भी इसी माध्यम से संशोधित कर सकता है "सेटिंग -> सुरक्षा -> अज्ञात स्रोत"."</string>
+    <!-- Message presented in a dialog box when a package is requested to be installed, but the "Allow unknown applications" checkbox is not enabled. [CHAR LIMIT=100] -->
+    <string name="unknown_apps_dlg_text" product="default">"सुरक्षा कारणों से, अपने टेबलेट अनौपचारिक चैनलों से प्राप्त एप्लीकेशन स्थापित करने के मना करने के लिए निर्धारित किया गया है.\
+प्रतिबंध हटाने के लिए आप किसी भी चैनल से एप्लीकेशन के इनस्टॉल कर सकते हैं,\
+लेकिन अपने फोन और व्यक्तिगत डेटा अज्ञात स्रोतों के एप्लीकेशन द्वारा हमला किया जा सकता है,\
+और आप संभावित परिणामों के लिए पूरी जिम्मेदारी लेते हैं.\n
+तुम भी इसी माध्यम से संशोधित कर सकता है "सेटिंग -> सुरक्षा -> अज्ञात स्रोत"."</string>
+    <string name="ok">ठीक</string>
+    <string name="settings">सेटिंग</string>
+    <!-- Title of dialog asking user if they would allow an application to be an install source. -->
+    <string name="allow_source_dlg_title">ऐप के लिए नए स्रोत की अनुमति दें?</string>
+    <!-- Message of dialog asking user if they would allow an application to be an install source. -->
+    <string name="allow_source_dlg_text"><xliff:g id="app_name">%1$s</xliff:g> अन्य ऐप इनस्टॉल करना चाहता है.\n\nअब और भविष्य में अनुमति दें?</string>
+    <string name="manage_applications">एप्लीकेशन प्रबंधित करें</string>
+    <string name="dlg_app_replacement_title">एप्लीकेशन बदलें</string>
+    <string name="dlg_app_replacement_statement">वर्तमान आप जो एप्लीकेशन स्थापित कर रहे हैं  इनस्टॉल संस्करण का स्थान ले लेगा.\n\nसभी पिछले उपयोगकर्ता डेटा सेब रहेगा.</string>
+    <string name="dlg_app_replacement_statement_with_version"><xliff:g id="APP_NAME">%1$s</xliff:g> (<xliff:g id="NEW_VERSION">%2$s</xliff:g>) वर्तमान इनस्टॉल संस्करण का स्थान ले लेगा (<xliff:g id="ORI_VERSION">%3$s</xliff:g>). सभी पिछले उपयोगकर्ता डेटा सेब रहेगा.\nइनस्टॉल करने निश्चित करें?</string>
+    <!-- Dialog attributes when replacing system app -->
+    <string name="dlg_sys_app_replacement_statement">यह सिस्टम एप्लीकेशन है. आप अभी भी इसे बदलना चाहते है?\n\nसभी पिछले उपयोगकर्ता डेटा सेब रहेगा.</string>
+    <string name="lift_ban">लिफ्ट प्रतिबंध</string>
+    <string name="out_of_space_dlg_title">जगह ख़त्म हो गया</string>
+    <string name="out_of_space_dlg_text"><xliff:g id="app_name">%1$s</xliff:g> इनस्टॉल नहीं हो सकता. कुछ स्थान रिक्त करें और पुन: प्रयास करें .</string>
+    <!-- strings related to uninstall activity -->
+    <string name="dlg_ok">ठीक</string>
+    <string name="app_not_found_dlg_title">एप्लीकेशन नहीं मिला</string>
+    <string name="app_not_found_dlg_text"> इनस्टॉल हुई एप्लीकेशन एप्लीकेशन की सूची में नहीं मिला था.</string>
+    <string name="uninstall_application_title">उनइनस्टॉल एप्लीकेशन</string>
+    <string name="uninstall_update_title">उनइनस्टॉल अपडेट</string>
+    <string name="uninstall_activity_text"><xliff:g id="activity_name">%1$s</xliff:g> निम्नलिखित आवेदन का हिस्सा है:</string>
+    <string name="uninstall_confirm_question">आप आवेदन की स्थापना रद्द करना चाहते हैं?</string>
+    <string name="uninstall_application_text">इस एप्लीकेशन उनइनस्टॉल हो जाएगा.</string>
+    <string name="uninstall_update_text">आवेदन कारखाने संस्करण के साथ प्रतिस्थापित किया जाएगा.</string>
+    <string name="uninstalling">उनइनस्टॉल कर रहा हे\u2026</string>
+    <string name="uninstall_done">उनइनस्टॉल समाप्त</string>
+    <string name="uninstall_failed">उनइनस्टॉल सफल नहीं हुआ</string>
+    <!-- String presented to the user when uninstalling a package failed because the target package
+        is a current device administrator [CHAR LIMIT=80] -->
+    <string name="uninstall_failed_device_policy_manager">उनइनस्टॉल नहीं कर सकता: यह पैकेज
+        सक्रिय डिवाइस व्यवस्थापक है.</string>
+    <!-- String on a button that leads to the "device administrator" configuration setting where a
+        user will be able to disable the device administrator in order to uninstall
+        it. [CHAR LIMIT=50] -->
+    <string name="manage_device_administrators">डिवाइस के व्यवस्थापकों प्रबंधित करें</string>
+    <string name="uninstall_failed_msg"><xliff:g id="app_name">%1$s</xliff:g> उनइनस्टॉल नहीं हो सकता</string>
+    <string name="uninstall_failed_retained_app_msg">इस एप्लिकेशन को संशोधित किया गया है और अपने मौजूदा रूप में की उनइनस्टॉल नहीं किया जा सकता..</string>
+
+    <!-- Dialog attributes to indicate parse errors -->
+    <string name="Parse_error_dlg_title">पार्स त्रुटि</string>
+    <string name="Parse_error_dlg_text">पैकेज को पार्स करने में कोई समस्या है.</string>
+    <string name="caller_app">कोलर: <xliff:g id="APP_NAME">%1$s</xliff:g></string>
+    <string name="safe_guard_support">तकनीकी समर्थन <xliff:g id="SUPPORT">%1$s द्वारा उपलब्ध कराई गई </xliff:g></string>
+
+    <string name="safe_relative">सुरक्षित सापेक्ष अनुमतियों</string>
+    <string name="privacy_relative">निजी सापेक्ष अनुमतियों</string>
+    <string name="other_relative">अन्य अनुमतियाँ</string>
+
+    <string name="perm_notice">चेतावनी</string>
+    <string name="trust_switch_dialog_msg">MIUI इस ऐप द्वारा किए गए किसी भी सुरक्षा या गोपनीयता संबंधित कार्यों की पुष्टि करने के लिए नहीं कहेंगे.</string>
+    <string name="auto_startup_dialog_msg">MIUI इस एप्लिकेशन को आपकी अनुमति के बिना शुरू करने की अनुमति देगा.</string>
+    <string name="low_risk_perms">कम जोखिम अनुमतियों</string>
+    <string name="high_risk_perms">उच्च जोखिम अनुमतियों</string>
+    <string name="perm_privacy_app_finish">फिनिश</string>
+    <string name="perm_privacy_app_launch">लांच</string>
+    <string name="perm_privacy_app_installed">इनस्टॉल पूर्ण</string>
+    <string name="perm_sysopt_boost_auto_start">स्वतः आरंभ अनुमति</string>
+    <string name="perm_sysopt_boost_auto_start_summary">इस ऐप स्वचालित रूप से प्रारंभ हो जाएगा</string>
+    <string name="perm_privacy_app_trust">मैं इस ऐप पर भरोसा करता हूँ</string>
+    <string name="perm_privacy_app_trust_summary">MIUI इस ऐप की निगरानी करेंगे</string>
+    <string name="perm_action_accept">अनुमति</string>
+    <string name="perm_action_prompt">पूछ</string>
+    <string name="perm_action_reject">अस्वीकार</string>
+
+    <string name="unknown_installer">अज्ञात पीसी टूल्</string>
+    <!-- Reason displayed when installation fails because the package incompatible
+        with MIUI system. -->
+    <string name="install_failed_system_incompatible" product="default">इस ऐप MIUI के साथ संगत नहीं है</string>
+</resources>

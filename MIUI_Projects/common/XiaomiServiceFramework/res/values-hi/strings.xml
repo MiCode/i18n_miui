@@ -4,7 +4,7 @@
 
     <string name="show_password">पासवर्ड देखाएं</string>
 
-    <string name="account">अकाउंट</string>
+    <string name="account">खाता</string>
     <string name="account_hint_text">ईमेल या फोन  नंम्बर</string>
     <string name="login">साइन इन</string>
     <string name="next">अगला</string>
@@ -18,68 +18,68 @@
     <string name="micloud_welcome_skip_login"><u>इस कदम को छोडे</u></string>
     <string name="micloud_account_name">Xiaomi</string>
     <string name="micloud_use_existing">साइन इन</string>
-    <string name="micloud_reg_new">अकाउंट बनये</string>
+    <string name="micloud_reg_new">खाता बनये</string>
     <string name="micloud_error_empty_username">अपना यूजरनेम दर्ज करे</string>
     <string name="micloud_error_empty_pwd">अपना पासवर्ड दर्ज करे</string>
     <string name="micloud_error_illegal_pwd">अमान्य पासवर्ड</string>
     <string name="micloud_error_empty_captcha_code">कैप्चा कोड दर्ज करे</string>
     <string name="micloud_error_empty_vcode">जाँच कोड दर्ज करे</string>
-    <string name="micloud_email">ईमेल एड्रेस</string>
+    <string name="micloud_email">ईमेल पता</string>
     <string name="reg_type_phone">फोन के माध्यम से साइन अप करें (अनुशंसित)</string>
     <string name="reg_type_email">ईमेल के माध्यम से साइन अप</string>
     <string name="micloud_input_password_prompt">पासवर्ड दर्ज करे</string>
     <string name="micloud_password_confirm_hint">पासवर्ड की पुष्टि करे</string>
     <string name="micloud_password_req_notice">
-        8~16 chars, alphanumeric, case sensitive
+        8~16 अक्षरों, अक्षरांकीय, केस संवेदनशील
     </string>
     <string name="micloud_password_error_inconsistent">पासवर्ड मेल नहीं खाते</string>
     <string name="micloud_active_alert_title"> टेक्स्ट संदेश भेजें</string>
-    <string name="micloud_via_sms_alert">एक्टिवेशन टेक्स्ट संदेश आपके कैरियर से शुल्क ले सकते हैं.</string>
-    <string name="micloud_via_int_sms_alert">एक्टिवेशन टेक्स्ट संदेश आपके कैरियर से शुल्क ले सकते हैं.</string>
+    <string name="micloud_via_sms_alert">सक्रियण टेक्स्ट संदेश आपके कैरियर से शुल्क ले सकते हैं.</string>
+    <string name="micloud_via_int_sms_alert">सक्रियण टेक्स्ट संदेश आपके कैरियर से शुल्क ले सकते हैं.</string>
     <string name="micloud_error_email">अवैध ईमेल</string>
-    <string name="micloud_account">Xiaomi अकाउंट</string>
-    <string name="micloud_activing_account">अकाउंट एक्टिवेट हो रहा है\u2026</string>
+    <string name="micloud_account">Xiaomi खाता</string>
+    <string name="micloud_activing_account">खाता सक्रिय  हो रहा है\u2026</string>
     <string name="micloud_activing_account_delayed">लगभग वहाँ \u2026</string>
-    <string name="micloud_activing_account_failed"> Xiaomi अकाउंट एक्टिवेट नही हो सका </string>
-    <string name="micloud_activating_account_notify_title">अकाउंट एक्टिवेट हो रहा है\u2026</string>
-    <string name="micloud_activate_account_success_notify_title">अकाउंट एक्टिवेटड</string>
-    <string name="micloud_activate_account_fail_notify_title">एक्टिवेट नही हो सका</string>
-    <string name="micloud_activating_account_notify_info">आपका xiaomi अकाउंट एक्टिवेट किया जा रहा है  </string>
+    <string name="micloud_activing_account_failed"> Xiaomi खाता सक्रिय  नही हो सका </string>
+    <string name="micloud_activating_account_notify_title">खाता सक्रिय  हो रहा है\u2026</string>
+    <string name="micloud_activate_account_success_notify_title">खाता सक्रिय किया </string>
+    <string name="micloud_activate_account_fail_notify_title">सक्रिय  नही हो सका</string>
+    <string name="micloud_activating_account_notify_info">आपका xiaomi खाता सक्रिय  किया जा रहा है  </string>
     <string name="micloud_activate_back_btn">रद्द करें</string>
     <string name="micloud_activate_retry_btn">पुन: प्रयास करे </string>
-    <string name="micloud_account_not_actived">आपका अकाउंट एक्टिवेट नहीं है</string>
+    <string name="micloud_account_not_actived">आपका खाता सक्रिय  नहीं है</string>
     <string name="micloud_active_email_visit">आपना इनबॉक्स में चेक करे
         <xliff:g id="email">%s</xliff:g>
     </string>
-    <string name="micloud_click_email_to_valid">\n\nअपने अकाउंट एक्टिवेट करने के लिए,\n आपके इनबॉक्स में एक्टिवेशन लिंक का पालन करें.</string>
-    <string name="micloud_resend_active_email">एक्टिवेशन ईमेल पुन: भेजें</string>
+    <string name="micloud_click_email_to_valid">\n\nअपना खाता सक्रिय  करने के लिए,\n आपके इनबॉक्स में सक्रियण लिंक का पालन करें.</string>
+    <string name="micloud_resend_active_email">सक्रियण ईमेल पुन: भेजें</string>
     <string name="micloud_delete_account">साइन आउट</string>
-    <string name="micloud_active_email_sent_1">"एक एक्टिवेशन लिंक भेज दिया गये है "</string>
+    <string name="micloud_active_email_sent_1">"सक्रियण लिंक भेज दिया गये है "</string>
     <string name="micloud_active_email_sent_2"></string>
-    <string name="micloud_click_email">\n\nअपने अकाउंट एक्टिवेट करने के लिए,\n एक्टिवेशन संदेश में लिंक का पालन करें</string>
+    <string name="micloud_click_email">\n\nअपना खाता सक्रिय  करने के लिए,\n सक्रियण संदेश में लिंक का पालन करें</string>
     <string name="completed">समाप्त</string>
-    <string name="header_data_and_synchronization">डेटा  &amp; सिंक</string>
+    <string name="header_data_and_synchronization">डेटा  &amp; समन्वय</string>
     <string name="title_reg">साइन अप</string>
-    <string name="micloud_account_label">अकाउंट:
+    <string name="micloud_account_label">खाता:
         <xliff:g id="name">
             %1$s
         </xliff:g>
     </string>
-    <string name="email_already_be_used">यह ईमेल एड्रेस पहले से ही किसी अन्य अकाउंट के साथ जुड़ा हुआ है.</string>
+    <string name="email_already_be_used">यह ईमेल पता पहले से ही किसी अन्य खाते के साथ जुड़ा हुआ है.</string>
     <string name="error_no_sms_service">टेक्स्ट संदेश सेवा अनुपलब्ध</string>
-    <string name="reg_by_email_failure">अकाउंट  बनाने में असफल रहे:
+    <string name="reg_by_email_failure">खाता बनाने में असफल रहे:
         <xliff:g id="reason">
             %1$s
         </xliff:g>
     </string>
-    <string name="unactivated_user">एक्टिवेट नही हो सका</string>
-    <string name="reg_failed">रजिस्ट्रेशन असफल</string>
+    <string name="unactivated_user">सक्रिय  नही हो सका</string>
+    <string name="reg_failed">पंजीकरण असफल</string>
     <string name="login_instead_reg">साइन इन करने के लिए इस मोबाइल नंबर का उपयोग करें</string>
-    <string name="get_back_pwd">अकाउंट पासवर्ड पुनः प्राप्त</string>
+    <string name="get_back_pwd">खाते का पासवर्ड पुनः प्राप्त</string>
     <string name="login_failed">साइन-इन असफल</string>
     <string name="logout_failed">साइन-आउट असफल</string>
     <string name="error_network">नेटवर्क त्रुटि</string>
-    <string name="error_dup_phone">यह नंबर पहले से ही किसी अन्य अकाउंट के साथ जुड़ा हुआ है</string>
+    <string name="error_dup_phone">यह नंबर पहले से ही किसी अन्य खाते के साथ जुड़ा हुआ है</string>
     <string name="error_server">सर्वर त्रुटि</string>
     <string name="error_sim_not_ready">सिम कार्ड नहीं मिला</string>
     <string name="error_unknown">अज्ञात त्रुटि</string>
@@ -87,7 +87,7 @@
     <string name="error_user_name">अवैध यूज़र नेम</string>
     <string name="quick_login_title">पासवर्ड</string>
     <string name="quick_login_step2_title">2-चरण जाँच </string>
-    <string name="account_name">अकाउंट:
+    <string name="account_name">खाता:
         <xliff:g id="account">
             %1$s
         </xliff:g>
@@ -97,54 +97,54 @@
     <string name="input_vcode_hint">जाँच कोड दर्ज कर</string>
     <string name="confirm">पुष्टि करें</string>
     <string name="alert_title_remove_account">साइन-आउट</string>
-    <string name="remove_account_notice">आप इस डिवाइस पर सिंक किए गए संदेशों, संपर्कों और नोटस के साथ क्या करना चाहते हैं?</string>
+    <string name="remove_account_notice">आप इस डिवाइस पर समन्वय किए गए संदेशों, संपर्कों और नोट के साथ क्या करना चाहते हैं?</string>
     <string name="data_keep_in_phone">इस डिवाइस पर रखें</string>
     <string name="data_wipe_from_phone">इस डिवाइस से हटाएँ</string>
-    <string name="login_notice">Signing in\u2026</string>
-    <string name="data_sync_notice">डिवाइस के संदेशों और संपर्कों को सिंक करने के लिए अपने Xiaomi अकाउंट का प्रयोग करें.</string>
-    <string name="cmcc_data_sync_notice">डिवाइस के संदेशों और संपर्कों को सिंक करने के लिए अपने Xiaomi अकाउंट का प्रयोग करें</string>
-    <string name="sync_dspt">इनेबल सिंक</string>
-    <string name="sync_sub_dspt">एक्टिवेशन टेक्स्ट संदेश नियमित रूप से डेटा शुल्क के अधीन है.</string>
-    <string name="sync_sub_int_dspt">एक्टिवेशन टेक्स्ट संदेश इंटरनेशनल डेटा शुल्क के अधीन है.</string>
+    <string name="login_notice">साइन इन कर रहा हे\u2026</string>
+    <string name="data_sync_notice">डिवाइस के संदेशों और संपर्कों को समन्वय करने के लिए अपने Xiaomi खाता का उपयोग करें.</string>
+    <string name="cmcc_data_sync_notice">डिवाइस के संदेशों और संपर्कों को समन्वय करने के लिए अपने Xiaomi खाता का उपयोग करें</string>
+    <string name="sync_dspt">समन्वय सक्षम करे</string>
+    <string name="sync_sub_dspt">सक्रियण टेक्स्ट संदेश नियमित रूप से डेटा शुल्क के अधीन है.</string>
+    <string name="sync_sub_int_dspt">सक्रियण टेक्स्ट संदेश इंटरनेशनल डेटा शुल्क के अधीन है.</string>
     <string name="send_sms_for_sync_title">टेक्स्ट संदेश भेजें</string>
-    <string name="send_sms_for_sync_notice">एक्टिवेशन टेक्स्ट संदेश नियमित रूप से डेटा शुल्क के अधीन है.</string>
-    <string name="send_int_sms_for_sync_notice">एक्टिवेशन टेक्स्ट संदेश इंटरनेशनल डेटा शुल्क के अधीन है..</string>
-    <string name="failed_to_send_activate_email">एक्टिवेशन ईमेल भेजने में असफल.</string>
+    <string name="send_sms_for_sync_notice">सक्रियण टेक्स्ट संदेश नियमित रूप से डेटा शुल्क के अधीन है.</string>
+    <string name="send_int_sms_for_sync_notice">सक्रियण टेक्स्ट संदेश इंटरनेशनल डेटा शुल्क के अधीन है..</string>
+    <string name="failed_to_send_activate_email">सक्रियण ईमेल भेजने में असफल.</string>
     <string name="access_denied">प्रवेश निषेध</string>
     <string name="reging">साइनिंग उप\u2026</string>
-    <string name="reg_success">अकाउंट बन गये</string>
+    <string name="reg_success">खाते बन गये</string>
     <string name="reg_success_summary"><xliff:g id="code">%1$s</xliff:g> अपने खाते से बाध्य किया गये है. तुम  इसका इस्तेमाल सइन करने के लिए या पासवर्ड पुनः प्राप्त करने के लिए  कर सकते हो.</string>
 
     <string name="sync_on">शुरू</string>
     <string name="sync_off">बंद</string>
 
-    <string name="btn_activate">एक्टिवेट</string>
-    <string name="sim_changed_notification_content">सिम कार्ड एक्टिवेट नही है.</string>
+    <string name="btn_activate">सक्रिय </string>
+    <string name="sim_changed_notification_content">सिम कार्ड सक्रिय  नही है.</string>
     <string name="activating">सक्रिय कर रहा है\u2026</string>
-    <string name="check_phone_error_title">इनेबल सिंक असफल रहा.</string>
+    <string name="check_phone_error_title">समन्वय सक्षम करना असफल रहा.</string>
     <string name="check_phone_io_error">नेटवर्क त्रुटि</string>
 
     <string name="other_settings">अन्य सेटिंग्स</string>
     <string name="find_device">डिवाइस का पता लगाएं</string>
-    <string name="find_device_check_phone_error_title">इनेबल नही हो सका, डिवाइस के फ़िचर का पता लगाएं</string>
-    <string name="find_device_enabling">एनेबल कर रहा है\u2026</string>
+    <string name="find_device_check_phone_error_title">सक्षम नही हो सका, डिवाइस के फ़िचर का पता लगाएं</string>
+    <string name="find_device_enabling">सक्षम कर रहा है\u2026</string>
     <string name="find_device_disabling">डिसेबल कर रहा है\u2026</string>
     <string name="enable_find_device_error">त्रुटि: <xliff:g id="reason">%1$s</xliff:g></string>
     <string name="disable_find_device_error">त्रुटि: <xliff:g id="reason">%1$s</xliff:g></string>
     <string name="find_device_error_network">नेटवर्क त्रुटि</string>
     <string name="find_device_error_server">सर्वर त्रुटि</string>
-    <string name="find_device_success_title">इनेबल हुए डिवाइस का पता लगाएं</string>
+    <string name="find_device_success_title">सक्षम हुए डिवाइस का पता लगाएं</string>
     <string name="find_device_notice_p1">पे जायें</string>
     <string name="find_device_notice_p2">i.xiaomi.com</string>
     <string name="find_device_notice_p3">दूर से अपने फोन को खोजे,लॉक करे या पुनर्स्थापित करे.</string>
     <string name="i_know">ठीक</string>
-    <string name="find_device_disabled_title">डिसएबल हुए डिवाइस का पता लगाएं</string>
-    <string name="find_device_disabled_notice">आप सेटिंग में फाइंड डिवाइस फ़िचर चालू कर सकते हैं > एकाउंट्स &amp; सिंक > Xiaomi अकाउंट</string>
+    <string name="find_device_disabled_title">निष्क्रिय हुए डिवाइस का पता लगाएं</string>
+    <string name="find_device_disabled_notice">आप सेटिंग में फाइंड डिवाइस फ़िचर चालू कर सकते हैं > एकाउंट्स &amp; समन्वय > Xiaomi खाता</string>
 
-    <string name="activate_phone_send_sms_fail">एक्टिवेशन टेक्स्टभेजने में असफल</string>
+    <string name="activate_phone_send_sms_fail">सक्रियण टेक्स्टभेजने में असफल</string>
     <string name="activate_phone_server_error">सर्वर त्रुटि</string>
-    <string name="activate_phone_failed_notif_title">Mi Cloud प्रारंभ करने में असफल</string>
-    <string name="activate_phone_send_sms_failed_notif">एक्टिवेशन टेक्स्टभेजने में असफल</string>
+    <string name="activate_phone_failed_notif_title">Mi क्लाउड प्रारंभ करने में असफल</string>
+    <string name="activate_phone_send_sms_failed_notif">सक्रियण टेक्स्टभेजने में असफल</string>
     <string name="activate_phone_server_error_notif">सर्वर त्रुटि</string>
 
     <string name="user_agreement_p1">साइन इन करके, आप Xiaomi के लिए सहमत हो\n &#160;</string>
@@ -153,9 +153,9 @@
     <string name="user_agreement_p4">प्राइवेसी पालिसी</string>
     <string name="user_agreement_p5">ख़ाता बना कर आप सहमत हो\n the&#160;</string>
     <string name="skip_setup_account_title">सेटअप छोड़ें</string>
-    <string name="skip_setup_account_msg">आप बाद में सेटिंग्स में अकाउंट को सेटअप कर सकते हैं.</string>
-    <string name="account_dspt">अपने संपर्क, संदेश, तस्वीरें, और नोट्स का बैक अप और  सिंक करे .</string>
-    <string name="remove_unactivated_account_notice">आपका अकाउंट एक्टिवेट नहीं किया गये.</string>
+    <string name="skip_setup_account_msg">आप बाद में सेटिंग्स में खाते को सेटअप कर सकते हैं.</string>
+    <string name="account_dspt">अपने संपर्क, संदेश, तस्वीरें, और नोट का बैक अप और  समन्वय करे .</string>
+    <string name="remove_unactivated_account_notice">आपका खाता सक्रिय  नहीं किया गये.</string>
     <string name="remove_confirm">साइन आउट</string>
     <string name="find_password_on_web_msg">पासवर्ड पुनः प्राप्त करने account.xiaomi.com जाएँ.</string>
     <string name="relogin">फिर से लॉग इन करें</string>
@@ -169,22 +169,22 @@
 
     <string name="sina_weibo">Sina Weibo</string>
     <string name="bind_sina_weibo">Sina Weibo के साथ जुडे</string>
-    <string name="bind_weibo_description">ढूँढें और अपने मित्रों को Sina Weibo से सिंक करे.</string>
-    <string name="add_weibo_account">अकाउंट जोड़े</string>
+    <string name="bind_weibo_description">ढूँढें और अपने मित्रों को Sina Weibo से समन्वय करे.</string>
+    <string name="add_weibo_account">खाता जोड़े</string>
     <string name="binded">Binded</string>
     <string name="nobind">मत बान्धे। </string>
     <string name="unbind">अनबाइंड</string>
-    <string name="update_contacts">अपडेट एड्रेस बुक</string>
-    <string name="update_contacts_description">Sina Weibo प्लेटफार्मों भर में अपनी सिंक संपर्क की जानकारी के लिए अपने Xiaomi अकाउंटका प्रयोग करेंगे.</string>
+    <string name="update_contacts">पता पुस्तिका अपडेट करे</string>
+    <string name="update_contacts_description">Sina Weibo प्लेटफार्मों भर में अपनी समन्वय संपर्क की जानकारी के लिए अपने Xiaomi खाते का उपयोग करेंगे.</string>
     <string name="updated_contacts">%s संपर्क अपडेट हो गए</string>
-    <string name="updated_nothing">सिंक करने के लिए कुछ भी नहीं</string>
-    <string name="process_result">सिंक विस्तार:</string>
-    <string name="access_token_expired_warning">Weibo अकाउंट समाप्त हो गये है: कृपया rebind</string>
-    <string name="access_token_invalid_warning">Weibo अकाउंट  अमान्य है: कृपया rebind</string>
+    <string name="updated_nothing">समन्वय करने के लिए कुछ भी नहीं</string>
+    <string name="process_result">समन्वय विस्तार:</string>
+    <string name="access_token_expired_warning">Weibo खाता समाप्त हो गये है: कृपया rebind</string>
+    <string name="access_token_invalid_warning">Weibo खाता  अमान्य है: कृपया rebind</string>
     <string name="service_error">सर्विस त्रुटि</string>
 
-    <string name="enable_micloud">अकाउंट बनाएँ or साइन इन</string>
-    <string name="micloud_summary">संपर्क, नोट्स, फोटो, और अधिक, आपने Xiaomi अकाउंट में साइन इन करें.</string>
+    <string name="enable_micloud">खाता बनाएँ या साइन इन</string>
+    <string name="micloud_summary">संपर्क, नोट, तस्वीर, और अधिक, आपने Xiaomi खाते में साइन इन करें.</string>
     <string name="micloud_is_what">Mi क्लाउड क्या है?</string>
     <string name="available_functionality">उपलब्ध फंक्शन</string>
     <string name="internet_message">क्लाउड संदेश</string>
@@ -192,32 +192,32 @@
     <string name="internet_comm">संदेश सेवा</string>
     <string name="cloud_messaging">क्लाउड संदेश</string>
     <string name="xiaomi_cloud_service">Mi क्लाउड</string>
-    <string name="current_account">वर्तमान अकाउंट </string>
-    <string name="my_xiaomi_account">Xiaomi अकाउंट</string>
+    <string name="current_account">वर्तमान खाता </string>
+    <string name="my_xiaomi_account">Xiaomi खाता</string>
     <string name="micloud_intro_01_part_01">अपना मोबाइल डेटा सेव करे!</string>
     <string name="micloud_intro_01_part_02"> Wi-Fi के जरिए मुफ्त मैसेजिंग</string>
     <string name="micloud_intro_02_part_01">चारों ओर अपनी फ़ाइलें स्थानांतरित करने के लिए Thumb ड्राइव और ईमेल खातों का उपयोग बंद करे!</string>
-    <string name="micloud_intro_02_part_02">उपकरणों में संपर्क, संदेश, तस्वीरें, और अधिक सिंक करे</string>
+    <string name="micloud_intro_02_part_02">उपकरणों में संपर्क, संदेश, तस्वीरें, और अधिक समन्वय करे</string>
     <string name="micloud_intro_03_part_01">दूर से अपने फोन की सामग्री सुरक्षित</string>
     <string name="micloud_intro_03_part_02">दूर से पता लगाने, ताला, डिवाइस की सामग्री को मिटाने, पर  i.xiaomi.com जाये</string>
-    <string name="micloud_dspt">डेटा सिंक अपने फोन का पता लगाने, और दोस्तों के साथ बातें साझा करने के लिए Mi क्लाउड का प्रयोग करें.</string>
-    <string name="cmcc_micloud_dspt">डेटा सिंक अपने फोन का पता लगाने, और दोस्तों के साथ बातें साझा करने के लिए Mi क्लाउड का प्रयोग करें.</string>
+    <string name="micloud_dspt">डेटा समन्वय अपने फोन का पता लगाने, और दोस्तों के साथ बातें साझा करने के लिए Mi क्लाउड का उपयोग करें.</string>
+    <string name="cmcc_micloud_dspt">डेटा समन्वय अपने फोन का पता लगाने, और दोस्तों के साथ बातें साझा करने के लिए Mi क्लाउड का उपयोग करें.</string>
     <string name="start_micloud">प्रारंभ</string>
 
     <string name="micloud_proceed">जारी रखे</string>
-    <string name="disable_micloud"><u>डिसएबल Mi क्लाउड</u></string>
+    <string name="disable_micloud"><u>Mi क्लाउड निष्क्रिय करे</u></string>
 
-    <string name="master_alert_notif_title">%s दिनों पहले डेटा अंतिम बार सिंक किया था</string>
-    <string name="sub_alert_notif_title">प्रमुख सिंक सेवा सक्षम नहीं किया गये है</string>
-    <string name="alert_notif_title_dspt">डाटा सुरक्षा सुनिश्चित करने के लिए सिंक पुनर्स्थापित</string>
+    <string name="master_alert_notif_title">%s दिनों पहले डेटा अंतिम बार समन्वय किया था</string>
+    <string name="sub_alert_notif_title">प्रमुख समन्वय सेवा सक्षम नहीं किया गये है</string>
+    <string name="alert_notif_title_dspt">डाटा सुरक्षा सुनिश्चित करने के लिए समन्वय पुनर्स्थापित</string>
     <string name="noRemind">फिर मुझे याद मत दिलाओ</string>
     <string name="restoreSync">पुनर्स्थापित</string>
-    <string name="enableAll">सभी एनेबल करे</string>
-    <string name="master_alert_notif_dspt" formatted="false">"%s संपर्क, %s संदेश, %s तस्वीरें, %s नोट और अन्य डेटा सिंक नहीं किया गया है.</string>
-    <string name="sub_alert_notif_dspt" formatted="false">"%s संपर्क, %s संदेश, %s तस्वीरें, %s नोट और अन्य डेटा सिंक नहीं किया गया है.</string>
+    <string name="enableAll">सभी सक्षम करे</string>
+    <string name="master_alert_notif_dspt" formatted="false">"%s संपर्क, %s संदेश, %s तस्वीरें, %s नोट और अन्य डेटा समन्वय नहीं किया गया है.</string>
+    <string name="sub_alert_notif_dspt" formatted="false">"%s संपर्क, %s संदेश, %s तस्वीरें, %s नोट और अन्य डेटा समन्वय नहीं किया गया है.</string>
 
-    <string name="wipe_data_dialog_title">कुछ आइटम सिंक नहीं किया गये है</string>
-    <string name="wipe_data_dialog_msg">%s आइटम सिंक नहीं की गई है. अगर आप जारी रखे तो सिंक नही किया गया डेटा गुम हो जाएगा.</string>
+    <string name="wipe_data_dialog_title">कुछ आइटम समन्वय नहीं किया गये है</string>
+    <string name="wipe_data_dialog_msg">%s आइटम समन्वय नहीं की गई है. अगर आप जारी रखे तो समन्वय नही किया गया डेटा गुम हो जाएगा.</string>
     <string name="dirty_contacts_count">%d संपर्क</string>
     <string name="dirty_mms_count">%d संदेश</string>
     <string name="dirty_note_count">%d नोट</string>
@@ -231,34 +231,34 @@
     <string name="vcode_notification_title">आपके साइन इन में वेरिफिकेशन अधूरा है</string>
 
     <string name="activate_phone_failed_notif_title_msim">सिम के लिए Mi क्लाउड  शुरू करने में असफल %s</string>
-    <string name="activate_status_title_activating">एक्टिवतिंग सिम कार्ड</string>
-    <string name="activate_status_title_activating_msim">एक्टिवतिंग सिम कार्ड %s</string>
+    <string name="activate_status_title_activating">सिम कार्ड सक्रिय कर रहा हे</string>
+    <string name="activate_status_title_activating_msim">%s सिम कार्ड सक्रिय कर रहा हे</string>
     <string name="activate_status_desc_getting_device_info">डिवाइस की जानकारी प्राप्त हो रही है</string>
     <string name="activate_status_desc_failed_getting_device_info">डिवाइस की जानकारी नहीं मिल सकी</string>
     <string name="activate_status_desc_getting_sim_info">सिम कार्ड की जानकारी प्राप्त हो रही है</string>
     <string name="activate_status_desc_failed_getting_sim_info">सिम कार्ड की जानकारी नहीं मिल सकी</string>
     <string name="activate_status_desc_getting_gateway">SMS गेटवे हो रही है</string>
     <string name="activate_status_desc_failed_getting_gateway">SMS गेटवे प्राप्त नहीं हो सका</string>
-    <string name="activate_status_desc_prepare_sending_sms">एक्टिवेशन SMS भेजने के लिए तैयार कर रहा है</string>
-    <string name="activate_status_desc_sending_sms">Sending\u2026</string>
-    <string name="activate_status_desc_sms_sent">एक्टिवेशन SMS भेज दिया गये है</string>
+    <string name="activate_status_desc_prepare_sending_sms">सक्रियण SMS भेजने के लिए तैयार कर रहा है</string>
+    <string name="activate_status_desc_sending_sms">भेज रहा हे\u2026</string>
+    <string name="activate_status_desc_sms_sent">सक्रियण SMS भेज दिया गये है</string>
     <string name="activate_status_desc_sim_absent">कोइ सिम कार्ड नही है</string>
 
     <string name="activate_status_desc_acquire_phone_number">सर्वर से फोन नंबर मिल रहा  है</string>
-    <string name="activate_status_desc_acquire_phone_number_server_error_wait">फोन नंबर प्राप्त करते समय एक सर्वर त्रुटि हो गई. पुनर्प्रयास कर रहा है\u2026</string>
-    <string name="activate_status_desc_acquire_phone_number_server_io_error_wait">फोन नंबर प्राप्त करते समय एक I/O सर्वर त्रुटि हो गई. पुनर्प्रयास कर रहा है\u2026</string>
+    <string name="activate_status_desc_acquire_phone_number_server_error_wait">फोन नंबर प्राप्त करते समय सर्वर त्रुटि हो गई. पुनर्प्रयास कर रहा है\u2026</string>
+    <string name="activate_status_desc_acquire_phone_number_server_io_error_wait">फोन नंबर प्राप्त करते समय I/O सर्वर त्रुटि हो गई. पुनर्प्रयास कर रहा है\u2026</string>
     <string name="activate_status_desc_acquire_phone_number_server_no_info_wait">फोन नंबर नहीं मिल सका. पुनर्प्रयास कर रहा है\u2026</string>
-    <string name="activate_status_desc_acquire_phone_number_server_error">फोन नंबर प्राप्त करते समय एक सर्वर त्रुटि हो गई</string>
-    <string name="activate_status_desc_acquire_phone_number_server_io_error">फोन नंबर प्राप्त करते समय एक I/O सर्वर त्रुटि हो गई.</string>
+    <string name="activate_status_desc_acquire_phone_number_server_error">फोन नंबर प्राप्त करते समय सर्वर त्रुटि हो गई</string>
+    <string name="activate_status_desc_acquire_phone_number_server_io_error">फोन नंबर प्राप्त करते समय I/O सर्वर त्रुटि हो गई.</string>
     <string name="activate_status_desc_acquire_phone_number_server_no_info">फोन नंबर नहीं मिल सका.</string>
 
-    <string name="activate_status_desc_acquire_sim_user_id"> सर्वर से रजिस्ट्रेशन की जानकारी हासिल कर रहे है</string>
-    <string name="activate_status_desc_acquire_sim_user_id_server_error_wait">रजिस्ट्रेशन की जानकारी प्राप्त करते समय एक सर्वर त्रुटि  है. पुनर्प्रयास कर रहा है\u2026</string>
-    <string name="activate_status_desc_acquire_sim_user_id_server_io_error_wait">रजिस्ट्रेशन की जानकारी प्राप्त करते समय एक I/O सर्वर त्रुटि  है. पुनर्प्रयास कर रहा है\u2026</string>
-    <string name="activate_status_desc_acquire_sim_user_id_server_no_info_wait">रजिस्ट्रेशन की जानकारी नहीं मिल सकी . पुनर्प्रयास कर रहा है\u2026</string>
-    <string name="activate_status_desc_acquire_sim_user_id_server_error">रजिस्ट्रेशन की जानकारी प्राप्त करते समय एक सर्वर त्रुटि  है.</string>
-    <string name="activate_status_desc_acquire_sim_user_id_server_io_error">रजिस्ट्रेशन की जानकारी प्राप्त करते समय एक I/O सर्वर त्रुटि  है.</string>
-    <string name="activate_status_desc_acquire_sim_user_id_server_no_info">रजिस्ट्रेशन की जानकारी नहीं मिल सकी .</string>
+    <string name="activate_status_desc_acquire_sim_user_id"> सर्वर से पंजीकरण की जानकारी हासिल कर रहे है</string>
+    <string name="activate_status_desc_acquire_sim_user_id_server_error_wait">पंजीकरण की जानकारी प्राप्त करते समय सर्वर त्रुटि  है. पुनर्प्रयास कर रहा है\u2026</string>
+    <string name="activate_status_desc_acquire_sim_user_id_server_io_error_wait">पंजीकरण की जानकारी प्राप्त करते समय I/O सर्वर त्रुटि  है. पुनर्प्रयास कर रहा है\u2026</string>
+    <string name="activate_status_desc_acquire_sim_user_id_server_no_info_wait">पंजीकरण की जानकारी नहीं मिल सकी . पुनर्प्रयास कर रहा है\u2026</string>
+    <string name="activate_status_desc_acquire_sim_user_id_server_error">पंजीकरण की जानकारी प्राप्त करते समय सर्वर त्रुटि  है.</string>
+    <string name="activate_status_desc_acquire_sim_user_id_server_io_error">पंजीकरण की जानकारी प्राप्त करते समय I/O सर्वर त्रुटि  है.</string>
+    <string name="activate_status_desc_acquire_sim_user_id_server_no_info">पंजीकरण की जानकारी नहीं मिल सकी .</string>
 
     <string name="activate_status_desc_acquire_sim_pass_token">सर्वर से सुरक्षा की जानकारी हासिल कर रहे है</string>
     <string name="activate_status_desc_acquire_sim_pass_token_server_error_wait">सर्वर से सुरक्षा की जानकारी प्राप्त करते समय त्रुटि  है.  पुनर्प्रयास कर रहा है\u2026</string>
@@ -287,17 +287,17 @@
     <string name="micloud_gallery_image">छवियाँ</string>
     <string name="micloud_gallery_video">वीडियो</string>
     <string name="micloud_app_data">ऐप के बैकअप</string>
-    <string name="micloud_account_details">अकाउंट डिटेल्स</string>
+    <string name="micloud_account_details">खाता विवरण</string>
     <string name="micloud_full_influence_title">जब आपका Mi क्लाउड भर जाएगा\u2026</string>
     <string name="micloud_warn_full_msg">आप अपने स्टोरेज सीमा पर पहुंच गये है!</string>
     <string name="micloud_warn_low_title">लगभग जगह से बाहर है\u2026</string>
     <string name="micloud_warn_low_sum">आप अपने संग्रहण की 90% जगह का उपयोग किया है.</string>
     <string name="micloud_warn_full_title">जगह से बाहर हे!</string>
-    <string name="micloud_warn_full_sum">इस क्षण के लिए, नए आइटम अपने Mi क्लाउड के खाते से सिंक नहीं होंगे.</string>
+    <string name="micloud_warn_full_sum">इस क्षण के लिए, नए आइटम अपने Mi क्लाउड के खाते से समन्वय नहीं होंगे.</string>
     <string name="micloud_none">कोई नहीं</string>
-    <string name="micloud_full_influence_dspt">"आपकी सभी तस्वीरें, वीडियो, नोट्स, और ऐप अपने Mi क्लाउड के खाते में संरक्षित किए जाएगे. \n\nएस तरह से, अगर आपका फोन गुम हो जाए या उसे नुकसान पौहुचे, बात भी आपका डेटा सुरक्षित रहेगा. \n\nअगर आप के अंतरिक्ष संग्रहण मे जगह नही हे, तो आपका पुराना डेटा कहीं नहीं जाएगा.  हालांकि, अगर आप कोई भी नई सामग्री जोड़े (जैसे तस्वीर, वीडियो, नोट्स, और ऐप) बैकअप नहीं होगा. \n\nइसे ठीक करने के लिए, आप नई सामग्री के लिए जगह बनाने के लिए कुछ पुराने फाइल को साफ कर सकते हैं, या आप अतिरिक्त संग्रहण खरीद सकते हैं."</string>
+    <string name="micloud_full_influence_dspt">"आपकी सभी तस्वीरें, वीडियो, नोट, और ऐप अपने Mi क्लाउड के खाते में संरक्षित किए जाएगे. \n\nएस तरह से, अगर आपका फोन गुम हो जाए या उसे नुकसान पौहुचे, बात भी आपका डेटा सुरक्षित रहेगा. \n\nअगर आप के अंतरिक्ष संग्रहण मे जगह नही हे, तो आपका पुराना डेटा कहीं नहीं जाएगा.  हालांकि, अगर आप कोई भी नई सामग्री जोड़े (जैसे तस्वीर, वीडियो, नोट, और ऐप) बैकअप नहीं होगा. \n\nइसे ठीक करने के लिए, आप नई सामग्री के लिए जगह बनाने के लिए कुछ पुराने फाइल को साफ कर सकते हैं, या आप अतिरिक्त संग्रहण खरीद सकते हैं."</string>
     <string name="micloud_upgrade_space">जगह अपग्रेड करे</string>
 
-    <string name="enable_sync_dspt">सिंक बंद है</string>
+    <string name="enable_sync_dspt">समन्वय बंद है</string>
     <string name="enable_sync">चालू करे </string>
 </resources>

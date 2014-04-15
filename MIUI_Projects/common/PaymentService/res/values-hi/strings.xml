@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">पेमेंट सर्विस</string>
+    <string name="format_time">MMM dd, yyyy hh:mmaa</string>
+    <string name="format_date">MMM. dd, yyyy</string>
+    <string name="colon">:\u0020</string>
+
+    <string name="label_order_name">उत्पाद:</string>
+    <string name="label_order_price">कीमत:</string>
+    <string name="label_balance">बैलेंस:</string>
+    <string name="order_price"><xliff:g id="value">%1$s</xliff:g> MiCredits</string>
+    <string name="password_hint">खाते का पासवर्ड दर्ज करे</string>
+    <string name="password_error">पासवर्ड गलत.</string>
+    <string name="password_forget">भूल गए हैं?</string>
+    <string name="progress_creating">आर्डर कि जानकारी पुनः प्राप्त कर रहे है\u2026</string>
+    <string name="progress_loading">प्रोसेसिंग\u2026</string>
+    <string name="button_cancel">कैंसिल</string>
+    <string name="button_retry">पुन: प्रयास</string>
+    <string name="button_call">कॉल</string>
+    <string name="button_pay">पुष्टि करें</string>
+    <string name="button_recharge_pay">पुष्टि करें</string>
+    <string name="button_recharge">टॉप उप</string>
+    <string name="balance_payment"><xliff:g id="value">%1$s</xliff:g> MiCredits</string>
+    <string name="balance_giftcard_payment"><xliff:g id="value">%1$s</xliff:g> MiCredits (<xliff:g id="gift">%2$s</xliff:g>-MiCredit उपहार कार्ड)</string>
+    <string name="balance_no_giftcard_payment"><xliff:g id="value">%1$s</xliff:g> MiCredits (इस आर्डर के लिए MiCredit उपहार कार्ड का उपयोग नहीं कर सकते)</string>
+
+    <string name="balance">बैलेंस: <xliff:g id="value">%1$s</xliff:g> MiCredits</string>
+    <string name="giftcard_value">(<xliff:g id="value">%1$s</xliff:g>-MiCredit उपहार कार्ड)</string>
+    <string name="frozen">(जमा हुआ)</string>
+    <string name="mili_center">MiCredit</string>
+    <string name="memu_refresh">रिफ्रेश</string>
+
+    <string name="error_mili_summary">अपर्याप्त फंड.</string>
+    <string name="error_network_title">नेटवर्क त्रुटि</string>
+    <string name="error_network_summary">नेटवर्क से कनेक्ट नहीं किया जा सका.</string>
+    <string name="error_auth_title">लॉगइन त्रुटि</string>
+    <string name="error_auth_summary">खाता लॉगइन त्रुटि, फिर से लॉग इन करें.</string>
+    <string name="error_has_bought_title">खरीद  दोहराएँ  </string>
+    <string name="error_has_bought_summary">आप ने पहेले से ही इस प्रोडक्ट को ख़रीदा है .</string>
+    <string name="error_server_title">सर्वर त्रुटि</string>
+    <string name="error_server_summary">सर्वर त्रुटि. बाद में पुन: प्रयास करें</string>
+    <string name="error_common_title">सिस्टम त्रुटि</string>
+    <string name="error_common_summary">सिस्टम त्रुटि. बाद में पुन: प्रयास करें.</string>
+    <string name="error_user_id_mismatch_title">खाते की त्रुटि</string>
+    <string name="error_user_id_mismatch_summary">अपने खाते की जांच करें और फिर लॉगिन करे </string>
+    <string name="error_illegal_order_title">आर्डर त्रुटि</string>
+    <string name="error_illegal_order_summary">आर्डर त्रुटि. बाद में पुन: प्रयास करें</string>
+    <string name="error_verify_title">कोई अनुमति नहीं</string>
+    <string name="error_verify_summary">इस अप्प को सर्विस रिक्वेस्ट करनेकी अनुमति नहीं है </string>
+    <string name="error_expired_summary">आपका आर्डर समाप्त हो गया है</string>
+    <string name="error_frozen_title">ख़ाता फ्रोजेन</string>
+    <string name="error_frozen_summary">आपका ख़ाता फ्रोजेन है. Xiaomi ग्राहक सेवा से संपर्क करें.</string>
+    <string name="error_account_changed_title">ख़ाता बदल गया है</string>
+    <string name="error_account_changed_summary">आपके खाते कि जानकारी बदल गई है . फिर से लॉग इन करें.</string>
+    <string name="error_too_frequent_visits_title">Whoa... slow down there</string>
+    <string name="error_too_frequent_visits_summary">खाते कार्रवाई की संख्या पार हो गई. पाँच मिनट इंतज़ार करो और फिर कोशिश करें.</string>
+    <string name="error_giftcard_summary">उपहार कार्ड की जानकारी नहीं मिल सकी.</string>
+    <string name="error_bankcard_verify_summary">कार्ड नंबर को वेरीफाई करने में असफल  .</string>
+    <string name="error_cert_date_title">सर्टिफिकेट कि तारीख में त्रुटि</string>
+    <string name="error_cert_date_summary">सर्टिफिकेट कि तारीख में त्रुटि. अपने स्थानीय तारीख की जाँच करें और पुन: प्रयास करें.</string>
+
+    <string name="title_recharge">टॉप उप MiCredit</string>
+    <string name="recharge_group_favorite">पिछले टॉप अप विधि का प्रयोग करें</string>
+    <string name="recharge_group_others">अन्य टॉप उप विधिया </string>
+    <string name="recharge_prepaid_title">प्रीपेड कार्ड</string>
+    <string name="recharge_alipay_title">अल्पाय</string>
+    <string name="recharge_tenpay_title">टेंपे</string>
+    <string name="recharge_bankcall_title">बैंक कार्ड</string>
+    <string name="recharge_message_title">टेक्स्ट मेसेज</string>
+    <string name="recharge_voucher_title">MiCredit कार्ड</string>
+    <string name="recharge_pcpay_title">कंप्यूटर </string>
+    <string name="recharge_novalid_method">कोई वैध टॉप अप विधि नहीं .</string>
+
+    <string name="account_detail">Xiaomi ख़ाता:\n<xliff:g id="account_id">%1$s</xliff:g></string>
+
+    <string name="paytool_alipay">अल्पाय</string>
+    <string name="paytool_tenpay">टेंपे</string>
+    <string name="recharge_denomination">￥<xliff:g id="value">%1$s</xliff:g></string>
+    <string name="btn_recharge_large">टॉप अप</string>
+    <string name="recharge_other">अन्य तरीके दिखाए </string>
+    <string name="btn_recharge_success">टॉप अप कम्पलीट</string>
+    <string name="btn_recharge_success_quick">टॉप अप कम्पलीट</string>
+    <string name="btn_prev">पिछला</string>
+    <string name="btn_next">अगला</string>
+
+    <string name="recharge_grid_picker_hint">राशि चुने </string>
+    <string name="recharge_grid_edit_hint">राशि (￥)</string>
+    <string name="recharge_grid_edit_limit">￥<xliff:g id="lower">%1$s</xliff:g>~<xliff:g id="upper">%2$s</xliff:g></string>
+    <string name="recharge_grid_edit_upper_limit">अधिक नहीं हो सकता ￥<xliff:g id="upper">%1$s</xliff:g></string>
+    <string name="recharge_grid_error_denomination">बीच सही राशि दर्ज करें ￥<xliff:g id="lower">%1$s</xliff:g>~<xliff:g id="uper">%2$s</xliff:g></string>
+
+    <string name="paytool_error_install">इनस्टॉल करने में असफल  <xliff:g id="tool">%1$s</xliff:g> मोबाइल सुरक्षा प्लगइन</string>
+    <string name="paytool_error_msp"><xliff:g id="tool">%1$s</xliff:g> असफल</string>
+    <string name="paytool_msp_not_installed">आपने इनस्टॉल नहीं किया है <xliff:g id="tool">%1$s</xliff:g> मोबाइल सुरक्षा प्लगइन, अब इनस्टॉल करे ? </string>
+    <string name="progress_paytool_creating">जनरेटिंग <xliff:g id="tool">%1$s</xliff:g> आर्डर\u2026</string>
+    <string name="progress_paytool_installing">इंस्टालिंग <xliff:g id="tool">%1$s</xliff:g> मोबाइल सुरक्षा प्लगइन\u2026</string>
+
+    <string name="prepaid_grid_carrier_hint"> काररीएर चुने</string>
+    <string name="prepaid_grid_denomination_hint">राशि चुने</string>
+    <string name="prepaid_picker_hint_1_1">1. </string>
+    <string name="prepaid_picker_hint_1_2">केवल एक बार चार्ज का समर्थन करता है; </string>
+    <string name="prepaid_picker_hint_2_1">2. </string>
+    <string name="prepaid_picker_hint_2_2_a">चयनित अंकित मूल्य प्रीपेड कार्ड के अनुरूप होना चाहिए. अन्य मूल्य चुनने से कार्ड अमान्य हो सकता है . इस क्रिया को पूर्ववत नहीं किया जा सकता. </string>
+    <string name="prepaid_picker_hint_2_2_b">प्रीपेड कार्ड की अंकित मूल्य नहीं है &lt;font color=red>￥<xliff:g id="value">%1$s</xliff:g>&lt;/font>, कार्ड शून्य हो जाएगा. Xiaomi उपयोगकर्ता त्रुटि का एक परिणाम के रूप में होता है कि किसी भी मौद्रिक नुकसान के लिए जिम्मेदार नहीं है.</string>
+    <string name="prepaid_number_edit_hint">संख्या</string>
+    <string name="prepaid_password_edit_hint">पासवर्ड</string>
+    <string name="prepaid_edit_limit">अंक</string>
+    <string name="prepaid_error_carrier">काररीएर चुने</string>
+    <string name="prepaid_error_denomination">राशि चुने</string>
+    <string name="prepaid_error_card_number">कार्ड संख्या अमान्य.</string>
+    <string name="prepaid_error_password">कार्ड पासवर्ड अमान्य.</string>
+    <string name="prepaid_error_card_length">अवैध कार्ड संख्या या पासवर्ड.</string>
+    <string name="progress_prepaid_creating">आर्डर जनरते हो रहा है \u2026</string>
+
+    <string name="voucher_input_password_prompt">कोड एंटर करे </string>
+    <string name="voucher_edit_hint">कोड</string>
+    <string name="voucher_edit_limit">अंक</string>
+    <string name="voucher_error_password">कोड अवैध.</string>
+    <string name="progress_voucher_creating">MiCredit कार्ड टॉपिंग\u2026</string>
+
+    <string name="msg_picker_hint_1_1">1. </string>
+    <string name="msg_picker_hint_1_2">मेसेज के द्वारा टॉपउप ज़यादा महंगा होसकता है : &lt;font color=red>￥<xliff:g id="rmb">%1$d</xliff:g> = <xliff:g id="mibi">%2$d</xliff:g> MiCredit&lt;/font></string>
+    <string name="msg_picker_hint_2_1">2. </string>
+    <string name="msg_picker_hint_2_2">काररीएर चार्ज  ￥<xliff:g id="value">%1$s</xliff:g> टॉप अप प्रति सेवा शुल्क</string>
+    <string name="msg_denomination_type">MiCredit</string>
+    <string name="msg_error">टॉप उप असफल </string>
+    <string name="progress_msg_creating">टॉप उप आर्डर जेनेरेट हो रहा है \u2026</string>
+
+    <string name="msg_send_send_fail_error">संदेश भेजने में असफल</string>
+    <string name="msg_send_no_sim_error">मेसेज भेजने में असफल: अपना सिम कार्ड वापस डाले और कोसिस करे .</string>
+    <string name="msg_send_no_net_error">मेसेज भेजने में असफल: नेटवर्क प्रदाता से कनेक्ट नहीं कर सकता. </string>
+    <string name="msg_telecom_order_goods_label">उत्पाद विवरण:</string>
+    <string name="msg_telecom_order_goods"><xliff:g id="mibi_num">%1s</xliff:g> MiCredits</string>
+    <string name="msg_telecom_order_denom_label">देय रकम: </string>
+    <string name="msg_telecom_order_denom">￥<xliff:g id="rmb_num">%1s</xliff:g> (मोबाइल नेटवर्क डाटा फीस सहित नहीं)</string>
+    <string name="msg_telecom_sending">नेटवर्क प्रोवाइडर से संपर्क हो रहा है \u2026</string>
+    <string name="btn_recharge_confirm">खरीद की पुष्टि</string>
+    <string name="btn_wait_confirm">प्रतीक्षा</string>
+    <string name="btn_wait_confirm_count">प्रतीक्षा（<xliff:g id="count">%1$s</xliff:g>）</string>
+    <string name="msg_order_hint_1_1">खरीदारी कि पुस्टि को स्पर्श करने के बड्ड आपका फ़ोन </string>
+    <string name="msg_order_hint_1_2">स्वचालित रूप से अपने सेवा प्रदाता से संपर्क करें.</string>
+    <string name="msg_progress_hint_2_1">अपने नेटवर्क प्रदाता से संपर्क किया गया है!</string>
+    <string name="msg_progress_hint_2_2">आपको जल्द ही मेसेज कन्फर्मेशन मिलजायेगा </string>
+
+    <string name="giftcard_denom_available">MiCredit उपलब्ध</string>
+    <string name="giftcard_denom">MiCredit</string>
+    <string name="giftcard_denom_frozen">MiCredit जमा हुआ</string>
+    <string name="giftcard_hint">उपहार कार्ड के माध्यम से जोड़ा MiCredits पहला स्वचालित रूप से खर्च किया जाएगा.</string>
+    <string name="giftcard_acitivity_and_denomination"><xliff:g id="denomination">%2$s</xliff:g>-से MiCredit उपहार कार्ड <xliff:g id="activity">%1$s</xliff:g></string>
+    <string name="giftcard_expire"><xliff:g id="date">%1$s</xliff:g> अवधि समाप्त</string>
+    <string name="giftcard_empty">कोई उपहार कार्ड नही.</string>
+
+    <string name="bankcall_merchant">रिसीवर:</string>
+    <string name="bankcall_denom">राशि:</string>
+    <string name="bankcall_bank_account">बैंक कार्ड: </string>
+    <string name="bankcall_xiaomi_company">Xiaomi निगम (बीजिंग)</string>
+    <string name="bankcall_denom_number">￥<xliff:g id="denom">%1$s</xliff:g></string>
+    <string name="bankcall_card">बैंक कार्ड</string>
+    <string name="bankcall_card_hint">खाता नंबर दर्ज करें</string>
+    <string name="bankcall_card_type"><xliff:g id="bank">%1$s</xliff:g>-<xliff:g id="type">%2$s</xliff:g></string>
+    <string name="bankcall_card_type_tailnum"><xliff:g id="bank">%1$s</xliff:g>-<xliff:g id="type">%2$s</xliff:g>(कोई कार्ड नही. <xliff:g id="cardNo">%3$s</xliff:g>)</string>
+    <string name="bankcall_debit_card">डेबिट कार्ड</string>
+    <string name="bankcall_credit_card"> क्रेडिट कार्ड</string>
+    <string name="bankcall_province">प्रोविंस</string>
+    <string name="bankcall_city">शहर</string>
+    <string name="bankcall_name">नाम</string>
+    <string name="bankcall_name_hint">खाते से संबद्ध नाम</string>
+    <string name="bankcall_id_card">आईडी कार्ड नंबर.</string>
+    <string name="bankcall_id_card_hint">खाते से संबद्ध आईडी कार्ड नंबर</string>
+    <string name="bankcall_phone">फ़ोन</string>
+    <string name="bankcall_phone_debit_hint">आप के पास  अच्छा इंटरनेट कनेक्शन होना सुनिश्चित करें.</string>
+    <string name="bankcall_phone_credit_hint">बैंक खाते की इसी व्यक्तिगत फोन नंबर</string>
+    <string name="bankcall_hint">यह सेवा UnionPay द्वारा एन्क्रिप्टेड और अधिकृत है.</string>
+    <string name="bankcall_call_hint">आप को जल्द ही  UnionPay से एक कॉल (020-96585) प्राप्त होगा.</string>
+    <string name="btn_wait_call">वेटिंग\u2026</string>
+    <string name="btn_wait_call_count">वेटिंग (<xliff:g id="count">%1$s</xliff:g>)</string>
+    <string name="bankcall_error_card">ख़ाता नंबर गलत : कृपया अपना ख़ाता नंबर ठीक करे .</string>
+    <string name="bankcall_error_card_info">खाते कि जानकारी  गलत : कृपया अपने खाते कि जानकारी  ठीक करे .</string>
+    <string name="progress_bankcall_card_querying">खाता प्रकार की जाँच\u2026</string>
+    <string name="progress_bankcall_card_creating">आर्डर जेनेरेट हो रहा है\u2026</string>
+    <string name="btn_other_bankcard">एक और कार्ड का उपयोग करें</string>
+    <string name="btn_delete_record">निकाले</string>
+    <string name="bankcall_saved_card_info"><xliff:g id="bank">%1$s</xliff:g> - कार्ड नंबर . <xliff:g id="ending">%2$s</xliff:g></string>
+
+    <string name="progress_submit_title">रिक्वेस्ट सबमिट होचुकी </string>
+    <string name="progress_submit_recharge_summary">टॉपिंग उप: <xliff:g id="value">%1$s</xliff:g> MiCredits.</string>
+    <string name="progress_submit_hint">टॉप अप आप 3 मिनट के भीतर बैलेंस खाते में परिलक्षित होगा.</string>
+    <string name="btn_count_down_auto">बाद में पूछताछ <xliff:g id="count">%1$s</xliff:g> सेकंड</string>
+    <string name="btn_query">पूछताछ</string>
+    <string name="progress_querying">प्रोसेसिंग\u2026</string>
+    <string name="progress_success_recharge_title"><xliff:g id="value">%1$s</xliff:g> MiCredit टॉप अप पूरा</string>
+    <string name="progress_success_pay_title"><xliff:g id="value">%1$s</xliff:g> MiCredit भुगतान पूरा</string>
+    <string name="progress_success_recharge_summary">ख़ाता बैलेंस: <xliff:g id="balance">%1$s</xliff:g> MiCredits.</string>
+    <string name="progress_success_pay_summary"><xliff:g id="rechargeFee">%1$s</xliff:g> MiCredits रिचार्ज，<xliff:g id="payFee">%2$s</xliff:g> MiCredits भुगतान</string>
+    <string name="progress_error_recharge_title">टॉप अप में विफल रहा है</string>
+    <string name="progress_error_recharge_summary">टॉप अप में विफल रहा है, बाद में पुन: प्रयास करें.</string>
+    <string name="progress_error_pay_title">भुगतान विफल</string>
+    <string name="progress_error_pay_summary"><xliff:g id="rechargeFee">%1$s</xliff:g>MiCredits रिचार्ज，भुगतान विफल रहा है, बाद में पुन: प्रयास करें</string>
+    <string name="progress_warning_waiting">भुगतान अभी तक अपने खाते में नहीं पहुँची.</string>
+    <string name="progress_warning_contact_server">भुगतान अभी भी अपने खाते तक पहुँच नहीं है. 1. हमारे Shenzhou ग्राहक सेवा केन्द्र से संपर्क करें：<xliff:g id="number">%1$s</xliff:g> 2. जब संकेत दिया है, सीरियल नंबर प्रदान करें: <xliff:g id="order">%2$s</xliff:g>.</string>
+    <string name="progress_warning_check">भुगतान अभी तक अपने खाते तक पहुँच नहीं है. हम दो दिनों के भीतर फिर से जाँच करेगा</string>
+    <string name="btn_back">वापसी</string>
+    <string name="btn_recharge_other">टॉप अप</string>
+    <string name="btn_call">कॉल</string>
+
+    <string name="recharge_notification">टॉपिंग अप: <xliff:g id="value">%1$s</xliff:g> MiCredits</string>
+    <string name="giftcard_push_notification_prime_title">आप को एक उपहार प्रमाण पत्र प्राप्त हुआ है</string>
+    <string name="giftcard_push_notification_sub_title"><xliff:g id="activityName">%1$s</xliff:g>: <xliff:g id="giftcardValue">%2$s</xliff:g> MiCredit देदेना</string>
+    <string name="recharge_push_notification_prime_title"><xliff:g id="chargeXiaomiId">%1$d</xliff:g>  added <xliff:g id="chargeMibi">%2$s</xliff:g> अपने खाते में MiCredits</string>
+    <string name="recharge_push_notification_sub_title">टॉप अप पूरा.</string>
+    <string name="giftcard_expire_notification_prime_title">ओह! आपका प्रचार कोड समाप्त होने वाला है. \u2026</string>
+    <string name="giftcard_expire_notification_sub_title">आपका MiCredits कार्ड समाप्त होगा  <xliff:g id="date">%1$s</xliff:g></string>
+
+    <string name="title_mili_center">MiCredits</string>
+    <string name="title_recharge_record">टॉप अप रिकॉर्ड</string>
+    <string name="title_pay_record">भुगतान रिकॉर्ड</string>
+    <string name="title_transaction">लेनदेन</string>
+    <string name="title_giftcard">प्रचार</string>
+    <string name="giftcard_record">मेरा उपहार कार्ड</string>
+    <string name="title_discounts">छूट</string>
+    <string name="btn_mili_center_recharge">टॉप अप MiCredit</string>
+    <string name="fee"><xliff:g id="value">%1$s</xliff:g> MiCredit</string>
+    <string name="recharge_record_empty">कोई टॉप अप रिकॉर्ड नहीं.</string>
+    <string name="pay_record_empty">कोई भुगतान रिकॉर्ड नहीं.</string>
+    <string name="progress_downloading">लोड कर रहा हे \u2026</string>
+    <string name="btn_net_connection_retry">पुन: प्रयास</string>
+    <string name="pay_record_typeall">सब</string>
+
+    <string name="mibi_license_title">निबंधन और शर्तें </string>
+    <string name="mibi_license_message">आप Mi Credit सेवा उपयोग करने जा रहे है, जो Xiaomi Inc द्वारा दी जाती है. इसका उपयोगी करने से पहेले आपको सभी शर्ते माननी पड़ेगी  "<xliff:g id="agreement">%1$s</xliff:g>".
+        आप में वर्णित नियमों और शर्तों से सहमत हैं, तो ठीक स्पर्श करें "<xliff:g id="agreement">%1$s</xliff:g>".</string>
+    <string name="mibi_license_message_span">MiCredit प्रयोक्ता समझौते</string>
+    <string name="btn_agree">सहमत</string>
+
+    <string name="security_setting">सुरक्षा सेटिंग</string>
+    <string name="lockscreen_forgot_pattern_button_text"><u>भूल गए पैटर्न पासवर्ड</u></string>
+    <string name="lockpattern_recording_intro_header">एक अनलॉक प्रतिमान बनाइये :</string>
+    <string name="lockpattern_settings_help_how_to_record">अनलॉक प्रतिमान कैसे बनाइये</string>
+    <string name="lockpattern_recording_incorrect_too_short">कम से कम कनेक्ट <xliff:g id="number">%d</xliff:g> डॉट्स. फिर से कोशिश करें:</string>
+    <string name="lockpattern_pattern_entered_header">पैटर्न दर्ज.</string>
+    <string name="lockpattern_need_to_confirm">ष्टि करने के लिए फिर से पैटर्न बनाइये:</string>
+    <string name="lockpattern_need_to_confirm_wrong">पिछला प्रवेश के साथ असंगत, दोबारा दर्ज करें:</string>
+    <string name="lockpattern_need_to_unlock_wrong">&lt;font color=red>पासवर्ड गलत है, आप प्रवेश कर सकते हैं <xliff:g id="timesLeft">%d</xliff:g> अधिक गुना&lt;/font></string>
+    <string name="lockpattern_pattern_confirmed_header">आपका नया अनलॉक प्रतिमान:</string>
+    <string name="lockpattern_recording_inprogress">जब होजाये ऊँगली हटा दे .</string>
+    <string name="lockpattern_retry_text"><u>पैटर्न पासवर्ड रीसेट</u></string>
+    <string name="forget_password"><u>पासवर्ड भूल गए</u></string>
+    <string name="login">लॉगिन</string>
+    <string name="cancel">रद्द करें</string>
+    <string name="change_security_lock">अधिक स्क्रीन लॉक</string>
+    <string name="lockpassword_confirm_your_pattern_header">अपने पैटर्न की पुष्टि</string>
+    <string name="lockpassword_input_your_pattern_header">अपने पैटर्न की पुष्टि</string>
+    <string name="lockpassword_choose_your_pattern_header">अपने पैटर्न चुनें</string>
+
+    <string name="lockpattern_continue_button_text">जारी</string>
+    <string name="lockpattern_confirm_button_text">पुष्टि करें</string>
+    <string name="lockpattern_tutorial_cancel_label">रद्द करें</string>
+    <string name="lockpattern_tutorial_continue_label">अगला</string>
+    <string name="lockpattern_need_to_unlock_wrong_footer" />
+    <string name="lockpattern_too_many_failed_confirmation_attempts_header">&lt;font color=red>बहुत सारे गलत प्रयास!&lt;/font></string>
+    <string name="lockpattern_need_to_unlock_footer" />
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer">में फिर से कोशिश करें <xliff:g id="number">%d</xliff:g> सेकंड.</string>
+    <string name="title_myaccount">मेरा खाता: <xliff:g id="account">%s</xliff:g></string>
+    <string name="title_gesture">पैटर्न लॉक</string>
+    <string name="title_lockpattern">पैटर्न लॉक की आवश्यकता</string>
+    <string name="title_visible_pattern">पैटर्न दिखना चाहिए </string>
+    <string name="summary_lockpattern">MiCredit के लिए एक अद्वितीय पैटर्न लॉक की आवश्यकता</string>
+    <string name="title_change_lockpattern">पैटर्न लॉक विन्यस्त करें</string>
+    <string name="title_password">पासवर्ड</string>
+    <string name="title_nopassword">छोटे भुगतान के लिए आवश्यकता नहीं है</string>
+    <string name="title_password_threshold">दैनिक सीमा = ￥<xliff:g id="value">%1$s</xliff:g></string>
+    <string name="title_nopassword_dialog">दैनिक सीमा</string>
+
+    <string name="button_confirm">पुष्टि करें</string>
+    <string name="button_next">अगला</string>
+    <string name="scan_prompt_number">स्कैन <xliff:g id="carrier">%1$s</xliff:g> प्रीपेड कार्ड संख्या</string>
+    <string name="scan_prompt_password">स्कैन <xliff:g id="carrier">%1$s</xliff:g> प्रीपेड कार्ड पासवर्ड</string>
+    <string name="scan_prompt_voucher">स्कैन MiCredit पासवर्ड</string>
+    <string name="scan_prompt_retry">गैर चिंतनशील की स्थिति में कार्ड रखें, स्थिर के बाद पुनः प्रयास</string>
+
+    <string name="detail_recharge_title">टॉप अप रिकॉर्ड</string>
+    <string name="detail_recharge_order">टॉप अप आदेश संख्या.</string>
+    <string name="detail_recharge_account">टॉप अप आईडी</string>
+    <string name="detail_pay_account">भुगतान आईडी</string>
+    <string name="detail_recharge_method">विधि</string>
+    <string name="detail_recharge_amount">राशि</string>
+    <string name="detail_recharge_time">समय</string>
+
+    <string name="detail_consume_title">भुगतान रिकॉर्ड</string>
+    <string name="detail_consume_order">भुगतान आईडी</string>
+    <string name="detail_consume_account">क्रय आईडी</string>
+    <string name="detail_consume_name">उत्पाद</string>
+    <string name="detail_consume_amount">राशि</string>
+    <string name="detail_consume_time">समय</string>
+
+    <string name="detail_giftcard_title">उपहार कार्ड के विवरण</string>
+    <string name="detail_giftcard_total">उपहार कार्ड कुल</string>
+    <string name="detail_giftcard_activity">प्रचार</string>
+    <string name="detail_giftcard_expired_time">एक्सपायरी डेट</string>
+    <string name="detail_giftcard_theme">परचेस थीम्स</string>
+</resources>

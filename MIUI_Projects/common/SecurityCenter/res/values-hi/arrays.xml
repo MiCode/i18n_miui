@@ -50,7 +50,7 @@
         <item>@drawable/digit_small_9</item>
     </array>
     <string-array name="power_mode_entries">
-        <item>उच्च परफॉरमेंस</item>
+        <item>उच्च प्रदर्शन</item>
         <item>संतुलन</item>
         <item>बैटरी की बचत</item>
     </string-array>

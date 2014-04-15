@@ -76,7 +76,7 @@
     <!-- Message displayed when an external appattemps to create a shortcut that already exists -->
 
     <!-- Title of dialog when user is selecting shortcut to add to homescreen -->
-    <string name="title_select_shortcut">चयन शॉर्टकट</string>
+    <string name="title_select_shortcut">शॉर्टकट  का चयन</string>
     <!-- Title of dialog when user is selecting live folder to add to homescreen -->
     <string name="title_select_live_folder">फ़ोल्डर का चयन</string>
 
@@ -97,7 +97,7 @@
     <string name="menu_back_desktop">होमस्क्रीन पर वापस जाएँ</string>
     <!-- Noun, menu item used to show the gestures settings -->
     <!-- Noun, menu item used to show the system settings -->
-    <string name="menu_settings">सेटिंग्स</string>
+    <string name="menu_settings">सेटिंग</string>
     <string name="menu_reset_scene">डिफ़ॉल्ट लेआउट पे रिसेट</string>
     <string name="menu_exit_scene">MiSpace से बाहर निकलें</string>
 
@@ -118,11 +118,11 @@
     <!-- Permission short label -->
     <string name="permlab_read_settings">होम सेटिंग और शॉर्टकट पढ़ें</string>
     <!-- Permission description -->
-    <string name="permdesc_read_settings">एप्लीकेशन को सेटिंग्स और शॉर्टकट्स पढ़ने कि अनुमति देता है</string>
+    <string name="permdesc_read_settings">एप्लीकेशन को सेटिंग और शॉर्टकट्स पढ़ने कि अनुमति देता है</string>
     <!-- Permission short label -->
     <string name="permlab_write_settings">एडीट होम सेटिंग और शॉर्टकट</string>
     <!-- Permission description -->
-    <string name="permdesc_write_settings">एप्लीकेशन को सेटिंग्स और शॉर्टकट्स बदलने कि अनुमति देता है</string>
+    <string name="permdesc_write_settings">एप्लीकेशन को सेटिंग और शॉर्टकट्स बदलने कि अनुमति देता है</string>
 
     <!-- Widgets: -->
     <skip />
@@ -133,9 +133,9 @@
     <string name="gadget_error_text">विजेट लोड करने में विफल</string>
     <string name="menu_edit">सएडीट होम स्क्रीन</string>
     <string name="menu_sort">क्रमबद्ध ऐप</string>
-    <string name="menu_launcher_setting">लांचर सेटिंग्स</string>
+    <string name="menu_launcher_setting">लांचर सेटिंग</string>
     <string name="editing_tips">एडीट होम स्क्रीन</string>
-    <string name="multi_selecting_tips"> ऐप का चयन करने के लिए, उसके आइकॉन को टच करे</string>
+    <string name="multi_selecting_tips"> ऐप का चयन करने के लिए, उसके आइकॉन को स्पर्श करे</string>
     <string name="editing_add_widget_tips">विजेट एडीट करें</string>
     <string name="editing_set_wallpaper_tips">वॉलपेपर चुनें</string>
     <string name="editing_set_transition_effect_tips">स्क्रीन संक्रमण प्रभाव चुनें</string>
@@ -178,7 +178,7 @@
     <string name="default_folder_title_tools">उपकरण</string>
     <string name="default_folder_title_recommend">अधिक ऐप</string>
     <string name="default_folder_title_game">खेल</string>
-    <string name="default_folder_title_security">प्रणाली</string>
+    <string name="default_folder_title_security">सिस्टम</string>
     <string name="default_shortcut_title_10086">10086.cn</string>
 
     <string name="online_wallpaper">ऑनलाइन</string>
@@ -186,8 +186,8 @@
 
     <string name="reset_scene_prompt">स्क्रीन लेआउट डिफ़ॉल्ट पर रीसेट हो जाएगा.</string>
 
-    <string name="preferences_title">लांचर सेटिंग्स</string>
-    <string name="preferences_general_title">सामान्य सेटिंग्स</string>
+    <string name="preferences_title">लांचर सेटिंग</string>
+    <string name="preferences_general_title">सामान्य सेटिंग</string>
     <string name="pref_keep_in_memory_title">मेमोरी में रखें</string>
     <string name="pref_keep_in_memory_summary">जब मेमोरी कम रहेगी तब लॉन्चेर को चालू रखे</string>
     <string name="pref_render_in_truecolor_title">उच्च गुणवत्ता ग्राफिक्स</string>
@@ -201,7 +201,7 @@
     <string name="transformation_type_classic_no_overshoot">सलाईड</string>
     <string name="transformation_type_crossfade">क्रॉसफ़ेड</string>
     <string name="transformation_type_falldown">टमबल</string>
-    <string name="transformation_type_cube">कृयब</string>
+    <string name="transformation_type_cube">क्यूब</string>
     <string name="transformation_type_leftpage">पेज</string>
     <string name="transformation_type_stack">काशकेड</string>
     <string name="transformation_type_rotate">घुमाएँ</string>
@@ -237,7 +237,7 @@
 
     <string name="invalid_contact_shortcut">अवैध संपर्क</string>
 
-    <string name="guide_tips_editing_mode">टच &amp;  विजेट को चुनने के लिए</string>
+    <string name="guide_tips_editing_mode">स्पर्श &amp;  विजेट को चुनने के लिए</string>
 
     <!-- Do not translate. Duration format for duration < 1 hour -->
     <string translatable="false" name="durationformatshort"><xliff:g id="format">%2$2d:%5$02d</xliff:g></string>
@@ -248,7 +248,7 @@
 
     <!-- Adjust photo -->
     <string name="photo_adjust">पूर्वावलोकन</string>
-    <string name="select_photo">फ़ोटो</string>
+    <string name="select_photo">तस्वीर</string>
     <string name="select_frame">फ्रेम</string>
     <string name="photo_confirm">लागू करना</string>
     <string name="photo_load_failed">फोटो लोड करने में विफल</string>
@@ -259,7 +259,7 @@
     <string name="gadget_weather_title">मौसम</string>
     <string name="gadget_weather_title_24">मौसम</string>
     <string name="gadget_weather_title_14">मौसम</string>
-    <string name="gadget_weather_app_not_installed">MIUI के मौसम एप्लिकेशन डाउनलोड करने के लिए टच करे</string>
+    <string name="gadget_weather_app_not_installed">MIUI के मौसम एप्लिकेशन डाउनलोड करने के लिए स्पर्श करे</string>
     <string name="gadget_weather_time_format">MM/d EEE</string>
     <string name="gadget_weather_theme_type">गैजेट प्रकार</string>
     <string name="gadget_weather_download_title">डाउनलोड</string>
@@ -276,7 +276,7 @@
     <string name="aqi_quality_index_hazardous">जोखिमी</string>
 
     <string name="free_style_apps_title">एप्लिकेशन चुनें</string>
-    <string name="free_style_edit_bottom_empty_tip">एडीट करने के लिए आयत टच करे</string>
+    <string name="free_style_edit_bottom_empty_tip">एडीट करने के लिए आयत स्पर्श करे</string>
     <string name="free_style_edit_bar_empty">खाली</string>
     <string name="free_style_edit_bar_select_app">एप्लिकेशन चुनें</string>
     <string name="free_style_enter_tip">MiSpace देखने के लिए दो उंगलियों का प्रयोग कर नीचे स्वाइप</string>
@@ -286,19 +286,19 @@
     <string name="toggle_select_title">टॉगल चुनें</string>
     <string name="toggle_title">टॉगल</string>
 
-    <string name="settings_shortcut">"सेटिंग्स"</string>
+    <string name="settings_shortcut">"सेटिंग"</string>
 
     <string name="free_style_edit_tab_shortcut">शॉर्टकट</string>
     <string name="free_style_edit_tab_free_component">वस्तुएँ</string>
     <string name="free_style_edit_tab_widget">विजेट</string>
-    <string name="free_style_edit_move_tip">टच &amp;  आइटम को स्थानातरण करने के लिए पकडे</string>
+    <string name="free_style_edit_move_tip">स्पर्श &amp;  आइटम को स्थानातरण करने के लिए पकडे</string>
     <string name="free_style_edit_app">ऐप</string>
     <string name="free_style_edit_drawer">ड्रॉयर</string>
     <string name="free_style_drawer_title">सभी एप्लिकेशन</string>
 
     <string name="guide_install_app_title">एप्लिकेशन इंस्टॉल करें</string>
     <string name="guide_install_app_msg">ऐप अपने फोन में स्थापित नहीं है. ढूँढें और अब एप्लिकेशन डाउनलोड?</string>
-    <string name="menu_customize">सेटिंग्स</string>
+    <string name="menu_customize">सेटिंग</string>
     <string name="menu_picktheme">थीम चुनें</string>
     <string name="scroll_tip_format_when_announce_accessibility">पेज %1$d, %2$d ऐप</string>
 

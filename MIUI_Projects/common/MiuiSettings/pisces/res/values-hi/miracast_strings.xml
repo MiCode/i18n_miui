@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2012-2013 NVIDIA Corporation.  All rights reserved.
+
+    NVIDIA CORPORATION and its licensors retain all intellectual property
+    and proprietary rights in and to this software, related documentation
+    and any modifications thereto.  Any use, reproduction, disclosure or
+    distribution of this software and related documentation without an express
+    license agreement from NVIDIA CORPORATION is strictly prohibited.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!--Miracast Settings --><skip />
+    <!-- Title of the Miracast settings screen -->
+    <string name="miracast_settings_category">WLAN प्रदर्शन सेटिंग्स</string>
+    <!-- Preference category for Miracast display list -->
+    <string name="miracast_display_category">दिखाता है</string>
+    <!-- Action bar text message to search Miracast sink-->
+    <string name="miracast_menu_search">खोज</string>
+    <!-- Action bar text message to indicate searching Miracast sink-->
+    <string name="miracast_menu_searching">खोज रहा है</string>
+    <!-- Action bar text message to teardown a miracast session-->
+    <string name="miracast_menu_teardown">कटाव</string>
+    <!-- Menu option to connect to a Miracast sink and begin streaming-->
+    <string name="miracast_menu_connect">स्ट्रीमिंग शुरू करे </string>
+    <!-- Menu option to disconnect from a Miracast sink and stop streaming-->
+    <string name="miracast_menu_disconnect">स्ट्रीमिंग बंद करो</string>
+    <!-- Menu option to delete a Miracast sink -->
+    <string name="miracast_menu_forget">प्रदर्शन को भूल जाओ</string>
+    <!-- Menu option to modify a Miracast sink configuration -->
+    <string name="miracast_menu_rename">प्रदर्शन का नाम बदलें</string>
+    <!-- Button label to save a Miracast sink configuration [CHAR LIMIT=10] -->
+    <string name="miracast_setup_save">सहेजें</string>
+    <!-- Button label to cancel and close a Miracast dialog [CHAR LIMIT=10] -->
+    <string name="miracast_setup_cancel">रद्द करें</string>
+    <!-- Miracast settings. text displayed when Wi-Fi is off [CHAR LIMIT=50]-->
+    <string name="miracast_wifi_off">Miracast का उपयोग करने के लिए, Wi-Fi चालू करे</string>
+    <!-- Miracast settings. text displayed when no Miracast sinks detected after a complete scan [CHAR LIMIT=50]-->
+    <string name="miracast_no_sinks_found">आसपास कोई वायरलेस प्रदर्शन उपलब्ध नहीं है</string>
+    <!-- Label for the nickname for the Miracast sink -->
+    <string name="miracast_nickname">नया नाम सेट करें:</string>
+    <!-- Text displayed when WPS fails to start [CHAR LIMIT=150] -->
+    <string name="miracast_connection_failed_generic">कनेक्शन सफल नहीं था</string>
+
+    <!-- Miracast sink status.  Streaming active -->
+    <string name="miracast_sink_connected">कनेक्टेड</string>
+    <!-- Miracast sink status.  Not in range -->
+    <string name="miracast_sink_not_available">अनुपलब्ध</string>
+    <!-- Miracast sink status.  Connecting... -->
+    <string name="miracast_sink_connecting">कनेक्ट हो रहा है\u2026</string>
+    <!-- Miracast sink status.  Not connected -->
+    <string name="miracast_sink_ready_to_connect">कनेक्ट करने के लिए तैयार</string>
+    <!-- Miracast sink status.  Busy -->
+    <string name="miracast_sink_busy">व्यस्त</string>
+
+    <!-- Miracast error.  Already streaming -->
+    <string name="miracast_error_already_streaming">पहले से ही एक प्रदर्शन पे स्ट्रीमिंग</string>
+    <!-- Miracast error.  Connection in progress -->
+    <string name="miracast_error_connection_in_progress">कनेक्शन कार्य प्रगति पर है. कृपया प्रतीक्षा करें</string>
+    <!-- Miracast Cancel ongoing Connection Dialog -->
+    <string name="miracast_cancelconnect_dialog">कनेक्शन रद्द करें</string>
+    <!-- Miracast title for CancelConnect Dialog -->
+    <string name="miracast_dialog_title">%1$s</string>
+    <!-- Miracast error. P2P Already connected.CancelConnect cannot be done -->
+    <string name="miracast_error_cancelconnect">कनेक्शन फिलहाल व्यस्त है</string>
+    <!-- Miracast Settings. text to depict that discovery has started -->
+    <string name="miracast_search_for_displays">वायरलेस प्रदर्शन के लिए खोज रहा है...</string>
+    <!-- Miracast settings. text displayed when PC2THOR is connected [CHAR LIMIT=75]-->
+    <string name="miracast_PC2THOR_streaming_on">Miracast अनुपलब्ध है क्योंकि PC इस डिवाइस पर स्ट्रीम हो रहा है</string>
+
+    <!-- Miracase settings menu title for disable DHCP for special dongle -->
+    <string name="miracast_disable_dhcp">निष्क्रिय HDCP</string>
+    <!-- Miracase settings menu title for enable DHCP -->
+    <string name="miracast_enable_dhcp">सक्षम HDCP</string>
+</resources>
+

@@ -5,8 +5,8 @@
     <string name="button_month">"M"</string>
 
     <!-- 设置 -->
-    <string name="account_and_calendar">अकाउंट और कैलेंडर</string>
-    <string name="account_and_calendar_to_display">अकाउंट और कैलेंडर  प्रदर्शित करने के लिए</string>
+    <string name="account_and_calendar">खाता और कैलेंडर</string>
+    <string name="account_and_calendar_to_display">खाता और कैलेंडर  प्रदर्शित करने के लिए</string>
     <string name="default_reminder_mode">डिफ़ॉल्ट अनुस्मारक मोड</string>
     <string name="time_zone">समय क्षेत्र</string>
     <string name="show_all_lunar"> चांद्र सभी दिखाएँ</string>
@@ -17,10 +17,10 @@
     <string name="huangli_good_type">चाहिए</string>
     <string name="huangli_bad_type">बचें</string>
     <string name="event_all_day_label">पूरा दीन</string>
-    <string name="today_no_events">आज कोई एजेंडा नहीं</string>
+    <string name="today_no_events">आज कोई कार्यसूची नहीं</string>
 
     <!-- New Event -->
-    <string name="event_account"> कैलेंडर अकाउंट</string>
+    <string name="event_account"> कैलेंडर खाता</string>
     <string name="hint_what">घटना अनुस्मारक सामग्री</string>
     <string name="event_show_more">दिखाइए</string>
     <string name="event_hide_more">छिपाइए</string>
@@ -47,9 +47,9 @@
     <string name="lunar_date">चंद्र तिथि</string>
 
     <!-- Widget -->
-    <string name="widget_select_style">स्टाइल का चयन कीजिए</string>
+    <string name="widget_select_style">शैली का चयन कीजिए</string>
     <string name="widget_events">अगले इवेंट</string>
-    <string name="widget_no_events">अगले , कोई अजेंडा नहीं</string>
+    <string name="widget_no_events">अगले , कोई कार्यसूची नहीं</string>
 
     <string name="month_medium_january">जनवरी</string>
     <string name="month_medium_february">फरवरी</string>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">रीडमी</string>
+    <string name="loading_userbook">लोड हो रहा है ...</string>
+    <string name="bakc_key_toast_txt">फिर से प्रेस कीजिए बाहर निकलने के लिए </string>
+</resources>

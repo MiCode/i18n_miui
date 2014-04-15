@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="app_name">बैकअप</string>
+  <string name="local_app_name">बैकअप</string>
+  <string name="local_home_title">स्थानीय बैकअप</string>
+  <string name="button_backup">बैकअप</string>
+  <string name="start_backup">बैकअप</string>
+  <string name="button_cancel">रद्द करें</string>
+  <string name="backup_empty">कोई बैकअप नही</string>
+  <string name="backup_items_sysdata_tailer">" \u0020सिस्टम डेटा फ़ाइलें, "</string>
+  <string name="backup_items_app_tailer">" \u0020ऐप डेटा फ़ाइलें "</string>
+  <string name="backup_failed">बैकअप फेल</string>
+  <string name="backup_recently">" \u0020(सबसे हाल ही में) "</string>
+  <string name="sdcard_unmounted">कोई SD कार्ड नही</string>
+  <string-array name="backup_dialog_content_type">
+    <item>Wi-Fi डेटा</item>
+    <item>सभी ऐप</item>
+  </string-array>
+  <string-array name="system_package_label">
+    <item>ब्राउज़र</item>
+    <item>गैलरी</item>
+    <item>अनुमति</item>
+    <item>कैमरा</item>
+    <item>डेटा उपयोग</item>
+    <item>मौसम डेटा</item>
+    <item>मौसम</item>
+  </string-array>
+  <string-array name="system_data_label">
+    <item>संपर्क</item>
+    <item>कॉल लॉग</item>
+    <item>संदेश</item>
+    <item>मल्टीमीडिया संदेश</item>
+    <item>सिस्टम सेटिंग</item>
+    <item>Wi-Fi सेटिंग </item>
+    <item>होम स्क्रीन लेआउट</item>
+    <item>अलार्म सेटिंग </item>
+    <item>नोट</item>
+    <item>DND</item>
+    <item>खाता</item>
+  </string-array>
+  <string name="backup_progress">बैकअप जारी\u2026;</string>
+  <string name="button_ok">ओके</string>
+  <string name="button_continue">जारी</string>
+  <string name="backup_finished">बैकअप पूरा</string>
+  <string name="backup_report">बैकअप विवरण देखें </string>
+  <string name="backup_hint">फ़ोन बंद मत करिये</string>
+  <string name="menu_patch_delete">बैकअप निकाले</string>
+  <string name="delete">निकाले</string>
+  <string name="cancel">रद्द करें</string>
+  <string name="delete_backup_process">निकालना जारी\u2026</string>
+  <string name="backup_error">बैकअप फेल</string>
+  <string name="delete_failed_backup_confirm">इसमें त्रुटियाँ हैं क्योंकि यह बैकअप अपने डेटा को पुनर्स्थापित करने के लिए इस्तेमाल नहीं कर सकते</string>
+  <string name="batch_delete_backup_confirm">निकाले <xliff:g id="COUNT">%d</xliff:g> बैकअप?</string>
+  <string name="start_restore">पुनर्स्थापित</string>
+  <string name="backup_file_error">बैकअप फेल</string>
+  <string-array name="app_type_desc">
+    <item>डेटा</item>
+    <item>ऐप</item>
+    <item>ऐप और डेटा</item>
+  </string-array>
+  <string name="unit_byte">\u0020 bytes</string>
+  <string name="unit_piece">\u0020 आइटम</string>
+  <string name="restore_finished">पुनर्स्थापित पूरा</string>
+  <string name="restore_report">रिपोर्ट पुनर्स्थापित</string>
+  <string name="restore_progress">पुनर्स्थापित कर रहा है\u2026</string>
+  <string name="restore_contacts_hit">आप बैकअप डेटा देखने के लिए फिर से साइन इन करना पड़ सकता है.</string>
+  <string name="restore_telephony_hit">पुनर्स्थापित कर फोन ऐप्लिकेशन पुन: प्रारंभ होगी.</string>
+  <string name="restore_launcher_layout_hit">लांचर सेटिंग पुनर्स्थापित</string>
+  <string name="settings_summary">": फोन और संदेश सेवा सेटिंग"</string>
+  <string name="account_summary">बैकअप Google खाता, Xiaomi खाता, और अन्य यूजर डेटा</string>
+  <string name="cloud_app_name">Mi क्लाउड बैकअप</string>
+  <string name="cloud_home_title">Mi क्लाउड</string>
+  <string name="prompt_reading">रिडिंग\u2026</string>
+  <string name="prompt_sending">अपलोड हो रहा है\u2026</string>
+  <string name="prompt_writing">सेव कर रहा हे\u2026</string>
+  <string name="backup_new">नया:</string>
+  <string name="backup_update">अपडेट</string>
+  <string name="backup_delete">निकाले:</string>
+  <string name="findlost_contact">संपर्क पुनर्स्थापित</string>
+  <string name="findlost_contact_online">Mi क्लाउड से संपर्क पुनर्स्थापित</string>
+  <string name="cloud_backup_login">अपने Xiaomi खाते में प्रवेश करें</string>
+  <string name="cloud_backup_hint">अपने बैकअप का उपयोग करने के लिए, साइन इन करें</string>
+  <string name="cloud_backup_window_title">Mi क्लाउड बैकअप</string>
+  <string name="cloud_restore_window_title">Mi क्लाउड पुनर्स्थापित</string>
+  <string name="cloud_restore_title">बैकअप डेटा पुनर्स्थापित</string>
+  <string name="local_backup_window_title">स्थानीय बैकअप डेटा</string>
+  <string name="local_restore_window_title">स्थानीय पुनर्स्थापित</string>
+  <string name="account_login">साइन इन करें</string>
+  <string name="miliao_account_login">MiTalk साथ में साइन इन करें</string>
+  <string name="miliao_account_guide">Xiaomi के ऑनलाइन सेवाएंका का आनंद लेने के लिए Xiaomi खाता बनाएँ</string>
+  <string name="auto_backup">स्वचालित रूप से बैक अप</string>
+  <string name="contact_title">संपर्क</string>
+  <string name="call_title">कॉल लॉग</string>
+  <string name="sms_title">संदेश भेजना</string>
+  <string name="mms_title">मल्टीमीडिया संदेश भेजना</string>
+  <string name="wifi_title">Wi-Fi सेटिंग</string>
+  <string name="note_title">नोट</string>
+  <string name="compute_backup_info">बैकअप की जानकारी प्राप्त हो रही है\u2026</string>
+  <string name="compute_delete_contact_info">संपर्क हटाने के लिए सर्च कर रहे हैं\u2026</string>
+  <string name="unknown_hint">अनजान</string>
+  <string-array name="cloud_data_label">
+    <item>संपर्क</item>
+    <item>कॉल लॉग</item>
+    <item>संदेश</item>
+    <item>Wi-Fi सेटिंग</item>
+    <item>नोट</item>
+  </string-array>
+  <string-array name="cloud_account_data">
+    <item>संपर्क</item>
+    <item>Wi-Fi सेटिंग</item>
+    <item>नोट</item>
+  </string-array>
+  <string-array name="cloud_sim_data">
+    <item>कॉल लॉग</item>
+    <item>संदेश</item>
+  </string-array>
+  <string name="task_progress">प्रगति</string>
+  <string name="task_pending">प्रतीक्षा\u2026</string>
+  <string name="task_pre_running">शुरू\u2026</string>
+  <string name="task_post_running">प्रक्रिया\u2026</string>
+  <string name="task_finished">बैकअप पूर्ण</string>
+  <string name="task_canceled">रद्द बैकअप</string>
+  <string name="task_failed">असफल हुआ</string>
+  <string name="task_canceled_local"> <xliff:g id="PERCENT">%s</xliff:g> रद्द कर दिया गया</string>
+  <string name="task_canceled_all_local">रद्द करे </string>
+  <string name="task_failed_local">पूरा करने में असफल: <xliff:g id="PERCENT">%s</xliff:g></string>
+  <string name="task_failed_all_local">असफल</string>
+  <string name="task_backup_finished_local">बैकअप पूर्ण</string>
+  <string name="task_restore_finished_local">पूरा पुनर्स्थापित</string>
+  <string name="task_restore_none">पुनर्स्थापित करने के लिए कुछ भी नहीं</string>
+  <string name="task_stopped_exception">पुनर्स्थापित रद्द</string>
+  <string name="sdcard_no_enough_space">पर्याप्त जगह नहीं</string>
+  <string name="sdcard_no_enough_space_message">पर्याप्त जगह अपने फोन SD कार्ड पर नहीं है .</string>
+  <string name="data_no_enough_space">पर्याप्त जगह नहीं</string>
+  <string name="data_no_enough_space_message">पर्याप्त जगह अपने फोन आंतरिक संग्रहण पर नहीं है.</string>
+  <string name="task_running_hint">ह प्रक्रिया पहले से ही बॅकग्राउंड में चल रहा है</string>
+  <string name="task_running_dialog">संरक्षा और पुनर्स्थापित प्रगति पर हैं. देखने के लिए ठीक स्पर्श करें.</string>
+  <string name="task_running_backup_hint">यह कार्य पहले ही बॅकग्राउंड में चल रहा है</string>
+  <string name="task_running_restore_hint">यह कार्य पहले ही बॅकग्राउंड में चल रहा है</string>
+  <string name="task_running_backup_dialog">बैकअप प्रगति पर है. देखने के लिए ठीक स्पर्श करें.</string>
+  <string name="task_running_restore_dialog">पुनर्स्थापना का कार्य प्रगति पर है. देखने के लिए ठीक स्पर्श करें.</string>
+  <string name="task_service_not_launched">प्रक्रिया अभी तक शुरू नहीं कि गयी है</string>
+  <string name="task_local_backup_cancel_dialog">बैकअप समाप्त नहीं हुआ है. फिर भी रद्द करें करें?</string>
+  <string name="task_cloud_backup_cancel_dialog">बैकअप समाप्त नहीं हुआ है. फिर भी रद्द करें करें?</string>
+  <string name="task_restore_cancel_dialog">अब रोकने से डेटा हानि हो सकती है.</string>
+  <string name="task_backup_cancel_progress">बैकअप  रद्द करे \u2026</string>
+  <string name="task_restore_cancel_progress"> रद्द करे \u2026</string>
+  <string name="nothing_searched">कुछ भी नहीं मिला</string>
+  <string name="restore_counts">पुनर्स्थापित:</string>
+  <string name="service_stoped">सर्विस बंद कर दिया </string>
+  <string name="sc_network_unavailable">नेटवर्क कनेक्शन त्रुटि</string>
+  <string name="sc_bad_request">खराब अनुरोध</string>
+  <string name="sc_unaccess_password_file">Wi-Fi पासवर्ड स्टोर मत करे </string>
+  <string name="sc_service_unavailable">Mi क्लाउड अनुपलब्ध</string>
+  <string name="sc_unauthorized">पुनः साइन इन करें</string>
+  <string name="sc_request_timeout">अनुरोध का समय समाप्त</string>
+  <string name="sc_precondition_failed">आप मान्य ईमेल पते के साथ अपने Xiaomi खाता लिंक करने की आवश्यकता</string>
+  <string name="sc_internal_server_error">आंतरिक सर्वर त्रुटि</string>
+  <string name="sc_others">त्रुटि हुई</string>
+  <string name="succeed">समाप्त</string>
+  <string name="fail">असफल</string>
+  <string name="button_return">वापस</string>
+  <string name="button_next">अगला</string>
+  <string name="button_finish">पूर्ण</string>
+  <string name="progress_backup_hint">बैकअप जारी\u2026</string>
+  <string name="cancel_backup">रोक</string>
+  <string name="restore_contact">संपर्क पुनर्स्थापित</string>
+  <string name="restore_contact_content">पुनर्स्थापित कर डुप्लिकेट संपर्क बना सकते हैं.</string>
+  <string name="progress_restore_hint">पुनर्स्थापित कर रहा है\u2026</string>
+  <string name="cancel_restore">रोक</string>
+  <string name="restore_failed">पुनर्स्थापित असफल रही</string>
+  <string name="local_select_sysdata">सिस्टम</string>
+  <string name="local_select_userapp">ऐप</string>
+  <string name="local_select_account_contact">लेखा एवं संपर्क</string>
+  <string name="local_no_backup">कोई स्थानीय बैकअप</string>
+  <string name="auto_backup_setting">स्वचालित बैकअप सेटिंग</string>
+  <string name="auto_backup_open">स्वचालित बैकअप</string>
+  <string name="auto_backup_only_wifi">Wi-Fi से जुड़े केवल जब</string>
+  <string name="auto_backup_date">बैकअप आवृत्ति</string>
+  <string name="auto_backup_time">बैकअप समय</string>
+  <string name="auto_backup_choose_title">बैकअप आइटम चुनें</string>
+  <string name="auto_backup_choose">बैकअप आइटम</string>
+  <string name="auto_backup_choose_empty">कोई बैकअप नहि</string>
+  <string name="auto_backup_all_user_apps">सभी एप्लिकेशन</string>
+  <string name="auto_backup_selected_user_apps">चयनित एप्लिकेशन</string>
+  <string name="auto_backup_select_user_apps">चुनें एप्लिकेशन</string>
+  <string name="auto_backup_system_data">सिस्टम</string>
+  <string name="auto_backup_user_data">एप्लिकेशन</string>
+  <string name="auto_backup_progress">बैकअप जारी\u2026</string>
+  <string name="backup">बैकअप</string>
+  <string name="restore">पुनर्स्थापित</string>
+  <string name="cloud_last_backup">पिछले बैकअप:</string>
+  <string name="cloud_search">खोजना\u2026</string>
+  <string name="cloud_no_backup">कोई बैकअप नहि</string>
+  <string name="current_account">हाय, <xliff:g id="ACCOUNT">%s</xliff:g></string>
+  <string name="current_sim">वर्तमान सिम कार्ड</string>
+  <string name="date_format" translatable="false">yyyy-MM-dd HH:mm:ss</string>
+  <string name="dir_date_format" translatable="false">yyyy-MM-dd_HH-mm-ss</string>
+  <string name="no_network">नेटवर्क से कनेक्ट नही कर सका</string>
+  <string name="retry">पुन प्रयास</string>
+  <string name="select_all">सभी का चयन करें</string>
+  <string name="reverse_all">सब साफ</string>
+  <string name="refresh">ताज़ा करे</string>
+  <string name="cloud_item_info_summary">\u0020(स्थानीय: <xliff:g id="LOCAL_COUNT">%1$s</xliff:g> | Mi क्लाउड: <xliff:g id="CLOUD_COUNT">%2$s</xliff:g>)</string>
+  <string name="total_num"><xliff:g id="COUNT">%d</xliff:g> कुल</string>
+  <string name="cloud_restore_guide">यूजर डेटा को पुनर्स्थापित करने के लिए <xliff:g id="APP">%s</xliff:g>, पुनर्स्थापित स्पर्श</string>
+  <string name="import_from_xiaomi_account_hint1">1.\tMiTalk एप्लिकेशन डाउनलोड करें और साइन इन.\n\thttp://www.miliao.com\n\n2.\tMiTalk सेटिंग में जाएं और Xiaomi खाते में संपर्कों का बैकअप लें "का चयन करे”</string>
+  <string name="import_from_xiaomi_account_hint2"> अगर आपके के पास पहलेसेही बैकअप है, तोह नेक्स्ट दबाये </string>
+  <string name="import_from_xiaomi_account_hint_title">अपने संपर्कों को भर में उपकरणों को वापस करने के MiTalk का प्रयोग करें.</string>
+  <string name="guarded_mode_dialog_title">You\'re अतिथि मोड में</string><string name="guarded_mode_dialog_message">अतिथि मोड में अनुमति नहीं है यह कार्य की अनुमति नहीं है.</string>
+  <string name="multi_select_title"><xliff:g id="number" example="15">%1$s</xliff:g> चयनित</string>
+  <!-- encrypt -->
+  <string name="enable_encrypt_title">एन्क्रिप्शन सक्षम करें</string>
+  <string name="disable_encrypt_title">एन्क्रिप्शन अक्षम करे</string>
+  <string name="enable_encrypt_indicator">एन्क्रिप्ट करने के लिए स्पर्श करे</string>
+  <string name="enable_encrypt">सक्षम</string>
+  <string name="already_enable_encrypt">एन्क्रिप्शन सक्षम</string>
+  <string name="enable_encrypt_summery1">आपको एन्क्रिप्टेड बैकअप का उपयोग करने के लिए अपने Xiaomi खाते में साइन इन करने की जरूरत है.</string>
+  <string name="enable_encrypt_summery2">अपने बैकअप स्वतः एन्क्रिप्टेड किया जाएगा. आपको एन्क्रिप्टेड बैकअप का उपयोग करने के लिए अपने Xiaomi खाते में साइन इन करने की आवश्यकता होगी</string>
+  <string name="enable_encrypt_xiaomi_account">इस बैकअप द्वारा बनाया गया था <xliff:g id="account" example="110000">%1$s</xliff:g>. पपुनर्स्थापित चालू खाता हटा सकते हैं और के रूप में हस्ताक्षर करने के लिए <xliff:g id="account" example="110000">%2$s</xliff:g>.</string>
+  <string name="enable_encrypt_ok">ओके</string>
+  <string name="no_encrypt_password">कोई पासवर्ड नहि</string>
+  <string name="enable_encrypt_fail">एन्क्रिप्शन असफल हुआ</string>
+  <string name="read_encrypt_fail">एन्क्रिप्टेड बैकअप पढ़ नहीं सका</string>
+  <string name="exchange_account">खाता स्विच</string>
+
+    <string name="system_backup">बैकअप</string>
+    <string name="backup_empty_info">" बैकअप अपने डेटा, सेटिंग, और ऐप"</string>
+    <string name="system_backup_info">सिस्टम सेटिंग और होमस्क्रीन लेआउट</string>
+    <string name="software_backup_info">ऐप डेटा</string>
+    <string name="account_contact_backup_info">गूगल खाता, Xiaomi खाता, और संपर्क डेटा</string>
+    <string name="select_backup_item">आइटम चुनें</string>
+    <string name="restore_data">डेटा पुनर्स्थापित</string>
+    <string name="backup_data">बैकअप डेटा</string>
+
+    <!-- cloud app backup & restore-->
+    <string name="cloud_app_backup_title">Mi क्लाउड बैकअप के लिए</string>
+    <string name="cloud_app_just_show_in_current_device">केवल इस उपकरण के ऐप</string>
+    <string name="cloud_app_mine">डाउनलोड किए गए एप्लिकेशन</string>
+    <string name="cloud_app_backup_summary">फोन चार्ज और वाई फाई से कनेक्ट होने पर स्वचालित रूप से क्षुधा और यूजर डेटा का बैकअप</string>
+    <string name="cloud_app_function_summary">आप Miक्लाउड करने के लिए अपने डेटा को वापस करते हैं, तो आप किसी भी डिवाइस पर जल्दी से इसे पुनर्स्थापित कर सकते हैं</string>
+    <string name="cloud_app_restore_action_bar_title">%1$s अपने डेटा का बैकअप लिया गया है</string>
+    <string name="cloud_app_current_device">वर्तमान डिवाइस</string>
+    <string name="cloud_app_other_devices">अन्य डिवाइस</string>
+    <string name="cloud_app_delete_data">बैकअप हटाएं</string>
+    <string name="cloud_app_backup_date">"पर बैकअप"</string>
+    <string name="cloud_app_total_size">आकार: %1$s</string>
+    <string name="cloud_app_version_size">संस्करण: %1$s, आकार: %2$s</string>
+    <string name="cloud_app_restore_prompt">पुनर्स्थापित करते समय स्थानीय यूजर डेटा क्लाउड में लिए गए बैकअप से ओवरराइट हो जाएगा.</string>
+    <string name="cloud_app_remove_prompt">%1$s डेटा को हटा दिया जाएगा की.</string>
+    <string name="cloud_app_find_backup_prompt_1">पुनर्स्थापित करने से पहले, आप अपने स्थानीय डेटा को सेव करना चाहते हैं?</string>
+    <string name="cloud_app_find_backup_prompt_2">अगर आप इसे अभी सेव नहीं करते, तोह पुनर्स्थापित करते समय यह ओवरराईट हो जायेगा</string>
+    <string name="cloud_app_restore_data_title">यूजर डेटा पुनर्स्थापित</string>
+    <string name="cloud_app_restore_app_and_data">ऐप और यूजर डेटा पुनर्स्थापित</string>
+    <string name="cloud_app_restore_summary">पहले से स्थापित ऐप और यूजर डेटा पुनर्स्थापित</string>
+    <string name="cloud_app_restore_data">पहले से स्थापित पुनर्स्थापित ऐप</string>
+    <string name="cloud_app_dont_restore">पुनर्स्थापित न करें</string>
+    <string name="cloud_app_restore_wifi_prompt">आप अपने डेटा को पुनर्स्थापित करने के लिए wifi का उपयोग कर इंटरनेट से कनेक्ट करने की जरूरत है</string>
+    <string name="cloud_app_restore_query_error_prompt">क्लाउड से डेटा प्राप्त करने में असफल. अपने डिवाइस डेटा का बैकअप तक पहुँचने में सक्षम है जब ऐप और यूजर डेटा स्वचालित रूप से पुनर्स्थापित हो जाएगा.</string>
+    <string name="cloud_app_device">डिवाइस</string>
+    <string name="cloud_app_data_in_other_devices">इस डिवाइस पर समर्थित नहीं</string>
+    <string name="cloud_app_no_data">कोई डेटा नहीं</string>
+    <string name="cloud_app_invalid_op">यह 'बैकअप या पुनर्स्थापित किया जा रहा है, जबकि आप क्लाउड डेटा नहीं देख सकते हैं</string>
+    <string name="cloud_app_invalid_op_when_removing">इसे हटाया जा रहा है, जबकि आप क्लाउड डेटा नहीं देख सकते हैं</string>
+    <string name="cloud_app_remove_pending">प्रतीक्षा\u2026</string>
+    <string name="cloud_app_remove_progress">हटा रहा है\u2026</string>
+    <string name="cloud_app_restore_pending">प्रतीक्षा\u2026</string>
+    <string name="cloud_app_restore_progress">पुनर्स्थापित कर रहा है\u2026</string>
+    <string name="cloud_app_backup_pending">प्रतीक्षा\u2026</string>
+    <string name="cloud_app_backup_progress">बैकअप जारी\u2026</string>
+    <string name="cloud_app_remove_error">नहीं हटा सका</string>
+    <string name="cloud_app_restore_error">पुनर्स्थापित असफल रही</string>
+    <string name="cloud_app_restore_success">ऐप पुनर्स्थापित</string>
+    <string name="cloud_app_wait_wifi">वाई फाई कनेक्शन के लिए प्रतीक्षा कर रहा है</string>
+
+    <string name="cloud_app_backup_cancel">बैकअप रद्द करे \u2026</string>
+    <string name="cloud_app_restore_cancel">पुनर्स्थापित रद्द करे\u2026</string>
+    <string name="cloud_app_remove_cancel">रद्द करे\u2026</string>
+
+    <string name="cloud_app_backup_cancel_prompt_title">बैकअप बंद करो</string>
+    <string name="cloud_app_restore_cancel_prompt_title">पुनर्स्थापित बंद करो</string>
+    <string name="cloud_app_remove_cancel_prompt_title">हटाना बंद करो</string>
+
+    <string name="cloud_app_backup_cancel_prompt_message">बैकअप अभी तक ख़तम नहीं हुआ, फिर भी रद्द करें?</string>
+    <string name="cloud_app_restore_cancel_prompt_message">पुनर्स्थापित अभी तक ख़तम नहीं हुआ, फिर भी रद्द करें?</string>
+    <string name="cloud_app_remove_cancel_prompt_message">खत्म नहीं हटाने, फिर भी रद्द करें?</string>
+    <string name="cloud_app_check_data">Mi क्लाउड से डाटा प्राप्त करना\u2026</string>
+    <string name="cloud_app_check_data_timeout">कनेक्शन समय समाप्ति</string>
+    <string name="cloud_app_load_data">बैकअप डाटा प्राप्त करना\u2026</string>
+    <string name="cloud_app_load_data_timeout">कनेक्शन समय समाप्ति</string>
+    <string name="cloud_app_check_data_fail">Miक्लाउड से डेटा प्राप्त नहीं किया जा सका</string>
+    <string name="cloud_app_no_network">नेटवर्क से कनेक्ट नहीं किया जा सका</string>
+    <string name="cloud_app_no_wifi">Wi-Fi नेटवर्क से कनेक्ट नहीं किया जा सका</string>
+    <string name="cloud_app_no_wifi_connect">Wi-Fi नेटवर्क से कनेक्ट नहीं किया जा सका</string>
+    <string name="cloud_app_loading_with_mobile_network_prompt">इस प्रक्रिया को पूरा करने के लिए अपने मोबाइल डेटा कनेक्शन का उपयोग करें?</string>
+
+    <string name="just_support_op_with_wifi_connected">wifi कनेक्शन होने पर ही आप केवल इस कार्य का उपयोग कर सकते हैं</string>
+    <string name="button_restore">पुनर्स्थापित</string>
+    <string name="button_abandon">ऊपर लिखना</string>
+    <string name="button_delete">निकाले</string>
+    <string name="customization"><u>अनुकूलित</u></string>
+    <string name="customization_under_wifi_prompt">wifi कनेक्शन होने पर ही आप केवल इस कार्य का उपयोग कर सकते हैं</string>
+    <string name="my_phone">मेरा फोन</string>
+
+</resources>
+
