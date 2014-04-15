@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- -->
+    <!-- Label shown on launcher icon -->
+    <string name="app_label">นาฬิกา</string>
+
+    <!-- Title for AlarmClock activity -->
+    <string name="alarm_list_title">การปลุก</string>
+
+    <!-- Menu item on Alarm Clock screen: Add alarm -->
+    <string name="add_alarm">เพิ่มการปลุก</string>
+
+    <!-- Menu item on Alarm Clock screen: Desk clock -->
+    <string name="menu_desk_clock">นาฬิกา</string>
+
+    <!-- Menu item on Alarm Clock screen: Edit alarm -->
+
+    <!-- Context Menu Item on Alarm Settings screen: Delete alarm -->
+    <string name="delete_alarm">ลบการปลุก</string>
+
+    <!-- Context Menu Item on Alarm Settings screen: Enable alarm -->
+
+    <!-- Context Menu Item on Alarm Settings screen: Disable alarm -->
+
+    <!-- Delete alarm confirmation dialog message. -->
+    <string name="delete_alarm_confirm">ลบการปลุกนี้?</string>
+
+    <!-- Menu item on Alarm Clock screen: Show clock -->
+
+    <!-- Menu item on Alarm Clock screen: Hide clock -->
+
+    <!-- Setting label on Set alarm screen: Label -->
+    <string name="label">ตั้งป้าย</string>
+
+    <!-- Default label to display for an alarm -->
+    <string name="default_label">การปลุก</string>
+
+    <!-- Preference category on Alarm Settings screen: Set alarm -->
+    <string name="set_alarm">ตั้งการปลุก</string>
+
+    <!-- Setting labels on Set alarm screen: Vibration on or off -->
+    <string name="alarm_vibrate">สั่น</string>
+
+    <!-- Setting labels on Set alarm screen: Repeat -->
+    <string name="alarm_repeat">ซ้ำ</string>
+
+    <!-- Setting labels on Set alarm screen: Select alarm ringtone  -->
+    <string name="alert">เสียงปลุก</string>
+
+    <!-- Setting labels on Set alarm screen: Set time  -->
+    <string name="time">เวลา</string>
+
+    <!-- Button labels on the alarm dialog: Dismiss -->
+
+    <!-- Alarm Alert screen: this message is shown after an alarm rung
+         unattended for a number of minutes.  It tells the user that
+         the alarm has been silenced.-->
+    <string name="alarm_alert_alert_silenced">เงียบเสียงหลังจาก <xliff:g id="minutes">%d</xliff:g> นาที</string>
+
+    <string name="timer_alert_alert_silenced">เงียบเสียงหลังจาก <xliff:g id="minutes">%d</xliff:g> นาที</string>
+
+    <!-- Button labels on the alarm dialog: Snooze -->
+
+    <!-- Toast that appears after Alarm is snoozed from the Alarm
+         dialog. Says the alarm will snooze for xxx minutes.  -->
+    <string name="alarm_alert_snooze_set">เลื่อนปลุก <xliff:g id="minutes">%d</xliff:g> นาที</string>
+
+    <!-- 0: nothing
+         1: days
+         2:      hours
+         3: days hours
+         4:            minutes
+         5: days       minutes
+         6:      hours minutes
+         7: days hours minutes
+    --><skip />
+
+    <!-- Alarm confirmation toast: Describes how long from now until
+         alarm fires -->
+    <string-array name="alarm_set">
+        <item>ตั้งปลุกน้อยกว่า 1 นาที</item>
+        <item>ตั้งปลุก <xliff:g id="DAYS" example="2 days">%1$s</xliff:g></item>
+        <item>ตั้งปลุก <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g></item>
+        <item>ตั้งปลุก <xliff:g id="DAYS" example="2 days">%1$s</xliff:g> <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g></item>
+        <item>ตั้งปลุก <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g></item>
+        <item>ตั้งปลุก <xliff:g id="DAYS" example="2 days">%1$s</xliff:g> <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g></item>
+        <item>ตั้งปลุก <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g> <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g></item>
+        <item>ตั้งปลุก <xliff:g id="DAYS" example="2 days">%1$s</xliff:g> <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g> <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g></item>
+    </string-array>
+
+    <!-- Alarm confirmation toast: singular day -->
+    <string name="day">"1 วัน"</string>
+
+    <!-- Alarm confirmation toast: plural days -->
+    <string name="days">"<xliff:g id="days">%s</xliff:g> วัน"</string>
+
+    <!-- Alarm confirmation toast: singular hour -->
+    <string name="hour">1 ชั่วโมง</string>
+
+    <!-- Alarm confirmation toast: plural hours -->
+    <string name="hours"><xliff:g id="hours">%s</xliff:g> ชั่วโมง</string>
+
+    <!-- Alarm confirmation toast: singular minute  -->
+    <string name="minute">"1 นาที"</string>
+
+    <!-- Alarm confirmation toast: plural minutes  -->
+    <string name="minutes">"<xliff:g id="minutes">%s</xliff:g> นาที"</string>
+
+    <!-- Repeat options that appear under an alarm on main Alarm Clock
+         screen to identify repetition schedule: special case for when
+         the alarm is set to repeat every day -->
+    <string name="every_day">ทุกวัน</string>
+
+    <string name="legal_workday">วันทำงาน</string>
+
+    <!-- Repeat options that appear under an alarm on main Alarm Clock
+         screen to identify repetition schedule: special case for when
+         the alarm is set to never repeat -->
+    <string name="never">ครั้งเดียว</string>
+
+    <!-- Repeat options that appear under an alarm on main Alarm Clock
+         screen to identify repetition schedule: concatenate days with
+         this character, i.e. "Mon, Tue, Wed" -->
+    <string name="day_concat">". "</string>
+
+    <!-- Appears at the top of the Clock Picker screen: Tell user to
+         select a clock to display -->
+
+    <!-- Label for analog clock gadget, shown in list of all gadgets -->
+    <string name="analog_gadget">นาฬิกาอะนาล็อก</string>
+
+    <!-- Menu item title for general Alarm Clock Settings -->
+    <string name="settings">การตั้งค่า</string>
+
+    <!-- Setting title for whether the alarm should play in silent mode.
+         Usually, silent mode only affects the ringer, but this setting
+         will make the alarms respect silent mode too. -->
+    <string name="alarm_in_silent_mode_title">ปลุกในโหมดเงียบเสียง</string>
+
+    <!-- Setting title for changing the snooze duration. -->
+    <string name="snooze_duration_title">ระยะเวลาเลื่อนปลุก</string>
+
+    <!-- Entries listed in the ListPreference when invoking the snooze duration
+         preference. -->
+    <string-array name="snooze_duration_entries">
+      <item>1 นาที</item>
+      <item>5 นาที</item>
+      <item>10 นาที</item>
+      <item>15 นาที</item>
+      <item>20 นาที</item>
+      <item>25 นาที</item>
+      <item>30 นาที</item>
+    </string-array>
+
+    <!-- Values that are retrieved from the ListPreference. These must match
+         the snooze_duration_entries above. -->
+    <string-array name="snooze_duration_values">
+      <item>1</item>
+      <item>5</item>
+      <item>10</item>
+      <item>15</item>
+      <item>20</item>
+      <item>25</item>
+      <item>30</item>
+    </string-array>
+
+    <!-- Auto silence preference title -->
+    <string name="auto_silence_title">เงียบเสียงอัตโนมัติ</string>
+
+    <!-- Auto silence summary string set based on the preference value. -->
+    <string name="auto_silence_summary">เงียบเสียงหลังจาก
+      <xliff:g id="minutes">%d</xliff:g> นาที</string>
+
+    <!-- Auto silence summary when turned off -->
+    <string name="auto_silence_never">ไม่เลย</string>
+
+    <!-- Entries listed in the ListPreference when invoking the auto silence
+         preference. -->
+    <string-array name="auto_silence_entries">
+      <item>ไม่เลย</item>
+      <item>1 นาที</item>
+      <item>5 นาที</item>
+      <item>10 นาที</item>
+      <item>15 นาที</item>
+      <item>20 นาที</item>
+      <item>25 นาที</item>
+      <item>30 นาที</item>
+    </string-array>
+
+    <!-- Values that are retrieved from the ListPreference. These must match
+         the auto_silence_entries above. -->
+    <string-array name="auto_silence_values" translatable="false">
+      <item>-1</item> <!-- Off -->
+      <item>1</item>
+      <item>5</item>
+      <item>10</item>
+      <item>15</item>
+      <item>20</item>
+      <item>25</item>
+      <item>30</item>
+    </string-array>
+
+    <!-- Done button when editing an alarm. -->
+    <string name="done">เสร็จสิ้น</string>
+
+    <!-- Revert button when editing an alarm. -->
+    <string name="revert">ย้อนกลับ</string>
+
+    <!-- Delete button when editing an alarm. -->
+    <string name="delete">ลบ</string>
+
+    <!-- Setting title for changing the alarm volume. -->
+    <string name="alarm_volume_title">ระดับเสียงปลุก</string>
+
+    <!-- Setting summary for changing the alarm volume. -->
+    <string name="alarm_volume_summary">ตั้งระดับเสียงปลุก</string>
+
+    <!-- Summary for the alarm preference when silent is chosen. -->
+    <string name="silent_alarm_summary">เงียบ</string>
+
+    <!-- Text to display in the small text of the notification -->
+    <string name="alarm_notify_text">เลื่อนหรือยกเลิกการปลุก</string>
+
+    <!-- Text to display in the notification ticker and label -->
+    <string name="alarm_notify_snooze_label">เลื่อนปลุก <xliff:g id="label">%s</xliff:g></string>
+
+    <!-- Text to display in the notification when the alarm has been snoozed -->
+
+    <string name="snooze_confirm_cancel">ยกเลิกเลื่อนปลุก</string>
+
+    <!-- Title of the setting to change hardware button behavior. This string
+         should be changed for each piece of hardware. [CHAR LIMIT=20] -->
+    <string name="volume_button_setting_title">ปุ่มเพิ่มลดเสียง</string>
+
+    <!-- Dialog title of the volume and power setting. -->
+
+    <!-- The summary of the side button setting. -->
+    <string name="volume_button_setting_summary">ตั้งปุ่มเพิ่มลดเสียงระหว่างการปลุก</string>
+
+    <!-- Entries listed in the setting for the side-button action. -->
+    <string-array name="volume_button_setting_entries">
+        <item>ไม่ทำอะไร</item>
+        <item>เลื่อนปลุก</item>
+        <item>ยกเลิก</item>
+    </string-array>
+
+    <!-- Values for the side-button setting. -->
+    <string-array name="volume_button_setting_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <!-- Title of the ringtone setting. -->
+
+    <!-- Accessibility labels for Clock activity buttons --><skip/>
+
+    <!-- A short representation of charging information, e.g "34%" -->
+    <string name="battery_charging_level"><xliff:g id="number">%d</xliff:g><xliff:g id="percent">%%</xliff:g></string>
+
+    <!-- What to show the user if the weather widget exists but fails to
+         respond. This is a sign of an error; if the weather widget is not
+         present on the device, we show nothing at all. -->
+
+    <string name="menu_item_dock_settings" msgid="9161438664257429372">การตั้งค่า</string>
+
+    <!-- A description for the DeskClock alarm sound playback service.
+         [CHAR LIMIT=NONE] -->
+    <string name="alarm_klaxon_service_desc">เล่นเสียงการปลุก</string>
+
+    <!-- String displayed as the alert summary while loading the alert name from
+         the media player. [CHAR LIMIT=NONE] -->
+    <string name="loading_ringtone">กำลังโหลดเสียงปลุก\u2026</string>
+
+    <!-- Label on the main screen control used to set alarm [CHAR LIMIT=30]-->
+    <string name="control_set_alarm">ตั้งการปลุก</string>
+
+    <!-- Label on the main screen control used to set alarm when there is already an existing alarm [CHAR LIMIT=30]-->
+    <string name="control_set_alarm_with_existing">ตั้งการปลุก: <xliff:g id="time">%s</xliff:g></string>
+
+    <string name="common_settings">การตั้งค่า</string>
+    <string name="alarm_settings">การตั้งค่าการปลุก</string>
+
+    <string name="worldclock_title">นาฬิกา</string>
+    <string name="stopwatch_title">จับเวลา</string>
+    <string name="timer_title">ตั้งเวลา</string>
+
+    <string name="menu_add_worldclock">เพิ่มนาฬิกา</string>
+    <string name="menu_edit_systemtime">เวลาระบบ</string>
+    <string name="delete_timezone_title">ลบโซนเวลา</string>
+    <string name="delelte_selected_timezone">ลบโซนเวลาที่เลือก?</string>
+
+    <string name="timezone_exist_error_message">แสดงโซนเวลาแล้ว</string>
+
+    <string-array name="alarm_in_furture">
+        <item>ปลุกในอีก 1 นาที</item>
+        <item>ปลุกในอีก <xliff:g id="DAYS" example="2 days">%1$s</xliff:g></item>
+        <item>ปลุกในอีก <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g></item>
+        <item>ปลุกในอีก <xliff:g id="DAYS" example="2 days">%1$s </xliff:g><xliff:g id="HOURS" example="2 hours">%2$s</xliff:g></item>
+        <item>ปลุกในอีก <xliff:g id="MINUTES" example="2 minutes">%3$s </xliff:g></item>
+        <item>ปลุกในอีก <xliff:g id="DAYS" example="2 days">%1$s </xliff:g><xliff:g id="MINUTES" example="2 minutes">%3$s </xliff:g></item>
+        <item>ปลุกในอีก <xliff:g id="HOURS" example="2 hours">%2$s </xliff:g><xliff:g id="MINUTES" example="2 minutes">%3$s </xliff:g></item>
+        <item>ปลุกในอีก <xliff:g id="DAYS" example="2 days">%1$s </xliff:g><xliff:g id="HOURS" example="2 hours">%2$s </xliff:g><xliff:g id="MINUTES" example="2 minutes">%3$s </xliff:g></item>
+    </string-array>
+
+    <string name="alarm_disabled">ปิดใช้งานแล้ว</string>
+    <string name="alarm_ascending_mode_title">ระดับเสียง</string>
+    <string name="alarm_ascending_mode_summary">ระดับเสียงจะดังขึ้นเรื่อยๆ</string>
+
+    <string name="close_alarm">ปิดการปลุก</string>
+
+    <string-array name="days">
+        <item>เมื่อวาน</item>
+        <item>วันนี้</item>
+        <item>พรุ่งนี้</item>
+    </string-array>
+
+    <string name="start">เริ่ม</string>
+    <string name="pause">พัก</string>
+    <string name="reset">รีเซ็ต</string>
+    <string name="lap">Lap</string>
+    <string name="timer_continue">เริ่มต่อ</string>
+
+    <string name="worldclock_empty_text">ไม่มีนาฬิกา</string>
+    <string name="alarmclock_empty_text">ไม่มีการปลุก</string>
+    <string name="stopwatch_lap_empty_text">No laps</string>
+
+    <string name="timer_got_it">ตกลง</string>
+    <string name="timer_start_alarm">หมดเวลา!</string>
+    <string name="dialog_confirm_abort">ยกเลิกการเปลี่ยนแปลง?</string>
+    <string name="confirm_abort">ยกเลิก</string>
+    <string name="remind_ringtone">เสียง</string>
+    <string name="keep_screen_on">เปิดหน้าจอ</string>
+    <string name="start_up">เริ่ม</string>
+    <string name="cancel">ยกเลิก</string>
+    <string name="timer_message_with_hour">%1$d ชั่วโมง %2$d นาที</string>
+    <string name="timer_message">%1$d นาที</string>
+
+    <string name="shutdown_alarm_title">เปิดปิดการปลุก</string>
+    <string name="shutdown_alarm_enable_summary">เปิดการปลุก</string>
+    <string name="shutdown_alarm_disable_summary">ปิดการปลุก</string>
+
+    <string name="workday_alarm_clock">การปลุกวันทำงาน</string>
+
+    <string name="system_time_setting">การตั้งค่า</string>
+    <string name="lap_num">Lap</string>
+
+    <string name="hour_unit">ชม</string>
+    <string name="alarm_label_hint">ป้ายการปลุก</string>
+
+    <string-array name="alarm_repeat_type">
+        <item>ครั้งเดียว</item>
+        <item>รายวัน</item>
+        <item>วันทำงาน</item>
+        <item>จันทร์ถึงศุกร์</item>
+        <item>ปรับแต่ง</item>
+    </string-array>
+
+    <string-array name="alarm_repeat_type_no_workdays">
+        <item>ครั้งเดียว</item>
+        <item>รายวัน</item>
+        <item>จันทร์ถึงศุกร์</item>
+        <item>ปรับแต่ง</item>
+    </string-array>
+
+    <string name="legal_workday_invalidate">ข้อมูลหมดอายุแล้ว (การปลุกจากวันจันทร์ถึงศุกร์)</string>
+    <string name="legal_workday_invalidate_message">(ข้อมูลหมดอายุแล้ว อัปเดตในการตั้งค่า)</string>
+    <string name="legal_workday_message">" (ปิดการปลุกในวันหยุด)"</string>
+
+    <string name="default_alarm_alert">ตั้งเสียงปลุกเริ่มต้น</string>
+    <string name="default_alarm_title">เสียงเริ่มต้น</string>
+
+    <string name="alarm_alert">เสียงเริ่มต้น</string>
+    <string name="alarm_screen">หน้าจอปลุกและเสียง</string>
+</resources>
