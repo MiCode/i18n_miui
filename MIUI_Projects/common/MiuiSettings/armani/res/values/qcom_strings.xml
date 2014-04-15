@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- SIM password can't be changed as SIM LOCK is not enabled: -->
+    <string name="sim_pin_change_failed_enable_sim_lock">Unable to Change SIM/RUIM PIN.\n Enable SIM/RUIM Lock.</string>
+    <!-- SIM lock can't be changed - not supported -->
+    <string name="sim_enable_disable_lock_not_supported">Unable to Change SIM/RUIM Lock.\n SIM/RUIM doesn\'t support it.</string>
+    <!-- SIM card lock settings screen, toast displayed on wrong PIN1: -->
+    <string name="sim_pin_attempts">\nAttempts Remaining :</string>
+
+    <string name="sim_enter_pin_hints">(Input 4-8 digitals)</string>
+    <string name="gemini_data_connection">Data connection</string>
+    <string name="gemini_sim_info_editor_name">Edit SIM name</string>
+    <string name="gemini_sim_info_editor_name_dup_title">Save failed</string>
+    <string name="gemini_sim_info_editor_name_dup_msg">Duplicate name for SIM card</string>
+    <string name="gemini_sim_info_editor_number">Enter phone number</string>
+    <string name="gemini_no_sim_indicator">No SIM card</string>
+    <!-- Strings for SIM management begin-->
+    <string name="gemini_sim_management_title">SIM management</string>
+    <string name="gemini_sim_info_title">SIM INFORMATION</string>
+    <string name="sim_status_summary">SIM related information</string>
+    <string name="gemini_default_sim_title">DEFAULT SETTINGS</string>
+    <string name="gemini_general_settings_title">GENERAL SETTINGS</string>
+    <string name="gemini_roaming_settings_title">Roaming</string>
+    <string name="gemini_data_roaming_title">Data roaming</string>
+    <string name="gemini_data_roaming_summary">Connect to data services when roaming</string>
+    <string name="enable_sim">Enable</string>
+    <string name="sim_lock">Locked</string>
+    <!-- Dual sim settings activate progress message string -->
+    <string name="gemini_sim_mode_progress_activating_message">Activating\u2026</string>
+    <!-- Dual sim settings deactivate progress message string -->
+    <string name="gemini_sim_mode_progress_deactivating_message">Deactivating\u2026</string>
+    <string name="sim_radio_off">Not activated</string>
+    <string name="set_mobile_data_failed">Set failed</string>
+    <string name="mobile_data_switching_message">Switching mobile data connection. Please wait\u2026</string>
+    <string name="ct_mobile_data_hints">You can\'t turn on data service for the card in slot 2 while data for the card in slot 1 is enabled.</string>
+</resources>
