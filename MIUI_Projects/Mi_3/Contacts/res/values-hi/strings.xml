@@ -847,7 +847,7 @@
     <string name="importing_vcard_description">इम्पोर्टिंग <xliff:g id="name" example="Joe Due">%s</xliff:g></string>
 
     <!-- Dialog title shown when reading vCard data failed [CHAR LIMIT=40] -->
-    <string name="reading_vcard_failed_title">vCard डेटा नहीं पढ़ सकाstring>
+    <string name="reading_vcard_failed_title">vCard डेटा नहीं पढ़ सका</string>
 
     <!-- The title shown when reading vCard is canceled (probably by a user)
          [CHAR LIMIT=40] -->
