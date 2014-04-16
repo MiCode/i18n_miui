@@ -339,7 +339,7 @@
     <string name="garbage_item_name_format" formatted="false">%s ( %s )</string>
     <string name="garbage_item_path_format" formatted="false">%s %s</string>
     <string name="account_bind_prompt">Migrasi data pengguna\u2026 Ini mungkin memakan waktu beberapa menit.</string>
-    <string name="migrate_announcement_title"Migrasi sukses</string>
+    <string name="migrate_announcement_title">Migrasi sukses</string>
     <string name="migrate_announcement_msg">Sinkronisasi akun KuaiPan yang ada dengan akun Xiaomi anda di pengaturan KuaiPan.</string>
     <string name="query_bind_state">Sambungkan dengan KuaiPan\u2026</string>
     <string name="operation_deleting_detail">Menghapus (%1$d/%2$d)</string>
