@@ -38,16 +38,16 @@
     <string name="shortcutMessageContact">डायरेक्ट संदेश</string>
 
     <!-- Activity title when the user is selecting a contact for a shortcut. -->
-    <string name="shortcutActivityTitle">एक संपर्क शॉर्टकट चुनें</string>
+    <string name="shortcutActivityTitle">संपर्क शॉर्टकट चुनें</string>
 
     <!-- Activity title when the user is selecting a contact for a direct dial shortcut. -->
-    <string name="callShortcutActivityTitle">कॉल करने के लिए एक नंबर चुनें</string>
+    <string name="callShortcutActivityTitle">कॉल करने के लिए नंबर चुनें</string>
 
     <!-- Activity title when the user is selecting a contact for a direct message shortcut. -->
-    <string name="messageShortcutActivityTitle">संदेश के लिए एक नंबर चुनें </string>
+    <string name="messageShortcutActivityTitle">संदेश के लिए नंबर चुनें </string>
 
     <!-- Activity title when the user is selecting a contact.  [CHAR LIMIT=128] -->
-    <string name="contactPickerActivityTitle">एक संपर्क चुनें</string>
+    <string name="contactPickerActivityTitle">संपर्क चुनें</string>
 
     <!-- Title for the activity that shows only starred contacts -->
     <string name="starredList">तारांकित</string>
@@ -274,7 +274,7 @@
     <string name="noGroups">कोई समूह नहीं हैं.</string>
 
     <!-- The text displayed when the groups list is empty and no accounts are set on the device while displaying all groups [CHAR LIMIT=NONE] -->
-    <string name="noAccounts">समूह बनाने के लिए आपको एक अकाउंट की आवश्यकता  हैं.</string>
+    <string name="noAccounts">समूह बनाने के लिए आपको अकाउंट की आवश्यकता  हैं.</string>
 
     <!-- The text displayed when the contacts list is empty while displaying results after searching contacts -->
     <string name="noMatchingContacts">कोई मेल संपर्क योगदान नहीं मिला.</string>
@@ -469,7 +469,7 @@
          reminds the user that the dialer will add a new call, as opposed
          to sending DTMF tones over the current call.)
          [CHAR LIMIT=40] -->
-    <string name="dialerDialpadHintText">एक कॉल जोड़ने के लिए डायल करें</string>
+    <string name="dialerDialpadHintText">कॉल जोड़ने के लिए डायल करें</string>
 
     <!-- Dialog text displayed when loading a phone number from the SIM card for speed dial -->
     <string name="simContacts_emptyLoading">सिम कार्ड से संपर्क लोड हो रहा है\u2026</string>
@@ -478,64 +478,64 @@
     <string name="simContacts_title">सिम कार्ड संपर्क</string>
 
     <!-- Displayed full screen when the user want to create a shortcut, but there is no contacts, and contact syncing is enabled -->
-    <string name="noContactsHelpTextWithSyncForCreateShortcut">"आपके पास संपर्क  प्रदर्शित करने के लिए नहीं है. (आप अभी कोई अकाउंट जोड़ा है, तो संपर्कों को सिंक करने के लिए कुछ मिनट लग सकते हैं.)"</string>
+    <string name="noContactsHelpTextWithSyncForCreateShortcut">"आपके पास संपर्क  प्रदर्शित करने के लिए नहीं है. (आप अभी कोई अकाउंट जोड़ा है, तो संपर्कों को समन्वय करने के लिए कुछ मिनट लग सकते हैं.)"</string>
 
     <!-- Displayed full screen when the user want to create a shortcut, but there is no contacts -->
     <string name="noContactsHelpTextForCreateShortcut">"आपके पास संपर्क  प्रदर्शित करने के लिए नहीं है."</string>
 
     <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is disabled.  [CHAR LIMIT=NONE] -->
     <string name="noContactsHelpText" product="tablet">"आपके पास संपर्क  प्रदर्शित करने के लिए नहीं है .\n\nसंपर्क जोड़ने के लिए, स्पर्श <font fgcolor="#ffffffff"><b>मेन्यू</b></font>, फिर स्पर्श:\n
-        \n<li><font fgcolor="#ffffffff"><b>अकाउंट</b></font> आप टेबलेट को सिंक कर सकते हैं संपर्कों के साथ एक अकाउंट स्थापित करके\n</li>
-        \n<li><font fgcolor="#ffffffff"><b>नया संपर्क</b></font>प्रारंभ से एक नया संपर्क बनाने के लिए\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>अकाउंट</b></font> आप टेबलेट को समन्वय कर सकते हैं संपर्कों के साथ अकाउंट स्थापित करके\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>नया संपर्क</b></font>प्रारंभ से नया संपर्क बनाने के लिए\n</li>
         \n<li><font fgcolor="#ffffffff"><b>इम्पोर्ट/एक्सपोर्ट</b></font> आपके सिम या एसडी कार्ड से संपर्क इम्पोर्ट करने के लिए\n</li>"
     </string>
     <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is disabled.  [CHAR LIMIT=NONE] -->
     <string name="noContactsHelpText" product="default">"प्रदर्शित करने के लिए किसी भी संपर्क नहीं है. संपर्क जोड़ने के लिए, स्पर्श<font fgcolor="#ffffffff"><b>मेनू</b></font>, स्पर्श:\n
-        \n<li><font fgcolor="#ffffffff"><b>अकाउंट</b></font> आप फ़ोन को सिंक कर सकते हैं संपर्कों के साथ एक अकाउंट स्थापित करके\n</li>
-        \n<li><font fgcolor="#ffffffff"><b>नई संपर्क</b></font> प्रारंभ से एक नया संपर्क बनाने के लिए\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>अकाउंट</b></font> आप फ़ोन को समन्वय कर सकते हैं संपर्कों के साथ अकाउंट स्थापित करके\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>नई संपर्क</b></font> प्रारंभ से नया संपर्क बनाने के लिए\n</li>
         \n<li><font fgcolor="#ffffffff"><b>इम्पोर्ट/एक्सपोर्ट</b></font> आपके सिम या एसडी कार्ड से संपर्क इम्पोर्ट करने के लिए\n</li>"
     </string>
 
     <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is enabled.  [CHAR LIMIT=NONE] -->
-    <string name="noContactsHelpTextWithSync" product="tablet">"प्रदर्शित करने के लिए किसी भी संपर्क नहीं है. . (आप एक अकाउंट जोड़ें है, तो संपर्क सिंक करने के लिए कुछ मिनट लग सकते हैं.)\n\nसंपर्क जोड़ने के लिए, स्पर्श <font fgcolor="#ffffffff"><b>मेनू</b></font>, उसके बाद स्पर्श:\n
-        \n<li><font fgcolor="#ffffffff"><b>अकाउंटs</b></font> आप टेबलेट को सिंक कर सकते हैं संपर्कों के साथ एक अकाउंट स्थापित करके\n</li>
+    <string name="noContactsHelpTextWithSync" product="tablet">"प्रदर्शित करने के लिए किसी भी संपर्क नहीं है. . (आप अकाउंट जोड़ते है, तो संपर्क समन्वय करने के लिए कुछ मिनट लग सकते हैं.)\n\nसंपर्क जोड़ने के लिए, स्पर्श <font fgcolor="#ffffffff"><b>मेनू</b></font>, उसके बाद स्पर्श:\n
+        \n<li><font fgcolor="#ffffffff"><b>अकाउंटs</b></font> आप टेबलेट को समन्वय कर सकते हैं संपर्कों के साथ अकाउंट स्थापित करके\n</li>
         \n<li><font fgcolor="#ffffffff"><b>प्रदर्शन विकल्प</b></font> जो संपर्क दिखाई दे रहे हैं बदलने के लिए\n</li>
-        \n<li><font fgcolor="#ffffffff"><b>नई संपर्क</b></font> प्रारंभ से एक नया संपर्क बनाने के लिए\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>नई संपर्क</b></font> प्रारंभ से नया संपर्क बनाने के लिए\n</li>
         \n<li><font fgcolor="#ffffffff"><b>इम्पोर्ट/एक्सपोर्ट</b></font> आपके सिम या एसडी कार्ड से संपर्क इम्पोर्ट करने के लिए\n</li>"
     </string>
     <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is enabled.  [CHAR LIMIT=NONE] -->
-    <string name="noContactsHelpTextWithSync" product="default">"प्रदर्शित करने के लिए किसी भी संपर्क नहीं है. (आप एक अकाउंट जोड़ें है, तो संपर्क सिंक करने के लिए कुछ मिनट लग सकते हैं.)\n\nसंपर्क जोड़ने के लिए, स्पर्श <font fgcolor="#ffffffff"><b>मेनू</b></font>, उसके बाद स्पर्श:\n
-        \n<li><font fgcolor="#ffffffff"><b>अकाउंटs</b></font> आप फ़ोन को सिंक कर सकते हैं संपर्कों के साथ एक अकाउंट स्थापित करके\n</li>
+    <string name="noContactsHelpTextWithSync" product="default">"प्रदर्शित करने के लिए किसी भी संपर्क नहीं है. (आप अकाउंट जोड़ते है, तो संपर्क समन्वय करने के लिए कुछ मिनट लग सकते हैं.)\n\nसंपर्क जोड़ने के लिए, स्पर्श <font fgcolor="#ffffffff"><b>मेनू</b></font>, उसके बाद स्पर्श:\n
+        \n<li><font fgcolor="#ffffffff"><b>अकाउंटs</b></font> आप फ़ोन को समन्वय कर सकते हैं संपर्कों के साथ अकाउंट स्थापित करके\n</li>
         \n<li><font fgcolor="#ffffffff"><b>प्रदर्शन विकल्प</b></font> जो संपर्क दिखाई दे रहे हैं बदलने के लिए\n</li>
-        \n<li><font fgcolor="#ffffffff"><b>नई संपर्क</b></font> प्रारंभ से एक नया संपर्क बनाने के लिए\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>नई संपर्क</b></font> प्रारंभ से नया संपर्क बनाने के लिए\n</li>
         \n<li><font fgcolor="#ffffffff"><b>इम्पोर्ट/एक्सपोर्ट</b></font> आपके सिम या एसडी कार्ड से संपर्क इम्पोर्ट करने के लिए\n</li>"
     </string>
 
     <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is disabled, and there is no sim card (cdma).  [CHAR LIMIT=NONE]-->
     <string name="noContactsNoSimHelpText" product="tablet">"प्रदर्शित करने के लिए किसी भी संपर्क नहीं है. .\n\nसंपर्क जोड़ने के लिए, स्पर्श <font fgcolor="#ffffffff"><b>मेनू</b></font>, उसके बाद स्पर्श:\n
-        \n<li><font fgcolor="#ffffffff"><b>अकाउंटs</b></font> आप टेबलेट को सिंक कर सकते हैं संपर्कों के साथ एक अकाउंट स्थापित करके\n</li>
-        \n<li><font fgcolor="#ffffffff"><b>नई संपर्क</b></font> प्रारंभ से एक नया संपर्क बनाने के लिए\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>अकाउंटs</b></font> आप टेबलेट को समन्वय कर सकते हैं संपर्कों के साथ अकाउंट स्थापित करके\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>नई संपर्क</b></font> प्रारंभ से नया संपर्क बनाने के लिए\n</li>
         \n<li><font fgcolor="#ffffffff"><b>इम्पोर्ट/एक्सपोर्ट</b></font> आपके एसडी कार्ड से संपर्क इम्पोर्ट करने के लिए\n</li>"
     </string>
     <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is disabled, and there is no sim card (cdma).  [CHAR LIMIT=NONE]-->
     <string name="noContactsNoSimHelpText" product="default">"प्रदर्शित करने के लिए किसी भी संपर्क नहीं है. .\n\nसंपर्क जोड़ने के लिए, स्पर्श <font fgcolor="#ffffffff"><b>मेनू</b></font>, उसके बाद स्पर्श:\n
-        \n<li><font fgcolor="#ffffffff"><b>अकाउंटs</b></font> आप फ़ोन को सिंक कर सकते हैं संपर्कों के साथ एक अकाउंट स्थापित करके\n</li>
-        \n<li><font fgcolor="#ffffffff"><b>नई संपर्क</b></font> प्रारंभ से एक नया संपर्क बनाने के लिए\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>अकाउंटs</b></font> आप फ़ोन को समन्वय कर सकते हैं संपर्कों के साथ अकाउंट स्थापित करके\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>नई संपर्क</b></font> प्रारंभ से नया संपर्क बनाने के लिए\n</li>
         \n<li><font fgcolor="#ffffffff"><b>इम्पोर्ट/एक्सपोर्ट</b></font> आपके एसडी कार्ड से संपर्क इम्पोर्ट करने के लिए\n</li>"
     </string>
 
     <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is enabled, and there is no sim card (cdma).  [CHAR LIMIT=NONE] -->
-    <string name="noContactsNoSimHelpTextWithSync" product="tablet">"प्रदर्शित करने के लिए किसी भी संपर्क नहीं है. . (आप एक अकाउंट जोड़ें है, तो संपर्क सिंक करने के लिए कुछ मिनट लग सकते हैं.)\n\nसंपर्क जोड़ने के लिए, स्पर्श <font fgcolor="#ffffffff"><b>मेनू</b></font>, उसके बाद स्पर्श:\n
-        \n<li><font fgcolor="#ffffffff"><b>अकाउंटs</b></font> आप टेबलेट को सिंक कर सकते हैं संपर्कों के साथ एक अकाउंट स्थापित करके\n</li>
+    <string name="noContactsNoSimHelpTextWithSync" product="tablet">"प्रदर्शित करने के लिए किसी भी संपर्क नहीं है. . (आप अकाउंट जोड़ते है, तो संपर्क समन्वय करने के लिए कुछ मिनट लग सकते हैं.)\n\nसंपर्क जोड़ने के लिए, स्पर्श <font fgcolor="#ffffffff"><b>मेनू</b></font>, उसके बाद स्पर्श:\n
+        \n<li><font fgcolor="#ffffffff"><b>अकाउंटs</b></font> आप टेबलेट को समन्वय कर सकते हैं संपर्कों के साथ अकाउंट स्थापित करके\n</li>
         \n<li><font fgcolor="#ffffffff"><b>प्रदर्शन विकल्प</b></font> जो संपर्क दिखाई दे रहे हैं बदलने के लिए\n</li>
-        \n<li><font fgcolor="#ffffffff"><b>नई संपर्क</b></font> प्रारंभ से एक नया संपर्क बनाने के लिए\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>नई संपर्क</b></font> प्रारंभ से नया संपर्क बनाने के लिए\n</li>
         \n<li><font fgcolor="#ffffffff"><b>इम्पोर्ट/एक्सपोर्ट</b></font> आपके एसडी कार्ड से संपर्क इम्पोर्ट करने के लिए\n</li>"
     </string>
     <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is enabled, and there is no sim card (cdma).  [CHAR LIMIT=NONE] -->
-    <string name="noContactsNoSimHelpTextWithSync" product="default">"प्रदर्शित करने के लिए किसी भी संपर्क नहीं है. . (आप एक अकाउंट जोड़ें है, तो संपर्क सिंक करने के लिए कुछ मिनट लग सकते हैं.)\n\nसंपर्क जोड़ने के लिए, स्पर्श <font fgcolor="#ffffffff"><b>मेनू</b></font>, उसके बाद स्पर्श:\n
-        \n<li><font fgcolor="#ffffffff"><b>अकाउंटs</b></font> आप फ़ोन को सिंक कर सकते हैं संपर्कों के साथ एक अकाउंट स्थापित करके\n</li>
+    <string name="noContactsNoSimHelpTextWithSync" product="default">"प्रदर्शित करने के लिए किसी भी संपर्क नहीं है. . (आप अकाउंट जोड़ते है, तो संपर्क समन्वय करने के लिए कुछ मिनट लग सकते हैं.)\n\nसंपर्क जोड़ने के लिए, स्पर्श <font fgcolor="#ffffffff"><b>मेनू</b></font>, उसके बाद स्पर्श:\n
+        \n<li><font fgcolor="#ffffffff"><b>अकाउंटs</b></font> आप फ़ोन को समन्वय कर सकते हैं संपर्कों के साथ अकाउंट स्थापित करके\n</li>
         \n<li><font fgcolor="#ffffffff"><b>Display options</b></font> जो संपर्क दिखाई दे रहे हैं बदलने के लिए\n</li>
-        \n<li><font fgcolor="#ffffffff"><b>नई संपर्क</b></font> प्रारंभ से एक नया संपर्क बनाने के लिए\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>नई संपर्क</b></font> प्रारंभ से नया संपर्क बनाने के लिए\n</li>
         \n<li><font fgcolor="#ffffffff"><b>इम्पोर्ट/एक्सपोर्ट</b></font> आपके एसडी कार्ड से संपर्क इम्पोर्ट करने के लिए\n</li>"
     </string>
 
@@ -765,7 +765,7 @@
     <!-- One of alternatives shown when the system allows a user to select how many vCard files
          should be imported. This message shows only when the system is certain that there's more
          than one vCard files available in the system. -->
-    <string name="import_one_vcard_string">एक vCard फ़ाइल इम्पोर्ट करें</string>
+    <string name="import_one_vcard_string">vCard फ़ाइल इम्पोर्ट करें</string>
 
     <!-- One of alternatives shown when the system allows a user to select how many vCard files
          should be imported. This message shows only when the system is certain that there's more
@@ -802,7 +802,7 @@
     <!-- The failed reason shown when vCard parser was not able to be parsed by the current vCard
          implementation. This might happen even when the input vCard is completely valid, though
          we believe it is rather rare in the actual world. [CHAR LIMIT=NONE] -->
-    <string name="fail_reason_vcard_parse_error">एक अप्रत्याशित कारण से vCard व्याख्या नहीं कर सका.</string>
+    <string name="fail_reason_vcard_parse_error">अप्रत्याशित कारण से vCard व्याख्या नहीं कर सका.</string>
 
     <!-- The failed reason shown when vCard importer doesn't support the format.
          This may be shown when the vCard is corrupted [CHAR LIMIT=40] -->
@@ -937,7 +937,7 @@
 
     <!-- The failed reason shown when some error happend during contacts export.
          Some exact reason must follow this. [CHAR LIMIT=NONE] -->
-    <string name="fail_reason_error_occurred_during_export">एक त्रुटि हुई एक्सपोर्ट के दौरान: \"<xliff:g id="exact_reason">%s</xliff:g>\".</string>
+    <string name="fail_reason_error_occurred_during_export">एक्सपोर्ट के दौरान त्रुटि उत्पन्न हुई: \"<xliff:g id="exact_reason">%s</xliff:g>\".</string>
 
     <!-- The error reason the vCard composer "may" emit when database is corrupted or
          something is going wrong. Usually users should not see this text. [CHAR LIMIT=NONE] -->
@@ -1050,8 +1050,8 @@
     <!-- Title for the disambiguation dialog that requests the user choose an account for the new group to be created under [CHAR LIMIT=NONE] -->
     <string name="dialog_new_group_account">अकाउंट के अंदर समूह बनाएं</string>
 
-    <string name="menu_sync_remove">सिंक समूह निकालें</string>
-    <string name="dialog_sync_add">सिंक समूह जोड़ें</string>
+    <string name="menu_sync_remove">समन्वय समूह निकालें</string>
+    <string name="dialog_sync_add">समन्वय समूह जोड़ें</string>
     <string name="display_more_groups">अधिक समूह\u2026</string>
 
     <!-- List title for a special contacts group that covers all contacts. [CHAR LIMIT=25] -->
@@ -1063,7 +1063,7 @@
 
     <!-- Warning message given to users just before they remove a currently syncing
          group that would also cause all ungrouped contacts to stop syncing.  [CHAR LIMIT=NONE] -->
-    <string name="display_warn_remove_ungrouped">हटा रहा है \"<xliff:g id="group" example="Starred">%s</xliff:g>\" सिंक से भी सिंक से किसी भी असमूहीकृत संपर्क निकाल देंगे.</string>
+    <string name="display_warn_remove_ungrouped">हटा रहा है \"<xliff:g id="group" example="Starred">%s</xliff:g>\" समन्वय से भी समन्वय से किसी भी असमूहीकृत संपर्क निकाल देंगे.</string>
 
     <!-- Title for data source when creating or editing a contact that doesn't
          belong to a specific account.  This contact will only exist on the phone
@@ -1411,7 +1411,7 @@
     <string name="local_search_label">सब संपर्क</string>
 
     <!-- Toast shown when creating a personal copy of a contact [CHAR LIMIT=100] -->
-    <string name="toast_making_personal_copy">एक व्यक्तिगत प्रतिलिपि बनाना\u2026</string>
+    <string name="toast_making_personal_copy">व्यक्तिगत प्रतिलिपि बनाना\u2026</string>
 
     <!-- Contact list filter label indicating that the list is showing all available accounts [CHAR LIMIT=64] -->
     <string name="list_filter_all_accounts">सभी संपर्क</string>
@@ -1489,11 +1489,11 @@
 
     <!-- Button shown on the main contacts screen when there are no contacts on the device.
     Navigates to account setup [CHAR LIMIT=128] -->
-    <string name="contacts_unavailable_add_account">एक अकाउंट में साइन इन करें</string>
+    <string name="contacts_unavailable_add_account">अकाउंट में साइन इन करें</string>
 
     <!-- Button shown on the main contacts screen when there are no contacts on the device.
     Initiates a contact import dialog [CHAR LIMIT=128] -->
-    <string name="contacts_unavailable_import_contacts">एक फ़ाइल से संपर्क इम्पोर्ट</string>
+    <string name="contacts_unavailable_import_contacts">फ़ाइल से संपर्क इम्पोर्ट</string>
 
     <!-- Title of the dialog that allows creation of a contact group [CHAR LIMIT=128] -->
     <string name="create_group_dialog_title">नया समूह बनाएँ</string>
@@ -1775,19 +1775,19 @@
     <string name="toast_displaying_all_contacts">सभी संपर्क प्रदर्शित</string>
 
     <!-- Message in the standard "no account" prompt that encourages the user to add a Google account before continuing to use the People app [CHAR LIMIT=NONE] -->
-    <string name="no_account_prompt">लोग एक गूगल अकाउंट के साथ बेहतर काम करते है.\n\n\u2022 किसी भी वेब ब्राउज़र से पहुँच\.\n\u2022 संपर्क सुरक्षित बैकअप.</string>
+    <string name="no_account_prompt">लोग गूगल अकाउंट के साथ बेहतर काम करते है.\n\n\u2022 किसी भी वेब ब्राउज़र से पहुँच\.\n\u2022 संपर्क सुरक्षित बैकअप.</string>
 
     <!-- Message in the standard "no account" prompt that encourages the user to add any account (non Google-specific) before continuing to use the People app [CHAR LIMIT=NONE] -->
-    <string name="generic_no_account_prompt">आप का फोन खो जाए तो भी आप का संपर्क ऑनलाइन सेवा के साथ सिंक रहेगा</string>
+    <string name="generic_no_account_prompt">आप का फोन खो जाए तो भी आप का संपर्क ऑनलाइन सेवा के साथ समन्वय रहेगा</string>
 
     <!-- Title of the screen that encourages the user to add any account (non Google-specific) for a better People app experience [CHAR LIMIT=20] -->
-    <string name="generic_no_account_prompt_title">एक अकाउंट जोड़ें</string>
+    <string name="generic_no_account_prompt_title">अकाउंट जोड़ें</string>
 
     <!-- Message in the contact editor prompt that notifies the user that the newly created contact will not be saved to any account, and prompts addition of an account [CHAR LIMIT=NONE] -->
-    <string name="contact_editor_prompt_zero_accounts">मोबाइल में या एक नया ऑनलाइन अकाउंट में स्टोर करें</string>
+    <string name="contact_editor_prompt_zero_accounts">मोबाइल में या नए ऑनलाइन अकाउंट में स्टोर करें</string>
 
     <!-- Message in the contact editor prompt that asks the user if it's okay to save the newly created contact to the account shown. [CHAR LIMIT=NONE] -->
-    <string name="contact_editor_prompt_one_account">नए संपर्क<xliff:g id="ACCOUNT_NAME">%1$s</xliff:g> सिंक किया जाएगा </string>
+    <string name="contact_editor_prompt_one_account">नए संपर्क<xliff:g id="ACCOUNT_NAME">%1$s</xliff:g> समन्वय किया जाएगा </string>
 
     <!-- Message in the contact editor prompt that asks the user which account they want to save the newly created contact to. [CHAR LIMIT=NONE] -->
     <string name="contact_editor_prompt_multiple_accounts">सेव के लिए संपर्क अकाउंट का चयन करें</string>
@@ -1866,7 +1866,7 @@
     <string name="date_time_set">सेट</string>
     <string name="sim_no_contact">सिम कार्ड पर कोई संपर्क नहीं</string>
     <string name="sim_indexed_contact_not_exist">सिम कार्ड पर %1$d स्थिति अमान्य है. स्थिति %2$d और %3$d के बीच होना चाहिए.</string>
-    <string name="sim_contact_search_error">एक त्रुटि हुई</string>
+    <string name="sim_contact_search_error">त्रुटि उत्पन्न हुई</string>
     <string name="service_provider">डायरेक्टरी</string>
 
     <string name="zero_items_selected">आइटम का चयन करें</string>
@@ -1884,7 +1884,7 @@
     <string name="confirm_delete_selected_all_call_logs">हटाएँ कॉल लॉग?</string>
     <string name="calllog_menu_blacklist">बाधा</string>
     <string name="calllog_menu_edit_before_call">संपादित करें</string>
-    <string name="calllog_menu_send_sms">एक संदेश भेजें</string>
+    <string name="calllog_menu_send_sms">संदेश भेजें</string>
     <string name="menu_call_ip_number">डायल आईपी फोन (डायल %s)</string>
     <string name="delete_contact_calllog_title">"कॉल लॉग हटाएँ ?"</string>
     <string name="delete_unknown_contact_calllog_title">"कॉल लॉग हटाएँ ?"</string>
@@ -1905,7 +1905,7 @@
 
     <!-- 无联系人引导页 -->
     <string name="empty_divider_title"></string>
-    <string name="noContactHelpTextAccountsInfo">सिंक Xiaomi, गूगल, और विनिमय संपर्क</string>
+    <string name="noContactHelpTextAccountsInfo">समन्वय Xiaomi, गूगल, और विनिमय संपर्क</string>
     <string name="noContactHelpTextImportXiaomiAccountInfo">Xiaomi अकाउंट का उपयोग से संपर्क डेटा पुनर्स्थापित करें</string>
 
     <!-- 电话号码picker -->
@@ -1972,14 +1972,14 @@
     <string name="preference_export">एक्सपोर्ट</string>
     <string name="preference_others">अन्य</string>
     <string name="wipe_data">डेटा साफ़ करें</string>
-    <string name="check_unsynchronized_accounts">अकाउंट सिंक करने के लिए मुझे याद दिलाने</string>
+    <string name="check_unsynchronized_accounts">अकाउंट समन्वय करने के लिए मुझे याद दिलाने</string>
     <string name="frequency_three_days">हर 3 दिन</string>
     <string name="frequency_weekly">हर हफ्ते</string>
     <string name="frequency_none">कभी नहीं</string>
-    <string name="dirty_contacts_notification_title">सिंक संपर्क?</string>
+    <string name="dirty_contacts_notification_title">समन्वय संपर्क?</string>
     <string name="dirty_contacts_notification_description">%d परिवर्तन आपके Xiaomi अकाउंट के साथ समन्वयित नहीं किया गया है.</string>
     <string name="dirty_contacts_notification_message">(आप सेटिंग में इस अनुस्मारक निष्क्रिय कर सकते हैं)</string>
-    <string name="remind_btn_sync_now">सिंक</string>
+    <string name="remind_btn_sync_now">समन्वय</string>
     <string name="remind_btn_ignore">उपेक्षा</string>
     <string name="display_only_phones">अधूरा नंबर छिपाएँ</string>
     <string name="display_sim_contacts">सिम संपर्क दिखाएँ</string>
@@ -2330,7 +2330,7 @@
     <string name="sim_contact_existing">संपर्क पहले से मौजूद है</string>
     <string name="sim_contact_invalid">अवैध सिम संपर्क</string>
 
-    <string name="sim_error_generic_failure">एक त्रुटि हुई</string>
+    <string name="sim_error_generic_failure">त्रुटि उत्पन्न हुई</string>
     <string name="sim_error_storage_full">सिम कार्ड स्टोरेज भरा है</string>
     <string name="sim_error_not_ready">सिम संपर्कों लोड हो रहा है\u2026</string>
     <string name="sim_error_text_too_long">नाम बहुत लंबा है</string>
