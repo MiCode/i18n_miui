@@ -762,7 +762,7 @@
     <!-- Default reference line setting. Do not translate. -->
     <string name="pref_camera_referenceline_entryvalue_default" translatable="false">referenceline-off</string>
     <string name="pref_camera_referenceline_entryvalue_off" translatable="false">referenceline-off</string>
-    <string name="pref_camera_referenceline_entryvalue_on" translatable="false">referenceline-on</string>f
+    <string name="pref_camera_referenceline_entryvalue_on" translatable="false">referenceline-on</string>
 
     <!--音量键功能 -->
     <string name = "pref_camera_volumekey_function_entry_volume">आवाज़</string>

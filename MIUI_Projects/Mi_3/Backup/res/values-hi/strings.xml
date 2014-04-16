@@ -261,7 +261,7 @@
     <string name="cloud_app_device">डिवाइस</string>
     <string name="cloud_app_data_in_other_devices">इस डिवाइस पर समर्थित नहीं</string>
     <string name="cloud_app_no_data">कोई डेटा नहीं</string>
-    <string name="cloud_app_invalid_op">यह 'बैकअप या पुनर्स्थापित किया जा रहा है, जबकि आप क्लाउड डेटा नहीं देख सकते हैं</string>
+    <string name="cloud_app_invalid_op">यह \'बैकअप या पुनर्स्थापित किया जा रहा है, जबकि आप क्लाउड डेटा नहीं देख सकते हैं</string>
     <string name="cloud_app_invalid_op_when_removing">इसे हटाया जा रहा है, जबकि आप क्लाउड डेटा नहीं देख सकते हैं</string>
     <string name="cloud_app_remove_pending">प्रतीक्षा\u2026</string>
     <string name="cloud_app_remove_progress">हटा रहा है\u2026</string>
