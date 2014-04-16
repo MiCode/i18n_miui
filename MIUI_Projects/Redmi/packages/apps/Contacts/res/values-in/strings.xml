@@ -16,63 +16,63 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Title for the activity that dials the phone.  This is the name
          used in the Launcher icon. -->
-    <string name="launcherDialer">Phone</string>
+    <string name="launcherDialer">Ponsel</string>
 
     <!-- Title for the activity that opens the People app.  This is the name
          used in the Launcher icon. -->
-    <string name="people">Contacts</string>
+    <string name="people">Kontak</string>
 
     <!-- Directory partition name -->
-    <string name="contactsList">Contacts</string>
+    <string name="contactsList">Kontak</string>
 
     <!-- Name of activity that allows users to create shortcuts on the home screen to a contact.
          This shows up in a list of things like bookmark, folder, music playlist, etc -->
-    <string name="shortcutContact">Contact</string>
+    <string name="shortcutContact">Kontak</string>
 
     <!-- Name of activity that allows users to create shortcuts on the home screen to dial a contact.
          This shows up in a list of things like bookmark, folder, music playlist, etc -->
-    <string name="shortcutDialContact">Direct dial</string>
+    <string name="shortcutDialContact">Panggilan langsung</string>
 
     <!-- Name of activity that allows users to create shortcuts on the home screen to message (SMS) a contact.
          This shows up in a list of things like bookmark, folder, music playlist, etc -->
-    <string name="shortcutMessageContact">Direct message</string>
+    <string name="shortcutMessageContact">Pesan langsung</string>
 
     <!-- Activity title when the user is selecting a contact for a shortcut. -->
-    <string name="shortcutActivityTitle">Choose a contact shortcut</string>
+    <string name="shortcutActivityTitle">Pilih shortcut kontak</string>
 
     <!-- Activity title when the user is selecting a contact for a direct dial shortcut. -->
-    <string name="callShortcutActivityTitle">Choose a number to call</string>
+    <string name="callShortcutActivityTitle">Pilih nomor untuk panggilan</string>
 
     <!-- Activity title when the user is selecting a contact for a direct message shortcut. -->
-    <string name="messageShortcutActivityTitle">Choose a number to message</string>
+    <string name="messageShortcutActivityTitle">Pilih nomor untuk pesan</string>
 
     <!-- Activity title when the user is selecting a contact.  [CHAR LIMIT=128] -->
-    <string name="contactPickerActivityTitle">Choose a contact</string>
+    <string name="contactPickerActivityTitle">Pilih kontak</string>
 
     <!-- Title for the activity that shows only starred contacts -->
     <string name="starredList">Starred</string>
 
     <!-- Title for the activity that shows only frequently contacted contacts -->
-    <string name="frequentList">Frequent</string>
+    <string name="frequentList">Sering</string>
 
     <!-- Title for the activity that shows a mix of starred contacts and frequently contacted
          contacts. -->
-    <string name="strequentList">Favorites</string>
+    <string name="strequentList">Favorit</string>
 
     <!-- The title bar when viewing the contact details activity -->
-    <string name="viewContactTitle">Contact details</string>
+    <string name="viewContactTitle">Rincian kontak</string>
 
     <!-- The description presented to the user in the Intent choose when there are multiple activities that allow
          viewing a contact. This string represents the built in way to view the contact. -->
-    <string name="viewContactDesription">View contact</string>
+    <string name="viewContactDesription">Lihat kontak</string>
 
     <!-- The description presented to the user in the Intent choose when there are multiple activities that allow
          editing a contact. This string represents the built in way to edit the contact. -->
-    <string name="editContactDescription">Edit contact</string>
+    <string name="editContactDescription">Edit kontak</string>
 
     <!-- The description presented to the user in the Intent choose when there are multiple activities that allow
          creating a new contact. This string represents the built in way to create the contact. -->
-    <string name="insertContactDescription">Create contact</string>
+    <string name="insertContactDescription">Buat kontak</string>
 
     <!-- The description presented to the user in the Intent choose when there are multiple activities that allow
          editing a group. This string represents the built in way to edit the group. [CHAR LIMIT=NONE] -->
@@ -80,155 +80,155 @@
 
     <!-- The description presented to the user in the Intent choose when there are multiple activities that allow
          creating a new group. This string represents the built in way to create the group. [CHAR LIMIT=NONE] -->
-    <string name="insertGroupDescription">Create group</string>
+    <string name="insertGroupDescription">Buat group</string>
 
     <!-- The tab label for the contact detail activity that displays information about the contact [CHAR LIMIT=15] -->
-    <string name="contactDetailAbout">About</string>
+    <string name="contactDetailAbout">Tentang</string>
 
     <!-- The tab label for the contact detail activity that displays information about the contact [CHAR LIMIT=15] -->
-    <string name="contactDetailUpdates">Updates</string>
+    <string name="contactDetailUpdates">Pembaharuan</string>
 
     <!-- Hint text in the search box when the user hits the Search key while in the contacts app -->
-    <string name="searchHint">Search contacts</string>
+    <string name="searchHint">Cari kontak</string>
 
     <!-- Menu item to search contacts -->
-    <string name="menu_search">Search</string>
+    <string name="menu_search">Cari</string>
 
     <!-- Menu item to create a new contact -->
-    <string name="menu_newContact">New contact</string>
+    <string name="menu_newContact">Kontak baru</string>
 
     <!-- Menu item used to view the details for a specific contact -->
-    <string name="menu_viewContact">View contact</string>
+    <string name="menu_viewContact">Lihat kontak</string>
 
     <!-- Menu item used to call a contact, containing the number of the contact to call -->
-    <string name="menu_callNumber">Call <xliff:g id="number">%s</xliff:g></string>
+    <string name="menu_callNumber">Panggil <xliff:g id="number">%s</xliff:g></string>
 
     <!-- Menu item used to add a star to a contact, which makes that contact show up at the top of favorites -->
-    <string name="menu_addStar">Add to favorites</string>
+    <string name="menu_addStar">Tambahkan ke favorit</string>
 
     <!-- Menu item used to remove a star from a contact, making the contact no longer show up at the top of favorites -->
-    <string name="menu_removeStar">Remove from favorites</string>
+    <string name="menu_removeStar">Hapus dari favorit</string>
 
     <!-- Menu item used to edit a specific contact -->
     <string name="menu_editContact">Edit</string>
 
     <!-- Menu item used to delete a specific contact -->
-    <string name="menu_deleteContact">Delete</string>
+    <string name="menu_deleteContact">Hapus</string>
 
     <!-- Menu item to copy something [CHAR_LIMIT=10] -->
     <string name="menu_copy">Copy</string>
 
     <!-- Menu item used to create a contact shortcut when viewing contact details. [CHAR LIMIT=30] -->
-    <string name="menu_create_contact_shortcut">Place on Home screen</string>
+    <string name="menu_create_contact_shortcut">Taruh di HomeScreen</string>
 
     <!-- Menu item used to call a specific contact when viewing the details of that contact. -->
-    <string name="menu_call">Call contact</string>
+    <string name="menu_call">Panggil kontak</string>
 
     <!-- Menu item used to send an SMS or MMS message to a specific phone number or a contacts default phone number -->
-    <string name="menu_sendSMS">Text contact</string>
+    <string name="menu_sendSMS">Kontak teks</string>
 
     <!-- Menu item that splits an item from the contact detail into a separate aggregate -->
-    <string name="menu_splitAggregate">Separate</string>
+    <string name="menu_splitAggregate">Terpisah</string>
 
     <!-- Menu item that edits the currently selected group [CHAR LIMIT=30] -->
     <string name="menu_editGroup">Edit</string>
 
     <!-- Menu item that deletes the currently selected group [CHAR LIMIT=30] -->
-    <string name="menu_deleteGroup">Delete</string>
+    <string name="menu_deleteGroup">Hapus</string>
 
     <!-- Menu item (in the action bar) that creates a new contacts [CHAR LIMIT=12] -->
-    <string name="menu_new_contact_action_bar">New</string>
+    <string name="menu_new_contact_action_bar">Baru</string>
 
     <!-- Menu item (in the action bar) that creates a new group [CHAR LIMIT=12] -->
-    <string name="menu_new_group_action_bar">New</string>
+    <string name="menu_new_group_action_bar">Baru</string>
 
     <!-- Title of the confirmation dialog for separating contacts into multiple instances [CHAR LIMIT=26] -->
-    <string name="splitConfirmation_title">Separate contact?</string>
+    <string name="splitConfirmation_title">Kontak terpisah?</string>
 
     <!-- Confirmation dialog for separating contacts into multiple instances [CHAR LIMIT=NONE] -->
-    <string name="splitConfirmation">This contact will be separated into multiple contacts.</string>
+    <string name="splitConfirmation">Kontak ini akan dipisahkan menjadi beberapa kontak.</string>
 
     <!-- Menu item that joins an aggregate with another aggregate -->
-    <string name="menu_joinAggregate">Merge</string>
+    <string name="menu_joinAggregate">Menggabungkan</string>
 
     <!-- Heading of the Join Contact screen -->
-    <string name="titleJoinContactDataWith">Merge contacts</string>
+    <string name="titleJoinContactDataWith">Menggabungkan kontak</string>
 
     <!-- Info blurb on the Join Contact screen [CHAR LIMIT=NONE]-->
-    <string name="blurbJoinContactDataWith">Choose the contact you want to merge with <xliff:g id="name">%s</xliff:g>:</string>
+    <string name="blurbJoinContactDataWith">Pilih kontak yang ingin di gabungkan <xliff:g id="name">%s</xliff:g>:</string>
 
     <!-- An item in the Join Contact activity that opens up the full contact A-Z list -->
-    <string name="showAllContactsJoinItem">Show all contacts</string>
+    <string name="showAllContactsJoinItem">Lihat semua kontak</string>
 
     <!-- List separator for the Join Contact list: Suggestions -->
-    <string name="separatorJoinAggregateSuggestions">Suggested contacts</string>
+    <string name="separatorJoinAggregateSuggestions">Kontak yang disarankan</string>
 
     <!-- List separator for the Join Contact list: A-Z -->
-    <string name="separatorJoinAggregateAll">All contacts</string>
+    <string name="separatorJoinAggregateAll">Semua kontak</string>
 
     <!-- Toast shown after two contacts have been joined by a user action -->
-    <string name="contactsJoinedMessage">Contacts merged</string>
+    <string name="contactsJoinedMessage">Kontak digabungkan</string>
 
     <!-- Menu item that opens the Options activity for a given contact [CHAR LIMIT=15] -->
-    <string name="menu_set_ring_tone">Set ringtone</string>
+    <string name="menu_set_ring_tone">Atur ringtone</string>
 
     <!-- Menu item that opens the Options activity for a given contact [CHAR LIMIT=30] -->
-    <string name="menu_redirect_calls_to_vm">All calls to voicemail</string>
-    <string name="menu_not_redirect_calls_to_vm">Voicemail not in use</string>
-    <string name="redirect_calls_to_vm_confirm_message">"Before setting up your mailbox, check the terms and conditions of your contract with your mobile network provider."</string>
+    <string name="menu_redirect_calls_to_vm">Semua panggilan ke voicemail</string>
+    <string name="menu_not_redirect_calls_to_vm">Voicemail tidak digunakan</string>
+    <string name="redirect_calls_to_vm_confirm_message">"Sebelum memasang kotak surat Anda, periksa syarat dan ketentuan kontrak dengan penyedia jaringan selular Anda."</string>
     <string name="redirect_calls_to_vm_confirm_text">"OK"</string>
 
     <!-- Warning dialog contents after users selects to delete a ReadOnly contact. [CHAR LIMIT=NONE] -->
-    <string name="readOnlyContactWarning">You can\'t delete contacts from read-only accounts, but you can hide them in your contacts lists.</string>
+    <string name="readOnlyContactWarning">Anda tidak dapat menghapus kontak dari akun read-only, tetapi Anda dapat menyembunyikan mereka dalam daftar kontak Anda.</string>
 
     <!-- Warning dialog contents after users selects to delete a contact with ReadOnly and Writable sources. -->
-    <string name="readOnlyContactDeleteConfirmation">This contact contains information from multiple accounts. Information from read-only accounts will be hidden in your contacts lists, not deleted.</string>
+    <string name="readOnlyContactDeleteConfirmation">Kontak ini berisi informasi dari beberapa akun. Informasi dari rekening read-only akan disembunyikan dalam daftar kontak Anda, tidak dihapus.</string>
 
     <!-- Warning dialog contents after users selects to delete a contact with multiple Writable sources. -->
-    <string name="multipleContactDeleteConfirmation">Deleting this contact will delete information from multiple accounts.</string>
+    <string name="multipleContactDeleteConfirmation">Menghapus kontak ini akan menghapus informasi dari beberapa akun.</string>
 
     <!-- Confirmation dialog contents after users selects to delete a Writable contact. -->
-    <string name="deleteConfirmation">This contact will be deleted.</string>
+    <string name="deleteConfirmation">Kontak ini akan dihapus.</string>
 
     <!-- Menu item to indicate you are done editing a contact and want to save the changes you've made -->
     <string name="menu_done">OK</string>
 
     <!-- Menu item to indicate you want to cancel the current editing process and NOT save the changes you've made [CHAR LIMIT=12] -->
-    <string name="menu_doNotSave">Cancel</string>
+    <string name="menu_doNotSave">Batal</string>
 
     <!-- Menu item to indicate you want to stop editing a contact and NOT save the changes you've made [CHAR LIMIT=12] -->
-    <string name="menu_discard">Discard</string>
+    <string name="menu_discard">Hapus</string>
 
     <!-- The label describing the Notes field of a contact. This field allows free form text entry about a contact -->
-    <string name="label_notes">Notes</string>
+    <string name="label_notes">Catatan</string>
 
     <!-- The label describing the SIP address field of a contact. [CHAR LIMIT=20] -->
-    <string name="label_sip_address">Internet call</string>
+    <string name="label_sip_address">Panggilan internet</string>
 
     <!-- Hint text for the organization name when editing -->
-    <string name="ghostData_company">Company</string>
+    <string name="ghostData_company">Perusahaan</string>
 
     <!-- Hint text for the organization title when editing -->
-    <string name="ghostData_title">Title</string>
+    <string name="ghostData_title">Gelar</string>
 
     <!-- Message displayed in a toast when you try to view the details of a contact that
          for some reason doesn't exist anymore. [CHAR LIMIT=NONE]-->
-    <string name="invalidContactMessage">Contact doesn\'t exist</string>
+    <string name="invalidContactMessage">Kontak tidak ditemukan</string>
 
     <!-- Message displayed in a toast after you create a contact shortcut in the launcher [CHAR LIMIT=NONE]-->
-    <string name="createContactShortcutSuccessful">Contact widget added to Home screen</string>
+    <string name="createContactShortcutSuccessful">Kontak widget di tambahkan ke Home Screen</string>
 
     <!-- When picking a contact from a list of all contacts there is an entry at the top of the
          list that allows the user to create a new contact, which this string is used for -->
-    <string name="pickerNewContactHeader">Create new contact</string>
+    <string name="pickerNewContactHeader">Buat kontak baru</string>
 
     <!-- Text for a "create new contact" button on the bottom of the contact picker screen.
          The text will be all capitalized.
          [CHAR LIMIT=30] -->
-    <string name="pickerNewContactText">Create new contact</string>
+    <string name="pickerNewContactText">Buat kontak baru</string>
 
     <!-- Header that expands to list all of the types of phone numbers when editing or creating a phone number for a contact [CHAR LIMIT=20] -->
-    <string name="phoneLabelsGroup">Phone</string>
+    <string name="phoneLabelsGroup">Ponsel</string>
 
     <!-- Header that expands to list all of the types of email addresses when editing or creating an email address for a contact [CHAR LIMIT=20] -->
     <string name="emailLabelsGroup">Email</string>
@@ -237,7 +237,7 @@
     <string name="imLabelsGroup">IM</string>
 
     <!-- Header that expands to list all of the types of postal addresses when editing or creating an postal address for a contact [CHAR LIMIT=20] -->
-    <string name="postalLabelsGroup">Address</string>
+    <string name="postalLabelsGroup">Alamat</string>
 
     <!-- The order of the items below is important, don't reorder without changing EditContactActivity.java -->
     <skip/>
@@ -246,115 +246,115 @@
         <!-- An organization associated with a contact -->
         <item>Organization</item>
         <!-- A note associated with a contact -->
-        <item>Note</item>
+        <item>Catatan</item>
     </string-array>
 
     <!-- Description in the dialog that appears if there are no pictures from which to create an icon for a contact -->
-    <string name="photoPickerNotFoundText" product="tablet">No pictures are available on the tablet.</string>
+    <string name="photoPickerNotFoundText" product="tablet">Tidak ada gambar yang tersedia pada tablet.</string>
     <!-- Description in the dialog that appears if there are no pictures from which to create an icon for a contact -->
-    <string name="photoPickerNotFoundText" product="default">No pictures are available on the phone.</string>
+    <string name="photoPickerNotFoundText" product="default">Tidak ada gambar yang tersedia pada ponsel.</string>
 
     <!-- Description used in the attach photo Intent from third party apps [CHAR LIMIT=50] -->
-    <string name="attach_photo_dialog_title">Contact photo</string>
+    <string name="attach_photo_dialog_title">Foto kontak</string>
 
     <!-- Title of the dialog used to set a custom label for a contact detail, like a phone number or email address.
          For example, this may be used to set a phone number's label to "Vaction house" -->
-    <string name="customLabelPickerTitle">Custom label name</string>
+    <string name="customLabelPickerTitle">Nama label</string>
 
     <!-- Check box label that allows calls to the contact to be sent directly to voicemail -->
-    <string name="send_to_voicemail_checkbox">Send calls directly to voicemail</string>
+    <string name="send_to_voicemail_checkbox">Mengirim panggilan langsung ke voicemail</string>
 
     <!-- The menu item that allows you to remove a photo from a contact [CHAR LIMIT=50] -->
-    <string name="removePhoto">Remove photo</string>
+    <string name="removePhoto">Hapus foto</string>
 
     <!-- The text displayed when the contacts list is empty while displaying all contacts [CHAR LIMIT=NONE] -->
-    <string name="noContacts">No contacts</string>
+    <string name="noContacts">Tidak ada kontak</string>
 
     <!-- The text displayed when the groups list is empty while displaying all groups [CHAR LIMIT=NONE] -->
-    <string name="noGroups">No groups</string>
+    <string name="noGroups">Tidak ada groups</string>
 
     <!-- The text displayed when the groups list is empty and no accounts are set on the device while displaying all groups [CHAR LIMIT=NONE] -->
-    <string name="noAccounts">To create groups you need an account.</string>
+    <string name="noAccounts">Untuk membuat groups membutuhkan akun.</string>
 
     <!-- The text displayed when the contacts list is empty while displaying results after searching contacts -->
-    <string name="noMatchingContacts">No matching contacts found.</string>
+    <string name="noMatchingContacts">Tidak ada kontak yang cocok ditemukan.</string>
 
     <!-- The text displayed when the contacts list is empty while displaying only contacts that have phone numbers -->
-    <string name="noContactsWithPhoneNumbers">No contacts with phone numbers</string>
+    <string name="noContactsWithPhoneNumbers">Tidak ada kontak dengan nomor telepon</string>
 
     <!-- The text displayed when there are no members in the group while displaying the group detail page [CHAR LIMIT=40] -->
-    <string name="emptyGroup">No people in this group</string>
+    <string name="emptyGroup">Tidak ada orang dalam group ini</string>
 
     <!-- The text displayed to instruct users to add members to a group (when viewing a group detail page for a group with no members) [CHAR LIMIT=50] -->
-    <string name="addPeopleToGroup">To add some, edit the group.</string>
+    <string name="addPeopleToGroup">Untuk menambahkan, edit group.</string>
 
     <!-- Displayed in a spinner dialog after the user creates a contact and it's being saved to the database -->
-    <string name="savingContact">Saving contact\u2026</string>
+    <string name="savingContact">Simpan Kontak\u2026</string>
 
     <!-- Displayed in a spinner dialog as user changes to display options are saved -->
-    <string name="savingDisplayGroups">Saving display options\u2026</string>
+    <string name="savingDisplayGroups">Menyimpan opsi tampilan\u2026</string>
 
     <!-- Toast displayed when a contact is saved [CHAR LIMIT=NONE] -->
-    <string name="contactSavedToast">Contact saved</string>
+    <string name="contactSavedToast">Kontak tersimpan</string>
 
     <!-- Toast displayed when saving a contact failed. [CHAR LIMIT=NONE] -->
-    <string name="contactSavedErrorToast">Couldn\'t save contact changes</string>
+    <string name="contactSavedErrorToast">Tidak bisa menyimpan perubahan kontak</string>
 
     <!-- Toast displayed when a group is saved [CHAR LIMIT=NONE] -->
-    <string name="groupSavedToast">Group saved</string>
+    <string name="groupSavedToast">Group tersimpan</string>
 
     <!-- Toast displayed when saving a group failed [CHAR LIMIT=NONE] -->
-    <string name="groupSavedErrorToast">Couldn\'t save group changes</string>
+    <string name="groupSavedErrorToast">Tidak bisa menyimpan perubahan group</string>
 
     <!-- Displayed at the top of the contacts showing the total number of contacts visible when "Only contacts with phones" is selected -->
     <plurals name="listTotalPhoneContacts">
-        <item quantity="one">1 contact with phone number</item>
-        <item quantity="other"><xliff:g id="count">%d</xliff:g> contacts with phone numbers</item>
+        <item quantity="one">1 kontak dengan nomor ponsel</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> kontak dengan nomor ponsel</item>
     </plurals>
 
     <!-- Displayed at the top of the contacts showing the zero as total number of contacts visible when "Only contacts with phones" is selected [CHAR LIMIT=64]-->
-    <string name="listTotalPhoneContactsZero">No contacts with phone numbers</string>
+    <string name="listTotalPhoneContactsZero">Tidak ada kontak dengan nama ponsel</string>
 
     <!-- Displayed at the top of the contacts showing the total number of contacts visible when "Only contacts with phones" not selected -->
     <plurals name="listTotalAllContacts">
-        <item quantity="one">1 contact</item>
-        <item quantity="other"><xliff:g id="count">%d</xliff:g> contacts</item>
+        <item quantity="one">1 kontak</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> kontak</item>
     </plurals>
 
     <!-- Displayed at the top of the contacts showing the zero total number of contacts visible when "All contacts" is selected  [CHAR LIMIT=64]-->
-    <string name="listTotalAllContactsZero">No contacts</string>
+    <string name="listTotalAllContactsZero">Tidak ada kontak</string>
 
     <!-- Displayed at the top of the contacts showing the zero total number of contacts visible when "Custom" is selected  [CHAR LIMIT=64]-->
-    <string name="listTotalAllContactsZeroCustom">No visible contacts</string>
+    <string name="listTotalAllContactsZeroCustom">Tidak ada kontak terlihat.</string>
 
     <!-- Displayed at the top of the contacts showing the zero total number of contacts visible when starred contact list is selected  [CHAR LIMIT=64]-->
-    <string name="listTotalAllContactsZeroStarred">No favorites</string>
+    <string name="listTotalAllContactsZeroStarred">Tidak ada favorit</string>
 
     <!-- Displayed at the top of the contacts showing the zero total number of contacts visible when a group or account is selected  [CHAR LIMIT=64]-->
-    <string name="listTotalAllContactsZeroGroup">No contacts in <xliff:g id="name" example="Friends">%s</xliff:g></string>
+    <string name="listTotalAllContactsZeroGroup">Tidak ada kontak di <xliff:g id="name" example="Friends">%s</xliff:g></string>
 
     <!-- Displayed at the top of the contacts showing single contact. [CHAR LIMIT=64] -->
-    <string name="listSingleContact">Single contact</string>
+    <string name="listSingleContact">Kontak tunggal</string>
 
     <!-- Displayed at the top of the contacts showing single contact. [CHAR LIMIT=64] -->
-    <string name="listCustomView">Contacts in custom view</string>
+    <string name="listCustomView">Kontak dalam tampilan kustom</string>
 
     <!-- Displayed at the top of the contacts showing the total number of contacts found when "Only contacts with phones" not selected [CHAR LIMIT=30] -->
     <plurals name="listFoundAllContacts">
-        <item quantity="one">1 found</item>
-        <item quantity="other"><xliff:g id="count">%d</xliff:g> found</item>
+        <item quantity="one">1 ditemukan</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> ditemukan</item>
     </plurals>
 
     <!-- Displayed at the top of search results indicating that more contacts were found than shown [CHAR LIMIT=64] -->
-    <string name="foundTooManyContacts">More than <xliff:g id="count">%d</xliff:g> found.</string>
+    <string name="foundTooManyContacts">Lebih dari <xliff:g id="count">%d</xliff:g> found.</string>
 
     <!-- Displayed at the top of the contacts showing the zero total number of contacts found when "Only contacts with phones" not selected. [CHAR LIMIT=30] -->
-    <string name="listFoundAllContactsZero">No contacts</string>
+    <string name="listFoundAllContactsZero">Tidak ada kontak</string>
 
     <!-- Displayed at the top of the contacts showing the total number of contacts found when typing search query -->
     <plurals name="searchFoundContacts">
-        <item quantity="one">1 found</item>
-        <item quantity="other"><xliff:g id="count">%d</xliff:g> found</item>
+        <item quantity="one">1 ditemukan</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> ditemukan</item>
     </plurals>
 
     <!-- The content description for the "all contacts" tab.
@@ -363,7 +363,7 @@
          This is especially valuable for views without textual representation like ImageView.
 
          [CHAR LIMIT=NONE] -->
-    <string name="contactsAllLabel">Contacts</string>
+    <string name="contactsAllLabel">Kontak</string>
 
     <!-- The content description text for the groups tab.
 
@@ -371,7 +371,7 @@
          This is especially valuable for views without textual representation like ImageView.
 
          [CHAR LIMIT=NONE] -->
-    <string name="contactsGroupsLabel">Groups</string>
+    <string name="contactsGroupsLabel">Group</string>
 
     <!-- The description text for the favorites tab.
 
@@ -379,7 +379,7 @@
          This is especially valuable for views without textual representation like ImageView.
 
          [CHAR LIMIT=NONE] -->
-    <string name="contactsFavoritesLabel">Favorites</string>
+    <string name="contactsFavoritesLabel">Favorit</string>
 
     <!-- The description text for the dialer tab.
 
@@ -395,52 +395,52 @@
          This is especially valuable for views without textual representation like ImageView.
 
          [CHAR LIMIT=NONE] -->
-    <string name="recentCallsIconLabel">Call log</string>
+    <string name="recentCallsIconLabel">Log panggilan</string>
 
     <!-- Menu item used to send an SMS or MMS message to a phone number  -->
-    <string name="menu_sendTextMessage">Send text message</string>
+    <string name="menu_sendTextMessage">Kirim pesan teks</string>
 
     <!-- Menu item used to call a contact from the call log -->
-    <string name="recentCalls_callNumber">Call <xliff:g id="name">%s</xliff:g></string>
+    <string name="recentCalls_callNumber">Panggil <xliff:g id="name">%s</xliff:g></string>
 
     <!-- Menu item used to copy a number from the call log to the dialer so it can be edited before calling it -->
-    <string name="recentCalls_editNumberBeforeCall">Edit number before call</string>
+    <string name="recentCalls_editNumberBeforeCall">Edit nomor sebelum melakukan panggilan</string>
 
     <!-- Menu item used to add a number from the call log to contacts -->
-    <string name="recentCalls_addToContact">Add to contacts</string>
+    <string name="recentCalls_addToContact">Tambahkan ke kontak</string>
 
     <!-- Menu item used to remove a single call from the call log -->
-    <string name="recentCalls_removeFromRecentList">Remove from call log</string>
+    <string name="recentCalls_removeFromRecentList">Hapus dari log panggilan</string>
 
     <!-- Menu item used to remove all calls from the call log -->
-    <string name="recentCalls_deleteAll">Clear call log</string>
+    <string name="recentCalls_deleteAll">Bersihkan log panggilan</string>
 
     <!-- Menu item used to delete a voicemail. [CHAR LIMIT=30] -->
-    <string name="recentCalls_trashVoicemail">Delete voicemail</string>
+    <string name="recentCalls_trashVoicemail">Hapus voicemail</string>
 
     <!-- Menu item used to share a voicemail. [CHAR LIMIT=30] -->
-    <string name="recentCalls_shareVoicemail">Share voicemail</string>
+    <string name="recentCalls_shareVoicemail">Bagikan voicemail</string>
 
     <!-- Text displayed when the call log is empty -->
-    <string name="recentCalls_empty">Call log is empty</string>
+    <string name="recentCalls_empty">Log panggilan kosong</string>
 
     <!-- Title of the confirmation dialog for clearing the call log. [CHAR LIMIT=37]  -->
-    <string name="clearCallLogConfirmation_title">Clear all call logs?</string>
+    <string name="clearCallLogConfirmation_title">Bersihkan semua log panggilan?</string>
 
     <!-- Confirmation dialog for clearing the call log. [CHAR LIMIT=NONE]  -->
-    <string name="clearCallLogConfirmation">All your call records will be deleted.</string>
+    <string name="clearCallLogConfirmation">Semua catatan panggilan Anda akan dihapus.</string>
 
     <!-- Title of the "Clearing call log" progress-dialog [CHAR LIMIT=35] -->
-    <string name="clearCallLogProgress_title">Clearing call log\u2026</string>
+    <string name="clearCallLogProgress_title">Membersihkan log panggilan\u2026</string>
 
     <!-- Title of the confirmation dialog for clearing frequents. [CHAR LIMIT=37] -->
-    <string name="clearFrequentsConfirmation_title">Clear frequently contacted?</string>
+    <string name="clearFrequentsConfirmation_title">Bersihkan kontak yang sering dihubungi?</string>
 
     <!-- Confirmation dialog for clearing frequents. [CHAR LIMIT=NONE] -->
-    <string name="clearFrequentsConfirmation">Clear the frequent contacts list in Contacts and Phone, and force mail apps to learn your addressing preferences from scratch.</string>
+    <string name="clearFrequentsConfirmation">Bersihkan kontak yang sering dihubungi dari kontak dan ponsel, and force mail apps to learn your addressing preferences from scratch.</string>
 
     <!-- Title of the "Clearing frequently contacted" progress-dialog [CHAR LIMIT=35] -->
-    <string name="clearFrequentsProgress_title">Clearing frequently contacted\u2026</string>
+    <string name="clearFrequentsProgress_title">Membersihkan kontak yang sering dihubungi\u2026</string>
 
     <!-- The title of a dialog that displays the IMEI of the phone -->
     <string name="imei">IMEI</string>
@@ -452,234 +452,234 @@
     <string name="voicemail">Voicemail</string>
 
     <!-- String used to display calls from unknown numbers in the call log -->
-    <string name="unknown">Unknown</string>
+    <string name="unknown">Tidak di ketahui</string>
 
     <!-- String used to display calls from private numbers in the call log -->
-    <string name="private_num">Private number</string>
+    <string name="private_num">Nomor pribadi</string>
 
     <!-- String used to display calls from pay phone in the call log -->
     <string name="payphone">Pay phone</string>
 
     <!-- Displayed in the text entry box in the dialer when in landscape mode to guide the user
          to dial using the physical keyboard -->
-    <string name="dialerKeyboardHintText">Use keyboard to dial</string>
+    <string name="dialerKeyboardHintText">Gunakan keyboard untuk dial </string>
 
     <!-- Hint text displayed in the "digits" field above the dialer's
          dialpad, if there's already a call in progress.  (This hint
          reminds the user that the dialer will add a new call, as opposed
          to sending DTMF tones over the current call.)
          [CHAR LIMIT=40] -->
-    <string name="dialerDialpadHintText">Dial to add a call</string>
+    <string name="dialerDialpadHintText">Dial untuk menambahkan panggilan</string>
 
     <!-- Dialog text displayed when loading a phone number from the SIM card for speed dial -->
-    <string name="simContacts_emptyLoading">Loading contacts from SIM card\u2026</string>
+    <string name="simContacts_emptyLoading">Memuat kontak dari kartu SIM \u2026</string>
 
     <!-- Dialog title displayed when loading a phone number from the SIM card for speed dial -->
-    <string name="simContacts_title">SIM card contacts</string>
+    <string name="simContacts_title">Kontak kartu SIM</string>
 
     <!-- Displayed full screen when the user want to create a shortcut, but there is no contacts, and contact syncing is enabled -->
-    <string name="noContactsHelpTextWithSyncForCreateShortcut">"You don\'t have any contacts to display. (If you just added an account, it can take a few minutes to sync contacts.)"</string>
+    <string name="noContactsHelpTextWithSyncForCreateShortcut">"Anda tidak memiliki kontak untuk ditampilkan. (Jika Anda baru saja menambahkan akun, diperlukan waktu beberapa menit untuk sinkronisasi kontak .)"</string>
 
     <!-- Displayed full screen when the user want to create a shortcut, but there is no contacts -->
-    <string name="noContactsHelpTextForCreateShortcut">"You don\'t have any contacts to display."</string>
+    <string name="noContactsHelpTextForCreateShortcut">"Anda tidak memiliki kontak untuk ditampilkan."</string>
 
     <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is disabled.  [CHAR LIMIT=NONE] -->
-    <string name="noContactsHelpText" product="tablet">"You don\'t have any contacts to display.\n\nTo add contacts, touch <font fgcolor="#ffffffff"><b>Menu</b></font>, then touch:\n
-        \n<li><font fgcolor="#ffffffff"><b>Accounts</b></font> to add or set up an account with contacts you can sync to the tablet\n</li>
-        \n<li><font fgcolor="#ffffffff"><b>New contact</b></font> to create a new contact from scratch\n</li>
-        \n<li><font fgcolor="#ffffffff"><b>Import/export</b></font> to import contacts from your SIM or SD card\n</li>"
+    <string name="noContactsHelpText" product="tablet">"Anda tidak memiliki kontak untuk ditampilkan.\n\nTo add contacts, touch <font fgcolor="#ffffffff"><b>Menu</b></font>, lalu sentuh:\n
+        \n<li><font fgcolor="#ffffffff"><b>Accounts</b></font> untuk menambah atau menyiapkan akun dengan kontak yang dapat Anda sinkronkan ke tablet\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>New contact</b></font> untuk membuat kontak baru dari awal \n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Import/export</b></font> untuk mengimpor kontak dari kartu SIM atau kartu SD \n</li>"
     </string>
     <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is disabled.  [CHAR LIMIT=NONE] -->
-    <string name="noContactsHelpText" product="default">"You don\'t have any contacts to display.\n\nTo add contacts, touch <font fgcolor="#ffffffff"><b>Menu</b></font>, then touch:\n
-        \n<li><font fgcolor="#ffffffff"><b>Accounts</b></font> to add or set up an account with contacts you can sync to the phone\n</li>
-        \n<li><font fgcolor="#ffffffff"><b>New contact</b></font> to create a new contact from scratch\n</li>
-        \n<li><font fgcolor="#ffffffff"><b>Import/Export</b></font> to import contacts from your SIM or SD card\n</li>"
+    <string name="noContactsHelpText" product="default">"Anda tidak memiliki kontak untuk ditampilkan.\n\nTo add contacts, touch <font fgcolor="#ffffffff"><b>Menu</b></font>, then touch:\n
+        \n<li><font fgcolor="#ffffffff"><b>Accounts</b></font> untuk menambah atau menyiapkan akun dengan kontak yang dapat Anda sinkronkan ke ponsel\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>New contact</b></font> untuk membuat kontak baru dari awal\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Import/Export</b></font> untuk mengimpor kontak dari kartu SIM atau kartu SD\n</li>"
     </string>
 
     <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is enabled.  [CHAR LIMIT=NONE] -->
-    <string name="noContactsHelpTextWithSync" product="tablet">"You don\'t have any contacts to display. (If you just added an account, it can take a few minutes to sync contacts.)\n\nTo add contacts, touch <font fgcolor="#ffffffff"><b>Menu</b></font>, then touch:\n
-        \n<li><font fgcolor="#ffffffff"><b>Accounts</b></font> to add or set up an account with contacts you can sync to the tablet\n</li>
-        \n<li><font fgcolor="#ffffffff"><b>Display options</b></font> to change which contacts are visible\n</li>
-        \n<li><font fgcolor="#ffffffff"><b>New contact</b></font> to create a new contact from scratch\n</li>
-        \n<li><font fgcolor="#ffffffff"><b>Import/Export</b></font> to import contacts from your SIM or SD card\n</li>"
+    <string name="noContactsHelpTextWithSync" product="tablet">"Anda tidak memiliki kontak untuk ditampilkan.(Jika Anda baru saja menambahkan akun, diperlukan waktu beberapa menit untuk menyinkronkan kontak.)\n\nUntuk menambahkan kontak, sentuh <font fgcolor="#ffffffff"><b>Menu</b></font>, lalu sentuh:\n
+        \n<li><font fgcolor="#ffffffff"><b>Accounts</b></font> untuk menambah atau menyiapkan akun dengan kontak yang dapat disinkronkan dengan tablet\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Display options</b></font> untuk mengubah kontak yang terlihat \n</li>
+        \n<li><font fgcolor="#ffffffff"><b>New contact</b></font> untuk membuat kontak baru dari awal\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Import/Export</b></font> untuk mengimpor kontak dari kartu SIM atau kartu SD\n</li>"
     </string>
     <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is enabled.  [CHAR LIMIT=NONE] -->
-    <string name="noContactsHelpTextWithSync" product="default">"You don\'t have any contacts to display. (If you just added an account, it can take a few minutes to sync contacts.)\n\nTo add contacts, touch <font fgcolor="#ffffffff"><b>Menu</b></font>, then touch:\n
-        \n<li><font fgcolor="#ffffffff"><b>Accounts</b></font> to add or set up an account with contacts you can sync to the phone\n</li>
-        \n<li><font fgcolor="#ffffffff"><b>Display options</b></font> to change which contacts are visible\n</li>
-        \n<li><font fgcolor="#ffffffff"><b>New contact</b></font> to create a new contact from scratch\n</li>
-        \n<li><font fgcolor="#ffffffff"><b>Import/Export</b></font> to import contacts from your SIM or SD card\n</li>"
+    <string name="noContactsHelpTextWithSync" product="default">"Anda tidak memiliki kontak untuk di tampilkan. (Jika Anda baru saja menambahkan akun, diperlukan waktu beberapa menit untuk menyinkronkan kontak.)\n\nUntuk menambahkan kontak, sentuh <font fgcolor="#ffffffff"><b>Menu</b></font>, lalu sentuh:\n
+        \n<li><font fgcolor="#ffffffff"><b>Accounts</b></font> untuk menambah atau menyiapkan akun dengan kontak yang dapat disinkronkan dengan ponsel\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Display options</b></font> untuk mengubah kontak yang terlihat\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>New contact</b></font> untuk membuat kontak baru dari awal\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Import/Export</b></font> untuk mengimpor kontak dari kartu SIM atau kartu SD\n</li>"
     </string>
 
     <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is disabled, and there is no sim card (cdma).  [CHAR LIMIT=NONE]-->
-    <string name="noContactsNoSimHelpText" product="tablet">"You don\'t have any contacts to display.\n\nTo add contacts, touch <font fgcolor="#ffffffff"><b>Menu</b></font>, then touch:\n
-        \n<li><font fgcolor="#ffffffff"><b>Accounts</b></font> to add or set up an account with contacts you can sync to the tablet\n</li>
-        \n<li><font fgcolor="#ffffffff"><b>New contact</b></font> to create a new contact from scratch\n</li>
-        \n<li><font fgcolor="#ffffffff"><b>Import/Export</b></font> to import contacts from your SD card\n</li>"
+    <string name="noContactsNoSimHelpText" product="tablet">"Anda tidak memiliki kontak untuk ditampilkan.\n\nTo tambahkan kontak, pilih <font fgcolor="#ffffffff"><b>Menu</b></font>, lalu pilih:\n
+        \n<li><font fgcolor="#ffffffff"><b>Accounts</b></font> untuk menambah atau menyiapkan akun dengan kontak yang dapat disinkronkan dengan tablet\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>New contact</b></font> untuk membuat kontak baru dari awal\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Import/Export</b></font> untuk mengimpor kontak dari kartu SIM atau kartu SD\n</li>"
     </string>
     <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is disabled, and there is no sim card (cdma).  [CHAR LIMIT=NONE]-->
-    <string name="noContactsNoSimHelpText" product="default">"You don\'t have any contacts to display.\n\nTo add contacts, touch <font fgcolor="#ffffffff"><b>Menu</b></font>, then touch:\n
-        \n<li><font fgcolor="#ffffffff"><b>Accounts</b></font> to add or set up an account with contacts you can sync to the phone\n</li>
-        \n<li><font fgcolor="#ffffffff"><b>New contact</b></font> to create a new contact from scratch\n</li>
-        \n<li><font fgcolor="#ffffffff"><b>Import/Export</b></font> to import contacts from your SD card\n</li>"
+    <string name="noContactsNoSimHelpText" product="default">"Anda tidak memiliki kontak untuk ditampilkan.\n\nTo tambahkan kontak, sentuh <font fgcolor="#ffffffff"><b>Menu</b></font>, lalu sentuh:\n
+        \n<li><font fgcolor="#ffffffff"><b>Accounts</b></font> untuk menambah atau menyiapkan akun dengan kontak yang dapat disinkronkan dengan ponsel\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>New contact</b></font> untuk membuat kontak baru dari awal\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Import/Export</b></font> untuk mengimport kontak dari kartu SD\n</li>"
     </string>
 
     <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is enabled, and there is no sim card (cdma).  [CHAR LIMIT=NONE] -->
-    <string name="noContactsNoSimHelpTextWithSync" product="tablet">"You don\'t have any contacts to display. (If you just added an account, it can take a few minutes to sync contacts.)\n\nTo add contacts, touch <font fgcolor="#ffffffff"><b>Menu</b></font>, then touch:\n
-        \n<li><font fgcolor="#ffffffff"><b>Accounts</b></font> to add or set up an account with contacts you can sync to the tablet\n</li>
-        \n<li><font fgcolor="#ffffffff"><b>Display options</b></font> to change which contacts are visible\n</li>
-        \n<li><font fgcolor="#ffffffff"><b>New contact</b></font> to create a new contact from scratch\n</li>
-        \n<li><font fgcolor="#ffffffff"><b>Import/Export</b></font> to import contacts from your SD card\n</li>"
+    <string name="noContactsNoSimHelpTextWithSync" product="tablet">"Anda tidak memiliki kontak untuk di tampilkan. (Jika Anda baru saja menambahkan akun, diperlukan waktu beberapa menit untuk menyinkronkan kontak.)\n\nUntuk menambahkan kontak, sentuh <font fgcolor="#ffffffff"><b>Menu</b></font>, lalu sentuh:\n
+        \n<li><font fgcolor="#ffffffff"><b>Accounts</b></font> untuk menambah atau menyiapkan akun dengan kontak yang dapat disinkronkan dengan tablet\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Display options</b></font> untuk mengubah kontak yang terlihat\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>New contact</b></font> untuk membuat kontak baru dari awal\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Import/Export</b></font> untuk mengimport kontak dari kartu SD\n</li>"
     </string>
     <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is enabled, and there is no sim card (cdma).  [CHAR LIMIT=NONE] -->
-    <string name="noContactsNoSimHelpTextWithSync" product="default">"You don\'t have any contacts to display. (If you just added an account, it can take a few minutes to sync contacts.)\n\nTo add contacts, touch <font fgcolor="#ffffffff"><b>Menu</b></font>, then touch:\n
-        \n<li><font fgcolor="#ffffffff"><b>Accounts</b></font> to add or set up an account with contacts you can sync to the phone\n</li>
-        \n<li><font fgcolor="#ffffffff"><b>Display options</b></font> to change which contacts are visible\n</li>
-        \n<li><font fgcolor="#ffffffff"><b>New contact</b></font> to create a new contact from scratch\n</li>
-        \n<li><font fgcolor="#ffffffff"><b>Import/Export</b></font> to import contacts from your SD card\n</li>"
+    <string name="noContactsNoSimHelpTextWithSync" product="default">"Anda tidak memiliki kontak untuk ditampilkan. (Jika Anda baru saja menambahkan akun, diperlukan waktu beberapa menit untuk menyinkronkan kontak.)\n\nUntuk menambahkan kontak, sentuh <font fgcolor="#ffffffff"><b>Menu</b></font>, lalu sentuh:\n
+        \n<li><font fgcolor="#ffffffff"><b>Accounts</b></font> untuk menambah atau menyiapkan akun dengan kontak yang dapat disinkronkan dengan ponsel\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Display options</b></font> untuk mengubah kontak yang terlihat\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>New contact</b></font> untuk membuat kontak baru dari awal\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Import/Export</b></font> untuk mengimport kontak dari kartu SD\n</li>"
     </string>
 
     <!-- Displayed full screen when the user has no favorites and they are displaying the favorites tab. [CHAR LIMIT=NONE] -->
-    <string name="noFavoritesHelpText">"You don\'t have any favorites.\n\nTo add a contact to your list of favorites:\n
-        <li>Touch the <b>Contacts</b> tab\n</li>
-        \n<li>Touch the contact you want to add to your favorites\n</li>
-        \n<li>Touch the star next to the contact\'s name\n</li>"
+    <string name="noFavoritesHelpText">"Anda tidak memiliki favorit.\n\nUntuk menambahkan kontak ke daftar favorit:\n
+        <li>Sentuh <b>Contacts</b> tab\n</li>
+        \n<li>Pilih kontak untuk menambahkan ke favorit\n</li>
+        \n<li>Sentuh bintang di sebelah nama kontak\n</li>"
     </string>
 
     <!-- Item label: jump to the in-call DTMF dialpad.
          (Part of a list of options shown in the dialer when another call
          is already in progress.) -->
-    <string name="dialer_useDtmfDialpad">Use touch tone keypad</string>
+    <string name="dialer_useDtmfDialpad"> Gunakan nada sentuh tombol </string>
 
     <!-- Item label: jump to the in-call UI.
          (Part of a list of options shown in the dialer when another call
          is already in progress.) -->
-    <string name="dialer_returnToInCallScreen">Return to call in progress</string>
+    <string name="dialer_returnToInCallScreen"> Kembali ke panggilan sedang berlangsung </string>
 
     <!-- Item label: use the Dialer's dialpad to add another call.
          (Part of a list of options shown in the dialer when another call
          is already in progress.) -->
-    <string name="dialer_addAnotherCall">Add call</string>
+    <string name="dialer_addAnotherCall">Tambah panggilan</string>
 
     <!-- Title bar for call detail screen -->
-    <string name="callDetailTitle">Call details</string>
+    <string name="callDetailTitle">Rincian panggilan</string>
 
     <!-- Toast for call detail screen when couldn't read the requested details -->
-    <string name="toast_call_detail_error">Couldn\'t read details for the requested call</string>
+    <string name="toast_call_detail_error">Tidak bisa membaca rincian untuk panggilan yang diminta</string>
 
     <!-- Title for incoming call details screen -->
-    <string name="type_incoming">Incoming call</string>
+    <string name="type_incoming">Panggilan masuk</string>
 
     <!-- Title for outgoing call details screen -->
-    <string name="type_outgoing">Outgoing call</string>
+    <string name="type_outgoing">Panggilan keluar</string>
 
     <!-- Title for missed call details screen -->
-    <string name="type_missed">Missed call</string>
+    <string name="type_missed">Panggilan tidak terjawab</string>
 
     <!-- Title for voicemail details screen -->
     <string name="type_voicemail">Voicemail</string>
 
     <!-- Description for incoming calls going to voice mail vs. not -->
-    <string name="actionIncomingCall">Incoming calls</string>
+    <string name="actionIncomingCall">Panggilan masuk</string>
 
     <!-- Action string for calling back a number in the call log -->
-    <string name="callBack">Call back</string>
+    <string name="callBack">Ulangi panggilan</string>
 
     <!-- Action string for calling a number in the call log again -->
-    <string name="callAgain">Call again</string>
+    <string name="callAgain">Panggil kembali</string>
 
     <!-- Action string for returning a missed call in the call log -->
-    <string name="returnCall">Return call</string>
+    <string name="returnCall">Panggilan kembali</string>
 
     <!-- A nicely formatted call duration displayed when viewing call details. For example "42 mins 28 secs" -->
-    <string name="callDetailsDurationFormat"><xliff:g id="minutes" example="42">%s</xliff:g> mins <xliff:g id="seconds" example="28">%s</xliff:g> secs</string>
+    <string name="callDetailsDurationFormat"><xliff:g id="minutes" example="42">%s</xliff:g> menit <xliff:g id="seconds" example="28">%s</xliff:g> detik</string>
 
     <!-- The text displayed on the divider for the Favorites tab in People app indicating that items below it are frequently contacted [CHAR LIMIT = 39] -->
-    <string name="favoritesFrequentContacted">Frequently contacted</string>
+    <string name="favoritesFrequentContacted">Kontak yang sering dihubungi</string>
 
     <!-- The text displayed on the divider for the Favorites tab in Phone app indicating that items below it are frequently called as opposed to starred contacts [CHAR LIMIT = 39] -->
-    <string name="favoritesFrequentCalled">Frequently called</string>
+    <string name="favoritesFrequentCalled">Sering disebut</string>
 
     <!-- Dialog message when prompting before creating a contact. Includes
          the email address, e.g. "Add xyz@foo.com to contacts?" -->
-    <string name="add_contact_dlg_message_fmt">Add \"<xliff:g id="email">%s</xliff:g>\" to contacts?</string>
+    <string name="add_contact_dlg_message_fmt">Tambahkan \"<xliff:g id="email">%s</xliff:g>\" ke kontak?</string>
 
     <!-- String describing the image on ImageButton one
 
         Note: AccessibilityServices use this attribute to announce what the view represents.
               This is especially valuable for views without textual representation like ImageView.
     -->
-    <string name="description_image_button_one">one</string>
+    <string name="description_image_button_one">satu</string>
 
     <!-- String describing the image on ImageButton two
 
         Note: AccessibilityServices use this attribute to announce what the view represents.
               This is especially valuable for views without textual representation like ImageView.
     -->
-    <string name="description_image_button_two">two</string>
+    <string name="description_image_button_two">dua</string>
 
     <!-- String describing the image on ImageButton three
 
         Note: AccessibilityServices use this attribute to announce what the view represents.
               This is especially valuable for views without textual representation like ImageView.
     -->
-    <string name="description_image_button_three">three</string>
+    <string name="description_image_button_three">tiga</string>
 
     <!-- String describing the image on ImageButton four
 
         Note: AccessibilityServices use this attribute to announce what the view represents.
               This is especially valuable for views without textual representation like ImageView.
     -->
-    <string name="description_image_button_four">four</string>
+    <string name="description_image_button_four">empat</string>
 
     <!-- String describing the image on ImageButton five
 
         Note: AccessibilityServices use this attribute to announce what the view represents.
               This is especially valuable for views without textual representation like ImageView.
     -->
-    <string name="description_image_button_five">five</string>
+    <string name="description_image_button_five">lima</string>
 
     <!-- String describing the image on ImageButton six
 
         Note: AccessibilityServices use this attribute to announce what the view represents.
               This is especially valuable for views without textual representation like ImageView.
     -->
-    <string name="description_image_button_six">six</string>
+    <string name="description_image_button_six">enam</string>
 
     <!-- String describing the image on ImageButton seven
 
         Note: AccessibilityServices use this attribute to announce what the view represents.
               This is especially valuable for views without textual representation like ImageView.
     -->
-    <string name="description_image_button_seven">seven</string>
+    <string name="description_image_button_seven">tujuh</string>
 
     <!-- String describing the image on ImageButton eight
 
         Note: AccessibilityServices use this attribute to announce what the view represents.
               This is especially valuable for views without textual representation like ImageView.
     -->
-    <string name="description_image_button_eight">eight</string>
+    <string name="description_image_button_eight">delapan</string>
 
     <!-- String describing the image on ImageButton nine
 
         Note: AccessibilityServices use this attribute to announce what the view represents.
               This is especially valuable for views without textual representation like ImageView.
     -->
-    <string name="description_image_button_nine">nine</string>
+    <string name="description_image_button_nine">sembilan</string>
 
     <!-- String describing the image on ImageButton star
 
         Note: AccessibilityServices use this attribute to announce what the view represents.
               This is especially valuable for views without textual representation like ImageView.
     -->
-    <string name="description_image_button_star">star</string>
+    <string name="description_image_button_star">sepuluh</string>
 
     <!-- String describing the image on ImageButton zero
 
         Note: AccessibilityServices use this attribute to announce what the view represents.
               This is especially valuable for views without textual representation like ImageView.
     -->
-    <string name="description_image_button_zero">zero</string>
+    <string name="description_image_button_zero">nol</string>
 
     <!-- String describing the image on ImageButton pound
 
@@ -699,7 +699,7 @@
          Used by AccessibilityService to announce the purpose of the button.
          [CHAR LIMIT=NONE]
     -->
-    <string name="description_search_button">search</string>
+    <string name="description_search_button">cari</string>
 
     <!-- String describing the Dial ImageButton
 
@@ -717,13 +717,13 @@
 
          Used by AccessibilityService to announce the purpose of the view.
     -->
-    <string name="description_digits_edittext">number to dial</string>
+    <string name="description_digits_edittext">nomor dial</string>
 
     <!-- String describing the Contact Photo Image
 
          Used by AccessibilityService to announce the purpose of the view.
     -->
-    <string name="description_contact_photo">contact photo</string>
+    <string name="description_contact_photo">foto kontak</string>
 
     <!-- String describing the Contact Editor Minus button
 
@@ -746,45 +746,45 @@
     <string name="description_view_contact_detail" msgid="2795575601596468581">View contact</string>
 
     <!-- Dialog message shown when (USB) storage does not exist [CHAR LIMIT=30] -->
-    <string name="no_sdcard_message" product="nosdcard">No storage was found.</string>
+    <string name="no_sdcard_message" product="nosdcard">Tidak ada penyimpanan ditemukan.</string>
     <!-- Dialog message shown when SDcard does not exist. [CHAR LIMIT=30] -->
-    <string name="no_sdcard_message" product="default">No SD card was found.</string>
+    <string name="no_sdcard_message" product="default">Tidak ada SD card ditemukan.</string>
 
-    <!-- Action string for selecting SIM for importing contacts -->
-    <string name="import_from_sim">Import from SIM card 1</string>
-    <string name="import_from_sim2">Import from SIM card 2</string>
-
-    <!-- Action string for selecting (USB) storage for importing contacts [CHAR LIMIT=25] -->
-    <string name="import_from_sdcard" product="default">Import from storage</string>
+     <!-- Action string for selecting SIM for importing contacts -->
+    <string name="import_from_sim">Impor dari kartu SIM 1</string>
+    <string name="import_from_sim2">Impor dari kartu SIM 2</string>
+	
+	<!-- Action string for selecting (USB) storage for importing contacts [CHAR LIMIT=25] -->
+    <string name="import_from_sdcard" product="default">Import dari storage</string>
 
     <!-- Action that exports all contacts to (USB) storage [CHAR LIMIT=25] -->
-    <string name="export_to_sdcard" product="default">Export to storage</string>
+    <string name="export_to_sdcard" product="default">Export ke storage</string>
 
     <!-- Action that shares visible contacts -->
-    <string name="share_visible_contacts">Share contacts</string>
+    <string name="share_visible_contacts">Bagikan kontak</string>
 
     <!-- One of alternatives shown when the system allows a user to select how many vCard files
          should be imported. This message shows only when the system is certain that there's more
          than one vCard files available in the system. -->
-    <string name="import_one_vcard_string">Import one vCard file</string>
+    <string name="import_one_vcard_string">Impor satu file vCard</string>
 
     <!-- One of alternatives shown when the system allows a user to select how many vCard files
          should be imported. This message shows only when the system is certain that there's more
          than one vCard files available in the system. -->
-    <string name="import_multiple_vcard_string">Import multiple vCard files</string>
+    <string name="import_multiple_vcard_string">Impor beberapa file vCard</string>
 
     <!-- One of alternatives shown when the system allows a user to select how many vCard files
          should be imported. This message shows only when the system is certain that there's more
          than one vCard files available in the system. -->
-    <string name="import_all_vcard_string">Import all vCard files</string>
+    <string name="import_all_vcard_string">Import semua file vCard</string>
 
     <!-- Dialog message shown when searching VCard data from (USB) storage [CHAR LIMIT=NONE] -->
-    <string name="searching_vcard_message" product="nosdcard">Searching for vCard data in storage\u2026</string>
+    <string name="searching_vcard_message" product="nosdcard">Mencari data vCard dalam penyimpanan\u2026</string>
     <!-- Dialog message shown when searching VCard data from SD Card. [CHAR LIMIT=NONE] -->
-    <string name="searching_vcard_message" product="default">Searching for vCard data on SD card\u2026</string>
+    <string name="searching_vcard_message" product="default">Mencari data vCard pada kartu SD\u2026</string>
 
-    <string name="scanning_sdcard_failed_title" product="nosdcard">The storage couldn\'t be scanned</string>
-    <string name="scanning_sdcard_failed_title" product="default">The SD card couldn\'t be scanned</string>
+    <string name="scanning_sdcard_failed_title" product="nosdcard">Penyimpanan tidak dapat dipindai</string>
+    <string name="scanning_sdcard_failed_title" product="default">SD card tidak dapat dipindai</string>
     <!-- Dialog message shown when searching VCard data failed.
          An exact reason for the failure should [CHAR LIMIT=NONE] -->
     <string name="scanning_sdcard_failed_message" product="nosdcard">Reason: \"<xliff:g id="fail_reason">%s</xliff:g>\".</string>
@@ -798,41 +798,41 @@
 
     <!-- Failure reason show when Contacts app (especially vCard importer) encountered
          low memory problem and could not proceed its import procedure. [CHAR LIMIT=NONE] -->
-    <string name="fail_reason_low_memory_during_import">Not enough memory. The file may be too large.</string>
+    <string name="fail_reason_low_memory_during_import">Tak cukup memori. File mungkin terlalu besar.</string>
 
     <!-- The failed reason shown when vCard parser was not able to be parsed by the current vCard
          implementation. This might happen even when the input vCard is completely valid, though
          we believe it is rather rare in the actual world. [CHAR LIMIT=NONE] -->
-    <string name="fail_reason_vcard_parse_error">Couldn\'t parse vCard for an unexpected reason.</string>
+    <string name="fail_reason_vcard_parse_error">Tidak dapat mengurai vCard untuk alasan yang tak terduga.</string>
 
     <!-- The failed reason shown when vCard importer doesn't support the format.
          This may be shown when the vCard is corrupted [CHAR LIMIT=40] -->
-    <string name="fail_reason_not_supported">The format isn\'t supported.</string>
+    <string name="fail_reason_not_supported">Format tidak di support.</string>
 
     <!-- Message used when vCard import has failed. [CHAR LIMIT=40] -->
-    <string name="vcard_import_failed">Couldn\'t import vCard.</string>
+    <string name="vcard_import_failed">Tidak dapat mengimpor vCard.</string>
 
     <!-- The failure message shown when the system could not find any vCard file.
          (with extension ".vcf" in (USB) storage.)
          [CHAR LIMIT=128] -->
-    <string name="import_failure_no_vcard_file" product="nosdcard">No vCard file found in storage.</string>
+    <string name="import_failure_no_vcard_file" product="nosdcard">Tidak ditemukan berkas vCard dalam penyimpanan.</string>
     <!-- The failure message shown when the system could not find any vCard file.
          (with extension ".vcf" in SDCard.)
          [CHAR LIMIT=128] -->
-    <string name="import_failure_no_vcard_file" product="default">No vCard file found on the SD card.</string>
+    <string name="import_failure_no_vcard_file" product="default">Tidak ditemukan berkas vCard pada kartu SD.</string>
 
     <!-- Fail reason shown when vCard importer failed to look over meta information stored in vCard file(s). -->
-    <string name="fail_reason_failed_to_collect_vcard_meta_info">Couldn\'t collect meta information of given vCard file(s).</string>
+    <string name="fail_reason_failed_to_collect_vcard_meta_info">Tidak dapat mengumpulkan informasi meta file vCard yang diberikan(s).</string>
 
     <!-- The failed reason shown when the import of some of vCard files failed during multiple vCard
          files import. It includes the case where all files were failed to be imported. -->
-    <string name="fail_reason_failed_to_read_files">One or more files couldn\'t be imported (%s).</string>
+    <string name="fail_reason_failed_to_read_files">Satu atau lebih file tidak dapat diimpor (%s).</string>
 
     <!-- The failed reason which should not be shown but it may in some buggy condition. [CHAR LIMIT=40] -->
     <string name="fail_reason_unknown">Unknown error.</string>
 
     <!-- Dialog title shown when a user is asked to select vCard file. [CHAR LIMIT=25] -->
-    <string name="select_vcard_title">Choose vCard file</string>
+    <string name="select_vcard_title">Pilih file vCard</string>
 
     <!-- The title shown when vCard importer is caching files to be imported into local temporary
          data storage.  [CHAR LIMIT=40] -->
@@ -840,127 +840,127 @@
 
     <!-- The message shown when vCard importer is caching files to be imported into local temporary
          data storage. [CHAR LIMIT=NONE] -->
-    <string name="caching_vcard_message">Caching vCard to phone\u2026</string>
+    <string name="caching_vcard_message">Caching vCard ke ponsel\u2026</string>
 
     <!-- Description shown when importing vCard data.
          The argument is the name of a contact which is being read.
          [CHAR LIMIT=20] -->
-    <string name="importing_vcard_description">Importing <xliff:g id="name" example="Joe Due">%s</xliff:g></string>
+    <string name="importing_vcard_description">Mengimpor <xliff:g id="name" example="Joe Due">%s</xliff:g></string>
 
     <!-- Dialog title shown when reading vCard data failed [CHAR LIMIT=40] -->
-    <string name="reading_vcard_failed_title">Couldn\'t read vCard data</string>
+    <string name="reading_vcard_failed_title">Tidak bisa membaca data vCard</string>
 
     <!-- The title shown when reading vCard is canceled (probably by a user)
          [CHAR LIMIT=40] -->
-    <string name="reading_vcard_canceled_title">Reading vCard data canceled</string>
+    <string name="reading_vcard_canceled_title">Membaca data vCard dibatalkan</string>
 
     <!-- The title shown when reading vCard finished
          The argument is file name the user imported.
          [CHAR LIMIT=40] -->
-    <string name="importing_vcard_finished_title">Finished importing vCard <xliff:g id="filename" example="import.vcf">%s</xliff:g></string>
+    <string name="importing_vcard_finished_title">Selesai mengimpor vCard <xliff:g id="filename" example="import.vcf">%s</xliff:g></string>
 
     <!-- The title shown when importing vCard is canceled (probably by a user)
          The argument is file name the user canceled importing.
          [CHAR LIMIT=40] -->
-    <string name="importing_vcard_canceled_title">Importing <xliff:g id="filename" example="import.vcf">%s</xliff:g> canceled</string>
+    <string name="importing_vcard_canceled_title">Mengimpor <xliff:g id="filename" example="import.vcf">%s</xliff:g> dibatalkan</string>
 
     <!-- The message shown when vCard import request is accepted. The system may start that work soon, or do it later
          when there are already other import/export requests.
          The argument is file name the user imported.
          [CHAR LIMIT=40] -->
-    <string name="vcard_import_will_start_message"><xliff:g id="filename" example="import.vcf">%s</xliff:g> will be imported shortly.</string>
+    <string name="vcard_import_will_start_message"><xliff:g id="filename" example="import.vcf">%s</xliff:g> akan segera diimpor.</string>
     <!-- The message shown when vCard import request is accepted. The system may start that work soon, or do it later when there are already other import/export requests.
          "The file" is what a user selected for importing.
          [CHAR LIMIT=40] -->
-    <string name="vcard_import_will_start_message_with_default_name">The file will be imported shortly.</string>
+    <string name="vcard_import_will_start_message_with_default_name">File akan segera diimpor.</string>
     <!-- The message shown when a given vCard import request is rejected by the system. [CHAR LIMIT=NONE] -->
-    <string name="vcard_import_request_rejected_message">vCard import request was rejected. Try again later.</string>
+    <string name="vcard_import_request_rejected_message">Permintaan ekspor vCard ditolak. Coba lagi nanti.</string>
     <!-- The message shown when vCard export request is accepted. The system may start that work soon, or do it later
          when there are already other import/export requests.
          The argument is file name the user exported.
          [CHAR LIMIT=40] -->
-    <string name="vcard_export_will_start_message"><xliff:g id="filename" example="import.vcf">%s</xliff:g> will be exported shortly.</string>
+    <string name="vcard_export_will_start_message"><xliff:g id="filename" example="import.vcf">%s</xliff:g> akan segera diimpor.</string>
     <!-- The message shown when a given vCard export request is rejected by the system. [CHAR LIMIT=NONE] -->
-    <string name="vcard_export_request_rejected_message">vCard export request was rejected. Try again later.</string>
+    <string name="vcard_export_request_rejected_message">Permintaan ekspor vCard ditolak. Coba lagi nanti.</string>
     <!-- Used when file name is unknown in vCard processing. It typically happens
          when the file is given outside the Contacts app. [CHAR LIMIT=30] -->
-    <string name="vcard_unknown_filename">contact</string>
+    <string name="vcard_unknown_filename">Kontak</string>
 
     <!-- The percentage, used for expressing the progress of vCard import/export. -->
     <string name="percentage"><xliff:g id="percentage" example="50">%s</xliff:g><xliff:g id="percentsign" example="%">%%</xliff:g></string>
 
     <!-- Dialog title shown when a user confirms whether he/she export Contact data. [CHAR LIMIT=32] -->
-    <string name="confirm_export_title">Export contacts?</string>
+    <string name="confirm_export_title">Export kontak?</string>
 
     <!-- Dialog message shown when a user confirms whether he/she export Contact data [CHAR LIMIT=NONE] -->
-    <string name="confirm_export_message">Your contact list will be exported to file: <xliff:g id="vcard_filename">%s</xliff:g>.</string>
+    <string name="confirm_export_message">Daftar kontak Anda akan diekspor ke file: <xliff:g id="vcard_filename">%s</xliff:g>.</string>
 
     <!-- Dialog title shown when exporting Contact data failed. [CHAR LIMIT=20] -->
-    <string name="exporting_contact_failed_title">Couldn\'t export</string>
+    <string name="exporting_contact_failed_title">Tidak bisa diekspor</string>
 
     <!-- Dialog message shown when exporting Contact data failed. [CHAR LIMIT=NONE] -->
-    <string name="exporting_contact_failed_message">The contact data wasn\'t exported.\nReason: \"<xliff:g id="fail_reason">%s</xliff:g>\"</string>
+    <string name="exporting_contact_failed_message">Data kontak tidak diekspor.\nReason: \"<xliff:g id="fail_reason">%s</xliff:g>\"</string>
 
     <!-- The failed reason shown when there's no contact which is allowed to be exported.
          Note that user may have contacts data but all of them are probably not allowed to be
          exported because of security/permission reasons. [CHAR LIMIT=NONE] -->
-    <string name="fail_reason_no_exportable_contact">There is no exportable contact.</string>
+    <string name="fail_reason_no_exportable_contact">Tidak ada kontak ekspor.</string>
 
     <!-- The failed reason shown when vCard exporter could not create a file for the vCard since
          there are too many files relevant to vCard. [CHAR LIMIT=NONE] -->
-    <string name="fail_reason_too_many_vcard" product="nosdcard">Too many vCard files are in the storage.</string>
+    <string name="fail_reason_too_many_vcard" product="nosdcard">Terlalu banyak berkas vCard dalam penyimpanan.</string>
     <!-- The failed reason shown when vCard exporter could not create a file for the vCard since
          there are too many files relevant to vCard. -->
-    <string name="fail_reason_too_many_vcard" product="default">Too many vCard files are on the SD card.</string>
+    <string name="fail_reason_too_many_vcard" product="default">Terlalu banyak file vCard di dalam SD card.</string>
 
     <!-- The failed reason shown when the given file name is too long for the system.
          The length limit of each file is different in each Android device, so we don't need to
          mention it here. [CHAR LIMIT=NONE] -->
-    <string name="fail_reason_too_long_filename">Required filename is too long (\"<xliff:g id="filename">%s</xliff:g>\").</string>
+    <string name="fail_reason_too_long_filename">Nama yang diperlukan terlalu panjang (\"<xliff:g id="filename">%s</xliff:g>\").</string>
 
     <!-- The title shown when exporting vCard is successfuly finished [CHAR LIMIT=40] -->
-    <string name="exporting_vcard_finished_title">Finished exporting <xliff:g id="filename" example="export.vcf">%s</xliff:g>.</string>
+    <string name="exporting_vcard_finished_title">Ekspor selesai <xliff:g id="filename" example="export.vcf">%s</xliff:g>.</string>
 
     <!-- The title shown when exporting vCard is canceled (probably by a user)
          The argument is file name the user canceled importing.
          [CHAR LIMIT=40] -->
-    <string name="exporting_vcard_canceled_title">Exporting <xliff:g id="filename" example="export.vcf">%s</xliff:g> canceled.</string>
+    <string name="exporting_vcard_canceled_title">Mengekspor <xliff:g id="filename" example="export.vcf">%s</xliff:g> canceled.</string>
 
     <!-- Dialog title shown when the application is exporting contact data outside. [CHAR LIMIT=NONE] -->
-    <string name="exporting_contact_list_title">Exporting contact data</string>
+    <string name="exporting_contact_list_title">Mengekspor data kontak</string>
 
     <!-- Message shown when the application is exporting contact data outside -->
-    <string name="exporting_contact_list_message">Your contact data is being exported to: <xliff:g id="file_name">%s</xliff:g>.</string>
+    <string name="exporting_contact_list_message">Data kontak Anda sedang diekspor ke: <xliff:g id="file_name">%s</xliff:g>.</string>
 
     <!-- The failed reason shown when contacts exporter fails to be initialized.
          Some exact reason must follow this. [CHAR LIMIT=NONE]-->
-    <string name="fail_reason_could_not_initialize_exporter">Couldn\'t start the exporter: \"<xliff:g id="exact_reason">%s</xliff:g>\".</string>
+    <string name="fail_reason_could_not_initialize_exporter">Tidak dapat memulai eksportir: \"<xliff:g id="exact_reason">%s</xliff:g>\".</string>
 
     <!-- The failed reason shown when some error happend during contacts export.
          Some exact reason must follow this. [CHAR LIMIT=NONE] -->
-    <string name="fail_reason_error_occurred_during_export">An error occurred during export: \"<xliff:g id="exact_reason">%s</xliff:g>\".</string>
+    <string name="fail_reason_error_occurred_during_export">Sebuah kesalahan terjadi selama ekspor: \"<xliff:g id="exact_reason">%s</xliff:g>\".</string>
 
     <!-- The error reason the vCard composer "may" emit when database is corrupted or
          something is going wrong. Usually users should not see this text. [CHAR LIMIT=NONE] -->
-    <string name="composer_failed_to_get_database_infomation">Couldn\'t get database information.</string>
+    <string name="composer_failed_to_get_database_infomation">Tidak bisa mendapatkan informasi basis data.</string>
 
     <!-- This error message shown when the user actually have no contact
          (e.g. just after data-wiping), or, data providers of the contact list prohibits their
          contacts from being exported to outside world via vcard exporter, etc. [CHAR LIMIT=NONE] -->
-    <string name="composer_has_no_exportable_contact" product="tablet">There are no exportable contacts. If you do have contacts on your tablet, some data providers may not allow the contacts to be exported from the tablet.</string>
+    <string name="composer_has_no_exportable_contact" product="tablet">Tidak ada kontak yang dapat diekspor. Jika Anda memiliki kontak di tablet, beberapa penyedia data mungkin tidak mengizinkan kontak untuk diekspor dari tablet.</string>
     <!-- This error message shown when the user actually have no contact
          (e.g. just after data-wiping), or, data providers of the contact list prohibits their
          contacts from being exported to outside world via vcard exporter, etc. [CHAR LIMIT=NONE] -->
-    <string name="composer_has_no_exportable_contact" product="default">There are no exportable contacts. If you do have contacts on your phone, some data providers may not allow the contacts to be exported from the phone.</string>
+    <string name="composer_has_no_exportable_contact" product="default">Tidak ada kontak yang dapat diekspor. Jika Anda memiliki kontak di ponsel, beberapa penyedia data mungkin tidak mengizinkan kontak untuk diekspor dari tablet.</string>
 
     <!-- The error reason the vCard composer may emit when vCard composer is not initialized
          even when needed.
          Users should not usually see this error message. [CHAR LIMIT=NONE] -->
-    <string name="composer_not_initialized">The vCard composer didn\'t start properly.</string>
+    <string name="composer_not_initialized">Komposer vCard tidak dimulai dengan benar.</string>
 
     <!-- The failed reason shown when vCard importer/exporter could not open the file
          specified by a user. The file name should be in the message. [CHAR LIMIT=NONE] -->
-    <string name="fail_reason_could_not_open_file">Couldn\'t open \"<xliff:g id="file_name">%s</xliff:g>\": <xliff:g id="exact_reason">%s</xliff:g>.</string>
+    <string name="fail_reason_could_not_open_file">Tidak dapat dibuka"<xliff:g id="file_name">%s</xliff:g>\": <xliff:g id="exact_reason">%s</xliff:g>.</string>
 
     <!-- Message in progress bar while exporting contact list to a file "(current number) of (total number) contacts" The order of "current number" and "total number" cannot be changed (like "total: (total number), current: (current number)")-->
     <string name="exporting_contact_list_progress"><xliff:g id="current_number">%s</xliff:g> of <xliff:g id="total_number">%s</xliff:g> contacts</string>
@@ -968,112 +968,112 @@
     <!-- Message shown in a Dialog confirming a user's cancel request toward existing vCard import.
          The argument is file name for the vCard import the user wants to cancel.
          [CHAR LIMIT=128] -->
-    <string name="cancel_import_confirmation_message">Cancel import of <xliff:g id="filename" example="import.vcf">%s</xliff:g>?</string>
+    <string name="cancel_import_confirmation_message">Batalkan impor <xliff:g id="filename" example="import.vcf">%s</xliff:g>?</string>
 
     <!-- Message shown in a Dialog confirming a user's cancel request toward existing vCard export.
          The argument is file name for the vCard export the user wants to cancel.
          [CHAR LIMIT=128] -->
-    <string name="cancel_export_confirmation_message">Cancel export of <xliff:g id="filename" example="export.vcf">%s</xliff:g>?</string>
+    <string name="cancel_export_confirmation_message">Batalkan ekspor <xliff:g id="filename" example="export.vcf">%s</xliff:g>?</string>
 
     <!-- Title shown in a Dialog telling users cancel vCard import/export operation is failed. [CHAR LIMIT=40] -->
-    <string name="cancel_vcard_import_or_export_failed">Couldn\'t cancel vCard import/export</string>
+    <string name="cancel_vcard_import_or_export_failed">Tidak bisa membatalkan eksport vCard/export</string>
 
     <!-- The string used to describe Contacts as a searchable item within system search settings. -->
-    <string name="search_settings_description">Names of your contacts</string>
+    <string name="search_settings_description">Nama kontak Anda</string>
 
     <!-- Menu items for dialpad options as part of Pause and Wait ftr -->
     <string name="add_2sec_pause">Add 2-sec pause</string>
-    <string name="add_wait">Add wait</string>
+    <string name="add_wait">Tambah menunggu</string>
 
     <!-- Title for the call disambiguation dialog -->
-    <string name="call_disambig_title">Choose number</string>
+    <string name="call_disambig_title">Pilih nomor</string>
 
     <!-- Menu item label for call settings [CHAR LIMIT=30] -->
-    <string name="call_settings">Settings</string>
+    <string name="call_settings">Pengaturan</string>
 
     <!-- Title for the sms disambiguation dialog -->
-    <string name="sms_disambig_title">Choose number</string>
+    <string name="sms_disambig_title">Pilih nomor</string>
 
     <!-- Message next to disamgiguation dialog check box -->
-    <string name="make_primary">Remember this choice</string>
+    <string name="make_primary">Ingat pilihan ini</string>
 
     <!-- Shown as a toast when the user taps on a QuickContact icon, and no application
          was found that could perform the selected action. [CHAR LIMIT=NONE] -->
-    <string name="quickcontact_missing_app">No app was found to handle this action</string>
+    <string name="quickcontact_missing_app">Tidak ada aplikasi ditemukan untuk menangani tindakan ini</string>
 
     <!-- Shown as the display name for a person when the name is missing or unknown. [CHAR LIMIT=18]-->
     <string name="missing_name">(No name)</string>
 
     <!-- The menu item to open the list of accounts -->
-    <string name="menu_accounts">Accounts</string>
+    <string name="menu_accounts">Akun</string>
 
     <!--  The menu item to clear frequents [CHAR LIMIT=30] -->
-    <string name="menu_clear_frequents">Clear frequents</string>
+    <string name="menu_clear_frequents">Bersihkan frequents</string>
 
     <!-- The menu item to filter the list of contacts displayed -->
-    <string name="menu_contacts_filter">Contacts to display</string>
+    <string name="menu_contacts_filter">Kontak untuk ditampilkan</string>
 
     <!-- The menu item to bulk import or bulk export contacts from SIM card or SD card.  [CHAR LIMIT=30]-->
-    <string name="menu_import_export">Import/export</string>
+    <string name="menu_import_export">Impor/ekspor</string>
 
     <!-- Dialog title when selecting the bulk operation to perform from a list. [CHAR LIMIT=36] -->
-    <string name="dialog_import_export">Import/export contacts</string>
+    <string name="dialog_import_export">Impor/ekspor kontak</string>
 
     <!-- Dialog title when importing contacts from an external source. [CHAR LIMIT=36] -->
-    <string name="dialog_import">Import contacts</string>
+    <string name="dialog_import">Impor kontak</string>
 
     <!-- The menu item to share the currently viewed contact [CHAR LIMIT=30] -->
-    <string name="menu_share">Share</string>
+    <string name="menu_share">Bagikan</string>
 
     <!-- Dialog title when picking the application to share a contact with. -->
-    <string name="share_via">Send</string>
+    <string name="share_via">Kirim</string>
 
     <!-- Toast indicating that sharing a contact has failed. [CHAR LIMIT=NONE]  -->
-    <string name="share_error">This contact can\'t be shared</string>
+    <string name="share_error">Kontak ini tidak dapat di bagikan</string>
 
     <!-- Header that expands to list all name types when editing a structured name of a contact [CHAR LIMIT=20] -->
-    <string name="nameLabelsGroup">Name</string>
+    <string name="nameLabelsGroup">Nama</string>
     <!-- Header that expands to list all nickname types when editing a nickname of a contact [CHAR LIMIT=20] -->
-    <string name="nicknameLabelsGroup">Nickname</string>
+    <string name="nicknameLabelsGroup">Nama panggilan</string>
     <!-- Header that expands to list all organization types when editing an organization of a contact [CHAR LIMIT=20] -->
-    <string name="organizationLabelsGroup">Organization</string>
+    <string name="organizationLabelsGroup">Organisasi</string>
     <!-- Header that expands to list all website types when editing a website of a contact [CHAR LIMIT=20] -->
     <string name="websiteLabelsGroup">Website</string>
     <!-- Header that expands to list all event types when editing an event of a contact [CHAR LIMIT=20] -->
-    <string name="eventLabelsGroup">Birthday</string>
+    <string name="eventLabelsGroup">Hari ulang tahun</string>
     <!-- Header for the list of all relationships for a contact [CHAR LIMIT=20] -->
-    <string name="relationLabelsGroup">Relationship</string>
+    <string name="relationLabelsGroup">Hubungan</string>
     <!-- Header for the list of all groups for a contact [CHAR LIMIT=20] -->
-    <string name="groupsLabel">Groups</string>
+    <string name="groupsLabel">Group</string>
 
-    <string name="dialog_new_contact_account">Create contact under account</string>
+    <string name="dialog_new_contact_account">Membuat kontak dalam akun</string>
 
     <!-- Title for the disambiguation dialog that requests the user choose an account for the new group to be created under [CHAR LIMIT=NONE] -->
-    <string name="dialog_new_group_account">Create group under account</string>
+    <string name="dialog_new_group_account">Membuat group dalam akun</string>
 
-    <string name="menu_sync_remove">Remove sync group</string>
-    <string name="dialog_sync_add">Add sync group</string>
+    <string name="menu_sync_remove">Hapus sync group</string>
+    <string name="dialog_sync_add">Tambahkan sync group</string>
     <string name="display_more_groups">More groups\u2026</string>
 
     <!-- List title for a special contacts group that covers all contacts. [CHAR LIMIT=25] -->
-    <string name="display_ungrouped">All other contacts</string>
+    <string name="display_ungrouped">Semua kontak lain</string>
 
     <!-- List title for a special contacts group that covers all contacts that
          aren't members of any other group. [CHAR LIMIT=25] -->
-    <string name="display_all_contacts">All contacts</string>
+    <string name="display_all_contacts">Semua kontak</string>
 
     <!-- Warning message given to users just before they remove a currently syncing
          group that would also cause all ungrouped contacts to stop syncing.  [CHAR LIMIT=NONE] -->
-    <string name="display_warn_remove_ungrouped">Removing \"<xliff:g id="group" example="Starred">%s</xliff:g>\" from sync will also remove any ungrouped contacts from sync.</string>
+    <string name="display_warn_remove_ungrouped">Menghapus \"<xliff:g id="group" example="Starred">%s</xliff:g>\" dari sync juga akan menghapus setiap kontak groupnya dari sync.</string>
 
     <!-- Title for data source when creating or editing a contact that doesn't
          belong to a specific account.  This contact will only exist on the phone
          and will not be synced. -->
-    <string name="account_phone" product="tablet">Tablet-only, unsynced</string>
+    <string name="account_phone" product="tablet">Tablet-saja, unsynced</string>
     <!-- Title for data source when creating or editing a contact that doesn't
          belong to a specific account.  This contact will only exist on the phone
          and will not be synced. -->
-    <string name="account_phone" product="default">Phone-only, unsynced</string>
+    <string name="account_phone" product="default">Ponsel-saja, unsynced</string>
 
     <!-- Action string for calling a custom phone number -->
     <string name="call_custom">Call <xliff:g id="custom">%s</xliff:g></string>
@@ -1162,7 +1162,7 @@
     <string name="sms_mms">Text MMS</string>
 
     <!-- Generic action string for text messaging a contact. Used by AccessibilityService to announce the purpose of the view. [CHAR LIMIT=NONE] -->
-    <string name="sms">Text message</string>
+    <string name="sms">Pesan teks</string>
 
     <!-- Action string for sending an email to a home email address -->
     <string name="email_home">Email home</string>
@@ -1179,30 +1179,30 @@
     <string name="email">Email</string>
 
     <!-- Action string for viewing a home postal address -->
-    <string name="map_home">View home address</string>
+    <string name="map_home">Lihat alamat rumah</string>
     <!-- Action string for viewing a work postal address -->
-    <string name="map_work">View work address</string>
+    <string name="map_work">Lihat alamat kerja</string>
     <!-- Action string for viewing an other postal address -->
-    <string name="map_other">View address</string>
+    <string name="map_other">Lihat alamat</string>
     <!-- Action string for viewing a custom postal address -->
-    <string name="map_custom">View <xliff:g id="custom">%s</xliff:g> address</string>
+    <string name="map_custom">Lihat <xliff:g id="custom">%s</xliff:g> address</string>
 
     <!-- Action string for starting an IM chat with the AIM protocol -->
-    <string name="chat_aim">Chat using AIM</string>
+    <string name="chat_aim">Chat menggunakan AIM</string>
     <!-- Action string for starting an IM chat with the MSN or Windows Live protocol -->
-    <string name="chat_msn">Chat using Windows Live</string>
+    <string name="chat_msn">Chat menggunakan Windows Live</string>
     <!-- Action string for starting an IM chat with the Yahoo protocol -->
-    <string name="chat_yahoo">Chat using Yahoo</string>
+    <string name="chat_yahoo">Chat menggunakan Yahoo</string>
     <!-- Action string for starting an IM chat with the Skype protocol -->
-    <string name="chat_skype">Chat using Skype</string>
+    <string name="chat_skype">Chat menggunakan Skype</string>
     <!-- Action string for starting an IM chat with the QQ protocol -->
-    <string name="chat_qq">Chat using QQ</string>
+    <string name="chat_qq">Chat umenggunakan QQ</string>
     <!-- Action string for starting an IM chat with the Google Talk protocol -->
-    <string name="chat_gtalk">Chat using Google Talk</string>
+    <string name="chat_gtalk">Chat menggunakan Google Talk</string>
     <!-- Action string for starting an IM chat with the ICQ protocol -->
-    <string name="chat_icq">Chat using ICQ</string>
+    <string name="chat_icq">Chat menggunakan ICQ</string>
     <!-- Action string for starting an IM chat with the Jabber protocol -->
-    <string name="chat_jabber">Chat using Jabber</string>
+    <string name="chat_jabber">Chat menggunakan Jabber</string>
 
     <!-- Generic action string for starting an IM chat -->
     <string name="chat">Chat</string>
@@ -1212,48 +1212,48 @@
     <string name="video_chat">Video chat</string>
 
     <!-- Field title for the full postal address of a contact [CHAR LIMIT=64]-->
-    <string name="postal_address">Address</string>
+    <string name="postal_address">Alamat</string>
     <!-- Field title for the street of a structured postal address of a contact -->
-    <string name="postal_street">Street</string>
+    <string name="postal_street">Jalan</string>
     <!-- Field title for the PO box of a structured postal address of a contact -->
     <string name="postal_pobox">PO box</string>
     <!-- Field title for the neighborhood of a structured postal address of a contact -->
-    <string name="postal_neighborhood">Neighborhood</string>
+    <string name="postal_neighborhood">Lingkungan sekitar</string>
     <!-- Field title for the city of a structured postal address of a contact -->
-    <string name="postal_city">City</string>
+    <string name="postal_city">Kota</string>
     <!-- Field title for the region, or state, of a structured postal address of a contact -->
-    <string name="postal_region">State</string>
+    <string name="postal_region">Negara</string>
     <!-- Field title for the postal code of a structured postal address of a contact -->
-    <string name="postal_postcode">ZIP code</string>
+    <string name="postal_postcode">ZIP kode</string>
     <!-- Field title for the country of a structured postal address of a contact -->
-    <string name="postal_country">Country</string>
+    <string name="postal_country">Negara</string>
 
     <!-- Field title for the full name of a contact [CHAR LIMIT=64]-->
-    <string name="full_name">Name</string>
+    <string name="full_name">Nama</string>
     <!-- Field title for the given name of a contact -->
     <string name="name_given">Given name</string>
     <!-- Field title for the family name of a contact -->
-    <string name="name_family">Family name</string>
+    <string name="name_family">Nama keluarga</string>
     <!-- Field title for the prefix name of a contact -->
-    <string name="name_prefix">Name prefix</string>
+    <string name="name_prefix">Nama prefix</string>
     <!-- Field title for the middle name of a contact -->
-    <string name="name_middle">Middle name</string>
+    <string name="name_middle">Nama tengah</string>
     <!-- Field title for the suffix name of a contact -->
-    <string name="name_suffix">Name suffix</string>
+    <string name="name_suffix">Nama akhir</string>
     <!-- Field title for the phonetic given name of a contact -->
-    <string name="name_phonetic_given">Phonetic given name</string>
+    <string name="name_phonetic_given">Phonetic nama yang diberikan</string>
     <!-- Field title for the phonetic middle name of a contact -->
-    <string name="name_phonetic_middle">Phonetic middle name</string>
+    <string name="name_phonetic_middle">Phonetic nama tengah</string>
     <!-- Field title for the phonetic family name of a contact -->
-    <string name="name_phonetic_family">Phonetic family name</string>
+    <string name="name_phonetic_family">Phonetic nama keluarga</string>
     <!-- Field title for the phonetic name of a contact [CHAR LIMIT=64]-->
-    <string name="name_phonetic">Phonetic name</string>
+    <string name="name_phonetic">Phonetic nama</string>
 
     <!-- Title for the list of all contact details that come from third-party sources (including a corporate directory) [CHAR LIMIT=20] -->
-    <string name="connections">Connections</string>
+    <string name="connections">Koneksi</string>
 
     <!-- Label of the button to open the "add connection" popup where the user can invite a contact to other social networks or services [CHAR LIMIT=32] -->
-    <string name="add_connection_button">Add connection</string>
+    <string name="add_connection_button">Tambahkan koneksi</string>
 
     <!-- Section title for the page containing the contact's social updates on the contact card (this abbreviated version of "Recent updates" is used when "updates" is already shown as the title of the page) [CHAR LIMIT=20]-->
     <string name="recent" msgid="2062236709538790412">Recent</string>
@@ -1262,102 +1262,102 @@
     <string name="recent_updates" msgid="2018245636796411442">Recent updates</string>
 
     <!-- String describing which account type a contact came from when editing it -->
-    <string name="account_type_format"><xliff:g id="source" example="Gmail">%1$s</xliff:g> contact</string>
+    <string name="account_type_format"><xliff:g id="source" example="Gmail">%1$s</xliff:g> kontak</string>
 
     <!-- String describing which account a contact came from when editing it -->
     <string name="from_account_format"><xliff:g id="source" example="user@gmail.com">%1$s</xliff:g></string>
 
     <!-- Checkbox asking the user if they want to display a particular photo for a contact -->
-    <string name="use_photo_as_primary">Use this photo</string>
+    <string name="use_photo_as_primary">Gunakan foto ini</string>
 
     <!-- Text used to explain that a contact cannot be edited from the People application since the data is read only [CHAR LIMIT=40] -->
-    <string name="contact_read_only">Not editable from this app.</string>
+    <string name="contact_read_only">Tidak dapat diedit dari aplikasi ini.</string>
 
     <!-- Text describing that a contact has no information available other than name and photo. [CHAR LIMIT=60] -->
-    <string name="no_contact_details">No additional information for this contact.</string>
+    <string name="no_contact_details">Tidak ada informasi tambahan untuk kontak ini.</string>
 
     <!-- Text used to explain that a group cannot be edited since the data is read only [CHAR LIMIT=40] -->
-    <string name="group_read_only">Not editable on this device.</string>
+    <string name="group_read_only">Tidak dapat di edit dari device ini.</string>
 
     <!-- Label of the "sort list by" display option -->
-    <string name="display_options_sort_list_by">Sort list by</string>
+    <string name="display_options_sort_list_by">Urutkan daftar dengan</string>
 
     <!-- An allowable value for the "sort list by" contact display option  -->
-    <string name="display_options_sort_by_given_name">Given name</string>
+    <string name="display_options_sort_by_given_name">Nama yang diberikan</string>
 
     <!-- An allowable value for the "sort list by" contact display option  -->
-    <string name="display_options_sort_by_family_name">Family name</string>
+    <string name="display_options_sort_by_family_name">Nama keluarga</string>
 
     <!-- Label of the "view names as" display option -->
-    <string name="display_options_view_names_as">View contact names as</string>
+    <string name="display_options_view_names_as">Lihat nama kontak sebagai</string>
 
     <!-- An allowable value for the "view names as" contact display option  -->
-    <string name="display_options_view_given_name_first">Given name first</string>
+    <string name="display_options_view_given_name_first">Nama yang diberikan pertama</string>
 
     <!-- An allowable value for the "view names as" contact display option  -->
-    <string name="display_options_view_family_name_first">Family name first</string>
+    <string name="display_options_view_family_name_first">Nama keluarga pertama</string>
 
     <!-- An option in the 'Contact photo' dialog, if there is no photo yet [CHAR LIMIT=50] -->
-    <string name="take_photo">Take photo</string>
+    <string name="take_photo">Ambil foto</string>
 
     <!-- An option in the 'Contact photo' dialog, if there is already a photo [CHAR LIMIT=50] -->
-    <string name="take_new_photo">Take new photo</string>
+    <string name="take_new_photo">Ambil foto baru</string>
 
     <!-- An option in the 'Contact photo' dialog, if there is no photo yet [CHAR LIMIT=50] -->
-    <string name="pick_photo">Choose photo from Gallery</string>
+    <string name="pick_photo">Pilih foto dari galeri</string>
 
     <!-- An option in the 'Contact photo' dialog, if there is already a photo [CHAR LIMIT=50] -->
-    <string name="pick_new_photo">Select new photo from Gallery</string>
+    <string name="pick_new_photo">Pilih foto baru dari galeri</string>
 
     <!-- Text shown in the contacts app while the background process updates contacts after a locale change [CHAR LIMIT=300] -->
-    <string name="locale_change_in_progress">Contact list is being updated to reflect the change of language.</string>
+    <string name="locale_change_in_progress">Daftar kontak sedang diperbarui untuk mencerminkan perubahan bahasa.</string>
 
     <!-- Text shown in the contacts app while the background process updates contacts after a system upgrade [CHAR LIMIT=300] -->
-    <string name="upgrade_in_progress">Contact list is being updated.</string>
+    <string name="upgrade_in_progress">Daftar kontak sedang diperbarui.</string>
 
     <!-- Text shown in the contacts app if the background process updating contacts fails because of memory shortage [CHAR LIMIT=300] -->
-    <string name="upgrade_out_of_memory">Contacts are in the process of being upgraded.
+    <string name="upgrade_out_of_memory">Kontak sedang dalam proses upgrade.
     \n\nThe upgrade process requires approximately <xliff:g id="size_in_megabytes">%s</xliff:g>
-    MB of internal storage.\n\nChoose one of the following options:</string>
+    MB penyimpanan internal.\n\nPilih salah satu dari opsi berikut:</string>
 
     <!-- Button shown in the contacts app if the background process updating contacts fails because of memory shortage [CHAR LIMIT=50] -->
-    <string name="upgrade_out_of_memory_uninstall">Uninstall some applications</string>
+    <string name="upgrade_out_of_memory_uninstall">Uninstall beberapa aplikasi</string>
 
     <!-- Button shown in the contacts app if the background process updating contacts fails because of memory shortage [CHAR LIMIT=50] -->
-    <string name="upgrade_out_of_memory_retry">Retry upgrade</string>
+    <string name="upgrade_out_of_memory_retry">Ulangi upgrade</string>
 
     <!-- Title shown in the search result activity of contacts app while searching.  [CHAR LIMIT=20] -->
-    <string name="search_results_searching">Searching\u2026</string>
+    <string name="search_results_searching">Mencari\u2026</string>
 
     <!-- Label to display only selection in multiple picker -->
-    <string name="menu_display_selected">"Show selected"</string>
+    <string name="menu_display_selected">"Tampilkan yang dipilih"</string>
 
     <!-- Label to display all recipients in multiple picker -->
-    <string name="menu_display_all">"Show all"</string>
+    <string name="menu_display_all">"Tampilkan semua"</string>
 
     <!-- Label to select all contacts in multiple picker -->
-    <string name="menu_select_all">"Select all"</string>
+    <string name="menu_select_all">"Pilih semua"</string>
 
     <!-- Label to clear all selection in multiple picker -->
-    <string name="menu_select_none">"Unselect all"</string>
+    <string name="menu_select_none">"Batalkan semua"</string>
 
     <!-- The text displayed when the contacts list is empty while displaying only selected contacts in multiple picker -->
-    <string name="no_contacts_selected">"No contacts selected."</string>
+    <string name="no_contacts_selected">"Tidak ada kontak dipilih."</string>
 
     <!-- The add field button shown in the editor under each editable Raw Contact [CHAR LIMIT=30] -->
-    <string name="add_field">Add another field</string>
+    <string name="add_field">Menambahkan bidang lain</string>
 
     <!-- The button to add another entry of a specific data type (i.e. email, phone, address) to a contact in the Raw Contact Editor [CHAR LIMIT=22] -->
-    <string name="add_new_entry_for_section">Add new</string>
+    <string name="add_new_entry_for_section">Tambahkan baru</string>
 
     <!-- The button to add an organization field to a contact in the Raw Contact Editor [CHAR LIMIT=22] -->
-    <string name="add_organization">Add organization</string>
+    <string name="add_organization">Tambahkan organisasi</string>
 
     <!-- The button to add an organization field to a contact in the Raw Contact Editor [CHAR LIMIT=12] -->
-    <string name="event_edit_field_hint_text">Date</string>
+    <string name="event_edit_field_hint_text">Tanggal</string>
 
     <!-- The button to add an organization field to a contact in the Raw Contact Editor [CHAR LIMIT=15] -->
-    <string name="group_edit_field_hint_text">Group name</string>
+    <string name="group_edit_field_hint_text">Nama group</string>
 
     <!-- Attbution of a contact status update, when the time of update is unknown -->
     <string name="contact_status_update_attribution">via <xliff:g id="source" example="Google Talk">%1$s</xliff:g></string>
@@ -1369,16 +1369,16 @@
 
          Used by AccessibilityService to announce the purpose of the view.
     -->
-    <string name="description_star">favorite</string>
+    <string name="description_star">favorit</string>
 
     <!-- The title of the Edit-Contact screen -->
-    <string name="edit_contact">Edit contact</string>
+    <string name="edit_contact">Edit kontak</string>
 
     <!-- Shows how many contacts have been merged. The value 1 is not shown but should be translated
          anyway if we change our mind later -->
     <plurals name="merge_info">
-        <item quantity="one">not merged</item>
-        <item quantity="other">merged from <xliff:g id="count">%0$d</xliff:g> sources</item>
+        <item quantity="one">tidak digabung</item>
+        <item quantity="other">digabung dari <xliff:g id="count">%0$d</xliff:g> sources</item>
     </plurals>
 
     <!-- The name of the invisible local contact directory -->
@@ -1386,23 +1386,23 @@
 
     <!-- The message in a confirmation dialog shown when the user selects a
         contact aggregation suggestion in Contact editor. [CHAR LIMIT=512]-->
-    <string name="aggregation_suggestion_join_dialog_message">Join
-        the current contact with the selected contact?</string>
+    <string name="aggregation_suggestion_join_dialog_message">Gabungkan
+		kontak saat ini dengan kontak yang dipilih?</string>
 
     <!-- The message in a confirmation dialog shown when the user selects a
         contact aggregation suggestion in Contact editor. [CHAR LIMIT=512]-->
-    <string name="aggregation_suggestion_edit_dialog_title">Same name</string>
-    <string name="aggregation_suggestion_edit_dialog_message">Switch to editing
-        the same-name contact? Information you entered so far will be copied.</string>
+    <string name="aggregation_suggestion_edit_dialog_title">Nama sama</string>
+    <string name="aggregation_suggestion_edit_dialog_message">Beralih ke mengedit 
+		kontak yang sama-nama? Informasi yang Anda masukkan sejauh ini akan disalin.</string>
 
     <!-- The button that creates a local copy of a corporate contact. [CHAR LIMIT=40]-->
-    <string name="menu_copyContact">Copy to My Contacts</string>
+    <string name="menu_copyContact">Copy ke Kontak Saya</string>
 
     <!-- The button that adds a contact to the predefined group "My Contacts" (as this is
          mostly interesting for Google-contacts, this should have the same description as the
          function of GMail/Contacts on the Web
          [CHAR LIMIT=40] -->
-    <string name="add_to_my_contacts">Add to My Contacts</string>
+    <string name="add_to_my_contacts">Tambahkan ke Kontak Saya</string>
 
     <!-- The description of the directory where the contact was found [CHAR LIMIT=100]-->
     <string name="contact_directory_description">Directory <xliff:g id="type" example="Corporate Directory">%1$s</xliff:g></string>
@@ -1411,13 +1411,13 @@
     <string name="directory_search_label">Directory</string>
 
     <!-- The label in section header in the contact list for a local contacts [CHAR LIMIT=128] -->
-    <string name="local_search_label">All contacts</string>
+    <string name="local_search_label">Semua kontak</string>
 
     <!-- Toast shown when creating a personal copy of a contact [CHAR LIMIT=100] -->
-    <string name="toast_making_personal_copy">Creating a personal copy\u2026</string>
+    <string name="toast_making_personal_copy">Membuat salinan pribadi\u2026</string>
 
     <!-- Contact list filter label indicating that the list is showing all available accounts [CHAR LIMIT=64] -->
-    <string name="list_filter_all_accounts">All contacts</string>
+    <string name="list_filter_all_accounts">Semua kontak</string>
 
     <!-- Contact list filter label indicating that the list is showing all starred contacts [CHAR LIMIT=64] -->
     <string name="list_filter_all_starred">Starred</string>
@@ -1426,25 +1426,25 @@
     <string name="list_filter_custom">Custom</string>
 
     <!-- Contact list filter selection indicating that the list shows groups chosen by the user [CHAR LIMIT=64] -->
-    <string name="list_filter_customize">Customize</string>
+    <string name="list_filter_customize">Sesuaikan</string>
 
     <!-- Contact list filter selection indicating that the list shows all contacts with phone numbers [CHAR LIMIT=64] -->
-    <string name="list_filter_phones">All contacts with phone numbers</string>
+    <string name="list_filter_phones">Semua kontak dengan nomor telepon</string>
 
     <!-- Contact list filter selection indicating that the list shows only the selected contact [CHAR LIMIT=64] -->
-    <string name="list_filter_single">Contact</string>
+    <string name="list_filter_single">Kontak</string>
 
     <!-- Title of the activity that allows the user to customize filtering of contact list [CHAR LIMIT=128] -->
-    <string name="custom_list_filter">Define custom view</string>
+    <string name="custom_list_filter">Tentukan tampilan kustom</string>
 
     <!-- Message that appears in the favorites tab of the Phone app when the contact list has not fully loaded yet (below the favorite and frequent contacts) [CHAR LIMIT=20] -->
     <string name="contact_list_loading">Loading\u2026</string>
 
     <!-- Title of the settings activity [CHAR LIMIT=64] -->
-    <string name="activity_title_settings">Settings</string>
+    <string name="activity_title_settings">Pengaturan</string>
 
     <!-- Title of the activity that allows the uesr to filter the list of contacts displayed according to account [CHAR LIMIT=25] -->
-    <string name="activity_title_contacts_filter">Contacts to display</string>
+    <string name="activity_title_contacts_filter">Kontak yg ditampilkan</string>
 
     <!-- Menu item for the settings activity [CHAR LIMIT=64] -->
     <string name="menu_settings" msgid="377929915873428211">Settings</string>
@@ -1453,56 +1453,56 @@
     <string name="menu_help">Help</string>
 
     <!-- The preference section title for contact display options [CHAR LIMIT=128] -->
-    <string name="preference_displayOptions">Display options</string>
+    <string name="preference_displayOptions">Opsi tampilan</string>
 
     <!-- Text used to show a organization that has both a company and title. This is used in the Detail-View
     of a Contact. This is mostly about the formatting of the two elements, so it should be kept small [CHAR LIMIT=79] -->
     <string name="organization_company_and_title"><xliff:g id="company" example="Technical Program Manager">%1$s</xliff:g>, <xliff:g id="company" example="Google Inc.">%2$s</xliff:g></string>
 
     <!-- Query hint displayed inside the search field [CHAR LIMIT=64] -->
-    <string name="hint_findContacts">Find contacts</string>
+    <string name="hint_findContacts">Temukan kontak</string>
 
     <!-- Title shown for the phone number when the number tries to call on a device that it not a phone [CHAR LIMIT=30] -->
-    <string name="non_phone_caption">Phone number</string>
+    <string name="non_phone_caption">Nomor telepon</string>
 
     <!-- Button to add a phone number to contacts [CHAR LIMIT=25] -->
-    <string name="non_phone_add_to_contacts">Add to contacts</string>
+    <string name="non_phone_add_to_contacts">Tambahkan ke kontak</string>
 
     <!-- Title of the activity that allows the user to confirm the addition of a detail to 1 existing contact [CHAR LIMIT=25] -->
-    <string name="activity_title_confirm_add_detail">Add to contact</string>
+    <string name="activity_title_confirm_add_detail">Tambahkan ke kontak</string>
 
     <!-- Button to close without add a phone number to contacts [CHAR LIMIT=25] -->
-    <string name="non_phone_close">Close</string>
+    <string name="non_phone_close">Keluar</string>
 
     <!-- Format string that combines the name and the phonetic name for the widget. if the phonetic name is empty, only the display name is used instead [CHAR LIMIT=25] -->
     <string name="widget_name_and_phonetic"><xliff:g id="display_name" example="John Huber">%1$s</xliff:g> (<xliff:g id="phonetic_name">%2$s</xliff:g>)</string>
 
     <!-- Checkbox whether to provide a year for a birthday [CHAR LIMIT=30] -->
-    <string name="date_year_toggle">Provide a year</string>
+    <string name="date_year_toggle">Menyediakan tahun</string>
 
     <!-- Label for the widget that shows picture and social status of a contact [CHAR LIMIT=20] -->
-    <string name="social_widget_label">Contact</string>
+    <string name="social_widget_label">Kontak</string>
 
     <!-- Message of widget while it is loading data [CHAR LIMIT=20] -->
     <string name="social_widget_loading">Loading\u2026</string>
 
     <!-- Button shown on the main contacts screen when there are no contacts on the device.
     Creates a new contact. [CHAR LIMIT=128] -->
-    <string name="contacts_unavailable_create_contact">Create a new contact</string>
+    <string name="contacts_unavailable_create_contact">Buat kontak baru</string>
 
     <!-- Button shown on the main contacts screen when there are no contacts on the device.
     Navigates to account setup [CHAR LIMIT=128] -->
-    <string name="contacts_unavailable_add_account">Sign in to an account</string>
+    <string name="contacts_unavailable_add_account">Masuk ke akun</string>
 
     <!-- Button shown on the main contacts screen when there are no contacts on the device.
     Initiates a contact import dialog [CHAR LIMIT=128] -->
-    <string name="contacts_unavailable_import_contacts">Import contacts from a file</string>
+    <string name="contacts_unavailable_import_contacts">Impor kontak dari sebuah file</string>
 
     <!-- Title of the dialog that allows creation of a contact group [CHAR LIMIT=128] -->
-    <string name="create_group_dialog_title">Create new group</string>
+    <string name="create_group_dialog_title">Buat group baru</string>
 
     <!-- An item in the popup list of groups that triggers creation of a contact group [CHAR LIMIT=128] -->
-    <string name="create_group_item_label">Create new group</string>
+    <string name="create_group_item_label">Buat group baru</string>
 
     <!-- Shows how many groups are from the specified account [CHAR LIMIT=15] -->
     <plurals name="num_groups_in_account">
@@ -1510,10 +1510,10 @@
         <item quantity="other"><xliff:g id="count">%0$d</xliff:g> groups</item>
     </plurals>
 
-    <string name="delete_group_dialog_title">Delete group</string>
+    <string name="delete_group_dialog_title">Hapus group</string>
     <!-- Confirmation message of the dialog that allows deletion of a contact group  [CHAR LIMIT=256] -->
-    <string name="delete_group_dialog_message">Delete the group
-      \"<xliff:g id="group_label" example="Friends">%1$s</xliff:g>\", contacts themselves will not be deleted.
+    <string name="delete_group_dialog_message">Hapus group
+      \"<xliff:g id="group_label" example="Friends">%1$s</xliff:g>\", kontak sendiri tidak akan dihapus.
     </string>
 
     <!-- Subtitle of the group detail page that describes how many people are in the current group [CHAR LIMIT=30] -->
@@ -1524,34 +1524,34 @@
 
     <!-- Subtitle of a group (in the group list) that describes how many people are in the current group [CHAR LIMIT=30] -->
     <plurals name="group_list_num_contacts_in_group">
-        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> person</item>
-        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> people</item>
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> pribadi</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> seseorang</item>
     </plurals>
     <plurals name="group_list_num_numbers_in_group">
-        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> number</item>
-        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> numbers</item>
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> nomor</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> nomor</item>
     </plurals>
 
     <!-- Toast displayed when the user creates a new contact and attempts to join it
       with another before entering any data  [CHAR LIMIT=256] -->
-    <string name="toast_join_with_empty_contact">Type contact name before merging
-      with another
+    <string name="toast_join_with_empty_contact">Ketik nama kontak sebelum penggabungan 
+		dengan yang lain
     </string>
 
     <!-- Option displayed in context menu to copy long pressed item to clipboard [CHAR LIMIT=64] -->
-    <string name="copy_text">Copy to clipboard</string>
+    <string name="copy_text">Salin ke clipboard</string>
 
     <!-- Option displayed in context menu to set long pressed item as default contact method [CHAR LIMIT=64] -->
     <string name="set_default">Set default</string>
 
     <!-- Option displayed in context menu to clear long pressed item as default contact method [CHAR LIMIT=64] -->
-    <string name="clear_default">Clear default</string>
+    <string name="clear_default">Bersihkan default</string>
 
     <!-- Toast shown when text is copied to the clipboard [CHAR LIMIT=64] -->
-    <string name="toast_text_copied">Text copied</string>
+    <string name="toast_text_copied">Teks disalin</string>
 
     <!-- Contents of the alert dialog when the user hits the Cancel button in the editor [CHAR LIMIT=128] -->
-    <string name="cancel_confirmation_dialog_message">Discard your changes?</string>
+    <string name="cancel_confirmation_dialog_message">Buang perubahan Anda?</string>
 
     <!-- Description of a call log entry, made of a call type and a date -->
     <string name="call_type_and_date">
@@ -1560,13 +1560,13 @@
 
     <!-- Text displayed in place of the display name for the contact that represents the user's
       personal profile entry [CHAR LIMIT=64] -->
-    <string name="profile_display_name">Set up my profile</string>
+    <string name="profile_display_name">Mengatur profil saya</string>
 
     <!-- Label to instruct the user to type in a contact's name to add the contact as a member of the current group. [CHAR LIMIT=64] -->
-    <string name="enter_contact_name">Type person\'s name</string>
+    <string name="enter_contact_name">Ketik nama orang</string>
 
     <!-- Button to view the updates from the current group on the group detail page [CHAR LIMIT=25] -->
-    <string name="view_updates_from_group">View updates</string>
+    <string name="view_updates_from_group">Lihat pembaruan</string>
 
     <!-- Title of the notification of new voicemails. [CHAR LIMIT=30] -->
     <plurals name="notification_voicemail_title">
@@ -1588,10 +1588,10 @@
     <string name="notification_voicemail_callers_list"><xliff:g id="newer_callers">%1$s</xliff:g>, <xliff:g id="older_caller">%2$s</xliff:g></string>
 
     <!-- Text used in the ticker to notify the user of the latest voicemail. [CHAR LIMIT=30] -->
-    <string name="notification_new_voicemail_ticker">New voicemail from <xliff:g id="caller">%1$s</xliff:g></string>
+    <string name="notification_new_voicemail_ticker">Voicemail baru dari <xliff:g id="caller">%1$s</xliff:g></string>
 
     <!-- Message to show when there is an error playing back the voicemail. [CHAR LIMIT=40] -->
-    <string name="voicemail_playback_error">Couldn\'t play voicemail.</string>
+    <string name="voicemail_playback_error">Tidak bisa memutar voicemail.</string>
 
     <!-- Message to display before we have prepared the media player, i.e. before we know duration. [CHAR LIMIT=40] -->
     <string name="voicemail_buffering">Buffering\u2026</string>
@@ -1600,61 +1600,61 @@
     <string name="voicemail_fetching_content">Fetching voicemail\u2026</string>
 
     <!-- Message to display if we fail to get content within a suitable time period. [CHAR LIMIT=40] -->
-    <string name="voicemail_fetching_timout">Couldn\'t fetch voicemail.</string>
+    <string name="voicemail_fetching_timout">Tidak bisa menarik voicemail.</string>
 
     <!-- The header in the call log used to identify missed calls and voicemail that have not yet been consumed [CHAR LIMIT=10] -->
-    <string name="call_log_new_header">New</string>
+    <string name="call_log_new_header">Baru</string>
 
     <!-- The header in the call log used to identify items that have been already consumed [CHAR LIMIT=10] -->
-    <string name="call_log_old_header">Older</string>
+    <string name="call_log_old_header">Lama</string>
 
     <!--  Voicemail status message shown at the top of call log to notify the user that no new
       voicemails are currently available. This can happen when both notification as well as data
       connection to the voicemail server is lost. [CHAR LIMIT=64] -->
-    <string name="voicemail_status_voicemail_not_available">Can\'t connect to voicemail server.</string>
+    <string name="voicemail_status_voicemail_not_available">Tidak bisa tersambung ke server voicemail.</string>
     <!--  Voicemail status message shown at the top of call log to notify the user that there is no
       data connection to the voicemail server, but there are new voicemails waiting on the server.
       [CHAR LIMIT=64] -->
-    <string name="voicemail_status_messages_waiting">Can\'t connect to voicemail server. New voicemails are waiting.</string>
+    <string name="voicemail_status_messages_waiting">Tidak bisa tersambung ke server voicemail. Voicemail baru menunggu.</string>
    <!--  Voicemail status message shown at the top of call log to invite the user to configure
       visual voicemail. [CHAR LIMIT=64] -->
-    <string name="voicemail_status_configure_voicemail">Set up your voicemail.</string>
+    <string name="voicemail_status_configure_voicemail">Atur voicemail anda.</string>
    <!--  Voicemail status message shown at the top of call details screen to notify the user that
       the audio of this voicemail is not available. [CHAR LIMIT=64] -->
-    <string name="voicemail_status_audio_not_available">Audio not available.</string>
+    <string name="voicemail_status_audio_not_available">Audio tidak tersedia.</string>
 
    <!--  User action prompt shown next to a voicemail status message to let the user configure
    visual voicemail. [CHAR LIMIT=20] -->
-    <string name="voicemail_status_action_configure">Set up</string>
+    <string name="voicemail_status_action_configure">Mengatur</string>
    <!--  User action prompt shown next to a voicemail status message to let the user call voicemail
    server directly to listen to the voicemails. [CHAR LIMIT=20] -->
-    <string name="voicemail_status_action_call_server">Call voicemail</string>
+    <string name="voicemail_status_action_call_server">Panggilan voicemail</string>
 
     <!-- The slowest voicemail playback speed. [CHAR LIMIT=30] -->
-    <string name="voicemail_speed_slowest">Slowest speed</string>
+    <string name="voicemail_speed_slowest">Kecepatan sangat pelan</string>
     <!-- Slower than normal voicemail playback speed. [CHAR LIMIT=30] -->
-    <string name="voicemail_speed_slower">Slow speed</string>
+    <string name="voicemail_speed_slower">Kecepatan pelan</string>
     <!--  Normal voicemail playback speed. [CHAR LIMIT=30] -->
-    <string name="voicemail_speed_normal">Normal speed</string>
+    <string name="voicemail_speed_normal">Kecepatan normal</string>
     <!--  Faster than normal pvoicemail playback speed. [CHAR LIMIT=30] -->
-    <string name="voicemail_speed_faster">Fast speed</string>
+    <string name="voicemail_speed_faster">Cepat</string>
     <!--  Fastest voicemail playback speed. [CHAR LIMIT=30] -->
-    <string name="voicemail_speed_fastest">Fastest speed</string>
+    <string name="voicemail_speed_fastest">Kecepatan tercepat</string>
 
     <!-- The counter for calls in a group and the date of the latest call as shown in the call log [CHAR LIMIT=15] -->
     <string name="call_log_item_count_and_date">(<xliff:g id="count">%1$d</xliff:g>) <xliff:g id="date">%2$s</xliff:g></string>
 
     <!-- Hint text in the group name box in the edit group view. [CHAR LIMIT=20]-->
-    <string name="group_name_hint">Group\'s name</string>
+    <string name="group_name_hint">Nama group</string>
 
     <!-- The "file name" displayed for vCards received directly via NFC [CHAR LIMIT=16] -->
-    <string name="nfc_vcard_file_name">Contact received over NFC</string>
+    <string name="nfc_vcard_file_name">Kontak menerima lebih NFC</string>
 
     <!-- Menu item used to show only voicemails in the call log. [CHAR LIMIT=30] -->
-    <string name="menu_show_voicemails_only">Show voicemails only</string>
+    <string name="menu_show_voicemails_only">Tampilkan voicemails saja</string>
 
     <!-- Menu item used to show all calls in the call log. [CHAR LIMIT=30] -->
-    <string name="menu_show_all_calls">Show all calls</string>
+    <string name="menu_show_all_calls">Tampilkan semua panggilan</string>
 
     <!--  Used to display as default status when the contact is available for chat [CHAR LIMIT=19] -->
     <string name="status_available">Available</string>
@@ -1677,7 +1677,7 @@
         Note: AccessibilityServices use this attribute to announce what the view represents.
               This is especially valuable for views without textual representation like ImageView.
     -->
-    <string name="description_call_log_incoming_call">Incoming call</string>
+    <string name="description_call_log_incoming_call">Panggilan masuk</string>
 
     <!-- String describing the icon in the call log used to represent an outgoing call.
 
@@ -1685,7 +1685,7 @@
               This is especially valuable for views without textual representation like ImageView.
     -->
 
-    <string name="description_call_log_outgoing_call">Outgoing call</string>
+    <string name="description_call_log_outgoing_call">Panggilan keluar</string>
 
     <!-- String describing the icon in the call log used to represent a missed call.
 
@@ -1693,7 +1693,7 @@
               This is especially valuable for views without textual representation like ImageView.
     -->
 
-    <string name="description_call_log_missed_call">Missed call</string>
+    <string name="description_call_log_missed_call">Panggilan tidak terjawab</string>
 
     <!-- String describing the icon in the call log used to represent a voicemail left to the user.
 
@@ -1707,14 +1707,14 @@
         Note: AccessibilityServices use this attribute to announce what the view represents.
               This is especially valuable for views without textual representation like ImageView.
     -->
-    <string name="description_add_contact">Add contact</string>
+    <string name="description_add_contact">Tambahkan kontak</string>
 
     <!-- String describing the button to view the contact for the current number.
 
         Note: AccessibilityServices use this attribute to announce what the view represents.
               This is especially valuable for views without textual representation like ImageView.
     -->
-    <string name="description_view_contact">View contact <xliff:g id="name">%1$s</xliff:g></string>
+    <string name="description_view_contact">Tampilkan kontak <xliff:g id="name">%1$s</xliff:g></string>
 
     <!-- String describing the button to call a number or contact.
 
@@ -1729,7 +1729,7 @@
               This is especially valuable for views without textual representation like ImageView.
               [CHAR LIMIT=NONE]
     -->
-    <string name="description_send_text_message">Send text message to <xliff:g id="name">%1$s</xliff:g></string>
+    <string name="description_send_text_message">Kirim pesan teks ke <xliff:g id="name">%1$s</xliff:g></string>
 
     <!-- String describing the icon in the call log used to represent an unheard voicemail left to
          the user.
@@ -1746,7 +1746,7 @@
               This is especially valuable for views without textual representation like ImageView.
               [CHAR LIMIT=NONE]
     -->
-    <string name="description_send_message">Send message to <xliff:g id="name">%1$s</xliff:g></string>
+    <string name="description_send_message">Kirim pesan ke <xliff:g id="name">%1$s</xliff:g></string>
 
     <!-- String describing the text for a phone number in quick contact.
 
@@ -1767,390 +1767,390 @@
 
     <!-- String describing the text on the header of the profile contact in the contacts list
          This may be programatically capitalized. [CHAR LIMIT=20] -->
-    <string name="user_profile_contacts_list_header" msgid="9154761216179882405">Me</string>
+    <string name="user_profile_contacts_list_header" msgid="9154761216179882405">Saya</string>
 
     <!-- Header label in the contact editor for a profile that is local to the device only (and not associated with any account) [CHAR LIMIT=25] -->
-    <string name="local_profile_title">My local profile</string>
+    <string name="local_profile_title">Profil saya</string>
 
     <!-- Header label in the contact editor for a profile that comes from an external third-party app whose name is given by source [CHAR LIMIT=20] -->
-    <string name="external_profile_title">My <xliff:g id="external_source">%1$s</xliff:g> profile</string>
+    <string name="external_profile_title">Saya <xliff:g id="external_source">%1$s</xliff:g> profil</string>
 
     <!-- Toast shown when the app starts showing all contacts regardless of its current
          contact filter state. [CHAR LIMIT=64] -->
-    <string name="toast_displaying_all_contacts">Displaying all contacts</string>
+    <string name="toast_displaying_all_contacts">Menampilkan semua kontak</string>
 
     <!-- Message in the standard "no account" prompt that encourages the user to add a Google account before continuing to use the People app [CHAR LIMIT=NONE] -->
-    <string name="no_account_prompt">People works better with a Google Account.\n\n\u2022 Access from any web browser.\n\u2022 Back up your contacts securely.</string>
+    <string name="no_account_prompt">Orang bekerja lebih baik dengan Akun Google.\n\n\u2022 Akses dari browser web.\n\u2022 Cadangan kontak aman.</string>
 
     <!-- Message in the standard "no account" prompt that encourages the user to add any account (non Google-specific) before continuing to use the People app [CHAR LIMIT=NONE] -->
-    <string name="generic_no_account_prompt">Keep your contacts safe even if you lose your phone: synchronize with an online service.</string>
+    <string name="generic_no_account_prompt">Jaga kontak Anda tetap aman bahkan jika Anda kehilangan ponsel Anda: sinkronisasi dengan layanan online.</string>
 
     <!-- Title of the screen that encourages the user to add any account (non Google-specific) for a better People app experience [CHAR LIMIT=20] -->
-    <string name="generic_no_account_prompt_title">Add an account</string>
+    <string name="generic_no_account_prompt_title">Tambahkan akun</string>
 
     <!-- Message in the contact editor prompt that notifies the user that the newly created contact will not be saved to any account, and prompts addition of an account [CHAR LIMIT=NONE] -->
-    <string name="contact_editor_prompt_zero_accounts">Store in mobile or in a new online account</string>
+    <string name="contact_editor_prompt_zero_accounts">Simpan dalam ponsel atau dalam rekening online baru</string>
 
     <!-- Message in the contact editor prompt that asks the user if it's okay to save the newly created contact to the account shown. [CHAR LIMIT=NONE] -->
-    <string name="contact_editor_prompt_one_account">The new contact will be <xliff:g id="ACCOUNT_NAME">%1$s</xliff:g> Sync</string>
+    <string name="contact_editor_prompt_one_account">Kontak baru akan di <xliff:g id="ACCOUNT_NAME">%1$s</xliff:g> Sync</string>
 
     <!-- Message in the contact editor prompt that asks the user which account they want to save the newly created contact to. [CHAR LIMIT=NONE] -->
-    <string name="contact_editor_prompt_multiple_accounts">Select contact account to save to</string>
+    <string name="contact_editor_prompt_multiple_accounts">Pilih akun kontak untuk disimpan ke</string>
 
     <!-- Button label to indicate that the user wants to save the newly created contact locally (instead of backing it up online) [CHAR LIMIT=20] -->
     <string name="keep_local">Keep local</string>
 
     <!-- Button label to prompt the user to add an account (when there are 0 existing accounts on the device) [CHAR LIMIT=30] -->
-    <string name="add_account">Add account</string>
+    <string name="add_account">Tambahkan akun</string>
 
     <!-- Button label to prompt the user to add another account (when there are already existing accounts on the device) [CHAR LIMIT=30] -->
-    <string name="add_new_account">Add new account</string>
+    <string name="add_new_account">Tambahkan akun baru</string>
 
     <!-- Dialog message which is shown when the user tries to make a phone call
          to prohibited phone numbers [CHAR LIMIT=NONE] -->
-    <string name="dialog_phone_call_prohibited_message" msgid="4313552620858880999">Call not sent</string>
+    <string name="dialog_phone_call_prohibited_message" msgid="4313552620858880999">Panggilan tidak terkirim</string>
 
     <!-- Dialog message which is shown when the user tries to check voicemail
          while the system isn't ready for the access. [CHAR LIMIT=NONE] -->
-    <string name="dialog_voicemail_not_ready_message">To set up voicemail, go to Menu &gt; Settings.</string>
+    <string name="dialog_voicemail_not_ready_message">Untuk mengatur pesan suara, buka Menu &gt; Pengaturan.</string>
 
     <!-- Dialog message which is shown when the user tries to check voicemail
          while the system is in airplane mode. The user cannot access to
          voicemail service in Airplane mode. [CHAR LIMI=NONE] -->
-    <string name="dialog_voicemail_airplane_mode_message">To call voicemail, first turn off Airplane mode.</string>
+    <string name="dialog_voicemail_airplane_mode_message">Untuk memanggil pesan suara, pertama-tama matikan mode Pesawat.</string>
 
     <!-- Content description for the fake action menu overflow button.
          This should be same as the description for the real action menu
          overflow button available in ActionBar.
          [CHAR LIMIT=NONE] -->
-    <string name="action_menu_overflow_description" msgid="2295659037509008453">More options</string>
+    <string name="action_menu_overflow_description" msgid="2295659037509008453">Opsi selanjutnya</string>
 
     <!-- Content description for the expand or collapse name fields button.
          Clicking this button causes the name editor to toggle between showing
          a single field where the entire name is edited at once, or multiple
          fields corresponding to each part of the name (Name Prefix, First Name,
          Middle Name, Last Name, Name Suffix).
-         [CHAR LIMIT=NONE] -->
-    <string name="expand_collapse_name_fields_description">Expand or collapse name fields</string>
-    <string name="vcard_import_failed_v2">Couldn\'t import </string>
-    <string name="inner_version_info">Version info：</string>
+         [CHAR LIMIT=NONE] -->    
+	<string name="expand_collapse_name_fields_description">Kembangkan atau tutup kolom nama</string>
+    <string name="vcard_import_failed_v2">Tidak dapat mengimpor </string>
+    <string name="inner_version_info">Info versi：</string>
     <!--Added by dingying fro cta version show-->
-    <string name="cta_version_dialog_title">External Version</string>
+    <string name="cta_version_dialog_title">Versi Ekseternal</string>
      <!--Added by yuanzhiqiang fro cmcc version show-->
-    <string name="cmcc_version_dialog_title">Display Version</string>
-
-        <!-- Dialer related resources -->
+    <string name="cmcc_version_dialog_title">Versi Tampilan</string>
+	
+		 <!-- Dialer related resources -->
     <string name="summary_kind_title">Summary</string>
-    <string name="callrecordview_item_newcontact">New contact</string>
+    <string name="callrecordview_item_newcontact">Kontak baru</string>
     <string name="callrecordview_item_op_time_minutes_seconds">%1$d min %2$d sec</string>
     <string name="callrecordview_item_op_time_only_minutes">%d min</string>
     <string name="callrecordview_item_op_time_only_seconds">%d sec</string>
-    <string name="callrecordview_item_op_time_short_outgoing">Outgoing:\u0020</string>
-    <string name="callrecordview_item_op_time_short_incoming">Incoming:\u0020</string>
-    <string name="callrecordview_item_op_time_missed">Didn\'t connect</string>
-    <string name="callrecordview_item_op_time_rejected">Rejected</string>
+    <string name="callrecordview_item_op_time_short_outgoing">Keluar:\u0020</string>
+    <string name="callrecordview_item_op_time_short_incoming">Masuk:\u0020</string>
+    <string name="callrecordview_item_op_time_missed">Tidak tersambung</string>
+    <string name="callrecordview_item_op_time_rejected">Ditolak</string>
 
     <string name="callrecordview_menu_show_title">Call log display</string>
-    <string name="callrecordview_menu_show_all">All calls</string>
-    <string name="callrecordview_menu_show_missed">Missed calls</string>
-    <string name="callrecordview_menu_show_called">Outgoing calls</string>
-    <string name="callrecordview_menu_show_accepted">Answered calls</string>
-    <string name="callrecordview_menu_show_stranger">Calls from unknown numbers</string>
-    <string name="callrecordview_menu_show_new">New contacts</string>
-    <string name="callrecordview_menu_show_sim">%s calls</string>
-    <string name="callrecordview_menu_delete">Clear call log</string>
-    <string name="callrecordview_menu_delete_all">Clear call log</string>
-    <string name="callrecordview_menu_delete_missed">Clear missed calls</string>
-    <string name="callrecordview_menu_delete_called">Clear outgoing calls</string>
-    <string name="callrecordview_menu_delete_accepted">Clear answered calls</string>
-    <string name="callrecordview_menu_delete_stranger">Clear calls from unknown numbers</string>
-    <string name="callrecordview_menu_delete_new">Clear call logs of new contacts</string>
-    <string name="callrecordview_menu_delete_sim">Clear %s call logs</string>
+    <string name="callrecordview_menu_show_all">Semua panggilan</string>
+    <string name="callrecordview_menu_show_missed">Panggilan tidak terjawab</string>
+    <string name="callrecordview_menu_show_called">Panggilan keluar</string>
+    <string name="callrecordview_menu_show_accepted">Panggilan terjawab</string>
+    <string name="callrecordview_menu_show_stranger">Panggilan dari nomor asing</string>
+    <string name="callrecordview_menu_show_new">Kontak baru</string>
+    <string name="callrecordview_menu_delete">Bersikan log panggilan</string>
+    <string name="callrecordview_menu_delete_all">Bersihkan log panggilan</string>
+    <string name="callrecordview_menu_delete_missed">Bersihkan panggilan tidak terjawab</string>
+    <string name="callrecordview_menu_delete_called">Bersihkan panggilan keluar</string>
+    <string name="callrecordview_menu_delete_accepted">Bersihkan panggilan terjawab</string>
+    <string name="callrecordview_menu_delete_stranger">Bersihkan nomor asing</string>
+    <string name="callrecordview_menu_delete_new">Bersihkan nomor baru dari log panggilan</string>
     <string name="callrecordview_menu_delete_confirm">%s?</string>
-    <string name="callrecordview_menu_delete_one">Remove this entry from call log</string>
-    <string name="delete_call_log_title">Choose call log</string>
+    <string name="callrecordview_menu_delete_one">Hapus dari log panggilan</string>
+    <string name="callrecordview_menu_add_call_note">Tambahkan catatan panggilan</string>
+    <string name="callrecordview_menu_edit_call_note">Edit catatan panggilan</string>
+    <string name="delete_call_log_title">Pilih log panggilan</string>
     <string name="menu_dialpad_text">Keypad</string>
 
-    <string name="dialer_empty_text_no_search_result">No contacts found</string>
+    <string name="dialer_empty_text_no_search_result">Tidak ada kontak ditemukna</string>
     <string name="dialer_empty_text_loading">Loading\u2026</string>
-    <string name="dialer_empty_text_no_call_log">No recent contacts</string>
+    <string name="dialer_empty_text_no_call_log">Tidak ada kontak terbaru</string>
 
-    <string name="callrecordview_menu_settings">Settings</string>
+    <string name="callrecordview_menu_settings">Pengaturan</string>
     <string name="callrecordview_menu_show">Filter</string>
     <string name="callrecordview_menu_paste">Paste</string>
 
     <string name="openDialKeyboard">Dial pad</string>
-    <string name="t9_search_guide_pinyin">Enter "7" and "9" to search "Steve Wozniak"</string>
-    <string name="t9_search_guide_zhuyin">Enter "7" and "9" to search "Steve Wozniak"</string>
+    <string name="t9_search_guide_pinyin">Enter "7" dan "9" untuk mencari "Steve Wozniak"</string>
+    <string name="t9_search_guide_zhuyin">Enter "7" dan "9" untuk mencari "Steve Wozniak"</string>
     <string name="date_time_set">Set</string>
     <string name="sim_no_contact">No contacts on SIM card</string>
-    <string name="sim_indexed_contact_not_exist">Position %1$d on SIM card is invalid. Position must be between %2$d and %3$d.</string>
-    <string name="sim_contact_search_error">An error ocurred</string>
+    <string name="sim_indexed_contact_not_exist">Posisi %1$d pada kartu SIM tidak valid. Posisi harus antara %2$d dan %3$d.</string>
+    <string name="sim_contact_search_error">Terjadi kesalahan</string>
     <string name="service_provider">Directory</string>
 
-    <string name="zero_items_selected">Select items</string>
+    <string name="zero_items_selected">Pilih item</string>
     <plurals name="number_of_items_selected">
         <item quantity="one">%1$d selected</item>
         <item quantity="other">%1$d selected</item>
     </plurals>
 
-    <string name="select_all">Select all</string>
-    <string name="deselect_all">Deselect all</string>
-    <string name="select_none">Nothing selected</string>
-    <string name="toast_finish_delete_call_log">Call log deleted</string>
-    <string name="toast_finish_delete_selected_call_log">Selected call log deleted</string>
-    <string name="confirm_delete_contact_all_call_logs">Delete call logs?</string>
-    <string name="confirm_delete_selected_all_call_logs">Delete call logs?</string>
+    <string name="select_all">Pilih semua</string>
+    <string name="deselect_all">Batalkan semua</string>
+    <string name="select_none">Tidak ada yang dipilih</string>
+    <string name="toast_finish_delete_call_log">Log panggilan dihapus</string>
+    <string name="toast_finish_delete_selected_call_log">Log apnggilan dihapus</string>
+    <string name="confirm_delete_contact_all_call_logs">Hapus log panggilan?</string>
+    <string name="confirm_delete_selected_all_call_logs">Hapus log panggilan?</string>
     <string name="calllog_menu_blacklist">Block</string>
     <string name="calllog_menu_edit_before_call">Edit</string>
-    <string name="calllog_menu_send_sms">Send a message</string>
+    <string name="calllog_menu_send_sms">Kirim pesan</string>
     <string name="menu_call_ip_number">Dial IP call (dial %s)</string>
-    <string name="menu_dial_ip_number">Dial IP call</string>
-    <string name="delete_contact_calllog_title">"Delete call logs?"</string>
-    <string name="delete_unknown_contact_calllog_title">"Delete call logs?"</string>
-    <string name="callrecordview_menu_batch_delete">Delete batch</string>
-    <string name="delete_call_log_selected_title">Delete selected call log?</string>
+	<string name="menu_dial_ip_number">Dial IP call</string>
+    <string name="delete_contact_calllog_title">"Hapus log panggilan?"</string>
+    <string name="delete_unknown_contact_calllog_title">"Hapus long panggilan?"</string>
+    <string name="callrecordview_menu_batch_delete">Hapus batch</string>
+    <string name="delete_call_log_selected_title">Hapus log panggilan terpilih?</string>
 
     <!-- edit contact card -->
-    <string name="edit_contact_card_title">Edit contact card</string>
-    <string name="preview_contact_card_title">Importing contacts\u2026</string>
-    <string name="import_contact_card_button">Import contact</string>
-    <string name="success_message_import_from_account">Contact imported</string>
+    <string name="edit_contact_card_title">Edit kartu kontak</string>
+    <string name="preview_contact_card_title">Mengimpor kontak\u2026</string>
+    <string name="import_contact_card_button">Impor kontak</string>
+    <string name="success_message_import_from_account">Kontak sudah diimpor</string>
 
     <!-- 联系人卡片 -->
-    <string name="unknown_contact_name">Unknown contact</string>
-    <string name="contactDetailCalllog">Call log</string>
+    <string name="unknown_contact_name">Unknown kontak</string>
+    <string name="contactDetailCalllog">Log panggilan</string>
     <string name="add_blacklist">Block</string>
     <string name="remove_blacklist">Unblock</string>
 
     <!-- 无联系人引导页 -->
     <string name="empty_divider_title"></string>
-    <string name="noContactHelpTextAccountsInfo">Sync Xiaomi, Google, and Exchange contacts</string>
-    <string name="noContactHelpTextImportXiaomiAccountInfo">Restore contacts data using Xiaomi Account</string>
+    <string name="noContactHelpTextAccountsInfo">Sync Xiaomi, Google, dan kontak Bursa</string>
+    <string name="noContactHelpTextImportXiaomiAccountInfo">Kembalikan kontak menggunakan Xiaomi Akun</string>
 
     <!-- 电话号码picker -->
-    <string name="recent_contacts_label">Recent</string>
-    <string name="pick_favorites_list_title">%1$d favorites</string>
-    <string name="pick_recent_list_title">%1$d recent contacts</string>
-    <string name="noRecentContacts">No recent contact</string>
-    <string name="hint_search_contacts">%d contacts</string>
-    <string name="hint_search_phone_numbers">"%d contact numbers"</string>
-    <string name="hint_search_emails">"%d emails"</string>
+    <string name="recent_contacts_label">Terbaru</string>
+    <string name="pick_favorites_list_title">%1$d favorit</string>
+    <string name="pick_recent_list_title">%1$d kontak terbaru</string>
+    <string name="noRecentContacts">Tidak ada kontak terbaru</string>
+    <string name="hint_search_contacts">%d kontak</string>
+    <string name="hint_search_phone_numbers">"%d nomor kontak"</string>
+    <string name="hint_search_emails">"%d email"</string>
 
     <!-- Contats Picker -->
-    <string name="pick_favorites_contacts_list_title">%1$d favorites</string>
-    <string name="pick_recent_contacts_list_title">%1$d recent contacts</string>
-    <string name="loading_groups">Loading groups\u2026</string>
-    <string name="loading_group_members">Loading group members\u2026</string>
-    <string name="loading_recent">Loading recent contacts\u2026</string>
-    <string name="contactMultiPickerActivityTitle">Select contacts</string>
-    <string name="picker_join_title">Choose a contact to merge with %s</string>
-    <string name="picker_contact_title">Choose a contact</string>
-    <string name="picker_number_title">Choose a number</string>
-    <string name="group_add_fail_toast">Failed to add contacts</string>
+	<string name="pick_favorites_contacts_list_title">%1$d favorit</string>
+    <string name="pick_recent_contacts_list_title">%1$d kontak terbaru</string>
+    <string name="loading_groups">Memuat grup\u2026</string>
+    <string name="loading_group_members">Memuat anggota grup\u2026</string>
+    <string name="loading_recent">Memuat kontak terbaru\u2026</string>
+    <string name="contactMultiPickerActivityTitle">Pilih kontak</string>
+    <string name="picker_join_title">Pilih kontak yang akan dimerger %s</string>
+    <string name="picker_contact_title">Pilih kontak</string>
+    <string name="picker_number_title">Pilih nomor</string>
+    <string name="group_add_fail_toast">Gagal menambahakn kontak</string>
     <plurals name="group_add_success_toast">
-        <item quantity="one">"%1$d contact added"</item>
-        <item quantity="other">"<xliff:g id="count"> %1$d </xliff:g> contacts added"</item>
+        <item quantity="one">"%1$d kontak ditambahkan"</item>
+        <item quantity="other">"<xliff:g id="count"> %1$d </xliff:g> kontak ditambahkan"</item>
     </plurals>
-    <string name="picker_postal_title">Choose a postal code</string>
-    <string name="picker_email_title">Choose an email</string>
+    <string name="picker_postal_title">Pilih kode pos</string>
+    <string name="picker_email_title">Pilih email</string>
 
     <!-- 联系人设置 -->
     <string name="preference_import">Import</string>
     <string name="preference_export">Export</string>
     <string name="preference_others">Other</string>
-    <string name="wipe_data">Clear data</string>
-    <string name="check_unsynchronized_accounts">Remind me to sync accounts</string>
-    <string name="frequency_three_days">Every 3 days</string>
-    <string name="frequency_weekly">Every week</string>
-    <string name="frequency_none">Never</string>
-    <string name="dirty_contacts_notification_title">Sync contacts?</string>
-    <string name="dirty_contacts_notification_description">%d changes have not been synced with your Xiaomi Account.</string>
-    <string name="dirty_contacts_notification_message">(You can disable this reminder in Settings)</string>
+    <string name="wipe_data">Bersihkan data</string>
+    <string name="check_unsynchronized_accounts">Ingatkan saya untuk sync akun</string>
+    <string name="frequency_three_days">Setiap 3 hari</string>
+    <string name="frequency_weekly">Setiap minggu</string>
+    <string name="frequency_none">Tidak pernah</string>
+    <string name="dirty_contacts_notification_title">Sync kantak?</string>
+    <string name="dirty_contacts_notification_description">%d perubahan belum disinkronkan dengan Akun Xiaomi Anda.</string>
+    <string name="dirty_contacts_notification_message">(Anda dapat menonaktifkan pengingat ini di Pengaturan)</string>
     <string name="remind_btn_sync_now">Sync</string>
-    <string name="remind_btn_ignore">Ignore</string>
-    <string name="display_only_phones">Hide incomplete numbers</string>
-    <string name="display_sim_contacts">Show SIM contacts</string>
-    <string name="preference_remove_duplicate">Merge duplicate contacts</string>
-    <string name="scan_merge"> "Searching for duplicate contacts\u2026" </string>
-    <string name="scan_duplicate_message">%1$d contacts with identical info</string>
-    <string name="merge_contact_message">%1$d contacts with partially identical info</string>
-    <string name="delete_duplicate">Merge</string>
-    <string name="delete_duplicate_message">"Merging contacts\u2026 "</string>
-    <string name="label_no_duplicate_contacts">No duplicates found</string>
-    <string name="quit_dialog_confirm_title">You haven\'t merged any contacts</string>
+    <string name="remind_btn_ignore">Abaikan</string>
+    <string name="display_only_phones">Sembunyikan kontak yang tidak lengkap</string>
+    <string name="display_sim_contacts">Tampilkan kontak SIM</string>
+    <string name="preference_remove_duplicate">Menggabungkan kontak yang sama</string>
+    <string name="scan_merge"> "Mencari kontak yang sama\u2026" </string>
+    <string name="scan_duplicate_message">%1$d kontak dengan info identik</string>
+    <string name="merge_contact_message">%1$d kontak dengan info sebagian identik</string>
+    <string name="delete_duplicate">Gabung</string>
+    <string name="delete_duplicate_message">"Menggabungkan kontak\u2026 "</string>
+    <string name="label_no_duplicate_contacts">Tidak ada kontak yang sama ditemukan</string>
+    <string name="quit_dialog_confirm_title">Anda tidak bisa menggabungkan beberapa kontak</string>
     <string name="label_duplicate_count">(%1$d)</string>
     <string name="preference_import_export">Import/Export</string>
-    <string name="preference_import_export_title">Import/Export contacts</string>
-    <string name="import_vcard_description" product="nosdcard">Import contacts from your phone\'s internal storage</string>
-    <string name="import_vcard_description" product="default">Import contacts from your SD card</string>
-    <string name="export_vcard_description" product="nosdcard">Export vCard to phone\'s internal storage</string>
-    <string name="export_vcard_description" product="default">Export vCard to SD card</string>
-    <string name="export_to_sim">Export to SIM card 1</string>
-    <string name="export_to_sim2">Export to SIM card 2</string>
-    <string name="export_to_sim_title">Exporting to SIM card\u2026</string>
-    <string name="sim_card_no_free_space_title">SIM card full</string>
-    <string name="sim_card_no_free_space_message">There\'s not enough space on your SIM card.</string>
-    <string name="sim_contacts">SIM card contacts</string>
-    <string name="export_sim_contacts_dialog_message">Your SIM card can store %d contacts</string>
-    <string name="export_sim_contact_finish">Export complete</string>
-    <string name="export_sim_contact_finish_success">Copied %d contacts</string>
+    <string name="preference_import_export_title">Import/Export kontak</string>
+    <string name="import_vcard_description" product="nosdcard">Import kontak dari penyimpanan internal</string>
+    <string name="import_vcard_description" product="default">Import kontak dari SD card</string>
+    <string name="export_vcard_description" product="nosdcard">Export vCard ke penyimpanan internal</string>
+    <string name="export_vcard_description" product="default">Export vCard ke SD card</string>
+    <string name="export_to_sim">Export ke SIM card</string>
+    <string name="export_to_sim_title">Exporting\u2026</string>
+    <string name="sim_card_no_free_space_title">SIM card penuh</string>
+    <string name="sim_card_no_free_space_message">Ruang tidak cukup</string>
+    <string name="sim_contacts">SIM card kontak</string>
+    <string name="export_sim_contacts_dialog_message">SIM card anda bisa menyimpan %d kontak</string>
+    <string name="export_sim_contact_finish">Export selesai</string>
+    <string name="export_sim_contact_finish_success">Copied %d kontak</string>
     <string name="export_sim_contact_finish_failure">Transferred: %1$d Remaining: %2$d</string>
-    <string name="sim_export_loading">Reading SIM card\u2026</string>
-    <string name="pref_title_account_import">Import from account</string>
-    <string name="pref_title_import_from_account">Import from Xiaomi Account</string>
-    <string name="pref_summary_import_from_account">Transfer contacts from Google and Exchange accounts to my Xiaomi Account</string>
+    <string name="sim_export_loading">Membaca SIM card\u2026</string>
+    <string name="pref_title_account_import">Import dari akun</string>
+    <string name="pref_title_import_from_account">Import dari Xiaomi Account</string>
+    <string name="pref_summary_import_from_account">Mentransfer kontak dari akun Google dan Exchange ke Akun Xiaomi saya</string>
     <string name="import_to_xiaomi_account_confirm">Import</string>
-    <string name="import_to_xiaomi_account_progress_title">Import contacts to Xiaomi Account</string>
+    <string name="import_to_xiaomi_account_progress_title">Import kontak ke Xiaomi Account</string>
     <string name="import_to_xiaomi_account_progress_message">Importing\u2026</string>
-    <string name="import_to_xiaomi_account_progress_finish">Finished importing</string>
-    <string name="import_to_xiaomi_account_title">Do you want to import the following contacts into your Xiaomi Account?</string>
-    <string name="select_show_contacts">Contact list</string>
-    <string name="rebuild_t9_index_dialog_message">Rebuilding\u2026</string>
-    <string name="pref_key_rebuild_t9_index_title">Rebuild index data</string>
-    <string name="pref_key_rebuild_t9_index_message">Rebuild index to resolve search issues</string>
-    <string name="pref_key_photo">Photo</string>
-    <string name="pref_key_photo_word_title">Assign contact photos</string>
-    <string name="pref_key_photo_word_summary">Automatically assign a picture to contacts without one</string>
-    <string name="remove_duplicate">MIUI will help you find and merge duplicate contacts.\n\nTouch the Merge icon at the bottom to begin.</string>
-    <string name="ic_menu_back">Back</string>
-    <string name="preference_display">Display</string>
-    <string name="preference_simple_mode_title">Hide photos</string>
-    <string name="preference_simple_mode_description">Hide pictures and other contact data in list view</string>
-    <string name="preference_contacts">Contacts</string>
-    <string name="preference_contacts_display">Display preferences</string>
-    <string name="preference_contacts_more">Organize contacts</string>
-    <string name="preference_contacts_filter">Configure contact lists</string>
-    <string name="preference_telocation_title">Location</string>
-    <string name="preference_telocation_summary_teloc_on">Show contact location</string>
-    <string name="preference_telocation_summary_teloc_off">Hide contact location</string>
-    <string name="preference_telocation_summary_countrycode_on">Auto-dial country code</string>
-    <string name="preference_telocation_summary_countrycode_off">Don\'t auto-dial country code</string>
-    <string name="preference_phone">Phone</string>
-    <string name="preference_dial_pad_touch_tone_title">Dial pad touch tones</string>
+    <string name="import_to_xiaomi_account_progress_finish">Impor selesai</string>
+    <string name="import_to_xiaomi_account_title">Apakah Anda ingin mengimpor kontak berikut ke akun Xiaomi Anda?</string>
+    <string name="select_show_contacts">Daftar kontak</string>
+    <string name="rebuild_t9_index_dialog_message">Membangun kembali\u2026</string>
+    <string name="pref_key_rebuild_t9_index_title">Membangun kembali index data</string>
+    <string name="pref_key_rebuild_t9_index_message">Rebuild index untuk mengatasi kesalahan pencarian</string>
+    <string name="pref_key_sim_manage">Configure SIM card</string>
+    <string name="pref_key_photo">Foto</string>
+    <string name="pref_key_photo_word_title">Assign kontak foto</string>
+    <string name="pref_key_photo_word_summary">Secara otomatis menetapkan gambar ke kontak tanpa satu</string>
+    <string name="remove_duplicate">MIUI akan membantu Anda menemukan dan menggabungkan kontak yang sama.\n\n Untuk memulai, touch Merge ikon di bagian bawah layar Anda.</string>
+    <string name="ic_menu_back">Kembali</string>
+    <string name="preference_display">Tampilan</string>
+    <string name="preference_simple_mode_title">Sembunyikan foto dan info</string>
+    <string name="preference_simple_mode_description">Sembunyikan gambar dan data kontak dari daftar</string>
+    <string name="preference_contacts">Kontak</string>
+    <string name="preference_contacts_display">Pengaturan tampilan</string>
+    <string name="preference_contacts_more">Organize kontak</string>
+    <string name="preference_contacts_filter">Configure daftar kontak</string>
+    <string name="preference_telocation_title">Lokasi</string>
+    <string name="preference_telocation_summary_teloc_on">Tampilkan lokasi kontak</string>
+    <string name="preference_telocation_summary_teloc_off">Sembunyikan lokasi kontak</string>
+    <string name="preference_telocation_summary_countrycode_on">Auto-dial kode negara</string>
+    <string name="preference_telocation_summary_countrycode_off">Jangan auto-dial kode negara</string>
+    <string name="preference_phone">Ponsel</string>
+    <string name="preference_dial_pad_touch_tone_title">Suara dial pad</string>
     <string name="preference_auto_ip_title">Automatic IP prefix</string>
-    <string name="preference_auto_ip_summary_disable">Disabled</string>
+    <string name="preference_auto_ip_summary_disable">Non aktifkan</string>
     <string name="preference_auto_ip_summary_on">Carrier IP prefix: %s</string>
-    <string name="preference_phone_more_title">Call settings</string>
-    <string name="preference_dial_pad_touch_tone_switch">Dial pad touch tones</string>
+    <string name="preference_phone_more_title">Pengaturan panggilan</string>
+    <string name="preference_dial_pad_touch_tone_switch">Suara taouch pad</string>
     <string name="preference_tone_title">Tones</string>
     <string name="preference_dial_pad_touch_tone_default">Default</string>
-    <string name="preference_dial_pad_touch_tone_piano">Piano keys</string>
+    <string name="preference_dial_pad_touch_tone_piano">Tuts piano</string>
     <string name="preference_dial_pad_touch_tone_human">Voice</string>
-    <string name="ic_menu_done">Done</string>
-    <string name="cloud_antispam_title" >Indentify unknown numbers</string>
+    <string name="ic_menu_done">Selesai</string>
+    <string name="cloud_antispam_title" >Mengidentifikasi nomor asing</string>
 
     <!-- local account -->
-    <string name="account_default">Phone</string>
-    <string name="account_sim">SIM card %s</string>
-    <string name="lunarBirthdayLabelsGroup">Lunar birthday</string>
+    <string name="account_default">Ponsel</string>
+    <string name="account_sim">Kartu SIM</string>
+    <string name="lunarBirthdayLabelsGroup">ulang tahun lunar</string>
 
     <!-- 联系人上下文菜单 -->
-    <string name="option_view_contact">View</string>
+    <string name="option_view_contact">Lihat</string>
     <string name="option_edit_contact">Edit</string>
-    <string name="option_delete_contact">Delete</string>
-    <string name="option_send_to_desktop">Place on Home screen</string>
-    <string name="option_send_to_others">Forward</string>
-    <string name="option_not_star">Remove from favorites</string>
-    <string name="option_not_in_group">Remove</string>
+    <string name="option_delete_contact">Hapus</string>
+    <string name="option_send_to_desktop">Letakan di Home screen</string>
+    <string name="option_send_to_others">Lanjutkan</string>
+    <string name="option_not_star">Hapus dari favorit</string>
+    <string name="option_not_in_group">Hapus</string>
 
     <!-- Group long click menu -->
-    <string name="option_view_group">View</string>
+    <string name="option_view_group">Lihat</string>
     <string name="option_rename_group">Rename</string>
-    <string name="option_delete_group">Delete</string>
+    <string name="option_delete_group">Hapus</string>
 
     <!-- Delete Contact -->
-    <string name="deleteConfirmation_title">Delete</string>
-    <string name="readOnlyContactDeleteConfirmationDetail">\"%s\" contains info from multiple accounts. Info from read-only accounts will be hidden in your contacts list.</string>
-    <string name="multipleContactDeleteConfirmationDetail">Deleting \"%s\" will delete info from multiple accounts.</string>
-    <string name="deleteConfirmationDetail">Delete \"%s\"?</string>
+    <string name="deleteConfirmation_title">Hapus</string>
+    <string name="readOnlyContactDeleteConfirmationDetail">\"%s\" berisi info dari beberapa akun. Info dari rekening read-only akan disembunyikan dalam daftar kontak Anda.</string>
+    <string name="multipleContactDeleteConfirmationDetail">Menghapus \"%s\" akan menghapus informasi dari beberapa akun.</string>
+    <string name="deleteConfirmationDetail">Hapus \"%s\"?</string>
 
     <!-- 编辑称呼 -->
-    <string name="nickname_picker_name_column">Contact name</string>
+    <string name="nickname_picker_name_column">Nama kontak</string>
     <string name="nickname_picker_nickname_column">Title</string>
-    <string name="not_applied">Not applied</string>
-    <string name="toast_for_saving_nickname">Nickname saved</string>
-    <string name="toast_for_failed_saving_nickname">Failed to save nickname</string>
+    <string name="not_applied">Tidak digunakan</string>
+    <string name="toast_for_saving_nickname">Nickname tersimpan</string>
+    <string name="toast_for_failed_saving_nickname">Gagal untuk menyimpan nickname</string>
     <string name="nickname_editor_title">Edit nickname</string>
     <string name="auto_nickname">Auto</string>
     <string name="auto_set_nickname">Auto</string>
-    <string name="restore_nickname">Restore</string>
-    <string name="custom_nickname_hint">Enter nickname</string>
+    <string name="restore_nickname">Mengembalikan</string>
+    <string name="custom_nickname_hint">Ketik nickname</string>
 
     <!-- 桌面快捷方式 -->
-    <string name="open_contact">View contact</string>
-    <string name="send_contact_shortcut_todesktop_success">Added to Home screen</string>
+    <string name="open_contact">Lihat kontak</string>
+    <string name="send_contact_shortcut_todesktop_success">Tambahkan ke Home screen</string>
     <!-- Datetime picker -->
-    <string name="date_picker_label">Remind me 3 days before and again on the day of</string>
+    <string name="date_picker_label">Ingatkan saya 3 hari sesudah dan lagi hari ini</string>
 
     <!-- 联系人详情 -->
-    <string name="today">Today</string>
-    <string name="next_birthday">Next birthday: %s</string>
+    <string name="today">Hari ini</string>
+    <string name="next_birthday">Ulang tahun selanjutnya: %s</string>
     <string name="ringLabelsGroup">"Ringtone"</string>
     <string name="default_ringtone">"Default ringtone"</string>
     <string name="recent_number">Recent</string>
-    <string name="cloud_antispam_mark" >Label as spam</string>
-    <string name="antispam_mark_my_contribution">Show other users that I\'ve labeled this number</string>
+    <string name="cloud_antispam_mark" >Tandai sebagai spam</string>
+    <string name="antispam_mark_my_contribution">Tampilkan pengguna lain bahwa saya telah diberi label nomor ini.</string>
     <string name="antispam_provider_format">Labeled as spam by %s</string>
     <string name="type_mx_msg">Cloud messaging</string>
 
     <!-- MenuBar menu -->
-    <string name="menu_new_favorite_action_bar">"New"</string>
+    <string name="menu_new_favorite_action_bar">"Baru"</string>
 
-    <string name="click_close">Tap to close</string>
+    <string name="click_close">Tap untuk keluar</string>
     <string name="phone_primary">Primary</string>
     <string name="phone_info_divider">" ｜ "</string>
 
     <!-- Group detail -->
-    <string name="menu_bar_group_add">Add</string>
+    <string name="menu_bar_group_add">Tambahkan</string>
     <string name="menu_bar_group_sms">Group SMS</string>
     <string name="menu_bar_group_ringtone">Group ringtone</string>
     <string name="menu_bar_group_rename">Rename</string>
-    <string name="menu_bar_group_delete">Delete</string>
+    <string name="menu_bar_group_delete">Hapus</string>
     <string name="menu_bar_group_ringtone_largeui">Ringtone</string>
     <string name="group_rename_dialog_title">Rename group</string>
     <string name="group_sms_progress_msg">"Grouping\u2026"</string>
 
     <!-- Menu item toast -->
-    <string name="group_create_success_toast">Group created</string>
-    <string name="group_rename_success_toast">Group renamed</string>
-    <string name="group_delete_success_toast">Group deleted</string>
-    <string name="group_create_fail_toast">Failed to create group</string>
-    <string name="group_rename_fail_toast">Failed to rename group</string>
-    <string name="contact_unfavorite_toast">Removed from favorites</string>
-    <string name="group_member_remove_toast">Removed from group</string>
-    <string name="contact_delete_toast">Contact deleted</string>
-    <string name="duplicate_group_name">A group with that name already exists</string>
+    <string name="group_create_success_toast">Buat Group</string>
+    <string name="group_rename_success_toast">Mengubah nama group</string>
+    <string name="group_delete_success_toast">Hapus Group</string>
+    <string name="group_create_fail_toast">Gagal membuat group</string>
+    <string name="group_rename_fail_toast">Gagal merename group</string>
+    <string name="contact_unfavorite_toast">Hapus dari favorit</string>
+    <string name="group_member_remove_toast">Hapus dari group</string>
+    <string name="contact_delete_toast">Kontak terhapus</string>
+    <string name="duplicate_group_name">Group dengan nama ini sudah ada</string>
 
     <!-- List empty text -->
-    <string name="all_list_empty">No contacts</string>
-    <string name="favorites_list_empty">No favorites</string>
-    <string name="groups_list_empty">No groups</string>
-    <string name="single_group_list_empty">No group members</string>
-    <string name="picker_recent_list_empty">No recent contacts</string>
-    <string name="picker_all_list_empty">No contacts</string>
-    <string name="picker_favorites_list_empty">No favorites</string>
-    <string name="picker_groups_list_empty">No groups</string>
+    <string name="all_list_empty">Tidak ada kontak</string>
+    <string name="favorites_list_empty">Tidak ada favorit</string>
+    <string name="groups_list_empty">Tidak ada groups</string>
+    <string name="single_group_list_empty">Tidak ada group members</string>
+    <string name="picker_recent_list_empty">Tidak ada recent kontak</string>
+    <string name="picker_all_list_empty">Tidak ada kontak</string>
+    <string name="picker_favorites_list_empty">Tidak ada favorit</string>
+    <string name="picker_groups_list_empty">Tidak ada group</string>
 
      <!-- 联系人编辑 -->
-    <string name="contact_edit_title_insert">Add %s contacts</string>
-    <string name="contact_edit_title_edit">Edit contact</string>
-    <string name="contact_edit_title_readonly">Read-only contact</string>
-    <string name="account_container_title">Imported from</string>
-    <string name="save_photo_progress">Saving photo\u2026</string>
-    <string name="move_and_resize">Move and resize</string>
-    <string name="btn_rotation">Rotate</string>
-    <string name="contact_pick_photo">Photo</string>
-    <string name="select_photo_from_photo_package">Select photo from photo package</string>
-    <string name="select_new_photo_from_photo_package">Browse folders</string>
-    <string name="photo_package_activity_title">Browse folders</string>
-    <string name="btn_delete_one_contact">Delete contact</string>
-    <string name="btn_delete_multi_contacts">Delete %d contacts</string>
-    <string name="btn_split_contact">Separate</string>
-    <string name="use_photo_as_primary2">Use %1$s\'s contact photo</string>
+    <string name="contact_edit_title_insert">Tambahkan %s kontak</string>
+    <string name="contact_edit_title_edit">Edit kontak</string>
+    <string name="contact_edit_title_readonly">Read-only kontak</string>
+    <string name="account_container_title">Import dari</string>
+    <string name="save_photo_progress">Simpan foto\u2026</string>
+    <string name="move_and_resize">Pindah dan merubah ukuran</string>
+    <string name="btn_rotation">Putar</string>
+    <string name="contact_pick_photo">Foto</string>
+    <string name="select_photo_from_photo_package">Pilih foto dari foto package</string>
+    <string name="select_new_photo_from_photo_package">Telusuri folder</string>
+    <string name="photo_package_activity_title">Telusuri folder</string>
+    <string name="btn_delete_one_contact">Hapus kontak</string>
+    <string name="btn_delete_multi_contacts">Hapus %d kontak</string>
+    <string name="btn_split_contact">Pisahkan</string>
+    <string name="use_photo_as_primary2">Gunakan %1$s\'s foto kontak</string>
     <string name="label_custom_type">Custom</string>
 
-    <string name="pkgLabel">Contacts and dialer</string>
+    <string name="pkgLabel">Kontak dan dialer</string>
 
     <!-- Smart Groups -->
     <string name="preference_smart_group_title">Smart groups</string>
@@ -2178,190 +2178,190 @@
     <string name="smart_group_frequency_3">Within the past 6 months</string>
     <string name="smart_group_frequency_4">Over 6 months ago</string>
 
-    <string name="contact_detail_calllog_call_record_tips">Record call</string>
-    <string name="contact_detail_calllog_call_note_tips">Notes</string>
+    <string name="contact_detail_calllog_call_record_tips">Rekaman panggilan</string>
+    <string name="contact_detail_calllog_call_note_tips">Catatan</string>
 
     <!-- 蓝牙从其它手机导入联系人 -->
-    <string name="import_from_other_phone">Import from another phone</string>
-    <string name="device_brand_title">Choose a brand</string>
-    <string name="device_version_title">Choose a model</string>
-    <string name="device_list_title">Choose a phone</string>
-    <string name="next">Next</string>
-    <string name="previous">Previous</string>
+    <string name="import_from_other_phone">Import dari ponsel lain</string>
+    <string name="device_brand_title">Pilih brand</string>
+    <string name="device_version_title">Pilih model</string>
+    <string name="device_list_title">Pilih ponsel</string>
+    <string name="next">Selanjutnya</string>
+    <string name="previous">Sebelumnya</string>
     <string name="scan">Scan</string>
-    <string name="device_bluetooth_title">Transfer contancts</string>
-    <string name="device_version_header_no_bluetooth">Import contacts using SIM card</string>
-    <string name="device_version_header_bluetooth">Make sure Bluetooth is enabled</string>
+    <string name="device_bluetooth_title">Transfer kontak</string>
+    <string name="device_version_header_no_bluetooth">Impor kontak menggunakan SIM card</string>
+    <string name="device_version_header_bluetooth">Pastikan Bluetooth aktif</string>
 
     <!-- DeviceListActivity -->
     <string name="scanning">Scanning\u2026</string>
-    <string name="select_device">Choose a device</string>
+    <string name="select_device">Pilih device</string>
     <string name="none_paired">No devices are currently paired</string>
-    <string name="none_found">No devices found</string>
-    <string name="device_pairing_dialog_title">Pair devices</string>
+    <string name="none_found">Tidak ada devices ditemukan</string>
+    <string name="device_pairing_dialog_title">Menyambungkan perangkat</string>
     <string name="device_pairing_dialog_message">Pairing\u2026</string>
-    <string name="device_paired_dialog_title">Fetching contacts\u2026</string>
-    <string name="device_paired_dialog_message">Fetching contacts\u2026</string>
-    <string name="no_contacts_dialog_title">Failed to find contacts</string>
-    <string name="no_contacts_dialog_message">Your contacts may be stored on your SIM card. Try importing contacts from you SIM card to your phone\'s internal storage and then try again. </string>
+    <string name="device_paired_dialog_title">Fetching kontak\u2026</string>
+    <string name="device_paired_dialog_message">Fetching kontak\u2026</string>
+    <string name="no_contacts_dialog_title">Gagal untuk menemukan kontak</string>
+    <string name="no_contacts_dialog_message">Kontak Anda dapat disimpan pada kartu SIM Anda. Cobalah mengimpor kontak dari kartu SIM ke penyimpanan internal ponsel Anda dan kemudian coba lagi. </string>
     <string name="cancel_import_dialog_title">Stop</string>
-    <string name="cancel_import_dialog_message">Stop importing contacts?</string>
-    <string name="title_paired_devices">Paired devices</string>
-    <string name="title_other_devices">Other available devices</string>
+    <string name="cancel_import_dialog_message">Berhenti mengimpor kontak?</string>
+    <string name="title_paired_devices">Perangkat tersambung</string>
+    <string name="title_other_devices">Perangkat yang tersedia lainnya</string>
     <string name="button_scan">Rescan</string>
     <string name="button_cancel_scan">Stop</string>
-    <string name="device_other_title">Other phone</string>
-    <string name="device_other_guide">If your phone isn\'t listed, follow the steps below</string>
-    <string name="my_phone_provider_bluetooth">My phone has Bluetooth</string>
-    <string name="my_phone_not_provider_bluetooth">My phone doesn\'t have Bluetooth</string>
-    <string name="other_phone">Other phones</string>
-    <string name="device_import_title">Import</string>
-    <string name="device_import_progress_begin_message">Importing\u2026</string>
-    <string name="device_import_progress_end_message">Import complete</string>
-    <string name="device_import_progress_message">Importing\u2026</string>
-    <string name="device_import_failed_message">Import failed</string>
+    <string name="device_other_title">Ponsel lain</string>
+    <string name="device_other_guide">Jika telepon Anda tidak terdaftar, ikuti langkah-langkah di bawah ini</string>
+    <string name="my_phone_provider_bluetooth">Telepon saya memiliki Bluetooth</string>
+    <string name="my_phone_not_provider_bluetooth">Telepon saya tidak memiliki Bluetooth</string>
+    <string name="other_phone">Ponsel lain</string>
+    <string name="device_import_title">Impor</string>
+    <string name="device_import_progress_begin_message">Mengimpor\u2026</string>
+    <string name="device_import_progress_end_message">Impor selesai</string>
+    <string name="device_import_progress_message">Mengimpor\u2026</string>
+    <string name="device_import_failed_message">Import gagal</string>
     <string name="hint_distance"></string>
-    <string name="hint_more_contact">Merge duplicate contacts</string>
-    <string name="device_import_account_dialog_title">Choose an account</string>
-    <string name="device_import_account_dialog_title_suffix">\n(found %1$s contacts)</string>
-    <string name="device_import_local_account">Local account</string>
-    <string name="import_name">Name</string>
+    <string name="hint_more_contact">Menggabungkan kontak duplikat</string>
+    <string name="device_import_account_dialog_title">Pilih akun</string>
+    <string name="device_import_account_dialog_title_suffix">\n(ditemukan %1$s kontak)</string>
+    <string name="device_import_local_account">Local akun</string>
+    <string name="import_name">Nama</string>
     <string name="import_percent">0%</string>
     <string name="percent_sign">%</string>
     <string name="ret_sign">\n</string>
-    <string name="checkhint">Check the target phone</string>
-    <string name="prepare_import">Import contacts</string>
+    <string name="checkhint">Periksa ponsel target</string>
+    <string name="prepare_import">Impor kontak</string>
     <string name="device_import_message">Importing</string>
-    <string name="bluetooth_connection_failed_toast">Bluetooth connection interrupted</string>
-    <string name="device_import_done_toast">%1$d contacts imported</string>
-    <string name="device_import_progress_toast">%1$d contacts imported</string>
-    <string name="no_contact_in_other_phone">No contacts dectected</string>
-    <string name="no_connection_dialog_title">Bluetooth connection failed</string>
+    <string name="bluetooth_connection_failed_toast">Koneksi Bluetooth terputus</string>
+    <string name="device_import_done_toast">%1$d kontak diimpor</string>
+    <string name="device_import_progress_toast">%1$d kontak diimpor</string>
+    <string name="no_contact_in_other_phone">Tidak ada kontak</string>
+    <string name="no_connection_dialog_title">Koneksi Bluetooth gagal</string>
 
     <!-- Import Weibo contacts -->
     <string name="sina_weibo">Sina Weibo</string>
-    <string name="import_weibo_dialog_title">Import Weibo contacts</string>
-    <string name="import_weibo_fetch_followers">Fetching contacts\u2026</string>
-    <string name="import_weibo_progress_name">Matching \"%1$s\"\u2026</string>
+    <string name="import_weibo_dialog_title">Impor Weibo kontak</string>
+    <string name="import_weibo_fetch_followers">Fetching kontak\u2026</string>
+    <string name="import_weibo_progress_name">Sesuai \"%1$s\"\u2026</string>
     <string name="import_weibo_progress_percent">%1$d%%</string>
-    <string name="import_weibo_notification_title_done">Updated %s contacts</string>
-    <string name="import_weibo_error_no_xiaomi_phone">There are no phone numbers stored in your Xiaomi Account.</string>
-    <string name="import_weibo_error_no_matched_contacts">No matching contacts</string>
+    <string name="import_weibo_notification_title_done">Diperbaharui %s kontak</string>
+    <string name="import_weibo_error_no_xiaomi_phone">Tidak ada nomor telepon yang disimpan dalam Akun Xiaomi Anda.</string>
+    <string name="import_weibo_error_no_matched_contacts">Tidak ada kontak yang sesuai</string>
     <string name="import_weibo_error_no_network">Network error</string>
     <string name="import_weibo_error_user_cancel">User cancled</string>
     <string name="import_weibo_error_unknown">Unknown error</string>
 
-    <string name="add_xiaomi_account_dialog_title">Choose account</string>
-    <string name="add_xiaomi_account_dialog_msg">Back up your contacts to your Xiaomi Account to access them from anywhere!</string>
-    <string name="add_xiaomi_account_dialog_btn">Use Xiaomi Account</string>
-    <string name="keep_local_btn">Save in phone only</string>
+    <string name="add_xiaomi_account_dialog_title">Pilih akun</string>
+    <string name="add_xiaomi_account_dialog_msg">Back up kontak Anda ke Akun Xiaomi untuk mengaksesnya di mana saja!</string>
+    <string name="add_xiaomi_account_dialog_btn">Gunakan Akun Xiaomi</string>
+    <string name="keep_local_btn">Gunakan penyimpanan internal ponsel</string>
 
     <string name="batch_delete">Delete batch</string>
-    <string name="batch_delete_msg">Delete %d contacts? \n\nContact data stored in your Xiaomi Account will also be deleted.</string>
+    <string name="batch_delete_msg">Hapus %d kontak? Data yang sesuai Anda telah disimpan dalam Mi Cloud juga akan dihapus.</string>
 
-    <string name="starred_contacts">Favorites</string>
-    <string name="other_contacts">Other contacts</string>
+    <string name="starred_contacts">Favorit</string>
+    <string name="other_contacts">Kontak lain</string>
 
-    <string name="group_name">My groups</string>
+    <string name="group_name">Group saya</string>
 
     <!-- SIM Import/Export -->
-    <string name="import_all_sim_entries_miui">Import all contacts</string>
-    <string name="import_sim_entry_miui">Import</string>
-    <string name="delete_sim_entry_miui">Delete</string>
-    <string name="simContacts_airplaneMode">To import contacts from SIM card, turn off Airplane mode</string>
-    <string name="readingSimContacts">Reading SIM card\u2026</string>
-    <string name="confirm_delete_sim_entry_miui">Delete %d selected contacts on UIM card?</string>
-    <plurals name="numSelectedSimContacts">
-        <item quantity="zero">"%1$d selected"</item>
-        <item quantity="one">"%1$d selected"</item>
-        <item quantity="other">"<xliff:g id="count"> %1$d </xliff:g> selected"</item>
+    <string name="import_all_sim_entries_miui">Impor semua kontak</string>
+    <string name="import_sim_entry_miui">Impor</string>
+    <string name="delete_sim_entry_miui">Hapus</string>
+    <string name="simContacts_airplaneMode">Untuk mengimpor kontak dari kartu SIM, matikan Airplane mode</string>
+    <string name="readingSimContacts">Membaca kartu SIM\u2026</string>
+    <string name="confirm_delete_sim_entry_miui">Hapus %d kontak dari kartu SIM?</string>
+	<plurals name="numSelectedSimContacts">
+        <item quantity="zero">"%1$d terpilih"</item>
+        <item quantity="one">"%1$d terpiliih"</item>
+        <item quantity="other">"<xliff:g id="count"> %1$d </xliff:g>terpilih"</item>
     </plurals>
-    <string name="simContacts_empty">No contacts have been stored on your SIM card</string>
-    <string name="sim_contact_dropdown_menu_deselect_all_miui">Deselect all</string>
-    <string name="sim_contact_dropdown_menu_select_all_miui">Select all</string>
-    <string name="delete_selected_sim_entry_miui">Delete selected contacts</string>
-    <string name="import_selected_sim_entries_miui">Import selected contacts</string>
-    <string name="import_all_sim_entries_miui">Import all contacts</string>
-    <string name="import_sim_entries_finish">SIM contacts imported</string>
-    <string name="delete_sim_entries_finish">SIM contacts deleted</string>
-    <string name="deleting_sim_entry_miui">Deleting contacts on SIM card</string>
-    <string name="importing_sim_contacts_miui">Importing SIM contacts\u2026</string>
+    <string name="simContacts_empty">Tidak ada kontak yang disimpan ke kartu SIM</string>
+    <string name="sim_contact_dropdown_menu_deselect_all_miui">Hapus semua pilihan</string>
+    <string name="sim_contact_dropdown_menu_select_all_miui">Pilih semua</string>
+    <string name="delete_selected_sim_entry_miui">Hapus kontak yang dipilih</string>
+    <string name="import_selected_sim_entries_miui">Impor kontak yang dipilih</string>
+    <string name="import_all_sim_entries_miui">Impor semua kontak</string>
+    <string name="import_sim_entries_finish">Kontak SIM diimpor</string>
+    <string name="delete_sim_entries_finish">Kontak SIM dihapus</string>
+    <string name="deleting_sim_entry_miui">Hapus kontak kartu SIM</string>
+    <string name="importing_sim_contacts_miui">Mengimpor kontak SIM\u2026</string>
 
-    <string name="imei_invalid">Invalid IMEI</string>
-    <string name="set_photo_failed_msg">Failed to set avatar</string>
-    <string name="sim_capacity">View SIM card capacity</string>
-    <string name="sim_capacity_content">Capacity: <xliff:g id="items">%d</xliff:g>, <xliff:g id="items">%d</xliff:g> has already been used</string>
+    <string name="imei_invalid">IMEI salah</string>
+    <string name="set_photo_failed_msg">Gagal mengatur avatar</string>
+    <string name="sim_capacity">Tampilkan kapasitas kartu SIM</string>
+    <string name="sim_capacity_content">Kapasitas: <xliff:g id="items">%d</xliff:g>, <xliff:g id="items">%d</xliff:g> telah digunakan</string>
 
-    <!-- MTK for edit SIM/USIM contact -->
-    <string name="has_double_phone_number">This number type already exists</string>
-    <string name="phone_book_busy">Phone book is busy. Try again later.</string>
-    <string name="sim_invalid">Can\'t save contacts when SIM card is invalid</string>
-    <string name="cannot_insert_null_number">Name and number can\'t be empty</string>
-    <string name="AirPlane_mode_on">Can\'t save contacts when Airplane mode is on</string>
-    <string name="FDNEnabled">Can\'t save contact when FDN is enabled</string>
-    <string name="sim_invalid_number">Can\'t save invalid number</string>
-    <string name="email_invalid">Can\'t save invalid email</string>
-    <string name="email_2g_invalid">Can\'t save email to 2G SIM. To save, select 3G SIM.</string>
-    <string name="sim_invalid_fix_number">Can\'t save invalid fix number</string>
-    <string name="AirPlane_mode_on_edit">Can\'t edit contacts when Airplane mode is on</string>
-    <string name="msg_loading_sim_contacts_toast">"Loading SIM contacts in the background\u2026"</string>
-    <string name="fix_number_too_long">"Fix number is too long"</string>
-    <string name="name_too_long">"Name is too long"</string>
-    <string name="storage_full">Storage is full</string>
-    <string name="number_too_long">"Number is too long"</string>
-    <string name="generic_failure">An unknown error occurred</string>
-    <string name="email_too_long">Email is too long</string>
-    <string name="error_save_usim_contact_email_lost">"Can\'t save email address because the USIM storage for email is full"</string>
+	<!-- MTK for edit SIM/USIM contact -->
+    <string name="has_double_phone_number">Nomor ini sudah ada</string>
+    <string name="phone_book_busy">Buku telepon sibuk. Coba lagi nanti.</string>
+    <string name="sim_invalid">Tidak dapat menyimpan kontak ketika kartu SIM salah</string>
+    <string name="cannot_insert_null_number">Nama dan nomor tidak boleh kosong</string>
+    <string name="AirPlane_mode_on">Tidak dapat menyimpan kontak pada mode Pesawat</string>
+    <string name="FDNEnabled">Tidak dapat menyimpan kontak pada FDN aktif</string>
+    <string name="sim_invalid_number">Tidak dapat menyimpan nomor yang salah</string>
+    <string name="email_invalid">Tidak dapat menyimpan email yang salah</string>
+    <string name="email_2g_invalid">Tidak dapat menyimpan email ke 2G SIM. Simpan, pilih 3G SIM.</string>
+    <string name="sim_invalid_fix_number">Tidak dapat menyimpan nomor yang salah</string>
+    <string name="AirPlane_mode_on_edit">Tidak dapat merubah kontak pada mode Pesawat</string>
+    <string name="msg_loading_sim_contacts_toast">"Memuat kontak SIM di latar belakang\u2026"</string>
+    <string name="fix_number_too_long">"Nomor terlalu panjang"</string>
+    <string name="name_too_long">"Nama terlalu panjang"</string>
+    <string name="storage_full">Penyimpanan penuh</string>
+    <string name="number_too_long">"Nomor terlalu panjang"</string>
+    <string name="generic_failure">Terjadi kesalahan</string>
+    <string name="email_too_long">Email terlalu panjang</string>
+    <string name="error_save_usim_contact_email_lost">"Tidak dapat menyimpan alamat email karena penyimpanan USIM untuk email sudah penuh"</string>
 
-    <string name="contact_is_readOnly">Can\'t edit read-only contacts</string>
-
+    <string name="contact_is_readOnly">Tidak dapat merubah kontak read-only</string>
+	
     <!-- 黑名单操作Dialog -->
-    <string name="dlg_add_blacklist">Block this number?</string>
-    <string name="dlg_remove_blacklist">Unblock this number?</string>
+    <string name="dlg_add_blacklist">Block nomor ini?</string>
+    <string name="dlg_remove_blacklist">Unblock nomor ini?</string>
 
-    <string name="profile_name">My profile</string>
-    <string name="profile_name_photo">Me</string>
-    <string name="toast_copying">Copying\u2026</string>
-    <string name="toast_copy_done">Copied</string>
-    <string name="call_record_setting_miui">Record settings</string>
-    <string name="activity_not_found_uri">No app was found to handle this action</string>
-    <string name="accessibility_calllog_detail">Call log details</string>
+    <string name="profile_name">Profil saya</string>
+    <string name="profile_name_photo">Saya</string>
+    <string name="toast_copying">Menggandakan\u2026</string>
+    <string name="toast_copy_done">Digandakan</string>
+    <string name="call_record_setting_miui">Pengaturan rekaman</string>
+    <string name="activity_not_found_uri">Tidak ada aplikasi yang dapat menjalankan fungsi ini</string>
+    <string name="accessibility_calllog_detail">Detail log panggilan</string>
 
-    <string name="select_groups">Select groups</string>
+    <string name="select_groups">Pilih group</string>
 
-    <string name="sim_capacity">View SIM card capacity</string>
-    <string name="sim_capacity_content">Total capacity <xliff:g id="items">%d</xliff:g>" | "<xliff:g id="items">%d</xliff:g> used</string>
-    <string name="sim_contact_existing">Contact already exists</string>
-    <string name="sim_contact_invalid">Invalid SIM contact</string>
+    <string name="sim_capacity">Lihat kapasitas karutu SIM</string>
+    <string name="sim_capacity_content">Kapasitas total <xliff:g id="items">%d</xliff:g>" | "<xliff:g id="items">%d</xliff:g> digunakan</string>
+    <string name="sim_contact_existing">Kontak sudah ada</string>
+    <string name="sim_contact_invalid">Invalid kontak SIM</string>
 
-    <string name="sim_error_generic_failure">An error occurred</string>
-    <string name="sim_error_storage_full">SIM card is full</string>
-    <string name="sim_error_not_ready">Loading SIM contacts\u2026</string>
-    <string name="sim_error_text_too_long">Name is too long</string>
-    <string name="sim_error_number_too_long">Number is too long</string>
-    <string name="sim_error_email_too_long">Email is too long</string>
-    <string name="sim_error_email_full">Not enough space on SIM card</string>
-    <string name="sim_error_anr_full">Not enough space on SIM card</string>
-    <string name="sim_error_password_error">The password you entered is incorrect</string>
+    <string name="sim_error_generic_failure">Terjadi kesalahan</string>
+    <string name="sim_error_storage_full">Penyimpanan kartu SIM penuh</string>
+    <string name="sim_error_not_ready">Loading kontak SIM\u2026</string>
+    <string name="sim_error_text_too_long">Nama terlalu panjang</string>
+    <string name="sim_error_number_too_long">Nomor terlalu panjang</string>
+    <string name="sim_error_email_too_long">Email terlalu panjang</string>
+    <string name="sim_error_email_full">Space tidak cukup di kartu SIM</string>
+    <string name="sim_error_anr_full">Space tidak cukup di kartu SIM</string>
+    <string name="sim_error_password_error">Password salah</string>
 
     <!-- 黄页导航 -->
-    <string name="yellowPageNavigationLabel">Directory</string>
-    <string name="yellowPageNavigationIconLabel">Directory</string>
+    <string name="yellowPageNavigationLabel">Direktori</string>
+    <string name="yellowPageNavigationIconLabel">Direktori</string>
     <string name="login_ok">Sign in</string>
-    <string name="yellowpage_navigation_no_content">Didn\'t find anything</string>
-    <string name="yellowpage_navigation_search_offline_hint">You\'re offline</string>
+    <string name="yellowpage_navigation_no_content">Tidak menemukan apapun</string>
+    <string name="yellowpage_navigation_search_offline_hint">Anda offline</string>
     <string name="refresh">Refresh</string>
-    <string name="yellowpage_navigation_search_city_name_hint">City</string>
-    <string name="yellowpage_navigation_search_select_city">Choose a city</string>
-    <string name="yellowpage_navigation_search_result_no_more">No more results</string>
-    <string name="yellowpage_navigation_search_result_network_error">Couldn\'t connect to network</string>
-    <string name="yellowpage_navigation_search_result_service_error">Service unavailable</string>
+    <string name="yellowpage_navigation_search_city_name_hint">Kota</string>
+    <string name="yellowpage_navigation_search_select_city">Pilih kota</string>
+    <string name="yellowpage_navigation_search_result_no_more">Tidak ada hasil</string>
+    <string name="yellowpage_navigation_search_result_network_error">Tidak bisa tersambung dengan network</string>
+    <string name="yellowpage_navigation_search_result_service_error">Jaringan tidak tersedia</string>
     <string name="yellowpage_navigation_search_result_unknown_error">Unknown error</string>
-    <string name="yellowpage_navigation_menu_order">My orders</string>
+    <string name="yellowpage_navigation_menu_order">Perintah saya</string>
 
-    <string name="yellowpage_navigation_send_to_desktop_succeeded">Added to Home screen</string>
-    <string name="yellowpage_navigation_network_location_not_enabled_title">Enable network location service</string>
-    <string name="yellowpage_navigation_network_location_not_enabled_summary">Directory provides services according to your city and enabling WLAN &amp; mobile network location service can improve the quality of services.</string>
-    <string name="yellowpage_navigation_network_location_enable">Enable now</string>
-    <string name="yellowpage_navigation_network_location_enable_later">Enable later</string>
+    <string name="yellowpage_navigation_send_to_desktop_succeeded">Tambahkan ke Home Screen</string>
+    <string name="yellowpage_navigation_network_location_not_enabled_title">Aktifkan layanan lokasi jaringan</string>
+    <string name="yellowpage_navigation_network_location_not_enabled_summary">Direktori menyediakan layanan sesuai dengan kota Anda dan memungkinkan WLAN &amp; layanan lokasi jaringan selular dapat meningkatkan kualitas pelayanan.</string>
+    <string name="yellowpage_navigation_network_location_enable">Aktifkan sekarang</string>
+    <string name="yellowpage_navigation_network_location_enable_later">Aktifkan nanti</string>
 </resources>
