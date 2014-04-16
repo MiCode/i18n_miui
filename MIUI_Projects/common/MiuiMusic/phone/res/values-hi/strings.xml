@@ -193,7 +193,7 @@
     <string name="android_album_settings">प्रदर्शन एम्बेडेड आर्टवर्क</string>
     <string name="android_album_summary">एम्बेडेड छवि फ़ाइलों को प्रदर्शित</string>
     <string name="auto_correct_id3_settings">सही गीत की जानकारी</string>
-    <string name="auto_correct_id3_summary">Baidu 'ऑडियो फिंगरप्रिंट एल्गोरिथ्म का उपयोग कर अपने आप सही गीत की जानकारी सही करे</string>
+    <string name="auto_correct_id3_summary">Baidu \'ऑडियो फिंगरप्रिंट एल्गोरिथ्म का उपयोग कर अपने आप सही गीत की जानकारी सही करे</string>
 
     <string name="music_filter">फ़िल्टर फाइलें</string>
     <string name="filter_by_size">आकार फ़िल्टर</string>
@@ -538,7 +538,7 @@
     <string name="where_is_barcode">कहां QR कोड है?</string>
     <string name="i_know">ओके</string>
     <string name="ktv_alert_title">केवल समर्थित उपकरणों गीतों को जोड़ सकते हैं</string>
-    <string name="ktv_alert_message">इसी मूल्यांकन करें देखने के लिए KTV की सांत्वना के मुख्य पृष्ठ पर 'गाने को जोड़ने के लिए फोन का प्रयोग करें "टैप</string>
+    <string name="ktv_alert_message">इसी मूल्यांकन करें देखने के लिए KTV की सांत्वना के मुख्य पृष्ठ पर \'गाने को जोड़ने के लिए फोन का प्रयोग करें \"टैप</string>
     <string name="ktv_and_room">"%1$s %2$s"</string>
     <string name="ktv_connected_alert_titel">"से जुड़ा %1$s"</string>
     <string name="ktv_connected_alert_message">आपके द्वारा चुने गए गीतों प्लेलिस्ट को "My KTV" जोड़ दिया जाएगा</string>
