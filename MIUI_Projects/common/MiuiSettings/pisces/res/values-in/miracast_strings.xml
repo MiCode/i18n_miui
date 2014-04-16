@@ -11,65 +11,65 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!--Miracast Settings --><skip />
     <!-- Title of the Miracast settings screen -->
-    <string name="miracast_settings_category">WLAN display settings</string>
+    <string name="miracast_settings_category">Pengaturan tampilan WLAN</string>
     <!-- Preference category for Miracast display list -->
-    <string name="miracast_display_category">Displays</string>
+    <string name="miracast_display_category">Tampilan</string>
     <!-- Action bar text message to search Miracast sink-->
-    <string name="miracast_menu_search">Search</string>
+    <string name="miracast_menu_search">Cari</string>
     <!-- Action bar text message to indicate searching Miracast sink-->
-    <string name="miracast_menu_searching">Searching</string>
+    <string name="miracast_menu_searching">Mencari</string>
     <!-- Action bar text message to teardown a miracast session-->
     <string name="miracast_menu_teardown">Teardown</string>
     <!-- Menu option to connect to a Miracast sink and begin streaming-->
-    <string name="miracast_menu_connect">Start streaming</string>
+    <string name="miracast_menu_connect">Mulai siaran</string>
     <!-- Menu option to disconnect from a Miracast sink and stop streaming-->
-    <string name="miracast_menu_disconnect">Stop streaming</string>
+    <string name="miracast_menu_disconnect">Hentikan siaran</string>
     <!-- Menu option to delete a Miracast sink -->
-    <string name="miracast_menu_forget">Forget display</string>
+    <string name="miracast_menu_forget">Lupa tampilan</string>
     <!-- Menu option to modify a Miracast sink configuration -->
-    <string name="miracast_menu_rename">Rename display</string>
+    <string name="miracast_menu_rename">Namai ulang tampilan</string>
     <!-- Button label to save a Miracast sink configuration [CHAR LIMIT=10] -->
-    <string name="miracast_setup_save">Save</string>
+    <string name="miracast_setup_save">Simpan</string>
     <!-- Button label to cancel and close a Miracast dialog [CHAR LIMIT=10] -->
-    <string name="miracast_setup_cancel">Cancel</string>
+    <string name="miracast_setup_cancel">Batal</string>
     <!-- Miracast settings. text displayed when Wi-Fi is off [CHAR LIMIT=50]-->
-    <string name="miracast_wifi_off">To use Miracast, turn Wi-Fi on</string>
+    <string name="miracast_wifi_off">Nyalakan Wi-Fi, untuk menggunakan Miracast</string>
     <!-- Miracast settings. text displayed when no Miracast sinks detected after a complete scan [CHAR LIMIT=50]-->
-    <string name="miracast_no_sinks_found">No nearby wireless display is available</string>
+    <string name="miracast_no_sinks_found">Tidak tersedia tampilan wireless</string>
     <!-- Label for the nickname for the Miracast sink -->
-    <string name="miracast_nickname">Please set a new name:</string>
+    <string name="miracast_nickname">Buat nama baru:</string>
     <!-- Text displayed when WPS fails to start [CHAR LIMIT=150] -->
-    <string name="miracast_connection_failed_generic">The connection was not successful</string>
+    <string name="miracast_connection_failed_generic">Koneksi gagal</string>
 
     <!-- Miracast sink status.  Streaming active -->
-    <string name="miracast_sink_connected">Connected</string>
+    <string name="miracast_sink_connected">Terhubung</string>
     <!-- Miracast sink status.  Not in range -->
-    <string name="miracast_sink_not_available">Not available</string>
+    <string name="miracast_sink_not_available">Tidak tersedia</string>
     <!-- Miracast sink status.  Connecting... -->
-    <string name="miracast_sink_connecting">Connecting\u2026</string>
+    <string name="miracast_sink_connecting">Menghubungkan\u2026</string>
     <!-- Miracast sink status.  Not connected -->
-    <string name="miracast_sink_ready_to_connect">Ready to connect</string>
+    <string name="miracast_sink_ready_to_connect">Siap mengubungkan</string>
     <!-- Miracast sink status.  Busy -->
-    <string name="miracast_sink_busy">Busy</string>
+    <string name="miracast_sink_busy">Sibuk</string>
 
     <!-- Miracast error.  Already streaming -->
-    <string name="miracast_error_already_streaming">Already streaming to one display</string>
+    <string name="miracast_error_already_streaming">Sudah disiarkan ke satu tampilan</string>
     <!-- Miracast error.  Connection in progress -->
-    <string name="miracast_error_connection_in_progress">Connection is in progress. Please wait</string>
+    <string name="miracast_error_connection_in_progress">Sedang menghubungkan. Mohon tunggu</string>
     <!-- Miracast Cancel ongoing Connection Dialog -->
-    <string name="miracast_cancelconnect_dialog">Cancel connection</string>
+    <string name="miracast_cancelconnect_dialog">Batal menghubungkan</string>
     <!-- Miracast title for CancelConnect Dialog -->
     <string name="miracast_dialog_title">%1$s</string>
     <!-- Miracast error. P2P Already connected.CancelConnect cannot be done -->
-    <string name="miracast_error_cancelconnect">The connection is currently busy</string>
+    <string name="miracast_error_cancelconnect">Koneksi sibuk</string>
     <!-- Miracast Settings. text to depict that discovery has started -->
-    <string name="miracast_search_for_displays">Searching for wireless displays...</string>
+    <string name="miracast_search_for_displays">Mencari tampilan wireless...</string>
     <!-- Miracast settings. text displayed when PC2THOR is connected [CHAR LIMIT=75]-->
-    <string name="miracast_PC2THOR_streaming_on">Miracast is unavailable because a PC is streaming to this device</string>
+    <string name="miracast_PC2THOR_streaming_on">Miracast tidak tersedia karena sedang menyiarkan dari PC ke perangkat ini</string>
 
     <!-- Miracase settings menu title for disable DHCP for special dongle -->
-    <string name="miracast_disable_dhcp">Disable HDCP</string>
+    <string name="miracast_disable_dhcp">Nonaktifkan HDCP</string>
     <!-- Miracase settings menu title for enable DHCP -->
-    <string name="miracast_enable_dhcp">Enable HDCP</string>
+    <string name="miracast_enable_dhcp">Aktifkan HDCP</string>
 </resources>
 
