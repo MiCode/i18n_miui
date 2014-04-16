@@ -418,7 +418,7 @@
     <string name="gallery_cloud_provider_name">क्लाउड के एलबम</string>
     <string name="sync_album">एलबम समन्वय करे</string>
     <string name="sync_album_summary">आपके क्लाउड एलबम मे तस्वीरें उपलोड अकरे</string>
-    <string name="open_sync_title">समन्वय एनेबल करे/string>
+    <string name="open_sync_title">समन्वय एनेबल करे</string>
     <string name="alert_message_open_sync">आपको पहले समन्वय को एनेबल करना पड़ेगा.</string>
     <string name="open">एनेबल</string>
     <string name="cloud_gallery_no_pictures">कोई छवियां नहीं</string>

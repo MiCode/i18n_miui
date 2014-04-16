@@ -39,7 +39,7 @@
     <string name="menu_item_orientation_fixed_by_videosize_action">ऑटो-रोटेट अक्षम करें</string>
     <string name="menu_item_screen_shot">कैप्चर</string>
     <string name="menu_item_sub_title">सबटाइटल</string>
-    <string name="toast_message_continue_play_from">&#160 से प्ले हो रहा है;</string>
+    <string name="toast_message_continue_play_from">&#160; से प्ले हो रहा है</string>
     <string name="toast_message_continue_play_hour">h&#160;</string>
     <string name="toast_message_continue_play_minute">m&#160;</string>
     <string name="toast_message_continue_play_second_and_play">s</string>
