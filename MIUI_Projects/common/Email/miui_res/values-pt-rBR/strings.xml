@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="alert_title_selected">"Marcar todos"</string>
+    <string name="alert_selected_all_message">" Você selecionou %d mensagens. Você tem certeza?"</string>
+
+    <string name="account_setup_index_title">"Guia de Configurações de E-mail"</string>
+    <string name="account_setup_index_label">"Adicionar uma conta"</string>
+    <string name="account_setup_index_other_mails">"Outros"</string>
+    <string name="account_setup_basic_label">"Por favor insira as informações para a conta %s :"</string>
+    <string name="account_setup_basic_name_label">"Seu nome (opcional)"</string>
+    <string name="account_setup_basic_description_label">"Nome da conta (opcional)"</string>
+
+    <string name="add_quick_responses_action">Criar nova</string>
+    <string name="account_security_waiting_policy_key_message">"%s está obtendo configurações de segurança do servidor. Aguarde."</string>
+
+    <!-- Text used for default signature -->
+    <string name="default_signature">"Enviado via Xiaomi"</string>
+
+    <string-array name="general_preference_auto_advance_summary_array">
+        <item>"Vá para a mensagem mais recente após excluir uma mensagem"</item>
+        <item>"Vá para a mensagem mais antiga após excluir uma mensagem"</item>
+        <item>"Vá para a lista de mensagens após excluir uma mensagem"</item>
+    </string-array>
+    <string name="general_preference_auto_advance_dialog_title">"Avanço automático"</string>
+    <string name="general_preferences_clear_trusted_senders_title">"Ocultar imagens"</string>
+    <string name="cleared_trusted_senders_message">"Imagens incorporadas em e-mails não serão exibidas automaticamente."</string>
+</resources>

@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">Explorer</string>
+    <string name="confirm">Confirmar</string>
+    <string name="menu_item_ftp">FTP</string>
+    <string name="menu_item_cleanup">Limpar Arquivos</string>
+    <string name="menu_item_search">Pesquisar</string>
+    <string name="operation_create_folder">Nova pasta</string>
+    <string name="menu_item_sort">Ordenar por</string>
+    <string name="menu_item_sort_name">Nome</string>
+    <string name="menu_item_sort_size">Tamanho</string>
+    <string name="menu_item_sort_date">Data</string>
+    <string name="menu_item_sort_type">Tipo</string>
+    <string name="operation_favorite">Marcar como favorito</string>
+    <string name="operation_unfavorite">Remover dos favoritos</string>
+    <string name="operation_copy">Copiar</string>
+    <string name="operation_paste">Colar</string>
+    <string name="operation_move">Recortar</string>
+    <string name="operation_send">Enviar</string>
+    <string name="operation_rename">Renomear</string>
+    <string name="operation_delete">Excluir</string>
+    <string name="operation_info">Detalhes</string>
+    <string name="operation_cancel">Cancelar</string>
+    <string name="operation_refresh">Atualizar</string>
+    <string name="operation_show_sys">Mostrar arquivos ocultos</string>
+    <string name="operation_hide_sys">Não mostrar arquivos ocultos</string>
+    <string name="cancel">Cancelar</string>
+    <string name="background">Download em segundo plano</string>
+    <string name="no_file">Nenhum arquivo</string>
+    <string name="tab_category">Categorias</string>
+    <string name="tab_phone">Telefone</string>
+    <string name="category_all">Tudo</string>
+    <string name="category_music">Música</string>
+    <string name="category_video">Vídeos</string>
+    <string name="category_picture">Imagens</string>
+    <string name="category_theme">Temas</string>
+    <string name="category_document">Documentos</string>
+    <string name="category_zip">Compactados</string>
+    <string name="category_apk">APKs</string>
+    <string name="category_other">Outros</string>
+    <string name="category_favorite">Com estrela</string>
+    <string name="category_bluetooth">Bluetooth</string>
+    <string name="category_log">Registros</string>
+    <string name="category_mirouter">MiRouter</string>
+    <string name="colon">": "</string>
+    <string name="operation_rename_message">Digite o novo nome</string>
+    <string name="operation_create_folder_message">Nome da pasta</string>
+    <string name="operation_delete_confirm_message">Excluir</string>
+    <string name="operation_delete_confirm_message_folder">Excluindo a pasta você também excluirá todo o seu conteúdo.</string>
+    <string name="delete_folder">Excluir esta pasta?</string>
+    <string name="delete_folders">Excluir %1$d pastas?</string>
+    <string name="delete_file">Excluir este arquivo?</string>
+    <string name="delete_files">Excluir %1$d arquivos?</string>
+
+    <plurals name="delete_files_confirm">
+        <item quantity="one">Excluir 1 arquivo</item>
+        <item quantity="other">Excluir %1$d arquivos</item>
+    </plurals>
+
+    <plurals name="delete_folders_confirm">
+        <item quantity="one">" e 1 pasta?"</item>
+        <item quantity="other">" e %1$d pastas?"</item>
+    </plurals>
+
+    <string name="new_folder_name">Pasta sem nome</string>
+    <string name="sd_card_size">Cartão SD: <xliff:g id="total_size">%1$s</xliff:g></string>
+    <string name="sd_card_available">Disponível: <xliff:g id="available_size">%1$s</xliff:g></string>
+    <string name="file_info_location">Local: </string>
+    <string name="file_info_size">Tamanho: </string>
+    <string name="file_info_modified">Hora: </string>
+    <string name="file_info_canread">Leitura: </string>
+    <string name="file_info_canwrite">Gravação: </string>
+    <string name="file_info_ishidden">Oculto: </string>
+    <string name="yes">Sim</string>
+    <string name="no">Não</string>
+    <string name="operation_deleting">Excluindo\u2026</string>
+    <string name="operation_pasting">Copiando\u2026</string>
+    <string name="operation_moving">Movendo\u2026</string>
+    <string name="confirm_know">OK</string>
+    <string name="error_info_cant_send_folder">Tipo de arquivo não suportado.</string>
+    <string name="fail_to_create_folder">Não foi possível criar pasta: a pasta já existe ou não há espaço suficiente para criá-la.</string>
+    <string name="fail_to_create_folder_unknown">Não foi possível criar pasta</string>
+    <string name="fail_to_rename">Um arquivo ou pasta de mesmo nome já existe.</string>
+    <string name="error_filename_too_long">Este nome de arquivo é muito grande.</string>
+    <string name="enable_sd_card">Insira o cartão SD ou desative o armazenamento USB.</string>
+    <string name="start_server">Iniciar</string>
+    <string name="stop_server">Parar</string>
+    <string name="notif_server_starting">Iniciando servidor FTP\u2026</string>
+    <string name="notif_title">Servidor FTP em execução.</string>
+    <string name="storage_warning">Armazenamento externo indisponível.</string>
+    <string name="wifi_state">Estado do Wi-Fi</string>
+    <string name="instruction_pre">Toque em Iniciar para ativar o Servidor FTP</string>
+    <string name="instruction">Insira o seguinte endereço em seu cliente FTP: </string>
+    <string name="no_wifi">Conexão Wi-Fi indisponível.</string>
+    <string name="no_wifi_hint">Verifique suas configurações de conexão.</string>
+    <string name="search_title">Pesquisar</string>
+    <string name="search_hint">Pesquisar</string>
+    <string name="dialog_select_type">Selecionar tipo</string>
+    <string name="dialog_type_text">Texto</string>
+    <string name="dialog_type_audio">Áudio</string>
+    <string name="dialog_type_video">Vídeo</string>
+    <string name="dialog_type_image">Imagens</string>
+    <string name="favorite_photo">Fotos</string>
+    <string name="favorite_screen_cap">Capturas de tela</string>
+    <string name="favorite_ringtone">Toques</string>
+    <string name="file_loading">Carregando\u2026</string>
+    <string name="multi_select_title"><xliff:g id="number">%1$s</xliff:g>selecionado(s)</string>
+    <string name="tab_networkdisk">KuaiPan</string>
+    <string name="operation_download_link">Gerar link de download</string>
+    <string name="ui_filechange_btn_download">Download de arquivos</string>
+    <string name="show_message">Você precisa efetuar o download deste arquivo antes de abrí-lo.</string>
+    <string name="ui_main_progress_txt_open_file">Efetuando download\u2026</string>
+    <string name="networkView_notConnected">Nenhuma rede disponível.</string>
+    <string name="ui_main_toast_favorite_removed">Item removido dos favoritos</string>
+    <string name="ui_main_toast_operation_failed">Falha ao remover %1$s dos favoritos</string>
+    <string name="user_guide">Guia do usuário KuaiPan</string>
+    <string name="user_guide_summary">Como utilizar o KuaiPan</string>
+    <string name="rename_failed">Não foi possível renomear %1$s</string>
+    <plurals name="directory_item_count">
+        <item quantity="one">1 item</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> itens</item>
+    </plurals>
+    <string name="directory_no_item">Pasta vazia</string>
+    <string name="error_open_file_failed_no_app_found">Nenhum aplicativo encontrado para executar esta ação.</string>
+    <string name="no_enough_space">Espaço insuficiente</string>
+    <string name="directory_info_divider">"  |  "</string>
+
+    <string name="no_enough_storage_title">Espaço insuficiente</string>
+    <string name="no_enough_storage_indication">O armazenamento do dispositivo está cheio.</string>
+
+    <plurals name="ui_bar_txt_download_progress">
+        <item quantity="one">1 arquivo restante para download</item>
+        <item quantity="other">%1$d arquivos restantes para download</item>
+    </plurals>
+
+    <plurals name="ui_bar_txt_upload_progress">
+        <item quantity="one">1 arquivo restante para upload</item>
+        <item quantity="other">%1$d arquivos restantes para upload</item>
+    </plurals>
+
+    <string name="ui_main_menu_option_task_manage">Gerenciar downloads</string>
+    <string name="kuaipan_label">KuaiPan</string>
+    <string name="create_kuaipan_shortcut_pref">Mostrar na Tela inicial</string>
+    <string name="login_reg_content0">Use o KuaiPan de quaqlquer lugar.</string>
+    <string name="login_reg_content">Armazene arquivos e sincronize-os entre múltiplos dispositivos.\nEste recurso requer uma conexão com a internet.</string>
+    <string name="start_use_xiaomi_account">Iniciar uso do KuaiPan</string>
+    <string name="pan_settting">Configurações do KuaiPan</string>
+    <string name="xiaomi_account">Conta Xiaomi</string>
+    <string name="space_usage">Espaço utilizado</string>
+    <string name="used">Utilizado</string>
+    <string name="loading">Carregando\u2026</string>
+    <string name="load_err">Não foi possível carregar</string>
+    <string name="local_cache_size">Tamanho do cache local: %s</string>
+    <string name="net_lose_connected">A conexão foi perdida</string>
+    <string name="wangpan_root_path">Kuaipan</string>
+    <string name="kuaipan_over_space">Espaço insuficiente</string>
+    <string name="kuaipan_tech_support">Conecte-se em kuaipan.cn</string>
+    <string name="no_tasks">Nenhuma tarefa</string>
+    <string name="no_more_space">Espaço insuficiente</string>
+    <string name="sd_full">O armazenamento do seu dispositivo está cheio</string>
+    <string name="file_too_large">Não foi possível efetuar upload: o arquivo é muito grande.</string>
+
+    <string name="create_new_folder_failed">Não foi possível criar a pasta</string>
+    <string name="user_guide_kuaipan_copy">Acesse seus arquivos de inúmeros dispositivos</string>
+    <string name="user_guide_upload_to_kuaipan">Armazene arquivos na sua conta KuaiPan usando seu telefone</string>
+    <string name="user_guide_download_other_version">Faça o download do KuaiPan para Windows e OSX</string>
+    <string name="user_guide_other_version">Também disponível em outras plataformas.</string>
+    <string name="upload_file_toolarge_message">Falha no upload de %1$d: não é possível enviar arquivos maiores do que 300MB.</string>
+    <string name="cution">Dicas</string>
+
+    <string name="clean_trash_box">Esvaziar lixeira</string>
+    <string name="trash_box_link">Para esvaziar a sua lixeira, acesse <b>pan.xiaomi.com.</b></string>
+    <string name="clean_title">Excluir arquivos com mais de 30 dias</string>
+    <string name="clean_message"> %1$s de espaço liberado.</string>
+    <string name="trash_box_message1">Exclua arquivos desnecessários para liberar espaço.</string>
+    <string name="trash_box_message2">Esvazie a lixeira para liberar espaço.</string>
+    <string name="close">Fechar</string>
+    <string name="space_info">KuaiPan: %1$s disponível, %2$s no total</string>
+    <string name="trash_box_capacity">Lixeira %1$s</string>
+    <string name="data_capacity">Dados %1$s</string>
+
+    <string name="send_to_midrive">KuaiPan</string>
+    <string name="choose_upload_location">Upload para uma pasta KuaiPan</string>
+    <string name="send_to_midrive_failed_message">Este tipo de arquivo não é suportado.</string>
+    <string name="operation_compress">Comprimir</string>
+    <string name="compress_title">Comprimir</string>
+    <string name="compress_message">Comprimir para\u2026</string>
+    <string name="compress_fail">Não foi possível comprimir: já existe um arquivo com o mesmo nome.</string>
+    <string name="operation_compressing">Comprimindo\u2026</string>
+    <string name="operation_decompressing">Extraindo\u2026</string>
+    <string name="decompress_success">Arquivo extraído</string>
+    <string name="decompress_fail">Não foi possível extrair: já existe um arquivo com o mesmo nome, ou o arquivo está corrompido.</string>
+
+    <string name="decompress_to_here">Extrair aqui</string>
+    <string name="decompress_to">Extrair para\u2026</string>
+
+    <string name="decompress_confirm">Extrair</string>
+    <string name="decompress_cancel">Cancelar</string>
+
+    <string name="kuaipan_prompt">Atenção</string>
+    <string name="kuaipan_prompt_message">\n No momento nosso servidor está em manutenção. Por favor tente novamente mais tarde\u2026\n</string>
+    <string name="move_failed">Não foi possível recortar</string>
+    <string name="copy_failed">Não foi possível copiar</string>
+    <string name="delete_failed">Não foi possível excluir</string>
+    <string name="toast_file_not_can_read">Nenhum aplicativo encontrado para executar esta ação</string>
+
+    <string name="ui_main_menu_option_sign_in">Login</string>
+    <string name="sign_description">Efetuando login\u2026</string>
+    <string name="signin_error">Não foi possível conectar-se ao servidor. Verifique sua conexão com a internet.</string>
+    <string name="signin_success">Bem-vindo!\nArmazenamento gratuito adicionado\: %1$s</string>
+    <string name="already_signin_description">Você já está conectado.</string>
+    <string name="pull_to_signin">Deslize para baixo para efetuar o login.</string>
+    <string name="release_to_signin">Solte para efetuar o login.</string>
+
+    <string name="server_control_settings">Configurações</string>
+    <string name="server_control_advanced_settings">Configurações de FTP</string>
+    <string name="server_control_charset">Codificação de transferências</string>
+
+    <string name="utf8_title">UTF-8</string>
+    <string name="utf8_summary">Codificação padrão do sistema</string>
+
+    <string name="gbk_title">GBK</string>
+    <string name="gbk_summary">Codificação padrão em Chinês simplificado</string>
+
+    <string name="big5_title">BIG5</string>
+    <string name="big5_summary">Codificação padrão em Chinês tradicional</string>
+
+    <string name="stay_awake_title">Manter tela ativa</string>
+    <string name="stay_awake_summary">A tela permanecerá ativa durante toda a sessão FTP</string>
+
+    <string name="ftp_transfer_secure">Segurança</string>
+    <string name="ftp_port_number">Número da porta</string>
+    <string name="ftp_account_req_notice"> 4~16 caracteres, letras e números, sensível a maiúsculas e minúsculas</string>
+    <string name="ftp_open_port_error">Não foi possível abrir a porta: verifique sua conexao com a internet ou altere o número da porta.</string>
+    <string name="ftp_anonymous_login">Login anônimo</string>
+    <string name="ftp_username_and_passworld">Login</string>
+    <string name="ftp_username_hint">Nome de usuário</string>
+    <string name="ftp_password_hint">Senha</string>
+    <string name="ftp_invalid_username_or_password">Nome de usuário ou senha inválidos</string>
+
+    <string name="add_task">Adicionar tarefas</string>
+    <string name="adding_upload_tasks">Adicionando tarefas\u2026</string>
+    <string name="create_new_folder_desctiption">Criando pasta\u2026</string>
+    <string name="create_share_link_description">Criando link\u2026</string>
+    <string name="rename_description">Renomeando\u2026</string>
+    <string name="share_link_failed">Não foi possível gerar o link</string>
+    <string name="choose_send_type">Selecione um método de envio</string>
+    <string name="download_link_completed">%1$s foi compartilhado via KuaiPan. Toque no link abaixo para acessar o conteúdo:</string>
+
+    <string name="transing">Enviando\u2026</string>
+    <string name="finished">Concluído</string>
+    <string name="uploading">Efetuando upload\u2026</string>
+    <string name="downloading">Efetuando download\u2026</string>
+    <string name="waiting">Aguardando\u2026</string>
+    <string name="wait_wifi">Aguardando Wi-Fi\u2026</string>
+    <string name="wait_net">Aguardando rede\u2026</string>
+    <string name="wait_sdcard">Aguardando o cartão SD\u2026</string>
+    <string name="paused">Em pausa</string>
+    <string name="upload_failed">Falha no upload</string>
+    <string name="download_failed">Falha no download</string>
+    <string name="operation_pause">Pausasr</string>
+    <string name="operation_resume">Iniciar</string>
+    <string name="operation_pause_all">Pausar todos</string>
+    <string name="operation_resume_all">Iniciar todos</string>
+    <string name="operating">Processando\u2026</string>
+
+    <string name="trans_task">Transferências</string>
+    <string name="des_running_trans">%1$d transferência(s) pendente(s).</string>
+    <string name="trans_task_delete_confirm_message">Excluir %1$d tarefas selecionadas?</string>
+    <string name="forward_to_web_recycle_prompt">&lt;a href=\"%1$s\">Toque aqui&lt;/a> para ir para a Lixeira</string>
+
+    <string name="storage_internal">Armazenamento interno</string>
+    <string name="storage_sd_card">Cartão SD</string>
+    <string name="storage_usb">Armazenamento USB</string>
+    <string name="bind_account">Sincronizar conta existente</string>
+    <string name="bind_account_summary">Sincronize sua conta KuaiPan existente com sua Conta Xiaomi</string>
+    <string name="binded_accout_title">Contas sincronizadas</string>
+    <string name="binded_accout_description">Sua Conta Xiaomi foi sincronizada com o KuaiPan. Você poderá agora utilizar sua Conta Xiaomi para acessar dados armazenados no KuaiPan.</string>
+
+    <!-- for 文件清理 -->
+    <string name="file_cleanup">Limpeza de arquivos</string>
+    <string name="scanning_on_going">Escaneando\u2026</string>
+    <string name="scanning">Escaneando <xliff:g id="count">%d</xliff:g> app(s) \u2026 (total de <xliff:g id="total">%d</xliff:g> apps)</string>
+    <string name="sys_size_title">Espaço total</string>
+    <string name="sys_size">Espaço total <xliff:g id="size">%1$s</xliff:g></string>
+    <string name="application_size_label">Aplicativo</string>
+    <string name="data_size_label">Dados</string>
+    <string name="cache_size_label">Cache</string>
+    <string name="sd_size_label">Armaz. do usuário</string>
+    <string name="version_text">Versão <xliff:g id="version_num">%1$s</xliff:g></string>
+    <string name="uninstall_app_data">Excluir o aplicativo e seus dados</string>
+    <string name="start_cleanup">Limpar agora</string>
+
+    <string name="header_text_scanning">Escaneando\u2026</string>
+    <string name="header_text_scanned">Escaneamento concluído</string>
+    <string name="header_text_cleaning">Limpando\u2026</string>
+    <string name="header_text_cleaned">Concluído</string>
+
+    <string name="waiting_for_cleaning">Aguardando\u2026</string>
+    <string name="item_name">Pasta sem nome</string>
+    <string name="waiting_for_scanning">Aguardando\u2026</string>
+    <string name="scanned">Escaneamento concluído</string>
+    <string name="cleaning">Limpando\u2026</string>
+    <string name="cleaned">Concluído</string>
+    <string name="cleanup_stopped">Limpeza interrompida</string>
+
+    <string name="temp_file_title">Arquivos temporários</string>
+    <string name="thumbnail_title">Miniaturas de imagem</string>
+    <string name="app_cache_title">Cache de aplicativos</string>
+    <string name="empty_dir_title">Pastas vazias</string>
+    <string name="app_garbage_title">Lixo</string>
+
+    <string name="temp_file_cleanup_indication" formatted="false">%s arquivos temporários</string>
+    <string name="thumbnail_cleanup_indication" formatted="false">%s miniaturas de imagem</string>
+    <string name="app_cache_cleanup_indication" formatted="false">%s cache de aplicativos</string>
+    <string name="empty_dir_cleanup_indication" formatted="false">%s outros arquivos</string>
+    <string name="app_garbage_cleanup_indication" formatted="false">%s lixo</string>
+
+    <string name="no_temp_file_indication">Nenhum arquivo temporário</string>
+    <string name="no_thumbnail_indication">Nenhuma miniatura de imagem</string>
+    <string name="no_app_cache_indication">Nenhum cache de aplicativo</string>
+    <string name="no_empty_dir_indication">Nenhuma pasta vazia</string>
+    <string name="no_app_garbage_indication">Nenhum lixo</string>
+
+    <string name="cancel_app_garbage_cleanup">Não limpar</string>
+    <string name="clean_app_garbage" formatted="false">Excluir %d item(ns)</string>
+    <string name="app_garbage_path">Local:</string>
+
+    <string name="give_up_cleaning">Cancelar</string>
+    <string name="restart_cleaning">Reiniciar</string>
+    <string name="cleanup_complete">Concluído</string>
+
+    <string name="count_down_time">Iniciando em %d segundos</string>
+    <string name="cancel_with_count_down">Cancelar (%d)</string>
+
+    <string name="garbage_size_metric" formatted="false">Lixo\: %s\n</string>
+
+    <string name="garbage_item_name_format" formatted="false">%s ( %s )</string>
+    <string name="garbage_item_path_format" formatted="false">%s %s</string>
+    <string name="account_bind_prompt">Migrando dados do usuário\u2026 Isto poderá elvar alguns minutos.</string>
+    <string name="migrate_announcement_title">Migração concluída</string>
+    <string name="migrate_announcement_msg">Sincronize sua conta KuaiPan atual com sua Conta Xiaomi nas configurações do KuaiPan.</string>
+    <string name="query_bind_state">Conectando-se ao KuaiPan\u2026</string>
+    <string name="operation_deleting_detail">Excluindo (%1$d/%2$d)</string>
+    <string name="operation_moving_detail">Movendo (%1$d/%2$d)</string>
+    <string name="operation_copying">Copiando\u2026</string>
+    <string name="operation_copying_detail">Copiando (%1$d/%2$d)</string>
+    <string name="name_illegal">Digite um nome</string>
+    <string name="open_changed_file_title">Alterações aplicadas</string>
+    <string name="open_changed_file_message">O arquivo que você está tentando abrir foi alterado. Para corrigir este problema:\n1. Faça o download do arquivo novamente para garantir que você possua a versão mais recente.\n2. Efetue o upload do arquivo em sua conta KuaiPan.</string>
+    <string name="ui_filechange_btn_upload">Upload de arquivos</string>
+    <string name="folder_exist">A pasta informada já existe</string>
+
+    <!-- for unmount usb storage -->
+    <string name="unmount_inform_text">Desmontar armazenamento USB?</string>
+    <string name="dlg_error_unmount_text">Não foi possível desmontar o armazenamento USB.</string>
+</resources>
