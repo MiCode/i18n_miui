@@ -179,7 +179,7 @@
     <string name="download_lyric_settings">गाने के लिरिक्स प्राप्त करे</string>
     <string name="download_lyric_summary">गाने के लिरिक्स डाउनलोड करने से आपके मोबाइल डेटा यूसेज में थोड़ी वृद्धि होगी </string>
     <string name="listen_to_music_online_settings">Baidu से संगीत स्ट्रीम करे</string>
-    <string name="listen_to_online_summary">संगीत स्ट्रीमिंग से अपने मोबाइल के डेटा उपयोग में काफी वृद्धि होगी</string>  
+    <string name="listen_to_online_summary">संगीत स्ट्रीमिंग से अपने मोबाइल के डेटा उपयोग में काफी वृद्धि होगी</string>
     <string name="correct_id3_settings">गीत की जानकारी प्राप्त करें</string>
     <string name="correct_id3_summary">गीत के विषय में जानकारी डाउनलोड करने से अपने मोबाइल के डेटा उपयोग में काफी वृद्धि होगी</string>
 
@@ -493,7 +493,7 @@
     <string name="artist_albums">सभी एलबम</string>
     <string name="artist_hot_audios">प्रसिद्ध</string>
 
-    <string name="more"अधिक</string>
+    <string name="more">अधिक</string>
     <string name="album_search_local_descript">"स्थानीय | %1$d x %2$d"</string>
     <string name="album_search_online_descript">"ऑनलाइन | %1$d x %2$d"</string>
     <string name="album_select">एल्बम आर्टवर्क चुनें</string>
