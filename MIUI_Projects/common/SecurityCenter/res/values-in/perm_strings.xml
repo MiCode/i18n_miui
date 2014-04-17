@@ -64,7 +64,7 @@
     <string name="perm_hips_root_desc_stable">Fitur tidak tersedia di MIUI versi ini</string>
     <string name="perm_hips_root_hint">%1$s apl diizinkan untuk menggunakan root</string>
     <string name="perm_hips_send_sms_recipient">Penerima:</string>
-    <string name="perm_hips_send_sms_content">Konte:</string>
+    <string name="perm_hips_send_sms_content">Konten:</string>
     <string name="perm_hips_send_sms_smsc">SMS center:</string>
     <string name="perm_hips_send_sms_smsc_default">Default SMS center</string>
     <string name="perm_hips_send_sms_port">Desk port:</string>

@@ -45,7 +45,7 @@
     <string name="power_chooser_user_define_summary">Buat konfigurasi kustom untuk baterai</string>
     <string name="power_customizer_smart_mode">Default</string>
     <string name="power_customizer_standby_mode">Maraton</string>
-    <string name="power_customizer_sleep_mode">TIdur</string>
+    <string name="power_customizer_sleep_mode">Tidur</string>
     <string name="power_customizer_my_mode">Kustom</string>
     <string name="power_customizer_user_define_mode">Nama konfigurasi:</string>
     <string name="power_customizer_user_define_name">Kustom</string>

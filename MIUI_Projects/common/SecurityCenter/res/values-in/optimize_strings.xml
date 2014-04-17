@@ -25,7 +25,7 @@
     <string name="opt_item_cache_clean">Bersihkan sampah</string>
     <string name="opt_item_procs_clean">Kelola proses</string>
     <string name="opt_item_file_scan">Pindai berkas</string>
-    <string name="opt_item_autorun">Memulai otomtais</string>
+    <string name="opt_item_autorun">Memulai otomatis</string>
     <string name="opt_item_app_perm">Perizinan</string>
     <string name="opt_waiting">Menunggu</string>
 </resources>
