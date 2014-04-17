@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Uso de dados</string>
+
+    <!-- common -->
+
+    <string name="list_empty_text">Vazio</string>
+
+    <!-- main -->
+
+    <string name="main_button_normal_traffic">Pico</string>
+    <string name="main_button_idel_traffic">Fora do pico</string>
+    <string name="main_toolbar_firewall">Restringir</string>
+    <string name="main_toolbar_statistic">Estatísticas</string>
+    <string name="main_toolbar_purchase">Recarregar</string>
+    <string name="main_button_usage_adjust">Definir limite de dados</string>
+    <string name="main_button_usage_adjusting">Alterando…</string>
+    <string name="main_button_usage_adjust_manual">Definir limite de dados</string>
+    <string name="main_button_usage_package_setting">Definir limite de dados</string>
+    <string name="main_traffic_used_text">%s\nUsado</string>
+    <string name="main_traffic_remian_text">%s\nRestante</string>
+    <string name="main_traffic_overlimit_text">%s excedido</string>
+    <string name="main_traffic_used_only">Usado: %s</string>
+    <string name="main_alert_message_no_mobile_package">O limite de dados móveis não foi definido</string>
+    <string name="main_alert_message_no_imsi">Nenhum cartão SIM detectado</string>
+
+    <!-- firewall -->
+
+    <string name="firewall_activity_lable">Restringir uso de dados por app</string>
+    <string name="firewall_applist">Apps</string>
+    <string name="firewall_rule_group_title_mobile">Dados</string>
+    <string name="firewall_rule_group_title_wifi">Wi-Fi</string>
+    <string name="firewall_fragment_tab_title_nonsys">Baixado</string>
+    <string name="firewall_fragment_tab_title_sys">Apps</string>
+    <string name="firewall_fragment_sys_listempty">Vazio</string>
+    <string name="firewall_fragment_nonesys_listempty">Vazio</string>
+    <string name="firewall_service_network_blocked">%1$s teve seu acesso restringido ao utilizar a rede %2$s</string>
+
+    <!-- usage sorted -->
+
+    <string name="usage_sorted_activity_lable">Uso de dados</string>
+    <string name="usage_sorted_loading_text">Carregando\u2026</string>
+    <string name="usage_sorted_empty_text">Vazio</string>
+    <string name="person_hotpot">Pontos de acesso portáteis</string>
+    <string name="system_app">Sistema</string>
+    <string name="deleted_apps">Apps excluídos</string>
+    <string name="sorted_button">Organizar por</string>
+    <string name="app_detail">Detalhes</string>
+    <string name="app_version">Versão</string>
+    <string name="app_mobile">Dados</string>
+    <string name="app_wifi">Wi-Fi</string>
+    <string name="traffic_none">Nenhum</string>
+    <string name="sorted_dialog_title">Ordenar por</string>
+    <string name="cancel_button">Cancelar</string>
+    <string name="ok_button">OK</string>
+    <string name="permit_running_network">Permitir dados em segundo plano</string>
+    <string name="network_control">Configurações do aplicativo</string>
+    <string name="foreground_traffic">Primeiro plano %s</string>
+    <string name="background_traffic">Segundo plano %s</string>
+    <string name="stop_app_button">Parar</string>
+    <string name="detail_app_button">Detalhes</string>
+    <string name="force_stop_dlg_title">Restringir dados em segundo plano</string>
+    <string name="force_stop_dlg_text">Se você restringir os dados em segundo plano, alguns aplicativos e serviços não funcionarão até que você conecte-se a uma rede Wi-Fi.</string>
+
+    <!-- setting preference -->
+    <string name="pref_about_traffic_title">Configurações de limite de dados</string>
+    <string name="pref_package_traffic_normal">Pico: %s</string>
+    <string name="pref_package_traffic_overlay">%1$s | Adicional: %2$s</string>
+    <string name="pref_package_traffic_leisure">%1$s | Fora do pico: %2$s</string>
+    <string name="pref_package_traffic_settings">Limite de dados móveis</string>
+    <string name="pref_adjust_traffic_data">Definir limite de dados</string>
+    <string name="pref_app_traffic_managent">Restringir uso por app</string>
+    <string name="pref_connect_settings_exceed_limit_hint">Impedir a conexão de dados móveis quando o pico de uso atingir seu limite</string>
+    <string name="pref_connect_settings_exceed_limit">Restringir pico do limite de dados</string>
+    <string name="pref_free_traffic_exceed_limit">Notificar-me quando atingir o limite de uso</string>
+    <string name="pref_free_traffic_limit_warn">Aviso de limite de dados</string>
+    <string name="pref_special_traffic_exceed_limit">Notificar-me quando o uso de dados moveis atingir o limite</string>
+    <string name="pref_special_traffic_limit_warn">Definir aviso de limite de dados</string>
+    <string name="pref_connect_settings_enable_background">Permitir dados em segundo plano</string>
+    <string name="pref_connect_settings_enable_background_hint">Permitir que aplicativos utilizem a rede de dados móveis quando você não estiver utilizando-os</string>
+    <string name="pref_title_network_diagnostics">Diagnóstico de rede</string>
+    <string name="pref_check_network_diagnostics">Verifique se sua conexão de dados móveis está funcionando corretamente</string>
+    <string name="pref_category_title_other">Configurações adicionais</string>
+    <string name="pref_title_update_notification">Mostrar notificações de uso de dados</string>
+    <string name="pref_title_traffic_speed_state">Mostrar velocidade de rede</string>
+    <string name="pref_show_mobile_traffic">Ao desbloquear seu dispositivo, exibir estatísticas de uso pelo tempo que seu dispositivo estava sem uso (deve ser maior que 
+5 minutos)</string>
+    <string name="pref_title_mobile_traffic">Mostrar uso de dados quando bloqueado</string>
+    <string name="pref_title_declaration">Aviso importante</string>
+    <string name="pref_about">Sobre</string>
+    <string name="pref_version">Versão %s</string>
+    <string name="pref_leisure_no_overlay">Ativado</string>
+    <string name="pref_leisure_not_opened">Desativado</string>
+    <string name="pref_new_installed_preconfig_title">Configuração padrão para novos apps</string>
+
+    <!-- adjust traffic settings -->
+    <string name="pref_manual_adjust">Definir estatísticas de uso manualmente</string>
+    <string name="pref_daily_adjust">Definir pico do limite de dados</string>
+    <string name="pref_free_adjust">Limite de dados fora do pico</string>
+    <string name="pref_specified_adjust">Limite personalizado</string>
+    <string name="pref_automatic_adjust">Sincronizar estatísticas de uso</string>
+    <string name="pref_open_adjust_traffic">Sincronizar sua utilização de dados com sua operadora</string>
+    <string name="pref_auto_adjust_traffic">Sincronizar estatísticas de uso</string>
+    <string name="pref_auto_adjust_settings">Sincronizar estatísticas de uso automaticamente</string>
+    <string name="pref_adjust_data_usage">Modelo de mensagem da operadora</string>
+    <string name="pref_setting_operators_message">Editar a mensagem que seu dispositivo envia para sincronizar suas estatísticas de uso</string>
+    <string name="adjust_traffic_carrier_summary_today">Atualizado hoje às %s</string>
+    <string name="adjust_traffic_carrier_summary_yesterday">Atualizado ontem às %s</string>
+    <string name="adjust_traffic_carrier_summary_two_day_before">Atualizado há 2 dias</string>
+    <string name="adjust_traffic_carrier_summary_oneweek_before">Atualizado há 1 semana</string>
+    <string name="adjust_traffic_carrier_summary_more_oneweek_before">Atualizado há mais de uma semana</string>
+    <string name="adjust_traffic_carrier_summary_more_onemonth_before">Atualizado há mais de um mês</string>
+
+    <!-- seekbar text -->
+    <string name="left_precent">60%</string>
+    <string name="right_precent">100%</string>
+
+    <!-- month traffic settings preference -->
+    <string name="pref_avaible_traffic">Plano de dados</string>
+    <string name="pref_daily_traffic">Pico do limite de dados</string>
+    <string name="pref_data_usage_not_set">Definir limite de dados</string>
+    <string name="pref_warning_values">Nível de aviso de limite de dados</string>
+    <string name="pref_pkg_begin_date">Ciclo de uso</string>
+    <string name="pref_month_first_day">Primeiro dia do mês</string>
+    <string name="pref_month_begin_date">Ciclo de uso</string>
+    <string name="pref_more_traffic_settings">Configurações adicionais</string>
+    <string name="pref_add_traffic_pkg">Pacotes adicionais de dados</string>
+    <string name="pref_free_traffic_settings">Configuração de limite de dados</string>
+    <string name="pref_specified_traffic_settings">Configurações de limite</string>
+    <string name="input_traffic_pkg">Definir limite dados</string>
+    <string name="begin_date">Data de reinício</string>
+    <string name="tips_dialog_title">Não conhece seu limite?</string>
+    <string name="tips_message">Caso você não tenha certeza dos detalhes de seu plano de dados móveis, você precisará entrar em contato com sua operadora.</string>
+    <string name="daily_pkg_traffic">Definir limite de utilização</string>
+    <string name="input_aviable_traffic">Definir limite de dados</string>
+    <string name="pkg_traffic">Definir limite de dados</string>
+
+    <!-- free time traffic settings -->
+    <string name="free_traffic_settings">Limite de dados fora do pico</string>
+    <string name="free_time_traffic">Pico do limite de dados</string>
+    <string name="power_save_on_time_default_time">00:00</string>
+    <string name="power_save_on_time_start_time_summary">Término</string>
+    <string name="power_save_on_time_end_time_summary">Início</string>
+    <string name="manual_input_traffic">Definir limite de dados</string>
+    <string name="manual_input_free_traffic">Definir limite fora do pico</string>
+
+    <!-- dialog message -->
+    <string name="declaration_dialog_msg">Este recurso pode ajudá-lo a controlar sua utilização de dados móveis, mas não é garantido que a contagem seja exata. Para maior segurança, defina um limite abaixo do contratado.</string>
+    <string name="input_used_hint">Definir limite de dados</string>
+    <string name="text_day"></string>
+
+    <!-- settings page title -->
+    <string name="settings">Configurações do limite de dados</string>
+    <string name="adjust_traffic_data">Definir limite de dados</string>
+    <string name="per_month_pkg_traffic_settings">Definir limite de dados</string>
+    <string name="free_time_traffic_settings">Limite de dados fora do pico</string>
+
+    <!-- mobile data usage adjustment -->
+    <string name="traffic_setting_fragment_title">Informação de pacotes</string>
+    <string name="traffic_setting_fragment_button2_text">Salvar</string>
+    <string name="traffic_setting_fragment_area">Local</string>
+    <string name="traffic_setting_fragment_operator">Operadora</string>
+    <string name="traffic_setting_fragment_brand">Marca</string>
+    <string name="traffic_setting_fragment_template">Modelo de mensagem</string>
+    <string name="traffic_setting_fragment_loading_text">Obtendo informações da rede\u2026</string>
+    <string name="traffic_setting_fragment_no_network">Falha ao conectar-se à rede</string>
+    <string name="traffic_setting_fragment_get_template_falure">Falha na atualização. Verifique sua conexão com a internet e tente novamente.</string>
+    <string name="traffic_setting_fragment_send_num">Telefone da operadora</string>
+    <string name="traffic_setting_fragment_sms_content">Conteúdo da mensagem</string>
+    <string name="traffic_setting_fragment_send_num_tips">Insira número de telefone</string>
+    <string name="traffic_setting_fragment_sms_content_tips">Insira a mensagem aqui</string>
+    <string name="traffic_setting_fragment_null">Vazio</string>
+
+    <!-- data usage notification message -->
+    <string name="data_usage_warning_title">Aviso do uso de dados</string>
+    <string name="data_usage_warning_body">Toque para ver detalhes do uso de dados.</string>
+    <string name="data_usage_mobile_limit_title">Os dados móveis desativados</string>
+    <string name="data_usage_limit_body">Toque para ativar os dados móveis.</string>
+    <string name="data_usage_disabled_dialog">"Você atingiu seu limite de uso de dados móveis." \n\n"A utilização em excesso de seu plano de dados móveis pode resultar em cobranças extras de sua operadora."</string>
+    <string name="data_usage_disabled_dialog_enable">Ativar dados</string>
+    <string name="data_usage_mobile_limit_snoozed_title">Limite de dados móveis excedido</string>
+    <string name="data_usage_limit_snoozed_body">"Você excedeu seu limite de uso de dados."</string>
+    <string name="data_usage_restricted_title">Restrição de dados em segundo plano</string>
+    <string name="data_usage_restricted_body">Toque para ativar dados em segundo plano</string>
+    <string name="data_usage_leisure_warning_title">Limite de uso fora do pico</string>
+    <string name="data_usage_leisure_warning_body">Toque para visualizar detalhes de utilização.</string>
+    <string name="data_usage_correction_timeout_title">Tempo esgotado durante sincronização de dados</string>
+    <string name="data_usage_correction_timeout_body">Toque para atualizar manualmente.</string>
+    <string name="data_usage_no_total_package_title">Uso de dados</string>
+    <string name="data_usage_no_total_package_body">Você deseja definir um limite de uso dos dados móveis?</string>
+    <string name="data_usage_no_total_package_body_dual">Você deseja definir um limite de uso dos dados móveis para %s?</string>
+    <string name="network_assistant_upgraded_title">Atualização concluída</string>
+    <string name="network_assistant_upgraded_body">Toque para restringir uso de dados</string>
+
+    <!-- Lock screen traffic warn -->
+    <string name="lock_screen_traffic_warn_title">Aviso do uso de dados</string>
+    <string name="notification_title">%1$s-%2$s: cerca de %3$s utilizado</string>
+    <string name="notification_content_title">Utilizado %1$s durante o bloqueio</string>
+
+    <!-- free time traffic settings -->
+    <string name="free_time_traffic_title">Limite de dados fora do pico</string>
+    <string name="free_time_traffic_hint">Pico do limite de dados</string>
+
+    <!-- traffic_protection -->
+    <string name="traffic_protection_label">Aviso de limite de dados</string>
+    <string name="traffic_protection_summary">Defina um limite de uso para sua conexão de dados móveis (3G) para controlar sua utilização.</string>
+    <string name="traffic_protection_unknown"><u>Definir depois</u></string>
+    <string name="traffic_protection_text_hint">Definir limite de dados para %s</string>
+    <string name="traffic_protection_next">Próximo</string>
+    <string name="traffic_protection_data_usage_summary">Lembre-se, o uso em excesso do seu plano de dados móveis pode resultar em cobranças adicionais de sua operadora!</string>
+    <string name="traffic_protection_use_data">Dados ativados</string>
+
+    <!-- traffic correction -->
+    <string name="traffic_correction_start_correction">Consultando operadora\u2026</string>
+    <string name="traffic_correction_start_correction_failed">Falha durante a requisição, por favor verifique suas configurações</string>
+    <string name="traffic_correction_success">Limite de dados atualizado</string>
+    <string name="traffic_correction_failed">"Impossível obter limite de dados"</string>
+
+    <!-- operator -->
+    <string name="operator_name_cmcc">China Mobile</string>
+    <string name="operator_name_unicom">China Unicom</string>
+    <string name="operator_name_telcom">China Telecom</string>
+    <string name="operator_number_cmcc">10086</string>
+    <string name="operator_number_unicom">10010</string>
+    <string name="operator_number_telcom">10000</string>
+
+    <!-- dual card -->
+    <string name="dual_setting_simcard1">SIM 1</string>
+    <string name="dual_setting_simcard2">SIM 2</string>
+

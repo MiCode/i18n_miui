@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="traffic_uints">
+        <item>B</item>
+        <item>KB</item>
+        <item>MB</item>
+        <item>GB</item>
+    </string-array>
+    <string-array name="date_of_traffic">
+        <item>Ontem</item>
+        <item>Hoje</item>
+        <item>Este mÊs</item>
+    </string-array>
+    <string-array name="date_of_app_all">
+        <item>Ontem (Dados)</item>
+        <item>Hoje (Dados)</item>
+        <item>Este mês (Dados)</item>
+        <item>Ontem (Wi-Fi)</item>
+        <item>Hoje (Wi-Fi)</item>
+        <item>Este mês (Wi-Fi)</item>
+    </string-array>
+    <string-array name="date_of_app">
+        <item>Ontem (Dados)</item>
+        <item>Hoje (Dados)</item>
+        <item>Este mês (Dados)</item>
+    </string-array>
+    <string-array name="network_speed_update_internals">
+        <item>3 segundos</item>
+        <item>4 segundos</item>
+        <item>5 segundos</item>
+        <item>6 segundos</item>
+        <item>7 segundos</item>
+        <item>8 segundos</item>
+        <item>9 segundos</item>
+    </string-array>
+    <string-array name="traffic_sort_type">
+        <item>Uso de dados</item>
+        <item>Uso de Wi-Fi</item>
+        <item>Uso total</item>
+    </string-array>
+    <string-array name="traffic_setting_sms_template">
+        <item>Obter modelo de mensagem automaticamente</item>
+        <item>Definir modelo de mensagem manualmente</item>
+    </string-array>
+
+</resources>
