@@ -65,9 +65,9 @@
     <!-- Title prompted for user to choose a video item [CHAR LIMIT=20] -->
     <string name="select_video">वीडियो का चयन करें</string>
     <!-- Title prompted for user to choose a media object [CHAR LIMIT=20] -->
-    <string name="select_item">एडिट मोड</string>
+    <string name="select_item">संपादित मोड</string>
     <!-- Title prompted for user to choose an album [CHAR LIMIT=20] -->
-    <string name="select_album">एडिट मोड</string>
+    <string name="select_album">संपादित मोड</string>
     <!-- Title prompted for user to choose a group [CHAR LIMIT=20] -->
 
     <!-- Displayed in the title of the dialog for things to do with a picture
@@ -138,7 +138,7 @@
 
     <!-- String used as a menu label. The user can choose to edit the image
          [CHAR_LIMIT=20]-->
-    <string name="edit">एडिट</string>
+    <string name="edit">संपादित</string>
 
     <!-- String used in a toast message indicating there is no application
          available to handle a request [CHAR LIMIT=50] -->
@@ -290,7 +290,7 @@
     <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=8] -->
     <string name="manual">मैनुअल</string>
     <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=8] -->
-    <string name="auto">स्वत:</string>
+    <string name="auto">ऑटो</string>
     <!-- String indicating camera flash is fired. [CHAR LIMIT=14] -->
     <string name="flash_on">फ्लैश चला दिया</string>
     <!-- String indicating camera flash is not used. [CHAR LIMIT=14] -->
@@ -656,8 +656,8 @@
     <string name="kick_sharer_successfully">"यूज़र को निकल दिया"</string>
     <string name="kick_sharer_failed">"यूज़र को निकालने मा असफल"</string>
     <string name="accept_or_deny">"<xliff:g id="NAME">%1$s</xliff:g> एलबम शेयर किये<xliff:g id="ALBUM">%2$s</xliff:g> आप के साथ."</string>
-    <string name="accept">"Accept"</string>
-    <string name="deny">"Reject"</string>
+    <string name="accept">"स्वीकार करें"</string>
+    <string name="deny">"अस्वीकार करें"</string>
     <string name="enable_cloud_for_sharing">शेयर की गयी छवियाँ देखने की लिए आपको क्लाउड एल्बमों को एनेबल करने की ज़रूरत हे.</string>
     <string name="operation_in_process">"प्रोसेस हो रहा हे\u2026"</string>
     <string name="operation_failed">"ऑपरेशन असफल"</string>
@@ -680,7 +680,7 @@
     <string name="unpublishing">रद्द कर रहा है\u2026 </string>
     <string name="operation_too_often">आपके ऑपरेशन आवृत्ति सीमा से अधिक हो गया है, 1 मिनट के बाद: प्रयास करें.</string>
     <string name="cannot_remove_creator">निर्माता दूर नहीं कर सकते</string>
-    <string name="exit">Exit</string>
+    <string name="exit">बाहर निकलें</string>
     <string name="album_share_exit_confirm">एलबम से बाहर निकलें?</string>
     <string name="get_album_info_in_process">शेयर किया एलबम के विवरण का अनुरोध कर रहा हे\u2026</string>
 
