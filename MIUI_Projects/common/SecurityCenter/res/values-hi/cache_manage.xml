@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="cache_manage_title">%2$s से जगाह मुक्त करने के लिए %1$d कॅश फ़ाइलों को साफ करे</string>
+    <string name="cache_list_empty_hints">कैश्ड फ़ाइलें नहीं है </string>
+
+</resources>
