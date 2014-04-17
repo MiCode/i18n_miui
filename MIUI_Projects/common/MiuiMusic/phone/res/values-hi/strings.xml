@@ -157,7 +157,7 @@
     <string name="refresh_start">रिफ्रेशिंग\u2026</string>
 
     <!-- quit process -->
-    <string name="quit_player">निकास</string>
+    <string name="quit_player">बाहर निकलें</string>
 
     <!-- Ringtone settings -->
     <string name="not_selected"> गीत का चयन</string>
@@ -236,7 +236,7 @@
          The user will be prompted to confirm before deletion actually takes place
     -->
     <string name="delete_item">निकाले</string>
-    <string name="remove_item">रिमूव</string>
+    <string name="remove_item">हटाएँ</string>
     <!-- Delete confirmation dialog when deleting a single song -->
     <string name="delete_song_desc">निकाले <xliff:g id="song"> %s</xliff:g>?</string>
 
@@ -523,7 +523,7 @@
     <string name="eq_country">कंट्री</string>
     <string name="eq_dance">डॅन्स</string>
     <string name="eq_metal">मेटल</string>
-    <string name="eq_delete">रिमूव</string>
+    <string name="eq_delete">हटाएँ</string>
     <string name="eq_delete_success">पूर्ण</string>
     <string name="eq_auto">कस्टम</string>
     <string name="eq_preset_create">बनाना</string>
