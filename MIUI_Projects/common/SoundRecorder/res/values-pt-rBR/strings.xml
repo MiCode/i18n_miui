@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- application name and title of error dialogs-->
+    <string name="app_name">Gravador</string>
+
+    <!-- Screen title before and during recording -->
+    <!-- Screen title after recording -->
+    <!-- Screen title while playing back a recording -->
+    <!-- Label shown during recording -->
+    <string name="recording">Gravando</string>
+    <!-- Label shown when the recording is stopped for a reason other than the user stopping it (e.g. the sd card was removed) -->
+    <string name="recording_stopped">Gravação terminada</string>
+    <!-- label shown when there is not enough space to record something -->
+    <string name="storage_is_full">Espaço insuficiente</string>
+    <!-- label shown when the recording has reached maximum allowed file size -->
+    <string name="max_length_reached">Duração máxima atingida</string>
+    <!-- label shown when there is no sd card available to record to -->
+    <string name="insert_sd_card">Insira um cartão SD agora</string>
+    <!-- label shown when there is more than 1 minute but less than 9 minutes of space left to record -->
+    <!-- label shown when there is less than 1 minute of space left to record -->
+
+    <!-- button to accept the current recording and return it to the caller -->
+    <!-- button to discard the current recording and return to the caller -->
+    <!-- acknowlegement button in a number of dialogs -->
+    <string name="button_ok">OK</string>
+    <!-- Do not translate. Format of the timer that shows how much has been recorded so far -->
+    <string name="timer_format"><xliff:g id="format">%02d</xliff:g>:<xliff:g id="format">%02d</xliff:g></string>
+    <!-- label shown before the user has recorded anything -->
+
+    <!-- the name under which recordings will be visible in the media database is formatted like this -->
+    <string name="audio_db_title_format"><xliff:g id="format">dd-MM-yyyy HH:mm:ss</xliff:g></string>
+    <!-- all recordings will show up in the media database with this 'artist' name -->
+    <string name="audio_db_artist_name">Suas gravações</string>
+    <!-- all recordings will show up in the media database with this 'album' name -->
+    <string name="audio_db_album_name">Gravações de Áudio</string>
+    <!-- all recordings will show up in the media database in a playlist with this name -->
+    <string name="audio_db_playlist_name">Minhas gravações</string>
+    <!-- shown as the message in a dialog when an error occured because of an error accessing the sd card -->
+    <string name="error_sdcard_access">Impossível acessar armazenamento interno ou externo</string>
+    <!-- shown as the message in a dialog when the app encountered an unspecified internal error -->
+    <string name="error_app_internal">Outro aplicativo pode estar utilizando a função de gravação. Verifique e tente novamente.</string>
+    <string name="error_app_internal_title">Erro no gravador de som</string>
+    <!-- shown as the message in a dialog when the recording could not be added to the media database -->
+    <string name="error_mediadb_new_record">Impossível salvar áudio gravado</string>
+
+    <!-- add for libra begin -->
+    <string name="default_record_name">Sem título</string>
+    <string name="menu_view_record_list">Minhas gravações</string>
+    <string name="delete_dialog_message">Excluir gravação?</string>
+    <string name="overwrite_dialog_message">Uma gravação de mesmo nome já existe. Você deseja sobrescrevê-la?</string>
+    <string name="notification_recording">Gravando\u2026</string>
+    <string name="notification_playback">Reproduzindo\u2026</string>
+    <string name="notification_stopped">Gravação parada</string>
+    <string name="notification_warning">Espaço de livre acabando (menos de %d minutos restantes)</string>
+    <string name="record_list">Gravações</string>
+    <string name="record_list_fm">Gravação de FM</string>
+    <string name="record_list_call">Gravação de chamadas</string>
+    <string name="record_list_cloud">Gravações na nuvem</string>
+    <string name="record_list_cloud_fm">Gravação de FM na nuvem</string>
+    <string name="record_list_cloud_call">Gravação de chamadas na nuvem</string>
+    <string name="sd_card_not_available">Cartão SD indisponível</string>
+    <string name="call_record">Gravação de chamadas (%d)</string>
+    <string name="fm_record">Gravação de FM (%d)</string>
+    <string name="cloud_record">Gravações na nuvem (%d)</string>
+    <string name="open_file_explorer">Abrir navegador de arquivos</string>
+    <string name="no_file">Nenhuma gravação</string>
+    <string name="loading_recording">Carregando gravações</string>
+    <string name="mark_now">(Atual)</string>
+    <string name="second">%d segundos</string>
+    <string name="minute">%d minutos</string>
+    <string name="hour">%d horas</string>
+    <string name="call_record_or">ou</string>
+    <string name="dialog_play">Reproduzir</string>
+    <string name="dialog_send">Enviar</string>
+    <string name="dialog_warning">Atenção</string>
+    <string name="alert_message_delete_record">Excluir gravação selecionada?</string>
+    <string name="unknown_caller">Número desconhecido</string>
+
+    <!-- add for libra end -->
+
+    <string name="rename">Renomear</string>
+    <string name="send_to">Enviar para</string>
+    <string name="delete">Excluir</string>
+    <string name="deleting_message">Excluindo\u2026</string>
+    <string name="rename_dialog_title">Renomear gravação</string>
+    <string name="rename_illegal">O nome inserido é inválido.</string>
+    <string name="rename_duplicate">Uma gravação com este nome já existe.</string>
+    <string name="record_picker_title">Selecionar gravação</string>
+
+    <string name="dialog_title_storage_full">Espaço insuficiente para gravação</string>
+    <string name="dialog_content_storage_full">A gravação foi interrompida devido à falta de espaço no armazenamento do seu telefone.</string>
+
+    <string name="status_bar_anti_disturb">Telefone mudo</string>
+    <string name="status_bar_recording">Gravando\u2026</string>
+    <string name="status_bar_back">Para retornar, toque nesta barra</string>
+    <string name="status_bar_recording_pause">"Gravados pausado"</string>
+    <string name="record_saving">Salvando\u2026</string>
+    <string name="record_loading">Carregando\u2026</string>
+    <string name="low_battery_message_title">Bateria fraca</string>
+    <string name="low_battery_warning">A gravação poderá ser perdida se a bateria do telefone terminar.</string>
+    <string name="low_battery_error">Menos de 5% de bateria restante. Para garantir que sua gravação não seja perdida, a gravação foi interrompida e o arquivo resultante foi salvo.</string>
+    <string name="access_error">Impossível gravar no modo de Privacidade</string>
+
+    <string name="record_name_hour">.</string>
+    <string name="sound_recorder_settings">Configurações</string>
+    <string name="menu_settings">Configurações</string>
+    <string name="preference_led_indicator">Gravação na tela de bloqueio</string>
+    <string name="preference_led_indicator_prompt">Durante uma gravação, exibir notificação na barra de status e no LED do telefone quando a tela estiver bloqueada</string>
+    <string name="preference_record_type_title">Tipo de gravação</string>
+    <string name="preference_scenes">Tipo preferencial de gravação</string>
+    <string name="preference_record_type_dialog_title">Selecionar tipo de gravação</string>
+    <string name="preference_record_scenes_dialog_title">Tipo preferencial de gravação</string>
+    <string name="preference_silent_mode">Silenciar toque durante gravação</string>
+    <string name="preference_enable_earpiece_title">Utilizar fones para reprodução</string>
+    <string name="preference_enable_earpiece_summary">Utiliza os fones de ouvido como reprodutores da gravação</string>
+
+    <string name="error_filename_too_long">Nome muito longo</string>
+    <string name="error_filename_illegal_char">O nome do arquivo contém caracteres ilegais.</string>
+    <string name="duration_format_hour">%sh</string>
+    <string name="duration_format_minute">%sm</string>
+    <string name="duration_format_second">%ss</string>
+    <string name="toast_max_record_time">%1$s pode gravar por cerca de %2$s</string>
+    <string name="message_file_size_error">O gravador atingiu o tamanho máximo de arquivo suportado por %s</string>
+    <string name="start_recording">Iniciar gravação</string>
+    <string name="pause">Pausar</string>
+    <string name="play_record">Reproduzir</string>
+    <string name="stop_recording">Parar gravação</string>
+    <string name="view_list_of_recordings">Ver gravações</string>
+    <string name="search_for_recordings_in_folders">Pesquisar gravações com o Explorador</string>
+    <string name="back">Voltar</string>
+    <string name="toast_uninstall_fileexplorer">"O app Explorador não está instalado"</string>
+
+    <string name="record_download">Download da Mi Cloud</string>
+    <string name="record_download_msg">A gravação só poderá ser reproduzida após o download ser finalizado.</string>
+    <string name="record_download_msg_reload">Esta gravação não existe</string>
+    <string name="record_download_complete">Concluído</string>
+    <string name="record_download_paused">Pausado</string>
+    <string name="record_download_failed">Falha</string>
+    <string name="record_download_progress">%d%%</string>
+    <string name="record_download_activity">Downloader</string>
+    <string name="retry">Tentar novamente</string>
+    <string name="start">Reiniciar</string>
+    <string name="record_download_manager">Gerenciador de downloads</string>
+    <string name="record_downloading_notification">Efetuando download\u2026</string>
+    <string name="record_downloading_notification_count">Transferindo %d</string>
+    <string name="record_downloading_notification_complete">Download concluído</string>
+
+    <string name="sync_records">Sincronizar com a Mi Cloud</string>
+    <string name="sync_only_in_wifi">Utilizar Wi-Fi para sincronizar</string>
+    <string name="sync_only_in_wifi_summary">O gravador irá utilizar sua conexão de dasdos móveis para efetuar o download ou upload de gravações quando esta opção estiver desativada.</string>
+    <string name="sync_only_in_wifi_alert">Desativar esta opção pode aumentar o uso de seus dados móveis (isto poderá gerar cobranças adicionais).</string>
+
+    <string name="wifi_recommended_title">Lembrete de tráfego</string>
+    <string name="wifi_recommended_body">Iniciando download utilizando seus dados móveis:
+        O download deste arquivo pode resultar em cobranças pela operadora.
+    </string>
+    <string name="button_queue_for_wifi">Fila</string>
+    <string name="button_start_now">Download</string>
+    <string name="notification_title_all_paused">Download em pausa</string>
+    <string name="notification_message_all_paused">Poderá aumentar o uso de dados móveis.</string>
+    <string name="toast_file_is_downloading">Aguarde, o download do arquivo está em andamento</string>
+
+</resources>
