@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="lockscreen_emergency_call">Chamada de emergência</string>
+    <string name="lockscreen_forgot_pattern_button_text">Esqueceu o padrão?</string>
+    <string name="lockscreen_transport_prev_description">Anterior</string>
+    <string name="lockscreen_transport_next_description">Próximo</string>
+    <string name="lockscreen_transport_play_description">Botão \"Reproduzir\"</string>
+
+    <string name="lockscreen_too_many_failed_attempts_countdown">Tente novamente em %d segundos.</string>
+    <string name="lockscreen_pattern_wrong">Tente novamente:</string>
+    <string name="lockscreen_pattern_instructions">Desenhe o padrão para desbloquear</string>
+
+    <string name="unlockscreen_recharging_message">Carregando %d%%</string>
+    <string name="unlockscreen_recharge_completed">Carregado</string>
+    <string name="unlockscreen_low_battery">Conecte seu carregador</string>
+
+    <string name="emergency_call_string">Emergência</string>
+    <string name="forget_password_string">Esqueci a senha</string>
+    <string name="miui_unlockscreen_password_wrong">Tente novamente:</string>
+    <string name="contact_carrier_message">Entre em contato com sua operadora se você tiver maiores dúvidas.</string>
+    <string name="input_puk_code">Digite o PUK</string>
+    <string name="input_puk_code_to_unlock">Digite o código PUK para desbloquear o dispositivo</string>
+    <string name="unlocking_sim_card">Desbloqueando cartão SIM</string>
+    <string name="short_pukcode_error_msg">Você precisa inserir no mínimo 8 dígitos.</string>
+    <string name="short_pincode_error_msg">Por favor insira 4&#8211;8 dígitos</string>
+    <string name="input_pin_code">Digite o PIN</string>
+    <string name="input_pin_code_to_unlock">Digite o código PIN para desbloquear o dispositivo</string>
+    <string name="pincode_set_to_default_msg">Código PIN definido como 1234, você pode alterá-lo aqui:</string>
+    <string name="incorrect_pukcode_remaining_attempts">Código PUK incorreto, tentativas restantes: %d</string>
+    <string name="incorrect_pincode_remaining_attempts">Código PIN incorreto, tentativas restantes: %d</string>
+    <string name="incorrect_pukcode">Código PUK incorreto</string>
+    <string name="incorrect_pincode">Código PIN incorreto</string>
+    <string name="puk_operation_failed">Falha na operação com o PUK.</string>
+    <string name="pin_operation_failed">Falha na operação com o PIN.</string>
+    <string name="return_to_me_message">Se encontrado, por favor entregue a</string>
+    <string name="unlock_string">OK</string>
+    <string name="open_wifi_settings">Abrir configurações de rede</string>
+    <string name="lock_screen_date">"EEEE dd \'de\' MMMM \'de\' yyyy"</string>
+
+    <string name="lockscreen_failed_attempts_almost_glogin" product="tablet">
+        Você inseriu a sua senha de forma incorreta <xliff:g id="number">%d</xliff:g> vezes.
+        Após mais <xliff:g id="number">%d</xliff:g> tentativas incorretas,
+        será solicitado que o tablet seja desbloqueado com a sua conta de sistema.\n\n
+        Tente novamente em <xliff:g id="number">%d</xliff:g> segundos.
+    </string>
+
+    <string name="lockscreen_failed_attempts_almost_glogin" product="default">
+        Você inseriu a sua senha de forma incorreta <xliff:g id="number">%d</xliff:g> vezes.
+        Após mais <xliff:g id="number">%d</xliff:g> tentativas incorretas,
+        será solicitado que o telefone seja desbloqueado com a sua conta de sistema.\n\n
+        Tente novamente em <xliff:g id="number">%d</xliff:g> segundos.
+    </string>
+</resources>
