@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="complete">Completo</string>
+    <string name="confirm">Confirmar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="save">Salvar</string>
+    <string name="select_all">Selecionar tudo</string>
+    <string name="deselect_all">Desfazer</string>
+
+    <string name="network_error">Nenhuma conexão de rede, verifique suas configurações</string>
+
+    <plurals name="Ntracks_search_result_format">
+        <item quantity="one"><xliff:g id="count">%d</xliff:g> música encontrada</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> músicas encontradas</item>
+    </plurals>
+    <plurals name="Ntracks_total">
+        <item quantity="one"><xliff:g id="count">%d</xliff:g> música</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> músicas</item>
+    </plurals>
+    <plurals name="Nhot_tracks_total">
+        <item quantity="one"><xliff:g id="count">%d</xliff:g> música popular</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> músicas populares</item>
+    </plurals>
+    <plurals name="Ntracks_string">
+        <item quantity="one"><xliff:g id="count">%d</xliff:g> música</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> músicas</item>
+    </plurals>
+    <!-- used in various places to indicate there is some number other than one songs for a given artist or album. -->
+    <plurals name="Ntracks_format">
+        <item quantity="one"><xliff:g id="count">%d</xliff:g> música</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> músicas</item>
+    </plurals>
+
+    <!-- Used in artists list view, indicates how many albums exist for a given artist. -->
+    <plurals name="Nalbums_format">
+        <!-- number of albums is one -->
+        <item quantity="one"><xliff:g id="count">%d</xliff:g> álbum</item>
+        <!-- number of albums is not equal to one -->
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> álbuns</item>
+    </plurals>
+    <plurals name="Ntracks">
+        <item quantity="one"> música</item>
+        <item quantity="other"> músicas</item>
+    </plurals>
+    <plurals name="Nalbums">
+        <item quantity="one"> álbum</item>
+        <item quantity="other"> álbuns</item>
+    </plurals>
+    <plurals name="Nartists">
+        <item quantity="one"> artista</item>
+        <item quantity="other"> artistas</item>
+    </plurals>
+    <plurals name="Nplaylists">
+        <item quantity="one"> playlist</item>
+        <item quantity="other"> playlists</item>
+    </plurals>
+    <plurals name="Nfolders">
+        <item quantity="one">" pasta"</item>
+        <item quantity="other">" pastas"</item>
+    </plurals>
+    <plurals name="Nitems_batch_selection">
+        <item quantity="one">"%d item selecionado"</item>
+        <item quantity="other">"%d itens selecioandos"</item>
+    </plurals>
+    <plurals name="Ntrack_in_sdcard_format">
+        <item quantity="one">"%d música no cartão SD"</item>
+        <item quantity="other">"%d músicas no cartão SD"</item>
+    </plurals>
+
+    <!-- Toasts after adding song(s) to playlists -->
+    <plurals name="NNNtrackstoplaylist">
+        <!-- message shown when one song was added -->
+        <item quantity="one">1 música adicionada à playlist.</item>
+        <!-- message shown when zero or more than one song was added -->
+        <item quantity="other"><xliff:g id="number" example="27">%d</xliff:g> músicas adicionadas à playlist.</item>
+    </plurals>
+
+    <plurals name="Ntracks_remove_from_playlist">
+        <item quantity="one">"1 música removida da playlist"</item>
+        <item quantity="other">"<xliff:g id="NUMBER">%d</xliff:g> músicas removidas da playlist"</item>
+    </plurals>
+
+    <!-- Toasts after adding song(s) to playlists -->
+    <plurals name="NNNtrackstofavoriteplaylist">
+
+        <!-- message shown when one song was added -->
+        <item quantity="one">1 música adicionada à playlist</item>
+        <!-- message shown when zero or more than one song was added -->
+        <item quantity="other"><xliff:g id="number" example="27">%d</xliff:g> músicas adicionadas à playlist</item>
+    </plurals>
+
+    <plurals name="Ntracks_remove_from_favorite_playlist">
+        <item quantity="one">1 música removida da playlist</item>
+        <item quantity="other"><xliff:g id="number" example="27">%d</xliff:g> músicas removidas da playlist</item>
+    </plurals>
+
+    <plurals name="Nsearch_results">
+        <item quantity="one">"<xliff:g id="NUMBER">%d</xliff:g> resultado"</item>
+        <item quantity="other">"<xliff:g id="NUMBER">%d</xliff:g> resultados"</item>
+    </plurals>
+
+    <plurals name="Nonlinecategory">
+        <item quantity="one">" categoria"</item>
+        <item quantity="other">" categorias"</item>
+    </plurals>
+
+    <plurals name="Nexpiration_reminder">
+        <item quantity="one">"<xliff:g id="NUMBER">%d</xliff:g> dia para expirar"</item>
+        <item quantity="other">"<xliff:g id="NUMBER">%d</xliff:g> dias para expirar"</item>
+    </plurals>
+
+    <!-- Artist title format -->
+    <string name="artist_details_format"><xliff:g id="ALBUM">%1$s</xliff:g>, <xliff:g id="ARTIST">%2$s</xliff:g></string>
+
+    <!-- Album title format -->
+    <plurals name="album_details_format">
+        <item quantity="one"><xliff:g id="ARTIST">%1$s</xliff:g>, <xliff:g id="COUNT">%2$d</xliff:g> música</item>
+        <item quantity="other"><xliff:g id="ARTIST">%1$s</xliff:g>, <xliff:g id="COUNT">%2$d</xliff:g> músicas</item>
+    </plurals>
+
+    <!-- Toast confirming that song(s) was/were deleted. -->
+    <plurals name="NNNtracksdeleted">
+        <!-- delete confirmation message for 1 song -->
+        <item quantity="one">1 música foi excluída</item>
+        <!-- delete confirmation message for 0 or more than 1 songs -->
+        <item quantity="other"><xliff:g id="songs_to_delete">%d</xliff:g> músicas foram excluídas</item>
+    </plurals>
+
+    <plurals name="NTrackstoDownload">
+        <item quantity="one">"1 música será baixada"</item>
+        <item quantity="other">"<xliff:g id="SONGS_TO_DOWNLOAD">%d</xliff:g> músicas serão baixadas"</item>
+    </plurals>
+
+    <plurals name="Nexpired_remind">
+        <item quantity="one">"<xliff:g id="NUMBER">%d</xliff:g> dia restante"</item>
+        <item quantity="other">"<xliff:g id="NUMBER">%d</xliff:g> dias restantes"</item>
+    </plurals>
+
+    <plurals name="Nvip_expired_remind">
+        <item quantity="one">"Seu acesso a músicas de alta qualidade está prestes a expirar (<xliff:g id="NUMBER">%d</xliff:g> dia restante)"</item>
+        <item quantity="other">"Seu acesso a músicas de alta qualidade está prestes a expirar (<xliff:g id="NUMBER">%d</xliff:g> dias restantes)"</item>
+    </plurals>
+
+    <!-- sleep mode -->
+    <string name="enter_sleep_mode">Timer</string>
+    <string name="cancel_sleep_mode">Desligar timer</string>
+    <string name="select_quit_time">Encerrar o player em\u2026 (minutos)</string>
+    <string name="quit_warining">O Player irá parar a execução de músicas em %d minuto(s)</string>
+    <string name="cancle_warining">Timer cancelado</string>
+
+    <!-- refresh media db -->
+    <string name="refresh_media_db">Atualizar</string>
+    <string name="refresh_in_processing">Atualizando\u2026</string>
+    <string name="refresh_finish">Atualização concluída</string>
+    <string name="refresh_start">Atualizando\u2026</string>
+
+    <!-- quit process -->
+    <string name="quit_player">Sair</string>
+
+    <!-- Ringtone settings -->
+    <string name="not_selected">Selecione uma música</string>
+
+    <string name="file_not_found">O arquivo não existe</string>
+    <!-- settings -->
+    <string name="music_settings">Configurações</string>
+    <string name="account_setting">Configurações de conta</string>
+    <string name="account_and_synchronization">Contas &amp; Sincronização</string>
+    <string name="xiaomi_account_setting">Conta Xiaomi</string>
+    <string name="bind_baidu_account_setting">Vincular uma conta Baidu</string>
+    <string name="bind_baidu_account_summary">Adicionar playlists e outros serviços ao vincular uma conta Baidu Music</string>
+    <string name="synchronize_playlist_setting">Sincronizar Playlists</string>
+    <string name="synchronize_playlist_summary">Sincronizar playlists na MiCloud.</string>
+    <string name="not_login">Login</string>
+    <string name="mobile_connect_settings">Serviços online</string>
+    <string name="download_album_settings">Baixar capas</string>
+    <string name="download_album_summary">Efetua o download das capas dos álbuns automaticamente. Esta opção pode aumentar o seu consumo de dados móveis, considere utilizá-la somente em uma rede Wi-Fi</string>
+    <string name="download_lyric_settings">Baixar letras</string>
+    <string name="download_lyric_summary">"Efetua o download das letras de músicas automaticamente. O download de letras de músicas não consome uma quantidade significativa de dados móveis, porém você pode desativá-la para uma maior economia no plano de dados móveis."</string>
+    <string name="listen_to_music_online_settings">Ouvir música online</string>
+    <string name="listen_to_online_summary">Ouça música através de uma rede de dados móveis ou Wi-Fi</string>
+    <string name="correct_id3_settings">Corrigir ID3</string>
+    <string name="correct_id3_summary">Poderá implicar em cobrança de dados. Recomenda-se desativar.</string>
+
+    <string name="player_display_settings">Interface do player</string>
+    <string name="lyric_display_settings">Exibir letras</string>
+    <string name="lyric_display_summary">Exibe letra das músicas em execução na interface do player.</string>
+    <string name="album_display_settings">Exibir capa do álbum</string>
+    <string name="album_display_summary">Exibe a capa do álbum em execução na interface do player.</string>
+
+    <string name="lyric_and_album">Letras e Capas</string>
+    <string name="android_album_settings">Usar capas incorporadas</string>
+    <string name="android_album_summary">Associadas de acordo com o nome do arquivo. Pode causar erros.</string>
+    <string name="auto_correct_id3_settings">Corrigir tags ID3</string>
+    <string name="auto_correct_id3_summary">Efetua a correção de tags ID3 automaticamente enquanto estiver conectado à internet, utilizando o algoritmo de impressão digital de música da Baidu.</string>
+
+    <string name="music_filter">Filtro de arquivos</string>
+    <string name="filter_by_size">Filtrar por tamanho</string>
+    <string name="filter_by_size_summary">Filtro para arquivos de áudio pequenos</string>
+    <string name="filter_by_size_prefix">"Tamanho mínimo: "</string>
+    <string name="filter_by_duration">Filtrar por duração</string>
+    <string name="filter_by_duration_summary">Filtro para arquivos de áudio curtos</string>
+    <string name="filter_by_duration_prefix">"Duração mínima: "</string>
+    <string name="filter_by_duration_min">0 seg</string>
+    <string name="filter_by_duration_max">5 min</string>
+    <string name="filter_by_duration_format"><xliff:g id="format">%2$dmin%5$2dseg</xliff:g></string>
+    <string name="filter_by_folder">Filtrar por pasta</string>
+    <string name="filter_by_folder_summary_on">Ligado, clique para editar o filtro de pastas</string>
+    <string name="filter_by_folder_summary_off">Desligado, clique para definir o filtro de pastas</string>
+    <string name="select_folder">Selecionar pasta</string>
+
+    <string name="shake_and_skip">Agitar para mudar música</string>
+    <string name="shake_settings">Agitar para mudar música</string>
+    <string name="shake_summary">Agite o celular para mudar de música</string>
+    <string name="shake_degree_desc">Sensibilidade</string>
+    <string name="shake_degree_low">Baixa</string>
+    <string name="shake_degree_high">Alta</string>
+    <string name="shake_while_screen_on_title">Alternar com tela ativa</string>
+    <string name="shake_while_screen_on_title_summary">Troca as músicas ao agitar o celular somente se a tela do telefone estiver ativa.</string>
+
+    <string name="other_settings">Outros</string>
+    <string name="play_and_download">Baixar para escutar</string>
+    <string name="play_and_download_summary">Baixar músicas enquanto as escuta online. É recomendado ativar esta opção.</string>
+    <string name="screen_bright_wake">Manter tela ativa</string>
+    <string name="screen_bright_wake_summary">Mantém a luz de fundo da tela ligada durante a execução do player.</string>
+    <string name="keep_quit_position_settings">Guardar posição da música</string>
+    <string name="keep_quit_position_summary">Retoma a execução na última posição ao sair do player.</string>
+    <string name="fade_effect_settings">Fade in e out entre músicas</string>
+    <string name="fade_effect_summary">Efetua alteração de faixas suavemente diminuindo e aumentando o volume entre as músicas.</string>
+
+    <string name="filter_notification">Filtro executando. Você pode alterar suas propriedades nas configurações do aplicativo.</string>
+
+    <!--
+         Menu item that deletes the currently selected item, which might be a single song, or a collection of songs.
+         The user will be prompted to confirm before deletion actually takes place
+    -->
+    <string name="delete_item">Excluir</string>
+    <string name="remove_item">Excluir</string>
+    <!-- Delete confirmation dialog when deleting a single song -->
+    <string name="delete_song_desc">Excluir <xliff:g id="song"> %s</xliff:g>?</string>
+
+    <!-- shown in dialog while the media scanner is starting up -->
+    <string name="scanning">Pesquisando o cartão SD\u2026</string>
+    <!-- shown in dialog while the media scanner is starting up -->
+    <string name="scanning_nosdcard">Pesquisando o cartão SD\u2026</string>
+
+    <!-- Library screen, menu item -->
+    <string name="search_title">Pesquisar</string>
+    <!-- Title of screen when there are no songs, or if the SD card is busy -->
+    <!-- Playlist context menu item to delete the selected playlist. -->
+    <string name="delete_playlist_menu">Excluir</string>
+    <!-- Playlist context menu item to edit the selected playlist -->
+    <string name="rename_playlist_menu">Renomear</string>
+    <string name="rename_album_menu">Renomear álbum</string>
+    <string name="rename_artist_menu">Renomear artista</string>
+
+    <!-- Transient popup message shown after deleting a playlist -->
+    <string name="playlist_deleted_message">Playlist excluída.</string>
+    <!-- Transient popup message shown after renaming a playlist -->
+    <string name="playlist_renamed_message">Playlist renomeada.</string>
+    <!-- The name of the pseudo-playlist that holds all the recently added files, shown in title bar of songs list-->
+    <string name="recentlyadded_title">Adicionados recentemente</string>
+    <!-- The name of pseudo-playlist that holds all the recently played files -->
+    <string name="recentlyplayed_title">Executados recentemente</string>
+    <!-- The name of pseudo-playlist that holds all the frequently played files -->
+    <string name="frequentlyplayed_title">Executados frequentemente</string>
+    <!-- label underneath icon used to indicate that no sd card is present -->
+    <string name="sdcard_missing_message">Seu telefone não possui um cartão SD inserido.</string>
+    <!-- label underneath icon used to indicate that no sd card is present -->
+    <string name="sdcard_missing_message_nosdcard">Seu telefone não possui um cartão SD.</string>
+    <!-- label underneath icon used to indicate that the sd card is present, but currently unavailable -->
+    <!-- label underneath icon used to indicate that the sd card is present, but currently unavailable -->
+    <!-- label underneath icon used to indicate sd card is mounted to your computer via USB -->
+    <string name="sdcard_busy_message">"Desculpe, seu cartão SD está ocupado. Verifique o estado de seu cartão SD."</string>
+    <!-- label underneath icon used to indicate sd card is mounted to your computer via USB -->
+    <string name="sdcard_busy_message_nosdcard">Desculpe, seu cartão SD está ocupado.</string>
+    <!-- label underneath icon used to indicate there was an error accessing the sd card -->
+    <string name="sdcard_error_message">Foi encontrado um erro em seu cartão SD.</string>
+    <!-- label underneath icon used to indicate there was an error accessing the sd card -->
+    <string name="sdcard_error_message_nosdcard">Foi encontrado um erro em seu cartão SD.</string>
+    <string name="no_music_to_play">Nenhuma música para executar</string>
+    <!-- Default name of artist that doesn't have a name in the metadata -->
+    <string name="unknown_artist_name">Artista desconhecido</string>
+    <!-- Default name of album that doesn't have a name in the metadata -->
+    <string name="unknown_album_name">Álbum desconhecido</string>
+    <!-- Individual song context menu item -->
+    <string name="ringtone_menu">Usar como toque do telefone</string>
+    <!-- Toast after setting a song as phone ringtone -->
+    <string name="ringtone_set">\"<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\" definido como toque do telefone</string>
+    <string name="ringtone_not_support">"Formato de áudio não suportado para toque do telefone"</string>
+    <!-- Context menu item -->
+    <string name="play_selection">Executar</string>
+    <!-- Context menu item -->
+    <string name="add_to">Adicionar à</string>
+    <string name="add_to_playlist">Adicionar à playlist</string>
+    <string name="add_to_favorite">Adicionar aos Favoritos</string>
+    <string name="remove_from_favorite">Excluir dos Favoritos</string>
+    <!-- Context menu item -->
+    <string name="queue">Playlist atual</string>
+    <!-- Context menu item -->
+    <string name="new_playlist">Novo</string>
+    <!-- Template for newly created playlist name -->
+    <string name="new_playlist_name_template">Nova playlist <xliff:g id="number">%d</xliff:g></string>
+
+    <!-- Toast after selecting an empty playlist -->
+    <string name="emptyplaylist">A playlist selecionada está vazia.</string>
+
+    <!-- Shown in the music picker while loading the music database. -->
+    <string name="loading">Carregando</string>
+    <!-- Menu in music picker to sort the list by track/song name. -->
+    <string name="sort_by_track">Músicas</string>
+    <!-- Menu in music picker to sort the list by album name. -->
+    <string name="sort_by_album">Álbuns</string>
+    <!-- Menu in music picker to sort the list by artist name. -->
+    <string name="sort_by_artist">Artistas</string>
+    <!-- No track -->
+    <string name="empty_track_list">Nenhuma faixa</string>
+
+    <!-- The string used to describe Music as a searchable item within system search settings. -->
+    <string name="search_settings_description">Artistas, álbuns e músicas</string>
+
+    <!-- Shown in the search box as a hint -->
+    <string name="search_hint">Pesquisar música</string>
+
+    <!-- Text shown on widget when first loaded -->
+
+    <string name="all_tracks">Todas as faixas</string>
+
+    <!-- Context menu title -->
+    <string name="send_to">Enviar\u2026</string>
+    <string name="send_to_application">Enviar para outro aplicativo</string>
+    <string name="download">Download</string>
+    <string name="download_processing">Efetuando download\u2026</string>
+    <string name="download_completed">Download concluído</string>
+    <string name="download_batch_start">Iniciar todos os downloads</string>
+    <string name="delete_file_from_sdcard">Excluir arquivo do cartão SD</string>
+
+    <!-- 在线歌曲搜索 -->
+    <string name="recommend">Recomendado</string>
+    <string name="billboard">Billboard</string>
+    <string name="channel">FM</string>
+    <string name="new_albums">Novos álbuns</string>
+    <string name="hot_artists">Artistas populares</string>
+    <string name="search_suggestion">Sugestões de busca:</string>
+
+    <string name="online_search_hint">Pesquisar música online</string>
+    <string name="load_channel_in_process">Carregando lista de canais</string>
+    <string name="load_channel_failed">Falha ao carregar lista de canais, tente novamente</string>
+    <string name="load_bill_in_process">Carregando lista Billboard</string>
+    <string name="load_bill_failed">Falha ao carregar lista Billboard, tente novamente</string>
+    <string name="load_artist_in_process">Carregando lista de artistas</string>
+    <string name="load_artist_failed">Falha ao carregar lista de artistas, tente novamente</string>
+    <string name="load_album_in_process">Carregando lista de álbuns</string>
+    <string name="load_album_failed">Falha ao carregar lista de álbuns, tente novamente</string>
+    <string name="load_audio_in_process">Carregando lista de músicas</string>
+    <string name="load_audio_failed">Falha ao carregar lista de músicas, tente novamente</string>
+    <string name="load_album_artist_in_process">Carregando lista de álbum e artista\u2026</string>
+    <string name="load_album_artist_failed">Falha ao carregar lista de álbum e artista, tente novamente.</string>
+    <string name="retry">Tentar novamente</string>
+
+    <string name="lrc_search_failed">Letra não encontrada!</string>
+    <string name="lrc_searching">Procurando letra da música\u2026</string>
+    <string name="lyric_open_other_connect">Fazer download das letras utilizando a rede de dados móveis</string>
+    <string name="music_open_other_connect">Fazer download das músicas utilizando a rede de dados móveis</string>
+
+    <!-- 在线歌曲免责声明 -->
+    <string name="impunity_declaration_title">Declaração</string>
+    <string name="impunity_declaration">As músicas online que você está prestes a acessar são do serviço de música online do Baidu. Clique em \"Confirmar\" para aceitar os <a href="http://music.baidu.com/doc/agreement">termos de uso</a> e continuar.</string>
+    <string name="synchronize_to_baidu_cloud">Faça o backup de suas músicas e playlists utilizando o Baidu Cloud</string>
+    <string name="synchronize_guide_toast">Para ativar a sincronização, vá para Configurações &gt; Sincronizar playlists</string>
+
+    <!-- 文件过滤 -->
+    <string name="music_filter_helper">Para ocultar arquivos de áudio que não sejam de músicas, um filtro de tamanho de 800Kb foi aplicado para ocultar estes arquivos da biblioteca. Você pode alterar o limite de tamanho em Configurações - Filtro de tamanho.</string>
+
+    <!-- 修改歌曲信息 -->
+    <string name="modify_meta">Editar informações da música</string>
+    <string name="id3_edit">Editar informações da ID3 Tag</string>
+    <string name="lyric_download">Baixar letras</string>
+    <string name="use_local_lyric">Utilizar letras salvas</string>
+    <string name="album_download">Baixar capas</string>
+    <string name="use_local_album">Utilizar capas salvas</string>
+    <string name="lyric_picker_not_found">Gerenciador de arquivos não encontrado no dispositivo</string>
+    <string name="lrc_select">Selecionar letra</string>
+    <string name="album_picker_not_found">Galeria não encontrada no dispositivo</string>
+    <string name="id3_edit_failed">Falha ao editar a ID3 Tag</string>
+    <string name="album_search_failed">Capa do álbum não encontrada!</string>
+    <string name="start_to_download_album">Baixando capas dos álbuns\u2026</string>
+    <string name="start_to_download_avatar">Baixando imagem dos artistas\u2026</string>
+    <string name="download_all_album">Baixar capas</string>
+    <string name="download_all_avatar">Baixar imagem dos artistas</string>
+    <string name="download_all_track">Baixar todas as faixas</string>
+
+    <string name="lrc_progress_modify">Ajustar sincronia das letras</string>
+    <string name="lrc_progress_modify_helper">Ajuste a sincronia das letras arrastando para cima e para baixo</string>
+
+     <!-- Equalizer -->
+    <string name="equalizer">Equalizador</string>
+    <string name="no_effect">Sem efeitos</string>
+    <string name="equalizer_delete">Excluir</string>
+    <string name="equalizer_delete_success">Perfil do equalizador removido com sucesso</string>
+    <string name="equalizer_save_success">Perfil do equalizador salvo</string>
+    <string name="create_equalzier_create_text_prompt">Nome do efeito</string>
+    <string name="new_equalizer_name_template">"Novo perfil do EQ <xliff:g id="NUMBER">%d</xliff:g>"</string>
+    <string name="custom">Customizar</string>
+
+    <string-array name="equalizer_presents">
+        <item>Normal</item>
+        <item>Clássica</item>
+        <item>Dance</item>
+        <item>Folk</item>
+        <item>Heavy Metal</item>
+        <item>Hip-Hop</item>
+        <item>Jazz</item>
+        <item>Pop</item>
+        <item>Rock</item>
+    </string-array>
+
+    <!-- Edit media file id3 -->
+    <string name="id3_modify_confirm_text">Salvar</string>
+    <string name="id3_modify_confirm_check">Confirmar alterações na ID3 Tag?</string>
+    <string name="modify_id3_for_list">As músicas na atual lista de informações da ID3 Tag serão editadas</string>
+    <string name="modify_id3_for_selected">As músicas selecionadas terão suas ID3 Tags editadas</string>
+    <string name="track_edit">Música</string>
+    <string name="artist_edit">Artista</string>
+    <string name="album_edit">Álbum</string>
+    <string name="empty_edit_hint">Informações da música indisponíveis</string>
+    <string name="modify_tracks_id3_background">Modificar informações das ID3 Tags selecionadas em segundo plano</string>
+
+    <!-- Play state and controller -->
+    <string name="shuffle_all">Reproduzir aleatoriamente</string>
+    <string name="play_all">Executar tudo</string>
+    <string name="click_to_shuffle">Toque para reproduzir aleatoriamente</string>
+    <string name="streamloadingtext">Conectando-se a <xliff:g id="host">%s</xliff:g></string>
+    <string name="playback_failed">Desculpe, o player não suporta este tipo de arquivo.</string>
+    <string name="playback_failed_by_bad_file">%s não pôde ser executada. O player não suporta este tipo de arquivo ou o arquivo não existe.</string>
+    <string name="playback_failed_by_network">%s não pôde ser executada, verifique suas configurações de rede</string>
+    <string name="playback_failed_no_title_by_bad_file">A música não pôde ser executada. O player não suporta este tipo de arquivo ou o arquivo não existe.</string>
+    <string name="playback_failed_no_title_by_network">A música não pôde ser executada, verifique suas configurações de rede</string>
+    <string name="buffering">Armazenando\u2026</string>
+
+    <!-- Recently Added -->
+    <string-array name="weeklist">
+        <item>"1 semana"</item>
+        <item>"2 semanas"</item>
+        <item>"3 semanas"</item>
+        <item>"4 semanas"</item>
+        <item>"5 semanas"</item>
+        <item>"6 semanas"</item>
+        <item>"7 semanas"</item>
+        <item>"8 semanas"</item>
+        <item>"9 semanas"</item>
+        <item>"10 semanas"</item>
+        <item>"11 semanas"</item>
+        <item>"12 semanas"</item>
+    </string-array>
+
+    <!-- Main browser item names -->
+    <string name="artists_title">Artistas</string>
+    <string name="albums_title">Álbuns</string>
+    <string name="folders_title">Pastas</string>
+    <string name="tracks_title">Músicas</string>
+    <string name="playlists_title">Playlists</string>
+    <string name="online_title">Online</string>
+
+    <!-- Playlist browser -->
+    <string name="playlist_recently_added">Adicionadas recentemente</string>
+    <string name="playlist_recently_played">Últimos executados</string>
+    <string name="playlist_frequently_played">Mais ouvidos</string>
+    <string name="playlist_favorite">Favoritos</string>
+    <string name="playlist_my_ktv">Minha KTV</string>
+
+    <!-- Playlist creator -->
+    <string name="create_playlist_create_text_prompt">Nova playlist</string>
+    <string name="create_confirm">Confirmar</string>
+    <string name="overwrite_confirm">Sobrescrever</string>
+    <string name="add_tracks">Adicionar músicas</string>
+
+    <!-- Track Detail Name -->
+
+    <!-- AudioFP -->
+    <string name="correct_id3_by_internet">Autocorreção de ID3 pela internet</string>
+    <string name="correct_id3_start">Corrigindo ID3 tag\u2026</string>
+    <string name="correct_id3_in_processing">Corrigindo ID3.</string>
+    <string name="correct_id3_success">Correção da ID3 terminada.</string>
+    <string name="correct_id3_failed">Falha na correção da ID3.</string>
+    <string name="correct_id3_open_other_connect">Ativar configuração de correção da ID3 pela internet móvel.</string>
+    <string name="correct_id3_not_support">Correção de ID3 não suportada neste tipo de arquivo.</string>
+    <string name="batch_correct_id3_completed">Correção de ID3 em lote finalizada.</string>
+
+    <string name="add">Adicionar</string>
+
+    <!-- Online Artist -->
+    <string name="artist_albums">Todos os álbuns</string>
+    <string name="artist_hot_audios">Lançamentos</string>
+
+    <string name="more">Mais</string>
+    <string name="album_search_local_descript">"Local | %1$d x %2$d"</string>
+    <string name="album_search_online_descript">"Online | %1$d x %2$d"</string>
+    <string name="album_select">Selecione uma capa do álbum</string>
+
+    <string name="no_song_downloaded">Nenhuma música pode ser baixada.</string>
+
+    <string name="powered_by">Fornecido por</string>
+
+    <string name="project_device">Mi Box</string>
+    <string name="project_device_mobile">Telefone Celular</string>
+
+    <string name="headphone_settings">"Configurar fones de ouvido"</string>
+    <string name="mi_effect_title">"Melhorias de áudio"</string>
+    <string name="mi_effect_summary">"Utilizar sempre melhorias de áudio ao utilizar alto-falantes"</string>
+    <string name="dirac_mode_in_ear">"Fones Xiaomi in-ear"</string>
+    <string name="dirac_mode_earbuds">"Fones Xiaomi"</string>
+    <string name="dirac_mode_piston_100">"Fones Xiaomi Piston"</string>
+    <string name="dirac_mode_general">"Fones padrão"</string>
+    <string name="eq_flat">Normal</string>
+    <string name="eq_rock">Rock</string>
+    <string name="eq_jazz">Jazz</string>
+    <string name="eq_pop">Pop</string>
+    <string name="eq_classical">Clássica</string>
+    <string name="eq_hiphop">Hip Hop</string>
+    <string name="eq_blues">Blues</string>
+    <string name="eq_electronic">Eletrônica</string>
+    <string name="eq_country">Country</string>
+    <string name="eq_dance">Dance</string>
+    <string name="eq_metal">Metal</string>
+    <string name="eq_delete">Excluir</string>
+    <string name="eq_delete_success">Concluído</string>
+    <string name="eq_auto">Personalizado</string>
+    <string name="eq_preset_create">Criar</string>
+    <string name="eq_preset_rename">Renomear</string>
+    <string name="eq_preset_format">Definição do usuário %d</string>
+    <string name="eq_preset_hint">"Nome do equalizador"</string>
+    <string name="eq_preset_select">"Escolher uma definição"</string>
+
+    <string name="music_not_loaded">"Aguardando o carregamento do áudio\u2026"</string>
+
+    <string name="scan_barcode_to_connect">"Alinhe o código QR do console KTV no quadro para escaneamento"</string>
+    <string name="where_is_barcode">Onde encontrar o código QR?</string>
+    <string name="i_know">OK</string>
+    <string name="ktv_alert_title">Somente dispositivos suportados podem adicionar músicas</string>
+    <string name="ktv_alert_message">Toque em \'Usar dispositivo para adicionar músicas\' na tela inicial do seu console KTV e visualize seu código QR</string>
+    <string name="ktv_and_room">"%1$s %2$s"</string>
+    <string name="ktv_connected_alert_titel">"Conectado a %1$s"</string>
+    <string name="ktv_connected_alert_message">As músicas que você selecionou serão adicionadas para uma playlist de nome "Minha KTV"</string>
+    <string name="ktv_disconnect_alert_titel">"Desconectar-se de %1$s?"</string>
+    <string name="ktv_song_vod_success">"“%1$s” adicionado"</string>
+    <string name="ktv_song_vod_fail">"Falha ao adicionar %1$s"</string>
+    <string name="ktv_unbind_message">"Falha na conexão com o console KTV. Tenha certeza de que você está escaneando o código QR correto."</string>
+    <string name="request_fail">"Falha na solicitação"</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="server_error">Erro do servidor</string>
+    <string name="requesting">Solicitando\u2026</string>
+
+    <string name="track_bit_rate_standard">Normal</string>
+    <string name="track_bit_rate_hd">Alto</string>
+    <string name="track_bit_rate_uhd">Muito alto</string>
+
+    <string name="choose_stream_quality">"Selecioanr qualidade de streaming"</string>
+    <string name="choose_download_quality">"Selecionar qualidade de download"</string>
+    <string name="ultra_high_quality">"Máxima Qualidade"</string>
+    <string name="high_quality">"Alta qualidade"</string>
+    <string name="normal_quality">"Qualidade normal"</string>
+
+    <string name="login_first">"Primeiro, efetue login em sua conta Xiaomi"</string>
+    <string name="login">"Login"</string>
+    <string name="payment_success">"Pagamento concluído"</string>
+    <string name="payment_fail">"Falha no pagamento"</string>
+
+    <string name="pay_service_guide_new">Músicas em alta qualidade disponíveis agora</string>
+    <string name="pay_service_guide_listen">Qualidade do streaming</string>
+    <string name="pay_service_guide_dowload">Qualidade do download</string>
+
+    <string name="vip_recommend_title">Músicas em alta qualidade</string>
+    <string name="vip_recommend_main_title">Qualidade de CD. Acesso ilimitado.</string>
+    <string name="vip_recommend_sub_title">Somente 5 RMB por mês</string>
+    <string name="vip_recommend_summary">Faça streaming ou baixe suas músicas favoritas do Baidu Music a 320 kbps.</string>
+    <string name="vip_recommend_buy">Comprar (5 RMB mensais)</string>
+    <string name="vip_recommend_rebuy">A renovação do acesso por 30 dias custa 5 MiCredits</string>
+    <string name="vip_recommend_exchange">Utilizar vale-presente</string>
+
+    <string name="music_quality">Qualidade da música</string>
+    <string name="higher_quality_music">Música em alta qualidade</string>
+    <string name="menu_higher_quality_music">Músicas em alta qualidade (acesso mensal)</string>
+    <string name="higher_quality_music_summary">Escute e baixe músicas em alta qualidade</string>
+    <string name="expired">Expirado</string>
+    <string name="enabled">Ativado</string>
+    <string name="valid_period">"Válido de: "</string>
+    <string name="period_format">%1$s-%2$s</string>
+    <string name="vip_bought">Você já comprou o acesso a músicas em alta qualidade</string>
+    <string name="vip_expired">Seu acesso a músicas em alta qualidade expirou.</string>
+    <string name="vip_rebuy">Renovar</string>
+
+    <string name="data_usage_warning">Aviso sobre uso de dados!</string>
+    <string name="data_usage_warning_summary">Utilizar sua conexão de dados móveis para fazer streaming de músicas em alta qualidade pode aumentar seu custo de dados móveis.</string>
+
+    <string name="source_from">Fonte: %1$s</string>
+</resources>

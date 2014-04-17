@@ -1,0 +1,792 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Reboot Confirmation Dialog.  When the user chooses to reboot the phone, there will be a confirmation dialog.  This is the message. -->
+    <string name="reboot_confirm">O telefone será reiniciado.</string>
+    <!-- Reboot Progress Dialog. This is shown if the user chooses to reboot the phone. -->
+    <string name="reboot_progress">Reiniciando\u2026</string>
+
+    <!-- Privacy mode -->
+    <string name="global_action_toggle_privacy_mode">Privacidade</string>
+    <string name="global_action_privacy_mode_dialog_message">O registro de chamada e SMS ficarão ocultos no modo de Privacidade. O modo de edição do Launcher também será desativado.</string>
+
+    <!-- Displayed on lock screen to hint user to drag lock button down to bottom for unlock-->
+    <string name="lockscreen_unlock_sim_via_puk">Insira o PUK para desbloquear o cartão SIM</string>
+    <string name="toast_lockscreen_glogin_empty_password">A senha é requerida.</string>
+
+    <!-- Displayed miui license-->
+    <string name="safetylegal_activity_unreachable">O telefone não está conectado ao serviço de dados. Para ver estas informações agora, acesse %s em qualquer computador conectado à internet.</string>
+    <string name="miui_copyright_title">Direitos autorais</string>
+    <string name="miui_user_agreement_title">Termo de uso</string>
+    <string name="miui_privacy_policy_title">Política de privacidade</string>
+    <string name="miui_mibi_license_title">Termos do uso dos Mi Créditos</string>
+    <string name="miui_user_manual_title">Manual do usuário</string>
+    <string name="user_agreement1">Você usará os serviços do sistema online fornecidos pela Xiaomi. Por favor leia a</string>
+    <string name="user_agreement2">" Política de privacidade"</string>
+    <string name="user_agreement3">" e "</string>
+    <string name="user_agreement4">"Termos de utilização."</string>
+    <string name="user_agreement5">Toque em OK para concordar com o conteúdo acima. Toque em Cancelar para sair.</string>
+
+    <!-- Text for message to user while SD card is not available and the current feature depends on SD card. -->
+    <string name="sd_not_available">O cartão SD não está disponível, insira-o</string>
+    <string name="sd_not_available_use_internal_storage">Cartão SD indisponível, use armazenamento interno</string>
+    <string name="sd_not_available_low_internal_storage">Cartão SD indisponível e não existe um armazenamento interno</string>
+    <string name="sd_not_available_saved_to_internal_storage">Arquivo salvo no armazenamento interno</string>
+
+    <!-- When the user long presses the BACK key, the foreground app will be killed. This is the message to be showed to user.  -->
+    <string name="first_back_long_press_message">"Você deseja ativar a opção de finalizar aplicativos em execução ao pressionar longamente a tecla voltar?\n\nPara ativar esta função vá em Configurações &gt; Sistema &gt; Botões</string>
+    <string name="force_exit_message">\"%1$s\" terminado com sucesso</string>
+
+    <string name="unknown">Desconhecido</string>
+    <string name="private_num">Número privado</string>
+    <string name="payphone">Telefone público</string>
+    <!-- A nicely formatted call ring duration displayed when viewing no-answer-call details. For example "响铃次数: 1 次" -->
+    <string name="callNoAnswerTimeFormat">%s Toque(s)</string>
+
+    <!-- Lunar Date -->
+    <!-- 不翻译农历 -->
+    <string name="solar_calendar"/>
+    <string name="lunar_calendar"/>
+    <string name="lunar_zheng"/>
+    <string name="lunar_leap"/>
+    <string name="lunar_ling"/>
+    <string name="lunar_yi"/>
+    <string name="lunar_er"/>
+    <string name="lunar_san"/>
+    <string name="lunar_si"/>
+    <string name="lunar_wu"/>
+    <string name="lunar_liu"/>
+    <string name="lunar_qi"/>
+    <string name="lunar_ba"/>
+    <string name="lunar_jiu"/>
+    <string name="lunar_shi"/>
+    <string name="lunar_shi_yi"/>
+    <string name="lunar_shi_er"/>
+    <string name="lunar_chu_shi"/>
+    <string name="lunar_er_shi"/>
+    <string name="lunar_san_shi"/>
+    <string name="lunar_chu"/>
+    <string name="lunar_nian"/>
+    <string name="lunar_yue"/>
+    <string name="lunar_year"/>
+
+    <!-- lunar holidays -->
+    <string name="the_spring_festival"/>
+    <string name="lantern_festival"/>
+    <string name="the_dragon_boat_festival"/>
+    <string name="double_seventh_day"/>
+    <string name="the_mid_autumn_festival"/>
+    <string name="the_double_ninth_festival"/>
+    <string name="the_laba_rice_porridge_festival"/>
+
+    <!-- solar holidays -->
+    <string name="new_years_day"/>
+    <string name="valentines_day"/>
+    <string name="international_womens_day"/>
+    <string name="arbor_day">Dia da árvore</string>
+    <string name="fools_day">Primeiro de Abril</string>
+    <string name="labour_day"/>
+    <string name="chinese_youth_day">Dia da Juventude</string>
+    <string name="childrens_day">Dia das Crianças</string>
+    <string name="partys_day"/>
+    <string name="the_armys_day"/>
+    <string name="teachers_day"/>
+    <string name="national_day"/>
+    <string name="christmas_day">Natal</string>
+
+    <!-- solar holidays special for TW -->
+    <string name="peace_day">Dia da Paz</string>
+    <string name="national_father_day"/>
+    <string name="anti_aggression_day"/>
+    <string name="tw_youth_day"/>
+    <string name="tw_childrens_day"/>
+    <string name="anniversary_of_lifting_martial_law"/>
+    <string name="armed_forces_day"/>
+    <string name="united_nations_day"/>
+    <string name="retrocession_day"/>
+
+    <!-- solar holidays special for HK -->
+    <string name="hksar_establishment_day"/>
+    <string name="the_first_weekday_after_christmas"/>
+    <string name="good_friday"/>
+    <string name="day_following_good_friday" />
+    <string name="easter"/>
+
+    <!-- solar terms -->
+    <string name="slight_cold"/>
+    <string name="great_cold"/>
+    <string name="spring_begins"/>
+    <string name="the_rains"/>
+    <string name="insects_awaken"/>
+    <string name="vernal_equinox"/>
+    <string name="clear_and_bright"/>
+    <string name="grain_rain"/>
+    <string name="summer_begins"/>
+    <string name="grain_buds"/>
+    <string name="grain_in_ear"/>
+    <string name="summer_solstice"/>
+    <string name="slight_heat"/>
+    <string name="great_heat"/>
+    <string name="autumn_begins">Início do Outono</string>
+    <string name="stopping_the_heat"/>
+    <string name="white_dews"/>
+    <string name="autumn_equinox">Equinócio de Outono</string>
+    <string name="cold_dews">Orvalho Frio</string>
+    <string name="hoar_frost_falls"/>
+    <string name="winter_begins"/>
+    <string name="light_snow"/>
+    <string name="heavy_snow"/>
+    <string name="winter_solstice"/>
+
+    <!--  = START: Countries, used by PhoneNumber for telocation -->
+    <string name="country_name_bs">BS</string>
+    <string name="country_name_bb">BB</string>
+    <string name="country_name_ai">AI</string>
+    <string name="country_name_ag">AG</string>
+    <string name="country_name_vg">VG</string>
+    <string name="country_name_vi">VI</string>
+    <string name="country_name_ky">KY</string>
+    <string name="country_name_bm">BM</string>
+    <string name="country_name_gd">GD</string>
+    <string name="country_name_tc">TC</string>
+    <string name="country_name_ms">MS</string>
+    <string name="country_name_mp">MP</string>
+    <string name="country_name_gu">GU</string>
+    <string name="country_name_as">AS</string>
+    <string name="country_name_sx">SX</string>
+    <string name="country_name_lc">LC</string>
+    <string name="country_name_dm">DM</string>
+    <string name="country_name_vc">VC</string>
+    <string name="country_name_pr">PR</string>
+    <string name="country_name_do">DO</string>
+    <string name="country_name_tt">TT</string>
+    <string name="country_name_kn">KN</string>
+    <string name="country_name_jm">JM</string>
+    <string name="country_name_us_ca">US</string>
+    <string name="country_name_eg">EG</string>
+    <string name="country_name_ma">MA</string>
+    <string name="country_name_dz">DZ</string>
+    <string name="country_name_tn">TN</string>
+    <string name="country_name_ly">LY</string>
+    <string name="country_name_gm">GM</string>
+    <string name="country_name_sn">SN</string>
+    <string name="country_name_mr">MR</string>
+    <string name="country_name_ml">ML</string>
+    <string name="country_name_gn">GN</string>
+    <string name="country_name_ci">CI</string>
+    <string name="country_name_bf">BF</string>
+    <string name="country_name_ne">NE</string>
+    <string name="country_name_tg">TG</string>
+    <string name="country_name_bj">BJ</string>
+    <string name="country_name_mu">MU</string>
+    <string name="country_name_lr">LR</string>
+    <string name="country_name_sl">SI</string>
+    <string name="country_name_gh">GH</string>
+    <string name="country_name_ng">NG</string>
+    <string name="country_name_td">TD</string>
+    <string name="country_name_cf">CF</string>
+    <string name="country_name_cm">CM</string>
+    <string name="country_name_cv">CV</string>
+    <string name="country_name_st">ST</string>
+    <string name="country_name_gq">GQ</string>
+    <string name="country_name_ga">GA</string>
+    <string name="country_name_cg">CG</string>
+    <string name="country_name_cd">CD</string>
+    <string name="country_name_ao">AO</string>
+    <string name="country_name_gw">GW</string>
+    <string name="country_name_io">IO</string>
+    <string name="country_name_ac">AC</string>
+    <string name="country_name_sc">SC</string>
+    <string name="country_name_sd">SD</string>
+    <string name="country_name_rw">RW</string>
+    <string name="country_name_et">ET</string>
+    <string name="country_name_so">SO</string>
+    <string name="country_name_dj">DJ</string>
+    <string name="country_name_ke">KE</string>
+    <string name="country_name_tz">TZ</string>
+    <string name="country_name_ug">UG</string>
+    <string name="country_name_bi">BI</string>
+    <string name="country_name_mz">MZ</string>
+    <string name="country_name_zm">ZM</string>
+    <string name="country_name_mg">MG</string>
+    <string name="country_name_re_yt">RE/YT</string>
+    <string name="country_name_zw">ZW</string>
+    <string name="country_name_na">NA</string>
+    <string name="country_name_mw">MW</string>
+    <string name="country_name_ls">LS</string>
+    <string name="country_name_bw">BW</string>
+    <string name="country_name_sz">SZ</string>
+    <string name="country_name_km">KM</string>
+    <string name="country_name_za">ZA</string>
+    <string name="country_name_sh">SH</string>
+    <string name="country_name_er">ER</string>
+    <string name="country_name_aw">AW</string>
+    <string name="country_name_fo">FO</string>
+    <string name="country_name_gl">GL</string>
+    <string name="country_name_gr">GR</string>
+    <string name="country_name_nl">NL</string>
+    <string name="country_name_be">BE</string>
+    <string name="country_name_fr">FR</string>
+    <string name="country_name_es">ES</string>
+    <string name="country_name_gi">GI</string>
+    <string name="country_name_pt">PT</string>
+    <string name="country_name_lu">LU</string>
+    <string name="country_name_ie">IE</string>
+    <string name="country_name_is">IS</string>
+    <string name="country_name_al">AL</string>
+    <string name="country_name_mt">MT</string>
+    <string name="country_name_cy">CY</string>
+    <string name="country_name_fi">FI</string>
+    <string name="country_name_bg">BG</string>
+    <string name="country_name_hu">HU</string>
+    <string name="country_name_lt">LT</string>
+    <string name="country_name_lv">LV</string>
+    <string name="country_name_ee">EE</string>
+    <string name="country_name_md">MD</string>
+    <string name="country_name_am">AM</string>
+    <string name="country_name_by">BY</string>
+    <string name="country_name_ad">AD</string>
+    <string name="country_name_mc">MC</string>
+    <string name="country_name_sm">SM</string>
+    <string name="country_name_ua">UA</string>
+    <string name="country_name_rs">RS</string>
+    <string name="country_name_me">ME</string>
+    <string name="country_name_hr">HR</string>
+    <string name="country_name_si">SI</string>
+    <string name="country_name_ba">BA</string>
+    <string name="country_name_mk">MK</string>
+    <string name="country_name_va">VA</string>
+    <string name="country_name_it">IT</string>
+    <string name="country_name_ro">RO</string>
+    <string name="country_name_ch">CH</string>
+    <string name="country_name_cz">CZ</string>
+    <string name="country_name_sk">SK</string>
+    <string name="country_name_li">LI</string>
+    <string name="country_name_at">AT</string>
+    <string name="country_name_gg">GG</string>
+    <string name="country_name_je">JE</string>
+    <string name="country_name_im">IM</string>
+    <string name="country_name_uk">UK</string>
+    <string name="country_name_dk">DK</string>
+    <string name="country_name_se">SE</string>
+    <string name="country_name_no">NO</string>
+    <string name="country_name_pl">PL</string>
+    <string name="country_name_de">DE</string>
+    <string name="country_name_fk">FK</string>
+    <string name="country_name_bz">BZ</string>
+    <string name="country_name_gt">GT</string>
+    <string name="country_name_sv">SV</string>
+    <string name="country_name_hn">HN</string>
+    <string name="country_name_ni">NI</string>
+    <string name="country_name_cr">CR</string>
+    <string name="country_name_pa">PA</string>
+    <string name="country_name_pm">PM</string>
+    <string name="country_name_ht">HT</string>
+    <string name="country_name_pe">PE</string>
+    <string name="country_name_mx">MX</string>
+    <string name="country_name_cu">CU</string>
+    <string name="country_name_ar">AR</string>
+    <string name="country_name_br">BR</string>
+    <string name="country_name_cl">CL</string>
+    <string name="country_name_co">CO</string>
+    <string name="country_name_ve">VE</string>
+    <string name="country_name_gp_bl_mf">GP/BL/MF</string>
+    <string name="country_name_bo">BO</string>
+    <string name="country_name_gy">GY</string>
+    <string name="country_name_ec">EC</string>
+    <string name="country_name_gf">GF</string>
+    <string name="country_name_py">PY</string>
+    <string name="country_name_mq">MQ</string>
+    <string name="country_name_sr">SR</string>
+    <string name="country_name_uy">UY</string>
+    <string name="country_name_an">AN</string>
+    <string name="country_name_my">MY</string>
+    <string name="country_name_au">AU</string>
+    <string name="country_name_id">ID</string>
+    <string name="country_name_ph">PH</string>
+    <string name="country_name_nz">NZ</string>
+    <string name="country_name_sg">SG</string>
+    <string name="country_name_th">TH</string>
+    <string name="country_name_tl">TL</string>
+    <string name="country_name_bn">BN</string>
+    <string name="country_name_nr">NR</string>
+    <string name="country_name_pg">PG</string>
+    <string name="country_name_to">TO</string>
+    <string name="country_name_sb">SB</string>
+    <string name="country_name_vu">VU</string>
+    <string name="country_name_fj">FJ</string>
+    <string name="country_name_pw">PW</string>
+    <string name="country_name_wf">WF</string>
+    <string name="country_name_ck">CK</string>
+    <string name="country_name_nu">NU</string>
+    <string name="country_name_ws">WS</string>
+    <string name="country_name_ki">KI</string>
+    <string name="country_name_nc">NC</string>
+    <string name="country_name_tv">TV</string>
+    <string name="country_name_pf">PF</string>
+    <string name="country_name_tk">TK</string>
+    <string name="country_name_fm">FM</string>
+    <string name="country_name_mh">MH</string>
+    <string name="country_name_ru_kz">RU/KZ</string>
+    <string name="country_name_jp">JP</string>
+    <string name="country_name_kr">KR</string>
+    <string name="country_name_vn">VN</string>
+    <string name="country_name_kp">KP</string>
+    <string name="country_name_hk">HK</string>
+    <string name="country_name_mo">MO</string>
+    <string name="country_name_kh">KH</string>
+    <string name="country_name_la">LA</string>
+    <string name="country_name_cn">CN</string>
+    <string name="country_name_bd">BD</string>
+    <string name="country_name_tw">TW</string>
+    <string name="country_name_tr">TR</string>
+    <string name="country_name_in">IN</string>
+    <string name="country_name_pk">PK</string>
+    <string name="country_name_af">AF</string>
+    <string name="country_name_lk">LK</string>
+    <string name="country_name_mm">MM</string>
+    <string name="country_name_mv">MV</string>
+    <string name="country_name_lb">LB</string>
+    <string name="country_name_jo">JO</string>
+    <string name="country_name_sy">SY</string>
+    <string name="country_name_iq">IQ</string>
+    <string name="country_name_kw">KW</string>
+    <string name="country_name_sa">SA</string>
+    <string name="country_name_ye">YE</string>
+    <string name="country_name_om">OM</string>
+    <string name="country_name_ps">PS</string>
+    <string name="country_name_ae">AE</string>
+    <string name="country_name_il">IL</string>
+    <string name="country_name_bh">BH</string>
+    <string name="country_name_qa">QA</string>
+    <string name="country_name_bt">BT</string>
+    <string name="country_name_mn">MN</string>
+    <string name="country_name_np">NP</string>
+    <string name="country_name_ir">IR</string>
+    <string name="country_name_tj">TJ</string>
+    <string name="country_name_tm">TM</string>
+    <string name="country_name_az">AZ</string>
+    <string name="country_name_ge">GE</string>
+    <string name="country_name_kg">KG</string>
+    <string name="country_name_uz">UZ</string>
+    <!--  = END: Countries -->
+
+    <string name="firewall_setting">Lista de Bloqueio</string>
+
+    <!-- alphabet fast indexer -->
+    <string-array name="alphabet_table">
+        <item>#</item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+    </string-array>
+
+    <!-- alphabet fast indexer with '*' -->
+    <string-array name="alphabet_table_with_starred">
+        <item>!</item>
+        <item>#</item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+    </string-array>
+
+    <string name="caller_info_name_delimiter">Ou</string>
+
+     <!-- EditableListView -->
+    <string name="delete">Apagar</string>
+    <string name="select_all">Selecionar tudo</string>
+    <string name="reverse_all">Excluir tudo</string>
+    <string name="multi_select_title">Selecionado(s) %1$s item(ns)</string>
+
+    <string name="sim_account_name">SIM</string>
+
+    <!-- added for global date -->
+    <string name="month_of_january">Jan</string>
+    <string name="month_of_february">Fev</string>
+    <string name="month_of_march">Mar</string>
+    <string name="month_of_april">Abr</string>
+    <string name="month_of_may">Mai</string>
+    <string name="month_of_june">Jun</string>
+    <string name="month_of_july">Jul</string>
+    <string name="month_of_august">Ago</string>
+    <string name="month_of_september">Set</string>
+    <string name="month_of_october">Out</string>
+    <string name="month_of_november">Nov</string>
+    <string name="month_of_december">Dez</string>
+    <string name="day_of_month">" %d"</string>
+
+    <!-- added for global time -->
+    <plurals name="abbrev_less_than_one_minute_ago">
+        <item quantity="other">Agora mesmo</item>
+    </plurals>
+    <plurals name="less_than_one_minute_ago">
+        <item quantity="other">Agora mesmo</item>
+    </plurals>
+    <plurals name="abbrev_in_less_than_one_minute">
+        <item quantity="other">Imediatamente</item>
+    </plurals>
+    <plurals name="in_less_than_one_minute">
+        <item quantity="other">Imediatamente</item>
+    </plurals>
+    <plurals name="abbrev_a_hour_ago">
+        <item quantity="other">1 hora atrás</item>
+    </plurals>
+    <plurals name="abbrev_half_hour_ago">
+        <item quantity="other">Meia hora atrás</item>
+    </plurals>
+    <plurals name="a_hour_ago">
+        <item quantity="other">1 hora atrás</item>
+    </plurals>
+    <plurals name="half_hour_ago">
+        <item quantity="other">Meia hora atrás</item>
+    </plurals>
+    <plurals name="abbrev_in_a_hour">
+        <item quantity="other">Em uma hora</item>
+    </plurals>
+    <plurals name="abbrev_in_half_hour">
+        <item quantity="other">Em meia hora</item>
+    </plurals>
+    <plurals name="in_a_hour">
+        <item quantity="other">Em uma hora</item>
+    </plurals>
+    <plurals name="in_half_hour">
+        <item quantity="other">Em meia hora</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="one">1 min. atrás</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> min. atrás</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="one">1 minuto atrás</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> minutos atrás</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="one">em 1 min.</item>
+        <item quantity="other">em <xliff:g id="count">%d</xliff:g> min.</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="one">em 1 minuto</item>
+        <item quantity="other">em <xliff:g id="count">%d</xliff:g> minutos</item>
+    </plurals>
+    <!-- time AM/PM -->
+    <string name="format_time_in_12_hours">hh:mma</string>
+
+    <!-- text view insertion float panel strings  -->
+    <string name="text_pastelist">Área de transferência</string>
+    <string name="select">Selecionar</string>
+
+    <!-- text for WeekdayPreference  -->
+    <string name="never">Nunca</string>
+    <string name="every_day">Todos os dias</string>
+
+    <!-- XiaoMi account type -->
+    <string name="xiaomi_account_type">com.xiaomi</string>
+
+    <!-- Group names for Google default group -->
+    <string name="group_name_contacts">Contatos</string>
+    <string name="group_name_friends">Amigos</string>
+    <string name="group_name_family">Família</string>
+    <string name="group_name_coworkers">Colegas</string>
+
+    <!-- TIGGER_TOGGLE permission -->
+    <string name="perm_tigger_toggle_lab">Ativar alternadores</string>
+    <string name="perm_tigger_toggle_dspt">Permite que aplicativos ativem alternadores da barra de status</string>
+
+    <!-- ACTIVATE_PHONE permission -->
+
+    <!-- GET_USER_INFO permission -->
+    <string name="perm_use_find_device">Encontrar telefone</string>
+    <string name="perm_auto_backup">Backup automático</string>
+
+    <!-- PAYMENT permission -->
+    <string name="perm_payment_lab">Serviço de pagamentos Xiaomi</string>
+    <string name="perm_payment_dspt">Permitir aplicativos receberem pagamentos pelo serviço de pagamentos Xiaomi</string>
+
+    <!-- SEND_PUSH permission -->
+    <string name="perm_send_push_lab">Enviar mensagem Push</string>
+    <string name="perm_send_push_dspt">Permite o envio de mensagens Push da Xiaomi</string>
+
+    <!-- DATA_UPDATE permission -->
+    <string name="perm_data_update_lab">Atualização de dados</string>
+    <string name="perm_data_update_dspt">Permita o envio da marca dágua de atualização</string>
+
+    <!-- text for MiCloud sync service -->
+    <string name="sync_one_time_sync">Toque para sincronizar (
+        <xliff:g id="LAST_SYNC_TIME">
+            %1$s
+        </xliff:g>)
+    </string>
+    <string name="no_sim">Nenhum Cartão SIM, serviço indisponível</string>
+    <string name="activating">Ativando\u2026</string>
+
+    <!-- text for unlock screen -->
+    <string name="android_lockscreen_glogin_instructions">Para desbloquear, efetue o login em sua conta</string>
+    <string name="find_device_sim_change_instructions">"Seu telefone foi bloqueado\Por favor insira o cartão SIM ou entre com a senha de sua Conta Xiaomi"</string>
+    <string name="find_device_sim_change_instructions_no_network">Seu telefone foi bloqueado.\nPara desbloqueá-lo, insira seu cartão SIM.</string>
+    <string name="find_device_turn_off_flight_mode_instructions">Seu telefone foi bloqueado.\nPara desbloqueá-lo, desative o modo avião.</string>
+    <string name="find_device_turn_off_flight_mode">Desabilitar modo avião</string>
+    <string name="find_device_check_sim">Verificando cartão SIM\u2026</string>
+
+    <string name="check_phone_error_title">Falha ao ativar sincronização</string>
+    <string name="check_phone_io_error">Erro de rede</string>
+    <string name="send_sms_for_sync_title">Serviço de sincronização desativado</string>
+    <string name="send_sms_for_sync_notice">Um SMS de ativação será enviado, continuar?</string>
+    <string name="activate">Ativar</string>
+    <string name="activate_fail_notification_title">Reativar serviço de sincronização Xiaomi</string>
+    <string name="sim_changed_reactivate_notice">O cartão SIM atual está desativado. Uma mensagem SMS é requerida para reativar o serviço. continuar?</string>
+    <string name="sim_changed_reactivate_int_notice">O cartão SIM atual está desativado. Uma mensagem de texto internacional é requerida para ativar o serviço, deseja ativar agora?</string>
+
+    <!-- 同步错误信息 -->
+    <string name="error_title">Erro na sincronização</string>
+    <string name="error_unauthorized">Muitas falhas na autenticação. Sincronização desativada.</string>
+    <string name="error_forbidden">Sua conta está enfrentando problemas. Sincronização desativada.</string>
+    <string name="error_not_acceptable">Problema nos servidores. Sincronização desativada.</string>
+
+    <string name="screen_on_proximity_sensor_title">Prevenção de má operação</string>
+    <string name="screen_on_proximity_sensor_summary">"Não cubra a parte superior do telefone"</string>
+    <string name="screen_on_proximity_sensor_hint">"Está aqui por engano? Pressione os botões \'Voltar\' + \'Aumentar Volume\'"</string>
+
+    <string name="wake_alarm_message">Manter alarme de %s ativo.</string>
+    <string name="deprecated_alarm_message_12_hour_formate"></string>
+
+    <string name="permlab_accessNote">Acessar suas anotações</string>
+    <string name="permdesc_accessNote">Aplicativos maliciosos podem utilizar esta permissão para 
+      apagar suas anotações ou enviá-las para terceiros.</string>
+
+    <!-- memory clear tips -->
+    <string name="memory_clear_result">"Memória liberada: %1$s \nMemória disponível: %2$s"</string>
+    <string name="memory_clear_nothing_result">Não há memória disponível para ser liberada atualmente</string>
+
+    <!-- Overflow of menu -->
+    <string name="v5_icon_menu_bar_more_item_label">Mais</string>
+
+    <string name="screen_button_notification_title">Botões inferiores desabilitados</string>
+    <string name="screen_button_notification_text">"Pressione 'Home'+'Power' para reativar"</string>
+
+    <string name="volume_icon_description_bluetooth">Bluetooth</string>
+    <string name="volume_icon_description_ringer">Toque</string>
+    <string name="volume_icon_description_incall">Chamada</string>
+    <string name="volume_alarm">Alarmes</string>
+    <string name="volume_icon_description_media">Mídia</string>
+    <string name="volume_icon_description_notification">Notificação</string>
+
+    <!-- date picker -->
+    <string name="v5_date_time_picker_dialog_title">Definir lembrete</string>
+
+    <string name="v5_date_picker_label_year">""</string>
+    <string name="v5_date_picker_label_month">""</string>
+    <string name="v5_date_picker_label_day">""</string>
+    <string name="v5_time_picker_label_hour">"H"</string>
+    <string name="v5_time_picker_label_minute">"M"</string>
+
+    <plurals name="v5_edit_mode_title">
+        <item quantity="one">"%1$d selecionado"</item>
+        <item quantity="other">"%1$d selecionados"</item>
+    </plurals>
+    <string name="v5_select_all">Marcar todos</string>
+    <string name="v5_deselect_all">Desmarcar tudo</string>
+    <string name="v5_edit_mode_title_empty">Marcar Itens</string>
+
+    <!-- experimental version  -->
+    <string name="experimental_validate_thanks">Obrigado!</string>
+    <string name="experimental_validate_warning">A sua curiosidade e empenho ajudam a MIUI tornar-se melhor todos os dias!</string>
+    <string name="experimental_validate">Validar</string>
+    <string name="experimental_validate_username">ID Xiaomi</string>
+    <string name="experimental_validate_password">Senha</string>
+    <string name="experimental_validate_progress">Validando\u2026</string>
+    <string name="experimental_validate_fail">Falha na validação, tente novamente</string>
+
+    <string name="unknown_caller">Número privado</string>
+    <string name="call_record_or">ou</string>
+    <string name="call_record_sample_prefix_miui">Gravação</string>
+    <string name="fm_record_smaple_prefix_miui">Gravação FM</string>
+    <string name="speaker">Speaker</string>
+
+    <string name="alwaysUsePrompt">Definir Padrão (nenhum prompt será exibido na próxima vez)</string>
+
+    <string name="lockscreen_access_pattern_start">Padrão iniciado</string>
+    <string name="lockscreen_access_pattern_cleared">Padrão limpo</string>
+    <string name="lockscreen_access_pattern_cell_added">Célula adicionada</string>
+    <string name="lockscreen_access_pattern_detected">Padrão concluído</string>
+
+    <string name="send">Enviar</string>
+    <string name="share">Compartilhar</string>
+
+    <string name="yesterday">Ontem</string>
+    <string name="today">Hoje</string>
+    <string name="tomorrow">Amanhã</string>
+
+    <!-- begin: do not translate -->
+    <string name="deprecated_5"></string>
+    <string name="deprecated_6"></string>
+    <string name="deprecated_7"></string>
+    <string name="deprecated_8"></string>
+    <string name="deprecated_9"></string>
+    <string name="deprecated_10"></string>
+    <string name="deprecated_11"></string>
+    <string name="deprecated_12"></string>
+    <string name="deprecated_13"></string>
+    <string name="deprecated_14"></string>
+    <string name="deprecated_15"></string>
+    <string name="deprecated_16"></string>
+    <string name="deprecated_17"></string>
+    <string name="deprecated_18"></string>
+    <string name="deprecated_19"></string>
+    <string name="deprecated_20"></string>
+    <string name="deprecated_21"></string>
+    <string name="deprecated_22"></string>
+    <string name="deprecated_23"></string>
+    <string name="deprecated_24"></string>
+    <string name="deprecated_25"></string>
+    <string name="deprecated_26"></string>
+    <string name="deprecated_27"></string>
+    <string name="deprecated_28"></string>
+    <string name="deprecated_29"></string>
+    <string name="deprecated_30"></string>
+    <string name="deprecated_31"></string>
+    <string name="deprecated_32"></string>
+    <string name="deprecated_33"></string>
+    <string name="deprecated_34"></string>
+    <string name="deprecated_35"></string>
+    <string name="deprecated_36"></string>
+    <string name="deprecated_37"></string>
+    <string name="deprecated_38"></string>
+    <string name="deprecated_39"></string>
+    <string name="deprecated_40"></string>
+    <string name="deprecated_41"></string>
+    <string name="deprecated_42"></string>
+    <string name="deprecated_43"></string>
+    <string name="deprecated_44"></string>
+    <string name="deprecated_45"></string>
+    <string name="deprecated_46"></string>
+    <string name="deprecated_47"></string>
+    <string name="deprecated_48"></string>
+    <string name="deprecated_50"></string>
+    <string name="deprecated_51"></string>
+    <string name="deprecated_52"></string>
+    <string name="deprecated_53"></string>
+    <string name="deprecated_54"></string>
+    <string name="deprecated_55"></string>
+    <string name="deprecated_56"></string>
+    <string name="deprecated_57"></string>
+    <string name="deprecated_58"></string>
+    <string name="deprecated_59"></string>
+    <string name="deprecated_60"></string>
+    <string name="deprecated_61"></string>
+    <string name="deprecated_62"></string>
+    <string name="deprecated_63"></string>
+    <string name="deprecated_64"></string>
+    <string name="deprecated_65"></string>
+    <string name="deprecated_66"></string>
+    <string name="deprecated_67"></string>
+    <string name="deprecated_68"></string>
+    <string name="deprecated_69"></string>
+    <string name="deprecated_70"></string>
+    <string name="deprecated_71"></string>
+    <string name="deprecated_72"></string>
+    <string name="deprecated_73"></string>
+    <string name="deprecated_74"></string>
+    <string name="deprecated_75"></string>
+    <string name="deprecated_76"></string>
+    <string name="deprecated_77"></string>
+    <string name="deprecated_78"></string>
+    <string name="deprecated_79"></string>
+    <string name="deprecated_80"></string>
+    <string name="deprecated_81"></string>
+    <string name="deprecated_82"></string>
+    <string name="deprecated_83"></string>
+    <!-- end: do not translate -->
+
+    <!-- Cloud AntiSpam -->
+    <string name="provider_sougou">Fornecido por Sogou</string>
+    <string name="provider_114">Fornecido por 114</string>
+
+    <!-- device name -->
+    <string name="device_xiaomi">Telefone Xiaomi</string>
+    <string name="miui_device_name" translated="false">Android</string>
+    <string name="device_hongmi">Telefone Redmi</string>
+
+    <string name="sim_unavailable">Cartão SIM indisponível</string>
+    <string name="sim_locked">Cartão SIM bloqueado</string>
+    <string name="sim_not_ready">Cartão SIM em uso. Tente novamente mais tarde.</string>
+    <string name="sim_in_airplane_mode">Por favor saia do modo avião.</string>
+
+    <string name="days">dias</string>
+    <string name="hours">%d horas</string>
+    <string name="minutes">%d minutos</string>
+
+    <string name="shutdown_confirm_title">Seu telefone será desligado.</string>
+    <string name="reboot_confirm_title">Seu telefone será reiniciado.</string>
+
+    <string name="err_resource_leak">Infelizmente, o app <xliff:g id="application">%1$s</xliff:g> foi interrompido</string>
+    <string name="app_notificaiton_on_statusBar_and_notificationBar">Barra de status e notificações</string>
+    <string name="app_no_notification">nada</string>
+    <string name="app_notificaiton_on_notificationBar">Barra de notificações</string>
+
+    <string name="volume_ring_description">Toques &amp; Notificações</string>
+    <string name="login_website_in_case_forget_password">Visite i.xiaomi.com para resetar sua senha.</string>
+
+    <!-- Notifcations displayed in yellow page -->
+    <string name="yellow_page_unable_send_sms">Impossível enviar SMS!</string>
+    <string name="yellow_page_module_sms_sent">SMS enviado.</string>
+    <string name="yellow_page_sms_send_failed">Falha ao enviar SMS!</string>
+    <string name="yellow_page_sms_sending">Enviando\u2026</string>
+    <string name="yellow_page_sms_disabled_in_privacy_mode">Impossível enviar SMS no modo de Privacidade</string>
+
+    <!-- Grant_permissions for account-->
+    <string name="grant_permissions_apps">Permitir acesso a apps</string>
+    <string name="grant_permissions_account">Permitir acesso a conta</string>
+
+    <!-- Displayed to the user to confirm that they have copied text to the clipboard. -->
+    <string name="text_copied">Texto copiado para a área de transferência.</string>
+    <!-- Displayed to the user to confirm that they have cut text to the clipboard. -->
+    <string name="text_cut">Texto recortado</string>
+
+    <string name="open_wifi_settings">Rede aberta</string>
+</resources>

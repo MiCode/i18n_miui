@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Bookmark related -->
+    <string name="local_bookmarks">Xiaomi</string>
+    <string name="google_bookmarks">Google: </string>
+    <string name="bookmarks_management">Gerenciar favoritos</string>
+    <string name="bookmarks_root_folder">Pasta Raiz</string>
+    <string name="bookmarks_content_is_null">Nenhum favorito</string>
+
+    <!-- History related -->
+    <string name="history_browsed">Histórico de navegação</string>
+    <string name="history_track">Histórico</string>
+    <string name="history_most_visited">Mais visitados</string>
+    <string name="history_saved_webpage">Salvar página</string>
+    <string name="clear_history">Excluir histórico</string>
+    <string name="clear_history_group">Excluir histórico (%s páginas)</string>
+    <string name="open_history_group_in_new_window">Abrir histórico em nova aba (%s páginas)</string>
+    <string name="open_history_most_visited_group_in_new_window">Abrir histórico de mais visitados</string>
+    <string name="pref_privacy_clear_history_dlg">Excluir o histórico de navegação do navegador?</string>
+    <string name="pref_privacy_clear_history_by_group_dlg">Você tem certeza que deseja excluir o histórico?</string>
+
+    <string name="edit">Editar</string>
+    <string name="delete">Excluir</string>
+    <string name="multi_select_title" ><xliff:g id="number">%1$s</xliff:g> selecionado(s)</string>
+    <string name="delete_multi_bookmarks_alert_title" >Excluir <xliff:g id="number">%1$s</xliff:g> itens?</string>
+
+    <string name="add_bookmark">Adic. marcador</string>
+    <string name="send_bookmark_to_home_screen">Enviar à tela inicial</string>
+    <string name="bookmark_title">Rótulo</string>
+    <string name="bookmark_url">URL</string>
+    <string name="bookmark_add_to">Adic. para</string>
+    <string name="add_folder">Adic. pasta</string>
+    <string name="folder_name">Nome da pasta</string>
+    <string name="same_folder_name_warning">Esta pasta já existe</string>
+    <string name="same_bookmarks_warning">Este favorito já existe</string>
+    <string name="have_sent_bookmark_to_home_screen">Enviado à tela inicial</string>
+    <string name="already_in_top_level">Seu favorito está no nível máximo permitido</string>
+
+    <string name="bookmark_this_page_to_readmodelist">"Adicionar página à lista de leitura"</string>
+    <string name="readmodelist_bookmarks_to_show">Lista de Leitura</string>
+    <string name="bookmark_to_readmodelist_saved">Salvo na lista de leitura cobrindo o favorito original.</string>
+    <string name="bookmark_to_readmodelist_not_saved">"Impossível salvar na lista de leitura"</string>
+    <string name="readmode_reach_last_page">Última página atingida</string>
+
+    <string name="save_bookmark">favorito</string>
+    <string name="delete_bookmark">excluir do favorito</string>
+    <string name="send_to_popular">popular</string>
+    <string name="copy_link">copiar link</string>
+    <string name="share_link">Compartilhar link</string>
+    <string name="open_all_bookmarks">Abrir todos</string>
+    <string name="move_to_up_folder">Mover um nivel acima</string>
+    <string name="bookmark_folder_needs_title">A pasta precisa possuir um nome</string>
+
+    <!-- Name of tab containing yellow page sites -->
+    <string name="tab_yellowpage">Populares</string>
+
+    <!-- Name of tab containing quick link sites -->
+    <string name="tab_quicklinks">Links rápidos</string>
+
+    <!-- Settings label -->
+    <string name="pref_content_night_read_mode">Habilitar modo noturno</string>
+
+    <string-array name="pref_homepage_choices">
+        <!-- Setting choice to set the homepage to the miui_home page [CHAR LIMIT=40] -->
+        <item>Página inicial padrão</item>
+        <!-- Setting choice to set the homepage to a user entered URL [CHAR LIMIT=40] -->
+        <item>Personalizado</item>
+    </string-array>
+    <string-array name="pref_homepage_values" translatable="false">
+        <item>miui_home</item>
+        <item>other</item>
+    </string-array>
+
+    <string name="general_set_default_browser_title">Definir como navegador padrão</string>
+    <string name="general_set_default_browser_dialog_summary">Utilize os apps integrados da MIUI para uma experiência mais suave e rápida</string>
+    <string name="general_set_default_browser_dialog_close_txt">Fechar</string>
+    <string name="general_set_default_browser_dialog_ok_txt">OK</string>
+
+    <!-- Checkbox setting for enabling/disabling the ExitOnClosingLastTab feature [CHAR-LIMIT=32] -->
+    <string name="pref_exit_on_closing_last_tab_enabled_title">Sair ao fechar última aba</string>
+
+    <string name="url_hint">Pesquisar ou digitar URL</string>
+    <string name="search_hint">Pesquisar ou digitar URL</string>
+
+    <string-array name="bookmarks_zh" translatable="false">
+        <item>Xiaomi</item>
+        <item>http://bbs.xiaomi.cn/</item>
+        <item>Baixu</item>
+        <item>http://m.baidu.com/?from=1269a</item>
+        <item>Google</item>
+        <item>http://www.google.com.br/</item>
+        <item>Weibo</item>
+        <item>http://3g.sina.com.cn/</item>
+        <item>QQ</item>
+        <item>http://3g.qq.com/</item>
+        <item>ifeng</item>
+        <item>http://i.ifeng.com/?ch=rj_mr</item>
+        <item>163.com</item>
+        <item>http://3g.163.com/</item>
+    </string-array>
+
+    <string-array name="bookmarks_cm_customization" translatable="false">
+        <item>MM综合门户</item>
+        <item>http://mm.10086.cn/a/j/2743/</item>
+        <item>手机阅读</item>
+        <item>http://wap.cmread.com</item>
+        <item>手机游戏</item>
+        <item>http://g.10086.cn</item>
+        <item>手机视频</item>
+        <item>http://wap.cmvideo.cn</item>
+        <item>无线音乐</item>
+        <item>http://m.10086.cn</item>
+        <item>12580</item>
+        <item>http://12580wap.10086.cn/?pid=PCM002942000</item>
+        <item>飞信首页</item>
+        <item>http://f.10086.cn</item>
+        <item>139邮箱</item>
+        <item>http://mail.10086.cn </item>
+        <item>冲浪网址</item>
+        <item>http://go.10086.cn/?coc=6GG2GGRq</item>
+    </string-array>
+
+    <string name="contextmenu_download_image_as">Salvar imagem como</string>
+
+    <!-- Advanced Setting -->
+    <string name="pref_extras_reset_default_title">Redefinir padrões</string>
+    <string name="pref_extras_reset_default">Redefinir padrões</string>
+    <string name="pref_extras_reset_default_dlg">Reverter as configurações para os valores padrão?</string>
+
+    <string name="pref_ua_title">Gerenciar User Agent</string>
+    <string name="pref_ua_string">String de User Agent</string>
+    <string-array name="pref_ua_choices">
+        <item>Android</item>
+        <item>Desktop</item>
+        <item>iPhone</item>
+        <item>iPad</item>
+    </string-array>
+    <string name="pref_ua_mione_entry">MiOne</string>
+    <!-- Settings label -->
+    <string name="pref_content_search_engine">Definir mecanismo de pesquisa</string>
+    <string-array name="pref_ua_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string name="pref_ua_mione_value" translatable="false">4</string>
+    <!-- Settings label -->
+    <string name="pref_content_search_engine">Definir mecanismo de pesquisa</string>
+
+    <!-- Do not translate.  Testing only -->
+    <string name="dump_counters" translatable="false">Dump V8 counters</string>
+    <string name="dump_dom_tree" translatable="false">Dump DOM tree to file</string>
+    <string name="dump_render_tree" translatable="false">Dump render tree to file</string>
+    <string name="dump_display_tree" translatable="false">Dump display tree to file</string>
+
+    <string name="pref_reading_mode_enabled_title">Modo de leitura</string>
+    <string name="pref_reading_mode_enabled_title_summary">JavaScript precisa estar habilitado</string>
+    <string name="pref_developer_options">Opções do desenvolvedor</string>
+    <string name="pref_developer_options_summary">Opções para depuração ou relatório de erros</string>
+    <string name="add_xiaomi_account_warning">Por favor faça login em sua conta Xiaomi primeiro</string>
+    <string name="report_reading_mode_issue">Reportar problema no modo de leitura à MIUI</string>
+
+    <string name="pref_key_gesture_title">Botões e gestos</string>
+    <!-- 按键设置 -->
+    <string name="pref_key_title">Botões</string>
+    <string name="pref_volume_key_enabled">Botões de volume</string>
+    <string name="pref_volume_key_operation">Ação para botões de volume</string>
+    <string-array name="pref_volume_key_choices">
+        <item>Voltar/Avançar páginas</item>
+        <item>Alternar entre abas</item>
+    </string-array>
+    <string-array name="pref_volume_key_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <!-- 手势操作 -->
+    <string name="pref_gesture_title">Gestos</string>
+    <string name="pref_fling_on_border_enabled">Deslizar nas bordas</string>
+    <string name="pref_fling_on_border_enabled_title_summary">Alternar abas ao deslizar entre as bordas da janela</string>
+    <string-array name="pref_fling_on_border_choices">
+        <item>Rolar páginas</item>
+        <item>Alternar janelas</item>
+    </string-array>
+    <string-array name="pref_fling_on_border_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <string name="is_page_top">Topo da página atingido</string>
+    <string name="is_page_bottom">Final da página atingido</string>
+    <string name="is_first_tab">Esta é a primeira aba</string>
+    <string name="is_last_tab">Esta é a última aba</string>
+    <string name="is_first_history_item">Este é o primeiro item do histórico</string>
+    <string name="is_last_history_item">Este é o último item do histórico</string>
+
+    <string name="warning">Atenção</string>
+
+    <!-- Menu item -->
+    <string name="share_page">Compartilhar página</string>
+
+    <!-- Menu item to exit browser. [CHAR-LIMIT=30]-->
+    <string name="menu_exit">Sair</string>
+    <!-- Confirmation dialog message confirming to exit browser -->
+    <string name="exit_browser_warning">Sair do navegador?</string>
+    <string name="not_remind_again">Não me lembrar novamente</string>
+    <string name="pref_general_exit_setting_title">Configuração de saída</string>
+    <string name="pref_confirm_for_exit">Confirmar saída</string>
+    <string name="pref_clear_cache_for_exit">Excluir cache ao sair</string>
+    <string name="pref_clear_history_for_exit">Excluir histórico ao sair</string>
+
+    <string name="recover_from_crash">Restaurar última sessão</string>
+    <string name="recover">Restaurar</string>
+    <string name="crash_recovcery_message">O navegador foi fechado de forma incorreta. Você gostaria de restaurar a última sessão?</string>
+
+    <string name="pref_autologin_progress_in_background">Fazendo login nos sites do Google utilizando %s em segundo plano</string>
+
+    <string name="menu_enable_night_mode">Ativar modo noturno</string>
+    <string name="menu_disable_night_mode">Desativar modo noturno</string>
+
+    <string name="search_cancel">Cancelar</string>
+    <string name="search">Pesquisar</string>
+    <string name="clear_search_history">Excluir histórico</string>
+
+    <string name="search_baidu">Baidu</string>
+    <string name="search_sogou">Sogou</string>
+    <string name="search_google">Google</string>
+    <string name="search_yahoo">Yahoo!</string>
+    <string name="search_bing">Bing</string>
+    <string name="search_s139">139</string>
+    <string name="search_taobao">Taobao</string>
+    <string name="search_yicha">Yicha</string>
+    <string name="search_easou">Easou</string>
+    <string name="search_dianping">Cate</string>
+    <string name="search_shipin">Vídeo</string>
+    <string name="search_tupian">Imagem</string>
+
+    <string name="MIUI_startpage">Página Inicial</string>
+
+    <string name="accessibility_button_newtab">Nova guia aberta</string>
+
+    <string name="find_on_page">Buscar na página</string>
+    <string name="url_copy_done">URL copiada</string>
+
+    <string name="empty_history">Nenhum histórico do navegador.</string>
+    <string name="pref_setting_title">Config. de página</string>
+    <string-array name="pref_default_zoom_choices">
+        <item>Pequeno</item>
+        <item>Médio</item>
+        <item>Grande</item>
+    </string-array>
+
+    <string name="pref_general_setting_title">Configuração</string>
+    <string name="pref_extras_website_settings">Configurações do site</string>
+
+    <!-- Permissions prompt toast -->
+    <string name="geolocation_permissions_prompt_toast_allowed">Este site pode acessar sua localização. Faça a alteração na tela Configurações > Avançado > Site.</string>
+    <string name="geolocation_permissions_prompt_toast_disallowed">Este site não pode acessar sua localização. Faça a alteração na tela Configurações > Avançado > Site.</string>
+
+    <!-- Traffic Management: pre-load summary -->
+    <string name="pref_data_preload_summary">Permitir ao naveg. pré-carr. result. de busca de alta confiança em segundo plano</string>
+    <string name="pref_link_prefetch_summary">Permitir que o navegador pré-carregue páginas relacionadas em segundo plano</string>
+    <string name="pref_video_preload_summary">" Permite que navegador carregue vídeos antecipadamente quando o servidor permitir"</string>
+    <string name="pref_images_preload_summary">" Permitir carregamento antecipado de imagens quando suportado"</string>
+
+    <!-- Traffic Management: images preload -->
+    <string name="pref_images_preload_value_never" translatable="false">0</string>
+    <string name="pref_images_preload_value_wifi_only" translatable="false">1</string>
+    <string name="pref_images_preload_value_always" translatable="false">2</string>
+    <string name="pref_images_preload_default_value" translatable="false">@string/pref_images_preload_value_always</string>
+    <string-array name="pref_images_preload_values" translatable="false">
+        <item><xliff:g>@string/pref_images_preload_value_never</xliff:g></item>
+        <item><xliff:g>@string/pref_images_preload_value_wifi_only</xliff:g></item>
+        <item><xliff:g>@string/pref_images_preload_value_always</xliff:g></item>
+    </string-array>
+
+    <!-- Traffic Management: pre-load title -->
+    <string name="pref_images_preload_title">Pré-carregar imagens</string>
+
+    <!-- Traffic Management: title -->
+    <string name="pref_images_preload_dialogtitle">Pré-carregamento de imagens</string>
+
+    <string-array name="pref_images_preload_choices">
+        <item>Nunca</item>
+        <item>Somente em Wi-Fi</item>
+        <item>Sempre</item>
+    </string-array>
+
+    <!-- Traffic Management:  images pre-load values -->
+    <string name="pref_images_preload_value_never_summary">Nunca permitir o pré-carregamento de imagens quando suportado</string>
+    <string name="pref_images_preload_value_wifi_only_summary">Permitir de forma inteligente o pré-carregamento de imagens quando suportado</string>
+    <string name="pref_images_preload_value_always_summary">Sempre permitir o pré-carregamento de imagens quando suportado</string>
+
+    <!-- Traffic Management: data_preload -->
+    <string name="pref_data_preload_value_never_summary">Nunca permitir que o navecador pré-carregue resultados de pesquisa em segundo plano</string>
+
+    <!-- Traffic Management: link_prefetch -->
+    <string name="pref_link_prefetch_value_never_summary">Nunca permitir que o navegador pré-carregue páginas web secundárias em segundo plano</string>
+
+    <!-- Traffic Management: video preload -->
+    <string name="pref_video_preload_value_never_summary">Nunca permitir que o navegador pré-carregue vídeos em segundo plano</string>
+
+    <!-- Setting homepage -->
+    <string name="pref_data_title" msgid="7255058703417796578">"Gerenciamento de banda"</string>
+
+    <!-- Save bandwidth mode -->
+    <string name="pref_save_bandwidth_mode_title">Uso de dados móveis</string>
+    <string name="pref_save_bandwidth_mode_summary">Quando ativada, o navegador não irá utilizar os dados móveis para pré-carregar imagens em páginas.</string>
+    <string name="menu_enable_save_bandwidth_mode">Limitar uso de dados móveis</string>
+    <string name="menu_disable_save_bandwidth_mode">Desativar uso de dados móveis</string>
+    <string name="menu_save_bandwidth_mode_first_clicked_txt">Não utilizar dados móveis para pré-carregar páginas da web.</string>
+    <string name="menu_save_bandwidth_mode_first_clicked_positive_btn_txt">OK</string>
+    <string name="menu_save_bandwidth_mode_open_toast">Limite de dados móveis ativado</string>
+    <string name="menu_save_bandwidth_mode_close_toast">Limite de dados móveis desativado</string>
+
+    <string name="return_to_homepage">Voltar à página inicial</string>
+
+    <string name="new_tab">Nova guia</string>
+    <string name="new_incognito_tab">Nova guia anônima</string>
+    <string name="open_all_in_new_window">Abrir tudo em novas guias</string>
+    <string name="contextmenu_openlink_newwindow">Abrir em nova guia</string>
+    <string name="contextmenu_openlink_newwindow_background">Abrir em uma nova guia em segundo plano</string>
+    <string name="pref_content_open_in_background_summary">Abrir novas guias atrás da guia atual</string>
+    <string name="too_many_windows_dialog_title">Limite da guia atingido</string>
+    <string name="too_many_windows_dialog_message">Não é possível abrir uma nova guia até que outra seja fechada.</string>
+    <string name="max_tabs_warning">Não há mais guias disponíveis</string>
+    <string name="accessibility_button_closetab">Fechar guia</string>
+    <string name="accessibility_transition_navscreen">Gerenciamento de guias</string>
+
+    <string name="notif_install_successful">Download concluído.</string>
+    <string name="in_incognito">Modo incógnito ativado. Nenhum histórico será salvo.</string>
+    <string name="alert_tips">Este website pode apresentar riscos de segurança, proceda com cautela!</string>
+
+    <string name="stop_loading">Parar</string>
+    <string name="close_all_tab_alert_title">Fechar todas as abas</string>
+    <string name="close_all_tab_alert_message">Você tem certeza que deseja fechar todas as abas?</string>
+    <string name="file_picker">Selecionar caminho</string>
+    <string name="file_name">Arquivo</string>
+    <string name="file_dir">Diretório</string>
+    <string name="storage_internal">Armaz. interno</string>
+    <string name="storage_sd_card">Cartão SD</string>
+    <string name="storage_usb">Cartão SD</string>
+    <string name="save_dialog_title">Salvar</string>
+    <string name="save_file_already_exist_alert_title">Atenção</string>
+    <string name="save_file_already_exist_alert_message">Existe um arquivo com o mesmo nome, substituir?</string>
+    <string name="filename_empty_alert_message">O nome do arquivo não pode estar vazio</string>
+    <string name="filename_illegal_alert_message">Caracteres ilegais no nome do arquivo, remoção automática concluída.</string>
+    <string name="quicklinks_management">Sites Úteis</string>
+    <string name="download_failed">Falha no download</string>
+    <string name="download_complete">Download concluído</string>
+    <string name="app_update_install">O download foi concluído e está pronto para atualizar o aplicativo no sistema</string>
+    <string name="app_new_version">O download foi concluído e última versão disponível instalada com sucesso</string>
+
+    <!-- clip dialog -->
+    <string name="clip_dialog_title">Abrir o link copiado?</string>
+    <string name="quicklinks_management">Sites Úteis</string>
+    <string name="download">Download</string>
+    <string name="loading_rest_candidates">Carregando restante...</string>
+    <string name="downloading">Transferindo</string>
+    <string name="downloaded">Transferido</string>
+    <string name="disk_space_used">%1$s utilizado</string>
+    <string name="disk_space_selected">%1$s selecionado</string>
+    <string name="disk_space_available">%1$s disponível</string>
+    <string name="not_enough_disk_space_alert">Não há espaço em disco suficiente</string>
+    <string name="download_video_alert_title">Alerta de download</string>
+    <string name="download_video_alert_message">A rede atual é limitada. Ao efetuar download de vídeos seu pacote de dados será severamente reduzido. Continuar?</string>
+    <string name="download_video_start_down_toast">Transferir %1$s vídeo(s)</string>
+    <string name="menu_download_video">Vídeos transferidos</string>
+    <string name="download_video_unseleted_all">Desfazer seleção</string>
+    <string name="download_video_please_select_video">Selecionar um vídeo</string>
+    <string name="download_video_please_download_market">Você precisa instalar o MiApps.</string>
+    <string name="download_video_no_title_default_name">Vídeo sem nome</string>
+    <string name="download_video_menu_dialog_title">Instalando...</string>
+    <string name="download_video_menu_dialog_summary">Você precisa instalar o aplicativo de Vídeo antes de utilizar esta função</string>
+    <string name="download_video_menu_dialog_positive_txt">Instalar</string>
+    <string name="download_video_menu_video_version_low">Você precisa atualizar o aplicativo de Vídeo.</string>
+
+    <!-- common use phrase bottom bar string -->
+    <string name="common_use_phrase_bottom_bar_www_txt">www.</string>
+    <string name="common_use_phrase_bottom_bar_com_txt">.com</string>
+    <string name="common_use_phrase_bottom_bar_cn_txt">.br</string>
+    <string name="common_use_phrase_bottom_bar_https_txt">https://</string>
+    <string name="common_use_phrase_bottom_bar_point_txt">.</string>
+    <string name="common_use_phrase_bottom_bar_slash_txt">/</string>
+    <string name="common_use_phrase_bottom_bar_net_txt">.net</string>
+    <string name="common_use_phrase_bottom_bar_org_txt">.org</string>
+    <string name="common_use_phrase_bottom_bar_paste_txt">Colar</string>
+
+    <!-- accessibility_preferences: url shortcut enter -->
+    <string name="pref_accessibility_url_shortcut_enter_title">URL Rápida</string>
+    <string name="pref_accessibility_url_shortcut_enter_summary">Ao digitar um endereço web na barra de endereços, exibir prefixos e sufixos comuns para inserção rápida</string>
+    <string name="common_use_phrase_bottom_bar_paste_analytic_txt">Colar</string>
+    <string name="common_use_phrase_bottom_bar_up_analytic_txt">Expandir</string>
+    <string name="common_use_phrase_bottom_bar_down_analytic_txt">Retrair</string>
+
+    <!-- file download and save -->
+    <string name="download_default_path_txt">Definir como caminho padrão para salvamento</string>
+    <string name="pref_file_download_save_title">Baixar e salvar arquivo</string>
+    <string name="pref_file_downlaod_save_reset_default_settings">Restaurar configuração padrão</string>
+    <string name="pref_file_downlaod_save_is_reset_default_settings">Restaurar configurações de salvamento padrão?</string>
+    <string name="pref_file_download_save_modify_default_path">Modificar local de download</string>
+    <string name="download_dialog_file_length_hint_txt">Tamanho：</string>
+    <string name="download_dialog_file_length_nolength_txt">Obtendo...</string>
+    <string name="download_dialog_file_length_nolength_error_txt">Falha ao obter</string>
+    <string name="download_dialog_file_length_lessthan1kb">Menos de 1K</string>
+    <string name="download_dialog_default_path_invalid">O local selecionado é inválido</string>
+    <string name="modify_download_path_no_sdcard_dlg_msg" product="nosdcard">Um armazenamento USB é requerido para alterar este local</string>
+    <string name="modify_download_path_no_sdcard_dlg_msg" product="default">Um cartão SD é requerido para alterar este local</string>
+
+    <string name="geolocation_permissions_prompt_toast_disallowed" msgid="156443445797377409">"Este website não pode acessar sua localização"</string>
+    <string name="pref_content_homepage" msgid="3324574611613105696">"Def. como página inicial"</string>
+
+    <string name="bottom_bar_tabs_long_click_up_tip_txt">Deslize para cima para fechar</string>
+    <string name="bottom_bar_tabs_long_click_down_tip_txt">Deslize para baixo para fechar</string>
+    <string name="bottom_bar_tabs_long_click_last_tab_tip_txt">Esta é a última aba</string>
+
+    <string name="network_show_wifi_setting_tip_dialog_setting_cate_title">Rede Wi-Fi disponível</string>
+    <string name="network_show_wifi_setting_tip_dialog_setting_title">Se você estiver utilizando seu pacote de dados móveis para acessar a internet, a MIUI irá lhe notificar quando uma rede Wi-Fi estiver ao alcance.</string>
+    <string name="network_show_wifi_setting_tip_dialog_title">Conexão Wi-Fi local disponível</string>
+    <string name="network_show_wifi_setting_tip_dialog_description">Rede Wi-Fi encontrada, conectar?</string>
+    <string name="network_show_wifi_setting_tip_dialog_notshow">Salvar</string>
+
+    <!-- quicklinks -->
+    <string name="user_defined_webpage">Adicionar à página inicial</string>
+    <string name="quicklink_user_define_webpage_title">Nome</string>
+    <string name="quicklink_user_define_webpage_url">URL</string>
+    <string name="user_defined_webpage_title">Adicionar à página inicial</string>
+    <string name="quicklinks_most_visited">Adicione sites acessados com frequência na página inicial</string>
+    <string name="quicklinks_most_visited_title">Adicionar à página inicial</string>
+    <string name="quicklinks_most_visited_subtitle">Mostrar sites recentes em uma nova aba</string>
+    <string name="quicklinks_group_default_subtitle">Vazio</string>
+    <string name="add_quicklink_to_popular">Adic. à página inicial</string>
+    <string name="quicklink_saved_before">Site adicionado à página inicial</string>
+
+    <string name="network_alert_message">Wi-Fi indisponível, utilizar rede de dados móveis?</string>
+    <string name="yes">Sim</string>
+    <string name="no">Não</string>
+
+    <string name="pref_security_show_security_warning_summary">Exibir aviso se houver problema com a segurança de um site</string>
+
+</resources>

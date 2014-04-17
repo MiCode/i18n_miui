@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- msd driver -->
+    <string-array name="msd_pc_system_install_start_summary">
+        <item>Para Windows XP e versões antigas do Windows,\no driver precisa ser instalado manualmente</item>
+        <item>Para Windows Vista e versões recentes do Windows,\no music player será exibido automaticamente</item>
+        <item>Para Mac OS,\no driver precisa ser instalado manualmente</item>
+        <item></item>
+    </string-array>
+
+    <string-array name="msd_pc_system_install_step_2_summary">
+        <item>2. O MI 3 aparecerá em seu computador como\n um dispositivo de armazenamento em massa quando conectado ao computador.</item>
+        <item></item>
+        <item>Transfira arquivos como você faria com qualquer dispositivo de armazenamento.</item>
+        <item></item>
+    </string-array>
+
+    <string-array name="msd_pc_system_install_finish_summary">
+        <item>Após você instalar o driver\nO MI 3 aparecerá como um dispositivo de armazenamento USB quando conectado ao computador.</item>
+        <item>Para Windows Vista e versões recentes do Windows,\no music player do MI 3 aparecerá em seu computador automaticamente</item>
+        <item>Quando você instalar este driver\no telefone abrirá automaticamente ao ser conectado a um computador.</item>
+        <item></item>
+    </string-array>
+</resources>
