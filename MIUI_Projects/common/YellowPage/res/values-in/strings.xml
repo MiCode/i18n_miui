@@ -2,203 +2,203 @@
 
 <resources>
     <!-- Name of the application -->
-    <string name="app_label">Directory</string>
+    <string name="app_label">Direktori</string>
 
     <!-- Global -->
     <string name="phone_info_divider">" ｜ "</string>
-    <string name="call">Call</string>
+    <string name="call">Panggilan</string>
 
     <!-- Loading process related -->
-    <string name="check_network">Network settings</string>
-    <string name="try_again">Try again</string>
-    <string name="network_unavaliable">Couldn\'t connect to network</string>
-    <string name="service_unavailiable">Service unavailable</string>
-    <string name="data_error">An error occurred</string>
-    <string name="locating_fail">Failed to locate, please check location service or try again</string>
-    <string name="no_more_result">No more results</string>
+    <string name="check_network">Pengaturan Jaringan</string>
+    <string name="try_again">Coba lagi</string>
+    <string name="network_unavaliable">Tidak dapat terhubung jaringan</string>
+    <string name="service_unavailiable">Layanan tidak tersedia</string>
+    <string name="data_error">Terjadi galat</string>
+    <string name="locating_fail">Gagal menemukan lokasi, silahkan periksa layanan lokasi atau coba lagi</string>
+    <string name="no_more_result">Tidak ada hasil lain</string>
 
     <!-- YellowPage related -->
-    <string name="yellow_page_detail_title">About</string>
-    <string name="yellow_page_call_log_title">Call log</string>
-    <string name="yellow_page_website">Official website</string>
-    <string name="menu_copy_text">Copy to clipboard</string>
-    <string name="menu_call_ip_number">Dial IP call (dial %s)</string>
-    <string name="toast_text_copied">Text copied</string>
-    <string name="provider_tag">Data source</string>
-    <string name="all_numbers">All numbers</string>
+    <string name="yellow_page_detail_title">Tentang</string>
+    <string name="yellow_page_call_log_title">Catatan panggilan</string>
+    <string name="yellow_page_website">Situs resmi</string>
+    <string name="menu_copy_text">Salin ke clipboard</string>
+    <string name="menu_call_ip_number">Lakukan panggilan IP (dial %s)</string>
+    <string name="toast_text_copied">Teks tersalin</string>
+    <string name="provider_tag">Sumber data</string>
+    <string name="all_numbers">Seluruh nomor</string>
     <plurals name="all_numbers_count">
-        <item quantity="one">1 entry</item>
-        <item quantity="other">%d entries</item>
+        <item quantity="one">1 entri</item>
+        <item quantity="other">%d entri</item>
     </plurals>
-    <string name="provider">Identified by %s</string>
+    <string name="provider">Diidentifikasi oleh %s</string>
 
     <!-- Call log related -->
-    <string name="callrecordview_item_newcontact">New contact</string>
-    <string name="callrecordview_item_op_time_minutes_seconds">%1$d min %2$d sec</string>
-    <string name="callrecordview_item_op_time_only_minutes">%d min</string>
-    <string name="callrecordview_item_op_time_only_seconds">%d sec</string>
-    <string name="callrecordview_item_op_time_short_outgoing">Outgoing:\u0020</string>
-    <string name="callrecordview_item_op_time_short_incoming">Incoming:\u0020</string>
-    <string name="callrecordview_item_op_time_missed">Not connected</string>
-    <string name="callrecordview_item_op_time_rejected">Rejected</string>
-    <string name="voicemail">Voicemail</string>
-    <string name="menu_delete_one">Remove from call log</string>
-    <string name="toast_finish_delete_call_log">Call log deleted</string>
-    <string name="confirm_delete_call_log_title">Delete call log?</string>
-    <string name="confirm_delete_all_call_log_title">Delete all call logs?</string>
-    <string name="contact_detail_calllog_call_record_tips">Call recording</string>
-    <string name="contact_detail_calllog_call_note_tips">Call notes</string>
+    <string name="callrecordview_item_newcontact">Kontak baru</string>
+    <string name="callrecordview_item_op_time_minutes_seconds">%1$d menit %2$d detik</string>
+    <string name="callrecordview_item_op_time_only_minutes">%d menit</string>
+    <string name="callrecordview_item_op_time_only_seconds">%d detik</string>
+    <string name="callrecordview_item_op_time_short_outgoing">Panggilan keluar:\u0020</string>
+    <string name="callrecordview_item_op_time_short_incoming">Panggilan masuk:\u0020</string>
+    <string name="callrecordview_item_op_time_missed">Tidak terhubung</string>
+    <string name="callrecordview_item_op_time_rejected">Ditolak</string>
+    <string name="voicemail">Pesan suara</string>
+    <string name="menu_delete_one">Hapus dari catatan log panggilan</string>
+    <string name="toast_finish_delete_call_log">Catatan log panggilan dihapus</string>
+    <string name="confirm_delete_call_log_title">Hapus semua catatan log panggilan?</string>
+    <string name="confirm_delete_all_call_log_title">Hapus semua catatan log panggilan?</string>
+    <string name="contact_detail_calllog_call_record_tips">Perekapan panggilan</string>
+    <string name="contact_detail_calllog_call_note_tips">Catatan panggilan</string>
 
     <!-- Yellowpage menu related -->
-    <string name="menu_delete_call_log">Delete call logs</string>
-    <string name="menu_add_black_list">Add to blocklist</string>
-    <string name="menu_remove_black_list">Remove from blocklist</string>
-    <string name="menu_about_yellow_page">About this page</string>
-    <string name="menu_correct_yellow_page">Correction</string>
-    <string name="menu_refresh">Refresh</string>
-    <string name="confirm_to_add_blacklist">Block this number?</string>
-    <string name="confirm_to_remove_blacklist">Unblock this number?</string>
+    <string name="menu_delete_call_log">Hapus catatan log panggilan</string>
+    <string name="menu_add_black_list">Masukan dalam daftar blokir</string>
+    <string name="menu_remove_black_list">Hapus dari daftar blokir</string>
+    <string name="menu_about_yellow_page">Mengenai halaman ini</string>
+    <string name="menu_correct_yellow_page">Perbaikan</string>
+    <string name="menu_refresh">Perbaharui</string>
+    <string name="confirm_to_add_blacklist">Blokir nomor ini?</string>
+    <string name="confirm_to_remove_blacklist">Buka blokir nomor ini?</string>
 
     <!-- Mark related -->
-    <string name="custom_mark_category">Custom</string>
-    <string name="mark_number_dialog_maintitle">Label number and upload</string>
-    <string name="mark_number_custom_dialog_maintitle">Confirm or correct label</string>
-    <string name="delete">Delete</string>
-    <string name="selected_category_format">Labeled by %2$d people as %1$s. Touch to confirm.</string>
-    <string name="mark_title_null_hint">You need to enter a label</string>
+    <string name="custom_mark_category">Kustom</string>
+    <string name="mark_number_dialog_maintitle">Label nomor dan unggah</string>
+    <string name="mark_number_custom_dialog_maintitle">Konfirmasi atau perbaiki label</string>
+    <string name="delete">Hapus</string>
+    <string name="selected_category_format">Dilabeli oleh %2$d orang seperti %1$s. Sentuh untuk konfirmasi.</string>
+    <string name="mark_title_null_hint">Anda harus mengisi nama label</string>
 
     <!-- Setting related -->
-    <string name="smart_antispam">Identify unknown numbers</string>
-    <string name="turn_on_smart_antispam_hint">Identify calls from unknown numbers using Xiaomi\'s label directory</string>
-    <string name="turn_on_smart_antispam_title">Identify unknown numbers</string>
-    <string name="turn_on_smart_antispam_summary_on">Upload and identify unknown numbers in call logs and text messages</string>
-    <string name="turn_on_smart_antispam_summary_off">Only search numbers saved on this device</string>
-    <string name="agree">Agree</string>
-    <string name="user_notice_identify_summary_format">Your phone will use MIUI\'s label directory to block unwanted calls when connected to Wi-Fi. By touching \"Agree\" you agree to Xiaomi\'s %1$s and %2$s.</string>
-    <string name="user_notice_yp_detail_summary_format">Some of your label directory info is outdated. Do you want to update it? By touching \"Agree\" you agree to Xiaomi\'s %1$s and %2$s.</string>
-    <string name="about_smart_antispam_summary">About this feature</string>
-    <string name="about_telephone_fraud">Watch out for telephone fraud</string>
-    <string name="notify_connect_every_time">Ask for networking permission every time</string>
-    <string name="do_not_remind_me">Don\'t remind me</string>
+    <string name="smart_antispam">Identifikasi nomor tak dikenal</string>
+    <string name="turn_on_smart_antispam_hint">Kenali panggilan dari nomor tak dikenal menggunakan direktori label Xiaomi</string>
+    <string name="turn_on_smart_antispam_title">Identifikasi nomor tak dikenal</string>
+    <string name="turn_on_smart_antispam_summary_on">Unggah dan identifikasi nomor tak dikenal dalam catatan log panggilan dan pesan teks</string>
+    <string name="turn_on_smart_antispam_summary_off">Hanya nomor hasil pencarian yang disimpan dalam perangkat</string>
+    <string name="agree">Setuju</string>
+    <string name="user_notice_identify_summary_format">Nomor anda akan menggunakan direktori label Xiaomi untuk memblokir panggilan yang tidak diinginkan ketika terhubung dengan Wi-Fi. Dengan menyentuh \"Setuju\" berarti anda setuju aturan %1$s dan %2$s dari Xiaomi.</string>
+    <string name="user_notice_yp_detail_summary_format">Beberapa direktori label sudah kadaluarsa. Apakah anda ingin memperbaharui. Dengan menyentuh \"Setuju\" berarti anda setuju aturan %1$s dan %2$s dari Xiaomi.</string>
+    <string name="about_smart_antispam_summary">Mengenai fitur inie</string>
+    <string name="about_telephone_fraud">Hati hati penipuan lewan telepon</string>
+    <string name="notify_connect_every_time">Selalu tanyakan perizinan jaringan</string>
+    <string name="do_not_remind_me">Tidak perlu diingatkan</string>
 
     <!-- Common web page related -->
-    <string name="title_about_yellow_page">About</string>
+    <string name="title_about_yellow_page">Tentang</string>
 
     <!-- Payment related -->
-    <string name="payment_back">Back</string>
-    <string name="payment_failed_common_problems">An error occurred during payment</string>
-    <string name="payment_unknown_status_title">Couldn\'t confirm payment status</string>
-    <string name="payment_unknown_status_summary">Check your network connection and try again.</string>
+    <string name="payment_back">Kembali</string>
+    <string name="payment_failed_common_problems">Terjadi gangguan saat melakukan pembayaran</string>
+    <string name="payment_unknown_status_title">Tidak dapat mengkonfirmasi status pembayaran</string>
+    <string name="payment_unknown_status_summary">Periksa koneksi anda silahkan coba lagi.</string>
 
     <!-- Recharge related -->
-    <string name="recharge_input_phone_title">Enter phone number (China Mobile, China Unicom, or China Telecom)</string>
-    <string name="recharge_select_money_title">Select top-up value</string>
-    <string name="recharge_charge_range">Price: RMB %1$s-%2$s</string>
-    <string name="recharge_charge_value">Price: RMB %s</string>
-    <string name="recharge_pay">Top up now</string>
-    <string name="recharge_pay_hint">Support provided by Xiaomi</string>
-    <string name="mishop_web_payment_title">MiStore checkout</string>
-    <string name="recharge_pay_hint_license">Top-up notice</string>
-    <string name="recharge_title">Top-up</string>
-    <string name="recharge_payment_result_ok_title">Added RMB %s</string>
-    <string name="recharge_payment_result_ok_summary">Confirm that this amount is reflected in your balance.</string>
-    <string name="recharge_payment_result_failed_title">Top-up failed</string>
-    <string name="recharge_payment_result_failed_summary">Please try again</string>
-    <string name="recharge_payment_result_progress_summary">Checking payment result\u2026</string>
-    <string name="recharge_phone_number_error">The phone number you entered is invalid</string>
-    <string name="recharge_phone_number_empty">The phone number you entered should not be empty</string>
-    <string name="recharge_user_confirm_title">Confirm</string>
-    <string name="recharge_user_confirm_summary">You will be charged RMB %2$s for %1$s.\n\nTotal amount: RMB %3$s</string>
-    <string name="recharge_order_id">Order ID:</string>
+    <string name="recharge_input_phone_title">Masukan nomor telepon (China Mobile, China Unicom, atau China Telecom)</string>
+    <string name="recharge_select_money_title">Masukan nilai pengisian</string>
+    <string name="recharge_charge_range">Harga: RMB %1$s-%2$s</string>
+    <string name="recharge_charge_value">Harga: RMB %s</string>
+    <string name="recharge_pay">Isi sekarang</string>
+    <string name="recharge_pay_hint">Dukungan disediakan oleh Xiaomi</string>
+    <string name="mishop_web_payment_title">Pembayaran MiStore</string>
+    <string name="recharge_pay_hint_license">Pemberitahuan pengisian</string>
+    <string name="recharge_title">Pengisian</string>
+    <string name="recharge_payment_result_ok_title">Ditambahkan RMB %s</string>
+    <string name="recharge_payment_result_ok_summary">Konfirmasi bilangan ini sesuai dengan saldo anda.</string>
+    <string name="recharge_payment_result_failed_title">Pengisian gagal</string>
+    <string name="recharge_payment_result_failed_summary">Mohon coba lagi</string>
+    <string name="recharge_payment_result_progress_summary">Memeriksa hasil pembayaran\u2026</string>
+    <string name="recharge_phone_number_error">Nomor telepon yang anda isi tidak valid</string>
+    <string name="recharge_phone_number_empty">Nomor telepon yang anda isi tidak boleh kosong</string>
+    <string name="recharge_user_confirm_title">Konfirmasi</string>
+    <string name="recharge_user_confirm_summary">Anda akan ditagih sebesar RMB %2$s untuk %1$s.\n\nJumlah total: RMB %3$s</string>
+    <string name="recharge_order_id">ID Pesanan:</string>
     <string name="recharge_status_description">Status:</string>
-    <string name="recharge_actual_price">Price:</string>
+    <string name="recharge_actual_price">Harga:</string>
     <string name="recharge_order_original_price">RMB %s</string>
     <string name="recharge_order_actual_price">\u00A5%s</string>
-    <string name="recharge_order_pay">Checkout</string>
-    <string name="recharge_history">Top-up history</string>
-    <string name="recharge_history_empty">No history</string>
-    <string name="recharge_my_phone_number">My number</string>
-    <string name="recharge_unknown_number">Unknown</string>
+    <string name="recharge_order_pay">Keluar ke pembayaran</string>
+    <string name="recharge_history">Sejarah pengisian</string>
+    <string name="recharge_history_empty">Tidak ada sejarah</string>
+    <string name="recharge_my_phone_number">Nomor saya</string>
+    <string name="recharge_unknown_number">Tidak dikenali</string>
 
     <!-- 运营商流量套餐相关 -->
-    <string name="packages_pay">Buy</string>
-    <string name="packages_pay_confirm">Confirm</string>
-    <string name="packages_title">Mobile data packages</string>
-    <string name="select_package_before_buy">Select package</string>
-    <string name="packages_select_to_buy_title">Select package</string>
-    <string name="packages_pay_hint">Send text message (free)</string>
-    <string name="packages_pay_success">Message sent</string>
-    <string name="packages_wait_for_op_reply">Wait for a confirmation message from your network provider</string>
-    <string name="packages_select_sim_cards_title">Select SIM card</string>
-    <string name="packages_select_sim_cards_summmary">Browse recommended data packages</string>
-    <string name="packages_no_package">No recommended packages</string>
+    <string name="packages_pay">Beli</string>
+    <string name="packages_pay_confirm">Konfirmasi</string>
+    <string name="packages_title">Paket data selular</string>
+    <string name="select_package_before_buy">Pilih paket</string>
+    <string name="packages_select_to_buy_title">Pilih paket</string>
+    <string name="packages_pay_hint">Kirim pesan teks (gratis)</string>
+    <string name="packages_pay_success">Pesan terkirim</string>
+    <string name="packages_wait_for_op_reply">Tunggu pesan konfirmasi dari penyedia jasa jaringan</string>
+    <string name="packages_select_sim_cards_title">Pilih kartu SIM</string>
+    <string name="packages_select_sim_cards_summmary">Jelajahi paket data yang disarankan</string>
+    <string name="packages_no_package">Tidak ada paket yang disarankan</string>
 
     <!-- Multi modules related -->
-    <string name="login_ok">Sign in</string>
-    <string name="login_before_use">You need to sign in first</string>
+    <string name="login_ok">Masuk</string>
+    <string name="login_before_use">Anda harus masuk terlebih dahulu</string>
 
     <!--  Express inquiry related -->
-    <string name="express_inquiry">Tracking</string>
-    <string name="express_inquiry_serial_number_indication">Tracking number</string>
-    <string name="express_inquiry_logistics_indication">Delivery company</string>
-    <string name="express_inquiry_button_text">Track</string>
-    <string name="express_inquiry_serial_number_prefix">Number: \u0020</string>
-    <string name="express_inquiry_no_result">No results</string>
-    <string name="express_inquiry_internal_failure">An error occurred.\nPlease your check tracking number.</string>
-    <string name="express_inquiry_data_owner_prefix">Tracking info provided by </string>
+    <string name="express_inquiry">Pelacakan</string>
+    <string name="express_inquiry_serial_number_indication">Nomor pelacakanr</string>
+    <string name="express_inquiry_logistics_indication">Perusahaan pengiriman</string>
+    <string name="express_inquiry_button_text">Lacak</string>
+    <string name="express_inquiry_serial_number_prefix">Nomor: \u0020</string>
+    <string name="express_inquiry_no_result">Tidak ada hasil</string>
+    <string name="express_inquiry_internal_failure">Terjadi galat.\nPeriksa lagi nomer pelacakannya.</string>
+    <string name="express_inquiry_data_owner_prefix">Informasi pelacakan disediakan oleh</string>
     <string name="express_inquiry_data_owner_suffix"></string>
-    <string name="scan">Scan</string>
-    <string name="express_inqiury_select_logistics">Delivery company</string>
-    <string name="expresss_inquiry_frequently_used_logistics">Common</string>
-    <string name="expresss_inquiry_all_logistics">All</string>
-    <string name="express_inquiry_history">History</string>
-    <string name="express_inquiry_delivered">Delivered</string>
-    <string name="express_inquiry_no_history">No history</string>
-    <string name="express_inquiry_delete_warning_single">Delete this entry?</string>
-    <string name="express_inquiry_delete_warning_multiple">Delete %d selected history entries?</string>
+    <string name="scan">Pindai</string>
+    <string name="express_inqiury_select_logistics">Perusahaan pengiriman</string>
+    <string name="expresss_inquiry_frequently_used_logistics">Umum</string>
+    <string name="expresss_inquiry_all_logistics">Semua</string>
+    <string name="express_inquiry_history">Sejarah</string>
+    <string name="express_inquiry_delivered">Terkirim</string>
+    <string name="express_inquiry_no_history">Tidak ada sejarah</string>
+    <string name="express_inquiry_delete_warning_single">Hapus entri ini?</string>
+    <string name="express_inquiry_delete_warning_multiple">Hapus %d entri sejarah yang dipilih?</string>
 
     <!-- Scams numbers related -->
-    <string name="remind_user_suspect_number_title">Suspicious number</string>
-    <string name="remind_user_suspect_number_message">Be careful: You should always verify the identity of the contact first by phone or video before responding to any messages involving your personal information.</string>
-    <string name="remind_another_time">Don\'t remind me</string>
+    <string name="remind_user_suspect_number_title">Nomor mencurigakan</string>
+    <string name="remind_user_suspect_number_message">Peringatan: Anda harus mengetahui identitas dari kontak terlebih dahulu melalui telepon atau video sebelum merespon sebuah pesan melibatkan informasi personal.</string>
+    <string name="remind_another_time">Tidak perlu diingatkan</string>
     <string name="remind_user_confirm">OK</string>
 
     <!-- Balance inquiry related -->
-    <string name="balance_inquiry_title">Balance inquiry</string>
+    <string name="balance_inquiry_title">Permintaan saldo</string>
     <string name="balance_inquiry_default_sp_name">Operator</string>
-    <string name="balance_inquiry_send_sms_hint">A text message will be sent to your service provider to check your balance (free of charge)</string>
-    <string name="balance_inquiry_send_sms_summmary">Check your balance</string>
-    <string name="balance_inquiry_send_sms_fail_hint">Failed to send SMS. Check your SIM card\'s status.</string>
+    <string name="balance_inquiry_send_sms_hint">Sebuah pesan akan dikirim ke penyedia jasa jaringan untuk memeriksa saldo (gratis)</string>
+    <string name="balance_inquiry_send_sms_summmary">Periksa saldo</string>
+    <string name="balance_inquiry_send_sms_fail_hint">Gagal mengirim SMS. Periksa status kartu SIM.</string>
 
     <!-- 导航相关 -->
-    <string name="navigation_search_automatically_positioned_city">Current city</string>
-    <string name="navigation_search_positioning">Locating\u2026</string>
-    <string name="navigation_search_positioning_failed">Select a city</string>
-    <string name="navigation_search_no_city_list">Didn\'t find anything</string>
-    <string name="navigation_search_hot_cities">Popular</string>
-    <string name="navigation_search_all_cities">All cities</string>
+    <string name="navigation_search_automatically_positioned_city">Kota saat ini</string>
+    <string name="navigation_search_positioning">Memeriksa lokasi\u2026</string>
+    <string name="navigation_search_positioning_failed">Pilih kota</string>
+    <string name="navigation_search_no_city_list">Tidak menemukan apa apa</string>
+    <string name="navigation_search_hot_cities">Populer</string>
+    <string name="navigation_search_all_cities">Semua kota</string>
 
     <!-- Order related -->
-    <string name="order_empty_hint">No orders</string>
-    <string name="order_merchant_title">My orders</string>
+    <string name="order_empty_hint">Tidak ada pesanan</string>
+    <string name="order_merchant_title">Pesanan saya</string>
     <string name="order_merchant_title_format">%1$s-%2$s</string>
-    <string name="order_id">Order ID:%s</string>
+    <string name="order_id">ID pesanan:%s</string>
     <string name="order_status">%s</string>
     <string name="order_price">%s</string>
 
     <!-- Frequently used yellowpage related -->
-    <string name="general_yellow_page_title">General</string>
-    <string name="general_recent_title">Recent</string>
-    <string name="general_favorite_title">Favorites</string>
-    <string name="general_no_yellow_page">List is empty</string>
-    <string name="general_menu_favorite">Favorites</string>
-    <string name="general_menu_unfavorite">Remove from favorites</string>
-    <string name="general_menu_delete_recent">Delete recent</string>
-    <string name="general_cancel_favorite_ok">Favorite removed</string>
-    <string name="general_delete_recent_ok">Recent deleted</string>
+    <string name="general_yellow_page_title">Umum</string>
+    <string name="general_recent_title">Terakhir akses</string>
+    <string name="general_favorite_title">Favorit</string>
+    <string name="general_no_yellow_page">Daftar kosong</string>
+    <string name="general_menu_favorite">Favorit</string>
+    <string name="general_menu_unfavorite">Hapus dari Favorit</string>
+    <string name="general_menu_delete_recent">Hapus yang diakses sebelumnya</string>
+    <string name="general_cancel_favorite_ok">Favorit dihapus</string>
+    <string name="general_delete_recent_ok">Yang diakses sebelumnya dihapus</string>
 
     <!-- Nearby yellowpage related -->
-    <string name="nearby_yellow_page_title">Nearby</string>
-    <string name="nearby_no_yellow_page">No result nearby</string>
+    <string name="nearby_yellow_page_title">Terdekat</string>
+    <string name="nearby_no_yellow_page">Tidak ada hasil terdekat</string>
     <string name="nearby_yellow_page_title_format">%1$s-%2$s</string>
 </resources>
