@@ -83,7 +83,7 @@
     <string name="st_mute_all">Silenciar chamadas e mensagens</string>
     <string name="st_block_mute">Bloquear chamadas e silenciar mensagens</string>
     <string name="st_mute_block">Silenciar chamadas e bloquear mensagens</string>
-    <string name="st_call_group">Chamadass</string>
+    <string name="st_call_group">Chamadas</string>
     <string name="st_sms_group">Mensagens</string>
     <string name="st_block_title">Desviar para registro de bloqueio</string>
     <string name="st_mute_title">Não tocar ou vibrar</string>

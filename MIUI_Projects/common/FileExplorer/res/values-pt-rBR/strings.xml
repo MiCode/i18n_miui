@@ -140,7 +140,7 @@
     </plurals>
 
     <string name="ui_main_menu_option_task_manage">Gerenciar downloads</string>
-    <string name="kuaipan_label">KuaiPan</string>
+    <string name="kuaipan_label">Kuaipan</string>
     <string name="create_kuaipan_shortcut_pref">Mostrar na Tela inicial</string>
     <string name="login_reg_content0">Use o KuaiPan de quaqlquer lugar.</string>
     <string name="login_reg_content">Armazene arquivos e sincronize-os entre múltiplos dispositivos.\nEste recurso requer uma conexão com a internet.</string>

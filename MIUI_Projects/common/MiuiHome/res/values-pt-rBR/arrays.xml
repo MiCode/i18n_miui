@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="widget_sizes" translatable="false">
+        <item>home_edit_box_area_1_1</item>
+        <item>home_edit_box_area_1_2</item>
+        <item>home_edit_box_area_1_3</item>
+        <item>home_edit_box_area_1_4</item>
+        <item>home_edit_box_area_2_1</item>
+        <item>home_edit_box_area_2_2</item>
+        <item>home_edit_box_area_2_3</item>
+        <item>home_edit_box_area_2_4</item>
+        <item>home_edit_box_area_3_1</item>
+        <item>home_edit_box_area_3_2</item>
+        <item>home_edit_box_area_3_3</item>
+        <item>home_edit_box_area_3_4</item>
+        <item>home_edit_box_area_4_1</item>
+        <item>home_edit_box_area_4_2</item>
+        <item>home_edit_box_area_4_3</item>
+        <item>home_edit_box_area_4_4</item>
+    </string-array>
+    <array name="item_shake_animation_scaler">
+        <item>0dp</item>
+        <item>-4dp</item>
+        <item>2dp</item>
+        <item>-1dp</item>
+        <item>0dp</item>
+    </array>
+    <array name="app_locating_animation_scaler">
+        <item>1.0</item>
+        <item>1.4</item>
+        <item>0.9</item>
+        <item>1.1</item>
+        <item>1.0</item>
+    </array>
+    <string-array name="transformation_entries">
+        <item>Clássico (ultrapassar)</item>
+        <item>Clássico</item>
+        <item>Suavizar</item>
+        <item>Girar</item>
+        <item>Página</item>
+        <item>Cascata</item>
+        <item>Rotação</item>
+        <item>Cubo 3D</item>
+    </string-array>
+    <string-array name="transformation_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>5</item>
+        <item>7</item>
+        <item>8</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="wallpaper_scroll_entries">
+        <item>Padrão do tema</item>
+        <item>Centralizado</item>
+        <item>Esquerda</item>
+        <item>Direita</item>
+    </string-array>
+    <string-array name="wallpaper_scroll_values">
+        <item>byTheme</item>
+        <item>center</item>
+        <item>left</item>
+        <item>right</item>
+    </string-array>
+    <string-array name="cell_layout_size_entries">
+        <item>4x4</item>
+        <item>4x5</item>
+    </string-array>
+        <string-array name="cell_layout_size_values">
+        <item>4x4</item>
+        <item>4x5</item>
+    </string-array>
+
+    <string-array name="gadget_weather_theme_type_entries">
+        <item>Padrão</item>
+        <item>Clássico</item>
+    </string-array>
+
+    <array name="gadget_weather_image">
+        <item>Claro</item>0  晴
+        <item>Nublado</item>1  多云
+        <item>Nublado</item>2  阴
+        <item>Névoa</item>3  雾
+        <item>Tempestades</item>4  特大暴雨
+        <item>Tempestades</item>5  大暴雨
+        <item>Chuva forte</item>6  暴雨
+        <item>Trovoadas</item>7  雷阵雨
+        <item>Chuva</item>8  阵雨
+        <item>Chuva forte</item>9  大雨
+        <item>Chuvarada</item>0  中雨
+        <item>Garoa</item>1  小雨
+        <item>Chuva com neve</item>2  雨夹雪
+        <item>Tempestade de neve</item>3   暴雨
+        <item>Flocos de neve</item>4  阵雪
+        <item>Nevasca</item>5  大雪
+        <item>Queda de neve</item>6  中雪
+        <item>Flocos de neve</item>7  小雪
+        <item>Tempestade de areia</item>8  强沙尘暴
+        <item>Tempestade de areia</item>9  沙尘暴
+        <item>Tempestade de areia</item>0  沙尘
+        <item>Tempestade de areia</item>1  扬沙
+        <item>Granizo</item>2  冰雹
+        <item>Empoeirado</item>3  浮尘
+        <item>Neblina</item>4  霾
+    </array>
+    <string-array name="editing_mode_entries">
+        <item>Mover apps</item>
+        <item>Widgets</item>
+        <item>Planos de fundo</item>
+        <item>Transições</item>
+    </string-array>
+    <string-array name="editing_mode_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+</resources>
