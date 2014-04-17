@@ -2,16 +2,16 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Reboot Confirmation Dialog.  When the user chooses to reboot the phone, there will be a confirmation dialog.  This is the message. -->
-    <string name="reboot_confirm">फोन पुनः आरंभ हो जाएगा</string>
+    <string name="reboot_confirm">फोन रीस्टार्ट हो जाएगा</string>
     <!-- Reboot Progress Dialog. This is shown if the user chooses to reboot the phone. -->
-    <string name="reboot_progress">पुनः प्रारंभ हो रहा है\u2026</string>
+    <string name="reboot_progress">रीस्टार्ट हो रहा है\u2026</string>
 
     <!-- Privacy mode -->
     <string name="global_action_toggle_privacy_mode">गेस्ट मोड</string>
     <string name="global_action_privacy_mode_dialog_message">कॉल, नोट, चित्र, संदेश, और लांचर सेटिंग्स उपयोगकर्ता से छिपा हुआ होगा.</string>
 
     <!-- Displayed on lock screen to hint user to drag lock button down to bottom for unlock-->
-    <string name="lockscreen_unlock_sim_via_puk">सिम कार्ड अनलॉक करने के लिए PUK कोड दर्ज</string>
+    <string name="lockscreen_unlock_sim_via_puk">सिम कार्ड अनलॉक करने के लिए PUK कोड दर्ज करे</string>
     <string name="toast_lockscreen_glogin_empty_password">पासवर्ड की आवश्यकता है.</string>
 
     <!-- Displayed miui license-->
@@ -29,9 +29,9 @@
 
     <!-- Text for message to user while SD card is not available and the current feature depends on SD card. -->
     <string name="sd_not_available">कोई SD कार्ड नहीं</string>
-    <string name="sd_not_available_use_internal_storage">एसडी कार्ड अनुपलब्ध. इंटरनल स्टोरेज मैं सेव हुआ.</string>
-    <string name="sd_not_available_low_internal_storage">एसडी कार्ड अनुपलब्ध.  इंटरनल स्टोरेज मैं सेव हुआ.</string>
-    <string name="sd_not_available_saved_to_internal_storage"> इंटरनल स्टोरेज मैं सेव हुआ</string>
+    <string name="sd_not_available_use_internal_storage">SD कार्ड अनुपलब्ध. इंटरनल स्टोरेज मैं सहेजा.</string>
+    <string name="sd_not_available_low_internal_storage">SD कार्ड अनुपलब्ध.  इंटरनल स्टोरेज मैं सहेजा.</string>
+    <string name="sd_not_available_saved_to_internal_storage"> इंटरनल स्टोरेज मैं सहेजा</string>
 
     <!-- When the user long presses the BACK key, the foreground app will be killed. This is the message to be showed to user.  -->
     <string name="first_back_long_press_message">ज्यादा समय तक बैक बटन दबाएँ रखने से मौजूदा प्रक्रिया ओर बॅकग्राउंड सेवाओं बंद कर दी जाएँगी. \n\nइसे सक्षम करने के लिए सेटिंग्स में जाओ &gt; सिस्टम &gt; बटन</string>
@@ -39,7 +39,7 @@
 
     <string name="unknown">अज्ञात नंबर</string>
     <string name="private_num">निजी नंबर</string>
-    <string name="payphone">दूरभाश</string>
+    <string name="payphone">पेफोन</string>
     <!-- A nicely formatted call ring duration displayed when viewing no-answer-call details. For example "响铃次数: 1 次" -->
     <string name="callNoAnswerTimeFormat">रिंग %s बार</string>
 
@@ -541,7 +541,7 @@
 
     <!-- GET_USER_INFO permission -->
     <string name="perm_use_find_device">डिवाइस ढूँढें</string>
-    <string name="perm_auto_backup">स्वतः बैकअप</string>
+    <string name="perm_auto_backup">ऑटो बैकअप</string>
 
     <!-- PAYMENT permission -->
     <string name="perm_payment_lab">Xiaomi भुगतान सेवा</string>
@@ -549,7 +549,7 @@
 
     <!-- SEND_PUSH permission -->
     <string name="perm_send_push_lab">पुश संदेश भेजें</string>
-    <string name="perm_send_push_dspt">Xiaomi पुश संदेश भेजने की अनुमति</string>
+    <string name="perm_send_push_dspt">Xiaomi पुश संदेश भेजने की अनुमति दें</string>
 
     <!-- DATA_UPDATE permission -->
     <string name="perm_data_update_lab">डेटा अपडेट</string>
