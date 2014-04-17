@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Anotações</string>
+    <string name="app_widget">Anotações</string>
+    <string name="widget_havenot_content">Nenhuma anotação associada encontrada, clique para criar a anotação associada. Toque segure em uma anotação para redimensioná-la.</string>
+    <string name="widget_under_visit_mode">Impossível ver anotações no modo de Privacidade.</string>
+    <string name="notelist_string_info">...</string>
+    <string name="notelist_menu_new">Adicionar anotação</string>
+    <string name="note_alert_expired">Expirado</string>
+    <string name="notealert_ok">Entendi</string>
+    <string name="notealert_enter">Dê uma olhada</string>
+    <!-- Text export file information -->
+    <string name="note_link_tel">Discar</string>
+    <string name="note_link_email">Enviar email</string>
+    <string name="note_link_web">Navegar na web</string>
+    <string name="note_link_other">Abrir mapa</string>
+    <string name="note_link_select">Selecionar texto</string>
+    <!-- notes list string -->
+    <string name="format_folder_files_count">(%d)</string>
+    <string name="menu_create_folder">Nova pasta</string>
+    <string name="menu_setting">Configurações</string>
+    <string name="menu_delete">Excluir</string>
+    <string name="menu_move">Mover</string>
+    <string name="menu_stick">Fixar</string>
+    <string name="menu_unstick">Desafixar</string>
+    <string name="menu_folder_change_name">Renomear pasta</string>
+    <string name="folder_exist">Uma pasta com o mesmo nome já existe</string>
+    <string name="menu_send_to_desktop">Enviar para a tela inicial</string>
+    <string name="menu_title_select_folder">Selecionar pasta</string>
+    <string name="menu_move_parent_folder">Pasta anterior</string>
+    <string name="menu_rename_folder">Renomear</string>
+    <string name="info_note_enter_desktop">Adicionada à tela inicial</string>
+    <string name="alert_message_delete_notes">Excluir <xliff:g id="count">%1$s</xliff:g> anotações?</string>
+    <string name="alert_message_delete_folders">Excluir <xliff:g id="count">%1$s</xliff:g> pastas?</string>
+    <string name="alert_message_delete_folders_notes">Excluir <xliff:g id="folderCount">%1$s</xliff:g> pastas e <xliff:g id="noteCount">%2$s</xliff:g> anotações?</string>
+    <string name="alert_message_delete_note">Excluir esta anotação?</string>
+    <string name="format_move_notes_to_folder">%1$d anotações movidas para %2$s</string>
+    <string name="alert_title_edit_anyway">Esta anotação possui conteúdo não suportado</string>
+    <string name="alert_message_edit_anyway">Se você editá-la seu conteúdo poderá ser perdido.</string>
+    <string name="alert_action_edit_anyway">Continuar editando</string>
+    <!-- Error information -->
+    <string name="error_note_not_exist">A anotação não existe</string>
+    <string name="error_note_empty_for_clock">Impossível definir lembrete para uma anotação vazia</string>
+    <string name="error_note_empty_for_send_to_desktop">Impossível enviar uma anotação vazia para a Tela inicial</string>
+    <string name="error_widget_exist_for_send_to_desktop">Esta anotação já existe em sua Tela inicial</string>
+    <string name="error_unsupport_content">Esta anotação contém dados não suportados. Por favor, clique aqui para atualizar o aplicativo requerido</string>
+    <string name="error_contact_not_exist">O contato não existe</string>
+    <!-- Sync -->
+    <!-- Preferences -->
+    <string name="preferences_title">Configurações</string>
+    <string name="preferences_bg_random_appear_title">Fundo aleatório</string>
+    <string name="pref_title_font_size">Tamanho da fonte</string>
+
+    <string name="call_record_folder_name">Anotações de chamada</string>
+    <string name="hint_foler_name">Nome</string>
+
+    <string name="search_label">Pesquisando anotações</string>
+    <string name="search_hint">Pesquisar anotações</string>
+    <string name="search_setting_description">Texto em suas anotações</string>
+    <string name="search">Anotações</string>
+    <plurals name="search_results_title">
+         <item quantity="one"><xliff:g id="number" example="1">%1$s</xliff:g> resultado para \"<xliff:g id="search" example="???">%2$s</xliff:g>\"</item>
+        <!-- Case of 0 or 2 or more results. -->
+        <item quantity="other"><xliff:g id="number" example="15">%1$s</xliff:g> resultados para \"<xliff:g id="search" example="???">%2$s</xliff:g>\"</item>
+    </plurals>
+
+    <string name="button_new_note">Nova anotação</string>
+    <string name="default_folder_name">Pasta sem nome</string>
+
+    <string name="attachment_gallery">Galeria</string>
+    <string name="attachment_camera">Câmera</string>
+    <string name="attachment_contact">Contatos</string>
+
+    <string name="alert_edit_action_update">Modificar</string>
+    <string name="alert_edit_action_delete">Excluir</string>
+
+    <string name="notify_alarm_title">Lembrete</string>
+
+    <string name="toast_message_add_image_fail">Falha ao inserir imagem</string>
+    <string name="toast_note_privacy_mode">Impossível editar a anotação no modo de Privacidade</string>
+    <string name="toast_folder_privacy_mode">Impossível editar a pasta no modo de Privacidade</string>
+    <string name="toast_reach_text_limit_truncate">Conteúdo da anotação truncado automaticamente por ser muito longo.</string>
+    <string name="toast_reach_text_limit_attachment">Conteúdo da anotação muito longo para ser incluído anexos.</string>
+
+    <string name="snippet_image_stub">[Imagem]</string>
+    <string name="snippet_image_template">[Imagem <xliff:g id="imageName" example="1.jpeg">%1$s</xliff:g>]</string>
+
+    <string name="select_account_prompt">Ativar sincronização de anotações</string>
+    <string name="enable_sync_desc">As anotações podem ser sincronizadas com sua Mi Account (<xliff:g id="accountName" example="100000">%1$s</xliff:g>), sincronizar agora?</string>
+    <string name="add_account_desc">Sincronizar anotações com sua Mi Account?</string>
+    <string name="not_now">Agora não</string>
+    <string name="enable_sync">Sincronizar</string>
+    <string name="login_sync">Login &amp; sincronizar</string>
+
+    <string name="pref_title_note_style">Estilo de exibição</string>
+    <string name="pref_desc_mode_list">Lista</string>
+    <string name="pref_desc_mode_grid">Grade</string>
+    <string name="pref_title_common">Outras configurações</string>
+    <string name="pref_title_alarm_when_silent">Alarme em modo silencioso</string>
+    <string name="pref_desc_alarm_when_silent">Os alarmes do dispositivo tocarão no modo silencioso</string>
+
+    <string name="dlg_title_confirm_alarm_silent">Silenciar alarmes</string>
+    <string name="dlg_desc_confirm_alarm_silent">Os alarmes do dispositivo não tocarão no modo silencioso.</string>
+
+    <string name="close">Fechar</string>
+    <string name="undo">Desfazer</string>
+    <string name="redo">Refazer</string>
+
+</resources>
