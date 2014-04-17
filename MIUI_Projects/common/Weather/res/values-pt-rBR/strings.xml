@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Clima</string>
+
+    <string name="weather_notification">Notificação de Clima</string>
+    <string name="location_notification">Notificações de clima</string>
+    <string name="enable_notification">Ativar notificação de local</string>
+    <string name="enable_notification_summary">Notificar-me se a previsão do tempo alterar</string>
+    <string name="enable_notification_city">Ao ativar a notificação de clima %s, o sistema irá exibir uma notificação sempre que uma súbida mudança no clima ocorrer.</string>
+
+    <string name="sms_notification">Compartilhar via SMS</string>
+    <string name="send_sms_notification">Encaminhar notificações de clima</string>
+    <string name="send_sms_notification_summary">"Enviar dados do clima de hoje para seus contatos via mensagem de texto"</string>
+
+
+    <string name="location_management">Locais</string>
+    <string name="enable_gps">GPS</string>
+    <string name="add_city">Novo local</string>
+    <string name="cancel">Cancelar</string>
+    <string name="menu_send_sms">Enviar</string>
+
+
+    <string name="app_love_sms_title">Conteúdo da mensagem</string>
+    <string name="app_love_view_title">Pré-visualização</string>
+    <string name="app_love_font_lng">%s</string>
+
+    <string name="network_unavailable">Impossível conectar-se à rede</string>
+    <string name="weather_data_unreachable">Impossível obter informações de clima. Aguarde de 1 a 2 minutos e tente novamente.</string>
+    <string name="app_unquiet_net">Conexão com a rede ruim</string>
+
+    <string name="widget_loading">Nenhum dado de clima</string>
+
+    <string name="act_find_city_hot_title">Cidades populares</string>
+    <string name="act_find_city_title">Novo local</string>
+    <string name="act_find_city_null_data">Nenhum resultado.</string>
+    <string name="act_find_city_hint">Pesquisar</string>
+
+    <string name="act_set_city_find_side_on">Abrir local</string>
+    <string name="act_set_city_find_side">Localizando cidade\u2026</string>
+    <string name="local_city">Cidades locais</string>
+    <string name="act_set_city_re_find_side">Localizando\u2026</string>
+    <string name="act_set_city_find_side_error">Falha ao localizar.</string>
+    <string name="act_city_find_gps_error">Selecione uma cidade manualmente na lista do menu.</string>
+    <string name="act_weather_main_data_null">Nenhum dado, toque para atualizar</string>
+
+    <string name="act_weather_cycle_update">Atualizando\u2026</string>
+    <string name="act_weather_update_time">%s atualizado</string>
+
+    <string name="act_weather_cycle_low_temp">baixo</string>
+
+    <string name="act_weather_range_title">Previsão do tempo</string>
+    <string name="act_weather_range_select">Selecione uma cidade</string>
+
+    <string name="menu_around">Ao redor</string>
+    <string name="menu_location">Locais</string>
+    <string name="menu_notification">Notificações</string>
+    <string name="menu_reload">Atualizar</string>
+    <string name="menu_reloading">Atualizando\u2026</string>
+    <string name="menu_share">Compartilhar</string>
+    <string name="menu_main">Índice</string>
+    <string name="menu_trend">Propensão</string>
+    <string name="menu_settings">Configurações</string>
+    <string name="menu_about">Sobre</string>
+
+    <string name="share_weather_title">Compartilhar dados de clima</string>
+    <string name="share_button_text">Compartilhar</string>
+    <string name="share_choice_titile">Compartilhar informações de clima</string>
+
+    <string name="share_content">MIUI Clima</string>
+    <string name="share_weather_content">Hoje em %1$s, o clima é %2$s, %3$s graus, %4$s. %5$s."</string>
+    <string name="share_aqi_content">Hoje em %1$s, a qualidade do ar é %2$s (%3$s). %4$s %5$s.</string>
+    <string name="save_screen_shot_failed">Falha ao salvar captura de tela</string>
+
+    <string name="trend_weather_today">Hoje</string>
+    <string name="trend_weather_tomorrow">Amanhã</string>
+
+    <string name="settings_weather_title">Configurações</string>
+    <string name="settings_weather_animation">Animações de clima</string>
+    <string name="settings_weather_play_ani_title">Executar animação</string>
+    <string name="settings_weather_play_ani_summary">Executar animação na interface principal</string>
+    <string name="settings_weather_about">Sobre</string>
+    <string name="settings_weather_pre_title">Clima</string>
+    <string name="settings_weather_preview">Visualizar animação de clima</string>
+
+    <string name="menu_delete">Excluir</string>
+    <string name="selected_format">%d selecionado(s)</string>
+    <string name="alert_title_delete">Excluir</string>
+    <string name="alert_message_delete">%d locais serão excluídos.</string>
+
+    <string name="send_weather_sms_cycle"Pprevisão do tempo de %1$s： %2$s</string>
+    <string name="send_weather_sms_main">%1$s %2$s,%3$s %4$s %5$s</string>
+    <string name="send_weather_sms_error">Nenhum dado</string>
+
+    <string name="tip_weather">Notificação do MIUI Clima</string>
+    <string name="tip_weather_info_title_1">A diferença de temperatura esperada em %1$s é de %2$d graus</string>
+    <string name="tip_weather_info_content_1">Leve agasalhos!</string>
+    <string name="tip_weather_info_title_2">A temperatura de hoje em %1$s é estimada em %2$s</string>
+
+    <string name="alert_provider_title">Notificação de local</string>
+    <string name="alert_provider_message">Você precisa ativar o serviço de localização para utilizar este recurso.</string>
+    <string name="button_allow">Permitir</string>
+    <string name="button_not_allow">Negar</string>
+    <string name="location_allow_err">Falha ao localizar.</string>
+
+    <string name="format_date_wmd">d/M EEE</string>
+    <string name="format_date_md">d/M kk:mm</string>
+    <string name="format_date_week">EEE</string>
+    <string name="format_date_trend_md">d/M</string>
+
+    <string name="act_weather_aqi_title">Qualidade do ar</string>
+    <string name="act_weather_main_aqi_index">Qualidade do ar: %s</string>
+
+    <string name="act_weather_aqi_share">Compartilhar</string>
+    <string name="aqi_quality_index_pure">excelente</string>
+    <string name="aqi_quality_index_good">boa</string>
+    <string name="aqi_quality_index_moderate">moderada</string>
+    <string name="aqi_quality_index_light_pollution">poluição leve</string>
+    <string name="aqi_quality_index_unhealthy">insalubre</string>
+    <string name="aqi_quality_index_dangerous">perigosa</string>
+    <string name="aqi_quality_index_hazardous">arriscada</string>
+
+    <string name="aqi_details_good">O clima está favorável para atividades ao ar livre.</string>
+    <string name="aqi_details_fine">Pessoas excessivamente sensíveis devem considerar reduzir exercícios pesados ou exercícios longos.</string>
+    <string name="aqi_details_light_pollution">Pessoas com doenças cardíacas ou respiratórias, idosos e crianças devem reduzir exercícios longos ou pesados.</string>
+    <string name="aqi_details_unhealthy">Pessoas com doenças cardíacas ou respiratórias, idosos e crianças devem evitar exercícios longos ou pesados ao ar livre. O restante deve evitar exercícios prolongados.</string>
+    <string name="aqi_details_dangerous">Pessoas com doenças cardíacas ou respiratórias, idosos e crianças devem evitar toda atividade física ao ar livre. O restante deve evitar exposição prolongada ou exercícios muito pesados.</string>
+    <string name="aqi_details_hazardous">Evite qualquer atividade física ao ar livre; pessoas com doenças cardíacas ou respiratórias, idosos e crianças devem permanecer em casa e reduzir atividades físicas para o mínimo possível.</string>
+
+    <string name="act_aqi_pm25_title">PM2.5</string>
+    <string name="act_aqi_pm10_title">PM10</string>
+    <string name="act_aqi_so2_title">SO2</string>
+    <string name="act_aqi_no2_title">NO2</string>
+
+    <string name="first_start_network_toast_text">Acesse a internet para receber as informações de clima.</string>
+    <string name="act_weather_find_city_search_online">Pesquisar cidade online</string>
+    <string name="act_weather_find_city_connect_net">Verifique sua conexão de rede e tente novamente.</string>
+    <string name="weather_unit">°</string>
+    <string name="weather_unit_middle">~</string>
+    <string name="weather_unit_with_c">°C</string>
+<string name ="act_weather_find_city_searching">Pesquisando\u2026</string>
+<string name ="act_init_dialog_finish">Informações de clima globais adicionadas.</string>
+<string name ="loading_weather">Carregando\u2026</string>
+<string name ="act_weather_cycle_link_china">WeatherChina</string>
+<string name ="menu_add">Adicionar alocal</string>
+<string name ="menu_more">Detalhes</string>
+    <string name = "act_aqi_src_port">%1$s%2$s\u0020\u0020%3$s</string>
+    <array name="send_item">
+        <item>Mensagem de texto</item>
+        <item>E-mail</item>
+    </array>
+
+    <array name="act_weather_main_listview_json_key">
+        <item>wind1</item>
+        <item>紫外线指数</item>
+        <item>穿衣指数</item>
+        <item>舒适度指数</item>
+        <item>洗车指数</item>
+        <item>晾晒指数</item>
+        <item>晨练指数</item>
+        <item>旅游指数</item>
+    </array>
+
+    <array name="act_weather_main_listview_key">
+        <item>Ventos:</item>
+        <item>Índice UV:</item>
+        <item>Roupas:</item>
+        <item>Sensação:</item>
+        <item>Ar livre:</item>
+        <item>Afazeres:</item>
+        <item>Ativ. matinais:</item>
+        <item>Lazer:</item>
+    </array>
+
+    <array name="weather_image">
+        <item>Céu aberto</item>0  晴
+        <item>Nublado</item>1  多云
+        <item>Nublado</item>2  阴
+        <item>Enevoado</item>3  雾
+        <item>Tempestade</item>4  特大暴雨
+        <item>Tempestade</item>5  大暴雨
+        <item>Chuva</item>6  暴雨
+        <item>Trovoada</item>7  雷阵雨
+        <item>Chuviscos</item>8  阵雨
+        <item>Chuva</item>9  大雨
+        <item>Chuva</item>0  中雨
+        <item>Garoa</item>1  小雨
+        <item>Chuva com neve</item>2  雨夹雪
+        <item>Nevasca</item>3   暴雨
+        <item>Neve</item>4  阵雪
+        <item>Nevasca</item>5  大雪
+        <item>Nevasca</item>6  中雪
+        <item>Nevasca</item>7  小雪
+        <item>Tempestade de areia</item>8  强沙尘暴
+        <item>Tempestade de areia</item>9  沙尘暴
+        <item>Tempestade de areia</item>0  沙尘
+        <item>Tempestade de areia</item>1  扬沙
+        <item>Tempestade de areia</item>2  冰雹
+        <item>Empoeirado</item>3  浮尘
+        <item>Neblina</item>4  霾
+    </array>
+
+    <array name="weather_details_key">
+        <item>Indisponível</item>0 暂缺
+        <item>Adequado</item>1 适宜
+        <item>Bom</item>2 较适宜
+        <item>Evitar se necessário</item>3 较不宜
+        <item>Não recomendado</item>4 不宜
+        <item>Ideal</item>5 极适宜
+        <item>Moderado</item>6 中等
+        <item>Fraco</item>7 最弱
+        <item>Médio</item>8 弱
+        <item>Forte</item>9 强
+
+        <item>Muito forte</item>0 很强
+        <item>Frio</item>1 凉
+        <item>Comfortável</item>2 舒适
+        <item>Muito quente</item>3 炎热
+        <item>Quente</item>4 热
+        <item>Quente</item>5 暖
+        <item>Frio</item>6 温凉
+        <item>Muito Frio</item>7 气温较低
+        <item>Gelado</item>8 冷
+        <item>Congelante</item>9 寒冷
+
+        <item>Alto</item>0 较舒适
+        <item>Médio</item>1 舒适
+        <item>Baixo</item>2 较不舒适
+        <item>Céu aberto</item>3 很不舒适_晴
+        <item>Nublado</item>4 很不舒适_阴
+        <item>Chuva</item>5 不宜_雨
+        <item>Tempestade de areia</item>6 不宜_沙尘
+        <item>Neve</item>7 不宜_雪
+        <item>Relativamente recomendado</item>8 基本适宜
+        <item>Condições favoráveis</item>9 适宜_晴
+
+        <item>Nublado</item>0 适宜_多云
+        <item>Não ideal</item>1 不太适宜
+        <item>Condições ideais</item>2 很适宜
+        <item>Péssimas condições</item>3 不适宜
+        <item>Condições regulares</item>4 一般
+    </array>
+
+    <array name="weather_image_tips">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>Não se esqueça de levar um guarda-chuva!</item>
+        <item>Não se esqueça de levar um guarda-chuva!</item>
+        <item>Não se esqueça de levar um guarda-chuva!</item>
+        <item>Não se esqueça de levar um guarda-chuva!</item>
+        <item>Não se esqueça de levar um guarda-chuva!</item>
+        <item>Não se esqueça de levar um guarda-chuva!</item>
+        <item>Não se esqueça de levar um guarda-chuva!</item>
+        <item>Não se esqueça de levar um guarda-chuva!</item>
+        <item>Não se esqueça de levar um guarda-chuva!</item>
+        <item>Lembre-se de se agasalhar!</item>
+        <item>Lembre-se de se agasalhar!</item>
+        <item>Lembre-se de se agasalhar!</item>
+        <item>Lembre-se de se agasalhar!</item>
+        <item>Lembre-se de se agasalhar!</item>
+        <item>Tenha cuidado lá fora!</item>
+        <item>Tenha cuidado lá fora!</item>
+        <item>Tenha cuidado lá fora!</item>
+        <item>Tenha cuidado lá fora!</item>
+        <item>Cuidado! As estradas estão escorregadias.</item>
+    </array>
+
+    <array name="weather_sms_content">
+	<item>Lembre-se de colocar protetor solar.</item>
+        <item>Hoje será um dia nublado.</item>
+        <item>Tente ficar dentro de casa.</item>
+        <item>Dirija com cuidado.</item>
+        <item>Não se esqueça de levar um guarda-chuva!</item>
+        <item>Não se esqueça de levar um guarda-chuva!</item>
+        <item>Não se esqueça de levar um guarda-chuva!</item>
+        <item>Não se esqueça de levar um guarda-chuva!</item>
+        <item>Não se esqueça de levar um guarda-chuva!</item>
+        <item>Não se esqueça de levar um guarda-chuva!</item>
+        <item>Não se esqueça de levar um guarda-chuva!</item>
+        <item>Não se esqueça de levar um guarda-chuva!</item>
+        <item>Não se esqueça de levar um guarda-chuva!</item>
+        <item>Está chuvendo muito lá fora.</item>
+        <item>Lembre-se de trazer um chapéu e um cachecol.</item>
+        <item>Agasalhe-se!</item>
+        <item>Lembre-se de usar um chapéu e um lenço!</item>
+        <item>Lembre-se de usar um chapéu e um lenço!</item>
+        <item>Lembre-se de usar uma máscara.</item>
+        <item>Lembre-se de usar uma máscara.</item>
+        <item>Lembre-se de usar uma máscara.</item>
+        <item>Lembre-se de usar uma máscara.</item>
+        <item>Está chuvendo muito lá fora.</item>
+        <item>Lembre-se de usar uma máscara.</item>
+        <item>Tente ficar dentro de casa.</item>
+    </array>
+
+    <array name="weather_sms_addons">
+        <item>"Está $ em @."</item>0
+        <item>Temperatura: % graus.</item>0
+        <item>Não se esqueça de levar um guarda chuva!</item>1
+        <item>Tente permanecer seco! :)</item>2
+        <item>Está com roupas no varal? Lembre-se de pegá-las mais tarde!</item>3
+        <item>Evite dirigir se possível.</item>4
+        <item>Dirija com cuidado!</item>5
+        <item>Cuidado! As estradas estão escorregadias.</item>6
+        <item>Vá com calma, e tenha cuidado lá fora.</item>7
+        <item>Tenha cuidado lá fora.</item>8
+        <item>Tente ficar dentro de casa.</item>9
+        <item>Traga seus óculos de sol.</item>0
+        <item>Use protetor solar e traga seus óculos de sol.</item>1
+        <item>Está ventando muito. Lembre-se de se agasalhar.</item>2
+        <item>Lembre-se de usar uma máscara.</item>3
+        <item>Lembre-se de se agasalhar.</item>4
+        <item>Lembre-se de usar uma máscara.</item>5
+        <item>Lembre-se de levar um gorro e luvas.</item>6
+        <item>Está quente lá fora!</item>7
+        <item>Tente se refrescar!</item>8
+        <item>Agasalhe-se!</item>9
+        <item>A temperatura pode cair\u2026</item>0
+        <item>Tente se aquecer!</item>1
+        <item>Use abafadores de ouvido caso os tenha!</item>2
+        <item>Vá lá fora e aproveite o ar livre.</item>3
+        <item>Faça uma caminhada e pegue um pouco de sol!</item>4
+        <item>É um bom dia para se secar roupas no varal!</item>
+        <item>Lembre-se de se agasalhar!</item>6
+    </array>
+
+    <array name="weather_info_uv">
+        <item>"0"</item>
+        <item>Indisponível</item>
+        <item>"6"</item>
+        <item>Não se esqueça do filtro solar.</item>
+        <item>"7"</item>
+        <item>Não se esqueça do filtro solar.</item>
+        <item>"8"</item>
+        <item>Não se esqueça do filtro solar.</item>
+        <item>"9"</item>
+        <item>Use filtro solar se você precisar sair de casa!</item>
+        <item>"10"</item>
+        <item>Use filtro solar se você precisar sair de casa!</item>
+    </array>
+
+    <array name="weather_info_dress">
+        <item>"0"</item>
+        <item>Indisponível</item>
+        <item>"11"</item>
+        <item>Agasalho fino</item>
+        <item>"12"</item>
+        <item>Agasalho fino</item>
+        <item>"13"</item>
+        <item>Roupas de verão</item>
+        <item>"14"</item>
+        <item>Roupas de verão</item>
+        <item>"15"</item>
+        <item>Jaqueta fina</item>
+        <item>"16"</item>
+        <item>Lembre-se de levar camisas grossas!</item>
+        <item>"17"</item>
+        <item>Leve um agasalho!</item>
+        <item>"18"</item>
+        <item>Agasalhe-se!</item>
+        <item>"19"</item>
+        <item>Agasalhe-se!</item>
+    </array>
+
+    <array name="weather_info_msport">
+        <item>"0"</item>
+        <item>Indisponível</item>
+        <item>"1"</item>
+        <item>É um bom dia para exercícios matinais!</item>
+        <item>"2"</item>
+        <item>Leve agasalhos!</item>
+        <item>"3"</item>
+        <item>Leve agasalhos!</item>
+        <item>"4"</item>
+        <item>Exercite-se em casa!</item>
+    </array>
+
+    <array name="weather_info_comfort">
+        <item>"0"</item>
+        <item>Indisponível</item>
+        <item>"20"</item>
+        <item>Temperatura continuará estável</item>
+        <item>"21"</item>
+        <item>Fresco e confortável</item>
+        <item>"22"</item>
+        <item>A temperatura pode alterar bruscamente</item>
+        <item>"23"</item>
+        <item>Céu claro e temperaturas desconfortáveis</item>
+        <item>"24"</item>
+        <item>Quente e úmido!</item>
+   </array>
+
+    <array name="weather_info_wcar">
+        <item>"0"</item>
+        <item>Indisponível</item>
+        <item>"1"</item>
+        <item>É um ótimo dia para lavar o seu carro!</item>
+        <item>"2"</item>
+        <item>É um ótimo dia para lavar o seu carro!</item>
+        <item>"3"</item>
+        <item>Vai chover! Deixe para lavar o seu carro depois.</item>
+        <item>"25"</item>
+        <item>Vai chover! Deixe para lavar o seu carro depois.</item>
+        <item>"26"</item>
+        <item>Haverá uma tempestade de areia! Deixe para lavar o seu carro depois.</item>
+        <item>"27"</item>
+        <item>Irá nevar! Deixe para lavar o seu carro depois.</item>
+        <item>"4"</item>
+        <item>Deixe para lavar o seu carro depois.</item>
+    </array>
+
+    <array name="weather_info_hung">
+        <item>"0"</item>
+        <item>Indisponível</item>
+        <item>"28"</item>
+        <item>Coloque suas roupas para secar durante a tarde.</item>
+        <item>"29"</item>
+        <item>Coloque suas roupas para secar a qualquer hora.</item>
+        <item>"30"</item>
+        <item>Está nublado, mas a temperatura está boa. Suas roupas secarão.</item>
+        <item>"1"</item>
+        <item>Está um clima ótimo para secar roupas.</item>
+        <item>"3"</item>
+        <item>Chuvar intermitentes durante o dia.</item>
+        <item>"5"</item>
+        <item>Condições razoáveis para secar roupas ao ar livre.</item>
+        <item>"4"</item>
+        <item>Seque as roupas dentro de casa.</item>
+        <item>"31"</item>
+        <item>Seque as roupas dentro de casa.</item>
+    </array>
+
+    <array name="weather_info_travel">
+        <item>"0"</item>
+        <item>Indisponível</item>
+        <item>"32"</item>
+        <item>Céu ensolarado e com boa temperatura.</item>
+        <item>"2"</item>
+        <item>Clima confortável com temperatura constante.</item>
+        <item>"1"</item>
+        <item>Clima confortável com temperatura constante.</item>
+        <item>"3"</item>
+        <item>A temperatura hoje pode mudar rapidamente.</item>
+        <item>"33"</item>
+        <item>A temperatura hoje pode mudar rapidamente.</item>
+        <item>"34"</item>
+        <item>Céu claro e ventos moderados.</item>
+    </array>
+
+    <array name="weather_info_fl">
+        <item></item>
+        <item>Agasalhe-se!</item>
+        <item>Brisa leve</item>
+        <item>Vento suave</item>
+        <item>N</item>
+        <item>Indisponível</item>
+    </array>
+</resources>

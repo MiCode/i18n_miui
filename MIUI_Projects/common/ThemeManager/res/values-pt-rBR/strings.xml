@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Temas</string>
+    <string name="theme_import_activity_label">Atualização de tema</string>
+
+    <string name="theme_changing_dialog_title">Aplicando tema\u2026</string>
+    <string name="theme_changed_message">Tema aplicado</string>
+    <string name="theme_changed_failed_message">Falha ao aplicar tema</string>
+
+    <string name="backup_preference_title">Backup do tema atual</string>
+    <string name="backup_theme_dialog_ok">Backup</string>
+    <string name="backup_theme_dialog_message">Efetuar backup do tema atual</string>
+    <string name="backup_theme_progress_message">Efetuando backup\u2026</string>
+    <string name="backup_theme_success_message">Backup feito com sucesso!</string>
+    <string name="backup_theme_name">Meu Backup</string>
+
+    <string name="theme_description_title_default">Padrão</string>
+    <string name="theme_description_title_customized">Personalizado</string>
+
+    <string name="component_category_finest_title">Destaque</string>
+    <string name="component_category_more_title">Mais</string>
+    <string name="theme_component_title_framework">Sistema</string>
+    <string name="theme_component_title_mms">Mensagens</string>
+    <string name="theme_component_title_wallpaper">Plano de fundo</string>
+    <string name="theme_component_title_lockwallpaper">Plano de fundo da tela de bloqueio</string>
+    <string name="theme_component_title_miwallpaper">Mi Wallpaper</string>
+    <string name="theme_component_title_icon">Ícones</string>
+    <string name="theme_component_title_boot_animation">Animação de boot</string>
+    <string name="theme_component_title_boot_audio">Som de boot</string>
+    <string name="theme_component_title_font">Fontes</string>
+    <string name="theme_component_title_ringtone">Toques</string>
+    <string name="theme_component_title_notification">Notificações</string>
+    <string name="theme_component_title_alarm">Alarmes</string>
+    <string name="theme_component_title_contact">Discador</string>
+    <string name="theme_component_title_lockstyle">Estilo de bloqueio</string>
+    <string name="theme_component_title_statusbar">Barra de status</string>
+    <string name="theme_component_title_launcher">Barra de favoritos</string>
+    <string name="theme_component_title_audio_effect">Sons</string>
+    <string name="theme_component_title_alarmstyle">Toque do alarme</string>
+    <string name="theme_component_title_clock">Relógio</string>
+    <string name="theme_component_title_photo_frame">Moldura de fotos</string>
+    <string name="theme_component_title_others">Outros</string>
+    <string name="theme_component_title_all">Tema</string>
+
+    <string name="apply_theme_no_select_message">Selecionar componentes</string>
+    <string name="apply_lockscreen_paper_tips">Esta tela de bloqueio não suporta papéis de parede personalizados.</string>
+
+    <string name="theme_import_from_sdcard">Importar do cartão SD</string>
+    <string name="theme_select_others">Procurar</string>
+    <string name="third_party_pickers_activity_title">Definir %1$s</string>
+    <string name="lockstyle_personal_settings">Personalizar</string>
+
+    <string name="wallpaper_settings">Definir plano de fundo</string>
+    <string name="desktop_wallpaper">Planos de fundo</string>
+    <string name="live_wallpaper">Live Wallpapers</string>
+    <string name="mi_wallpaper">MIUI Wallpaper</string>
+    <string name="lockscreen_wallpaper">Tela de bloqueio</string>
+    <string name="change_wallpaper">Plano de fundo</string>
+
+    <string name="component_settings_title">Customizar tema</string>
+    <string name="component_select_title">Componentes selecionados: %1$s</string>
+    <string name="component_include_title">Componentes incluídos: %1$s</string>
+
+    <string name="apply_font_tip">Reinicie o telefone para aplicar a fonte do tema.</string>
+    <string name="apply_font_btn_reboot">Aplicar e reiniciar</string>
+    <string name="apply_font_btn_exclude">Aplicar sem fonte</string>
+
+    <string name="title_local">Local</string>
+    <string name="title_online">Online</string>
+    <string name="title_component">Componentes</string>
+
+    <string name="title_system_resource">Recursos do sistema</string>
+
+    <string name="long_ringtone_resource">Longo</string>
+    <string name="short_ringtone_resource">Curto</string>
+    <string name="all_ringtone_resource">Todos</string>
+
+    <string name="resource_preview">Pré-visualização</string>
+    <string name="wallpaper_set_as_both">Definir ambos</string>
+    <string name="wallpaper_set_as_destop">Definir como plano de fundo</string>
+    <string name="wallpaper_set_as_lockscreen">Definir como tela de bloqueio</string>
+    <string name="wallpaper_crop">Cortar</string>
+    <string name="wallpaper_loading_text">Carregando\u2026</string>
+    <string name="wallpaper_decoded_error">Falha ao carregar</string>
+
+    <string name="close">Fechar</string>
+    <string name="download_success">Download concluído</string>
+
+    <string name="basic_info">Informações</string>
+    <string name="account_info">Minha conta</string>
+    <string name="purchased_list">Itens comprados</string>
+    <string name="payment_info">Mi Credits</string>
+
+    <string name="theme_batch_has_update_text">Atualização disponível para %1$d tema(s).</string>
+    <string name="theme_batch_updating_text">Atualizando %1$d tema(s)\u2026</string>
+    <string name="theme_batch_update_all">Atualizar tudo</string>
+    <string name="theme_batch_update_dlg_title">Atualizar</string>
+    <string name="theme_batch_update_dlg_content">Atualizar agora?</string>
+    <string name="theme_batch_update_dlg_content_single">Atualizar agora?</string>
+
+    <string name="theme_current_using_has_update">O tema atual foi atualizado, toque aqui para aplicá-lo.</string>
+    <string name="theme_immediately_apply_tip">O tema foi atualizado, aplicá-lo agora?</string>
+    <string name="theme_name">%1$s</string>
+
+    <string name="restore_default_theme_alert">Utilize o app de temas para efetuar downloads ou comprar novos itens.</string>
+    <string name="selected_resource_file_invalid">O arquivo selecionado é inválido</string>
+
+    <string name="apply_theme_with_ringtones">Aplicar tema e toques</string>
+    <string name="settings">Configurações</string>
+</resources>
