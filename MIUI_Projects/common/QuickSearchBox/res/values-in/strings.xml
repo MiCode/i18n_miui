@@ -15,42 +15,42 @@
 -->
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name">Search</string>
+    <string name="app_name">Cari</string>
 
     <!-- Search widget -->
-    <string name="search_widget">Search</string>
+    <string name="search_widget">Cari</string>
 
     <!-- Text in the dialog for confirming whether to remove an item from the search
          history. [CHAR_LIMIT=NONE] -->
-    <string name="remove_from_history">Do you want to remove this item from the search history?</string>
+    <string name="remove_from_history">Apakah anda ingin menghapus hal ini dari riwayat pencarian?</string>
 
     <!-- Toast text shown when the app fails to remove an item from
          the search history. [CHAR_LIMIT=60] -->
-    <string name="remove_from_history_failed">Couldn\'t remove item from history.</string>
+    <string name="remove_from_history_failed">Tidak dapat menghapusnya dari riwayat.</string>
 
     <!-- Source selector -->
-    <string name="corpus_selection_heading">Search</string>
-    <string name="corpus_label_global">All</string>
+    <string name="corpus_selection_heading">Cari</string>
+    <string name="corpus_label_global">Semua</string>
 
     <!-- Name of the combined Web source shown in QSB -->
     <string name="corpus_label_web">Web</string>
     <!-- Description of the combined Web source shown in QSB -->
-    <string name="corpus_description_web">Web search, and bookmarks</string>
+    <string name="corpus_description_web">Pencarian dan penanda web</string>
 
     <!-- Name of the Apps source shown in QSB -->
-    <string name="corpus_label_apps">Apps</string>
+    <string name="corpus_label_apps">Apl</string>
     <!-- Settings description for the Apps source shown in QSB -->
-    <string name="corpus_description_apps">Names of installed applications</string>
+    <string name="corpus_description_apps">Nama aplikasi yang dipasang</string>
     <!-- Search hint for the Apps source shown in QSB -->
-    <string name="corpus_hint_apps">Search apps</string>
+    <string name="corpus_hint_apps">Cari apl</string>
 
     <!-- Search settings stuff -->
 
     <!-- Search settings menu item -->
-    <string name="menu_settings">Search settings</string>
+    <string name="menu_settings">Pengaturan pencarian</string>
 
     <!-- Search settings title -->
-    <string name="search_settings">Search settings</string>
+    <string name="search_settings">Pengaturan pencarian</string>
 
     <!-- Title for Google Account category of search settings.
          [CHAR LIMIT=20] -->
@@ -58,30 +58,30 @@
 
     <!-- Title for 'device' category of search settings 
         [CHAR LIMIT=20] -->
-    <string name="device_settings_category_title">Clear shortcuts</string>
+    <string name="device_settings_category_title">Bersihkan pintas</string>
 
     <!-- Title for 'system search' category of search settings -->
-    <string name="system_search_category_title">Phone</string>
+    <string name="system_search_category_title">Telepon</string>
 
     <!-- Title and summary for 'search sources' link for system search -->
-    <string name="search_sources">Searchable items</string>
-    <string name="search_sources_summary">Choose what to search on the phone</string>
+    <string name="search_sources">Item yang dicari</string>
+    <string name="search_sources_summary">Pilih yang dicari di telepon</string>
 
     <!-- Title and summary used for the option to clear search shortcuts from the system
          search history -->
-    <string name="clear_shortcuts">Clear shortcuts</string>
-    <string name="clear_shortcuts_summary">Clear shortcuts to recently chosen search suggestions</string>
+    <string name="clear_shortcuts">Bersihkan pintas</string>
+    <string name="clear_shortcuts_summary">Bersihkan pintas menjadi saran pencarian yang dipilih</string>
 
     <!--[CHAR LIMIT=200] Title used in the dialog shown after choosing the 'clear search shortcuts' setting. -->
-    <string name="clear_shortcuts_prompt">"Do you want to clear all shortcuts to recently chosen search suggestions?"\n\n"To clear your Browser history, use the Browser's settings."</string>
+    <string name="clear_shortcuts_prompt">"Apakah anda ingin membersihkan semua pintas ke saran pencarian yang dipilih?"\n\n"Untuk menhapus riwayat Browser, gunakan pengaturan di Browser."</string>
     <!--[CHAR LIMIT=30] Text used on the button to clear shortcuts in the dialog shown after choosing the 'clear search shortcuts' setting. -->
-    <string name="clear_shortcuts_agree">Clear shortcuts</string>
+    <string name="clear_shortcuts_agree">Bersihkan pintas</string>
     <!--[CHAR LIMIT=30] Text used on the button to cancel in the dialog shown after choosing the 'clear search shortcuts' setting. -->
-    <string name="clear_shortcuts_disagree">"Don't clear shortcuts"</string>
+    <string name="clear_shortcuts_disagree">"Jangan bersihkan pintas"</string>
 
     <!-- Help menu item. Opens a web page with information about how to use Quick Search Box.
          [CHAR LIMIT=20] -->
-    <string name="menu_help">Help</string>
+    <string name="menu_help">Bantuan</string>
 
     <!-- Search source label for the Google search source. -->
     <string name="google_search_label">Google</string>
@@ -98,12 +98,12 @@
     <string name="google_search_description">Google Search suggestions</string>
 
     <!-- Title for Voice Search hints bubble -->
-    <string name="voice_search_hint_title">Try saying:</string>
+    <string name="voice_search_hint_title">Coba ucapkan:</string>
     <!-- Starting quotation marks of the voice search hint -->
     <string name="voice_search_hint_quotation_start">\"</string>
     <!-- Ending quotation marks of the voice search hint -->
     <string name="voice_search_hint_quotation_end">\"</string>
 
-    <string name="search_in_web">Search in web</string>
-    <string name="search_in_app_store">Search in market</string>
+    <string name="search_in_web">Cari di web</string>
+    <string name="search_in_app_store">Cari di market</string>
 </resources>

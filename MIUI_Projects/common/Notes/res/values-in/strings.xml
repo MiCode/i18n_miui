@@ -1,109 +1,109 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name">Notes</string>
-    <string name="app_widget">Notes</string>
-    <string name="widget_havenot_content">No associated note found. Touch to create an associated note. To resize it, hold &amp; drag an edge.</string>
-    <string name="widget_under_visit_mode">Can\'t view notes in Guest mode</string>
+    <string name="app_name">Catatan</string>
+    <string name="app_widget">Catatan</string>
+    <string name="widget_havenot_content">Tidak ada catatan ditemukan. Tekan untuk membuat catatan. Untuk mengganti ukuran, tahan &amp; geser ujungnya.</string>
+    <string name="widget_under_visit_mode">Tidak dapat menampilkan catatan di mode Tamu</string>
     <string name="notelist_string_info">...</string>
-    <string name="notelist_menu_new">Add note</string>
-    <string name="note_alert_expired">Expired</string>
-    <string name="notealert_ok">Ignore</string>
-    <string name="notealert_enter">Take a look</string>
+    <string name="notelist_menu_new">Tambah catatan</string>
+    <string name="note_alert_expired">Kadaluarsa</string>
+    <string name="notealert_ok">Abaikan</string>
+    <string name="notealert_enter">Lihat</string>
     <!-- Text export file information -->
-    <string name="note_link_tel">Call</string>
-    <string name="note_link_email">Send email</string>
+    <string name="note_link_tel">Panggil</string>
+    <string name="note_link_email">Kirim email</string>
     <string name="note_link_web">Browse web</string>
-    <string name="note_link_other">Open map</string>
-    <string name="note_link_select">Select text</string>
+    <string name="note_link_other">Buka peta</string>
+    <string name="note_link_select">Pilih teks</string>
     <!-- notes list string -->
     <string name="format_folder_files_count">(%d)</string>
-    <string name="menu_create_folder">New folder</string>
-    <string name="menu_setting">Settings</string>
-    <string name="menu_delete">Delete</string>
-    <string name="menu_move">Move</string>
+    <string name="menu_create_folder">Folder baru</string>
+    <string name="menu_setting">Pengaturan</string>
+    <string name="menu_delete">Hapus</string>
+    <string name="menu_move">Pindah</string>
     <string name="menu_stick">Pin</string>
-    <string name="menu_unstick">Unpin</string>
-    <string name="menu_folder_change_name">Change folder name</string>
-    <string name="folder_exist">A folder with the same name already exists</string>
-    <string name="menu_send_to_desktop">Place on Home screen</string>
-    <string name="menu_title_select_folder">Select folder</string>
+    <string name="menu_unstick">Lepas pin</string>
+    <string name="menu_folder_change_name">Ganti nama folder</string>
+    <string name="folder_exist">Sudah ada folder dengan nama yang sama</string>
+    <string name="menu_send_to_desktop">Tempatkan di layar Utama</string>
+    <string name="menu_title_select_folder">Pilih folder</string>
     <string name="menu_move_parent_folder">Parent folder</string>
-    <string name="menu_rename_folder">Rename</string>
-    <string name="info_note_enter_desktop">Added to Home screen</string>
-    <string name="alert_message_delete_notes">Delete <xliff:g id="count">%1$s</xliff:g> notes?</string>
-    <string name="alert_message_delete_folders">Delete <xliff:g id="count">%1$s</xliff:g> folders?</string>
-    <string name="alert_message_delete_folders_notes">Delete <xliff:g id="folderCount">%1$s</xliff:g> folders and <xliff:g id="noteCount">%2$s</xliff:g> notes?</string>
-    <string name="alert_message_delete_note">Delete this note?</string>
-    <string name="format_move_notes_to_folder">Moved %1$d notes to %2$s</string>
-    <string name="alert_title_edit_anyway">This note contains unsupported contents</string>
-    <string name="alert_message_edit_anyway">If you edit this note some of its contents may be lost.</string>
-    <string name="alert_action_edit_anyway">Continue editing</string>
+    <string name="menu_rename_folder">Ganti nama</string>
+    <string name="info_note_enter_desktop">Ditambahkan ke layar Utama</string>
+    <string name="alert_message_delete_notes">Hapus <xliff:g id="count">%1$s</xliff:g> catatan?</string>
+    <string name="alert_message_delete_folders">Hapus <xliff:g id="count">%1$s</xliff:g> folder?</string>
+    <string name="alert_message_delete_folders_notes">Hapus <xliff:g id="folderCount">%1$s</xliff:g> folder dan <xliff:g id="noteCount">%2$s</xliff:g> catatan?</string>
+    <string name="alert_message_delete_note">Hapus catatan ini?</string>
+    <string name="format_move_notes_to_folder">Pindah %1$d catatan ke %2$s</string>
+    <string name="alert_title_edit_anyway">Catatan ini berisi konten yang tidak didukung</string>
+    <string name="alert_message_edit_anyway">Jika anda merubah catatan ini, beberapa kontennya akan hilang.</string>
+    <string name="alert_action_edit_anyway">Lanjutkan merubah</string>
     <!-- Error information -->
-    <string name="error_note_not_exist">Note doesn\'t exist</string>
-    <string name="error_note_empty_for_clock">Can\'t set reminder time for an empty note</string>
-    <string name="error_note_empty_for_send_to_desktop">Empty notes can\'t be placed on Home screen</string>
-    <string name="error_widget_exist_for_send_to_desktop">This note is already on your Home screen</string>
-    <string name="error_unsupport_content">This note contains unsupported content, touch here to update the required app</string>
-    <string name="error_contact_not_exist">Contact doesn\'t exist</string>
+    <string name="error_note_not_exist">Catatan tidak ada</string>
+    <string name="error_note_empty_for_clock">Tidak dapat mengatur waktu pengingat untuk catatan kosong</string>
+    <string name="error_note_empty_for_send_to_desktop">Catatan kosong tidak dapat diletakkan di layar Utama</string>
+    <string name="error_widget_exist_for_send_to_desktop">Catatan ini telah berada di layar Utama</string>
+    <string name="error_unsupport_content">Catatan ini berisi konten yang tidak didukung, tekan disini untuk memperbarui apl</string>
+    <string name="error_contact_not_exist">Kontak tidak ada</string>
     <!-- Sync -->
     <!-- Preferences -->
-    <string name="preferences_title">Settings</string>
-    <string name="preferences_bg_random_appear_title">Randomize new note color </string>
-    <string name="pref_title_font_size">Font size</string>
+    <string name="preferences_title">Pengaturan</string>
+    <string name="preferences_bg_random_appear_title">Mengacak warna catatan baru </string>
+    <string name="pref_title_font_size">Ukuran huruf</string>
 
-    <string name="call_record_folder_name">Call notes</string>
-    <string name="hint_foler_name">Name</string>
+    <string name="call_record_folder_name">Catatan panggilan</string>
+    <string name="hint_foler_name">Nama</string>
 
-    <string name="search_label">Searching notes</string>
-    <string name="search_hint">Search Notes</string>
-    <string name="search_setting_description">Text in your notes</string>
-    <string name="search">Notes</string>
+    <string name="search_label">Mencari catatan</string>
+    <string name="search_hint">Cari catatan</string>
+    <string name="search_setting_description">Teks di catatan anda</string>
+    <string name="search">Catatan</string>
     <plurals name="search_results_title">
-         <item quantity="one"><xliff:g id="number" example="1">%1$s</xliff:g> result for \"<xliff:g id="search" example="???">%2$s</xliff:g>\"</item>
+         <item quantity="one"><xliff:g id="number" example="1">%1$s</xliff:g> hasil untuk \"<xliff:g id="search" example="???">%2$s</xliff:g>\"</item>
         <!-- Case of 0 or 2 or more results. -->
-        <item quantity="other"><xliff:g id="number" example="15">%1$s</xliff:g> results for \"<xliff:g id="search" example="???">%2$s</xliff:g>\"</item>
+        <item quantity="other"><xliff:g id="number" example="15">%1$s</xliff:g> hasil untuk \"<xliff:g id="search" example="???">%2$s</xliff:g>\"</item>
     </plurals>
 
-    <string name="button_new_note">New note</string>
-    <string name="default_folder_name">Unnamed folder</string>
+    <string name="button_new_note">Catatan baru</string>
+    <string name="default_folder_name">Folder tidak bernama</string>
 
-    <string name="attachment_gallery">Gallery</string>
-    <string name="attachment_camera">Camera</string>
-    <string name="attachment_contact">Contacts</string>
+    <string name="attachment_gallery">Galeri</string>
+    <string name="attachment_camera">Kamera</string>
+    <string name="attachment_contact">Kontak</string>
 
-    <string name="alert_edit_action_update">Modify</string>
-    <string name="alert_edit_action_delete">Remove</string>
+    <string name="alert_edit_action_update">Ubah</string>
+    <string name="alert_edit_action_delete">Hapus</string>
 
-    <string name="notify_alarm_title">Note reminder</string>
+    <string name="notify_alarm_title">Catatan pengingat</string>
 
-    <string name="toast_message_add_image_fail">Failed to add image</string>
-    <string name="toast_note_privacy_mode">Can\'t edit note in Guest mode</string>
-    <string name="toast_folder_privacy_mode">Can\'t edit folder in Guest mode</string>
-    <string name="toast_reach_text_limit_truncate">This note is too long. Some text has been cut off of the end to make it fit.</string>
-    <string name="toast_reach_text_limit_attachment">Can\'t add new attachments because the note is too long</string>
+    <string name="toast_message_add_image_fail">Gagal menambahkan gambar</string>
+    <string name="toast_note_privacy_mode">Tidak dapat mengubah catatan di mode Tamu</string>
+    <string name="toast_folder_privacy_mode">Tidak dapat mengubah folder di mode Tamu</string>
+    <string name="toast_reach_text_limit_truncate">Catatan ini terlalu panjang. Beberapa teks akan dihapus untuk menyesuaikannya.</string>
+    <string name="toast_reach_text_limit_attachment">Tidak dapat menambahkan lampiran baru karena catatan terlalu panjang</string>
 
-    <string name="snippet_image_stub">[Image]</string>
-    <string name="snippet_image_template">[Image <xliff:g id="imageName" example="1.jpeg">%1$s</xliff:g>]</string>
+    <string name="snippet_image_stub">[Gambar]</string>
+    <string name="snippet_image_template">[Gambar <xliff:g id="imageName" example="1.jpeg">%1$s</xliff:g>]</string>
 
-    <string name="select_account_prompt">Enable note synchronization</string>
-    <string name="enable_sync_desc">Sync your notes with your Mi Account (<xliff:g id="accountName" example="100000">%1$s</xliff:g>)?</string>
-    <string name="add_account_desc">Sync your notes with your Mi Account?</string>
-    <string name="not_now">Not now</string>
-    <string name="enable_sync">Sync</string>
-    <string name="login_sync">Sign in &amp; sync</string>
+    <string name="select_account_prompt">Aktifkan sinkronisasi catatan</string>
+    <string name="enable_sync_desc">Sinkronkan catatan anda dengan Mi Account (<xliff:g id="accountName" example="100000">%1$s</xliff:g>)?</string>
+    <string name="add_account_desc">Sinkronkan catatan anda dengan Mi Account?</string>
+    <string name="not_now">Tidak sekarang</string>
+    <string name="enable_sync">Sinkronkan</string>
+    <string name="login_sync">Sign in &amp; sinkronisasi</string>
 
-    <string name="pref_title_note_style">Note style</string>
+    <string name="pref_title_note_style">Model catatan</string>
     <string name="pref_desc_mode_list">List</string>
     <string name="pref_desc_mode_grid">Grid</string>
-    <string name="pref_title_common">Additional settings</string>
-    <string name="pref_title_alarm_when_silent">Alarms in silent mode</string>
-    <string name="pref_desc_alarm_when_silent">Active alarms will still sound when ringer is silenced</string>
+    <string name="pref_title_common">Pengaturan tambahan</string>
+    <string name="pref_title_alarm_when_silent">Alarm di mode diam</string>
+    <string name="pref_desc_alarm_when_silent">Alarm yang aktif akan tetap bersuara ketika nada diam</string>
 
-    <string name="dlg_title_confirm_alarm_silent">Silence alarms</string>
-    <string name="dlg_desc_confirm_alarm_silent">Active alarms will not sound when ringer is silenced.</string>
+    <string name="dlg_title_confirm_alarm_silent">Alarm diam</string>
+    <string name="dlg_desc_confirm_alarm_silent">Alarm yang aktif tidak akan bersuara ketika nada diam.</string>
 
-    <string name="close">Close</string>
+    <string name="close">Tutup</string>
     <string name="undo">Undo</string>
     <string name="redo">Redo</string>
 

@@ -15,137 +15,137 @@
 -->
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name">Package installer</string>
-    <string name="install">Install</string>
-    <string name="done">Done</string>
+    <string name="app_name">Pemasangan Paket</string>
+    <string name="install">Pasang</string>
+    <string name="done">Selesai</string>
     <!-- TODO REMOVE LATER -->
-    <string name="security_settings_desc">Allow this application to:</string>
-    <string name="cancel">Cancel</string>
-    <string name="unknown">Unknown</string>
-    <string name="installing">Installing\u2026</string>
-    <string name="install_done">Application installed</string>
-    <string name="install_confirm_question">Do you want to install this application?</string>
-    <string name="install_failed">Application not installed</string>
+    <string name="security_settings_desc">Izinkan aplikasi untuk:</string>
+    <string name="cancel">Batal</string>
+    <string name="unknown">Tidak diketahui</string>
+    <string name="installing">Memasang\u2026</string>
+    <string name="install_done">Aplikasi dipasang</string>
+    <string name="install_confirm_question">Apakah anda ingin memasang aplikasi ini?</string>
+    <string name="install_failed">Aplikasi tidak dipasang</string>
     <!-- Reason displayed when installation fails because the installation package itself is invalid
         in some way (e.g., corrupt) [CHAR LIMIT=100] -->
-    <string name="install_failed_invalid_apk">The package appears to be corrupt.</string>
+    <string name="install_failed_invalid_apk">Paketnya rusak.</string>
     <!-- Reason displayed when installation fails because the package an existing package is
         installed with a conflicting package author signature [CHAR LIMIT=100] -->
-    <string name="install_failed_inconsistent_certificates">An existing package by the same name
-        with a conflicting signature is already installed.</string>
+    <string name="install_failed_inconsistent_certificates">Paket dengan nama yang sama
+        dengan signature yang konflik telah dipasang.</string>
     <!-- Reason displayed when installation fails because the package specifies a minimum compatible
         OS version that is newer than our current OS version. [CHAR LIMIT=100] -->
-    <string name="install_failed_older_sdk">The package only works on newer versions of
-        Android.</string>
+    <string name="install_failed_older_sdk">Paket hanya bekerja pada versi Android
+        terbaru.</string>
     <!-- Reason displayed when installation fails because the package specifies it is compatible
         only with a CPU that the current tablet doesn't have. [CHAR LIMIT=100] -->
-    <string name="install_failed_cpu_abi_incompatible" product="tablet">This application is not
-        compatible with this tablet\'s CPU.</string>
+    <string name="install_failed_cpu_abi_incompatible" product="tablet">Aplikasi ini tidak
+        kompatibel dengan CPU tablet ini.</string>
     <!-- Reason displayed when installation fails because the package specifies it is compatible
         only with a CPU that the current phone doesn't have. [CHAR LIMIT=100] -->
-    <string name="install_failed_cpu_abi_incompatible" product="default">This application is not
-        compatible with this phone\'s CPU.</string>
+    <string name="install_failed_cpu_abi_incompatible" product="default">Aplikasi ini tidak
+        kompatibel dengan CPU telepon ini.</string>
     <!-- Reason displayed when installation fails because the package was deleted during the
         installation process. [CHAR LIMIT=100] -->
-    <string name="install_failed_file_not_found">The package specified was deleted before
-        installation could be completed.</string>
+    <string name="install_failed_file_not_found">Paket tersebut telah dihapus sebelum
+        pemasangan selesai.</string>
     <!-- Reason displayed when installation fails because the package could not be verified
         because the package verifier rejected it. [CHAR LIMIT=100] -->
-    <string name="install_failed_verify_failed">The package did not pass verification and cannot
-        be installed.</string>
+    <string name="install_failed_verify_failed">Paketnya tidak melewati verfikasi dan tidak dapat
+        dipasang.</string>
     <!-- Reason displayed when installation fails because the package could not be verified
         before the internal system timer expired. [CHAR LIMIT=100] -->
-    <string name="install_failed_verify_timeout">A timeout occurred while trying to verify this
-        package. Please try to install it again later.</string>
+    <string name="install_failed_verify_timeout">Terjadi timeout ketika mencoba memverifikasi paket
+        ini. Coba untuk pasang lagi nanti.</string>
     <!-- Message presented when an application could not be installed on the tablet for some reason. [CHAR LIMIT=100] -->
-    <string name="install_failed_msg" product="tablet"><xliff:g id="app_name">%1$s</xliff:g> could not be installed on this tablet.</string>
+    <string name="install_failed_msg" product="tablet"><xliff:g id="app_name">%1$s</xliff:g> tidak dapa dipasang di tablet ini.</string>
     <!-- Message presented when an application could not be installed on the phone for some reason. [CHAR LIMIT=100] -->
-    <string name="install_failed_msg" product="default"><xliff:g id="app_name">%1$s</xliff:g> could not be installed on this phone.</string>
-    <string name="launch">Open</string>
-    <string name="unknown_apps_dlg_title">Install blocked</string>
+    <string name="install_failed_msg" product="default"><xliff:g id="app_name">%1$s</xliff:g> tidak dapat dipasang di telepon ini.</string>
+    <string name="launch">Buka</string>
+    <string name="unknown_apps_dlg_title">Pemasnagan diblokir</string>
     <!-- Message presented in a dialog box when a package is requested to be installed, but the "Allow unknown applications" checkbox is not enabled. [CHAR LIMIT=100] -->
-    <string name="unknown_apps_dlg_text" product="tablet">"For security reasons, your tablet has been set \
-to forbid installing applications obtained from unofficial channels.\
-To lift the ban you can install applications from any channel,\
-but your phone and personal data may be attacked by applications of unknown sources,\
-and you shall assume full responsibility for the probable consequences.\n
-You may also modify it via "Settings->Security->Unknown sources"."</string>
+    <string name="unknown_apps_dlg_text" product="tablet">"Untuk alasan keamanan, tablet anda telah diatur \
+untuk melarang pemasangan aplikasi yang berisi kanal tidak resmi.\
+Untuk mengubah larangan tersebut anda dapat memasang aplikasi dari kanal apapun,\
+tapi telepon dan data anda mungkin akan diserang oleh aplikasi dari sumber yang tidak dikenal,\
+dan anda bertanggung jawab penuh terhadap konsekuensinya.\n
+Anda dapat mengubahnya via "Pengaturan->Keamanan->Sumber tidak diketahui"."</string>
     <!-- Message presented in a dialog box when a package is requested to be installed, but the "Allow unknown applications" checkbox is not enabled. [CHAR LIMIT=100] -->
-    <string name="unknown_apps_dlg_text" product="default">"For security reasons, your phone has been set \
-to forbid installing applications obtained from unofficial channels.\
-To lift the ban you can install applications from any channel,\
-but your phone and personal data may be attacked by applications of unknown sources,\
-and you shall assume full responsibility for the probable consequences.\n
-You may also modify it via "Settings->Security->Unknown sources"."</string>
+    <string name="unknown_apps_dlg_text" product="default">"Untuk alasan keamanan, telepon anda telah diatur \
+untuk melarang pemasangan aplikasi yang berisi kanal tidak resmi.\
+Untuk mengubah larangan tersebut anda dapat memasang aplikasi dari kanal apapun,\
+tapi telepon dan data anda mungkin akan diserang oleh aplikasi dari sumber yang tidak dikenal,\
+dan anda bertanggung jawab penuh terhadap konsekuensinya.\n
+Anda dapat mengubahnya via "Pengaturan->Keamanan->Sumber tidak diketahui"."</string>
     <string name="ok">OK</string>
-    <string name="settings">Settings</string>
+    <string name="settings">Pengatur</string>
     <!-- Title of dialog asking user if they would allow an application to be an install source. -->
-    <string name="allow_source_dlg_title">Allow new source for apps?</string>
+    <string name="allow_source_dlg_title">Izinkan sumber baru apl?</string>
     <!-- Message of dialog asking user if they would allow an application to be an install source. -->
-    <string name="allow_source_dlg_text"><xliff:g id="app_name">%1$s</xliff:g> wants to install other apps.\n\nAllow
-        this now and in the future?</string>
-    <string name="manage_applications">Manage applications</string>
-    <string name="dlg_app_replacement_title">Replace application</string>
-    <string name="dlg_app_replacement_statement">The application you are installing will replace another application.\n\nAll previous user data will be saved.</string>
-    <string name="dlg_app_replacement_statement_with_version"><xliff:g id="APP_NAME">%1$s</xliff:g> (<xliff:g id="NEW_VERSION">%2$s</xliff:g>) will replace the currently installed version (<xliff:g id="ORI_VERSION">%3$s</xliff:g>). User’s contents will be retained.\nSure to install?</string>
+    <string name="allow_source_dlg_text"><xliff:g id="app_name">%1$s</xliff:g> ingin memasang apl lainnya.\n\nIzinkan
+        ini sekarang dan nanti?</string>
+    <string name="manage_applications">Kelola aplikasi</string>
+    <string name="dlg_app_replacement_title">Ganti aplikasi</string>
+    <string name="dlg_app_replacement_statement">Aplikasi yang anda pasang akan diganti dengan aplikasi lain.\n\nSemua data pengguna sebelumnya akan disimpan.</string>
+    <string name="dlg_app_replacement_statement_with_version"><xliff:g id="APP_NAME">%1$s</xliff:g> (<xliff:g id="NEW_VERSION">%2$s</xliff:g>) akan mengganti versi yang telah dipasang (<xliff:g id="ORI_VERSION">%3$s</xliff:g>). Konten pengguna akan tetap ada.\nApakah anda yakin?</string>
     <!-- Dialog attributes when replacing system app -->
-    <string name="dlg_sys_app_replacement_statement">This is a system application. Do you still want to replace it?\n\nAll previous user data will be saved.</string>
-    <string name="lift_ban">Lift ban</string>
-    <string name="out_of_space_dlg_title">Out of space</string>
-    <string name="out_of_space_dlg_text"><xliff:g id="app_name">%1$s</xliff:g> could not be installed. Free up some space and try again.</string>
+    <string name="dlg_sys_app_replacement_statement">Ini adalah aplikasi sistem. Apakah anda tetap ingin menggantinya?\n\nSemua data pengguna sebelumnya akan disimpan.</string>
+    <string name="lift_ban">Angkat larangan</string>
+    <string name="out_of_space_dlg_title">Kehabisan ruang</string>
+    <string name="out_of_space_dlg_text"><xliff:g id="app_name">%1$s</xliff:g> tidak dapat dipasang. Kosongkan ruang dan coba lagi.</string>
     <!-- strings related to uninstall activity -->
     <string name="dlg_ok">OK</string>
-    <string name="app_not_found_dlg_title">Application not found</string>
-    <string name="app_not_found_dlg_text"> The application was not
-found in the list of installed applications.</string>
-    <string name="uninstall_application_title">Uninstall Application</string>
-    <string name="uninstall_update_title">Uninstall Update</string>
-    <string name="uninstall_activity_text"><xliff:g id="activity_name">%1$s</xliff:g> is part of the following application:</string>
-    <string name="uninstall_confirm_question">Do you want to uninstall the application?</string>
-    <string name="uninstall_application_text">This application will be uninstalled.</string>
-    <string name="uninstall_update_text">The application will be replaced with the factory version.</string>
-    <string name="uninstalling">Uninstalling\u2026</string>
-    <string name="uninstall_done">Uninstall finished</string>
-    <string name="uninstall_failed">Uninstall not successful</string>
+    <string name="app_not_found_dlg_title">Aplikasi tidak ditemukan</string>
+    <string name="app_not_found_dlg_text"> Aplikasi tidak
+ditemukan di daftar aplikasi yang dipasang.</string>
+    <string name="uninstall_application_title">Hapus Aplikasi</string>
+    <string name="uninstall_update_title">Hapus Perbaruan</string>
+    <string name="uninstall_activity_text"><xliff:g id="activity_name">%1$s</xliff:g> adalah bagian aplikasi ini:</string>
+    <string name="uninstall_confirm_question">Apakah anda ingin menghapus aplikasi?</string>
+    <string name="uninstall_application_text">Aplikasi ini akan dihapus.</string>
+    <string name="uninstall_update_text">Aplikasi akan diganti dengan versi pabrikan.</string>
+    <string name="uninstalling">Menghapus\u2026</string>
+    <string name="uninstall_done">Selesai menghapus</string>
+    <string name="uninstall_failed">Gagal menghapus</string>
     <!-- String presented to the user when uninstalling a package failed because the target package
         is a current device administrator [CHAR LIMIT=80] -->
-    <string name="uninstall_failed_device_policy_manager">Cannot uninstall: this package is an
-        active device administrator.</string>
+    <string name="uninstall_failed_device_policy_manager">Tidak dapat menghapus: paket ini adalah
+        perangkat aktif administrator.</string>
     <!-- String on a button that leads to the "device administrator" configuration setting where a
         user will be able to disable the device administrator in order to uninstall
         it. [CHAR LIMIT=50] -->
-    <string name="manage_device_administrators">Manage device administrators</string>
-    <string name="uninstall_failed_msg"><xliff:g id="app_name">%1$s</xliff:g> could not be uninstalled</string>
-    <string name="uninstall_failed_retained_app_msg">This app has been modified and can\'t be uninstalled in its current form.</string>
+    <string name="manage_device_administrators">Kelola administrasi perangkat</string>
+    <string name="uninstall_failed_msg"><xliff:g id="app_name">%1$s</xliff:g> tidak dapat dihapus</string>
+    <string name="uninstall_failed_retained_app_msg">Apl ini telah dimodif dan tidak dapat dihapus dengan kondisinya sekarang.</string>
 
     <!-- Dialog attributes to indicate parse errors -->
     <string name="Parse_error_dlg_title">Parse error</string>
-    <string name="Parse_error_dlg_text">There is a problem parsing the package.</string>
-    <string name="caller_app">Caller: <xliff:g id="APP_NAME">%1$s</xliff:g></string>
-    <string name="safe_guard_support">Technical support provided by <xliff:g id="SUPPORT">%1$s</xliff:g></string>
+    <string name="Parse_error_dlg_text">Terjadi masalah ketika parsing paket.</string>
+    <string name="caller_app">Pemanggil: <xliff:g id="APP_NAME">%1$s</xliff:g></string>
+    <string name="safe_guard_support">Didukung secara teknik oleh <xliff:g id="SUPPORT">%1$s</xliff:g></string>
 
-    <string name="safe_relative">Safe relative permissions</string>
-    <string name="privacy_relative">Private relative permissions</string>
-    <string name="other_relative">Other permissions</string>
+    <string name="safe_relative">Perizinan cukup aman</string>
+    <string name="privacy_relative">Perizinan cukup aman</string>
+    <string name="other_relative">Perizinan lain</string>
 
-    <string name="perm_notice">Alert</string>
-    <string name="trust_switch_dialog_msg">MIUI will not ask you to confirm any security or privacy related operations carried out by this app.</string>
-    <string name="auto_startup_dialog_msg">MIUI will allow this app to start without your permission.</string>
-    <string name="low_risk_perms">Low-risk permissions</string>
-    <string name="high_risk_perms">High-risk permissions</string>
-    <string name="perm_privacy_app_finish">Finish</string>
-    <string name="perm_privacy_app_launch">Launch</string>
-    <string name="perm_privacy_app_installed">Installation complete</string>
-    <string name="perm_sysopt_boost_auto_start">Autostart permission</string>
-    <string name="perm_sysopt_boost_auto_start_summary">This app will start up automatically</string>
-    <string name="perm_privacy_app_trust">I trust this App</string>
-    <string name="perm_privacy_app_trust_summary">MIUI will monitor this App</string>
-    <string name="perm_action_accept">Allow</string>
-    <string name="perm_action_prompt">Ask</string>
-    <string name="perm_action_reject">Deny</string>
+    <string name="perm_notice">Peringatan</string>
+    <string name="trust_switch_dialog_msg">MIUI tidak akan meminta konfirmasi keamanan atau privasi yang berhubungan dengan operasi apl ini.</string>
+    <string name="auto_startup_dialog_msg">MIUI akan mengizinkan apl ini untuk memulai tanpa izin anda.</string>
+    <string name="low_risk_perms">Perizinan resiko rendah</string>
+    <string name="high_risk_perms">Perizinan resiko tinggi</string>
+    <string name="perm_privacy_app_finish">Selesai</string>
+    <string name="perm_privacy_app_launch">Luncurkan</string>
+    <string name="perm_privacy_app_installed">Pemasangan selesai</string>
+    <string name="perm_sysopt_boost_auto_start">Perizinan autostart</string>
+    <string name="perm_sysopt_boost_auto_start_summary">Apl ini akan mulai secara otomatis</string>
+    <string name="perm_privacy_app_trust">Saya percaya Apl ini</string>
+    <string name="perm_privacy_app_trust_summary">MIUI akan mengawasi Apl ini</string>
+    <string name="perm_action_accept">Izinkan</string>
+    <string name="perm_action_prompt">Tanya</string>
+    <string name="perm_action_reject">Tolak</string>
 
-    <string name="unknown_installer">Unidentified PC tools</string>
+    <string name="unknown_installer">Peralatan PC yang tidak teridentifikasi</string>
     <!-- Reason displayed when installation fails because the package incompatible
         with MIUI system. -->
-    <string name="install_failed_system_incompatible" product="default">This app isn\'t compatible with MIUI</string>
+    <string name="install_failed_system_incompatible" product="default">Apl ini tidak kompatibel dengan MIUI</string>
 </resources>
