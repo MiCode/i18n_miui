@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="day_view_new_event_hint">"Acara Baru"</string>
+    <string name="button_day">"D"</string>
+    <string name="button_month">"M"</string>
+
+    <!-- Settings menu list -->
+    <string name="account_and_calendar">Akaun dan Kalendar</string>
+    <string name="account_and_calendar_to_display">Akaun dan kalendar untuk dipaparkan</string>
+    <string name="default_reminder_mode">Default mod peringatan</string>
+    <string name="time_zone">Zon Waktu</string>
+    <string name="show_all_lunar">Tunjuk semua lunar</string>
+    <string name="show_almanac">Tunjuk almanac</string>
+
+    <!-- Month List -->
+    <string name="event_all_day_label">Semua hari</string>
+
+    <!-- New Event -->
+    <string name="event_account">Akaun kalendar</string>
+    <string name="hint_what">Kandungan peringatan acara</string>
+    <string name="event_show_more">Tunjuk</string>
+    <string name="event_hide_more">Sembunyi</string>
+    <string name="presence_label">Status</string>
+
+    <!-- Calendar details -->
+    <string name="event_info_when">Bila:\u0020</string>
+    <string name="event_info_repeat">Pengulangan:\u0020</string>
+    <string name="event_info_where">Di mana:\u0020</string>
+    <string name="event_info_descrip">Penerangan:\u0020</string>
+
+    <!-- Date Picker -->
+    <string name="lunar_date">Tarikh Lunar</string>
+
+    <!-- Widget -->
+    <string name="widget_select_style">Pilih gaya</string>
+    <string name="widget_events">Acara berikutnya</string>
+    <string name="widget_no_events">Seterusnya, tiada agenda</string>
+
+</resources>

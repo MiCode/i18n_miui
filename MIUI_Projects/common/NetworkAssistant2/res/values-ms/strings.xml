@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="empty">""</string>
+    <string name="carrier_cmcc">"%1$s, %2$s, %3$s, %4$s"</string>
+    <string name="carrier_none_cmcc">"%1$s, %2$s, %3$s"</string>
+    <string name="mobile_type">"2G/3G"</string>
+    <string name="wifi_type">"Wi-Fi"</string>
+    <string name="process_kernel_label">"Android"</string>
+    <string name="mobile_traffic">"2G/3G:\u0020%s"</string>
+    <string name="wifi_traffic">"Wi-Fi:\u0020%s"</string>
+    <string name="warning_settings_toast">"%1$d%%\u0020\u0020%2$dMB"</string>
+    
+    <string name="widget_color_exceed_warn">#F9882C</string>
+    <string name="widget_color_uesd_none_exceed_warn">#579D00</string>
+    <string name="widget_color_used_all">#C00203</string>
+
+	<string name="app_name">Penggunaan Data</string>
+    <string name="used_flux">Penggunaan Data</string>
+    <string name="sorted_flux">Sejarah Penggunaan</string>
+    <string name="menu_settings">Tetapan</string>
+    <string name="menu_traffic_adjust">Laras sejarah penggunaan</string>
+    <string name="menu_traffic_settings">Had data bulanan</string>
+    <string name="powered_by"></string>
+    
+    <string name="pref_traffic_settings">Had data bulanan</string>
+    <string name="pref_traffic_adjust_title">Laras sejarah penggunaan</string>
+    <string name="pref_traffic_daily_limit_settings">Tetapan had data harian</string>
+    <!--  <string name="pref_traffic_daily_limit_settings_hint">当天流量超过限额时，自动断网</string>-->
+    <string name="pref_connect_settings_title">Tetapan Pemantauan</string>
+    <string name="pref_connect_settings_notify_in_statusbar">Tunjukkan detik penggunaan data</string>
+    <string name="pref_connect_settings_exceed_limit">Hadkan penggunaan data bulanan</string>
+    <string name="pref_connect_settings_exceed_limit_hint">Ingatkan saya dan berhenti gunakan sambungan data mudah alih ketika saya melebihi had bulanan saya</string>
+    <string name="pref_connect_settings_enable_backgroung">Benarkan penggunaan di latar belakang</string>
+    <string name="pref_connect_settings_enable_backgroung_hint">Benarkan app untuk gunakan sambungan data anda di latar belakang</string>
+    
+    <string name="warning_title">Jangan benarkan penggunaan di latar belakang?</string>
+    <string name="close_txt">Jangan benarkan</string>
+    <string name="cancel_txt">Batal</string>
+    <string name="disable_background_connect_warning">Jika anda tidak benarkan sambungan data mudah alih di latar belakang, sesetengah app dan servis tidak boleh berfungsi secara normal melainkan anda mempunyai sambungan Wi-Fi.</string>
+	<string name="menu_refresh">Muat Semula</string>
+	<string name="menu_sort">Susun mengikut\u2026</string>
+	<string name="menu_display_wifi">Tunjuk trafik Wi-Fi</string>
+	<string name="menu_hide_wifi">Sembunyikan trafik Wi-Fi</string>
+	<string name="menu_display_system_app">Tunjuk proses sistem</string>
+	<string name="menu_hide_system_app">Sembunyikan proses sistem</string>
+	
+	<string name="adjust_traffic_title">Laras sejarah penggunaan</string>
+	<string name="month_traffic_settings_title">Tetapan had bulanan</string>
+	<string name="sort_dialog_title">Susun mengikut\u2026</string>
+	<string name="current_warning_value">Nilai amaran %s</string>
+	
+	<string name="batch_connect_control">Tetapan App</string>
+	<string name="pref_category_adjust_traffic">Laras sejarah penggunaan data</string>
+	<string name="adjust_traffic_manual_adjust">Masukkan secara manual</string>
+	<string name="adjust_traffic_carrier_adjust">Segerak dengan pembekal perkhidmatan</string>
+	<string name="adjust_traffic_relate_settings">Tetapan Berkaitan</string>
+	<string name="adjust_traffic_carrier_settings_title">Pembekal Perkhidmatan Mudah Alih</string>
+	<string name="adjust_traffic_auto_adjust_title">Segerak dengan pembekal perkhidmatan</string>
+	<string name="adjust_traffic_auto_adjust_hint">Penggunaan data anda akan dikemaskinikan secara automatik berdasarkan data yang dibekalkan oleh pembekal perkhidmatan anda</string>
+	<string name="manual_input_used_traffic_title">Laras sejarah penggunaan data</string>
+	<string name="manual_input_used_traffic_hint">Masukkan data yang digunakan dalam kitaran ini</string>
+	<string name="save">Simpan</string>
+    <string name="daily_limit_dialog_hint">Had data harian</string>
+    <string name="input_hint">Masukkan had</string>
+    <string name="daily_limit_dialog_disconnect_hint">Berhenti menggunakan sambungan data mudah alih saya ketika saya telah melebihi had harian saya</string>
+    <string name="daily_limit_result_no_limit">Jangan ingatkan saya ketika saya melebihi had harian saya</string>
+    <string name="daily_limit_result_no_disconnect">Ingatkan saya ketika had harian saya melebihi %dM</string>
+    <string name="daily_limit_result">Berhenti menggunakan sambungan data mudah alih saya ketika penggunaan harian saya melebihi %dM</string>
+    <string name="edit_frame_free_traffic_title">Had data bulanan</string>
+    <string name="edit_frame_warning_title">Nilai Amaran</string>
+    <string name="edit_frame_month_start_title">Tarikh Mula Kitaran</string>
+    <string name="carrier_query_number_title">Konfigurasi nombor pertanyaan pembekal perkhidmatan</string>
+    <string name="carrier_query_number_location">Lokasi</string>
+    <string name="carrier_query_number_carrier">Pembekal Perkhidmatan</string>
+    <string name="carrier_query_number_brand">Servis</string>
+    <string name="unknown_location">Tidak diSet</string>
+    <string name="adjust_traffic_auto_adjust_open_hint">Penggunaan data akan dikemaskini secara automatik berdasarkan maklumat yang dibekalkan oleh pembekal perkhidmatan anda.</string>
+    <string name="unknown_free_traffic_text">Tidak tahu had data bulanan anda?</string>
+    <string name="unknown_free_traffic_title">Bercakap dengan pembekal perkhidmatan anda</string>
+    <string name="unknown_free_traffic_hint">Hubungi pembekal perkhidmatan mudah alih anda untuk mengetahui lebih lanjut tentang had data bulanan anda.</string>
+    <string name="i_known_button">OK</string>
+    <string name="traffic_none">Tiada</string>
+    <string name="disable_background_mobile_connect">Sambungan data mudah alih di latar belakang telah dimatikan</string>
+    
+    <string name="control_app_internet">Tetapan App</string>
+    <string name="fire_rule_program_list">Kebenaran data app</string>
+    <string name="menu_new_install_app_settings">Set lalai</string>
+    <string name="traffic_suffix">data</string>
+    <string name="traffic_suffix_with_uint">data (MB)</string>
+    
+    <string name="app_detail_title">Butiran App</string>
+    <string name="unknown_version">Versi tidak diketahui</string>
+    <string name="app_detail_version">Versi:\u0020%s</string>
+    <string name="app_detail_internet_control_category">Tetapan App</string>
+    <string name="app_detail_internet_background">Benarkan app untuk gunakan sambungan data mudah alih di latar belakang</string>
+    <string name="app_detail_internet_background_traffic">Latar Hadapan: %1$s\u0020\u0020\u0020\u0020 Latar Belakang: %2$s</string>
+    <string name="stop_app_button">Paksa Henti</string>
+    <string name="detail_app_button">Butiran App</string>
+	
+    <string name="plate_traffic_already_used">Digunakan</string>
+	<string name="plate_traffic_remain">Masih tinggal</string>
+	<string name="plate_traffic_exceed">Melebihi</string>
+	<string name="traffic_remain">Masih tinggal</string>
+<!-- 	<string name="apply_rules_failed_known">OK</string>
+    <string name="apply_rules_failed">Gagal untuk aplikasikan tembok api, sila cuba lagi. \n(%s)</string> -->
+    <string name="traffic_total">%s\nJumlah</string>
+    <string name="traffic_used_status">%s\nDigunakan</string>
+    
+    <string name="unknown_traffic_hint">Had data bulanan anda belum dikonfigurasikan</string>
+    <string name="finish_traffic_settings_hint">Maklumat had data dikemaskinikan</string>
+    <string name="finish_traffic_settings_title">Laras Penggunaan Data</string>
+    <string name="finish_traffic_settings_message">Anda telah gunakan %s kitaran ini</string>
+    <string name="dialog_button_adjust">Ya betul</string>
+    
+    <string name="settings_page_adjust_summary_no_carrier">Pembekal perkhidmatan belum diset</string>
+    <string name="settings_page_traffic_summary">Tersedia: %1$s "|" Nilai Amaran: %2$s "|" Tarikh Mula Kitaran: %3$d</string>
+    <string name="settings_page_traffic_summary_no_settings">Had data belum dikonfigurasikan "|" Tarikh Mula Kitaran: %d</string>
+    
+    <string name="sync_traffic_ing">Pertanyaan\u2026</string>
+    <string name="sync_traffic_success">Sejarah penggunaan data dikemaskinikan</string>
+<!--     <string name="sync_traffic_fail_title">Pertanyaan gagal</string> -->
+    <string name="sync_traffic_fail_message">Tiada respon daripada pembekal perkhidmatan. Pelayan mereka mungkin sibuk. Cuba lagi kemudian atau hubungi pembekal perkhidmatan anda %s.</string>
+    <string name="retry">Cuba semula</string>
+    <string name="sync_fail_notify_title">%s pertanyaan gagal</string>
+    <string name="sync_fail_notify_detail">Pembekal perkhidmatan tidak respon kepada pertanyaan</string>
+    
+<!--     <string name="traffic_package_widget_name">Pembantu Rangkaian\u00281x4\u0029</string>
+    <string name="traffic_widget_name">Pembantu Rangkaian\u00281x2\u0029</string>
+    <string name="widget_traffic_total">Pakej: %s</string>
+    <string name="widget_traffic_used_status">Digunakan: %s</string>
+    <string name="today">Hari Ini</string>
+    <string name="this_month">Bulan Ini</string> -->
+    
+    <string name="loading_app">Memuatkan\u2026</string>
+    <string name="cannot_find_sms_cmd">Tidak boleh hantar SMS</string>
+	<string name="sms_template_match_fail">Templat SMS yang anda gunakan tidak sepadan dengan pembekal perkhidmatan anda</string>
+	<string name="traffic_settings_error">Anda menyatakan bahawa had data bulanan anda ialah %1$s. Walau bagaimanapun, maklumat daripada pembekal perkhidmatan anda menunjukkan anda hanya ada %2$s masih tinggal untuk bulan ini.</string>
+	<string name="app_traffic_detail">" %s"</string>
+	<string name="sms_match_fail">Kemaskini SMS gagal</string>
+	
+	<string name="pref_network_status_bar">Notifikasi</string>
+    <string name="pref_network_speed_settings">Tunjuk kelajuan rangkaian</string>
+    <string name="pref_network_speed_internal_title">Selang masa kemaskini kelajuan rangkaian</string>
+    <string name="pref_netwotk_speed_internal_summary">Dikemaskinikan setiap %d saat</string>
+    <string name="force_stop_dlg_title">Paksa henti?</string>
+    <!-- [CHAR LIMIT=200] Manage applications, text for dialog when killing persistent apps-->
+    <string name="force_stop_dlg_text">Jika anda Paksa Henti sesuatu app, ia mungkin berkelakuan ganjil.</string>
+    <!-- 
+    <string name="sync_setting_city">Pertama sekali, anda perlu memilih satu bandar\u2026</string>
+     -->
+    <string name="adjust_traffic_update">Templat kemaskini SMS</string>
+	<string name="adjust_traffic_sms_template_update">Edit templat SMS</string>
+	<string name="updating">Mengemaskinikan\u2026</string>
+	<string name="update_success">Dikemaskini</string>
+	<string name="update_fail">Gagal untuk kemaskini</string>
+	<string name="update_no_network">Tidak dapat sambung ke rangkaian</string>
+
+	<string name="adjust_traffic_carrier_summary_today">Kemaskini terakhir: Hari ini %1$02d:%2$02d </string>
+	<string name="adjust_traffic_carrier_summary_yesterday">Kemaskini terakhir: Semalam %1$02d:%2$02d</string>
+	<string name="adjust_traffic_carrier_summary_three_day_before">Kemaskini terakhir: 3 hari lepas</string>
+	<string name="adjust_traffic_carrier_summary_oneweek_before">Kemaskini terakhir: Seminggu lalu</string>
+	<string name="adjust_traffic_carrier_summary_more_oneweek_before">Kemaskini terakhir: Melebihi seminggu lalu</string>
+	<string name="adjust_traffic_carrier_summary_more_onemonth_before">Kemaskini terakhir: Melebihi sebulan lalu</string>
+	<string name="adjust_traffic_carrier_adjusting">Mengemaskinikan\u2026</string>
+	
+	<string name="menu_sort_by_name">Susun ikut nama</string>
+	<string name="menu_sort_by_mobile_traffic">Trafik 2G/3G</string>
+	<string name="menu_sort_by_all_traffic">Penggunaan Data</string>
+	<string name="menu_sort_by_disabled">App yang dimatikan</string>
+	
+	<string name="notify_traffic_settings_format">%s belum dikaitkan dengan pelan data bulanan anda. Konfigurasikan sekarang?</string>
+    <string name="notify_carrier_settings_format">%s belum dikaitkan dengan pelan data bulanan anda. Konfigurasikan sekarang?</string>
+    <string name="notify_traffic_settings_cancel_hint">Pemantauan penggunaan data akan dimatikan.</string>
+    <string name="carrier_settings_button">Tetapan pembekal perkhidmatan</string>
+    
+    <string name="sync_traffic_no_cmd_title">Tiada templat SMS</string>
+	<string name="sync_traffic_no_cmd_detail">"Hantar bandar, negeri, jenama ICC dan pembekal perkhidmatan anda ke forum berikut: http:\u002F\u002Fwww.miui.com\u002Fforum\u002D172\u002D1.html"</string>
+	<string name="sync_traffic_no_cmd_detail_custom_config">"Selepas anda masukkan maklumat plan data anda, hantar bandar, negeri, jenama ICC dan pembekal perkhidmatan anda ke forum berikut: http:\u002F\u002Fwww.miui.com\u002Fforum\u002D172\u002D1.html"</string>
+	<string name="version_label">Versi:</string>
+	
+	<string name="sms_template_updated_label">Dikemaskinikan:\u0020</string>
+	<string name="unknown">Tidak diketahui</string>
+	
+	<string name="overseas_unknown_traffic_hint">Had penggunaan data bulanan anda belum dikonfigurasikan</string>
+    <string name="overseas_menu_traffic_settings">Konfigurasi sekarang</string>
+    <string name="overseas_menu_traffic_adjust">Laras sejarah penggunaan data</string>
+    <string name="about">Mengenai</string>
+    <string name="fire_rule_title_bar">fire_rule_title_bar</string>
+    <string name="fire_wall_is_closed">Anda menggunakan tembok api yang mungkin menghalang telefon anda daripada bercakap dengan pembekal perkhidmatan anda</string>
+   
+    <string name="text_day">""</string>
+    <string name="text_done">Selesai</string>
+    <string name="text_save">Simpan</string>
+    
+    <string name="yesterday_mobile_format">%s\u0020"Semalam "</string>
+	<string name="today_mobile_format">%s\u0020"Hari Ini "</string>
+	<string name="this_month_mobile_format">%s\u0020"Bulan Ini "</string>
+	<string name="yesterday_wlan">Wi-Fi Semalam</string>
+	<string name="today_wlan">Wi-Fi Hari Ini</string>
+	<string name="this_month_wlan">Wi-Fi Bulan Ini</string>
+	
+	<string name="yesterday_total_traffic_format">%s\u0020"Semalam "</string>
+	<string name="today_total_traffic_format">%s\u0020"Hari Ini "</string>
+	<string name="this_month_total_traffic_format">%s\u0020"Bulan Ini "</string>
+	<string name="another_sim_card_adjusting">Tunggu\u2026 Kad SIM anda yang lain sedang dikemaskinikan.</string>
+	
+	<string name="adjust_no_network_update_data_fail">Tidak dapat berhubung ke rangkaian</string>
+	
+	<string name="custom_adjust_summary">%1$s, %2$s, %3$s</string>
+	
+	<string name="custom_adjust_title">Edit templat SMS</string>
+	<string name="custom_adjust_sender">Nombor Penghantar</string>
+	<string name="custom_adjust_command">Kandungan</string>
+	<string name="custom_adjust_receiver">Nombor Penerima</string>
+	<string name="custom_adjust_sender_hint">Nombor ini digunakan oleh pembekal perkhidmatan anda untuk menerima pertanyaan anda</string>
+	<string name="custom_adjust_command_hit">Ini adalah kandungan mesej yang akan dihantar kepada pembekal perkhidmatan untuk mendapatkan maklumat penggunaan data anda</string>
+	<string name="custom_adjust_receiver_hint">Nombor ini digunakan oleh pembekal perkhidmatan anda untuk menghantar balik maklumat ke telefon anda.</string>
+	<string name="custom_adjust_recevier_same_with_sender">Nombor hampir serupa</string>
+	<string name="custom_adjust_is_empty">%s tidak boleh kosong</string>
+	
+	<string name="app_has_deleted">%s telah dipadamkan</string>
+
+</resources>
