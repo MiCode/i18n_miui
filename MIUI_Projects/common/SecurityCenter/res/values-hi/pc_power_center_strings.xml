@@ -7,7 +7,7 @@
     <string name="power_center_custom_summary_default">सेटिंग्स का अनुकूलन, बैटरी संरक्षण</string>
     <string name="power_center_low_battery_title">ऑटो स्विच </string>
     <string name="power_center_low_battery_summary_default">बैटरी कम होने पर मोड स्विच</string>
-    <string name="power_center_low_battery_summary_dynamic">शेष पावर कम से कम %1$d&#037;&#037 है जब; %2$s को स्विच</string>
+    <string name="power_center_low_battery_summary_dynamic">शेष पावर कम से कम %1$d&#037; है जब; %2$s को स्विच</string>
     <string name="power_center_on_time_title">अनुसूचित</string>
     <string name="power_center_on_time_summary_default">निर्धारित समय पर मोड स्विच</string>
     <string name="power_center_on_time_summary_dynamic">%1$s से %2$s को  %3$s को स्विच</string>

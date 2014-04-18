@@ -21,7 +21,7 @@
     <string name="summary_virus_update">जब Wi-Fi से कनेक्ट हो तब स्वचालित रूप से  वायरस परिभाषाओं को अपडेट करे</string>
     <string name="title_install_virus_no">इनस्टॉल की निगरानी बंद</string>
     <string name="title_install_virus_yes">इनस्टॉल की निगरानी चालू</string>
-    <string name="summary_install_virus">इनस्टॉल करने से पहले वायरस के लिए ऐप की जाँच करें<</string>
+    <string name="summary_install_virus">इनस्टॉल करने से पहले वायरस के लिए ऐप की जाँच करें</string>
     <string name="title_miui_update_no">MIUI अपडेट मिला: %s</string>
     <string name="title_miui_update_yes">MIUI अपडेट है</string>
     <string name="title_app_update_no">%d ऐप के पास अपडेट हे</string>
