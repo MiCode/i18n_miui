@@ -373,7 +373,7 @@ termasuk kata sandi, nomor kartu kredit, dan data personal lainnya. Apakah anda 
     <string name="virus_scan_app_uninstall">Hapus (% d)</string>
     <string name="virus_scan_app_force_stop">Pemindaian dihentikan sejenak</string>
     <string name="virus_scan_app_find_risk">% d resiko ditemukan</string>
-    <string name="virus_scan_app_scan_finish"Pemindaian Selesai</string>
+    <string name="virus_scan_app_scan_finish">Pemindaian Selesai</string>
     <string name="virus_scan_app_no_risk">Resiko tidak ditemukan</string>
     <string name="virus_scan_app_is_stop_scan">Hentikan pemindaian?</string>
 
@@ -589,7 +589,7 @@ termasuk kata sandi, nomor kartu kredit, dan data personal lainnya. Apakah anda 
 
     <string name="next_button_label">Berikutnya</string>
     <string name="internal_media_format_final_desc">Hapus media penyimpan internal? Anda tidak dapat membalikan aksi ini! Perangkat akan direset setelah media penyimpan data internal dihapus.</string>
-    <string name="internal_media_format_desc"Hapus media penyimpan internal? <b>Semua</b> data akan dihapus, Perangkat akan direset setelah media penyimpan data internal dihapus.</string>
+    <string name="internal_media_format_desc">Hapus media penyimpan internal? <b>Semua</b> data akan dihapus, Perangkat akan direset setelah media penyimpan data internal dihapus.</string>
     <string name="internal_media_format_button_text">Hapus media penyimpan internale</string>
     <string name="internal_media_format_title">Hapus media penyimpan internal</string>
     <!-- Internal Storage & phone storage settings item title that will result in the phone formatting the Internel storage.   [CHAR LIMIT=25] -->
@@ -654,7 +654,7 @@ termasuk kata sandi, nomor kartu kredit, dan data personal lainnya. Apakah anda 
     <string name="wifi_share_summary1">Pengguna MIUI dapat membagikan jaringan Wi-Fi publik (kafe, restoran, hotel, dll.) kepada pengguna lainnya.</string>
     <string name="wifi_share_summary2">" Ketika pengguna MIUI lainnya membagikan jaringannya, anda dapat terhubung langsung tanpa kata sandi."</string>
     <string name="wifi_share_summary3">Berbagilah koneksi Wi-Fi kepada sesama pengguna MIUI.</string>
-    <string name="wifi_share_add"Bagikan jaringan publik saya</string>
+    <string name="wifi_share_add">Bagikan jaringan publik saya</string>
     <string name="wifi_share_count">Anda telah membagikan jaringan <xliff:g id="COUNT">%d</xliff:g> </string>
     <string name="wifi_share_notification_summary">MIUI telah menghubungkan anda ke jaringan Wi-Fi publik.</string>
     <string name="wifi_share_add_summary">Ketika anda membagikan jaringan anda, anda dapat menggunakan jaringan orang lain juga</string>
