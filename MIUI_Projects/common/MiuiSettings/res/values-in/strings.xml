@@ -740,7 +740,7 @@ termasuk kata sandi, nomor kartu kredit, dan data personal lainnya. Apakah anda 
     <string name="current_use_ese">Gunakan elemen tumpangan yang diamankan</string>
 
     <string name="open_wifi_connect_title">Hubungkan ke jaringan terbuka <xliff:g id="NAME">%1$s</xliff:g></string>
-    <string name="open_wifi_connect_summary">Sentuh untuk mengelola/string>
+    <string name="open_wifi_connect_summary">Sentuh untuk mengelola</string>
     <string name="free_wifi_summary">Wi-Fi bebas penggunaan，disediakan oleh <xliff:g id="NAME">%1$s</xliff:g></string>
     <string name="free_wifi_connect_title">Wi-Fi tersedia</string>
     <string name="free_wifi_connect_summary">Ini adalah Wi-fi yang dapat digunakan bebas disediakan oleh <xliff:g id="NAME">%1$s</xliff:g>. Tap to connect. </string>
