@@ -208,7 +208,7 @@
     <string name="activating">Mengaktifkan\u2026</string>
 
     <string name="wifi_enable_watchdog_service_summary">Hindari koneksi buruk</string>
-    <string name="wifi_disabled_help">Wi-Fi terputus karena koneksi yang buruk<tring>
+    <string name="wifi_disabled_help">Wi-Fi terputus karena koneksi yang buruk</string>
     <string name="wifi_wps_overlap_error">Sesi Wi-Fi lain terdeteksi. Silahkan coba lagi beberapa menit.</string>
     <string name="wifi_p2p_wps_setup">WPS setup</string>
 
