@@ -79,7 +79,7 @@
     <string name="st_settings_name">Blocklist settings</string>
     <string name="st_block_setting_group">Blocklist settings</string>
     <string name="st_block_setting_title">Calls and messages</string>
-    <string name="st_block_all">Block calls and messages</string>
+    <string name="st_block_all">Block calls and messgaes</string>
     <string name="st_mute_all">Silence calls and messages</string>
     <string name="st_block_mute">Block calls and silence messages</string>
     <string name="st_mute_block">Silence calls and block messages</string>
