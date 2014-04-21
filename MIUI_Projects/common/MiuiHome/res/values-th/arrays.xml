@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="widget_sizes" translatable="false">
+        <item>home_edit_box_area_1_1</item>
+        <item>home_edit_box_area_1_2</item>
+        <item>home_edit_box_area_1_3</item>
+        <item>home_edit_box_area_1_4</item>
+        <item>home_edit_box_area_2_1</item>
+        <item>home_edit_box_area_2_2</item>
+        <item>home_edit_box_area_2_3</item>
+        <item>home_edit_box_area_2_4</item>
+        <item>home_edit_box_area_3_1</item>
+        <item>home_edit_box_area_3_2</item>
+        <item>home_edit_box_area_3_3</item>
+        <item>home_edit_box_area_3_4</item>
+        <item>home_edit_box_area_4_1</item>
+        <item>home_edit_box_area_4_2</item>
+        <item>home_edit_box_area_4_3</item>
+        <item>home_edit_box_area_4_4</item>
+    </string-array>
+    <array name="item_shake_animation_scaler">
+        <item>0dp</item>
+        <item>-4dp</item>
+        <item>2dp</item>
+        <item>-1dp</item>
+        <item>0dp</item>
+    </array>
+    <array name="app_locating_animation_scaler">
+        <item>1.0</item>
+        <item>1.4</item>
+        <item>0.9</item>
+        <item>1.1</item>
+        <item>1.0</item>
+    </array>
+    <string-array name="transformation_entries">
+        <item>สไลด์รอบ</item>
+        <item>สไลด์</item>
+        <item>จางหาย</item>
+        <item>ตก</item>
+        <item>หน้า</item>
+        <item>เรียงซ้อน</item>
+        <item>หมุน</item>
+        <item>ลุกบาศก์</item>
+    </string-array>
+    <string-array name="transformation_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>5</item>
+        <item>7</item>
+        <item>8</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="wallpaper_scroll_entries">
+        <item>ธีมเริ่มต้น</item>
+        <item>ตรงกลาง</item>
+        <item>ซ้าย</item>
+        <item>ขวา</item>
+    </string-array>
+    <string-array name="wallpaper_scroll_values">
+        <item>โดยธีม</item>
+        <item>ตรงกลาง</item>
+        <item>ซ้าย</item>
+        <item>ขวา</item>
+    </string-array>
+    <string-array name="cell_layout_size_entries">
+        <item>4x4</item>
+        <item>4x5</item>
+    </string-array>
+        <string-array name="cell_layout_size_values">
+        <item>4x4</item>
+        <item>4x5</item>
+    </string-array>
+
+    <string-array name="gadget_weather_theme_type_entries">
+        <item>ค่าเริ่มต้น</item>
+        <item>คลาสสิก</item>
+    </string-array>
+
+    <array name="gadget_weather_image">
+        <item>แจ่มใส</item>0  晴
+        <item>เมฆมาก</item>1  多云
+        <item>หมอก</item>2  阴
+        <item>หมอกหนา</item>3  雾
+        <item>พายุฝนรุนแรง</item>4  特大暴雨
+        <item>พายุฝน</item>5  大暴雨
+        <item>ฝนตกหนัก</item>6  暴雨
+        <item>ฝนฟ้าคะนอง</item>7  雷阵雨
+        <item>ฝนตกปรอยๆ</item>8  阵雨
+        <item>ฝนตกหนัก</item>9  大雨
+        <item>ฝนตก</item>0  中雨
+        <item>ฝนตกปรอยๆ</item>1  小雨
+        <item>ฝนหมิะ</item>2  雨夹雪
+        <item>พายุหิมะ</item>3   暴雨
+        <item>หิมะกระจาย</item>4  阵雪
+        <item>หิมะตกหนัก</item>5  大雪
+        <item>หิมะตก</item>6  中雪
+        <item>หิมะตกเล็กน้อย</item>7  小雪
+        <item>พายุทรายหนัก</item>8  强沙尘暴
+        <item>พายุทราย</item>9  沙尘暴
+        <item>พายุทรายเล็กน้อย</item>0  沙尘
+        <item>พายุทราย</item>1  扬沙
+        <item>ลูกเห็น</item>2  冰雹
+        <item>ฝุ่นละออง</item>3  浮尘
+        <item>หมอกควัน</item>4  霾
+    </array>
+    <string-array name="editing_mode_entries">
+        <item>ย้ายแอป</item>
+        <item>วิดเจ็ต</item>
+        <item>ภาพหน้าจอ</item>
+        <item>เอฟเฟค</item>
+    </string-array>
+    <string-array name="editing_mode_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+</resources>

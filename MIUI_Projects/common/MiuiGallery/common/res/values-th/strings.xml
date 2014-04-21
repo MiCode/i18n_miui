@@ -592,148 +592,148 @@
     <string name="loading_image">กำลังดาวน์โหลดรูปภาพ\u2026</string>
     <string name="loading_suspend">หยุดดาวน์โหลดชั่วคราว: ดำเนินการต่อเมื่อการเชื่อมต่อ Wi-Fi สามารถใช้งานได้</string>
     <string name="confirm_download_video_title">ดาวน์โหลดวิดีโอ</string>
-    <string name="confirm_download_video_message">You need to finish downloading this video before you can watch it. Download will resume when Wi-Fi connection is available.</string>
-    <string name="image_download_item_title">Download image(%s)</string>
-    <string name="item_not_sync">This item has not been synchronized to the cloud and can not be downloaded</string>
+    <string name="confirm_download_video_message">จำเป็นต้องดาวนืโหลดวิดีโอนี้ก่อนจึงสามารถดูได้ จะดาวน์โหลดวิดีโอต่อเมื่อมีการเชื่อมต่อ Wi-Fi สามารถใช้งานได้</string>
+    <string name="image_download_item_title">ดาวน์โหลดรูปภาพ(%s)</string>
+    <string name="item_not_sync">รายการนี้ยังไม่ซิงค์ไปยังคลาวด์และไม่สามารถดาวน์โหลดได้</string>
 
-    <string name="cloud_album_more_settings">Sync with Mi Cloud</string>
-    <string name="browse_category">Display</string>
-    <string name="photo_page_save_image">Save</string>
-    <string name="photo_page_save_uri_image_ok">Photo saved to Camera photos.</string>
-    <string name="photo_page_save_uri_image_fail">Failed to save photo.</string>
+    <string name="cloud_album_more_settings">ซิงค์ด้วยคลาวด์</string>
+    <string name="browse_category">แสดง</string>
+    <string name="photo_page_save_image">บันทึก</string>
+    <string name="photo_page_save_uri_image_ok">รูปภาพบันทึกไปยังรูปภาพกล้อง</string>
+    <string name="photo_page_save_uri_image_fail">บันทึกรูปภาพล้มเหลว</string>
     <!-- &#160; is space character -->
     <string name="albumset_page_title_separator">&#160;|&#160;</string>
 
-    <string name="cloud_tab_all">All</string>
-    <string name="cloud_tab_albums">Albums</string>
-    <string name="cloud_tab_locations">Locations</string>
-    <string name="cloud_album_set_create">New</string>
-    <string name="cloud_album_set_scan_qr_code">QR code</string>
-    <string name="scan_qr_code_failure">Fail to scan</string>
+    <string name="cloud_tab_all">ทั้งหมด</string>
+    <string name="cloud_tab_albums">อัลบั้ม</string>
+    <string name="cloud_tab_locations">ที่ตั้ง</string>
+    <string name="cloud_album_set_create">ใหม่</string>
+    <string name="cloud_album_set_scan_qr_code">รหัส QR</string>
+    <string name="scan_qr_code_failure">สแกนล้มเหลว</string>
 
-    <string name="big_screen_alertdialog_title">Device list</string>
+    <string name="big_screen_alertdialog_title">รายการอุปกรณ์</string>
 
     <string name="comma">,&#160;</string>
     <string name="quotation">\"<xliff:g>%s</xliff:g>\"</string>
 
     <!-- Strings for share user picker -->
-    <string name="by_sms">Text message</string>
-    <string name="by_email">Email</string>
-    <string name="by_others">Others</string>
-    <string name="enter_email_hint">"Enter email address"</string>
+    <string name="by_sms">ข้อความ</string>
+    <string name="by_email">อีเมล</string>
+    <string name="by_others">อื่นๆ</string>
+    <string name="enter_email_hint">"ใส่ที่อยู่อีเมล"</string>
 
-    <string name="messagelist_sender_self">Me</string>
-    <string name="adding_recipients">Adding recipients\u2026</string>
-    <string name="pick_too_many_recipients">Too many recipients</string>
-    <string name="cannot_send_message">Can\'t send message</string>
-    <string name="has_invalid_recipient">Invalid recipient(s): &lt;<xliff:g id="name">%1$s</xliff:g>&gt;</string>
-    <string name="to_count">%d total</string>
-    <string name="context_menu_add_contact">Add to contacts</string>
-    <string name="context_menu_copy_notice">Selection copied to clipboard</string>
+    <string name="messagelist_sender_self">ฉัน</string>
+    <string name="adding_recipients">กำลังเพิ่มผู้รับ\u2026</string>
+    <string name="pick_too_many_recipients">ผู้รับมากเกินไป</string>
+    <string name="cannot_send_message">ไม่สามารถส่งข้อความ</string>
+    <string name="has_invalid_recipient">ผู้รับไม่ถูกต้อง: &lt;<xliff:g id="name">%1$s</xliff:g>&gt;</string>
+    <string name="to_count">%d ทั้งหมด</string>
+    <string name="context_menu_add_contact">เพิ่มไปยังรายชื่อ</string>
+    <string name="context_menu_copy_notice">คัดลอกข้อความไปยังคลิปบอร์ดแล้ว</string>
     <string name="recipient_editor_count_format">%d</string>
-    <string name="menu_view_contact">View contact</string>
-    <string name="invalid_recipient_message">The recipient names you entered are invalid</string>
-    <string name="cannot_send_message_reason">No valid recipients</string>
-    <string name="too_many_recipients">Too many recipients (<xliff:g id="currentCount">%1$s</xliff:g>). (Max: <xliff:g id="maxLimit">%2$s</xliff:g> recipients)</string>
-    <string name="context_menu_copy">Copy</string>
-    <string name="try_to_send">Send</string>
-    <string name="email_picker_title">Add shared Email</string>
-    <string name="request_sms_url_failed">Fail to request info</string>
-    <string name="request_sms_url_title">Hint</string>
-    <string name="request_sms_url_msg">Requesting info\u2026</string>
-    <string name="fail_to_pick_email">Email invalid</string>
-    <string name="share_by_email_successfully">Shared <xliff:g id="NAME">%1$s</xliff:g></string>
-    <string name="share_by_email_start">"Share <xliff:g id="NAME">%1$s</xliff:g> in background"</string>
-    <string name="exit_share">Exit album</string>
-    <string name="exit_share_in_process">"Exiting\u2026"</string>
-    <string name="exit_share_successfully">"Exited <xliff:g id="NAME">%1$s</xliff:g>"</string>
-    <string name="exit_share_failed">"Failed to exit <xliff:g id="NAME">%1$s</xliff:g>"</string>
-    <string name="cancel_hint">Operation canceled</string>
-    <string name="fail_hint">Operation failed</string>
-    <string name="kick_sharer">"Remove shared used"</string>
-    <string name="kick_sharer_successfully">"User removed"</string>
-    <string name="kick_sharer_failed">"Failed to remove user"</string>
-    <string name="accept_or_deny">"<xliff:g id="NAME">%1$s</xliff:g> shared album<xliff:g id="ALBUM">%2$s</xliff:g> with you."</string>
-    <string name="accept">"Accept"</string>
-    <string name="deny">"Reject"</string>
-    <string name="enable_cloud_for_sharing">You need enable cloud albums to view shared pictures.</string>
-    <string name="operation_in_process">"Processing\u2026"</string>
-    <string name="operation_failed">"Operation failed"</string>
-    <string name="operation_successful">"Done"</string>
-    <string name="invalid_invition_url">Invalid invitation URL</string>
-    <string name="user_alias_self">Self</string>
-    <string name="kick_owner_user_title">Remove this member?</string>
-    <string name="kick_owner_user_positive_button_text">Remove</string>
-    <string name="initializing_cloud">Initializing\u2026</string>
-    <string name="open_public_title">Share publicly</string>
-    <string name="open_public_message">Generate a url and send it to others</string>
-    <string name="publishing">Publishing\u2026</string>
-    <string name="publish_succeeded">Album published</string>
-    <string name="publish_failed">Failed to publish</string>
-    <string name="unpublish_succeeded">Album unpublished</string>
-    <string name="unpublish_failed">Failed to unpublish</string>
-    <string name="send_public_url">Send album URL</string>
-    <string name="public_url_descript">Anyone can visit your album using this URL</string>
-    <string name="share_public_url_text">I\'ve shared the album <xliff:g id="ALBUM_NAME">%1$s</xliff:g> with you. View it at <xliff:g id="URL">%2$s</xliff:g></string>
-    <string name="unpublishing">Cancelling\u2026 </string>
-    <string name="operation_too_often">Your operation exceeds frequency limit, please try after 1 minute.</string>
-    <string name="cannot_remove_creator">Can\'t remove creator</string>
-    <string name="exit">Exit</string>
-    <string name="album_share_exit_confirm">Exit the album?</string>
-    <string name="get_album_info_in_process">Requesting shared album\'s details\u2026</string>
+    <string name="menu_view_contact">แสดงรายชื่อ</string>
+    <string name="invalid_recipient_message">ชื่อผู้รับไม่ถูกต้อง</string>
+    <string name="cannot_send_message_reason">ชื่อผู้รับไม่ถูกต้อง</string>
+    <string name="too_many_recipients">ผู้รับมากเกินไป (<xliff:g id="currentCount">%1$s</xliff:g>). (มากที่สุด: <xliff:g id="maxLimit">%2$s</xliff:g> ผู้รับ)</string>
+    <string name="context_menu_copy">คัดลอก</string>
+    <string name="try_to_send">ส่ง</string>
+    <string name="email_picker_title">เพิ่มแบ่งปันอีเมล</string>
+    <string name="request_sms_url_failed">ร้องขอข้อมูลล้มเหลว</string>
+    <string name="request_sms_url_title">คำใบ้</string>
+    <string name="request_sms_url_msg">กำลังร้องขอข้อมูล\u2026</string>
+    <string name="fail_to_pick_email">อีเมลไม่ถูกต้อง</string>
+    <string name="share_by_email_successfully">แบ่งปัน <xliff:g id="NAME">%1$s</xliff:g></string>
+    <string name="share_by_email_start">"แบ่งปัน <xliff:g id="NAME">%1$s</xliff:g> ในพื้นหลัง"</string>
+    <string name="exit_share">ออกจากอัลบั้ม</string>
+    <string name="exit_share_in_process">"กำลังออก\u2026"</string>
+    <string name="exit_share_successfully">"ออก <xliff:g id="NAME">%1$s</xliff:g>"</string>
+    <string name="exit_share_failed">"ออกล้มเหลว <xliff:g id="NAME">%1$s</xliff:g>"</string>
+    <string name="cancel_hint">ดำเนินการถูกยกเลิกแล้ว</string>
+    <string name="fail_hint">ดำเนินการล้มเหลวแล้ว</string>
+    <string name="kick_sharer">"ลบแบ่งปันที่ใช้"</string>
+    <string name="kick_sharer_successfully">"ลบผู้ใช้แล้ว"</string>
+    <string name="kick_sharer_failed">"ลบผู้ใช้ล้มเหลว"</string>
+    <string name="accept_or_deny">"<xliff:g id="NAME">%1$s</xliff:g> อัลบั้มแบ่งปัน<xliff:g id="ALBUM">%2$s</xliff:g> กับคุณ"</string>
+    <string name="accept">"ยอมรับ"</string>
+    <string name="deny">"ปฏิเสธ"</string>
+    <string name="enable_cloud_for_sharing">จำเป็นต้องเปิดใช้งานอัลบั้มคลาวด์เพื่อแสดงรูปภาพแบ่งปัน</string>
+    <string name="operation_in_process">"กำลังดำเนินการ\u2026"</string>
+    <string name="operation_failed">"ดำเนินการล้มเหลว"</string>
+    <string name="operation_successful">"เสร็จสิ้น"</string>
+    <string name="invalid_invition_url">URL คำเชิญไม่ถูกต้อง</string>
+    <string name="user_alias_self">ตัวเอง</string>
+    <string name="kick_owner_user_title">ลบสมาชิกนี้?</string>
+    <string name="kick_owner_user_positive_button_text">ลบ</string>
+    <string name="initializing_cloud">กำลังเตรียมการ\u2026</string>
+    <string name="open_public_title">แบ่งปันสาธารณะ</string>
+    <string name="open_public_message">สร้าง url และส่งไปยังคนอื่น</string>
+    <string name="publishing">กำลังเผยแพร่\u2026</string>
+    <string name="publish_succeeded">เผยแพร่อัลบั้มแล้ว</string>
+    <string name="publish_failed">เผยแพร่ล้มเหลวแล้ว</string>
+    <string name="unpublish_succeeded">ไม่เผยแพร่อัลบั้มแล้ว</string>
+    <string name="unpublish_failed">ไม่เผยแพร่อัลบั้มล้มเหลว</string>
+    <string name="send_public_url">ส่ง URL อัลบั้ม</string>
+    <string name="public_url_descript">ทุกคนสามารถเยี่ยมชมอัลบั้มโดยใช้ URL</string>
+    <string name="share_public_url_text">แบ่งปันอัลบั้ม<xliff:g id="ALBUM_NAME">%1$s</xliff:g> กับคุณ  แสดงที่ <xliff:g id="URL">%2$s</xliff:g></string>
+    <string name="unpublishing">กำลังยกเลิก\u2026 </string>
+    <string name="operation_too_often">ดำเนินการเกินขีดจำกัด กรุณาลองใหม่หลังจาก 1 นาที</string>
+    <string name="cannot_remove_creator">ไม่สามารถลบผู้สร้าง</string>
+    <string name="exit">ออก</string>
+    <string name="album_share_exit_confirm">ออกอัลบั้ม?</string>
+    <string name="get_album_info_in_process">กำลังร้องขอรายละเอียดแบ่งปันอัลบั้ม\u2026</string>
 
-    <string name="album_share_stat_content">Invitations</string>
-    <string name="album_share_kicked"><xliff:g id="ALBUM">%1$s</xliff:g> is closed</string>
-    <string name="album_share_title_new_album">Share new album</string>
-    <string name="album_share_subtitle_not_ready">Missing album info</string>
-    <string name="album_share_subtitle_requesting">Getting album info\u2026</string>
-    <string name="album_share_subtitle_invited">Shared by <xliff:g id="USER_NAME">%1$s</xliff:g></string>
-    <string name="album_share_subtitle_normal">Shared by <xliff:g id="USER_NAME">%1$s</xliff:g></string>
-    <string name="album_share_subtitle_accepting">Accepting invitation from <xliff:g id="USER_NAME">%1$s</xliff:g>\u2026</string>
-    <string name="album_share_subtitle_denying">Ignoring invitation from <xliff:g id="USER_NAME">%1$s</xliff:g>\u2026</string>
-    <string name="album_share_subtitle_quitting">Exiting\u2026</string>
-    <string name="system_album">System album</string>
-    <string name="owner_album_subtitle">Shared with <xliff:g id="MEMBER_COUNT">%1$s</xliff:g> members</string>
+    <string name="album_share_stat_content">คำเชิญ</string>
+    <string name="album_share_kicked"><xliff:g id="ALBUM">%1$s</xliff:g> ถูกปิดแล้ว</string>
+    <string name="album_share_title_new_album">แบ่งปันอัลบั้มใหม่</string>
+    <string name="album_share_subtitle_not_ready">อัลบั้มข้อมูลขาดหาย</string>
+    <string name="album_share_subtitle_requesting">กำลังรับข้อมูลอัลบั้ม\u2026</string>
+    <string name="album_share_subtitle_invited">แบ่งปันโดย <xliff:g id="USER_NAME">%1$s</xliff:g></string>
+    <string name="album_share_subtitle_normal">แบ่งปันโดย <xliff:g id="USER_NAME">%1$s</xliff:g></string>
+    <string name="album_share_subtitle_accepting">กำลังรับคำเชิญจาก <xliff:g id="USER_NAME">%1$s</xliff:g>\u2026</string>
+    <string name="album_share_subtitle_denying">ปฏิเสธคำเชิญจาก <xliff:g id="USER_NAME">%1$s</xliff:g>\u2026</string>
+    <string name="album_share_subtitle_quitting">กำลังออก\u2026</string>
+    <string name="system_album">อัลบั้มระบบ</string>
+    <string name="owner_album_subtitle">แบ่งปัน <xliff:g id="MEMBER_COUNT">%1$s</xliff:g> สมาชิก</string>
 
-    <string name="album_quota_fulfiled">Can\'t create album: Album limit exceeded</string>
-    <string name="image_quota_fulfiled">Can\'t create image: Image limit exceeded</string>
-    <string name="sharer_quota_fulfiled">Can\'t add user: User limit reached</string>
-    <string name="gallery_setting">Settings</string>
+    <string name="album_quota_fulfiled">ไม่สามารถสร้างอัลบั้ม: เกิดขีดจำกัดอัลบั้ม</string>
+    <string name="image_quota_fulfiled">ไม่สามารถสร้างรูปภาพ: เกิดขีดจำกัดรูปภาพ</string>
+    <string name="sharer_quota_fulfiled">ไม่สามารถเพิ่มผู้ใช้: เกิดขีดจำกัดผู้ใช้</string>
+    <string name="gallery_setting">การตั้งค่า</string>
 
-    <string name="error_unknown_host">No network detected</string>
-    <string name="error_repeat_apply">"This album has already been shared"</string>
-    <string name="error_album_not_exist">"Album doesn\'t exist"</string>
-    <string name="error_invalid_link">"Invalid link"</string>
-    <string name="error_socket_timeout">"Network connection timed out"</string>
-    <string name="error_share_with_creator">You are a member of this album already</string>
-    <string name="error_cloud_not_active">Cloud album not in use</string>
+    <string name="error_unknown_host">ไม่พบเครือข่าย</string>
+    <string name="error_repeat_apply">"อัลบั้มถูกแบ่งปันแล้ว"</string>
+    <string name="error_album_not_exist">"ไม่มีอัลบั้ม"</string>
+    <string name="error_invalid_link">"ลิงค์ไม่ถูกต้อง"</string>
+    <string name="error_socket_timeout">"หมดเวลาการเชื่อมต่อเครือข่าย"</string>
+    <string name="error_share_with_creator">เป็นสมาชิกอัลบั้มนี้อยู่แล้ว</string>
+    <string name="error_cloud_not_active">ไม่ได้ใช้งานอัลบั้มคลาวด์</string>
 
     <!-- white list begins -->
-    <string name="cloud_camera_display_name">Camera photos</string>
-    <string name="camera_folder_display_name">Camera photos</string>
-    <string name="cloud_screenshots_display_name">Screenshots</string>
-    <string name="miui_capture_screen_folder_display_name">Screenshots</string>
-    <string name="internal_camera_folder_display_name">Internal camera Photos</string>
-    <string name="internal_miui_capture_screen_folder_display_name">Internal screenshots</string>
-    <string name="miliao_folder_display_name">MiTalk</string>
-    <string name="miliao_painting_folder_display_name">MiTalk doodles</string>
-    <string name="miliao_saved_folder_display_name">MiTalk saved</string>
-    <string name="mishop_saved_folder_display_name">MiStore saved</string>
-    <string name="demo_video_folder_display_name">Demo video</string>
+    <string name="cloud_camera_display_name">รูปภาพกล้อง</string>
+    <string name="camera_folder_display_name">รูปภาพกล้อง</string>
+    <string name="cloud_screenshots_display_name">ภาพหน้าจอ</string>
+    <string name="miui_capture_screen_folder_display_name">ภาพหน้าจอ</string>
+    <string name="internal_camera_folder_display_name">รูปภาพกล้องภายใน</string>
+    <string name="internal_miui_capture_screen_folder_display_name">ภาพหน้าจอภายใน</string>
+    <string name="miliao_folder_display_name">ทอร์ค</string>
+    <string name="miliao_painting_folder_display_name">ทอร์ค</string>
+    <string name="miliao_saved_folder_display_name">ทอร์คบันทึกแล้ว</string>
+    <string name="mishop_saved_folder_display_name">สโตร์บันทึกแล้ว</string>
+    <string name="demo_video_folder_display_name">วิดีโอตัวอย่าง</string>
     <!-- name after their storage paths -->
-    <string name="ucdownloads_screenshot">UC Browser</string>
+    <string name="ucdownloads_screenshot">UC เบราเซอร์</string>
     <string name="tencent_mobile_qq_img_save">QQ 2012</string>
-    <string name="androidesk_wallpapers">Android wallpapers</string>
+    <string name="androidesk_wallpapers">ภาพหน้าจอ</string>
     <string name="dcim_opaipic">Opaipic</string>
     <string name="mtxx">MTXX</string>
-    <string name="miliao_saved">MiTalk</string>
+    <string name="miliao_saved">ทอร์ค</string>
     <string name="tencent_qq_hd_pic">QQ HD</string>
     <string name="immomo_camera">Immomo</string>
     <string name="weikan_weikan">Weikan TV</string>
     <string name="tencent_qzonepic">Qzone</string>
     <string name="qsbk_save">QSBK</string>
     <string name="sina_weibo_save">Weibo</string>
-    <string name="qqbrowser_img">QQ Browser</string>
+    <string name="qqbrowser_img">QQ เบราเซอร์</string>
     <string name="android_tencent_tencent_weibo">Tencent Weibo</string>
     <string name="netease_newsreader_netease_down_pic">Netease Newsreader</string>
     <string name="renren_image">RenRen</string>
@@ -741,38 +741,38 @@
     <string name="dcim_100media">Taobao TMall</string>
     <string name="beautyphone">Beauty phone</string>
     <string name="dcim_viva_pics">VIVA</string>
-    <string name="baidu_flyflow_downloads">Baidu Browser</string>
+    <string name="baidu_flyflow_downloads">Baidu เบราเซอร์</string>
     <string name="mtgif">MTGIF</string>
     <string name="autohomemain">Autohomemain</string>
     <string name="baidu_bdmobile_downloads">Baidu Mobile</string>
     <string name="tieba">Tie Ba</string>
-    <string name="yellow_page">Directory</string>
+    <string name="yellow_page">ไดเรกเทอรี่</string>
     <!-- white list ends -->
 
     <!-- tips of scanning barcode -->
-    <string name="scan_barcode_to_join">Scan QR code to join an album</string>
-    <string name="where_is_barcode">Where is the QR code?</string>
-    <string name="scan_barcode_guide">To get album QR code, touch the Share icon in the upper-right corner.</string>
-    <string name="confirm">OK</string>
-    <string name="click_top_right">Tap the icon on the top-right</string>
+    <string name="scan_barcode_to_join">สแกนรหัส QR เพื่อเข้าร่วมอัลบั้ม</string>
+    <string name="where_is_barcode">รหัส QR อยู่ที่ไหน?</string>
+    <string name="scan_barcode_guide">เพื่อรับรหัส QR อัลบั้ม สัมผัสไอคอนแบ่งปันมุมบนขวา</string>
+    <string name="confirm">ตกลง</string>
+    <string name="click_top_right">สัมผัสไอคอนบนขวา</string>
 
-    <string name="there_is_no_image">There\'s no image.</string>
+    <string name="there_is_no_image">ไม่มีรูปภาพ</string>
 
-    <string name="preparing_data_to_delete">Preparing to delete images\u2026</string>
+    <string name="preparing_data_to_delete">กำลังเตรียมการลบรูปภาพ\u2026</string>
     <!-- picker -->
-    <string name="picker_tab_camera">Camera</string>
-    <string name="picker_no_items_selected">No items selected</string>
-    <string name="picker_select_album_title_empty">Select an album</string>
-    <string name="picker_no_album_selected">No album selected</string>
+    <string name="picker_tab_camera">กล้อง</string>
+    <string name="picker_no_items_selected">ไม่มีรายการที่เลือก</string>
+    <string name="picker_select_album_title_empty">เลือกอัลบั้ม</string>
+    <string name="picker_no_album_selected">ไม่มีรายการที่เลือก</string>
 
     <!-- smb -->
-    <string name="download">Download</string>
-    <string name="confirm_download">You need to download %s. This tip won\'t be displayed again.</string>
-    <string name="download_fail">Failed to download</string>
-    <string name="download_fail_confirm_continue">Failed to download %s. Continue?</string>
-    <string name="make_download_dir_fail">Failed to create a directory to store the files</string>
-    <string name="delete_smb_file_fail">Failed to delete smb file</string>
-    <string name="new_device_tips">New device found. Click to view it</string>
+    <string name="download">ดาวน์โหลด</string>
+    <string name="confirm_download">จำเป็นต้องดาวน์โหลด %s คำแนะนำนี้จะไม่แสดงอีก</string>
+    <string name="download_fail">ดาวน์โหลดล้มเหลว</string>
+    <string name="download_fail_confirm_continue">ดาวน์โหลดล้มเหลว %s เริ่มต่อ?</string>
+    <string name="make_download_dir_fail">สร้างไดเรกเทอรี่ล้มเหลวเพื่อเก็บไฟล์</string>
+    <string name="delete_smb_file_fail">ลบไฟล์ smb ล้มเหลว</string>
+    <string name="new_device_tips">พบอุปกรณ์ใหม่ สัมผัสเพื่อแสดง</string>
 
     <string name="time_line_view">TimeLine_View</string>
 </resources>
