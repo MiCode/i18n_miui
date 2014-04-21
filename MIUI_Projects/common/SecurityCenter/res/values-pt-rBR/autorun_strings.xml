@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="auto_startup_application_manage">Início automático</string>
+    <string name="auto_startup_count">Permitindo o início automático de %d apps</string>
+    <string name="man_add_application">Adicionar app manualmente</string>
+    <string name="application_item_disable">Desativar</string>
+    <string name="application_item_permission">Permitir</string>
+    <string name="application_item_already_permission">Permitido</string>
+    <string name="application_forbid_auto_startup">Desativar início automático para %s</string>
+    <string name="floating_window_switch_label">Mostrar janela pop-up</string>
+    <string name="floating_window_switch_label_disable">Ocultar janela pop-up</string>
+    <string name="app_floating_window_dlg_enable">Ao ativar as janelas pop-up para <xliff:g id="PACKAGE_NAME">%1$s</xliff:g> será necessária a reinicialização do aplicativo. Você pode reiniciá-lo manualmente caso queira. \nDeseja ativar o recurso agora?</string>
+    <string name="app_floating_window_dlg_disable">Ao desativar as janelas pop-up para <xliff:g id="PACKAGE_NAME">%1$s</xliff:g> será necessária a reinicialização do aplicativo. Você pode reiniciá-lo manualmente caso queira.\nDeseja desativar o recurso agora?</string>
+    <string name="dlg_ok">OK</string>
+    <string name="dlg_cancel">Cancelar</string>
+</resources>

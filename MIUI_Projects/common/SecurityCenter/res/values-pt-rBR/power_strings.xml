@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="power_autorun_control_title">Início automático</string>
+    <string name="power_autorun_control_desc">Aumentar o número de aplicativos que iniciam automaticamente poderá aumentar o consumo de energia</string>
+    <string name="power_usage_sort_title">Ver consumo de enerdia</string>
+    <string name="power_usage_sort_desc">Ordenar apps por consumo de energia</string>
+    <string name="power_mode_select_title">Configurações de energia</string>
+    <string name="power_mode_select_desc">Escolha um perfil de energia que atenda as suas necessidades</string>
+    <string name="power_used_prefix">Energia utilizada</string>
+    <string name="power_used_hours_test">8</string>
+    <string name="power_used_hours">Hrs</string>
+    <string name="power_used_mins_test">23</string>
+    <string name="power_used_mins">Mins</string>
+    <string name="power_battery_history_days">%1$d Dias %2$d Hrs%3$d Mins</string>
+    <string name="power_battery_history_hours">%1$d Hrs %2$d Mins</string>
+    <string name="power_battery_history_minutes">%1$d Mins</string>
+    <string name="power_battery_history_zero_minutes">0 Mins</string>
+    <string name="power_autorun_empty">Nenhum dos seus apps pode ser adicionado </string>
+    <string name="power_autorun_apps_empty">Nenhum app com início automático</string>
+    <string name="power_perm_logs_empty">Nenhum registro</string>
+</resources>

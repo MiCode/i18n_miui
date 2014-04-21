@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="score_descriptions">
+        <item>Lista de bloqueio desativada</item>
+        <item>Gerenciador de permissões desativado</item>
+        <item>Muitos arquivos desnecessários</item>
+        <item>Definições do antivírus desatualizadas</item>
+        <item>Muitos processos em segundo plano</item>
+    </string-array>
+    <string-array name="score_suggests">
+        <item>Ativar a lista de bloqueio</item>
+        <item>Ativar o gerenciador de permissões</item>
+        <item>Limpar lixo</item>
+        <item>Atualizar definições do antivírus</item>
+        <item>Você está executando muitos apps em segundo plano\u2026</item>
+    </string-array>
+
+    <string name="score_good_state">Telefone otimizado</string>
+    <string name="score_need_optimize">Verificação recomendada</string>
+
+</resources>

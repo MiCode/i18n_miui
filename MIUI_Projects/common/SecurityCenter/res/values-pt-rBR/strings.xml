@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">Segurança</string>
+    <string name="action_settings">Configurações</string>
+    <string name="hello_world">Olá mundo!</string>
+    <string name="optimize_now">Iniciar</string>
+    <string name="score">Pontuação</string>
+    <string name="seventy">70</string>
+    <string name="valuation">Limpeza recomendada</string>
+    <string name="virus_scan">Verificar vírus</string>
+    <string name="network_assistant">Uso de dados</string>
+    <string name="anti_spam">Lista de bloqueio</string>
+    <string name="permission_mgr">Permissões</string>
+    <string name="cleaner">Limpeza</string>
+    <string name="power_mgr">Energia</string>
+    <string name="quick_cleanup">Limpar</string>
+
+    <!-- #################### main begin #################### -->
+    <string name="protection_adb">Depuração USB</string>
+    <string name="protection_perm">Configuração de permissões</string>
+    <string name="protection_sms">Filtro de mensagens</string>
+    <string name="start_checking_protection">Verificando proteção em tempo real\u2026</string>
+    <string name="finish_checking_protection">Verificando proteção em tempo real\u2026</string>
+    <string name="start_checking_memory">Verificando condição da memória\u2026</string>
+    <string name="finish_checking_memory">Verificando a memória\u2026</string>
+    <string name="start_checking_trash">Verificando cache de aplicativo\u2026</string>
+    <string name="finish_checking_trash">Verificando cache de aplicativos\u2026</string>
+    <string name="checking">Verificando\u2026 </string>
+    <string name="start_optimize_protection">Otimizando proteção em tempo real\u2026</string>
+    <string name="finish_optimize_protection">Otimizando proteção em tempo real\u2026</string>
+    <string name="start_optimize_memory">Otimizando condição da memória\u2026</string>
+    <string name="finish_optimize_memory">Otimizando a memória\u2026</string>
+    <string name="start_optimize_trash">Otimizando cache de aplicativo\u2026</string>
+    <string name="finish_optimize_trash">Otimizando cache de aplicativos\u2026</string>
+    <string name="optimizing">Otimizando\u2026 </string>
+    <!-- #################### main end #################### -->
+
+
+    <!-- #################### virus scanner begin #################### -->
+    <string name="virus_scanner_title">Antivírus</string>
+    <string name="virus_scanner_scanning">Escaneando&#8230;</string>
+    <string name="virus_scanner_scan">Escanear</string>
+    <string name="virus_scanner_select_lib">Selecionar banco de dados de vírus</string>
+    <string name="virus_scanner_select_trust_lib">Selecionar banco de dados de vírus confiável</string>
+    <string name="virus_scanner_update_lib">Atualizar definições de vírus</string>
+    <string name="virus_scanner_select_multi">Ao selecionar mais de um banco de dados de vírus a performance do escaneamento poderá diminuir.</string>
+    <string name="virus_scanner_select_single">É recomendado que você selecione o banco de dados mais confiável para uso com o programa</string>
+    <string name="virus_scanner_provider">Definições de antivírus fornecidas por Tencent</string>
+    <string name="virus_scanner_module">Tencent</string>
+    <string name="virus_scanner_auto_update">Atualização automática</string>
+    <string name="virus_scanner_date_formater">dd MMM. yyyy</string>
+    <string name="virus_scanner_manual_update">Atualizar em %s</string>
+    <string name="virus_scanner_lib_updating">Atualizando&#8230;</string>
+    <string name="virus_scanner_lib_already_latest">Definições de antivírus atualizadas.</string>
+    <string name="virus_scan_app_safe_scanning">Escaneando\u2026</string>
+    <string name="virus_scan_app_multi_engines">Você selecionou vários mecanismos de escaneamento. A verificação poderá ser mais longa.</string>
+    <string name="virus_scan_app_scanning">Escaneando\u2026</string>
+    <string name="virus_scan_app_waiting">Aguardando\u2026</string>
+    <string name="virus_scan_app_passed">Concluído</string>
+    <string name="virus_scan_app_risk">Ameaças encontradas</string>
+    <string name="virus_scan_app_stop">Parar escaneamento</string>
+    <string name="virus_scan_app_solve">Processar todos</string>
+    <string name="virus_scan_app_finish">Concluído</string>
+    <string name="virus_scan_app_continue">Continuar varredura</string>
+    <string name="virus_scan_app_uninstall">Desinstalar %d apps</string>
+    <string name="virus_scan_app_force_stop">Escaneamento interrompido</string>
+    <string name="virus_scan_app_find_risk">%d apps com potenciais riscos de segurança</string>
+    <string name="virus_scan_app_scan_finish">Escaneamento concluído</string>
+    <string name="virus_scan_app_no_risk">Nenhum risco encontrado</string>
+    <!-- #################### virus scan end #################### -->
+
+
+    <!-- #################### anti-spam begin #################### -->
+    <!-- Added for firewall -->
+    <string name="firewall_settings_tab_title">Regras</string>
+    <string name="black_white_list_tab_title">Filtros</string>
+    <string name="call_log_tab_title">Registro de chamadas</string>
+    <string name="mms_log_tab_title">Registro de mensagens</string>
+    <string name="fw_blacklist">Lista de bloqueio</string>
+    <string name="fw_whitelist">Lista de exceções</string>
+    <string name="enable_firewall">Bloquear chamadas indesejadas</string>
+    <string name="fw_action_settings">Configurações de filtro</string>
+    <string name="fw_time_settings">Programado</string>
+    <string name="fw_start_time">De</string>
+    <string name="fw_end_time">Para</string>
+    <string name="fw_all_day">Diariamente</string>
+    <string name="fw_period">Definir período</string>
+    <string name="fw_advanced_settings">Configurações avançadas</string>
+    <string name="anti_stranger_title">Bloquear chamadas de números desconhecidos</string>
+    <string name="anti_stranger_summary">Bloquear chamadas de números não listados como Contato</string>
+    <string name="anti_private_title">Bloquear números privados</string>
+    <string name="anti_private_summary">Bloquear números privados ou ocultos</string>
+    <string name="fw_keyword_filter">Filtro por palavra-chave</string>
+    <string name="fw_keyword_filter_summary">Bloquear mensagens que contenham as palavras-chave selecinadas</string>
+    <string name="fw_set_keyword">Filtro de palavras-chave</string>
+    <string name="fw_notification_settings">Configuração de notificações</string>
+    <string name="show_firewall_notification">Mostrar notificações de bloqueio</string>
+    <string name="show_notification">Mostrar notificações</string>
+    <string name="opt_reject_blacklist">Rejeitar chamadas de números na lista de bloqueio</string>
+    <string name="opt_reject_blacklist_stranger">Rejeitar chamadas de números desconhecidos ou na lista de bloqueio</string>
+    <string name="opt_reject_blacklist_stranger_summary">Chamadas de números privados serão rejeitadas automaticamente</string>
+    <string name="opt_accept_whitelist">Aceitar chamadas de números na lista de exceções</string>
+    <string name="opt_reject_all">Rejeitar todas as chamadas</string>
+
+    <!-- actions -->
+    <string name="firewall_action">Bloquear ações</string>
+    <string name="act_call">Desviar chamadas imediatamente</string>
+    <string name="act_hangup_call">Não registrar chamadas desviadas</string>
+    <string name="act_hangup_call_summary">Chamadas desviadas não aparecerão em seu registro de chamadas</string>
+    <string name="act_mute_call">Silenciar chamadas indesejadas</string>
+    <string name="act_mute_call_summary">Chamadas recebidas de números bloqueados não serão exibidas mas serão adicionadas no registro de chamada</string>
+    <string name="act_ignore_call">Não registrar chamadas indesejadas</string>
+    <string name="act_action_reject_reject">Desviar chamadas recebidas e mensagens</string>
+    <string name="act_action_reject_mute">Desviar chamadas recebidas e silenciar mensagens</string>
+    <string name="act_action_reject_accept">Desviar chamadas recebidas</string>
+    <string name="act_action_mute_reject">Silenciar chamadas recebidas e desviar mensagens</string>
+    <string name="act_action_mute_mute">Silenciar chamadas e mensagens recebidas</string>
+    <string name="act_action_mute_accept">Silenciar chamadas recebidas</string>
+    <string name="act_action_accept_reject">Desviar mensagens</string>
+    <string name="act_action_accept_mute">Silenciar mensagens</string>
+    <string name="act_action_accept_accept">Aplicar</string>
+    <string name="act_ms">Registrar mensagens</string>
+    <string name="act_del_ms">Não mostrar</string>
+    <string name="act_del_ms_summary">Mensagens rejeitadas não serão exibidas</string>
+    <string name="act_mute_ms">Silenciar notificações</string>
+    <string name="act_mute_ms_summary">Notificações desativadas, mas as mensagens permanecerão acessíveis</string>
+    <string name="act_ignore_ms">Ignorar notificações</string>
+    <string name="fw_menu_new_blacklist_title">Adicionar à lista de bloqueio</string>
+    <string name="fw_menu_new_whitelist_title">Adicionar à lista de exceções</string>
+    <string name="fw_menu_new_manual">Adicionar número</string>
+    <string name="fw_add_list_title">Digitar número de telefone</string>
+    <string name="fw_menu_pick_from_contact">Selecionar dos contatos</string>
+    <string name="fw_menu_remove">Excluir</string>
+    <string name="confirm">OK</string>
+    <string name="no">Não</string>
+    <string name="fw_clear_blacklist">Limpar lista de bloqueio</string>
+    <string name="fw_clear_whitelist">Limpar lista de exceções</string>
+    <string name="fw_restore_ms">Restaurar mensagens</string>
+    <string name="fw_ms">Hora da Mensagem: <xliff:g>%s</xliff:g> (<xliff:g>%d</xliff:g>)</string>
+    <string name="fw_call">Hora da chamada: <xliff:g>%s</xliff:g> (<xliff:g>%d</xliff:g>)</string>
+    <string name="fw_import_blacklist">Importar lista de bloqueio</string>
+    <string name="fw_import_whitelist">Importar lista de exceções</string>
+    <string name="fw_import_blacklist_confirm">%d números selecionados, você deseja realmente importá-los para a lista de bloqueio?</string>
+    <string name="fw_import_whitelist_confirm">%d números selecionados, você deseja realmente importá-los para a lista de exceções?</string>
+    <string name="fw_blacklist_hint">Chamadas e mensagens serão bloqueadas por padrão</string>
+    <string name="fw_whitelist_hint">Chamadas e mensagens não serão bloqueadas por padrão</string>
+    <string name="fw_no_effect">O modo de privacidade não está ativo. Você gostaria de ativá-lo agora?</string>
+    <string name="fw_call_muted">Chamada silenciada.</string>
+    <string name="fw_call_rejected">Chamada desviada.</string>
+    <string name="fw_call_imported">Importar registro de chamadas</string>
+    <string name="fw_ms_muted">Mensagem silenciada.</string>
+    <string name="fw_ms_rejected">Mensagem rejeitada.</string>
+    <string name="fw_ms_filtered">Mensagem filtrada.</string>
+    <string name="fw_ms_imported">Mensagens importadas.</string>
+    <string name="fw_keyword_list">Lista de palavras-chave</string>
+    <string name="fw_keyword_list_hint">Palavras-chave inseridas aqui serão utilizadas para bloquear novas mensagens</string>
+    <string name="menu_edit">Editar</string>
+    <string name="fw_add_keyword">Adicionar palavra-chave</string>
+    <string name="fw_edit_keyword">Editar palavra-chave</string>
+    <string name="fw_clear_all_keyword">Limpar palavras-chave</string>
+    <string name="fw_add_keyword_existing">Palavra-chave %s já definida</string>
+
+    <!-- Added by Libra -->
+    <string name="member_firewall_log">Bloqueado: Número <xliff:g id="tel_count">%d</xliff:g>, detalhes: <xliff:g id="ms_count">%d</xliff:g></string>
+    <string name="clear_all_calllog">Excluir registro de chamadas</string>
+    <string name="clear_all_mslog">Excluir registro de mensagens</string>
+    <string name="calllog">Registro de chamadas</string>
+    <string name="firewall_log">Registro de Bloqueios</string>
+    <!-- reasons -->
+
+
+    <!-- notification -->
+    <string name="fw_on">Lista de bloqueio ativada</string>
+    <string name="fw_blocked">Registro de bloqueio</string>
+    <string name="fw_blocked_count">Interceptado: <xliff:g id="opt">%d</xliff:g> chamadas e <xliff:g id="opt">%d</xliff> mensagens</string>
+    <string name="firewall_settings">Configurações da lista de bloqueio</string>
+    <string name="remove">Excluir</string>
+    <string name="emptylist_fwlog_call">Lista de chamadas bloqueadas vazia</string>
+    <string name="emptylist_fwlog_ms">Lista de mensagens bloqueada vazia</string>
+    <string name="add_button">Adicionar</string>
+    <string name="save_button">Salvar</string>
+    <string name="cancel_button">Cancelar</string>
+    <string name="add_blacklist">Adic. à lista de bloqueio</string>
+    <string name="add_whitelist">Adic. à lista de exceções</string>
+    <string name="edit_blacklist">Editar nota</string>
+    <string name="edit_whitelist">Editar nota</string>
+    <string name="fw_notes_hint">Nota (opcional)</string>
+    <string name="number_add_hint">Inserir número</string>
+    <string name="fw_in_blacklist">%s já está bloqueado! :)</string>
+    <string name="fw_in_whitelist">%s já está na lista de exceções.</string>
+    <string name="fw_import_ms">Importar registro de chamadas e mensagens</string>
+    <string name="confirm_clear_blacklist">Limpar lista de bloqueio?</string>
+    <string name="confirm_clear_whitelist">Limpar lista de exceções?</string>
+    <string name="context_call">Chamar</string>
+    <string name="context_ms">Enviar mensagem</string>
+    <string name="context_new_contact">Novo contato</string>
+    <string name="context_add_contact">Adicionar a contato existente</string>
+    <string name="check_all">Selecionar tudo</string>
+    <string name="check_nothing">Cancelar seleção</string>
+    <string name="close_rule">Desativar regras de bloqueio</string>
+    <string name="fw_log_inf">Registro</string>
+    <string name="remove_contact">Excluir este contato?</string>
+    <string name="remove_inf">Excluir informações?</string>
+    <string name="remove_sms">Excluir todos os registros de mensagem?</string>
+    <string name="remove_call_log">Excluir todos os registros de chamadas?</string>
+    <string name="remove_keyword">Excluir esta palavra-chave?</string>
+    <string name="remove_all_keywords">Excluir todas as palavras-chave?</string>
+    <string name="remove_delete">Excluir</string>
+
+    <!-- Added from V5 -->
+    <!-- Tab -->
+    <string name="blacklist_tab_title">Lista de bloqueio</string>
+    <string name="whitelist_tab_title">Lista de exceções</string>
+    <string name="log_count">(%d)</string>
+    <string name="new_bw_list_button">Adicionar contato</string>
+
+    <!-- Add for mark -->
+    <string name="mark_number_dialog_maintitle">Bloquear e reportar número</string>
+    <string name="mark_number_dialog_subtitle">Desenvolvido parcialmente com Sogou</string>
+    <string name="custom_mark_category">Personalizado</string>
+    <string name="smart_antispam">Identificar números desconhecidos</string>
+    <string name="turn_on_smart_antispam_hint">Identificar chamadas indesejadas</string>
+    <string name="turn_on_smart_antispam_title">Identificar números desconhecidos</string>
+    <string name="turn_on_smart_antispam_summary_on">Disponível somente quando conectado a uma rede Wi-Fi ou 3G</string>
+    <string name="turn_on_smart_antispam_summary_off">Filtrar utilizando banco de dados local</string>
+    <!-- #################### anti-spam end #################### -->
+
+</resources>

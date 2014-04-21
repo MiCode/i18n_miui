@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="process_manage_title">Limpar %1$d processos e liberar %2$s de memória</string>
+    <string name="process_list_empty_hints">Nenhum processo em cache</string>
+
+</resources>
