@@ -57,7 +57,7 @@
     <string name="cit_tool_bluetooth_tx_h">Enter bluetooth single sound test（2.480GHz) mode</string>
     <string name="cit_tool_bluetooth_tx_l">Enter bluetooth single sound test（2.402GHz）mode</string>
     <string name="cit_tool_modem">เครื่องมือทดสอบโมเด็ม</string>
-    <string name="cit_tool_modem_offline_log">Open/Close Offline Log</string>
+    <string name="cit_tool_modem_offline_log">เปิด/ปิด บันทึกการใช้งานออฟไลน์</string>
     <string name="cit_tool_modem_exit_ftm">ออกจากโหมด FTM</string>
     <string name="cit_tool_modem_bugreport">Force MODEM Coredump</string>
     <string name="cit_tool_nfc">เครื่องมือทดสอบ NFC</string>
@@ -194,11 +194,11 @@
     <string name="cit_charger_waiting_out">ถอดสายชาร์ตเดี๋ยวนี้</string>
     <string name="cit_ac_charger_out">ชาร์ตแบบ AC ถูกตัดการเชื่อมต่อแล้ว</string>
     <string name="cit_usb_charger_out">ชาร์ตแบบ USB ถูกตัดการเชื่อมต่อแล้ว</string>
-    <string name="cit_usb_OTG_in">USB OTG device detected</string>
+    <string name="cit_usb_OTG_in">ตรวจพบอุปกรณ์ USB OTG</string>
     <string name="cit_OTG_waiting_in">เชื่อมต่ออุปกรณ์ USB OTG เดี๋ยวนี้</string>
     <string name="cit_OTG_waiting_out">ตัดการเชื่อมต่ออุปกรณ์ USB OTG เดี๋ยวนี้</string>
-    <string name="cit_usb_OTG_out">USB OTG device removed</string>
-    <string name="cit_otg_not_supported">This device doesn\'t support OTG testing</string>
+    <string name="cit_usb_OTG_out">ถอดอุปกณ์ USB OTG แล้ว</string>
+    <string name="cit_otg_not_supported">อุปกณ์นี้ไม่รองรับการทดสอบ OTG</string>
     <string name="cit_sd_mp3_not_existed">There is no file on the SD card called \"music.mp3\"\nAfter you place \"music.mp3\" in the SD card\'s directory, tap the display to play.</string>
     <string name="cit_playing_sd_mp3">กำลังเล่นเพลง .mp3\u2026</string>
     <string name="cit_display_continue">เริ่มทดสอบสัมผัสหน้าจอ</string>

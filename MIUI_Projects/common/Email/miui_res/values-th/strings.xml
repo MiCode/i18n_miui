@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="alert_title_selected">"เลือกทั้งหมด"</string>
+    <string name="alert_selected_all_message">" เลือก %d อีเมล？"</string>
+
+    <string name="account_setup_index_title">"คู่มือการตั้งค่าอีเมล"</string>
+    <string name="account_setup_index_label">"เพิ่มบัญชี"</string>
+    <string name="account_setup_index_other_mails">"อื่นๆ"</string>
+    <string name="account_setup_basic_label">"กรุณากรอกข้อมูลทั่วไป %s บัญชี :"</string>
+    <string name="account_setup_basic_name_label">"ชื่อ (ตัวเลือก)"</string>
+    <string name="account_setup_basic_description_label">"ชื่อบัญชี (ตัวเลือก)"</string>
+
+    <string name="add_quick_responses_action">เขียน</string>
+    <string name="account_security_waiting_policy_key_message">"%s กำลังรับข้อมูลการตั้งค่าความปลอดภัยจากเซิร์ฟเวอร์ กรุณารอ"</string>
+
+    <!-- Text used for default signature -->
+    <string name="default_signature">"ส่งด้วย Xiaomi"</string>
+
+    <string-array name="general_preference_auto_advance_summary_array">
+        <item>"ไปยังอีเมลที่ใหม่กว่าหลังจากลบอีเมล"</item>
+        <item>"ไปยังอีเมลที่เก่ากว่าหลังจากลบอีเมล"</item>
+        <item>"ไปยังกล่องขาเข้าหลังจากลบอีเมล"</item>
+    </string-array>
+    <string name="general_preference_auto_advance_dialog_title">"ล่วงหน้าอัตโนมัติ"</string>
+    <string name="general_preferences_clear_trusted_senders_title">"ซ่อนรูปภาพ"</string>
+    <string name="cleared_trusted_senders_message">"รูปภาพในอีเมลจะไม่ถูกแสดงอัตโนมัติ"</string>
+</resources>
