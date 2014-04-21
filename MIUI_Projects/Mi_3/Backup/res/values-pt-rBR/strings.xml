@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="app_name">Backup</string>
+  <string name="local_app_name">Backup</string>
+  <string name="local_home_title">Backup local</string>
+  <string name="button_backup">Backup</string>
+  <string name="start_backup">Iniciar Backup</string>
+  <string name="button_cancel">Cancelar</string>
+  <string name="backup_empty">Nenhum backup</string>
+  <string name="backup_items_sysdata_tailer">" \u0020dados de sistema, "</string>
+  <string name="backup_items_app_tailer">" \u0020dados de aplicativos "</string>
+  <string name="backup_failed">Falha no backup, tente novamente</string>
+  <string name="backup_recently">" \u0020(Recente)"</string>
+  <string name="sdcard_unmounted">Cartão SD indisponível</string>
+  <string-array name="backup_dialog_content_type">
+    <item>Dados de Wi-Fi</item>
+    <item>Todos os apps</item>
+  </string-array>
+  <string-array name="system_package_label">
+    <item>Navegador</item>
+    <item>Galeria</item>
+    <item>Permissões de aplicativos</item>
+    <item>Câmera</item>
+    <item>Assistente de rede</item>
+    <item>Armazenamento de clima</item>
+    <item>Clima</item>
+  </string-array>
+  <string-array name="system_data_label">
+    <item>Contatos</item>
+    <item>Registro de chamadas</item>
+    <item>Mensagens</item>
+    <item>Mensagens multimídia</item>
+    <item>Configurações de sistema</item>
+    <item>Configurações de Wi-Fi</item>
+    <item>Configurações do launcher</item>
+    <item>Configurações do alarme</item>
+    <item>Anotações</item>
+    <item>Lista de bloqueio</item>
+    <item>Contas do sistema</item>
+  </string-array>
+  <string name="backup_progress">Efetuando backup\u2026</string>
+  <string name="button_ok">OK</string>
+  <string name="button_continue">Continuar</string>
+  <string name="backup_finished">Backup concluído</string>
+  <string name="backup_report">Relatório do Backup</string>
+  <string name="backup_hint">Não reinicie ou desligue seu telefone</string>
+  <string name="menu_patch_delete">Excluir backups</string>
+  <string name="delete">Excluir</string><string name="cancel">Cancelar</string>
+  <string name="delete_backup_process">Excluindo\u2026</string>
+  <string name="backup_error">Falha no backup</string>
+  <string name="delete_failed_backup_confirm">O arquivo de backup selecionado possui erros e não pode ser restaurado.</string>
+  <string name="batch_delete_backup_confirm">Excluir <xliff:g id="COUNT">%d</xliff:g> backup(s)?</string>
+  <string name="start_restore">Restaurar</string>
+  <string name="backup_file_error">Falha no backup</string>
+  <string-array name="app_type_desc">
+    <item>Dados</item>
+    <item>Aplicativo</item>
+    <item>Aplicativo e seus dados</item>
+  </string-array>
+  <string name="unit_byte">"\u0020 bytes"</string>
+  <string name="unit_piece">"\u0020 Item(ns)"</string>
+  <string name="restore_finished">Restauração concluída</string>
+  <string name="restore_report">Relatório de restauração</string>
+  <string name="restore_progress">Restaurando\u2026</string>
+  <string name="restore_contacts_hit">Você precisará efetuar o login novamente para visualizar os dados restaurados.</string>
+  <string name="restore_telephony_hit">O processo de restauração reiniciará o discador do telefone.</string>
+  <string name="restore_launcher_layout_hit">Restaura as configurações do launcher</string>
+  <string name="settings_summary">": configurações do telefone e mensagens"</string>
+  <string name="account_summary">Backup da Conta do Google, Conta Xiaomi e outros dados do usuário</string>
+  <string name="cloud_app_name">Backup Mi Cloud</string>
+  <string name="cloud_home_title">Mi Cloud</string>
+  <string name="prompt_reading">Lendo\u2026</string>
+  <string name="prompt_sending">Enviando\u2026</string>
+  <string name="prompt_writing">Gravando\u2026</string>
+  <string name="backup_new">Novo:</string>
+  <string name="backup_update">Atualizado</string>
+  <string name="backup_delete">Excluído:</string>
+  <string name="findlost_contact">Restaurar contatos</string>
+  <string name="findlost_contact_online">Restaurar contatos da Mi Cloud</string>
+  <string name="cloud_backup_login">Conectar-se à Conta Xiaomi</string>
+  <string name="cloud_backup_hint">Para acessar seus backups, conecte-se agora</string>
+  <string name="cloud_backup_window_title">Backup na Mi Cloud</string>
+  <string name="cloud_restore_window_title">Restauração da Mi Cloud</string>
+  <string name="cloud_restore_title">Restaurar dados do backup</string>
+  <string name="local_backup_window_title">Backup local</string>
+  <string name="local_restore_window_title">Restauração de dados</string>
+  <string name="account_login">Login</string>
+  <string name="miliao_account_login">Login com o MiTalk</string>
+  <string name="miliao_account_guide">Crie uma Conta Xiaomi para aproveitar todos os seus recursos online</string>
+  <string name="auto_backup">Backup automático</string>
+  <string name="contact_title">Contatos</string>
+  <string name="call_title">Registro de Chamadas</string>
+  <string name="sms_title">Mensagens</string>
+  <string name="mms_title">Mensagens Multimídia</string>
+  <string name="wifi_title">Configurações de Wi-Fi</string>
+  <string name="note_title">Anotações Salvas</string>
+  <string name="compute_backup_info">Recuperando informações\u2026</string>
+  <string name="compute_delete_contact_info">Excluindo informações\u2026</string>
+  <string name="unknown_hint">Desconhecido</string>
+  <string-array name="cloud_data_label">
+    <item>Contatos</item>
+    <item>Registro de chamadas</item>
+    <item>Mensagens</item>
+    <item>Configurações de Wi-Fi</item>
+    <item>Anotações</item>
+  </string-array>
+  <string-array name="cloud_account_data">
+    <item>Contatos</item>
+    <item>Configurações de Wi-Fi</item>
+    <item>Anotações</item>
+  </string-array>
+  <string-array name="cloud_sim_data">
+    <item>Registro de chamadas</item>
+    <item>Mensagens</item>
+  </string-array>
+  <string name="task_progress">Progresso</string>
+  <string name="task_pending">Aguardando\u2026</string>
+  <string name="task_pre_running">Preparando\u2026</string>
+  <string name="task_post_running">Finalizando\u2026</string>
+  <string name="task_finished">Finalizado</string>
+  <string name="task_canceled">Cancelado</string>
+  <string name="task_failed">Falha</string>
+  <string name="task_canceled_local">Tarefa Cancelada <xliff:g id="PERCENT">%s</xliff:g></string>
+  <string name="task_canceled_all_local">Cancelar</string>
+  <string name="task_failed_local">Falha ao concluir: <xliff:g id="PERCENT">%s</xliff:g></string>
+  <string name="task_failed_all_local">Falha</string>
+  <string name="task_backup_finished_local">Backup concluído</string>
+  <string name="task_restore_finished_local">Restauração concluída</string>
+  <string name="task_restore_none">Nada a restaurar</string>
+  <string name="task_stopped_exception">Restauração cancelada</string>
+  <string name="sdcard_no_enough_space">Não há espaço suficiente</string>
+  <string name="sdcard_no_enough_space_message">Não há espaço livre suficiente na memória do telefone.</string>
+  <string name="data_no_enough_space">Não há espaço suficiente</string>
+  <string name="data_no_enough_space_message">Não há espaço livre suficiente na memória do telefone.</string>
+  <string name="task_running_hint">O serviço já está sendo executado em segundo plano</string>
+  <string name="task_running_dialog">O serviço de Backup e restauração está sendo executado. Toque em OK para visualizar.</string>
+  <string name="task_running_backup_hint">O serviço já está sendo executado em segundo plano</string>
+  <string name="task_running_restore_hint">O serviço já está sendo executado em segundo plano</string>
+  <string name="task_running_backup_dialog">Backup em progresso. Toque em OK para visualizar.</string>
+  <string name="task_running_restore_dialog">Restauração em progresso. Toque em OK para visualizar.</string>
+  <string name="task_service_not_launched">O serviço ainda não foi iniciado</string>
+  <string name="task_local_backup_cancel_dialog">O Backup não foi concluído. Cancelar mesmo assim?</string>
+  <string name="task_cloud_backup_cancel_dialog">O Backup não foi concluído. Cancelar mesmo assim?</string>
+  <string name="task_restore_cancel_dialog">Interromper a tarefa agora poderá resultar na perda de dados.</string>
+  <string name="task_backup_cancel_progress">Cancelando backup\u2026</string>
+  <string name="task_restore_cancel_progress">Cancelando\u2026</string>
+  <string name="nothing_searched">Nada encontrado</string>
+  <string name="restore_counts">Restauração:</string>
+  <string name="service_stoped">Serviço parado</string>
+  <string name="sc_network_unavailable">Rede indisponível</string>
+  <string name="sc_bad_request">Requisição inválida</string>
+  <string name="sc_unaccess_password_file">Não salvar senha de redes Wi-Fi</string>
+  <string name="sc_service_unavailable">Mi Cloud indisponível</string>
+  <string name="sc_unauthorized">Por favor efetue o login novamente</string>
+  <string name="sc_request_timeout">Requisição expirada</string>
+  <string name="sc_precondition_failed">Sua Conta Xiaomi não foi vinculada a nenhum endereço de e-mail</string>
+  <string name="sc_internal_server_error">Erro interno do servidor</string>
+  <string name="sc_others">Erro desconhecido</string>
+  <string name="succeed">Concluído</string>
+  <string name="fail">Falha</string>
+  <string name="button_return">Voltar</string>
+  <string name="button_next">Avançar</string>
+  <string name="button_finish">Concluído</string>
+  <string name="progress_backup_hint">Criando backup\u2026</string>
+  <string name="cancel_backup">Parar</string>
+  <string name="restore_contact">Restaurar contatos</string>
+  <string name="restore_contact_content">A restauração poderá criar contatos duplicados.</string>
+  <string name="progress_restore_hint">Restaurando\u2026</string>
+  <string name="cancel_restore">Parar</string>
+  <string name="restore_failed">Falha na restauração</string>
+  <string name="local_select_sysdata">Sistema</string>
+  <string name="local_select_userapp">Apps</string>
+  <string name="local_select_account_contact">Conta &amp; contatos</string>
+  <string name="local_no_backup">Nenhum backup local</string>
+  <string name="auto_backup_setting">Configurações de backup automático</string>
+  <string name="auto_backup_open">Ativar backup automático</string>
+  <string name="auto_backup_only_wifi">Somente em Wi-Fi</string>
+  <string name="auto_backup_date">Frequência do backup</string>
+  <string name="auto_backup_time">Agendar backup</string>
+  <string name="auto_backup_choose_title">Itens para o backup</string>
+  <string name="auto_backup_choose">Itens do backup</string>
+  <string name="auto_backup_choose_empty">Nenhum backup</string>
+  <string name="auto_backup_all_user_apps">Todos os aplicativos</string>
+  <string name="auto_backup_selected_user_apps">Aplicativos selecionados</string>
+  <string name="auto_backup_select_user_apps">Selecionar aplicativos</string>
+  <string name="auto_backup_system_data">Sistema</string>
+  <string name="auto_backup_user_data">Aplicativos</string>
+  <string name="auto_backup_progress">Efetuando backup\u2026</string>
+  <string name="backup">Backup</string>
+  <string name="restore">Restaurar</string>
+  <string name="cloud_last_backup">Último backup:</string>
+  <string name="cloud_search">Pesquisando\u2026</string>
+  <string name="cloud_no_backup">Nenhum backup</string>
+  <string name="current_account">Olá, <xliff:g id="ACCOUNT">%s</xliff:g></string>
+  <string name="current_sim">Cartão SIM atual</string>
+  <string name="date_format" translatable="false">dd-MM-yyyy HH:mm:ss</string>
+  <string name="dir_date_format" translatable="false">dd-MM-yyyy_HH-mm-ss</string>
+  <string name="no_network">Falha ao conectar-se à rede</string>
+  <string name="retry">Repetir</string>
+  <string name="select_all">Marcar todos</string>
+  <string name="reverse_all">Desmarcar</string>
+  <string name="refresh">Atualizar</string>
+  <string name="cloud_item_info_summary">\u0020(Local: <xliff:g id="LOCAL_COUNT">%1$s</xliff:g> | Mi Cloud: <xliff:g id="CLOUD_COUNT">%2$s</xliff:g>)</string>
+  <string name="total_num">Total: <xliff:g id="COUNT">%d</xliff:g></string>
+  <string name="cloud_restore_guide">Para restaurar os dados do usuário para <xliff:g id="APP">%s</xliff:g>, toque em Restaurar</string>
+  <string name="import_from_xiaomi_account_hint1">1.\tInstale o MiTalk e conecte-se.\n\thttp://www.miliao.com\n\n2.\tVá nas configurações do MiTalk e selecione \"Efetuar backup de contatos para a Conta Xiaomi\"</string>
+  <string name="import_from_xiaomi_account_hint2"> Se você já possui um backup, toque em Próximo.</string>
+  <string name="import_from_xiaomi_account_hint_title">Utilize o MiTalk para fazer backup de contatos entre dispositivos.</string>
+  <string name="guarded_mode_dialog_title">Você está no modo de privacidade</string><string name="guarded_mode_dialog_message">Esta função não é permitida no modo de privacidade.</string>
+  <string name="multi_select_title">Selecionado(s) <xliff:g id="number" example="15">%1$s</xliff:g> item(ns)</string>
+  <!-- encrypt -->
+  <string name="enable_encrypt_title">Ativar criptografia</string>
+  <string name="disable_encrypt_title">Desativar criptografia</string>
+  <string name="enable_encrypt_indicator">Backup não criptografado, toque para ativar a criptografia.</string>
+  <string name="enable_encrypt">Ativar agora</string>
+  <string name="already_enable_encrypt">Criptografia ativada</string>
+  <string name="enable_encrypt_summery1">Você precisará conectar-se à sua Conta Xiaomi para acessar os backups criptografados.</string>
+  <string name="enable_encrypt_summery2">Seus backups serão criptografados automaticamente. Você precisará conectar-se à sua Conta Xiaomi para acessar estes backups.</string>
+  <string name="enable_encrypt_xiaomi_account">Este backup foi criado por <xliff:g id="account" example="110000">%1$s</xliff:g>. Para restaurar, exclua a conta atual
+e conecte-se como <xliff:g id="account" example="110000">%2$s</xliff:g>.</string>
+  <string name="enable_encrypt_ok">OK</string>
+  <string name="no_encrypt_password">Nenhuma senha</string>
+  <string name="enable_encrypt_fail">Falha ao ativar criptografia</string>
+  <string name="read_encrypt_fail">Falha ao ler backup criptografado</string>
+  <string name="exchange_account">Alternar contas</string>
+
+    <string name="system_backup">Backup</string>
+    <string name="backup_empty_info">" Efetue backup de seus dados, configurações e aplicativos"</string>
+    <string name="system_backup_info">Configurações de sistema e ajustes da tela inicial</string>
+    <string name="software_backup_info">Dados do aplicativo</string>
+    <string name="account_contact_backup_info">Conta do Google, Conta Xiaomi e dados de contatos</string>
+    <string name="select_backup_item">Selecionar itens</string>
+    <string name="restore_data">Restaurar dados</string>
+    <string name="backup_data">Salvar dados</string>
+
+    <!-- cloud app backup & restore-->
+    <string name="cloud_app_backup_title">Backup na Mi Cloud</string>
+    <string name="cloud_app_just_show_in_current_device">Exibir somente apps deste dispositivo</string>
+    <string name="cloud_app_mine">Apps baixados</string>
+    <string name="cloud_app_backup_summary">Efetuar backup automático de aplicativos e dados do usuário quando o telefone estiver carregando e conectado a uma rede Wi-Fi</string>
+    <string name="cloud_app_function_summary">Quando você efetua o backup de seus dados na Mi Cloud, você pode restaurá-los rapidamente em qualquer dispositivo.</string>
+    <string name="cloud_app_restore_action_bar_title">%1$s de seus dados possuem backup</string>
+    <string name="cloud_app_current_device">Dispositivo atual</string>
+    <string name="cloud_app_other_devices">Outros dispositivos</string>
+    <string name="cloud_app_delete_data">Excluir backup</string>
+    <string name="cloud_app_backup_date">"Salvo em "</string>
+    <string name="cloud_app_total_size">Tamanho: %1$s</string>
+    <string name="cloud_app_version_size">Versão: %1$s, Tamanho: %2$s</string>
+    <string name="cloud_app_restore_prompt">A restauração irá substituir os dados existentes no telefone pelos dados salvos na nuvem.</string>
+    <string name="cloud_app_remove_prompt">%1$s de dados serão excluídos.</string>
+    <string name="cloud_app_find_backup_prompt_1">Antes de efetuar a restauração, você deseja salvar os dados atuais?</string>
+    <string name="cloud_app_find_backup_prompt_2">Caso não deseje, os dados serão substituídos durante a restauração.</string>
+    <string name="cloud_app_restore_data_title">Restaurar dados do usuário</string>
+    <string name="cloud_app_restore_app_and_data">Restaurar apps e dados do usuário</string>
+    <string name="cloud_app_restore_summary">Restaurar apps instalados anteriormente e seus dados de usuário</string>
+    <string name="cloud_app_restore_data">Restaurar apps instalados anteriormente</string>
+    <string name="cloud_app_dont_restore">Não restaurar</string>
+    <string name="cloud_app_restore_wifi_prompt">Você precisa estar conectado utilizando uma rede Wi-Fi para restaurar seus dados</string>
+    <string name="cloud_app_restore_query_error_prompt">Falha ao obter dados da Mi Cloud. Apps e dados de usuário serão restaurados automaticamente quando uma conexão de rede for detectada.</string>
+    <string name="cloud_app_device">Dispositivo</string>
+    <string name="cloud_app_data_in_other_devices">Nenhum backup neste dispositivo</string>
+    <string name="cloud_app_no_data">Sem dados</string>
+    <string name="cloud_app_invalid_op">Impossível visualizar dados da nuvem durante uma operação de backup ou restauração.</string>
+    <string name="cloud_app_invalid_op_when_removing">Impossível visualizar dados da nuvem durante a sua exclusão</string>
+    <string name="cloud_app_remove_pending">Aguardando\u2026</string>
+    <string name="cloud_app_remove_progress">Excluindo\u2026</string>
+    <string name="cloud_app_restore_pending">Aguardando\u2026</string>
+    <string name="cloud_app_restore_progress">Restaurando\u2026</string>
+    <string name="cloud_app_backup_pending">Aguardando\u2026</string>
+    <string name="cloud_app_backup_progress">Efetuando backup\u2026</string>
+    <string name="cloud_app_remove_error">Falha ao excluir</string>
+    <string name="cloud_app_restore_error">Falha na restauração</string>
+    <string name="cloud_app_restore_success">Apps restaurados</string>
+    <string name="cloud_app_wait_wifi">Aguardando conexão Wi-Fi</string>
+
+    <string name="cloud_app_backup_cancel">Cancelando backup\u2026</string>
+    <string name="cloud_app_restore_cancel">Cancelando restauração\u2026</string>
+    <string name="cloud_app_remove_cancel">Cancelando\u2026</string>
+
+    <string name="cloud_app_backup_cancel_prompt_title">Parar backup</string>
+    <string name="cloud_app_restore_cancel_prompt_title">Parar restauração</string>
+    <string name="cloud_app_remove_cancel_prompt_title">Parar exclusão</string>
+
+    <string name="cloud_app_backup_cancel_prompt_message">O backup não foi concluído, cancelar mesmo assim?</string>
+    <string name="cloud_app_restore_cancel_prompt_message">A restauração não foi concluída, cancelar mesmo assim?</string>
+    <string name="cloud_app_remove_cancel_prompt_message">A exclusão não foi concluída, cancelar mesmo assim?</string>
+    <string name="cloud_app_check_data">Obtendo dados da Mi Cloud\u2026</string>
+    <string name="cloud_app_check_data_timeout">Tempo limite atingido</string>
+    <string name="cloud_app_load_data">Obtendo lista de backups\u2026</string>
+    <string name="cloud_app_load_data_timeout">Tempo limite atingido</string>
+    <string name="cloud_app_check_data_fail">Falha ao obter dados da Mi Cloud</string>
+    <string name="cloud_app_no_network">Rede indisponível</string>
+    <string name="cloud_app_no_wifi">Wi-Fi indisponível</string>
+    <string name="cloud_app_no_wifi_connect">Nenhuma rede Wi-Fi disponível</string>
+    <string name="cloud_app_loading_with_mobile_network_prompt">Utilizar a conexão de dados móveis para continuar o processo?</string>
+
+    <string name="just_support_op_with_wifi_connected">Esta função é suportada somente em uma conexão Wi-Fi</string>
+    <string name="button_restore">Restaurar</string>
+    <string name="button_abandon">Sobrescrever</string>
+    <string name="button_delete">Excluir</string>
+    <string name="customization"><u>Customizar</u></string>
+    <string name="customization_under_wifi_prompt">Esta função é suportada somente em uma conexão Wi-Fi</string>
+    <string name="my_phone">Meu telefone</string>
+
+</resources>
+
