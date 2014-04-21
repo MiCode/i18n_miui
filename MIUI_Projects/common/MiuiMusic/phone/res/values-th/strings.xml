@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="complete">เสร็จสิ้น</string>
+    <string name="confirm">ยืนยัน</string>
+    <string name="cancel">ยกเลิก</string>
+    <string name="save">บันทึก</string>
+    <string name="select_all">บันทึกทั้งหมด</string>
+    <string name="deselect_all">ปฏิเสธทั้งหมด</string>
+
+    <string name="network_error">เครือข่ายไม่สามารถใช้ได้ เชื่อมต่อไปยังเครือข่ายและลองใหม่อีกครั้ง</string>
+
+    <plurals name="Ntracks_search_result_format">
+        <item quantity="one"><xliff:g id="count">%d</xliff:g> เพลง</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> เพลง</item>
+    </plurals>
+    <plurals name="Ntracks_total">
+        <item quantity="one"><xliff:g id="count">%d</xliff:g> เพลง</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> เพลง</item>
+    </plurals>
+    <plurals name="Nhot_tracks_total">
+        <item quantity="one"><xliff:g id="count">%d</xliff:g> เพลงยอดนิยม</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> เพลงยอดนิยม</item>
+    </plurals>
+    <plurals name="Ntracks_string">
+        <item quantity="one"><xliff:g id="count">%d</xliff:g> เพลง</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> เพลง</item>
+    </plurals>
+    <!-- used in various places to indicate there is some number other than one songs for a given artist or album. -->
+    <plurals name="Ntracks_format">
+        <item quantity="one"><xliff:g id="count">%d</xliff:g> เพลง</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> เพลง</item>
+    </plurals>
+
+    <!-- Used in artists list view, indicates how many albums exist for a given artist. -->
+    <plurals name="Nalbums_format">
+        <!-- number of albums is one -->
+        <item quantity="one"><xliff:g id="count">%d</xliff:g> อัลบั้ม</item>
+        <!-- number of albums is not equal to one -->
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> อัลบั้ม</item>
+    </plurals>
+    <plurals name="Ntracks">
+        <item quantity="one"> เพลง</item>
+        <item quantity="other"> เพลง</item>
+    </plurals>
+    <plurals name="Nalbums">
+        <item quantity="one"> อัลบั้ม</item>
+        <item quantity="other"> อัลบั้ม</item>
+    </plurals>
+    <plurals name="Nartists">
+        <item quantity="one"> ศิลปิน</item>
+        <item quantity="other"> ศิลปิน</item>
+    </plurals>
+    <plurals name="Nplaylists">
+        <item quantity="one"> รายการเล่น</item>
+        <item quantity="other"> รายการเล่น</item>
+    </plurals>
+    <plurals name="Nfolders">
+        <item quantity="one">" โฟลเดอร์"</item>
+        <item quantity="other">" โฟลเดอร์"</item>
+    </plurals>
+    <plurals name="Nitems_batch_selection">
+        <item quantity="one">"%d เลือกแล้ว"</item>
+        <item quantity="other">"%d เลือกแล้ว"</item>
+    </plurals>
+    <plurals name="Ntrack_in_sdcard_format">
+        <item quantity="one">"%d เพลงในการ์ดความจำ"</item>
+        <item quantity="other">"%d เพลงในการ์ดความจำ"</item>
+    </plurals>
+
+    <!-- Toasts after adding song(s) to playlists -->
+    <plurals name="NNNtrackstoplaylist">
+        <!-- message shown when one song was added -->
+        <item quantity="one">1 เพลงถูกเพิ่มไปยังรายการเล่น</item>
+        <!-- message shown when zero or more than one song was added -->
+        <item quantity="other"><xliff:g id="number" example="27">%d</xliff:g> เพลงถูกเพิ่มไปยังรายการเล่น</item>
+    </plurals>
+
+    <plurals name="Ntracks_remove_from_playlist">
+        <item quantity="one">"1 เพลงถูกลบจากรายการเล่น"</item>
+        <item quantity="other">"<xliff:g id="NUMBER">%d</xliff:g> เพลงถูกลบจากรายการเล่น"</item>
+    </plurals>
+
+    <!-- Toasts after adding song(s) to playlists -->
+    <plurals name="NNNtrackstofavoriteplaylist">
+
+        <!-- message shown when one song was added -->
+        <item quantity="one">1 เพลงถูกเพิ่มไปยังรายการเล่น</item>
+        <!-- message shown when zero or more than one song was added -->
+        <item quantity="other"><xliff:g id="number" example="27">%d</xliff:g> เพลงถูกเพิ่มไปยังรายการเล่น</item>
+    </plurals>
+
+    <plurals name="Ntracks_remove_from_favorite_playlist">
+        <item quantity="one">1 เพลงถูกลบจากรายการชื่นชอบ</item>
+        <item quantity="other"><xliff:g id="number" example="27">%d</xliff:g> เพลงถูกลบจากรายการชื่นชอบ</item>
+    </plurals>
+
+    <plurals name="Nsearch_results">
+        <item quantity="one">"<xliff:g id="NUMBER">%d</xliff:g> ผลลัพธ์"</item>
+        <item quantity="other">"<xliff:g id="NUMBER">%d</xliff:g> ผลลัพธ์"</item>
+    </plurals>
+
+    <plurals name="Nonlinecategory">
+        <item quantity="one">" หมวดหมู่"</item>
+        <item quantity="other">" หมวดหมู่"</item>
+    </plurals>
+
+    <plurals name="Nexpiration_reminder">
+        <item quantity="one">"<xliff:g id="NUMBER">%d</xliff:g> วันจะหมดอายุ"</item>
+        <item quantity="other">"<xliff:g id="NUMBER">%d</xliff:g> วันจะหมดอายุ"</item>
+    </plurals>
+
+    <!-- Artist title format -->
+    <string name="artist_details_format"><xliff:g id="ALBUM">%1$s</xliff:g>, <xliff:g id="ARTIST">%2$s</xliff:g></string>
+
+    <!-- Album title format -->
+    <plurals name="album_details_format">
+        <item quantity="one"><xliff:g id="ARTIST">%1$s</xliff:g>, <xliff:g id="COUNT">%2$d</xliff:g> เพลง</item>
+        <item quantity="other"><xliff:g id="ARTIST">%1$s</xliff:g>, <xliff:g id="COUNT">%2$d</xliff:g> เพลง</item>
+    </plurals>
+
+    <!-- Toast confirming that song(s) was/were deleted. -->
+    <plurals name="NNNtracksdeleted">
+        <!-- delete confirmation message for 1 song -->
+        <item quantity="one">1 เพลงถูกลบแล้ว</item>
+        <!-- delete confirmation message for 0 or more than 1 songs -->
+        <item quantity="other"><xliff:g id="songs_to_delete">%d</xliff:g> เพลงถูกลบแล้ว</item>
+    </plurals>
+
+    <plurals name="NTrackstoDownload">
+        <item quantity="one">"1 เพลงจะถูกดาวน์โหลด"</item>
+        <item quantity="other">"<xliff:g id="SONGS_TO_DOWNLOAD">%d</xliff:g> เพลงจะถูกดาวน์โหลด"</item>
+    </plurals>
+
+    <plurals name="Nexpired_remind">
+        <item quantity="one">"<xliff:g id="NUMBER">%d</xliff:g> วันที่เหลืออยู่"</item>
+        <item quantity="other">"<xliff:g id="NUMBER">%d</xliff:g> วันที่เหลืออยู่"</item>
+    </plurals>
+
+    <plurals name="Nvip_expired_remind">
+        <item quantity="other">"เข้าถึงเพลงคุณภาพสูงกำลังจะหมดอายุ (<xliff:g id="NUMBER">%d</xliff:g> วันที่เหลืออยู่)"</item>
+        <item quantity="other">"เข้าถึงเพลงคุณภาพสูงกำลังจะหมดอายุ (<xliff:g id="NUMBER">%d</xliff:g> วันที่เหลืออยู่)"</item>
+    </plurals>
+
+    <!-- sleep mode -->
+    <string name="enter_sleep_mode">ตั้งเวลาปิด</string>
+    <string name="cancel_sleep_mode">ปิดใช้งานตั้งเวลาปิด</string>
+    <string name="select_quit_time">หยุดเล่นหลังจาก\u2026 (นาที)</string>
+    <string name="quit_warining">หยุดเล่นหลังจาก %d นาที</string>
+    <string name="cancle_warining">ปิดใช้งานตั้งเวลาปิดแล้ว</string>
+
+    <!-- refresh media db -->
+    <string name="refresh_media_db">รีเฟรช</string>
+    <string name="refresh_in_processing">กำลังรีเฟรช\u2026</string>
+    <string name="refresh_finish">รีเฟรชเสร็จสิ้น</string>
+    <string name="refresh_start">กำลังรีเฟรช\u2026</string>
+
+    <!-- quit process -->
+    <string name="quit_player">ออก</string>
+
+    <!-- Ringtone settings -->
+    <string name="not_selected">เลือกเพลง</string>
+
+    <string name="file_not_found">ไม่มีไฟล์</string>
+    <!-- settings -->
+    <string name="music_settings">การตั้งค่า</string>
+    <string name="account_setting">บัยชี</string>
+    <string name="account_and_synchronization">บัญชี &amp; ซิงค์</string>
+    <string name="xiaomi_account_setting">บัญชี Xiaomi</string>
+    <string name="bind_baidu_account_setting">บัญชีผูก Baidu</string>
+    <string name="bind_baidu_account_summary">ซิงค์รายการเล่นและสนุกกับบริการอื่นๆโดยผูกบัญชี Baidu ไปยังแอปพลิเคชันเพลง</string>
+    <string name="synchronize_playlist_setting">ซิงค์รายการเล่น</string>
+    <string name="synchronize_playlist_summary">ซิงค์รายการเล่นกับ Mi คลาวด์</string>
+    <string name="not_login">เข้าระบบ</string>
+    <string name="mobile_connect_settings">เครือข่ายมือถือ</string>
+    <string name="download_album_settings">รับปกอัลบั้ม</string>
+    <string name="download_album_summary">ดาวน์โหลดปกอัลบั้มจะเพิ่มการใช้งานข้อมูล</string>
+    <string name="download_lyric_settings">รับเนื้อเพลง</string>
+    <string name="download_lyric_summary">ดาวน์โหลดเนื้อเพลงจะเพิ่มการใช้งานข้อมูล</string>
+    <string name="listen_to_music_online_settings">สตรีมเพลงจาก Baidu</string>
+    <string name="listen_to_online_summary">สตรีมเพลงจะเพิ่มการใช้งานข้อมูล</string>
+    <string name="correct_id3_settings">รับข้อมูลเพลง</string>
+    <string name="correct_id3_summary">ดาวน์โหลดข้อมูลเพลงจะเพิ่มการใช้งานข้อมูล</string>
+
+    <string name="player_display_settings">แสดงตัวเล่น</string>
+    <string name="lyric_display_settings">แสดงเนื้อเพลง</string>
+    <string name="lyric_display_summary">แสดงเนื้อเพลงในหน้าจอเล่นเพลง</string>
+    <string name="album_display_settings">แสดงปกอัลบั้ม</string>
+    <string name="album_display_summary">แสดงปกอัลบั้มในหน้าจอเล่นเพลง</string>
+
+    <string name="lyric_and_album">เนื้อเพลง &amp; อัลบั้ม</string>
+    <string name="android_album_settings">แสดงปกอัลบั้ม</string>
+    <string name="android_album_summary">แสดงไฟล์รูปภาพ</string>
+    <string name="auto_correct_id3_settings">ข้อมูลเพลงที่ถูกต้อง</string>
+    <string name="auto_correct_id3_summary">ทำให้ข้อมูลเพลงถูกต้องอัตโนมัติโดยใช้ Baidu</string>
+
+    <string name="music_filter">กรองไฟล์</string>
+    <string name="filter_by_size">กรองโดยขนาด</string>
+    <string name="filter_by_size_summary">ไม่แสดงไฟล์เสียงเล็ก</string>
+    <string name="filter_by_size_prefix">"ขนาดเล็กสุด: "</string>
+    <string name="filter_by_duration">กรองโดยระยะเวลา</string>
+    <string name="filter_by_duration_summary">ไม่แสดงไฟล์เสียงสั้น</string>
+    <string name="filter_by_duration_prefix">"ระยะเวลาน้อยสุด: "</string>
+    <string name="filter_by_duration_min">0 วินาที</string>
+    <string name="filter_by_duration_max">5 นาที</string>
+    <string name="filter_by_duration_format"><xliff:g id="format">%2$dนาที%5$2dวินาที</xliff:g></string>
+    <string name="filter_by_folder">กรองโดยโฟลเดอร์</string>
+    <string name="filter_by_folder_summary_on">แก้ไขรายการกรอง</string>
+    <string name="filter_by_folder_summary_off">สัมผัสเพื่อกำหนดค่า</string>
+    <string name="select_folder">เลือกโฟลเดอร์</string>
+
+    <string name="shake_and_skip">เขย่าเพื่อข้าม</string>
+    <string name="shake_settings">เขย่าเพื่อข้าม</string>
+    <string name="shake_summary">เขย่าโทรศัพท์เพื่อข้ามไปยังเพลงถัดไปเมื่อกำลังเล่นเพลงอยู่</string>
+    <string name="shake_degree_desc">ความไวเขย่า</string>
+    <string name="shake_degree_low">ต่ำ</string>
+    <string name="shake_degree_high">สูง</string>
+    <string name="shake_while_screen_on_title">ป้องกันข้ามเพลงในกระเป๋า</string>
+    <string name="shake_while_screen_on_title_summary">ข้ามเมื่อเปิดหน้าจอเท่านั้น</string>
+
+    <string name="other_settings">อื่นๆ</string>
+    <string name="play_and_download">ฟังและดาวน์โหลด</string>
+    <string name="play_and_download_summary">ดาวน์โหลดเพลงอัตโนมัติหากฟังเพลงออนไลน์</string>
+    <string name="screen_bright_wake">เปิดเสมอ</string>
+    <string name="screen_bright_wake_summary">เปิดหน้าจอเสมอหากกำลังเล่นเพลง</string>
+    <string name="keep_quit_position_settings">จดจำหน้าจอลสุดท้าย</string>
+    <string name="keep_quit_position_summary">ไปยังหน้าจอสุดท้ายอัตโนมัติหากเปิดแอปพลิเคชันเพลงอีกครั้ง</string>
+    <string name="fade_effect_settings">ลดเสียงเพลง</string>
+    <string name="fade_effect_summary">ลดเสียงเพลงระหว่างเปลี่ยนเพลง</string>
+
+    <string name="filter_notification">เลือกเพลงที่ถูกลบด้วยตัวกรอง</string>
+
+    <!--
+         Menu item that deletes the currently selected item, which might be a single song, or a collection of songs.
+         The user will be prompted to confirm before deletion actually takes place
+    -->
+    <string name="delete_item">ลบ</string>
+    <string name="remove_item">ลบ</string>
+    <!-- Delete confirmation dialog when deleting a single song -->
+    <string name="delete_song_desc">ลบ <xliff:g id="song"> %s</xliff:g>?</string>
+
+    <!-- shown in dialog while the media scanner is starting up -->
+    <string name="scanning">กำลังสแกนการ์ดความจำ\u2026</string>
+    <!-- shown in dialog while the media scanner is starting up -->
+    <string name="scanning_nosdcard">กำลังสแกนหน่วยความจำ USB\u2026</string>
+
+    <!-- Library screen, menu item -->
+    <string name="search_title">ค้นหา</string>
+    <!-- Title of screen when there are no songs, or if the SD card is busy -->
+    <!-- Playlist context menu item to delete the selected playlist. -->
+    <string name="delete_playlist_menu">ลบ</string>
+    <!-- Playlist context menu item to edit the selected playlist -->
+    <string name="rename_playlist_menu">เปลี่ยนชื่อ</string>
+    <string name="rename_album_menu">เปลี่ยนชื่ออัลบั้ม</string>
+    <string name="rename_artist_menu">เปลี่ยนชื่อศิลปิน</string>
+
+    <!-- Transient popup message shown after deleting a playlist -->
+    <string name="playlist_deleted_message">ลบรายการเล่นแล้ว</string>
+    <!-- Transient popup message shown after renaming a playlist -->
+    <string name="playlist_renamed_message">เปลี่ยนชื่อรายการเล่นแล้ว</string>
+    <!-- The name of the pseudo-playlist that holds all the recently added files, shown in title bar of songs list-->
+    <string name="recentlyadded_title">เพิ่มล่าสุด</string>
+    <!-- The name of pseudo-playlist that holds all the recently played files -->
+    <string name="recentlyplayed_title">เล่นล่าสุด</string>
+    <!-- The name of pseudo-playlist that holds all the frequently played files -->
+    <string name="frequentlyplayed_title">เล่นบ่อยสุด</string>
+    <!-- label underneath icon used to indicate that no sd card is present -->
+    <string name="sdcard_missing_message">ไม่พบการ์ดความจำ</string>
+    <!-- label underneath icon used to indicate that no sd card is present -->
+    <string name="sdcard_missing_message_nosdcard">โทรศัพท์ไม่มีหน่วยความจำ USB</string>
+    <!-- label underneath icon used to indicate that the sd card is present, but currently unavailable -->
+    <!-- label underneath icon used to indicate that the sd card is present, but currently unavailable -->
+    <!-- label underneath icon used to indicate sd card is mounted to your computer via USB -->
+    <string name="sdcard_busy_message">การ์ดความจำไม่ว่าง</string>
+    <!-- label underneath icon used to indicate sd card is mounted to your computer via USB -->
+    <string name="sdcard_busy_message_nosdcard">หน่วยความจำ USB ไม่ว่าง</string>
+    <!-- label underneath icon used to indicate there was an error accessing the sd card -->
+    <string name="sdcard_error_message">เกิดข้อผิดพลาดขณะกำลังเข้าถึงการ์ดความจำ</string>
+    <!-- label underneath icon used to indicate there was an error accessing the sd card -->
+    <string name="sdcard_error_message_nosdcard">เกิดข้อผิดพลาดขณะกำลังเข้าถึงหน่วยความจำ USB</string>
+    <string name="no_music_to_play">ไม่มีเพลง</string>
+    <!-- Default name of artist that doesn't have a name in the metadata -->
+    <string name="unknown_artist_name">ศิลปินไม่รู้จัก</string>
+    <!-- Default name of album that doesn't have a name in the metadata -->
+    <string name="unknown_album_name">อัลบั้มไม่รู้จัก</string>
+    <!-- Individual song context menu item -->
+    <string name="ringtone_menu">ใช้เป็นเสียงเรียกเข้า</string>
+    <!-- Toast after setting a song as phone ringtone -->
+    <string name="ringtone_set">\"<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\" ตั้งเป็นเสียงเรียกเข้า</string>
+    <string name="ringtone_not_support">"รูปแบบไม่รองรับ"</string>
+    <!-- Context menu item -->
+    <string name="play_selection">เล่น</string>
+    <!-- Context menu item -->
+    <string name="add_to">เพิ่มไปยัง</string>
+    <string name="add_to_playlist">เพิ่มไปยังรายการเล่น</string>
+    <string name="add_to_favorite">เพิ่มไปยังรายการชื่นชอบ</string>
+    <string name="remove_from_favorite">ลบจากรายการชื่นชอบ</string>
+    <!-- Context menu item -->
+    <string name="queue">รายการเล่นปัจจุบัน</string>
+    <!-- Context menu item -->
+    <string name="new_playlist">ใหม่</string>
+    <!-- Template for newly created playlist name -->
+    <string name="new_playlist_name_template">รายการเล่นใหม่ <xliff:g id="number">%d</xliff:g></string>
+
+    <!-- Toast after selecting an empty playlist -->
+    <string name="emptyplaylist">รายการเล่นที่เลือกว่างเปล่า</string>
+
+    <!-- Shown in the music picker while loading the music database. -->
+    <string name="loading">กำลังโหลด</string>
+    <!-- Menu in music picker to sort the list by track/song name. -->
+    <string name="sort_by_track">เพลง</string>
+    <!-- Menu in music picker to sort the list by album name. -->
+    <string name="sort_by_album">อัลบั้ม</string>
+    <!-- Menu in music picker to sort the list by artist name. -->
+    <string name="sort_by_artist">ศิลปิน</string>
+    <!-- No track -->
+    <string name="empty_track_list">ไม่มีเพลง</string>
+
+    <!-- The string used to describe Music as a searchable item within system search settings. -->
+    <string name="search_settings_description">ศิลปิน อัลบั้ม และเพลง</string>
+
+    <!-- Shown in the search box as a hint -->
+    <string name="search_hint">ค้นหาเพลง</string>
+
+    <!-- Text shown on widget when first loaded -->
+
+    <string name="all_tracks">เพลงทั้งหมด</string>
+
+    <!-- Context menu title -->
+    <string name="send_to">ส่งไปยัง\u2026</string>
+    <string name="send_to_application">ส่งไปยังแอปอื่นๆ</string>
+    <string name="download">ดาวน์โหลด</string>
+    <string name="download_processing">กำลังดาวน์โหลด\u2026</string>
+    <string name="download_completed">ดาวน์โหลดแล้ว</string>
+    <string name="download_batch_start">ดาวน์โหลดทั้งหมด</string>
+    <string name="delete_file_from_sdcard">ลบไฟล์จากการ์ดความจำด้วย</string>
+
+    <!-- 在线歌曲搜索 -->
+    <string name="recommend">แนะนำ</string>
+    <string name="billboard">ยอดนิยม</string>
+    <string name="channel">วิทยุ</string>
+    <string name="new_albums">อัลบั้มใหม่</string>
+    <string name="hot_artists">ศิลปินแนะนำ</string>
+    <string name="search_suggestion">คำแนะนำการค้นหา:</string>
+
+    <string name="online_search_hint">ค้นหาเพลง Baidu</string>
+    <string name="load_channel_in_process">กำลังโหลด\u2026</string>
+    <string name="load_channel_failed">โหลดรายการล้มเหลว</string>
+    <string name="load_bill_in_process">โหลดรายการประกาศ\u2026</string>
+    <string name="load_bill_failed">โหลดรายการล้มเหลว</string>
+    <string name="load_artist_in_process">กำลังโหลด\u2026</string>
+    <string name="load_artist_failed">โหลดรายการล้มเหลว</string>
+    <string name="load_album_in_process">กำลังโหลด\u2026</string>
+    <string name="load_album_failed">โหลดรายการล้มเหลว</string>
+    <string name="load_audio_in_process">กำลังโหลด\u2026</string>
+    <string name="load_audio_failed">โหลดรายการล้มเหลว</string>
+    <string name="load_album_artist_in_process">กำลังโหลด\u2026</string>
+    <string name="load_album_artist_failed">โหลดรายการล้มเหลว</string>
+    <string name="retry">ลองใหม่</string>
+
+    <string name="lrc_search_failed">ไม่สามารถค้นหาเนื้อเพลงได้</string>
+    <string name="lrc_searching">กำลังค้นหาเนื้อเพลง\u2026</string>
+    <string name="lyric_open_other_connect">ดาวน์โหลดเนื้อเพลงโดยใช้เครือข่ายมือถือ</string>
+    <string name="music_open_other_connect">ดาวน์โหลดเพลงโดยใช้เครือข่ายมือถือ</string>
+
+    <!-- 在线歌曲免责声明 -->
+    <string name="impunity_declaration_title">ประกาศ</string>
+    <string name="impunity_declaration">เพลงออนไลน์จากบริการเพลงออนไลน์ Baidu สัมผัส ตกลง เพื่อยอมรับ <a href="http://music.baidu.com/doc/agreement">เงื่อนไขการใช้งาน</a></string>
+    <string name="synchronize_to_baidu_cloud">สำรองข้อมูลเพลงออนไลน์ในรายการเล่นด้วย Baidu คลาวด์</string>
+    <string name="synchronize_guide_toast">เพื่อเปิดใช้งานซิงค์ ไปยัง การตั้งค่า > ซิงค์รายการเล่น</string>
+
+    <!-- 文件过滤 -->
+    <string name="music_filter_helper">กรองไฟล์เหล่านี้จากการแสดงในรายการ</string>
+
+    <!-- 修改歌曲信息 -->
+    <string name="modify_meta">แก้ไขข้อมูลเพลง</string>
+    <string name="id3_edit">แก้ไขข้อมูลเพลงด้วยตนเอง</string>
+    <string name="lyric_download">รับเนื้อเพลง: ดาวน์โหลด</string>
+    <string name="use_local_lyric">รับเนื้อเพลง: เลือกไฟล์ภายใน</string>
+    <string name="album_download">รับปกอัลบั้ม: ดาวน์โหลด</string>
+    <string name="use_local_album">รับปกอัลบั้ม: เลือกไฟล์ภายใน</string>
+    <string name="lyric_picker_not_found">ไม่มีแอปพลิเคชันที่สามารถดำเนินการได้</string>
+    <string name="lrc_select">เลือกเนื้อเพลง</string>
+    <string name="album_picker_not_found">ไม่มีแอปพลิเคชันที่สามารถดำเนินการได้</string>
+    <string name="id3_edit_failed">แก้ไขข้อมูลเพลงล้มเหลว</string>
+    <string name="album_search_failed">ไม่สามารถค้นหาปกอัลบั้มได้</string>
+    <string name="start_to_download_album">กำลังรับปกอัลบั้ม\u2026</string>
+    <string name="start_to_download_avatar">กำลังรับรูปศิลปิน\u2026</string>
+    <string name="download_all_album">ดาวน์โหลดปกอัลบั้ม</string>
+    <string name="download_all_avatar">รับรูปศิลปิน</string>
+    <string name="download_all_track">ดาวน์โหลดเพลงทั้งหมด</string>
+
+    <string name="lrc_progress_modify">ปรับเนื้อเพลง</string>
+    <string name="lrc_progress_modify_helper">เลื่อนขึ้นและลงเพื่อปรับ</string>
+
+     <!-- Equalizer -->
+    <string name="equalizer">ปรับแต่งเสียง</string>
+    <string name="no_effect">ไม่มีเอฟเฟค</string>
+    <string name="equalizer_delete">ลบ</string>
+    <string name="equalizer_delete_success">โปรไฟล์ปรับแต่งเสียงถูกลบแล้ว</string>
+    <string name="equalizer_save_success">โปรไฟล์ปรับแต่งเสียงถูกบันทึกแล้ว</string>
+    <string name="create_equalzier_create_text_prompt">ชื่อเอฟเฟคปรับแต่งเสียง</string>
+    <string name="new_equalizer_name_template">"โปรไฟล์ใหม่ <xliff:g id="NUMBER">%d</xliff:g>"</string>
+    <string name="custom">ปรับแต่ง</string>
+
+    <string-array name="equalizer_presents">
+        <item>ปกติ</item>
+        <item>คลาสสิค</item>
+        <item>แด๊นซ์</item>
+        <item>โฟกซ์</item>
+        <item>เมทัล</item>
+        <item>ฮิบฮอบ</item>
+        <item>แจ๊ส</item>
+        <item>ปีอป</item>
+        <item>ร็อค</item>
+    </string-array>
+
+    <!-- Edit media file id3 -->
+    <string name="id3_modify_confirm_text">บันทึก</string>
+    <string name="id3_modify_confirm_check">ยืนยันเปลี่ยนแปลง</string>
+    <string name="modify_id3_for_list">รายการข้อมูลเพลงถูกเปลี่ยนแปลงแล้ว</string>
+    <string name="modify_id3_for_selected">รายการข้อมูลเพลงที่เลือกถูกเปลี่ยนแปลงแล้ว</string>
+    <string name="track_edit">เพลง</string>
+    <string name="artist_edit">ศิลปิน</string>
+    <string name="album_edit">อัลบั้ม</string>
+    <string name="empty_edit_hint">ไม่สามารถใช้งานข้อมูลเพลงได้</string>
+    <string name="modify_tracks_id3_background">แก้ไขข้อมูลเพลงที่เลือกในพื้นหลัง</string>
+
+    <!-- Play state and controller -->
+    <string name="shuffle_all">สลับทั้งหมด</string>
+    <string name="play_all">เล่นทั้งหมด</string>
+    <string name="click_to_shuffle">สัมผัสเพื่อสลับเพลงทั้งหมด</string>
+    <string name="streamloadingtext">กำลังเชื่อมต่อไปยัง <xliff:g id="host">%s</xliff:g></string>
+    <string name="playback_failed">ไม่รองรับชนิดไฟล์เสียงนี้</string>
+    <string name="playback_failed_by_bad_file">%s ไม่สามารถเล่นได้</string>
+    <string name="playback_failed_by_network">%s ไม่สามารถเล่นได้ กรุณาตรวจสอบการตั้งค่าเชื่อมต่ออินเตอร์เน็ต</string>
+    <string name="playback_failed_no_title_by_bad_file">ไม่สามารถเล่นเพลงได้ รูปแบบไม่รองรับหรือไม่มีไฟล์</string>
+    <string name="playback_failed_no_title_by_network">ไม่สามารถเล่นเพลงได้ กรุณาตรวจสอบการตั้งค่าเชื่อมต่ออินเตอร์เน็ต</string>
+    <string name="buffering">กำลังบัฟเฟอร์\u2026</string>
+
+    <!-- Recently Added -->
+    <string-array name="weeklist">
+        <item>"1 สัปดาห์"</item>
+        <item>"2 สัปดาห์"</item>
+        <item>"3 สัปดาห์"</item>
+        <item>"4 สัปดาห์"</item>
+        <item>"5 สัปดาห์"</item>
+        <item>"6 สัปดาห์"</item>
+        <item>"7 สัปดาห์"</item>
+        <item>"8 สัปดาห์"</item>
+        <item>"9 สัปดาห์"</item>
+        <item>"10 สัปดาห์"</item>
+        <item>"11 สัปดาห์"</item>
+        <item>"12 สัปดาห์"</item>
+    </string-array>
+
+    <!-- Main browser item names -->
+    <string name="artists_title">ศิลปิน</string>
+    <string name="albums_title">อัลบั้ม</string>
+    <string name="folders_title">โฟลเดอร์</string>
+    <string name="tracks_title">เพลงทั้งหมด</string>
+    <string name="playlists_title">รายการเล่น</string>
+    <string name="online_title">ออนไลน์</string>
+
+    <!-- Playlist browser -->
+    <string name="playlist_recently_added">เพิ่มล่าสุด</string>
+    <string name="playlist_recently_played">เล่นล่าสุด</string>
+    <string name="playlist_frequently_played">เล่นบ่อยสุด</string>
+    <string name="playlist_favorite">ชื่นชอบ</string>
+    <string name="playlist_my_ktv">KTV</string>
+
+    <!-- Playlist creator -->
+    <string name="create_playlist_create_text_prompt">รายการเล่นใหม่</string>
+    <string name="create_confirm">ยืนยัน</string>
+    <string name="overwrite_confirm">แทนที่</string>
+    <string name="add_tracks">เพิ่มเพลง</string>
+
+    <!-- Track Detail Name -->
+
+    <!-- AudioFP -->
+    <string name="correct_id3_by_internet">รับข้อมูลเพลง</string>
+    <string name="correct_id3_start">กำลังรับข้อมูลเพลง\u2026</string>
+    <string name="correct_id3_in_processing">กำลังอัปเดตข้อมูลเพลง\u2026</string>
+    <string name="correct_id3_success">อัปเดตข้อมูลเพลงแล้ว</string>
+    <string name="correct_id3_failed">อัปเดตข้อมูลเพลงล้มเหลว</string>
+    <string name="correct_id3_open_other_connect">เปิดใช้งานอัปเดตข้อมูลเพลงโดยใช้เครือข่ายมือถือ</string>
+    <string name="correct_id3_not_support">รูปแบบไม่รองรับ</string>
+    <string name="batch_correct_id3_completed">อัปเดตข้อมูลเพลงแล้ว</string>
+
+    <string name="add">เพิ่ม</string>
+
+    <!-- Online Artist -->
+    <string name="artist_albums">อัลบั้มทั้งหมด</string>
+    <string name="artist_hot_audios">ยอดนิยม</string>
+
+    <string name="more">เพิ่มเติม</string>
+    <string name="album_search_local_descript">"โทรศัพท์ | %1$d x %2$d"</string>
+    <string name="album_search_online_descript">"ออนไลน์ | %1$d x %2$d"</string>
+    <string name="album_select">เลือกปกอัลบั้ม</string>
+
+    <string name="no_song_downloaded">ไม่สามารถเชื่อมต่อกับเซิร์ฟเวอร์</string>
+
+    <string name="powered_by">ขับเคลื่อนโดย</string>
+
+    <string name="project_device">Mi บ๊อก</string>
+    <string name="project_device_mobile">อุปกรณ์มือถือ</string>
+
+    <string name="headphone_settings">"การตั้งค่าชนิดหูฟัง"</string>
+    <string name="mi_effect_title">"เพิ่มประสิทธิภาพเสียง"</string>
+    <string name="mi_effect_summary">"ใช้ Mi ซาวด์ เสมอเมื่อใช้ลำโพงโทรศัพท์"</string>
+    <string name="dirac_mode_in_ear">"หูฟัง Xiaomi"</string>
+    <string name="dirac_mode_earbuds">"หูฟังเอียร์บัด Xiaomi"</string>
+    <string name="dirac_mode_piston_100">"หูฟังลูกสูบ Xiaomi"</string>
+    <string name="dirac_mode_general">"ทั่วไป"</string>
+    <string name="eq_flat">เฟลต</string>
+    <string name="eq_rock">ร็อค</string>
+    <string name="eq_jazz">แจ๊ส</string>
+    <string name="eq_pop">ป๊อป</string>
+    <string name="eq_classical">คลาสสิค</string>
+    <string name="eq_hiphop">ฮิบฮอบ</string>
+    <string name="eq_blues">บลู</string>
+    <string name="eq_electronic">อิเล็กทรอนิกส์</string>
+    <string name="eq_country">คันทรี่</string>
+    <string name="eq_dance">แด๊นซ์</string>
+    <string name="eq_metal">เมทัล</string>
+    <string name="eq_delete">ลบ</string>
+    <string name="eq_delete_success">เสร็จสิ้น</string>
+    <string name="eq_auto">ปรับแต่ง</string>
+    <string name="eq_preset_create">สร้าง</string>
+    <string name="eq_preset_rename">เปลี่ยนชื่อ</string>
+    <string name="eq_preset_format">กำหนดล่วงหน้า %d</string>
+    <string name="eq_preset_hint">"ชื่อกำหนดล่วงหน้า"</string>
+    <string name="eq_preset_select">"เลือกกำหนดล่วงหน้า"</string>
+
+    <string name="music_not_loaded">"กำลังรอเสียงเพื่อดาวน์โหลด\u2026"</string>
+
+    <string name="scan_barcode_to_connect">Align the KTV console\'s QR code in the frame to scan</string>
+    <string name="where_is_barcode">Where\'s the QR code?</string>
+    <string name="i_know">ตกลง</string>
+    <string name="ktv_alert_title">Only supported devices can add songs</string>
+    <string name="ktv_alert_message">Tap "Use phone to add songs" on the main page of the KTV\'s console to view the corresponding QR code</string>
+    <string name="ktv_and_room">"%1$s %2$s"</string>
+    <string name="ktv_connected_alert_titel">"Connected to %1$s"</string>
+    <string name="ktv_connected_alert_message">The songs you select will be added to the playlist "My KTV"</string>
+    <string name="ktv_disconnect_alert_titel">"Disconnect from %1$s?"</string>
+    <string name="ktv_song_vod_success">"“%1$s”added"</string>
+    <string name="ktv_song_vod_fail">"Failed to add “%1$s”"</string>
+    <string name="ktv_unbind_message">"Failed to connect with KTV console. Make sure you\'re scanning the correct QR code."</string>
+    <string name="request_fail">"Failed to request"</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="server_error">Server error</string>
+    <string name="requesting">Requesting\u2026</string>
+
+    <string name="track_bit_rate_standard">Good</string>
+    <string name="track_bit_rate_hd">High</string>
+    <string name="track_bit_rate_uhd">Higher</string>
+
+    <string name="choose_stream_quality">"Choose stream quality"</string>
+    <string name="choose_download_quality">"Choose download quality"</string>
+    <string name="ultra_high_quality">"Higher Quality"</string>
+    <string name="high_quality">"High Quality"</string>
+    <string name="normal_quality">"Good Quality"</string>
+
+    <string name="login_first">"You need to sign in to your Xiaomi Account first"</string>
+    <string name="login">"Sign in"</string>
+    <string name="payment_success">"Payment complete"</string>
+    <string name="payment_fail">"Payment failed"</string>
+
+    <string name="pay_service_guide_new">Higher quality music now available</string>
+    <string name="pay_service_guide_listen">คุณภาพสตรีม</string>
+    <string name="pay_service_guide_dowload">คุณภาพดาวน์โหลด</string>
+
+    <string name="vip_recommend_title">Get higher quality music</string>
+    <string name="vip_recommend_main_title">Just 5 MiCredits for 30 days</string>
+    <string name="vip_recommend_sub_title">Unlimited CD-quality music (320 kbps)</string>
+    <string name="vip_recommend_summary">Stream or download all your favorite artists from Baidu Music at 320 kbps.</string>
+    <string name="vip_recommend_buy">ชำระเงิน (5 Mi เครดิตสำหรับ 30 วัน)</string>
+    <string name="vip_recommend_rebuy">ต่ออายุ (5 Mi เครดิตสำหรับ 30 วัน)</string>
+    <string name="vip_recommend_exchange">ใช้รหัสของขวัญ</string>
+
+    <string name="music_quality">Music quality</string>
+    <string name="higher_quality_music">Higher quality music</string>
+    <string name="menu_higher_quality_music">Higher quality music (monthly access)</string>
+    <string name="higher_quality_music_summary">Listen to and download higher quality music</string>
+    <string name="expired">หมดอายุแล้ว</string>
+    <string name="enabled">เปิดใช้งานแล้ว</string>
+    <string name="valid_period">"Valid : "</string>
+    <string name="period_format">%1$s-%2$s</string>
+    <string name="vip_bought">You\'ve already purchased higher quality music access</string>
+    <string name="vip_expired">Your higher quality music access has expired</string>
+    <string name="vip_rebuy">ต่ออายุ</string>
+
+    <string name="data_usage_warning">Data usage</string>
+    <string name="data_usage_warning_summary">Using your mobile data connection to stream higher quality music may increase your data usage costs.</string>
+
+    <string name="source_from">Source from : %1$s</string>
+</resources>

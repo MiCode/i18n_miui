@@ -234,7 +234,7 @@
     <!-- A label of a menu item for user to sync the content [CHAR LIMIT=30] -->
 
     <string name="local_albums">รูปภาพ</string>
-    <string name="cloud_albums">รูปภาพคลาวด์</string>
+    <string name="cloud_albums">รูปภาพ Mi คลาวด์</string>
     <string name="home_my_captured_items">ถ่ายภาพในม้วนกล้อง</string>
 
     <!-- A label on a button. The user clicks this button after he has
@@ -307,7 +307,7 @@
          viewing albums stored locally on the device [CHAR LIMIT=20] -->
     <string name="set_label_local_albums">อัลบั้ม</string>
 
-    <string name="cloud_media_set_set">อัลบั้มคลาวด์</string>
+    <string name="cloud_media_set_set">อัลบั้ม Mi คลาวด์</string>
 
     <!-- A label shown on the action bar. It indicates that the user is
          viewing MTP devices connected (like other digital cameras).
@@ -406,7 +406,7 @@
     <string name="tab_wallpaper_text">หน้าจอหลัก</string>
     <string name="tab_all_text">ทั้งหมด</string>
 
-    <string name="cloud_gallery_space_full">พื้นที่คลาวด์ไม่เพียงพอ</string>
+    <string name="cloud_gallery_space_full">พื้นที่ Mi คลาวด์ ไม่เพียงพอ</string>
     <string name="share_album_space_full">พื้นที่อัลบั้มนี้ไม่เพียงพอ</string>
     <string name="cloud_gallery_recyclebin_full">ถังขยะเต็มแล้ว ล้างถังขยะที่ i.xiaomi.com.</string>
     <string name="sync_history_power_on">ซิงค์ประวัติรูปภาพเท่านั้นเมื่อกำลังชาร์ต</string>
@@ -415,9 +415,9 @@
     <string name="sync_only_in_wifi_summary">คลังภาพจะใช้งเครือข่ายมือถือเพื่ออัปโหลดรูปภาพเมื่อตัวเลือกนี้ถูกปิด</string>
 
     <string name="alert">คำเตือน</string>
-    <string name="gallery_cloud_provider_name">อัลบั้มคลาวด์</string>
+    <string name="gallery_cloud_provider_name">อัลบั้ม Mi คลาวด์</string>
     <string name="sync_album">ซิงค์อัลบั้ม</string>
-    <string name="sync_album_summary">อัปโหลดรูปภาพไปยังคลาวด์</string>
+    <string name="sync_album_summary">อัปโหลดรูปภาพไปยัง Mi คลาวด์</string>
     <string name="open_sync_title">เปิดใช้งานซิงค์</string>
     <string name="alert_message_open_sync">จำเป็นต้องเปิดใช้งานซิงค์ก่อน</string>
     <string name="open">เปิดใช้งาน</string>
@@ -430,15 +430,15 @@
     <string name="add_to_cloud_album">เพิ่มไปยังอัลบั้ม</string>
     <string name="move_to_cloud_album">ย้ายไปยัง</string>
     <string name="move">ย้าย</string>
-    <string name="add_to_cloud_successfully_message">เพิ่มไปยังอัลบั้มคลาวด์</string>
-    <string name="add_to_cloud_space_full_message">อัลบั้มคลาวด์เต็ม</string>
+    <string name="add_to_cloud_successfully_message">เพิ่มไปยังอัลบั้ม Mi คลาวด์</string>
+    <string name="add_to_cloud_space_full_message">อัลบั้ม Mi คลาวด์เต็มแล้ว</string>
     <string name="add_to_cloud_local_space_full_message">หน่วยความจำหรือไม่พร้อมใช้งาน</string>
     <string name="add_to_cloud_file_exist_message">รูปภาพมีอยู่แล้วในอัลบั้ม</string>
     <string name="add_to_cloud_exceeded_the_size_message">ไฟล์ใหญ่เกินไป</string>
     <string name="add_to_cloud_type_not_support_message">ชนิดไฟล์นี้ไม่รองรับ</string>
     <string name="add_to_cloud_image_limit_exceeded_message">รูปภาพเกินจำนวนจำกัด</string>
      <string name="file_not_exist_message">ไม่มีไฟล์นี้</string>
-    <string name="add_to_cloud_failed_message_with_count"><xliff:g id="COUNT"> %2$s</xliff:g> รายการไม่สามารถเพิ่มไปยังคลาวด์: <xliff:g id="REASON"> %1$s</xliff:g></string>
+    <string name="add_to_cloud_failed_message_with_count"><xliff:g id="COUNT"> %2$s</xliff:g> รายการไม่สามารถเพิ่มไปยัง Mi คลาวด์: <xliff:g id="REASON"> %1$s</xliff:g></string>
     <string name="add_to_cloud_reasons"></string>
     <string name="add_to_cloud_unknow_reasons">ข้อผิดพลาดไม่รู้จัก</string>
     <string name="cant_delete_cloud_album"><xliff:g id="ITEM"> ลบล้มเหลว: %s</xliff:g> อัลบั้มระบบหรือใช้ร่วมกับคนอื่น</string>
@@ -463,7 +463,7 @@
     <string name="retry_to_create_album">"ลองใหม่"</string>
     <string name="share_current_album">แบ่งปันอัลบั้มปัจจุบัย</string>
     <string name="cloud_share_guide_title">แบ่งปันเป็นเรื่อง่ายๆ</string>
-    <string name="cloud_share_guide_message">แบ่งปันอัลบั้มคลาวด์กับเพื่อน\r\nแสดงและอัปเดตอัลบั้ม\r\nจากทุกๆที่\r\n</string>
+    <string name="cloud_share_guide_message">แบ่งปันอัลบั้ม Mi คลาวด์กับเพื่อน\r\nแสดงและอัปเดตอัลบั้ม\r\nจากทุกๆที่\r\n</string>
     <string name="cloud_be_shared_guide_title">อัลบั้มนี้มาจากเพื่อน</string>
     <string name="cloud_be_shared_guide_message">สามารถแสดงรูปภาพของเพื่อนและเพิ่มรูปภาพไปยังอัลบั้ม</string>
     <string name="cloud_owner_album_share_guide">สามารถแบ่งปันอัลบั้มนี้กับเพื่อน</string>
@@ -570,7 +570,7 @@
 
     <string name="global_setting">การตั้งค่า</string>
 
-    <string name="no_storage_disable_cloud_albums">ไม่สามารถใช้งานคลาวด์ได้</string>
+    <string name="no_storage_disable_cloud_albums">ไม่สามารถใช้งาน Mi คลาวด์ได้</string>
 
     <string name="message_no_delete_access">ไม่ได้รับสิทธิ์ลบ %s</string>
     <string name="message_no_delete_access_with_count">ไม่ได้รับสิทธิ์ลบ %d ไฟล์</string>
@@ -584,7 +584,7 @@
 
     <string name="storage_all_volumes">หน่วยความจำโทรศัพท์ทั้งหมด</string>
 
-    <string name="settings_i_xiaomi_com">จัดเก็บและแสดงรูปภาพคลาวด์ i.xiaomi.com</string>
+    <string name="settings_i_xiaomi_com">จัดเก็บและแสดงรูปภาพ Mi คลาวด์ i.xiaomi.com</string>
 
     <string name="loading_thumbnail">กำลังดาวน์โหลดรูปขนาดย่อ\u2026</string>
     <string name="video_not_exist">ไม่มีวิดีโอ</string>
@@ -594,9 +594,9 @@
     <string name="confirm_download_video_title">ดาวน์โหลดวิดีโอ</string>
     <string name="confirm_download_video_message">จำเป็นต้องดาวนืโหลดวิดีโอนี้ก่อนจึงสามารถดูได้ จะดาวน์โหลดวิดีโอต่อเมื่อมีการเชื่อมต่อ Wi-Fi สามารถใช้งานได้</string>
     <string name="image_download_item_title">ดาวน์โหลดรูปภาพ(%s)</string>
-    <string name="item_not_sync">รายการนี้ยังไม่ซิงค์ไปยังคลาวด์และไม่สามารถดาวน์โหลดได้</string>
+    <string name="item_not_sync">รายการนี้ยังไม่ซิงค์ไปยัง Mi คลาวด์และไม่สามารถดาวน์โหลดได้</string>
 
-    <string name="cloud_album_more_settings">ซิงค์ด้วยคลาวด์</string>
+    <string name="cloud_album_more_settings">ซิงค์ด้วย Mi คลาวด์</string>
     <string name="browse_category">แสดง</string>
     <string name="photo_page_save_image">บันทึก</string>
     <string name="photo_page_save_uri_image_ok">รูปภาพบันทึกไปยังรูปภาพกล้อง</string>
@@ -656,7 +656,7 @@
     <string name="accept_or_deny">"<xliff:g id="NAME">%1$s</xliff:g> อัลบั้มแบ่งปัน<xliff:g id="ALBUM">%2$s</xliff:g> กับคุณ"</string>
     <string name="accept">"ยอมรับ"</string>
     <string name="deny">"ปฏิเสธ"</string>
-    <string name="enable_cloud_for_sharing">จำเป็นต้องเปิดใช้งานอัลบั้มคลาวด์เพื่อแสดงรูปภาพแบ่งปัน</string>
+    <string name="enable_cloud_for_sharing">จำเป็นต้องเปิดใช้งานอัลบั้ม Mi คลาวด์เพื่อแสดงรูปภาพแบ่งปัน</string>
     <string name="operation_in_process">"กำลังดำเนินการ\u2026"</string>
     <string name="operation_failed">"ดำเนินการล้มเหลว"</string>
     <string name="operation_successful">"เสร็จสิ้น"</string>
@@ -706,7 +706,7 @@
     <string name="error_invalid_link">"ลิงค์ไม่ถูกต้อง"</string>
     <string name="error_socket_timeout">"หมดเวลาการเชื่อมต่อเครือข่าย"</string>
     <string name="error_share_with_creator">เป็นสมาชิกอัลบั้มนี้อยู่แล้ว</string>
-    <string name="error_cloud_not_active">ไม่ได้ใช้งานอัลบั้มคลาวด์</string>
+    <string name="error_cloud_not_active">ไม่ได้ใช้งานอัลบั้ม Mi คลาวด์</string>
 
     <!-- white list begins -->
     <string name="cloud_camera_display_name">รูปภาพกล้อง</string>
@@ -715,9 +715,9 @@
     <string name="miui_capture_screen_folder_display_name">ภาพหน้าจอ</string>
     <string name="internal_camera_folder_display_name">รูปภาพกล้องภายใน</string>
     <string name="internal_miui_capture_screen_folder_display_name">ภาพหน้าจอภายใน</string>
-    <string name="miliao_folder_display_name">ทอร์ค</string>
-    <string name="miliao_painting_folder_display_name">ทอร์ค</string>
-    <string name="miliao_saved_folder_display_name">ทอร์คบันทึกแล้ว</string>
+    <string name="miliao_folder_display_name">Mi ทอร์ค</string>
+    <string name="miliao_painting_folder_display_name">Mi ทอร์ค</string>
+    <string name="miliao_saved_folder_display_name">Mi ทอร์คบันทึกแล้ว</string>
     <string name="mishop_saved_folder_display_name">สโตร์บันทึกแล้ว</string>
     <string name="demo_video_folder_display_name">วิดีโอตัวอย่าง</string>
     <!-- name after their storage paths -->
@@ -726,7 +726,7 @@
     <string name="androidesk_wallpapers">ภาพหน้าจอ</string>
     <string name="dcim_opaipic">Opaipic</string>
     <string name="mtxx">MTXX</string>
-    <string name="miliao_saved">ทอร์ค</string>
+    <string name="miliao_saved">Mi ทอร์ค</string>
     <string name="tencent_qq_hd_pic">QQ HD</string>
     <string name="immomo_camera">Immomo</string>
     <string name="weikan_weikan">Weikan TV</string>

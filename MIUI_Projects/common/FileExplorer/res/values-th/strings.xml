@@ -106,7 +106,7 @@
     <string name="favorite_ringtone">เสียงเรียกเข้า</string>
     <string name="file_loading">กำลังโหลด\u2026</string>
     <string name="multi_select_title"><xliff:g id="number">%1$s</xliff:g>เลือกแล้ว</string>
-    <string name="tab_networkdisk">ไดร์ฟ</string>
+    <string name="tab_networkdisk">Mi ไดร์ฟ</string>
     <string name="operation_download_link">สร้างลิงค์ดาวน์โหลด</string>
     <string name="ui_filechange_btn_download">ดาวน์โหลดไฟล์</string>
     <string name="show_message">จำเป็นต้องดาวน์โหลดไฟล์นี้ก่อนจึงสามารถเปิดไฟล์ได้</string>
@@ -114,7 +114,7 @@
     <string name="networkView_notConnected">ไม่มีเครือข่ายสามารถใช้งานได้</string>
     <string name="ui_main_toast_favorite_removed">ไม่ชอบ</string>
     <string name="ui_main_toast_operation_failed">ไม่ชอบล้มเหลว %1$s</string>
-    <string name="user_guide">แนะนำการใช้งานไดร์ฟ</string>
+    <string name="user_guide">แนะนำการใช้งาน Mi ไดร์ฟ</string>
     <string name="user_guide_summary">ข้อมูลเบื้องต้น</string>
     <string name="rename_failed">เปลี่ยนชื่อล้มเหลว %1$s</string>
     <plurals name="directory_item_count">
@@ -140,12 +140,12 @@
     </plurals>
 
     <string name="ui_main_menu_option_task_manage">จัดการถ่ายโอน</string>
-    <string name="kuaipan_label">ไดร์ฟ</string>
+    <string name="kuaipan_label">Mi ไดร์ฟ</string>
     <string name="create_kuaipan_shortcut_pref">วางไปยังหน้าจอหลัก</string>
-    <string name="login_reg_content0">ใช้ไดร์ฟจากทุกที</string>
+    <string name="login_reg_content0">ใช้ Mi ไดร์ฟจากทุกที</string>
     <string name="login_reg_content">จัเก็บไฟล์แอะซิงค์ระหว่างอุปกรณ์\nคุณสมบัตินี้จำเป็นต้องเชื่อมต่อเครือข่าย</string>
-    <string name="start_use_xiaomi_account">เริ่มใช้งานไดร์ฟ</string>
-    <string name="pan_settting">การตั้งค่าไดร์ฟ</string>
+    <string name="start_use_xiaomi_account">เริ่มใช้งาน Mi ไดร์ฟ</string>
+    <string name="pan_settting">การตั้งค่า Mi ไดร์ฟ</string>
     <string name="xiaomi_account">บัญชี Xiaomi</string>
     <string name="space_usage">พื้นที่ที่ใช้</string>
     <string name="used">ใช้แล้ว</string>
@@ -153,7 +153,7 @@
     <string name="load_err">ดาวน์โหลดล้มเหลว</string>
     <string name="local_cache_size">ขนาดแคช: %s</string>
     <string name="net_lose_connected">การเชื่อมต่อขาดหาย</string>
-    <string name="wangpan_root_path">ไดร์ฟ</string>
+    <string name="wangpan_root_path">Mi ไดร์ฟ</string>
     <string name="kuaipan_over_space">พื้นที่ไม่เพียงพอ</string>
     <string name="kuaipan_tech_support">เข้าระบบ kuaipan.cn</string>
     <string name="no_tasks">ไม่มีงาน</string>
@@ -163,8 +163,8 @@
 
     <string name="create_new_folder_failed">สร้างโฟลเดอร์ล้มเหลว</string>
     <string name="user_guide_kuaipan_copy">ระหว่างไฟล์ระหว่างอุปกรณ์ต่างๆ</string>
-    <string name="user_guide_upload_to_kuaipan">เก็บไฟล์บนไดร์ฟจากโทรศัพท์</string>
-    <string name="user_guide_download_other_version">ดาวน์โหลดไดร์ฟสำหรับวินโดว์หรือแมคอินทอช</string>
+    <string name="user_guide_upload_to_kuaipan">เก็บไฟล์บน Mi ไดร์ฟจากโทรศัพท์</string>
+    <string name="user_guide_download_other_version">ดาวน์โหลด Mi ไดร์ฟสำหรับวินโดว์หรือแมคอินทอช</string>
     <string name="user_guide_other_version">นอกจากนี้ยังมีเฟลตฟอร์มอื่นๆ</string>
     <string name="upload_file_toolarge_message">%1$d อัปโหลดล้มเหลว: ไม่สามารถอัปโหลดไฟล์ใหญ่กว่า 300M</string>
     <string name="cution">ทิป</string>
@@ -176,12 +176,12 @@
     <string name="trash_box_message1">ลบไฟล์ขยะเพื่อเพิ่มพื้นที่ว่าง</string>
     <string name="trash_box_message2">ทำความสะอาดถังขยะเพื่อเพิ่มพื้นที่ว่าง</string>
     <string name="close">ปิด</string>
-    <string name="space_info">ไดร์ฟ: %1$s สามารถใช้งานได้ %2$s ทั้งหมด</string>
+    <string name="space_info">Mi ไดร์ฟ: %1$s สามารถใช้งานได้ %2$s ทั้งหมด</string>
     <string name="trash_box_capacity">ถังขยะ %1$s</string>
     <string name="data_capacity">ข้อมูล %1$s</string>
 
-    <string name="send_to_midrive">ไดร์ฟ</string>
-    <string name="choose_upload_location">อัปโหลดไปยังโฟลเดอร์ไดร์ฟ</string>
+    <string name="send_to_midrive">Mi ไดร์ฟ</string>
+    <string name="choose_upload_location">อัปโหลดไปยังโฟลเดอร์ Mi ไดร์ฟ</string>
     <string name="send_to_midrive_failed_message">ไม่รองรับชนิดไฟล์</string>
     <string name="operation_compress">บีบอัด</string>
     <string name="compress_title">บีบอัด</string>
@@ -246,7 +246,7 @@
     <string name="rename_description">กำลังเปลี่ยนชื่อ\u2026</string>
     <string name="share_link_failed">สร้างลิงค์ล้มเหลว</string>
     <string name="choose_send_type">เลือกกะบวนการ</string>
-    <string name="download_link_completed">%1$s แบ่งปันไปยังไดร์ฟแล้ว สัมผัสลิงค์ข้างล่างเพื่อแสดง:</string>
+    <string name="download_link_completed">%1$s แบ่งปันไปยัง Mi ไดร์ฟแล้ว สัมผัสลิงค์ข้างล่างเพื่อแสดง:</string>
 
     <string name="transing">กำลังส่ง\u2026</string>
     <string name="finished">เสร็จสิ้น</string>
@@ -274,9 +274,9 @@
     <string name="storage_sd_card">การ์ดความจำ</string>
     <string name="storage_usb">หน่วยความจำ USB</string>
     <string name="bind_account">ซิงค์บัญชีที่มีอยู่แล้ว</string>
-    <string name="bind_account_summary">ซิงค์บัญชีไดร์ฟที่มีอยู่แล้วด้วยบัญชี Xiaomi</string>
+    <string name="bind_account_summary">ซิงค์บัญชี Mi ไดร์ฟที่มีอยู่แล้วด้วยบัญชี Xiaomi</string>
     <string name="binded_accout_title">ซิงค์บัญชีแล้ว</string>
-    <string name="binded_accout_description">บัญชี Xiaomi ซิงค์กับไดร์ฟแล้ว สามารถใช้บัญชี Xiaomi เพื่อเข้าถึงข้อมูลที่เก็บไว้บนไดร์ฟ</string>
+    <string name="binded_accout_description">บัญชี Xiaomi ซิงค์กับ Mi ไดร์ฟแล้ว สามารถใช้บัญชี Xiaomi เพื่อเข้าถึงข้อมูลที่เก็บไว้บน Mi ไดร์ฟ</string>
 
     <!-- for 文件清理 -->
     <string name="file_cleanup">ทำความสะอาด</string>
@@ -340,15 +340,15 @@
     <string name="garbage_item_path_format" formatted="false">%s %s</string>
     <string name="account_bind_prompt">กำลังย้ายข้อมูลผู้ใช้\u2026 อาจจะต้องใช้เวลาสักครู่</string>
     <string name="migrate_announcement_title">ย้ายข้อมูลเสร็จสิ้น</string>
-    <string name="migrate_announcement_msg">ซิงค์บัญชีไดร์ฟที่อยู่กับบัญชี Xiaomi ในการตั้งค่าไดร์ฟ</string>
-    <string name="query_bind_state">กำลังเชื่อมต่อไดร์ฟ\u2026</string>
+    <string name="migrate_announcement_msg">ซิงค์บัญชี Mi ไดร์ฟที่อยู่กับบัญชี Xiaomi ในการตั้งค่า Mi ไดร์ฟ</string>
+    <string name="query_bind_state">กำลังเชื่อมต่อ Mi ไดร์ฟ\u2026</string>
     <string name="operation_deleting_detail">กำลังลบ (%1$d/%2$d)</string>
     <string name="operation_moving_detail">กำลังย้าย (%1$d/%2$d)</string>
     <string name="operation_copying">กำลังคัดลอก\u2026</string>
     <string name="operation_copying_detail">กำลังคัดลอก (%1$d/%2$d)</string>
     <string name="name_illegal">ใส่ชื่ิอ</string>
     <string name="open_changed_file_title">การเปลี่ยนแปลงถูกใช้งานแล้ว</string>
-    <string name="open_changed_file_message">ไฟล์ที่กำลังเปิดถูกเปลี่ยนแปลงแล้ว เพื่อซ่อมแซมปัญหา:\n1. ดาวน์โหลดไฟล์อีกครั้งเพื่อให้แน่ใจว่าเป็นเวอร์ชันล่าสุด\n2. อัปโหลดไปยังบัญชีไดร์ฟ</string>
+    <string name="open_changed_file_message">ไฟล์ที่กำลังเปิดถูกเปลี่ยนแปลงแล้ว เพื่อซ่อมแซมปัญหา:\n1. ดาวน์โหลดไฟล์อีกครั้งเพื่อให้แน่ใจว่าเป็นเวอร์ชันล่าสุด\n2. อัปโหลดไปยังบัญชี Mi ไดร์ฟ</string>
     <string name="ui_filechange_btn_upload">อัปโหลดไฟล์</string>
     <string name="folder_exist">โฟลเดอร์มีอยู่แล้ว</string>
 
