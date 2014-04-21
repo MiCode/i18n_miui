@@ -29,10 +29,10 @@
 <resources>
 
   <string-array name="sleep_duration_values">
-    <item>15 minutes</item>
-    <item>30 minutes</item>
-    <item>45 minutes</item>
-    <item>1 Hour</item>
+    <item>15 นาที</item>
+    <item>30 นาที</item>
+    <item>45 นาที</item>
+    <item>1 ชั่วโมง</item>
   </string-array>
 
     <!-- This array should be in seconds and should match the values above -->
@@ -44,33 +44,33 @@
   </string-array>
 
   <string-array name="search_category_rbds_entries">
-    <item>All Stations</item>
-    <item>Adult Hits</item>
-    <item>Classical</item>
-    <item>Classic Rock</item>
-    <item>College</item>
-    <item>Country</item>
-    <item>Emergency</item>
-    <item>Emergency Test</item>
-    <item>Foreign Language</item>
-    <item>Information</item>
-    <item>Jazz</item>
-    <item>News</item>
-    <item>Nostalgia</item>
-    <item>Oldies</item>
-    <item>Personality</item>
-    <item>Public</item>
-    <item>Religious Music</item>
-    <item>Religious Talk</item>
-    <item>Rhythm and Blues</item>
-    <item>Rock</item>
-    <item>Soft</item>
-    <item>Soft Rock</item>
-    <item>Soft Rhythm and Blues</item>
-    <item>Sports</item>
-    <item>Talk</item>
-    <item>Top 40</item>
-    <item>Weather</item>
+    <item>สถานีทั้งหมด</item>
+    <item>ผู้ใหญ่</item>
+    <item>คลาสสิค</item>
+    <item>คลาสสิคร็อค</item>
+    <item>โรงเรียน</item>
+    <item>พื้นบ้าน</item>
+    <item>ฉุกเฉิน</item>
+    <item>ทดสอบฉุกเฉิน</item>
+    <item>ภาษาต่างประเทศ</item>
+    <item>ข้อมูล</item>
+    <item>แจ๊ส</item>
+    <item>ข่าว</item>
+    <item>คิดถึง</item>
+    <item>เพลงเก่า</item>
+    <item>บุคลิกภาพ</item>
+    <item>สาธารณะ</item>
+    <item>เพลงศาสนา</item>
+    <item>พูดคุยศาสนา</item>
+    <item>ริทึมและบลู</item>
+    <item>ร็อค</item>
+    <item>ซอร์ฟ</item>
+    <item>ซอร์ฟร็อค</item>
+    <item>ซอร์ฟริทึมและบลู</item>
+    <item>กีฬา</item>
+    <item>พูดคุย</item>
+    <item>ท๊อป 40</item>
+    <item>พยากรณ์อากาศ</item>
   </string-array>
 
   <string-array name="search_category_rbds_values">
@@ -175,49 +175,49 @@
   </string-array>
 
   <string-array name="presetlist_edit_category">
-    <item>Rename</item>
-    <item>Auto-Select</item>
-    <item>Delete</item>
+    <item>เปลี่ยนชื่อ</item>
+    <item>เลือกอัตโนมัติ</item>
+    <item>ลบ</item>
   </string-array>
 
 
   <string-array name="regional_band_entries">
-    <item>North America</item>
-    <item>Europe</item>
-    <item>Japan</item>
-    <item>Japan (Wide)</item>
-    <item>Australia</item>
-    <item>Austria</item>
-    <item>Belgium</item>
-    <item>Brazil</item>
-    <item>China</item>
-    <item>Czech</item>
-    <item>Denmark</item>
-    <item>Finland</item>
-    <item>France</item>
-    <item>Germany</item>
-    <item>Greece</item>
-    <item>Hong Kong</item>
-    <item>India</item>
-    <item>Ireland</item>
-    <item>Italy</item>
-    <item>Korea</item>
-    <item>Mexico</item>
-    <item>Netherlands</item>
-    <item>New Zealand</item>
-    <item>Norway</item>
-    <item>Poland</item>
-    <item>Portugal</item>
-    <item>Russia</item>
-    <item>Singapore</item>
-    <item>Slovakia</item>
-    <item>Spain</item>
-    <item>Switzerland</item>
-    <item>Sweden</item>
-    <item>Taiwan</item>
-    <item>Turkey</item>
-    <item>United Kingdom </item>
-    <item>United States</item>
+    <item>อเมริกาเหนือ</item>
+    <item>ยุโรป</item>
+    <item>ญี่ปุ่น</item>
+    <item>ญี่ปุ่น (อินเตอร์)</item>
+    <item>ออสเตรเลีย</item>
+    <item>ออสเตรีย</item>
+    <item>เบลเยี่ยม</item>
+    <item>บราซิล</item>
+    <item>จีน</item>
+    <item>เช็ค</item>
+    <item>เดนมาร์ก</item>
+    <item>ฟินแลนด์</item>
+    <item>ฝรั่งเศส</item>
+    <item>เยอรมนี</item>
+    <item>กรีช</item>
+    <item>ฮ่องกง</item>
+    <item>อินเดีย</item>
+    <item>ไอร์แลนด์</item>
+    <item>อิตาลี</item>
+    <item>เกาหลี</item>
+    <item>แม็กซิโก</item>
+    <item>เนเธอร์แลนด์</item>
+    <item>นิวซีแลนด์</item>
+    <item>นอร์เวย์</item>
+    <item>โปแลนด์</item>
+    <item>โปรตุเกส</item>
+    <item>รัสเซีย</item>
+    <item>สิงค์โปร์</item>
+    <item>สโลวาเกีย</item>
+    <item>สเปน</item>
+    <item>สวิตเซอร์แลนด์</item>
+    <item>สวีเดน</item>
+    <item>ไต้หวัน</item>
+    <item>ตุรกี</item>
+    <item>อังกฤษ</item>
+    <item>สหรัฐอเมริกา</item>
   </string-array>
 
   <string-array name="regional_band_values">
@@ -260,60 +260,60 @@
   </string-array>
 
   <string-array name="regional_band_summary">
-    <item>North America (87.5MHz To 108.0MHz In 200 Khz Steps)</item>
-    <item>Europe (87.5MHz To 108.0MHz In 100 Khz Steps)</item>
-    <item>Japan (76.0MHz To  90.0MHz In 100 Khz Steps)</item>
-    <item>Japan (Wide) (90.0MHz To 108.0MHz In 50 Khz Steps)</item>
-    <item>Australia (87.7MHz To 108.0MHz In 100 Khz Steps)</item>
-    <item>Austria (87.5MHz To 108.0MHz In  50 Khz Steps)</item>
-    <item>Belgium (87.5MHz To 108.0MHz In 100 Khz Steps)</item>
-    <item>Brazil (87.8MHz To 108.0MHz In 200 Khz Step)</item>
-    <item>China (87.0MHz To 108.0MHz In 100 Khz Steps)</item>
-    <item>Czech (87.5MHz To 108.0MHz In 100 Khz Steps)</item>
-    <item>Denmark (87.5MHz To 108.0MHz In 50 Khz Steps)</item>
-    <item>Finland (87.5MHz To 108.0MHz In 100 Khz Steps)</item>
-    <item>France (87.5MHz To 108.0MHz In 100 Khz Steps)</item>
-    <item>Germany (87.5MHz To 108.0MHz In 50 Khz Steps)</item>
-    <item>Greece (87.5MHz To 108.0MHz In 50 Khz Steps)</item>
-    <item>Hong Kong (87.5MHz To 108.0MHz In 100 Khz Steps)</item>
-    <item>India (91.0MHz To 106.4MHz In 100 Khz Steps)</item>
-    <item>Ireland (87.5MHz To 108.0MHz In 50 Khz Steps)</item>
-    <item>Italy (87.5MHz To 108.0MHz In 50 Khz Steps)</item>
-    <item>Korea (87.5MHz To 108.0MHz In 200 Khz Steps)</item>
-    <item>Mexico (88.1MHz To 107.9MHz In 200 Khz Steps)</item>
-    <item>Netherlands (87.5MHz To 108.0MHz In 100 Khz Steps)</item>
-    <item>New Zealand (88.0MHz To 107.0MHz In 100 Khz Steps)</item>
-    <item>Norway (87.5MHz To 108.0MHz In 100 Khz Steps)</item>
-    <item>Poland (88.0MHz To 108.0MHz In 50 Khz Steps)</item>
-    <item>Portugal (87.5MHz To 108.0MHz In 50 Khz Steps)</item>
-    <item>Russia (87.5MHz To 108.0MHz In 100 Khz Steps)</item>
-    <item>Singapore (88.0MHz To 108.0MHz In 100 Khz Steps)</item>
-    <item>Slovakia (87.5MHz To 108.0MHz In 100 Khz Steps)</item>
-    <item>Spain (87.5MHz To 108.0MHz In 100 Khz Steps)</item>
-    <item>Switzerland (87.5MHz To 108.0MHz In 100 Khz Steps)</item>
-    <item>Sweden (87.5MHz To 108.0MHz In 100 Khz Steps)</item>
-    <item>Taiwan (87.5MHz To 108.0MHz In 100 Khz Steps)</item>
-    <item>Turkey (87.5MHz To 108.0MHz In 100 Khz Steps)</item>
-    <item>United Kingdom (87.5MHz To 108.0MHz In 100 Khz Steps)</item>
-    <item>United States (88.1MHz To 107.9MHz In 200 Khz Steps)</item>
+    <item>อเมริกาเหนือ (87.5MHz ถึง 108.0MHz ใน 200 Khz)</item>
+    <item>ยุโรป (87.5MHz ถึง 108.0MHz ใน 100 Khz)</item>
+    <item>ญี่ปุ่น (76.0MHz ถึง  90.0MHz ใน 100 Khz)</item>
+    <item>ญี่ปุ่น (อินเตอร์) (90.0MHz ถึง 108.0MHz ใน 50 Khz)</item>
+    <item>ออสเตรเลีย (87.7MHz ถึง 108.0MHz ใน 100 Khz)</item>
+    <item>ออสเตรีย (87.5MHz ถึง 108.0MHz ใน  50 Khz)</item>
+    <item>เบลเยี่ยม (87.5MHz ถึง 108.0MHz ใน 100 Khz)</item>
+    <item>บราซิล (87.8MHz ถึง 108.0MHz ใน 200 Khz)</item>
+    <item>จีน (87.0MHz ถึง 108.0MHz ใน 100 Khz)</item>
+    <item>เช็ค (87.5MHz ถึง 108.0MHz ใน 100 Khz)</item>
+    <item>เดนมาร์ก (87.5MHz ถึง 108.0MHz ใน 50 Khz)</item>
+    <item>ฟินแลนด์ (87.5MHz ถึง 108.0MHz ใน 100 Khz)</item>
+    <item>ฝรั่งเศส (87.5MHz ถึง 108.0MHz ใน 100 Khz)</item>
+    <item>เยอรมนี (87.5MHz ถึง 108.0MHz ใน 50 Khz)</item>
+    <item>กรีช (87.5MHz ถึง 108.0MHz ใน 50 Khz)</item>
+    <item>ฮ่องกง (87.5MHz ถึง 108.0MHz ใน 100 Khz)</item>
+    <item>อินเดีย (91.0MHz ถึง 106.4MHz ใน 100 Khz)</item>
+    <item>ไอร์แลนด์ (87.5MHz ถึง 108.0MHz ใน 50 Khz)</item>
+    <item>อิตาลี (87.5MHz ถึง 108.0MHz ใน 50 Khz)</item>
+    <item>เกาหลี (87.5MHz ถึง 108.0MHz ใน 200 Khz)</item>
+    <item>แม็กซิโก (88.1MHz ถึง 107.9MHz ใน 200 Khz)</item>
+    <item>เนเธอร์แลนด์ (87.5MHz ถึง 108.0MHz ใน 100 Khz)</item>
+    <item>นิวซีแลนด์ (88.0MHz ถึง 107.0MHz ใน 100 Khz)</item>
+    <item>นอร์เวย์ (87.5MHz ถึง 108.0MHz ใน 100 Khz)</item>
+    <item>โปแลนด์ (88.0MHz ถึง 108.0MHz ใน 50 Khz)</item>
+    <item>โปรตุเกส (87.5MHz ถึง 108.0MHz ใน 50 Khz)</item>
+    <item>รัสเซีย (87.5MHz ถึง 108.0MHz ใน 100 Khz)</item>
+    <item>สิงค์โปร์ (88.0MHz ถึง 108.0MHz ใน 100 Khz)</item>
+    <item>สโลวาเกีย (87.5MHz ถึง 108.0MHz ใน 100 Khz)</item>
+    <item>สเปน (87.5MHz ถึง 108.0MHz ใน 100 Khz)</item>
+    <item>สวิตเซอร์แลนด์ (87.5MHz ถึง 108.0MHz ใน 100 Khz)</item>
+    <item>สวีเดน (87.5MHz ถึง 108.0MHz ใน 100 Khz)</item>
+    <item>ไต้หวัน (87.5MHz ถึง 108.0MHz ใน 100 Khz)</item>
+    <item>ตุรกี (87.5MHz ถึง 108.0MHz ใน 100 Khz)</item>
+    <item>อังกฤษ (87.5MHz ถึง 108.0MHz ใน 100 Khz)</item>
+    <item>สหรัฐอเมริกา (88.1MHz ถึง 107.9MHz ใน 200 Khz)</item>
   </string-array>
 
     <string-array name="rf_cfg">
-       <item> Get Current Station Parameters</item>
-       <item> Get Station Parameters Repeat 20 times</item>
-       <item> Get Search  station parameters</item>
-       <item> Get FM Band sweep parameters</item>
-       <item> Configure FM Search Parameters</item>
+       <item> รับตัวแปรสถานีปัจจุบัน</item>
+       <item> รับตัวแปรสถานีซ้ำ 20 ครั้ง</item>
+       <item> รับตัวแปรค้นหาสถานี</item>
+       <item> รับตัวแปรกวาดวิทยุ</item>
+       <item> กำหนดค่าตัวแปรค้นหาวิทยุ</item>
     </string-array>
     <string-array name="cfg_rf">
-       <item> Set FM RSSI Delta</item>
-       <item> Set Signal Threshold</item>
-       <item> RF Statistics</item>
+       <item> ตั้ง FM RSSI Delta</item>
+       <item> ตั้งเกณฑ์สัญญาณ</item>
+       <item> สถิติ RF</item>
     </string-array>
     <string-array name="stats_options">
-        <item> Select the option</item>
-        <item> Configure FM Search parameters</item>
-        <item> RF Statistics</item>
+        <item> เลือกตัวเลือก</item>
+        <item> กำหนดค่าตัวแปรค้นหาวิทยุ</item>
+        <item> สถิติ RF</item>
     </string-array>
 
     <string-array name="fm_mhz_number_entries">

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="status_bar_toggle_ac">เข้าถึง</string>
+    <string name="status_bar_toggle_bluetooth">บลูทูธ</string>
+    <string name="status_bar_toggle_brightness">ความสว่าง</string>
+    <string name="status_bar_toggle_auto_brightness">อัตโนมัติ</string>
+    <string name="status_bar_toggle_data">ข้อมูล</string>
+    <string name="status_bar_toggle_divider">เพิ่มเติม</string>
+    <string name="status_bar_toggle_flight_mode">เครื่องบิน</string>
+    <string name="status_bar_toggle_gps">GPS</string>
+    <string name="status_bar_toggle_lock">ล็อก</string>
+    <string name="status_bar_toggle_mute">เงียบ</string>
+    <string name="status_bar_toggle_network_type">เครื่อข่าย</string>
+    <string name="status_bar_toggle_privacy_mode">ผู้เยี่ยมชม</string>
+    <string name="status_bar_toggle_reboot">รีบูต</string>
+    <string name="status_bar_toggle_rotate">หมุนหน้าจอ</string>
+    <string name="status_bar_toggle_screen_button">ปิดใช้งาน</string>
+    <string name="status_bar_toggle_screenshot">ภาพหน้าจอ</string>
+    <string name="status_bar_toggle_shutdown">ปิดเครื่อง</string>
+    <string name="status_bar_toggle_sync">ซิงค์</string>
+    <string name="status_bar_toggle_torch">ไฟฉาย</string>
+    <string name="status_bar_toggle_vibrate">สั่น</string>
+    <string name="status_bar_toggle_wifi">Wi-Fi</string>
+    <string name="status_bar_toggle_power_mode">ปิดเครื่อง</string>
+    <string name="status_bar_toggle_drive_mode">ขับรถ</string>
+    <string name="status_bar_toggle_wifi_ap">ฮอตสปอต</string>
+    <string name="status_bar_toggle_quiet_mode">ห้ามรบกวน</string>
+
+    <!-- toggle current status name -->
+    <string name="status_bar_toggle_ringtone">เสียงเรียกเข้า</string>
+    <string name="status_bar_toggle_ring">เสียงเรียกเข้า</string>
+    <string name="status_bar_toggle_sync_auto">ซิงค์</string>
+    <string name="status_bar_toggle_sync_manual">ซิงค์</string>
+    <string name="status_bar_toggle_syncing">กำลังซิงค์</string>
+    <string name="status_bar_toggle_power_low">ประหยัด</string>
+    <string name="status_bar_toggle_power_mid">ปกติ</string>
+    <string name="status_bar_toggle_power_high">สูง</string>
+
+    <!-- begin: do not translate -->
+    <string name="status_bar_toggle_advanced_sync_action">com.android.settings/com.android.settings.Settings$ManageAccountsSettingsActivity</string>
+    <string name="status_bar_toggle_data_action">com.android.phone/.Settings</string>
+    <string name="status_bar_toggle_divider_action">com.android.systemui/.settings.StyleSettings</string>
+    <string name="status_bar_toggle_bluetooth_action">com.android.settings/com.android.settings.Settings$BluetoothSettingsActivity</string>
+    <string name="status_bar_toggle_brightness_action">com.android.settings/com.android.settings.display.BrightnessActivity</string>
+    <string name="status_bar_toggle_flight_mode_action">com.android.settings/com.android.settings.MiuiSettings</string>
+    <string name="status_bar_toggle_gps_action">com.android.settings/com.android.settings.Settings$LocationSettingsActivity</string>
+    <string name="status_bar_toggle_mute_action">com.android.settings/com.android.settings.Settings$SoundSettingsActivity</string>
+    <string name="status_bar_toggle_network_type_action">com.android.phone/.MiuiPreferredNetworkTypeListPreference</string>
+    <string name="status_bar_toggle_rotate_action">com.android.settings/com.android.settings.Settings$DisplaySettingsActivity</string>
+    <string name="status_bar_toggle_sync_action">com.android.settings/com.android.settings.Settings$ManageAccountsSettingsActivity</string>
+    <string name="status_bar_toggle_vibrate_action">com.android.settings/com.android.settings.Settings$SoundSettingsActivity</string>
+    <string name="status_bar_toggle_wifi_action">com.android.settings/com.android.settings.Settings$WifiSettingsActivity</string>
+    <string name="status_bar_toggle_power_mode_action">com.android.settings/com.android.settings.Settings$BatterySettingsActivity</string>
+    <string name="status_bar_toggle_drive_mode_action">com.android.settings/com.android.settings.MiuiDriveModeSettings</string>
+    <string name="status_bar_toggle_wifi_ap_action">com.android.settings/com.android.settings.Settings$TetherSettingsActivity</string>
+    <string name="status_bar_toggle_quiet_mode_action">com.android.settings/.dndmode.DoNotDisturbModeActivity</string>
+    <!-- end: do not translate -->
+
+    <string name="screen_rotation_freeze_message">ปิดใช้งานหมุนหน้าจออัตโนมัติแล้ว</string>
+    <string name="screen_button_disabled_message">ปิดใช้งานปุ่มนำทางแล้ว เพื่อเปิดใหม่อีกครั้ง สัมผัส โฮม และปุ่มเปิด/ปิดเครื่อง</string>
+    <string name="screen_button_enabled_message">เปิดใช้งานปุ่มนำทางแล้ว</string>
+</resources>
