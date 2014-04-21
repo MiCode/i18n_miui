@@ -390,7 +390,9 @@
 
     <string name="usb_mode_notification">USB Storage</string>
     <string name="usb_mode_dont_ask">Remember this choice</string>
+
     <string name="usb_mode_mount_storage_title">Open USB storage automatically?</string>
+
     <string name="mount_storage">Yes</string>
     <string name="dismount_storage">No</string>
     <string name="usb_notification">USB connected</string>
@@ -401,6 +403,9 @@
     <string name="usb_mtp_text">Files</string>
     <string name="usb_notification_mtp_ticker_text">Connected as a media device (Files)</string>
     <string name="usb_notification_ptp_ticker_text">Connected as a media device (Photos)</string>
+
+    <string name="move_data_to_sdcard_title">Export internal data to SD card</string>
+    <string name="move_data_to_sdcard_message">Your phone\'s internal data (photos, contacts) will be moved to the SD card.</string>
 
     <string name="user_guide_for_notification">Swipe down with one finger to pull down the notification shade</string>
     <string name="user_guide_for_toggle">The toggle list can be scrolled horizontally</string>
@@ -613,9 +618,11 @@
     <string name="headset_custom">"Customize"</string>
 
     <!-- oldman -->
-    <string name="oldman_status_bar_time_format">HH:mm</string>
-    <string name="oldman_airplane_mode_text" msgid="1439152806320786912">"Airplane"</string>
+    <string name="oldman_status_bar_time_format_24">HH:mm</string>
+    <string name="oldman_status_bar_time_format_12">h:mm</string>
+    <string name="oldman_airplane_mode_text" msgid="1439152806320786912">"airplane"</string>
     <string name="oldman_incall_text" msgid="1439152806320786912">"incall"</string>
+
     <string name="audio_effect_settings">"Set headphones type"</string>
     <string name="audio_effect_info">"Optimize audio"</string>
     <string name="audio_effect_custom">"Configure"</string>

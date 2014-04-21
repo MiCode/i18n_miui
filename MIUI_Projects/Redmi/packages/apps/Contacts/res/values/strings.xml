@@ -325,7 +325,7 @@
     <string name="listTotalAllContactsZero">No contacts</string>
 
     <!-- Displayed at the top of the contacts showing the zero total number of contacts visible when "Custom" is selected  [CHAR LIMIT=64]-->
-    <string name="listTotalAllContactsZeroCustom">No visible contacts</string>
+    <string name="listTotalAllContactsZeroCustom">No visible contacts.</string>
 
     <!-- Displayed at the top of the contacts showing the zero total number of contacts visible when starred contact list is selected  [CHAR LIMIT=64]-->
     <string name="listTotalAllContactsZeroStarred">No favorites</string>
@@ -437,7 +437,7 @@
     <string name="clearFrequentsConfirmation_title">Clear frequently contacted?</string>
 
     <!-- Confirmation dialog for clearing frequents. [CHAR LIMIT=NONE] -->
-    <string name="clearFrequentsConfirmation">Clear the frequent contacts list in Contacts and Phone, and force mail apps to learn your addressing preferences from scratch.</string>
+    <string name="clearFrequentsConfirmation">Clear frequent contacts list in Contacts and Phone, and force mail apps to learn your addressing preferences from scratch.</string>
 
     <!-- Title of the "Clearing frequently contacted" progress-dialog [CHAR LIMIT=35] -->
     <string name="clearFrequentsProgress_title">Clearing frequently contacted\u2026</string>
@@ -751,7 +751,7 @@
     <string name="no_sdcard_message" product="default">No SD card was found.</string>
 
     <!-- Action string for selecting SIM for importing contacts -->
-    <string name="import_from_sim">Import from SIM card 1</string>
+    <string name="import_from_sim">Import from SIM card</string>
     <string name="import_from_sim2">Import from SIM card 2</string>
 
     <!-- Action string for selecting (USB) storage for importing contacts [CHAR LIMIT=25] -->
@@ -919,7 +919,7 @@
     <string name="fail_reason_too_long_filename">Required filename is too long (\"<xliff:g id="filename">%s</xliff:g>\").</string>
 
     <!-- The title shown when exporting vCard is successfuly finished [CHAR LIMIT=40] -->
-    <string name="exporting_vcard_finished_title">Finished exporting <xliff:g id="filename" example="export.vcf">%s</xliff:g>.</string>
+    <string name="exporting_vcard_finished_title">Exporting <xliff:g id="filename" example="export.vcf">%s</xliff:g> finished.</string>
 
     <!-- The title shown when exporting vCard is canceled (probably by a user)
          The argument is file name the user canceled importing.
@@ -930,7 +930,7 @@
     <string name="exporting_contact_list_title">Exporting contact data</string>
 
     <!-- Message shown when the application is exporting contact data outside -->
-    <string name="exporting_contact_list_message">Your contact data is being exported to: <xliff:g id="file_name">%s</xliff:g>.</string>
+    <string name="exporting_contact_list_message">Exporting to <xliff:g id="file_name">%s</xliff:g>.</string>
 
     <!-- The failed reason shown when contacts exporter fails to be initialized.
          Some exact reason must follow this. [CHAR LIMIT=NONE]-->
@@ -1163,6 +1163,8 @@
 
     <!-- Generic action string for text messaging a contact. Used by AccessibilityService to announce the purpose of the view. [CHAR LIMIT=NONE] -->
     <string name="sms">Text message</string>
+
+    <string name="eventTypeCustom">"Custom"</string>
 
     <!-- Action string for sending an email to a home email address -->
     <string name="email_home">Email home</string>
@@ -1825,21 +1827,7 @@
          [CHAR LIMIT=NONE] -->
     <string name="action_menu_overflow_description" msgid="2295659037509008453">More options</string>
 
-    <!-- Content description for the expand or collapse name fields button.
-         Clicking this button causes the name editor to toggle between showing
-         a single field where the entire name is edited at once, or multiple
-         fields corresponding to each part of the name (Name Prefix, First Name,
-         Middle Name, Last Name, Name Suffix).
-         [CHAR LIMIT=NONE] -->
-    <string name="expand_collapse_name_fields_description">Expand or collapse name fields</string>
-    <string name="vcard_import_failed_v2">Couldn\'t import </string>
-    <string name="inner_version_info">Version info：</string>
-    <!--Added by dingying fro cta version show-->
-    <string name="cta_version_dialog_title">External Version</string>
-     <!--Added by yuanzhiqiang fro cmcc version show-->
-    <string name="cmcc_version_dialog_title">Display Version</string>
-
-        <!-- Dialer related resources -->
+         <!-- Dialer related resources -->
     <string name="summary_kind_title">Summary</string>
     <string name="callrecordview_item_newcontact">New contact</string>
     <string name="callrecordview_item_op_time_minutes_seconds">%1$d min %2$d sec</string>
@@ -1856,18 +1844,20 @@
     <string name="callrecordview_menu_show_called">Outgoing calls</string>
     <string name="callrecordview_menu_show_accepted">Answered calls</string>
     <string name="callrecordview_menu_show_stranger">Calls from unknown numbers</string>
-    <string name="callrecordview_menu_show_new">New contacts</string>
+    <string name="callrecordview_menu_show_new">New Contacts</string>
     <string name="callrecordview_menu_show_sim">%s calls</string>
     <string name="callrecordview_menu_delete">Clear call log</string>
     <string name="callrecordview_menu_delete_all">Clear call log</string>
     <string name="callrecordview_menu_delete_missed">Clear missed calls</string>
     <string name="callrecordview_menu_delete_called">Clear outgoing calls</string>
     <string name="callrecordview_menu_delete_accepted">Clear answered calls</string>
-    <string name="callrecordview_menu_delete_stranger">Clear calls from unknown numbers</string>
+    <string name="callrecordview_menu_delete_stranger">Clear unknown numbers</string>
     <string name="callrecordview_menu_delete_new">Clear call logs of new contacts</string>
     <string name="callrecordview_menu_delete_sim">Clear %s call logs</string>
     <string name="callrecordview_menu_delete_confirm">%s?</string>
-    <string name="callrecordview_menu_delete_one">Remove this entry from call log</string>
+    <string name="callrecordview_menu_delete_one">Remove from call log</string>
+    <string name="callrecordview_menu_add_call_note">Add call note</string>
+    <string name="callrecordview_menu_edit_call_note">Edit call note</string>
     <string name="delete_call_log_title">Choose call log</string>
     <string name="menu_dialpad_text">Keypad</string>
 
@@ -1898,7 +1888,7 @@
     <string name="deselect_all">Deselect all</string>
     <string name="select_none">Nothing selected</string>
     <string name="toast_finish_delete_call_log">Call log deleted</string>
-    <string name="toast_finish_delete_selected_call_log">Selected call log deleted</string>
+    <string name="toast_finish_delete_selected_call_log">Call log deleted</string>
     <string name="confirm_delete_contact_all_call_logs">Delete call logs?</string>
     <string name="confirm_delete_selected_all_call_logs">Delete call logs?</string>
     <string name="calllog_menu_blacklist">Block</string>
@@ -1930,16 +1920,46 @@
 
     <!-- 电话号码picker -->
     <string name="recent_contacts_label">Recent</string>
-    <string name="pick_favorites_list_title">%1$d favorites</string>
-    <string name="pick_recent_list_title">%1$d recent contacts</string>
-    <string name="noRecentContacts">No recent contact</string>
-    <string name="hint_search_contacts">%d contacts</string>
-    <string name="hint_search_phone_numbers">"%d contact numbers"</string>
-    <string name="hint_search_emails">"%d emails"</string>
+
+    <plurals name="pick_favorites_list_title">
+        <item quantity="one">%1$d favorite</item>
+        <item quantity="other">%1$d favorites</item>
+    </plurals>
+
+    <plurals name="pick_recent_list_title">
+        <item quantity="one">1 recent contact</item>
+        <item quantity="other">%1$d recent contacts</item>
+    </plurals>
+
+    <string name="noRecentContacts">No recent contacts</string>
+
+    <plurals name="hint_search_contacts">
+        <item quantity="one">%1$d contact</item>
+        <item quantity="other">%1$d contacts</item>
+    </plurals>
+
+    <plurals name="hint_search_phone_numbers">
+        <item quantity="one">%1$d number</item>
+        <item quantity="other">%1$d numbers</item>
+    </plurals>
+
+     <plurals name="hint_search_emails">
+        <item quantity="one">"1 contact email"</item>
+        <item quantity="other">%1$d contact emails</item>
+    </plurals>
 
     <!-- Contats Picker -->
-    <string name="pick_favorites_contacts_list_title">%1$d favorites</string>
-    <string name="pick_recent_contacts_list_title">%1$d recent contacts</string>
+
+    <plurals name="pick_favorites_contacts_list_title">
+        <item quantity="one">%1$d favorite</item>
+        <item quantity="other">%1$d favorites</item>
+    </plurals>
+
+    <plurals name="pick_recent_contacts_list_title">
+        <item quantity="one">%1$d recent contact</item>
+        <item quantity="other">%1$d recent contacts</item>
+    </plurals>
+
     <string name="loading_groups">Loading groups\u2026</string>
     <string name="loading_group_members">Loading group members\u2026</string>
     <string name="loading_recent">Loading recent contacts\u2026</string>
@@ -1948,10 +1968,12 @@
     <string name="picker_contact_title">Choose a contact</string>
     <string name="picker_number_title">Choose a number</string>
     <string name="group_add_fail_toast">Failed to add contacts</string>
+
     <plurals name="group_add_success_toast">
         <item quantity="one">"%1$d contact added"</item>
         <item quantity="other">"<xliff:g id="count"> %1$d </xliff:g> contacts added"</item>
     </plurals>
+
     <string name="picker_postal_title">Choose a postal code</string>
     <string name="picker_email_title">Choose an email</string>
 
@@ -1986,11 +2008,11 @@
     <string name="import_vcard_description" product="default">Import contacts from your SD card</string>
     <string name="export_vcard_description" product="nosdcard">Export vCard to phone\'s internal storage</string>
     <string name="export_vcard_description" product="default">Export vCard to SD card</string>
-    <string name="export_to_sim">Export to SIM card 1</string>
+    <string name="export_to_sim">Export to SIM card</string>
     <string name="export_to_sim2">Export to SIM card 2</string>
-    <string name="export_to_sim_title">Exporting to SIM card\u2026</string>
+    <string name="export_to_sim_title">Exporting\u2026</string>
     <string name="sim_card_no_free_space_title">SIM card full</string>
-    <string name="sim_card_no_free_space_message">There\'s not enough space on your SIM card.</string>
+    <string name="sim_card_no_free_space_message">Not enough space</string>
     <string name="sim_contacts">SIM card contacts</string>
     <string name="export_sim_contacts_dialog_message">Your SIM card can store %d contacts</string>
     <string name="export_sim_contact_finish">Export complete</string>
@@ -2009,13 +2031,15 @@
     <string name="rebuild_t9_index_dialog_message">Rebuilding\u2026</string>
     <string name="pref_key_rebuild_t9_index_title">Rebuild index data</string>
     <string name="pref_key_rebuild_t9_index_message">Rebuild index to resolve search issues</string>
+    <string name="pref_key_sim_manage">Configure SIM card</string>
+    <string name="pref_key_sim_manage2">Configure SIM card 2</string>
     <string name="pref_key_photo">Photo</string>
     <string name="pref_key_photo_word_title">Assign contact photos</string>
     <string name="pref_key_photo_word_summary">Automatically assign a picture to contacts without one</string>
-    <string name="remove_duplicate">MIUI will help you find and merge duplicate contacts.\n\nTouch the Merge icon at the bottom to begin.</string>
+    <string name="remove_duplicate">MIUI will help you find and merge duplicate contacts.\n\n To begin, touch the Merge icon at the bottom of your screen.</string>
     <string name="ic_menu_back">Back</string>
     <string name="preference_display">Display</string>
-    <string name="preference_simple_mode_title">Hide photos</string>
+    <string name="preference_simple_mode_title">Hide photos and info</string>
     <string name="preference_simple_mode_description">Hide pictures and other contact data in list view</string>
     <string name="preference_contacts">Contacts</string>
     <string name="preference_contacts_display">Display preferences</string>
@@ -2042,7 +2066,8 @@
 
     <!-- local account -->
     <string name="account_default">Phone</string>
-    <string name="account_sim">SIM card %s</string>
+    <string name="account_sim">SIM card</string>
+    <string name="account_sim2">SIM card %d</string>
     <string name="lunarBirthdayLabelsGroup">Lunar birthday</string>
 
     <!-- 联系人上下文菜单 -->
@@ -2090,7 +2115,7 @@
     <string name="default_ringtone">"Default ringtone"</string>
     <string name="recent_number">Recent</string>
     <string name="cloud_antispam_mark" >Label as spam</string>
-    <string name="antispam_mark_my_contribution">Show other users that I\'ve labeled this number</string>
+    <string name="antispam_mark_my_contribution">Show other users that I\'ve labeled this number.</string>
     <string name="antispam_provider_format">Labeled as spam by %s</string>
     <string name="type_mx_msg">Cloud messaging</string>
 
@@ -2203,7 +2228,7 @@
     <string name="device_paired_dialog_title">Fetching contacts\u2026</string>
     <string name="device_paired_dialog_message">Fetching contacts\u2026</string>
     <string name="no_contacts_dialog_title">Failed to find contacts</string>
-    <string name="no_contacts_dialog_message">Your contacts may be stored on your SIM card. Try importing contacts from you SIM card to your phone\'s internal storage and then try again. </string>
+    <string name="no_contacts_dialog_message">Your contacts may be stored on your SIM card. Try importing contacts from your SIM card to your phone\'s internal storage and then try again. </string>
     <string name="cancel_import_dialog_title">Stop</string>
     <string name="cancel_import_dialog_message">Stop importing contacts?</string>
     <string name="title_paired_devices">Paired devices</string>
@@ -2233,10 +2258,14 @@
     <string name="prepare_import">Import contacts</string>
     <string name="device_import_message">Importing</string>
     <string name="bluetooth_connection_failed_toast">Bluetooth connection interrupted</string>
-    <string name="device_import_done_toast">%1$d contacts imported</string>
+
+    <plurals name="device_import_done_toast">
+        <item quantity="one">%1$d contact imported</item>
+        <item quantity="other">%1$d contacts imported</item>
+    </plurals>
+
     <string name="device_import_progress_toast">%1$d contacts imported</string>
     <string name="no_contact_in_other_phone">No contacts dectected</string>
-    <string name="no_connection_dialog_title">Bluetooth connection failed</string>
 
     <!-- Import Weibo contacts -->
     <string name="sina_weibo">Sina Weibo</string>
@@ -2254,13 +2283,21 @@
     <string name="add_xiaomi_account_dialog_title">Choose account</string>
     <string name="add_xiaomi_account_dialog_msg">Back up your contacts to your Xiaomi Account to access them from anywhere!</string>
     <string name="add_xiaomi_account_dialog_btn">Use Xiaomi Account</string>
-    <string name="keep_local_btn">Save in phone only</string>
+    <string name="keep_local_btn">Use phone\'s internal storage</string>
 
     <string name="batch_delete">Delete batch</string>
-    <string name="batch_delete_msg">Delete %d contacts? \n\nContact data stored in your Xiaomi Account will also be deleted.</string>
+    <string name="batch_delete_msg">Delete %d contacts? The corresponding data you\'ve stored in Mi Cloud will also be deleted.</string>
 
     <string name="starred_contacts">Favorites</string>
     <string name="other_contacts">Other contacts</string>
+
+    <string name="set_photo_failed_msg">Failed to assign picture.</string>
+
+    <string name="contact_is_readOnly">Can\'t edit read-only contacts</string>
+    <string name="profile_name">My profile</string>
+    <string name="profile_name_photo">Me</string>
+    <string name="toast_copying">Copying\u2026</string>
+    <string name="toast_copy_done">Done</string>
 
     <string name="group_name">My groups</string>
 
@@ -2270,61 +2307,33 @@
     <string name="delete_sim_entry_miui">Delete</string>
     <string name="simContacts_airplaneMode">To import contacts from SIM card, turn off Airplane mode</string>
     <string name="readingSimContacts">Reading SIM card\u2026</string>
-    <string name="confirm_delete_sim_entry_miui">Delete %d selected contacts on UIM card?</string>
+    <string name="confirm_delete_sim_entry_miui">Delete %d contacts on SIM card?</string>
+    <string name="importing_sim_contacts_miui">Importing contacts from SIM card\u2026</string>
+    <string name="import_sim_entries_finish">Contacts imported from SIM card</string>
+    <string name="deleting_sim_entry_miui">Deleting contacts on SIM card\u2026</string>
+    <string name="delete_sim_entries_finish">Contacts on SIM card deleted</string>
+    <string name="simContacts_empty">No contacts on SIM card</string>
+
     <plurals name="numSelectedSimContacts">
         <item quantity="zero">"%1$d selected"</item>
         <item quantity="one">"%1$d selected"</item>
-        <item quantity="other">"<xliff:g id="count"> %1$d </xliff:g> selected"</item>
+        <item quantity="other">"<xliff:g id="count"> %1$d </xliff:g>selected"</item>
     </plurals>
-    <string name="simContacts_empty">No contacts have been stored on your SIM card</string>
+
     <string name="sim_contact_dropdown_menu_deselect_all_miui">Deselect all</string>
     <string name="sim_contact_dropdown_menu_select_all_miui">Select all</string>
     <string name="delete_selected_sim_entry_miui">Delete selected contacts</string>
     <string name="import_selected_sim_entries_miui">Import selected contacts</string>
-    <string name="import_all_sim_entries_miui">Import all contacts</string>
-    <string name="import_sim_entries_finish">SIM contacts imported</string>
-    <string name="delete_sim_entries_finish">SIM contacts deleted</string>
-    <string name="deleting_sim_entry_miui">Deleting contacts on SIM card</string>
-    <string name="importing_sim_contacts_miui">Importing SIM contacts\u2026</string>
-
-    <string name="imei_invalid">Invalid IMEI</string>
-    <string name="set_photo_failed_msg">Failed to set avatar</string>
-    <string name="sim_capacity">View SIM card capacity</string>
-    <string name="sim_capacity_content">Capacity: <xliff:g id="items">%d</xliff:g>, <xliff:g id="items">%d</xliff:g> has already been used</string>
-
-    <!-- MTK for edit SIM/USIM contact -->
-    <string name="has_double_phone_number">This number type already exists</string>
-    <string name="phone_book_busy">Phone book is busy. Try again later.</string>
-    <string name="sim_invalid">Can\'t save contacts when SIM card is invalid</string>
-    <string name="cannot_insert_null_number">Name and number can\'t be empty</string>
-    <string name="AirPlane_mode_on">Can\'t save contacts when Airplane mode is on</string>
-    <string name="FDNEnabled">Can\'t save contact when FDN is enabled</string>
-    <string name="sim_invalid_number">Can\'t save invalid number</string>
-    <string name="email_invalid">Can\'t save invalid email</string>
-    <string name="email_2g_invalid">Can\'t save email to 2G SIM. To save, select 3G SIM.</string>
-    <string name="sim_invalid_fix_number">Can\'t save invalid fix number</string>
-    <string name="AirPlane_mode_on_edit">Can\'t edit contacts when Airplane mode is on</string>
-    <string name="msg_loading_sim_contacts_toast">"Loading SIM contacts in the background\u2026"</string>
-    <string name="fix_number_too_long">"Fix number is too long"</string>
-    <string name="name_too_long">"Name is too long"</string>
-    <string name="storage_full">Storage is full</string>
-    <string name="number_too_long">"Number is too long"</string>
-    <string name="generic_failure">An unknown error occurred</string>
-    <string name="email_too_long">Email is too long</string>
-    <string name="error_save_usim_contact_email_lost">"Can\'t save email address because the USIM storage for email is full"</string>
-
-    <string name="contact_is_readOnly">Can\'t edit read-only contacts</string>
 
     <!-- 黑名单操作Dialog -->
     <string name="dlg_add_blacklist">Block this number?</string>
     <string name="dlg_remove_blacklist">Unblock this number?</string>
 
-    <string name="profile_name">My profile</string>
-    <string name="profile_name_photo">Me</string>
-    <string name="toast_copying">Copying\u2026</string>
-    <string name="toast_copy_done">Copied</string>
+    <string name="close_dial_pad">Close dial pad</string>
+    <string name="dial">Dial</string>
+    <string name="delete_dial_input">Delete</string>
+    <string name="clear_digits">Clear phone number</string>
     <string name="call_record_setting_miui">Record settings</string>
-    <string name="activity_not_found_uri">No app was found to handle this action</string>
     <string name="accessibility_calllog_detail">Call log details</string>
 
     <string name="select_groups">Select groups</string>
@@ -2335,7 +2344,7 @@
     <string name="sim_contact_invalid">Invalid SIM contact</string>
 
     <string name="sim_error_generic_failure">An error occurred</string>
-    <string name="sim_error_storage_full">SIM card is full</string>
+    <string name="sim_error_storage_full">SIM card storage is full</string>
     <string name="sim_error_not_ready">Loading SIM contacts\u2026</string>
     <string name="sim_error_text_too_long">Name is too long</string>
     <string name="sim_error_number_too_long">Number is too long</string>
@@ -2352,6 +2361,7 @@
     <string name="yellowpage_navigation_search_offline_hint">You\'re offline</string>
     <string name="refresh">Refresh</string>
     <string name="yellowpage_navigation_search_city_name_hint">City</string>
+
     <string name="yellowpage_navigation_search_select_city">Choose a city</string>
     <string name="yellowpage_navigation_search_result_no_more">No more results</string>
     <string name="yellowpage_navigation_search_result_network_error">Couldn\'t connect to network</string>
@@ -2364,4 +2374,22 @@
     <string name="yellowpage_navigation_network_location_not_enabled_summary">Directory provides services according to your city and enabling WLAN &amp; mobile network location service can improve the quality of services.</string>
     <string name="yellowpage_navigation_network_location_enable">Enable now</string>
     <string name="yellowpage_navigation_network_location_enable_later">Enable later</string>
+
+    <string name="sim_capacity">View SIM Card Capacity</string>
+    <string name="sim_capacity_content">Total capacity <xliff:g id="items">%d</xliff:g>, used <xliff:g id="items">%d</xliff:g></string>
+    <string name="sim_contact_existing">The SIM contact is already existing.</string>
+    <string name="sim_contact_number_missing">SIM contact number is missing.</string>
+
+    <string name="sim_error_generic_failure">Generic Failure.</string>
+    <string name="sim_error_storage_full">Storage is full.</string>
+    <string name="sim_error_not_ready">Loading SIM contacts, please wait for a mement…</string>
+    <string name="sim_error_text_too_long">Name is too long.</string>
+    <string name="sim_error_number_too_long">Number is too long.</string>
+    <string name="sim_error_email_too_long">Email is too long.</string>
+    <string name="sim_error_email_full">Storage for email is full.</string>
+    <string name="sim_error_anr_full">storage for number is full.</string>
+    <string name="sim_error_password_error">Password error.</string>
+
+    <string name="imei_invalid">Invalid IMEI</string>
+    <string name="meid_invalid">Invalid MEID</string>
 </resources>

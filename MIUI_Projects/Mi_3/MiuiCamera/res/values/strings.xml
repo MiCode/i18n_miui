@@ -174,48 +174,36 @@
     <!-- simple mode -->
     <string name="pref_camera_picturesize_entry_standard">Standard 4:3</string>
     <string name="pref_camera_picturesize_entry_fullscreen">Full screen 16:9</string>
-    <string name="pref_camera_picturesize_entry_1920x1080">2M Pixels</string>
-    <string name="pref_camera_picturesize_entry_1280x768">1M Pixels</string>
-    <string name="pref_camera_picturesize_entry_1280x720">0.9M Pixels</string>
-    <string name="pref_camera_picturesize_entry_1024x768">0.8M Pixels</string>
-
 
     <!-- professional mode -->
-    <string name="pref_camera_picturesize_professional_entry_4208x3120">13M(4208x3120)</string>
-    <string name="pref_camera_picturesize_professional_entry_4208x2368">10M(4208x2368)</string>
-    <string name="pref_camera_picturesize_professional_entry_3264x2448">8M(3264x2448)</string>
-    <string name="pref_camera_picturesize_professional_entry_3200x2400">8M(3200x2400)</string>
-    <string name="pref_camera_picturesize_professional_entry_3328x1872">6M(3328x1872)</string>
-    <string name="pref_camera_picturesize_professional_entry_3264x1840">6M(3264x1840)</string>
-    <string name="pref_camera_picturesize_professional_entry_3200x1800">6M(3200x1800)</string>
-    <string name="pref_camera_picturesize_professional_entry_3264x1836">6M(3264x1836)</string>
-    <string name="pref_camera_picturesize_professional_entry_2592x1936">5M(2592x1936)</string>
-    <string name="pref_camera_picturesize_professional_entry_2592x1456">4M(2592x1456)</string>
-    <string name="pref_camera_picturesize_professional_entry_2592x1944">5M(2592x1944)</string>
-    <string name="pref_camera_picturesize_professional_entry_2048x1536">3M(2048x1536)</string>
-    <string name="pref_camera_picturesize_professional_entry_1920x1088">2M(1920x1088)</string>
-    <string name="pref_camera_picturesize_professional_entry_1920x1080">2M(1920x1080)</string>
-    <string name="pref_camera_picturesize_professional_entry_1600x1200">2M(1600x1200)</string>
-    <string name="pref_camera_picturesize_professional_entry_1440x1080">1.6M(1440x1080)</string>
-    <string name="pref_camera_picturesize_professional_entry_1280x960">1.3M(1280x960)</string>
-    <string name="pref_camera_picturesize_professional_entry_1440x816">1.2M(1440x816)</string>
-    <string name="pref_camera_picturesize_professional_entry_1280x720">0.9M(1280x720)</string>
-    <string name="pref_camera_picturesize_professional_entry_1024x768">0.8M(1024x768)</string>
+    <string name="pref_camera_picturesize_entry_4208x3120">13M(4208x3120)</string>
+    <string name="pref_camera_picturesize_entry_4208x2368">10M(4208x2368)</string>
+    <string name="pref_camera_picturesize_entry_3264x2448">8M(3264x2448)</string>
+    <string name="pref_camera_picturesize_entry_3200x2400">8M(3200x2400)</string>
+    <string name="pref_camera_picturesize_entry_3328x1872">6M(3328x1872)</string>
+    <string name="pref_camera_picturesize_entry_3264x1840">6M(3264x1840)</string>
+    <string name="pref_camera_picturesize_entry_3200x1800">6M(3200x1800)</string>
+    <string name="pref_camera_picturesize_entry_3264x1836">6M(3264x1836)</string>
+    <string name="pref_camera_picturesize_entry_2592x1936">5M(2592x1936)</string>
+    <string name="pref_camera_picturesize_entry_2592x1456">4M(2592x1456)</string>
+    <string name="pref_camera_picturesize_entry_2592x1944">5M(2592x1944)</string>
+    <string name="pref_camera_picturesize_entry_2048x1536">3M(2048x1536)</string>
+    <string name="pref_camera_picturesize_entry_1920x1088">2M(1920x1088)</string>
+    <string name="pref_camera_picturesize_entry_1920x1080">2M(1920x1080)</string>
+    <string name="pref_camera_picturesize_entry_1600x1200">2M(1600x1200)</string>
+    <string name="pref_camera_picturesize_entry_1472x1104">1.6M(1472x1104)</string>
+    <string name="pref_camera_picturesize_entry_1440x1080">1.6M(1440x1080)</string>
+    <string name="pref_camera_picturesize_entry_1280x960">1.3M(1280x960)</string>
+    <string name="pref_camera_picturesize_entry_1440x816">1.2M(1440x816)</string>
+    <string name="pref_camera_picturesize_entry_1472x832">1.2M(1472x832)</string>
+    <string name="pref_camera_picturesize_entry_1280x720">0.9M(1280x720)</string>
+    <string name="pref_camera_picturesize_entry_1024x768">0.8M(1024x768)</string>
 
     <!--not use  -->
 
     <!-- Default picture quality setting. See
          pref_camera_jpegquality_entryvalues for possible values -->
     <string name="pref_camera_jpegquality_default" translatable="false">normal</string>
-
-    <string name="pref_camera_picture_size_default" translatable="false">4208x2368</string>
-    <string name="pref_camera_front_picture_size_default" translatable="false">1920x1088</string>
-    <string name="pref_camera_picture_size_default_hm2a" translatable="false">3264x1840</string>
-    <string name="pref_camera_front_picture_size_default_hm2a" translatable="false">1440x816</string>
-    <string name="pref_camera_picture_size_default_hm2" translatable="false">3328x1872</string>
-    <string name="pref_camera_front_picture_size_default_hm2" translatable="false">1280x960</string>
-    <string name="pref_camera_front_picture_size_default_hm3" translatable="false">2592x1456</string>
-    <string name="pref_camera_front_picture_size_default_m4w" translatable="false">3264x1836</string>
 
     <!-- Default Picture format setting. Do not translate. -->
     <string name="pref_camera_picture_format_default">jpeg</string>
@@ -314,18 +302,33 @@
 
     <!-- Default color effect setting. -->
     <string name="pref_camera_coloreffect_default" translatable="false">none</string>
+    <string name="pref_camera_shader_coloreffect_default" translatable="false">-1</string>
 
     <!-- Settings screen, Select Color effect title -->
     <string name="pref_camera_coloreffect_title">Filters</string>
 
     <!-- Settings screen, Color effect dialog radio button choices -->
-    <string name="pref_camera_coloreffect_entry_none"></string>
-    <string name="pref_camera_coloreffect_entry_mono"></string>
     <string name="pref_camera_coloreffect_entry_sepia"></string>
     <string name="pref_camera_coloreffect_entry_negative"></string>
-    <!-- Color effect that overexposes and reverses some of the tones. -->
     <string name="pref_camera_coloreffect_entry_posterize"></string>
     <string name="pref_camera_coloreffect_entry_aqua"></string>
+
+    <string name="pref_camera_coloreffect_entry_none">Normal</string>
+    <string name="pref_camera_coloreffect_entry_mono">Mono</string>
+    <string name="pref_camera_coloreffect_entry_vivid">Vivid</string>
+    <string name="pref_camera_coloreffect_entry_yesteryear">Yesteryear</string>
+    <string name="pref_camera_coloreffect_entry_brannan">Dawn</string>
+    <string name="pref_camera_coloreffect_entry_sketch">Sketch</string>
+    <string name="pref_camera_coloreffect_entry_seventy">1970s</string>
+    <string name="pref_camera_coloreffect_entry_fisheye">Fish Eye</string>
+    <string name="pref_camera_coloreffect_entry_jstyle">Japanese</string>
+    <string name="pref_camera_coloreffect_entry_xproii">XProII</string>
+    <string name="pref_camera_coloreffect_entry_mosaic">Mosaic</string>
+    <string name="pref_camera_coloreffect_entry_earlybird">Autumn</string>
+    <string name="pref_camera_coloreffect_entry_nashvile">Indigo</string>
+    <string name="pref_camera_coloreffect_entry_planet">Small world</string>
+    <string name="pref_camera_coloreffect_entry_mirror">Mirror</string>
+    <string name="pref_camera_coloreffect_entry_gaussianblur">Gaussian blur</string>
 
     <!-- Default Touch AF/AEC setting. Do not translate. -->
     <string name="pref_camera_touchafaec_default">touch-on</string>
@@ -521,7 +524,7 @@
 
     <!-- The text shown when the panorama panning speed is to fast [CHAR LIMIT=12] -->
     <string name="pano_too_fast_prompt">Too fast</string>
-    <string name="pano_how_to_use_prompt">To capture a panoramic photo, touch the Shutter button</string>
+    <string name="pano_how_to_use_prompt">To capture a panoramic photo, \ntouch the Shutter button</string>
     <string name="pano_how_to_use_prompt_to_move">Begin panning slowly</string>
     <string name="pano_how_to_use_prompt_go_on_moving">Keep going\u2026</string>
 
