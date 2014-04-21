@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="shortmessage">Mensagem curta</string>
+    <string name="send_sound">Enviar com som</string>
+    <string name="send_2d_code">Enviar com um código 2D</string>
+    <string name="send_nfc">Enviar por NFC</string>
+    <string name="scan_title">Por favor focalize o código 2D</string>
+    <string name="recv_sound">Receber som</string>
+    <string name="scan_2d_code">Escanear código 2D</string>
+</resources>

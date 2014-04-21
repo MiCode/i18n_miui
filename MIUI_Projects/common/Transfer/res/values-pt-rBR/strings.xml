@@ -81,6 +81,7 @@
     <string name="error_upload">Erro no upload</string>
     <string name="error_connect_service">Falha ao conectar ao serviço de transferência</string>
 
+    <string name="file_not_exist">O arquivo não existe</string>
     <string name="error_not_selected">Nenhum arquivo selecionado ou arquivo inexistente</string>
     <string name="error_select">Erro no arquivo ou nenhum arquivo selecionado</string>
     <string name="device_default_name">Xiaomi</string>

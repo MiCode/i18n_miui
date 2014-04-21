@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="virus_scan_install"><u>Instalar mesmo assim</u></string>
+    <string name="virus_scan_is_virus">Este app está infectado.</string>
+    <string name="virus_scan_is_risk">Este app apresenta riscos para a segurança de seu dispositivo.</string>
+    <string name="virus_scan_clear">Remover</string>
+     <string name="virus_scan_caller_unknown">Desconhecido</string>
+
+</resources>

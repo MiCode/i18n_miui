@@ -6,10 +6,10 @@
 
     <!-- About phone screen, status item label -->
     <string name="firmware_version">Versão do Android</string>
-    <!-- About phone screen, status item label-->
+    <!-- About phone screen, status item label -->
     <string name="model_number">Número do modelo</string>
 
-    <!-- About phone screen,  setting option name-->
+    <!-- About phone screen,  setting option name -->
     <string name="device_miui_version">Versão MIUI</string>
     <string name="device_cpu">CPU</string>
     <string name="device_memory">RAM</string>
@@ -29,9 +29,10 @@
     <string name="sms_delivered_sound_title">Toque de SMS entregue</string>
     <string name="sms_received_sound_dialog_title">Selecione o toque de SMS recebido</string>
     <string name="sms_delivered_sound_dialog_title">Selecione o toque de SMS entregue</string>
-    <!-- A menu item in "About phone" that allows the user to update the phone with settings
+    <!--A menu item in "About phone" that allows the user to update the phone with settings
     from their cell phone carrier. The use of the string is similar to the string
-    "system_update_settings_list_item_title" in this project. [CHAR LIMIT=25] -->
+    "system_update_settings_list_item_title" in this project. [CHAR LIMIT=25]
+    -->
     <string name="additional_system_update_settings_list_item_title">Atualizações adicionais do sistema</string>
     <string name="haptic_feedback_level">Nível de vibração</string>
 
@@ -141,7 +142,7 @@
     <string name="lockpattern_recording_intro_header">Desenhar um padrão de desbloqueio:</string>
     <string name="lockpattern_pattern_confirmed_header">Seu novo padrão de desbloqueio:</string>
     <string name="lockpattern_pattern_entered_header">Padrão registrado.</string>
-    <!-- Security & location settings screen, change unlock pattern screen instruction on top of screen to confirm pattern -->
+    <!-- Security & location settings screen, change unlock pattern screen instruction on top of screen to confirm pattern-->
     <string name="lockpattern_need_to_confirm">Desenhe o padrão novamente para confirmar:</string>
     <string name="lockpattern_recording_inprogress">Solte o dedo quando terminar.</string>
     <string name="lockpattern_need_to_unlock_wrong">Tente novamente:</string>
@@ -154,7 +155,7 @@
     <!-- Sound settings screen, breathing light color title -->
     <string name="breathing_light_color_title">Cor do LED</string>
     <string name="breathing_light_color_menu_title">Cor do LED</string>
-    <!-- Sound settings screen, breathing light color summary TODO: find a better way to say this...-->
+    <!-- Sound settings screen, breathing light color summary TODO: find a better way to say this... -->
     <string name="breathing_light_color_summary">Cor do LED ao receber novas notificações</string>
     <!-- Sound settings screen, breathing light freq title -->
     <string name="breathing_light_freq_title">Frequência de repetição</string>
@@ -204,7 +205,7 @@
     <string name="apn_save">Salvar?</string>
     <string name="apn_save_msg">Salvar mudanças ao Ponto de Acesso?</string>
 
-<!-- Account -->
+    <!-- Account -->
     <string name="activating">Ativando\u2026</string>
 
     <string name="wifi_enable_watchdog_service_summary">Utilizar conexão Wi-Fi somente quando conexão for forte</string>
@@ -226,7 +227,7 @@
     <string name="silent_mode_title">Silencioso</string>
     <string name="media_feedback_enable_title">Vibrar com a música</string>
 
-<!-- Broadcom, WAPI -->
+    <!-- Broadcom, WAPI -->
     <!-- Error message Certificate doesn't exits -->
     <string name="wifi_wapi_certification_dont_exist">A senha informada está incorreta. Tente novamente.</string>
     <!-- Caption for the wireless password -->
@@ -271,15 +272,15 @@
     <string name="wifi_wapi_cert_mgmt_user_format_is_wrong">O certificado de usuário está em formato incorreto! Tente instalar o certificado novamente.</string>
     <string name="wifi_wapi_cert_mgmt_user_name_is_empty">Por favor insira o nome do certificado de usuário</string>
     <string name="wifi_wapi_cert_mgmt_user_dont_exist">Por favor insira o nome do certificado do usuário</string>
-    <!--Wi-Fi settings screen, network context menu item -->
+    <!-- Wi-Fi settings screen, network context menu item -->
     <string name="wifi_context_menu_connect">Conectar à rede</string>
-    <!--Wi-Fi settings screen, network context menu item -->
+    <!-- Wi-Fi settings screen, network context menu item -->
     <string name="wifi_context_menu_forget">Esquecer rede</string>
-    <!--Wi-Fi settings screen, network context menu item -->
+    <!-- Wi-Fi settings screen, network context menu item -->
     <string name="wifi_context_menu_change_password">Alterar senha</string>
     <string name="wifi_context_menu_change_wapi_certificate">Alterar Certificado WAPI</string>
 
-<!-- Broadcom, WAPI -->
+    <!-- Broadcom, WAPI -->
 
     <string name="search_label">Configurações</string>
     <string name="search_hint">Configs. de pesquisa</string>
@@ -407,9 +408,9 @@ Usar este método de entrada?</string>
     <string name="dirac_mode_general">"Fones de ouvido"</string>
     <string name="equalizer">Equalizador</string>
 
-    <!-- Menu option to launch Wi-Fi Direct settings [CHAR LIMIT=20]-->
+    <!-- Menu option to launch Wi-Fi Direct settings [CHAR LIMIT=20] -->
     <string name="wifi_menu_p2p">Wi-Fi Direct</string>
-     <!-- Used in the 1st-level settings screen to launch Wi-Fi Direct settings [CHAR LIMIT=25] -->
+    <!-- Used in the 1st-level settings screen to launch Wi-Fi Direct settings [CHAR LIMIT=25] -->
     <string name="wifi_p2p_settings_title">Wi-Fi Direct</string>
 
     <!-- Wi-Fi Display settings -->
@@ -419,19 +420,19 @@ Usar este método de entrada?</string>
     <string name="wfd_settings_description">Conectar-se a um Wi-Fi Display</string>
     <string name="wfd_enabler_title">Ativar Wi-Fi Display</string>
     <string name="wfd_enable_wifi_diag_title">Você só pode utilizar o Wi-Fi Display quando o Wi-Fi está ativado. Ativar agora?</string>
-    <!-- Menu option to discover peers-->
+    <!-- Menu option to discover peers -->
     <string name="wfd_menu_search">Pesquisar dispositivos</string>
     <!-- Menu option when discovery is in progress [CHAR LIMIT=25] -->
     <string name="wfd_menu_searching">Pesquisando\u2026</string>
-    <!-- Menu option to teardown session and remove group-->
+    <!-- Menu option to teardown session and remove group -->
     <string name="wfd_menu_teardown">Parar</string>
     <!-- Title for available p2p devices -->
     <string name="wfd_available_devices">Telefones disponíveis</string>
     <!-- Title for disconnect dialog -->
     <string name="wfd_disconnect_diag_title">Desfazer sessão?</string>
-    <!-- Message text for disconnection from one device-->
+    <!-- Message text for disconnection from one device -->
     <string name="wfd_disconnect_diag_msg">Se você interromper o serviço do Wi-Fi Display, sua conexão com <xliff:g id="peer_name">%1$s</xliff:g> será terminada.</string>
-    <!-- Message text for disconnection from multiple devices-->
+    <!-- Message text for disconnection from multiple devices -->
     <string name="wfd_disconnect_multiple_diag_message">Se você interromper o serviço do Wireless Display, sua conexão com %1$s e %2$s outros telefones serão desconectados.</string>
     <string name="wfd_wps_keypad">Preferir botão de config.</string>
     <string name="wfd_wps_pbc">Preferir PIN</string>
@@ -451,7 +452,6 @@ Usar este método de entrada?</string>
     <string name="msd_install_retry_windows_vista">"Se o computador falhar a detectar seu telefone,\nTente reconectar o cabo USB."</string> 
     <string name="msd_install_retry_mac">"Se o computador falhar ao detectar seu telefone,\nTente o seguinte:\n<li>Faça uma busca por\nAndroid File Transfer,\ne execute o software.</li>\n<li>Reconecte o cabo USN.</li>\n<li>Reinstale o driver.</li>"</string> 
     <string name="msd_install_retry_linux">"Se o computador falhar a detectar seu telefone,\nTente o seguinte:\n1) Utilize a ferramenta de instalação \"sudo apt-get install mtpfs libfuse-dev libmad0-dev\"\n2) Crie uma pasta \"mkdir\" /media/mtp\n3) Confirme as permissões do grupo de usuário para o atual usuário fuse.\n4) Efetue o login novamente.\n5) Acesse o telefone na pasta /media/mtp pelo Explorador de arquivos.\n6) Desmonte o dispositivo após o uso.\n Nota: para ubuntu 8.04"</string>
-
     <string name="msd_install_status_undo">Instalar driver</string>
     <string name="msd_install_status_done">Driver instalado</string>
     <string name="msd_driver_download">Transferir driver</string>

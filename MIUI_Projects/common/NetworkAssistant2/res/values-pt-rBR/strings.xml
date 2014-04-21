@@ -24,6 +24,7 @@
     <string name="main_traffic_used_only">Usado: %s</string>
     <string name="main_alert_message_no_mobile_package">O limite de dados móveis não foi definido</string>
     <string name="main_alert_message_no_imsi">Nenhum cartão SIM detectado</string>
+    <string name="main_alert_message_slot_no_data_connection">A entrada para este cartão SD não suporta\numa conexão de dados móveis</string>
 
     <!-- firewall -->
 
@@ -229,3 +230,4 @@
     <string name="dual_setting_simcard1">SIM 1</string>
     <string name="dual_setting_simcard2">SIM 2</string>
 
+</resources>
