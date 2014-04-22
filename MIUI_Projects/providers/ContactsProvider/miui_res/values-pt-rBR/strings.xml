@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Add by MIUI -->
+    <string name="pound_search_tip">Insira um número seguido de # para pesquisar contatos</string>
+    <string name="create_contact">Novo contato</string>
+    <string name="send_sms">Enviar mensagem</string>
+    <string name="edit_contact">Adicionar aos contatos</string>
+    <string name="call_log_provider_label">Registro de chamadas</string>
+</resources>
