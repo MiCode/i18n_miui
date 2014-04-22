@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * Copyright (c) 2009, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Name of the status bar as seen in the applications info settings page. [CHAR LIMIT=12] -->
+    <string name="app_label">UI do Sistema</string>
+
+    <!-- The text for the button in the notification window-shade that clears
+         all of the currently visible notifications. [CHAR LIMIT=10]-->
+
+    <!-- The text for the button in the notification window-shade that turns
+         on do not disturb mode, where notifications no longer show their ticker,
+         no sound plays, and no icons are visible.  The windowshade continues to show
+         the notifications. [CHAR LIMIT=25]-->
+
+    <!-- The text for the button in the notification window-shade that turns
+         off do not disturb mode.  After clicking this, notifications will be
+         shown again. [CHAR LIMIT=25] -->
+
+    <!-- Title shown in recents popup for removing an application from the list -->
+    <string name="status_bar_recent_remove_item_title">Excluir da lista</string>
+
+    <!-- Title shown in recents popup for inspecting an application's properties -->
+    <string name="status_bar_recent_inspect_item_title">Info do app</string>
+
+    <!-- Message shown in the middle of the screen after clicking on the recent apps button
+         when there are no recent apps to show. Also used for accessibility. [CHAR LIMIT=45]-->
+    <string name="status_bar_no_recent_apps">Nenhum app recente</string>
+
+    <!-- Content description for the button to dismiss Recent Apps (only present on large
+         devices) -->
+
+    <!-- Message that is read when you enter recent apps in TalkBack -->
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="one">1 app recente</item>
+        <item quantity="other">%d apps recentes</item>
+    </plurals>
+
+    <string name="status_bar_recent_guide_all">Deslize para cima para fechar, para baixo para travar</string>
+    <string name="status_bar_recent_guide_top">Deslize para cima para fechar</string>
+    <string name="status_bar_recent_guide_bottom">Deslize para baixo para travar</string>
+
+    <!-- The label in the bar at the top of the status bar when there are no notifications
+         showing.  [CHAR LIMIT=40]-->
+
+    <!-- The label for the group of notifications for ongoing events in the opened version of
+         the status bar.  An ongoing call is the prime example of this.  The MP3 music player
+         might be another example.   [CHAR LIMIT=40] -->
+
+    <!-- The label for the group of notifications for recent events in the opened version of
+         the status bar.  Recently received text messsages (SMS), emails, calendar alerts, etc.
+         [CHAR LIMIT=40] -->
+
+    <!-- When the battery is low, this is displayed to the user in a dialog.  The title of the low battery alert.  [CHAR LIMIT=NONE]-->
+    <string name="battery_low_title">Conectar o carregador</string>
+
+    <!-- When the battery is low, this is displayed to the user in a dialog. The subtitle of the low battery alert. [CHAR LIMIT=NONE] -->
+    <string name="battery_low_subtitle">O nível da bateria está baixo.</string>
+
+    <!-- A message that appears when the battery level is getting low in a dialog.  This is
+        appened to the subtitle of the low battery alert.  "number" is the percentage of battery
+        remaining [CHAR LIMIT=none]-->
+    <string name="battery_low_percent_format"><xliff:g id="number">%d%%</xliff:g> restando</string>
+
+    <!-- A message that appears when a USB charger is plugged in and the device does not
+    support charging on it.  That is, a charger that fits into the USB port and goes into
+    a wall socket, not into a computer. (This happens because some devices require more
+    current than the USB spec allows.  [CHAR LIMIT=NONE] -->
+    <string name="invalid_charger">Carregamento USB não suportado.\nUtilize somente o carregador fornecido.</string>
+
+    <!-- When the battery is low, this is the label of the button to go to the
+         power usage activity to find out what drained the battery.  [CHAR LIMIT=30] -->
+    <string name="battery_low_why">Uso da bateria</string>
+
+    <!-- Name of the button that links to the Settings app. [CHAR LIMIT=NONE] -->
+    <string name="status_bar_settings_settings_button">Configurações</string>
+
+    <!-- Name of the button that links to the Wifi settings screen. [CHAR LIMIT=NONE] -->
+    <string name="status_bar_settings_wifi_button">Wi-Fi</string>
+
+    <!-- Label in the system panel for airplane mode (all radios are turned off)[CHAR LIMIT=30] -->
+    <string name="status_bar_settings_airplane">Modo avião</string>
+
+    <!-- Label in system panel saying the device will use the orientation sensor to rotate [CHAR LIMIT=30] -->
+    <string name="status_bar_settings_auto_rotation">Girar tela automaticamente</string>
+
+    <!-- Abbreviation / label for mute brightness mode button. Should be all caps. [CHAR LIMIT=6] -->
+
+    <!-- Abbreviation / label for automatic brightness mode button. Should be all caps. [CHAR LIMIT=6] -->
+    <string name="status_bar_settings_auto_brightness_label">Brilho automático</string>
+
+    <!-- Label in system panel saying the device will show notifications [CHAR LIMIT=30] -->
+    <string name="status_bar_settings_notifications">Notificações</string>
+
+    <!-- Text to display next to the graphical battery meter.  [CHAR LIMIT=3] -->
+    <string name="status_bar_settings_battery_meter_format" translatable="false">
+        <xliff:g id="number">%d</xliff:g><xliff:g id="percent">%%</xliff:g>
+    </string>
+
+    <!-- Separator for PLMN and SPN in network name. -->
+    <string name="status_bar_network_name_separator" translatable="false">|</string>
+
+    <!-- Network connection string for Bluetooth Reverse Tethering -->
+    <string name="bluetooth_tethered">Tether Bluetooth</string>
+    <!-- Title of a button to open the settings for input methods [CHAR LIMIT=30] -->
+    <string name="status_bar_input_method_settings_configure_input_methods">Configurar métodos de entrada</string>
+
+    <!-- Label of a toggle switch to disable use of the physical keyboard in favor of the IME. [CHAR LIMIT=25] -->
+    <string name="status_bar_use_physical_keyboard">Teclado físico</string>
+
+    <!-- Prompt for the USB device permission dialog [CHAR LIMIT=80] -->
+    <string name="usb_device_permission_prompt">Permitir ao app <xliff:g id="application">%1$s</xliff:g> o acesso ao dispositivo USB?</string>
+
+    <!-- Prompt for the USB accessory permission dialog [CHAR LIMIT=80] -->
+    <string name="usb_accessory_permission_prompt">Permitir ao app <xliff:g id="application">%1$s</xliff:g> o acesso ao acessório USB?</string>
+
+    <!-- Prompt for the USB device confirm dialog [CHAR LIMIT=80] -->
+    <string name="usb_device_confirm_prompt">Abrir <xliff:g id="activity">%1$s</xliff:g> quando o dispositivo USB estiver conectado?</string>
+
+    <!-- Prompt for the USB accessory confirm dialog [CHAR LIMIT=80] -->
+    <string name="usb_accessory_confirm_prompt">Abrir <xliff:g id="activity">%1$s</xliff:g> quando o acessório USB estiver conectado?</string>
+
+    <!-- Prompt for the USB accessory URI dialog [CHAR LIMIT=80] -->
+    <string name="usb_accessory_uri_prompt">Nenhum aplicativo instalado funciona com este acessório USB. Conheça mais sobre este acessório em <xliff:g id="url">%1$s</xliff:g></string>
+
+    <!-- Title for USB accessory dialog.  Used when the name of the accessory cannot be determined.  [CHAR LIMIT=50] -->
+    <string name="title_usb_accessory">Acessório USB</string>
+
+    <!-- View button label for USB dialogs.  [CHAR LIMIT=15] -->
+    <string name="label_view">Ver</string>
+
+    <!-- Checkbox label for USB device dialogs.  [CHAR LIMIT=50] -->
+    <string name="always_use_device">Utilizar como padrão para este dispositivo</string>
+
+    <!-- Checkbox label for USB accessory dialogs.  [CHAR LIMIT=50] -->
+    <string name="always_use_accessory">Utilizar como padrão para este acessório</string>
+
+    <!-- Title of confirmation dialog for USB debugging -->
+    <string name="usb_debugging_title">Permitir depuração USB?</string>
+
+    <!-- Message of confirmation dialog for USB debugging -->
+    <string name="usb_debugging_message">A impressão RSA do computador é: \n<xliff:g id="fingerprint">%1$s</xliff:g></string>
+
+    <!-- Option to always allow USB debugging from the attached computer -->
+    <string name="usb_debugging_always">Sempre permitir este computador</string>
+
+    <!-- Checkbox label for application compatibility mode ON (zooming app to look like it's running
+         on a phone).  [CHAR LIMIT=25] -->
+    <string name="compat_mode_on">Amplie a imagem para preencher a tela</string>
+
+    <!-- Checkbox label for application compatibility mode OFF (normal mode on tablets).
+         [CHAR LIMIT=25] -->
+    <string name="compat_mode_off">Esticar a imagem para preencher a tela</string>
+
+    <!-- Compatibility mode help screen: header text. [CHAR LIMIT=50] -->
+    <string name="compat_mode_help_header">Zoom de compatibilidade</string>
+
+    <!-- Compatibility mode help screen: body text. [CHAR LIMIT=150] -->
+    <string name="compat_mode_help_body">Quando um app é criado para telas menores, um controle de zoom aparecerá perto do relógio, para controle da tela.</string>
+
+    <!-- Notification ticker displayed when a screenshot is being saved to the Gallery. [CHAR LIMIT=30] -->
+    <string name="screenshot_saving_ticker">Salvando captura de tela\u2026</string>
+    <!-- Notification title displayed when a screenshot is being saved to the Gallery. [CHAR LIMIT=50] -->
+    <string name="screenshot_saving_title">Salvando captura de tela\u2026</string>
+    <!-- Notification text displayed when a screenshot is being saved to the Gallery. [CHAR LIMIT=100] -->
+    <string name="screenshot_saving_text">Salvando captura de tela.</string>
+    <!-- Notification title displayed when a screenshot is saved to the Gallery. [CHAR LIMIT=50] -->
+    <string name="screenshot_saved_title">Captura de tela concluída</string>
+    <!-- Notification text displayed when a screenshot is saved to the Gallery. [CHAR LIMIT=100] -->
+    <string name="screenshot_saved_text">Toque para ver a captura de tela.</string>
+    <!-- Notification title displayed when we fail to take a screenshot. [CHAR LIMIT=50] -->
+    <!-- Notification text displayed when we fail to take a screenshot. [CHAR LIMIT=100] -->
+    <string name="screenshot_failed_text">Impossível salvar captura de tela. O armazenamento pode estar em uso.</string>
+
+    <!-- Title for the USB function chooser in UsbPreferenceActivity. [CHAR LIMIT=30] -->
+    <!-- Label for the MTP USB function in UsbPreferenceActivity. [CHAR LIMIT=50] -->
+    <!-- Label for the PTP USB function in UsbPreferenceActivity. [CHAR LIMIT=50] -->
+    <!-- Label for the installer CD image option in UsbPreferenceActivity. [CHAR LIMIT=50] -->
+
+    <!-- Content description of the back button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_back">Voltar</string>
+    <!-- Content description of the home button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_home">Início</string>
+    <!-- Content description of the menu button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_menu">Menu</string>
+    <!-- Content description of the recents button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_recent">Apps recentes</string>
+
+    <!-- Content description of the switch input method button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_ime_switch_button">Botão de alternância do método de entrada.</string>
+    <!-- Content description of the compatibility zoom button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_compatibility_zoom_button">Botão do zoom de compatibilidade.</string>
+
+    <!-- Content description of picture of the compatibility zoom example for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_compatibility_zoom_example">Zoom de tela pequena para tela grande.</string>
+
+    <!-- Content description of the bluetooth icon when connected for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_bluetooth_connected">Bluetooth conectado.</string>
+    <!-- Content description of the bluetooth icon when connecting for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_bluetooth_disconnected">Bluetooth desconectado.</string>
+
+    <!-- Content description of the battery when no battery for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <!-- Content description of the battery when it is one bar for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <!-- Content description of the battery when it is two bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+     <!-- Content description of the battery when it is three bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <!-- Content description of the battery when it is full for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+
+    <!-- Content description of the phone signal when no signal for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_no_phone">Nenhum sinal.</string>
+    <!-- Content description of the phone signal when it is one bar for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_phone_one_bar">Sinal de uma barra.</string>
+    <!-- Content description of the phone signal when it is two bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_phone_two_bars">Sinal de duas barras.</string>
+    <!-- Content description of the phone signal when it is three bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_phone_three_bars">Sinal de três barras.</string>
+    <!-- Content description of the phone signal when it is full for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_phone_signal_full">Sinal cheio.</string>
+
+    <!-- Content description of the data signal when no signal for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_no_data">Nenhuma rede de dados.</string>
+    <!-- Content description of the data signal when it is one bar for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_data_one_bar">Dados uma barra.</string>
+    <!-- Content description of the data signal when it is two bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_data_two_bars">Dados duas barras.</string>
+    <!-- Content description of the data signal when it is three bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_data_three_bars">Dados três barras.</string>
+    <!-- Content description of the data signal when it is full for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_data_signal_full">Dados móveis completos.</string>
+
+    <!-- Content description of the WIFI signal when no signal for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_no_wifi">Sem Wi-Fi.</string>
+    <!-- Content description of the WIFI signal when it is one bar for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_wifi_one_bar">Wi-Fi uma barra.</string>
+    <!-- Content description of the WIFI signal when it is two bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_wifi_two_bars">Wi-Fi duas barras.</string>
+    <!-- Content description of the WIFI signal when it is three bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_wifi_three_bars">Wi-Fi três barras.</string>
+    <!-- Content description of the WIFI signal when it is full for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_wifi_signal_full">Wi-Fi sinal cheio.</string>
+
+    <!-- Content description of the WiMAX signal when no signal for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_no_wimax">Nenhum WiMAX.</string>
+    <!-- Content description of the WiMAX signal when it is one bar for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_wimax_one_bar">WiMAX uma barra.</string>
+    <!-- Content description of the WiMAX signal when it is two bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_wimax_two_bars">WiMAX duas barras.</string>
+    <!-- Content description of the WiMAX signal when it is three bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_wimax_three_bars">WiMAX três barras.</string>
+    <!-- Content description of the WiMAX signal when it is full for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_wimax_signal_full">WiMAX sinal cheio.</string>
+
+    <!-- Content description of the data connection type GPRS for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_data_connection_gprs">GPRS</string>
+
+    <!-- Content description of the data connection type 3G for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_data_connection_3g">3G</string>
+
+    <!-- Content description of the data connection type 3.5G for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_data_connection_3.5g">3.5G</string>
+
+    <!-- Content description of the data connection type 4G for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_data_connection_4g">4G</string>
+
+    <!-- Content description of the data connection type CDMA for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_data_connection_cdma">CDMA</string>
+
+    <!-- Content description of the data connection type Edge for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_data_connection_edge">Edge</string>
+
+    <!-- Content description of the data connection type WiFi for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+
+    <!-- Content description of the data connection with no SIM for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+
+    <!-- Content description of the bluetooth tethering icon for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_bluetooth_tether">Tethering Bluetooth.</string>
+
+    <!-- Content description of the airplane mode icon for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_airplane_mode">Modo avião.</string>
+
+    <!-- Content description of the battery level icon for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_battery_level">Bateria <xliff:g id="number">%d</xliff:g> por cento.</string>
+
+    <!-- Content description of the button for showing a settings panel in the notification panel for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_settings_button">Configurações do Sistema.</string>
+
+    <!-- Content description of the button for showing a notifications panel in the notification panel for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_notifications_button">Notificações.</string>
+
+    <!-- Content description of the button for removing a notification in the notification panel for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_remove_notification">Limpar notificação.</string>
+
+    <!-- Content description of the enabled GPS icon in the notification panel for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+
+    <!-- Content description of the acquiring GPS icon in the notification panel for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+
+    <!-- Content description of the TeleTypewriter(TTY) enabled icon in the notification panel for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_tty_enabled">TeleTypewriter ativado.</string>
+
+    <!-- Content description of the ringer vibrate icon in the notification panel for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_ringer_vibrate">Toque com vibração.</string>
+
+    <!-- Content description of the ringer silent icon in the notification panel for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_ringer_silent">Toque silencioso.</string>
+
+    <!-- Content description to tell the user an application has been removed from recents -->
+    <string name="accessibility_recents_item_dismissed">%s dispensados.</string>
+
+    <!-- Title of dialog shown when 2G-3G data usage has exceeded limit and has been disabled. [CHAR LIMIT=48] -->
+    <string name="data_usage_disabled_dialog_3g_title">Dados 2G-3G desativados</string>
+    <!-- Title of dialog shown when 4G data usage has exceeded limit and has been disabled. [CHAR LIMIT=48] -->
+    <string name="data_usage_disabled_dialog_4g_title">Dados 4G desativados</string>
+    <!-- Title of dialog shown when mobile data usage has exceeded limit and has been disabled. [CHAR LIMIT=48] -->
+    <string name="data_usage_disabled_dialog_mobile_title">Dados móveis desativados</string>
+    <!-- Title of dialog shown when data usage has exceeded limit and has been disabled. [CHAR LIMIT=48] -->
+    <string name="data_usage_disabled_dialog_title">Dados desativados</string>
+    <!-- Body of dialog shown when data usage has exceeded limit and has been disabled. [CHAR LIMIT=NONE] -->
+    <string name="data_usage_disabled_dialog">Você atingiu o limite de uso de dados móveis especificado.\n\nSe você reativar os dados móveis, cobranças adicionais poderão ser geradas pela operadora.</string>
+    <!-- Dialog button indicating that data connection should be re-enabled. [CHAR LIMIT=28] -->
+    <string name="data_usage_disabled_dialog_enable">Reativar dados</string>
+
+    <!-- Text to display underneath the graphical signal strength meter when
+         no connection is available. [CHAR LIMIT=20] -->
+    <string name="status_bar_settings_signal_meter_disconnected">
+        Sem conexão
+    </string>
+
+    <!-- Text to display underneath the graphical signal strength meter when
+         it is displaying Wi-Fi status and Wi-Fi is connected to a network
+         whose SSID is not available.
+         [CHAR LIMIT=20] -->
+    <string name="status_bar_settings_signal_meter_wifi_nossid">Wi-Fi conectado</string>
+
+    <!-- Notification text: when GPS is getting a fix [CHAR LIMIT=50] -->
+    <string name="gps_notification_searching_text">Procurando GPS</string>
+
+    <!-- Notification text: when GPS has found a fix [CHAR LIMIT=50] -->
+    <string name="gps_notification_found_text">Local definido por GPS</string>
+
+    <!-- Content description of the clear button in the notification panel for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_clear_all">Limpar todas as notificações.</string>
+
+    <!-- Description of the desk dock action that invokes the Android Dreams screen saver feature -->
+
+    <!-- Title shown in notification popup for inspecting the responsible
+         application -->
+    <string name="status_bar_notification_inspect_item_title">Info do app</string>
+
+    <!-- Title for the pseudo-notification shown when notifications are disabled (do-not-disturb
+         mode) -->
+    <string name="notifications_off_title">Notificações desligadas</string>
+
+    <!-- Content text for do-not-disturb mode notification -->
+    <string name="notifications_off_text">Toque aqui para ativar as notificações novamente.</string>
+
+    <!-- Description of the button in the phone-style notification panel that controls auto-rotation, when auto-rotation is on. [CHAR LIMIT=NONE] -->
+    <string name="accessibility_rotation_lock_off">A tela irá rotacionar automaticamente.</string>
+
+    <!-- Description of the button in the phone-style notification panel that controls auto-rotation, when auto-rotation is off. [CHAR LIMIT=NONE] -->
+
+    <!-- Description of the button in the phone-style notification panel that controls auto-rotation, when auto-rotation is off. [CHAR LIMIT=NONE] -->
+
+    <!-- added by MIUI -->
+    <!-- ported from framework -->
+    <string name="share">Compartilhar</string>
+    <string name="description_direction_up">Deslizar pra cima para <xliff:g id="target_description" example="Unlock">%s</xliff:g>.</string>
+    <string name="description_direction_left">Deslizar à esquerda para <xliff:g id="target_description" example="Unlock">%s</xliff:g>.</string>
+    <string name="description_target_search">Pesquisar</string>
+
+    <string name="tab_notifications_lable">Notificações</string>
+    <string name="tab_toggles_lable">Atalhos</string>
+
+    <string name="status_bar_date_format">EEEE\ndd/MM/yyyy</string>
+
+    <string name="status_bar_recent_memory_info">%1$s / %2$s disponível</string>
+
+    <string name="usb_mode_notification">Cartão SD</string>
+    <string name="usb_mode_dont_ask">Lembrar escolha</string>
+    <string name="usb_mode_mount_storage_title">Abrir armazenamento USB agora?</string>
+    <string name="mount_storage">Sim</string>
+    <string name="dismount_storage">Não</string>
+    <string name="usb_notification">USB conectado</string>
+    <string name="usb_notification_mtp_info">Acesse arquivos pelo computador</string>
+    <string name="usb_notification_ptp_info">Acesse fotos pelo computador</string>
+    <string name="usb_notification_mtp_problem">Ajuda ></string>
+    <string name="usb_ptp_text">Fotos</string>
+    <string name="usb_mtp_text">Arquivos</string>
+    <string name="usb_notification_mtp_ticker_text">Conectado como dispositivo MTP (Arquivos)</string>
+    <string name="usb_notification_ptp_ticker_text">Conectado como dispositivo PTP (Fotos)</string>
+
+    <string name="user_guide_for_notification">Deslize a barra de status para baixo para verificar notificações</string>
+    <string name="user_guide_for_toggle">A lista de atalhos pode ser deslizada horizontalmente</string>
+    <string name="user_guide_for_toggle_list">Gerenciar atalhos</string>
+
+    <string name="return_to_incall_screen">Retornar à chamada</string>
+    <string name="call_status_dialing">Chamando</string>
+
+    <string name="status_bar_style_settings">Notificações</string>
+    <string name="status_bar_and_notification_bar">Notificações e barra de status</string>
+    <string name="settings_toggle_layout_style">Estilo de atalhos</string>
+    <string name="settings_toggle_layout_style_compact">Compacto</string>
+    <string name="settings_toggle_layout_style_single_page">Página</string>
+    <string name="settings_toggle_layout_style_applying">Alterando estilo de atalhos\u2026</string>
+    <string name="settings_custom_notification">Gerenciar notificações</string>
+    <string name="settings_all_app_display_loading">Carregando\u2026</string>
+    <string name="settings_show_notificationBar_notification">Exibir notificações</string>
+    <string name="settings_show_statusBar_notification">Exibir na barra de status</string>
+    <string name="filter_item_preview_image">Pré-visualizar</string>
+    <string name="filter_item_description">Para configurar as notificações, acesse Configurações &gt; Notificações &gt; Gerenciar notificações</string>
+    <string name="settings_notification_bar">Barra de notificações</string>
+    <string name="settings_toggle_position">Gerenciar atalhos</string>
+    <string name="settings_toggle_collapse_after_clicked">Retrair após clicado</string>
+    <string name="settings_show_screenshot_notification">Exibir notificação de screenshots</string>
+    <string name="settings_status_bar">Barra de status</string>
+    <string name="settings_show_network_speed">Exibir velocidade de rede</string>
+    <string name="settings_expandable_under_keyguard">Exibir na tela de bloqueio</string>
+    <string name="settings_show_carrier">Exibir nome da operadora</string>
+    <string name="settings_custom_carrier">Editar nome da operadora</string>
+    <string name="settings_no_carrier">Nenhum</string>
+    <string name="settings_show_carrier_summary">Mostrar somente na tela de bloqueio</string>
+    <string name="settings_basic_settings">Configurações básicas</string>
+    <string name="settings_advanced">Configurações avançadas</string>
+    <string name="settings_show_flow_info">Exibir consumo de dados</string>
+
+    <string name="settings_toggle_position_divider_page">%1$d atalhos acima desta barra estão ativos</string>
+    <string name="settings_toggle_position_divider_list">Os atalhos colocados acima da barra estão ativos</string>
+    <string name="settings_toggle_position_reset">Redefinir atalhos</string>
+
+    <!-- MI Button Settings -->
+    <string name="camera_key_action_setting_title">Botão MI</string>
+    <string name="camera_key_action_category_title">Utilizar quando a câmera não estiver ativa</string>
+    <string name="camera_key_action_none_title">Nenhuma ação</string>
+    <string name="camera_key_action_shortcut_title">Atalho</string>
+    <string name="camera_key_action_toggle_title">Atalho rápido</string>
+    <string name="camera_key_action_app_title">Abrir aplicativo</string>
+    <string name="camera_key_action_shortcut_home">Tela inicial</string>
+    <string name="camera_key_action_shortcut_screenshot">Captura de tela</string>
+    <string name="camera_key_action_shortcut_search">Pesquisar</string>
+    <string name="camera_key_action_shortcut_call">Chamar</string>
+    <string name="camera_key_action_shortcut_wake">Bloquear/Desbloquear</string>
+
+    <!-- Torch activity -->
+    <string name="torch_activity_name">Lanterna</string>
+    <string name="torch_activity_hint">Você pode abrir a lanterna rapidamente ao pressionar [icon] na tela de bloqueio</string>
+    <string name="torch_opened">Lanterna ligada</string>
+    <string name="torch_closed">Lanterna desligada</string>
+
+    <!-- Start directly copied from android framework -->
+
+    <!-- On the keyguard screen, it shows the carrier the phone is connected to.  This is displayed if the phone is not connected to a carrier.-->
+    <string name="lockscreen_carrier_default">Sem serviço</string>
+    <!-- title for the USB activity chooser. -->
+    <string name="chooseUsbActivity">Selecione um aplicativo para o dispositivo USB</string>
+
+    <!-- See USB_STORAGE.  USB_STORAGE_DIALOG:  After the user selects the notification, a dialog is shown asking if he wants to mount.  This is the title. -->
+    <string name="usb_storage_title">USB conectado</string>
+    <!-- See USB_STORAGE.    This is the message. [CHAR LIMIT=NONE] -->
+    <string name="usb_storage_message" product="nosdcard">Você está conectado ao seu computador via USB. Toque o botão abaixo se você deseja copiar arquivos entre seu computador e seu dispositivo Android.</string>
+        <!-- See USB_STORAGE.    This is the message. [CHAR LIMIT=NONE] -->
+    <string name="usb_storage_message" product="default">Você está conectado ao seu computador via USB. Toque o botão abaixo se você deseja copiar arquivos entre seu computador e seu dispositivo Android.</string>
+
+    <!-- See USB_STORAGE_DIALOG.  If there was an error mounting, this is the text. [CHAR LIMIT=NONE] -->
+    <string name="usb_storage_error_message" product="nosdcard">Ocorreu um erro ao tentar acessar seu dispositivo como um armazenamento em massa USB.</string>
+    <!-- See USB_STORAGE_DIALOG.  If there was an error mounting, this is the text. -->
+    <string name="usb_storage_error_message" product="default">Há um problema com seu cartão SD.</string>
+    <!-- USB_STORAGE: When the user connects the phone to a computer via USB, we show a notification asking if he wants to share files across.  This is the title -->
+    <string name="usb_storage_notification_title">USB conectado</string>
+    <!-- See USB_STORAGE. This is the message. -->
+    <string name="usb_storage_notification_message">Selecione para copiar arquivos para o seu dispositivo ou computador.</string>
+
+    <!-- USB_STORAGE_STOP: While USB storage is enabled, we show a notification dialog asking if he wants to stop. This is the title -->
+    <string name="usb_storage_stop_notification_title">Desativar Cartão SD</string>
+    <!-- See USB_STORAGE. This is the message. -->
+    <string name="usb_storage_stop_notification_message">Selecione para desativar o cartão SD.</string>
+
+    <!-- USB storage stop dialog strings -->
+    <!-- This is the label for the activity, and should never be visible to the user. -->
+    <!-- See USB_STORAGE_STOP.  USB_STORAGE_STOP_DIALOG:  After the user selects the notification, a dialog is shown asking if he wants to stop usb storage.  This is the title. -->
+    <string name="usb_storage_stop_title">Cartão SD em uso</string>
+    <!-- See USB_STORAGE_STOP.    This is the message. [CHAR LIMIT=NONE] -->
+    <string name="usb_storage_stop_message" product="nosdcard">Antes de desativar o armazenamento USB, certifique-se de que você desmontou ou ejetou o dispositivo de seu computador.</string>
+    <!-- See USB_STORAGE_STOP.    This is the message. -->
+    <string name="usb_storage_stop_message" product="default">Antes de desativar o armazenamento USB, certifique-se de que você desmontou ou ejetou o dispositivo de seu computador.</string>
+
+    <!-- USB_STORAGE_KILL_STORAGE_USERS dialog  -->
+    <string name="dlg_confirm_kill_storage_users_title">Ativar Cartão SD</string>
+    <!-- USB_STORAGE_KILL_STORAGE_USERS dialog message text -->
+    <string name="dlg_confirm_kill_storage_users_text">Ao ativar o cartão SD, alguns aplicativos instalados no dispositivo ficarão indisponíveis, retornando ao funcionamento assim que o armazenamento for desmontado ou ejetado de seu computador.</string>
+    <!-- USB_STORAGE_ERROR dialog  dialog-->
+    <string name="dlg_error_title">Falha na operação USB</string>
+    <!-- USB_STORAGE_ERROR dialog  ok button-->
+    <string name="dlg_ok">OK</string>
+
+    <!-- External media notification strings -->
+    <!-- Shown when external media is being checked [CHAR LIMIT=30] -->
+    <string name="ext_media_checking_notification_title" product="nosdcard">Preparando armazenamento USB</string>
+    <!-- Shown when external media is being checked -->
+    <string name="ext_media_checking_notification_title" product="default">Preparando cartão SD</string>
+    <string name="ext_media_checking_notification_message">Verificando erros.</string>
+
+     <!-- Shown when external media is blank (or unsupported filesystem) [CHAR LIMIT=30] -->
+    <string name="ext_media_nofs_notification_title" product="nosdcard">Armazenamento USB em branco</string>
+    <!-- Shown when external media is blank (or unsupported filesystem) -->
+    <string name="ext_media_nofs_notification_title" product="default">Cartão USB em branco</string>
+    <!-- Shown when USB storage cannot be read.  [CHAR LIMIT=NONE] -->
+    <string name="ext_media_nofs_notification_message" product="nosdcard">Armazenamento USB em branco ou possui um sistema de arquivos não suportado.</string>
+    <string name="ext_media_nofs_notification_message" product="default">Cartão USB em branco ou possui um sistema de arquivos não suportado.</string>
+
+    <!-- Shown when external media is unmountable (corrupt)) [CHAR LIMIT=30] -->
+    <string name="ext_media_unmountable_notification_title" product="nosdcard">Armazenamento USB danificado</string>
+    <!-- Shown when external media is unmountable (corrupt)) -->
+    <string name="ext_media_unmountable_notification_title" product="default">Cartão SD danificado</string>
+    <!-- Shown when USB storage cannot be read.  [CHAR LIMIT=NONE] -->
+    <string name="ext_media_unmountable_notification_message" product="nosdcard">Armazenamento USB danificado. Será necessário formatá-lo.</string>
+    <string name="ext_media_unmountable_notification_message" product="default">Cartão SD danificado. Será necessário formatá-lo.</string>
+
+    <!-- Shown when external media is unsafely removed [CHAR LIMIT=30] -->
+    <string name="ext_media_badremoval_notification_title" product="nosdcard">Remoção inesperada do armazenamento USB</string>
+    <!-- Shown when external media is unsafely removed -->
+    <string name="ext_media_badremoval_notification_title" product="default">Remoção inesperada do cartão SD</string>
+    <!-- Shown when external media is unsafely removed.  [CHAR LIMIT=NONE] -->
+    <string name="ext_media_badremoval_notification_message" product="nosdcard">Desmonte o armazenamento USB antes de removê-lo para evitar a perda de dados.</string>
+    <string name="ext_media_badremoval_notification_message" product="default">Desmonte o cartão SD antes de removê-lo para evitar a perda de dados.</string>
+
+    <!-- Shown when external media has been safely removed [CHAR LIMIT=30] -->
+    <string name="ext_media_safe_unmount_notification_title" product="nosdcard">Desmontando o armazenamento USB</string>
+    <!-- Shown when external media has been safely removed -->
+    <string name="ext_media_safe_unmount_notification_title" product="default">Desmontando o cartão SD</string>
+    <!-- Shown when external media has been safely removed.  [CHAR LIMIT=NONE] -->
+    <string name="ext_media_safe_unmount_notification_message" product="nosdcard">Você pode remover o armazenamento USB com segurança.</string>
+    <string name="ext_media_safe_unmount_notification_message" product="default">Você pode remover o cartão SD com segurança.</string>
+
+    <!-- Shown when external media is missing [CHAR LIMIT=30] -->
+    <string name="ext_media_nomedia_notification_title" product="nosdcard">Armazenamento USB removido</string>
+    <!-- Shown when external media is missing -->
+    <string name="ext_media_nomedia_notification_title" product="default">Cartão SD removido</string>
+    <!-- Shown when external media is missing.  [CHAR LIMIT=NONE] -->
+    <string name="ext_media_nomedia_notification_message" product="nosdcard">Armazenamento USB removido. Insira uma nova mídia.</string>
+    <string name="ext_media_nomedia_notification_message" product="default">Cartão SD removido. Insira um novo cartão.</string>
+
+    <!-- End directly copied from android framework -->
+    <string name="ext_media_mountable_notification_title">Armazenamento USB conectado</string>
+    <string name="ext_media_mountable_notification_message">Toque para abrir com o Explorador de arquivos</string>
+    <string name="ext_media_safe_remove">Remoção segura</string>
+
+    <!-- screen key name -->
+    <string name="screen_button_custom">Personalizar posição na tela</string>
+    <string name="recent_apps_key">Aplicativos recentes</string>
+    <string name="recent_apps_key_show">Exibir aplicativos recentes</string>
+    <string name="key_position_custom">Posição personalizada do botão</string>
+    <string name="screen_key_menu">Menu</string>
+    <string name="screen_key_home">Tela Inicial</string>
+    <string name="screen_key_recent_apps">Aplicativos recentes</string>
+    <string name="screen_key_back">Voltar</string>
+
+    <!-- status bar Network flow -->
+    <string name="status_bar_network_flow_today">Hoje: %1$s</string>
+    <string name="status_bar_network_flow">"Hoje: %1$s    Restante: %2$s    Pacote: %3$s"</string>
+    <string name="status_bar_network_flow_exceed">"Hoje: %1$s    Excedido: %2$s    Pacote: %3$s"</string>
+
+    <!-- drive mode -->
+    <string name="drive_mode_tip">Você está no modo de direção</string>
+
+    <string name="no_notification_tips">Nenhuma notificação</string>
+
+    <string name="notification_otg_mouse_in">Mouse conectado</string>
+    <string name="notification_otg_keyboard_in">Teclado conectado</string>
+    <string name="notification_otg_gamestick_in">Gamepad conectado</string>
+    <string name="notification_otg_stylus_in">Stylus conectada</string>
+    <string name="notification_otg_touchScreen_in">Touch screen conectada</string>
+    <string name="notification_otg_touchPad_in">Touchpad conectado</string>
+    <string name="notification_otg_trackball_in">Trackball conectado</string>
+    <string name="notification_otg_unknow_in">Dispositivo OTG conectado</string>
+
+    <string name="notification_otg_mouse_out">Mouse desconectado</string>
+    <string name="notification_otg_keyboard_out">Teclado desconectado</string>
+    <string name="notification_otg_gamestick_out">Gamepad desconectado</string>
+    <string name="notification_otg_stylus_out">Stylus desconectada</string>
+    <string name="notification_otg_touchScreen_out">Touch screen desconectada</string>
+    <string name="notification_otg_touchPad_out">Touchpad desconectado</string>
+    <string name="notification_otg_trackball_out">Trackball desconectado</string>
+    <string name="notification_otg_unknow_out">Dispositivo OTG desconectado</string>
+
+    <!-- mdb restore -->
+    <string name="mdb_restore_label">Restauração MDB</string>
+    <string name="mdb_restore_info1">Restaurar dados do telefone</string>
+    <string name="mdb_restore_info2">Não desconecte o USB do telefone</string>
+    <string name="mdb_restore_cancel">Cancelar</string>
+    <string name="mdb_usb_disconnection_exit">USB desconectada</string>
+    <string name="mdb_restore_mode">Modo de restauração</string>
+    <string name="mdb_entering">Iniciando\u2026</string>
+
+    <!-- recording status bar -->
+    <string name="status_bar_recording_back">Retornar ao Gravador</string>
+    <string name="status_bar_recording_pause">Gravação em pausa</string>
+
+    <string name="headset_settings">Fones de ouvido conectados</string>
+    <string name="headset_info">Personalizar funções dos botões</string>
+    <string name="headset_custom">Personalizar</string>
+
+    <!-- oldman -->
+    <string name="oldman_status_bar_time_format">HH:mm</string>
+    <string name="oldman_airplane_mode_text" msgid="1439152806320786912">"Modo avião"</string>
+    <string name="oldman_incall_text" msgid="1439152806320786912">"Chamadas telefônicas"</string>
+    <string name="audio_effect_settings">Selecionar tipo de fones</string>
+    <string name="audio_effect_info">Otimizar áudio</string>
+    <string name="audio_effect_custom">Configurar áudio</string>
+
+    <!-- usb share net -->
+    <string name="usb_share_net_info">Utilizar a internet do computador</string>
+</resources>
