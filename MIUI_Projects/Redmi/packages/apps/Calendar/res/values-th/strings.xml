@@ -46,7 +46,7 @@
     <!-- Some events repeat daily, weekly, monthly, or yearly.  This is the label
          for all the choices about how often an event repeats (including the choice
          of not repeating). -->
-    <string name="repeats_label">ซ้ำ</string>
+    <string name="repeats_label">ซ้ำ</string
     <!-- Title of event when no explicit title is specified by the user -->
     <string name="no_title_label">(ไม่มีหัวข้อ)</string>
 
@@ -285,10 +285,14 @@
     <string name="response_no">ไม่</string>
     <!-- Label for emailing attendees -->
     <string name="email_guests_label">อีเมลผู้เยี่ยมชม</string>
+    <!-- Label for emailing the organizer (when there are no attendees) -->
+    <string name="email_organizer_label">จัดการอีเมล</string>
     <!-- This is shown in the popup picker when emailing attendees -->
     <string name="email_picker_label">อีเมลกับ</string>
     <!-- The is shown in the email subject as the prefix appended to the event title -->
     <string translatable="false" name="email_subject_prefix">ตอบกลับ:\u0020</string>
+    <!-- Toast message displayed when the event id was not found LIMIT=30] -->
+    <string name="event_not_found">"ไม่พบกิจกรรม"</string>
 
     <!-- Title of the quick response item in Settings [CHAR LIMIT=18]-->
     <string name="quick_response_settings">ตอบด่วน</string>
@@ -481,6 +485,8 @@
     <string name="preferences_alerts_title">การแจ้งเตือน</string>
     <!-- Settings dialog label that specifies when the phone should vibrate -->
     <string name="preferences_alerts_vibrateWhen_title">สั่น</string>
+    <!-- The old value for enabling vibration. used only for migrating -->
+    <string translatable="false" name="prefDefault_alerts_vibrate_true">เสมอ</string>
     <!-- Title of ringtone selector dialog -->
     <string name="preferences_alerts_ringtone_title">เสียง</string>
     <!-- Title of check box label to enable or disable pop-up notifications -->
@@ -508,34 +514,6 @@
     <string name="preferences_about_title">เกี่ยวกับ</string>
     <!-- Build version of the application -->
     <string name="preferences_build_version">เวอร์ชัน</string>
-
-    <!-- The vibrate notification modes -->
-    <string-array name="prefEntries_alerts_vibrateWhen">
-        <!-- Always -->
-        <item>เสมอ</item>
-        <!-- Only when the phone is in Silent mode -->
-        <item>ไม่แจ้งเตือนเมื่อเงียบเสียง</item>
-        <!-- Never -->
-        <item>ไม่เลย</item>
-    </string-array>
-
-    <!-- The default vibrateWhen value, when none is set -->
-    <string translatable="false" name="prefDefault_alerts_vibrateWhen">ไม่เลย</string>
-    <!-- The value to use then migrating from old versions for a true vibrate setting -->
-    <string translatable="false" name="prefDefault_alerts_vibrate_true">เสมอ</string>
-    <!-- The value to use then migrating from old versions for a false vibrate setting -->
-    <string translatable="false" name="prefDefault_alerts_vibrate_false">ไม่เลย</string>
-
-    <!-- The vibrateWhen values -->
-    <string-array translatable="false" name="prefValues_alerts_vibrateWhen">
-        <item>เสมอ</item>
-        <item>เงียบ</item>
-        <item>ไม่เลย</item>
-    </string-array>
-
-    <!-- Dialog title for the Vibrate dialog -->
-    <string name="prefDialogTitle_vibrateWhen">สั่น</string>
-
     <!-- Widget -->
     <skip/>
     <!-- Title for calendar gadget when displayed in list of all other gadgets -->
@@ -552,7 +530,7 @@
     </plurals>
 
     <!-- Caption to show on gadget when there are no upcoming calendar events -->
-    <string name="gadget_no_events">ไม่มีกิจกรรมล่าสุด</string>
+    <string name="gadget_no_events">ไม่มีกิจกรรมเร็วๆนี้</string>
 
     <!-- Text to show on gadget when an event is currently in progress -->
 
@@ -575,13 +553,13 @@
     <!-- Create a new calendar event [CHAR LIMIT = NONE]-->
 
     <!-- Remove a name of an attendee from a calendar event [CHAR LIMIT = NONE]-->
-    <string name="accessibility_remove_attendee">ลบผู้ร่วมประชุม</string>
+    <string name="accessibility_remove_attendee">ลบผู้เข้าประชุม</string>
     <!-- Pick a starting date for a new event [CHAR LIMIT = NONE]-->
-    <string name="accessibility_pick_start_date">วันเริ่ม</string>
+    <string name="accessibility_pick_start_date">วันที่เริ่ม</string>
     <!-- Pick a starting time for a new event [CHAR LIMIT = NONE]-->
     <string name="accessibility_pick_start_time">จาก</string>
     <!-- Pick the ending date for a new event [CHAR LIMIT = NONE]-->
-    <string name="accessibility_pick_end_date">วันสิ้นสุด</string>
+    <string name="accessibility_pick_end_date">วันที่เสร็จ</string>
     <!-- Pick the ending time for a new event[CHAR LIMIT = NONE]-->
     <string name="accessibility_pick_end_time">ถึง</string>
     <!-- Select a time zone for a new event [CHAR LIMIT = NONE]-->
@@ -591,11 +569,11 @@
     <!-- Remove a reminder from an event [CHAR LIMIT = NONE]-->
     <string name="accessibility_remove_reminder">ลบการเตือน</string>
     <!-- Add a new attendee to an event [CHAR LIMIT = NONE]-->
-    <string name="accessibility_add_attendee">Add attendee</string>
+    <string name="accessibility_add_attendee">เพิ่มผู้เข้าประชุม</string>
     <!-- Choose if to sync/unsync this calendar with its server [CHAR LIMIT = NONE]-->
     <string name="accessibility_sync_cal">ซิงค์ปฏิทิน</string>
     <!-- Mark this event as an "all day event" [CHAR LIMIT = NONE]-->
-    <string name="accessibility_all_day">แสดงกิจกรรมทั้งวัน</string>
+    <string name="accessibility_all_day">กิจกรรมทั้งวัน</string>
     <!-- Refresh the data in the calendar [CHAR LIMIT = NONE]-->
 
     <!-- Choose the type of repetition for the event (daily, weekly, etc.[CHAR LIMIT = NONE]-->
@@ -607,11 +585,13 @@
     <!-- Select the way you are visible for the event (busy/free) [CHAR LIMIT = NONE]-->
     <string name="accessibility_reminder_showmeas">แสดงเป็น</string>
     <!-- Set the event as private/public/default [CHAR LIMIT = NONE]-->
-    <string name="accessibility_reminder_privacy">ส่วนตัว</string>
+    <string name="accessibility_reminder_privacy">ความเป็นส่วนตัว</string>
     <!-- Calendar notification [CHAR LIMIT = NONE]-->
     <string name="acessibility_cal_notification">การแจ้งเตือนปฏิทิน</string>
     <!-- Calendar notification snooze button [CHAR LIMIT = NONE]-->
-    <string name="acessibility_snooze_notification">การเลื่อนแจ้งเตือน</string>
+    <string name="acessibility_snooze_notification">การแจ้งเตือนเลื่อน</string>
+    <!-- Calendar notification email button [CHAR LIMIT = NONE]-->
+    <string name="accessibility_email_notification">อีเมลผู้เยี่ยมชม</string>
 
     <!-- A "new event" hint for the user when selecting a specific hour in the day view [CHAR LIMIT = 30]-->
     <string name="day_view_new_event_hint">+ กิจกรรมใหม่</string>
@@ -620,7 +600,7 @@
       Source: A value for announcing the current event index (example: "Event 2 of 6").
       Description: This is spoken to the user. [CHAR LIMIT="NONE"]
     -->
-    <string name="template_announce_item_index">กิจกรรม <xliff:g id="item_index">%1$s</xliff:g> ของ <xliff:g id="item_count">%2$s</xliff:g></string>
+    <string name="template_announce_item_index">กิจกรรม <xliff:g id="item_index">%1$s</xliff:g> of <xliff:g id="item_count">%2$s</xliff:g>.</string>
 
         <!-- number of events in the notification bar -->
     <plurals name="Nevents">
@@ -639,14 +619,14 @@
     </plurals>
 
     <!-- Description of the selected marker for accessibility support [CHAR LIMIT = NONE]-->
-    <string name="acessibility_selected_marker_description">กิจกรรมที่เลือก</string>
+    <string name="acessibility_selected_marker_description">กิจกรรมเลือกแล้ว</string>
 
     <!-- Tell user not to check a checkbox [CHAR LIMIT=30] -->
-    <string name="do_not_check">อย่าเลือก -></string>
+    <string name="do_not_check">Do NOT check -></string>
 
-    <string name="local_calendar_display_name">ปฏิทินภายใน</string>
+    <string name="local_calendar_display_name">ปฏิทิน</string>
     <string name="birthday_calendar_display_name">การเตือนวันเกิด</string>
-    <string name="local_owner_account_name">บัยชีภายใน</string>
+    <string name="local_owner_account_name">บัยชี</string>
 
     <string name="birthday_notification_title_today">วันเกิดของ <xliff:g id="name">%1$s</xliff:g></string>
     <string name="birthday_notification_text_today">อย่าลืมอวยพรวันเกิด!</string>
@@ -670,6 +650,6 @@
     <string name="preferences_category_general_title">ทั่วไป</string>
     <string name="preferences_category_account_title">บัญชี</string>
 
-    <string name="work_day_indication">: (</string>
-    <string name="rest_day_indication">: )</string>
+    <string name="work_day_indication">:(</string>
+    <string name="rest_day_indication">:)</string>
 </resources>

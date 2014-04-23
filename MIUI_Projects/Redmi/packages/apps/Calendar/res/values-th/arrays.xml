@@ -41,26 +41,38 @@
          [CHAR LIMIT=15]
     -->
     <string-array name="reminder_minutes_labels">
-        <item>ไม่แจ้งเตือน</item>
         <item>0 นาที</item>
+        <item>1 นาที</item>
         <item>5 นาที</item>
         <item>10 นาที</item>
         <item>15 นาที</item>
+        <item>20 นาที</item>
+        <item>25 นาที</item>
         <item>30 นาที</item>
-        <item>1 ชั่วโมง</item>
-        <item>1 วัน</item>
+        <item>45 นาที</item>
+        <item>1 นาที</item>
+        <item>2 นาที</item>
+        <item>3 นาที</item>
+        <item>12 นาที</item>
+        <item>24 นาที</item>
         <item>2 วัน</item>
         <item>1 สัปดาห์</item>
     </string-array>
 
     <integer-array name="reminder_minutes_values" translatable="false">
-        <item>-1</item>
         <item>0</item>
+        <item>1</item>
         <item>5</item>
         <item>10</item>
         <item>15</item>
+        <item>20</item>
+        <item>25</item>
         <item>30</item>
+        <item>45</item>
         <item>60</item>
+        <item>120</item>
+        <item>180</item>
+        <item>720</item>
         <item>1440</item>
         <item>2880</item>
         <item>10080</item>
@@ -71,14 +83,21 @@
          [CHAR LIMIT=12]
     -->
        <string-array name="preferences_default_reminder_labels">
-        <item>ไม่แจ้งเตือน</item>
+        <item>ไม่มี</item>
         <item>0 นาที</item>
+        <item>1 นาที</item>
         <item>5 นาที</item>
         <item>10 นาที</item>
         <item>15 นาที</item>
+        <item>20 นาที</item>
+        <item>25 นาที</item>
         <item>30 นาที</item>
-        <item>1 ชั่วโมง</item>
-        <item>1 วัน</item>
+        <item>45 นาที</item>
+        <item>1 นาที</item>
+        <item>2 นาที</item>
+        <item>3 นาที</item>
+        <item>12 นาที</item>
+        <item>24 นาที</item>
         <item>2 วัน</item>
         <item>1 สัปดาห์</item>
     </string-array>
@@ -86,11 +105,18 @@
     <string-array name="preferences_default_reminder_values" translatable="false">
         <item>"-1"</item>
         <item>"0"</item>
+        <item>"1"</item>
         <item>"5"</item>
         <item>"10"</item>
         <item>"15"</item>
+        <item>"20"</item>
+        <item>"25"</item>
         <item>"30"</item>
+        <item>"45"</item>
         <item>"60"</item>
+        <item>"120"</item>
+        <item>"180"</item>
+        <item>"720"</item>
         <item>"1440"</item>
         <item>"2880"</item>
         <item>"10080"</item>
