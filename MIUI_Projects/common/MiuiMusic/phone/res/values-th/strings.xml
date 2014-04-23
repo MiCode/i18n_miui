@@ -535,64 +535,64 @@
 
     <string name="music_not_loaded">"กำลังรอเสียงเพื่อดาวน์โหลด\u2026"</string>
 
-    <string name="scan_barcode_to_connect">Align the KTV console\'s QR code in the frame to scan</string>
-    <string name="where_is_barcode">Where\'s the QR code?</string>
+    <string name="scan_barcode_to_connect">ปรับรหัส QR KTV ไปยังกรอบเพื่อสแกน</string>
+    <string name="where_is_barcode">รหัส QR อยู่ที่ไหน?</string>
     <string name="i_know">ตกลง</string>
-    <string name="ktv_alert_title">Only supported devices can add songs</string>
-    <string name="ktv_alert_message">Tap "Use phone to add songs" on the main page of the KTV\'s console to view the corresponding QR code</string>
+    <string name="ktv_alert_title">สามารถเพิ่มเพลงอุปกรณ์ที่รองรับเท่านั้น</string>
+    <string name="ktv_alert_message">สัมผัส "ใช้โทรศัพท์เพื่อเพิ่มเพลง" บนหน้าจอหลักของ KTV เพื่อแสดงรหัส QR</string>
     <string name="ktv_and_room">"%1$s %2$s"</string>
-    <string name="ktv_connected_alert_titel">"Connected to %1$s"</string>
-    <string name="ktv_connected_alert_message">The songs you select will be added to the playlist "My KTV"</string>
-    <string name="ktv_disconnect_alert_titel">"Disconnect from %1$s?"</string>
-    <string name="ktv_song_vod_success">"“%1$s”added"</string>
-    <string name="ktv_song_vod_fail">"Failed to add “%1$s”"</string>
-    <string name="ktv_unbind_message">"Failed to connect with KTV console. Make sure you\'re scanning the correct QR code."</string>
-    <string name="request_fail">"Failed to request"</string>
-    <string name="disconnect">Disconnect</string>
-    <string name="server_error">Server error</string>
-    <string name="requesting">Requesting\u2026</string>
+    <string name="ktv_connected_alert_titel">"เขื่อมต่อไปยัง %1$s"</string>
+    <string name="ktv_connected_alert_message">เพลงที่เลือกจะถูกเพิ่มไปยังรายการ KTV</string>
+    <string name="ktv_disconnect_alert_titel">"ตัดการเชื่อมต่อจาก %1$s?"</string>
+    <string name="ktv_song_vod_success">"“%1$s”เพิ่มแล้ว"</string>
+    <string name="ktv_song_vod_fail">"เพิ่มล้มเหลว “%1$s”"</string>
+    <string name="ktv_unbind_message">"เชื่อมต่อไปยัง KTV ล้มเหลวแล้ว แน่ใจว่ากำลังสแกนรหัส QR ถูกต้อง"</string>
+    <string name="request_fail">"ร้องขอล้มเหลว"</string>
+    <string name="disconnect">ตัดการเชื่อมต่อ</string>
+    <string name="server_error">เซิร์ฟเวอร์ผิดพลาด</string>
+    <string name="requesting">กำลังร้องขอ\u2026</string>
 
-    <string name="track_bit_rate_standard">Good</string>
-    <string name="track_bit_rate_hd">High</string>
-    <string name="track_bit_rate_uhd">Higher</string>
+    <string name="track_bit_rate_standard">ดี</string>
+    <string name="track_bit_rate_hd">สูง</string>
+    <string name="track_bit_rate_uhd">สูงมาก</string>
 
-    <string name="choose_stream_quality">"Choose stream quality"</string>
-    <string name="choose_download_quality">"Choose download quality"</string>
-    <string name="ultra_high_quality">"Higher Quality"</string>
-    <string name="high_quality">"High Quality"</string>
-    <string name="normal_quality">"Good Quality"</string>
+    <string name="choose_stream_quality">"เลือกคุณภาพสตรีม"</string>
+    <string name="choose_download_quality">"เลือกคุณภาพดาวน์โหลด"</string>
+    <string name="ultra_high_quality">"คุณภาพสูงกว่า"</string>
+    <string name="high_quality">"คุณภาพสูง"</string>
+    <string name="normal_quality">"คุณภาพดี"</string>
 
-    <string name="login_first">"You need to sign in to your Xiaomi Account first"</string>
-    <string name="login">"Sign in"</string>
-    <string name="payment_success">"Payment complete"</string>
-    <string name="payment_fail">"Payment failed"</string>
+    <string name="login_first">"จำเป็นต้องเข้าระบบบัญชี Xiaomi ก่อน"</string>
+    <string name="login">"เข้าระบบ"</string>
+    <string name="payment_success">"ชำระเงินเสร็จสิ้น"</string>
+    <string name="payment_fail">"ชำระเงินล้มเหลวแล้ว"</string>
 
-    <string name="pay_service_guide_new">Higher quality music now available</string>
+    <string name="pay_service_guide_new">สามารถใช้งานเพลงคุณภาพสูงกว่าได้</string>
     <string name="pay_service_guide_listen">คุณภาพสตรีม</string>
     <string name="pay_service_guide_dowload">คุณภาพดาวน์โหลด</string>
 
-    <string name="vip_recommend_title">Get higher quality music</string>
-    <string name="vip_recommend_main_title">Just 5 MiCredits for 30 days</string>
-    <string name="vip_recommend_sub_title">Unlimited CD-quality music (320 kbps)</string>
-    <string name="vip_recommend_summary">Stream or download all your favorite artists from Baidu Music at 320 kbps.</string>
+    <string name="vip_recommend_title">รับเพลงคุณภาพสูงกว่า</string>
+    <string name="vip_recommend_main_title">เพียง 5 Mi เครดิตสำหรับ 30 วัน</string>
+    <string name="vip_recommend_sub_title">เพลงคุณภาพ CD ไม่จำกัด (320 kbps)</string>
+    <string name="vip_recommend_summary">สตรีมหรือดาวน์โหลดทั้งหมดจากเพลงจาก Baidu 320 kbps</string>
     <string name="vip_recommend_buy">ชำระเงิน (5 Mi เครดิตสำหรับ 30 วัน)</string>
     <string name="vip_recommend_rebuy">ต่ออายุ (5 Mi เครดิตสำหรับ 30 วัน)</string>
     <string name="vip_recommend_exchange">ใช้รหัสของขวัญ</string>
 
-    <string name="music_quality">Music quality</string>
-    <string name="higher_quality_music">Higher quality music</string>
-    <string name="menu_higher_quality_music">Higher quality music (monthly access)</string>
-    <string name="higher_quality_music_summary">Listen to and download higher quality music</string>
+    <string name="music_quality">คุณภาพเพลง</string>
+    <string name="higher_quality_music">เพลงคุณภาพสูงกว่า</string>
+    <string name="menu_higher_quality_music">เพลงคุณภาพสูงกว่า (เข้าถึงรายเดือน)</string>
+    <string name="higher_quality_music_summary">ฟังและดาวน์โหลดเพลงคุณภาพสูงกว่า</string>
     <string name="expired">หมดอายุแล้ว</string>
     <string name="enabled">เปิดใช้งานแล้ว</string>
-    <string name="valid_period">"Valid : "</string>
+    <string name="valid_period">"ถูกต้อง : "</string>
     <string name="period_format">%1$s-%2$s</string>
-    <string name="vip_bought">You\'ve already purchased higher quality music access</string>
-    <string name="vip_expired">Your higher quality music access has expired</string>
+    <string name="vip_bought">ชำระเงินเข้าถึงเพลงคุณภาพสูงกว่าแล้ว</string>
+    <string name="vip_expired">เข้าถึงเพลงคุณภาพสูงกว่าหมดอายุแล้ว</string>
     <string name="vip_rebuy">ต่ออายุ</string>
 
-    <string name="data_usage_warning">Data usage</string>
-    <string name="data_usage_warning_summary">Using your mobile data connection to stream higher quality music may increase your data usage costs.</string>
+    <string name="data_usage_warning">ข้อมูลการใช้</string>
+    <string name="data_usage_warning_summary">ใช้งานการเชื่อมต่อข้อมูลมือถือสำหรับสตรีมเพลงคุณภาพสูงกว่าอาจจะเพิ่มการใช้งานข้อมูล</string>
 
-    <string name="source_from">Source from : %1$s</string>
+    <string name="source_from">แหล่งที่มา : %1$s</string>
 </resources>

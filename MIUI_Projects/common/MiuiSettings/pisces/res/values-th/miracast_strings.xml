@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2012-2013 NVIDIA Corporation.  All rights reserved.
+
+    NVIDIA CORPORATION and its licensors retain all intellectual property
+    and proprietary rights in and to this software, related documentation
+    and any modifications thereto.  Any use, reproduction, disclosure or
+    distribution of this software and related documentation without an express
+    license agreement from NVIDIA CORPORATION is strictly prohibited.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!--Miracast Settings --><skip />
+    <!-- Title of the Miracast settings screen -->
+    <string name="miracast_settings_category">การตั้งค่าแสดง Wi-Fi</string>
+    <!-- Preference category for Miracast display list -->
+    <string name="miracast_display_category">แสดง</string>
+    <!-- Action bar text message to search Miracast sink-->
+    <string name="miracast_menu_search">ค้นหา</string>
+    <!-- Action bar text message to indicate searching Miracast sink-->
+    <string name="miracast_menu_searching">กำลังค้นหา</string>
+    <!-- Action bar text message to teardown a miracast session-->
+    <string name="miracast_menu_teardown">ตัดขาด</string>
+    <!-- Menu option to connect to a Miracast sink and begin streaming-->
+    <string name="miracast_menu_connect">กำลังเริ่มสตรีม</string>
+    <!-- Menu option to disconnect from a Miracast sink and stop streaming-->
+    <string name="miracast_menu_disconnect">หยุดสตรีม</string>
+    <!-- Menu option to delete a Miracast sink -->
+    <string name="miracast_menu_forget">แสดงลืม</string>
+    <!-- Menu option to modify a Miracast sink configuration -->
+    <string name="miracast_menu_rename">แสดงเปลี่ยนชื่อ</string>
+    <!-- Button label to save a Miracast sink configuration [CHAR LIMIT=10] -->
+    <string name="miracast_setup_save">บันทึก</string>
+    <!-- Button label to cancel and close a Miracast dialog [CHAR LIMIT=10] -->
+    <string name="miracast_setup_cancel">ยกเลิก</string>
+    <!-- Miracast settings. text displayed when Wi-Fi is off [CHAR LIMIT=50]-->
+    <string name="miracast_wifi_off">เพื่อใช้งาน Miracast เปิดใช้งาน Wi-Fi</string>
+    <!-- Miracast settings. text displayed when no Miracast sinks detected after a complete scan [CHAR LIMIT=50]-->
+    <string name="miracast_no_sinks_found">ไม่มีการเชื่อมต่อไร้สายใกล้เคียงสามารถใช้งานได้</string>
+    <!-- Label for the nickname for the Miracast sink -->
+    <string name="miracast_nickname">กรุณาตั้งชื่อใหม่:</string>
+    <!-- Text displayed when WPS fails to start [CHAR LIMIT=150] -->
+    <string name="miracast_connection_failed_generic">การเชื่อมต่อไม่เสร็จสิ้น</string>
+
+    <!-- Miracast sink status.  Streaming active -->
+    <string name="miracast_sink_connected">เชื่อมต่อแล้ว</string>
+    <!-- Miracast sink status.  Not in range -->
+    <string name="miracast_sink_not_available">ไม่สามารถใช้งานได้</string>
+    <!-- Miracast sink status.  Connecting... -->
+    <string name="miracast_sink_connecting">กำลังเชื่อมต่อ\u2026</string>
+    <!-- Miracast sink status.  Not connected -->
+    <string name="miracast_sink_ready_to_connect">พร้อมเชื่อมต่อ</string>
+    <!-- Miracast sink status.  Busy -->
+    <string name="miracast_sink_busy">ไม่ว่าง</string>
+
+    <!-- Miracast error.  Already streaming -->
+    <string name="miracast_error_already_streaming">แสดงสตรีมมิ่งอยู่แล้ว</string>
+    <!-- Miracast error.  Connection in progress -->
+    <string name="miracast_error_connection_in_progress">ดำเนินการเชื่อมต่อ กรุณารอ</string>
+    <!-- Miracast Cancel ongoing Connection Dialog -->
+    <string name="miracast_cancelconnect_dialog">ยกเลิกการเชื่อมต่อ</string>
+    <!-- Miracast title for CancelConnect Dialog -->
+    <string name="miracast_dialog_title">%1$s</string>
+    <!-- Miracast error. P2P Already connected.CancelConnect cannot be done -->
+    <string name="miracast_error_cancelconnect">การเชื่อมต่อปัจจุบันไม่ว่าง</string>
+    <!-- Miracast Settings. text to depict that discovery has started -->
+    <string name="miracast_search_for_displays">กำลังค้นหาแสดงผลไร้สาย...</string>
+    <!-- Miracast settings. text displayed when PC2THOR is connected [CHAR LIMIT=75]-->
+    <string name="miracast_PC2THOR_streaming_on">Miracast ไม่สามารถใช้งานได้เพราะคอมพิวเตอร์กำลังสตรีมมิ่งบนอุปกรณ์</string>
+
+    <!-- Miracase settings menu title for disable DHCP for special dongle -->
+    <string name="miracast_disable_dhcp">ปิดใช้งาน HDCP</string>
+    <!-- Miracase settings menu title for enable DHCP -->
+    <string name="miracast_enable_dhcp">เปิดใช้งาน HDCP</string>
+</resources>
+

@@ -185,6 +185,6 @@
     <string name="toast_fm_recorder_storage_full">ไม่สามารถเริ่มบันทึกวิทยุต่อ: พื้นที่ไม่เพียงพอ</string>
     <string name="toast_fm_not_stated">ยังไม่ได้เริ่มวิทยุ</string>
     <string name="toast_fm_error_startfailed">บันทึกวิทยุผิดพลาด แอปพลิเคชันอื่นๆอาจจะกำลังใช้งานฟังก์ชันบันทึกเสียง กรุณาตรวจสอบและลองใหม่อีกครั้ง</string>
-    <string name="toast_fm_recorder_access_error">ไม่สามารถบันทึกวิทยุขณะอยู่ในโหมดผู้เยี่ยมชม</string>
+    <string name="toast_fm_recorder_access_error">ไม่สามารถบันทึกวิทยุขณะอยู่ในโหมดเยี่ยมชม</string>
     <string name="msg_fm_starting">กำลังเริ่ม\u2026</string>
 </resources>

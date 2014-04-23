@@ -11,7 +11,7 @@
     <string name="status_bar_toggle_lock">ล็อก</string>
     <string name="status_bar_toggle_mute">เงียบ</string>
     <string name="status_bar_toggle_network_type">เครื่อข่าย</string>
-    <string name="status_bar_toggle_privacy_mode">ผู้เยี่ยมชม</string>
+    <string name="status_bar_toggle_privacy_mode">เยี่ยมชม</string>
     <string name="status_bar_toggle_reboot">รีบูต</string>
     <string name="status_bar_toggle_rotate">หมุนหน้าจอ</string>
     <string name="status_bar_toggle_screen_button">ปิดใช้งาน</string>
