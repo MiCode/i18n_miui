@@ -166,7 +166,7 @@
     <string name="sync_only_in_wifi_alert">Turning off this option may increase your mobile data usage (this may cost you money).</string>
 
     <string name="wifi_recommended_title">Traffic reminder</string>
-    <string name="wifi_recommended_body">About to download via the operator network：\n
+    <string name="wifi_recommended_body">About to download via the operator nextwork：\n
         Downloading the file may result in higher traffic costs.
     </string>
     <string name="button_queue_for_wifi">Queue</string>

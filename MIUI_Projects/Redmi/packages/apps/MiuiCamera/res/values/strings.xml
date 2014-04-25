@@ -1070,8 +1070,20 @@
     <string name="pref_camera_hdr_type_entryvalue_normal" translatable="false">normal</string>
     <string name="pref_camera_hdr_type_entryvalue_default" translatable="false">live</string>
     <string name="pref_camera_hdr_type_entryvalue_live" translatable="false">live</string>
-
+    <string name="pref_camera_ubi_focus_title">Ubi Focus</string>
+    <string name="pref_camera_opti_zoom_title">Opti Zoom</string>
+    <string name="pref_camera_chroma_flash_title">Chroma Flash</string>
+    <string name="simple_mode_button_text_ubi_focus">Close Ubi Focus mode</string>
+    <string name="simple_mode_button_text_chroma_flash">Close Chroma Flash mode</string>
+    <string name="simple_mode_button_text_opti_zoom">Close OptiZoom mode</string>
+    <string name="ubi_focus_exit_button_text">Exit Ubi Focus mode</string>
+    <string name="chroma_flash_exit_button_text">Exit Chroma Flash mode</string>
+    <string name="opti_zoom_exit_button_text">Exit OptiZoom mode</string>
+    <string name="pref_camera_auto_opti_zoom_title">Auto Opti Zoom when ratio is greater than 2</string>
+    <string name="confirm_enable_opti_zoom_message">Do you want to enable opti-zoom in your photos?</string>
+    <string name="enable_feature">Yes</string>
+    <string name="not_enable_feature">Remind next time</string>
+    <string name="accessibility_opti_zoom_button" translatable="false">Opti_Zoom</string>
 
     <string name="accessibility_ev_control">Exposure compensation</string>
-
 </resources>

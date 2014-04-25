@@ -349,14 +349,10 @@
     <string name="load_channel_failed">List failed to load</string>
     <string name="load_bill_in_process">Load billboard list\u2026</string>
     <string name="load_bill_failed">List failed to load</string>
-    <string name="load_artist_in_process">Loading\u2026</string>
-    <string name="load_artist_failed">List failed to load</string>
-    <string name="load_album_in_process">Loading\u2026</string>
-    <string name="load_album_failed">List failed to load</string>
+    <string name="load_recommend_in_process">Loading\u2026</string>
+    <string name="load_recommend_failed">List failed to load</string>
     <string name="load_audio_in_process">Loading\u2026</string>
     <string name="load_audio_failed">List failed to load</string>
-    <string name="load_album_artist_in_process">Loading\u2026</string>
-    <string name="load_album_artist_failed">List failed to load</string>
     <string name="retry">Retry</string>
 
     <string name="lrc_search_failed">Couldn\'t find lyrics</string>
@@ -367,8 +363,6 @@
     <!-- 在线歌曲免责声明 -->
     <string name="impunity_declaration_title">Declaration</string>
     <string name="impunity_declaration">The online music you are about to listen to is from Baidu Online Music Service. Touch Confirm to accept the <a href="http://music.baidu.com/doc/agreement">terms of use</a></string>
-    <string name="synchronize_to_baidu_cloud">Back up online songs in your playlists with Baidu Cloud</string>
-    <string name="synchronize_guide_toast">To enable sync, go to Settings > Sync playlists</string>
 
     <!-- 文件过滤 -->
     <string name="music_filter_helper">A filter has prevented these files from being displayed</string>
@@ -595,4 +589,11 @@
     <string name="data_usage_warning_summary">Using your mobile data connection to stream higher quality music may increase your data usage costs.</string>
 
     <string name="source_from">Source from : %1$s</string>
+
+    <string name="click_to_play_all">Click to play all</string>
+
+    <string name="collect_topic_success">Album added to favorites</string>
+    <string name="collect_bill_success">Bill added to favorites</string>
+    <string name="collect_fm_success">Added to favorites</string>
+    <string name="uncollect_success">Removed from favorites</string>
 </resources>

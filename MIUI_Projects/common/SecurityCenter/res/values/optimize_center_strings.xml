@@ -94,7 +94,7 @@
     <string name="scanning_start_hints">Getting ready\u2026</string>
     <string name="pref_category_title_cleanup_white_list">Trash clean-up white list</string>
     <string name="pref_title_cleanup_white_list">Trash clean-up white list</string>
-    <string name="pref_summary_cleanup_white_list">Trash in white list will be ignored</string>
+    <string name="pref_summary_cleanup_white_list">Trash in white list will be ignore</string>
     <string name="pref_category_title_auto_update_cleanup_db">Cleanup database update settings</string>
     <string name="pref_title_auto_update_cleanup_db">Auto update</string>
     <string name="pref_summary_auto_update_cleanup_db">Update: %s</string>
@@ -181,11 +181,11 @@
     <string name="dialog_msg_check_all">Confirm to select %1$s that contains %2$d items</string>
     <string name="toast_removed_from_white_list">Has bean removed from white list</string>
     <string name="notification_button_text_of_low_memory">Clean-up</string>
-    <string name="notification_title_of_low_memory">The system storage has used %s</string>
+    <string name="notification_title_of_low_memory">The system stroage has used %s</string>
     <string name="notification_summary_of_low_memory">When low memory,will not install new apps</string>
     <string name="garbage_white_list_empty_content">White list is empty</string>
     <string name="toast_garbage_cleanup_success">Clean up success</string>
     <string name="dialog_title_load_cleanup_engine_error">Error</string>
-    <string name="dialog_msg_load_cleanup_engine_error">Garbage clean engine has been corrupted, it's necessary to reinstall your system using a full package update!</string>
+    <string name="dialog_msg_load_cleanup_engine_error">Garbage clean engine has been corrupted, the whole amount of the package or re-brush brush!</string>
 
 </resources>
