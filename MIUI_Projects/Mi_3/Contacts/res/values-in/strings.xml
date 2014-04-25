@@ -754,7 +754,8 @@
     <string name="no_sdcard_message" product="default">Tidak ada SD card ditemukan.</string>
 
     <!-- Action string for selecting SIM for importing contacts -->
-    <string name="import_from_sim">Import dari kartu SIM</string>
+    <string name="import_from_sim">Impor dari kartu SIM</string>
+    <string name="import_from_sim2">Impor dari kartu SIM 2</string>
 
     <!-- Action string for selecting (USB) storage for importing contacts [CHAR LIMIT=25] -->
     <string name="import_from_sdcard" product="default">Import dari storage</string>
@@ -921,7 +922,7 @@
     <string name="fail_reason_too_long_filename">Nama yang diperlukan terlalu panjang (\"<xliff:g id="filename">%s</xliff:g>\").</string>
 
     <!-- The title shown when exporting vCard is successfuly finished [CHAR LIMIT=40] -->
-    <string name="exporting_vcard_finished_title">Ekspor selesai <xliff:g id="filename" example="export.vcf">%s</xliff:g>.</string>
+    <string name="exporting_vcard_finished_title">Mengekspor <xliff:g id="filename" example="export.vcf">%s</xliff:g> selesai.</string>
 
     <!-- The title shown when exporting vCard is canceled (probably by a user)
          The argument is file name the user canceled importing.
@@ -932,7 +933,7 @@
     <string name="exporting_contact_list_title">Mengekspor data kontak</string>
 
     <!-- Message shown when the application is exporting contact data outside -->
-    <string name="exporting_contact_list_message">Data kontak Anda sedang diekspor ke: <xliff:g id="file_name">%s</xliff:g>.</string>
+    <string name="exporting_contact_list_message">Mengekspor ke <xliff:g id="file_name">%s</xliff:g>.</string>
 
     <!-- The failed reason shown when contacts exporter fails to be initialized.
          Some exact reason must follow this. [CHAR LIMIT=NONE]-->
@@ -1165,6 +1166,8 @@
 
     <!-- Generic action string for text messaging a contact. Used by AccessibilityService to announce the purpose of the view. [CHAR LIMIT=NONE] -->
     <string name="sms">Pesan teks</string>
+    
+    <string name="eventTypeCustom">"Kustom"</string>
 
     <!-- Action string for sending an email to a home email address -->
     <string name="email_home">Email home</string>
@@ -1842,6 +1845,7 @@
     <string name="callrecordview_menu_show_accepted">Panggilan terjawab</string>
     <string name="callrecordview_menu_show_stranger">Panggilan dari nomor asing</string>
     <string name="callrecordview_menu_show_new">Kontak baru</string>
+    <string name="callrecordview_menu_show_sim">%s panggilan</string>
     <string name="callrecordview_menu_delete">Bersikan log panggilan</string>
     <string name="callrecordview_menu_delete_all">Bersihkan log panggilan</string>
     <string name="callrecordview_menu_delete_missed">Bersihkan panggilan tidak terjawab</string>
@@ -1849,6 +1853,7 @@
     <string name="callrecordview_menu_delete_accepted">Bersihkan panggilan terjawab</string>
     <string name="callrecordview_menu_delete_stranger">Bersihkan nomor asing</string>
     <string name="callrecordview_menu_delete_new">Bersihkan nomor baru dari log panggilan</string>
+    <string name="callrecordview_menu_delete_sim">Bersihkan %s log panggilan</string>
     <string name="callrecordview_menu_delete_confirm">%s?</string>
     <string name="callrecordview_menu_delete_one">Hapus dari log panggilan</string>
     <string name="callrecordview_menu_add_call_note">Tambahkan catatan panggilan</string>
@@ -1889,7 +1894,8 @@
     <string name="calllog_menu_blacklist">Block</string>
     <string name="calllog_menu_edit_before_call">Edit</string>
     <string name="calllog_menu_send_sms">Kirim pesan</string>
-    <string name="menu_call_ip_number">Dial IP call (dial %s)</string>
+    <string name="menu_call_ip_number">Panggil IP panggilan (dial %s)</string>
+    <string name="menu_dial_ip_number">Panggil IP panggilan</string>
     <string name="delete_contact_calllog_title">"Hapus log panggilan?"</string>
     <string name="delete_unknown_contact_calllog_title">"Hapus long panggilan?"</string>
     <string name="callrecordview_menu_batch_delete">Hapus batch</string>
@@ -2002,7 +2008,8 @@
     <string name="import_vcard_description" product="default">Import kontak dari SD card</string>
     <string name="export_vcard_description" product="nosdcard">Export vCard ke penyimpanan internal</string>
     <string name="export_vcard_description" product="default">Export vCard ke SD card</string>
-    <string name="export_to_sim">Export ke SIM card</string>
+    <string name="export_to_sim">Expor ke kartu SIM</string>
+    <string name="export_to_sim2">Expor ke kartu SIM2</string>
     <string name="export_to_sim_title">Exporting\u2026</string>
     <string name="sim_card_no_free_space_title">SIM card penuh</string>
     <string name="sim_card_no_free_space_message">Ruang tidak cukup</string>
@@ -2024,7 +2031,8 @@
     <string name="rebuild_t9_index_dialog_message">Membangun kembali\u2026</string>
     <string name="pref_key_rebuild_t9_index_title">Membangun kembali index data</string>
     <string name="pref_key_rebuild_t9_index_message">Rebuild index untuk mengatasi kesalahan pencarian</string>
-    <string name="pref_key_sim_manage">Configure SIM card</string>
+    <string name="pref_key_sim_manage">Konfigurasi kartu SIM</string>
+    <string name="pref_key_sim_manage2">Konfigurasi kartu SIM 2</string>
     <string name="pref_key_photo">Foto</string>
     <string name="pref_key_photo_word_title">Assign kontak foto</string>
     <string name="pref_key_photo_word_summary">Secara otomatis menetapkan gambar ke kontak tanpa satu</string>
@@ -2059,6 +2067,7 @@
     <!-- local account -->
     <string name="account_default">Ponsel</string>
     <string name="account_sim">Kartu SIM</string>
+    <string name="account_sim2">Karu SIM %d</string>
     <string name="lunarBirthdayLabelsGroup">ulang tahun lunar</string>
 
     <!-- 联系人上下文菜单 -->
@@ -2365,4 +2374,21 @@
     <string name="yellowpage_navigation_network_location_not_enabled_summary">Direktori menyediakan layanan sesuai dengan kota Anda dan memungkinkan WLAN &amp; layanan lokasi jaringan selular dapat meningkatkan kualitas pelayanan.</string>
     <string name="yellowpage_navigation_network_location_enable">Aktifkan sekarang</string>
     <string name="yellowpage_navigation_network_location_enable_later">Aktifkan nanti</string>
+     <string name="sim_capacity">Tampilkan kapasitas kartu SIM</string>
+    <string name="sim_capacity_content">Kapasitas total <xliff:g id="items">%d</xliff:g>, used <xliff:g id="items">%d</xliff:g></string>
+    <string name="sim_contact_existing">Kontak SIM sudah ada.</string>
+    <string name="sim_contact_number_missing">Nomor kontak SIM hilang.</string>
+
+    <string name="sim_error_generic_failure">Kegagalan Umum.</string>
+    <string name="sim_error_storage_full">Penyimpanan penuh.</string>
+    <string name="sim_error_not_ready">Memuat kontak SIM, mohon tunggu sebentar…</string>
+    <string name="sim_error_text_too_long">Nama terlalu panjang.</string>
+    <string name="sim_error_number_too_long">Nomor terlalu panjang.</string>
+    <string name="sim_error_email_too_long">Email terlalu panjang.</string>
+    <string name="sim_error_email_full">Penyimpanan email penuh.</string>
+    <string name="sim_error_anr_full">penyimpanan nomor penuh.</string>
+    <string name="sim_error_password_error">Sandi salah.</string>
+
+    <string name="imei_invalid">IMEI salah</string>
+    <string name="meid_invalid">MEID salah</string>
 </resources>
