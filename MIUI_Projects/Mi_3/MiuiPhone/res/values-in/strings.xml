@@ -13,12 +13,12 @@
     <string name="answer_widget_sliding_vertical_miui">Geser vertikal</string>
     <string name="answer_widget_title_miui">Gerakan jawaban</string>
     <string name="answer_state_setting_title">Pengaturan panggilan masuk</string>
-    <string name="answer_state_setting_summary">Konfigurasi pilihan tambahan untuk panggilan masuk</string>
+    <string name="answer_state_setting_summary">Pilihan tambahan untuk panggilan masuk</string>
     <string name="areacode_required_for_emergency_number_miui">Butuh kode area untuk panggilan darurat</string>
     <string name="areacode_required_miui">Butuh kode area</string>
     <string name="areacode_required_accept_miui">OK</string>
-    <string name="auto_answer_summary_not_enabled">idak diaktifkan</string>
-    <string name="auto_answer_summary_delay">(tertunda: %s detik)</string>
+    <string name="auto_answer_summary_not_enabled">dinonaktifkan</string>
+    <string name="auto_answer_summary_delay">" (tertunda: %s detik)"</string>
     <string name="auto_answer_delay_entries_delay_10s_miui">10 detik</string>
     <string name="auto_answer_delay_entries_delay_3s_miui">3 detik</string>
     <string name="auto_answer_delay_entries_delay_5s_miui">5 detik</string>
@@ -33,7 +33,7 @@
     <string name="auto_answer_scenario_title_miui">Kondisi jawab otomatis</string>
     <string name="auto_answer_setting_title_miui">Pengaturan jawab otomatis</string>
     <string name="auto_country_code_miui">Tambah kode negara</string>
-    <string name="auto_country_code_sum_miui">Tambah kode negara sebelum memanggil kontak yang dikenal secara otomatis</string>
+    <string name="auto_country_code_sum_miui">Tambah kode negara sebelum memanggil kontak secara otomatis</string>
     <string name="autoip_miui">Memanggil IP otomatis</string>
     <string name="auto_ip_summary_not_enabled">Tidak aktif</string>
     <string name="auto_ip_setting_miui">Pengaturan IP otomatis</string>
@@ -41,10 +41,10 @@
     <string name="auto_ip_exception_miui">Nomor yang tidak membutuhkan awalan IP</string>
     <string name="auto_ip_no_exceptions_miui">Tambah nomor yang tidak membutuhkan awalan IP</string>
     <string name="auto_ip_add_exception_numbers_miui">Tambah nomor</string>
-    <string name="auto_ip_remove_exception_numbers_confirm_miui">Hapus %d nomor?</string>
+    <string name="auto_ip_remove_exception_numbers_confirm_miui">%d akan dihapus?</string>
     <string name="auto_ip_exception_summary_miui"> %d total</string>
     <string name="auto_ip_exception_summary_more_miui">,... %d total</string>
-    <string name="auto_ip_support_local_numbers">Dukung nomor lokal</string>
+    <string name="auto_ip_support_local_numbers">Selalu gunakan awalan IP</string>
     <string name="auto_record_call_summary_miui">Semua panggilan yang direkam akan disimpan ke folder MIUI/sound_recorder/call_rec</string>
     <string name="auto_record_call_title_miui">Rekam secara otomatis</string>
     <string name="auto_record_scenario_title_miui">Pengaturan rekaman otomatis</string>
@@ -52,7 +52,7 @@
     <string name="auto_record_scenario_enteries_whitelist_miui">Daftar khas</string>
     <string name="auto_record_whitelist_miui">Daftar pengguna</string>
     <string name="auto_record_unknown_miui">Nomor tidak dikenal</string>
-    <string name="auto_record_yellowpage_miui">Yellow pages</string>
+    <string name="auto_record_yellowpage_miui">Direktori</string>
     <string name="auto_record_whitelist_no_item_miui">Tambah nomor dengan menekan tombol tambah \(+\)</string>
     <string name="auto_record_whitelist_summary_for_one_miui">1 nomor</string>
     <string name="auto_record_whitelist_summary_miui"> %d nomor</string>
@@ -71,20 +71,20 @@
     <string name="call_forwarding_number_hint_miui">Masukkan nomor untuk meneruskan panggilan masuk ke</string>
     <string name="call_forwarding_settings_miui">Pengaturan penerusan panggilan</string>
     <string name="calling_via_template_miui">Memanggil melalui ^1\n<b>^2</b></string>
-    <string name="call_record_setting_miui">Pengaturan rekaman</string>
+    <string name="call_record_setting_miui">Rekaman panggilan</string>
     <string name="call_recording_notification_summary_miui">Tampilkan notifikasi di status bar ketika panggilan telah direkam</string>
     <string name="call_recording_notification_title_miui">Notifikasi rekaman panggilan</string>
     <string name="call_recording_prompt_miui">Buka rekaman panggilan</string>
     <string name="call_record_button_label">Mereka, %s</string>
-    <string name="call_record_unknown_error">Terjadi kesalahan ketika merekam.</string>
+    <string name="call_record_unknown_error">Terjadi kesalahan.</string>
     <string name="call_record_notification_message_low_space_miui">Rekaman dihentikan: Tidak cukup ruang.</string>
     <string name="call_record_notification_message_miui">Tekan untuk menampilkan %s.</string>
     <string name="call_record_notification_message_sd_unmounted_miui">Rekaman dihentikan: Kartu SD dilepas.</string>
-    <string name="call_record_notification_message_start_failed">Fungsi rekaman sedang digunakan oleh aplikasi lain.</string>
+    <string name="call_record_notification_message_start_failed">Perekam sedang digunakan oleh aplikasi lain.</string>
     <string name="call_record_error_access">Tidak dapat merekam jika berada di mode Tamu</string>
     <string name="call_record_notification_title_error_miui">Rekaman panggilan gagal</string>
     <string name="call_record_notification_title_miui">Panggilan direkam</string>
-    <string name="call_record_sd_error_miui">Gagal mengakses kartu SD</string>
+    <string name="call_record_sd_error_miui">"Gagal mengakses kartu SD<"/string>
     <string name="call_record_sd_space_low_miui">Tidak cukup ruang: kartu SD anda telah penuh</string>
     <string name="call_settings_category_miui">Panggilan</string>
     <string name="call_settings_miui">Pengaturan panggilan</string>
@@ -107,7 +107,7 @@
     <string name="command_error_fdn_failure_miui">Anda harus mematikan FDN dulu</string>
     <string name="command_error_generic_failure_miui">Operasi gagal</string>
     <string name="command_error_illegal_sim_or_me_miui">Gagal menghubungkan ke jaringan: SIM/ME salah</string>
-    <string name="command_error_invalid_response_miui">Respon jaringan tidak valid. Coba lagi nanti.</string>
+    <string name="command_error_invalid_response_miui">Respon jaringan tidak valid. Tunggu 1 atau 2 menit lagi dan coba lagi.</string>
     <string name="command_error_no_subscription_miui">Gagal mencari abonemen CDMA dari lokasi tertentu</string>
     <string name="command_error_op_denied_before_reg_miui">Operasi ditolak: perangkat harus terdaftar ke jaringan</string>
     <string name="command_error_op_denied_during_call_miui">Operasi ini tidak diizinkan selama panggilan</string>
@@ -137,8 +137,8 @@
     <string name="crystaltalk_title_miui">Pengaturan NICAM</string>
     <string name="current_areacode_miui">Kode area sekaran</string>
     <string name="current_areacode_sum_miui">Kode area lokasi anda sekarang</string>
-    <string name="current_areacode_sum_set_miui">Kode area lokasi sekarang:<xliff:g id="areacode_be_set">%s</xliff:g></string>
-    <string name="custom_location_location_no_item_miui">Tambah nomor dengan menekan tombol tambah (+)</string>
+    <string name="current_areacode_sum_set_miui">"Kode area sekarang:<xliff:g id="areacode_be_set">%s</xliff:g>"</string>
+    <string name="custom_location_location_no_item_miui">"Tambah nomor dengan menekan tombol tambah (+)"</string>
     <string name="custom_location_location_hint_miui">Nama </string>
     <string name="custom_location_number_hint_miui">Kode area atau nomor grup</string>
     <string name="cw_title_miui">Panggilan menunggu</string>
@@ -179,7 +179,7 @@
     <string name="fdn_miui">FDN</string>
     <string name="fdn_miui">Fixed Dialing Numbers</string>
     <string name="fdn_summary_miui">Cegah panggilan keluar untuk didaftarkan ke FDN, atau ke nomor denan beberapa awalan</string>
-    <string name="get_smsc_address_error_miui">Gagal menghubungkan ke jaringan</string>
+    <string name="get_smsc_address_error_miui">"Gagak terhubung ke jaringan. Cek koneksi anda dan coba lagi."</string>
     <string name="get_smsc_address_timeout_miui">Waktu koneksi habis</string>
     <string name="go_private_miui">Mode pribadi</string>
     <string name="hac_mode_summary_miui">Aktifkan kemampuan bantuan pendengaran</string>
@@ -191,7 +191,7 @@
     <string name="importing_sim_contacts_miui">Impor kontak SIM\u2026</string>
     <string name="import_selected_sim_entries_miui">Impor kontak yang dipilih</string>
     <string name="import_all_sim_entries_miui">Impor semua kontak</string>
-    <string name="import_sim_entries_finish">Impor kontak SIM selesai</string>
+    <string name="import_sim_entries_finish">Kontak SIM diimpor</string>
     <string name="delete_sim_entries_finish">Kontak SIM dihapus</string>
     <string name="import_sim_entry_miui">Impor</string>
     <string name="incall_screen_background_title_miui">Latar belakang layar panggilan</string>
@@ -291,7 +291,7 @@
     <string name="sim_pin_change_miui">Uban PIN SIM</string>
     <string name="sim_pin_toggle_miui">Kunci kartu SIM</string>
     <string name="sip_settings_miui">Pangglan internet</string>
-    <string name="sip_add_account_tip_text">Tambah akun SIP untuk menggunakan fitur panggilan internet</string>
+    <string name="sip_add_account_tip_text">Untuk menggunakan panggilan internet, tambahkan akun SIP</string>
     <string name="sliding_down_hint_miui">Geser ke bawa untuk menjawab</string>
     <string name="sliding_target_hint_miui">Geser target</string>
     <string name="sliding_up_hint_miui">Geser ke atas untuk menolak</string>
@@ -324,7 +324,7 @@
     <string name="voice_quality_ui_values_normal_miui">Normal</string>
     <string name="sim_contacts_title_miui">Kontak di kartu SIM</string>
     <string name="delete_sim_entry_miui">Hapus</string>
-    <string name="confirm_delete_sim_entry_miui">Hapus %d kontak di kartu SIM?</string>
+    <string name="confirm_delete_sim_entry_miui">%d kontak di kartu SIM akan dihapus.</string>
     <string name="deleting_sim_entry_miui">Menghapus\u2026</string>
     <string name="delete_selected_sim_entry_miui">Hapus kontak yang dipilih</string>
     <string name="import_all_sim_entry_miui">Impor semua</string>
@@ -346,10 +346,10 @@
     <string name="set_preferred_network_type_when_data_enabled_miui">Jenis jaringan yang dipilih hanya dapat digunakan jika data dinonaktifkan</string>
 
     <string name="turn_off_auto_select_title_miui">Jangan pilih jaringan secara otomatis</string>
-    <string name="turn_off_auto_select_warning_message_miui">Hanya menggunakan jaringan yang anda pilih secara manual, tidak akan menghubungkan ke jaringan yang lain.</string>
+    <string name="turn_off_auto_select_warning_message_miui">Hanya menggunakan jaringan yang anda pilih secara manual.</string>
     <string name="turn_off_auto_select_confirm_message_miui">Jaringan mungkin tidak tersedia.</string>
-    <string name="network_work_query_failed_message_miui">Pertanyaan jaringan gagal, tekan \'cancel\' untuk memilih jaringan secara otomatis atau tekan \'ok\' untuk mengulang</string>
-    <string name="sum_select_automatically_option_miui">Memilih penyedia layanan seccara otomatis, %s</string>
+    <string name="network_work_query_failed_message_miui">Pertanyaan jaringan gagal, tekan Batal untuk memilih jaringan secara otomatis atau tekan OK untuk mengulang</string>
+    <string name="sum_select_automatically_option_miui">Memilih penyedia layanan seccara otomatis, (%s)</string>
     <string name="select_network_automatic_hint_miui">"TIdak dapat mendaftar ke jaringan yang dipilih,\npilih jaringan secara otomatis"</string>
     <string name="next_miui">Selanjutnya</string>
     <string name="turn_off_miui">Matikan</string>
@@ -425,7 +425,7 @@
     <string name="enable_antispam_strange_summary">Diamkan panggilan pertama dari nomor tidak dikenal</string>
 
     <string name="phone_info_divider">" ｜ "</string>
-    <string name="suspect_info">Hati-hati: Anda harus memastikan identitas kontaknya melalui telepon atau video sebelum menjawab pesan apapun yang melibatkan keuangan pribadi.</string>
+    <string name="suspect_info">Selalu pastikan identitas orang yang berbicara kepada anda melalui telepon atau video sebelum merespon pesan apapun yang berhubungan dengan keuangan anda.</string>
 
     <string name="information">Informasi</string>
     <string name="duringcall">Operasi ini tidak diizinkan selama panggilan</string>
