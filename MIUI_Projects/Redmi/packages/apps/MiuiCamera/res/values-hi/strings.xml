@@ -20,7 +20,8 @@
     <string name="camera_error_title">कैमरा मे त्रुटि</string>
 
     <!-- message for the dialog showing the error of camera hardware -->
-    <string name="cannot_connect_camera">कैमरे से कनेक्ट नहीं कर सकते.</string>
+	<string name="cannot_connect_camera_once">कैमरे से कनेक्ट नहीं कर सकते</string>
+    <string name="cannot_connect_camera_twice">अभी भी कैमरे से कनेक्ट नहीं कर सकते हैं. फ़ोन रीस्टार्ट करके देखिये.</string>
 
     <!-- message for the dialog showing the camera is disabled because of security policies. Camera cannot be used. -->
     <string name="camera_disabled">कैमरा सुरक्षा कारणों के लिए निष्क्रिय कर दिया गया है.</string>
@@ -58,9 +59,6 @@
     <!-- alert to the user that the camera fails to read or write the SD card. -->
     <string name="access_sd_fail" product="default">SD कार्ड तक नहीं पहुंचा जा सका.</string>
 
-    <string name="access_phone_fail_no_product">USB संग्रहण का उपयोग नहीं किया जा सका.</string>
-    <string name="access_sd_fail_no_product">SD कार्ड तक नहीं पहुंचा जा सका.</string>
-
     <!-- Confirmation dialog when restoring settings -->
     <string name="confirm_restore_title">डिफ़ॉल्ट पुनर्स्थापित</string>
     <string name="confirm_restore_message">कैमरा डिफ़ॉल्ट सेटिंग पुनर्स्थापित?</string>
@@ -68,8 +66,8 @@
     <string name="confirm_change_to_expert_mode_message">उन्नत मोड में स्विच करें?</string>
     <string name="confirm_change_to_simple_mode_message">साधारण मोड में स्विच करें?</string>
     <string name="confirm_location_message">लिए गए फोटो में लोकेशन रिकॉर्ड करे ?</string>
-    <string name="open">रिकॉर्ड</string>
-    <string name="skip">रिकॉर्ड नहीं करे </string>
+    <string name="save">सहेजें</string>
+	<string name="no_save">न सहेजें</string>
 
     <!-- button in review mode indicating that the video just taken should be played [CHAR LIMIT=10] -->
 
@@ -87,7 +85,7 @@
     <!-- A lable that overlays on top of the preview frame to indicate the camcorder is in time lapse mode [CHAR LIMIT=35] -->
 
     <!-- Settings screen, camera selection dialog title. Users can select a camera from the phone (front-facing or back-facing). [CHAR LIMIT=20] -->
-    <string name="pref_camera_id_title">कैमरा का चयन करें</string>
+   
 
     <string name="pref_camera_id_default" translatable="false">0</string>
 
@@ -97,13 +95,17 @@
     <string name="pref_camera_recordlocation_default" translatable="false">ग़लत</string>
 
     <!-- Settings screen, Record location dialog choices -->
-    <string name="pref_camera_recordlocation_entry_off">बंद</string>
+      <string name="pref_camera_recordlocation_entry_off">बंद</string>
     <string name="pref_camera_recordlocation_entry_on">चालू</string>
 
-    <string name="pref_camera_sound_title">Camera sounds</string>
-    <string name="pref_camera_sound_default" translatable="false">बंद</string>
+    <string name="pref_camera_sound_title">कैमरा ध्वनियां</string>
     <string name="pref_camera_sound_title_entry_off">बंद</string>
     <string name="pref_camera_sound_title_entry_on">चालू</string>
+
+    <string name="pref_camera_sound_default" translatable="false">चालू</string>
+    <string name="pref_camera_sound_entryvalue_off" translatable="false">बंद</string>
+    <string name="pref_camera_sound_entryvalue_on" translatable="false">चालू</string>
+
     <string name="pref_camera_sound_entry_off">बंद</string>
     <string name="pref_camera_sound_entry_on">चालू</string>
 
@@ -121,9 +123,10 @@
     <!-- The Video quality settings in preference [CHAR LIMIT=21] -->
     <string name="pref_video_quality_title">वीडियो की गुणवत्ता</string>
     <!-- The default quality value is 9 (480p) -->
-    <string name="pref_video_quality_default" translatable="false">10</string>
-    <!-- Video quality setting entry. Videos will be recorded in 1080p quality. [CHAR LIMIT=24] -->
-    <string name="pref_video_quality_entry_1080p" translatable="false">FULL HD</string>
+	<string name="pref_video_quality_default" translatable="false">5</string>
+    <string name="pref_mtk_video_quality_default" translatable="false">10</string>
+	<!-- Video quality setting entry. Videos will be recorded in 1080p quality. [CHAR LIMIT=24] -->
+	<string name="pref_video_quality_entry_1080p">FULL HD</string>
     <!-- Video quality setting entry. Videos will be recorded in 720p quality. [CHAR LIMIT=24] -->
     <string name="pref_video_quality_entry_720p">HD</string>
     <!-- Video quality setting entry. Videos will be recorded in 480p quality. [CHAR LIMIT=24] -->
@@ -174,36 +177,39 @@
     <string name="pref_camera_picturesize_entry_full_screen">Full screen 16:9</string>
 
     <!-- professional mode -->
-    <string name="pref_camera_picturesize_professional_entry_4208x3120">13M(4208x3120)</string>
-    <string name="pref_camera_picturesize_professional_entry_4208x2368">10M(4208x2368)</string>
-    <string name="pref_camera_picturesize_professional_entry_3200x2400">8M(3264X2448)</string>
-    <string name="pref_camera_picturesize_professional_entry_3600x2160">8M(3600X2160)</string>
-    <string name="pref_camera_picturesize_professional_entry_3200x1800">6M(3264x1840)</string>
-    <string name="pref_camera_picturesize_professional_entry_3264x1836">6M(3264x1836)</string>
-    <string name="pref_camera_picturesize_professional_entry_3328x1872">6M(3328x1872)</string>
-    <string name="pref_camera_picturesize_professional_entry_2592x1944">5M(2592x1944)</string>
-    <string name="pref_camera_picturesize_professional_entry_2560x1920">5M(2560x1920)</string>
-    <string name="pref_camera_picturesize_professional_entry_2560x1440">4M(2560x1440)</string>
-    <string name="pref_camera_picturesize_professional_entry_2048x1536">3M(2048x1536)</string>
-    <string name="pref_camera_picturesize_professional_entry_1920x1080">2M(1920x1088)</string>
-    <string name="pref_camera_picturesize_professional_entry_1600x1200">2M(1600x1200)</string>
-    <string name="pref_camera_picturesize_professional_entry_1280x960">1.3M(1280x960)</string>
-    <string name="pref_camera_picturesize_professional_entry_1280x720">0.9M(1280x720)</string>
-    <string name="pref_camera_picturesize_professional_entry_1024x768">0.8M(1024x768)</string>
-    <!--not use  -->
+    <string name="pref_camera_picturesize_entry_4208x3120">13M(4208x3120)</string>
+	<string name="pref_camera_picturesize_entry_4208x2368">10M(4208x2368)</string>
+	<string name="pref_camera_picturesize_entry_3264x2448">8M(3264x2448)</string>
+	<string name="pref_camera_picturesize_entry_3200x2400">8M(3200x2400)</string>
+	<string name="pref_camera_picturesize_entry_3328x1872">6M(3328x1872)</string>
+	<string name="pref_camera_picturesize_entry_3264x1840">6M(3264x1840)</string>
+	<string name="pref_camera_picturesize_entry_3200x1800">6M(3200x1800)</string>
+	<string name="pref_camera_picturesize_entry_3264x1836">6M(3264x1836)</string>
+	<string name="pref_camera_picturesize_entry_2592x1936">5M(2592x1936)</string>
+	<string name="pref_camera_picturesize_entry_2592x1456">4M(2592x1456)</string>
+	<string name="pref_camera_picturesize_entry_2592x1944">5M(2592x1944)</string>
+	<string name="pref_camera_picturesize_entry_2048x1536">3M(2048x1536)</string>
+	<string name="pref_camera_picturesize_entry_1920x1088">2M(1920x1088)</string>
+	<string name="pref_camera_picturesize_entry_1920x1080">2M(1920x1080)</string>
+	<string name="pref_camera_picturesize_entry_1600x1200">2M(1600x1200)</string>
+	<string name="pref_camera_picturesize_entry_1472x1104">1.6M(1472x1104)</string>
+	<string name="pref_camera_picturesize_entry_1440x1080">1.6M(1440x1080)</string>
+	<string name="pref_camera_picturesize_entry_1280x960">1.3M(1280x960)</string>
+	<string name="pref_camera_picturesize_entry_1440x816">1.2M(1440x816)</string>
+	<string name="pref_camera_picturesize_entry_1472x832">1.2M(1472x832)</string>
+	<string name="pref_camera_picturesize_entry_1280x720">0.9M(1280x720)</string>
+	<string name="pref_camera_picturesize_entry_1024x768">0.8M(1024x768)</string>
+	<!--not use  -->
 
     <!-- Default picture quality setting. See
          pref_camera_jpegquality_entryvalues for possible values -->
-    <string name="pref_camera_jpegquality_default" translatable="false">fine</string>
-
-    <string name="pref_camera_picture_size_default" translatable="false">3600X2160</string>
-    <string name="pref_camera_front_picture_size_default" translatable="false">1280x720</string>
+    <string name="pref_camera_jpegquality_default" translatable="false">साधारण</string>
 
     <!-- Default Picture format setting. Do not translate. -->
     <string name="pref_camera_picture_format_default">jpeg</string>
 
     <!-- Settings screen, Select Picture format title -->
-    <string name="pref_camera_picture_format_title">Select picture format</string>
+    <string name="pref_camera_picture_format_title">चित्र स्वरूप चुनें</string>
 
     <!-- Settings screen, picture format dialog radio button choices -->
     <string name="pref_camera_picture_format_entry_jpeg">Jpeg</string>
@@ -216,9 +222,9 @@
     <string name="pref_camera_jpegquality_title">चित्र गुणवत्ता</string>
 
     <!-- Settings screen, Picture quality dialog radio button choices -->
-    <string name="pref_camera_jpegquality_entry_superfine">Super fine</string>
-    <string name="pref_camera_jpegquality_entry_fine">Fine</string>
+    <string name="pref_camera_jpegquality_entry_high">High</string>
     <string name="pref_camera_jpegquality_entry_normal">Standard</string>
+	<string name="pref_camera_jpegquality_entry_low">Low</string>
 
      <!-- Default auto histogram setting. Do not translate. -->
      <string name="pref_camera_histogram_default">disable</string>
@@ -243,16 +249,18 @@
     <string name="pref_camera_focusmode_entry_infinity">इंफिनिटी</string>
     <string name="pref_camera_focusmode_entry_macro">मैक्रो</string>
     <string name="pref_camera_focusmode_entry_continuous">CAF</string>
-
-    <string name="pref_camera_focusmode_value_default">ऑटो</string>
+    <string name="pref_camera_focusmode_entry_manual">मैनुअल</string>
+	<string name="pref_camera_focusmode_entry_lock">लॉक</string>
+	<string name="pref_video_focusmode_title">फोकस मोड</string>
+	<string name="pref_video_focusmode_entry_continuous">CAF</string>
+	<string name="pref_video_focusmode_entry_auto">टैप</string>
+	<string name="pref_video_focusmode_entryvalue_default" translatable="false">स्वत:</string>
+    <string name="pref_camera_focusmode_value_default">सतत तस्वीर</string>
     <!-- Default flash mode setting.-->
     <string name="pref_camera_flashmode_default" translatable="false">ऑटो</string>
 
     <!-- Skin beautify setting -->
     <string name="pref_camera_skin_beautify_default" translatable="false">बंद</string>
-
-    <!-- Value for flash off setting-->
-    <string name="pref_camera_flashmode_no_flash" translatable="false">no_flash</string>
 
     <!-- Settings screen, Flash mode title -->
     <string name="pref_camera_flashmode_title">फ़्लैश मोड</string>
@@ -278,26 +286,45 @@
     <string name="pref_camera_whitebalance_entry_daylight">दिन प्रकाश</string>
     <string name="pref_camera_whitebalance_entry_fluorescent">प्रतिदीप्ति</string>
     <string name="pref_camera_whitebalance_entry_cloudy">मेघाच्छादित</string>
-
-    <!-- Default color effect setting. -->
+     
+    <string name="pref_camera_whitebalance_entry_manual">मैनुअल</string>
+	<string name="pref_camera_whitebalance_entry_measure">माप</string>
+	<string name="pref_camera_whitebalance_entryvalue_auto" translatable="false">ऑटो</string>
+	<string name="pref_camera_whitebalance_entryvalue_incandescent" translatable="false">उद्दीप्त</string>
+	<string name="pref_camera_whitebalance_entryvalue_daylight" translatable="false">दिन प्रकाश</string>
+	<string name="pref_camera_whitebalance_entryvalue_fluorescent" translatable="false">प्रतिदीप्ति</string>
+	<string name="pref_camera_whitebalance_entryvalue_cloudy" translatable="false">मेघाच्छादित-दिन प्रकाश</string>
+	<string name="pref_camera_whitebalance_entryvalue_manual" translatable="false">manual-cct</string>
+	<string name="pref_camera_whitebalance_entryvalue_measure" translatable="false">नाप</string>
+	<!-- Default color effect setting. -->
     <string name="pref_camera_coloreffect_default" translatable="false">कोई नहीं</string>
-
+    <string name="pref_camera_shader_coloreffect_default" translatable="false">-1</string>
     <!-- Settings screen, Select Color effect title -->
     <string name="pref_camera_coloreffect_title">रंग प्रभाव</string>
 
     <!-- Settings screen, Color effect dialog radio button choices -->
-    <string name="pref_camera_coloreffect_entry_none"></string>
-    <string name="pref_camera_coloreffect_entry_mono"></string>
     <string name="pref_camera_coloreffect_entry_sepia"></string>
     <string name="pref_camera_coloreffect_entry_negative"></string>
-    <!-- Color effect that overexposes and reverses some of the tones. -->
     <string name="pref_camera_coloreffect_entry_posterize"></string>
     <string name="pref_camera_coloreffect_entry_aqua"></string>
-    <string name="pref_camera_coloreffect_entry_blackboard"></string>
-    <string name="pref_camera_coloreffect_entry_whiteboard"></string>
-    <string name="pref_camera_coloreffect_entry_sepia_blue"></string>
-
-    <!-- Default Touch AF/AEC setting. Do not translate. -->
+    <string name="pref_camera_coloreffect_entry_none">Normal</string>
+	<string name="pref_camera_coloreffect_entry_mono">Mono</string>
+	<string name="pref_camera_coloreffect_entry_vivid">Vivid</string>
+	<string name="pref_camera_coloreffect_entry_yesteryear">Yesteryear</string>
+	<string name="pref_camera_coloreffect_entry_brannan">Dawn</string>
+	<string name="pref_camera_coloreffect_entry_sketch">Sketch</string>
+	<string name="pref_camera_coloreffect_entry_seventy">1970s</string>
+	<string name="pref_camera_coloreffect_entry_fisheye">Fish Eye</string>
+	<string name="pref_camera_coloreffect_entry_jstyle">Japanese</string>
+	<string name="pref_camera_coloreffect_entry_xproii">XProII</string>
+	<string name="pref_camera_coloreffect_entry_mosaic">Mosaic</string>
+	<string name="pref_camera_coloreffect_entry_earlybird">Autumn</string>
+	<string name="pref_camera_coloreffect_entry_nashvile">Indigo</string>
+	<string name="pref_camera_coloreffect_entry_planet">Small world</string>
+	<string name="pref_camera_coloreffect_entry_mirror">Mirror</string>
+	<string name="pref_camera_coloreffect_entry_gaussianblur">Gaussian blur</string>
+	
+	<!-- Default Touch AF/AEC setting. Do not translate. -->
     <string name="pref_camera_touchafaec_default">touch-on</string>
 
     <!-- Settings screen, Select Touch AF/AEC title -->
@@ -308,38 +335,36 @@
     <string name="pref_camera_touchafaec_entry_on">चालू</string>
 
     <!-- Settings screen, Multiple levels entries -->
-    <string name="pref_camera_sharpness_entry_low">निम्न</string>
-    <string name="pref_camera_sharpness_entry_middle">मध्य (डिफ़ॉल्ट)</string>
-    <string name="pref_camera_sharpness_entry_high">उच्च</string>
-
-    <!-- Settings screen, Multiple levels entries -->
-    <string name="pref_camera_contrast_entry_low">निम्न</string>
-    <string name="pref_camera_contrast_entry_middle">मध्य (डिफ़ॉल्ट)</string>
-    <string name="pref_camera_contrast_entry_high">उच्च</string>
-
-    <!-- Settings screen, Multiple levels entries -->
-    <string name="pref_camera_saturation_entry_low">निम्न</string>
-    <string name="pref_camera_saturation_entry_middle">मध्य</string>
-    <string name="pref_camera_saturation_entry_high">उच्च</string>
-    <string name="pref_camera_default_suffix">" (डिफ़ॉल्ट)"</string>
-
-    <!-- Default sharpness setting. Do not translate. -->
-    <string name="pref_camera_sharpness_default">middle</string>
-
-    <!-- Settings screen, Select sharpness title -->
-    <string name="pref_camera_sharpness_title">Sharpness</string>
-
-    <!-- Default contrast setting. Do not translate. -->
-    <string name="pref_camera_contrast_default">middle</string>
-
-    <!-- Settings screen, Select contrast title -->
-    <string name="pref_camera_contrast_title">कॉंट्रास्ट</string>
-
-    <!-- Default saturation setting. Do not translate. -->
-    <string name="pref_camera_saturation_default">middle</string>
-
-    <!-- Settings screen, Select saturation title -->
-    <string name="pref_camera_saturation_title">सॅचूरेशन</string>
+	<string name="pref_camera_multilevel_entry_lowest">निम्नतम</string>
+	<string name="pref_camera_multilevel_entry_lower">कम</string>
+	<string name="pref_camera_multilevel_entry_low">निम्न</string>
+	<string name="pref_camera_multilevel_entry_normal">साधारण</string>
+	<string name="pref_camera_multilevel_entry_high">उच्च</string>
+	<string name="pref_camera_multilevel_entry_higher">उच्चतर</string>
+	<string name="pref_camera_multilevel_entry_highest">उच्चतम</string>
+	<string name="pref_camera_default_suffix">(डिफ़ॉल्ट)</string>
+	<string name="pref_camera_multilevel_entry_middle">मध्य (डिफ़ॉल्ट)</string>
+	
+	<!-- Default contrast setting. Do not translate. -->
+	<string name="pref_camera_contrast_default" translatable="false">5</string>
+	<string name="pref_mtk_camera_contrast_default" translatable="false">middle</string>
+	
+	<!-- Settings screen, Select contrast title -->
+	<string name="pref_camera_contrast_title">कॉन्ट्रास्ट</string>
+	
+	<!-- Default saturation setting. Do not translate. -->
+	<string name="pref_camera_saturation_default" translatable="false">5</string>
+	<string name="pref_mtk_camera_saturation_default" translatable="false">middle</string>
+	
+	<!-- Settings screen, Select saturation title -->
+	<string name="pref_camera_saturation_title">सॅचूरेशन</string>
+	
+	<!-- Default saturation setting. Do not translate. -->
+	<string name="pref_camera_sharpness_default" translatable="false">12</string>
+	<string name="pref_mtk_camera_sharpness_default" translatable="false">middle</string>
+	
+	<!-- Settings screen, Select sharpness title -->
+    <string name="pref_camera_sharpness_title">शार्पनेस</string>
 
     <!-- Default scene mode setting. -->
     <string name="pref_camera_scenemode_default" translatable="false">ऑटो</string>
@@ -419,35 +444,21 @@
      <string name="pref_camera_iso_entry_iso3200">ISO3200</string>
 
      <!-- ISO entry values. Do not translate. -->
-     <string name="pref_camera_iso_value_auto">ऑटो</string>
-     <string name="pref_camera_iso_value_iso100">100</string>
-     <string name="pref_camera_iso_value_iso200">200</string>
-     <string name="pref_camera_iso_value_iso400">400</string>
-     <string name="pref_camera_iso_value_iso800">800</string>
-     <string name="pref_camera_iso_value_iso1600">1600</string>
-     <string name="pref_camera_iso_value_iso3200">3200</string>
-
-      <!-- Default preview setting. Do not translate-->
-
-     <!-- Settings screen, Select preview title -->
-
-    <!-- Settings screen, preview dialog radio button choices -->
-     <string name="pref_camera_preview_entry_off">बंद</string>
-     <string name="pref_camera_preview_entry_1000">1 second</string>
-     <string name="pref_camera_preview_entry_2000">2 seconds</string>
-     <string name="pref_camera_preview_entry_5000">5 seconds</string>
-
-     <!-- preview entry values.Do not translate-->
-     <string name="pref_camera_preview_value_off">off</string>
-     <string name="pref_camera_preview_value_1000">1000</string>
-     <string name="pref_camera_preview_value_2000">2000</string>
-     <string name="pref_camera_preview_value_5000">5000</string>
-
-     <!-- Settings screen, Anti Banding title -->
+ 	<string name="pref_camera_iso_value_auto" translatable="false">auto</string>
+	<string name="pref_camera_iso_value_iso100" translatable="false">ISO100</string>
+	<string name="pref_camera_iso_value_iso200" translatable="false">ISO200</string>
+	<string name="pref_camera_iso_value_iso400" translatable="false">ISO400</string>
+	<string name="pref_camera_iso_value_iso800" translatable="false">ISO800</string>
+	<string name="pref_camera_iso_value_iso1600" translatable="false">ISO1600</string>
+	<string name="pref_camera_iso_value_iso3200" translatable="false">ISO3200</string>
+	<string name="pref_camera_iso_prefix" translatable="false">ISO</string>
+	
+	<!-- Settings screen, Anti Banding title -->
      <string name="pref_camera_antibanding_title">एंटी बैंडिंग</string>
 
      <!-- Default Anti Banding setting. -->
      <string name="pref_camera_antibanding_default">50hz</string>
+	 <string name="pref_camera_antibanding_60">60hz</string>
 
      <!-- Settings screen, Anti Banding entries -->
      <string name="pref_camera_antibanding_entry_0">बंद</string>
@@ -474,50 +485,30 @@
 
     <!-- The messsage shown when video record reaches size limit. -->
     <string name="video_reach_size_limit">साइज सीमा पे पहुंच गया.</string>
+	<!-- Default hfr setting. Do not translate. -->
+	<string name="pref_camera_hfr_default">90</string>
+	<!-- Settings screen, Select hfr title -->
+	<string name="pref_camera_hfr_title">High frame rate (slow motion)</string>
+	<!-- Settings screen, hfr radio button choices -->
+	<string name="pref_camera_hfr_entry_off">बंद</string>
+	<string name="pref_camera_hfr_entry_2x">60</string>
+	<string name="pref_camera_hfr_entry_3x">90</string>
+	<string name="pref_camera_hfr_entry_4x">120</string>
 
      <!-- Default hfr setting. Do not translate. -->
-     <string name="pref_camera_hfr_default">90</string>
-
-     <!-- Settings screen, Select hfr title -->
-     <string name="pref_camera_hfr_title">उच्च फ्रेम दर (धीमी गति)</string>
-
-     <!-- Settings screen, hfr radio button choices -->
-     <string name="pref_camera_hfr_entry_off">बंद</string>
-     <string name="pref_camera_hfr_entry_2x">60</string>
-     <string name="pref_camera_hfr_entry_3x">90</string>
-     <string name="pref_camera_hfr_entry_4x">120</string>
-
-     <!-- HFR entry values. Do not translate. -->
-     <string name="pref_camera_hfr_value_off">off</string>
-     <string name="pref_camera_hfr_value_2x">60</string>
-     <string name="pref_camera_hfr_value_3x">90</string>
-     <string name="pref_camera_hfr_value_4x">120</string>
-
-     <!-- Video speed -->
-     <string name="pref_video_speed_title">वीडियो कैद करने की गति</string>
-     <string name="pref_video_speed_default">सामान्य</string>
-
-     <string name="pref_video_speed_entry_normal">सामान्य</string>
-     <string name="pref_video_speed_entry_fast">तेज</string>
-     <string name="pref_video_speed_entry_slow">धीरे</string>
-
-     <string name="pref_video_speed_value_normal">सामान्य</string>
-     <string name="pref_video_speed_value_fast">तेज</string>
-     <string name="pref_video_speed_value_slow">धीरे</string>
-
-    <!-- The text of menu item to switch the mode to Camera. [CHAR LIMIT=NONE] -->
-
-    <!-- The text of menu item to switch the mode to Video. [CHAR LIMIT=NONE] -->
-
-    <!-- The text of menu item to switch the mode to Panorama. [CHAR LIMIT=NONE] -->
-
-    <!-- Title of the dialog showing a list of applications that can share the captured picture. [CHAR LIMIT=30] -->
-
-    <!-- Title of the dialog showing a list of applications that can share the captured video. [CHAR LIMIT=30] -->
-
-    <!-- Toast saying that there is no picture to share. [CHAR LIMIT=30] -->
-
-    <!-- Toast saying that there is no video to share. [CHAR LIMIT=30] -->
+     <string name="pref_camera_hfr_value_off" translatable="false">off</string>
+	<string name="pref_camera_hfr_value_2x" translatable="false">60</string>
+	<string name="pref_camera_hfr_value_3x" translatable="false">90</string>
+	<string name="pref_camera_hfr_value_4x" translatable="false">120</string>
+	<!-- Video speed -->
+	<string name="pref_video_speed_title">वीडियो कैप्चर की गति</string>
+	<string name="pref_video_speed_default" translatable="false">साधारण</string>
+	<string name="pref_video_speed_entry_normal">स्टैंडर्ड</string>
+	<string name="pref_video_speed_entry_fast">तेज</string>
+	<string name="pref_video_speed_entry_slow">धीरे</string>
+	<string name="pref_video_speed_value_normal" translatable="false">normal</string>
+	<string name="pref_video_speed_value_fast" translatable="false">fast</string>
+	<string name="pref_video_speed_value_slow" translatable="false">slow</string>
 
     <!-- The text shown when the panorama panning speed is to fast [CHAR LIMIT=12] -->
     <string name="pano_too_fast_prompt">बहुत तेज</string>
@@ -545,7 +536,7 @@
 
     <!-- Toast telling users tapping on the viewfinder will trigger autofocus [CHAR LIMIT=28] -->
     <string name="tap_to_focus">फोकस करने के लिए स्पर्श करे</string>
-
+    <string name="tap_to_exposure">मैन्युअल रूप से एक्सपोज़र को समायोजित करने के लिए टच</string>
     <!-- Default effect setting that clears the effect. -->
     <string name="pref_video_effect_default" translatable="false">कोई नहीं</string>
 
@@ -604,26 +595,23 @@
     <!-- Title of category for background replacement effects. [CHAR LIMIT=26] -->
     <string name="effect_background">बॅकग्राउंड</string>
 
-    <!-- The shutter button. [CHAR LIMIT = NONE] -->
     <string name="accessibility_shutter_button">शटर बटन</string>
-    <!-- The button to review the thumbnail. [CHAR LIMIT = NONE] -->
-    <string name="accessibility_review_thumbnail">सबसे हाल ही का फोटो </string>
-    <!-- The front/back camera switch. [CHAR LIMIT = NONE] -->
-    <string name="accessibility_camera_picker">कैमरे स्विच</string>
-    <!-- The mode picker to switch between camera, video and panorama. [CHAR LIMIT = NONE] -->
-    <!-- The button to switch to the second-level indicators of the camera settings. [CHAR LIMIT = NONE] -->
-    <!-- The button to back to the first-level indicators of the camera settings. [CHAR LIMIT = NONE] -->
-    <!-- The zoom control button. [CHAR LIMIT = NONE] -->
-    <string name="accessibility_zoom_control">झूम नियत्रण</string>
-    <!-- The decrement button in camera preference such as exposure, picture size. [CHAR LIMIT = NONE] -->
-    <!-- The increment button in camera preference such as exposure, picture size. [CHAR LIMIT = NONE] -->
-    <!-- The on/off switch in camera settings, such as store location. [CHAR LIMIT = NONE] -->
+	<string name="accessibility_review_thumbnail">सबसे हाल ही के फोटो</string>
+	<string name="accessibility_zoom_control">झूम नियंत्रण</string>
+	<string name="accessibility_camera_picker">सामने और पीछे कैमरा स्विच</string>
+	<string name="accessibilit_camera_video_switch_picker_and_state">टॉगल कैमरा और वीडियो ( %s वर्तमान में उपयोग)</string>
+	<string name="accessibility_camera_flashmode">हमेशा फ़्लैश</string>
+	<string name="accessibility_camera_auto_flashmode">ऑटो फ्लैश</string>
+	<string name="accessibility_camera_flash_closemode">फ़्लैश नहीं </string>
+	<string name="accessibility_open_more_ptions">अतिरिक्त विकल्प को सक्रिय करें</string>
+	<string name="accessibility_close_more_ptions">अतिरिक्त विकल्प निष्क्रिय करें</string>
+	<string name="accessibility_more_ptions_opened">और विकल्प सक्षम करें</string>
+	<string name="accessibility_more_ptions_closed">और विकल्प निष्क्रिय हुए</string>
+	<string name="accessibility_skin_beautify_opened">स्किन टोन एनहान्सर सक्षम करे </string>
+	<string name="accessibility_skin_beautify_closed">स्किन टोन एनहान्सर निष्क्रिय करें </string>
+	<!-- TODO: remove the string as it is a work-around solution to bypass the default speak of the element type. -->
+	<string name="empty" translatable="false">" "</string>
 
-    <!-- TODO: remove the string as it is a work-around solution to bypass the default speak of the element type. -->
-    <string name="empty" translatable="false">" "</string>
-
-    <!-- Default auto exposure setting. Do not translate. -->
-    <string name="pref_camera_autoexposure_default">frame-average</string>
     <!-- Settings screen, Select auto exposure title -->
     <string name="pref_camera_autoexposure_title">ऑटो एक्सपोषर सेट्टिंग्स</string>
 
@@ -633,15 +621,11 @@
     <string name="pref_camera_autoexposure_entry_spotmetering">स्पॉट पैमाइश</string>
 
     <!-- Auto exposure entry values. Do not translate. -->
-    <string name="pref_camera_autoexposure_value_frameaverage">frame-average</string>
-    <string name="pref_camera_autoexposure_value_centerweighted">center-weighted</string>
-    <string name="pref_camera_autoexposure_value_spotmetering">spot-metering</string>
-
-    <!-- Settings screen, Video encoder title -->
-
-    <!-- Settings screen, Video encoder dialog radio button choices -->
-
-    <!-- Default video encoder setting. A numerical value. -->
+	<string name="pref_camera_autoexposure_default">center-weighted</string>
+    <string name="pref_camera_autoexposure_value_frameaverage" translatable="false">frame-average</string>
+	<string name="pref_camera_autoexposure_value_centerweighted" translatable="false">center-weighted</string>
+	<string name="pref_camera_autoexposure_value_spotmetering" translatable="false">spot-metering</string>
+	<!-- Default video encoder setting. A numerical value. -->
     <string name="pref_camera_videoencoder_default" translatable="false">h264</string>
 
     <!-- Settings screen, Video encoder dialog title -->
@@ -682,7 +666,7 @@
     <string name="pref_camera_skinToneEnhancement_value_disable" translatable="false">disable</string>
     <!-- Settings screen, setting title text for ZSL-->
     <string name="pref_camera_zsl_title">ZSL</string>
-    <string name="pref_camera_zsl_default" translatable="false">on</string>
+    <string name="pref_camera_zsl_default" translatable="false">चालू</string>
 
          <!-- Default selectable zone af setting. Do not translate. -->
      <string name="pref_camera_selectablezoneaf_default">auto</string>
@@ -704,7 +688,7 @@
     <string name="pref_camera_facedetection_default" translatable="false">चालू</string>
 
     <!-- Settings screen, Select Face Detection -->
-    <string name="pref_camera_facedetection_title">Face detection</string>
+    <string name="pref_camera_facedetection_title">चेहरे की पहचान</string>
 
     <!-- Settings menu, Face Detection choices -->
     <string name="pref_camera_facedetection_entry_off">बंद</string>
@@ -743,18 +727,10 @@
     <string name="pref_camera_ae_bracket_hdr_title">HDR</string>
     <string name="pref_camera_hand_night_title">HHT</string>
 
-     <!-- Settings screen, AE bracketing and HDR location dialog choices -->
-     <string name="pref_camera_ae_bracket_hdr_entry_off">बंद</string>
-     <string name="pref_camera_ae_bracket_hdr_entry_hdr">HDR</string>
-     <string name="pref_camera_ae_bracket_hdr_entry_ae_bracket">AE-Bracket</string>
-
-     <string name="pref_camera_ae_bracket_hdr_value_off">बंद</string>
-     <string name="pref_camera_ae_bracket_hdr_value_hdr">HDR</string>
-     <string name="pref_camera_ae_bracket_hdr_value_ae_bracket">AE-Bracket</string>
-
     <string name="pref_camera_ae_bracket_hdr_default" translatable="false">बंद</string>
-    <string name="hdr_exit_button_text">HDR मोड से बाहर निकलें</string>
-    <string name="hand_night_exit_button_text">हॅंड-हेल्ड ट्वाइलाइट से बाहर निकलें</string>
+	<string name="hdr_exit_button_text">HDR मोड से बाहर निकलें </string>
+	<string name="raw_data_exit_button_text">RAW HDR मोड से बाहर निकलें </string>
+	<string name="hand_night_exit_button_text">Hand-held Twilight से बाहर निकलें </string>
 
     <!-- 设置相关 -->
     <string name="videocamera_settings_label">वीडियो कॅमरा सेट्टिंग्स</string>
@@ -767,32 +743,31 @@
     <string name="pref_grp_restore_settings">रिस्टोर सेट्टिंग्स</string>
     <string name="pref_camera_settings_title">सेट्टिंग्स</string>
 
-    <!-- continuous focus -->
-    <string name="pref_video_continuous_focus">सतत फोकस</string>
-    <string name="pref_video_continuous_focus_entry_off">बंद</string>
-    <string name="pref_video_continuous_focus_entry_on">चालू </string>
-    <!-- Default video continuous_focus setting. Do not translate. -->
-    <string name="pref_video_continuous_focus_entryvalue_default">caf-off</string>
-
     <!-- 参考线 -->
+	<string name="pref_camera_referenceline_title">संदर्भ लाइन</string>
     <string name="pref_camera_referenceline_entry_off">बंद</string>
     <string name="pref_camera_referenceline_entry_on">बंद </string>
     <!-- Default reference line setting. Do not translate. -->
+	<string name="pref_camera_referenceline_entryvalue_default" translatable="false">referenceline-off</string>
     <string name="pref_camera_referenceline_entryvalue_off">referenceline-off</string>
     <string name="pref_camera_referenceline_entryvalue_on">referenceline-on</string>
 
     <!--音量键功能 -->
     <string name = "pref_camera_volumekey_function_entry_volume">ध्वनि</string>
     <string name = "pref_camera_volumekey_function_entry_shutter">शटर</string>
-    <string name = "pref_camera_volumekey_function_entry_zooming">झूम</string>
-    <string name = "pref_camera_volumekey_function_title">ध्वनि बटन्स</string>
-    <string name = "pref_camera_volumekey_function_default" translatable="false">झूम</string>
-
-    <!-- 长按连拍 -->
-    <string name = "pref_camera_long_pressing_burst_shooting_title">बर्स्ट शूट</string>
-    <string name = "pref_camera_long_pressing_burst_shooting_entry_off">बंद</string>
-    <string name = "pref_camera_long_pressing_burst_shooting_entry_on">बंद</string>
-    <string name = "pref_camera_long_pressing_burst_shooting_default">बंद</string>
+    <string name = "pref_camera_volumekey_function_entry_zoom">झूम</string>
+    <string name="pref_camera_volumekey_function_entry_exposure">एक्सपोजर</string>
+	<string name="pref_camera_volumekey_function_title">वॉल्यूम key फंक्शन्स</string>
+	<string name="pref_camera_volumekey_function_entryvalue_volume" translatable="false">ध्वनि</string>
+	<string name="pref_camera_volumekey_function_entryvalue_shutter" translatable="false">शटर</string>
+	<string name="pref_camera_volumekey_function_entryvalue_zoom" translatable="false">झूम</string>
+	<string name="pref_camera_volumekey_function_entryvalue_exposure" translatable="false">एक्सपोजर</string>
+	<string name="pref_camera_volumekey_function_default" translatable="false">शटर</string>
+	<!-- 长按连快门功能 -->
+	<string name="pref_camera_long_pressing_burst_shooting_title">लांग प्रेस शटर बटन</string>
+	<string name="pref_camera_long_pressing_burst_shooting_entry_off">फोकस</string>
+	<string name="pref_camera_long_pressing_burst_shooting_entry_on">बर्स्ट शूट</string>
+	<string name="pref_camera_long_pressing_burst_shooting_default" translatable="false">चालू</string>
 
     <!-- 白平衡K值 -->
     <string name="pref_camera_current_k_value">वर्तमान वैल्यू</string>
@@ -804,7 +779,6 @@
     <string name="toast_start_audio_capture">शटर को ट्रिगर करने के लिए आवाज़ करे</string>
     <string name="record_back_pressed_hint">रेकॉर्डिंग को रोकने के लिए फिर से टच करे</string>
     <string name="can_not_play_video">प्लेबैक देखने के लिए स्क्रीन अनलॉक करे</string>
-    <!-- The button to switch to Video mode. [CHAR LIMIT = NONE] -->
     <!-- The button to switch to Panorama mode. [CHAR LIMIT = NONE] -->
 
     <!-- burst snap -->
@@ -823,14 +797,6 @@
     <string name="pref_camera_movie_solid_entry_on">शुरू</string>
     <string name="pref_camera_movie_solid_value_off">बंद</string>
     <string name="pref_camera_movie_solid_value_on">शुरू</string>
-
-    <!-- Storage option -->
-    <string name="pref_camera_storage_external_default">बंद</string>
-    <string name="pref_camera_storage_external_title">संग्रहण डिवाइस</string>
-    <string name="pref_camera_storage_external_entry_off">फोन संग्रहण</string>
-    <string name="pref_camera_storage_external_entry_on">SD कार्ड</string>
-    <string name="pref_camera_storage_external_value_off">बंद</string>
-    <string name="pref_camera_storage_external_value_on">शुरू</string>
 
     <!-- Add for Gallery3d Start -->
     <string name="unit_mm">mm</string>
@@ -927,17 +893,11 @@
     <string name="simple_mode_button_text_color_effect">फिल्टर बंद करें</string>
     <string name="simple_mode_button_text_audio_capture">ऑडियो कॅप्चर बंद करें</string>
     <string name="simple_mode_button_text_slow_video">स्लो-मोशन बंद करें</string>
-
-    <string name="pref_camera_coloreffect_title_simple_mode">फ़िल्टर</string>
-    <string name="pref_video_slow_speed_title_simple_mode">स्लो-मोशन</string>
-
-    <string name="simple_mode_title">सामान्य मोड</string>
-    <string name="pref_settings_mode">कैमरा मोड</string>
-
-    <string name="pref_video_captrue_ability_title">कैद करने की क्षमता</string>
-
-
-    <!-- QR code camera_app_root-->
+    <string name="pref_video_slow_speed_title_simple_mode">फ़ास्ट-मोशन</string>
+	<string name="simple_mode_title">साधारण मोड</string>
+	<string name="pref_settings_mode">कैमरा मोड</string>
+	<string name="pref_video_captrue_ability_title">कैप्चर क्षमता</string>
+	<!-- QR code camera_app_root-->
     <string name="find_mecard_qrcode">Mecard QR कोड खोजे</string>
     <string name="find_wechat_qrcode">WeChat QR कोड खोजे</string>
     <string name="find_market_qrcode">Market QR कोड खोजे</string>
@@ -994,11 +954,104 @@
     <string name="wifi_open_fail">Wi-Fi ओपन नहीं कर सका</string>
     <string name="wifi_connect_fail">कनेक्शन का समय समाप्त</string>
     <string name="wifi_connect_success">कनेक्ट हो गया</string>
-
-    <string name="pref_scan_qrcode_title">QR कोड स्कैन करे</string>
-    <string name="pref_scan_qrcode_entry_off">बंद</string>
-    <string name="pref_scan_qrcode_entry_on">शुरू</string>
-    <string name="pref_scan_qrcode_default" translatable="false">on</string>
-    <string name="pref_scan_qrcode_value_off" translatable="false">off</string>
-    <string name="pref_scan_qrcode_value_on" translatable="false">on</string>
+    
+	<string name="wifi_connect_not_found">Wi-Fi नहीं खोज सके</string>
+	<string name="wifi_connect_current_connetion">आप Wi-Fi से कनेक्ट हैं</string>
+	<string name="pref_camera_watermark_title">समय वॉटरमार्क</string>
+	<string name="pref_camera_watermark_entry_off">बंद</string>
+	<string name="pref_camera_watermark_entry_on">चालू</string>
+	<string name="pref_camera_watermark_default" translatable="false">बंद</string>
+	<string name="pref_camera_watermark_entryvalue_off" translatable="false">बंद</string>
+	<string name="pref_camera_watermark_entryvalue_on" translatable="false">चालू</string>
+	<string name="accessibility_flash_mode_button" translatable="false">फ्लैश बटन</string>
+	<string name="accessibility_skin_beautify_button" translatable="false">स्किन ब्य्यूटिफाइ बटन</string>
+	<string name="accessibility_scroll_button_slider" translatable="false">कैमरा-वीडियो-स्विचर</string>
+	<string name="accessibility_show_setting_panel_button" translatable="false">सेटिंग बटन</string>
+	<string name="pref_camera_hdr_title" translatable="false">HDR</string>
+	<string name="pref_setting_title" translatable="false">सेटिंग</string>
+	<string name="pref_camera_raw_data_title" translatable="false">RAW</string>
+	<string name="pref_scan_qrcode_title">QR कोड स्कैन करें</string>
+	<string name="pref_scan_qrcode_entry_off">बंद</string>
+	<string name="pref_scan_qrcode_entry_on">चालू</string>
+	<string name="pref_scan_qrcode_default" translatable="false">चालू</string>
+	<string name="pref_scan_qrcode_value_off" translatable="false">बंद</string>
+	<string name="pref_scan_qrcode_value_on" translatable="false">चालू</string>
+	<string name="pref_manual_exposure_title">मैन्युअल एक्सपोजर</string>
+	<string name="pref_camera_exposuretime_title">एक्सपोजर समय</string>
+	<string name="pref_camera_exposuretime_default" translate="false">0</string>
+	<string name="pref_camera_exposuretime_entry_auto">स्वत:</string>
+	<string name="pref_camera_exposuretime_entry_0.5">2s</string>
+	<string name="pref_camera_exposuretime_entry_1">1s</string>
+	<string name="pref_camera_exposuretime_entry_2">1/2s</string>
+	<string name="pref_camera_exposuretime_entry_4">1/4s</string>
+	<string name="pref_camera_exposuretime_entry_8">1/8s</string>
+	<string name="pref_camera_exposuretime_entry_15">1/15s</string>
+	<string name="pref_camera_exposuretime_entry_30">1/30s</string>
+	<string name="pref_camera_exposuretime_entry_60">1/60s</string>
+	<string name="pref_camera_exposuretime_entry_125">1/125s</string>
+	<string name="pref_camera_exposuretime_entry_250">1/250s</string>
+	<string name="pref_camera_exposuretime_entry_1000">1/1000s</string>
+	<string name="pref_camera_exposuretime_entry_5000">1/5000s</string>
+	<!-- Face analyze -->
+	<string name="face_analyze_info">उम्र: %2$s (%1$s)</string>
+	<string name="face_analyze_info_male">पुरुष</string>
+	<string name="face_analyze_info_female">महिला</string>
+	<string name="face_beauty_intelligent_title">स्वतः समायोजित करें</string>
+	<string name="face_beauty_manual_title">मैनुअल समायोजित करें</string>
+	<string name="face_beauty_simple_mode_title">स्किन टोन</string>
+	<string name="camera_face_beauty_default" translate="false">i:0</string>
+	<string name="camera_face_beauty_simple_mode_close" translate="false">i:0</string>
+	<string name="camera_face_beauty_simple_mode_open" translate="false">i:2</string>
+	<string name="face_beauty_intelligent_level_0">बंद</string>
+	<string name="face_beauty_intelligent_level_1">निम्न </string>
+	<string name="face_beauty_intelligent_level_2">मध्यम </string>
+	<string name="face_beauty_intelligent_level_3">उच्च</string>
+	<string name="pref_camera_show_gender_age_title">चेहरे की पहचान</string>
+	<string name="pref_camera_show_gender_age_default" translatable="false">चालू</string>
+	<string name="pref_camera_show_gender_age_entry_off">बंद</string>
+	<string name="pref_camera_show_gender_age_entry_on">उम्र और लिंग प्रदर्शित करें</string>
+	<string name="pref_camera_show_gender_age_entry_alias">उम्र प्रदर्शित करें</string>
+	<string name="toast_burst_snap_forbidden_when_face_beauty_open">एन्हॅन्स स्किन टोन्स सक्षम होने पर बर्स्ट शूटिंग समर्थित नहीं है</string>
+	<string name="face_beauty_age_alias_male_0_7">पुरुष 0-7</string>
+	<string name="face_beauty_age_alias_male_8_17">पुरुष 8-17</string>
+	<string name="face_beauty_age_alias_male_18_30">पुरुष 18-30</string>
+	<string name="face_beauty_age_alias_male_31_44">पुरुष 31-44</string>
+	<string name="face_beauty_age_alias_male_45_60">पुरुष 45-60</string>
+	<string name="face_beauty_age_alias_male_60_m">पुरुष 60+</string>
+	<string name="face_beauty_age_alias_female_0_7">महिला 0-7</string>
+	<string name="face_beauty_age_alias_female_8_17">महिला 8-17</string>
+	<string name="face_beauty_age_alias_female_18_30">महिला 18-30</string>
+	<string name="face_beauty_age_alias_female_31_44">महिला 31-44</string>
+	<string name="face_beauty_age_alias_female_45_60">महिला 45-60</string>
+	<string name="face_beauty_age_alias_female_60_m">महिला 60+</string>
+	<string name="simple_mode_button_text_face_beauty">एन्हॅन्स स्किन टोन्स बंद करे</string>
+	<string name="pref_camera_multiple_face_beauty_title">एन्हॅन्स स्किन टोन्स</string>
+	<string name="pref_camera_multiple_face_beauty_entry_off">1 व्यक्ति</string>
+	<string name="pref_camera_multiple_face_beauty_entry_on">2 व्यक्ति</string>
+	<string name="pref_camera_multiple_face_beauty_default" translate="false">बंद</string>
+	<string name="pref_camera_multiple_face_beauty_values_off" translate="false">बंद</string>
+	<string name="pref_camera_multiple_face_beauty_values_on" translate="false">चालू</string>
+	<string name="measure_whitebalance_button">माप</string>
+	<string name="measure_whitebalance_text">रियर कैमरे के लेंस से 6 इंच दूर सफेद कागज की शीट रखें. फिर तस्वीर ले.</string>
+	<string name="pref_camera_hdr_type_title">HDR प्रकार</string>
+	<string name="pref_camera_hdr_type_entry_normal">सामान्य</string>
+	<string name="pref_camera_hdr_type_entry_live">जीवित</string>
+	<string name="pref_camera_hdr_type_entryvalue_normal" translatable="false">सामान्य</string>
+	<string name="pref_camera_hdr_type_entryvalue_default" translatable="false">जीवित</string>
+	<string name="pref_camera_hdr_type_entryvalue_live" translatable="false">जीवित</string>
+	<string name="pref_camera_ubi_focus_title">Ubi फोकस</string>
+	<string name="pref_camera_opti_zoom_title">Opti झूम</string>
+	<string name="pref_camera_chroma_flash_title">क्रोमा फ़्लैश</string>
+	<string name="simple_mode_button_text_ubi_focus">Ubi फोकस मोड बंद करे</string>
+	<string name="simple_mode_button_text_chroma_flash">क्रोमा फ़्लैश मोड बंद करे</string>
+	<string name="simple_mode_button_text_opti_zoom">ऑप्टी झूम मोड बंद करे</string>
+	<string name="ubi_focus_exit_button_text">Ubi फोकस मोड से बाहर निकलें</string>
+	<string name="chroma_flash_exit_button_text">क्रोमा फ़्लैश मोड से बाहर निकलें</string>
+	<string name="opti_zoom_exit_button_text">ऑप्टी झूम मोड से बाहर निकलें</string>
+	<string name="pref_camera_auto_opti_zoom_title">स्वतः ऑप्टी झूम करे जब अनुपात 2 से अधिक हो</string>
+	<string name="confirm_enable_opti_zoom_message">आप अपनी तस्वीरों में ऑप्टी झूम सक्षम करना चाहते हैं?</string>
+	<string name="enable_feature">हां</string>
+	<string name="not_enable_feature">अगली बार याद दिलाएँ</string>
+	<string name="accessibility_opti_zoom_button" translatable="false">ऑप्टी_झूम</string>
+	<string name="accessibility_ev_control">एक्सपोजर मुआवजा</string>
 </resources>

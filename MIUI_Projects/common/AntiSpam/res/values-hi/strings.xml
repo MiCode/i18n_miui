@@ -4,7 +4,9 @@
 
     <!--  notification -->
     <string name="fw_blocked">ब्लॉक:</string>
-    <string name="fw_blocked_count">ब्लॉक <xliff:g id="opt">%d</xliff:g> कॉल और <xliff:g id="opt">%d</xliff:g> संदेश</string>
+    <string name="fw_blocked_count">ब्लॉक </string>
+	<string name="fw_blocked_count_call"><xliff:g id="opt">%d</xliff:g> कॉल और </string>
+	<string name="fw_blocked_count_sms"><xliff:g id="opt">%d</xliff:g> संदेश</string>
 
     <!-- Tab/Other View -->
     <string name="tab_title">ब्लॉक सूची</string>
@@ -12,46 +14,71 @@
     <string name="tab_blacklist">ब्लॉक सूची</string>
     <string name="tab_sms">संदेश लॉग</string>
     <string name="tab_call">कॉल लॉग</string>
-    <string name="bl_block_info">ब्लॉक: <xliff:g id="tel_count">%d</xliff:g> कॉल "|" <xliff:g id="ms_count">%d</xliff:g> संदेश</string>
+    <string name="bl_block_info">ब्लॉक: <xliff:g id="tel_count">%d</xliff:g> कॉल "|" <xliff:g id="ms_count">%d</xliff:g></string>
     <string name="bl_no_block_call">कोई ब्लॉक कॉल नही</string>
     <string name="bl_no_block_sms">कोई ब्लॉक संदेश नही</string>
     <string name="bl_no_blacklist">कोई ब्लॉक नंबर नही</string>
+	<string name="wl_no_whitelist">कोई विश्ववसनीय सूचि नंबर नहीं</string>
     <string name="log_count">(%d)</string>
 
     <string name="tab_block_log_unKnowNumber">अनजान नंबर</string>
+	<string name="user_define_title">कस्टम</string>
+	<string name="blacklist_prefix_add_hint">ब्लॉक सूची को उपसर्ग के साथ सभी नंबरों को जोड़ें</string>
+	<string name="whitelist_prefix_add_hint">अपवादों को उपसर्ग के साथ सभी नंबरों को जोड़ें</string>
+	<string name="customizer_mode_user_define_name">कस्टम</string>
+	<string name="all_address_choose_hint">सभी स्थान</string>
+	<string name="address_choose_hint">%1$s、%2$s और %3$d स्थान</string>
+	<string name="two_address_choose_hint">%1$s, %2$s2 स्थान</string>
+	<string name="one_address_choose_hint">%s1 स्थान</string>
 
     <!-- Mark info -->
     <string name="marked_by_user">"आप इसे के रूप में चिह्नित "</string>
     <string name="marked_by_others">"%d अन्य उपयोगकर्ताओं के रूप में चिह्नित "</string>
 
     <!-- Dialog -->
-    <string name="dlg_clear_all_sms">ब्लॉक संदेश निकाले?</string>
-    <string name="dlg_clear_all_call">ब्लॉक कॉल मिटानऐ?</string>
-    <string name="dlg_clear_current_sms">इस नंबर से भेजे गए सभी ब्लॉक संदेश निकाले?</string>
-    <string name="dlg_clear_current_call">इस नंबर से सभी ब्लॉक कॉल साफ़ करें?</string>
-    <string name="dlg_clear_all_ok">सब साफ़ करें</string>
-    <string name="dlg_clear_current_ok">निकाले</string>
-    <string name="dlg_no_block">इस नंबर को अनब्लॉक करे?</string>
-    <string name="dlg_no_block_ok">अनब्लॉक</string>
-    <string name="dlg_add_blacklist">इस नंबर को ब्लॉक करे?</string>
-    <string name="dlg_remove_blacklist">इस नंबर को अनब्लॉक करे?</string>
-    <string name="dlg_remove_blacklist_ok">अनब्लॉक</string>
-    <string name="dlg_clear_blacklist">ब्लॉक सूची साफ़ करें?</string>
-    <string name="dlg_clear_blacklist_ok">साफ़ करें</string>
-    <string name="dlg_bl_add_manual">ब्लॉक सूची को नंबर जोड़ें</string>
-    <string name="dlg_add_manual_ok">जोड़ें</string>
-    <string name="dlg_add_manual_hint">फोन नंबर दर्ज करें</string>
-    <string name="dlg_import_blacklist">ब्लॉक सूची को जोड़ना\u2026</string>
-    <string name="dlg_import_whitelist">अपवादों को जोड़ना\u2026</string>
-    <string name="dlg_add_keyword">कीवर्ड जोड़ें</string>
-    <string name="dlg_edit_keyword">एडिट कीवर्ड</string>
-    <string name="dlg_delete_keyword">चयनित कीवर्ड निकालें?</string>
-    <string name="dlg_keyword_ok">सेव</string>
-    <string name="dlg_retore">संदेश इनबॉक्स को पुनर्स्थापित?</string>
-    <string name="dlg_retore_ok">पुनर्स्थापित</string>
-    <string name="toast_keyword_blank">आप को कीवर्ड दर्ज करने की आवश्यकता :)</string>
-    <string name="toast_keyword_exist">कीवर्ड सेव</string>
-    <string name="toast_keyword_invalid">आपके द्वारा दर्ज कीवर्ड अमान्य है</string>
+    <string name="dlg_black_antispam_message">ब्लॉक सूची के लिए इस संदेश जोड़ें?</string>
+	<string name="dlg_white_antispam_message">अपवादों मैं यह संदेश जोड़ें?</string>
+	<string name="dlg_black_address_antispam_message">ब्लॉक सूची के लिए इस स्थान जोड़ें?</string>
+	<string name="dlg_white_address_antispam_message">ब्लॉक सूची के लिए इस स्थान जोड़ें?</string>
+	<string name="dlg_white_antispam_hint">अपवाद</string>
+	<string name="dlg_black_antispam_hint">ब्लॉक सूची</string>
+	<string name="dlg_clear_all_sms">अवरुद्ध संदेश हटाएं?</string>
+	<string name="dlg_clear_all_call">अवरुद्ध कॉल साफ?</string>
+	<string name="dlg_clear_current_sms">इस नंबर से भेजे गए सभी अवरुद्ध संदेश हटाएं?</string>
+	<string name="dlg_clear_current_call">इस नंबर से सभी अवरुद्ध कॉल साफ़?</string>
+	<string name="dlg_clear_all_ok">सभी साफ़</string>
+	<string name="dlg_clear_current_ok">हटाएँ</string>
+	<string name="dlg_no_block">इस नंबर को अनब्लॉक करें?</string>
+	<string name="dlg_no_block_ok">अनब्लॉक</string>
+	<string name="dlg_add_blacklist">इस नंबर को ब्लॉक करें?</string>
+	<string name="dlg_add_blacklist_warn_conflict_title">सावधान</string>
+	<string name="dlg_add_blacklist_warn_conflict_content">
+		<xliff:g id="tel">%1$s</xliff:g>
+		और
+		<xliff:g id="tel_count">%2$s</xliff:g>
+		अन्य संपर्कों अपने अपवाद सूची पर पहले से ही हैं.
+	</string>
+	<string name="dlg_remove_blacklist">इस नंबर को अनब्लॉक करें ?</string>
+	<string name="dlg_remove_whitelist">अपवाद से इन नंबरों को हटाओ?</string>
+	<string name="dlg_remove_address_blacklist">ब्लॉक सूची से इस स्थान को निकालें और इनबॉक्स से संबंधित संदेश पुनर्स्थापित करें?</string>
+	<string name="dlg_remove_address_whitelist">अपवाद से इस स्थान निकालें?</string>
+	<string name="dlg_remove_blacklist_ok">अनब्लॉक</string>
+	<string name="dlg_clear_blacklist">ब्लॉक सूची साफ करें?</string>
+	<string name="dlg_clear_blacklist_ok">साफ</string>
+	<string name="dlg_bl_add_manual">ब्लॉक सूची पे नंबर जोड़ें</string>
+	<string name="dlg_add_manual_ok">जोड़ें</string>
+	<string name="dlg_add_manual_hint">फोन नंबर दर्ज करें</string>
+	<string name="dlg_import_blacklist">ब्लॉक सूची को जोड़ रहा है\u2026</string>
+	<string name="dlg_import_whitelist">अपवादों को जोड़ रहा है\u2026</string>
+	<string name="dlg_add_keyword">कीवर्ड्स जोड़ें</string>
+	<string name="dlg_edit_keyword">कीवर्ड्स संपादित करें</string>
+	<string name="dlg_delete_keyword">चयनित कीवर्ड्स निकालें?</string>
+	<string name="dlg_keyword_ok">सेव</string>
+	<string name="dlg_retore">संदेश इनबॉक्स को पुनर्स्थापित करें?</string>
+	<string name="dlg_retore_ok">पुनर्स्थापित</string>
+	<string name="toast_keyword_blank">आपको एक कीवर्ड् दर्ज करने की आवश्यकता है</string>
+	<string name="toast_keyword_exist">कीवर्ड् सेव हुआ</string>
+	<string name="toast_keyword_invalid">अवैध कीवर्ड्</string>
 
     <!-- Menu -->
     <string name="menu_clear_all_sms">ब्लॉक संदेश निकाले</string>
@@ -66,6 +93,7 @@
     <string name="menu_bl_call_log">ब्लॉक कॉल देखें</string>
     <string name="menu_bl_sms_log">ब्लॉक संदेश देखें</string>
     <string name="menu_bl_remove">अनब्लॉक</string>
+	<string name="menu_wh_remove">移出白名单</string>
     <string name="menu_bl_clear">ब्लॉक सूची निकाले?</string>
     <string name="menu_bl_add_manual">जोड़ें</string>
     <string name="menu_bl_add_contact">संपर्क</string>
@@ -99,4 +127,88 @@
     <string name="st_block_unknown_sms">अनजान संदेश को ब्लॉक</string>
     <string name="st_other_setting_group">अन्य सेटिंग</string>
     <string name="st_show_block_notification">दिखाएँ अधिसूचना अवरुद्ध</string>
+	<string name="st_show_num_keyword">" कीवर्ड्"</string>
+	<string name="st_show_num_number">" नंबर्"</string>
+	<string name="label_callwait">कॉल वेटिंग</string>
+	<string name="open_callwait">चालू</string>
+	<string name="close_callwait">बंद</string>
+	<!-- 添加白名单 -->
+	<string name="sure">पुष्टि करें</string>
+	<string name="cancle">रद्द करें</string>
+	<string name="addwhitelist">अपवादों को जोड़ें</string>
+	<string name="st_hint_add_phonenumber">फोन नंबर दर्ज करें</string>
+	<string name="st_hint_add_head_number">उपसर्ग दर्ज (\"*\" स्वचालित रूप से जोड़ दिया जाएगा)</string>
+	<string name="st_message_SMSpass">संदेशों को अनुमति</string>
+	<string name="st_message_phonepass">कॉल को अनुमति</string>
+	<string name="SMSpass">संदेशों को अनुमति</string>
+	<string name="Phonepass">कॉल को अनुमति</string>
+	<string name="st_message_SMS_AntiSpam">ब्लॉक संदेश</string>
+	<string name="st_message_phone_AntiSpam">ब्लॉक कॉल</string>
+	<string name="ACaddnumtitle">अपवादों पे फोन नंबर उपसर्ग जोड़ें</string>
+	<string name="NACaddnumtitle">अपवादों पे फ़ोन नंबर जोड़ें</string>
+	<!-- 添加黑名单 -->
+	<string name="st_title_addblacklist">ब्लॉक सूची में जोड़ें</string>
+	<string name="st_title_editblacklist">ब्लॉक सूची एडिट करे</string>
+	<string name="st_title_addwhitelist">अपवादों पे जोड़ें</string>
+	<string name="st_title_editwhitelist">अपवादों एडिट करे</string>
+	<string name="st_title_man_head_addblacklist">ब्लॉक सूची पे लिए फोन नंबर उपसर्ग जोड़ें</string>
+	<string name="st_title_man_addblacklist">ब्लॉक सूची पे नंबर जोड़ें</string>
+	<string name="st_title_man_head_addwhitelist">अपवादों पे फोन नंबर उपसर्ग जोड़ें</string>
+	<string name="st_title_man_addwhitelist">अपवादों पे फ़ोन नंबर जोड़ें</string>
+	<string name="st_title_man_editblacklist">ब्लॉक सूची में जोड़ने के लिए एक स्थान कोड चुनें</string>
+	<string name="st_title_man_editwhitelist">अपवादों पे जोड़ने के लिए एक स्थान कोड चुनें</string>
+	<!-- BackSound -->
+	<string name="st_title_back_sound_choose">BackSound</string>
+	<string name="st_title_back_sound_busy">व्यस्त</string>
+	<string name="st_title_back_sound_none">संख्या सेवा में नहीं</string>
+	<string name="st_title_back_sound_closed">फोन बंद</string>
+	<string name="st_title_back_sound_stop">नंबर सेवा से बाहर</string>
+	<string name="st_title_call_wait_setting">कॉल वेटिंग सेटिंग्</string>
+	<string name="st_title_call_wait">कॉल वेटिंग</string>
+	<string name="st_sum_call_wait">अगर आपके व्यस्त संकेत डिफ़ॉल्ट नहीं है. यह एक आने वाली फोन करने वाले के लिए भ्रमित किया जा सकता है.</string>
+	<!-- Black White list -->
+	<string name="st_antispam_bw_man_add">फ़ोन नंबर जोड़ें</string>
+	<string name="st_antispam_bw_head_add">उपसर्ग जोड़ें</string>
+	<string name="st_antispam_bw_pick_add">एक संपर्क चुनें</string>
+	<string name="st_antispam_bw_adress_add">स्थानीय चुनें</string>
+	<string name="st_antispam_black_adress_add">क्षेत्र चुनें</string>
+	<string name="st_antispam_bw_choose_modes">चयन मोड</string>
+	<string name="hint_antispam_mode_edit">कस्टम मोड</string>
+	<string name="st_title_adress">स्थानीय का चयन</string>
+	<string name="st_title_adress_num">%d चयनित</string>
+	<!-- 骚扰拦截 -->
+	<string name="SMS_BLACKLIST">संदेश ब्लॉक सूची</string>
+	<string name="SMS_PREFIX">उपसर्ग ब्लॉक सूची</string>
+	<string name="SMS_MODENAME">डिफ़ॉल्ट ब्लॉक सूची</string>
+	<string name="SMS_KEYWORDS">कीवर्ड ब्लॉक सूची</string>
+	<string name="SMS_ADRESS">स्थानीय ब्लॉक सूची</string>
+	<string name="Call_BLACKLIST">कॉल ब्लॉक सूची</string>
+	<string name="Call_PREFIX">उपसर्ग ब्लॉक सूची</string>
+	<string name="Call_MODENAME">डिफ़ॉल्ट ब्लॉक सूची</string>
+	<string name="Call_ADRESS">स्थानीय ब्लॉक सूची</string>
+	<string name="Call_PRIVATE_CALL">निजी कॉल</string>
+	<string name="PAST_BLOCK">ससे पहले अवरुद्ध</string>
+	<!-- 广告拦截 -->
+	<string name="AD_AntiSpam">solicitations ब्लॉक करें</string>
+	<string name="AD_SCANNING">स्कैन चल रहा है\u2026</string>
+	<string name="AD_BLOCK_ALL">सभी को ब्लॉक</string>
+	<string name="AD_SCAN_BUTTON">स्कैन</string>
+	<string name="AD_NOT_BLOCK">ब्लॉक नहीं</string>
+	<string name="AD_BLOCKED">ब्लॉक हुआ</string>
+	<string name="AD_COUNT">%d ब्लॉक हुआ</string>
+	<string name="AD_TITLE_COUNT">%d एप्लिकेशन मैं adware शामिल</string>
+	<string name="AD_TITLE_NON_COUNT">कोई adware नहीं </string>
+	<string name="AD_BLOCK">solicitations ब्लॉक करें</string>
+	<string name="AD_ALLOW">solicitations अनुमति दें</string>
+	<string name="AD_Unistall">स्थापना रद्द करें</string>
+	<string name="AD_APPInfo">ऐप की जानकारी</string>
+	<string name="AD_Info">विज्ञापन प्लगइन</string>
+	<string name="AD_Info_Hint">Adware डिवाइस के लिए विज्ञापन भेजने के लिए तीसरे पक्ष कंपनियों द्वारा इस्तेमाल किया जाता है.</string>
+	<string name="ad_relative_setting">संबंधित सेटिंग्स</string>
+	<string name="ad_install_monitor">मॉनिटर स्थापित करें</string>
+	<string name="ad_install_monitor_hint">ऐप्लिकेशन को इंस्टॉल जब adware के लिए जांच करें</string>
+	<string name="ad_update_setting">अपडेट एडब्लॉक सेटिंग्स</string>
+	<string name="ad_update_title">ऑटो अपडेट</string>
+	<string name="ad_update_time">अंतिम अपडेट: %s</string>
+	<string name="ad_update_time_unKnown">अंतिम अपडेट: अज्ञात</string>
 </resources>
