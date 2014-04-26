@@ -348,16 +348,11 @@
     <string name="load_channel_failed">सूची लोड करने में असफल</string>
     <string name="load_bill_in_process">बिलबोर्ड सूची लोड\u2026</string>
     <string name="load_bill_failed">सूची लोड करने में असफल</string>
-    <string name="load_artist_in_process">लोड कर रहा हे\u2026</string>
-    <string name="load_artist_failed">सूची लोड करने में असफल</string>
-    <string name="load_album_in_process">लोड कर रहा हे\u2026</string>
-    <string name="load_album_failed">सूची लोड करने में असफल</string>
+    <string name="load_recommend_in_process">लोड कर रहा हे\u2026</string>
+    <string name="load_recommend_failed">सूची लोड करने में असफल</string>
     <string name="load_audio_in_process">लोड कर रहा हे\u2026</string>
     <string name="load_audio_failed">सूची लोड करने में असफल</string>
-    <string name="load_album_artist_in_process">लोड कर रहा हे\u2026</string>
-    <string name="load_album_artist_failed">सूची लोड करने में असफल</string>
-    <string name="retry">पुन प्रयास</string>
-
+  	<string name="retry">पुन प्रयास</string>
     <string name="lrc_search_failed">गीत नहीं मिल सका</string>
     <string name="lrc_searching">गीत के लिए सर्च कर रहे हैं\u2026</string>
     <string name="lyric_open_other_connect">मोबाइल नेटवर्क का उपयोग कर लिरिक्स डाउनलोड करें</string>
@@ -366,10 +361,8 @@
     <!-- 在线歌曲免责声明 -->
     <string name="impunity_declaration_title">घोषणा</string>
     <string name="impunity_declaration">आप जो ऑनलाइन म्यूजिक सुनने जा रहे वह Baidu ऑनलाइन म्यूजिक सर्विस से है. स्वीकार करने के लिए स्पर्श <a href="http://music.baidu.com/doc/agreement">इस्तेमाल की शर्तें</a></string>
-    <string name="synchronize_to_baidu_cloud">अपने प्लेलिस्ट में ऑनलाइन गानो का बैकअप Baidu क्लाउड के साथ लो</string>
-    <string name="synchronize_guide_toast">समन्वय सक्षम करने के लिए, सेटिंग में जाये > समन्वय प्लेलिस्ट</string>
-
-    <!-- 文件过滤 -->
+   
+   <!-- 文件过滤 -->
     <string name="music_filter_helper">फ़िल्टर ने ये फ़ाइल को प्रदर्शित होने से रोका</string>
 
     <!-- 修改歌曲信息 -->
@@ -594,4 +587,9 @@
     <string name="data_usage_warning_summary">उच्च गुणवत्ता संगीत स्ट्रीम करने के लिए अपने मोबाइल डेटा कनेक्शन का उपयोग अपने डेटा के उपयोग की लागत में वृद्धि हो सकती है.</string>
 
     <string name="source_from">से स्रोत : %1$s</string>
+	<string name="click_to_play_all">सब बजाने के लिए क्लिक करें</string>
+	<string name="collect_topic_success">एल्बम पसंदीदा में जोड़ा</string>
+	<string name="collect_bill_success">बिल पसंदीदा में जोड़ा</string>
+	<string name="collect_fm_success">पसंदीदा में जोड़ा</string>
+	<string name="uncollect_success">पसंदीदा से निकाला</string>
 </resources>
