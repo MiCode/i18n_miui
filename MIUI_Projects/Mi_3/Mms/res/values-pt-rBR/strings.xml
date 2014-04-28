@@ -220,9 +220,9 @@
     <!-- String for slide duration in seconds -->
     <string name="duration_sec">Duração (<xliff:g id="duration">%s</xliff:g> segundos)</string>
     <!-- Dialog box title for duration selector -->
-    <string name="duration_selector_title">"Duração do slide "</string>
+    <string name="duration_selector_title">Duração do slide\u0020</string>
     <!-- Dialog box title for slide layout selector -->
-    <string name="layout_selector_title">"Layout da apresentação de slides "</string>
+    <string name="layout_selector_title">Layout da apresentação de slides\u0020</string>
     <!-- Slide layout option for layout at the top -->
     <!-- Slide layout option for layout at the bottom -->
     <!-- Hint in slide text field before text is typed -->
@@ -347,7 +347,7 @@
     <string name="pref_summary_mms_retrieval_during_roaming">Recupera mensagens automaticamente em roaming</string>
 
     <!-- Label prepended to recipient's name in Undelivered Messages screen -->
-    <string name="to_label">"Para "</string>
+    <string name="to_label">Para:\u0020</string>
 
     <!-- Confirm Delete -->
     <!-- Delete confirmation dialog title -->

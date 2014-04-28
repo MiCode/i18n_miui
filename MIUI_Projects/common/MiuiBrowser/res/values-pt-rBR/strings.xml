@@ -4,7 +4,7 @@
 
     <!-- Bookmark related -->
     <string name="local_bookmarks">Xiaomi</string>
-    <string name="google_bookmarks">Google: </string>
+    <string name="google_bookmarks">Google:\u0020</string>
     <string name="bookmarks_management">Gerenciar favoritos</string>
     <string name="bookmarks_root_folder">Pasta Raiz</string>
     <string name="bookmarks_content_is_null">Nenhum favorito</string>
@@ -23,7 +23,7 @@
 
     <string name="edit">Editar</string>
     <string name="delete">Excluir</string>
-    <string name="multi_select_title" ><xliff:g id="number">%1$s</xliff:g> selecionado(s)</string>
+    <string name="multi_select_title"><xliff:g id="number">%1$s</xliff:g> selecionado(s)</string>
     <string name="delete_multi_bookmarks_alert_title" >Excluir <xliff:g id="number">%1$s</xliff:g> itens?</string>
 
     <string name="add_bookmark">Adic. marcador</string>
@@ -357,7 +357,7 @@
     <string name="clip_dialog_title">Abrir o link copiado?</string>
     <string name="quicklinks_management">Sites Úteis</string>
     <string name="download">Download</string>
-    <string name="loading_rest_candidates">Carregando restante...</string>
+    <string name="loading_rest_candidates">Carregando restante\u2026</string>
     <string name="downloading">Transferindo</string>
     <string name="downloaded">Transferido</string>
     <string name="disk_space_used">%1$s utilizado</string>
@@ -372,7 +372,7 @@
     <string name="download_video_please_select_video">Selecionar um vídeo</string>
     <string name="download_video_please_download_market">Você precisa instalar o MiApps.</string>
     <string name="download_video_no_title_default_name">Vídeo sem nome</string>
-    <string name="download_video_menu_dialog_title">Instalando...</string>
+    <string name="download_video_menu_dialog_title">Instalando\u2026</string>
     <string name="download_video_menu_dialog_summary">Você precisa instalar o aplicativo de Vídeo antes de utilizar esta função</string>
     <string name="download_video_menu_dialog_positive_txt">Instalar</string>
     <string name="download_video_menu_video_version_low">Você precisa atualizar o aplicativo de Vídeo.</string>
@@ -402,7 +402,7 @@
     <string name="pref_file_downlaod_save_is_reset_default_settings">Restaurar configurações de salvamento padrão?</string>
     <string name="pref_file_download_save_modify_default_path">Modificar local de download</string>
     <string name="download_dialog_file_length_hint_txt">Tamanho：</string>
-    <string name="download_dialog_file_length_nolength_txt">Obtendo...</string>
+    <string name="download_dialog_file_length_nolength_txt">Obtendo\u2026</string>
     <string name="download_dialog_file_length_nolength_error_txt">Falha ao obter</string>
     <string name="download_dialog_file_length_lessthan1kb">Menos de 1K</string>
     <string name="download_dialog_default_path_invalid">O local selecionado é inválido</string>

@@ -36,8 +36,8 @@
     <string name="cancel">Cancelar</string>
     <string name="mem_lock">Bloquear</string>
     <string name="mem_unlock">Desbloquear</string>
-    <string name="last_check_date_today">"Última verificação: Hoje "</string>
-    <string name="last_check_date_yesterday">"Última verificação: Ontem "</string>
+    <string name="last_check_date_today">Última verificação: Hoje\u0020</string>
+    <string name="last_check_date_yesterday">Última verificação: Ontem\u0020</string>
     <string name="last_check_never_checked">Verificação recomendada (primeiro uso)</string>
     <string name="last_check_canceled">Verificação anterior cancelada</string>
     <string name="last_checked_default">Última verificação foi há %s dias</string>

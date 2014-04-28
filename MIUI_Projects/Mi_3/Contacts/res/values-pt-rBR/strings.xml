@@ -1449,7 +1449,7 @@ function of GMail/Contacts on the Web
     <string name="activity_title_contacts_filter">Contatos para exibição</string>
 
 <!-- Menu item for the settings activity [CHAR LIMIT=64] -->
-<string name="menu_settings" msgid="377929915873428211">Settings</string>
+<string name="menu_settings" msgid="377929915873428211">Configurações</string>
 
 <!-- Menu item for invoking contextual help [CHAR LIMIT=64] -->
     <string name="menu_help">Ajuda</string>
@@ -2339,7 +2339,7 @@ This is especially valuable for views without textual representation like ImageV
     <string name="select_groups">Selecionar grupos</string>
 
     <string name="sim_capacity">Ver capacidade do cartão SIM</string>
-    <string name="sim_capacity_content">Capacidade total <xliff:g id="items">%d</xliff:g>" | "<xliff:g id="items">%d</xliff:g> usado</string>
+    <string name="sim_capacity_content">Capacidade total <xliff:g id="items">%d</xliff:g>\u0020|\u0020<xliff:g id="items">%d</xliff:g> usado</string>
     <string name="sim_contact_existing">Este contato já existe</string>
     <string name="sim_contact_invalid">Contato do SIM inválido</string>
 
@@ -2376,7 +2376,7 @@ This is especially valuable for views without textual representation like ImageV
     <string name="yellowpage_navigation_network_location_enable_later">Ativar depois</string>
 
     <string name="sim_capacity">Ver capacidade do cartão SIM</string>
-    <string name="sim_capacity_content">Capacidade <xliff:g id="items">%d</xliff:g>" | "<xliff:g id="items">%d</xliff:g> usado</string>
+    <string name="sim_capacity_content">Capacidade <xliff:g id="items">%d</xliff:g>\u0020|\u0020<xliff:g id="items">%d</xliff:g> usado</string>
     <string name="sim_contact_existing">Este contato já existe</string>
     <string name="sim_contact_number_missing">Número do contato do SIM ausente.</string>
 

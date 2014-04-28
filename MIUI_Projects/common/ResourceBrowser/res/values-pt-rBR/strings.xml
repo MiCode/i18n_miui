@@ -146,8 +146,8 @@
     <string name="resource_exchange_has_bought">Você já comprou este tema.</string>
     <string name="resource_exchange_success">Aproveite! :)</string>
     <string name="resource_exchange_share_code_dlg_title">Enviando</string>
-    <string name="resource_exchange_share_code_dlg_content">O vale-presente que você comprou para o tema "%1$s" é: %2$s. Quando você enviá-lo para outro usuário MIUI, ele ou ela poderão utilizá-lo para fazer o download deste tema.</string>
-    <string name="resource_exchange_share_code_content">Você recebeu um vale-presente para o tema "%1$s" da Loja de Temas MIUI. O código do vale-presente é: %2$s. Toque em %3$s para utilizá-lo agora.</string>
+    <string name="resource_exchange_share_code_dlg_content">O vale-presente que você comprou para o tema \"%1$s\" é: %2$s. Quando você enviá-lo para outro usuário MIUI, ele ou ela poderão utilizá-lo para fazer o download deste tema.</string>
+    <string name="resource_exchange_share_code_content">Você recebeu um vale-presente para o tema \"%1$s\" da Loja de Temas MIUI. O código do vale-presente é: %2$s. Toque em %3$s para utilizá-lo agora.</string>
     <string name="resource_exchange_purchase_unkown_error">Caramba! Ocorreu um erro desconhecido. Efetue o login em http://market.xiaomi.com para visualizar o status do seu pagamento.</string>
 
     <!-- comments -->

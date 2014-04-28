@@ -8,10 +8,10 @@
   <string name="start_backup">Iniciar Backup</string>
   <string name="button_cancel">Cancelar</string>
   <string name="backup_empty">Nenhum backup</string>
-  <string name="backup_items_sysdata_tailer">" \u0020dados de sistema, "</string>
-  <string name="backup_items_app_tailer">" \u0020dados de aplicativos "</string>
+  <string name="backup_items_sysdata_tailer">\u0020dados de sistema,\u0020</string>
+  <string name="backup_items_app_tailer">\u0020dados de aplicativos\u0020</string>
   <string name="backup_failed">Falha no backup, tente novamente</string>
-  <string name="backup_recently">" \u0020(Recente)"</string>
+  <string name="backup_recently">\u0020(recente)</string>
   <string name="sdcard_unmounted">Cartão SD indisponível</string>
   <string-array name="backup_dialog_content_type">
     <item>Dados de Wi-Fi</item>

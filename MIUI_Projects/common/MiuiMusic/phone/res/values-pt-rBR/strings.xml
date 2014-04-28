@@ -198,10 +198,10 @@
     <string name="music_filter">Filtro de arquivos</string>
     <string name="filter_by_size">Filtrar por tamanho</string>
     <string name="filter_by_size_summary">Filtro para arquivos de áudio pequenos</string>
-    <string name="filter_by_size_prefix">"Tamanho mínimo: "</string>
+    <string name="filter_by_size_prefix">Tamanho mínimo:\u0020</string>
     <string name="filter_by_duration">Filtrar por duração</string>
     <string name="filter_by_duration_summary">Filtro para arquivos de áudio curtos</string>
-    <string name="filter_by_duration_prefix">"Duração mínima: "</string>
+    <string name="filter_by_duration_prefix">Duração mínima:\u0020</string>
     <string name="filter_by_duration_min">0 seg</string>
     <string name="filter_by_duration_max">5 min</string>
     <string name="filter_by_duration_format"><xliff:g id="format">%2$dmin%5$2dseg</xliff:g></string>
@@ -541,14 +541,14 @@
     <string name="ktv_alert_title">Somente dispositivos suportados podem adicionar músicas</string>
     <string name="ktv_alert_message">Toque em \'Usar dispositivo para adicionar músicas\' na tela inicial do seu console KTV e visualize seu código QR</string>
     <string name="ktv_and_room">"%1$s %2$s"</string>
-    <string name="ktv_connected_alert_titel">"Conectado a %1$s"</string>
-    <string name="ktv_connected_alert_message">As músicas que você selecionou serão adicionadas para uma playlist de nome "Minha KTV"</string>
-    <string name="ktv_disconnect_alert_titel">"Desconectar-se de %1$s?"</string>
-    <string name="ktv_song_vod_success">"“%1$s” adicionado"</string>
-    <string name="ktv_song_vod_fail">"Falha ao adicionar %1$s"</string>
-    <string name="ktv_unbind_message">"Falha na conexão com o console KTV. Tenha certeza de que você está escaneando o código QR correto."</string>
-    <string name="request_fail">"Falha na solicitação"</string>
-    <string name="disconnect">Disconnect</string>
+    <string name="ktv_connected_alert_titel">Conectado a %1$s</string>
+    <string name="ktv_connected_alert_message">As músicas que você selecionou serão adicionadas para uma playlist de nome \"Minha KTV\"</string>
+    <string name="ktv_disconnect_alert_titel">Desconectar-se de %1$s?</string>
+    <string name="ktv_song_vod_success">\"%1$s\" adicionado"</string>
+    <string name="ktv_song_vod_fail">Falha ao adicionar %1$s</string>
+    <string name="ktv_unbind_message">Falha na conexão com o console KTV. Tenha certeza de que você está escaneando o código QR correto.</string>
+    <string name="request_fail">Falha na solicitação</string>
+    <string name="disconnect">Desconectar</string>
     <string name="server_error">Erro do servidor</string>
     <string name="requesting">Solicitando\u2026</string>
 
@@ -556,16 +556,16 @@
     <string name="track_bit_rate_hd">Alto</string>
     <string name="track_bit_rate_uhd">Muito alto</string>
 
-    <string name="choose_stream_quality">"Selecioanr qualidade de streaming"</string>
-    <string name="choose_download_quality">"Selecionar qualidade de download"</string>
-    <string name="ultra_high_quality">"Máxima Qualidade"</string>
-    <string name="high_quality">"Alta qualidade"</string>
-    <string name="normal_quality">"Qualidade normal"</string>
+    <string name="choose_stream_quality">Selecioanr qualidade de streaming</string>
+    <string name="choose_download_quality">Selecionar qualidade de download</string>
+    <string name="ultra_high_quality">Máxima qualidade</string>
+    <string name="high_quality">Alta qualidade</string>
+    <string name="normal_quality">Qualidade normal</string>
 
-    <string name="login_first">"Primeiro, efetue login em sua conta Xiaomi"</string>
-    <string name="login">"Login"</string>
-    <string name="payment_success">"Pagamento concluído"</string>
-    <string name="payment_fail">"Falha no pagamento"</string>
+    <string name="login_first">Primeiro, efetue login em sua Conta Xiaomi</string>
+    <string name="login">Login</string>
+    <string name="payment_success">Pagamento concluído</string>
+    <string name="payment_fail">Falha no pagamento</string>
 
     <string name="pay_service_guide_new">Músicas em alta qualidade disponíveis agora</string>
     <string name="pay_service_guide_listen">Qualidade do streaming</string>
@@ -585,13 +585,13 @@
     <string name="higher_quality_music_summary">Escute e baixe músicas em alta qualidade</string>
     <string name="expired">Expirado</string>
     <string name="enabled">Ativado</string>
-    <string name="valid_period">"Válido de: "</string>
+    <string name="valid_period">Válido de:\u0020</string>
     <string name="period_format">%1$s-%2$s</string>
     <string name="vip_bought">Você já comprou o acesso a músicas em alta qualidade</string>
     <string name="vip_expired">Seu acesso a músicas em alta qualidade expirou.</string>
     <string name="vip_rebuy">Renovar</string>
 
-    <string name="data_usage_warning">Aviso sobre uso de dados!</string>
+    <string name="data_usage_warning">Aviso sobre uso de dados</string>
     <string name="data_usage_warning_summary">Utilizar sua conexão de dados móveis para fazer streaming de músicas em alta qualidade pode aumentar seu custo de dados móveis.</string>
 
     <string name="source_from">Fonte: %1$s</string>

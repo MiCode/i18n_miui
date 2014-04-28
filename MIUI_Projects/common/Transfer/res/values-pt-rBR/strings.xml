@@ -60,7 +60,7 @@
     <string name="receive_finish">Recebimento completo</string>
     <string name="receive_uncompleted">Processo de recebimento incompleto</string>
     <string name="noti_wait_receive">Aguardando recebimento\u2026</string>
-    <string name="noti_wait_send">"Aguardando recebimento: Certifique-se de que o remetente habilitou a conexão e pode enviar arquivo(s) "</string>
+    <string name="noti_wait_send">"Aguardando recebimento: Certifique-se de que o remetente\n habilitou a conexão e pode enviar arquivo(s)"</string>
     <string name="noti_sending">%1$s: Enviando %2$d de %3$d arquivos(s)</string>
     <string name="noti_receiving">%1$s: Recebendo %2$d de %3$d arquivos(s)</string>
     <string name="noti_completed">Concluído: %1$d de %2$d arquivos(s) transferido(s)</string>

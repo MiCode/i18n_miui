@@ -57,6 +57,6 @@
     <!-- end: do not translate -->
 
     <string name="screen_rotation_freeze_message">Rotação de tela desativada.</string>
-    <string name="screen_button_disabled_message">As funções dos botões virtuais estão desativadas. Para reativá-los, pressione as tecla \"Home\" e \"Power\" simultâneamente</string>
+    <string name="screen_button_disabled_message">As funções dos botões virtuais estão desativadas. Para reativá-los, pressione as tecla \"Home\" e \"Power\" simultaneamente</string>
     <string name="screen_button_enabled_message">Botões virtuais ativados.</string>
 </resources>

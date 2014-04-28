@@ -48,8 +48,8 @@
     <string name="top_status_online_media">Online</string>
     <string name="loading_video_netplay_label_v5">Carregando\u2026</string>
     <string name="buffering_video_netplay_label_v5">Armazenando\u2026</string>
-    <string name="to_be_play_label_v5">"Próximo: "</string>
-    <string name="episode_prefix">"episódio "</string>
+    <string name="to_be_play_label_v5">Próximo:\u0020</string>
+    <string name="episode_prefix">Episódio\u0020</string>
     <string name="episode_suffix"> </string>
     <string name="about_version_label">Versão</string>
     <string name="about_developer_label">Desenvolvedor</string>

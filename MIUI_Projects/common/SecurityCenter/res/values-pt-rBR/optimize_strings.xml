@@ -4,7 +4,7 @@
     <string name="opt_clean_garbage">%d MB liberados</string>
     <string name="opt_killed_process">%d processos finalizados</string>
     <string name="opt_freed_ram">%dMBs de memória liberada</string>
-    <string name="opt_virus_scan">Escanear agora</string>
+    <string name="opt_virus_scan">Verificar agora</string>
     <string name="opt_disabled_autorun">%d aplicativos desativados do início automático</string>
     <string name="opt_restore_perm">Permissões de privacidade restauradas para %d aplicativos</string>
     <string name="opt_progress_started">Otimizando\u2026</string>
@@ -19,12 +19,12 @@
     <string name="opt_state_done">Concluído</string>
     <string name="opt_garbage_size">Tamanho do lixo:</string>
     <string name="opt_scanning">Escaneando\u2026:</string>
-    <string name="opt_virus_suggest">%d arquivos suspeitos detectados. É recomendado escanear por vírus.</string>
+    <string name="opt_virus_suggest">%d arquivos suspeitos detectados. É recomendado fazer a verificação por vírus.</string>
     <string name="opt_quickscan_ok">Sistema limpo</string>
 
     <string name="opt_item_cache_clean">Limpar lixo</string>
     <string name="opt_item_procs_clean">Gerenciar processos</string>
-    <string name="opt_item_file_scan">Escanear arquivos</string>
+    <string name="opt_item_file_scan">Verificar arquivos</string>
     <string name="opt_item_autorun">Início automático</string>
     <string name="opt_item_app_perm">Permissões</string>
     <string name="opt_waiting">Aguardando</string>

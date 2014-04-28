@@ -43,7 +43,7 @@
     <string name="category_bluetooth">Bluetooth</string>
     <string name="category_log">Registros</string>
     <string name="category_mirouter">MiRouter</string>
-    <string name="colon">": "</string>
+    <string name="colon">:\u0020</string>
     <string name="operation_rename_message">Digite o novo nome</string>
     <string name="operation_create_folder_message">Nome da pasta</string>
     <string name="operation_delete_confirm_message">Excluir</string>
@@ -124,7 +124,7 @@
     <string name="directory_no_item">Pasta vazia</string>
     <string name="error_open_file_failed_no_app_found">Nenhum aplicativo encontrado para executar esta ação.</string>
     <string name="no_enough_space">Espaço insuficiente</string>
-    <string name="directory_info_divider">"  |  "</string>
+    <string name="directory_info_divider">\u0020|\u0020</string>
 
     <string name="no_enough_storage_title">Espaço insuficiente</string>
     <string name="no_enough_storage_indication">O armazenamento do dispositivo está cheio.</string>
@@ -141,7 +141,7 @@
 
     <string name="ui_main_menu_option_task_manage">Gerenciar downloads</string>
     <string name="kuaipan_label">Kuaipan</string>
-    <string name="create_kuaipan_shortcut_pref">Mostrar na Tela inicial</string>
+    <string name="create_kuaipan_shortcut_pref">Mostrar na tela inicial</string>
     <string name="login_reg_content0">Use o KuaiPan de quallquer lugar.</string>
     <string name="login_reg_content">Armazene arquivos e sincronize-os entre múltiplos dispositivos.\nEste recurso requer uma conexão com a internet.</string>
     <string name="start_use_xiaomi_account">Iniciar uso do KuaiPan</string>

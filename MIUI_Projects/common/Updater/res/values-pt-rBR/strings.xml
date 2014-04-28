@@ -114,8 +114,8 @@
    <!-- Share update -->
     <string name="share_update">Compartilhar informações de atualização</string>
     <string name="share">Compartilhar</string>
-    <string name="share_update_content_unsign">Eu atualizei a MIUI para <xliff:g id="VERSION">%1$s</xliff:g>! Para ver o changelog detalhado, por favor visite "<xliff:g id="CHANGELOG">%2$s</xliff:g>"</string>
-    <string name="share_update_content_sign">Eu atualizei a MIUI para <xliff:g id="VERSION">%1$s</xliff:g>! Eu fui a <xliff:g id="RANK">%2$s</xliff:g> pessoa a atualizá-la. Para ver o changelog detalhado, por favor visite "<xliff:g id="CHANGELOG">%3$s</xliff:g>"</string>
+    <string name="share_update_content_unsign">Eu atualizei a MIUI para <xliff:g id="VERSION">%1$s</xliff:g>! Para ver o changelog detalhado, por favor visite\u0020<xliff:g id="CHANGELOG">%2$s</xliff:g>"</string>
+    <string name="share_update_content_sign">Eu atualizei a MIUI para <xliff:g id="VERSION">%1$s</xliff:g>! Eu fui a <xliff:g id="RANK">%2$s</xliff:g> pessoa a atualizá-la. Para ver o changelog detalhado, por favor visite \"<xliff:g id="CHANGELOG">%3$s</xliff:g>\"</string>
     <string name="share_sina">Postar com o Sina Weibo</string>
     <string name="share_qq">Postar com o Tencent Weibo</string>
     <string name="install_qq">Instalar o Tencent Weibo</string>

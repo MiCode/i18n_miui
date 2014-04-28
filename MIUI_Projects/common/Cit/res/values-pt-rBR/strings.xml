@@ -190,7 +190,7 @@
     <string name="cit_sd_fail">Ocorreu um erro.</string>
     <string name="cit_charger_waiting_in">Conecte o carregador</string>
     <string name="cit_ac_charger_in">Carregando via AC</string>
-     <string name="cit_usb_charger_in">Carregando via USB</string>
+    <string name="cit_usb_charger_in">Carregando via USB</string>
     <string name="cit_charger_waiting_out">Desconecte o carregador agora</string>
     <string name="cit_ac_charger_out">Carregador AC desconectado</string>
     <string name="cit_usb_charger_out">Carregador USB desconectado</string>
@@ -307,7 +307,7 @@
     <string name="cit_tool_wifi_rx_exit">Rx:exit</string>
     <string name="cit_tool_wifi_rx_run">Executar</string>
     <string name="cit_tool_wifi_rx_stop">Parar</string>
-    <string name="cit_tool_wifi_rx_total_format">Total transmitido %s </string>
+    <string name="cit_tool_wifi_rx_total_format">Total transmitido %s</string>
     <string name="cit_tool_wifi_rx_error">Ocorreu um erro ao executar o aplicativo</string>
     <string name="cit_tool_wifi_rx_count_error">O valor de saída não é um número</string>
     <string name="cit_tool_wifi_rx_ap_name">MT</string>

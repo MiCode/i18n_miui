@@ -54,7 +54,7 @@
     <string name="micloud_click_email_to_valid">\n\nPara ativar sua conta,\n acesse o link de ativação enviado para seu e-mail.</string>
     <string name="micloud_resend_active_email">Reenviar e-mail de ativação</string>
     <string name="micloud_delete_account">Logout</string>
-    <string name="micloud_active_email_sent_1">"um link de ativação foi enviado para "</string>
+    <string name="micloud_active_email_sent_1">um link de ativação foi enviado para\u0020</string>
     <string name="micloud_active_email_sent_2"></string>
     <string name="micloud_click_email">\n\nPara ativar sua conta,\n acesse o link de ativação recebido por mensagem.</string>
     <string name="completed">Finalizar</string>

@@ -150,7 +150,7 @@
     <string name="pref_video_time_lapse_frame_interval_entry_2" >Intervalo de 0.06 segundos (2 vezes)</string>
     <string name="pref_video_time_lapse_frame_interval_entry_4" >Intervalo de 0.12 segundos (4 vezes)</string>
     <string name="pref_video_time_lapse_frame_interval_entry_10" >Intervalo de 0.3 segundos (10 vezes)</string>
-    <string name="pref_video_time_lapse_frame_interval_entry_30" >Intervalo de 1 second (30 vezes)</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_30" >Intervalo de 1 segundo (30 vezes)</string>
     <string name="pref_video_time_lapse_frame_interval_entry_60" >Intervalo de 2 segundos (60 vezes)</string>
     <string name="pref_video_time_lapse_frame_interval_entry_90" >Intervalo de 3 segundos (90 vezes)</string>
     <string name="pref_video_time_lapse_frame_interval_entry_120" >Intervalo de 4 segundos (120 vezes)</string>
@@ -624,7 +624,7 @@
     <string name="accessibility_skin_beautify_closed">Melhorias de tom de pele fechadas</string>
 
     <!-- TODO: remove the string as it is a work-around solution to bypass the default speak of the element type. -->
-    <string name="empty" translatable="false">" "</string>
+    <string name="empty" translatable="false">\u0020</string>
 
     <!-- Settings screen, Select auto exposure title -->
     <string name="pref_camera_autoexposure_title">Modo de auto-exposição</string>
@@ -768,23 +768,23 @@
     <string name="pref_camera_referenceline_entryvalue_on" translatable="false">referenceline-on</string>
 
     <!--音量键功能 -->
-    <string name = "pref_camera_volumekey_function_entry_volume">Volume</string>
-    <string name = "pref_camera_volumekey_function_entry_shutter">Disparados</string>
-    <string name = "pref_camera_volumekey_function_entry_zoom">Zoom</string>
-    <string name = "pref_camera_volumekey_function_entry_exposure">Exposição</string>
-    <string name = "pref_camera_volumekey_function_title">Funções do botão de volume</string>
+    <string name ="pref_camera_volumekey_function_entry_volume">Volume</string>
+    <string name ="pref_camera_volumekey_function_entry_shutter">Disparados</string>
+    <string name ="pref_camera_volumekey_function_entry_zoom">Zoom</string>
+    <string name ="pref_camera_volumekey_function_entry_exposure">Exposição</string>
+    <string name ="pref_camera_volumekey_function_title">Funções do botão de volume</string>
 
-    <string name = "pref_camera_volumekey_function_entryvalue_volume" translatable="false">volume</string>
-    <string name = "pref_camera_volumekey_function_entryvalue_shutter" translatable="false">shutter</string>
-    <string name = "pref_camera_volumekey_function_entryvalue_zoom" translatable="false">zoom</string>
-    <string name = "pref_camera_volumekey_function_entryvalue_exposure" translatable="false">exposure</string>
-    <string name = "pref_camera_volumekey_function_default" translatable="false">shutter</string>
+    <string name ="pref_camera_volumekey_function_entryvalue_volume" translatable="false">volume</string>
+    <string name ="pref_camera_volumekey_function_entryvalue_shutter" translatable="false">shutter</string>
+    <string name ="pref_camera_volumekey_function_entryvalue_zoom" translatable="false">zoom</string>
+    <string name ="pref_camera_volumekey_function_entryvalue_exposure" translatable="false">exposure</string>
+    <string name ="pref_camera_volumekey_function_default" translatable="false">shutter</string>
 
     <!-- 长按连快门功能 -->
-    <string name = "pref_camera_long_pressing_burst_shooting_title">Pressionamento longo do disparador</string>
-    <string name = "pref_camera_long_pressing_burst_shooting_entry_off">Foco</string>
-    <string name = "pref_camera_long_pressing_burst_shooting_entry_on">Fotos contínuas</string>
-    <string name = "pref_camera_long_pressing_burst_shooting_default" translatable="false">on</string>
+    <string name ="pref_camera_long_pressing_burst_shooting_title">Pressionamento longo do disparador</string>
+    <string name ="pref_camera_long_pressing_burst_shooting_entry_off">Foco</string>
+    <string name ="pref_camera_long_pressing_burst_shooting_entry_on">Fotos contínuas</string>
+    <string name ="pref_camera_long_pressing_burst_shooting_default" translatable="false">on</string>
 
 
     <!-- 白平衡K值 -->

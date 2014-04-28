@@ -33,8 +33,8 @@
     <string name="one_address_choose_hint">%s1 local</string>
 
     <!-- Mark info -->
-    <string name="marked_by_user">" você marcou como "</string>
-    <string name="marked_by_others">"%d outros usuários marcaram como "</string>
+    <string name="marked_by_user">você marcou como\u0020</string>
+    <string name="marked_by_others">%d outros usuários marcaram como\u0020</string>
 
     <!-- Dialog -->
     <string name="dlg_black_antispam_message">Adicionar esta mensagem à lista de bloqueio?</string>

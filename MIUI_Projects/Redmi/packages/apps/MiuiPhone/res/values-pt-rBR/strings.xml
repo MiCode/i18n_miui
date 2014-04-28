@@ -139,8 +139,8 @@
     <string name="crystaltalk_title_miui">Configuração NICAM</string>
     <string name="current_areacode_miui">Código de área atual</string>
     <string name="current_areacode_sum_miui">Código de área do local atual, ou da área de roaming caso esteja em roaming. Por exemplo: 032</string>
-    <string name="current_areacode_sum_set_miui">"Código de área da localização atual: "<xliff:g id="areacode_be_set">%s</xliff:g></string>
-    <string name="custom_location_location_no_item_miui">"Toque em 'Adicionar' abaixo para personalizar o local"</string>
+    <string name="current_areacode_sum_set_miui">Código de área da localização atual: <xliff:g id="areacode_be_set">%s</xliff:g></string>
+    <string name="custom_location_location_no_item_miui">Toque em \'Adicionar\' abaixo para personalizar o local</string>
     <string name="custom_location_location_hint_miui">Nome</string>
     <string name="custom_location_number_hint_miui">Código de área como 032, número de grupo como 32#####</string>
     <string name="cw_title_miui">Chamada em espera</string>
@@ -428,7 +428,7 @@
     <string name="enable_antispam_strange_title">Anti-estranhos</string>
     <string name="enable_antispam_strange_summary">Silenciar a primeira chamada de números desconhecidos</string>
 
-    <string name="phone_info_divider">" | "</string>
+    <string name="phone_info_divider">\u0020|\u0020</string>
     <string name="suspect_info">Sempre verifique a identidade da pessoa com quem você está conversando antes de responder quaisquer perguntas sobre finanças pessoais.</string>
 
     <string name="sim_manage_call_via">Chamar via</string>

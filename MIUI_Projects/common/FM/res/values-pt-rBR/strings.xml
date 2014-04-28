@@ -39,8 +39,8 @@
     <string name="preset_tune">Ajustar</string>
     <string name="preset_delete">Excluir</string>
 
-    <string name="stat_notif_frequency">"<xliff:g id="frequency">%1$s</xliff:g>" MHz</string>
-    <string name="stat_notif_tx_frequency">Transmitindo via FM a: "<xliff:g id="frequency">%1$s</xliff:g>"</string>
+    <string name="stat_notif_frequency">\"<xliff:g id="frequency">%1$s</xliff:g>\" MHz</string>
+    <string name="stat_notif_tx_frequency">Transmitindo via FM a: \"<xliff:g id="frequency">%1$s</xliff:g>\"</string>
 
     <string name="sel_band_menu">Frequência regional (limpa predefinições)</string>
     <string name="test_menu">Selecionar teste</string>

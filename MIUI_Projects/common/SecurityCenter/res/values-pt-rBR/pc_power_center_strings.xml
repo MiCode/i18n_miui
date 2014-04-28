@@ -18,8 +18,8 @@
     <string name="power_center_battery_full">Bateria completamente carregada</string>
 
     <plurals name="power_center_battery_day">
-        <item quantity="one"><xliff:g id="count">%d</xliff:g>" dia "</item>
-        <item quantity="other"><xliff:g id="count">%d</xliff:g>" dias "</item>
+        <item quantity="one"><xliff:g id="count">%d</xliff:g>\u0020dia\u0020</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g>\u0020dias\u0020</item>
     </plurals>
     <plurals name="power_center_battery_hour">
         <item quantity="one"><xliff:g id="count">%d</xliff:g>" hr "</item>

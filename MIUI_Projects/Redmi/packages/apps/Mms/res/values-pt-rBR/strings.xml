@@ -347,7 +347,7 @@
     <string name="pref_summary_mms_retrieval_during_roaming">Recupera mensagens automaticamente em roaming</string>
 
     <!-- Label prepended to recipient's name in Undelivered Messages screen -->
-    <string name="to_label">"Para "</string>
+    <string name="to_label">Para:\u0020</string>
 
     <!-- Confirm Delete -->
     <!-- Delete confirmation dialog title -->
@@ -856,7 +856,7 @@
     <string name="guild_add_attachments">Clique aqui para adicionar anexos ou emoticons na mensagem</string>
 
     <string name="privacy_mode_hint">Impossível enviar mensagens no modo de privacidade</string>
-    <string name="wap_push_title">"[WAP Push] "</string>
+    <string name="wap_push_title">[WAP Push]\u0020</string>
     <string name="message_too_big_for_audio">Mensagem muito grande</string>
     <string name="add_timing">Programação</string>
 

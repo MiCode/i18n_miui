@@ -567,7 +567,7 @@
     <string name="copy_db">Enviar banco de dados</string>
 
     <!-- Displayed in email address autocomplete list when searching for contacts
-         in corporate directories. Example:  "Searching bigcompany.com..." [CHAR LIMIT=64] -->
+         in corporate directories. Example:  "Searching bigcompany.com\u2026" [CHAR LIMIT=64] -->
     <string name="directory_searching_fmt">Pesquisando <xliff:g id="domain">%s</xliff:g>\u2026</string>
 
     <!-- Accessibility Events -->

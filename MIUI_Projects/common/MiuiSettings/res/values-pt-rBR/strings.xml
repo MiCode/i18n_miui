@@ -15,14 +15,14 @@
     <string name="device_memory">RAM</string>
     <string name="device_internal_memory">Armazenamento</string>
     <string name="device_sd_memory">Cartão SD</string>
-    <string name="device_cpu2_info">" Dual-Core "</string>
-    <string name="device_cpu4_info">" Quad-Core "</string>
+    <string name="device_cpu2_info">Dual-Core,\u0020</string>
+    <string name="device_cpu4_info">Quad-Core,\u0020</string>
 
     <string name="available_size"><xliff:g id="SIZE">%s</xliff:g> disponível</string>
     <string name="total_size"><xliff:g id="SIZE">%s</xliff:g> (total)</string>
     <string name="memory_title">"Disponível: <xliff:g id="SIZE">%1$s</xliff:g>\t\tTotal: <xliff:g id="SIZE">%2$s</xliff:g></string>
 
-    <string name="xiaomi_account">"Conta Xiaomi"</string>
+    <string name="xiaomi_account">Conta Xiaomi</string>
     <string name="sync_settings">Sincronização</string>
 
     <string name="sms_received_sound_title">Toque de SMS recebida</string>
@@ -38,7 +38,7 @@
 
     <!-- Privacy protection: Privacy mode &  Access Control -->
     <string name="privacy_protect_title">Proteção de privacidade</string>
-    <string name="privacy_mode_enable_title">Modo Privado</string>
+    <string name="privacy_mode_enable_title">Modo de privacidade</string>
     <string name="privacy_mode_enable_sum">Oculta registro de chamadas, mensagens entre outros para proteger a privacidade do usuário.</string>
     <string name="ac_enable_title">Controle de acesso</string>
     <string name="ac_set_apps_title">Proteger aplicativos</string>
@@ -149,13 +149,13 @@
     <string name="lockpattern_settings_enable_power_button_instantly_locks">Bloquear com botão liga/desliga</string>
 
     <!-- Led Settings -->
-    <string name="incoming_call_vibrate_abbreviation">"Chamadas - "</string>
-    <string name="notification_vibrate_abbreviation">"Notificação - "</string>
-    <string name="mms_vibrate_abbreviation">"Mensagens - "</string>
+    <string name="incoming_call_vibrate_abbreviation">Chamadas -\u0020</string>
+    <string name="notification_vibrate_abbreviation">Notificação -\u0020</string>
+    <string name="mms_vibrate_abbreviation">Mensagens -\u0020</string>
     <!-- Sound settings screen, breathing light color title -->
     <string name="breathing_light_color_title">Cor do LED</string>
     <string name="breathing_light_color_menu_title">Cor do LED</string>
-    <!-- Sound settings screen, breathing light color summary TODO: find a better way to say this... -->
+    <!-- Sound settings screen, breathing light color summary TODO: find a better way to say this\u2026 -->
     <string name="breathing_light_color_summary">Cor do LED ao receber novas notificações</string>
     <!-- Sound settings screen, breathing light freq title -->
     <string name="breathing_light_freq_title">Frequência de repetição</string>
@@ -588,8 +588,8 @@ Usar este método de entrada?</string>
     <string name="slot_status_title">Informação de IMEI</string>
 
     <string name="next_button_label">Avançar</string>
-    <string name="internal_media_format_final_desc">"Apagar o armazenamento interno, excluindo todos os arquivos armazenados nele? Você não pode reverter esta ação! O telefone irá reiniciar após o armazenamento interno ser apagado! "</string>
-    <string name="internal_media_format_desc">"Apagar todo o armazenamento interno? Você vai perder <b> todos </b> dados armazenados e, em seguida, o telefone será reiniciado!"</string>
+    <string name="internal_media_format_final_desc">Apagar o armazenamento interno, excluindo todos os arquivos armazenados nele? Você não pode reverter esta ação! O telefone irá reiniciar após o armazenamento interno ser apagado!</string>
+    <string name="internal_media_format_desc">Apagar todo o armazenamento interno? Você vai perder <b>todos</b> dados armazenados e, em seguida, o telefone será reiniciado!</string>
     <string name="internal_media_format_button_text">Apagar armaz. interno</string>
     <string name="internal_media_format_title">Apagar armaz. interno</string>
     <!-- Internal Storage & phone storage settings item title that will result in the phone formatting the Internel storage.   [CHAR LIMIT=25] -->

@@ -8,10 +8,10 @@
   <string name="start_backup">Iniciar Backup</string>
   <string name="button_cancel">Cancelar</string>
   <string name="backup_empty">Nenhum backup</string>
-  <string name="backup_items_sysdata_tailer">" \u0020dados de sistema, "</string>
-  <string name="backup_items_app_tailer">" \u0020dados de aplicativos "</string>
+  <string name="backup_items_sysdata_tailer">\u0020dados de sistema,\u0020</string>
+  <string name="backup_items_app_tailer">\u0020dados de aplicativos\u0020</string>
   <string name="backup_failed">Falha no backup, tente novamente</string>
-  <string name="backup_recently">" \u0020(Recente)"</string>
+  <string name="backup_recently">\u0020(recente)</string>
     <string name="sdcard_unmounted">Cartão SD desmontado ou indisponível!</string>
   <string-array name="backup_dialog_content_type">
     <item>Dados de Wi-Fi</item>
@@ -244,7 +244,7 @@ e conecte-se como <xliff:g id="account" example="110000">%2$s</xliff:g>.</string
     <string name="cloud_app_current_device">Dispositivo atual</string>
     <string name="cloud_app_other_devices">Outros dispositivos</string>
     <string name="cloud_app_delete_data">Excluir backup</string>
-    <string name="cloud_app_backup_date">"Salvo em "</string>
+    <string name="cloud_app_backup_date">Salvo em\u0020</string>
     <string name="cloud_app_total_size">Tamanho: %1$s</string>
     <string name="cloud_app_version_size">Versão: %1$s, Tamanho: %2$s</string>
     <string name="cloud_app_restore_prompt">A restauração irá substituir os dados existentes no telefone pelos dados salvos na nuvem.</string>

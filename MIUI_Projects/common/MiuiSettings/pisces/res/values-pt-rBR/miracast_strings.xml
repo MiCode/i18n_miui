@@ -45,7 +45,7 @@
     <string name="miracast_sink_connected">Conectado</string>
     <!-- Miracast sink status.  Not in range -->
     <string name="miracast_sink_not_available">Indisponível</string>
-    <!-- Miracast sink status.  Connecting... -->
+    <!-- Miracast sink status.  Connecting\u2026 -->
     <string name="miracast_sink_connecting">Conectando\u2026</string>
     <!-- Miracast sink status.  Not connected -->
     <string name="miracast_sink_ready_to_connect">Pronto para conectar</string>
