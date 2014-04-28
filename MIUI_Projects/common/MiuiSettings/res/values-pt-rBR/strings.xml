@@ -790,8 +790,8 @@ Usar este método de entrada?</string>
     <string name="wifi_wps_onstart_pbc">Pressione o botão \"Wi-Fi Protected Setup\" do roteador. Ele também pode ser chamado de \"WPS\" ou conter este símbolo:</string>
     <string name="wifi_wps_onstart_pin">Insira o PIN <xliff:g id="number">%1$s</xliff:g> em seu roteador Wi-Fi. A configuração pode levar até dois minutos.</string>
     <string name="wifi_wps_connected">Conectado à rede Wi-Fi <xliff:g id="network_name">%s</xliff:g></string>
-<string name="wifi_connect_failed_message" product="tablet">Couldn't connect to Wi-Fi network</string>
-<string name="wifi_connect_failed_message" product="default">Couldn't connect to Wi-Fi network</string>
+    <string name="wifi_connect_failed_message" product="tablet">Falha ao conectar-se à rede Wi-Fi</string>
+    <string name="wifi_connect_failed_message" product="default">Falha ao conectar-se à rede Wi-Fi</string>
     <string name="wifi_advanced_titlebar">Wi-Fi avançado</string>
     <string name="wifi_setting_frequency_band_title">Banda de frequência Wi-Fi</string>
     <string name="wifi_p2p_settings_title">Wi-Fi Direct</string>
