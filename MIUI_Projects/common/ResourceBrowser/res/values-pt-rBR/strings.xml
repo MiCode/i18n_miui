@@ -6,26 +6,26 @@
     <string name="resource_app_name">Navegador de recursos</string>
 
     <string name="resource_price_free">Grátis</string>
-    <string name="resource_price_unit">&#160;MiCredits</string>
+    <string name="resource_price_unit">&#160;Mi Credits</string>
     <string name="resource_price_format">(%1$s)</string>
 
     <string name="sdcard_not_mounted_dialog_title">Nenhum cartão SD detectado</string>
-    <string name="sdcard_not_mounted_dialog_message">Insira um cartão SD.\n</string>
+    <string name="sdcard_not_mounted_dialog_message">Insira um cartão SD.\n</string> 
 
     <string name="resource_mute">Nenhum</string>
     <string name="resource_default">Toque padrão</string>
     <string name="resource_ringtone_default">Toques do telefone</string>
     <string name="resource_notification_default">Notificações</string>
-    <string name="resource_alarm_default">Alarme</string>
+    <string name="resource_alarm_default">Alarmes</string>
 
-    <string name="description_designer">Designer</string>
-    <string name="description_author">Autor</string>
-    <string name="description_size">Tamanho</string>
-    <string name="description_uploadtime">Atualizado</string>
-    <string name="description_download">Download</string>
-    <string name="description_version">Versão</string>
-    <string name="description_summary">Sumário</string>
-    <string name="description_version_szie">Versão: %1$s   Tamanho: %2$s</string>
+    <string name="description_designer">Designer:\u0020</string>
+    <string name="description_author">Autor:\u0020</string>
+    <string name="description_size">Tamanho:\u0020</string>
+    <string name="description_uploadtime">Atualizado:\u0020</string>
+    <string name="description_download">Download:\u0020</string>
+    <string name="description_version">Versão:\u0020</string>
+    <string name="description_summary">Sumário:\u0020</string>
+    <string name="description_version_szie">Versão: %1$s | Tamanho: %2$s</string>
 
     <string name="resource_local">Local %1$s</string>
     <string name="resource_online">Online %1$s</string>
@@ -49,7 +49,7 @@
     <string name="resource_import_failed">Falha ao importar</string>
     <string name="resource_delta_update_successful">Atualização concluída</string>
     <string name="resource_delta_update_failed">Falha na atualização: Efetuando download novamente\u2026</string>
-    <string name="resource_delta_update_total">Atualização incremental de %1$d, economia de %2$s </string>
+    <string name="resource_delta_update_total">Atualização incremental de %1$d, economia de %2$s</string>
     <string name="resource_apply">Aplicar</string>
     <string name="resource_update">Atualizar</string>
     <string name="resource_select">Selecionar</string>
@@ -68,7 +68,7 @@
     <string name="resource_detail_window_title">Detalhes de %1$s</string>
     <string name="resource_detail_update_log_title">Atualizações</string>
     <string name="resource_detail_comment_title">Comentários</string>
-    <string name="resource_detail_recommend_desiner_other_themes">Outros temas criados por %1$s\</string>
+    <string name="resource_detail_recommend_desiner_other_themes">Outros temas criados por %1$s</string>
     <string name="resource_detail_recommend_other_themes">Recomendados pela comunidade</string>
     <string name="resource_detail_jump_to_online_title">Online</string>
     <string name="resource_detail_jump_to_same_author_title">Mesmo autor</string>
@@ -76,7 +76,7 @@
 
     <string name="resource_share_title">Compartilhar</string>
     <string name="resource_share_subject">Compartilhar tema: %1$s</string>
-    <string name="resource_share_text">Aqui está um tema que vocÊ vai gostar: %1$s! Link: %2$s</string>
+    <string name="resource_share_text">Aqui está um tema que você vai gostar: %1$s! Link: %2$s</string>
 
     <string name="resource_delete_all">Excluir %1$d recursos selecionados?</string>
 
@@ -86,7 +86,7 @@
 
     <string name="resource_see_more">Ver mais</string>
     <string name="resource_no_result">Nada encontrado</string>
-    <string name="resource_unable_to_access">Infelizmente,\no conteúdo que você está tentando acessar não está disponível para a sua região.</string>
+    <string name="resource_unable_to_access">"Infelizmente, 
     <string name="resource_list_title">Último selecionado</string>
 
     <string name="resource_get_auth_checking">Verificando autorização\u2026</string>
@@ -102,7 +102,7 @@
     <string name="resource_purchase_verifying_payment">Verificando informação de pagamento\u2026</string>
 
     <string name="resource_download_trial">Teste grátis</string>
-    <string name="resource_apply_trial">Testar agora</string>
+    <string name="resource_apply_trial">Testar</string>
     <string name="resource_on_trial">Testando: %1$s</string>
     <string name="resource_trial_time">（teste por %1$d minutos）</string>
     <string name="resource_trial_end_title">Teste expirado</string>
@@ -121,14 +121,14 @@
     <string name="resource_expand_full_text">Expandir</string>
 
     <string name="resource_account_login">Login</string>
-    <string name="resource_account_switch">Alternar conta</string>
+    <string name="resource_account_switch">Alternar contas</string>
     <string name="resource_account_login_title">Login</string>
     <string name="resource_account_fail_to_add">Falha ao adicionar conta</string>
     <string name="resource_account_abnormal_state">Erro na conta. Tente novamente mais tarde</string>
     <string name="resource_account_login_before_action">Entrar com sua Conta Xiaomi agora</string>
 
     <string name="resource_send">Enviar</string>
-    <string name="resource_save_to_note">Salvar em Anotações</string>
+    <string name="resource_save_to_note">Salvar em anotações</string>
 
     <string name="resource_present">Vale-presente</string>
     <string name="resource_exchange">Resgatar</string>
@@ -137,7 +137,7 @@
     <string name="resource_exchange_window_title">Resgatar</string>
     <string name="resource_exchange_universal_goon">Este código pode ser utilizado para fazer download de qualquer tema na loja.</string>
     <string name="resource_exchange_universal_finish">Use este código para fazer download de um tema da Loja de Temas MIUI.</string>
-    <string name="resource_exchange_empty_format">Digitar código</string>
+    <string name="resource_exchange_empty_format">Por favor insira o seu vale presente!</string>
     <string name="resource_exchange_wrong_format_by_local">O formato do código inserido está incorreto.</string>
     <string name="resource_exchange_wrong_format_by_server">Falha na verificação do código. Certifique-se de que o código foi inserido corretamente.</string>
     <string name="resource_exchange_has_used">O código inserido já foi utilizado.</string>
@@ -150,7 +150,7 @@
     <string name="resource_exchange_share_code_content">Você recebeu um vale-presente para o tema \"%1$s\" da Loja de Temas MIUI. O código do vale-presente é: %2$s. Toque em %3$s para utilizá-lo agora.</string>
     <string name="resource_exchange_purchase_unkown_error">Caramba! Ocorreu um erro desconhecido. Efetue o login em http://market.xiaomi.com para visualizar o status do seu pagamento.</string>
 
-    <!-- comments -->
+<!-- comments -->
     <string name="resource_comment_all_comments">Todos</string>
     <string name="resource_comment_good_comments">Positivos</string>
     <string name="resource_comment_bad_comments">Negativos</string>
@@ -195,5 +195,5 @@
     <string name="resource_user_know">OK</string>
     <string name="resource_hint">Alerta</string>
 
-    <string name="resource_ringtone_volume_mute">O toque do telefone está atualmente silenciado</string>
+    <string name="resource_ringtone_volume_mute">O toque do seu telefone está no modo silencioso</string>
 </resources>
