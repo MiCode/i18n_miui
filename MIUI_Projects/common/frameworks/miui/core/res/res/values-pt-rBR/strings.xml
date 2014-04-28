@@ -8,45 +8,45 @@
 
     <!-- Privacy mode -->
     <string name="global_action_toggle_privacy_mode">Privacidade</string>
-    <string name="global_action_privacy_mode_dialog_message">O registro de chamada e SMS ficarão ocultos no modo de Privacidade. O modo de edição do Launcher também será desativado.</string>
+    <string name="global_action_privacy_mode_dialog_message">O registro de chamada e SMS ficarão ocultos no modo de privacidade. O modo de edição da tela inicial também será desativado.</string>
 
     <!-- Displayed on lock screen to hint user to drag lock button down to bottom for unlock-->
     <string name="lockscreen_unlock_sim_via_puk">Insira o PUK para desbloquear o cartão SIM</string>
     <string name="toast_lockscreen_glogin_empty_password">A senha é requerida.</string>
 
     <!-- Displayed miui license-->
-    <string name="safetylegal_activity_unreachable">O telefone não está conectado ao serviço de dados. Para ver estas informações agora, acesse %s em qualquer computador conectado à internet.</string>
+    <string name="safetylegal_activity_unreachable">O telefone não está conectado ao serviço de dados. Verifique estas informações online em %s.</string>
     <string name="miui_copyright_title">Direitos autorais</string>
-    <string name="miui_user_agreement_title">Termo de uso</string>
+    <string name="miui_user_agreement_title">Termos de uso</string>
     <string name="miui_privacy_policy_title">Política de privacidade</string>
-    <string name="miui_mibi_license_title">Termos do uso dos Mi Créditos</string>
+    <string name="miui_mibi_license_title">Termos do uso dos Mi Credits</string>
     <string name="miui_user_manual_title">Manual do usuário</string>
-    <string name="user_agreement1">Você usará os serviços do sistema online fornecidos pela Xiaomi. Por favor leia a</string>
+    <string name="user_agreement1">Ao tocar em OK, você estará concordando com os termos e condições estipulados pela Xiaomi em sua</string>
     <string name="user_agreement2">" Política de privacidade"</string>
-    <string name="user_agreement3">" e "</string>
-    <string name="user_agreement4">"Termos de utilização."</string>
-    <string name="user_agreement5">Toque em OK para concordar com o conteúdo acima. Toque em Cancelar para sair.</string>
+    <string name="user_agreement3">" e nos "</string>
+    <string name="user_agreement4">Termos de utilização</string>
+    <string name="user_agreement5"></string>
 
     <!-- Text for message to user while SD card is not available and the current feature depends on SD card. -->
-    <string name="sd_not_available">O cartão SD não está disponível, insira-o</string>
-    <string name="sd_not_available_use_internal_storage">Cartão SD indisponível, use armazenamento interno</string>
+    <string name="sd_not_available">Cartão SD não encontrado</string>
+    <string name="sd_not_available_use_internal_storage">Cartão SD indisponível, salvando no armazenamento interno</string>
     <string name="sd_not_available_low_internal_storage">Cartão SD indisponível e não existe um armazenamento interno</string>
     <string name="sd_not_available_saved_to_internal_storage">Arquivo salvo no armazenamento interno</string>
 
     <!-- When the user long presses the BACK key, the foreground app will be killed. This is the message to be showed to user.  -->
-    <string name="first_back_long_press_message">"Você deseja ativar a opção de finalizar aplicativos em execução ao pressionar longamente a tecla voltar?\n\nPara ativar esta função vá em Configurações &gt; Sistema &gt; Botões</string>
-    <string name="force_exit_message">\"%1$s\" terminado com sucesso</string>
+    <string name="first_back_long_press_message">Ao segurar o botão \"Voltar\" o aplicativo atual será finalizado imediatamente. \n\nPara ativar esta função, vá em Configurações &gt; Sistema &gt; Botões</string>
+    <string name="force_exit_message">\"%1$s\" finalizado.</string>
 
     <string name="unknown">Desconhecido</string>
     <string name="private_num">Número privado</string>
     <string name="payphone">Telefone público</string>
     <!-- A nicely formatted call ring duration displayed when viewing no-answer-call details. For example "响铃次数: 1 次" -->
-    <string name="callNoAnswerTimeFormat">%s toque(s)</string>
+    <string name="callNoAnswerTimeFormat">Tocou %s vezes</string>
 
     <!-- Lunar Date -->
     <!-- 不翻译农历 -->
-    <string name="solar_calendar">Calendário gregoriano</string>
-    <string name="lunar_calendar">Calendário lunar</string>
+    <string name="solar_calendar"/>
+    <string name="lunar_calendar"/>
     <string name="lunar_zheng"/>
     <string name="lunar_leap"/>
     <string name="lunar_ling"/>
@@ -81,17 +81,17 @@
 
     <!-- solar holidays -->
     <string name="new_years_day">Ano novo</string>
-    <string name="valentines_day">Dia dos namorados</string>
+    <string name="valentines_day"/>
     <string name="international_womens_day">Dia internacional da mulher</string>
-    <string name="arbor_day">Dia da árvore</string>
+    <string name="arbor_day"/>
     <string name="fools_day">Primeiro de Abril</string>
-    <string name="labour_day">Dia do trabalho</string>
-    <string name="chinese_youth_day">Dia da Juventude</string>
+    <string name="labour_day"/>
+    <string name="chinese_youth_day"/>
     <string name="childrens_day">Dia das Crianças</string>
-    <string name="partys_day">Festival dos fundadores</string>
-    <string name="the_armys_day">Dia do exército</string>
-    <string name="teachers_day">Dia dos professores</string>
-    <string name="national_day">Dia nacional</string>
+    <string name="partys_day"/>
+    <string name="the_armys_day"/>
+    <string name="teachers_day"/>
+    <string name="national_day"/>
     <string name="christmas_day">Natal</string>
 
     <!-- solar holidays special for TW -->
@@ -109,34 +109,34 @@
     <string name="hksar_establishment_day"/>
     <string name="the_first_weekday_after_christmas"/>
     <string name="good_friday"/>
-    <string name="day_following_good_friday" />
+    <string name="day_following_good_friday"/>
     <string name="easter"/>
 
     <!-- solar terms -->
     <string name="slight_cold"/>
     <string name="great_cold"/>
-    <string name="spring_begins">Início da primavera</string>
+    <string name="spring_begins"/>
     <string name="the_rains"/>
     <string name="insects_awaken"/>
-    <string name="vernal_equinox">Equinócio de inverno</string>
+    <string name="vernal_equinox"/>
     <string name="clear_and_bright"/>
     <string name="grain_rain"/>
-    <string name="summer_begins">Início do verão</string>
+    <string name="summer_begins"/>
     <string name="grain_buds"/>
     <string name="grain_in_ear"/>
-    <string name="summer_solstice">Solstício de verão</string>
+    <string name="summer_solstice"/>
     <string name="slight_heat"/>
     <string name="great_heat"/>
-    <string name="autumn_begins">Início do outono</string>
+    <string name="autumn_begins"/>
     <string name="stopping_the_heat"/>
     <string name="white_dews"/>
-    <string name="autumn_equinox">Equinócio de outono</string>
+    <string name="autumn_equinox"/>
     <string name="cold_dews"/>
     <string name="hoar_frost_falls"/>
-    <string name="winter_begins">Início do inverno</string>
+    <string name="winter_begins"/>
     <string name="light_snow"/>
     <string name="heavy_snow"/>
-    <string name="winter_solstice">Solstício de inverno</string>
+    <string name="winter_solstice"/>
 
     <!--  = START: Countries, used by PhoneNumber for telocation -->
     <string name="country_name_bs">BS</string>
@@ -440,13 +440,13 @@
 
      <!-- EditableListView -->
     <string name="delete">Apagar</string>
-    <string name="select_all">Selecionar tudo</string>
+    <string name="select_all">Selec. tudo</string>
     <string name="reverse_all">Excluir tudo</string>
-    <string name="multi_select_title">Selecionado(s) %1$s item(ns)</string>
+    <string name="multi_select_title"><xliff:g id="number" example="15">%1$s</xliff:g> selecionado(s)</string>
 
     <string name="sim_account_name">SIM</string>
 
-    <!-- added for global date -->
+<!-- added for global date -->
     <string name="month_of_january">Jan</string>
     <string name="month_of_february">Fev</string>
     <string name="month_of_march">Mar</string>
@@ -554,7 +554,7 @@
 
     <!-- DATA_UPDATE permission -->
     <string name="perm_data_update_lab">Atualização de dados</string>
-    <string name="perm_data_update_dspt">Permita o envio da marca dágua de atualização</string>
+    <string name="perm_data_update_dspt">Permita o envio da marca d\'água de atualização</string>
 
     <!-- text for MiCloud sync service -->
     <string name="sync_one_time_sync">Toque para sincronizar (
@@ -562,52 +562,52 @@
             %1$s
         </xliff:g>)
     </string>
-    <string name="no_sim">Nenhum Cartão SIM, serviço indisponível</string>
+    <string name="no_sim">Nenhum Cartão SIM detectado</string>
     <string name="activating">Ativando\u2026</string>
 
     <!-- text for unlock screen -->
-    <string name="android_lockscreen_glogin_instructions">Para desbloquear, efetue o login em sua conta</string>
-    <string name="find_device_sim_change_instructions">"Seu telefone foi bloqueado\Por favor insira o cartão SIM ou entre com a senha de sua Conta Xiaomi"</string>
-    <string name="find_device_sim_change_instructions_no_network">Seu telefone foi bloqueado.\nPara desbloqueá-lo, insira seu cartão SIM.</string>
-    <string name="find_device_turn_off_flight_mode_instructions">Seu telefone foi bloqueado.\nPara desbloqueá-lo, desative o modo avião.</string>
-    <string name="find_device_turn_off_flight_mode">Desabilitar modo avião</string>
+    <string name="android_lockscreen_glogin_instructions">Para desbloquear, efetue o login em sua Conta Xiaomi./string>
+    <string name="find_device_sim_change_instructions">Seu telefone foi bloqueado\nPor favor insira o cartão SIM ou entre com a senha de sua conta Xiaomi.</string>
+    <string name="find_device_sim_change_instructions_no_network">"Seu telefone foi bloqueado.\nPara desbloqueá-lo, insira o seu cartão SIM.</string>
+    <string name="find_device_turn_off_flight_mode_instructions">"Seu telefone foi bloqueado.\nPara desbloqueá-lo, saia do modo avião.</string>
+    <string name="find_device_turn_off_flight_mode">Sair do modo avião</string>
     <string name="find_device_check_sim">Verificando cartão SIM\u2026</string>
 
-    <string name="check_phone_error_title">Falha ao ativar sincronização</string>
+    <string name="check_phone_error_title">A sincronização não está ativa</string>
     <string name="check_phone_io_error">Erro de rede</string>
-    <string name="send_sms_for_sync_title">Serviço de sincronização desativado</string>
-    <string name="send_sms_for_sync_notice">Um SMS de ativação será enviado, continuar?</string>
+    <string name="send_sms_for_sync_title">A sincronização não está ativa</string>
+    <string name="send_sms_for_sync_notice">Um SMS será enviado para ativar a sincronização. Este SMS poderá ser cobrado por sua operadora.</string>
     <string name="activate">Ativar</string>
-    <string name="activate_fail_notification_title">Reativar serviço de sincronização Xiaomi</string>
-    <string name="sim_changed_reactivate_notice">O cartão SIM atual está desativado. Uma mensagem SMS é requerida para reativar o serviço. continuar?</string>
-    <string name="sim_changed_reactivate_int_notice">O cartão SIM atual está desativado. Uma mensagem de texto internacional é requerida para ativar o serviço, deseja ativar agora?</string>
+    <string name="activate_fail_notification_title">Reativar sincronização</string>
+    <string name="sim_changed_reactivate_notice">O cartão SIM atual está inativo. Uma mensagem SMS é requerida para reativar o serviço. Este SMS poderá ser cobrado por sua operadora.</string>
+    <string name="sim_changed_reactivate_int_notice">O cartão SIM atual está inativo. Uma mensagem SMS é requerida para ativar o serviço. Este SMS poderá ser cobrado por sua operadora.</string>
 
     <!-- 同步错误信息 -->
     <string name="error_title">Erro na sincronização</string>
-    <string name="error_unauthorized">Muitas falhas na autenticação. Sincronização desativada.</string>
-    <string name="error_forbidden">Sua conta está enfrentando problemas. Sincronização desativada.</string>
-    <string name="error_not_acceptable">Problema nos servidores. Sincronização desativada.</string>
+    <string name="error_unauthorized">A sincronização foi desativada devido a tentativas repetidas de autenticação.</string>
+    <string name="error_forbidden">Existe algum problema com a sua conta.</string>
+    <string name="error_not_acceptable">Erro interno do servidor.</string>
 
     <string name="screen_on_proximity_sensor_title">Prevenção de má operação</string>
-    <string name="screen_on_proximity_sensor_summary">"Não cubra a parte superior do telefone"</string>
-    <string name="screen_on_proximity_sensor_hint">"Está aqui por engano? Pressione os botões \'Voltar\' + \'Aumentar Volume\'"</string>
+    <string name="screen_on_proximity_sensor_summary">Não cubra a parte superior da tela</string>
+    <string name="screen_on_proximity_sensor_hint">Para desativar este recurso, pressione os botões \"Voltar\" e \"Aumentar volume\" simultaneamente.</string>
 
-    <string name="wake_alarm_message">Manter alarme de %s ativo.</string>
+    <string name="wake_alarm_message">Manter alarme de %s ativado.</string>
     <string name="deprecated_alarm_message_12_hour_formate"></string>
 
     <string name="permlab_accessNote">Acessar suas anotações</string>
-    <string name="permdesc_accessNote">Aplicativos maliciosos podem utilizar esta permissão para 
-      apagar suas anotações ou enviá-las para terceiros.</string>
+    <string name="permdesc_accessNote">Permite que o aplicativo leia e modifique anotações armazenadas em seu telefone. Aplicativos maliciosos podem utilizar esta permissão para apagar suas anotações ou enviá-las para terceiros.</string>
+      can use this to access your personal info.</string>
 
     <!-- memory clear tips -->
-    <string name="memory_clear_result">"Memória liberada: %1$s \nMemória disponível: %2$s"</string>
-    <string name="memory_clear_nothing_result">Não há memória disponível para ser liberada atualmente</string>
+    <string name="memory_clear_result">Memória liberada: %1$s\nMemória disponível: %2$s</string>
+    <string name="memory_clear_nothing_result">A memória já está otimizada</string>
 
     <!-- Overflow of menu -->
     <string name="v5_icon_menu_bar_more_item_label">Mais</string>
 
-    <string name="screen_button_notification_title">Botões inferiores desabilitados</string>
-    <string name="screen_button_notification_text">"Pressione 'Home'+'Power' para reativar"</string>
+    <string name="screen_button_notification_title">Botões de navegação desativados</string>
+    <string name="screen_button_notification_text">Para reativá-los, pressione \'Home\' + \'Power\' simultaneamente.</string>
 
     <string name="volume_icon_description_bluetooth">Bluetooth</string>
     <string name="volume_icon_description_ringer">Toque</string>
@@ -629,26 +629,26 @@
         <item quantity="one">"%1$d selecionado"</item>
         <item quantity="other">"%1$d selecionados"</item>
     </plurals>
-    <string name="v5_select_all">Marcar todos</string>
-    <string name="v5_deselect_all">Desmarcar tudo</string>
-    <string name="v5_edit_mode_title_empty">Marcar Itens</string>
+    <string name="v5_select_all">Selec. tudo</string>
+    <string name="v5_deselect_all">Desfaz. sel.</string>
+    <string name="v5_edit_mode_title_empty">Marcar itens</string>
 
     <!-- experimental version  -->
     <string name="experimental_validate_thanks">Obrigado!</string>
-    <string name="experimental_validate_warning">A sua curiosidade e empenho ajudam a MIUI tornar-se melhor todos os dias!</string>
+    <string name="experimental_validate_warning">Obrigado por ajudar a fazer a MIUI melhor!</string>
     <string name="experimental_validate">Validar</string>
-    <string name="experimental_validate_username">ID Xiaomi</string>
+    <string name="experimental_validate_username">Usuário</string>
     <string name="experimental_validate_password">Senha</string>
-    <string name="experimental_validate_progress">Validando\u2026</string>
-    <string name="experimental_validate_fail">Falha na validação, tente novamente</string>
+    <string name="experimental_validate_progress">Fazendo login\u2026</string>
+    <string name="experimental_validate_fail">Falha no login</string>
 
-    <string name="unknown_caller">Número privado</string>
+    <string name="unknown_caller">Número desconhecido</string>
     <string name="call_record_or">ou</string>
     <string name="call_record_sample_prefix_miui">Gravação</string>
     <string name="fm_record_smaple_prefix_miui">Gravação FM</string>
     <string name="speaker">Speaker</string>
 
-    <string name="alwaysUsePrompt">Definir Padrão (nenhum prompt será exibido na próxima vez)</string>
+    <string name="alwaysUsePrompt">Lembrar minha escolha</string>
 
     <string name="lockscreen_access_pattern_start">Padrão iniciado</string>
     <string name="lockscreen_access_pattern_cleared">Padrão limpo</string>
@@ -748,14 +748,14 @@
     <string name="provider_114">Fornecido por 114</string>
 
     <!-- device name -->
-    <string name="device_xiaomi">Telefone Xiaomi</string>
+    <string name="device_xiaomi">Xiaomi</string>
     <string name="miui_device_name" translated="false">Android</string>
-    <string name="device_hongmi">Telefone Redmi</string>
+    <string name="device_hongmi">Redmi</string>
 
     <string name="sim_unavailable">Cartão SIM indisponível</string>
     <string name="sim_locked">Cartão SIM bloqueado</string>
     <string name="sim_not_ready">Cartão SIM em uso. Tente novamente mais tarde.</string>
-    <string name="sim_in_airplane_mode">Por favor saia do modo avião.</string>
+    <string name="sim_in_airplane_mode">Por favor saia do modo avião</string>
 
     <string name="days">dias</string>
     <string name="hours">%d horas</string>
@@ -764,29 +764,29 @@
     <string name="shutdown_confirm_title">Seu telefone será desligado.</string>
     <string name="reboot_confirm_title">Seu telefone será reiniciado.</string>
 
-    <string name="err_resource_leak">Infelizmente, o app <xliff:g id="application">%1$s</xliff:g> foi interrompido</string>
+    <string name="err_resource_leak">Infelizmente, o aplicativo <xliff:g id="application">%1$s</xliff:g> foi interrompido</string>
     <string name="app_notificaiton_on_statusBar_and_notificationBar">Barra de status e notificações</string>
-    <string name="app_no_notification">nada</string>
+    <string name="app_no_notification">Ocultar notificações</string>
     <string name="app_notificaiton_on_notificationBar">Barra de notificações</string>
 
     <string name="volume_ring_description">Toques &amp; Notificações</string>
-    <string name="login_website_in_case_forget_password">Visite i.xiaomi.com para resetar sua senha.</string>
+    <string name="login_website_in_case_forget_password">Visite i.xiaomi.com para redefinir sua senha.</string>
 
     <!-- Notifcations displayed in yellow page -->
     <string name="yellow_page_unable_send_sms">Impossível enviar SMS</string>
-    <string name="yellow_page_module_sms_sent">SMS enviado.</string>
+    <string name="yellow_page_module_sms_sent">SMS enviado</string>
     <string name="yellow_page_sms_send_failed">Falha ao enviar SMS</string>
     <string name="yellow_page_sms_sending">Enviando\u2026</string>
-    <string name="yellow_page_sms_disabled_in_privacy_mode">Impossível enviar SMS no modo de Privacidade</string>
+    <string name="yellow_page_sms_disabled_in_privacy_mode">Impossível enviar SMS no modo de privacidade</string>
 
     <!-- Grant_permissions for account-->
-    <string name="grant_permissions_apps">Permitir acesso a apps</string>
-    <string name="grant_permissions_account">Permitir acesso a conta</string>
+    <string name="grant_permissions_apps">Permissão de acesso a aplicativos</string>
+    <string name="grant_permissions_account">Permissão de acesso a conta</string>
 
     <!-- Displayed to the user to confirm that they have copied text to the clipboard. -->
-    <string name="text_copied">Texto copiado para a área de transferência.</string>
+    <string name="text_copied">Texto copiado</string>
     <!-- Displayed to the user to confirm that they have cut text to the clipboard. -->
     <string name="text_cut">Texto recortado</string>
 
-    <string name="open_wifi_settings">Rede aberta</string>
+    <string name="open_wifi_settings">Abrir configurações de rede</string>
 </resources>
