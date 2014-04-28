@@ -674,7 +674,7 @@
     <string name="unpublish_failed">Falha ao remover</string>
     <string name="send_public_url">Enviar URL do álbum</string>
     <string name="public_url_descript">Qualquer pessoa pode visitar seu álbum utilizando esta URL</string>
-    <string name="share_public_url_text">Eu compartilhei o álbum <xliff:g id="ALBUM_NAME"> com você. Acesse-o em <xliff:g id="URL">%2$s</xliff:g></string>
+    <string name="share_public_url_text">Eu compartilhei o álbum <xliff:g id="ALBUM_NAME">%1$s</xliff:g> com você. Acesse-o em <xliff:g id="URL">%2$s</xliff:g></string>
     <string name="unpublishing">Cancelando\u2026</string>
     <string name="operation_too_often">Sua operação excede o limite de envios para o momento. Tente novamente após 1 minuto.</string>
     <string name="cannot_remove_creator">Impossível excluir criador do álbum</string>

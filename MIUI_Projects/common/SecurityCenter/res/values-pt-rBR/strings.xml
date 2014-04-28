@@ -173,7 +173,7 @@
     <!-- notification -->
     <string name="fw_on">Lista de bloqueio ativada</string>
     <string name="fw_blocked">Registro de bloqueio</string>
-    <string name="fw_blocked_count">Interceptado: <xliff:g id="opt">%d</xliff:g> chamadas e <xliff:g id="opt">%d</xliff> mensagens</string>
+    <string name="fw_blocked_count">Interceptado: <xliff:g id="opt">%d</xliff:g> chamadas e <xliff:g id="opt">%d</xliff:g> mensagens</string>
     <string name="firewall_settings">Configurações da lista de bloqueio</string>
     <string name="remove">Excluir</string>
     <string name="emptylist_fwlog_call">Lista de chamadas bloqueadas vazia</string>
@@ -207,7 +207,7 @@
     <string name="remove_keyword">Excluir esta palavra-chave?</string>
     <string name="remove_all_keywords">Excluir todas as palavras-chave?</string>
     <string name="remove_delete">Excluir</string>
-
+ 
     <!-- Added from V5 -->
     <!-- Tab -->
     <string name="blacklist_tab_title">Lista de bloqueio</string>

@@ -1515,7 +1515,7 @@ Initiates a contact import dialog [CHAR LIMIT=128] -->
     <string name="delete_group_dialog_title">Excluir grupo</string>
 <!-- Confirmation message of the dialog that allows deletion of a contact group  [CHAR LIMIT=256] -->
     <string name="delete_group_dialog_message">Excluir o grupo 
-      \"<xliff:g id="group_label" example="Friends">%1$s</xliff:g>\"? Os contatos não serão apagados.</string>
+      \"<xliff:g id="group_label" example="Friends">%1$s</xliff:g>\"? Os contatos não serão apagados.
     </string>
 
     <!-- Subtitle of the group detail page that describes how many people are in the current group [CHAR LIMIT=30] -->

@@ -21,7 +21,7 @@
     <string name="button_recharge_pay">Confirmar</string>
     <string name="button_recharge">Recarregar</string>
     <string name="balance_payment"><xliff:g id="value">%1$s</xliff:g> Mi Credits</string>
-    <string name="balance_giftcard_payment"><xliff:g id="value">%1$s</xliff:g> Mi Credits (xliff:g id="gift">%2$s</xliff:g>-Vale-Presente Mi Credit)</string>
+    <string name="balance_giftcard_payment"><xliff:g id="value">%1$s</xliff:g> Mi Credits (<xliff:g id="gift">%2$s</xliff:g>-Vale-Presente Mi Credit)</string>
     <string name="balance_no_giftcard_payment"><xliff:g id="value">%1$s</xliff:g> Mi Credits (impossível utilizar vale-presente para esta compra)</string>
 
     <string name="balance">Balanço: <xliff:g id="value">%1$s</xliff:g> Mi Credits</string>
@@ -260,7 +260,7 @@
     <string name="lockpattern_too_many_failed_confirmation_attempts_header">&lt;font color=red&gt;Muitas tentativas incorretas!&lt;/font&gt;</string>
     <string name="lockpattern_need_to_unlock_footer" />
     <string name="lockpattern_too_many_failed_confirmation_attempts_footer">Tente novamente em <xliff:g id="number">%d</xliff:g> segundos.</string>
-    <string name="title_myaccount">Minha conta: <xliff:g id="account">%s</xliff:g</string>
+    <string name="title_myaccount">Minha conta: <xliff:g id="account">%s</xliff:g></string>
     <string name="title_gesture">Padrão de desbloqueio</string>
     <string name="title_lockpattern">Padrão de desbloqueio requerido</string>
     <string name="title_visible_pattern">Tornar padrão visível</string>

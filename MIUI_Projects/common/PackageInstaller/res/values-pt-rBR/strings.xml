@@ -35,7 +35,7 @@
         conflitante já está instalado.</string>
     <!-- Reason displayed when installation fails because the package specifies a minimum compatible
         OS version that is newer than our current OS version. [CHAR LIMIT=100] -->
-    <string name="install_failed_older_sdk">O pacote funciona somente em versões mais recentes do Android.</string>
+    <string name="install_failed_older_sdk">O pacote funciona somente em versões mais recentes do Android.
         Android.</string>
     <!-- Reason displayed when installation fails because the package specifies it is compatible
         only with a CPU that the current tablet doesn't have. [CHAR LIMIT=100] -->
