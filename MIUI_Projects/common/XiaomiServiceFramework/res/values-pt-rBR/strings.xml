@@ -7,7 +7,7 @@
     <string name="account">Conta</string>
     <string name="account_hint_text">E-mail ou número de telefone</string>
     <string name="login">Login</string>
-    <string name="next">Próximo</string>
+    <string name="next">Avançar</string>
     <string name="prev">Voltar</string>
     <string name="forget_password"><u>Esqueci a senha</u></string>
     <string name="password">Senha</string>
@@ -30,7 +30,7 @@
     <string name="micloud_input_password_prompt">Digite sua senha</string>
     <string name="micloud_password_confirm_hint">Confirmar senha</string>
     <string name="micloud_password_req_notice">
-        8~16 caracteres alfanuméricos, sensível a maiúsculas
+        8~16 caracteres, contendo letras e números
     </string>
     <string name="micloud_password_error_inconsistent">As senhas não conferem</string>
     <string name="micloud_active_alert_title">Enviar mensagem de texto</string>
@@ -41,14 +41,14 @@
     <string name="micloud_activing_account">Ativando conta\u2026</string>
     <string name="micloud_activing_account_delayed">Quase lá\u2026</string>
     <string name="micloud_activing_account_failed">Falha ao ativar sua Conta Xiaomi</string>
-    <string name="micloud_activating_account_notify_title">Ativando conta Xiaomi\u2026</string>
+    <string name="micloud_activating_account_notify_title">Ativando Conta Xiaomi\u2026</string>
     <string name="micloud_activate_account_success_notify_title">Conta Xiaomi ativada</string>
-    <string name="micloud_activate_account_fail_notify_title">Falha ao ativar conta Xiaomi</string>
-    <string name="micloud_activating_account_notify_info">Ativando sua onta Xiaomi</string>
+    <string name="micloud_activate_account_fail_notify_title">Falha ao ativar Conta Xiaomi</string>
+    <string name="micloud_activating_account_notify_info">Ativando sua Conta Xiaomi</string>
     <string name="micloud_activate_back_btn">Cancelar</string>
     <string name="micloud_activate_retry_btn">Repetir</string>
     <string name="micloud_account_not_actived">A sua conta não foi ativada</string>
-    <string name="micloud_active_email_visit">Verifique sua caixa de entrada em 
+    <string name="micloud_active_email_visit">Verifique suas mensagens em 
         <xliff:g id="email">%s</xliff:g>
     </string>
     <string name="micloud_click_email_to_valid">\n\nPara ativar sua conta,\n acesse o link de ativação enviado para seu e-mail.</string>
@@ -139,7 +139,7 @@
     <string name="find_device_notice_p3">para localizar, bloquear ou apagar seu telefone remotamente.</string>
     <string name="i_know">OK</string>
     <string name="find_device_disabled_title">Função Encontrar Telefone desativada</string>
-    <string name="find_device_disabled_notice">"Você pode reativá-la em Configurações -> Contas &amp; sincronização -> Conta Xiaomi"</string>
+    <string name="find_device_disabled_notice">"Você pode reativá-la em Configurações -> Sincronização -> Conta Xiaomi"</string>
 
     <string name="activate_phone_send_sms_fail">Falha ao enviar SMS de ativação</string>
     <string name="activate_phone_server_error">Erro de servidor</string>
@@ -147,11 +147,11 @@
     <string name="activate_phone_send_sms_failed_notif">Falha ao enviar SMS de ativação</string>
     <string name="activate_phone_server_error_notif">Erro de servidor</string>
 
-    <string name="user_agreement_p1">Ao se registrar, você está concordando com os\n &#160;</string>
+    <string name="user_agreement_p1">"Ao se registrar, você está aceitando os \n"</string>
     <string name="user_agreement_p2">Termos de Serviço da Xiaomi</string>
-    <string name="user_agreement_p3">&#160; e a &#160;</string>
+    <string name="user_agreement_p3">" e a "</string>
     <string name="user_agreement_p4">Política de privacidade</string>
-    <string name="user_agreement_p5">Criando uma conta, você está concordando com os\n the&#160;</string>
+    <string name="user_agreement_p5">"Ao se registrar, você está aceitando o \n"</string>
     <string name="skip_setup_account_title">Pular configuração</string>
     <string name="skip_setup_account_msg">Você poderá configurar sua conta mais tarde nas Configurações.</string>
     <string name="account_dspt">Sincronize e armazene na nuvem seus contatos, mensagens, fotos e anotações.</string>
@@ -187,16 +187,16 @@
     <string name="micloud_summary">Conecte-se com sua Conta Xiaomi para sincronizar contatos, álbuns de fotos, entre outros.</string>
     <string name="micloud_is_what">O que é Mi Cloud?</string>
     <string name="available_functionality">Funções disponíveis</string>
-    <string name="internet_message">Mensagens na nuvem</string>
+    <string name="internet_message">Cloud Messaging</string>
     <string name="micloud_more">Saiba mais</string>
     <string name="internet_comm">Serviços de mensagem</string>
-    <string name="cloud_messaging">Mensagens na nuvem</string>
+    <string name="cloud_messaging">Cloud Messaging</string>
     <string name="xiaomi_cloud_service">Mi Cloud</string>
     <string name="current_account">Conta atual</string>
     <string name="my_xiaomi_account">Conta Xiaomi</string>
     <string name="micloud_intro_01_part_01">Economize dados móveis!</string>
     <string name="micloud_intro_01_part_02">Envie mensagens gratuitamente via Wi-Fi</string>
-    <string name="micloud_intro_02_part_01">Pare de usar pendrives e e-mails para armazenar seus arquivos!</string>
+    <string name="micloud_intro_02_part_01">Pare de usar pen-drives e e-mails para armazenar seus arquivos!</string>
     <string name="micloud_intro_02_part_02">Sincronize contatos, mensagens, fotos e muito mais entre dispositivos</string>
     <string name="micloud_intro_03_part_01">Seus dados mais seguros</string>
     <string name="micloud_intro_03_part_02">Gerencie seus backups, localize seu telefone, bloqueie-o ou apague-o remotamente em i.xiaomi.com</string>
@@ -286,7 +286,7 @@
     <string name="micloud_web_discription_02">para armazenar e acessar seus arquivos de qualquer lugar</string>
     <string name="micloud_gallery_image">Imagens</string>
     <string name="micloud_gallery_video">Vídeos</string>
-    <string name="micloud_app_data">Backup de apps</string>
+    <string name="micloud_app_data">Backup de aplicativos</string>
     <string name="micloud_account_details">Detalhes da conta</string>
     <string name="micloud_full_influence_title">Quando sua Mi Cloud está cheia\u2026</string>
     <string name="micloud_warn_full_msg">Você atingiu seu limite de armazenamento!</string>

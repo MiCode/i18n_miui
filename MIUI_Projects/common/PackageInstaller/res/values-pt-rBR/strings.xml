@@ -35,7 +35,7 @@
         conflitante já está instalado.</string>
     <!-- Reason displayed when installation fails because the package specifies a minimum compatible
         OS version that is newer than our current OS version. [CHAR LIMIT=100] -->
-    <string name="install_failed_older_sdk">O pacote funciona somente em versões mais recentes do 
+    <string name="install_failed_older_sdk">O pacote funciona somente em versões mais recentes do Android.</string>
         Android.</string>
     <!-- Reason displayed when installation fails because the package specifies it is compatible
         only with a CPU that the current tablet doesn't have. [CHAR LIMIT=100] -->
@@ -129,17 +129,17 @@ encontrado na lista de aplicativos instalados.</string>
     <string name="other_relative">Outras permissões</string>
 
     <string name="perm_notice">Alerta de segurança</string>
-    <string name="trust_switch_dialog_msg">A MIUI não irá pedir por confirmação de nenhuma operação de segurança ou privacidade relacionados a este App.</string>
-    <string name="auto_startup_dialog_msg">A MIUI irá permitir que este app inicie automaticamente sem a permissão do usuário.</string>
+    <string name="trust_switch_dialog_msg">A MIUI não irá pedir por confirmação de nenhuma operação de segurança ou privacidade relacionados a este Aplicativo.</string>
+    <string name="auto_startup_dialog_msg">A MIUI irá permitir que este aplicativo inicie automaticamente sem a permissão do usuário.</string>
     <string name="low_risk_perms">Permissões de baixo risco</string>
     <string name="high_risk_perms">Permissões de alto risco</string>
     <string name="perm_privacy_app_finish">Finalizar</string>
     <string name="perm_privacy_app_launch">Executar</string>
     <string name="perm_privacy_app_installed">Instalação concluída</string>
     <string name="perm_sysopt_boost_auto_start">Permissão de início automático</string>
-    <string name="perm_sysopt_boost_auto_start_summary">O app iniciará automaticamente</string>
-    <string name="perm_privacy_app_trust">Eu confio neste App</string>
-    <string name="perm_privacy_app_trust_summary">A MIUI irá monitorar este App</string>
+    <string name="perm_sysopt_boost_auto_start_summary">O aplicativo iniciará automaticamente</string>
+    <string name="perm_privacy_app_trust">Confiar no aplicativo</string>
+    <string name="perm_privacy_app_trust_summary">A MIUI irá monitorar este aplicativo</string>
     <string name="perm_action_accept">Permitir</string>
     <string name="perm_action_prompt">Perguntar</string>
     <string name="perm_action_reject">Negar</string>
@@ -147,5 +147,5 @@ encontrado na lista de aplicativos instalados.</string>
     <string name="unknown_installer">Instalador desconhecido</string>
     <!-- Reason displayed when installation fails because the package incompatible
         with MIUI system. -->
-    <string name="install_failed_system_incompatible" product="default">Este app não é compatível com a MIUI</string>
+    <string name="install_failed_system_incompatible" product="default">Este aplicativo não é compatível com a MIUI</string>
 </resources>

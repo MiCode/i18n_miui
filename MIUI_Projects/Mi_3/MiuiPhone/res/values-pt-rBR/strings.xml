@@ -18,11 +18,11 @@
     <string name="areacode_required_miui">Código de área requerido</string>
     <string name="areacode_required_accept_miui">OK</string>
     <string name="auto_answer_summary_not_enabled">Desativado</string>
-    <string name="auto_answer_summary_delay">" (atraso: %s segundos)"</string>
-    <string name="auto_answer_delay_entries_delay_10s_miui">10 segundos</string>
-    <string name="auto_answer_delay_entries_delay_3s_miui">3 segundos</string>
-    <string name="auto_answer_delay_entries_delay_5s_miui">5 segundos</string>
-    <string name="auto_answer_delay_entries_immediately_miui">Sem atraso</string>
+    <string name="auto_answer_summary_delay">(atraso:%ss)</string>
+    <string name="auto_answer_delay_entries_delay_10s_miui">10s</string>
+    <string name="auto_answer_delay_entries_delay_3s_miui">3s</string>
+    <string name="auto_answer_delay_entries_delay_5s_miui">5s</string>
+    <string name="auto_answer_delay_entries_immediately_miui">0s</string>
     <string name="auto_answer_delay_title_miui">Atraso de atendimento</string>
     <string name="auto_answer_pref_summary_miui">Atender automaticamente chamadas telefônicas</string>
     <string name="auto_answer_pref_title_miui">Atendimento automático</string>
@@ -140,7 +140,7 @@
     <string name="current_areacode_sum_set_miui">"Código de área da localização atual: "<xliff:g id="areacode_be_set">%s</xliff:g></string>
     <string name="custom_location_location_no_item_miui">"Toque em 'Adicionar' abaixo para personalizar o local"</string>
     <string name="custom_location_location_hint_miui">Nome</string>
-    <string name="custom_location_number_hint_miui">Código de area como 032, número de grupo como 32#####</string>
+    <string name="custom_location_number_hint_miui">Código de área como 032, número de grupo como 32#####</string>
     <string name="cw_title_miui">Chamada em espera</string>
     <string name="dial_related_setting_catory_miui">Discar</string>
     <string name="default_contacts_countrycode_hint_miui">Por exemplo: 55</string>
@@ -178,13 +178,13 @@
     <string name="fdn_enable_puk2_requested_miui">PIN2 bloqueado! Por favor altere o PIN2 e tente novamente!</string>
     <string name="fdn_miui">Discagem Fixa (FDN)</string>
     <string name="fdn_miui">Discagem Fixa (FDN)</string>
-    <string name="fdn_summary_miui">Restringir chamnadas efetuadas para a lista FDN, ou para números de certos DDDs</string>
+    <string name="fdn_summary_miui">Restringir chamadas efetuadas para a lista FDN, ou para números de certos DDDs</string>
     <string name="get_smsc_address_error_miui">Falha ao obter o número do centro de mensagens, tente novamente mais tarde.</string>
     <string name="get_smsc_address_timeout_miui">Tempo esgotado ao obter o número do centro de mensagens, tente novamente mais tarde.</string>
     <string name="go_private_miui">modo privado</string>
     <string name="hac_mode_summary_miui">Ativar compatibilidade com aparelhos auditivos</string>
     <string name="hac_mode_title_miui">Aparelhos auditivos</string>
-    <string name="handon_ringer_summary_miui">Silencia tons de toque quando pega-se o telefone. Sem efeito quando a vibração para chamadas recebidas estiver ativa</string>
+    <string name="handon_ringer_summary_miui">Silencia toques to telefone quando pega-se o telefone. Sem efeito quando a vibração para chamadas recebidas estiver ativa</string>
     <string name="handon_ringer_title_miui">Silenciar ao pegar telefone</string>
     <string name="hangup_sms_miui">Rejeitar com SMS</string>
     <string name="ignore_miui">Ignorar</string>
@@ -195,7 +195,7 @@
     <string name="delete_sim_entries_finish">Exclusão de contatos do SIM concluída</string>
     <string name="import_sim_entry_miui">Importar</string>
     <string name="incall_screen_background_title_miui">Fundo da tela de chamadas</string>
-    <string name="incall_screen_background_summary_miui">"Utilizar wallpaper quando não houver avatar"</string>
+    <string name="incall_screen_background_summary_miui">"Utilizar plano de fundo quando não houver foto no contato"</string>
     <string name="invalid_new_pin2_miui">PIN2 inválido, insira um PIN2 que tenha de 4 a 8 números.</string>
     <string name="invalid_new_pin_miui">PIN inválido, insira um PIN que tenha de 4 a 8 números.</string>
     <string name="invalid_pin2_miui">PIN2 inválido, insira um PIN2 que tenha de 4 a 8 números.</string>
@@ -211,8 +211,8 @@
     <string name="manage_fdn_list_miui">Lista FDN</string>
     <string name="manage_fdn_list_sum_miui">Gerenciar lista de números</string>
     <string name="menu_select_title">%d selecionado(s)</string>
-    <string name="menu_select_all">Selecionar tudo</string>
-    <string name="menu_deselect_all">Desfazer selec.</string>
+    <string name="menu_select_all">Selec. tudo</string>
+    <string name="menu_deselect_all">Desfaz. sel.</string>
     <string name="mismatch_pin2_miui">O PIN2 que você inseriu não confere. Tente novamente.</string>
     <string name="mismatch_pin_miui">O PIN que você inseriu não confere. Tente novamente.</string>
     <string name="mobile_networks_miui">Redes móveis</string>
@@ -251,17 +251,17 @@
     <string name="pin2_changed_miui">PIN2 alterado com sucesso</string>
     <string name="pin2_invalid_or_name_is_too_long">A lista FDN não foi atualizada: PIN digitado incorreto ou muito grande.</string>
     <string name="pin2_locked_message_miui">PIN2 incorreto, e as funções relacionadas ao PIN2 estão bloqueadas. Por favor altere seu PIN2 utilizando seu código PUK2.</string>
-    <string name="pin2_lock_warning_miui">\nFunções relacionadas ao PIN2 serão bloqueadas após outra tentativa incorreta</string>
+    <string name="pin2_lock_warning_miui">\nAs funções relacionadas ao PIN2 serão bloqueadas após mais uma tentativa incorreta</string>
     <string name="pin_attempts_miui">Você tem %d tentativas restantes</string>
     <string name="pin_changed_miui">PIN do SIM alterado com sucesso</string>
-    <string name="pin_lock_warning_miui">\nSeu telefone será bloqueado automaticamente após outra tentativa incorreta</string>
+    <string name="pin_lock_warning_miui">\nSeu telefone será bloqueado caso insira uma senha incorreta novamente</string>
     <string name="pin_progress_change_pin2_miui">Alterando PIN2\u2026</string>
     <string name="pin_progress_change_pin_miui">Alterando PIN\u2026</string>
     <string name="pin_progress_set_fdn_lock_miui">Definindo estado de FDN\u2026</string>
     <string name="pin_progress_set_icc_lock_miui">Definindo estado de ICC\u2026</string>
     <string name="pin_progress_unlock_icc_miui">Desbloqueando cartão SIM\u2026</string>
-    <string name="pref_custom_location_summary_miui">Customizar atribuições regionais e de número</string>
-    <string name="pref_custom_location_title_miui">Customizar atribuições</string>
+    <string name="pref_custom_location_summary_miui">Personalizar configurações regionais e de número</string>
+    <string name="pref_custom_location_title_miui">Personalizar configurações</string>
     <string name="preferred_network_type_pref_entries_3g_preferred_miui">3G preferencial</string>
     <string name="preferred_network_type_pref_entries_auto_miui">Automático</string>
     <string name="preferred_network_type_pref_entries_only_2g_miui">2G (Economia de energia)</string>
@@ -272,7 +272,7 @@
     <string name="preferred_network_type_gsm_umts_miui" translatable="false">GSM/WCDMA</string>
     <string name="preferred_network_type_td_scdma_miui" translatable="false">GSM/TD-SCDMA</string>
     <string name="preferred_network_type_title_miui">Seleção de tipo de rede</string>
-    <string name="puk_lock_warning_miui">\nSeu cartão SIM será inutilizado na próxima tentativa incorreta.</string>
+    <string name="puk_lock_warning_miui">nSeu cartão SIM será inutilizado caso a senha seja inserida incorretamente novamente</string>
     <string name="remove_miui">Excluir</string>
     <string name="reject_via_sms_miui">Rejeitar com SMS</string>
     <string name="reject_via_sms_summary_miui">Definir SMS a ser enviada durante uma rejeição de chamada</string>
@@ -281,8 +281,8 @@
     <string name="set_smsc_address_error_miui">Falha ao definir o número do centro de mensagens, tente novamente mais tarde.</string>
     <string name="set_smsc_address_timeout_miui">Tempo esgotado ao tentar obter o número do centro de mensagens, tente novamente mais tarde.</string>
     <string name="set_smsc_address_title_miui">Definir centro de mensagens</string>
-    <string name="sim_contact_dropdown_menu_deselect_all_miui">Desfazer</string>
-    <string name="sim_contact_dropdown_menu_select_all_miui">Selecionar tudo</string>
+    <string name="sim_contact_dropdown_menu_deselect_all_miui">Desfaz. sel.</string>
+    <string name="sim_contact_dropdown_menu_select_all_miui">Selec. tudo</string>
     <string name="sim_contact_name_miui">Nome</string>
     <string name="sim_contact_number_miui">Número</string>
     <string name="sim_lock_off_miui">Solicitar PIN para usar telefone</string>
@@ -299,8 +299,8 @@
     <string name="telocation_show_settings_miui">Configuração de exibição</string>
     <string name="telocation_setting_summary_teloc_on">Exibir local</string>
     <string name="telocation_setting_summary_teloc_off">Ocultar local</string>
-    <string name="telocation_setting_summary_countrycode_on">Adic. código de país automat.</string>
-    <string name="telocation_setting_summary_countrycode_off">Não adic. código de país automat.</string>
+    <string name="telocation_setting_summary_countrycode_on">Adicionar código do país automaticamente</string>
+    <string name="telocation_setting_summary_countrycode_off">Não adicionar código do país automaticamente</string>
     <string name="tty_mode_entries_full_miui">TTY Completo</string>
     <string name="tty_mode_entries_hco_miui">TTY HCO</string>
     <string name="tty_mode_entries_off_miui">TTY Desligado</string>
@@ -311,7 +311,7 @@
     <string name="turnover_mute_summary_miui">Vire para silenciar quando o telefone estiver na horizontal</string>
     <string name="voicemail_miui">Correio de voz</string>
     <string name="voicemail_provider_miui">Serviço de correio de voz</string>
-    <string name="voicemail_provider_sum_miui">Escolha serv. de correio de voz</string>
+    <string name="voicemail_provider_sum_miui">Escolher serviço de correio de voz</string>
     <string name="voicemail_settings_for">Configurações para <xliff:g id="provider_name">%s</xliff:g></string>
     <string name="voicemail_settings_miui">Configurações de correio de voz</string>
     <string name="voicemail_settings_number_hint_miui">Número do correio de voz</string>
@@ -351,9 +351,10 @@
     <string name="network_work_query_failed_message_miui">"Falha ao comunicar-se com a rede. Toque em 'cancelar' para selecionar a rede preferida automaticamente ou toque em 'OK' para tentar novamente"</string>
     <string name="sum_select_automatically_option_miui">Selecionar automaticamente a rede preferida %s</string>
     <string name="select_network_automatic_hint_miui">"Falha ao registrar na rede selecionada.\nSelecionando a rede preferencial automaticamente."</string>
-    <string name="next_miui">Próximo</string>
+    <string name="next_miui">Avançar</string>
     <string name="turn_off_miui">Desativar</string>
     <string name="back_miui">Voltar</string>
+    <string name="open_miui">Abrir</string>
 
     <string name="missed_call_notify_times_title_miui">Alertas de chamadas perdidas</string>
     <string name="missed_call_notify_times_summary_miui">Número de vezes que o telefone avisará de um evento perdido. Os alertas possuem intervalo de 5 minutos.</string>
@@ -424,10 +425,11 @@
     <string name="enable_antispam_strange_title">Anti-estranhos</string>
     <string name="enable_antispam_strange_summary">Silenciar a primeira chamada de números desconhecidos</string>
 
-    <string name="phone_info_divider">" ｜ "</string>
+    <string name="phone_info_divider">" | "</string>
     <string name="suspect_info">Sempre verifique a identidade da pessoa com quem você está conversando antes de responder quaisquer perguntas sobre finanças pessoais.</string>
 
     <string name="information">Informação</string>
     <string name="duringcall">Operação não permitida durante uma chamada</string>
     <string name="data_connected_change">Falha ao selecionar outra rede enquanto o serviço de dados estiver em uso. Desativar serviço atual e selecionar nova rede?</string>
+    <string name="callwait_open_hint">\"Chamada em espera\" é um serviço prestado por sua operadora. Se você receber um  erro de \"Código MMI inválido\", entre em contato com sua operadora local para ativar o serviço de chamada em espera.</string>
 </resources>

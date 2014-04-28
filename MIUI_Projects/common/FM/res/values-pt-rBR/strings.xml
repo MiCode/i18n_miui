@@ -65,9 +65,9 @@
     <string name="station_move">Mover</string>
     <string name="station_edit">Editar</string>
     <!-- alert to the user that USB storage must be available before using FM recording  [CHAR LIMIT=NONE] -->
-   <string name="no_storage">Insira um cartão SD antes de iniciar uma gravação.</string>
+    <string name="no_storage">Monte o cartão SD antes de iniciar uma gravação.</string>
    <!-- alert to the user that the USB storage is being disk-checked [CHAR LIMIT=30] -->
-   <string name="preparing_sd">Preparando cartão SD\u2026</string>
+    <string name="preparing_sd">Preparando cartão SD</string>
    <!-- alert to the user that the FM fails to read or write the USB storage. [CHAR LIMIT=NONE] -->
    <string name="access_sd_fail">Impossível acessar cartão SD.</string>
    <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
@@ -108,11 +108,11 @@
     <!-- the name under which recordings will be visible in the media database is formatted like this -->
     <string name="audio_db_title_format"><xliff:g id="format">dd-MM-yyyy HH:mm:ss</xliff:g></string>
     <!-- all recordings will show up in the media database with this 'artist' name -->
-    <string name="audio_db_artist_name">"Gravações de FM "</string>
+    <string name="audio_db_artist_name">Minhas Gravações de FM</string>
     <!-- all recordings will show up in the media database with this 'album' name -->
-    <string name="audio_db_album_name">"Gravações de FM "</string>
+    <string name="audio_db_album_name">Gravações de FM</string>
     <!-- all recordings will show up in the media database in a playlist with this name -->
-    <string name="audio_db_playlist_name">"Gravações de FM "</string>
+    <string name="audio_db_playlist_name">Gravações de FM</string>
     <string name="test_prompt">Escolha um teste</string>
     <string name="test_run">Executar</string>
     <string name="set_rmmsi_delta">Configurar Delta RMSSI</string>
@@ -141,7 +141,7 @@
     <string name="msg_noantenna_message">Fones de ouvido desconectados. Algumas funções podem não estar disponíveis.</string>
     <string name="msg_do_not_support_fm">Este dispositivo não possui suporte ao rádio FM.</string>
     <string name="exit_fm">Sair</string>
-    <string name="toast_sleep_mode">O rádio irá parar de tocar em %s</string>
+    <string name="toast_sleep_mode">Parar FM em %s</string>
     <string name="toast_sleep_mode_exit">Timer cancelado</string>
     <string name="status_recording">Gravando: %s</string>
     <string name="status_recording_time">(Gravando: %s)</string>
@@ -149,13 +149,13 @@
     <string name="record_file_location_format">Gravação salva em %s</string>
     <string name="record_completed">Gravação concluída</string>
     <string name="record_fail">Falha na gravação</string>
-    <string name="record_error_unknown">Gravação interrompida: erro desconhecido</string>
-    <string name="record_error_file_removed">Gravação removida: erro desconhecido</string>
+    <string name="record_error_unknown">Gravação interrompida. Erro desconhecido durante gravação.</string>
+    <string name="record_error_file_removed">Gravação interrompida. Arquivo de gravação excluído.</string>
 
     <string name="turn_on_fm">Ativar Rádio FM</string>
     <string name="turn_off_fm">Desativar Rádio FM</string>
-    <string name="turn_on_speaker_phone">Ativar alto-falantes</string>
-    <string name="turn_off_speaker_phone">Desativar alto-falantes</string>
+    <string name="turn_on_speaker_phone">Ativar alto-falante</string>
+    <string name="turn_off_speaker_phone">Desativar alto-falante</string>
     <string name="view_stations_list">Lista de estações</string>
     <string name="pre_station">Estação anterior</string>
     <string name="next_station">Próxima estação</string>

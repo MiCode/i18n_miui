@@ -15,17 +15,17 @@
     <string name="progress_creating">Recebendo informações de compra…</string>
     <string name="progress_loading">Processando\u2026</string>
     <string name="button_cancel">Cancelar</string>
-    <string name="button_retry">Tentar novamente</string>
+    <string name="button_retry">Repetir</string>
     <string name="button_call">Chamar</string>
     <string name="button_pay">Confirmar</string>
     <string name="button_recharge_pay">Confirmar</string>
     <string name="button_recharge">Recarregar</string>
-    <string name="balance_payment"><xliff:g id="value">%1$s</xliff:g> MiCredits</string>
-    <string name="balance_giftcard_payment"><xliff:g id="value">%1$s</xliff:g> MiCredits (xliff:g id="gift">%2$s</xliff:g>-Vale-Presente MiCredit)</string>
-    <string name="balance_no_giftcard_payment"><xliff:g id="value">%1$s</xliff:g> MiCredits (impossível utilizar vale-presente para esta compra)</string>
+    <string name="balance_payment"><xliff:g id="value">%1$s</xliff:g> Mi Credits</string>
+    <string name="balance_giftcard_payment"><xliff:g id="value">%1$s</xliff:g> Mi Credits (xliff:g id="gift">%2$s</xliff:g>-Vale-Presente Mi Credit)</string>
+    <string name="balance_no_giftcard_payment"><xliff:g id="value">%1$s</xliff:g> Mi Credits (impossível utilizar vale-presente para esta compra)</string>
 
-    <string name="balance">Balanço: <xliff:g id="value">%1$s</xliff:g> MiCredits</string>
-    <string name="giftcard_value">(<xliff:g id="value">%1$s</xliff:g>-vale-presente MiCredit)</string>
+    <string name="balance">Balanço: <xliff:g id="value">%1$s</xliff:g> Mi Credits</string>
+    <string name="giftcard_value">(<xliff:g id="value">%1$s</xliff:g>-vale-presente Mi Credit)</string>
     <string name="frozen">(Congelada)</string>
     <string name="mili_center">MiCredit</string>
     <string name="memu_refresh">Atualizar</string>
@@ -59,7 +59,7 @@
     <string name="error_cert_date_title">Data do certificado incorreta</string>
     <string name="error_cert_date_summary">Data do certificado incorreta. \nPor favor verifique a data do telefone e tente novamente.</string>
 
-    <string name="title_recharge">Recarregar MiCredit</string>
+    <string name="title_recharge">Recarregar Mi Credit</string>
     <string name="recharge_group_favorite">Utilizar método de recarga anterior</string>
     <string name="recharge_group_others">Outros métodos de recarga</string>
     <string name="recharge_prepaid_title">Cartão pré-pago</string>
@@ -80,8 +80,8 @@
     <string name="recharge_other">Visualizar outros métodos</string>
     <string name="btn_recharge_success">Recarga concluída</string>
     <string name="btn_recharge_success_quick">Recarga concluída</string>
-    <string name="btn_prev">Anterior</string>
-    <string name="btn_next">Próximo</string>
+    <string name="btn_prev">Voltar</string>
+    <string name="btn_next">Avançar</string>
 
     <string name="recharge_grid_picker_hint">Selecionar valor</string>
     <string name="recharge_grid_edit_hint">Valor (￥)</string>
@@ -89,7 +89,7 @@
     <string name="recharge_grid_edit_upper_limit">Não deve exceder ￥<xliff:g id="upper">%1$s</xliff:g></string>
     <string name="recharge_grid_error_denomination">Por favor selecione o valor correto entre ￥<xliff:g id="lower">%1$s</xliff:g>~<xliff:g id="uper">%2$s</xliff:g></string>
 
-    <string name="paytool_error_install">Falha ao instalar plugin de segurança móvel <xliff:g id="tool">%1$s</xliff:g></string>
+    <string name="paytool_error_install">Falha ao instalar plugin de segurança móvel <xliff:g id="tool">%1$s</xliff:g>.</string>
     <string name="paytool_error_msp"><xliff:g id="tool">%1$s</xliff:g> falhou</string>
     <string name="paytool_msp_not_installed">Você não instalou o plugin de segurança móvel <xliff:g id="tool">%1$s</xliff:g>, instalar agora?</string>
     <string name="progress_paytool_creating">Gerando compra de <xliff:g id="tool">%1$s</xliff:g>\u2026</string>
@@ -114,12 +114,12 @@
 
     <string name="voucher_input_password_prompt">Inserir código</string>
     <string name="voucher_edit_hint">Código</string>
-    <string name="voucher_edit_limit">digitos</string>
+    <string name="voucher_edit_limit">dígitos</string>
     <string name="voucher_error_password">Código voucher inválido!</string>
-    <string name="progress_voucher_creating">Adicionando MiCredits em sua conta, por favor aguarde\u2026</string>
+    <string name="progress_voucher_creating">Adicionando Mi Credits em sua conta, por favor aguarde\u2026</string>
 
     <string name="msg_picker_hint_1_1">1. </string>
-    <string name="msg_picker_hint_1_2">A recarga via SMS pode ser mais cara: &lt;font color=red&gt;￥<xliff:g id="rmb">%1$d</xliff:g> = <xliff:g id="mibi">%2$d</xliff:g> MiCredit&lt;/font&gt;</string>
+    <string name="msg_picker_hint_1_2">A recarga via SMS pode ser mais cara: &lt;font color=red&gt;￥<xliff:g id="rmb">%1$d</xliff:g> = <xliff:g id="mibi">%2$d</xliff:g> Mi Credit&lt;/font&gt;</string>
     <string name="msg_picker_hint_2_1">2. </string>
     <string name="msg_picker_hint_2_2">Operadoras cobram um valor de ￥<xliff:g id="value">%1$s</xliff:g> para taxa de serviço de recarga</string>
     <string name="msg_denomination_type">MiCredit</string>
@@ -130,7 +130,7 @@
     <string name="msg_send_no_sim_error">Falha ao enviar mensagem: tente reinserir seu cartão SIM.</string>
     <string name="msg_send_no_net_error">Falha ao enviar mensagem: Impossível conectar-se ao provedor de rede.</string>
     <string name="msg_telecom_order_goods_label">Descrição do produto:</string>
-    <string name="msg_telecom_order_goods"><xliff:g id="mibi_num">%1s</xliff:g> MiCredits</string>
+    <string name="msg_telecom_order_goods"><xliff:g id="mibi_num">%1s</xliff:g> Mi Credits</string>
     <string name="msg_telecom_order_denom_label">Valor a pagar: </string>
     <string name="msg_telecom_order_denom">￥<xliff:g id="rmb_num">%1s</xliff:g> (o valor não inclui taxas de tráfego de dados móveis)</string>
     <string name="msg_telecom_sending">Contactando operadora\u2026</string>
@@ -138,7 +138,7 @@
     <string name="btn_wait_confirm">Aguardando</string>
     <string name="btn_wait_confirm_count">Aguardando （<xliff:g id="count">%1$s</xliff:g>）</string>
     <string name="msg_order_hint_1_1">Após você selecionar \"Confirmar compra\", seu telefone irá</string>
-    <string name="msg_order_hint_1_2">Contactar automaticamente sua operadorar.</string>
+    <string name="msg_order_hint_1_2">Sua operadora será contactada automaticamente.</string>
     <string name="msg_progress_hint_2_1">Sua operadora foi contactada!</string>
     <string name="msg_progress_hint_2_2">Você irá receber uma confirmação por SMS em breve.</string>
 
@@ -146,7 +146,7 @@
     <string name="giftcard_denom">MiCredit</string>
     <string name="giftcard_denom_frozen">MiCredit congelado</string>
     <string name="giftcard_hint">MiCredits adicionados com vale-presente serão gastos antes do crédito em conta.</string>
-    <string name="giftcard_acitivity_and_denomination"><xliff:g id="denomination">%2$s</xliff:g>-vale-presente MiCredit de <xliff:g id="activity">%1$s</xliff:g></string>
+    <string name="giftcard_acitivity_and_denomination"><xliff:g id="denomination">%2$s</xliff:g>-vale-presente Mi Credit de <xliff:g id="activity">%1$s</xliff:g></string>
     <string name="giftcard_expire"><xliff:g id="date">%1$s</xliff:g> expirado</string>
     <string name="giftcard_empty">Nenhum vale-presente.</string>
 
@@ -183,33 +183,33 @@
     <string name="bankcall_saved_card_info"><xliff:g id="bank">%1$s</xliff:g> - Cartão No. <xliff:g id="ending">%2$s</xliff:g></string>
 
     <string name="progress_submit_title">Requisição enviada</string>
-    <string name="progress_submit_recharge_summary">Adicionando recarga de <xliff:g id="value">%1$s</xliff:g> MiCredits.</string>
+    <string name="progress_submit_recharge_summary">Adicionando recarga de <xliff:g id="value">%1$s</xliff:g> Mi Credits.</string>
     <string name="progress_submit_hint">A recarga será creditada em sua conta em até 3 minutos.</string>
     <string name="btn_count_down_auto">Consultar após <xliff:g id="count">%1$s</xliff:g> segundos</string>
     <string name="btn_query">Consultar</string>
     <string name="progress_querying">Processando\u2026</string>
-    <string name="progress_success_recharge_title">Recarga de <xliff:g id="value">%1$s</xliff:g> MiCredits concluída</string>
-    <string name="progress_success_pay_title">Pagamento de <xliff:g id="value">%1$s</xliff:g> MiCredits concluído</string>
-    <string name="progress_success_recharge_summary">Balanço da conta: <xliff:g id="balance">%1$s</xliff:g> MiCredits.</string>
-    <string name="progress_success_pay_summary"><xliff:g id="rechargeFee">%1$s</xliff:g> MiCredits adicionados, <xliff:g id="payFee">%2$s</xliff:g> MiCredits pagos</string>
+    <string name="progress_success_recharge_title">Recarga de <xliff:g id="value">%1$s</xliff:g> Mi Credits concluída</string>
+    <string name="progress_success_pay_title">Pagamento de <xliff:g id="value">%1$s</xliff:g> Mi Credits concluído</string>
+    <string name="progress_success_recharge_summary">Balanço da conta: <xliff:g id="balance">%1$s</xliff:g> Mi Credits.</string>
+    <string name="progress_success_pay_summary"><xliff:g id="rechargeFee">%1$s</xliff:g> Mi Credits adicionados, <xliff:g id="payFee">%2$s</xliff:g> Mi Credits pagos</string>
     <string name="progress_error_recharge_title">Falha na recarga</string>
     <string name="progress_error_recharge_summary">Falha na recarga! Por favor tente novamente mais tarde.</string>
     <string name="progress_error_pay_title">Falha no pagamento</string>
-    <string name="progress_error_pay_summary"><xliff:g id="rechargeFee">%1$s</xliff:g> MiCredits adicionados, mas o pagamento falhou! Por favor tente novamente mais tarde.</string>
+    <string name="progress_error_pay_summary"><xliff:g id="rechargeFee">%1$s</xliff:g> Mi Credits adicionados, mas o pagamento falhou! Por favor tente novamente mais tarde.</string>
     <string name="progress_warning_waiting">"O pagamento ainda não foi processado."</string>
-    <string name="progress_warning_contact_server">O pagamento ainda não foi processado. \n1. Por favor entre em contato com o serviço de atendimento ao cliente Shenzhou: <xliff:g id="number">%1$s</xliff:g> \n2. Quando solicitado, insira o número serial: <xliff:g id="order">%2$s</xliff:g>.</string>
-    <string name="progress_warning_check">O pagamento ainda não foi processado. \nNós iremos verificar novamente em dois dias úteis.</string>
+    <string name="progress_warning_contact_server">O pagamento ainda não foi processado. \n1. Por favor entre em contato com o SAC: <xliff:g id="number">%1$s</xliff:g> \n2. Quando solicitado, insira o número serial: <xliff:g id="order">%2$s</xliff:g>.</string>
+    <string name="progress_warning_check">O pagamento ainda não foi processado. \nNós verificaremos novamente em dois dias úteis.</string>
     <string name="btn_back">Voltar</string>
     <string name="btn_recharge_other">Recarregar</string>
     <string name="btn_call">Chamar</string>
 
-    <string name="recharge_notification">Recarregando: <xliff:g id="value">%1$s</xliff:g> MiCredits</string>
+    <string name="recharge_notification">Recarregando: <xliff:g id="value">%1$s</xliff:g> Mi Credits</string>
     <string name="giftcard_push_notification_prime_title">Você recebeu um vale presente</string>
-    <string name="giftcard_push_notification_sub_title"><xliff:g id="activityName">%1$s</xliff:g>: <xliff:g id="giftcardValue">%2$s</xliff:g> MiCredit gratuito.</string>
-    <string name="recharge_push_notification_prime_title"><xliff:g id="chargeXiaomiId">%1$d</xliff:g> adicionados <xliff:g id="chargeMibi">%2$s</xliff:g> MiCredits à sua conta</string>
+    <string name="giftcard_push_notification_sub_title"><xliff:g id="activityName">%1$s</xliff:g>: <xliff:g id="giftcardValue">%2$s</xliff:g> Mi Credit gratuito.</string>
+    <string name="recharge_push_notification_prime_title"><xliff:g id="chargeXiaomiId">%1$d</xliff:g> adicionados <xliff:g id="chargeMibi">%2$s</xliff:g> Mi Credits à sua conta</string>
     <string name="recharge_push_notification_sub_title">Recarga concluída.</string>
     <string name="giftcard_expire_notification_prime_title">Seu vale-presente está prestes a expirar\u2026</string>
-    <string name="giftcard_expire_notification_sub_title">Seu vale-presente MiCredit expira em <xliff:g id="date">%1$s</xliff:g></string>
+    <string name="giftcard_expire_notification_sub_title">Seu vale-presente Mi Credit expira em <xliff:g id="date">%1$s</xliff:g></string>
 
     <string name="title_mili_center">MiCredits</string>
     <string name="title_recharge_record">Registros de recarga</string>
@@ -219,16 +219,16 @@
     <string name="giftcard_record">Meus vales-presente</string>
     <string name="title_discounts">Descontos</string>
     <string name="btn_mili_center_recharge">Recarregar MiCredits</string>
-    <string name="fee"><xliff:g id="value">%1$s</xliff:g> MiCredit</string>
+    <string name="fee"><xliff:g id="value">%1$s</xliff:g> Mi Credit</string>
     <string name="recharge_record_empty">Nenhum registro de recarga.</string>
     <string name="pay_record_empty">Nenhum registro de pagamento.</string>
     <string name="progress_downloading">Carregando\u2026</string>
-    <string name="btn_net_connection_retry">Tentar novamente</string>
+    <string name="btn_net_connection_retry">Repetir</string>
     <string name="pay_record_typeall">Todos</string>
 
     <string name="mibi_license_title">Termo do Usuário</string>
-    <string name="mibi_license_message">Você já está prestes a utilizar o Mi Credit, que é um serviço fornecido pela Xiaomi Inf. Antes de utilizar o serviço, você precisa concordar com os Termos de Serviço existentes em "<xliff:g id="agreement">%1$s</xliff:g>".
-        Toque em OK se você concorda com os termos e condições descritos no "<xliff:g id="agreement">%1$s</xliff:g>".</string>
+    <string name="mibi_license_message">Você está prestes a utilizar o Mi Credit, que é um serviço fornecido pela Xiaomi Inf. Antes de utilizar o serviço, você precisa concordar com os Termos de Serviço existentes em \"<xliff:g id="agreement">%1$s</xliff:g>\".
+        Toque em OK se você concorda com os termos e condições descritos no \"<xliff:g id="agreement">%1$s</xliff:g>\".</string>
     <string name="mibi_license_message_span">Termo do usuário MiCredit</string>
     <string name="btn_agree">Concordar</string>
 
@@ -243,11 +243,11 @@
     <string name="lockpattern_need_to_unlock_wrong">&lt;font color=red>Senha incorreta, você possui <xliff:g id="timesLeft">%d</xliff:g> tentativas restantes&lt;/font&gt;</string>
     <string name="lockpattern_pattern_confirmed_header">Seu novo padrão de desbloqueio:</string>
     <string name="lockpattern_recording_inprogress">Levante o dedo da tela ao finalizar.</string>
-    <string name="lockpattern_retry_text">&lt;u&gt;Resetar padrão&lt;/u&gt;</string>
-    <string name="forget_password">&lt;u&gt;Resetar senha&lt;/u&gt;</string>
+    <string name="lockpattern_retry_text">&lt;u&gt;Redefinir padrão&lt;/u&gt;</string>
+    <string name="forget_password">&lt;u&gt;Redefinir senha&lt;/u&gt;</string>
     <string name="login">Login</string>
     <string name="cancel">Cancelar</string>
-    <string name="change_security_lock">Alterar código de segurnaça</string>
+    <string name="change_security_lock">Alterar código de segurança</string>
     <string name="lockpassword_confirm_your_pattern_header">Confirmar seu padrão</string>
     <string name="lockpassword_input_your_pattern_header">Confirmar seu padrão</string>
     <string name="lockpassword_choose_your_pattern_header">Selecionar seu padrão</string>
@@ -255,7 +255,7 @@
     <string name="lockpattern_continue_button_text">Continuar</string>
     <string name="lockpattern_confirm_button_text">Confirmar</string>
     <string name="lockpattern_tutorial_cancel_label">Cancelar</string>
-    <string name="lockpattern_tutorial_continue_label">Próximo</string>
+    <string name="lockpattern_tutorial_continue_label">Avançar</string>
     <string name="lockpattern_need_to_unlock_wrong_footer" />
     <string name="lockpattern_too_many_failed_confirmation_attempts_header">&lt;font color=red&gt;Muitas tentativas incorretas!&lt;/font&gt;</string>
     <string name="lockpattern_need_to_unlock_footer" />
@@ -272,7 +272,7 @@
     <string name="title_nopassword_dialog">Limite diário</string>
 
     <string name="button_confirm">Confirmar</string>
-    <string name="button_next">Próximo</string>
+    <string name="button_next">Avançar</string>
     <string name="scan_prompt_number">Escanear código pré-pago <xliff:g id="carrier">%1$s</xliff:g></string>
     <string name="scan_prompt_password">Escanear senha do cartão pré-pago <xliff:g id="carrier">%1$s</xliff:g></string>
     <string name="scan_prompt_voucher">Escanear senha do MiCredit</string>

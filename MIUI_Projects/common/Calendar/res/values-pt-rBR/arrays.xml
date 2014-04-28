@@ -311,10 +311,10 @@
     </string-array>
 
     <string-array name="ordinal_labels">
-        <item>primeiro</item>
-        <item>segundo</item>
-        <item>terceiro</item>
-        <item>quarto</item>
+        <item>primeiro(a)</item>
+        <item>segundo(a)</item>
+        <item>terceiro(a)</item>
+        <item>quarto(a)</item>
         <item>último</item>
     </string-array>
 

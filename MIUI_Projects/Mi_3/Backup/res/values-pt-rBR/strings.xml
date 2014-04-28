@@ -12,7 +12,7 @@
   <string name="backup_items_app_tailer">" \u0020dados de aplicativos "</string>
   <string name="backup_failed">Falha no backup, tente novamente</string>
   <string name="backup_recently">" \u0020(Recente)"</string>
-  <string name="sdcard_unmounted">Cartão SD indisponível</string>
+    <string name="sdcard_unmounted">Cartão SD desmontado ou indisponível!</string>
   <string-array name="backup_dialog_content_type">
     <item>Dados de Wi-Fi</item>
     <item>Todos os apps</item>
@@ -44,7 +44,7 @@
   <string name="button_continue">Continuar</string>
   <string name="backup_finished">Backup concluído</string>
   <string name="backup_report">Relatório do Backup</string>
-  <string name="backup_hint">Não reinicie ou desligue seu telefone</string>
+    <string name="backup_hint">Não reinicie ou desligue seu telefone.</string>
   <string name="menu_patch_delete">Excluir backups</string>
   <string name="delete">Excluir</string><string name="cancel">Cancelar</string>
   <string name="delete_backup_process">Excluindo\u2026</string>
@@ -52,7 +52,7 @@
   <string name="delete_failed_backup_confirm">O arquivo de backup selecionado possui erros e não pode ser restaurado.</string>
   <string name="batch_delete_backup_confirm">Excluir <xliff:g id="COUNT">%d</xliff:g> backup(s)?</string>
   <string name="start_restore">Restaurar</string>
-  <string name="backup_file_error">Falha no backup</string>
+  <string name="backup_file_error">Falha no backup.</string>
   <string-array name="app_type_desc">
     <item>Dados</item>
     <item>Aplicativo</item>
@@ -63,12 +63,12 @@
   <string name="restore_finished">Restauração concluída</string>
   <string name="restore_report">Relatório de restauração</string>
   <string name="restore_progress">Restaurando\u2026</string>
-  <string name="restore_contacts_hit">Você precisará efetuar o login novamente para visualizar os dados restaurados.</string>
-  <string name="restore_telephony_hit">O processo de restauração reiniciará o discador do telefone.</string>
-  <string name="restore_launcher_layout_hit">Restaura as configurações do launcher</string>
-  <string name="settings_summary">": configurações do telefone e mensagens"</string>
-  <string name="account_summary">Backup da Conta do Google, Conta Xiaomi e outros dados do usuário</string>
-  <string name="cloud_app_name">Backup Mi Cloud</string>
+    <string name="restore_contacts_hit">(Atenção: Você precisará restaurar automaticamente os contatos criados após a criação do backup.)</string>
+    <string name="restore_telephony_hit">(Atenção: O processo de restauração irá reiniciar os aplicativos de telefonia)</string>
+    <string name="restore_launcher_layout_hit">(Atenção: Restaura o layout do desktop)</string>
+    <string name="settings_summary">(Configurações de Sistema, Telefone e SMS)</string>
+    <string name="account_summary">(Contas do GMail, E-mail e Xiaomi)</string>
+    <string name="cloud_app_name">Backup na Nuvem</string>
   <string name="cloud_home_title">Mi Cloud</string>
   <string name="prompt_reading">Lendo\u2026</string>
   <string name="prompt_sending">Enviando\u2026</string>
@@ -122,14 +122,14 @@
   <string name="task_canceled">Cancelado</string>
   <string name="task_failed">Falha</string>
   <string name="task_canceled_local">Tarefa Cancelada <xliff:g id="PERCENT">%s</xliff:g></string>
-  <string name="task_canceled_all_local">Cancelar</string>
+    <string name="task_canceled_all_local">Tarefa cancelada</string>
   <string name="task_failed_local">Falha ao concluir: <xliff:g id="PERCENT">%s</xliff:g></string>
-  <string name="task_failed_all_local">Falha</string>
+    <string name="task_failed_all_local">Falha na tarefa</string>
   <string name="task_backup_finished_local">Backup concluído</string>
   <string name="task_restore_finished_local">Restauração concluída</string>
   <string name="task_restore_none">Nada a restaurar</string>
   <string name="task_stopped_exception">Restauração cancelada</string>
-  <string name="sdcard_no_enough_space">Não há espaço suficiente</string>
+    <string name="sdcard_no_enough_space">Não há espaço suficiente no cartão SD. Libere espaço no cartão e tente novamente.</string>
   <string name="sdcard_no_enough_space_message">Não há espaço livre suficiente na memória do telefone.</string>
   <string name="data_no_enough_space">Não há espaço suficiente</string>
   <string name="data_no_enough_space_message">Não há espaço livre suficiente na memória do telefone.</string>
@@ -148,7 +148,7 @@
   <string name="nothing_searched">Nada encontrado</string>
   <string name="restore_counts">Restauração:</string>
   <string name="service_stoped">Serviço parado</string>
-  <string name="sc_network_unavailable">Rede indisponível</string>
+    <string name="sc_network_unavailable">Rede de dados indisponível</string>
   <string name="sc_bad_request">Requisição inválida</string>
   <string name="sc_unaccess_password_file">Não salvar senha de redes Wi-Fi</string>
   <string name="sc_service_unavailable">Mi Cloud indisponível</string>
@@ -163,19 +163,19 @@
   <string name="button_next">Avançar</string>
   <string name="button_finish">Concluído</string>
   <string name="progress_backup_hint">Criando backup\u2026</string>
-  <string name="cancel_backup">Parar</string>
+    <string name="cancel_backup">Cancelar backup</string>
   <string name="restore_contact">Restaurar contatos</string>
-  <string name="restore_contact_content">A restauração poderá criar contatos duplicados.</string>
+    <string name="restore_contact_content">Em alguns casos, seus contatos poderão ser duplicados. Caso isso ocorra, utilize a opção Mesclar Contatos na sua agenda telefônica.</string>
   <string name="progress_restore_hint">Restaurando\u2026</string>
-  <string name="cancel_restore">Parar</string>
+    <string name="cancel_restore">Cancelar restauração</string>
   <string name="restore_failed">Falha na restauração</string>
   <string name="local_select_sysdata">Sistema</string>
   <string name="local_select_userapp">Apps</string>
-  <string name="local_select_account_contact">Conta &amp; contatos</string>
+    <string name="local_select_account_contact">Contas e contatos</string>
   <string name="local_no_backup">Nenhum backup local</string>
   <string name="auto_backup_setting">Configurações de backup automático</string>
   <string name="auto_backup_open">Ativar backup automático</string>
-  <string name="auto_backup_only_wifi">Somente em Wi-Fi</string>
+    <string name="auto_backup_only_wifi">Usar somente em Wi-Fi</string>
   <string name="auto_backup_date">Frequência do backup</string>
   <string name="auto_backup_time">Agendar backup</string>
   <string name="auto_backup_choose_title">Itens para o backup</string>
@@ -196,9 +196,9 @@
   <string name="current_sim">Cartão SIM atual</string>
   <string name="date_format" translatable="false">dd-MM-yyyy HH:mm:ss</string>
   <string name="dir_date_format" translatable="false">dd-MM-yyyy_HH-mm-ss</string>
-  <string name="no_network">Falha ao conectar-se à rede</string>
+    <string name="no_network">Nenhuma conexão. Verifique sua conexão de rede e tente novamente.</string>
   <string name="retry">Repetir</string>
-  <string name="select_all">Marcar todos</string>
+    <string name="select_all">Sel. todos</string>
   <string name="reverse_all">Desmarcar</string>
   <string name="refresh">Atualizar</string>
   <string name="cloud_item_info_summary">\u0020(Local: <xliff:g id="LOCAL_COUNT">%1$s</xliff:g> | Mi Cloud: <xliff:g id="CLOUD_COUNT">%2$s</xliff:g>)</string>
@@ -207,7 +207,7 @@
   <string name="import_from_xiaomi_account_hint1">1.\tInstale o MiTalk e conecte-se.\n\thttp://www.miliao.com\n\n2.\tVá nas configurações do MiTalk e selecione \"Efetuar backup de contatos para a Conta Xiaomi\"</string>
   <string name="import_from_xiaomi_account_hint2"> Se você já possui um backup, toque em Próximo.</string>
   <string name="import_from_xiaomi_account_hint_title">Utilize o MiTalk para fazer backup de contatos entre dispositivos.</string>
-  <string name="guarded_mode_dialog_title">Você está no modo de privacidade</string><string name="guarded_mode_dialog_message">Esta função não é permitida no modo de privacidade.</string>
+  <string name="guarded_mode_dialog_title">Modo de privacidade</string><string name="guarded_mode_dialog_message">Esta função não é permitida no modo de privacidade.</string>
   <string name="multi_select_title">Selecionado(s) <xliff:g id="number" example="15">%1$s</xliff:g> item(ns)</string>
   <!-- encrypt -->
   <string name="enable_encrypt_title">Ativar criptografia</string>
@@ -215,29 +215,29 @@
   <string name="enable_encrypt_indicator">Backup não criptografado, toque para ativar a criptografia.</string>
   <string name="enable_encrypt">Ativar agora</string>
   <string name="already_enable_encrypt">Criptografia ativada</string>
-  <string name="enable_encrypt_summery1">Você precisará conectar-se à sua Conta Xiaomi para acessar os backups criptografados.</string>
-  <string name="enable_encrypt_summery2">Seus backups serão criptografados automaticamente. Você precisará conectar-se à sua Conta Xiaomi para acessar estes backups.</string>
+    <string name="enable_encrypt_summery1">"O sistema irá criptografar seu backup local baseando-se em sua conta Xiaomi. Você precisará conectar-se à sua conta Xiaomi para esvaziar dados do telefone ou para restaurar o backup em outro telefone."</string>
+    <string name="enable_encrypt_summery2">O novo backup será criptografado automaticamente, e você precisará conectar-se à sua conta Xiaomi para esvaziar dados do telefone ou para restaurar o backup em outro telefone.</string>
   <string name="enable_encrypt_xiaomi_account">Este backup foi criado por <xliff:g id="account" example="110000">%1$s</xliff:g>. Para restaurar, exclua a conta atual
 e conecte-se como <xliff:g id="account" example="110000">%2$s</xliff:g>.</string>
   <string name="enable_encrypt_ok">OK</string>
-  <string name="no_encrypt_password">Nenhuma senha</string>
+    <string name="no_encrypt_password">Nenhuma senha criptografada</string>
   <string name="enable_encrypt_fail">Falha ao ativar criptografia</string>
   <string name="read_encrypt_fail">Falha ao ler backup criptografado</string>
   <string name="exchange_account">Alternar contas</string>
 
     <string name="system_backup">Backup</string>
-    <string name="backup_empty_info">" Efetue backup de seus dados, configurações e aplicativos"</string>
-    <string name="system_backup_info">Configurações de sistema e ajustes da tela inicial</string>
-    <string name="software_backup_info">Dados do aplicativo</string>
-    <string name="account_contact_backup_info">Conta do Google, Conta Xiaomi e dados de contatos</string>
-    <string name="select_backup_item">Selecionar itens</string>
+    <string name="backup_empty_info">Efetue backup de seus dados, configurações e aplicativos facilmente.</string>
+    <string name="system_backup_info">Configurações e ajustes do usuário no sistema</string>
+    <string name="software_backup_info">Aplicativos, seus dados e configurações.</string>
+    <string name="account_contact_backup_info">Conta Xiaomi, Google e outros, e contatos do telefone.</string>
+    <string name="select_backup_item">Selecionar item</string>
     <string name="restore_data">Restaurar dados</string>
     <string name="backup_data">Salvar dados</string>
 
     <!-- cloud app backup & restore-->
     <string name="cloud_app_backup_title">Backup na Mi Cloud</string>
-    <string name="cloud_app_just_show_in_current_device">Exibir somente apps deste dispositivo</string>
-    <string name="cloud_app_mine">Apps baixados</string>
+    <string name="cloud_app_just_show_in_current_device">Exibir somente aplicativos deste dispositivo</string>
+    <string name="cloud_app_mine">Aplicativos transferidos</string>
     <string name="cloud_app_backup_summary">Efetuar backup automático de aplicativos e dados do usuário quando o telefone estiver carregando e conectado a uma rede Wi-Fi</string>
     <string name="cloud_app_function_summary">Quando você efetua o backup de seus dados na Mi Cloud, você pode restaurá-los rapidamente em qualquer dispositivo.</string>
     <string name="cloud_app_restore_action_bar_title">%1$s de seus dados possuem backup</string>
@@ -252,15 +252,15 @@ e conecte-se como <xliff:g id="account" example="110000">%2$s</xliff:g>.</string
     <string name="cloud_app_find_backup_prompt_1">Antes de efetuar a restauração, você deseja salvar os dados atuais?</string>
     <string name="cloud_app_find_backup_prompt_2">Caso não deseje, os dados serão substituídos durante a restauração.</string>
     <string name="cloud_app_restore_data_title">Restaurar dados do usuário</string>
-    <string name="cloud_app_restore_app_and_data">Restaurar apps e dados do usuário</string>
-    <string name="cloud_app_restore_summary">Restaurar apps instalados anteriormente e seus dados de usuário</string>
-    <string name="cloud_app_restore_data">Restaurar apps instalados anteriormente</string>
+    <string name="cloud_app_restore_app_and_data">Restaurar aplicativos e dados do usuário</string>
+    <string name="cloud_app_restore_summary">Restaurar aplicativos instalados anteriormente e seus dados de usuário</string>
+    <string name="cloud_app_restore_data">Restaurar aplicativos instalados anteriormente</string>
     <string name="cloud_app_dont_restore">Não restaurar</string>
-    <string name="cloud_app_restore_wifi_prompt">Você precisa estar conectado utilizando uma rede Wi-Fi para restaurar seus dados</string>
-    <string name="cloud_app_restore_query_error_prompt">Falha ao obter dados da Mi Cloud. Apps e dados de usuário serão restaurados automaticamente quando uma conexão de rede for detectada.</string>
+    <string name="cloud_app_restore_wifi_prompt">Conectar-se utilizando uma rede Wi-Fi para restaurar seus aplicativos e dados de usuário.</string>
+    <string name="cloud_app_restore_query_error_prompt">Falha ao obter dados da Mi Cloud. Aplicativos e dados de usuário serão restaurados automaticamente quando uma conexão de rede for detectada.</string>
     <string name="cloud_app_device">Dispositivo</string>
-    <string name="cloud_app_data_in_other_devices">Nenhum backup neste dispositivo</string>
-    <string name="cloud_app_no_data">Sem dados</string>
+    <string name="cloud_app_data_in_other_devices">Nenhum backup Mi Cloud neste dispositivo.</string>
+    <string name="cloud_app_no_data">Sem dados.</string>
     <string name="cloud_app_invalid_op">Impossível visualizar dados da nuvem durante uma operação de backup ou restauração.</string>
     <string name="cloud_app_invalid_op_when_removing">Impossível visualizar dados da nuvem durante a sua exclusão</string>
     <string name="cloud_app_remove_pending">Aguardando\u2026</string>
@@ -278,9 +278,9 @@ e conecte-se como <xliff:g id="account" example="110000">%2$s</xliff:g>.</string
     <string name="cloud_app_restore_cancel">Cancelando restauração\u2026</string>
     <string name="cloud_app_remove_cancel">Cancelando\u2026</string>
 
-    <string name="cloud_app_backup_cancel_prompt_title">Parar backup</string>
-    <string name="cloud_app_restore_cancel_prompt_title">Parar restauração</string>
-    <string name="cloud_app_remove_cancel_prompt_title">Parar exclusão</string>
+    <string name="cloud_app_backup_cancel_prompt_title">Cancelar backup</string>
+    <string name="cloud_app_restore_cancel_prompt_title">Cancelar restauração</string>
+    <string name="cloud_app_remove_cancel_prompt_title">Cancelar exclusão</string>
 
     <string name="cloud_app_backup_cancel_prompt_message">O backup não foi concluído, cancelar mesmo assim?</string>
     <string name="cloud_app_restore_cancel_prompt_message">A restauração não foi concluída, cancelar mesmo assim?</string>
@@ -293,7 +293,7 @@ e conecte-se como <xliff:g id="account" example="110000">%2$s</xliff:g>.</string
     <string name="cloud_app_no_network">Rede indisponível</string>
     <string name="cloud_app_no_wifi">Wi-Fi indisponível</string>
     <string name="cloud_app_no_wifi_connect">Nenhuma rede Wi-Fi disponível</string>
-    <string name="cloud_app_loading_with_mobile_network_prompt">Utilizar a conexão de dados móveis para continuar o processo?</string>
+    <string name="cloud_app_loading_with_mobile_network_prompt">A rede de dados móveis será utilizada. Deseja continuar com a operação?</string>
 
     <string name="just_support_op_with_wifi_connected">Esta função é suportada somente em uma conexão Wi-Fi</string>
     <string name="button_restore">Restaurar</string>

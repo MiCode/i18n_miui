@@ -143,7 +143,7 @@
     <string name="view_list_of_recordings">Ver gravações</string>
     <string name="search_for_recordings_in_folders">Pesquisar gravações com o Explorador</string>
     <string name="back">Voltar</string>
-    <string name="toast_uninstall_fileexplorer">"O app Explorador não está instalado"</string>
+    <string name="toast_uninstall_fileexplorer">"O aplicativo Explorador não está instalado"</string>
 
     <string name="record_download">Download da Mi Cloud</string>
     <string name="record_download_msg">A gravação só poderá ser reproduzida após o download ser finalizado.</string>
@@ -152,8 +152,8 @@
     <string name="record_download_paused">Pausado</string>
     <string name="record_download_failed">Falha</string>
     <string name="record_download_progress">%d%%</string>
-    <string name="record_download_activity">Downloader</string>
-    <string name="retry">Tentar novamente</string>
+    <string name="record_download_activity">Downloads</string>
+    <string name="retry">Repetir</string>
     <string name="start">Reiniciar</string>
     <string name="record_download_manager">Gerenciador de downloads</string>
     <string name="record_downloading_notification">Efetuando download\u2026</string>
@@ -162,7 +162,7 @@
 
     <string name="sync_records">Sincronizar com a Mi Cloud</string>
     <string name="sync_only_in_wifi">Utilizar Wi-Fi para sincronizar</string>
-    <string name="sync_only_in_wifi_summary">O gravador irá utilizar sua conexão de dasdos móveis para efetuar o download ou upload de gravações quando esta opção estiver desativada.</string>
+    <string name="sync_only_in_wifi_summary">O gravador irá utilizar sua conexão de dados móveis para efetuar o download ou upload de gravações quando esta opção estiver desativada.</string>
     <string name="sync_only_in_wifi_alert">Desativar esta opção pode aumentar o uso de seus dados móveis (isto poderá gerar cobranças adicionais).</string>
 
     <string name="wifi_recommended_title">Lembrete de tráfego</string>

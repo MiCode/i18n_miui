@@ -1,30 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name">Lista de Bloqueio</string>
 
-    <!--  notification -->
+    <string name="app_name">Lista de bloqueio</string>
+
+    <!-- notification -->
     <string name="fw_blocked">Bloqueado:</string>
-    <string name="fw_blocked_count">Bloqueadas <xliff:g id="opt">%d</xliff:g> chamadas e <xliff:g id="opt">%d</xliff:g> mensagens</string>
+    <string name="fw_blocked_count">Bloqueado:</string>
+    <string name="fw_blocked_count_call">%d chamadas</string>
+    <string name="fw_blocked_count_sms">%d mensagens</string>
 
     <!-- Tab/Other View -->
-    <string name="tab_title">Lista de Bloqueio</string>
+    <string name="tab_title">Lista de bloqueio</string>
     <string name="tab_block_log">Registro de bloqueios</string>
-    <string name="tab_blacklist">Lista de Bloqueio</string>
+    <string name="tab_blacklist">Lista de bloqueio</string>
     <string name="tab_sms">Registro de mensagens</string>
     <string name="tab_call">Registro de chamadas</string>
-    <string name="bl_block_info">Bloqueadas: <xliff:g id="tel_count">%d</xliff:g> chamadas "|" <xliff:g id="ms_count">%d</xliff:g> mensagens</string>
+    <string name="bl_block_info">Chamadas bloqueadas: <xliff:g id="tel_count">%d</xliff:g> "|" SMS: <xliff:g id="ms_count">%d</xliff:g></string>
     <string name="bl_no_block_call">Nenhuma chamada bloqueada</string>
     <string name="bl_no_block_sms">Nenhuma mensagem bloqueada</string>
     <string name="bl_no_blacklist">Nenhum número bloqueado</string>
+    <string name="wl_no_whitelist">Nenhum número na lista de exceções</string>
     <string name="log_count">(%d)</string>
 
     <string name="tab_block_log_unKnowNumber">Número desconhecido</string>
+    <string name="user_define_title">Personalizado</string>
+    <string name="blacklist_prefix_add_hint">Adicionar todos os números com o prefixo registrado à lista de bloqueio</string>
+    <string name="whitelist_prefix_add_hint">Adicionar todos os números com este prefixo à lista de exceções</string>
+    <string name="customizer_mode_user_define_name">Personalizado</string>
+    <string name="all_address_choose_hint">Todos os locais</string>
+    <string name="address_choose_hint">%1$s、%2$s e %3$d locais</string>
+    <string name="two_address_choose_hint">%1$s, %2$s2 locais</string>
+    <string name="one_address_choose_hint">%s1 local</string>
 
     <!-- Mark info -->
-    <string name="marked_by_user">"Você marcou como "</string>
+    <string name="marked_by_user">" você marcou como "</string>
     <string name="marked_by_others">"%d outros usuários marcaram como "</string>
 
     <!-- Dialog -->
+    <string name="dlg_black_antispam_message">Adicionar esta mensagem à lista de bloqueio?</string>
+    <string name="dlg_white_antispam_message">Adicionar esta mensagem à lista de exceções?</string>
+    <string name="dlg_black_address_antispam_message">Adicionar este local à lista de bloqueio?</string>
+    <string name="dlg_white_address_antispam_message">Adicionar este local à lista de exceções?</string>
+    <string name="dlg_white_antispam_hint">Exceções</string>
+    <string name="dlg_black_antispam_hint">Lista de bloqueio</string>
     <string name="dlg_clear_all_sms">Excluir mensagens bloqueadas?</string>
     <string name="dlg_clear_all_call">Limpar chamadas bloqueadas?</string>
     <string name="dlg_clear_current_sms">Excluir todas as mensagens bloqueadas deste número?</string>
@@ -34,7 +52,12 @@
     <string name="dlg_no_block">Desbloquear este número?</string>
     <string name="dlg_no_block_ok">Desbloquear</string>
     <string name="dlg_add_blacklist">Bloquear este número?</string>
+    <string name="dlg_add_blacklist_warn_conflict_title">Cuidado</string>
+    <string name="dlg_add_blacklist_warn_conflict_content"><xliff:g id="tel">%1$s</xliff:g> e <xliff:g id="tel_count">%2$s</xliff:g> outros contatos já estão em sua lista de exceções.</string>
     <string name="dlg_remove_blacklist">Desbloquear este número?</string>
+    <string name="dlg_remove_whitelist">Remover estes números da lista de exceções?</string>
+    <string name="dlg_remove_address_blacklist">Remover este local da lista de bloqueio e restaurar mensagens relacionadas para a caixa de entrada?</string>
+    <string name="dlg_remove_address_whitelist">Remover este local da lista de exceções?</string>
     <string name="dlg_remove_blacklist_ok">Desbloquear</string>
     <string name="dlg_clear_blacklist">Limpar lista de bloqueio?</string>
     <string name="dlg_clear_blacklist_ok">Limpar</string>
@@ -47,7 +70,7 @@
     <string name="dlg_edit_keyword">Editar palavra-chave</string>
     <string name="dlg_delete_keyword">Remover palavras-chave selecionadas?</string>
     <string name="dlg_keyword_ok">Salvar</string>
-    <string name="dlg_retore">Restaurar mensagem para a caixa de mensagens?</string>
+    <string name="dlg_retore">Restaurar para a caixa de mensagens?</string>
     <string name="dlg_retore_ok">Restaurar</string>
     <string name="toast_keyword_blank">Você precisa inserir uma palavra-chave :)</string>
     <string name="toast_keyword_exist">Palavra-chave salva</string>
@@ -66,6 +89,7 @@
     <string name="menu_bl_call_log">Ver chamadas bloqueadas</string>
     <string name="menu_bl_sms_log">Ver mensagens bloqueadas</string>
     <string name="menu_bl_remove">Desbloquear</string>
+    <string name="menu_wh_remove">Remover da lista de exceções</string>
     <string name="menu_bl_clear">Limpar lista de bloqueio</string>
     <string name="menu_bl_add_manual">Adicionar</string>
     <string name="menu_bl_add_contact">Contatos</string>
@@ -78,7 +102,7 @@
     <!-- Settings -->
     <string name="st_settings_name">Configurações da lista de bloqueio</string>
     <string name="st_block_setting_group">Configurações da lista de bloqueio</string>
-    <string name="st_block_setting_title">Chamadas e mensagens</string>
+    <string name="st_block_setting_title">Chamadas e Mensagens</string>
     <string name="st_block_all">Bloquear chamadas e mensagens</string>
     <string name="st_mute_all">Silenciar chamadas e mensagens</string>
     <string name="st_block_mute">Bloquear chamadas e silenciar mensagens</string>
@@ -99,4 +123,97 @@
     <string name="st_block_unknown_sms">Bloquear mensagens desconhecidas</string>
     <string name="st_other_setting_group">Outras configurações</string>
     <string name="st_show_block_notification">Exibir notificação de bloqueio</string>
+    <string name="st_show_num_keyword">" palavras-chave"</string>
+    <string name="st_show_num_number">" números"</string>
+    <string name="label_callwait">Espera de chamadas</string>
+    <string name="open_callwait">Ligado</string>
+    <string name="close_callwait">Desligado</string>
+
+    <!-- 添加白名单 -->
+    <string name="sure">Confirmar</string>
+    <string name="cancle">Cancelar</string>
+    <string name="addwhitelist">Adicionar à lista de exceções</string>
+    <string name="st_hint_add_phonenumber">Digitar número de telefone</string>
+    <string name="st_hint_add_head_number">Digitar prefixo (\"*\" será adicionado automaticamente)</string>
+    <string name="st_message_SMSpass">Permitir mensagens</string>
+    <string name="st_message_phonepass">Permitir chamadas</string>
+    <string name="SMSpass">Permitir mensagens</string>
+    <string name="Phonepass">Permitir chamadas</string>
+    <string name="st_message_SMS_AntiSpam">Bloquear mensagems</string>
+    <string name="st_message_phone_AntiSpam">Bloquear chamadas</string>
+    <string name="ACaddnumtitle">Adicionar prefixo de telefone às exceções</string>
+    <string name="NACaddnumtitle">Adicionar número à lista de exceções</string>
+
+    <!-- 添加黑名单 -->
+    <string name="st_title_addblacklist">Adicionar à lista de bloqueio</string>
+    <string name="st_title_editblacklist">Editar lista de bloqueio</string>
+    <string name="st_title_addwhitelist">Adicionar à lista de exceções</string>
+    <string name="st_title_editwhitelist">Editar lista de exceções</string>
+    <string name="st_title_man_head_addblacklist">Adicionar prefixo de telefone à lista de bloqueio</string>
+    <string name="st_title_man_addblacklist">Adicionar número à lista de bloqueio</string>
+    <string name="st_title_man_head_addwhitelist">Adicionar prefixo de telefone à lista de exceções</string>
+    <string name="st_title_man_addwhitelist">Adicionar número à lista de exceções</string>
+    <string name="st_title_man_editblacklist">Selecionar código de localidade para adicionar à lista de bloqueio</string>
+    <string name="st_title_man_editwhitelist">Selecionar código de localidade para adicionar à lista de exceções</string>
+
+    <!-- BackSound -->
+    <string name="st_title_back_sound_choose">Personalizado</string>
+    <string name="st_title_back_sound_busy">Ocupado</string>
+    <string name="st_title_back_sound_none">Telefone inexistente</string>
+    <string name="st_title_back_sound_closed">Telefone desligado</string>
+    <string name="st_title_back_sound_stop">Telefone fora de serviço</string>
+    <string name="st_title_call_wait_setting">Configuração de chamada em espera</string>
+    <string name="st_title_call_wait">Chamada em espera</string>
+    <string name="st_sum_call_wait">Caso seu sinal de ocupado durante a chamada não for o padrão, ele poderão não ser reproduzido corretamente para chamadas recebidas.</string>
+
+    <!-- Black White list -->
+    <string name="st_antispam_bw_man_add">Adicionar telefone</string>
+    <string name="st_antispam_bw_head_add">Adicionar prefixo</string>
+    <string name="st_antispam_bw_pick_add">Selecionar contato</string>
+    <string name="st_antispam_bw_adress_add">Escolher local</string>
+    <string name="st_antispam_black_adress_add">Escolher área</string>
+    <string name="st_antispam_bw_choose_modes">Selecionar modo</string>
+    <string name="hint_antispam_mode_edit">Modo personalizado</string>
+    <string name="st_title_adress">Selecionar local</string>
+    <string name="st_title_adress_num">%d selecionado(s)</string>
+
+    <!-- 骚扰拦截 -->
+    <string name="SMS_BLACKLIST">Bloqueio de mensagens</string>
+    <string name="SMS_PREFIX">Bloqueio de prefixos</string>
+    <string name="SMS_MODENAME">Bloqueio padrão</string>
+    <string name="SMS_KEYWORDS">Bloqueio de palavra-chave</string>
+    <string name="SMS_ADRESS">Bloqueio de locais</string>
+
+    <string name="Call_BLACKLIST">Bloqueio de chamadas</string>
+    <string name="Call_PREFIX">Bloqueio de prefixos</string>
+    <string name="Call_MODENAME">Bloqueio padrão</string>
+    <string name="Call_ADRESS">Bloqueio de locais</string>
+    <string name="Call_PRIVATE_CALL">Chamadas privadas</string>
+
+    <string name="PAST_BLOCK">Bloqueados anteriormente</string>
+
+    <!-- 广告拦截 -->
+    <string name="AD_AntiSpam">Bloquear solicitações</string>
+    <string name="AD_SCANNING">Verificando\u2026</string>
+    <string name="AD_BLOCK_ALL">Bloquear tudo</string>
+    <string name="AD_SCAN_BUTTON">Verificar</string>
+    <string name="AD_NOT_BLOCK">Não bloquear</string>
+    <string name="AD_BLOCKED">Bloqueado</string>
+    <string name="AD_COUNT">%d bloqueado(s)</string>
+    <string name="AD_TITLE_COUNT">%d aplicativos contém adware</string>
+    <string name="AD_TITLE_NON_COUNT">Nenhum adware detectado</string>
+    <string name="AD_BLOCK">Bloquear solicitações</string>
+    <string name="AD_ALLOW">Permitir solicitações</string>
+    <string name="AD_Unistall">Desinstalar</string>
+    <string name="AD_APPInfo">Info do aplicativo</string>
+    <string name="AD_Info">Ad plug-in</string>
+    <string name="AD_Info_Hint">Adicionais utilizados por aplicativos de terceiros para enviar anúncios para seu dispositivo.</string>
+    <string name="ad_relative_setting">Configurações relacionadas</string>
+    <string name="ad_install_monitor">Monitor de instalações</string>
+    <string name="ad_install_monitor_hint">Verificar adware ao instalar um aplicativo</string>
+    <string name="ad_update_setting">Configurações de atualização</string>
+    <string name="ad_update_title">Atualiz. automática</string>
+    <string name="ad_update_time">Atualizado em: %s</string>
+    <string name="ad_update_time_unKnown">Atualizado em: desconhecido</string>
+
 </resources>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name">Atualizador</string>
+    <string name="app_name">Atualizações</string>
     <string name="apply_now_button_text">Atualizar</string>
     <string name="download_whole_rom">Atualizar <xliff:g id="SIZE">(%s)</xliff:g></string>
     <string name="download_ota_rom">Atualizar <xliff:g id="SIZE">(%s)</xliff:g></string>
@@ -16,7 +16,7 @@
     <string name="apply_update_fail">Falha na atualização</string>
     <string name="view_install_log">Ver relatório de erros</string>
     <string name="send_install_log">Enviar relatório de erros</string>
-    <string name="install_email">Instalar app MIUI Mail</string>
+    <string name="install_email">Instalar aplicativo MIUI Mail</string>
     <string name="send_install_log_error">Erro ao enviar relatório</string>
     <string name="copy_install_log">Copiar</string>
     <string name="reboot_to_new_system">Reiniciar para finalizar</string>
@@ -24,14 +24,14 @@
     <string name="mione_update_success_title">Atualização concluída</string>
     <string name="mione_update_fail_title">Falha na atualização</string>
     <string name="mione_update_fail_description">Tentar novamente</string>
-    <string name="apply_unable_to_reboot_toast">Impossível reiniciar para o modo de recuperação</string>
+    <string name="apply_unable_to_reboot_toast">Impossível reiniciar para o recovery</string>
     <string name="checking_for_updates">Verificando atualizações\u2026</string>
     <string name="downloading_description">Baixando\u2026</string>
-    <string name="sdcard_is_not_present_dialog_body">ertifique-se de que o cartão SD está inserido.</string>
+    <string name="sdcard_is_not_present_dialog_body">Certifique-se de que o cartão SD está inserido.</string>
     <string name="sdcard_is_not_present_dialog_title">Cartão SD não encontrado</string>
     <string name="sdcard_has_no_space_dialog_body">O cartão SD não possui espaço suficiente</string>
     <string name="sdcard_has_no_space_dialog_title">Espaço insuficiente</string>
-    <string name="current_version_text">"Versão atual: "</string>
+    <string name="current_version_text">Versão atual\u0020</string>
     <string name="current_version_update_monthly_build">Versão (Mensal)</string>
     <string name="apply_update_dialog_update_button">Atualizar</string>
     <string name="apply_update_dialog_cancel_button">Cancelar</string>
@@ -44,7 +44,7 @@
     <string name="verify_and_apply_dialog_message">Verificando atualização\u2026</string>
     <string name="apply_existing_update_md5error_title">Assinatura MD5 inválida.</string>
     <string name="file_not_found_error_message">O arquivo não existe nos servidores da Xiaomi.</string>
-    <string name="apply_upload_info_message_manually">Inicie o modo de recuperação manualmente para aplicar a atualização (<xliff:g id="FILE">%s</xliff:g>). Caso deseje efetuar um backup, faça-o agora e reinicie então o processo de atualização.</string>
+    <string name="apply_upload_info_message_manually">Inicie o modo de recovery manualmente para aplicar a atualização (<xliff:g id="FILE">%s</xliff:g>). Caso deseje efetuar um backup, faça-o agora e reinicie então o processo de atualização.</string>
     <string name="apply_upload_info_message">Para aplicar a atualização e reiniciar o seu telefone, toque em Atualizar.</string>
     <string name="apply_buddy_update_info_message">Ao selecionar Atualizar, seu telefone irá iniciar a atualização imediatamente.</string>
     <string name="system_backup_button_text">Backup</string>
@@ -61,7 +61,7 @@
     <string name="no_updates_warning">Nenhuma atualização encontrada</string>
     <string name="no_updates_warning2">Nenhuma atualização encontrada, você será notificado quando houver uma nova atualização :)</string>
     <string name="new_updates_found_title">Atualização disponível</string>
-    <string name="new_update_content_title">Existe uma nova versão da MIUI disponível</string>
+    <string name="new_update_content_title">Nova versão da MIUI ROM</string>
     <string name="new_update_content_notification_shade"></string>
     <string name="new_update_downloading_body">Baixando nova versão: <xliff:g id="VERSION">%s</xliff:g></string>
     <string name="new_update_download_complete_body">Nova versão: <xliff:g id="VERSION">%s</xliff:g></string>
@@ -85,20 +85,20 @@
     <string name="wifi_not_available_body">É recomendado utilizar a rede Wi-Fi para baixar as atualizações, já que os arquivos podem ser grandes e consumir seus dados móveis.</string>
     <string name="paused_queued_for_network">Aguardando conexão de rede</string>
     <string name="paused_queued_for_wifi">Aguardando conexão Wi-Fi</string>
-    <string name="boot_recovery">Reiniciar para recuperação</string>
+    <string name="boot_recovery">Reiniciar para o recovery</string>
     <string name="applying_rom_message">Aplicando atualização\u2026</string>
     <string name="loading">Requisitando\u2026</string>
     <string name="install_rom_from_sd">Selecionar pacote de instalação</string>
     <string name="download_current_rom">Baixar a última versão da MIUI</string>
     <string name="no_proper_updates">Nenhuma atualização encontrada para esta versão da MIUI</string>
-    <string name="sign_in_info">"Ranking da atualização: <xliff:g id="RANK">%1$s</xliff:g>\n<xliff:g id="TOTAL">%2$s</xliff:g> usuários já efetuaram o download da atualização <xliff:g id="VERSION">%3$s</xliff:g>"</string>
-    <string name="sign_in_info_total_more">"Ranking da atualização: <xliff:g id="RANK">%1$s</xliff:g>\nMais de <xliff:g id="TOTAL">%2$s</xliff:g> usuários já efetuaram o download da atualização <xliff:g id="VERSION">%3$s</xliff:g>"</string>
-    <string name="sign_in_info_rank_more">"Ranking da atualização: <xliff:g id="RANK">%1$s</xliff:g>\nMais de <xliff:g id="TOTAL">%2$s</xliff:g> usuários já efetuaram o download da atualização <xliff:g id="VERSION">%3$s</xliff:g>"</string>
+    <string name="sign_in_info">"Ranking da atualização: <xliff:g id="RANK">%1$s</xliff:g>\n<xliff:g id="TOTAL">%2$s</xliff:g> pessoas já atualizaram para a versão <xliff:g id="VERSION">%3$s</xliff:g>"</string>
+    <string name="sign_in_info_total_more">"Ranking da atualização: <xliff:g id="RANK">%1$s</xliff:g>\nMais de <xliff:g id="TOTAL">%2$s</xliff:g> usuários já atualizaram para a versão MIUI <xliff:g id="VERSION">%3$s</xliff:g>"</string>
+    <string name="sign_in_info_rank_more">"Ranking da atualização: <xliff:g id="RANK">%1$s</xliff:g>\nMais de <xliff:g id="TOTAL">%2$s</xliff:g> usuários já atualizaram para a versão <xliff:g id="VERSION">%3$s</xliff:g>"</string>
     <string name="sign_in_add_account">Ativar Conta Xiaomi agora</string>
     <string name="sign_in_add_account_helper">Receba Mi Points ao criar uma Conta Xiaomi.</string>
     <string name="my_rank">Ranking da atualização:</string>
 
-    <string name="check_update">Checar atualização</string>
+    <string name="check_update">Buscar atualizações</string>
     <string name="move_data_to_sdcard_title">Mover dados para o cartão SD</string>
     <string name="move_data_to_sdcard_not_enough_space_message">Não há espaço disponível no cartão SD para mover os <xliff:g id="SIZE">%d</xliff:g> selecionados</string>
     <string name="moving_data_to_sdcard_message">Movendo dados para o cartão SD, não remova o cartão SD ou ative o armazenamento USB.</string>
@@ -137,8 +137,8 @@
     <string name="refuse_recommend_reason">Deixe sua opinião\u2026</string>
 
   <!-- four-grid update feedback  -->
-    <string name="update_feedback">Feedback de atualização</string>
-    <string name="update_feedback_expired">Infelizmente você perdeu o prazo para o feedback de betas diários.\nMas você poderá participar novamente na próxima Terça.</string><string name="update_happy"> </string>
+    <string name="update_feedback">Comentários de atualização</string>
+    <string name="update_feedback_expired">Infelizmente você perdeu o prazo para os comentários de betas diários.\nMas você poderá participar novamente na próxima Terça. :)</string><string name="update_happy"></string>
     <string name="update_happy">Excelente!</string>
     <string name="update_general">Mais ou menos</string>
     <string name="update_sad">Ruim</string>
@@ -146,7 +146,7 @@
     <string name="best_update">Melhor atualização</string>
     <string name="worst_update">Pior atualização</string>
     <string name="expect">Expectativas</string>
-    <string name="my_update_feel">Meu feedback</string>
+    <string name="my_update_feel">Meus comentários</string>
     <string name="my_best_update">Melhor atualização</string>
     <string name="my_worst_update">Pior atualização</string>
     <string name="my_expect_update">Expectativas</string>

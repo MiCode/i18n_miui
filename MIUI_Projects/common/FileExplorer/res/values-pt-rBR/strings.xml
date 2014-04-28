@@ -142,7 +142,7 @@
     <string name="ui_main_menu_option_task_manage">Gerenciar downloads</string>
     <string name="kuaipan_label">Kuaipan</string>
     <string name="create_kuaipan_shortcut_pref">Mostrar na Tela inicial</string>
-    <string name="login_reg_content0">Use o KuaiPan de quaqlquer lugar.</string>
+    <string name="login_reg_content0">Use o KuaiPan de quallquer lugar.</string>
     <string name="login_reg_content">Armazene arquivos e sincronize-os entre múltiplos dispositivos.\nEste recurso requer uma conexão com a internet.</string>
     <string name="start_use_xiaomi_account">Iniciar uso do KuaiPan</string>
     <string name="pan_settting">Configurações do KuaiPan</string>
@@ -208,7 +208,7 @@
     <string name="ui_main_menu_option_sign_in">Login</string>
     <string name="sign_description">Efetuando login\u2026</string>
     <string name="signin_error">Não foi possível conectar-se ao servidor. Verifique sua conexão com a internet.</string>
-    <string name="signin_success">Bem-vindo!\nArmazenamento gratuito adicionado\: %1$s</string>
+    <string name="signin_success">Bem-vindo!\nArmazenamento gratuito adicionado: %1$s</string>
     <string name="already_signin_description">Você já está conectado.</string>
     <string name="pull_to_signin">Deslize para baixo para efetuar o login.</string>
     <string name="release_to_signin">Solte para efetuar o login.</string>
@@ -232,7 +232,7 @@
     <string name="ftp_transfer_secure">Segurança</string>
     <string name="ftp_port_number">Número da porta</string>
     <string name="ftp_account_req_notice"> 4~16 caracteres, letras e números, sensível a maiúsculas e minúsculas</string>
-    <string name="ftp_open_port_error">Não foi possível abrir a porta: verifique sua conexao com a internet ou altere o número da porta.</string>
+    <string name="ftp_open_port_error">Não foi possível abrir a porta: verifique sua conexão com a internet ou altere o número da porta.</string>
     <string name="ftp_anonymous_login">Login anônimo</string>
     <string name="ftp_username_and_passworld">Login</string>
     <string name="ftp_username_hint">Nome de usuário</string>
@@ -259,7 +259,7 @@
     <string name="paused">Em pausa</string>
     <string name="upload_failed">Falha no upload</string>
     <string name="download_failed">Falha no download</string>
-    <string name="operation_pause">Pausasr</string>
+    <string name="operation_pause">Pausar</string>
     <string name="operation_resume">Iniciar</string>
     <string name="operation_pause_all">Pausar todos</string>
     <string name="operation_resume_all">Iniciar todos</string>
@@ -281,7 +281,7 @@
     <!-- for 文件清理 -->
     <string name="file_cleanup">Limpeza de arquivos</string>
     <string name="scanning_on_going">Escaneando\u2026</string>
-    <string name="scanning">Escaneando <xliff:g id="count">%d</xliff:g> app(s) \u2026 (total de <xliff:g id="total">%d</xliff:g> apps)</string>
+    <string name="scanning">Escaneando <xliff:g id="count">%d</xliff:g> app(s) \u2026 (total de <xliff:g id="total">%d</xliff:g> app(s))</string>
     <string name="sys_size_title">Espaço total</string>
     <string name="sys_size">Espaço total <xliff:g id="size">%1$s</xliff:g></string>
     <string name="application_size_label">Aplicativo</string>
@@ -338,7 +338,7 @@
 
     <string name="garbage_item_name_format" formatted="false">%s ( %s )</string>
     <string name="garbage_item_path_format" formatted="false">%s %s</string>
-    <string name="account_bind_prompt">Migrando dados do usuário\u2026 Isto poderá elvar alguns minutos.</string>
+    <string name="account_bind_prompt">Migrando dados do usuário\u2026 Isto poderá levar alguns minutos.</string>
     <string name="migrate_announcement_title">Migração concluída</string>
     <string name="migrate_announcement_msg">Sincronize sua conta KuaiPan atual com sua Conta Xiaomi nas configurações do KuaiPan.</string>
     <string name="query_bind_state">Conectando-se ao KuaiPan\u2026</string>

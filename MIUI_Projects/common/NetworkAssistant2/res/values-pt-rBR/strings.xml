@@ -24,16 +24,16 @@
     <string name="main_traffic_used_only">Usado: %s</string>
     <string name="main_alert_message_no_mobile_package">O limite de dados móveis não foi definido</string>
     <string name="main_alert_message_no_imsi">Nenhum cartão SIM detectado</string>
-    <string name="main_alert_message_slot_no_data_connection">A entrada para este cartão SD não suporta\numa conexão de dados móveis</string>
+    <string name="main_alert_message_slot_no_data_connection">A entrada do cartão SIM não suporta\na conexão de dados móveis</string>
 
     <!-- firewall -->
 
-    <string name="firewall_activity_lable">Restringir uso de dados por app</string>
-    <string name="firewall_applist">Apps</string>
+    <string name="firewall_activity_lable">Restringir uso de dados por aplicativo</string>
+    <string name="firewall_applist">Aplicativos</string>
     <string name="firewall_rule_group_title_mobile">Dados</string>
     <string name="firewall_rule_group_title_wifi">Wi-Fi</string>
     <string name="firewall_fragment_tab_title_nonsys">Baixado</string>
-    <string name="firewall_fragment_tab_title_sys">Apps</string>
+    <string name="firewall_fragment_tab_title_sys">Aplicativos</string>
     <string name="firewall_fragment_sys_listempty">Vazio</string>
     <string name="firewall_fragment_nonesys_listempty">Vazio</string>
     <string name="firewall_service_network_blocked">%1$s teve seu acesso restringido ao utilizar a rede %2$s</string>
@@ -45,7 +45,7 @@
     <string name="usage_sorted_empty_text">Vazio</string>
     <string name="person_hotpot">Pontos de acesso portáteis</string>
     <string name="system_app">Sistema</string>
-    <string name="deleted_apps">Apps excluídos</string>
+    <string name="deleted_apps">Aplicativos excluídos</string>
     <string name="sorted_button">Organizar por</string>
     <string name="app_detail">Detalhes</string>
     <string name="app_version">Versão</string>
@@ -93,7 +93,7 @@
     <string name="pref_version">Versão %s</string>
     <string name="pref_leisure_no_overlay">Ativado</string>
     <string name="pref_leisure_not_opened">Desativado</string>
-    <string name="pref_new_installed_preconfig_title">Configuração padrão para novos apps</string>
+    <string name="pref_new_installed_preconfig_title">Configuração padrão para novos aplicativos</string>
 
     <!-- adjust traffic settings -->
     <string name="pref_manual_adjust">Definir estatísticas de uso manualmente</string>
@@ -178,7 +178,7 @@
     <string name="data_usage_warning_body">Toque para ver detalhes do uso de dados.</string>
     <string name="data_usage_mobile_limit_title">Os dados móveis desativados</string>
     <string name="data_usage_limit_body">Toque para ativar os dados móveis.</string>
-    <string name="data_usage_disabled_dialog">"Você atingiu seu limite de uso de dados móveis." \n\n"A utilização em excesso de seu plano de dados móveis pode resultar em cobranças extras de sua operadora."</string>
+    <string name="data_usage_disabled_dialog">"Você atingiu seu limite de uso de dados móveis.\n\nA utilização em excesso deste pacote pode resultar em cobranças adicionais de sua operadora."</string>
     <string name="data_usage_disabled_dialog_enable">Ativar dados</string>
     <string name="data_usage_mobile_limit_snoozed_title">Limite de dados móveis excedido</string>
     <string name="data_usage_limit_snoozed_body">"Você excedeu seu limite de uso de dados."</string>
@@ -208,7 +208,7 @@
     <string name="traffic_protection_summary">Defina um limite de uso para sua conexão de dados móveis (3G) para controlar sua utilização.</string>
     <string name="traffic_protection_unknown"><u>Definir depois</u></string>
     <string name="traffic_protection_text_hint">Definir limite de dados para %s</string>
-    <string name="traffic_protection_next">Próximo</string>
+    <string name="traffic_protection_next">Avançar</string>
     <string name="traffic_protection_data_usage_summary">Lembre-se, o uso em excesso do seu plano de dados móveis pode resultar em cobranças adicionais de sua operadora!</string>
     <string name="traffic_protection_use_data">Dados ativados</string>
 

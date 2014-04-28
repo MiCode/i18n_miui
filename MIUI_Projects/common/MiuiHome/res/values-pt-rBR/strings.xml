@@ -98,7 +98,7 @@
     <!-- Noun, menu item used to show the gestures settings -->
     <!-- Noun, menu item used to show the system settings -->
     <string name="menu_settings">Configurações</string>
-    <string name="menu_reset_scene">Resetar layout padrão</string>
+    <string name="menu_reset_scene">Redefinir ícones</string>
     <string name="menu_exit_scene">Sair do Mi Space</string>
 
     <!-- Permissions: -->
@@ -106,17 +106,17 @@
     <!-- Permission short label -->
     <string name="permlab_install_shortcut">Instalar atalhos</string>
     <!-- Permission description -->
-    <string name="permdesc_install_shortcut">Permite que um aplicativo adicione 
+    <string name="permdesc_install_shortcut">Permite que um aplicativo adicione os 
         atalhos sem a intervenção do usuário.</string>
     <!-- Permission short label -->
     <string name="permlab_uninstall_shortcut">Desinstalar atalhos</string>
     <!-- Permission description -->
-    <string name="permdesc_uninstall_shortcut">Permite que um aplicativo remova 
+    <string name="permdesc_uninstall_shortcut">Permite que um aplicativo remova os 
         os atalhos sem a intervenção do usuário.</string>
     <!-- Permission short label -->
     <string name="permlab_install_widget">Instalar widgets</string>
     <!-- Permission description -->
-    <string name="permdesc_install_widget">Permite que um aplicativo instale widgets 
+    <string name="permdesc_install_widget">Permite que um aplicativo instale widgets na área de trabalho 
         sem intervenção do usuário.</string>
     <!-- Permission short label -->
     <string name="permlab_read_settings">Ler configurações e atalhos da tela inicial</string>
@@ -140,26 +140,26 @@
     <string name="menu_sort">Organizar</string>
     <string name="menu_launcher_setting">Configurar launcher</string>
     <string name="editing_tips">Editar tela inicial</string>
-    <string name="multi_selecting_tips">Para selecionar um app, toque em seu ícone</string>
+    <string name="multi_selecting_tips">Para selecionar um aplicativo, toque em seu ícone</string>
     <string name="editing_add_widget_tips">Editar widgets</string>
     <string name="editing_set_wallpaper_tips">Escolher plano de fundo</string>
     <string name="editing_set_transition_effect_tips">Escolha um efeito de transição de tela</string>
     <string name="cant_remove_system_app">Impossível excluir um aplicativo do sistema</string>
-    <string name="cant_remove_retained_app">Impossvel desinstalar este aplicativo</string>
+    <string name="cant_remove_retained_app">Impossível desinstalar este aplicativo</string>
     <plurals name="uninstall_dialog_title_format">
         <item quantity="one">Desinstalar <xliff:g id="appname">%s</xliff:g></item>
-        <item quantity="two"> Desinstalar <xliff:g id="appname">%s</xliff:g> e 1 outro app?</item>
-        <item quantity="other"> Desinstalar <xliff:g id="appname">%s</xliff:g> e <xliff:g id="count">%d</xliff:g> outros apps?</item>
+        <item quantity="two">Desinstalar <xliff:g id="appname">%s</xliff:g> e 1 outro aplicativo?</item>
+        <item quantity="other">Desinstalar <xliff:g id="appname">%s</xliff:g> e <xliff:g id="count">%d</xliff:g> outros aplicativos?</item>
     </plurals>
     <string name="uninstall_dialog_message">A desinstalação apagará todos os dados do aplicativo.</string>
     <plurals name="uninstall_result_succeeded">
-        <item quantity="one">App desinstalado</item>
-        <item quantity="other">%1$d apps desinstalados</item>
+        <item quantity="one">Aplicativo desinstalado</item>
+        <item quantity="other">%1$d aplicativos desinstalados</item>
     </plurals>
     <plurals name="uninstall_result_failed">
         <item quantity="one">Impossível desinstalar <xliff:g id="appname">%s</xliff:g></item>
-        <item quantity="two">Impossível desinstalar <xliff:g id="appname">%s</xliff:g> e 1 outro app</item>
-        <item quantity="other">Impossível desinstalar <xliff:g id="appname">%s</xliff:g> e <xliff:g id="count">%d</xliff:g> outros apps</item>
+        <item quantity="two">Impossível desinstalar <xliff:g id="appname">%s</xliff:g> e 1 outro aplicativo</item>
+        <item quantity="other">Impossível desinstalar <xliff:g id="appname">%s</xliff:g> e <xliff:g id="count">%d</xliff:g> outros aplicativos</item>
     </plurals>
     <string name="uninstall_dialog_title_format">Desinstalar %s</string>
     <string name="uninstall">Desinstalar</string>
@@ -264,13 +264,13 @@
     <string name="gadget_weather_title">Clima</string>
     <string name="gadget_weather_title_24">Clima</string>
     <string name="gadget_weather_title_14">Clima</string>
-    <string name="gadget_weather_app_not_installed">Clique para instalar o app MIUI Clima</string>
+    <string name="gadget_weather_app_not_installed">Clique para instalar o aplicativo MIUI Clima</string>
     <string name="gadget_weather_time_format">dd/MM EEE</string>
     <string name="gadget_weather_theme_type">Tipo de Gadget</string>
     <string name="gadget_weather_download_title">Download</string>
-    <string name="gadget_weather_download_message">É necessário baixar conteúdo do app: %1$s (%2$s). Reinicie o app após o término do download.</string>
+    <string name="gadget_weather_download_message">É necessário baixar conteúdo do aplicativo: %1$s (%2$s). Reinicie o aplicativo após o término do download.</string>
     <string name="gadget_weather_download_start">Download</string>
-    <string name="gadget_weather_downloading">Fazendo download do conteúdo adicional. Reinicie o app após o término do download.</string>
+    <string name="gadget_weather_downloading">Fazendo download do conteúdo adicional. Reinicie o aplicativo após o término do download.</string>
     <string name="gadget_weather_low_temp">Baixa temperatura</string>
     <string name="gadget_weather_aqi_title">Qualidade do ar:</string>
     <string name="aqi_quality_index_good">Boa</string>
@@ -280,10 +280,10 @@
     <string name="aqi_quality_index_dangerous">Péssima</string>
     <string name="aqi_quality_index_hazardous">Perigosa</string>
 
-    <string name="free_style_apps_title">Selecionar app</string>
+    <string name="free_style_apps_title">Selecionar aplicativo</string>
     <string name="free_style_edit_bottom_empty_tip">Toque no retângulo para editar</string>
     <string name="free_style_edit_bar_empty">Vazio</string>
-    <string name="free_style_edit_bar_select_app">Selecionar app</string>
+    <string name="free_style_edit_bar_select_app">Selecionar aplicativo</string>
     <string name="free_style_enter_tip">Deslize dois dedos para baixo para acessar o MiSpace</string>
     <string name="free_style_exit_tip">Deslize dois dedos para cima para retornar à tela inicial padrão</string>
     <string name="free_style_londing_text">Carregando\u2026</string>
@@ -301,10 +301,10 @@
     <string name="free_style_edit_drawer">Gaveta</string>
     <string name="free_style_drawer_title">Todos os aplicativos</string>
 
-    <string name="guide_install_app_title">Instalar app</string>
+    <string name="guide_install_app_title">Instalar aplicativo</string>
     <string name="guide_install_app_msg">O aplicativo não está instalado. Pesquisá-lo e efetuar download agora?</string>
     <string name="menu_customize">Configurações</string>
     <string name="menu_picktheme">Escolher tema</string>
-    <string name="scroll_tip_format_when_announce_accessibility">página %1$d, %2$d apps</string>
+    <string name="scroll_tip_format_when_announce_accessibility">página %1$d, %2$d aplicativos</string>
 
 </resources>

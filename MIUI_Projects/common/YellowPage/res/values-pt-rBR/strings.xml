@@ -9,11 +9,11 @@
     <string name="call">Call</string>
 
     <!-- Loading process related -->
-    <string name="check_network">Configurações de rede</string>
+    <string name="check_network">Ver configuração de rede</string>
     <string name="try_again">Repetir</string>
     <string name="network_unavaliable">Rede indisponível, verifique as configurações de rede</string>
-    <string name="service_unavailiable">Serviço indisponível</string>
-    <string name="data_error">Ocorreu um erro desconhecido</string>
+    <string name="service_unavailiable">Sua configuração está incorreta, por favor revise-as!</string>
+    <string name="data_error">Serviço atual indisponível, tente novamente mais tarde</string>
     <string name="locating_fail">Falha ao localizar, por favor verifique seu serviço de localização</string>
     <string name="no_more_result">Sem mais resultados</string>
     <string name="downloading">Efetuando download\u2026</string>
@@ -72,40 +72,40 @@
 
     <!-- Mark related -->
     <string name="custom_mark_category">Personalizado</string>
-    <string name="mark_number_dialog_maintitle">Marcar número e enviar</string>
-    <string name="mark_number_custom_dialog_maintitle">Confirmar ou corrigir marcação</string>
+    <string name="mark_number_dialog_maintitle">Marcar como desconhecido e enviar</string>
+    <string name="mark_number_custom_dialog_maintitle">Concordar ou desfazer marcação</string>
     <string name="delete">Excluir</string>
-    <string name="selected_category_format">Marcado por %2$d pessoas como %1$s. Toque para confirmar.</string>
-    <string name="mark_title_null_hint">É necessário inserir uma marcação</string>
+    <string name="selected_category_format">%1$s (%2$d pessoas já o marcaram)</string>
+    <string name="mark_title_null_hint">Campo não pode ficar em branco</string>
 
     <!-- Setting related -->
     <string name="smart_antispam">Identificar números desconhecidos</string>
     <string name="turn_on_smart_antispam_hint">Identifique chamadas de números desconhecidos utilizando o diretório de marcações da Xiaomi</string>
     <string name="turn_on_smart_antispam_title">Identificar números desconhecidos</string>
-    <string name="turn_on_smart_antispam_summary_on">Identificar números desconhecidos no registro de chamadas e enfetuar upload das marcações</string>
-    <string name="turn_on_smart_antispam_summary_off">Pesquisar somente números salvos neste dispositivo</string>
+    <string name="turn_on_smart_antispam_summary_on">Identificar números desconhecidos e enviar marcações</string>
+    <string name="turn_on_smart_antispam_summary_off">Verificar somente em base de dados local</string>
     <string name="agree">Aceitar</string>
-    <string name="user_notice_identify_summary_format">Seu telefone utilizará o diretório de marcações da Xiaomi para bloquear chamadas quando conectado a uma rede Wi-Fi. Ao tocar em \"Aceitar\" você estará concordando com a %1$s e %2$s.</string>
-    <string name="user_notice_yp_detail_summary_format">As informações do diretório de marcações estão desatualizadas. Você deseja atualizá-las/ Ao tocar em \"Aceitar\" você estará concordando com a %1$s e %2$s.</string>
-    <string name="about_smart_antispam_summary">Sobre este recurso</string>
-    <string name="about_telephone_fraud">Sobre frudes telefônicas</string>
-    <string name="notify_connect_every_time">Solicitar permissão para conexões de rede</string>
-    <string name="do_not_remind_me">Não lembrar novamente</string>
+    <string name="user_notice_identify_summary_format">A identificação de números desconhecidos é feita pela internet. Por favor leia %1$s e %2$s antes de utilizá-lo.</string>
+    <string name="user_notice_yp_detail_summary_format">A informação parcial destas páginas amarelas precisam ser atualizadas online, por favor leia %1$s e %2$s, ao clicar em Aceitar, você estará concordando automaticamente com estes termos. Clique em Cancelar para ver apenas informações básicas.</string>
+    <string name="about_smart_antispam_summary">Sobre a detecção de números desconhecidos</string>
+    <string name="about_telephone_fraud">Sobre fraudes telefônicas</string>
+    <string name="notify_connect_every_time">Sempre solicitar permissões de rede</string>
+    <string name="do_not_remind_me">Não me lembrar</string>
 
     <!-- Common web page related -->
     <string name="title_about_yellow_page">Sobre</string>
 
     <!-- Payment related -->
     <string name="payment_back">voltar</string>
-    <string name="payment_failed_common_problems">Ocorreu um problema durante o pagamento</string>
+    <string name="payment_failed_common_problems">Ocorreu um problema durante o pagamento.</string>
     <string name="payment_unknown_status_title">Impossível confirmar estado do pagamento</string>
-    <string name="payment_unknown_status_summary">Verifique sua conexão com a internet e tente novamente.</string>
+    <string name="payment_unknown_status_summary">Verifique sua conexão com a internet e tente novamente</string>
 
     <!-- Recharge related -->
     <string name="recharge_input_phone_title">Insira o número de telefone (China mobile, China Unicom, ou China Telecom)</string>
     <string name="recharge_select_money_title">Selecione um valor</string>
-    <string name="recharge_charge_range">Preço: RMB %1$s-%2$s</string>
-    <string name="recharge_charge_value">Preço: RMB %s</string>
+    <string name="recharge_charge_range">Preço: ¥%1$s-%2$s</string>
+    <string name="recharge_charge_value">Preço: ¥%s</string>
     <string name="recharge_pay">Recarregar agora</string>
     <string name="recharge_pay_hint">Suporte fornecido por Xiaomi</string>
     <string name="mishop_web_payment_title">Checkout MiStore</string>
@@ -117,14 +117,14 @@
     <string name="recharge_payment_result_failed_summary">Por favor tente novamente</string>
     <string name="recharge_payment_result_progress_summary">Checando resultado do pagamento\u2026</string>
     <string name="recharge_phone_number_error">Número de telefone inválido.</string>
-    <string name="recharge_phone_number_empty">O número do telefone não pode estar em branco</string>
+    <string name="recharge_phone_number_empty">Digite um número de telefone válido</string>
     <string name="recharge_user_confirm_title">Confirmar</string>
     <string name="recharge_user_confirm_summary">Você será cobrado em RMB %2$s por %1$s.\n\nValor total: RMB %3$s</string>
     <string name="recharge_order_id">ID da compra:</string>
-    <string name="recharge_status_description">Status：</string>
+    <string name="recharge_status_description">Estado:</string>
     <string name="recharge_actual_price">Preço：</string>
     <string name="recharge_order_original_price">RMB %s</string>
-    <string name="recharge_order_actual_price">\u00A5%s</string>
+    <string name="recharge_order_actual_price">¥%s</string>
     <string name="recharge_order_pay">Pagar</string>
     <string name="recharge_history">Histórico de recarga</string>
     <string name="recharge_history_empty">Nenhum histórico.</string>
@@ -155,12 +155,12 @@
     <string name="express_inquiry_button_text">Rastrear</string>
     <string name="express_inquiry_serial_number_prefix">Número: \u0020</string>
     <string name="express_inquiry_no_result">Nenhum resultado.</string>
-    <string name="express_inquiry_internal_failure">Ocorreu um erro.\nPor favor verifique o código de rastreamento.</string>
-    <string name="express_inquiry_data_owner_prefix">Informações de rastreamento fornecidas por </string>
+    <string name="express_inquiry_internal_failure">"Ocorreu um erro.\nPor favor verifique seu número de rastreamento."</string>
+    <string name="express_inquiry_data_owner_prefix">Informações de rastreamento fornecidas por</string>
     <string name="express_inquiry_data_owner_suffix"></string>
     <string name="scan">Escanear</string>
     <string name="express_inqiury_select_logistics">Selecionar operadora</string>
-    <string name="expresss_inquiry_frequently_used_logistics">Comuns</string>
+    <string name="expresss_inquiry_frequently_used_logistics">Frequentes</string>
     <string name="expresss_inquiry_all_logistics">Todos</string>
     <string name="express_inquiry_history">Histórico</string>
     <string name="express_inquiry_delivered">Entregues</string>
@@ -173,7 +173,7 @@
     <string name="express_addressee">Destinatário</string>
     <string name="express_addressee_info">Informações do destinatário</string>
     <string name="express_add_new_address">Adicionar endereço</string>
-    <string name="express_next_step">Próximo</string>
+    <string name="express_next_step">Avançar</string>
     <string name="express_create_order">Criar</string>
     <string name="express_view_order">Ver compras</string>
     <string name="express_go_back">Voltar</string>
@@ -202,7 +202,7 @@
 
     <!-- Scams numbers related -->
     <string name="remind_user_suspect_number_title">Cuidado com chamadas fraudulentas</string>
-    <string name="remind_user_suspect_number_message">"Crimonosos podem roubar a identidade de outras pessoas para fraude. Caso tenha dúvidas, retorne a chamada para verificar a identidade de quem ligou. Bancos, serviços de e-commerce e empresas de courier nunca solicitam sua senha ou informações do seu cartão de crédito."</string>
+    <string name="remind_user_suspect_number_message">"Criminosos podem roubar a identidade de outras pessoas para fraude. Caso tenha dúvidas, retorne a chamada para verificar a identidade de quem ligou. Bancos, serviços de e-commerce e empresas de courier nunca solicitam sua senha ou informações do seu cartão de crédito."</string>
     <string name="remind_another_time">"Não me lembrar"</string>
     <string name="remind_user_confirm">OK</string>
 
@@ -211,11 +211,11 @@
     <string name="balance_inquiry_default_sp_name">Operadora</string>
     <string name="balance_inquiry_send_sms_hint">Uma mensagem SMS gratuita será enviada para verificar o seu saldo</string>
     <string name="balance_inquiry_send_sms_summmary">Verifique seu saldo</string>
-    <string name="balance_inquiry_send_sms_fail_hint">"Failed to send SMS. Check your SIM card's status."</string>
+    <string name="balance_inquiry_send_sms_fail_hint">Falha ao enviar SMS. Verifique o estado de seu cartão SIM.</string>
 
     <!-- 导航相关 -->
     <string name="navigation_search_automatically_positioned_city">Cidade atual</string>
-    <string name="navigation_search_positioning">Localizando...</string>
+    <string name="navigation_search_positioning">Localizando\u2026</string>
     <string name="navigation_search_positioning_failed">Falha ao localizar cidade</string>
     <string name="navigation_search_no_city_list">Nenhum dado encontrado!</string>
     <string name="navigation_search_hot_cities">Popular</string>
@@ -241,7 +241,7 @@
     <string name="general_delete_recent_ok">Recentes excluídos</string>
 
     <!-- Nearby yellowpage related -->
-    <string name="nearby_yellow_page_title">Próximo</string>
-    <string name="nearby_no_yellow_page">Nenhum resultado próximo</string>
+    <string name="nearby_yellow_page_title">Próximos</string>
+    <string name="nearby_no_yellow_page">Sem resultados próximos</string>
     <string name="nearby_yellow_page_title_format">%1$s-%2$s</string>
 </resources>

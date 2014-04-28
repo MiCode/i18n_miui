@@ -7,7 +7,7 @@
     <!-- About phone screen, status item label -->
     <string name="firmware_version">Versão do Android</string>
     <!-- About phone screen, status item label -->
-    <string name="model_number">Número do modelo</string>
+    <string name="model_number">Modelo do telefone</string>
 
     <!-- About phone screen,  setting option name -->
     <string name="device_miui_version">Versão MIUI</string>
@@ -23,7 +23,7 @@
     <string name="memory_title">"Disponível: <xliff:g id="SIZE">%1$s</xliff:g>\t\tTotal: <xliff:g id="SIZE">%2$s</xliff:g></string>
 
     <string name="xiaomi_account">"Conta Xiaomi"</string>
-    <string name="sync_settings">Contas &amp; sincronização</string>
+    <string name="sync_settings">Sincronização</string>
 
     <string name="sms_received_sound_title">Toque de SMS recebida</string>
     <string name="sms_delivered_sound_title">Toque de SMS entregue</string>
@@ -50,7 +50,7 @@
     <string name="access_control_need_password"><xliff:g id="ACCESS">%s</xliff:g> é protegido por senha\n</string>
     <string name="access_control_no_back_footer">Pressione [icon] para sair</string>
     <string name="access_control_recording_intro_header">Desenhe um padrão para desbloqueio:</string>
-    <string name="access_control_app_entry_single">Executar app</string>
+    <string name="access_control_app_entry_single">Executar aplicativo</string>
     <string name="access_control_app_entry_multiple">Executar <xliff:g id="ENTRY">%s</xliff:g></string>
     <string name="apn_mms">MMS</string>
     <string name="apn_general">Geral</string>
@@ -60,7 +60,7 @@
     <string name="screen_timeout_title">Tempo limite da tela</string>
     <string name="touch_title">Touch Screen</string>
     <string name="touch_sensitive_title">Modo com luvas</string>
-    <string name="touch_sensitive_summary">Faça com que o touch screen do telefone fique mais sensivel, permitindo a operação do telefone usando luvas"</string>
+    <string name="touch_sensitive_summary">Faça com que o touch screen do telefone fique mais sensível, permitindo a operação do telefone usando luvas"</string>
     <string name="touch_sensitive_turn_off_title">Modo com luvas desativado</string>
     <string name="touch_sensitive_turn_off_summary">Desativar também a prevenção de má operação da tela?</string>
     <string name="touch_sensitive_turn_off_confirm">OK</string>
@@ -103,7 +103,7 @@
     <string name="camera_key_action_toggle_title">Atalhos de configuração</string>
     <string name="camera_key_action_app_title">Executar Aplicativo</string>
     <string name="camera_key_action_shortcut_home">Tela Inicial</string>
-    <string name="camera_key_action_shortcut_screenshot">Captura de tela</string>
+    <string name="camera_key_action_shortcut_screenshot">Screenshot</string>
     <string name="camera_key_action_shortcut_search">Pesquisar</string>
     <string name="camera_key_action_shortcut_call">Chamada</string>
     <string name="camera_key_action_shortcut_wake">Bloqueio do telefone</string>
@@ -121,7 +121,7 @@
     <string name="power_usage_history">Uso da bateria</string>
     <string name="default_usb_mode">Conexão USB padrão</string>
     <string name="tether_settings_title_all">Tethering e acesso portátil</string>
-    <string name="radio_controls_title">Mais...</string>
+    <string name="radio_controls_title">Mais\u2026</string>
     <string name="unlock_set_unlock_summary">Por favor ative a segurança para utilizar a proteção por senha</string>
     <string name="lock_settings_picker_settings">Bloqueio de tela</string>
     <string name="lock_screen_unlock_show">Exibir UI de desbloqueio de senha</string>
@@ -139,12 +139,12 @@
     <string name="manually_add_network">Adicionar rede manualmente</string>
     <string name="network_detail">Detalhes da rede <xliff:g id="NETWORK">%s</xliff:g></string>
     <string name="connected_wifi">Wi-Fi Conectada</string>
-    <string name="lockpattern_recording_intro_header">Desenhar um padrão de desbloqueio:</string>
-    <string name="lockpattern_pattern_confirmed_header">Seu novo padrão de desbloqueio:</string>
-    <string name="lockpattern_pattern_entered_header">Padrão registrado.</string>
+    <string name="lockpattern_recording_intro_header">Desenhe um padrão de desbloqueio</string>
+    <string name="lockpattern_pattern_confirmed_header">Seu novo padrão de desbloqueio</string>
+    <string name="lockpattern_pattern_entered_header">Padrão registrado</string>
     <!-- Security & location settings screen, change unlock pattern screen instruction on top of screen to confirm pattern-->
-    <string name="lockpattern_need_to_confirm">Desenhe o padrão novamente para confirmar:</string>
-    <string name="lockpattern_recording_inprogress">Solte o dedo quando terminar.</string>
+    <string name="lockpattern_need_to_confirm">Desenhe o padrão novamente para confirmar</string>
+    <string name="lockpattern_recording_inprogress">Levante o dedo ao terminar</string>
     <string name="lockpattern_need_to_unlock_wrong">Tente novamente:</string>
     <string name="lockpattern_settings_enable_power_button_instantly_locks">Bloquear com botão liga/desliga</string>
 
@@ -192,13 +192,13 @@
     <!-- SIM lock settings title -->
     <string name="sim_lock_settings">Bloqueio do SIM</string>
     <!-- Security & location settings screen, setting option name -->
-    <string name="sim_lock_settings_category">Configurar bloqueio por PIN</string>
+    <string name="sim_lock_settings_category">Configurar bloqueio do SIM</string>
     <!-- Security & location settings screen, section heading for settings related to sim card locking -->
     <string name="sim_lock_settings_title">Bloqueio do cartão SIM</string>
     <!-- SIM password can't be changed as SIM LOCK is not enabled: -->
     <string name="sim_change_failed_enable_sim_lock">Impossível alterar PIN do SIM. Ative o bloqueio do SIM.</string>
     <!-- SIM lock can't be changed - not supported -->
-    <string name="sim_lock_change_not_supported">Impossível alterar bloqueio do SIM.\n O cartão SIM não oferece este suporte.</string>
+    <string name="sim_lock_change_not_supported">Impossível alterar bloqueio do SIM.\nSeu cartão SIM não suporta esta função.</string>
 
     <!-- APN setting -->
     <string name="apn_new">Novo Ponto de Acesso</string>
@@ -309,7 +309,7 @@ Usar este método de entrada?</string>
     <string name="master_clear_personal_data_application">"Tem certeza que deseja apagar seus dados pessoais e aplicativos instalados? Atenção, esta operação não pode ser desfeita"</string>
     <string name="master_clear_personal_data_sdcard">"Tem certeza que deseja apagar seus dados pessoais e formatar o cartão SD? Atenção, esta operação não pode ser desfeita"</string>
     <string name="master_clear_all">"Tem certeza que deseja apagar todos os seus dados para as configurações de fábrica? Atenção, esta operação não pode ser desfeita"</string>
-    <string name="master_clear_erase_application_progress">Apagando apps\u2026</string>
+    <string name="master_clear_erase_application_progress">Apagando aplicativos\u2026</string>
     <string name="erase_internal_storage">Apagar cartão SD emulado</string>
     <string name="erase_internal_storage_description">Apagar todos os cados no cartão SD emulado, como fotos e músicas</string>
     <string name="storage_format">Formatar</string>
@@ -326,7 +326,7 @@ Usar este método de entrada?</string>
     <string name="show_magnifier_when_input">Exibir lupa</string>
 
     <!-- Volumn settings -->
-    <string name="volume_ring_description">Ringtones &amp; notificações</string>
+    <string name="volume_ring_description">Ringtones e notificações</string>
     <string name="volume_alarm_description">Alarmes</string>
     <string name="volume_voice_description">Volume de chamadas</string>
     <string name="volume_media_description">Música, vídeo, jogos e outras mídias</string>
@@ -355,15 +355,15 @@ Usar este método de entrada?</string>
     <string name="virus_scanner_select_single">É recomendado que você selecione o banco de dados mais confiável para uso com o programa</string>
     <string name="virus_scanner_select_OK">OK</string>
     <string name="virus_scanner_select_Cancel">Cancelar</string>
-    <string name="virus_scanner_provider">Suporte de segurança fornecido por %s</string>
-    <string name="virus_scanner_auto_update">Atualização autom.</string>
+    <string name="virus_scanner_provider">Definições de antivírus fornecidas por Tencent</string>
+    <string name="virus_scanner_auto_update">Atualização automática</string>
     <string name="virus_scanner_date_formater">dd MMM. yyyy</string>
     <string name="virus_scanner_manual_update">Atualizar %s</string>
     <string name="virus_scanner_lib_updating">Atualizando definições\u2026</string>
-    <string name="virus_scanner_lib_already_latest">Banco de dados de vírus atualizado :)</string>
+    <string name="virus_scanner_lib_already_latest">Definições de vírus atualizadas.</string>
     <string name="virus_scanner_lib_update_failed">Falha na atualização do banco de dados de vírus</string>
     <string name="virus_scan_app_safe_scanning">Escaneando\u2026</string>
-    <string name="virus_scan_app_multi_engines">Você selecionou várias definições de vírus, a verificação poderá demorar um pouco.</string>
+    <string name="virus_scan_app_multi_engines">Você selecionou vários mecanismos de escaneamento. A verificação poderá ser mais longa.</string>
     <string name="virus_scan_app_scanning">Escaneando\u2026</string>
     <string name="virus_scan_app_waiting">Aguardando\u2026</string>
     <string name="virus_scan_app_passed">Concluído</string>
@@ -371,12 +371,12 @@ Usar este método de entrada?</string>
     <string name="virus_scan_app_stop_scan">Parar</string>
     <string name="virus_scan_app_finish">Concluído</string>
     <string name="virus_scan_app_continue">Continuar varredura</string>
-    <string name="virus_scan_app_uninstall">Desinstalar (% d)</string>
-    <string name="virus_scan_app_force_stop">Varredura interrompida</string>
-    <string name="virus_scan_app_find_risk">% d software(s) com risco(s), É recomendável que se faça a desinstalação</string>
+    <string name="virus_scan_app_uninstall">Desinstalar %d apps</string>
+    <string name="virus_scan_app_force_stop">Escaneamento interrompido</string>
+    <string name="virus_scan_app_find_risk">%d aplicativos com potenciais riscos de segurança</string>
     <string name="virus_scan_app_scan_finish">Varredura concluída</string>
     <string name="virus_scan_app_no_risk">Nenhum risco encontrado</string>
-    <string name="virus_scan_app_is_stop_scan">Interromper varredura?</string>
+    <string name="virus_scan_app_is_stop_scan">Interromper verificação?</string>
 
     <string name="password_guard">Proteção</string>
 
@@ -399,8 +399,8 @@ Usar este método de entrada?</string>
     <string name="dolby_eq_enter_alert_title">Ligar Dolby Music</string>
     <string name="dolby_eq_enter_alert_msg">Você somente poderá utilizar o equalizador no modo Dolby Music. Habilitá-lo agora?</string>
 
-    <string name="dirac_switch_title">Melhorias de áudio</string>
-    <string name="dirac_switch_summary">Sempre utilizar as melhorias de áudio ao utilizar alto-falantes</string>
+    <string name="dirac_switch_title">Mi Sound</string>
+    <string name="dirac_switch_summary">Sempre utilizar o Mi Sound ao utilizar os alto-falantes</string>
     <string name="dirac_mode_off">Dirac desligado</string>
     <string name="dirac_mode_in_ear">"Fones Xiaomi in-ear"</string>
     <string name="dirac_mode_earbuds">"Earbuds Xiaomi"</string>
@@ -414,12 +414,12 @@ Usar este método de entrada?</string>
     <string name="wifi_p2p_settings_title">Wi-Fi Direct</string>
 
     <!-- Wi-Fi Display settings -->
-    <string name="wifi_menu_wfd">Wi-Fi Display</string>
+    <string name="wifi_menu_wfd">Display sem fio</string>
     <!-- Used in the 1st-level settings screen to launch Wi-Fi Display settings [CHAR LIMIT=25] -->
-    <string name="wfd_settings_title">Configurações do Wi-Fi Display</string>
-    <string name="wfd_settings_description">Conectar-se a um Wi-Fi Display</string>
-    <string name="wfd_enabler_title">Ativar Wi-Fi Display</string>
-    <string name="wfd_enable_wifi_diag_title">Você só pode utilizar o Wi-Fi Display quando o Wi-Fi está ativado. Ativar agora?</string>
+    <string name="wfd_settings_title">Configurações do Display sem fio</string>
+    <string name="wfd_settings_description">Conectar-se a um Display sem fio</string>
+    <string name="wfd_enabler_title">Ativar Display sem fio</string>
+    <string name="wfd_enable_wifi_diag_title">Você só pode utilizar o Display sem fio quando o Wi-Fi está ativado. Ativar agora?</string>
     <!-- Menu option to discover peers -->
     <string name="wfd_menu_search">Pesquisar dispositivos</string>
     <!-- Menu option when discovery is in progress [CHAR LIMIT=25] -->
@@ -431,9 +431,9 @@ Usar este método de entrada?</string>
     <!-- Title for disconnect dialog -->
     <string name="wfd_disconnect_diag_title">Desfazer sessão?</string>
     <!-- Message text for disconnection from one device -->
-    <string name="wfd_disconnect_diag_msg">Se você interromper o serviço do Wi-Fi Display, sua conexão com <xliff:g id="peer_name">%1$s</xliff:g> será terminada.</string>
+    <string name="wfd_disconnect_diag_msg">Se você interromper o serviço do Display sem fio, sua conexão com <xliff:g id="peer_name">%1$s</xliff:g> será terminada.</string>
     <!-- Message text for disconnection from multiple devices -->
-    <string name="wfd_disconnect_multiple_diag_message">Se você interromper o serviço do Wireless Display, sua conexão com %1$s e %2$s outros telefones serão desconectados.</string>
+    <string name="wfd_disconnect_multiple_diag_message">Se você interromper o serviço do Display sem fio, sua conexão com %1$s e %2$s outros telefones serão desconectados.</string>
     <string name="wfd_wps_keypad">Preferir botão de config.</string>
     <string name="wfd_wps_pbc">Preferir PIN</string>
 
@@ -442,16 +442,16 @@ Usar este método de entrada?</string>
 
     <!-- msd driver -->
     <string name="msd_help_title">Ajuda de MTP</string>
-    <string name="msd_help_summary">Tendo dificuldades ao acessar o armazenamento em massa de seu telefone pelo computador?\nSelecione seu sistema operacional:</string>
+    <string name="msd_help_summary">Tendo dificuldades ao acessar o armazenamento em massa de seu telefone pelo computador? \nPor favor selecione o sistema operacional do seu computador:</string>
     <string name="msd_install_succeed">Driver instalado</string>
-    <string name="msd_install_next">Próximo</string>
-    <string name="msd_install">Reinstalar driver?</string>
+    <string name="msd_install_next">Avançar</string>
+    <string name="msd_install">Reinstalar driver</string>
     <string name="msd_install_finish">OK</string>
     <string name="msd_install_windows_xp_step_2_1">Siga os passos no Assistente de Instalação para concluir o procedimento.</string>
-    <string name="msd_install_retry_windows_xp">"Se o computador falhar ao detectar seu telefone,\ntente o seguinte:\n<li>1) Reconecte o cabo USB.</li>\n<li>2) Reinstale o driver.</li>"</string>
-    <string name="msd_install_retry_windows_vista">"Se o computador falhar a detectar seu telefone,\nTente reconectar o cabo USB."</string> 
-    <string name="msd_install_retry_mac">"Se o computador falhar ao detectar seu telefone,\nTente o seguinte:\n<li>Faça uma busca por\nAndroid File Transfer,\ne execute o software.</li>\n<li>Reconecte o cabo USN.</li>\n<li>Reinstale o driver.</li>"</string> 
-    <string name="msd_install_retry_linux">"Se o computador falhar a detectar seu telefone,\nTente o seguinte:\n1) Utilize a ferramenta de instalação \"sudo apt-get install mtpfs libfuse-dev libmad0-dev\"\n2) Crie uma pasta \"mkdir\" /media/mtp\n3) Confirme as permissões do grupo de usuário para o atual usuário fuse.\n4) Efetue o login novamente.\n5) Acesse o telefone na pasta /media/mtp pelo Explorador de arquivos.\n6) Desmonte o dispositivo após o uso.\n Nota: para ubuntu 8.04"</string>
+    <string name="msd_install_retry_windows_xp">"Se o computador falhar ao detectar seu telefone, \nTente o seguinte: \n"<li>1) Reconecte o cabo USB.</li>"\n"<li>2) Reinstale o driver.</li></string>
+    <string name="msd_install_retry_windows_vista">"Se o computador falhar a detectar seu telefone, \nTente reconectar o cabo USB."</string>
+    <string name="msd_install_retry_mac">"Se o computador falhar ao detectar seu telefone, \nTente o seguinte: \n"<li>"Pesquise por\nAndroid File Transfer,\ne execute o software."</li>"\n"<li>Reconecte o cabo USB.</li>"\n"<li>Reinstale o driver.</li></string>
+    <string name="msd_install_retry_linux">"Se o computador falhar a detectar seu telefone,\nTente o seguinte: \n1) Instale os seguintes pacotes através do apt-get install mtps libfuse-dev libmad0-dev \n2) Criar o diretório para montagem com o comando mkdir /media/mtp \n3) Confirme as permissões de grupo de usuário no grupo fuse \n4) Re-login \n5) Accesse o dispositivo montado mtpfs /media/mtp através do FileExplorer \n6) Desmonte o telefone com fusermount -u /media/mtp  \nNota: Para Ubuntu 8.04"</string>
     <string name="msd_install_status_undo">Instalar driver</string>
     <string name="msd_install_status_done">Driver instalado</string>
     <string name="msd_driver_download">Transferir driver</string>
@@ -494,7 +494,7 @@ Usar este método de entrada?</string>
     <string name="drive_mode_auto_sms_reply_content_title">Conteúdo da mensagem</string>
 
     <string name="wifi_network_prefix_length">Tamanho do pref. de rede</string>
-    <string name="proxy_port_label">Porta</string>
+    <string name="proxy_port_label">Porta do proxy</string>
     <string name="proxy_exclusionlist_label">Evitar proxy para</string>
     <string name="proxy_hostname_label">Hostname do proxy</string>
 
@@ -521,47 +521,47 @@ Usar este método de entrada?</string>
     <string name="finish_application">Finalizar</string>
     <string name="header_category_accounts">Contas</string>
 
-    <string name="auto_startup_application_manage">Início automático de apps</string>
-    <string name="auto_startup_count">%apps iniciam automaticamente</string>
+    <string name="auto_startup_application_manage">Início automático de aplicativos</string>
+    <string name="auto_startup_count">%d aplicativos iniciam automaticamente</string>
     <string name="man_add_application">Incluir aplicativo</string>
     <string name="application_item_disable">Negar</string>
     <string name="application_item_permission">Permitir</string>
     <string name="application_item_already_permission">Permitido</string>
-    <string name="application_forbid_auto_startup">Desativar início automático de %s</string>
-    <string name="floating_window_switch_label">Exibir janela popup</string>
-    <string name="floating_window_switch_label_disable">Ocultar janela popup</string>
-    <string name="app_floating_window_dlg_enable">"Permitir que <xliff:g id="PACKAGE_NAME">%1$s</xliff:g> exiba janelas suspensas? Será necessário reiniciar o aplicativo. \nVocê pode encerrar manualmente o aplicativo em execução.</string>
-    <string name="app_floating_window_dlg_disable">"Proibir que <xliff:g id="PACKAGE_NAME">%1$s</xliff:g> exiba janelas suspensas? Será necessário reiniciar o aplicativo.\nVocê pode encerrar manualmente o aplicativo em execução.</string>
+    <string name="application_forbid_auto_startup">Desativar início automático de %s?</string>
+    <string name="floating_window_switch_label">Mostrar janela pop-up</string>
+    <string name="floating_window_switch_label_disable">Ocultar janela pop-up</string>
+    <string name="app_floating_window_dlg_enable">"Ao ativar as janelas pop-up para <xliff:g id="PACKAGE_NAME">%1$s</xliff:g> será necessária a reinicialização do aplicativo. Você pode reiniciá-lor manualmente caso queira. \nDeseja ativar o recurso agora?."</string>
+    <string name="app_floating_window_dlg_disable">"Ao desativar as janelas pop-up para <xliff:g id="PACKAGE_NAME">%1$s</xliff:g> será necessária a reinicialização do aplicativo. Você pode reiniciá-lo manualmente caso queira. \nDeseja desativar o recurso agora?"</string>
 
     <string name="wps_category">WPS</string>
     <string name="wps_connect_title">Conexão WPS</string>
     <string name="wps_connect_summary">Configura uma conexão a roteadores com suporte a WPS</string>
-    <string name="retry">Reiniciar</string>
+    <string name="retry">Repetir</string>
 
     <string name="brightness_auto_adjust_off">O brilho da tela irá permanecer inalterado em qualquer ambiente</string>
     <string name="brightness_auto_adjust_on">O brilho da tela irá variar de acordo com a iluminação ambiente</string>
 
     <!-- private sms -->
     <string name="private_sms_need_to_unlock">Insira sua senha:</string>
-    <string name="private_sms_reset_by_account">Faça o login em sua Conta Xiaomi para resetar sua senha de SMS privada</string>
+    <string name="private_sms_reset_by_account">Faça o login em sua conta Xiaomi para redefinir sua senha de SMS privada</string>
     <string name="private_sms_recording_intro_header">Desenhe um padrão de desbloqueio:</string>
-    <string name="location_neighborhood_level">Permitir que os aplicativos usem o serviço de localização do Google para determinar seu local mais rapidamente</string>
-    <string name="location_network_based">Local via rede móvel e Wi-Fi</string>
+    <string name="location_neighborhood_level">Permitir que os aplicativos usem o serviço de localização do Google para determinar seu local mais rapidamente. Dados de localização anônimos serão coletados e enviados ao Google.</string>
+    <string name="location_network_based">Local de rede móvel e Wi-Fi</string>
 
     <!-- android settings res -->
     <string name="pointer_location_summary">Exibir dados de toque</string>
     <string name="wifi_empty_list_wifi_off">Para ver as redes disponíveis, ative o Wi-Fi.</string>
-    <string name="user_dict_settings_empty_text">"Você não possui palavras no dicionário do usuário.\nAdicione uma palavra tocando no botão Adicionar (+)"</string>
+    <string name="user_dict_settings_empty_text">"Você não possui palavras no dicionário do usuário. \nAdicione uma palavra tocando no botão Adicionar (+)."</string>
 
-    <string name="dirac_control">Melhorias de áudio</string>
+    <string name="dirac_control">Mi Sound</string>
 
     <string name="unlock_set_unlock_launch_picker_change_summary">Alterar ou desativar o padrão, o PIN ou a segurança da senha</string>
     <string name="unlock_set_unlock_pin_title">PIN</string>
     <string name="unlock_set_unlock_password_title">Senha</string>
     <string name="unlock_set_unlock_mode_pin">PIN</string>
     <string name="unlock_set_unlock_mode_password">Senha</string>
-    <string name="unlock_disable_lock_pin_summary">Remover PIN</string>
-    <string name="unlock_change_lock_pin_title">Alterar PIN</string>
+    <string name="unlock_disable_lock_pin_summary">Remover PIN de desbloqueio</string>
+    <string name="unlock_change_lock_pin_title">Alterar PIN de desbloqueio</string>
     <string name="lockpassword_pin_too_short">O PIN deve ter no mínimo %d caracteres</string>
     <string name="lockpassword_pin_too_long">O PIN deve ter menos de <xliff:g id="number" example="17">%d</xliff:g> dígitos.</string>
     <string name="lockpassword_pin_contains_non_digits">O PIN deve conter apenas dígitos de 0 a 9.</string>
@@ -579,7 +579,7 @@ Usar este método de entrada?</string>
     <!-- Running service details, manage a service that is running for some other reason. -->
     <string name="service_manage">Configurações</string>
     <!-- Running service details, default description for services that are started. -->
-    <string name="service_stop_description">O aplicativo iniciou um serviço. Para-lo poderá causar erros.</string>
+    <string name="service_stop_description">Este serviço foi iniciado pelo aplicativo correspondente. Interrompê-lo pode provocar a falha do aplicativo.</string>
 
     <!-- NFC & Android Beam related -->
     <string name="android_beam_witch_label">Ativar Android Beam</string>
@@ -587,7 +587,7 @@ Usar este método de entrada?</string>
     <string name="sim_status_title">Estado do SIM</string>
     <string name="slot_status_title">Informação de IMEI</string>
 
-    <string name="next_button_label">Próximo</string>
+    <string name="next_button_label">Avançar</string>
     <string name="internal_media_format_final_desc">"Apagar o armazenamento interno, excluindo todos os arquivos armazenados nele? Você não pode reverter esta ação! O telefone irá reiniciar após o armazenamento interno ser apagado! "</string>
     <string name="internal_media_format_desc">"Apagar todo o armazenamento interno? Você vai perder <b> todos </b> dados armazenados e, em seguida, o telefone será reiniciado!"</string>
     <string name="internal_media_format_button_text">Apagar armaz. interno</string>
@@ -601,7 +601,7 @@ Usar este método de entrada?</string>
     <string name="bugreport_tool_log_toast">Registro salvo em %s</string>
     <string name="wifi_tether_setting_title">Configurações básicas</string>
     <string name="audio_profile_settings_title">Perfis de áudio</string>
-    <string name="enable_wifi_display">Ativar Wi-Fi Display</string>
+    <string name="enable_wifi_display">Ativar Display sem fio</string>
     <string name="xiaomi_cloud_service">Mi Cloud</string>
     <string name="xiaomi_money_service">Mi Credits</string>
     <string name="wifi_auto_connect">Conectar-se automaticamente</string>
@@ -631,9 +631,9 @@ Usar este método de entrada?</string>
     <string name="android_beam_tips">Certifique-se de que os dois dispositivos estão encostados, e então selecione o conteúdo que deseja enviar.</string>
 
     <!-- Setting Checkbox title whether to enable bluetooth HCI snoop log -->
-    <string name="bt_hci_snoop_log">Ativar registro do Bluetooth HCI</string>
+    <string name="bt_hci_snoop_log">Ativar registro de rastr. Bluetooth HCI</string>
     <!-- setting Checkbox summary whether to capture all bluetooth HCI packets in a file -->
-    <string name="bt_hci_snoop_log_summary">Capturar todos os pacotes do Bluetooth HCI em um arquivo</string>
+    <string name="bt_hci_snoop_log_summary">Capturar todos os pacotes Bluetooth HCI em um arquivo</string>
     <!-- Setting Checkbox title whether to enable bluetooth Trace log -->
     <string name="bt_trace_log">Ativar registro de traços Bluetooth</string>
     <!-- setting Checkbox summary whether to Set bluetooth trace log level to 5 in logcat -->
@@ -657,7 +657,7 @@ Usar este método de entrada?</string>
     <string name="wifi_share_add">Compartilhar redes Wi-Fi</string>
     <string name="wifi_share_count">Você compartilhou <xliff:g id="COUNT">%d</xliff:g> redes</string>
     <string name="wifi_share_notification_summary">A MIUI conectou você a uma rede protegida por senha que foi compartilhada.</string>
-    <string name="wifi_share_add_summary">"Quando você compartilha suas próprias redes,\n você pode utilizar a rede de outros usuários também</string>
+    <string name="wifi_share_add_summary">"Quando você compartilha suas próprias redes, \nvocê pode utilizar a rede de outros usuários"</string>
     <string name="wifi_share_login">Compartilhar a senha desta rede</string>
     <string name="wifi_share_login_summary">Se esta for uma rede pública, você poderá compartilhá-la com outros usuários MIUI.</string>
     <string name="wifi_share_connected_title">Wi-Fi compartilhado da MIUI</string>
@@ -674,14 +674,14 @@ Usar este método de entrada?</string>
     <string name="wifi_share_qrcode_finish">Finalizar</string>
 
     <!-- oldman -->
-    <string name="oldman_mode_entry_title">Modo simples</string>
-    <string name="oldman_mode_entry_name">Modo simples</string>
-    <string name="oldman_mode_settings_caption">Configurações do Modo simples</string>
-    <string name="oldman_mode_enabled_name">Modo simples</string>
+    <string name="oldman_mode_entry_title">Exibição simplificada</string>
+    <string name="oldman_mode_entry_name">Exibição simplificada</string>
+    <string name="oldman_mode_settings_caption">Configurações da exibição simplificada</string>
+    <string name="oldman_mode_enabled_name">Exibição simplificada</string>
     <string name="oldman_mode_summary">Utilizar tela inicial e menus simplificados</string>
-    <string name="oldman_mode_confirm_title">Reiniciar no modo simples?</string>
-    <string name="oldman_mode_confirm_will_oldman_mode_text">Seu telefone irá reiniciar e entrará no modo simples.</string>
-    <string name="oldman_mode_confirm_will_normal_mode_text">Sair do modo simples?</string>
+    <string name="oldman_mode_confirm_title">Reiniciar na exibição simplificada?</string>
+    <string name="oldman_mode_confirm_will_oldman_mode_text">Seu telefone irá reiniciar e entrará na exibição simplificada.</string>
+    <string name="oldman_mode_confirm_will_normal_mode_text">Sair da exibição simplificada?</string>
 
     <!-- Sound & display settings screen, setting option name to change HDMI 3D Settings -->
     <string name="hdmi_3dplay_settings_title">HDMI</string>
@@ -748,13 +748,13 @@ Usar este método de entrada?</string>
     <string name="free_wifi_connect_dialog_summary">Esta rede Wi-Fi <xliff:g id="WIFI_NAME">%1$s</xliff:g> é gratuita e fornecida por <xliff:g id="PROVIDER_NAME">%2$s</xliff:g>.</string>
     <string name="free_wifi_wiwide_provider">WiWide</string>
     <string name="free_wifi_connect">Conectar</string>
-    <string name="free_wifi_connecting">Conectando...</string>
+    <string name="free_wifi_connecting">Conectando\u2026</string>
     <string name="free_wifi_connected">Conectado a uma rede Wi-Fi Gratuita</string>
     <string name="free_wifi_connect_fail">Impossível conectar-se à rede</string>
     <string name="free_wifi_connect_fail2">Falha ao conectar-se. Aguarde de 1 a 2 minutos e tente novamente.</string>
     <string name="free_wifi_login_again">Conectar novamente</string>
     <string name="free_wifi_connected_count"><xliff:g id="WIFI_COUNT">%1$s</xliff:g> usuários conectados</string>
-    <string name="free_wifi_speed_title">Conecão lenta?</string>
+    <string name="free_wifi_speed_title">Conexão lenta?</string>
     <string name="free_wifi_connected_time">Tempo online: <xliff:g id="WIFI_ONLINE_TIME">%1$s</xliff:g></string>
     <string name="free_wifi_confirm">Confirmar</string>
 
@@ -767,7 +767,7 @@ Usar este método de entrada?</string>
 
     <!-- change Wi\u2011Fi to Wi-Fi -->
     <string name="radio_controls_summary">Gerenciar Wi-Fi, Bluetooth, modo avião, redes móveis e VPNs</string>
-    <string name="wifi_display_settings_empty_list_wifi_display_disabled">O Wireless Display está desativado pois o Wi-Fi está desligado</string>
+    <string name="wifi_display_settings_empty_list_wifi_display_disabled">O Display sem fio está desativado pois o Wi-Fi está desligado</string>
     <string name="wifi_quick_toggle_title">Wi-Fi</string>
     <string name="wifi_quick_toggle_summary">Ativar o Wi-Fi</string>
     <string name="wifi_settings">Wi-Fi</string>
@@ -779,13 +779,13 @@ Usar este método de entrada?</string>
     <string name="wifi_poor_network_detection_summary">Não usar uma rede Wi-Fi a menos que tenha uma boa conexão com a Internet</string>
     <string name="wifi_setting_sleep_policy_title">Manter Wi-Fi durante inatividade</string>
     <string name="wifi_suspend_optimizations">Otimização de Wi-Fi</string>
-    <string name="wifi_suspend_optimizations_summary">Minimizar uso da bateria quando o Wi-Fi estiver ativado</string>
+    <string name="wifi_suspend_optimizations_summary">Minimizar o uso da bateria quando o Wi-Fi estiver ligado</string>
     <string name="wifi_access_points">Redes Wi-Fi</string>
     <string name="wifi_menu_p2p">Wi-Fi Direct</string>
     <string name="wifi_empty_list_wifi_off">Para ver as redes disponíveis, ative o Wi-Fi.</string>
     <string name="wifi_empty_list_wifi_on">Procurando redes Wi-Fi\u2026</string>
-    <string name="wifi_empty_list_user_restricted">Você não possui permissões suficientes para alterar a rede Wi-Fi.</string>
-    <string name="wifi_required_info_text">Para concluir a configuração, seu tablet precisa acessar a rede Wi-Fi. Após a configuração, você pode alterar entre rede de dados móveis e Wi-Fi.</string>
+    <string name="wifi_empty_list_user_restricted">Você não tem permissão para alterar a rede Wi-Fi.</string>
+    <string name="wifi_required_info_text">Para concluir a configuração, o tablet precisa de acesso à rede Wi-Fi. Após a instalação, você poderá alternar entre os dados móveis e o Wi-Fi.</string>
     <string name="wifi_wps_setup_title">Configuração protegida do Wi-Fi</string>
     <string name="wifi_wps_onstart_pbc">Pressione o botão \"Wi-Fi Protected Setup\" do roteador. Ele também pode ser chamado de \"WPS\" ou conter este símbolo:</string>
     <string name="wifi_wps_onstart_pin">Insira o PIN <xliff:g id="number">%1$s</xliff:g> em seu roteador Wi-Fi. A configuração pode levar até dois minutos.</string>
@@ -800,7 +800,7 @@ Usar este método de entrada?</string>
     <string name="wifi_tether_configure_ap_text">Configurar ponto de acesso Wi-Fi</string>
     <string name="wifi_tether_configure_subtext">Ponto de acesso Wi-Fi portátil <xliff:g id="network_ssid">%1$s</xliff:g> <xliff:g id="network_security">%2$s</xliff:g></string>
     <string name="status_wifi_mac_address">Endereço MAC da rede Wi-Fi</string>
-    <string name="location_network_based">Local via rede móvel e Wi-Fi</string>
+    <string name="location_network_based">Local de rede móvel e Wi-Fi</string>
     <string name="location_neighborhood_level_wifi">Localização determinada por Wi-Fi</string>
     <string name="battery_stats_wifi_running_label">Wi-Fi</string>
     <string name="wifi_on_time">Tempo de ativação da rede Wi-Fi</string>
@@ -819,19 +819,19 @@ Usar este método de entrada?</string>
     <string name="wifi_setup_title_connecting_network">Conectando-se à rede Wi-Fi <xliff:g id="network_name" example="Happy Mobile">%s</xliff:g>\u2026</string>
     <string name="wifi_setup_title_connected_network">Conectado à rede Wi-Fi <xliff:g id="network_name" example="Happy Mobile">%s</xliff:g></string>
     <string name="wifi_setup_eap_not_supported">Não é possível configurar uma conexão Wi-Fi EAP durante a configuração. É possível fazer isso em seguida, na opção \"Configurações\" > \"Sem fio e redes\".</string>
-    <string name="wifi_setup_description_connected">Toque em <b>Próximo</b> para continuar a configuração.\n\nToque em <b>Voltar</b> para conectar-se a uma rede Wi-Fi diferente.</string>
+    <string name="wifi_setup_description_connected">Toque em &lt;b&gt;Pr&amp;#243;ximo&lt;/b&gt;" para continuar a configura&amp;#231;&amp;#227;o.\n\nToque em "&lt;b&gt;Voltar&lt;/b&gt; para conectar-se a outra rede Wi-Fi.</string>
     <string name="data_usage_menu_show_wifi">Mostrar uso do Wi-Fi</string>
     <string name="data_usage_disable_wifi_limit">Limitar dados de Wi-Fi</string>
     <string name="data_usage_tab_wifi">Wi-Fi</string>
-    <string name="data_usage_restrict_background">"Ao restringir os dados móveis em segundo plano, alguns aplicativos e serviços só funcionarão se você estiver conectado a uma rede Wi-Fi."</string>
+    <string name="data_usage_restrict_background">Ao restringir os dados móveis em segundo plano, alguns aplicativos e serviços só funcionarão se você estiver conectado a uma rede Wi-Fi.</string>
     <string name="data_usage_restrict_background_multiuser" product="tablet">"Ao restringir os dados móveis em segundo plano, alguns aplicativos e serviços só funcionarão se você estiver conectado a uma rede Wi-Fi."</string>
     <string name="data_usage_restrict_background_multiuser" product="default">"Ao restringir os dados móveis em segundo plano, alguns aplicativos e serviços só funcionarão se você estiver conectado a uma rede Wi-Fi."</string>
     <string name="data_usage_metered_body">Selecione as redes Wi-Fi que são pontos de acesso móveis. Aplicativos em segundo plano podem ser impedidos de usar essas redes. Os aplicativos também podem avisar antes de usar essas redes para grandes downloads.</string>
     <string name="data_usage_metered_wifi">Redes Wi-Fi</string>
     <string name="data_usage_metered_wifi_disabled">Para selecionar pontos de acesso móveis, ligue o Wi-Fi.</string>
-    <string name="user_add_user_message_long">Você pode compartilhar este dispositivo com outras pessoas ao criar novos perfis de usuário. Cada usuário terá seu próprio espaço, onde poderão customizá-los de acordo com suas necessidade, com aplicativos, planos de fundo, etc.\nUsuários poderão também ajustar configurações que afetem todos os usuários.\n\nApós você criar um novo usuário, esta pessoa precisará executar o processo de configuração.\n\nQualquer usuário pode aceitar permissões atualizadas de aplicativos para outros usuários.</string>
-    <string name="restriction_wifi_config_title">Wi-Fi e dados móveis</string>
-    <string name="restriction_wifi_config_summary">Permitir modificação das configurações de Wi-Fi e dados móveis</string>
+    <string name="user_add_user_message_long">"Compartilhe este dispositivo com outras pessoas criando usuários adicionais. Cada usuário terá seu próprio espaço, que poderá personalizar com seus próprios aplicativos, plano de fundo, etc. Os usuários também poderão ajustar configurações do tablet que afetam a todos, como o Wi-Fi.\n\nDepois que você cria um novo usuário, essa pessoa deve concluir o processo de configuração.\n\nQualquer usuário poderá aceitar permissões atualizadas de aplicativos em nome de todos os demais."</string>
+    <string name="restriction_wifi_config_title">Wi-Fi e redes móveis</string>
+    <string name="restriction_wifi_config_summary">Permitir modificação das configurações de Wi-Fi e redes móveis</string>
     <string name="miui_screensaver_state_on">On</string>
     <string name="miui_screensaver_state_off">Off</string>
     <string name="miui_screensaver_title">Proteção de tela</string>
@@ -839,7 +839,7 @@ Usar este método de entrada?</string>
     <string name="picture_source">Fonte da imagem</string>
     <string name="only_when_charging">Somente durante o carregamento da bateria</string>
     <string name="miui_screensaver_show_time">Duração</string>
-    <string name="miui_screensaver_show_time_select_title">Definir duração do slideshow</string>
+    <string name="miui_screensaver_show_time_select_title">Definir duração da apresentação</string>
     <string name="miui_screensaver_usage">Quando ativado, imagens no álbum da proteção de tela serão exibidas repetidamente 5 segundos após a tela desligar.</string>
     <string name="alert_show_screensaver_when_not_charging_title">Proteçãod e tela quando não carregando</string>
     <string name="alert_show_screensaver_when_not_charging_msg">A bateria será gasta mais rapidamente ao exibir a proteçãod e tela enquanto o telefone não estiver sendo carregado. Desativar esta função?</string>

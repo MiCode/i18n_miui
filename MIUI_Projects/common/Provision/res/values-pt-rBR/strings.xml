@@ -13,8 +13,8 @@
     <string name="other_service_google_location_use">Local &amp; Pesquisa Google</string>
     <string name="other_service_google_location_use_summary">Permita que o Google utilize sua localização para melhorar resultados de pesquisa e outros serviços</string>
     <string name="other_service_google_location_use_help">Permitir que o serviço de localização do google armazene informações de localização anônimos. As informações serão armazenadas em segundo plano. Para ajustar esta configuração, vá até Configurações > Serviços de Localização"</string>
-    <string name="other_service_permission_manager">Gerenciar permissões de apps</string>
-    <string name="other_service_permission_manager_summary">Monitorando apps para segurança e privacidade</string>
+    <string name="other_service_permission_manager">Gerenciar permissões de aplicativos</string>
+    <string name="other_service_permission_manager_summary">Monitorando aplicativos para segurança e privacidade</string>
     <string name="other_service_user_experience">Programa de experiência do usuário</string>
     <string name="other_service_user_experience_summary0">"Ajude a Xiaomi a melhorar seus produtos e serviços enviando informações de diagnóstico e utilização anônimas. "</string>
     <string name="other_service_user_experience_summary1">"(Ver política de privacidade)"</string>

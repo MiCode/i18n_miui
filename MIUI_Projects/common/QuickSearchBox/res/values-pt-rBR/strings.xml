@@ -42,7 +42,7 @@
     <!-- Settings description for the Apps source shown in QSB -->
     <string name="corpus_description_apps">Nome dos aplicativos instalados</string>
     <!-- Search hint for the Apps source shown in QSB -->
-    <string name="corpus_hint_apps">Pesquisar apps</string>
+    <string name="corpus_hint_apps">Pesquisar aplicativos</string>
 
     <!-- Search settings stuff -->
 
@@ -73,7 +73,7 @@
     <string name="clear_shortcuts_summary">Excluir atalhos para sugestões de pesquisa recentes</string>
 
     <!--[CHAR LIMIT=200] Title used in the dialog shown after choosing the 'clear search shortcuts' setting. -->
-    <string name="clear_shortcuts_prompt">"Você deseja limpar todos os atalhos para sugestões de pesquisa recentes?"\n\n"Para limpar seu histórico de navegação, acesse as configurações do Navegador."</string>
+    <string name="clear_shortcuts_prompt">"Você deseja limpar todos os atalhos para sugestões de pesquisa recentes?\n\nPara limpar seu histórico de navegação, acesse as configurações do Navegador."</string>
     <!--[CHAR LIMIT=30] Text used on the button to clear shortcuts in the dialog shown after choosing the 'clear search shortcuts' setting. -->
     <string name="clear_shortcuts_agree">Excluir atalhos</string>
     <!--[CHAR LIMIT=30] Text used on the button to cancel in the dialog shown after choosing the 'clear search shortcuts' setting. -->

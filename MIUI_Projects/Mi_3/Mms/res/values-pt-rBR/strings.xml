@@ -302,7 +302,7 @@
     <!-- Settings item for integer option to set SMS delete limit -->
     <string name="pref_title_sms_delete">Limite de mensagens de texto</string>
     <!-- Settings item for integer option to set MMS delete limit -->
-    <string name="pref_title_mms_delete">Limite de mens. multimídia</string>
+    <string name="pref_title_mms_delete">Limite de MMS</string>
     <!-- Settings item for boolean option to display message notifications -->
     <!-- Settings item description for boolean message notification option -->
     <!-- Settings item for boolean option to vibrate during message notification -->
@@ -738,21 +738,21 @@ the SIM card. -->
     <string name="me">Eu</string>
 
     <!-- Title of multiple recipients conversation or in new message for recipients count-->
-    <string name="to_count">%d pessoas</string>
+    <string name="to_count">Total de %d pessoas</string>
 
     <!-- in new message for recipients count-->
-    <string name="recipient_editor_count_format">%d</string>
+    <string name="recipient_editor_count_format">%d pessoas</string>
 
     <!-- For debugging: Dialog box title indicating there's a situation where data has unexpectedly
          changed -->
     <string name="new_message_arrived">Nova mensagem recebida</string>
 
 <!-- Festival sms category tab -->
-    <string name="festival_sms_category_count_format">%s</string>
+    <string name="festival_sms_category_count_format">(%s)</string>
     <string name="festival_sms_loading">Carregando\u2026</string>
     <string name="refresh">Atualizar</string>
     <string name="refresh_failed">A atualização falhou</string>
-    <string name="database_corruption">Reparando\u2026</string>
+    <string name="database_corruption">Banco de dados corrompido, recriando banco de dados</string>
 
     <!-- for message list item -->
     <string name="send_to">Para:</string>
@@ -835,13 +835,13 @@ the SIM card. -->
     <string name="enter_edit_mode">Editar</string>
     <string name="check_all">Sel. tudo</string>
     <string name="batch_delete_confirm_dialog_message">Excluir %1$s mensagens?</string>
-    <string name="batch_deleting_progress_message">Excluindo\u2026</string>
-    <string name="batch_deleting_message_progress_message">Excluindo\u2026</string>
+    <string name="batch_deleting_progress_message">Excluindo selecionados\u2026</string>
+    <string name="batch_deleting_message_progress_message">Excluindo mensagens\u2026</string>
 
     <string name="attach_subject">Tópico</string>
 
     <!-- flatshow -->
-    <string name="flatshow_page_no">%1$d</string>
+    <string name="flatshow_page_no">Edição %1$d</string>
 
     <string name="prepare_send">Preparando para enviar\u2026</string>
     <string name="activity_not_found">Nenhum aplicativo encontrado para executar esta ação</string>
@@ -849,14 +849,14 @@ the SIM card. -->
     <string name="fetion_prefix">[Fetion]</string>
     <string name="chenghu_disable_mms">A edição no endereço MMS é inválida</string>
 
-    <string name="non_english_subject_limit">Limite de 13 caracteres</string>
-    <string name="text_in_popup_saved_to_clipboard">Copiado para a área de transferência</string>
+    <string name="non_english_subject_limit">Limite de 13 caracteres para texto não-inglês</string>
+    <string name="text_in_popup_saved_to_clipboard">O texto editado no pop-up foi salvo na área de transferência</string>
 
     <string name="guild_add_recipients">Clique aqui para adicionar recipientes da lista de contatos</string>
     <string name="guild_add_attachments">Clique aqui para adicionar anexos ou emoticons na mensagem</string>
 
     <string name="privacy_mode_hint">Impossível enviar mensagens no modo de privacidade</string>
-    <string name="wap_push_title">"[WAP Push] "</string>
+    <string name="wap_push_title">[WAP Push]\u0020</string>
     <string name="message_too_big_for_audio">Mensagem muito grande</string>
     <string name="add_timing">Programação</string>
 
@@ -878,7 +878,7 @@ the SIM card. -->
     <string name="timed_message_expired_title">%d mensagens programadas não enviadas</string>
     <string name="timed_message_expired_title_2">Enviar agora?</string>
     <string name="timed_message_to">para</string>
-    <string name="timed_message_in_total"> (%d mensagens)</string>
+    <string name="timed_message_in_total">\u2026 (%d mensagens)</string>
     <string name="processing">Processando\u2026</string>
     <string name="title_date_type">Horário a exibir</string>
 
@@ -1013,13 +1013,13 @@ the SIM card. -->
 
     <string name="refill_now">Recarregar</string>
 
-    <string name="toast_feedback_start">Coletando dados do relatório\u2026</string>
-    <string name="toast_feedback_finish">Seu feedback será enviado automaticamente quando você conectar-se a uma rede Wi-Fi</string>
-    <string name="toast_feedback_max">Somente três feedbacks podem ser enviados por dia</string>
-    <string name="toast_description_required">É necessário escrever um feedback para ser enviado</string>
-    <string name="pref_key_mx_feedback">Enviar feedback</string>
-    <string name="pref_summary_mx_feedback">Reporte bugs e envie feedbacks diretamente para a Xiaomi.</string>
-    <string name="feedback_description_hint">Escreva sua mensagem aqui</string>
+    <string name="toast_feedback_start">Enviando comentário\u2026</string>
+    <string name="toast_feedback_finish">Seu comentário será enviado automaticamente quando você conectar-se a uma rede Wi-Fi</string>
+    <string name="toast_feedback_max">Somente três comentários podem ser enviados por dia</string>
+    <string name="toast_description_required">É necessário escrever um comentário para ser enviado</string>
+    <string name="pref_key_mx_feedback">Enviar comentário</string>
+    <string name="pref_summary_mx_feedback">"Ajude-nos a melhorar a MIUI! Relate problemas e envie comentários diretamente para a Xiaomi.</string>
+    <string name="feedback_description_hint">Por favor insira seu comentário aqui</string>
     <string name="feedback_submit">Enviar</string>
     <string name="confirm_send_mms">Um de seus destinatários é um endereço de e-mail. Esta mensagem será enviada como MMS, que poderá resultar em tarifação extra pela sua operadora.</string>
 </resources>

@@ -41,12 +41,12 @@
     <string name="private_num">Número privado</string>
     <string name="payphone">Telefone público</string>
     <!-- A nicely formatted call ring duration displayed when viewing no-answer-call details. For example "响铃次数: 1 次" -->
-    <string name="callNoAnswerTimeFormat">%s Toque(s)</string>
+    <string name="callNoAnswerTimeFormat">%s toque(s)</string>
 
     <!-- Lunar Date -->
     <!-- 不翻译农历 -->
-    <string name="solar_calendar"/>
-    <string name="lunar_calendar"/>
+    <string name="solar_calendar">Calendário gregoriano</string>
+    <string name="lunar_calendar">Calendário lunar</string>
     <string name="lunar_zheng"/>
     <string name="lunar_leap"/>
     <string name="lunar_ling"/>
@@ -80,22 +80,22 @@
     <string name="the_laba_rice_porridge_festival"/>
 
     <!-- solar holidays -->
-    <string name="new_years_day"/>
-    <string name="valentines_day"/>
-    <string name="international_womens_day"/>
+    <string name="new_years_day">Ano novo</string>
+    <string name="valentines_day">Dia dos namorados</string>
+    <string name="international_womens_day">Dia internacional da mulher</string>
     <string name="arbor_day">Dia da árvore</string>
     <string name="fools_day">Primeiro de Abril</string>
-    <string name="labour_day"/>
+    <string name="labour_day">Dia do trabalho</string>
     <string name="chinese_youth_day">Dia da Juventude</string>
     <string name="childrens_day">Dia das Crianças</string>
-    <string name="partys_day"/>
-    <string name="the_armys_day"/>
-    <string name="teachers_day"/>
-    <string name="national_day"/>
+    <string name="partys_day">Festival dos fundadores</string>
+    <string name="the_armys_day">Dia do exército</string>
+    <string name="teachers_day">Dia dos professores</string>
+    <string name="national_day">Dia nacional</string>
     <string name="christmas_day">Natal</string>
 
     <!-- solar holidays special for TW -->
-    <string name="peace_day">Dia da Paz</string>
+    <string name="peace_day"/>
     <string name="national_father_day"/>
     <string name="anti_aggression_day"/>
     <string name="tw_youth_day"/>
@@ -115,28 +115,28 @@
     <!-- solar terms -->
     <string name="slight_cold"/>
     <string name="great_cold"/>
-    <string name="spring_begins"/>
+    <string name="spring_begins">Início da primavera</string>
     <string name="the_rains"/>
     <string name="insects_awaken"/>
-    <string name="vernal_equinox"/>
+    <string name="vernal_equinox">Equinócio de inverno</string>
     <string name="clear_and_bright"/>
     <string name="grain_rain"/>
-    <string name="summer_begins"/>
+    <string name="summer_begins">Início do verão</string>
     <string name="grain_buds"/>
     <string name="grain_in_ear"/>
-    <string name="summer_solstice"/>
+    <string name="summer_solstice">Solstício de verão</string>
     <string name="slight_heat"/>
     <string name="great_heat"/>
-    <string name="autumn_begins">Início do Outono</string>
+    <string name="autumn_begins">Início do outono</string>
     <string name="stopping_the_heat"/>
     <string name="white_dews"/>
-    <string name="autumn_equinox">Equinócio de Outono</string>
-    <string name="cold_dews">Orvalho Frio</string>
+    <string name="autumn_equinox">Equinócio de outono</string>
+    <string name="cold_dews"/>
     <string name="hoar_frost_falls"/>
-    <string name="winter_begins"/>
+    <string name="winter_begins">Início do inverno</string>
     <string name="light_snow"/>
     <string name="heavy_snow"/>
-    <string name="winter_solstice"/>
+    <string name="winter_solstice">Solstício de inverno</string>
 
     <!--  = START: Countries, used by PhoneNumber for telocation -->
     <string name="country_name_bs">BS</string>
@@ -371,7 +371,7 @@
     <string name="country_name_uz">UZ</string>
     <!--  = END: Countries -->
 
-    <string name="firewall_setting">Lista de Bloqueio</string>
+    <string name="firewall_setting">Lista de bloqueio</string>
 
     <!-- alphabet fast indexer -->
     <string-array name="alphabet_table">
@@ -773,9 +773,9 @@
     <string name="login_website_in_case_forget_password">Visite i.xiaomi.com para resetar sua senha.</string>
 
     <!-- Notifcations displayed in yellow page -->
-    <string name="yellow_page_unable_send_sms">Impossível enviar SMS!</string>
+    <string name="yellow_page_unable_send_sms">Impossível enviar SMS</string>
     <string name="yellow_page_module_sms_sent">SMS enviado.</string>
-    <string name="yellow_page_sms_send_failed">Falha ao enviar SMS!</string>
+    <string name="yellow_page_sms_send_failed">Falha ao enviar SMS</string>
     <string name="yellow_page_sms_sending">Enviando\u2026</string>
     <string name="yellow_page_sms_disabled_in_privacy_mode">Impossível enviar SMS no modo de Privacidade</string>
 

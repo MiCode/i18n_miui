@@ -44,22 +44,22 @@
     <string name="theme_component_title_others">Outros</string>
     <string name="theme_component_title_all">Tema</string>
 
-    <string name="apply_theme_no_select_message">Selecionar componentes</string>
+    <string name="apply_theme_no_select_message">Por favor, selecione o tema!</string>
     <string name="apply_lockscreen_paper_tips">Esta tela de bloqueio não suporta papéis de parede personalizados.</string>
 
     <string name="theme_import_from_sdcard">Importar do cartão SD</string>
-    <string name="theme_select_others">Procurar</string>
+    <string name="theme_select_others">Outro</string>
     <string name="third_party_pickers_activity_title">Definir %1$s</string>
     <string name="lockstyle_personal_settings">Personalizar</string>
 
     <string name="wallpaper_settings">Definir plano de fundo</string>
     <string name="desktop_wallpaper">Planos de fundo</string>
     <string name="live_wallpaper">Live Wallpapers</string>
-    <string name="mi_wallpaper">MIUI Wallpaper</string>
+    <string name="mi_wallpaper">Mi Wallpaper</string>
     <string name="lockscreen_wallpaper">Tela de bloqueio</string>
     <string name="change_wallpaper">Plano de fundo</string>
 
-    <string name="component_settings_title">Customizar tema</string>
+    <string name="component_settings_title">Temas atuais</string>
     <string name="component_select_title">Componentes selecionados: %1$s</string>
     <string name="component_include_title">Componentes incluídos: %1$s</string>
 
@@ -90,7 +90,7 @@
 
     <string name="basic_info">Informações</string>
     <string name="account_info">Minha conta</string>
-    <string name="purchased_list">Itens comprados</string>
+    <string name="purchased_list">Itens adquiridos</string>
     <string name="payment_info">Mi Credits</string>
 
     <string name="theme_batch_has_update_text">Atualização disponível para %1$d tema(s).</string>
@@ -100,8 +100,8 @@
     <string name="theme_batch_update_dlg_content">Atualizar agora?</string>
     <string name="theme_batch_update_dlg_content_single">Atualizar agora?</string>
 
-    <string name="theme_current_using_has_update">O tema atual foi atualizado, toque aqui para aplicá-lo.</string>
-    <string name="theme_immediately_apply_tip">O tema foi atualizado, aplicá-lo agora?</string>
+    <string name="theme_current_using_has_update">O tema atual foi atualizado, toque aqui para aplicar</string>
+    <string name="theme_immediately_apply_tip">O tema foi atualizado, deseja reaplicá-lo?</string>
     <string name="theme_name">%1$s</string>
 
     <string name="restore_default_theme_alert">Utilize o app de temas para efetuar downloads ou comprar novos itens.</string>

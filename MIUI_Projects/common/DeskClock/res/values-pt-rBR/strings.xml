@@ -104,10 +104,10 @@
     </string-array>
 
     <!-- Alarm confirmation toast: singular day -->
-    <string name="day">"1 dia"</string>
+    <string name="day">1 dia</string>
 
     <!-- Alarm confirmation toast: plural days -->
-    <string name="days">"<xliff:g id="days">%s</xliff:g> dias"</string>
+    <string name="days"><xliff:g id="days">%s</xliff:g> dias</string>
 
     <!-- Alarm confirmation toast: singular hour -->
     <string name="hour">1 hora</string>
@@ -116,10 +116,10 @@
     <string name="hours"><xliff:g id="hours">%s</xliff:g> horas</string>
 
     <!-- Alarm confirmation toast: singular minute  -->
-    <string name="minute">"1 minuto"</string>
+    <string name="minute">1 minuto</string>
 
     <!-- Alarm confirmation toast: plural minutes  -->
-    <string name="minutes">"<xliff:g id="minutes">%s</xliff:g> minutos"</string>
+    <string name="minutes"><xliff:g id="minutes">%s</xliff:g> minutos</string>
 
     <!-- Repeat options that appear under an alarm on main Alarm Clock
          screen to identify repetition schedule: special case for when
@@ -320,7 +320,7 @@
 
     <string name="alarm_disabled">Desativado</string>
     <string name="alarm_ascending_mode_title">Volume crescente</string>
-    <string name="alarm_ascending_mode_summary">O volume do alarme aumentará gradualmente aé o nível selecionado</string>
+    <string name="alarm_ascending_mode_summary">O volume do alarme aumentará gradualmente.</string>
 
     <string name="close_alarm">Fechar alarme</string>
 

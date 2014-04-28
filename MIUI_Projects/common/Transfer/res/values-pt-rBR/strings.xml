@@ -122,8 +122,8 @@
     <string name="share_text">A MIUI V5 suporta transferência de arquivos sem o uso de dados. Usuários de outro sistema, faça o download em: %1$s</string>
 
     <!-- MiShare strings -->
-    <string name="mishare_app_name">Transf. de arquivos</string>
-    <string name="apk">App</string>
+    <string name="mishare_app_name">Mi Share</string>
+    <string name="apk">Aplicativo</string>
     <string name="pic">Imagem</string>
     <string name="doc">Documento</string>
     <string name="video">Vídeo</string>
@@ -154,7 +154,7 @@
     <string name="select_all">Selecionar tudo</string>
     <string name="unselect_all">Desmarcar todos</string>
     <string name="delete">Excluir</string>
-    <string name="delete_history_message">Todo o histórico derá limpo.</string>
+    <string name="delete_history_message">Todo o histórico será limpo.</string>
     <string name="can_not_send_this_file">Falha ao enviar arquivo</string>
     <string name="already_select_files">%1$d itens selecionados</string>
     <string name="pause">Pausar</string>
@@ -178,7 +178,7 @@
     <string name="wait_sdcard">Aguardando cartão SD</string>
     <string name="wait_wifi">Aguardando conexão Wi-Fi</string>
     <string name="wait_wifi_to_upload">Aguardando conexão Wi-Fi</string>
-    <string name="wait_wifi_to_download">Aguardando conexao Wi-Fi</string>
+    <string name="wait_wifi_to_download">Aguardando conexão Wi-Fi</string>
     <string name="save_to_kuaipan">Salvar no KuaiPan</string>
     <string name="download">Download</string>
     <string name="trans_failed">Falha na transferência</string>

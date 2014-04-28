@@ -5,14 +5,14 @@
     <string name="app_widget">Anotações</string>
     <string name="widget_havenot_content">Nenhuma anotação associada encontrada, clique para criar a anotação associada. Toque segure em uma anotação para redimensioná-la.</string>
     <string name="widget_under_visit_mode">Impossível ver anotações no modo de Privacidade.</string>
-    <string name="notelist_string_info">...</string>
+    <string name="notelist_string_info">\u2026</string>
     <string name="notelist_menu_new">Adicionar anotação</string>
     <string name="note_alert_expired">Expirado</string>
     <string name="notealert_ok">Entendi</string>
     <string name="notealert_enter">Dê uma olhada</string>
     <!-- Text export file information -->
     <string name="note_link_tel">Discar</string>
-    <string name="note_link_email">Enviar email</string>
+    <string name="note_link_email">Enviar e-mail</string>
     <string name="note_link_web">Navegar na web</string>
     <string name="note_link_other">Abrir mapa</string>
     <string name="note_link_select">Selecionar texto</string>

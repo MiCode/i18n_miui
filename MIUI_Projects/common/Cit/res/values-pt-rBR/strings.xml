@@ -27,9 +27,9 @@
     <string name="cit_pressure_sensor_check_title">Sensor de pressão</string>
     <string name="cit_gyroscope_sensor_check_title">Giroscópio</string>
     <string name="cit_play_sd_mp3_title">Reproduzir MP3 do cartão SD</string>
-    <string name="cit_audio_loopback_check_one_title">Teste de feedback do receptor do microfone principal</string>
-    <string name="cit_audio_loopback_check_two_title">Teste de feedback do receptor do microfone secundário</string>
-    <string name="cit_audio_loopback_dualmic_earpiece_title">Teste de redução de ruído do ambiente</string>
+    <string name="cit_audio_loopback_check_one_title">Teste de retorno do receptor do microfone principal</string>
+    <string name="cit_audio_loopback_check_two_title">Teste de retorno do receptor do microfone secundário</string>
+    <string name="cit_audio_loopback_dualmic_earpiece_title">"Teste de redução de ruído do ambiente</string>
     <string name="cit_audio_lb_backmic_to_speaker_title">Teste de retorno do microfone traseiro</string>
     <string name="cit_audio_lb_mainmic_to_earpiece_title">Teste de retorno do microfone no alto-falante</string>
     <string name="cit_audio_lb_phonecall_title">Teste de simulação de chamada</string>
@@ -65,9 +65,9 @@
     <string name="cit_tool_nfc_st_confreq">Freq: </string>
     <string name="cit_tool_nfc_st_run">Executar</string>
     <string name="cit_tool_nfc_st_stop">Parar</string>
-    <string name="cit_tool_wifi_band_24">Frequência: 2.4GHz</string>
-    <string name="cit_tool_wifi_band_5">Frequência: 5GHz</string>
-    <string name="cit_tool_wifi_band_change">Próximo</string>
+    <string name="cit_tool_wifi_band_24">Freqüência: 2.4GHz</string>
+    <string name="cit_tool_wifi_band_5">Freqüência: 5GHz</string>
+    <string name="cit_tool_wifi_band_change">Avançar</string>
     <string name="cit_tool_wifi_rx_dut_ip">192.168.1.12</string>
     <string name="cit_tool_wifi_rxbg_test">Rx:B/G </string>
     <string name="cit_tool_wifi_rxbg_test_channel">canal:</string>
@@ -88,15 +88,15 @@
     <!-- Add title above -->
 
     <string name="cit_version_check_summary">Abaixo estão as informações de versão do OS. Confirme se a informação destacada em verde está correta.</string>
-    <string name="cit_proximity_sensor_check_summary">Cubra o sensor de proximidade (localizado no topo do telefone, perto do alto falante) com suas mãos, e em seguida remova a cobertura. Os valores exibidos no teste deverão aumentar ao afastar a mão do sensor de proximidade.\nDurante a calibração, assegure-se de que não haja nada entre o sensor e sua mão, como películas de tela protetoras ou luvas.</string>
+    <string name="cit_proximity_sensor_check_summary">"Cubra o sensor de proximidade (localizado no topo do telefone, perto do alto falante) com suas mãos, e em seguida remova a cobertura. Os valores exibidos no teste deverão aumentar ao afastar a mão do sensor de proximidade.\nDurante a calibração, assegure-se de que não haja nada entre o sensor e sua mão, como películas de tela protetoras ou luvas."</string>
     <string name="cit_magnetic_sensor_check_summary">Valores para X，Y，Z, as coordenadas deverão aparecer abaixo</string>
     <string name="cit_light_sensor_check_summary">O valor do DAC deverá aparecer abaixo</string>
     <string name="cit_gyroscope_sensor_check_summary">Valores para X，Y，Z, as coordenadas deverão aparecer abaixo</string>
     <string name="cit_pressure_sensor_check_summary">O valor para a pressão atual deverá aparecer abaixo</string>
     <string name="cit_leds_check_summary">Luz de fundo, LED de notificação e LED do flash deverão responder ao comando quando o comando correspondente for ativado na tela. </string>
     <string name="cit_vibrator_check_summary">Teste de funcionamento da vibração curta e longa</string>
-    <string name="cit_wifi_address_check_summary">Abaixo encontra-se o endereço da rede Wi-Fi conectada atualmente em seu telefone. Confirme se a onformação destacada em verde está correta.</string>
-    <string name="cit_wifi_ap_scan_check_summary">Abaixo encontra-se a informação de APs detectados na área ao seu redor. Confirme se a onformação destacada em verde está correta.</string>
+    <string name="cit_wifi_address_check_summary">Abaixo encontra-se o endereço da rede Wi-Fi conectada atualmente em seu telefone. Confirme se a informação destacada em verde está correta.</string>
+    <string name="cit_wifi_ap_scan_check_summary">Abaixo encontra-se a informação de APs detectados na área ao seu redor. Confirme se a informação destacada em verde está correta.</string>
     <string name="cit_blue_tooth_address_check_summary">Abaixo encontra-se o endereço deste dispositivo Bluetooth.</string>
     <string name="cit_blue_tooth_scan_check_summary">Abaixo encontra-se a informação de dispositivos Bluetooth detectados na área ao seu redor.</string>
     <string name="cit_accelermeter_sensor_check_summary">Mova o dispositivo rapidamente em uma direção. As coordenadas de X，Y，Z serão exibidas abaixo.
@@ -106,14 +106,14 @@
     <string name="cit_headset_pull_detect_summary">Quando o fone de ouvido estiver desconectado, o texto \"Fone de ouvido desconectado\" deverá ser exibido abaixo</string>
     <string name="cit_sim_check_summary">Confirme que o estado atual do cartão SIM está sendo exibido abaixo para a conclusão do teste</string>
     <string name="cit_reset_check_summary">Este teste reiniciará o telefone. Todos os dados de testes anteriores a este serão perdidos.</string>
-    <string name="cit_audio_loopback_check_summary_first">Teste de feedback do receptor do microfone principal.\n\nSegure o telefone como se você estivesse em uma ligação, e em seguida, fale no microfone. Você deverá ouvir o retorno de voz no falante do dispositivo.</string>
-    <string name="cit_audio_loopback_check_summary_second">Teste de feedback do receptor do microfone secundário.\n\nVire o telefone de cabeça para baixo. Fale no microfone. Você deverá ouvir o retorno de voz no alto-falante do dispositivo.</string>
-    <string name="cit_audio_loopback_summary_dualmic_earpiece">Reste de redução de ruídos do ambiente\n\nSegure o telefone como se você estivesse em uma ligação, e em seguida, fale no microfone. Você deverá ouvir a sua voz com o ruído de fundo reduzido no falante do dispositivo.</string>
-    <string name="cit_audio_lb_summary_mainmic_to_earpiece">Teste de retorno do microfone no alto-falante.\n\nSegure o telefone como se você estivesse em uma ligação, e em seguida, fale no microfone. Você deverá ouvir o retorno de voz no falante do dispositivo.</string>
+    <string name="cit_audio_loopback_check_summary_first">"Teste de retorno do receptor do microfone principal. \n\nSegure o telefone como se você estivesse em uma ligação, e em seguida, fale no microfone. Você deverá ouvir o retorno de voz no falante do dispositivo."</string>
+    <string name="cit_audio_loopback_check_summary_second">"Teste de retorno do receptor do microfone secundário. \n\nVire o telefone de cabeça para baixo. Fale no microfone. Você deverá ouvir o retorno de voz no alto-falante do dispositivo."</string>
+    <string name="cit_audio_loopback_summary_dualmic_earpiece">"Teste de redução de ruídos do ambiente \n\nSegure o telefone como se você estivesse em uma ligação, e em seguida, fale no microfone. Você deverá ouvir a sua voz com o ruído de fundo reduzido no falante do dispositivo."</string>
+    <string name="cit_audio_lb_summary_mainmic_to_earpiece">"Teste de retorno do microfone no alto-falante. \n\nSegure o telefone como se você estivesse em uma ligação, e em seguida, fale no microfone. Você deverá ouvir o retorno de voz no falante do dispositivo."</string>
     <string name="cit_headset_loopback_check_summary">Conecte seu fone de ouvido no dispositivo. Fale através do microfone de seu fone (geralmente localizado junto com os botões de controle do fone). Você deverá ouvir o retorno de voz nos fones de ouvido.</string>
-    <string name="cit_audio_lb_summary_backmic_to_speaker">Teste de retorno do microfone traseiro. \n\nVire o dispositivo e fale próximo ao seu microfone traseiro (geralmente localizado perto da câmera traseira). Você deverá ouvir o retorno de voz no alto-falante.</string>
-    <string name="cit_audio_lb_summary_phonecall">Teste de simulação de chamada.\n\nSegure o telefone como se você estivesse em uma lização. Fale no microfone principal. Você deverá ouvir o retorno de voz no falante do dispositivo. Faça este teste em um ambiente silencioso. </string>
-    <string name="cit_audio_lb_summary_topmic_to_speaker">Teste de retorno do microfone superior.\n\nVire o dispositivo e fale próximo ao microfone superior. Você deverá ouvir o retorno de voz no alto-falante do dispositivo.</string>
+    <string name="cit_audio_lb_summary_backmic_to_speaker">"Teste de retorno do microfone traseiro. \n\nVire o dispositivo e fale próximo ao seu microfone traseiro (geralmente localizado perto da câmera traseira). Você deverá ouvir o retorno de voz no alto-falante."</string>
+    <string name="cit_audio_lb_summary_phonecall">"Teste de simulação de chamada. \n\nSegure o telefone como se você estivesse em uma ligação. Fale no microfone principal. Você deverá ouvir o retorno de voz no falante do dispositivo. Faça este teste em um ambiente silencioso."</string>
+    <string name="cit_audio_lb_summary_topmic_to_speaker">"Teste de retorno do microfone superior. \n\nVire o dispositivo e fale próximo ao microfone superior. Você deverá ouvir o retorno de voz no alto-falante do dispositivo."</string>
     <string name="cit_sd_plugin_check_summary">O texto \"Cartão SD detectado, remova o cartão SD agora\" deverá ser exibido abaixo.</string>
     <string name="cit_sd_plugout_check_summary">Quando você remover o cartão SD, o texto \"Cartão SD removido, insira o cartão SD agora\" deverá ser exibido abaixo.</string>
     <string name="cit_keyboard_test_summary">Ao pressionar os botões no dispositivo, o texto correspondente na tela deverá tornar-se verde (nota: os botões Home e Power não são incluídos no teste).</string>
@@ -121,8 +121,8 @@
     <string name="cit_charger_plugout_check_summary">Quando o carregador USB for desconectado o texto \"Carregador USB/AC desconectado\" deverá ser exibido abaixo.</string>
     <string name="cit_play_sd_mp3_summary">Coloque um arquivo de música em mp3 na raiz do cartão SD com o nome \"music.mp3\" para executar o teste. O arquivo inserido deverá ser reproduzido pelos alto-falantes do dispositivo quando este teste for executado.</string>
     <string name="cit_display_check_summary">Coloque um arquivo de imagem bmp na raiz do cartão SD com o nome \"image.bmp\" para executar o teste. Verifique se as cores estão sendo exibidas de forma consistente por toda a tela. Certifique-se de que não exista nenhum ponto com brilho irregular.</string>
-    <string name="cit_main_camera_check_summary">Instruções do teste:\n\n1. Toque no botão da câmera abaixo para acessar a interface da câmera traseira\n2. Certifique-se de que o flash está habilitado\n3. Toque no botão do disparador\n4. Toque no ícone de verificação. O sistema irá salvar a foto automaticamente.\n5. A foto que você tirou será exibida abaixo. Toque em "Excluir" para concluir o teste.</string>
-    <string name="cit_front_camera_check_summary">Instruções do teste:\n\n1. Toque no botão da câmera abaixo para acessar a interface da câmera frontal\n2. Toque no botão do disparador\n3. Toque no ícone de verificação. O sistema irá salvar a foto automaticamente.\n4. A foto que você tirou será exibida abaixo. Toque em "Excluir" para concluir o teste.</string>
+    <string name="cit_main_camera_check_summary">"Instruções do teste:\n\n1. Toque no botão da câmera abaixo para acessar a interface da câmera traseira\n2. Certifique-se de que o flash está habilitado\n3. Toque no botão do disparador\n4. Toque no ícone de verificação. O sistema irá salvar a foto automaticamente.\n5. A foto que você tirou será exibida abaixo. Toque em \"Excluir\" para concluir o teste."</string>
+    <string name="cit_front_camera_check_summary">"Instruções do teste: \n\n1. Toque no botão da câmera abaixo para acessar a interface da câmera frontal\n2. Toque no botão do disparador\n3. Toque no ícone de verificação. O sistema irá salvar a foto automaticamente.\n4. A foto que você tirou será exibida abaixo. Toque em \"Excluir\" para concluir o teste."</string>
     <string name="cit_camera_sdcard_error">Impossível capturar imagem. Cartão SD cheio.</string>
     <string name="cit_gps_check_summary">A informação correspondente ao GPS deverá ser exibida abaixo.</string>
     <string name="cit_fm_check_summary">Isto irá testar a função de rádio FM do dispositivo.</string>
@@ -135,7 +135,7 @@
     <string name="cit_vibrator_long">Vibração longa</string>
     <string name="cit_vibrator_show_advanced">Opções avançadas</string>
     <string name="cit_vibrator_don_don_chat">Don-Don-Chat</string>
-    <string name="cit_vibrator_haptic">Feedback táctil</string>
+    <string name="cit_vibrator_haptic">Retorno tátil</string>
     <string name="cit_vibrator_load_down_pattern">Padrão baixo</string>
     <string name="cit_vibrator_load_up_pattern">Padrão alto</string>
     <string name="cit_vibrator_play_touch_pattern">Vibração</string>
@@ -160,8 +160,8 @@
     <string name="cit_headset_button_pass">Sucesso</string>
     <string name="cit_headset_button_play_pause">Reproduzir/Pausar</string>
     <string name="cit_headset_button_stop">Parar</string>
-    <string name="cit_headset_button_next">Próximo</string>
-    <string name="cit_headset_button_previous">Anterior</string>
+    <string name="cit_headset_button_next">Avançar</string>
+    <string name="cit_headset_button_previous">Voltar</string>
     <string name="cit_headset_button_rewind">Rebobinar</string>
     <string name="cit_headset_button_fast_forward">Avanço rápido</string>
     <string name="cit_sim_state_absent">Nenhum cartão SIM detectado</string>
@@ -179,8 +179,8 @@
     <string name="cit_sim_network_type">Tipo de rede:</string>
     <string name="cit_sim_error_unknown">Desconhecido</string>
     <string name="cit_reset_test">Testar</string>
-    <string name="cit_audio_loopback_next">Próximo</string>
-    <string name="cit_audio_loopback_previous">Anterior</string>
+    <string name="cit_audio_loopback_next">Avançar</string>
+    <string name="cit_audio_loopback_previous">Voltar</string>
     <string name="cit_sd_plugged_in">Cartão SD detectado, remova o cartão SD agora</string>
     <string name="cit_sd_plugged_out">Cartão SD removido, insira o cartão SD agora</string>
     <string name="cit_sd_mount">Montar cartão SD</string>
@@ -199,7 +199,7 @@
     <string name="cit_OTG_waiting_out">Desconecte o dispositivo USB OTG agora</string>
     <string name="cit_usb_OTG_out">Dispositivo USB OTG removido</string>
     <string name="cit_otg_not_supported">Este dispositivo não suporta testes em OTG</string>
-    <string name="cit_sd_mp3_not_existed">O arquivo \"music.mp3\" não foi localizado no cartão SD\"\nApós você inserir o arquivo \"music.mp3\" na raiz do cartão SD, toque na tela para reproduzí-lo.</string>
+    <string name="cit_sd_mp3_not_existed">O arquivo \"music.mp3\" não foi localizado no cartão SD.\nApós você inserir o arquivo \"music.mp3\" na raiz do cartão SD, toque na tela para reproduzí-lo.</string>
     <string name="cit_playing_sd_mp3">Reproduzindo music.mp3\u2026</string>
     <string name="cit_display_continue">Toque na tela para iniciar teste</string>
     <string name="cit_vga_camera_capture">Câmera</string>
@@ -224,7 +224,7 @@
     <string name="cit_notificationlight">LED de notificação</string>
     <string name="cit_notificationlight_off">LED de notificação desligado</string>
     <string name="cit_notificationlight_on">LED de notificação ligado</string>
-    <string name="cit_keyboard_current">Teclado atual: %s</string>
+    <string name="cit_keyboard_current">Botão: %s</string>
     <string name="cit_headset_button_current">Botão atual: %s</string>
     <string name="cit_keyboard_back">Botão: VOLTAR</string>
     <string name="cit_keyboard_menu">Botão: MENU</string>
@@ -241,7 +241,7 @@
     <string name="cit_fm_audio_path_speaker">Alto-falante</string>
     <string name="cit_start_calibration">Calibrar</string>
     <string name="cit_stop_calibration">Parar calibração</string>
-    <string name="cit_exit_test_title">Sair do teste</string>
+    <string name="cit_exit_test_title">Sair do modo de testes</string>
     <string name="cit_exit_test_summary">Quando você sair, todos os resultados dos testes atuais serão apagados.</string>
     <string name="cit_battery_temp_pass">Temperatura normal da bateria</string>
     <string name="cit_battery_temp_fail">Temperatura anormal da bateria (valor=%d)</string>
