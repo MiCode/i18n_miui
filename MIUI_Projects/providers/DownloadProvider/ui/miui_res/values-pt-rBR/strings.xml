@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2010 The Android Open Source Project
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="download_when_network_connected">Transferir quando conectado a alguma rede</string>
+
+    <string name="download_paused">Download em pausa</string>
+    <string name="download_pending">Download Pendente</string>
+    <string name="delete_downloads_records">Excluir downloads</string>
+    <string name="download_info_start_deleted_tasks">Excluir downloads</string>
+    <string name="download_info_count_deleted_tasks">%s transferências excluídas</string>
+
+    <string name="menu_preferences">Configurações</string>
+    <string name="menu_enter_edit_mode">Editar Grupos</string>
+
+    <string name="pause_download">Pausa</string>
+    <string name="resume_download">Iniciar</string>
+    <string name="restart_download">Reiniciar</string>
+    <string name="open_download">Abrir</string>
+
+    <string name="paused_by_app">Suspenso</string>
+    <string name="paused_queued_for_wifi">Aguardando Wi-Fi</string>
+    <string name="paused_waiting_for_network">Aguardando rede</string>
+    <string name="paused_waiting_to_retry">Esperando para repetir</string>
+    <string name="paused_unknown">Suspenso</string>
+
+    <string name="confirm_delete_downloads_message">Confirma a exclusão dos %d itens?</string>
+    <string name="confirm_delete_the_download_item_message">Confirma a exclusão do arquivo?</string>
+
+    <string name="delete_the_downloaded_file">Apagar downloads</string>
+    <string name="downloads_operating">Transferindo\u2026</string>
+
+    <string name="preferences_title">Configurações</string>
+    <string name="pref_download_settings_title">Uso de dados</string>
+    <string name="pref_title_enable_max_bytes_popup">Download de dados</string>
+    <string name="pref_summary_enable_max_bytes_popup">"Quando utilizar operadora de rede, abrir pop-up se um arquivo tiver um tamanho maior que o limite"</string>
+    <string name="pref_summary_max_bytes_limit_format">Efetuar o download com uma rede Wi-Fi se o tamanho exceder %s</string>
+    <string name="pref_summary_any_bytes_popup">Sempre enfileirar para redes Wi-Fi</string>
+    <string name="pref_summary_no_limit_popup">Tamanho de download ilimitado</string>
+
+    <string name="download_in_process">Baixando</string>
+    <string name="download_complete">Concluído</string>
+
+    <string name="retry_after_network_available">Por favor tente novamente quando houver uma conexão de rede disponível</string>
+
+    <string name="editmode_menu_share">Compartilhar</string>
+    <string name="editmode_menu_delete">Excluir</string>
+    <string name="all_downloads">Todos os downloads</string>
+    <string name="app_downloads"><xliff:g id="pkgname">%s</xliff:g> downloads</string>
+
+    <!-- display xunlei brand -->
+    <string name="xunlei_brand">Desenvolvido por Xunlei</string>
+    <!-- xunlei switch -->
+    <string name="xunlei_switch">Mecanismo de download Xunlei</string>
+    <!-- title for turning off xunlei engine -->
+    <string name="turn_off_xunlei_title">Desativar mecanismo de download Xunlei</string>
+    <!-- message for turning off xunlei engine -->
+    <string name="turn_off_xunlei_message">A velocidade de download pode diminuir consideravelmente.</string>
+</resources>
