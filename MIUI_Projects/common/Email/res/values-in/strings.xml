@@ -254,9 +254,9 @@
 
     <!-- Entries listed in the setting for the side-button action. -->
     <string-array name="volume_button_setting_entries">
-        <item>Do nothing</item>
-        <item>Snooze</item>
-        <item>Dismiss</item>
+        <item>Tidak melakukan apapun</item>
+        <item>Tunda</item>
+        <item>Dihentikan</item>
     </string-array>
     
     <!-- Values for the side-button setting. -->
@@ -277,114 +277,114 @@
          respond. This is a sign of an error; if the weather widget is not
          present on the device, we show nothing at all. -->
 
-    <string name="menu_item_dock_settings" msgid="9161438664257429372">Dock settings</string>
+    <string name="menu_item_dock_settings" msgid="9161438664257429372">Pengaturan dock</string>
 
     <!-- A description for the DeskClock alarm sound playback service.
          [CHAR LIMIT=NONE] -->
-    <string name="alarm_klaxon_service_desc">Sound playback service for alarms set in clock.</string>
+    <string name="alarm_klaxon_service_desc">Layanan playback suara untuk alarm diatur di jam.</string>
 
     <!-- String displayed as the alert summary while loading the alert name from
          the media player. [CHAR LIMIT=NONE] -->
-    <string name="loading_ringtone">Loading ringtone\u2026</string>
+    <string name="loading_ringtone">Memuat nada dering\u2026</string>
 
     <!-- Label on the main screen control used to set alarm [CHAR LIMIT=30]-->
-    <string name="control_set_alarm">Set alarm</string>
+    <string name="control_set_alarm">Atur alarm</string>
 
     <!-- Label on the main screen control used to set alarm when there is already an existing alarm [CHAR LIMIT=30]-->
-    <string name="control_set_alarm_with_existing">Alarm set: <xliff:g id="time">%s</xliff:g></string>
+    <string name="control_set_alarm_with_existing">Alarm diatur: <xliff:g id="time">%s</xliff:g></string>
 
-    <string name="common_settings">Settings</string>
-    <string name="alarm_settings">Alarm settings</string>
+    <string name="common_settings">Pengaturan</string>
+    <string name="alarm_settings">Pengaturan alarm</string>
 
-    <string name="worldclock_title">Clock</string>
+    <string name="worldclock_title">Jam</string>
     <string name="stopwatch_title">Stopwatch</string>
     <string name="timer_title">Timer</string>
 
-    <string name="menu_add_worldclock">Add clock</string>
-    <string name="menu_edit_systemtime">System time</string>
-    <string name="delete_timezone_title">Delete timezone</string>
-    <string name="delelte_selected_timezone">Delete the selected timezones?</string>
+    <string name="menu_add_worldclock">Tambah jam</string>
+    <string name="menu_edit_systemtime">Waktu sistem</string>
+    <string name="delete_timezone_title">Hapus timezone</string>
+    <string name="delelte_selected_timezone">Hapus timezone yang dipilih?</string>
 
-    <string name="timezone_exist_error_message">You\'re already displaying that timezone</string>
+    <string name="timezone_exist_error_message">Anda telah menampilkan timezon tersebut</string>
 
     <string-array name="alarm_in_furture">
-        <item>Alarm will sound in less than 1 minute </item>
-        <item>Alarm will sound in <xliff:g id="DAYS" example="2 days">%1$s</xliff:g></item>
-        <item>Alarm will sound in <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g></item>
-        <item>Alarm will sound in <xliff:g id="DAYS" example="2 days">%1$s </xliff:g><xliff:g id="HOURS" example="2 hours">%2$s</xliff:g></item>
-        <item>Alarm will sound in <xliff:g id="MINUTES" example="2 minutes">%3$s </xliff:g></item>
-        <item>Alarm will sound in <xliff:g id="DAYS" example="2 days">%1$s </xliff:g><xliff:g id="MINUTES" example="2 minutes">%3$s </xliff:g></item>
-        <item>Alarm will sound in <xliff:g id="HOURS" example="2 hours">%2$s </xliff:g><xliff:g id="MINUTES" example="2 minutes">%3$s </xliff:g></item>
-        <item>Alarm will sound in <xliff:g id="DAYS" example="2 days">%1$s </xliff:g><xliff:g id="HOURS" example="2 hours">%2$s </xliff:g><xliff:g id="MINUTES" example="2 minutes">%3$s </xliff:g></item>
+        <item>Alarm akan bunyi kurang dari 1 menit </item>
+        <item>Alarm akan bunyi dalam <xliff:g id="DAYS" example="2 days">%1$s</xliff:g></item>
+        <item>Alarm akan bunyi dalam <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g></item>
+        <item>Alarm akan bunyi dalam <xliff:g id="DAYS" example="2 days">%1$s </xliff:g><xliff:g id="HOURS" example="2 hours">%2$s</xliff:g></item>
+        <item>Alarm akan bunyi dalam <xliff:g id="MINUTES" example="2 minutes">%3$s </xliff:g></item>
+        <item>Alarm akan bunyi dalam <xliff:g id="DAYS" example="2 days">%1$s </xliff:g><xliff:g id="MINUTES" example="2 minutes">%3$s </xliff:g></item>
+        <item>Alarm akan bunyi dalam <xliff:g id="HOURS" example="2 hours">%2$s </xliff:g><xliff:g id="MINUTES" example="2 minutes">%3$s </xliff:g></item>
+        <item>Alarm akan bunyi dalam <xliff:g id="DAYS" example="2 days">%1$s </xliff:g><xliff:g id="HOURS" example="2 hours">%2$s </xliff:g><xliff:g id="MINUTES" example="2 minutes">%3$s </xliff:g></item>
     </string-array>
 
-    <string name="alarm_disabled">Disabled</string>
-    <string name="alarm_ascending_mode_title">Ascending volume</string>
-    <string name="alarm_ascending_mode_summary">Alarm volume ascends gradually to selected level</string>
+    <string name="alarm_disabled">Nonaktif</string>
+    <string name="alarm_ascending_mode_title">Naikkan volume</string>
+    <string name="alarm_ascending_mode_summary">Volume alarm naik secara bertahap sesuai dg level yang dipilih</string>
 
-    <string name="close_alarm">Close alarm</string>
+    <string name="close_alarm">Tutup alarm</string>
 
     <string-array name="days">
-        <item>Yesterday</item>
-        <item>Today</item>
-        <item>Tomorrow</item>
+        <item>Kemarin</item>
+        <item>Hari ini</item>
+        <item>Besok</item>
     </string-array>
 
-    <string name="start">Start</string>
-    <string name="pause">Pause</string>
+    <string name="start">Mulai</string>
+    <string name="pause">Jeda</string>
     <string name="reset">Reset</string>
-    <string name="lap">Lap</string>
-    <string name="timer_continue">Continue</string>
+    <string name="lap">Putaran</string>
+    <string name="timer_continue">Lanjutkan</string>
 
-    <string name="worldclock_empty_text">No clocks</string>
-    <string name="alarmclock_empty_text">No alarms</string>
-    <string name="stopwatch_lap_empty_text">No laps</string>
+    <string name="worldclock_empty_text">Tidak ada jam</string>
+    <string name="alarmclock_empty_text">Tidak ada alarms</string>
+    <string name="stopwatch_lap_empty_text">Tidak ada putaran</string>
 
     <string name="timer_got_it">OK</string>
-    <string name="timer_start_alarm">Time\'s up!</string>
-    <string name="dialog_confirm_abort">Discard changes?</string>
-    <string name="confirm_abort">Discard</string>
-    <string name="remind_ringtone">Ringtone</string>
-    <string name="keep_screen_on">Keep screen on</string>
-    <string name="start_up">Start up</string>
-    <string name="cancel">Cancel</string>
-    <string name="timer_message_with_hour">%1$d hours and %2$d minutes</string>
-    <string name="timer_message">%1$d minutes</string>
+    <string name="timer_start_alarm">Waktu habis!</string>
+    <string name="dialog_confirm_abort">Buang perubahan?</string>
+    <string name="confirm_abort">Buang</string>
+    <string name="remind_ringtone">Nada dering</string>
+    <string name="keep_screen_on">Layar tetap hidup</string>
+    <string name="start_up">Memulai</string>
+    <string name="cancel">Batal</string>
+    <string name="timer_message_with_hour">%1$d jam dan %2$d menit</string>
+    <string name="timer_message">%1$d menit</string>
 
-    <string name="shutdown_alarm_title">Shutdown alarm</string>
-    <string name="shutdown_alarm_enable_summary">Shutdown alarm is on</string>
-    <string name="shutdown_alarm_disable_summary">Shutdown alarm is off</string>
+    <string name="shutdown_alarm_title">Alarm mati</string>
+    <string name="shutdown_alarm_enable_summary">Alarm mati diaktifkan</string>
+    <string name="shutdown_alarm_disable_summary">Alarm mati dinonaktifkan</string>
 
-    <string name="workday_alarm_clock">Workday alarm</string>
+    <string name="workday_alarm_clock">Alarm hari kerja</string>
 
-    <string name="system_time_setting">Settings</string>
-    <string name="lap_num">Lap</string>
+    <string name="system_time_setting">Pengaturan</string>
+    <string name="lap_num">Putaran</string>
 
-    <string name="hour_unit">Hr</string>
-    <string name="alarm_label_hint">Alarm label</string>
+    <string name="hour_unit">Jm</string>
+    <string name="alarm_label_hint">Label alarm</string>
 
     <string-array name="alarm_repeat_type">
-        <item>Once</item>
-        <item>Daily</item>
-        <item>Work days</item>
-        <item>Mon to Fri</item>
-        <item>Custom</item>
+        <item>Sekali</item>
+        <item>Harian</item>
+        <item>Hari kerja</item>
+        <item>Senin hingga Jumat</item>
+        <item>Kustom</item>
     </string-array>
 
     <string-array name="alarm_repeat_type_no_workdays">
-        <item>Once</item>
-        <item>Daily</item>
-        <item>Mon to Fri</item>
-        <item>Custom</item>
+        <item>Sekali</item>
+        <item>Harian</item>
+        <item>Senin hingga Jumat</item>
+        <item>Kustom</item>
     </string-array>
 
-    <string name="legal_workday_invalidate">Data expired (Alarm rings from Mon to Fri)</string>
-    <string name="legal_workday_invalidate_message">(Data expired. Update in Settings)</string>
-    <string name="legal_workday_message">" (Alarm off during holidays)"</string>
+    <string name="legal_workday_invalidate">Data kadaluarsa (Nada alarm dari Senin dari Jumat)</string>
+    <string name="legal_workday_invalidate_message">(Data kadaluarsa. Perbarui di Pengaturan)</string>
+    <string name="legal_workday_message">" (Matikan alarm selama hari libur)"</string>
 
-    <string name="default_alarm_alert">Set default alarm sound</string>
-    <string name="default_alarm_title">Default ringtone</string>
+    <string name="default_alarm_alert">Atur suara alarm default</string>
+    <string name="default_alarm_title">Nada dering default</string>
 
-    <string name="alarm_alert">Default ringtone</string>
-    <string name="alarm_screen">Alarm screen and ringtone</string>    
+    <string name="alarm_alert">Nada dering default</string>
+    <string name="alarm_screen">Layar alarm dan nadadering</string>    
 </resources>
