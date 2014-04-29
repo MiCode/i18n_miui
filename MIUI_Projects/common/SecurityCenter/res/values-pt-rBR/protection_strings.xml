@@ -21,11 +21,11 @@
     <string name="summary_virus_update">Atualiza as definições do antivírus automaticamente quando conectado ao Wi-Fi</string>
     <string name="title_install_virus_no">Monitor de instalações desativado</string>
     <string name="title_install_virus_yes">Monitor de instalações ativado</string>
-    <string name="summary_install_virus">Verifica apps por vírus antes de instalá-los</string>
+    <string name="summary_install_virus">Verifica aplicativos por vírus antes de instalá-los</string>
     <string name="title_miui_update_no">Atualização da MIUI: %s</string>
     <string name="title_miui_update_yes">A MIUI está atualizada</string>
-    <string name="title_app_update_no">%d apps possuem atualizações</string>
-    <string name="title_app_update_yes">Todos os apps atualizados</string>
+    <string name="title_app_update_no">%d aplicativos possuem atualizações</string>
+    <string name="title_app_update_yes">Todos os aplicativos atualizados</string>
     <string name="title_data_flow_no">Monitor do uso de dados desativado</string>
     <string name="title_data_flow_yes">Monitor do uso de dados ativado</string>
     <string name="title_show_notification_yes">Exibição na barra de status ativada</string>

@@ -13,21 +13,21 @@
     <string name="cache_garbage">Arquivos de cache</string>
     <string name="optimize_done">Otimização concluída!</string>
     <string name="work_done">Concluído</string>
-    <string name="last_checked_date">O último escaneamento foi há mais de 30 dias.</string>
+    <string name="last_checked_date">A última verificação foi há mais de 30 dias.</string>
     <string name="last_checked_date_mark">pts</string>
-    <string name="last_checked_date2">Último escaneamento há %d dias</string>
+    <string name="last_checked_date2">Última verificação há %d dias</string>
     <string name="just_checked">O Sistema está OK!</string>
-    <string name="need_check">Alguns itens podem ser otimizados.</string>
-    <string name="scan_done">Escaneamento concluído</string>
+    <string name="need_check">Alguns itens podem ser otimizados\u2026</string>
+    <string name="scan_done">Verificação concluída</string>
     <string name="realtime_protection_title">Sistema</string>
     <string name="process_manager_actionbar_title">Memória</string>
     <string name="cache_manager_actionbar_title">Cache</string>
     <string name="enable_adb_debug_summary">Quando conectado via USB, utilizar o comando ADB</string>
     <string name="disable_adb_debug_summary">Desativar depuração USB</string>
     <string name="enable_adb_debug_title">Ativar depuração USB</string>
-    <string name="enable_app_permission_summary">Monitorando 23 apps</string>
+    <string name="enable_app_permission_summary">Monitorando 23 aplicativos</string>
     <string name="disable_app_permission_summary">Monitor de permissões desativado</string>
-    <string name="enable_app_permission_title">Monitor de permissões ativado</string>
+    <string name="enable_app_permission_title">Monitor de Permissões ativado</string>
     <string name="enable_anti_spam_summary">Filtro de mensagens ativado</string>
     <string name="disable_anti_spam_summary">Filtro de mensagens desativado</string>
     <string name="enable_anti_spam_title">Filtrar mensagens indesejadas</string>
@@ -46,10 +46,10 @@
     <string name="examination_score_80_60">Alguns itens podem ser otimizados</string>
     <string name="examination_score_60_0">Otimize seu telefone o quanto antes</string>
     <string name="examination_score_has_virus">Foram detectados aplicativos suspeitos!</string>
-    <string name="scanning_virus">Escaneando\u2026</string>
-    <string name="finish_checking_virus">Finalizando\u2026</string>
-    <string name="optimizing_virus">Removendo vírus\u2026</string>
-    <string name="finish_optimizing_virus">Finalizando\u2026</string>
+    <string name="scanning_virus">Verificando\u2026\u0020</string>
+    <string name="finish_checking_virus">Finalizando\u2026\u0020</string>
+    <string name="optimizing_virus">Removendo vírus\u2026\u0020</string>
+    <string name="finish_optimizing_virus">Finalizando\u2026\u0020</string>
     <string name="menu_item_about_title">Sobre</string>
     <string name="menu_item_about_content">Versão: %s</string>
     <string name="menu_item_about_summary">Versão: %s</string>
@@ -71,11 +71,11 @@
     <string name="button_text_view_power">Ver energia</string>
     <string name="notification_title_firewall_blocked">Bloqueado</string>
     <string name="pref_category_title_securitycenter_settings">Configurações do Centro de Segurança</string>
-    <string name="pref_category_title_module_settings">Configuração de módulos funcionais</string>
+    <string name="pref_category_title_module_settings">Módulos do centro de segurança</string>
     <string name="Settings_title_garbage_cleanup">Configurações de limpeza de lixo</string>
     <string name="Settings_title_network_assistants">Configurações do assistente de rede</string>
     <string name="Settings_title_anti_spam">Configurações da lista de bloqueio</string>
     <string name="Settings_title_power_center">Configurações de energia</string>
-    <string name="Settings_title_anti_virus">Configurações de antivírus</string>
+    <string name="Settings_title_anti_virus">Configurações de Antivírus</string>
 
 </resources>

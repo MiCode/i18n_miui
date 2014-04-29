@@ -7,28 +7,28 @@
     <string name="power_center_custom_summary_default">Configurações de otimização para conservar a bateria</string>
     <string name="power_center_low_battery_title">Perfis automáticos</string>
     <string name="power_center_low_battery_summary_default">Alterne modos de energia quando a bateria estiver fraca</string>
-    <string name="power_center_low_battery_summary_dynamic">Quando a bateria estiver abaixo de %1$d&#037;&#037; alternar para %2$s</string>
+    <string name="power_center_low_battery_summary_dynamic">Quando a bateria estiver abaixo de %1$d%% alternar para %2$s</string>
     <string name="power_center_on_time_title">Programação de perfis</string>
     <string name="power_center_on_time_summary_default">Perfis de energia com horários agendados</string>
     <string name="power_center_on_time_summary_dynamic">De %1$s a %2$s alternar para %3$s</string>
     <string name="power_center_state_on">Ligado</string>
     <string name="power_center_state_off">Desligado</string>
     <string name="power_center_consume_time">%1$s restante</string>
-    <string name="power_center_charge_time">A bateria estará carregada em %1$s</string>
+    <string name="power_center_charge_time">Carga total em %1$s</string>
     <string name="power_center_battery_full">Bateria completamente carregada</string>
 
-    <plurals name="power_center_battery_day">
-        <item quantity="one"><xliff:g id="count">%d</xliff:g>\u0020dia\u0020</item>
-        <item quantity="other"><xliff:g id="count">%d</xliff:g>\u0020dias\u0020</item>
-    </plurals>
-    <plurals name="power_center_battery_hour">
-        <item quantity="one"><xliff:g id="count">%d</xliff:g>" hr "</item>
-        <item quantity="other"><xliff:g id="count">%d</xliff:g>" hrs "</item>
-    </plurals>
-    <plurals name="power_center_battery_minute">
-        <item quantity="one"><xliff:g id="count">%d</xliff:g>" min "</item>
-        <item quantity="other"><xliff:g id="count">%d</xliff:g>" mins "</item>
-    </plurals>
+<plurals name="power_center_battery_day">
+<item quantity="one"><xliff:g id="count">%d</xliff:g>" dia "</item>
+<item quantity="other"><xliff:g id="count">%d</xliff:g>" dias "</item>
+</plurals>
+<plurals name="power_center_battery_hour">
+<item quantity="one"><xliff:g id="count">%d</xliff:g>" h. "</item>
+<item quantity="other"><xliff:g id="count">%d</xliff:g>" h. "</item>
+</plurals>
+<plurals name="power_center_battery_minute">
+<item quantity="one"><xliff:g id="count">%d</xliff:g>" min. "</item>
+<item quantity="other"><xliff:g id="count">%d</xliff:g>" min. "</item>
+</plurals>
 
     <string name="power_chooser_title">Configurações da bateria</string>
     <string name="power_chooser_check_box_title">Aplicar configuração</string>
@@ -62,7 +62,7 @@
     <string name="power_mode_cpu_state_save">Economia de energia</string>
     <string name="power_mode_cpu_state_save_desc">Prioriza a vida útil da bateria ao custo da performance do telefone</string>
     <string name="power_mode_auto_clean_memory">Limpar memória</string>
-    <string name="power_mode_auto_clean_memery_lock_screen">Após %1$d mins</string>
+    <string name="power_mode_auto_clean_memery_lock_screen">Após %1$d minutos</string>
     <string name="power_mode_auto_clean_memory_in_one_minute">Após 1 minuto</string>
     <string name="power_mode_auto_clean_memory_in_five_minutes">Após 5 minutos</string>
     <string name="power_mode_auto_clean_memory_in_ten_minutes">Após 10 minutos</string>
@@ -83,7 +83,7 @@
     <string name="power_mode_bluetooth">Bluetooth</string>
     <string name="power_mode_synchronization">Sincronização</string>
     <string name="power_mode_gps">GPS</string>
-    <string name="power_mode_touch_with_vibration">Feedback tátil</string>
+    <string name="power_mode_touch_with_vibration">Resposta tátil</string>
     <string name="power_mode_touch_with_ring">Som dos botões</string>
     <string name="power_mode_airplane_mode">Modo avião</string>
     <string name="power_mode_switch_on">On</string>
@@ -108,13 +108,13 @@
     <string name="power_dialog_delete_dialog_title">Excluir configuração</string>
     <string name="power_dialog_delete_dialog_delete">Excluir esta configuração?</string>
     <string name="power_dialog_delete_dialog_cannot_delete_default">Falha ao excluir: Você está utilizando esta configuração no momento.</string>
-    <string name="power_dialog_delete_dialog_cannot_delete_low_battery">Falha ao excluir: Seu dispositivo está definido para alternar para esta configuração quando a bateria estiver fraca. \nVocê precisa alterar sua configuração de energia antes de excluir esta configuração.</string>
-    <string name="power_dialog_delete_dialog_cannot_delete_on_time">Falha ao excluir: Esta configuração pode estar em uso. \nVocê precisa alterar sua configuração de energia antes de excluir esta configuração.</string>
+    <string name="power_dialog_delete_dialog_cannot_delete_low_battery">Falha ao excluir: Seu dispositivo está definido para alternar para esta configuração quando a bateria estiver fraca. \nVocê precisa alterar suas configurações de energia antes de excluir esta configuração.</string> 
+    <string name="power_dialog_delete_dialog_cannot_delete_on_time">Falha ao excluir: Esta configuração pode estar em uso. \nVocê precisa alterar suas configurações de energia antes de excluir esta configuração.</string>
     <string name="power_save_choose_mode">Selecione uma configuração</string>
     <string name="power_save_low_battery_title">Perfis automáticos</string>
     <string name="power_save_low_battery_auto_save_title">Perfis automáticos</string>
     <string name="power_save_low_battery_seekbar_title">Alterne modos de energia quando a bateria estiver menor que %1$d&#037;&#037;</string>
-    <string name="power_save_low_battery_option_title">Se a bateria estiver fraca alternar para</string>
+    <string name="power_save_low_battery_option_title">Com a bateria fraca\u2026</string>
     <string name="power_save_low_battery_option_summary">Quando a bateria estiver acima do limite selecionado, o dispositivo retornará para a configuração mais recente utilizada</string>
     <string name="power_save_low_battery_percentage_ten">10%</string>
     <string name="power_save_low_battery_percentage_twenty">20%</string>
@@ -130,34 +130,34 @@
     <string name="power_save_on_time_option_title">Durante este período</string>
     <string name="power_save_on_time_option_summary">Ao final deste período de tempo o dispositivo retornará para a configuração mais recente utilizada</string>
     <string name="power_save_on_time_default_time">00:00</string>
-    <string name="power_consume_rank_title">Usod a bateria</string>
-    <string name="power_consume_rank_software">Apps</string>
+    <string name="power_consume_rank_title">Uso da bateria</string>
+    <string name="power_consume_rank_software">Aplicativos</string>
     <string name="power_consume_rank_hardware">Hardware</string>
-    <string name="power_consume_total_software">Apps: %1$d%%</string>
-    <string name="power_consume_total_hardware">Hardware: %1$d%%</string>
+    <string name="power_consume_total_software">Aplicativos: %1$d&#037;&#037;</string>
+    <string name="power_consume_total_hardware">Hardware: %1$d&#037;&#037;</string>
     <string name="power_consume_other">Outros</string>
-    <string name="battery_desc_other_apps">Total de energia consumida por outros apps</string>
-    <string name="power_settings_title">Definir</string>
+    <string name="battery_desc_other_apps">Total de energia consumida por outros aplicativos</string>
+    <string name="power_settings_title">Performance do sistema</string>
     <string name="power_settings_category_title">Indicador de bateria</string>
     <string name="power_settings_shape">Gráfico</string>
     <string name="power_settings_number">Porcentagem</string>
     <string name="power_settings_top">Barra no topo</string>
     <!-- 新添加的字符串 -->
-    <string name="power_save_on_time_goout_title">Restaurar para</string>
+    <string name="power_save_on_time_goout_title">Após este período</string>
     <string name="power_save_choose_recovery_mode">Selecione uma configuração</string>
     <string name="power_new_choose_mode">Selecione uma configuração</string>
-    <string name="power_save_low_battery_option_recovery_title">Quando a bateria recarregar, alternar para</string>
+    <string name="power_save_low_battery_option_recovery_title">Carregando a bateria\u2026</string>
     <string name="power_save_on_time_option_recovery_title">Ao término deste período, alternar para</string>
-    <string name="power_dialog_delete_dialog_cannot_delete_low_out_battery">Falha ao excluir: \nSeu dispositivo está definido para alternar para esta configuração quando a bateria estiver carregada. Você precisa alterar sua configuração de energia antes de excluir esta configuração. </string>
-    <string name="power_dialog_delete_dialog_cannot_delete_on_out_time">Falha ao excluir: Seu dispositivo está definido para alternar para esta configuração em um horário predefinido. Você precisa alterar sua configuração de energia antes de excluir esta configuração.</string>
+    <string name="power_dialog_delete_dialog_cannot_delete_low_out_battery">Falha ao excluir: \nSeu dispositivo está definido para alternar para esta configuração quando a bateria estiver carregada. Você precisa alterar suas configurações de energia antes de excluir esta configuração.</string>
+    <string name="power_dialog_delete_dialog_cannot_delete_on_out_time">"Falha ao excluir: Seu dispositivo está definido para alternar para esta configuração em um horário predefinido. Você precisa alterar sua configuração de energia antes de excluir esta configuração."</string>
     <string name="power_mode_chooser_button_text">Aplicar</string>
     <string name="power_20s_enter_mode">%1$ds alterna para modo %2$s</string>
     <string name="power_notify_lowbattery">Bateria está abaixo de %1$d&#037;&#037;</string>
     <string name="power_recovery_mode">Retornar ao modo %1$s</string>
     <string name="power_subtitle_lowbattery">Economia de energia automática quando a bateria estiver fraca</string>
-    <string name="power_subtitle_ontime">Economiade energia durante o horário</string>
+    <string name="power_subtitle_ontime">Economia de energia durante o horário</string>
     <string name="power_exitlowbattery_whencharge">Sair durante carregamento da bateria</string>
-    <string name="power_button_delete">Excluir</string>
+    <string name="power_button_delete">excluir</string>
     <string name="power_mode_my_mode">Minha configuração</string>
     <string name="power_mode_my_mode_summary">Salvar estatísticas de uso diárias</string>
     <string name="power_apply_toast">Alternando para o modo %s e salvando estado atual</string>

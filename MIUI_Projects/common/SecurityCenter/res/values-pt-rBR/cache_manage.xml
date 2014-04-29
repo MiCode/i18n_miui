@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="cache_manage_title">Limpar %1$d arquivos em cache para liberar %2$s de espaço</string>
+    <string name="cache_manage_title">%1$d arquivos em cache ocupando %2$s de espaço</string>
     <string name="cache_list_empty_hints">Nenhum arquivo em cache</string>
 
 </resources>

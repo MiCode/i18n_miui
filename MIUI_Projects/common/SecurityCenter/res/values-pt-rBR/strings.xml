@@ -20,53 +20,53 @@
     <string name="protection_adb">Depuração USB</string>
     <string name="protection_perm">Configuração de permissões</string>
     <string name="protection_sms">Filtro de mensagens</string>
-    <string name="start_checking_protection">Verificando proteção em tempo real\u2026</string>
-    <string name="finish_checking_protection">Verificando proteção em tempo real\u2026</string>
-    <string name="start_checking_memory">Verificando condição da memória\u2026</string>
-    <string name="finish_checking_memory">Verificando a memória\u2026</string>
-    <string name="start_checking_trash">Verificando cache de aplicativo\u2026</string>
-    <string name="finish_checking_trash">Verificando cache de aplicativos\u2026</string>
-    <string name="checking">Verificando\u2026 </string>
-    <string name="start_optimize_protection">Otimizando proteção em tempo real\u2026</string>
-    <string name="finish_optimize_protection">Otimizando proteção em tempo real\u2026</string>
-    <string name="start_optimize_memory">Otimizando condição da memória\u2026</string>
-    <string name="finish_optimize_memory">Otimizando a memória\u2026</string>
-    <string name="start_optimize_trash">Otimizando cache de aplicativo\u2026</string>
-    <string name="finish_optimize_trash">Otimizando cache de aplicativos\u2026</string>
-    <string name="optimizing">Otimizando\u2026 </string>
+    <string name="start_checking_protection">Verificando proteção em tempo real…</string>
+    <string name="finish_checking_protection">Verificando proteção em tempo real…</string>
+    <string name="start_checking_memory">Verificando condição da memória…</string>
+    <string name="finish_checking_memory">Verificando a memória…</string>
+    <string name="start_checking_trash">Verificando cache de aplicativo…</string>
+    <string name="finish_checking_trash">Verificando cache de aplicativos…</string>
+    <string name="checking">Verificando…\u0020</string>
+    <string name="start_optimize_protection">Otimizando proteção em tempo real…</string>
+    <string name="finish_optimize_protection">Otimizando proteção em tempo real…</string>
+    <string name="start_optimize_memory">Otimizando condição da memória…</string>
+    <string name="finish_optimize_memory">Otimizando a memória…</string>
+    <string name="start_optimize_trash">Otimizando cache de aplicativo…</string>
+    <string name="finish_optimize_trash">Otimizando cache de aplicativos…</string>
+    <string name="optimizing">Otimizando… </string>
     <!-- #################### main end #################### -->
 
 
     <!-- #################### virus scanner begin #################### -->
     <string name="virus_scanner_title">Antivírus</string>
-    <string name="virus_scanner_scanning">Escaneando&#8230;</string>
-    <string name="virus_scanner_scan">Escanear</string>
+    <string name="virus_scanner_scanning">Verificando…\u0020</string>
+    <string name="virus_scanner_scan">Verificar</string>
     <string name="virus_scanner_select_lib">Selecionar banco de dados de vírus</string>
     <string name="virus_scanner_select_trust_lib">Selecionar banco de dados de vírus confiável</string>
     <string name="virus_scanner_update_lib">Atualizar definições de vírus</string>
-    <string name="virus_scanner_select_multi">Ao selecionar mais de um banco de dados de vírus a performance do escaneamento poderá diminuir.</string>
+    <string name="virus_scanner_select_multi">Ao selecionar mais de um banco de dados de vírus a performance da verificação poderá diminuir.</string>
     <string name="virus_scanner_select_single">É recomendado que você selecione o banco de dados mais confiável para uso com o programa</string>
     <string name="virus_scanner_provider">Definições de antivírus fornecidas por Tencent</string>
     <string name="virus_scanner_module">Tencent</string>
     <string name="virus_scanner_auto_update">Atualização automática</string>
     <string name="virus_scanner_date_formater">dd MMM. yyyy</string>
-    <string name="virus_scanner_manual_update">Atualizar em %s</string>
-    <string name="virus_scanner_lib_updating">Atualizando&#8230;</string>
-    <string name="virus_scanner_lib_already_latest">Definições de antivírus atualizadas.</string>
-    <string name="virus_scan_app_safe_scanning">Escaneando\u2026</string>
+    <string name="virus_scanner_manual_update">Atualizar %s</string>
+    <string name="virus_scanner_lib_updating">Atualizando definições…</string>
+    <string name="virus_scanner_lib_already_latest">Definições de vírus atualizadas.</string>
+    <string name="virus_scan_app_safe_scanning">Verificando…\u0020</string>
     <string name="virus_scan_app_multi_engines">Você selecionou vários mecanismos de escaneamento. A verificação poderá ser mais longa.</string>
-    <string name="virus_scan_app_scanning">Escaneando\u2026</string>
-    <string name="virus_scan_app_waiting">Aguardando\u2026</string>
+    <string name="virus_scan_app_scanning">Verificando…\u0020</string>
+    <string name="virus_scan_app_waiting">Aguardando…\u0020</string>
     <string name="virus_scan_app_passed">Concluído</string>
     <string name="virus_scan_app_risk">Ameaças encontradas</string>
-    <string name="virus_scan_app_stop">Parar escaneamento</string>
+    <string name="virus_scan_app_stop">Parar verificação</string>
     <string name="virus_scan_app_solve">Processar todos</string>
     <string name="virus_scan_app_finish">Concluído</string>
-    <string name="virus_scan_app_continue">Continuar varredura</string>
-    <string name="virus_scan_app_uninstall">Desinstalar %d apps</string>
-    <string name="virus_scan_app_force_stop">Escaneamento interrompido</string>
-    <string name="virus_scan_app_find_risk">%d apps com potenciais riscos de segurança</string>
-    <string name="virus_scan_app_scan_finish">Escaneamento concluído</string>
+    <string name="virus_scan_app_continue">Continuar verificação</string>
+    <string name="virus_scan_app_uninstall">Desinstalar %d aplicativos</string>
+    <string name="virus_scan_app_force_stop">Verificação interrompida</string>
+    <string name="virus_scan_app_find_risk">%d aplicativos com potenciais riscos de segurança</string>
+    <string name="virus_scan_app_scan_finish">Verificação concluída</string>
     <string name="virus_scan_app_no_risk">Nenhum risco encontrado</string>
     <!-- #################### virus scan end #################### -->
 
@@ -92,9 +92,9 @@
     <string name="anti_private_title">Bloquear números privados</string>
     <string name="anti_private_summary">Bloquear números privados ou ocultos</string>
     <string name="fw_keyword_filter">Filtro por palavra-chave</string>
-    <string name="fw_keyword_filter_summary">Bloquear mensagens que contenham as palavras-chave selecinadas</string>
+    <string name="fw_keyword_filter_summary">Bloquear mensagens que contenham as palavras-chave selecionadas</string>
     <string name="fw_set_keyword">Filtro de palavras-chave</string>
-    <string name="fw_notification_settings">Configuração de notificações</string>
+    <string name="fw_notification_settings">Configuração de Notificações</string>
     <string name="show_firewall_notification">Mostrar notificações de bloqueio</string>
     <string name="show_notification">Mostrar notificações</string>
     <string name="opt_reject_blacklist">Rejeitar chamadas de números na lista de bloqueio</string>
@@ -173,16 +173,16 @@
     <!-- notification -->
     <string name="fw_on">Lista de bloqueio ativada</string>
     <string name="fw_blocked">Registro de bloqueio</string>
-    <string name="fw_blocked_count">Interceptado: <xliff:g id="opt">%d</xliff:g> chamadas e <xliff:g id="opt">%d</xliff:g> mensagens</string>
-    <string name="firewall_settings">Configurações da lista de bloqueio</string>
+    <string name="fw_blocked_count">Bloqueado <xliff:g id="opt">%d</xliff:g> chamadas e <xliff:g id="opt">%d</xliff:g> mensagens</string>
+    <string name="firewall_settings">Configurações da Lista de bloqueio</string>
     <string name="remove">Excluir</string>
     <string name="emptylist_fwlog_call">Lista de chamadas bloqueadas vazia</string>
     <string name="emptylist_fwlog_ms">Lista de mensagens bloqueada vazia</string>
     <string name="add_button">Adicionar</string>
     <string name="save_button">Salvar</string>
     <string name="cancel_button">Cancelar</string>
-    <string name="add_blacklist">Adic. à lista de bloqueio</string>
-    <string name="add_whitelist">Adic. à lista de exceções</string>
+    <string name="add_blacklist">Adicionar à lista de bloqueio</string>
+    <string name="add_whitelist">Adicionar à lista de exceções</string>
     <string name="edit_blacklist">Editar nota</string>
     <string name="edit_whitelist">Editar nota</string>
     <string name="fw_notes_hint">Nota (opcional)</string>
@@ -207,7 +207,7 @@
     <string name="remove_keyword">Excluir esta palavra-chave?</string>
     <string name="remove_all_keywords">Excluir todas as palavras-chave?</string>
     <string name="remove_delete">Excluir</string>
- 
+
     <!-- Added from V5 -->
     <!-- Tab -->
     <string name="blacklist_tab_title">Lista de bloqueio</string>

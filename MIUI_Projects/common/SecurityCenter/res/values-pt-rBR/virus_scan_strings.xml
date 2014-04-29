@@ -2,16 +2,16 @@
 <resources>
 
     <string name="virus_scan_virus_title">%d vírus detectados!</string>
-    <string name="virus_scan_risk_title">%d aplicativos suspeitos detectados.</string>
+    <string name="virus_scan_risk_title">%d aplicativos suspeitos detectados</string>
     <string name="virus_button_clear">Limpar</string>
     <string name="virus_activity_title">Vírus</string>
     <string name="virus_single_virusapk_title">Detalhes do vírus</string>
     <string name="virus_single_virusapk_button_clear">Protegido</string>
-    <string name="virus_single_virus_name">Nome:</string>
-    <string name="virus_single_app_install_date">Instalado em:</string>
-    <string name="virus_single_app_file_date">Criado em:</string>
-    <string name="virus_single_virus_description">Descrição:</string>
-    <string name="virus_single_riskapk_title">Detalhes do app suspeito</string>
+    <string name="virus_single_virus_name">Nome:\u0020</string>
+    <string name="virus_single_app_install_date">Instalado em:\u0020</string>
+    <string name="virus_single_app_file_date">Criado em:\u0020</string>
+    <string name="virus_single_virus_description">Descrição:\u0020</string>
+    <string name="virus_single_riskapk_title">Detalhes do aplicativo suspeito</string>
     <string name="virus_scan_list_item_virus">Vírus</string>
     <string name="virus_scan_list_item_risk">Em risco</string>
     <string name="virus_scan_start">Verificar vírus</string>
@@ -20,12 +20,12 @@
     <string name="virus_scan_safe">Tudo ok!</string>
     <string name="virus_scan_dangerous">Em risco</string>
     <string name="virus_scan_find">%d risco(s) descoberto(s)</string>
-    <string name="virus_scan_parpare">Iniciando definições\u2026</string>
-    <string name="virus_scan_is_scanning">Escaneando\u2026</string>
+    <string name="virus_scan_parpare">Iniciando definições\u2026\u0020</string>
+    <string name="virus_scan_is_scanning">Verificando\u2026\u0020</string>
     <string name="virus_scan_stop">Pausar</string>
-    <string name="virus_scan_finish">Concluido</string>
+    <string name="virus_scan_finish">Concluído</string>
     <string name="virus_scan_clear">Limpar</string>
-    <string name="virus_scan_never_scaned">É recomendado escanear</string>
+    <string name="virus_scan_never_scaned">É recomendado verificar</string>
     <string name="virus_scan_file_type_virus_installed">Infectado (instalado)</string>
     <string name="virus_scan_file_type_virus_apk">Infectado (instalador)</string>
     <string name="virus_scan_file_type_risk_installed">Aplicativo suspeito (instalado)</string>
@@ -33,22 +33,22 @@
     <string name="virus_scan_installed_package">%s (instalado)</string>
     <string name="virus_scan_uninstalled_package">%s (instalador)</string>
     <string name="virus_scan_last_virus">Vírus encontrados na última verificação.</string>
-    <string name="virus_scan_last_risk">Aplicativos suspeitos encontrados na última varredura não foram removidos.</string>
+    <string name="virus_scan_last_risk">Aplicativos suspeitos encontrados na última verificação não foram removidos.</string>
     <string name="virus_scan_settings_title">Definições de vírus</string>
     <string name="virus_scan_lib_update_success">Atualização concluída!</string>
     <string name="virus_scan_link_wifi_to_update_lib">Atualizar automaticamente</string>
     <string name="virus_scan_update_lib">Atualizar definições de vírus automaticamente</string>
     <string name="virus_scan_update_now">Atualizar agora</string>
     <string name="virus_scan_use_cloud">Definições de vírus na nuvem</string>
-    <string name="virus_scan_can_use_wifi">Escanear utilizando definições online</string>
+    <string name="virus_scan_can_use_wifi">Verificar utilizando definições online</string>
     <string name="virus_scan_monitoring">Monitor de instalações</string>
     <string name="virus_scan_judge_is_virus">Verificar aplicativos por vírus antes de sua instalação</string>
     <string name="virus_scan_viruslib_version">Definições de vírus: %s</string>
     <string name="virus_scan_settings">Configurações</string>
-    <string name="virus_scanner_lib_update_success">As definições de vírus foram atualizadas automaticamente ^_^</string>
+    <string name="virus_scanner_lib_update_success">As definições de vírus foram atualizadas automaticamente. ^_^</string>
     <string name="virus_scanner_lib_update_failed">Falha na atualização do banco de dados de vírus</string>
     <string name="virus_scan_finish_text">Ameaças removidas!</string>
-    <string name="virus_scan_list_loading_hits">Verificando\u2026</string>
+    <string name="virus_scan_list_loading_hits">Verificando\u2026\u0020</string>
     <string name="virus_scan_list_empty_content">Nenhuma ameaça detectada.</string>
     <string name="virus_scan_guard_provider_missed">O antivírus foi comprometido. Será necessário redefinir seu telefone para as configurações de fábrica.</string>
     <string name="virus_scan_lib_update_time">Última atualização: %s</string>
@@ -56,7 +56,7 @@
     <string name="virus_scan_others_title">Outras configurações</string>
     <string name="virus_scan_risk_list_empty">Nenhum risco encontrado.</string>
     <string name="virus_scan_virus_list_empty">Nenhum vírus detectado.</string>
-    <string name="virus_scan_description">"Este aplicativo é perigoso para a segurança do seu sistema."</string>
+    <string name="virus_scan_description">Este aplicativo é perigoso para a segurança do seu sistema.</string>
     <string name="virus_scanner_select_OK">OK</string>
     <string name="virus_scanner_select_Cancel">Cancelar</string>
     <string name="virus_scan_app_is_stop_scan">Interromper verificação?</string>
@@ -65,11 +65,11 @@
     <string name="virus_scan_package_label_unknown">desconhecido</string>
     <string name="virus_scan_not_found_virus">Nenhum vírus encontrado</string>
     <string name="virus_scan_not_found_risk">Nenhum risco encontrado</string>
-    <string name="virus_scan_last_scan_today">"Última verificação: Hoje "</string>
-    <string name="virus_scan_last_scan_yesterday">"Última verificação: Ontem "</string>
+    <string name="virus_scan_last_scan_today">Última verificação: Hoje\u0020</string>
+    <string name="virus_scan_last_scan_yesterday">Última verificação: Ontem\u0020</string>
     <string name="virus_scan_last_scan_date">Última verificação há %d dias</string>
     <string name="virus_scan_unknown_virus_name">Desconhecido</string>
-    <string name="virus_scan_is_cloud_scanning">Verificando a Mi Cloud\u2026</string>
-    <string name="virus_scan_clean_dialog_message">Limpando\u2026</string>
+    <string name="virus_scan_is_cloud_scanning">Verificando a Mi Cloud\u2026\u0020</string>
+    <string name="virus_scan_clean_dialog_message">Limpando\u2026\u0020</string>
 
 </resources>
