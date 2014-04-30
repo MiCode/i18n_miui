@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="day_view_new_event_hint">Новое мероприятие</string>
+    <string name="button_day">Д</string>
+    <string name="button_month">М</string>
+    <string name="action_bar_today">С</string>
+
+    <!-- 设置 -->
+    <string name="account_and_calendar">Аккаунт и календарь</string>
+    <string name="account_and_calendar_to_display">Отображаемые аккаунт и календарь</string>
+    <string name="default_reminder_mode">Режим уведомлений по умолчанию</string>
+    <string name="time_zone">Часовой пояс</string>
+
+    <string name="event_all_day_label">Весь день</string>
+    <string name="today_no_events">Повестка дня отсутствует</string>
+
+    <!-- New Event -->
+    <string name="event_account">Аккаунт календаря</string>
+    <string name="hint_what">Название мероприятия</string>
+    <string name="event_show_more">Дополнительно</string>
+    <string name="event_hide_more">Скрыть</string>
+    <string name="presence_label">Статус</string>
+
+    <!-- 日历详情 -->
+    <string name="event_info_when">Когда:\u0020</string>
+    <string name="event_info_repeat">Повтор:\u0020</string>
+    <string name="event_info_where">Где:\u0020</string>
+    <string name="event_info_descrip">Описание:\u0020</string>
+
+    <!-- Date Picker -->
+    <string name="lunar_date">Лунная дата</string>
+
+    <!-- Widget -->
+    <string name="widget_select_style">Выберите стиль</string>
+    <string name="widget_events">Следующие события</string>
+    <string name="widget_no_events">Далее, нет повестки дня</string>
+
+    <string name="month_medium_january">Янв</string>
+    <string name="month_medium_february">Фев</string>
+    <string name="month_medium_march">Мар</string>
+    <string name="month_medium_april">Апр</string>
+    <string name="month_medium_may">Май</string>
+    <string name="month_medium_june">Июн</string>
+    <string name="month_medium_july">Июл</string>
+    <string name="month_medium_august">Авг</string>
+    <string name="month_medium_september">Сен</string>
+    <string name="month_medium_october">Окт</string>
+    <string name="month_medium_november">Ноя</string>
+    <string name="month_medium_december">Дек</string>
+
+    <string name="pref_title_no_remind">Не напоминать</string>
+    <string name="pref_title_notification_remind">Только в строке состояния</string>
+    <string name="pref_title_alert_remind">Всплывающее уведомление</string>
+    <string name="pref_title_alarm_remind">Звуковой сигнал</string>
+
+    <string name="event_date_format">d MMMM</string>
+    <string name="event_full_date_format">MM.dd.yyyy</string>
+</resources>
