@@ -48,7 +48,7 @@
          of not repeating). -->
     <string name="repeats_label">Повтор</string>
     <!-- Title of event when no explicit title is specified by the user -->
-    <string name="no_title_label">(Нет заголовка)</string>
+    <string name="no_title_label">(нет заголовка)</string>
 
     <!-- Reminder format strings -->
     <plurals name="Nminutes">
@@ -302,7 +302,7 @@
     <!-- Title of the dialog prompting the user choose a response when emailing guests  [CHAR LIMIT=none]-->
     <string name="quick_response_dialog_title">Выберите быстрый ответ</string>
     <!-- Error to user when an email program can't be found[CHAR LIMIT=none]-->
-    <string name="quick_response_email_failed">Не удалось найти почтовое приложение</string>
+    <string name="quick_response_email_failed">Не удалось найти приложение почты</string>
     <!-- The is shown in the email subject as the prefix appended to the event title [CHAR LIMIT=none]-->
     <string-array name="quick_response_defaults">
         <item>Опоздаю на несколько минут.</item>
@@ -514,7 +514,7 @@
         <!-- Always -->
         <item>Всегда</item>
         <!-- Only when the phone is in Silent mode -->
-        <item>Только в режиме без звука</item>
+        <item>Только в режиме \"Без звука\"</item>
         <!-- Never -->
         <item>Никогда</item>
     </string-array>
@@ -642,14 +642,14 @@
     <string name="acessibility_selected_marker_description">Выбранное событие</string>
 
     <!-- Tell user not to check a checkbox [CHAR LIMIT=30] -->
-    <string name="do_not_check">НЕ проверять -></string>
+    <string name="do_not_check">Не проверять -></string>
 
     <string name="local_calendar_display_name">Локальный календарь</string>
     <string name="birthday_calendar_display_name">Напоминания о днях рождениях</string>
     <string name="local_owner_account_name">Локальный аккаунт</string>
 
     <string name="birthday_notification_title_today">День рождения <xliff:g id="name">%1$s</xliff:g></string>
-    <string name="birthday_notification_text_today">Не забудьте поздравить с днем рождения!</string>
+    <string name="birthday_notification_text_today">Не забудьте поздравить с Днем рождения!</string>
     <string name="birthday_notification_title_three_days_later">Скоро День рождения <xliff:g id="name">%1$s</xliff:g></string>
     <string name="birthday_notification_text_three_days_later">3 дня до Дня рождения <xliff:g id="date">%3$s</xliff:g></string>
     <string name="birthday_notification_age_term"></string>
