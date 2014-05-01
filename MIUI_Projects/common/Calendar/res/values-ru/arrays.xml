@@ -97,7 +97,7 @@
     </string-array>
 
     <string-array name="preferences_week_start_day_labels">
-        <item>Местное по умолчанию</item>
+        <item>По региону</item>
         <item>Суббота</item>
         <item>Воскресенье</item>
         <item>Понедельник</item>
