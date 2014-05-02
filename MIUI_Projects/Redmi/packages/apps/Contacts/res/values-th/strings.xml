@@ -32,7 +32,6 @@
     <!-- Name of activity that allows users to create shortcuts on the home screen to dial a contact.
          This shows up in a list of things like bookmark, folder, music playlist, etc -->
     <string name="shortcutDialContact">โทร</string>
-
     <!-- Name of activity that allows users to create shortcuts on the home screen to message (SMS) a contact.
          This shows up in a list of things like bookmark, folder, music playlist, etc -->
     <string name="shortcutMessageContact">ข้อความ</string>
@@ -125,7 +124,7 @@
     <string name="menu_call">โทร</string>
 
     <!-- Menu item used to send an SMS or MMS message to a specific phone number or a contacts default phone number -->
-    <string name="menu_sendSMS">ข้อความ</string>
+     <string name="menu_sendSMS">ข้อความ</string>
 
     <!-- Menu item that splits an item from the contact detail into a separate aggregate -->
     <string name="menu_splitAggregate">แยก</string>
@@ -158,7 +157,7 @@
     <string name="blurbJoinContactDataWith">เลือกรายชื่อรวม <xliff:g id="name">%s</xliff:g>:</string>
 
     <!-- An item in the Join Contact activity that opens up the full contact A-Z list -->
-    <string name="showAllContactsJoinItem">แสดงรายชื่อทั้งหมด</string>
+      <string name="showAllContactsJoinItem">แสดงรายชื่อทั้งหมด</string>
 
     <!-- List separator for the Join Contact list: Suggestions -->
     <string name="separatorJoinAggregateSuggestions">รายชื่อแนะนำ</string>
@@ -396,6 +395,7 @@
 
          [CHAR LIMIT=NONE] -->
     <string name="recentCallsIconLabel">บันทึกการโทร</string>
+
 
     <!-- Menu item used to send an SMS or MMS message to a phone number  -->
     <string name="menu_sendTextMessage">ส่งข้อความ</string>
@@ -957,6 +957,7 @@
          even when needed.
          Users should not usually see this error message. [CHAR LIMIT=NONE] -->
     <string name="composer_not_initialized">ไม่ได้เริ่มต้นสร้าง vCard อย่างถูกต้อง</string>
+
 
     <!-- The failed reason shown when vCard importer/exporter could not open the file
          specified by a user. The file name should be in the message. [CHAR LIMIT=NONE] -->
@@ -1724,6 +1725,7 @@
               This is especially valuable for views without textual representation like ImageView.
     -->
     <string name="description_call">โทร <xliff:g id="name">%1$s</xliff:g></string>
+
 
     <!-- String describing the button to SMS a number or contact.
 
