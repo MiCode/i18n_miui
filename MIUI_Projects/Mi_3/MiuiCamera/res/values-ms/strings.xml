@@ -39,9 +39,9 @@
     <string name="wait">Tunggu\u2026</string>
 
     <!-- alert to the user that USB storage must be available before using the camera [CHAR LIMIT=NONE] -->
-    <string name="no_storage" product="nosdcard">Masukkan kad SD sebelum menggunakan kamera</string>
+    <string name="no_storage" product="nosdcard">Masukkan kad SD sebelum gunakan kamera</string>
     <!-- alert to the user that an SD card must be installed before using the camera -->
-    <string name="no_storage" product="default">Masukkan kad SD sebelum menggunakan kamera</string>
+    <string name="no_storage" product="default">Masukkan kad SD sebelum gunakan kamera</string>
 
     <!-- alert to the user that the USB storage is too full to complete the operation [CHAR LIMIT=NONE] -->
     <string name="not_enough_space" product="nosdcard">Storan dalaman penuh</string>
@@ -62,9 +62,9 @@
     <string name="confirm_restore_title">Pulihkan tetapan lalai</string>
     <string name="confirm_restore_message">Simpan semula tetapan lalai Kamera?</string>
 
-    <string name="confirm_change_mode_title">Menukar mod?</string>
-    <string name="confirm_change_to_expert_mode_message">Tukar Kamera ke mod profesional.</string>
-    <string name="confirm_change_to_simple_mode_message">Tukar Kamera ke mod asas.</string>
+    <string name="confirm_change_mode_title">Tukar mod</string>
+    <string name="confirm_change_to_expert_mode_message">Tukar ke mod profesional.</string>
+    <string name="confirm_change_to_simple_mode_message">Tukar ke mod asas.</string>
 
     <string name="confirm_location_message">Simpan maklumat lokasi dalam gambar?</string>
     <string name="save">Simpan</string>
@@ -106,9 +106,9 @@
     <string name="pref_camera_auto_focus_title_entry_off">Tutup</string>
     <string name="pref_camera_auto_focus_title_entry_on">Buka</string>
 
-    <string name="pref_captrue_mirror_title">Kamera hadapan</string>
-    <string name="pref_captrue_mirror_entry_off">Matikan</string>
-    <string name="pref_captrue_mirror_entry_on">Hidupkan</string>
+    <string name="pref_captrue_mirror_title">Kamera depan</string>
+    <string name="pref_captrue_mirror_entry_off">Tutup</string>
+    <string name="pref_captrue_mirror_entry_on">Buka</string>
 
     <!-- The Video quality settings in preference [CHAR LIMIT=21] -->
     <string name="pref_video_quality_title">Kualiti video</string>
@@ -210,6 +210,8 @@
     <string name="pref_camera_jpegquality_entry_normal">Biasa</string>
     <string name="pref_camera_jpegquality_entry_low">Rendah</string>
 
+     <!-- Default auto histogram setting. Do not translate. -->
+     <string name="pref_camera_histogram_default">matikan</string>
      <!-- Settings screen, Select Histogram title -->
      <string name="pref_camera_histogram_title">Histogram</string>
 
@@ -217,6 +219,9 @@
      <string name="pref_camera_histogram_entry_enable">Hidupkan</string>
      <string name="pref_camera_histogram_entry_disable">Matikan</string>
 
+     <!-- Histogram entry values. Do not translate. -->
+     <string name="pref_camera_histogram_value_enable">hidupkan</string>
+     <string name="pref_camera_histogram_value_disable">matikan</string>
     <!-- Settings screen, Focus mode title -->
     <string name="pref_camera_focusmode_title">Mod Fokus</string>
 
@@ -273,6 +278,22 @@
     <string name="pref_camera_coloreffect_entry_posterize"></string>
     <string name="pref_camera_coloreffect_entry_aqua"></string>
 
+    <string name="pref_camera_coloreffect_entry_none">Normal</string>
+    <string name="pref_camera_coloreffect_entry_mono">Mono</string>
+    <string name="pref_camera_coloreffect_entry_vivid">Vivid</string>
+    <string name="pref_camera_coloreffect_entry_yesteryear">Yesteryear</string>
+    <string name="pref_camera_coloreffect_entry_brannan">Dawn</string>
+    <string name="pref_camera_coloreffect_entry_sketch">Sketch</string>
+    <string name="pref_camera_coloreffect_entry_seventy">1970s</string>
+    <string name="pref_camera_coloreffect_entry_fisheye">Fish Eye</string>
+    <string name="pref_camera_coloreffect_entry_jstyle">Japanese</string>
+    <string name="pref_camera_coloreffect_entry_xproii">XProII</string>
+    <string name="pref_camera_coloreffect_entry_mosaic">Mosaic</string>
+    <string name="pref_camera_coloreffect_entry_earlybird">Autumn</string>
+    <string name="pref_camera_coloreffect_entry_nashvile">Indigo</string>
+    <string name="pref_camera_coloreffect_entry_planet">Small world</string>
+    <string name="pref_camera_coloreffect_entry_mirror">Mirror</string>
+    <string name="pref_camera_coloreffect_entry_gaussianblur">Gaussian blur</string>
     <!-- Settings screen, Select Touch AF/AEC title -->
     <string name="pref_camera_touchafaec_title">Sentuh AF/AEC</string>
 
@@ -339,13 +360,13 @@
     <string name="pref_camera_scenemode_entry_sunset">Matahari terbenam</string>
     <!-- Scene mode for taking a photo as sharp as possible. -->
     <!-- Scene mode optimized for taking images of fireworks. -->
-    <string name="pref_camera_scenemode_entry_fireworks">Bunga Api</string>
+    <string name="pref_camera_scenemode_entry_fireworks">Bunga api</string>
     <!-- Scene mode optimized for taking images during sports . -->
     <string name="pref_camera_scenemode_entry_sports">Sukan</string>
     <!-- Scene mode optimized for taking indoor low-lights pictures. [CHAR LIMIT=16] -->
     <!-- Scene mode optimized for capturing the naturally warm color of scenes lit by candles. [CHAR LIMIT=16] -->
     <!-- Scene mode for taking a photo with backlight. -->
-    <string name="pref_camera_scenemode_entry_backlight">Lampu Belakang</string>
+    <string name="pref_camera_scenemode_entry_backlight">Lampu belakang</string>
     <!-- Scene mode optimized for taking images of flowers. -->
     <string name="pref_camera_scenemode_entry_flowers">Bunga</string>
     <!-- Scene mode optimized for taking images of AR. -->
@@ -590,7 +611,7 @@
     <!-- Settings screen, Skin Tone Enhancement radio button choices -->
     <string name="pref_camera_skinToneEnhancement_entry_auto">Enhancement automatik</string>
     <string name="pref_camera_skinToneEnhancement_entry_enable">Hidupkan</string>
-    <string name="pref_camera_skinToneEnhancement_entry_disable">Lumpuhkan</string>
+    <string name="pref_camera_skinToneEnhancement_entry_disable">Matikan</string>
 
     <!-- Settings screen, setting title text for ZSL-->
     <string name="pref_camera_zsl_title">ZSL</string>
@@ -602,15 +623,15 @@
      <!-- Auto exposure entry values. Do not translate. -->
 
     <!-- Settings screen, ZSL location dialog choices -->
-    <string name="pref_camera_zsl_entry_off">Matikan</string>
-    <string name="pref_camera_zsl_entry_on">Hidupkan</string>
+    <string name="pref_camera_zsl_entry_off">Tutup</string>
+    <string name="pref_camera_zsl_entry_on">Buka</string>
 
     <!-- Settings screen, Select Face Detection -->
     <string name="pref_camera_facedetection_title">Pengesanan muka</string>
 
     <!-- Settings menu, Face Detection choices -->
-    <string name="pref_camera_facedetection_entry_off">Matikan</string>
-    <string name="pref_camera_facedetection_entry_on">Hidupkan</string>
+    <string name="pref_camera_facedetection_entry_off">Tutup</string>
+    <string name="pref_camera_facedetection_entry_on">Buka</string>
     
     <!-- Settings screen, Power mode dialog radio button choices -->
 
@@ -622,8 +643,8 @@
     <!-- Settings screen, Select Redeye Reduction -->
     <string name="pref_camera_redeyereduction_title">Pengurangan mata merah</string>
     <string name="pref_camera_redeyereduction_entry_auto">Automatik</string>
-    <string name="pref_camera_redeyereduction_entry_enable">Didayakan</string>
-    <string name="pref_camera_redeyereduction_entry_disable">Dinyahdayakan</string>
+    <string name="pref_camera_redeyereduction_entry_enable">Hidupkan</string>
+    <string name="pref_camera_redeyereduction_entry_disable">Matikan</string>
 
     <!-- Default mce setting. Do not translate. -->
 
@@ -656,22 +677,23 @@
     <string name="camera_settings_label">Tetapan kamera</string>
     <string name="pref_grp_picture_settings">Tetapan gambar</string>
     <string name="pref_grp_capture_settings">Tetapan tangkap</string>
-    <string name="pref_advanced_settings">Terperinci</string>
+    <string name="pref_advanced_settings">Lanjutan</string>
     <string name="pref_advanced_functions">Tetapan lanjutan</string>
     <string name="pref_grp_advanced_settings">Tetapan lanjutan</string>
     <string name="pref_grp_restore_settings">Memulihkan tetapan lalai</string>
     <string name="pref_camera_settings_title">Tetapan</string>
 
     <!-- 参考线 -->
+    <string name="pref_camera_referenceline_title" >Garis rujukan</string>
     <string name="pref_camera_referenceline_entry_off">Tutup</string>
     <string name="pref_camera_referenceline_entry_on">Buka</string>
 
     <!--音量键功能 -->
     <string name = "pref_camera_volumekey_function_entry_volume">Kelantangan</string>
     <string name = "pref_camera_volumekey_function_entry_shutter">Pengatup</string>
-    <string name = "pref_camera_volumekey_function_entry_zooming">Zoom</string>
+    <string name = "pref_camera_volumekey_function_entry_zooming">Zum</string>
     <string name = "pref_camera_volumekey_function_entry_exposure">Dedahan</string>
-    <string name = "pref_camera_volumekey_function_title">Butang kelantangan</string>
+    <string name = "pref_camera_volumekey_function_title">Fungsi butang kelantangan</string>
 
     <!-- 长按连拍 -->
     <string name = "pref_camera_long_pressing_burst_shooting_title">Tangkapan Pintas</string>
@@ -692,7 +714,7 @@
     <!-- The button to switch to Panorama mode. [CHAR LIMIT = NONE] -->
 
     <!-- burst snap -->
-    <string name="toast_burst_snap_finished_start">Rakaman meletup tamat:</string>
+    <string name="toast_burst_snap_finished_start">Rakaman meletup selesai:</string>
     <string name="toast_burst_snap_finished_end"> gambar</string>
     <string name="toast_burst_snap_forbidden_when_hdr_open">Rakaman meletup tidak disokong apabila mod HDR dibuka</string>
     <string name="toast_burst_snap_forbidden_when_audio_capture_open">Rakaman meletup tidak disokong apabila tangkapan audio dibuka</string>
@@ -806,7 +828,7 @@
 
     <string name="pref_video_slow_speed_title_simple_mode">Gerak perlahan</string>
 
-    <string name="simple_mode_title">Mod Mudah</string>
+    <string name="simple_mode_title">Mod mudah</string>
     <string name="pref_settings_mode">Kamera</string>
 
     <string name="pref_video_captrue_ability_title">Keupayaan tangkapan</string>
@@ -877,11 +899,11 @@
     <string name="pref_camera_watermark_entry_on">Buka</string>
 
     <string name="pref_scan_qrcode_title">Imbas kod QR</string>
-    <string name="pref_scan_qrcode_entry_off">Off</string>
-    <string name="pref_scan_qrcode_entry_on">On</string>
+    <string name="pref_scan_qrcode_entry_off">Tutup</string>
+    <string name="pref_scan_qrcode_entry_on">Buka</string>
 
-    <string name="pref_manual_exposure_title">Dedahan Manual</string>
-    <string name="pref_camera_exposuretime_title">Tempoh Dedahan</string>
+    <string name="pref_manual_exposure_title">Dedahan manual</string>
+    <string name="pref_camera_exposuretime_title">Tempoh dedahan</string>
 
     <!-- Face analyze -->
     <string name="face_analyze_info">Umur: %2$s (%1$s)</string>
@@ -924,7 +946,23 @@
     <string name="pref_camera_hdr_type_title">Jenis HDR</string>
     <string name="pref_camera_hdr_type_entry_normal">Normal</string>
     <string name="pref_camera_hdr_type_entry_live">Langsung</string>
-
+    <string name="pref_camera_hdr_type_entryvalue_normal" translatable="false">normal</string>
+    <string name="pref_camera_hdr_type_entryvalue_default" translatable="false">live</string>
+    <string name="pref_camera_hdr_type_entryvalue_live" translatable="false">live</string>
+    <string name="pref_camera_ubi_focus_title">Fokus Ubi</string>
+    <string name="pref_camera_opti_zoom_title">Opti Zoom</string>
+    <string name="pref_camera_chroma_flash_title">Chroma Flash</string>
+    <string name="simple_mode_button_text_ubi_focus">Tutup mod Fokus Ubi</string>
+    <string name="simple_mode_button_text_chroma_flash">Tutup mod Chroma Flash</string>
+    <string name="simple_mode_button_text_opti_zoom">Tutup mod OptiZoom</string>
+    <string name="ubi_focus_exit_button_text">Keluar mod Fokus Ubi</string>
+    <string name="chroma_flash_exit_button_text">Keluar mod Chroma Flash</string>
+    <string name="opti_zoom_exit_button_text">Keluar mod OptiZoom</string>
+    <string name="pref_camera_auto_opti_zoom_title">Auto Opti Zoom ketika nisbah lebih besar daripada 2</string>
+    <string name="confirm_enable_opti_zoom_message">Adakah anda ingin hidupkan opti-zoom dalam foto anda?</string>
+    <string name="enable_feature">Ya</string>
+    <string name="not_enable_feature">Ingatkan saya lain kali</string>
+    <string name="accessibility_opti_zoom_button" translatable="false">Opti_Zoom</string>
 
     <string name="accessibility_ev_control">Pendedahan ganti rugi</string>
 
