@@ -23,7 +23,7 @@
 
     <string name="edit">Edit</string>
     <string name="delete">Delete</string>
-    <string name="multi_select_title"><xliff:g id="number">%1$s</xliff:g> selected</string>
+    <string name="multi_select_title" ><xliff:g id="number">%1$s</xliff:g> selected</string>
     <string name="delete_multi_bookmarks_alert_title" >Delete <xliff:g id="number">%1$s</xliff:g> items?</string>
 
     <string name="add_bookmark">Add bookmark</string>
