@@ -1,0 +1,4 @@
+<strings>
+    <string name="slider_text" value="向右滑动关闭闹钟" />
+    <string name="snooze_message" value="%d分钟后再响" />
+</strings>

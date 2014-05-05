@@ -1,0 +1,4 @@
+<strings>
+    <string name="slider_text" value="Slide right to silence" />
+    <string name="snooze_message" value="Snooze for %d min" />
+</strings>
