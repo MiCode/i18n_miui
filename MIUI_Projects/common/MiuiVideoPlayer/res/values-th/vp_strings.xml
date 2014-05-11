@@ -8,7 +8,7 @@
     <string name="menu_item_media_info_label">แสดงข้อมูลวิดีโอ</string>
     <string name="menu_item_hide_media_info_label">ซ่อนข้อมูลวิดีโอ</string>
     <string name="menu_item_switch_width_height_label">สลับอัตราส่วน</string>
-    <string name="menu_item_about_label">เกี่ยว</string>
+    <string name="menu_item_about_label">เกี่ยวกับ</string>
     <string name="about_title">เกี่ยวกับ</string>
     <string name="about_app_name">วิดีโอ</string>
     <string name="about_version">1.0.1</string>
