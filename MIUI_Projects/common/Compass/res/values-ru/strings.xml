@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string name="app_label">Компас</string>
+    <string name="getting_location">Калибровка\u2026</string>
+    <string name="cannot_get_location">--</string>
+    <string name="location_north">Сев. широта</string>
+    <string name="location_south">Южн. широта</string>
+    <string name="location_east">Вост. долгота</string>
+    <string name="location_west">Зап. долгота</string>
+    <string name="menu_calibrate">Калибровка компаса</string>
+    <string name="menu_calibrate_altitude">Калибровка высоты</string>
+    <string name="calibrate_success">Откалибровано</string>
+    <string name="calibrate_failed_no_location">Ошибка калибровки</string>
+    <string name="calibrate_failed_timeout">Ошибка калибровки: превышено время ожидания</string>
+    <string name="pressure_title">Давление</string>
+    <string name="altitude_title">Высота</string>
+    <string name="pressure">%.1f</string>
+    <string name="altitude">%.1f</string>
+    <string name="pressure_unit">гПа</string>
+    <string name="altitude_unit">м</string>
+
+    <string name="dialog_title_no_network">Невозможно подключиться к сети</string>
+    <string name="dialog_calibrat_altitude">Калибровка\u2026</string>
+    <string name="latitude">ШИРОТА</string>
+    <string name="longitude">ДОЛГОТА</string>
+    <string name="direction_north">С</string>
+    <string name="direction_south">Ю</string>
+    <string name="direction_east">В</string>
+    <string name="direction_west">З</string>
+    <string name="guide_toast">Для калибровки компаса повторяйте движение телефоном, как на изображении ниже</string>
+</resources>

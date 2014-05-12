@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Синхронизация Xiaomi</string>
+
+    <string name="sync_item_sms_title">Синхронизация сообщений</string>
+    <string name="sync_item_sms_summary">Sync text messages across devices</string>
+    <string name="sub_sync_item_sms_title_wifi_only">MMS только по Wi-Fi</string>
+    <string name="sub_sync_item_sms_summary">Сокращает передачу данных по сети</string>
+    <!-- 联系人同步设置 -->
+    <string name="pref_title_sync_my_profile_title">Синхронизация профиля</string>
+    <string name="pref_title_sync_contacts_title">Синхронизация контактов</string>
+    <string name="pref_title_sync_display_photo_on_wifi_only">Фото только по Wi-Fi</string>
+    <string name="pref_summary_sync_display_photo_on_wifi_only">Сокращает передачу данных по сети</string>
+    <string name="find_device">Поиск устройства</string>
+    <string name="find_device_stop_noise">Нажмите \"ОК\" для выключения звука</string>
+    <string name="find_device_noise_title">Звук поиска устройства</string>
+    <!-- CallLog Sync Settings -->
+    <string name="sync_item_calllog_title">Синхронизация журнала вызовов</string>
+    <string name="sync_item_calllog_summary">Синхронизация журнала исходящих и входящих вызовов на этом телефоне</string>
+</resources>
