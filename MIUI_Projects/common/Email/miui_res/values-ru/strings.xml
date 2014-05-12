@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="alert_title_selected">"Выбрать все"</string>
+    <string name="alert_selected_all_message">" содержит сообщений: %d. Выбрать все?"</string>
+
+    <string name="account_setup_index_title">"Инструкция по настройке"</string>
+    <string name="account_setup_index_label">"Добавьте аккаунт"</string>
+    <string name="account_setup_index_other_mails">"Другие почтовые сервисы"</string>
+    <string name="account_setup_basic_label">"Заполните информацию для почтового ящика %s:"</string>
+    <string name="account_setup_basic_name_label">"Ваше имя (не обязательно)"</string>
+    <string name="account_setup_basic_description_label">"Имя аккаунта (не обязательно)"</string>
+
+    <string name="add_quick_responses_action">Создать новый</string>
+    <string name="account_security_waiting_policy_key_message">"\"%s\" запрашивает настройки безопасности с сервера, подождите."</string>
+
+    <!-- Text used for default signature -->
+    <string name="default_signature">"Отправлено через Xiaomi"</string>
+
+    <string-array name="general_preference_auto_advance_summary_array">
+        <item>"Переходить к новому сообщению после удаления"</item>
+        <item>"Переходить к старому сообщению после удаления"</item>
+        <item>"Переходить к списку сообщений после удаления"</item>
+    </string-array>
+    <string name="general_preference_auto_advance_dialog_title">"Переходить к"</string>
+    <string name="general_preferences_clear_trusted_senders_title">"Скрыть изображения"</string>
+    <string name="cleared_trusted_senders_message">"Изображения, вложенные в сообщения не будут показаны автоматически."</string>
+</resources>

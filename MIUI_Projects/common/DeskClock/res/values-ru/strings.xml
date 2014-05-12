@@ -60,7 +60,7 @@
     <string name="alarm_repeat">Повтор</string>
 
     <!-- Setting labels on Set alarm screen: Select alarm ringtone  -->
-    <string name="alert">Ringtone</string>
+    <string name="alert">Мелодия</string>
 
     <!-- Setting labels on Set alarm screen: Set time  -->
     <string name="time">Время</string>
@@ -70,15 +70,15 @@
     <!-- Alarm Alert screen: this message is shown after an alarm rung
          unattended for a number of minutes.  It tells the user that
          the alarm has been silenced.-->
-    <string name="alarm_alert_alert_silenced">Alarm silenced after <xliff:g id="minutes">%d</xliff:g> minutes.</string>
+    <string name="alarm_alert_alert_silenced">Будильник выключится через <xliff:g id="minutes">%d</xliff:g> мин.</string>
 
-    <string name="timer_alert_alert_silenced">Timer silenced after <xliff:g id="minutes">%d</xliff:g> minutes.</string>
+    <string name="timer_alert_alert_silenced">Таймер выключится через <xliff:g id="minutes">%d</xliff:g> мин.</string>
 
     <!-- Button labels on the alarm dialog: Snooze -->
 
     <!-- Toast that appears after Alarm is snoozed from the Alarm
          dialog. Says the alarm will snooze for xxx minutes.  -->
-    <string name="alarm_alert_snooze_set">Snoozing for <xliff:g id="minutes">%d</xliff:g> minutes.</string>
+    <string name="alarm_alert_snooze_set">Повтор сигнала через <xliff:g id="minutes">%d</xliff:g> мин.</string>
 
     <!-- 0: nothing
          1: days
@@ -93,78 +93,78 @@
     <!-- Alarm confirmation toast: Describes how long from now until
          alarm fires -->
     <string-array name="alarm_set">
-        <item>Alarm set for less than 1 minute from now.</item>
-        <item>Alarm set for <xliff:g id="DAYS" example="2 days">%1$s</xliff:g> from now.</item>
-        <item>Alarm set for <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g> from now.</item>
-        <item>Alarm set for <xliff:g id="DAYS" example="2 days">%1$s</xliff:g> and <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g> from now.</item>
-        <item>Alarm set for <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g> from now.</item>
-        <item>Alarm set for <xliff:g id="DAYS" example="2 days">%1$s</xliff:g> and <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g> from now.</item>
-        <item>Alarm set for <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g> and <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g> from now.</item>
-        <item>Alarm set for <xliff:g id="DAYS" example="2 days">%1$s</xliff:g>, <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g>, and <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g> from now.</item>
+        <item>Будильник менее чем через одну минуту.</item>
+        <item>Будильник менее чем <xliff:g id="DAYS" example="2 days">%1$s</xliff:g>.</item>
+        <item>Будильник менее чем <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g>.</item>
+        <item>Будильник менее чем <xliff:g id="DAYS" example="2 days">%1$s</xliff:g> и <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g>.</item>
+        <item>Будильник менее чем <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g> from now.</item>
+        <item>Будильник менее чем <xliff:g id="DAYS" example="2 days">%1$s</xliff:g> и <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g>.</item>
+        <item>Будильник менее чем <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g> и <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g>.</item>
+        <item>Будильник менее чем <xliff:g id="DAYS" example="2 days">%1$s</xliff:g>, <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g>, и <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g>.</item>
     </string-array>
 
     <!-- Alarm confirmation toast: singular day -->
-    <string name="day">"1 day"</string>
+    <string name="day">"1 день"</string>
 
     <!-- Alarm confirmation toast: plural days -->
-    <string name="days">"<xliff:g id="days">%s</xliff:g> days"</string>
+    <string name="days">"<xliff:g id="days">%s</xliff:g> дн."</string>
 
     <!-- Alarm confirmation toast: singular hour -->
-    <string name="hour">1 hour</string>
+    <string name="hour">1 час</string>
 
     <!-- Alarm confirmation toast: plural hours -->
-    <string name="hours"><xliff:g id="hours">%s</xliff:g> hours</string>
+    <string name="hours"><xliff:g id="hours">%s</xliff:g> ч.</string>
 
     <!-- Alarm confirmation toast: singular minute  -->
-    <string name="minute">"1 minute"</string>
+    <string name="minute">"1 минута"</string>
 
     <!-- Alarm confirmation toast: plural minutes  -->
-    <string name="minutes">"<xliff:g id="minutes">%s</xliff:g> minutes"</string>
+    <string name="minutes">"<xliff:g id="minutes">%s</xliff:g> мин."</string>
 
     <!-- Repeat options that appear under an alarm on main Alarm Clock
          screen to identify repetition schedule: special case for when
          the alarm is set to repeat every day -->
-    <string name="every_day">Everyday</string>
+    <string name="every_day">Каждый день</string>
 
-    <string name="legal_workday">Legal workday</string>
+    <string name="legal_workday">Рабочие дни</string>
 
     <!-- Repeat options that appear under an alarm on main Alarm Clock
          screen to identify repetition schedule: special case for when
          the alarm is set to never repeat -->
-    <string name="never">Once</string>
+    <string name="never">Один раз</string>
 
     <!-- Repeat options that appear under an alarm on main Alarm Clock
          screen to identify repetition schedule: concatenate days with
          this character, i.e. "Mon, Tue, Wed" -->
-    <string name="day_concat">". "</string>
+    <string name="day_concat">", "</string>
 
     <!-- Appears at the top of the Clock Picker screen: Tell user to
          select a clock to display -->
 
     <!-- Label for analog clock gadget, shown in list of all gadgets -->
-    <string name="analog_gadget">Analog clock</string>
+    <string name="analog_gadget">Аналоговые часы</string>
 
     <!-- Menu item title for general Alarm Clock Settings -->
-    <string name="settings">Settings</string>
+    <string name="settings">Настройки</string>
 
     <!-- Setting title for whether the alarm should play in silent mode.
          Usually, silent mode only affects the ringer, but this setting
          will make the alarms respect silent mode too. -->
-    <string name="alarm_in_silent_mode_title">Alarm in silent mode</string>
+    <string name="alarm_in_silent_mode_title">В режиме \"Без звука\"</string>
 
     <!-- Setting title for changing the snooze duration. -->
-    <string name="snooze_duration_title">Snooze duration</string>
+    <string name="snooze_duration_title">Интервал повтора</string>
 
     <!-- Entries listed in the ListPreference when invoking the snooze duration
          preference. -->
     <string-array name="snooze_duration_entries">
-      <item>1 minute</item>
-      <item>5 minutes</item>
-      <item>10 minutes</item>
-      <item>15 minutes</item>
-      <item>20 minutes</item>
-      <item>25 minutes</item>
-      <item>30 minutes</item>
+      <item>1 минута</item>
+      <item>5 минут</item>
+      <item>10 минут</item>
+      <item>15 минут</item>
+      <item>20 минут</item>
+      <item>25 минут</item>
+      <item>30 минут</item>
     </string-array>
 
     <!-- Values that are retrieved from the ListPreference. These must match
@@ -180,26 +180,26 @@
     </string-array>
 
     <!-- Auto silence preference title -->
-    <string name="auto_silence_title">Auto-silence</string>
+    <string name="auto_silence_title">Автовыключение</string>
 
     <!-- Auto silence summary string set based on the preference value. -->
-    <string name="auto_silence_summary">Alarms will silence after
-      <xliff:g id="minutes">%d</xliff:g> minutes</string>
+    <string name="auto_silence_summary">Отключение будильника через
+      <xliff:g id="minutes">%d</xliff:g> мин.</string>
 
     <!-- Auto silence summary when turned off -->
-    <string name="auto_silence_never">Never</string>
+    <string name="auto_silence_never">Никогда</string>
 
     <!-- Entries listed in the ListPreference when invoking the auto silence
          preference. -->
     <string-array name="auto_silence_entries">
-      <item>Never</item>
-      <item>1 minute</item>
-      <item>5 minutes</item>
-      <item>10 minutes</item>
-      <item>15 minutes</item>
-      <item>20 minutes</item>
-      <item>25 minutes</item>
-      <item>30 minutes</item>
+      <item>Никогда</item>
+      <item>1 минута</item>
+      <item>5 минут</item>
+      <item>10 минут</item>
+      <item>15 минут</item>
+      <item>20 минут</item>
+      <item>25 минут</item>
+      <item>30 минут</item>
     </string-array>
 
     <!-- Values that are retrieved from the ListPreference. These must match
@@ -216,47 +216,47 @@
     </string-array>
 
     <!-- Done button when editing an alarm. -->
-    <string name="done">Done</string>
+    <string name="done">Готово</string>
 
     <!-- Revert button when editing an alarm. -->
-    <string name="revert">Revert</string>
+    <string name="revert">Отмена</string>
 
     <!-- Delete button when editing an alarm. -->
-    <string name="delete">Delete</string>
+    <string name="delete">Удалить</string>
 
     <!-- Setting title for changing the alarm volume. -->
-    <string name="alarm_volume_title">Alarm volume</string>
+    <string name="alarm_volume_title">Громкость будильника</string>
 
     <!-- Setting summary for changing the alarm volume. -->
-    <string name="alarm_volume_summary">Set alarm volume</string>
+    <string name="alarm_volume_summary">Настройки громкости будильника</string>
 
     <!-- Summary for the alarm preference when silent is chosen. -->
-    <string name="silent_alarm_summary">Silent</string>
+    <string name="silent_alarm_summary">Без звука</string>
 
     <!-- Text to display in the small text of the notification -->
-    <string name="alarm_notify_text">Snooze or dismiss alarm.</string>
+    <string name="alarm_notify_text">Отложить/выключить будильник.</string>
 
     <!-- Text to display in the notification ticker and label -->
-    <string name="alarm_notify_snooze_label"><xliff:g id="label">%s</xliff:g> snooze</string>
+    <string name="alarm_notify_snooze_label"><xliff:g id="label">%s</xliff:g> отложено</string>
 
     <!-- Text to display in the notification when the alarm has been snoozed -->
 
-    <string name="snooze_confirm_cancel">Cancel snooze</string>
+    <string name="snooze_confirm_cancel">Отменить отложенный будильник</string>
 
     <!-- Title of the setting to change hardware button behavior. This string
          should be changed for each piece of hardware. [CHAR LIMIT=20] -->
-    <string name="volume_button_setting_title">Volume buttons</string>
+    <string name="volume_button_setting_title">Кнопки громкости</string>
 
     <!-- Dialog title of the volume and power setting. -->
 
     <!-- The summary of the side button setting. -->
-    <string name="volume_button_setting_summary">Set volume buttons\' function during alarm</string>
+    <string name="volume_button_setting_summary">Функцию кнопок громкости во время звонка будильника</string>
 
     <!-- Entries listed in the setting for the side-button action. -->
     <string-array name="volume_button_setting_entries">
-        <item>Do nothing</item>
-        <item>Snooze</item>
-        <item>Dismiss</item>
+        <item>Ничего</item>
+        <item>Отложить</item>
+        <item>Выключить</item>
     </string-array>
 
     <!-- Values for the side-button setting. -->
@@ -277,114 +277,114 @@
          respond. This is a sign of an error; if the weather widget is not
          present on the device, we show nothing at all. -->
 
-    <string name="menu_item_dock_settings" msgid="9161438664257429372">Dock settings</string>
+    <string name="menu_item_dock_settings" msgid="9161438664257429372">Настройки док-станции</string>
 
     <!-- A description for the DeskClock alarm sound playback service.
          [CHAR LIMIT=NONE] -->
-    <string name="alarm_klaxon_service_desc">Sound playback service for alarms set in clock.</string>
+    <string name="alarm_klaxon_service_desc">Служба воспроизведения сигналов в Часах.</string>
 
     <!-- String displayed as the alert summary while loading the alert name from
          the media player. [CHAR LIMIT=NONE] -->
-    <string name="loading_ringtone">Loading ringtone\u2026</string>
+    <string name="loading_ringtone">Загрузка мелодии\u2026</string>
 
     <!-- Label on the main screen control used to set alarm [CHAR LIMIT=30]-->
-    <string name="control_set_alarm">Set alarm</string>
+    <string name="control_set_alarm">Установить будильник</string>
 
     <!-- Label on the main screen control used to set alarm when there is already an existing alarm [CHAR LIMIT=30]-->
-    <string name="control_set_alarm_with_existing">Alarm set: <xliff:g id="time">%s</xliff:g></string>
+    <string name="control_set_alarm_with_existing">Будильник установлен: <xliff:g id="time">%s</xliff:g></string>
 
-    <string name="common_settings">Settings</string>
-    <string name="alarm_settings">Alarm settings</string>
+    <string name="common_settings">Настройки</string>
+    <string name="alarm_settings">Настройки будильника</string>
 
-    <string name="worldclock_title">Clock</string>
-    <string name="stopwatch_title">Stopwatch</string>
-    <string name="timer_title">Timer</string>
+    <string name="worldclock_title">Часы</string>
+    <string name="stopwatch_title">Секундомер</string>
+    <string name="timer_title">Таймер</string>
 
-    <string name="menu_add_worldclock">Add clock</string>
-    <string name="menu_edit_systemtime">System time</string>
-    <string name="delete_timezone_title">Delete timezone</string>
-    <string name="delelte_selected_timezone">Delete the selected timezones?</string>
+    <string name="menu_add_worldclock">Добавить</string>
+    <string name="menu_edit_systemtime">Системное время</string>
+    <string name="delete_timezone_title">Удалить часовой пояс</string>
+    <string name="delelte_selected_timezone">Удалить выбранные часовые пояса?</string>
 
-    <string name="timezone_exist_error_message">You\'re already displaying that timezone</string>
+    <string name="timezone_exist_error_message">Такой часовой пояс уже добавлен</string>
 
     <string-array name="alarm_in_furture">
-        <item>Alarm will sound in less than 1 minute </item>
-        <item>Alarm will sound in <xliff:g id="DAYS" example="2 days">%1$s</xliff:g></item>
-        <item>Alarm will sound in <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g></item>
-        <item>Alarm will sound in <xliff:g id="DAYS" example="2 days">%1$s </xliff:g><xliff:g id="HOURS" example="2 hours">%2$s</xliff:g></item>
-        <item>Alarm will sound in <xliff:g id="MINUTES" example="2 minutes">%3$s </xliff:g></item>
-        <item>Alarm will sound in <xliff:g id="DAYS" example="2 days">%1$s </xliff:g><xliff:g id="MINUTES" example="2 minutes">%3$s </xliff:g></item>
-        <item>Alarm will sound in <xliff:g id="HOURS" example="2 hours">%2$s </xliff:g><xliff:g id="MINUTES" example="2 minutes">%3$s </xliff:g></item>
-        <item>Alarm will sound in <xliff:g id="DAYS" example="2 days">%1$s </xliff:g><xliff:g id="HOURS" example="2 hours">%2$s </xliff:g><xliff:g id="MINUTES" example="2 minutes">%3$s </xliff:g></item>
+        <item>Будильник менее чем через одну минуту </item>
+        <item>Будильник менее чем <xliff:g id="DAYS" example="2 days">%1$s</xliff:g></item>
+        <item>Будильник менее чем <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g></item>
+        <item>Будильник менее чем <xliff:g id="DAYS" example="2 days">%1$s </xliff:g><xliff:g id="HOURS" example="2 hours">%2$s</xliff:g></item>
+        <item>Будильник менее чем <xliff:g id="MINUTES" example="2 minutes">%3$s </xliff:g></item>
+        <item>Будильник менее чем <xliff:g id="DAYS" example="2 days">%1$s </xliff:g><xliff:g id="MINUTES" example="2 minutes">%3$s </xliff:g></item>
+        <item>Будильник менее чем <xliff:g id="HOURS" example="2 hours">%2$s </xliff:g><xliff:g id="MINUTES" example="2 minutes">%3$s </xliff:g></item>
+        <item>Будильник менее чем <xliff:g id="DAYS" example="2 days">%1$s </xliff:g><xliff:g id="HOURS" example="2 hours">%2$s </xliff:g><xliff:g id="MINUTES" example="2 minutes">%3$s </xliff:g></item>
     </string-array>
 
-    <string name="alarm_disabled">Disabled</string>
-    <string name="alarm_ascending_mode_title">Ascending volume</string>
-    <string name="alarm_ascending_mode_summary">Alarm volume ascends gradually to selected level</string>
+    <string name="alarm_disabled">Выключен</string>
+    <string name="alarm_ascending_mode_title">Увеличение громкости</string>
+    <string name="alarm_ascending_mode_summary">Увеличение громкости будильника до установленной</string>
 
-    <string name="close_alarm">Close alarm</string>
+    <string name="close_alarm">Отключить</string>
 
     <string-array name="days">
-        <item>Yesterday</item>
-        <item>Today</item>
-        <item>Tomorrow</item>
+        <item>Вчера</item>
+        <item>Сегодня</item>
+        <item>Завтра</item>
     </string-array>
 
-    <string name="start">Start</string>
-    <string name="pause">Pause</string>
-    <string name="reset">Reset</string>
-    <string name="lap">Lap</string>
-    <string name="timer_continue">Continue</string>
+    <string name="start">Старт</string>
+    <string name="pause">Пауза</string>
+    <string name="reset">Сброс</string>
+    <string name="lap">Круг</string>
+    <string name="timer_continue">Продолжить</string>
 
-    <string name="worldclock_empty_text">No clocks</string>
-    <string name="alarmclock_empty_text">No alarms</string>
-    <string name="stopwatch_lap_empty_text">No laps</string>
+    <string name="worldclock_empty_text">Нет часов</string>
+    <string name="alarmclock_empty_text">Нет будильников</string>
+    <string name="stopwatch_lap_empty_text">Ни одного круга</string>
 
-    <string name="timer_got_it">OK</string>
-    <string name="timer_start_alarm">Time\'s up!</string>
-    <string name="dialog_confirm_abort">Discard changes?</string>
-    <string name="confirm_abort">Discard</string>
-    <string name="remind_ringtone">Ringtone</string>
-    <string name="keep_screen_on">Keep screen on</string>
-    <string name="start_up">Start up</string>
-    <string name="cancel">Cancel</string>
-    <string name="timer_message_with_hour">%1$d hours and %2$d minutes</string>
-    <string name="timer_message">%1$d minutes</string>
+    <string name="timer_got_it">ОК</string>
+    <string name="timer_start_alarm">Время вышло!</string>
+    <string name="dialog_confirm_abort">Отменить изменения?</string>
+    <string name="confirm_abort">Отменить</string>
+    <string name="remind_ringtone">Мелодия</string>
+    <string name="keep_screen_on">Оставить экран включенным</string>
+    <string name="start_up">Пуск</string>
+    <string name="cancel">Отмена</string>
+    <string name="timer_message_with_hour">%1$d ч. и %2$d мин.</string>
+    <string name="timer_message">%1$d мин.</string>
 
-    <string name="shutdown_alarm_title">Shutdown alarm</string>
-    <string name="shutdown_alarm_enable_summary">Shutdown alarm is on</string>
-    <string name="shutdown_alarm_disable_summary">Shutdown alarm is off</string>
+    <string name="shutdown_alarm_title">Принудительный режим</string>
+    <string name="shutdown_alarm_enable_summary">Включить телефон, если выключен</string>
+    <string name="shutdown_alarm_disable_summary">Не включать телефон, если выключен</string>
 
-    <string name="workday_alarm_clock">Workday alarm</string>
+    <string name="workday_alarm_clock">По рабочим дням</string>
 
-    <string name="system_time_setting">Settings</string>
-    <string name="lap_num">Lap</string>
+    <string name="system_time_setting">Настройки</string>
+    <string name="lap_num">Круг</string>
 
-    <string name="hour_unit">Hr</string>
-    <string name="alarm_label_hint">Alarm label</string>
+    <string name="hour_unit">Ч</string>
+    <string name="alarm_label_hint">Описание будильника</string>
 
     <string-array name="alarm_repeat_type">
-        <item>Once</item>
-        <item>Daily</item>
-        <item>Work days</item>
-        <item>Mon to Fri</item>
-        <item>Custom</item>
+        <item>Один раз</item>
+        <item>Ежедневно</item>
+        <item>Рабочие дни</item>
+        <item>С ПН по ПТ</item>
+        <item>Своя установка</item>
     </string-array>
 
     <string-array name="alarm_repeat_type_no_workdays">
-        <item>Once</item>
-        <item>Daily</item>
-        <item>Mon to Fri</item>
-        <item>Custom</item>
+        <item>Один раз</item>
+        <item>Ежедневно</item>
+        <item>С ПН по ПТ</item>
+        <item>Своя установка</item>
     </string-array>
 
-    <string name="legal_workday_invalidate">Data expired (Alarm rings from Mon to Fri)</string>
-    <string name="legal_workday_invalidate_message">(Data expired. Update in Settings)</string>
-    <string name="legal_workday_message">" (Alarm off during holidays)"</string>
+    <string name="legal_workday_invalidate">Данные устарели (Будильник работает с ПН по ПТ)</string>
+    <string name="legal_workday_invalidate_message">" (Данные устарели. Обновите в Настройках)"</string>
+    <string name="legal_workday_message">" (Выключен по праздникам)"</string>
 
-    <string name="default_alarm_alert">Set default alarm sound</string>
-    <string name="default_alarm_title">Default ringtone</string>
+    <string name="default_alarm_alert">Установить мелодию по умолчанию</string>
+    <string name="default_alarm_title">Мелодия по умолчанию</string>
 
-    <string name="alarm_alert">Default ringtone</string>
-    <string name="alarm_screen">Alarm screen and ringtone</string>
+    <string name="alarm_alert">Мелодия по умолчанию</string>
+    <string name="alarm_screen">Стиль и мелодия</string>
 </resources>
