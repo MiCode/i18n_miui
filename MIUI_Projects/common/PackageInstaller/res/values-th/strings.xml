@@ -31,106 +31,106 @@
     <string name="install_failed_invalid_apk">แพคเกจติดตั้งเสียหาย</string>
     <!-- Reason displayed when installation fails because the package an existing package is
         installed with a conflicting package author signature [CHAR LIMIT=100] -->
-    <string name="install_failed_inconsistent_certificates">An existing package by the same name
-        with a conflicting signature is already installed.</string>
+    <string name="install_failed_inconsistent_certificates">แพคเกจซ้ำกับแพคเกจ
+        ที่ติดตั้งอยู่แล้ว</string>
     <!-- Reason displayed when installation fails because the package specifies a minimum compatible
         OS version that is newer than our current OS version. [CHAR LIMIT=100] -->
-    <string name="install_failed_older_sdk">The package only works on newer versions of
-        Android.</string>
+    <string name="install_failed_older_sdk">แพคเกจใช้งานได้กับเวอร์ชันใหม่ของ
+        แอนดรอย</string>
     <!-- Reason displayed when installation fails because the package specifies it is compatible
         only with a CPU that the current tablet doesn't have. [CHAR LIMIT=100] -->
-    <string name="install_failed_cpu_abi_incompatible" product="tablet">This application is not
-        compatible with this tablet\'s CPU.</string>
+    <string name="install_failed_cpu_abi_incompatible" product="tablet">แอปพลิเคชันไม่ได้
+        เข้ากับโทรศัพท์</string>
     <!-- Reason displayed when installation fails because the package specifies it is compatible
         only with a CPU that the current phone doesn't have. [CHAR LIMIT=100] -->
-    <string name="install_failed_cpu_abi_incompatible" product="default">This application is not
-        compatible with this phone\'s CPU.</string>
+    <string name="install_failed_cpu_abi_incompatible" product="default">แอปพลิเคชันไม่ได้
+        เข้ากับโทรศัพท์</string>
     <!-- Reason displayed when installation fails because the package was deleted during the
         installation process. [CHAR LIMIT=100] -->
-    <string name="install_failed_file_not_found">The package specified was deleted before
-        installation could be completed.</string>
+    <string name="install_failed_file_not_found">แพคเกจที่ระบุไม่ได้ถูกลบก่อน
+        ติดตั้งเสร็จสมบูรณ์</string>
     <!-- Reason displayed when installation fails because the package could not be verified
         because the package verifier rejected it. [CHAR LIMIT=100] -->
-    <string name="install_failed_verify_failed">The package did not pass verification and cannot
-        be installed.</string>
+    <string name="install_failed_verify_failed">แพคเกจไม่ได้ผ่านการตรวจสอบและไม่สามารถ
+        ติดตั้งได้</string>
     <!-- Reason displayed when installation fails because the package could not be verified
         before the internal system timer expired. [CHAR LIMIT=100] -->
-    <string name="install_failed_verify_timeout">A timeout occurred while trying to verify this
-        package. Please try to install it again later.</string>
+    <string name="install_failed_verify_timeout">หมดเวลาขณะกำลังพยายามตรวจสอบ
+        แพคเกจ กรุณาลองติดตั้งอีกครั้งภายหลัง</string>
     <!-- Message presented when an application could not be installed on the tablet for some reason. [CHAR LIMIT=100] -->
-    <string name="install_failed_msg" product="tablet"><xliff:g id="app_name">%1$s</xliff:g> could not be installed on this tablet.</string>
+    <string name="install_failed_msg" product="tablet"><xliff:g id="app_name">%1$s</xliff:g> ไม่สามารถติดตั้งบนโทรศัพท์</string>
     <!-- Message presented when an application could not be installed on the phone for some reason. [CHAR LIMIT=100] -->
-    <string name="install_failed_msg" product="default"><xliff:g id="app_name">%1$s</xliff:g> could not be installed on this phone.</string>
-    <string name="launch">Open</string>
+    <string name="install_failed_msg" product="default"><xliff:g id="app_name">%1$s</xliff:g> ไม่สามารถติดตั้งบนโทรศัพท์</string>
+    <string name="launch">เปิด</string>
     <string name="unknown_apps_dlg_title">ติดตั้งถูกบล็อก</string>
     <!-- Message presented in a dialog box when a package is requested to be installed, but the "Allow unknown applications" checkbox is not enabled. [CHAR LIMIT=100] -->
-    <string name="unknown_apps_dlg_text" product="tablet">"For security reasons, your tablet has been set \
-to forbid installing applications obtained from unofficial channels.\
-To lift the ban you can install applications from any channel,\
-but your phone and personal data may be attacked by applications of unknown sources,\
-and you shall assume full responsibility for the probable consequences.\n
-You may also modify it via "Settings->Security->Unknown sources"."</string>
+    <string name="unknown_apps_dlg_text" product="tablet">"สำหรับเหตุผลความปลอดภัย โทรศัพท์จะถูกตั้ง \
+เพื่อป้องกันการติดตั้งแอปพลิเคชันจากแหล่งที่ไม่เป็นทางการ\
+เพื่อบล็อกการติดตั้งแอปพลิเคชันจากช่องทางอื่นๆ\
+แต่โทรศัพท์และข้อมูลส่วนตัวอาจจะถูกแทรกแซงโดยแอปพลิเคชันจากแหล่งที่มาไม่รู้จัก\
+และต้องรับผิดชอบจากผลกระทบที่จะตามมา\n
+สามารถแก้ไขได้ที่ "การตั้งค่า->ความปลอดภัย->แหล่งที่มาไม่รู้จัก""</string>
     <!-- Message presented in a dialog box when a package is requested to be installed, but the "Allow unknown applications" checkbox is not enabled. [CHAR LIMIT=100] -->
-    <string name="unknown_apps_dlg_text" product="default">"For security reasons, your phone has been set \
-to forbid installing applications obtained from unofficial channels.\
-To lift the ban you can install applications from any channel,\
-but your phone and personal data may be attacked by applications of unknown sources,\
-and you shall assume full responsibility for the probable consequences.\n
-You may also modify it via "Settings->Security->Unknown sources"."</string>
+    <string name="unknown_apps_dlg_text" product="default">"สำหรับเหตุผลความปลอดภัย โทรศัพท์จะถูกตั้ง \
+เพื่อป้องกันการติดตั้งแอปพลิเคชันจากแหล่งที่ไม่เป็นทางการ\
+เพื่อบล็อกการติดตั้งแอปพลิเคชันจากช่องทางอื่นๆ\
+แต่โทรศัพท์และข้อมูลส่วนตัวอาจจะถูกแทรกแซงโดยแอปพลิเคชันจากแหล่งที่มาไม่รู้จัก\
+และต้องรับผิดชอบจากผลกระทบที่จะตามมา\n
+สามารถแก้ไขได้ที่ "การตั้งค่า->ความปลอดภัย->แหล่งที่มาไม่รู้จัก""</string>
     <string name="ok">ตกลง</string>
     <string name="settings">การตั้งค่า</string>
     <!-- Title of dialog asking user if they would allow an application to be an install source. -->
-    <string name="allow_source_dlg_title">Allow new source for apps?</string>
+    <string name="allow_source_dlg_title">อนุญาตแหล่งที่มาใหม่สำหรับแอปพลิเคชัน?</string>
     <!-- Message of dialog asking user if they would allow an application to be an install source. -->
-    <string name="allow_source_dlg_text"><xliff:g id="app_name">%1$s</xliff:g> wants to install other apps.\n\nAllow
-        this now and in the future?</string>
+    <string name="allow_source_dlg_text"><xliff:g id="app_name">%1$s</xliff:g> ต้องการติดตั้งแอปพลิเคชันอื่น\n\nอนุญาต
+        ครั้งนี้และแอปพลิเคชันครั้งต่อไป?</string>
     <string name="manage_applications">จัดการแอปพลิเคชัน</string>
     <string name="dlg_app_replacement_title">แทนที่แอปพลิเคชัน</string>
-    <string name="dlg_app_replacement_statement">The application you are installing will replace another application.\n\nAll previous user data will be saved.</string>
-    <string name="dlg_app_replacement_statement_with_version"><xliff:g id="APP_NAME">%1$s</xliff:g> (<xliff:g id="NEW_VERSION">%2$s</xliff:g>) will replace the currently installed version (<xliff:g id="ORI_VERSION">%3$s</xliff:g>). User’s contents will be retained.\nSure to install?</string>
+    <string name="dlg_app_replacement_statement">แอปพลิเคชันจะถูกแทนที่ด้วยแอปพลิเคชันอื่น\n\nข้อมูลผู้ใช้ก่อนหน้าจะถูกรักษาไว้</string>
+    <string name="dlg_app_replacement_statement_with_version"><xliff:g id="APP_NAME">%1$s</xliff:g> (<xliff:g id="NEW_VERSION">%2$s</xliff:g>) จะถูกแทนที่โดยเวอร์ชันติดตั้งปัจจุบัน (<xliff:g id="ORI_VERSION">%3$s</xliff:g>) ข้อมูลผู้ใช้จะถูกเก็บรักษาไว้\nต้องการติดตั้ง?</string>
     <!-- Dialog attributes when replacing system app -->
-    <string name="dlg_sys_app_replacement_statement">This is a system application. Do you still want to replace it?\n\nAll previous user data will be saved.</string>
+    <string name="dlg_sys_app_replacement_statement">แอปพลิเคชันระบบ ต้องการแทนที่?\n\nข้อมูลผู้ใช้ก่อนหน้าจะถูกรักษาไว้</string>
     <string name="lift_ban">Lift ban</string>
     <string name="out_of_space_dlg_title">พื้นที่ไม่เพียงพอ</string>
-    <string name="out_of_space_dlg_text"><xliff:g id="app_name">%1$s</xliff:g> could not be installed. Free up some space and try again.</string>
+    <string name="out_of_space_dlg_text"><xliff:g id="app_name">%1$s</xliff:g> ไม่สามารถติดตั้ง เพิ่มพื้นที่ว่างและลองใหม่อีกครั้ง</string>
     <!-- strings related to uninstall activity -->
     <string name="dlg_ok">ตกลง</string>
     <string name="app_not_found_dlg_title">ไม่พบแอปพลิเคชัน</string>
-    <string name="app_not_found_dlg_text"> The application was not
-found in the list of installed applications.</string>
+    <string name="app_not_found_dlg_text">แอปพลิเคชันไม่พบ
+ในรายการแอปพลิเคชันติดตั้ง</string>
     <string name="uninstall_application_title">ถอนติดตั้งแอปพลิเคชัน</string>
     <string name="uninstall_update_title">ถอนติดตั้งอัปเดต</string>
-    <string name="uninstall_activity_text"><xliff:g id="activity_name">%1$s</xliff:g> is part of the following application:</string>
+    <string name="uninstall_activity_text"><xliff:g id="activity_name">%1$s</xliff:g> เป็นส่วนหนึ่งของแอปพลิเคชันต่อไปนี้:</string>
     <string name="uninstall_confirm_question">ต้องการถอนติดตั้งแอปพลิเคชัน?</string>
-    <string name="uninstall_application_text">This application will be uninstalled.</string>
-    <string name="uninstall_update_text">The application will be replaced with the factory version.</string>
-    <string name="uninstalling">Uninstalling\u2026</string>
-    <string name="uninstall_done">Uninstall finished</string>
-    <string name="uninstall_failed">Uninstall not successful</string>
+    <string name="uninstall_application_text">แอปพลิเคชันไม่ถอนติดตั้ง</string>
+    <string name="uninstall_update_text">แอปพลิเคชันจะถูกแทนที่ด้วยเวอร์ชันโรงงาน</string>
+    <string name="uninstalling">กำลังถอนติดตั้ง\u2026</string>
+    <string name="uninstall_done">ถอนติดตั้งเสร็จสิ้น</string>
+    <string name="uninstall_failed">ถอนติดตั้งไม่เสร็จสิ้น</string>
     <!-- String presented to the user when uninstalling a package failed because the target package
         is a current device administrator [CHAR LIMIT=80] -->
-    <string name="uninstall_failed_device_policy_manager">Cannot uninstall: this package is an
-        active device administrator.</string>
+    <string name="uninstall_failed_device_policy_manager">ไม่สามารถถอนติดตั้ง: แพคเกจนี้
+        เปิดใช้งานโดยบริหารจัดการอุปกรณ์</string>
     <!-- String on a button that leads to the "device administrator" configuration setting where a
         user will be able to disable the device administrator in order to uninstall
         it. [CHAR LIMIT=50] -->
-    <string name="manage_device_administrators">Manage device administrators</string>
-    <string name="uninstall_failed_msg"><xliff:g id="app_name">%1$s</xliff:g> could not be uninstalled</string>
-    <string name="uninstall_failed_retained_app_msg">This app has been modified and can\'t be uninstalled in its current form.</string>
+    <string name="manage_device_administrators">จัดการบริหารอุปกรณ์</string>
+    <string name="uninstall_failed_msg"><xliff:g id="app_name">%1$s</xliff:g> ไม่สามารถถอนติดตั้ง</string>
+    <string name="uninstall_failed_retained_app_msg">แอปพลิเคชันจะได้รับแก้ไขและไม่สามารถถอนติดตั้ง</string>
 
     <!-- Dialog attributes to indicate parse errors -->
-    <string name="Parse_error_dlg_title">Parse error</string>
-    <string name="Parse_error_dlg_text">There is a problem parsing the package.</string>
-    <string name="caller_app">Caller: <xliff:g id="APP_NAME">%1$s</xliff:g></string>
-    <string name="safe_guard_support">Technical support provided by <xliff:g id="SUPPORT">%1$s</xliff:g></string>
+    <string name="Parse_error_dlg_title">แยกแพคเกจผิดพลาด</string>
+    <string name="Parse_error_dlg_text">เกิดปัญหาในการแยกแพคเกจ</string>
+    <string name="caller_app">ตัวเรียก: <xliff:g id="APP_NAME">%1$s</xliff:g></string>
+    <string name="safe_guard_support">สนับสนุนทางเทคนิคโดย <xliff:g id="SUPPORT">%1$s</xliff:g></string>
 
-    <string name="safe_relative">Safe relative permissions</string>
-    <string name="privacy_relative">Private relative permissions</string>
-    <string name="other_relative">Other permissions</string>
+    <string name="safe_relative">อนุญาตความปลอดภัย</string>
+    <string name="privacy_relative">อนุญาตความเป็นส่วนตัว</string>
+    <string name="other_relative">อนุญาตอื่นๆ</string>
 
-    <string name="perm_notice">Alert</string>
-    <string name="trust_switch_dialog_msg">MIUI will not ask you to confirm any security or privacy related operations carried out by this app.</string>
-    <string name="auto_startup_dialog_msg">MIUI will allow this app to start without your permission.</string>
+    <string name="perm_notice">คำเตือน</string>
+    <string name="trust_switch_dialog_msg">ระบบจะไม่ถามเพื่อยืนยันความปลอดภัยหรือความเป็นส่วนตัวแอปพลิเคชันนี้</string>
+    <string name="auto_startup_dialog_msg">ระบบอนุญาตแอปพลิเคชันเพื่อเปิดโดยไม่ต้องอนุญาต</string>
     <string name="low_risk_perms">อนุญาตความเสี่ยงต่ำ</string>
     <string name="high_risk_perms">อนุญาตความเสี่ยงสูง</string>
     <string name="perm_privacy_app_finish">เสร็จสิ้น</string>
@@ -144,7 +144,7 @@ found in the list of installed applications.</string>
     <string name="perm_action_prompt">ถามก่อน</string>
     <string name="perm_action_reject">ปฏิเสธ</string>
 
-    <string name="unknown_installer">Unidentified PC tools</string>
+    <string name="unknown_installer">เครื่องมือคอมพิวเตอร์</string>
     <!-- Reason displayed when installation fails because the package incompatible
         with MIUI system. -->
     <string name="install_failed_system_incompatible" product="default">แอปพลิเคชันนี้ไม่เข้ากับระบบ</string>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="auto_startup_application_manage">เปิดอัตโนมัติ</string>
+    <string name="auto_startup_count">อนุญาต %d แอปพลิเคชันเปิดอัตโนมัติ</string>
+    <string name="man_add_application">เพิ่มเปิดแอปพลิเคชันเปิดอัตโนมัติด้วยตัวเอง</string>
+    <string name="application_item_disable">ปิดใช้งาน</string>
+    <string name="application_item_permission">อนุญาต</string>
+    <string name="application_item_already_permission">อนุญาตแล้ว</string>
+    <string name="application_forbid_auto_startup">ปิดใช้งาน %s เปิดอัตโนมัติในพื้นหลัง</string>
+    <string name="floating_window_switch_label">แสดงหน้าต่างป๊อปอัพ</string>
+    <string name="floating_window_switch_label_disable">ซ่อนหน้าต่างป๊อปอัพ</string>
+    <string name="app_floating_window_dlg_enable">กำลังเปิดใช้งาน <xliff:g id="PACKAGE_NAME">%1$s</xliff:g>\ การตั้งค่าหน้าต่างลอยจำเป็นต้องรีสตาร์ท สามารถหยุดใช้งานแอปพลิเคชันด้วยตัวเอง\nต้องการเปิดใช้งาน?</string>
+    <string name="app_floating_window_dlg_disable">กำลังเปิดใชงาน <xliff:g id="PACKAGE_NAME">%1$s</xliff:g>\การตั้งค่าหน้าต่างลอยจะถูกบังคับปิด สามารถเปิดแอปพลิเคชันด้วยตัวเอง\nต้องการปิดใช้งาน?</string>
+    <string name="dlg_ok">ตกลง</string>
+    <string name="dlg_cancel">ยกเลิก</string>
+</resources>

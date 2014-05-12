@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">บริการชำระเงิน</string>
+    <string name="format_time">MMM dd, yyyy hh:mmaa</string>
+    <string name="format_date">MMM. dd, yyyy</string>
+    <string name="colon">:\u0020</string>
+
+    <string name="label_order_name">สินค้า:</string>
+    <string name="label_order_price">ราคา:</string>
+    <string name="label_balance">ยอดคงเหลือ:</string>
+    <string name="order_price"><xliff:g id="value">%1$s</xliff:g> Mi เครดิต</string>
+    <string name="password_hint">ใส่รหัสผ่านบัญชี</string>
+    <string name="password_error">รหัสผ่านไม่ถูกต้อง</string>
+    <string name="password_forget">ลืมรหัสผ่าน?</string>
+    <string name="progress_creating">กำลังดึงข้อมูลการสั่งซื้อ\u2026</string>
+    <string name="progress_loading">กำลังดำเนินการ\u2026</string>
+    <string name="button_cancel">ยกเลิก</string>
+    <string name="button_retry">ลองใหม่</string>
+    <string name="button_call">โทร</string>
+    <string name="button_pay">ยืนยัน</string>
+    <string name="button_recharge_pay">ยืนยัน</string>
+    <string name="button_recharge">เติมเงิน</string>
+    <string name="balance_payment"><xliff:g id="value">%1$s</xliff:g> Mi เครดิต</string>
+    <string name="balance_giftcard_payment"><xliff:g id="value">%1$s</xliff:g> Mi เครดิต (<xliff:g id="gift">%2$s</xliff:g>-Mi เครดิต บัตรของขวัญ)</string>
+    <string name="balance_no_giftcard_payment"><xliff:g id="value">%1$s</xliff:g> Mi เครดิต (ไม่สามารถใช้ Mi เครดิต บัตรของขวัญสำหรับการสั่งซื้อนี้)</string>
+
+    <string name="balance">ยอดคงเหลือ: <xliff:g id="value">%1$s</xliff:g> Mi เครติด</string>
+    <string name="giftcard_value">(<xliff:g id="value">%1$s</xliff:g>-Mi เครติด บัตรของขวัญ)</string>
+    <string name="frozen">(แช่แข็ง)</string>
+    <string name="mili_center">Mi เครดิต</string>
+    <string name="memu_refresh">รีเฟรช</string>
+
+    <string name="error_mili_summary">ยอดคงเหลือไม่เพียงพอ</string>
+    <string name="error_network_summary">ไม่สามารถเชื่อมต่อไปยังเครือข่าย</string>
+    <string name="error_auth_summary">เข้าระบบบัญชีผิดพลาด กรุณาเข้าระบบอีกครั้ง</string>
+    <string name="error_has_bought_summary">ชำระเงินสินค้าแล้ว</string>
+    <string name="error_server_summary">เซิร์ฟเวอร์ผิดพลาด กรุณาลองใหม่ภายหลัง</string>
+    <string name="error_common_summary">เซิร์ฟเวอร์ผิดพลาด กรุณาลองใหม่ภายหลัง</string>
+    <string name="error_user_id_mismatch_summary">กรุณาตรวจสอบและเข้าระบบอีกครั้ง</string>
+    <string name="error_illegal_order_summary">รายการสั่งซื้อผิดพลาด กรุณาลองอีกครั้งภายหลัง</string>
+    <string name="error_expired_summary">รายการสั่งซื้อหมดอายุแล้ว</string>
+    <string name="error_frozen_summary">บัญชีถูกแช่แข็ง\nกรุณาติดต่อบริการลูกค้า Xiaomi</string>
+    <string name="error_account_changed_title">บัญชีถูกเปลี่ยนแปลง</string>
+    <string name="error_account_changed_summary">ข้อมูลบัญชีถูกเปลี่ยนแปลง\nกรุณาเข้าระบบอีกครั้ง</string>
+    <string name="error_cert_date_summary">วันที่ใบรับรองผิดพลาด\nกรุณาตรวจสอบวันที่และลองใหม่อีกครั้ง</string>
+
+    <string name="title_recharge">เติมเงิน Mi เครติด</string>
+    <string name="recharge_group_favorite">ใช้วิธีเติมเงินก่อนหน้า</string>
+    <string name="recharge_group_others">วิธีเติมเงินอื่นๆ</string>
+    <string name="recharge_prepaid_title">บัตรเติมเงิน</string>
+    <string name="recharge_alipay_title">Alipay</string>
+    <string name="recharge_tenpay_title">Tenpay</string>
+    <string name="recharge_bankcall_title">บัตรธนาคาร</string>
+    <string name="recharge_message_title">ข้อความ</string>
+    <string name="recharge_voucher_title">บัตร Mi เครดิต</string>
+    <string name="recharge_pcpay_title">คอมพิวเตอร์</string>
+    <string name="recharge_novalid_method">ไม่มีวิธีการเติมเงินถูกต้อง</string>
+
+    <string name="account_detail">บัญชี Xiaomi:\n<xliff:g id="account_id">%1$s</xliff:g></string>
+
+    <string name="paytool_alipay">Alipay</string>
+    <string name="paytool_tenpay">Tenpay</string>
+    <string name="recharge_denomination">￥<xliff:g id="value">%1$s</xliff:g></string>
+    <string name="btn_recharge_large">เติมเงิน</string>
+    <string name="recharge_other">แสดงวิธีอื่นๆ</string>
+    <string name="btn_recharge_success">เติมเงินเสร็จสิ้น</string>
+    <string name="btn_recharge_success_quick">เติมเงินเสร็จสิ้น</string>
+    <string name="btn_prev">ก่อนหน้า</string>
+    <string name="btn_next">ถัดไป</string>
+
+    <string name="recharge_grid_picker_hint">เลือกจำนวนเงิน</string>
+    <string name="recharge_grid_edit_hint">จำนวนเงิน (￥)</string>
+    <string name="recharge_grid_edit_limit">￥<xliff:g id="lower">%1$s</xliff:g>~<xliff:g id="upper">%2$s</xliff:g></string>
+    <string name="recharge_grid_edit_upper_limit">จะต้องไม่เกิน ￥<xliff:g id="upper">%1$s</xliff:g></string>
+    <string name="recharge_grid_error_denomination">กรุณาใส่จำนวนเงินระหว่าง ￥<xliff:g id="lower">%1$s</xliff:g>~<xliff:g id="uper">%2$s</xliff:g></string>
+
+    <string name="paytool_error_install">ติดตั้งปลั๊กอินความปลอดภัย <xliff:g id="tool">%1$s</xliff:g> ล้มเหลว</string>
+    <string name="paytool_error_msp"><xliff:g id="tool">%1$s</xliff:g> ล้มเหลว</string>
+    <string name="paytool_msp_not_installed">ยังไม่ได้ติดตั้งปลั๊กอินความปลอดภัย <xliff:g id="tool">%1$s</xliff:g> ติดตั้งเดี๋ยวนี้?</string>
+    <string name="progress_paytool_creating">กำลังสร้าง <xliff:g id="tool">%1$s</xliff:g> รายการ\u2026</string>
+    <string name="progress_paytool_installing">กำลังติดตั้งปลั๊กอินความปลอดภัย <xliff:g id="tool">%1$s</xliff:g> \u2026</string>
+
+    <string name="prepaid_grid_carrier_hint">เลือกผู้ให้บริการ</string>
+    <string name="prepaid_grid_denomination_hint">เลือกจำนวนเงิน</string>
+    <string name="prepaid_picker_hint_1_1">1. </string>
+    <string name="prepaid_picker_hint_1_2">รองรับเฉพาะชำระเงินครั้งเดียว; </string>
+    <string name="prepaid_picker_hint_2_1">2. </string>
+    <string name="prepaid_picker_hint_2_2_a">เลือกมูลค่าที่สอดคล้องกับบัตรเติมเงิน การดำเนินการนี้ไม่สามารถยกเลิกได้</string>
+    <string name="prepaid_picker_hint_2_2_b">หากมูลค่าบัตรเติมเงิน &lt;font color=red>￥<xliff:g id="value">%1$s</xliff:g>&lt;/font> จะถูกเป็นโมฆะ จะไม่รับผิดชอบต่อความเสียหายที่เกิดขึ้น</string>
+    <string name="prepaid_number_edit_hint">หมายเลข</string>
+    <string name="prepaid_password_edit_hint">รหัสผ่าน</string>
+    <string name="prepaid_edit_limit">หลัก</string>
+    <string name="prepaid_error_carrier">เลือกผู้ให้บริการ</string>
+    <string name="prepaid_error_denomination">เลือกจำนวนเงิน</string>
+    <string name="prepaid_error_card_number">หมายเลขบัตรไม่ถูกต้อง</string>
+    <string name="prepaid_error_password">รหัสผ่านบัตรไม่ถูกต้อง</string>
+    <string name="prepaid_error_card_length">หมายเลขบัตรหรือรหัสผ่านไม่ถูกต้อง</string>
+    <string name="progress_prepaid_creating">กำลังสร้างรายการสั่งซื้อ\u2026</string>
+
+    <string name="voucher_input_password_prompt">ใส่รหัส</string>
+    <string name="voucher_edit_hint">รหัส</string>
+    <string name="voucher_edit_limit">หลัก</string>
+    <string name="voucher_error_password">รหัสไม่ถูกต้อง</string>
+    <string name="progress_voucher_creating">กำลังเติมเงินบัตร Mi เครดิต\u2026</string>
+
+    <string name="msg_picker_hint_1_1">1. </string>
+    <string name="msg_picker_hint_1_2">เติมเงินผ่านข้อความ: &lt;font color=red>￥<xliff:g id="rmb">%1$d</xliff:g> = <xliff:g id="mibi">%2$d</xliff:g> Mi เครดิต&lt;/font></string>
+    <string name="msg_picker_hint_2_1">2. </string>
+    <string name="msg_picker_hint_2_2">ผู้ให้บริการเก็บค่าบริการ ￥<xliff:g id="value">%1$s</xliff:g> ต่อการเติมเงิน</string>
+    <string name="msg_denomination_type">Mi เครดิต</string>
+    <string name="msg_error">เติมเงินล้มเหลว</string>
+    <string name="progress_msg_creating">กำลังสร้างรายการเติมเงิน\u2026</string>
+
+    <string name="msg_send_send_fail_error">ส่งข้อความล้มเหลว</string>
+    <string name="msg_send_no_sim_error">ส่งข้อความล้มเหลว: ลองใส่ซิมการ์ดอีกครั้ง</string>
+    <string name="msg_send_no_net_error">ส่งข้อความล้มเหลว: ไม่สามารถเชื่อมต่อกับผู้ให้บริการเครือข่าย</string>
+    <string name="msg_telecom_order_goods_label">รายละเอียดสินค้า:</string>
+    <string name="msg_telecom_order_goods"><xliff:g id="mibi_num">%1s</xliff:g> Mi เครดิต</string>
+    <string name="msg_telecom_order_denom_label">จำนวนเงิน: </string>
+    <string name="msg_telecom_order_denom">￥<xliff:g id="rmb_num">%1s</xliff:g> (ไม่รวมค่าธรรมเนียมผู้ให้บริการมือถือ)</string>
+    <string name="msg_telecom_sending">กำลังเชื่อมต่อกับผู้ให้บริการเครือข่าย\u2026</string>
+    <string name="btn_recharge_confirm">ยืนยันชำระเงิน</string>
+    <string name="btn_wait_confirm">กำลังรอ</string>
+    <string name="btn_wait_confirm_count">กำลังรอ（<xliff:g id="count">%1$s</xliff:g>）</string>
+    <string name="msg_order_hint_1_1">หลังจากสัมผัส "ยืนยันชำระเงิน" โทรศัพท์จะ</string>
+    <string name="msg_order_hint_1_2">เชื่อมต่อผู้ให้บริการอัตโนมัติ</string>
+    <string name="msg_progress_hint_2_1">หากเชื่อมต่อผู้ให้บริการเสร็จแล้ว!</string>
+    <string name="msg_progress_hint_2_2">โทรศัพท์จะได้รับข้อความยืนยัน</string>
+
+    <string name="giftcard_denom_available">สามารถใช้งานได้ Mi เครดิต</string>
+    <string name="giftcard_denom">Mi เครดิต</string>
+    <string name="giftcard_denom_frozen">Mi เครดิต แช่แข็ง</string>
+    <string name="giftcard_hint">Mi เครดิต เพิ่มโดยบัตรของขวัญครั้งแรกอัตโนมัติ</string>
+    <string name="giftcard_acitivity_and_denomination"><xliff:g id="denomination">%2$s</xliff:g>-บัตรของขวัญ Mi เครดิต จาก <xliff:g id="activity">%1$s</xliff:g></string>
+    <string name="giftcard_expire"><xliff:g id="date">%1$s</xliff:g> หมดอายุ</string>
+    <string name="giftcard_empty">ไม่มีบัตรของขวัญ</string>
+
+    <string name="bankcall_merchant">ผู้รับ:</string>
+    <string name="bankcall_denom">จำนวนเงิน:</string>
+    <string name="bankcall_bank_account">บัตรธนาคาร: </string>
+    <string name="bankcall_xiaomi_company">Xiaomi Corporation (Beijing)</string>
+    <string name="bankcall_denom_number">￥<xliff:g id="denom">%1$s</xliff:g></string>
+    <string name="bankcall_card">บัตรธนาคาร</string>
+    <string name="bankcall_card_hint">กรุณาเลือกหมายเลขบัญชี</string>
+    <string name="bankcall_card_type"><xliff:g id="bank">%1$s</xliff:g>-<xliff:g id="type">%2$s</xliff:g></string>
+    <string name="bankcall_card_type_tailnum"><xliff:g id="bank">%1$s</xliff:g>-<xliff:g id="type">%2$s</xliff:g>(หมายเลขบัตร <xliff:g id="cardNo">%3$s</xliff:g>)</string>
+    <string name="bankcall_debit_card">บัตรเดบิต</string>
+    <string name="bankcall_credit_card">บัตรเครดิต</string>
+    <string name="bankcall_province">จังหวัด</string>
+    <string name="bankcall_city">เมือง</string>
+    <string name="bankcall_name">ชื่อ</string>
+    <string name="bankcall_name_hint">ชื่อที่เกี่ยวข้องกับบัญชี</string>
+    <string name="bankcall_id_card">หมายเลขบัตรประชาชน</string>
+    <string name="bankcall_id_card_hint">หมายเลขบัตรประชาชนที่เกี่ยวข้องกับบัญชี</string>
+    <string name="bankcall_phone">โทรศัพท์</string>
+    <string name="bankcall_phone_debit_hint">จำเป็นต้องใช้การเชื่อมต่ออินเตอร์เน็ตดี</string>
+    <string name="bankcall_phone_credit_hint">หมายเลขโทรศัพท์ส่วนตัวบัญชีธนาคารที่เกี่ยวข้อง</string>
+    <string name="bankcall_hint">บริการจะถูกเข้ารหัสและได้รับอนุญาตจาก UnionPay</string>
+    <string name="bankcall_call_hint">จะได้รับโทรศัพท์จาก UnionPay (020-96585)</string>
+    <string name="btn_wait_call">กำลังรอ\u2026</string>
+    <string name="btn_wait_call_count">กำลังรอ (<xliff:g id="count">%1$s</xliff:g>)</string>
+    <string name="bankcall_error_card">หมายเลขบัยชีไม่ถูกต้อง: กรุณาใส่หมายเลขบัญชีที่ถูกต้อง</string>
+    <string name="bankcall_error_card_info">ข้อมูลบัญชีไม่ถูกต้อง: กรุณาใส่ข้อมูลบัญชีที่ถูกต้อง</string>
+    <string name="progress_bankcall_card_querying">กำลังตรวจสอบประเภทบัญชี\u2026</string>
+    <string name="progress_bankcall_card_creating">กำลังสร้างรายการ\u2026</string>
+    <string name="btn_other_bankcard">ใช้บัตรอื่นๆ</string>
+    <string name="btn_delete_record">ลบ</string>
+    <string name="bankcall_saved_card_info"><xliff:g id="bank">%1$s</xliff:g> - หมายเลขบัตร <xliff:g id="ending">%2$s</xliff:g></string>
+
+    <string name="progress_submit_title">คำขอถูกส่งแล้ว</string>
+    <string name="progress_submit_recharge_summary">เติมเงิน: <xliff:g id="value">%1$s</xliff:g> Mi เครดิต</string>
+    <string name="progress_submit_hint">เติมเงินจะเพิ่มไปยังบัญชีภายใน 3 นาที</string>
+    <string name="btn_count_down_auto">สอบถามหลังจาก <xliff:g id="count">%1$s</xliff:g> วินาที</string>
+    <string name="btn_query">สอบถาม</string>
+    <string name="progress_querying">กำลังดำเนินการ\u2026</string>
+    <string name="progress_success_recharge_title"><xliff:g id="value">%1$s</xliff:g> Mi เครดิต เติมเงินเสร็จสิ้น</string>
+    <string name="progress_success_pay_title"><xliff:g id="value">%1$s</xliff:g> Mi เครดิต ชำระเงินเสร็จสิ้น</string>
+    <string name="progress_success_recharge_summary">ยอดเงินคงเหลือ: <xliff:g id="balance">%1$s</xliff:g> Mi เครดิต</string>
+    <string name="progress_success_pay_summary">ค่าธรรมเนียม <xliff:g id="rechargeFee">%1$s</xliff:g> Mi เครดิต จ่ายเงิน <xliff:g id="payFee">%2$s</xliff:g> Mi เครดิต</string>
+    <string name="progress_error_recharge_title">เติมเงินล้มเหลว</string>
+    <string name="progress_error_recharge_summary">เติมเงินล้มเหลว กรูราลองใหม่ภายหลัง</string>
+    <string name="progress_error_pay_title">ชำระเงินล้มเหลว</string>
+    <string name="progress_error_pay_summary">ค่าธรรมเนียม <xliff:g id="rechargeFee">%1$s</xliff:g> Mi เครดิต แต่ชำระเงินล้มเหลว กรุณาลองใหม่ภายหลัง</string>
+    <string name="progress_warning_waiting">ชำระเงินไม่ได้เข้าถึงบัญชี</string>
+    <string name="progress_warning_contact_server">ชำระเงินไม่ได้เข้าถึงบัญชี\n1.กรุณาติดต่อบริการลูกค้า Shenzhou：<xliff:g id="number">%1$s</xliff:g> \n2. เมื่อติดต่อให้แจ้งหมายเลข: <xliff:g id="order">%2$s</xliff:g></string>
+    <string name="progress_warning_check">ชำระเงินไม่ได้เข้าถึงบัญชี \nจะตรวจสอบอีกครั้งภายใน 2 วันทำการ</string>
+    <string name="btn_back">ย้อนกลับ</string>
+    <string name="btn_recharge_other">เติมเงิน</string>
+    <string name="btn_call">โทร</string>
+
+    <string name="recharge_notification">เติมเงิน: <xliff:g id="value">%1$s</xliff:g> Mi เครดิต</string>
+    <string name="giftcard_push_notification_prime_title">ได้รับใบรับรองของขวัญ</string>
+    <string name="giftcard_push_notification_sub_title"><xliff:g id="activityName">%1$s</xliff:g>: <xliff:g id="giftcardValue">%2$s</xliff:g> Mi เครดิต ของแถม</string>
+    <string name="recharge_push_notification_prime_title"><xliff:g id="chargeXiaomiId">%1$d</xliff:g>  เพิ่ม <xliff:g id="chargeMibi">%2$s</xliff:g> Mi เครดิต ไปยังบัญชี</string>
+    <string name="recharge_push_notification_sub_title">เติมเงินเสร็จสิ้น</string>
+    <string name="giftcard_expire_notification_prime_title">Yikes! รหัสโปรโมชันกำลังจะหมดอายุ \u2026</string>
+    <string name="giftcard_expire_notification_sub_title">บัตรของขวัญ Mi เครดิต หมดอายุ <xliff:g id="date">%1$s</xliff:g></string>
+
+    <string name="title_mili_center">Mi เครดิต</string>
+    <string name="title_recharge_record">บันทึกการเติมเงิน</string>
+    <string name="title_pay_record">บันทึกการชำระเงิน</string>
+    <string name="title_transaction">Transactions</string>
+    <string name="title_giftcard">โปรโมชัน</string>
+    <string name="giftcard_record">บัตรของขวัญ</string>
+    <string name="title_discounts">ส่วนลด</string>
+    <string name="btn_mili_center_recharge">เติมเงิน Mi เครดิต</string>
+    <string name="fee"><xliff:g id="value">%1$s</xliff:g> Mi เครดิต</string>
+    <string name="recharge_record_empty">ไม่มีบันทึกการเติมเงิน</string>
+    <string name="pay_record_empty">ไม่มีบันทึกการชำระเงิน</string>
+    <string name="progress_downloading">กำลังโหลด\u2026</string>
+    <string name="btn_net_connection_retry">ลองใหม่</string>
+    <string name="pay_record_typeall">ทั้งหมด</string>
+
+    <string name="mibi_license_title">ข้อตกลงและเงื่อนไข</string>
+    <string name="mibi_license_message">เกี่ยวกับการใช้งาน Mi เครดิต บริการโดย Xiaomi Inc ก่อนจะสามารถใช้งานบริการ จำเป็นต้องยอมรับข้อตกลงการใช้บริการ "<xliff:g id="agreement">%1$s</xliff:g>"
+        สัมผัส ตกลง หากยอมรับข้อตกลงและเงื่อนไขที่ระบุไว้ใน "<xliff:g id="agreement">%1$s</xliff:g>"</string>
+    <string name="mibi_license_message_span">ข้อตกลงผู้ใช้ Mi เครดิต</string>
+    <string name="btn_agree">ยอมรับ</string>
+
+    <string name="security_setting">การตั้งค่าความปลอดภัย</string>
+    <string name="lockscreen_forgot_pattern_button_text"><u>ลืมรหัสผ่านรูปแบบ</u></string>
+    <string name="lockpattern_recording_intro_header">วาดรูปแบบปลดล็อก:</string>
+    <string name="lockpattern_settings_help_how_to_record">วิธีการวาดรูปแบบการปลดล็อก</string>
+    <string name="lockpattern_recording_incorrect_too_short">เชื่อมต่ออย่างน้อย <xliff:g id="number">%d</xliff:g> จุด ลองอีกครั้ง:</string>
+    <string name="lockpattern_pattern_entered_header">บันทึกรูปแบบแล้ว</string>
+    <string name="lockpattern_need_to_confirm">วาดรูปแบบอีกครั้งเพื่อยืนยัน:</string>
+    <string name="lockpattern_need_to_confirm_wrong">รหัสไม่ตรงกัน กรุณาลองใส่ใหม่:</string>
+    <string name="lockpattern_need_to_unlock_wrong">&lt;font color=red>รหัสผ่านผิด สามารถลองใส่ได้อีก <xliff:g id="timesLeft">%d</xliff:g> ครั้ง&lt;/font></string>
+    <string name="lockpattern_pattern_confirmed_header">รูปแบบปลดล็อกหน้าจอใหม่:</string>
+    <string name="lockpattern_recording_inprogress">ปล่อยนิ้วมือเมื่อเสร็จแล้ว</string>
+    <string name="lockpattern_retry_text"><u>รีเซ็ตรหัสผ่านรูปแบบ</u></string>
+    <string name="forget_password"><u>ลืมรหัสผ่าน</u></string>
+    <string name="login">เข้าระบบ</string>
+    <string name="cancel">ยกเลิก</string>
+    <string name="change_security_lock">ล็อกหน้าจอเพิ่มเติม</string>
+    <string name="lockpassword_confirm_your_pattern_header">ยืนยันรูปแบบ</string>
+    <string name="lockpassword_input_your_pattern_header">ยืนยันรูปแบบ</string>
+    <string name="lockpassword_choose_your_pattern_header">เลือกรูปแบบ</string>
+
+    <string name="lockpattern_continue_button_text">เริ่มต่อ</string>
+    <string name="lockpattern_confirm_button_text">ยืนยัน</string>
+    <string name="lockpattern_tutorial_cancel_label">ยกเลิก</string>
+    <string name="lockpattern_tutorial_continue_label">ถัดไป</string>
+    <string name="lockpattern_need_to_unlock_wrong_footer" />
+    <string name="lockpattern_too_many_failed_confirmation_attempts_header">&lt;font color=red>ใส่รหัสผ่านผิดพลาดมากเกินไป!&lt;/font></string>
+    <string name="lockpattern_need_to_unlock_footer" />
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer">ลองใหม่อีกครั้ง <xliff:g id="number">%d</xliff:g> วินาที</string>
+    <string name="title_myaccount">บัญชี: <xliff:g id="account">%s</xliff:g></string>
+    <string name="title_gesture">รูปแบบล็อก</string>
+    <string name="title_lockpattern">จำเป็นต้องใช้รูปแบบล็อก</string>
+    <string name="title_visible_pattern">รูปแบบล็อกมองเห็นได้</string>
+    <string name="summary_lockpattern">จำเป็นต้องใช้รูปแบบล็อกสำหรับ Mi เครดิต</string>
+    <string name="title_change_lockpattern">กำหนดรูปแบบล็อก</string>
+    <string name="title_password">รหัสผ่าน</string>
+    <string name="title_nopassword">ไม่จำเป็นต้องชำระเงินจำนวนน้อย</string>
+    <string name="title_password_threshold">ขีดจำกัดรายวัน = ￥<xliff:g id="value">%1$s</xliff:g></string>
+    <string name="title_nopassword_dialog">ขีดจำกัดรายวัน</string>
+
+    <string name="button_confirm">ยืนยัน</string>
+    <string name="button_next">ถัดไป</string>
+    <string name="scan_prompt_number">ตรวจสอบ <xliff:g id="carrier">%1$s</xliff:g> หมายเลขบัตรเติมเงิน</string>
+    <string name="scan_prompt_password">ตรวจสอบ <xliff:g id="carrier">%1$s</xliff:g> รหัสผ่านบัตรเติมเงิน</string>
+    <string name="scan_prompt_voucher">ตรวจสอบรหัสผ่าน Mi เครดิต</string>
+    <string name="scan_prompt_retry">เก็บบัตรไว้หลังจากเติมเงินเข้าระบบ</string>
+
+    <string name="detail_recharge_title">บันทึกการเติมเงิน</string>
+    <string name="detail_recharge_order">หมายเลขสั่งซื้อเติมเงิน</string>
+    <string name="detail_recharge_account">รหัสเติมเงิน</string>
+    <string name="detail_pay_account">รหัสสั่งซื้อ</string>
+    <string name="detail_recharge_method">วิธีชำระเงิน</string>
+    <string name="detail_recharge_amount">จำนวนเงิน</string>
+    <string name="detail_recharge_time">เวลา</string>
+
+    <string name="detail_consume_title">บันทึกการชำระเงิน</string>
+    <string name="detail_consume_order">รหัสชำระเงิน</string>
+    <string name="detail_consume_account">รหัสสั่งซื้อ</string>
+    <string name="detail_consume_name">สินค้า</string>
+    <string name="detail_consume_amount">จำนวนเงิน</string>
+    <string name="detail_consume_time">เวลา</string>
+
+    <string name="detail_giftcard_title">รายละเอียดบัตรของขวัญ</string>
+    <string name="detail_giftcard_total">บัตรของขวัญทั้งหมด</string>
+    <string name="detail_giftcard_activity">โปรโมชัน</string>
+    <string name="detail_giftcard_expired_time">วันที่หมดอายุ</string>
+    <string name="detail_giftcard_theme">ชำระเงินธีม</string>
+</resources>

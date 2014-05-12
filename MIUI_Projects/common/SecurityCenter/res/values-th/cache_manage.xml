@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="cache_manage_title">ล้าง %1$d ไฟล์แคชเพื่อเพิ่มพื้นที่ว่าง %2$s </string>
+    <string name="cache_list_empty_hints">ไม่มีไฟล์แคช</string>
+
+</resources>

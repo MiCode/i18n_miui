@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="resource_app_name">แหล่งที่มาเบราว์เซอร์</string>
+
+    <string name="resource_price_free">ฟรี</string>
+    <string name="resource_price_unit">&#160;Mi เครดิต</string>
+    <string name="resource_price_format">(%1$s)</string>
+
+    <string name="sdcard_not_mounted_dialog_title">ไม่พบการ์ดความจำ</string>
+    <string name="sdcard_not_mounted_dialog_message">ใส่การ์ดความจำเดี๋ยวนี้\n</string>
+
+    <string name="resource_mute">ไม่มี</string>
+    <string name="resource_default">เสียงเรียกเข้าเริ่มต้น</string>
+    <string name="resource_ringtone_default">เสียงเรียกเข้า</string>
+    <string name="resource_notification_default">การแจ้งเตือน</string>
+    <string name="resource_alarm_default">การปลุก</string>
+
+    <string name="description_designer">ผู้ออกแบบ</string>
+    <string name="description_author">ผู้เขียน</string>
+    <string name="description_size">ขนาด</string>
+    <string name="description_uploadtime">อัปเดต</string>
+    <string name="description_download">ดาวน์โหลด</string>
+    <string name="description_version">เวอร์ชัน</string>
+    <string name="description_summary">สรุป</string>
+    <string name="description_version_szie">เวอร์ชัน: %1$s   ขนาด: %2$s</string>
+
+    <string name="resource_local">โทรศัพท์ %1$s</string>
+    <string name="resource_online">ออนไลน์ %1$s</string>
+    <string name="resource_selected">แนะนำ</string>
+    <string name="resource_ranking">ยอดนิยม</string>
+    <string name="resource_ranking_free">ฟรี</string>
+    <string name="resource_ranking_purchase">จ่ายเงิน</string>
+    <string name="resource_category">หมวดหมู่</string>
+    <string name="resource_my">โทรศัพท์</string>
+
+    <string name="resource_pack_price_info">%1$s ราคาเดิม</string>
+    <string name="resource_pack_discount_info">%1$s ลดราคา</string>
+    <string name="resource_pack_confirm">แม้ว่าชำระเงิน %1$d ส่วนประกอบธีม แต่อาจจะถูกกว่าหากซื้อแบบเต็ม</string>
+    <string name="resource_pack_warning">แม้ว่าชำระเงิน %1$d ส่วนประกอบธีม แต่อาจจะถูกกว่าหากซื้อแบบแยกส่วน</string>
+
+    <string name="resource_title">รายละเอียดแหล่งที่มา</string>
+    <string name="resource_download">ดาวน์โหลด</string>
+    <string name="resource_downloading">กำลังดาวน์โหลด</string>
+    <string name="resource_waiting_download">กำลังรอ</string>
+    <string name="resource_import_successful">ดาวน์โหลดเสร็จสิ้น</string>
+    <string name="resource_import_failed">นำเข้าล้มเหลว</string>
+    <string name="resource_delta_update_successful">อัปเดตเสร็จสิ้น</string>
+    <string name="resource_delta_update_failed">อัปเดตล้มเหลว: กำลังดาวน์โหลดธีมอีกครั้ง\u2026</string>
+    <string name="resource_delta_update_total">%1$d delta updates saved %2$s </string>
+    <string name="resource_apply">ใช้งาน</string>
+    <string name="resource_update">อัปเดต</string>
+    <string name="resource_select">เลือก</string>
+    <string name="resource_buy">ซื้อ</string>
+    <string name="resource_importing">กำลังนำเข้า\u2026</string>
+    <string name="resource_ringtone_playing_error">เล่นผิดพลาด</string>
+    <string name="online_no_network">ไม่สามารถเชื่อมต่อกับเครือข่าย</string>
+    <string name="online_search_hint">ค้นหาแหล่งที่มาออนไลน์</string>
+    <string name="loading">กำลังโหลด\u2026</string>
+    <string name="download_failed">ดาวน์โหลดล้มเหลว</string>
+    <string name="download_preview_failed">โหลดภาพตัวอย่างล้มเหลว</string>
+    <string name="resource_delete_confirm">ลบแหล่งที่มา?</string>
+    <string name="all_resources">ทั้งหมด</string>
+    <string name="resource_default_name">แหล่งที่มา</string>
+    <string name="resource_detail">รายละเอียด</string>
+    <string name="resource_detail_window_title">%1$s รายละเอียด</string>
+    <string name="resource_detail_update_log_title">อัปเดต</string>
+    <string name="resource_detail_comment_title">ความคิดเห็น</string>
+    <string name="resource_detail_recommend_desiner_other_themes">ธีมอื่นที่ออกแบบโดย %1$s\</string>
+    <string name="resource_detail_recommend_other_themes">อาจจะชอบธีมอื่นๆ</string>
+    <string name="resource_detail_jump_to_online_title">ออนไลน์</string>
+    <string name="resource_detail_jump_to_same_author_title">ผู้เขียนคนเดียวกัน</string>
+    <string name="resource_detail_recommend_desiner_themes">%1$s ธีม</string>
+
+    <string name="resource_share_title">แบ่งปัน</string>
+    <string name="resource_share_subject">แบ่งปันธีม: %1$s</string>
+    <string name="resource_share_text">ธีมที่อาจจะชอบ: %1$s! ลิงค์: %2$s</string>
+
+    <string name="resource_delete_all">ลบ %1$d แหล่งที่มาที่เลือก?</string>
+
+    <string name="resource_can_not_selected">%1$s ไม่สามารถเลือก</string>
+    <string name="resource_system_title">แหล่งที่มาระบบ</string>
+    <string name="resource_downloaded_title">ดาวน์โหลดแหล่งที่มา</string>
+
+    <string name="resource_see_more">เพิ่มเติม</string>
+    <string name="resource_no_result">ไม่พบ</string>
+    <string name="resource_unable_to_access">ขออภัย\nข้อมูลนี้ไม่สามารถใช้งานได้ในประเทศของคุณ</string>
+    <string name="resource_list_title">เลือกล่าสุด</string>
+
+    <string name="resource_get_auth_checking">กำลังตรวจสอบการอนุญาต\u2026</string>
+    <string name="resource_get_auth_retrieving">กำลังดึงการอนุญาต\u2026</string>
+    <string name="resource_get_auth_missing">แหล่งที่มาธีมไม่รองรับ</string>
+    <string name="resource_get_auth_exceed_max_limit_title">จำนวนอุปกรณ์ที่รองรับเกิน</string>
+    <string name="resource_get_auth_exceed_max_limit_tips">10 อุปกรณ์ที่ได้รับอนุญาตบัญชีนี้</string>
+    <string name="resource_server_out_of_service">ขออภับ เซิร์ฟเวอร์ผิดพลาด กรุณาลองใหม่ภายหลัง</string>
+    <string name="resource_server_alert_dialog_title">จะใช้งานได้ภายหลัง\u2026</string>
+
+    <string name="resource_purchase_getting_order">กำลังดึงข้อมูลรายการสั่งซื้อ\u2026</string>
+    <string name="resource_purchase_waiting_payment">กำลังรอข้อมูลการชำระเงิน\u2026</string>
+    <string name="resource_purchase_verifying_payment">กำลังตรวจสอบข้อมูลการชำระเงิน\u2026</string>
+
+    <string name="resource_download_trial">ทดลองใช้งาน</string>
+    <string name="resource_apply_trial">ทดลองเดี๋ยวนี้</string>
+    <string name="resource_on_trial">กำลังทดลองใช้งาน: %1$s</string>
+    <string name="resource_trial_time">（ทดลองใช้งาน %1$d นาที）</string>
+    <string name="resource_trial_end_title">หมดอายุทดลองใช้งานแล้ว</string>
+    <string name="resource_trial_end_message">ทดลองใช้งาน %1$s หมดอายุแล้ว หากต้องการใช้งาน กรุณาชำระเงิน</string>
+    <string name="resource_trial_end_restore">หมดทดลองใช้งาน</string>
+    <string name="resource_trial_end_purchase">ชำระเงิน</string>
+
+    <string name="deleting">กำลังลบ\u2026</string>
+
+    <string name="resource_title_select_ringtone">เลือกเสียง</string>
+    <string name="resource_tip_select_ringtone">ไม่มีที่เลือก</string>
+
+    <string name="loading_resource_detail_info">กำลังโหลด\u2026</string>
+    <string name="loading_resource_detail_fail">โหลดแหล่งที่มาล้มเหลว</string>
+
+    <string name="resource_expand_full_text">ขยาย</string>
+
+    <string name="resource_account_login">เข้าระบบ</string>
+    <string name="resource_account_switch">สลับ</string>
+    <string name="resource_account_login_title">เข้าระบบ</string>
+    <string name="resource_account_fail_to_add">เพิ่มบัญชีล้มเหลว</string>
+    <string name="resource_account_abnormal_state">บัญชีผิดพลาด ลองใหม่ภายหลัง</string>
+    <string name="resource_account_login_before_action">เข้าระบบไปยังบัญชี Xiaomi เดี๋ยวนี้</string>
+
+    <string name="resource_send">ส่ง</string>
+    <string name="resource_save_to_note">บันทึกไปยังโน๊ต</string>
+
+    <string name="resource_present">ของขวัญ</string>
+    <string name="resource_exchange">แลก</string>
+    <string name="resource_exchange_confirm">ยืนยัน</string>
+    <string name="resource_exchange_hint">ใส่รหัสของขวัญ</string>
+    <string name="resource_exchange_window_title">แลก</string>
+    <string name="resource_exchange_universal_goon">รหัสนี้สามารถใช้งานดาวน์โหลดธีมในร้านค้า</string>
+    <string name="resource_exchange_universal_finish">ใช้รหัสนี้ดาวน์โหลดธีมในร้านค้า</string>
+    <string name="resource_exchange_empty_format">ใส่รหัสของขวัญ</string>
+    <string name="resource_exchange_wrong_format_by_local">รูปแบบรหัสไม่ถูกต้อง</string>
+    <string name="resource_exchange_wrong_format_by_server">รหัสไม่ได้รับการตรวจสอบ แน่ใจว่ารหัสที่กรอกถูกต้อง</string>
+    <string name="resource_exchange_has_used">รหัสถูกใช้งานแล้ว</string>
+    <string name="resource_exchange_has_expired">รหัสหมดอายุแล้ว</string>
+    <string name="resource_exchange_unavailable">ธีมที่เกี่ยวข้องกับรหัสไม่สามารถใช้งานได้</string>
+    <string name="resource_exchange_has_bought">ชำระเงินธีมแล้ว</string>
+    <string name="resource_exchange_success">ขอบคุณ</string>
+    <string name="resource_exchange_share_code_dlg_title">กำลังส่ง</string>
+    <string name="resource_exchange_share_code_dlg_content">รหัสของขวัญชำระเงินธีม "%1$s"เป็น: %2$s เมื่อส่งไปยังผู้ใช้คนอื่น สามารถใช้งานดาวน์โหลดธีม</string>
+    <string name="resource_exchange_share_code_content">รับรหัสของขวัญสำหรับธีม "%1$s" บนร้านค้า หมายเลขรหัสคือ %2$s สัมผัส %3$s เพื่อใช้งานเดี๋ยวนี้</string>
+    <string name="resource_exchange_purchase_unkown_error">เกิดข้อผิดพลาดขึ้น เข้าระบบ http://market.xiaomi.com เพื่อดูสถานะการชำระเงิน</string>
+
+    <!-- comments -->
+    <string name="resource_comment_all_comments">ทั้งหมด</string>
+    <string name="resource_comment_good_comments">บวก</string>
+    <string name="resource_comment_bad_comments">ลบ</string>
+    <string name="resource_comment_average_score">ความนิยม</string>
+    <string name="resource_comment_score_count"><xliff:g id="count">%1$s</xliff:g> ผู้ใช้</string>
+    <string name="resource_comment_no_average_score">N/A</string>
+    <string name="resource_comment_5_star">5 ดาว</string>
+    <string name="resource_comment_4_star">4 ดาว</string>
+    <string name="resource_comment_3_star">3 ดาว</string>
+    <string name="resource_comment_2_star">2 ดาว</string>
+    <string name="resource_comment_1_star">1 ดาว</string>
+    <string name="resource_comment_footer">ไม่มีความคิดเห็น</string>
+    <string name="resource_comment_no_comment">ไม่มีความคิดเห็น</string>
+    <string name="resource_comment_current_version">เวอร์ชันปัจจุบัน</string>
+    <string name="resource_comment_date"><xliff:g id="month">%1$02d</xliff:g>-<xliff:g id="date">%2$02d</xliff:g></string>
+    <string name="resource_comment_upload_hint">ความคิดเห็นจะแสดงหลังจากรีวิว</string>
+    <string name="resource_comment_sending">กำลังส่งความคิดเห็น\u2026</string>
+    <string name="resource_comment_upload_failed">ส่งความคิกเห็นล้มเหลว</string>
+    <string name="resource_comment_upload_success">ส่งความคิดเห็น! ความคิดเห็นจะแสดงหลังจากรีวิว</string>
+    <string name="resource_comment_upload_data_invalid">ความคิดเห็นไม่ถูกต้อง</string>
+    <string name="resource_comment_upload_not_logined">จำเป็นต้องเข้าระบบก่อน</string>
+    <string name="resource_comment_upload_not_bought">จำเป้นต้องใช้งานธีมถึงจะสามารถเขียนความคิดเห็นได้</string>
+    <string name="resource_comment_invalid">สัมผัสที่ดาวเพื่อให้คะแนน</string>
+    <string name="resource_comment_expand_full_text">ขยายข้อความทั้งหมด▼</string>
+    <string name="resource_comment_title">ความคิดเห็น: <xliff:g id="app_name">%1$s</xliff:g></string>
+    <string name="resource_comment_edit_title">แก้ไขความคิดเห็น: <xliff:g id="app_name">%1$s</xliff:g></string>
+    <string name="resource_comment_edit_comment">เพิ่มความคิดเห็น</string>
+    <string name="resource_comment_edit_comment_waiting">กำลังตรวจสอบประวัติผู้ใช้\u2026</string>
+    <string name="resource_comment_edit_text_default">เขียนความคิดเห็น</string>
+    <string name="resource_comment_publish">ส่ง</string>
+    <string name="resource_comment_name_default">ผูใช้ <xliff:g id="user_id">%1$s</xliff:g></string>
+    <string name="resource_comment_loading_list">กำลังโหลด\u2026</string>
+    <string name="resource_comment_rate">ความนิยม:</string>
+    <string name="resource_comment_entry_tips">แสดงความคิดเห็น</string>
+
+    <string name="fail_to_add_account">เพิ่มบัญชีล้มเหลว</string>
+    <string name="account_unactivated">บัญชียังไม่เปิดใช้งาน</string>
+    <string name="to_activate_the_account">เปิดใช้งานบัญชี Xiaomi เดี๋ยวนี้</string>
+
+    <string name="resource_menu_refresh">รีเฟรช</string>
+    <string name="resource_unknow_error">เกิดข้อผิดพลาด</string>
+    <string name="resource_user_know">ตกลง</string>
+    <string name="resource_hint">แจ้งเตือน</string>
+
+    <string name="resource_ringtone_volume_mute">เสียงเรียกเข้าถูกเงียบเสียง</string>
+</resources>
