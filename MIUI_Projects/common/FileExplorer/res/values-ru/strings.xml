@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">Проводник</string>
+    <string name="confirm">ОК</string>
+    <string name="menu_item_ftp">FTP</string>
+    <string name="menu_item_cleanup">Очистка файлов</string>
+    <string name="menu_item_search">Поиск</string>
+    <string name="operation_create_folder">Новая папка</string>
+    <string name="menu_item_sort">Сортировка</string>
+    <string name="menu_item_sort_name">Имя</string>
+    <string name="menu_item_sort_size">Размер</string>
+    <string name="menu_item_sort_date">Дата</string>
+    <string name="menu_item_sort_type">Тип</string>
+    <string name="operation_favorite">Избранное</string>
+    <string name="operation_unfavorite">Из избранного</string>
+    <string name="operation_copy">Копировать</string>
+    <string name="operation_paste">Вставить</string>
+    <string name="operation_move">Вырезать</string>
+    <string name="operation_send">Отправить</string>
+    <string name="operation_rename">Переименовать</string>
+    <string name="operation_delete">Удалить</string>
+    <string name="operation_info">Свойства</string>
+    <string name="operation_cancel">Отмена</string>
+    <string name="operation_refresh">Обновить</string>
+    <string name="operation_show_sys">Показывать скрытые файлы</string>
+    <string name="operation_hide_sys">Не показывать скрытые файлы</string>
+    <string name="cancel">Отмена</string>
+    <string name="background">Загрузить в фоне</string>
+    <string name="no_file">Пусто</string>
+    <string name="tab_category">Категории</string>
+    <string name="tab_phone">Телефон</string>
+    <string name="category_all">Все</string>
+    <string name="category_music">Музыка</string>
+    <string name="category_video">Видео</string>
+    <string name="category_picture">Фото</string>
+    <string name="category_theme">Темы</string>
+    <string name="category_document">Документы</string>
+    <string name="category_zip">Архивы</string>
+    <string name="category_apk">APK</string>
+    <string name="category_other">Прочее</string>
+    <string name="category_favorite">Избранное</string>
+    <string name="category_bluetooth">Bluetooth</string>
+    <string name="category_log">Лог</string>
+    <string name="category_mirouter">Mi-Роутер</string>
+    <string name="colon">": "</string>
+    <string name="operation_rename_message">Название папки</string>
+    <string name="operation_create_folder_message">Название папки</string>
+    <string name="operation_delete_confirm_message">Удалить</string>
+    <string name="operation_delete_confirm_message_folder">Все содержимое папки будет удалено.\r\n</string>
+    <string name="delete_folder">Удалить папку?</string>
+    <string name="delete_folders">Удалить папки (%1$d шт.)?</string>
+    <string name="delete_file">Удалить файл?</string>
+    <string name="delete_files">Удалить файлы (%1$d шт.)?</string>
+
+    <plurals name="delete_files_confirm">
+        <item quantity="one">Удалить файлы (%1$d шт.)</item>
+        <item quantity="other">Удалить файлы (%1$d шт.)</item>
+    </plurals>
+
+    <plurals name="delete_folders_confirm">
+        <item quantity="one">" и папки (%1$d шт.)?"</item>
+        <item quantity="other">" и папки (%1$d шт.)?"</item>
+    </plurals>
+
+    <string name="new_folder_name">Новая папка</string>
+    <string name="sd_card_size">SD карта: <xliff:g id="total_size">%1$s</xliff:g></string>
+    <string name="sd_card_available">Доступно: <xliff:g id="available_size">%1$s</xliff:g></string>
+    <string name="file_info_location">Расположение: </string>
+    <string name="file_info_size">Размер: </string>
+    <string name="file_info_modified">Время: </string>
+    <string name="file_info_canread">Часто используемый: </string>
+    <string name="file_info_canwrite">Записанный: </string>
+    <string name="file_info_ishidden">Скрытый: </string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="operation_deleting">Удаление\u2026</string>
+    <string name="operation_pasting">Копирование\u2026</string>
+    <string name="operation_moving">Перемещение\u2026</string>
+    <string name="confirm_know">ОК</string>
+    <string name="error_info_cant_send_folder">Этот тип файла не поддерживается.</string>
+    <string name="fail_to_create_folder">Не удалось создать папку: недостаточно места или папка уже существует.</string>
+    <string name="fail_to_create_folder_unknown">Не удалось создать папку.</string>
+    <string name="fail_to_rename">Папка/файл с таким именем уже существует.</string>
+    <string name="error_filename_too_long">Имя файла слишком длинное.</string>
+    <string name="enable_sd_card"> Подключите SD карту или отключите USB устройство.</string>
+    <string name="start_server">Старт</string>
+    <string name="stop_server">Стоп</string>
+    <string name="notif_server_starting">Запуск FTP сервера\u2026</string>
+    <string name="notif_title">FTP сервер запущен.</string>
+    <string name="storage_warning">Внешний носитель недоступен.</string>
+    <string name="wifi_state">Статус Wi-Fi</string>
+    <string name="instruction_pre">Нажмите \"Старт\" для запуска FTP сервера</string>
+    <string name="instruction">Введите следующий адрес в FTP клиенте: </string>
+    <string name="no_wifi">Нет Wi-Fi подключений.</string>
+    <string name="no_wifi_hint">Проверьте настройки подключения.</string>
+    <string name="search_title">Поиск</string>
+    <string name="search_hint">Поиск</string>
+    <string name="dialog_select_type">Выберите тип</string>
+    <string name="dialog_type_text">Текст</string>
+    <string name="dialog_type_audio">Аудио</string>
+    <string name="dialog_type_video">Видео</string>
+    <string name="dialog_type_image">Изображение</string>
+    <string name="favorite_photo">Фото</string>
+    <string name="favorite_screen_cap">Скриншоты</string>
+    <string name="favorite_ringtone">Мелодии</string>
+    <string name="file_loading">Загрузка\u2026</string>
+    <string name="multi_select_title">Выбрано: <xliff:g id="number">%1$s</xliff:g></string>
+    <string name="tab_networkdisk">KuaiPan</string>
+    <string name="operation_download_link">Сгенерировать ссылку</string>
+    <string name="ui_filechange_btn_download">Загрузить файлы</string>
+    <string name="show_message">Перед открытием файла его необходимо загрузить.</string>
+    <string name="ui_main_progress_txt_open_file">Загрузка\u2026</string>
+    <string name="networkView_notConnected">Нет доступных сетей.</string>
+    <string name="ui_main_toast_favorite_removed">Избранное удалено</string>
+    <string name="ui_main_toast_operation_failed">Не удалась удалить из избранного %1$s</string>
+    <string name="user_guide">Руководство по KuaiPan</string>
+    <string name="user_guide_summary">Краткий обзор</string>
+    <string name="rename_failed">Не удалось переименовать %1$s</string>
+    <plurals name="directory_item_count">
+        <item quantity="one">файлов: 1</item>
+        <item quantity="other">файлов: <xliff:g id="count">%d</xliff:g></item>
+    </plurals>
+    <string name="directory_no_item">Пустая папка</string>
+    <string name="error_open_file_failed_no_app_found">Нет приложения для выполнения этого действия.</string>
+    <string name="no_enough_space">Недостаточно места</string>
+    <string name="directory_info_divider">"  |  "</string>
+
+    <string name="no_enough_storage_title">Недостаточно места</string>
+    <string name="no_enough_storage_indication">Память устройства заполнена.</string>
+
+    <plurals name="ui_bar_txt_download_progress">
+        <item quantity="one">Осталось скачать файлов: 1</item>
+        <item quantity="other">Осталось скачать файлов: %1$d</item>
+    </plurals>
+
+    <plurals name="ui_bar_txt_upload_progress">
+        <item quantity="one">Осталось загрузить файлов: 1</item>
+        <item quantity="other">Осталось загрузить файлов: %1$d</item>
+    </plurals>
+
+    <string name="ui_main_menu_option_task_manage">Управление обменом файлов</string>
+    <string name="kuaipan_label">Kuaipan</string>
+    <string name="create_kuaipan_shortcut_pref">Отправить на домашний экран</string>
+    <string name="login_reg_content0">Используйте KuaiPan из любого места.</string>
+    <string name="login_reg_content">KuaiPan позволяет хранить файлы и синхронизировать их с другими устройствами.</string>
+    <string name="start_use_xiaomi_account">Начните использовать KuaiPan</string>
+    <string name="pan_settting">Настройки KuaiPan</string>
+    <string name="xiaomi_account">Аккаунт Xiaomi</string>
+    <string name="space_usage">Использовано места</string>
+    <string name="used">Использовано</string>
+    <string name="loading">Загрузка\u2026</string>
+    <string name="load_err">Не удалось загрузить</string>
+    <string name="local_cache_size">Размер локального кэша: %s</string>
+    <string name="net_lose_connected">Соединение потеряно</string>
+    <string name="wangpan_root_path">KuaiPan</string>
+    <string name="kuaipan_over_space">Недостаточно места</string>
+    <string name="kuaipan_tech_support">Войдите на kuaipan.cn</string>
+    <string name="no_tasks">Нет задач</string>
+    <string name="no_more_space">Недостаточно места</string>
+    <string name="sd_full">Память телефона заполнена</string>
+    <string name="file_too_large">Невозможно загрузить: файл слишком большой.</string>
+
+    <string name="create_new_folder_failed">Ошибка создания папки</string>
+    <string name="user_guide_kuaipan_copy">Получайте доступ к вашим файлам на различных устройствах</string>
+    <string name="user_guide_upload_to_kuaipan">Скопируйте данные со своего телефона в KuaiPan</string>
+    <string name="user_guide_download_other_version">Загрузите KuaiPan для Windows или OSX</string>
+    <string name="user_guide_other_version">KuaiPan так же доступен для других платформ.</string>
+    <string name="upload_file_toolarge_message">%1$d не удалось загрузить: вы не можете загрузить файлы более 300Мб.</string>
+    <string name="cution">Советы</string>
+
+    <string name="clean_trash_box">Очистить корзину</string>
+    <string name="trash_box_link">Чтобы очистить корзину, посетите <b>pan.xiaomi.com</b>.</string>
+    <string name="clean_title">Удалить файлы старше 30 дней</string>
+    <string name="clean_message"> %1$s места освобождено.</string>
+    <string name="trash_box_message1">Удалите ненужные файлы, чтобы освободить место.</string>
+    <string name="trash_box_message2">Очистите корзину, чтобы освободить место.</string>
+    <string name="close">Закрыть</string>
+    <string name="space_info">KuaiPan: %1$ доступно, %2$s всего</string>
+    <string name="trash_box_capacity">Корзина %1$s</string>
+    <string name="data_capacity">Объем %1$s</string>
+
+    <string name="send_to_midrive">KuaiPan</string>
+    <string name="choose_upload_location">Загрузить в KuaiPan</string>
+    <string name="send_to_midrive_failed_message">Этот тип файлов не поддерживается.</string>
+    <string name="operation_compress">Архивация</string>
+    <string name="compress_title">Архивация</string>
+    <string name="compress_message">Архивация в\u2026</string>
+    <string name="compress_fail">Архивация не удалась: файл с таким же именем уже существует.</string>
+    <string name="operation_compressing">Архивация\u2026</string>
+    <string name="operation_decompressing">Распаковка\u2026</string>
+    <string name="decompress_success">Распаковка завершена</string>
+    <string name="decompress_fail">Распаковка не удалась: архив поврежден или файл с таким же именем уже существует.</string>
+
+    <string name="decompress_to_here">Распаковать в папку</string>
+    <string name="decompress_to">Распаковать в\u2026</string>
+
+    <string name="decompress_confirm">Распаковать</string>
+    <string name="decompress_cancel">Отмена</string>
+
+    <string name="kuaipan_prompt">Советы</string>
+    <string name="kuaipan_prompt_message">\n К сожалению, сервер закрыт на техническое обслуживание, повторите позже\u2026\n</string>
+    <string name="move_failed">Не удалось вырезать</string>
+    <string name="copy_failed">Не удалось копировать</string>
+    <string name="delete_failed">Не удалось удалить</string>
+    <string name="toast_file_not_can_read">Нет приложения для выполнения этого действия</string>
+
+    <string name="ui_main_menu_option_sign_in">Войти</string>
+    <string name="sign_description">Входим\u2026</string>
+    <string name="signin_error">Не удалось подключиться к серверу. Проверьте подключение к сети.</string>
+    <string name="signin_success">Добро пожаловать!\nПолучено свободного места\: %1$s</string>
+    <string name="already_signin_description">Вы уже вошли.</string>
+    <string name="pull_to_signin">Сдвиньте вниз, чтобы войти.</string>
+    <string name="release_to_signin">Отпустите для входа</string>
+
+    <string name="server_control_settings">Настройки</string>
+    <string name="server_control_advanced_settings">Настройки FTP</string>
+    <string name="server_control_charset">Кодирование передачи</string>
+
+    <string name="utf8_title">UTF-8</string>
+    <string name="utf8_summary">Тип кодировки FTP по умолчанию</string>
+
+    <string name="gbk_title">GBK</string>
+    <string name="gbk_summary">Стандартная кодировка в упрощенной китайской версии Windows</string>
+
+    <string name="big5_title">BIG5</string>
+    <string name="big5_summary">Стандартная кодировка в традиционной китайской версии Windows</string>
+
+    <string name="stay_awake_title">Не засыпать</string>
+    <string name="stay_awake_summary">Не выключать экран, при использовании FTP</string>
+
+    <string name="ftp_transfer_secure">Защита</string>
+    <string name="ftp_port_number">Номер порта</string>
+    <string name="ftp_account_req_notice"> 4-16 симв., включая цифры, буквы, чувствительные к регистру</string>
+    <string name="ftp_open_port_error">Ошибка открытия порта: проверьте соединение или сбросьте номер порта.</string>
+    <string name="ftp_anonymous_login">Анонимный вход</string>
+    <string name="ftp_username_and_passworld">Вход</string>
+    <string name="ftp_username_hint">Имя пользователя</string>
+    <string name="ftp_password_hint">Пароль</string>
+    <string name="ftp_invalid_username_or_password">Неверное имя пользователя или пароль</string>
+
+    <string name="add_task">Добавить задачи</string>
+    <string name="adding_upload_tasks">Добавление задач\u2026</string>
+    <string name="create_new_folder_desctiption">Создание папки\u2026</string>
+    <string name="create_share_link_description">Создание ссылки\u2026</string>
+    <string name="rename_description">Переименование\u2026</string>
+    <string name="share_link_failed">Не удалось создать ссылку</string>
+    <string name="choose_send_type">Выберите метод отправки</string>
+    <string name="download_link_completed">"Я открыл доступ к %1$s через KuaiPan. Ссылка: "</string>
+
+    <string name="transing">Отправка\u2026</string>
+    <string name="finished">Завершено</string>
+    <string name="uploading">Загрузка\u2026</string>
+    <string name="downloading">Загрузка\u2026</string>
+    <string name="waiting">Ожидание\u2026</string>
+    <string name="wait_wifi">Ожидание Wi-Fi\u2026</string>
+    <string name="wait_net">Ожидание сети\u2026</string>
+    <string name="wait_sdcard">Ожидание SD карты\u2026</string>
+    <string name="paused">Пауза</string>
+    <string name="upload_failed">Загрузка не удалась</string>
+    <string name="download_failed">Загрузка не удалась</string>
+    <string name="operation_pause">Пауза</string>
+    <string name="operation_resume">Запуск</string>
+    <string name="operation_pause_all">Приостановить все</string>
+    <string name="operation_resume_all">Запустить все</string>
+    <string name="operating">Обработка\u2026</string>
+
+    <string name="trans_task">Передача по сети</string>
+    <string name="des_running_trans">Файлов не передано: %1$d.</string>
+    <string name="trans_task_delete_confirm_message">Выбрано заданий: %1$d. Удалить?</string>
+    <string name="forward_to_web_recycle_prompt">&lt;a href=\"%1$s\">Нажмите&lt;/a> для входа в корзину</string>
+
+    <string name="storage_internal">Внутренняя память</string>
+    <string name="storage_sd_card">SD карта</string>
+    <string name="storage_usb">USB накопитель</string>
+    <string name="bind_account">Синхр. существующий аккаунт</string>
+    <string name="bind_account_summary">Синхронизировать аккаунт Kuaipan с аккаунтом Xiaomi</string>
+    <string name="binded_accout_title">Аккаунты синхронизированы</string>
+    <string name="binded_accout_description">Аккаунт Xiaomi синхронизирован с аккаунтом KuaiPan. Для входа в KuaiPan Вы можете использовать аккаунт Xiaomi.</string>
+
+    <!-- for 文件清理 -->
+    <string name="file_cleanup">Очистка файлов</string>
+    <string name="scanning_on_going">Сканирование\u2026</string>
+    <string name="scanning">Сканирование приложения <xliff:g id="count">%d</xliff:g> \u2026 (Всего: <xliff:g id="total">%d</xliff:g>)</string>
+    <string name="sys_size_title">Всего места</string>
+    <string name="sys_size">Всего места <xliff:g id="size">%1$s</xliff:g></string>
+    <string name="application_size_label">Приложения</string>
+    <string name="data_size_label">Данные</string>
+    <string name="cache_size_label">Кэш</string>
+    <string name="sd_size_label">Пользовательские данные</string>
+    <string name="version_text">версия <xliff:g id="version_num">%1$s</xliff:g></string>
+    <string name="uninstall_app_data">Удалить приложение и все данные</string>
+    <string name="start_cleanup">Очистка</string>
+
+    <string name="header_text_scanning">Сканирование\u2026</string>
+    <string name="header_text_scanned">Сканирование завершено</string>
+    <string name="header_text_cleaning">Очистка\u2026</string>
+    <string name="header_text_cleaned">Готово</string>
+
+    <string name="waiting_for_cleaning">Ожидание\u2026</string>
+    <string name="item_name">Безымянная папка</string>
+    <string name="waiting_for_scanning">Ожидание\u2026</string>
+    <string name="scanned">Сканирование завершено</string>
+    <string name="cleaning">Очистка\u2026</string>
+    <string name="cleaned">Готово</string>
+    <string name="cleanup_stopped">Очистка остановлена</string>
+
+    <string name="temp_file_title">Временные файлы</string>
+    <string name="thumbnail_title">Эскизы</string>
+    <string name="app_cache_title">Кэш приложений</string>
+    <string name="empty_dir_title">Пустые папки</string>
+    <string name="app_garbage_title">Мусор</string>
+
+    <string name="temp_file_cleanup_indication" formatted="false">Временные файлы: %s</string>
+    <string name="thumbnail_cleanup_indication" formatted="false">Эскизы: %s</string>
+    <string name="app_cache_cleanup_indication" formatted="false">Кэш: %s</string>
+    <string name="empty_dir_cleanup_indication" formatted="false">Прочее: %s</string>
+    <string name="app_garbage_cleanup_indication" formatted="false">Мусор: %s</string>
+
+    <string name="no_temp_file_indication">Нет временных файлов</string>
+    <string name="no_thumbnail_indication">Нет эскизов</string>
+    <string name="no_app_cache_indication">Нет кэша приложений</string>
+    <string name="no_empty_dir_indication">Нет пустых папок</string>
+    <string name="no_app_garbage_indication">Нет мусора</string>
+
+    <string name="cancel_app_garbage_cleanup">Не очищать</string>
+    <string name="clean_app_garbage" formatted="false">Удалить элементов: %d</string>
+    <string name="app_garbage_path">Расположение:</string>
+
+    <string name="give_up_cleaning">Отмена</string>
+    <string name="restart_cleaning">Повтор</string>
+    <string name="cleanup_complete">Готово</string>
+
+    <string name="count_down_time">Начало через %d сек.</string>
+    <string name="cancel_with_count_down">Отмена (%d)</string>
+
+    <string name="garbage_size_metric" formatted="false">Мусор\: %s\n</string>
+
+    <string name="garbage_item_name_format" formatted="false">%s (%s)</string>
+    <string name="garbage_item_path_format" formatted="false">%s %s</string>
+    <string name="account_bind_prompt">Перемещение пользовательских данных\u2026 Это может занять несколько минут.</string>
+    <string name="migrate_announcement_title">Перемещение завершено</string>
+    <string name="migrate_announcement_msg">Синхронизируйте ваш аккаунт KuaiPan с аккаунтом Xiaomi в настройках аккаунта KuaiPan.</string>
+    <string name="query_bind_state">Подключение к KuaiPan\u2026</string>
+    <string name="operation_deleting_detail">Удаление (%1$d/%2$d)</string>
+    <string name="operation_moving_detail">Перемещение (%1$d/%2$d)</string>
+    <string name="operation_copying">Копирование\u2026</string>
+    <string name="operation_copying_detail">Копирование (%1$d/%2$d)</string>
+    <string name="name_illegal">Введите название</string>
+    <string name="open_changed_file_title">Изменения применены</string>
+    <string name="open_changed_file_message">Файл, который вы пытаетесь открыть изменен, вы можете:\n1. Скачать файл заново, для того, чтобы убедиться, что у вас последняя версия.\n2. Загрузить в Ваш аккаунт KuaiPan.</string>
+    <string name="ui_filechange_btn_upload">Загрузить файлы</string>
+    <string name="folder_exist">Папка уже существует</string>
+
+    <!-- for unmount usb storage -->
+    <string name="unmount_inform_text">Отключить USB накопитель?</string>
+    <string name="dlg_error_unmount_text">Невозможно отключить USB накопитель.</string>
+</resources>
