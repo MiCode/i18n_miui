@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">ธีม</string>
+    <string name="theme_import_activity_label">อัปเดตธีม</string>
+
+    <string name="theme_changing_dialog_title">กำลังใช้งานธีม\u2026</string>
+    <string name="theme_changed_message">ใช้งานแล้ว</string>
+    <string name="theme_changed_failed_message">ใช้งานล้มเหลว</string>
+
+    <string name="backup_preference_title">ย้อนกลับไปยังธีม</string>
+    <string name="backup_theme_dialog_ok">ย้อนกลับ</string>
+    <string name="backup_theme_dialog_message">ย้อนกลับไปยังธีมปัจจุบัน?</string>
+    <string name="backup_theme_progress_message">กำลังย้อนกลับไปยังธีม\u2026</string>
+    <string name="backup_theme_success_message">สำรองข้อมูลธีมเสร็จสิ้น</string>
+    <string name="backup_theme_name">สำรองข้อมูล</string>
+
+    <string name="theme_description_title_default">ค่าเริ่มต้น</string>
+    <string name="theme_description_title_customized">กำหนดเอง</string>
+
+    <string name="component_category_finest_title">ทั่วไป</string>
+    <string name="component_category_more_title">ขั้นสูง</string>
+    <string name="theme_component_title_framework">ขอบ</string>
+    <string name="theme_component_title_mms">ข้อความ</string>
+    <string name="theme_component_title_wallpaper">หน้าจอหลัก</string>
+    <string name="theme_component_title_lockwallpaper">ล็อกหน้าจอ</string>
+    <string name="theme_component_title_miwallpaper">ดาวน์โหลด</string>
+    <string name="theme_component_title_icon">ไอคอน</string>
+    <string name="theme_component_title_boot_animation">อนิเมชันบูต</string>
+    <string name="theme_component_title_boot_audio">เสียงบูต</string>
+    <string name="theme_component_title_font">ตัวอักษร</string>
+    <string name="theme_component_title_ringtone">เสียงเรียกเข้า</string>
+    <string name="theme_component_title_notification">การแจ้งเตือน</string>
+    <string name="theme_component_title_alarm">การปลุก</string>
+    <string name="theme_component_title_contact">แป้นหมายเลข</string>
+    <string name="theme_component_title_lockstyle">รูปแบบล็อก</string>
+    <string name="theme_component_title_statusbar">แถบสถานะ</string>
+    <string name="theme_component_title_launcher">ถาดชื่นชอบ</string>
+    <string name="theme_component_title_audio_effect">เสียง</string>
+    <string name="theme_component_title_alarmstyle">รูปแบบการปลุก</string>
+    <string name="theme_component_title_clock">นาฬิกา</string>
+    <string name="theme_component_title_photo_frame">กรอบรูปภาพ</string>
+    <string name="theme_component_title_others">อื่นๆ</string>
+    <string name="theme_component_title_all">ธีม</string>
+
+    <string name="apply_theme_no_select_message">เลือกองค์ประกอบ</string>
+    <string name="apply_lockscreen_paper_tips">ล็อกหน้าจอไม่รองรับภาพพื้นหลังที่แตกต่างกัน</string>
+
+    <string name="theme_import_from_sdcard">นำเข้าจากการ์ดความจำ</string>
+    <string name="theme_select_others">เรียกดู</string>
+    <string name="third_party_pickers_activity_title">ตั้ง %1$s</string>
+    <string name="lockstyle_personal_settings">ปรับแต่ง</string>
+
+    <string name="wallpaper_settings">การตั้งค่าภาพพื้นหลัง</string>
+    <string name="desktop_wallpaper">หน้าจอหลัก</string>
+    <string name="live_wallpaper">ภาพพื้นหลัง Live</string>
+    <string name="mi_wallpaper">ภาพพื้นหลัง MIUI</string>
+    <string name="lockscreen_wallpaper">ล็อกหน้าจอ</string>
+    <string name="change_wallpaper">ภาพพื้นหลัง</string>
+
+    <string name="component_settings_title">ปรับแต่งธีม</string>
+    <string name="component_select_title">%1$s องค์ประกอบที่เลือก</string>
+    <string name="component_include_title">%1$s องค์ประกอบ</string>
+
+    <string name="apply_font_tip">รูบูตเพื่อใช้งานตัวอักษรธีม</string>
+    <string name="apply_font_btn_reboot">รีบูต</string>
+    <string name="apply_font_btn_exclude">ใช้งานธีมโดยไม่ใช้ตัวอักษร</string>
+
+    <string name="title_local">โทรศัพท์</string>
+    <string name="title_online">ออนไลน์</string>
+    <string name="title_component">องค์ประกอบ</string>
+
+    <string name="title_system_resource">แหล่งที่มาระบบ</string>
+
+    <string name="long_ringtone_resource">ยาว</string>
+    <string name="short_ringtone_resource">สั่น</string>
+    <string name="all_ringtone_resource">ทั้งหมด</string>
+
+    <string name="resource_preview">แสดงตัวอย่าง</string>
+    <string name="wallpaper_set_as_both">ทั้งหมด</string>
+    <string name="wallpaper_set_as_destop">หน้าจอหลัก</string>
+    <string name="wallpaper_set_as_lockscreen">ล็อกหน้าจอ</string>
+    <string name="wallpaper_crop">ครอบ</string>
+    <string name="wallpaper_loading_text">กำลังโหลด\u2026</string>
+    <string name="wallpaper_decoded_error">โหลดล้มเหลว</string>
+
+    <string name="close">ปิด</string>
+    <string name="download_success">ดาวน์โหลดเสร็จสิ้น</string>
+
+    <string name="basic_info">ข้อมูล</string>
+    <string name="account_info">บัญชี</string>
+    <string name="purchased_list">รายการชำระเงิน</string>
+    <string name="payment_info">Mi เครดิต</string>
+
+    <string name="theme_batch_has_update_text">สามารถอัปเดต %1$d ธีม</string>
+    <string name="theme_batch_updating_text">กำลังอัปเดต %1$d ธีม\u2026</string>
+    <string name="theme_batch_update_all">อัปเดตทั้งหมด</string>
+    <string name="theme_batch_update_dlg_title">อัปเดต</string>
+    <string name="theme_batch_update_dlg_content">อัปเดตเดี๋ยวนี้?</string>
+    <string name="theme_batch_update_dlg_content_single">Uอัปเดตเดี๋ยวนี้?</string>
+
+    <string name="theme_current_using_has_update">อัปเดตธีมที่กำลังใช้งาน</string>
+    <string name="theme_immediately_apply_tip">ใช้งานธีมอัปเดตเดี๋ยวนี้?</string>
+    <string name="theme_name">%1$s</string>
+
+    <string name="restore_default_theme_alert">ใช้แอปพลิเคชันธีมเพื่อชำระเงินและดาวน์โหลดอีกครั้ง</string>
+    <string name="selected_resource_file_invalid">เลือกแหล่งที่มาไฟล์ไม่ถูกต้อง</string>
+
+    <string name="apply_theme_with_ringtones">ใช้งานเสียงเรียกเข้าธีม</string>
+    <string name="settings">การตั้งค่า</string>
+</resources>

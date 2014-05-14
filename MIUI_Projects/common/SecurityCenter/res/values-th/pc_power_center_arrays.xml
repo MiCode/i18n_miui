@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="power_dialog_auto_clean_memory_items">
-        <item>After 1 minute</item>
-        <item>After 5 minutes</item>
-        <item>After 10 minutes</item>
-        <item>Never</item>
+        <item>หลังจาก 1 นาที</item>
+        <item>หลังจาก 5 นาที</item>
+        <item>หลังจาก 10 นาที</item>
+        <item>ไม่เลย</item>
     </string-array>
 
     <string-array name="power_dialog_sleep_items">
-        <item>15 seconds</item>
-        <item>30 seconds</item>
-        <item>1 minute</item>
-        <item>2 minutes</item>
-        <item>5 minutes</item>
-        <item>10 minutes</item>
-        <item>Never</item>
+        <item>15 วินาที</item>
+        <item>30 วินาที</item>
+        <item>1 นาที</item>
+        <item>2 นาที</item>
+        <item>5 นาที</item>
+        <item>10 นาที</item>
+        <item>ไม่เลย</item>
     </string-array>
 
      <string-array name="power_dialog_cpu_state_items">
-        <item>High performance</item>
-        <item>Balance</item>
-        <item>Battery saving</item>
+        <item>ประสิทธิภาพสูง</item>
+        <item>สมดุล</item>
+        <item>ประหยัดแบตเตอรี่</item>
     </string-array>
 
     <string-array name="power_dialog_vibration_items">
-        <item>Never vibrate</item>
-        <item>Vibrate when ringer is silenced</item>
-        <item>Always vibrate</item>
+        <item>ไม่สั่น</item>
+        <item>สั่นเมื่อถูกเงียบเสียง</item>
+        <item>สั่นเสมอ</item>
     </string-array>
 
     <string-array name="power_dialog_vibration_items_values">

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- application name and title of error dialogs-->
+    <string name="app_name">บันทึกเสียง</string>
+
+    <!-- Screen title before and during recording -->
+    <!-- Screen title after recording -->
+    <!-- Screen title while playing back a recording -->
+    <!-- Label shown during recording -->
+    <string name="recording">กำลังบันทึกเสียง</string>
+    <!-- Label shown when the recording is stopped for a reason other than the user stopping it (e.g. the sd card was removed) -->
+    <string name="recording_stopped">หยุดบันทึกเสียงแล้ว</string>
+    <!-- label shown when there is not enough space to record something -->
+    <string name="storage_is_full">พื้นที่ไม่เพียงพอ</string>
+    <!-- label shown when the recording has reached maximum allowed file size -->
+    <string name="max_length_reached">ความยาวสูงสุด</string>
+    <!-- label shown when there is no sd card available to record to -->
+    <string name="insert_sd_card">ใส่การ์ดความจำเดี๋ยวนี้</string>
+    <!-- label shown when there is more than 1 minute but less than 9 minutes of space left to record -->
+    <!-- label shown when there is less than 1 minute of space left to record -->
+
+    <!-- button to accept the current recording and return it to the caller -->
+    <!-- button to discard the current recording and return to the caller -->
+    <!-- acknowlegement button in a number of dialogs -->
+    <string name="button_ok">ตกลง</string>
+    <!-- Do not translate. Format of the timer that shows how much has been recorded so far -->
+    <string name="timer_format"><xliff:g id="format">%02d</xliff:g>:<xliff:g id="format">%02d</xliff:g></string>
+    <!-- label shown before the user has recorded anything -->
+
+    <!-- the name under which recordings will be visible in the media database is formatted like this -->
+    <string name="audio_db_title_format"><xliff:g id="format">yyyy-MM-dd HH:mm:ss</xliff:g></string>
+    <!-- all recordings will show up in the media database with this 'artist' name -->
+    <string name="audio_db_artist_name">บันทึกเสียง</string>
+    <!-- all recordings will show up in the media database with this 'album' name -->
+    <string name="audio_db_album_name">บันทึกเสียง</string>
+    <!-- all recordings will show up in the media database in a playlist with this name -->
+    <string name="audio_db_playlist_name">บันทึกเสียง</string>
+    <!-- shown as the message in a dialog when an error occured because of an error accessing the sd card -->
+    <string name="error_sdcard_access">ไม่สามารถเข้าถึงหน่วยความจำโทรศัพท์และการ์ดความจำได้</string>
+    <!-- shown as the message in a dialog when the app encountered an unspecified internal error -->
+    <string name="error_app_internal">แอปพลิเคชันอื่นกำลังใช้งานฟังก์ชันบันทึกเสียง กรุณาตรวจสอบและลองใหม่อีกครั้ง</string>
+    <string name="error_app_internal_title">บันทึกเสียงผิดพลาด</string>
+    <!-- shown as the message in a dialog when the recording could not be added to the media database -->
+    <string name="error_mediadb_new_record">ไม่สามารถบันทึกเสียง</string>
+
+    <!-- add for libra begin -->
+    <string name="default_record_name">ไม่มีชื่อ</string>
+    <string name="menu_view_record_list">รายการบันทึกเสียง</string>
+    <string name="delete_dialog_message">ลบบันทึกเสียง?</string>
+    <string name="overwrite_dialog_message">ชื่อบันทึกเสียงซ้ำ ต้องการแทนที่?</string>
+    <string name="notification_recording">กำลังบันทึกเสียง\u2026</string>
+    <string name="notification_playback">กำลังเล่น\u2026</string>
+    <string name="notification_stopped">หยุดบันทึกเสียง</string>
+    <string name="notification_warning">หน่วยความจำต่ำ (น้อยกว่า %d นาที)</string>
+    <string name="record_list">รายการบันทึกเสียง</string>
+    <string name="record_list_fm">บันทึกเสียงวิทยุ</string>
+    <string name="record_list_call">บันทึกเสียงสนทนา</string>
+    <string name="record_list_cloud">บันทึกเสียงคลาวด์</string>
+    <string name="record_list_cloud_fm">บันทึกเสียงวิทยุคลาวด์</string>
+    <string name="record_list_cloud_call">บันทึกเสียงสนทนาคลาวด์</string>
+    <string name="sd_card_not_available">ไม่สามารถใช้งานการ์ดความจำ</string>
+    <string name="call_record">บันทึกเสียงสนทนา(%d)</string>
+    <string name="fm_record">บันทึกเสียงวิทยุ(%d)</string>
+    <string name="cloud_record">บันทึกเสียงคลาวด์(%d)</string>
+    <string name="open_file_explorer">เรียกดูจัดการไฟล์</string>
+    <string name="no_file">ไม่มีบันทึกเสียง</string>
+    <string name="loading_recording">กำลังโหลดบันทึกเสียง</string>
+    <string name="mark_now">(ปัจจุบัน)</string>
+    <string name="second">%d วินาที</string>
+    <string name="minute">%d นาที</string>
+    <string name="hour">%d ชั่วโมง</string>
+    <string name="call_record_or">หรือ</string>
+    <string name="dialog_play">เล่น</string>
+    <string name="dialog_send">ส่ง</string>
+    <string name="dialog_warning">แจ้งเตือน</string>
+    <string name="alert_message_delete_record">ลบบันทึกเสียงที่เลือก?</string>
+    <string name="unknown_caller">โทรไม่รู้จัก</string>
+
+    <!-- add for libra end -->
+
+    <string name="rename">เปลี่ยนชื่อ</string>
+    <string name="send_to">แบ่งปัน</string>
+    <string name="delete">ลบ</string>
+    <string name="deleting_message">กำลังลบ\u2026</string>
+    <string name="rename_dialog_title">เปลี่ยนชื่อบันทึกเสียง</string>
+    <string name="rename_illegal">ชื่อที่ใส่ไม่ถูกต้อง</string>
+    <string name="rename_duplicate">ชื่อบันทึกเสียงซ้ำ</string>
+    <string name="record_picker_title">เลือกบันทึกเสียง</string>
+
+    <string name="dialog_title_storage_full">พื้นที่ไม่เพียงพอ</string>
+    <string name="dialog_content_storage_full">หยุดบันทึกเสียงเนื่องจากพื้นที่โทรศัพไม่เพียงพอ</string>
+
+    <string name="status_bar_anti_disturb">ปิดเสียงโทรศัพท์</string>
+    <string name="status_bar_recording">กำลังบันทึกเสียง\u2026</string>
+    <string name="status_bar_back">เพื่อย้อนกลับ สัมผัสแถบนี้</string>
+    <string name="status_bar_recording_pause">"พักบันทึกเสียงชั่วคราว"</string>
+    <string name="record_saving">กำลังบันทึก\u2026</string>
+    <string name="record_loading">กำลังโหลด\u2026</string>
+    <string name="low_battery_message_title">แบตเตอรี่ต่ำ</string>
+    <string name="low_battery_warning">กำลังบันทึกเสียงอาจจะเพิ่มการใช้พลังงานแบตเตอรี่</string>
+    <string name="low_battery_error"> แบตเตอรี่น้อยกว่า 5% บันทึกเสียงจะถูกหยุดและบันทึก</string>
+    <string name="access_error">ไม่สามารถบันทึกเสียงขณะใช้งานโหมดเยี่ยมชม</string>
+
+    <string name="record_name_hour">.</string>
+    <string name="sound_recorder_settings">การตั้งค่า</string>
+    <string name="menu_settings">การตั้งค่า</string>
+    <string name="preference_led_indicator">บันทึกเสียงขณะล็อกหน้าจอ</string>
+    <string name="preference_led_indicator_prompt">เมื่อบันทึกเสียงขณะล็อกหน้าจอ แสดงในแถบสถานะและไฟกระพริบ</string>
+    <string name="preference_record_type_title">ประเภทบันทึกเสียง</string>
+    <string name="preference_scenes">การตั้งค่าฉาก</string>
+    <string name="preference_record_type_dialog_title">เลือกประเภทบันทึกเสียง</string>
+    <string name="preference_record_scenes_dialog_title">เลือกฉากบันทึกเสียง</string>
+    <string name="preference_silent_mode">ปิดเสียงเรียกเข้าเมื่อบันทึกเสียง</string>
+    <string name="preference_enable_earpiece_title">ใช้ตัวรับเพื่อเล่นเสียง</string>
+    <string name="preference_enable_earpiece_summary">ใช้ลำโพงสำหรับเล่นภายนอก</string>
+
+    <string name="error_filename_too_long">ชื่อไฟล์ยาวเกินไป</string>
+    <string name="error_filename_illegal_char">ชื่อไฟล์ต้องมีตัวอักษรอย่างน้อย 1 ตัว</string>
+    <string name="duration_format_hour">%sh</string>
+    <string name="duration_format_minute">%sm</string>
+    <string name="duration_format_second">%ss</string>
+    <string name="toast_max_record_time">%1$s สามารถบันทึกเสียงประมาน %2$s</string>
+    <string name="message_file_size_error">บันทึกเสียงได้ยาวสูงสุด %s</string>
+    <string name="start_recording">เริ่มบันทึกเสียง</string>
+    <string name="pause">พักชั่วคราว</string>
+    <string name="play_record">เล่น</string>
+    <string name="stop_recording">หยุดบันทึกเสียง</string>
+    <string name="view_list_of_recordings">แสดงบันทึกเสียง</string>
+    <string name="search_for_recordings_in_folders">ค้นหาบันทึกเสียงในจัดการไฟล์</string>
+    <string name="back">ย้อนกลับ</string>
+    <string name="toast_uninstall_fileexplorer">ไม่ได้ติดตั้งแอปพลิเคชันจัดการไฟล์</string>
+
+    <string name="record_download">ดาวน์โหลดจาก Mi คลาวด์</string>
+    <string name="record_download_msg">บันทึกเสียงสามาถเล่นหลังจากดาวน์โหลดเสร็จเท่านั้น</string>
+    <string name="record_download_msg_reload">ไม่มีบันทึกเสียง</string>
+    <string name="record_download_complete">เสร็จสิ้น</string>
+    <string name="record_download_paused">พักชั่วคราว</string>
+    <string name="record_download_failed">ล้มเหลว</string>
+    <string name="record_download_progress">%d%%</string>
+    <string name="record_download_activity">ดาวน์โหลดบันทึกเสียง</string>
+    <string name="retry">ลองใหม่</string>
+    <string name="start">เริ่มต่อ</string>
+    <string name="record_download_manager">จัดการดาวน์โหลด</string>
+    <string name="record_downloading_notification">กำลังดาวน์โหลด\u2026</string>
+    <string name="record_downloading_notification_count">%d กำลังดาวน์โหลด</string>
+    <string name="record_downloading_notification_complete">ดาวน์โหลดเสร็จสิ้น</string>
+
+    <string name="sync_records">ซิงค์กับ Mi คลาวด์</string>
+    <string name="sync_only_in_wifi">ใช้ Wi-Fi เพื่อซิงค์เท่านั้น</string>
+    <string name="sync_only_in_wifi_summary">บันทึกเสียงจะใช้การเชื่อมต่อข้อมูลเพื่อดาวน์โหลดและอัปโหลดบันทึกเสียงเมื่อเปิดตัวเลือกนี้</string>
+    <string name="sync_only_in_wifi_alert">ปิดตัวเลือกนี้อาจจะเพิ่มการใช้งานมือถือ (อาจจะเพิ่มค่าใช้จ่าย)</string>
+
+    <string name="wifi_recommended_title">แจ้งเตือนทราฟฟิก</string>
+    <string name="wifi_recommended_body">เกี่ยวกับดาวน์โหลดด้วยเครือข่ายผู้ให้บริการ：\n
+        กำลังดาวน์โหลดไฟล์อาจจะเพิ่มค่าใช้จ่าย
+    </string>
+    <string name="button_queue_for_wifi">คิว</string>
+    <string name="button_start_now">ดาวน์โหลด</string>
+    <string name="notification_title_all_paused">พักดาวน์โหลดชั่วคราว</string>
+    <string name="notification_message_all_paused">อาจจะเพิ่มการใช้งานข้อมูล</string>
+    <string name="toast_file_is_downloading">กำลังดาวน์โหลดไฟล์ กรุณารอ</string>
+
+</resources>
