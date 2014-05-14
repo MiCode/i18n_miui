@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">อ่านฉัน</string>
+    <string name="loading_userbook">กำลังโหลด\u2026</string>
+    <string name="bakc_key_toast_txt">เพื่ออก สัมผัสปุ่มย้อนกลับอีกครั้ง</string>
+</resources>

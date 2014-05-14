@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="app_name">อัปเดต</string>
+  <string name="apply_now_button_text">อัปเดต</string>
+  <string name="download_whole_rom">อัปเดต <xliff:g id="SIZE">(%s)</xliff:g></string>
+  <string name="download_ota_rom">อัปเดต <xliff:g id="SIZE">(%s)</xliff:g></string>
+  <string name="apply_later_button_text">ใช้งานภายหลัง</string>
+  <string name="apply_update_timer">โทรศัพท์จะรีบูตภายใน <xliff:g id="TIME">%d</xliff:g> วินาที</string>
+  <string name="reboot_now">รีบูตเดี๋ยวนี้</string>
+  <string name="reboot_later">รีบูตภายหลัง</string>
+  <string name="now">รีบูตเดี๋ยวนี้</string>
+  <string name="later">รีบูตภายหลัง</string>
+  <string name="start_update">เริ่มอัปเดต</string>
+  <string name="applying_update">กำลังอัปเดต <xliff:g id="PROGRESS">%s</xliff:g></string>
+  <string name="apply_update_fail">อัปเดตล้มเหลว</string>
+  <string name="view_install_log">แสดงบันทึกข้อผิดพลาด</string>
+  <string name="send_install_log">ส่งบันทึกข้อผิดพลาด</string>
+  <string name="install_email">รับแอปพลิเคชันอีเมล</string>
+  <string name="send_install_log_error">ไม่สามารถส่งบันทึกผิดพลาดได้</string>
+  <string name="copy_install_log">คัดลอก</string>
+  <string name="reboot_to_new_system">รีบูต</string>
+  <string name="update_success">อัปเดตเสร็จสิ้น</string>
+  <string name="mione_update_success_title">อัปเดตเสร็จสิ้น</string>
+  <string name="mione_update_fail_title">อัปเดตล้มเหลว</string>
+  <string name="mione_update_fail_description">ลองอีกครั้ง</string>
+  <string name="apply_unable_to_reboot_toast">ไม่สามารถรีบูตเข้าโหมด Recovery</string>
+  <string name="checking_for_updates">กำลังตรวจสอบอัปเดค\u2026</string>
+  <string name="downloading_description">กำลังดาวน์โหลด\u2026</string>
+  <string name="sdcard_is_not_present_dialog_body">แน่ใจว่าเม้าท์การ์ดความจำแล้ว</string>
+  <string name="sdcard_is_not_present_dialog_title">ไม่พบการ์ดความจำ</string>
+  <string name="sdcard_has_no_space_dialog_body">พื้นที่การ์ดความจำไม่เพียงพอ</string>
+  <string name="sdcard_has_no_space_dialog_title">พื้นที่ไม่เพียงพอ</string>
+  <string name="current_version_text">"เวอร์ชันปัจจุบัน"</string>
+  <string name="current_version_update_monthly_build">เวอร์ชัน (อัปเดตเวอร์ชันรายเดือน)</string>
+  <string name="apply_update_dialog_update_button">อัปเดต</string>
+  <string name="apply_update_dialog_cancel_button">ยกเลิก</string>
+  <string name="cancel_download_buton_text">ยกเลิก</string>
+  <string name="confirm_download_cancelation_dialog_message">ยกเลิกดาวน์โหลด?</string>
+  <string name="dialog_yes">ใช่</string>
+  <string name="dialog_no">ไม่</string>
+  <string name="dialog_ok">ตกลง</string>
+  <string name="verify_and_apply_dialog_title">กำลังตรวจสอบ\u2026</string>
+  <string name="verify_and_apply_dialog_message">กำลังตรวจสอบข้อมูลอัปเดต\u2026</string>
+  <string name="apply_existing_update_md5error_title">MD5ไม่ตรงกัน</string>
+  <string name="file_not_found_error_message">ไม่สามารถร้องขอไฟล์จากเซิร์ฟเวอร์ได้</string>
+  <string name="apply_upload_info_message_manually">"หลังจากรีบูต สามารถเข้าโหมด Recovery และใช้งานอัปเดต (<xliff:g id="FILE">%s</xliff:g>) ด้วยตนเอง หากต้องการสำรองข้อมูลสามารถทำได้ก่อนอัปเดต</string>
+  <string name="apply_upload_info_message">เพื่อใช้งานอัปเดตและรีบูตโทรศัพท์ สัมผัสอัปเดต</string>
+  <string name="apply_buddy_update_info_message">เมื่อสัมผัสอัปเดต โทรศัพท์จะเริ่มต้นอัปเดตทันที</string>
+  <string name="system_backup_button_text">สำรองข้อมูล</string>
+  <string name="system_backup_cancel_text">เริ่มอัปเดต</string>
+  <string name="system_backup_ok_text">สำรองข้อมูล</string>
+  <string name="system_backup_download_helper">สำรองข้อมูลก่อนใช้งานอัปเดต?</string>
+  <string name="system_backup_apply_helper">สำรองข้อมูลก่อนใช้งานอัปเดต?</string>
+  <string name="system_backup_helper"></string>
+  <string name="system_backup_ask">ถามก่อนทุกครั้ง</string>
+  <string name="system_backup_error_message">ไม่สามารถแอปพลิเคชันสำรองข้อมูลได้</string>
+  <string name="md5_check_cancelled">ยกเลิกตรวจสอบ MD5 แล้ว</string>
+  <string name="no_updatecheck_executed">ไม่ตรวจสอบอัปเดต</string>
+  <string name="no_updates_found">ใช้งานเวอร์ชันล่าสุดแล้ว</string>
+  <string name="no_updates_warning">ไม่พบอัปเดต</string>
+  <string name="no_updates_warning2">แจ้งให้ทราบเมื่อมีการอัปเดต</string>
+  <string name="new_updates_found_title">สามารถอัปเดตได้</string>
+  <string name="new_update_content_title">สามารถอัปเดตเวอร์ชันใหม่ได้</string>
+  <string name="new_update_content_notification_shade"></string>
+  <string name="new_update_downloading_body">เวอร์ชันดาวน์โหลด: <xliff:g id="VERSION">%s</xliff:g></string>
+  <string name="new_update_download_complete_body">เวอร์ชันใหม่: <xliff:g id="VERSION">%s</xliff:g></string>
+  <string name="update_success_title">อัปเดตเสร็จสิ้น!</string>
+  <string name="update_success_body">เวอร์ชันระบบ: <xliff:g id="VERSION">%s</xliff:g></string>
+  <string name="exception_while_downloading">เกิดข้อผิดพลาดขณะกำลังดาวน์โหลดอัปเดต</string>
+  <string name="new_updates_found_notification_title">สามารถอัปเดตได้</string>
+  <string name="network_error">เกิดข้อผิดพลาดเครือข่าย</string>
+  <string name="monthly_build">เวอร์ชันรายเดือน</string>
+  <string name="weekly_build">เวอร์ชันรายสัปดาห์</string>
+  <string name="daily_build">เวอร์ชันรายวัน</string>
+  <string name="experimental_build">เวอร์ชันทดลอง</string>
+  <string name="internal_build">เวอร์ชันภายใน</string>
+  <string name="top_secret_build">เวอร์ชันลับสุดยอด</string>
+  <string name="stable_build">เวอร์ชันเสถียรภาพ</string>
+  <string name="unstable_build">เวอร์ชันไม่เสถียรภาพ</string>
+  <string name="about_device">เกี่ยวกับโทรศัพท์</string>
+
+  <string name="emegency_build">เวอร์ชัน:</string>
+  <string name="wifi_not_available_title">ไม่เชื่อมต่อ Wi-Fi</string>
+  <string name="wifi_not_available_body">ดาวน์โหลดอัปเดตด้วยการเชื่อมต่อ Wi-Fi และสามารถดาวน์โหลดด้วยเครือข่ายมือถือแต่อาจจะใช้ข้อมูลมือถือมาก</string>
+  <string name="paused_queued_for_network">กำลังรอการเชื่อมต่อเครือข่าย</string>
+  <string name="paused_queued_for_wifi">กำลังรอการเชื่อมต่อ Wi-Fi</string>
+  <string name="boot_recovery">รีบูตเข้าโหมด Recovery</string>
+  <string name="applying_rom_message">กำลังใช้งานอัปเดต\u2026</string>
+  <string name="loading">กำลังร้องขอ\u2026</string>
+  <string name="install_rom_from_sd">เลือกแพคเกจอัปเดต</string>
+  <string name="download_current_rom">รับเวอร์ชันล่าสุด</string>
+  <string name="no_proper_updates">ไม่มีเวอร์ชันอัปเดต</string>
+  <string name="sign_in_info">"สถานะอัปเดต: <xliff:g id="RANK">%1$s</xliff:g>\n<xliff:g id="TOTAL">%2$s</xliff:g> ผู้ใช้ <xliff:g id="VERSION">%3$s</xliff:g>"</string>
+  <string name="sign_in_info_total_more">"สถานะอัปเดต: <xliff:g id="RANK">%1$s</xliff:g>\nมากกว่า <xliff:g id="TOTAL">%2$s</xliff:g> ผู้ใช้ <xliff:g id="VERSION">%3$s</xliff:g>"</string>
+  <string name="sign_in_info_rank_more">"สถานะอัปเดต: <xliff:g id="RANK">%1$s</xliff:g>\nมากกว่า <xliff:g id="TOTAL">%2$s</xliff:g> ผู้ใช้ <xliff:g id="VERSION">%3$s</xliff:g>"</string>
+  <string name="sign_in_add_account">เปิดใช้งานบัญชี Xiaomi เดี๋ยวนี้</string>
+  <string name="sign_in_add_account_helper">รับ Mi พ้อยท์เมื่อสร้างบัญชี Xiaomi</string>
+  <string name="my_rank">สถานะอัปเดต:</string>
+
+  <string name="check_update">ตรวจสอบอัปเดต</string>
+  <string name="move_data_to_sdcard_title">ถ่ายโอนข้อมูลไปยังการ์ดความจำ</string>
+  <string name="move_data_to_sdcard_not_enough_space_message">พื้นที่การ์ดความจำไม่เพียงพอ <xliff:g id="SIZE">%d</xliff:g>MB</string>
+  <string name="moving_data_to_sdcard_message">ข้อมูลจะถูกถ่ายโอนไปยังการ์ดความจำ กรุณาอย่างเปิดใช้งานโหมด USB หรือถอดการ์ดความจำออก</string>
+  <string name="moving_data_to_sdcard_progress_format">ถ่ายโอน <xliff:g id="PROGRESS">%1$d</xliff:g>dKb จาก <xliff:g id="TOTAL">%2$d</xliff:g>Kb</string>
+  <string name="finish_download">ดาวน์โหลดเสร็จสิ้น</string>
+  <string name="updater_finish_download">ดาวน์โหลดรอมเสร็จสิ้น</string>
+  <string name="install_whole_rom">ดาวน์โหลดรอม (มาตรฐาน)</string>
+  <string name="check_update_policy">การตั้งค่าอัปเดต</string>
+  <string name="check_update_when_wifi_available">ใช้ Wi-Fi เพื่อตรวจสอบอัปเดตเท่านั้น</string>
+  <string name="update_monthly_build_only">อัปเดตเวอร์ชันรายเดือน</string>
+  <string name="install_file_explorer">ติดตั้งแอปพลิเคชันจัดการไฟล์</string>
+
+   <!-- Share update -->
+  <string name="share_update">แบ่งปันข้อมูลอัปเดต</string>
+  <string name="share">แบ่งปัน</string>
+  <string name="share_update_content_unsign">อัปเดต <xliff:g id="VERSION">%1$s</xliff:g>! สำหรับข้อมูลการเปลี่ยนแปลง "<xliff:g id="CHANGELOG">%2$s</xliff:g>"</string>
+  <string name="share_update_content_sign">อัปเดต <xliff:g id="VERSION">%1$s</xliff:g>! จำนวนที่มีการอัปเดต <xliff:g id="RANK">%2$s</xliff:g> คน สำหรับข้อมูลการเปลี่ยนแปลง "<xliff:g id="CHANGELOG">%3$s</xliff:g>"</string>
+  <string name="share_sina">โพสต์ไปยัง Sina Weibo</string>
+  <string name="share_qq">โพสต์ไปยัง Tencent Weibo</string>
+  <string name="install_qq">ติดตั้งแอปพลิเคชัน Tencent\'s Weibo</string>
+  <string name="upgrade_kernel">เวอร์ชันเคอร์เนลเก่าเกินไป</string>
+  <string name="upgrade_kernel_msg">"เวอร์ชันเคอร์เนลไม่เข้ากับเวอร์ชันล่าสุด จำเป็นต้องอัปเดตเคอร์เนลด้วยตนเอง คู่มือการอัปเดตเคอร์เนล: \r\n"</string>
+  <string name="view_upgrade_tutorial">แสดง</string>
+  <string name="upgrade_close">ปิด</string>
+
+  <!-- vote -->
+  <string name="recommend_vote_title">แบบสำรวจทีมเบต้า</string>
+  <string name="recommend">แนะนำ</string>
+  <string name="not_recommend">ไม่แนะนำ</string>
+  <string name="recommend_comment_hint">ความคิดเห็น</string>
+  <string name="submit">ส่ง</string>
+  <string name="submit_success">ส่ง</string>
+  <string name="submit_fail">ส่งล้มเหลว</string>
+  <string name="submit_progress">กำลังส่ง\u2026</string>
+  <string name="choose_recommend">ความคิดเห็นผู้ใช้</string>
+  <string name="refuse_recommend_reason">เหตุผล\u2026</string>
+
+  <!-- four-grid update feedback  -->
+  <string name="update_feedback">อัปเดตข้อเสนอแนะ</string>
+  <string name="update_feedback_expired">ไม่ได้ส่งข้อเสนอแนะสัปดาห์นี้\nแต่สามารถส่งได้ในอังคารหน้า</string><string name="update_happy"> </string>
+  <string name="update_happy">ดีมาก!</string>
+  <string name="update_general">งั้นๆ</string>
+  <string name="update_sad">ไม่ดี</string>
+  <string name="update_feel">คิดว่ายังไง?</string>
+  <string name="best_update">อัปเดตดีที่สุด</string>
+  <string name="worst_update">อัปเดตแย่ที่สุด</string>
+  <string name="expect">ความคาดหวัง</string>
+  <string name="my_update_feel">ข้อเสนอแนะ</string>
+  <string name="my_best_update">อัปเดตดีที่สุด</string>
+  <string name="my_worst_update">อัปเดตแย่ที่สุด</string>
+  <string name="my_expect_update">ความคาดหวัง</string>
+  <string name="get_update_error">รับข้อมูลอัปเดตล้มเหลว</string>
+  <string name="active_xiaomi_account_title">เปิดใช้งานบัญชี Xiaomi</string>
+  <string name="active_xiaomi_account_msg">"เพื่อเปิดใช้งานบัญชี Xiaomi ไปที่ https://account.xiaomi.com/pass/serviceLogin."</string>
+  <string name="active_xiaomi_account">เปิดใช้งาน</string>
+  <string name="update_comment_title">ความคิดเห็น</string>
+  <string name="update_comment_hint"></string>
+  <string name="next">ถัดไป</string>
+  <string name="previous">ย้อนกลับ</string>
+  <string name="finish">เสร็จสิ้น</string>
+  <string name="comment_publish">ส่ง</string>
+  <string name="edit_comment_title">แก้ไขความคิดเห็น</string>
+  <string name="edit_comment">เพิ่มความคิดเห็น</string>
+  <string name="edit_text_default">เขียนความคิดเห็น</string>
+  <string name="comment_sending">กำลังส่ง\u2026</string>
+  <string name="comment_upload_failed">ส่งความคิดเห็นล้มเหลว</string>
+  <string name="comment_upload_hint">ขอบคุณสำหรับข้อเสนอแนะ!</string>
+  <string name="comment_upload_success">ส่ง</string>
+  <string name="comment_invalid">จำเป็นต้องให้คะแนนอัปเดต (สัมผัสไอคอนดาว)</string>
+  <string name="comment_upload_not_logined">จำเป็นต้องเข้าระบบบัญชี Xiaomi ก่อน</string>
+  <string name="fourgrid_hint_text">ขอบคุณสำหรับเวอร์ชันพัฒนา ข้อเสนอแนะที่ส่งมาจะช่วยแก้ไขให้ดียิ่งขึ้น</string>
+  <string name="fourgrid_notificaiont">แสดงแถบสถานะ</string>
+  <string name="fourgrid_no_notificaiont">ไม่แสดงแถบสถานะ</string>
+</resources>
