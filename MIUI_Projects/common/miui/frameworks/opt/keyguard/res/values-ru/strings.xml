@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="lockscreen_emergency_call">Экстренный вызов</string>
+    <string name="lockscreen_forgot_pattern_button_text">Забыли?</string>
+    <string name="lockscreen_transport_prev_description">Назад</string>
+    <string name="lockscreen_transport_next_description">Далее</string>
+    <string name="lockscreen_transport_play_description">Кнопка воспроизведения</string>
+
+    <string name="lockscreen_too_many_failed_attempts_countdown">Повторите через %d сек.</string>
+    <string name="lockscreen_pattern_wrong">Повторите попытку:</string>
+    <string name="lockscreen_pattern_instructions">Нарисуйте графический ключ чтобы разблокировать</string>
+
+    <string name="unlockscreen_recharging_message">Зарядка %d%%</string>
+    <string name="unlockscreen_recharge_completed">Зарядка завершена</string>
+    <string name="unlockscreen_low_battery">Подключите зарядное устройство</string>
+
+    <string name="emergency_call_string">Экстренный</string>
+    <string name="forget_password_string">Забыл пароль</string>
+    <string name="miui_unlockscreen_password_wrong">Повторите попытку:</string>
+    <string name="contact_carrier_message">Если у вас есть вопросы свяжитесь с поставщиком услуги.</string>
+    <string name="input_puk_code">Введите PUK код</string>
+    <string name="input_puk_code_to_unlock">Введите PUK код для разблокировки устройства</string>
+    <string name="unlocking_sim_card">Разблокировка SIM карты</string>
+    <string name="short_pukcode_error_msg">Введите минимум 8 цифр.</string>
+    <string name="short_pincode_error_msg">Введите 4&#8211;8 цифр.</string>
+    <string name="input_pin_code">Введите PIN код</string>
+    <string name="input_pin_code_to_unlock">Введите PIN код для разблокировки устройства</string>
+    <string name="pincode_set_to_default_msg">PIN код сброшен на 1234, вы можете изменить его тут:</string>
+    <string name="incorrect_pukcode_remaining_attempts">Неверный PUK код, осталось попыток %d</string>
+    <string name="incorrect_pincode_remaining_attempts">Неверный PIN код, осталось попыток %d</string>
+    <string name="incorrect_pukcode">Неверный PUK код</string>
+    <string name="incorrect_pincode">Неверный PIN код</string>
+    <string name="puk_operation_failed">Сбой операции PUK.</string>
+    <string name="pin_operation_failed">Сбой операции PIN.</string>
+    <string name="return_to_me_message">Просьба вернуть владельцу</string>
+    <string name="unlock_string">ОК</string>
+    <string name="open_wifi_settings">Открыть настройки подключения</string>
+    <string name="lock_screen_date">"dd.MM.yyyy\nEEEE"</string>
+
+    <string name="lockscreen_failed_attempts_almost_glogin" product="tablet">
+        Вы ввели неверный пароль <xliff:g id="number">%d</xliff:g> раз.
+        После <xliff:g id="number">%d</xliff:g> неудачных попыток,
+        Вам будет предложено разблокировать телефон через системный аккаунт.\n\n
+        Повторите через <xliff:g id="number">%d</xliff:g> сек.
+    </string>
+
+    <string name="lockscreen_failed_attempts_almost_glogin" product="default">
+        Вы ввели неверный пароль <xliff:g id="number">%d</xliff:g> раз.
+        После <xliff:g id="number">%d</xliff:g> неудачных попыток,
+        Вам будет предложено разблокировать телефон через системный аккаунт.\n\n
+        Повторите через <xliff:g id="number">%d</xliff:g> сек.
+    </string>
+</resources>

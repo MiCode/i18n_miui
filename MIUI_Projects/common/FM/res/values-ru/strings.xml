@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">FM Радио</string>
+
+    <string name="menu_play">Воспроизвести</string>
+    <string name="menu_edit">Редактировать</string>
+    <string name="menu_delete">Удалить</string>
+    <string name="menu_settings">Настройки</string>
+    <string name="menu_record_start">Начать запись</string>
+    <string name="menu_record_stop">Остановить запись</string>
+    <string name="menu_sleep">Таймер сна</string>
+    <string name="menu_sleep_cancel">Отменить таймер сна</string>
+    <string name="menu_record_list">Список записей</string>
+    <string name="menu_scan_start">Сканирование станций</string>
+    <string name="menu_scan_stop">Остановить сканирование</string>
+    <string name="menu_select_station">Выбрать станцию</string>
+    <string name="menu_new_station">Новая станция</string>
+    <string name="menu_save_station_list">Добавить в список</string>
+    <string name="menu_save_station_presets">Добавить в избранное</string>
+    <string name="menu_exit">Выход</string>
+    <string name="title_select_station">Выбор станции: %s</string>
+    <string name="menu_stats">Статистика FM RF</string>
+    <string name="button_text_stop">Стоп</string>
+    <string name="msg_seeking">Поиск FM станций\u2026</string>
+    <string name="msg_scanning">Сканирование FM станций\u2026</string>
+    <string name="msg_scanning_pty">Сканирование %s\u2026</string>
+    <string name="msg_search_title">FM: <xliff:g id="frequency_string">%1$s</xliff:g></string>
+    <string name="msg_searching">Поиск станций для создания списка избранных станций\u2026</string>
+    <string name="msg_searching_title">Автовыбор избранных станций</string>
+    <string name="msg_weak_searching">Поиск частот\u2026</string>
+
+    <string name="msg_headsetpluggedin">Отключите гарнитуру.</string>
+    <string name="msg_callactive">FM трансмиттер не поддерживается, когда активен голосовой вызов.</string>
+    <string name="dialog_sleep_title">Таймер сна</string>
+        <string name="presetlist_autoselect_title">Автовыбор</string>
+        <string name="fmtx_autoselect_name">Все избранные станции будут удалены.</string>
+
+    <string name="preset_replace">Переместить</string>
+    <string name="preset_tune">Мелодия</string>
+    <string name="preset_delete">Удалить</string>
+
+    <string name="stat_notif_frequency">"<xliff:g id="frequency">%1$s</xliff:g>" МГц</string>
+    <string name="stat_notif_tx_frequency">FM трансмиттинг: "<xliff:g id="frequency">%1$s</xliff:g>"</string>
+
+    <string name="sel_band_menu">Выбор регионального диапазона (очистка избранного)</string>
+    <string name="test_menu">Выбрать тест</string>
+
+    <string name="settings_menu">Настройки</string>
+    <string name="regional_band">Региональный диапазон</string>
+
+    <string name="auto_select_af">Альтернативная частота</string>
+    <string name="auto_select_af_summary">При плохом сигнале перенастроить на другую частоту, которая обеспечивает ту же станцию</string>
+
+    <string name="settings_revert_confirm_msg">Избранные станции будут удалены.</string>
+
+    <string name="settings_revert_defaults_title">Сбросить настройки Радио?</string>
+
+    <string name="audio_type_stereo">Стерео</string>
+    <string name="audio_type_mono">Моно</string>
+
+    <string name="default_band">Россия</string>
+    <string name="default_audio">Стерео</string>
+    <string name="factory_reset_dialog_title">Сбросить настройки Радио?</string>
+    <string name="factory_reset_dialog_message">Все избранные станции будут удалены.</string>
+    <string name="station_move">Переместить</string>
+    <string name="station_edit">Изменить</string>
+    <!-- alert to the user that USB storage must be available before using FM recording  [CHAR LIMIT=NONE] -->
+   <string name="no_storage">Перед началом записи вставьте SD карту.</string>
+   <!-- alert to the user that the USB storage is being disk-checked [CHAR LIMIT=30] -->
+   <string name="preparing_sd">Подготовка SD карты\u2026</string>
+   <!-- alert to the user that the FM fails to read or write the USB storage. [CHAR LIMIT=NONE] -->
+   <string name="access_sd_fail">Нет доступа к SD карте.</string>
+   <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
+   <string name="spaceIsLow_content">На SD карте заканчивается место.</string>
+   <!-- The messsage shown when FM record reaches size limit. -->
+   <string name="FMRecording_reach_storage_threshold">Запись остановлена: на SD карте памяти заканчивается место</string>
+
+    <string name="delete_station_title">Удалить</string>
+    <string name="find_af_station">Найти</string>
+    <string name="menu_add_list">Добавить список</string>
+    <string name="menu_rename_list">Переименовать список</string>
+    <string name="menu_reorder_list">Сортировка списка</string>
+    <string name="menu_scan_for_preset">Сканирование станций</string>
+    <string name="alert_dialog_ok">ОК</string>
+    <string name="alert_dialog_cancel">Отмена</string>
+
+    <string name="search_dialog_title">Сканировать станции</string>
+    <string name="fmradio_clear_confirm_msg">Избранные станции будут удалены.</string>
+
+    <string name="radio_text_string">Это длинное текстовое радио сообщение необходимо прокрутить</string>
+    <string name="frequency_string"></string>
+
+        <string name="fm_command_timeout_title">Таймаут ответа</string>
+        <string name="fm_tune_timeout_msg">Попробуйте выключить и включить радио.</string>
+
+        <string name="fm_command_failed_title">Операция не удалась</string>
+        <string name="fm_cmd_failed_msg">Попробуйте выключить и включить радио. </string>
+        <string name="fm_cmd_failed_msg_hdmi">Использование FM и HDMI не поддерживается.</string>
+        <string name="fm_cmd_failed_call_on">Во время вызова звук радио недоступен.</string>
+
+    <skip/>
+    <!-- Do not translate. Duration format. -->
+    <string name="durationformat"><xliff:g id="format">%2$d:%5$02d</xliff:g></string>
+
+    <string name="default_station"> FM </string>
+    <string name="default_blank"> </string>
+    <string name="transmit_msg_string">Передача:</string>
+    <!-- the name under which recordings will be visible in the media database is formatted like this -->
+    <string name="audio_db_title_format"><xliff:g id="format">yyyy-MM-dd HH:mm:ss</xliff:g></string>
+    <!-- all recordings will show up in the media database with this 'artist' name -->
+    <string name="audio_db_artist_name">"Радиозаписи "</string>
+    <!-- all recordings will show up in the media database with this 'album' name -->
+    <string name="audio_db_album_name">"Радиозаписи "</string>
+    <!-- all recordings will show up in the media database in a playlist with this name -->
+    <string name="audio_db_playlist_name">"Радиозаписи "</string>
+    <string name="test_prompt">Выберите тест</string>
+    <string name="test_run">Запуск теста</string>
+    <string name="set_rmmsi_delta">Настройка RMSSI Delta</string>
+    <string name="set_sigth">Настройка Signal Th</string>
+    <string name="type_rd"></string>
+    <string name="enter_rssi">Войти в RMSSI Delta</string>
+    <string name="enter_sigth">Войти в Signal Th</string>
+    <string name="set">Установить</string>
+    <string name="stations_list">Список станций</string>
+    <string name="stations_list_empty">Список станций пуст</string>
+    <string name="station_freq_format">%s МГц</string>
+    <string name="station_name_already_used">Такое название уже используется.</string>
+    <string name="toast_save_station">%s МГц была сохранена</string>
+    <string name="hint_station_name">Название станции</string>
+    <string name="alert_title_save_station">Сохранить станцию: %s</string>
+    <string name="edit_station">Редакт. станцию</string>
+    <string name="toast_edit_station">Изменения сохранены</string>
+    <string name="input_station">Радио частота (МГц)</string>
+    <string name="frequency_should_not_null">Введите частоту</string>
+    <string name="frequency_out_of_range">(%1$s~%2$s) радио частота вне диапазона</string>
+    <string name="frequency_already_exist">Такая частота уже существует в избранном.</string>
+    <string name="alert_title_new_station">Новая станция</string>
+    <string name="alert_title_delete">Удалить станцию?</string>
+    <string name="alert_message_delete_station">Избранная станция будет удалена.</string>
+    <string name="toast_delete_station">%s МГц была удалена</string>
+    <string name="msg_noantenna_message">Наушники не обнаружены. Некоторые функции могут быть недоступны.</string>
+    <string name="msg_do_not_support_fm">FM Радио не поддерживается на данном устройстве</string>
+    <string name="exit_fm">Выход</string>
+    <string name="toast_sleep_mode">Радио перейдет в режим сна в %s</string>
+    <string name="toast_sleep_mode_exit">Таймер сна отменен</string>
+    <string name="status_recording">Запись: %s</string>
+    <string name="status_recording_time"> (Запись: %s)</string>
+    <string name="record_file_format">%1$s_%2$s</string>
+    <string name="record_file_location_format">Сохранено в "%s"</string>
+    <string name="record_completed">Запись завершена</string>
+    <string name="record_fail">Не удалось записать</string>
+    <string name="record_error_unknown">Запись остановлена: неизвестная ошибка</string>
+    <string name="record_error_file_removed">Запись удалена: неизвестная ошибка</string>
+
+    <string name="turn_on_fm">Включить FM</string>
+    <string name="turn_off_fm">Выключить FM</string>
+    <string name="turn_on_speaker_phone">Включить динамик</string>
+    <string name="turn_off_speaker_phone">Выключить динамик</string>
+    <string name="view_stations_list">Показать список станций</string>
+    <string name="pre_station">Предыдущая станция</string>
+    <string name="next_station">Следующая станция</string>
+    <string name="reduce_af">Уменьшить частоту</string>
+    <string name="increase_af">Увеличить частоту</string>
+    <string name="new_frequency">Новая частота</string>
+    <string name="alert_invalid_frequency">Неверная частота</string>
+    <string name="hint_frequency">Частота: %1$s ~ %2$s</string>
+    <string name="hint_label">Название</string>
+    <string name="frequency_mhz_fomart">%s МГц</string>
+    <string name="context_menu_title">%s МГц</string>
+    <string name="context_menu_item_edit">Изменить</string>
+    <string name="context_menu_item_delete">Удалить</string>
+    <string name="context_menu_item_favorite">Добавить в избранное</string>
+    <string name="context_menu_item_unfavorite">Удалить из избранного</string>
+
+    <string name="toast_channel_searched">Просканировано станций: %1$d</string>
+    <string name="label_recording">Запись: %s</string>
+    <string name="toast_added_to_presets">Добавлено в избранное</string>
+    <string name="toast_added_to_list">Добавлено в список</string>
+    <string name="toast_removed_from_presets">Удалено из избранного</string>
+    <string name="toast_fm_starting">Запуск\u2026</string>
+    <string name="toast_fm_stoping">Остановка\u2026</string>
+    <string name="toast_fm_seeking">Поиск станции\u2026</string>
+    <string name="station_check_favorite">Добавить в избранное</string>
+    <string name="toast_fm_recorder_internal_error">Ошибка записи</string>
+    <string name="toast_fm_recorder_storage_full">Запись невозможна: недостаточно памяти</string>
+    <string name="toast_fm_not_stated">FM Радио еще не запущено</string>
+    <string name="toast_fm_error_startfailed">Ошибка записи. Возможно, запись запущена в другом приложении.</string>
+    <string name="toast_fm_recorder_access_error">Невозможно записывать радио в режиме гостя</string>
+    <string name="msg_fm_starting">Запуск\u2026</string>
+</resources>
