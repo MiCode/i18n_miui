@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Bookmark related -->
+    <string name="local_bookmarks">Xiaomi</string>
+    <string name="google_bookmarks">Google: </string>
+    <string name="bookmarks_management">Закладки</string>
+    <string name="bookmarks_root_folder">Корневая папка</string>
+    <string name="bookmarks_content_is_null">Нет закладок</string>
+
+    <!-- History related -->
+    <string name="history_browsed">История просмотра</string>
+    <string name="history_track">История</string>
+    <string name="history_most_visited">Популярные</string>
+    <string name="history_saved_webpage">Сохраненные страницы</string>
+    <string name="clear_history">Очищать историю</string>
+    <string name="clear_history_group">Очистить всю историю (страниц: %s)</string>
+    <string name="open_history_group_in_new_window">Открыть всю историю (страниц: %s)</string>
+    <string name="open_history_most_visited_group_in_new_window">Открыть все популярные сайты</string>
+    <string name="pref_privacy_clear_history_dlg">Очистить историю браузера?</string>
+    <string name="pref_privacy_clear_history_by_group_dlg">Очистить историю?</string>
+
+    <string name="edit">Изменить</string>
+    <string name="delete">Удалить</string>
+    <string name="multi_select_title" >Выбрано:<xliff:g id="number">%1$s</xliff:g></string>
+    <string name="delete_multi_bookmarks_alert_title" >Удалить выбранные закладки (<xliff:g id="number">%1$s</xliff:g>)?</string>
+
+    <string name="add_bookmark">Добавить закладку</string>
+    <string name="send_bookmark_to_home_screen">Ярлык на рабочий стол</string>
+    <string name="bookmark_title">Имя</string>
+    <string name="bookmark_url">Адрес URL</string>
+    <string name="bookmark_add_to">Добавить в</string>
+    <string name="add_folder">Новая папка</string>
+    <string name="folder_name">Имя папки</string>
+    <string name="same_folder_name_warning">Эта папка уже существует</string>
+    <string name="same_bookmarks_warning">Эта закладка уже существует</string>
+    <string name="have_sent_bookmark_to_home_screen">Отправлено на рабочий стол</string>
+    <string name="already_in_top_level">Эта закладка уже наверху</string>
+
+    <string name="bookmark_this_page_to_readmodelist">Добавить в список чтения</string>
+    <string name="readmodelist_bookmarks_to_show">Список чтения</string>
+    <string name="bookmark_to_readmodelist_saved">Сохранено в список чтения</string>
+    <string name="bookmark_to_readmodelist_not_saved">Невозможно сохранить в список чтения</string>
+    <string name="readmode_reach_last_page">Достигнута последняя страница</string>
+
+    <string name="save_bookmark">В закладки</string>
+    <string name="delete_bookmark">Из закладок</string>
+    <string name="send_to_popular">На главную</string>
+    <string name="copy_link">Копировать</string>
+    <string name="share_link">Поделиться</string>
+    <string name="open_all_bookmarks">Открыть все</string>
+    <string name="move_to_up_folder">Вернуться</string>
+    <string name="bookmark_folder_needs_title">Необходимо ввести имя папки</string>
+
+    <!-- Name of tab containing yellow page sites -->
+    <string name="tab_yellowpage">Категории</string>
+
+    <!-- Name of tab containing quick link sites -->
+    <string name="tab_quicklinks">Ссылки</string>
+
+    <!-- Settings label -->
+    <string name="pref_content_night_read_mode">Ночной режим</string>
+
+    <string-array name="pref_homepage_choices">
+        <!-- Setting choice to set the homepage to the miui_home page [CHAR LIMIT=40] -->
+        <item>Главная страница</item>
+        <!-- Setting choice to set the homepage to a user entered URL [CHAR LIMIT=40] -->
+        <item>Установить свою</item>
+    </string-array>
+    <string-array name="pref_homepage_values" translatable="false">
+        <item>miui_home</item>
+        <item>other</item>
+    </string-array>
+
+    <string name="general_set_default_browser_title">Браузер по умолчанию</string>
+    <string name="general_set_default_browser_dialog_summary">Используйте MIUI приложения для лучшей производительности.</string>
+	<string name="general_set_default_browser_dialog_close_txt">Отмена</string>
+	<string name="general_set_default_browser_dialog_ok_txt">ОК</string>
+
+    <!-- Checkbox setting for enabling/disabling the ExitOnClosingLastTab feature [CHAR-LIMIT=32] -->
+    <string name="pref_exit_on_closing_last_tab_enabled_title">Закрывать вкладки</string>
+
+    <string name="url_hint">Введите URL</string>
+    <string name="search_hint">Поиск</string>
+
+    <string-array name="bookmarks_zh" translatable="false">
+        <item>小米论坛</item>
+        <item>http://bbs.xiaomi.cn/</item>
+        <item>百度</item>
+        <item>http://m.baidu.com/?from=1269a</item>
+        <item>谷歌</item>
+        <item>http://www.google.com.hk/</item>
+        <item>新浪</item>
+        <item>http://3g.sina.com.cn/</item>
+        <item>QQ</item>
+        <item>http://3g.qq.com/</item>
+        <item>凤凰网</item>
+        <item>http://i.ifeng.com/?ch=rj_mr</item>
+        <item>网易</item>
+        <item>http://3g.163.com/</item>
+    </string-array>
+
+    <string-array name="bookmarks_cm_customization" translatable="false">
+        <item>MM综合门户</item>
+        <item>http://mm.10086.cn/a/j/2743/</item>
+        <item>手机阅读</item>
+        <item>http://wap.cmread.com</item>
+        <item>手机游戏</item>
+        <item>http://g.10086.cn</item>
+        <item>手机视频</item>
+        <item>http://wap.cmvideo.cn</item>
+        <item>无线音乐</item>
+        <item>http://m.10086.cn</item>
+        <item>12580</item>
+        <item>http://12580wap.10086.cn/?pid=PCM002942000</item>
+        <item>飞信首页</item>
+        <item>http://f.10086.cn</item>
+        <item>139邮箱</item>
+        <item>http://mail.10086.cn </item>
+        <item>冲浪网址</item>
+        <item>http://go.10086.cn/?coc=6GG2GGRq</item>
+    </string-array>
+
+    <string name="contextmenu_download_image_as">Сохранить изображение</string>
+
+    <!-- Advanced Setting -->
+    <string name="pref_extras_reset_default_title">Другие</string>
+    <string name="pref_extras_reset_default">Сброс настроек</string>
+    <string name="pref_extras_reset_default_dlg">Восстановить настройки по умолчанию?</string>
+
+    <string name="pref_ua_title">Настройки агента</string>
+    <string name="pref_ua_string">Агент пользователя</string>
+    <string-array name="pref_ua_choices">
+        <item>Android</item>
+        <item>Desktop</item>
+        <item>iPhone</item>
+        <item>iPad</item>
+    </string-array>
+    <string name="pref_ua_mione_entry">MiOne</string>
+    <!-- Settings label -->
+    <string name="pref_content_search_engine">Поисковая система</string>
+    <string-array name="pref_ua_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string name="pref_ua_mione_value" translatable="false">4</string>
+    <!-- Settings label -->
+    <string name="pref_content_search_engine">Выберите поисковую систему</string>
+
+    <!-- Do not translate.  Testing only -->
+    <string name="dump_counters" translatable="false">Dump V8 counters</string>
+    <string name="dump_dom_tree" translatable="false">Dump DOM tree to file</string>
+    <string name="dump_render_tree" translatable="false">Dump render tree to file</string>
+    <string name="dump_display_tree" translatable="false">Dump display tree to file</string>
+
+    <string name="pref_reading_mode_enabled_title">Режим чтения</string>
+    <string name="pref_reading_mode_enabled_title_summary">Необходим JavaScript</string>
+    <string name="pref_developer_options">Для разработчиков</string>
+    <string name="pref_developer_options_summary">Для отладки или отсылки отладочной информации</string>
+    <string name="add_xiaomi_account_warning">Войдите в аккаунт Xiaomi</string>
+    <string name="report_reading_mode_issue">Отправить ошибку режима чтения в MIUI</string>
+
+    <string name="pref_key_gesture_title">Кнопки и жесты</string>
+    <!-- 按键设置 -->
+    <string name="pref_key_title">Настройки кнопок</string>
+    <string name="pref_volume_key_enabled">Клавиши громкости</string>
+    <string name="pref_volume_key_operation">Функция клавиш громкости</string>
+    <string-array name="pref_volume_key_choices">
+        <item>Прокрутка страницы</item>
+        <item>Переключение вкладок</item>
+    </string-array>
+    <string-array name="pref_volume_key_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <!-- 手势操作 -->
+    <string name="pref_gesture_title">Жесты</string>
+    <string name="pref_fling_on_border_enabled">Слайд по границе</string>
+    <string name="pref_fling_on_border_enabled_title_summary">Слайд по границе экрана</string>
+    <string-array name="pref_fling_on_border_choices">
+        <item>Переключение страниц</item>
+        <item>Переключение вкладок</item>
+    </string-array>
+    <string-array name="pref_fling_on_border_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <string name="is_page_top">Достигнуто начало страницы</string>
+    <string name="is_page_bottom">Достигнут конец страницы</string>
+    <string name="is_first_tab">Это первая вкладка</string>
+    <string name="is_last_tab">Это последняя вкладка</string>
+    <string name="is_first_history_item">Это первая страница</string>
+    <string name="is_last_history_item">Это последняя страница</string>
+
+    <string name="warning">Предупреждение</string>
+
+    <!-- Menu item -->
+    <string name="share_page">Поделиться</string>
+
+    <!-- Menu item to exit browser. [CHAR-LIMIT=30]-->
+    <string name="menu_exit">Выход</string>
+    <!-- Confirmation dialog message confirming to exit browser -->
+    <string name="exit_browser_warning">Выйти из браузера?</string>
+    <string name="not_remind_again">Больше не напоминать</string>
+    <string name="pref_general_exit_setting_title">Настройки выхода</string>
+    <string name="pref_confirm_for_exit">Подтверждать выход</string>
+    <string name="pref_clear_cache_for_exit">Очищать кэш</string>
+    <string name="pref_clear_history_for_exit">Очищать историю</string>
+
+    <string name="recover_from_crash">Восстановить последнюю сессию</string>
+    <string name="recover">Восстановить</string>
+    <string name="crash_recovcery_message">Браузер был закрыт с ошибкой. Вы хотите восстановить последнюю сессию?</string>
+
+    <string name="pref_autologin_progress_in_background">Вход на сайты Google используя <xliff:g>%s</xliff:g> в фоне</string>
+
+    <string name="menu_enable_night_mode">Включить ночной режим</string>
+    <string name="menu_disable_night_mode">Выключить ночной режим</string>
+
+    <string name="search_cancel">Отмена</string>
+    <string name="search">Поиск</string>
+    <string name="clear_search_history">Очистить историю</string>
+
+    <string name="search_baidu">Baidu</string>
+    <string name="search_sogou">Sogou</string>
+    <string name="search_google">Google</string>
+    <string name="search_yahoo">Yahoo!</string>
+    <string name="search_bing">Bing</string>
+    <string name="search_s139">139</string>
+    <string name="search_taobao">Taobao</string>
+    <string name="search_yicha">Yicha</string>
+    <string name="search_easou">Easou</string>
+    <string name="search_dianping">Cate</string>
+    <string name="search_shipin">Видео</string>
+    <string name="search_tupian">Фото</string>
+
+    <string name="MIUI_startpage">Стартовая страница</string>
+
+    <string name="accessibility_button_newtab">Новая вкладка</string>
+
+    <string name="find_on_page">Найти на странице</string>
+    <string name="url_copy_done">URL скопирован</string>
+
+    <string name="empty_history">Нет данных</string>
+    <string name="pref_setting_title">Настройки страницы</string>
+    <string-array name="pref_default_zoom_choices">
+        <item>Маленький</item>
+        <item>Средний</item>
+        <item>Большой</item>
+    </string-array>
+
+    <string name="pref_general_setting_title">Настройки</string>
+    <string name="pref_extras_website_settings">Данные веб-сайтов</string>
+
+    <!-- Permissions prompt toast -->
+    <string name="geolocation_permissions_prompt_toast_allowed">У этого сайта есть доступ к данным о вашем местоположении. Чтобы изменить параметры, выберите \"Настройки > Дополнительно > Данные веб-сайтов\".</string>
+    <string name="geolocation_permissions_prompt_toast_disallowed">У этого сайта нет доступа к данным о вашем местоположении. Чтобы изменить параметры, выберите \"Настройки > Дополнительно > Данные веб-сайтов\".</string>
+
+    <!-- Traffic Management: pre-load summary -->
+    <string name="pref_data_preload_summary">": Разрешить браузеру загружать результаты поиска в фоновом режиме"</string>
+    <string name="pref_link_prefetch_summary">": Разрешить браузеру загружать связанные веб-страницы в фоновом режиме"</string>
+    <string name="pref_video_preload_summary">": Разрешить браузеру загружать видео"</string>
+    <string name="pref_images_preload_summary">": Разрешить браузеру загружать изображения"</string>
+
+    <!-- Traffic Management: images preload -->
+    <string name="pref_images_preload_value_never" translatable="false">0</string>
+    <string name="pref_images_preload_value_wifi_only" translatable="false">1</string>
+    <string name="pref_images_preload_value_always" translatable="false">2</string>
+    <string name="pref_images_preload_default_value" translatable="false">@string/pref_images_preload_value_always</string>
+    <string-array name="pref_images_preload_values" translatable="false">
+        <item><xliff:g>@string/pref_images_preload_value_never</xliff:g></item>
+        <item><xliff:g>@string/pref_images_preload_value_wifi_only</xliff:g></item>
+        <item><xliff:g>@string/pref_images_preload_value_always</xliff:g></item>
+    </string-array>
+
+    <!-- Traffic Management: pre-load title -->
+    <string name="pref_images_preload_title">Загрузка изображений</string>
+
+    <!-- Traffic Management: title -->
+    <string name="pref_images_preload_dialogtitle">Загрузка изображений</string>
+
+    <string-array name="pref_images_preload_choices">
+        <item>Никогда</item>
+        <item>Только по Wi-Fi</item>
+        <item>Всегда</item>
+    </string-array>
+
+    <!-- Traffic Management:  images pre-load values -->
+    <string name="pref_images_preload_value_never_summary">Запретить браузеру загружать изображения</string>
+    <string name="pref_images_preload_value_wifi_only_summary">Разрешить браузеру загружать изображения только по Wi-Fi</string>
+    <string name="pref_images_preload_value_always_summary">Разрешить браузеру загружать изображения</string>
+
+    <!-- Traffic Management: data_preload -->
+    <string name="pref_data_preload_value_never_summary">Запретить браузеру загружать результаты поиска в фоновом режиме</string>
+
+    <!-- Traffic Management: link_prefetch -->
+    <string name="pref_link_prefetch_value_never_summary">Запретить браузеру загружать веб-страницы в фоновом режиме</string>
+
+    <!-- Traffic Management: video preload -->
+    <string name="pref_video_preload_value_never_summary">Запретить браузеру загружать видео</string>
+
+    <!-- Setting homepage -->
+    <string name="pref_data_title" msgid="7255058703417796578">Настройки контента</string>
+
+    <!-- Save bandwidth mode -->
+    <string name="pref_save_bandwidth_mode_title">Мобильный трафик</string>
+    <string name="pref_save_bandwidth_mode_summary">Запретить загрузку изображений при использовании мобильного интернета</string>
+    <string name="menu_enable_save_bandwidth_mode">Включить мобильный трафик</string>
+    <string name="menu_disable_save_bandwidth_mode">Отключить мобильный трафик</string>
+    <string name="menu_save_bandwidth_mode_first_clicked_txt">При использовании мобильного интернета загрузка изображений будет отключена</string>
+    <string name="menu_save_bandwidth_mode_first_clicked_positive_btn_txt">ОК</string>
+    <string name="menu_save_bandwidth_mode_open_toast">Ограничение мобильного трафика включено</string>
+    <string name="menu_save_bandwidth_mode_close_toast">Ограничение мобильного трафика отключено</string>
+
+    <string name="return_to_homepage">Домашняя страница</string>
+
+    <string name="new_tab">Новая вкладка</string>
+    <string name="new_incognito_tab">Новая вкладка \"Инкогнито\"</string>
+    <string name="open_all_in_new_window">Открыть все в новых вкладках</string>
+    <string name="contextmenu_openlink_newwindow">Открыть в новой вкладке</string>
+    <string name="contextmenu_openlink_newwindow_background">Открыть в фоновой вкладке</string>
+    <string name="pref_content_open_in_background_summary">Открывать новые вкладки перед текущей</string>
+    <string name="too_many_windows_dialog_title">Открыто максимальное количество вкладок</string>
+    <string name="too_many_windows_dialog_message">Невозможно открыть новую вкладку</string>
+    <string name="max_tabs_warning">Открыто максимальное количество вкладок</string>
+    <string name="accessibility_button_closetab">Закрыть вкладку</string>
+    <string name="accessibility_transition_navscreen">Управление вкладками</string>
+
+    <string name="notif_install_successful">Загрузка завершена</string>
+    <string name="in_incognito">Владка открыта в режиме \"Инкогнито\". Страницы не будут отображаться в истории.</string>
+    <string name="alert_tips">Этот сайт может содержать вредоносные ресурсы</string>
+
+    <string name="stop_loading">Остановить</string>
+    <string name="close_all_tab_alert_title">Подтверждение</string>
+    <string name="close_all_tab_alert_message">Закрыть все вкладки?</string>
+    <string name="file_picker">Обзор</string>
+    <string name="file_name">Избранное</string>
+    <string name="file_dir">Папка</string>
+    <string name="storage_internal">Внутренняя память</string>
+    <string name="storage_sd_card">SD-карта</string>
+    <string name="storage_usb">USB-накопитель</string>
+    <string name="save_dialog_title">Сохранить</string>
+    <string name="save_file_already_exist_alert_title">Предупреждение</string>
+    <string name="save_file_already_exist_alert_message">Файл уже существует. Перезаписать его?</string>
+    <string name="filename_empty_alert_message">Имя файла не может быть пустым</string>
+    <string name="filename_illegal_alert_message">Имя файла содержит недопустимые символы, они будут автоматически удалены.</string>
+    <string name="quicklinks_management">Популярные сайты</string>
+    <string name="download_failed">Ошибка загрузки</string>
+    <string name="download_complete">Загрузка завершена</string>
+    <string name="app_update_install">Загрузка завершена. Обновление готово к установке.</string>
+    <string name="app_new_version">Загрузка приложения завершена</string>
+
+    <!-- clip dialog -->
+    <string name="clip_dialog_title">Открыть скопированную ссылку?</string>
+    <string name="quicklinks_management">Популярные сайты</string>
+    <string name="download">Загрузка</string>
+    <string name="loading_rest_candidates">Загрузка\u2026</string>
+    <string name="downloading">Загрузка\u2026</string>
+    <string name="downloaded">Загрузка завершена</string>
+    <string name="disk_space_used">"Использовано: <xliff:g id="number">%1$s</xliff:g>"</string>
+    <string name="disk_space_selected">"Выбрано: <xliff:g id="number">%1$s</xliff:g>"</string>
+    <string name="disk_space_available">"Доступно: <xliff:g id="number">%1$s</xliff:g>"</string>
+    <string name="not_enough_disk_space_alert">Недостаточно памяти</string>
+    <string name="download_video_alert_title">Предупреждение</string>
+    <string name="download_video_alert_message">При загрузке видео возможно чрезмерное потребление трафика, продолжить?</string>
+    <string name="download_video_start_down_toast">"Загрузка <xliff:g id="number">%1$s</xliff:g> видео"</string>
+    <string name="menu_download_video">Загруженные видео</string>
+    <string name="download_video_unseleted_all">Снять все</string>
+    <string name="download_video_please_select_video">Выберите видео</string>
+    <string name="download_video_please_download_market">Необходимо установить Xiaomi Mi-Маркет</string>
+    <string name="download_video_no_title_default_name">Видео</string>
+    <string name="download_video_menu_dialog_title">"Установка\u2026"</string>
+    <string name="download_video_menu_dialog_summary">Необходимо установить видеоплеер перед использованием этой функции</string>
+    <string name="download_video_menu_dialog_positive_txt">Установить</string>
+    <string name="download_video_menu_video_version_low">Установлена старая версия видеоплеера</string>
+
+    <!-- common use phrase bottom bar string -->
+    <string name="common_use_phrase_bottom_bar_www_txt">"www."</string>
+    <string name="common_use_phrase_bottom_bar_com_txt">".com"</string>
+    <string name="common_use_phrase_bottom_bar_cn_txt">".ru"</string>
+    <string name="common_use_phrase_bottom_bar_https_txt">"https://"</string>
+    <string name="common_use_phrase_bottom_bar_point_txt">"."</string>
+    <string name="common_use_phrase_bottom_bar_slash_txt">"/"</string>
+    <string name="common_use_phrase_bottom_bar_net_txt">".net"</string>
+    <string name="common_use_phrase_bottom_bar_org_txt">".org"</string>
+    <string name="common_use_phrase_bottom_bar_paste_txt">Вставить</string>
+
+    <!-- accessibility_preferences: url shortcut enter -->
+    <string name="pref_accessibility_url_shortcut_enter_title">Быстрый ввод URL</string>
+    <string name="pref_accessibility_url_shortcut_enter_summary">Отображение панели доменов при вводе URL</string>
+    <string name="common_use_phrase_bottom_bar_paste_analytic_txt">Вставить</string>
+    <string name="common_use_phrase_bottom_bar_up_analytic_txt">Развернуть</string>
+    <string name="common_use_phrase_bottom_bar_down_analytic_txt">Свернуть</string>
+
+    <!-- file download and save -->
+    <string name="download_default_path_txt">Установить папку загрузок по умолчанию</string>
+    <string name="pref_file_download_save_title">Загрузка и сохранение файлов</string>
+    <string name="pref_file_downlaod_save_reset_default_settings">Сброс настроек</string>
+    <string name="pref_file_downlaod_save_is_reset_default_settings">Восстановить настройки по умолчанию?</string>
+    <string name="pref_file_download_save_modify_default_path">Папка загрузок</string>
+    <string name="download_dialog_file_length_hint_txt">"Размер файла:"</string>
+    <string name="download_dialog_file_length_nolength_txt">Загрузка\u2026</string>
+    <string name="download_dialog_file_length_nolength_error_txt">Ошибка загрузки</string>
+    <string name="download_dialog_file_length_lessthan1kb">"менее 1 Кб"</string>
+    <string name="download_dialog_default_path_invalid">Неверный путь загрузки, будет использован путь по умолчанию.</string>
+    <string name="modify_download_path_no_sdcard_dlg_msg" product="nosdcard">USB-накопитель отключен</string>
+    <string name="modify_download_path_no_sdcard_dlg_msg" product="default">SD-карта отключена</string>
+
+    <string name="geolocation_permissions_prompt_toast_disallowed" msgid="156443445797377409">У этого сайта нет доступа к данным о вашем местоположении</string>
+    <string name="pref_content_homepage" msgid="3324574611613105696">Стартовая страница</string>
+
+    <string name="bottom_bar_tabs_long_click_up_tip_txt">Сдвиньте для закрытия</string>
+    <string name="bottom_bar_tabs_long_click_down_tip_txt">Сдвиньте вниз для закрытия</string>
+    <string name="bottom_bar_tabs_long_click_last_tab_tip_txt">Все вкладки закрыты</string>
+
+    <string name="network_show_wifi_setting_tip_dialog_setting_cate_title">Уведомление о Wi-Fi</string>
+    <string name="network_show_wifi_setting_tip_dialog_setting_title">При использовании мобильного интернета вы будете получать уведомления о доступных сетях Wi-Fi</string>
+    <string name="network_show_wifi_setting_tip_dialog_title">Доступна сеть Wi-Fi</string>
+    <string name="network_show_wifi_setting_tip_dialog_description">Подключиться к сети?</string>
+    <string name="network_show_wifi_setting_tip_dialog_notshow">Запомнить выбор</string>
+
+    <!-- quicklinks -->
+    <string name="user_defined_webpage">Добавить ссылку</string>
+    <string name="quicklink_user_define_webpage_title">Имя</string>
+    <string name="quicklink_user_define_webpage_url">URL</string>
+    <string name="user_defined_webpage_title">Добавить на стартовую страницу</string>
+    <string name="quicklinks_most_visited">Добавить ссылку в популярные</string>
+    <string name="quicklinks_most_visited_title">Добавить в популярные</string>
+    <string name="quicklinks_most_visited_subtitle">Добавление популярных ссылок</string>
+    <string name="quicklinks_group_default_subtitle">Пусто</string>
+    <string name="add_quicklink_to_popular">Добавить на главную страницу</string>
+    <string name="quicklink_saved_before">Ссылка уже добавлена на главную страницу</string>
+
+    <string name="network_alert_message">Сеть Wi-Fi недоступна, использовать мобильный интернет?</string>
+    <string name="yes">ОК</string>
+    <string name="no">Отмена</string>
+
+    <string name="pref_security_show_security_warning_summary">Сообщать о проблемах с безопасностью сайтов</string>
+
+</resources>
