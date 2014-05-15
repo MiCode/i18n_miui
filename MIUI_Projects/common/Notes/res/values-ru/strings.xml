@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Заметки</string>
+    <string name="app_widget">Заметка</string>
+    <string name="widget_havenot_content">Не найдено связанных заметок. Нажмите, для создания заметки. Измените размер, долгим нажатием.</string>
+    <string name="widget_under_visit_mode">Заметки не отображаются в режиме \"Гость\"</string>
+    <string name="notelist_string_info">...</string>
+    <string name="notelist_menu_new">Новая заметка</string>
+    <string name="note_alert_expired">Просрочено</string>
+    <string name="notealert_ok">Игнорировать</string>
+    <string name="notealert_enter">Просмотреть</string>
+    <!-- Text export file information -->
+    <string name="note_link_tel">Вызов</string>
+    <string name="note_link_email">Отправить e-mail</string>
+    <string name="note_link_web">Открыть в браузере</string>
+    <string name="note_link_other">Открыть карту</string>
+    <string name="note_link_select">Выбрать текст</string>
+    <!-- notes list string -->
+    <string name="format_folder_files_count">" (%d)"</string>
+    <string name="menu_create_folder">Новая папка</string>
+    <string name="menu_setting">Настройки</string>
+    <string name="menu_delete">Удалить</string>
+    <string name="menu_move">Переместить</string>
+    <string name="menu_stick">Прилепить</string>
+    <string name="menu_unstick">Отлепить</string>
+    <string name="menu_folder_change_name">Переименовать</string>
+    <string name="folder_exist">Папка с таким именем уже существует</string>
+    <string name="menu_send_to_desktop">Отправить на домашний экран</string>
+    <string name="menu_title_select_folder">Выберите папку</string>
+    <string name="menu_move_parent_folder">Основная папка</string>
+    <string name="menu_rename_folder">Переименовать</string>
+    <string name="info_note_enter_desktop">Заметка добавлена на домашний экран</string>
+    <string name="alert_message_delete_notes">Удалить заметки (<xliff:g id="count">%1$s</xliff:g> шт.)?</string>
+    <string name="alert_message_delete_folders">Удалить папки (<xliff:g id="count">%1$s</xliff:g> шт.)?</string>
+    <string name="alert_message_delete_folders_notes">Удалить папки (<xliff:g id="folderCount">%1$s</xliff:g> шт.) и заметки (<xliff:g id="noteCount">%2$s</xliff:g> шт.)?</string>
+    <string name="alert_message_delete_note">Удалить заметку?</string>
+    <string name="format_move_notes_to_folder">Заметки (%1$d шт.) перемещены в \"%2$s\"</string>
+    <string name="alert_title_edit_anyway">Заметка содержит неподдерживаемые содержимое</string>
+    <string name="alert_message_edit_anyway">Редактирование может привести к потере данных.</string>
+    <string name="alert_action_edit_anyway">Продолжить редактирование</string>
+    <!-- Error information -->
+    <string name="error_note_not_exist">Заметка отсутствует</string>
+    <string name="error_note_empty_for_clock">Невозможно установить напоминание для пустой заметки</string>
+    <string name="error_note_empty_for_send_to_desktop">Невозможно отправить на домашний экран пустую заметку</string>
+    <string name="error_widget_exist_for_send_to_desktop">Эта заметка уже есть на домашнем экране</string>
+    <string name="error_unsupport_content">Заметка содержит неподдерживаемые данные, нажмите для обновления необходимого приложения</string>
+    <string name="error_contact_not_exist">Контакт не существует</string>
+    <!-- Sync -->
+    <!-- Preferences -->
+    <string name="preferences_title">Настройки</string>
+    <string name="preferences_bg_random_appear_title">Случайный цвет заметок </string>
+    <string name="pref_title_font_size">Размер шрифта</string>
+
+    <string name="call_record_folder_name">Заметка разговора</string>
+    <string name="hint_foler_name">Название</string>
+
+    <string name="search_label">Поиск заметок</string>
+    <string name="search_hint">Найти заметки</string>
+    <string name="search_setting_description">Текст в заметках</string>
+    <string name="search">Заметки</string>
+    <plurals name="search_results_title">
+         <item quantity="one">Поиск \"<xliff:g id="search" example="???">%2$s</xliff:g>\" (найдено: <xliff:g id="number" example="1">%1$s</xliff:g>)</item>
+        <!-- Case of 0 or 2 or more results. -->
+        <item quantity="other">Поиск \"<xliff:g id="search" example="???">%2$s</xliff:g>\" (найдено: <xliff:g id="number" example="15">%1$s</xliff:g>)</item>
+    </plurals>
+
+    <string name="button_new_note">Новая заметка</string>
+    <string name="default_folder_name">Заметки</string>
+
+    <string name="attachment_gallery">Галерея</string>
+    <string name="attachment_camera">Камера</string>
+    <string name="attachment_contact">Контакт</string>
+
+    <string name="alert_edit_action_update">Изменить</string>
+    <string name="alert_edit_action_delete">Удалить</string>
+
+    <string name="notify_alarm_title">Звуковое напоминание</string>
+
+    <string name="toast_message_add_image_fail">Не удалось добавить изображение</string>
+    <string name="toast_note_privacy_mode">Нельзя редактировать заметку в режиме \"Гость\"</string>
+    <string name="toast_folder_privacy_mode">Нельзя редактировать папку в режиме \"Гость\"</string>
+    <string name="toast_reach_text_limit_truncate">Заметка слишком длинная. Содержание заметки автоматически сократится по длине.</string>
+    <string name="toast_reach_text_limit_attachment">Невозможно прикрепить файл. Нет свободного места в заметке</string>
+
+    <string name="snippet_image_stub">[Изображение]</string>
+    <string name="snippet_image_template">[Изображение <xliff:g id="imageName" example="1.jpeg">%1$s</xliff:g>]</string>
+
+    <string name="select_account_prompt">Вкл.синхронизацию заметок</string>
+    <string name="enable_sync_desc">Синхронизировать заметки с вашим аккаунтом Xiaomi (<xliff:g id="accountName" example="100000">%1$s</xliff:g>)?</string>
+    <string name="add_account_desc">Синхронизировать заметки с вашим аккаунтом Xiaomi?</string>
+    <string name="not_now">Не сейчас</string>
+    <string name="enable_sync">Синхронизировать</string>
+    <string name="login_sync">Вход и синхронизация</string>
+
+    <string name="pref_title_note_style">Стиль заметок</string>
+    <string name="pref_desc_mode_list">Список</string>
+    <string name="pref_desc_mode_grid">Сетка</string>
+    <string name="pref_title_common">Дополнительные настройки</string>
+    <string name="pref_title_alarm_when_silent">Сигнал в режиме \"Без звука\"</string>
+    <string name="pref_desc_alarm_when_silent">Напоминания будут воспроизводиться даже в режиме \"Без звука\"</string>
+
+    <string name="dlg_title_confirm_alarm_silent">Отключить звук?</string>
+    <string name="dlg_desc_confirm_alarm_silent">Напоминания не будут воспроизводиться даже в режиме \"Без звука\"</string>
+
+    <string name="close">Закрыть</string>
+    <string name="undo">Отменить изменение</string>
+    <string name="redo">Восстановить изменение</string>
+
+</resources>
