@@ -185,6 +185,6 @@
     <string name="toast_fm_recorder_storage_full">Запись невозможна: недостаточно памяти</string>
     <string name="toast_fm_not_stated">FM Радио еще не запущено</string>
     <string name="toast_fm_error_startfailed">Ошибка записи. Возможно, запись запущена в другом приложении.</string>
-    <string name="toast_fm_recorder_access_error">Невозможно записывать радио в режиме гостя</string>
+    <string name="toast_fm_recorder_access_error">Невозможно записывать радио в режиме \"Гость\"</string>
     <string name="msg_fm_starting">Запуск\u2026</string>
 </resources>
