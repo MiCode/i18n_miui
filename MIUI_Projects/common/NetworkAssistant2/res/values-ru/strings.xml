@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Трафик</string>
+
+    <!-- common -->
+
+    <string name="list_empty_text">Пусто</string>
+
+    <!-- main -->
+
+    <string name="main_button_normal_traffic">Предел трафика</string>
+    <string name="main_button_idel_traffic">Дополнительный пакет</string>
+    <string name="main_toolbar_firewall">Ограничения</string>
+    <string name="main_toolbar_statistic">Статистика</string>
+    <string name="main_toolbar_purchase">Покупки</string>
+    <string name="main_button_usage_adjust">Ввести трафик</string>
+    <string name="main_button_usage_adjusting">Изменение\u2026</string>
+    <string name="main_button_usage_adjust_manual">Ввести трафик вручную</string>
+    <string name="main_button_usage_package_setting">Настройки</string>
+    <string name="main_traffic_used_text">%s\nИспользовано</string>
+    <string name="main_traffic_remian_text">%s\nОсталось</string>
+    <string name="main_traffic_overlimit_text">%s\nПревышение</string>
+    <string name="main_traffic_used_only">%s\nИспользовано</string>
+    <string name="main_alert_message_no_mobile_package">Трафик не настроен</string>
+    <string name="main_alert_message_no_imsi">Нет SIM карты</string>
+    <string name="main_alert_message_slot_no_data_connection">Слот SIM карты не поддерживает доступ в интернет</string>
+
+    <!-- firewall -->
+
+    <string name="firewall_activity_lable">Ограничение трафика приложений</string>
+    <string name="firewall_applist">Приложения</string>
+    <string name="firewall_rule_group_title_mobile">2G/3G</string>
+    <string name="firewall_rule_group_title_wifi">Wi-Fi</string>
+    <string name="firewall_fragment_tab_title_nonsys">Сторонние</string>
+    <string name="firewall_fragment_tab_title_sys">Системные</string>
+    <string name="firewall_fragment_sys_listempty">Пусто</string>
+    <string name="firewall_fragment_nonesys_listempty">Пусто</string>
+    <string name="firewall_service_network_blocked">%1$s: запрет сети %2$s</string>
+
+    <!-- usage sorted -->
+
+    <string name="usage_sorted_activity_lable">Трафик</string>
+    <string name="usage_sorted_loading_text">Загрузка\u2026</string>
+    <string name="usage_sorted_empty_text">Пусто</string>
+    <string name="person_hotpot">Мобильные точки доступа</string>
+    <string name="system_app">Системные приложения</string>
+    <string name="deleted_apps">Удаленные приложения</string>
+    <string name="sorted_button">Сортировка</string>
+    <string name="app_detail">Информация</string>
+    <string name="app_version">Версия</string>
+    <string name="app_mobile">2G/3G</string>
+    <string name="app_wifi">Wi-Fi</string>
+    <string name="traffic_none">Нет</string>
+    <string name="sorted_dialog_title">Сортировка</string>
+    <string name="cancel_button">Отмена</string>
+    <string name="ok_button">ОК</string>
+    <string name="permit_running_network">Фоновые соединения</string>
+    <string name="network_control">Настройки приложений</string>
+    <string name="foreground_traffic">Активный режим: %s</string>
+    <string name="background_traffic">Фоновый режим: %s</string>
+    <string name="stop_app_button">Остановить</string>
+    <string name="detail_app_button">Информация</string>
+    <string name="force_stop_dlg_title">Ограничение фоновых соединений</string>
+    <string name="force_stop_dlg_text">При запрете фоновых соединений некоторые приложения и службы могут перестать работать, если у вас не будет активна сеть Wi-Fi.</string>
+
+    <!-- setting preference -->
+    <string name="pref_about_traffic_title">Data usage settings</string>
+    <string name="pref_package_traffic_normal">Предел: %s</string>
+    <string name="pref_package_traffic_overlay">%1$s | Дополнительный пакет: %2$s</string>
+    <string name="pref_package_traffic_leisure">%1$s | Бесплатный трафик: %2$s</string>
+    <string name="pref_package_traffic_settings">Тарифный план</string>
+    <string name="pref_adjust_traffic_data">Ввести трафик вручную</string>
+    <string name="pref_app_traffic_managent">Ограничения приложений</string>
+    <string name="pref_connect_settings_exceed_limit_hint">Отключать мобильный интернет, когда превышен предел трафика</string>
+    <string name="pref_connect_settings_exceed_limit">Отключать передачу данных</string>
+    <string name="pref_free_traffic_exceed_limit">Уведомлять, когда бесплатный трафик достигает предела</string>
+    <string name="pref_free_traffic_limit_warn">Уведомление о превышении</string>
+    <string name="pref_special_traffic_exceed_limit">Уведомлять, когда трафик достигает предела</string>
+    <string name="pref_special_traffic_limit_warn">Уведомления о трафике</string>
+    <string name="pref_connect_settings_enable_background">Фоновые соединения</string>
+    <string name="pref_connect_settings_enable_background_hint">Разрешить приложениям использовать мобильный интернет в фоновом режиме</string>
+    <string name="pref_title_network_diagnostics">Диагностика сети</string>
+    <string name="pref_check_network_diagnostics">роверка интернет соединения</string>
+    <string name="pref_category_title_other">Дополнительные настройки</string>
+    <string name="pref_title_update_notification">Уведомления о трафике</string>
+    <string name="pref_title_traffic_speed_state">Скорость сети</string>
+    <string name="pref_show_mobile_traffic">Отображать использованный трафик в спящем режиме после разблокировки экрана. Телефон должен находиться в режиме сна не менее 5 минут.</string>
+    <string name="pref_title_mobile_traffic">Трафик при разблокировке</string>
+    <string name="pref_title_declaration">Отказ от ответственности</string>
+    <string name="pref_about">О приложении</string>
+    <string name="pref_version">Версия: %s</string>
+    <string name="pref_leisure_no_overlay">Включено</string>
+    <string name="pref_leisure_not_opened">Отключено</string>
+    <string name="pref_new_installed_preconfig_title">Настройки для новых приложений</string>
+
+    <!-- adjust traffic settings -->
+    <string name="pref_manual_adjust">Ввести трафик вручную</string>
+    <string name="pref_daily_adjust">Предел трафика</string>
+    <string name="pref_free_adjust">Бесплатный трафик</string>
+    <string name="pref_specified_adjust">Специальный трафик</string>
+    <string name="pref_automatic_adjust"> Синхронизация трафика</string>
+    <string name="pref_open_adjust_traffic">Синхронизировать статистику трафика с серверами оператора</string>
+    <string name="pref_auto_adjust_traffic">Синхронизация трафика</string>
+    <string name="pref_auto_adjust_settings">Настройки синхронизации трафика</string>
+    <string name="pref_adjust_data_usage">Шаблон сообщения оператора</string>
+    <string name="pref_setting_operators_message">Шаблон сообщения, который будет отправлен оператору для синхронизации статистики трафика</string>
+    <string name="adjust_traffic_carrier_summary_today">Обновлено сегодня в %s</string>
+    <string name="adjust_traffic_carrier_summary_yesterday">Обновлено вчера в %s</string>
+    <string name="adjust_traffic_carrier_summary_two_day_before">Обновлено 2 дня назад</string>
+    <string name="adjust_traffic_carrier_summary_oneweek_before">Обновлено неделю назад</string>
+    <string name="adjust_traffic_carrier_summary_more_oneweek_before">Обновлено более недели назад</string>
+    <string name="adjust_traffic_carrier_summary_more_onemonth_before">Обновлено более месяца назад</string>
+
+    <!-- seekbar text -->
+    <string name="left_precent">60%</string>
+    <string name="right_precent">100%</string>
+
+    <!-- month traffic settings preference -->
+    <string name="pref_avaible_traffic">Ежемесячный трафик</string>
+    <string name="pref_daily_traffic">Предел мобильного трафика</string>
+    <string name="pref_data_usage_not_set">Предел мобильного трафика</string>
+    <string name="pref_warning_values">Порог предупреждения</string>
+    <string name="pref_pkg_begin_date">Настройки даты</string>
+    <string name="pref_month_first_day">Первый день месяца</string>
+    <string name="pref_month_begin_date">Дата начала учета</string>
+    <string name="pref_more_traffic_settings">Дополнительно</string>
+    <string name="pref_add_traffic_pkg">Дополнительный пакет трафика</string>
+    <string name="pref_free_traffic_settings">Настройки бесплатного трафика</string>
+    <string name="pref_specified_traffic_settings">Настройки предела трафика</string>
+    <string name="input_traffic_pkg">Дополнительный пакет трафика</string>
+    <string name="begin_date">Дата начала учета</string>
+    <string name="tips_dialog_title">Не знаете предел вашего трафика?</string>
+    <string name="tips_message">Если вы не знаете какой объем трафика предоставляется на вашем тарифном плане, обратитесь к оператору мобильной связи для выяснения подробностей.</string>
+    <string name="daily_pkg_traffic">Ввод предела трафика</string>
+    <string name="input_aviable_traffic">Предел трафика</string>
+    <string name="pkg_traffic">Введите предел трафика</string>
+
+    <!-- free time traffic settings -->
+    <string name="free_traffic_settings">Настройки бесплатного трафика</string>
+    <string name="free_time_traffic">Предел бесплатного трафика</string>
+    <string name="power_save_on_time_default_time">00:00</string>
+    <string name="power_save_on_time_start_time_summary">Начало</string>
+    <string name="power_save_on_time_end_time_summary">Окончание</string>
+    <string name="manual_input_traffic">Ввод использованного трафика</string>
+    <string name="manual_input_free_traffic">Ввод бесплатного трафика</string>
+
+    <!-- dialog message -->
+    <string name="declaration_dialog_msg">С помощью этого приложения вы сможете следить за расходом мобильного трафика, тем не менее полное предотвращение дополнительных расходов за мобильный трафик не гарантируется. Для наилучшего мониторинга трафика настройте приложение согласно вашему тарифному плану..</string>
+    <string name="input_used_hint">Введите трафик</string>
+    <string name="text_day"></string>
+
+    <!-- settings page title -->
+    <string name="settings">Настройки трафика</string>
+    <string name="adjust_traffic_data">Введите трафик</string>
+    <string name="per_month_pkg_traffic_settings">Тарифный план</string>
+    <string name="free_time_traffic_settings">Настройки бесплатного трафика</string>
+
+    <!-- mobile data usage adjustment -->
+    <string name="traffic_setting_fragment_title">Настройки запросов трафика</string>
+    <string name="traffic_setting_fragment_button2_text">Сохранить</string>
+    <string name="traffic_setting_fragment_area">Локальный</string>
+    <string name="traffic_setting_fragment_operator">Оператор</string>
+    <string name="traffic_setting_fragment_brand">Бренд</string>
+    <string name="traffic_setting_fragment_template">Шаблон сообщения</string>
+    <string name="traffic_setting_fragment_loading_text">Получение информации сети\u2026</string>
+    <string name="traffic_setting_fragment_no_network">Не удалось подключиться к сети</string>
+    <string name="traffic_setting_fragment_get_template_falure">Ошибка обновления. Проверьте состояние сети.</string>
+    <string name="traffic_setting_fragment_send_num">Номер телефона оператора</string>
+    <string name="traffic_setting_fragment_sms_content">Сообщение</string>
+    <string name="traffic_setting_fragment_send_num_tips">Введите номер телефона</string>
+    <string name="traffic_setting_fragment_sms_content_tips">Введите сообщение</string>
+    <string name="traffic_setting_fragment_null">Пусто</string>
+
+    <!-- data usage notification message -->
+    <string name="data_usage_warning_title">Предупреждения о трафике</string>
+    <string name="data_usage_warning_body">Нажмите для просмотра информации</string>
+    <string name="data_usage_mobile_limit_title">Передача данных отключена</string>
+    <string name="data_usage_limit_body">Нажмите для включения</string>
+    <string name="data_usage_disabled_dialog">"Трафик достиг предела." \n\n"За дальнейшее использование мобильного интернета могут взиматься дополнительные расходы согласно вашему тарифному плану."</string>
+    <string name="data_usage_disabled_dialog_enable">Включить</string>
+    <string name="data_usage_mobile_limit_snoozed_title">"Предел трафика превышен"</string>
+    <string name="data_usage_limit_snoozed_body">"Нажмите для просмотра информации"</string>
+    <string name="data_usage_restricted_title">Фоновые соединения запрещены</string>
+    <string name="data_usage_restricted_body">Нажмите, чтобы разрешить</string>
+    <string name="data_usage_leisure_warning_title">Предел бесплатного трафика</string>
+    <string name="data_usage_leisure_warning_body">Нажмите для просмотра информации</string>
+    <string name="data_usage_correction_timeout_title">Превышено время синхронизации трафика</string>
+    <string name="data_usage_correction_timeout_body">Нажмите для обновления вручную</string>
+    <string name="data_usage_no_total_package_title">Трафик</string>
+    <string name="data_usage_no_total_package_body">Установить предел трафика?</string>
+    <string name="data_usage_no_total_package_body_dual">Установить предел трафика для %s?</string>
+    <string name="network_assistant_upgraded_title">Обновление завершено</string>
+    <string name="network_assistant_upgraded_body">Нажмите для настройки трафика</string>
+
+    <!-- Lock screen traffic warn -->
+    <string name="lock_screen_traffic_warn_title">Предупреждение о трафике</string>
+    <string name="notification_title">%1$s-%2$s: %3$s использовано</string>
+    <string name="notification_content_title">Использовано трафика в режиме сна: %1$s</string>
+
+    <!-- free time traffic settings -->
+    <string name="free_time_traffic_title">Введите предел трафика</string>
+    <string name="free_time_traffic_hint">Введите предел трафика</string>
+
+    <!-- traffic_protection -->
+    <string name="traffic_protection_label">Предупреждения о трафике</string>
+    <string name="traffic_protection_summary">Уведомления при превышении предела трафика</string>
+    <string name="traffic_protection_unknown"><u>Настроить позже</u></string>
+    <string name="traffic_protection_text_hint">Установить предел трафика для %s</string>
+    <string name="traffic_protection_next">Далее</string>
+    <string name="traffic_protection_data_usage_summary">После превышения трафика мобильного интернета могут взыматься дополнительные расходы согласно вашему тарифному плану.</string>
+    <string name="traffic_protection_use_data">Передача данных включена</string>
+
+    <!-- traffic correction -->
+    <string name="traffic_correction_start_correction">Подключение к сервису оператора\u2026</string>
+    <string name="traffic_correction_start_correction_failed">Ошибка запроса. Проверьте настройки оператора.</string>
+    <string name="traffic_correction_success">Трафик обновлен</string>
+    <string name="traffic_correction_failed">"Не удается получить информацию о трафике"</string>
+
+    <!-- operator -->
+    <string name="operator_name_cmcc">China Mobile</string>
+    <string name="operator_name_unicom">China Unicom</string>
+    <string name="operator_name_telcom">China Telecom</string>
+    <string name="operator_number_cmcc">10086</string>
+    <string name="operator_number_unicom">10010</string>
+    <string name="operator_number_telcom">10000</string>
+
+    <!-- dual card -->
+    <string name="dual_setting_simcard1">SIM 1</string>
+    <string name="dual_setting_simcard2">SIM 2</string>
+
+</resources>
