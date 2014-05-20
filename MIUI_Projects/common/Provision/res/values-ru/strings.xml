@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="next">Далее</string>
+
+    <string name="continues">Продолжить</string>
+    <string name="shutdown">Выключить</string>
+
+    <string name="other_service_label">Прочие сервисы</string>
+    <string name="other_service_location">Определение местоположения</string>
+    <string name="other_service_location_summary">Разрешить картам и другим приложениям получать данные о вашем местоположении по GPS</string>
+    <string name="other_service_google_location">Сервис местоположения Google</string>
+    <string name="other_service_google_location_use">Местоположение и поиск Google</string>
+    <string name="other_service_google_location_use_summary">Разрешить Google использовать ваше местоположение для улучшения результатов поиска и других сервисов</string>
+    <string name="other_service_google_location_use_help">Разрешить сервису определения местоположения Google собирать личные локальные данные. Сбор данных будет происходить даже при не запущенных приложениях.</string>
+    <string name="other_service_permission_manager">Управление разрешениями</string>
+    <string name="other_service_permission_manager_summary">Мониторинг приложений для обеспечения безопасности и приватности</string>
+    <string name="other_service_user_experience">Программа улучшения качества</string>
+    <string name="other_service_user_experience_summary0">"Помогите Xiaomi улучшить их продукты отправкой анонимных отчетов о диагностике системы и прочем. "</string>
+    <string name="other_service_user_experience_summary1">"(Политика конфиденциальности)"</string>
+
+    <string name="sim_card_detection_dialog_message">Обнаружение SIM карты\u2026</string>
+    <string name="sim_card_detection_label">SIM карта</string>
+    <string name="sim_card_detection_info"></string>
+    <string name="sim_card_detection_status_absent">SIM карта не обнаружена</string>
+
+    <string name="setup_complete_label">Спасибо</string>
+    <string name="setup_complete_info"></string>
+    <string name="setup_complete_start">MIUI готова к использованию</string>
+    <string name="setup_complete_summary">Настройка завершена! Наслаждайтесь MIUI! :)</string>
+
+</resources>
+
