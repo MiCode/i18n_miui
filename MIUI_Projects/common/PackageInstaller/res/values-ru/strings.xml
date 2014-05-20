@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Программа установки</string>
+    <string name="install">Установить</string>
+    <string name="done">Готово</string>
+    <!-- TODO REMOVE LATER -->
+    <string name="security_settings_desc">Разрешить этому приложению:</string>
+    <string name="cancel">Отмена</string>
+    <string name="unknown">Неизвестно</string>
+    <string name="installing">Установка\u2026</string>
+    <string name="install_done">Приложение установлено</string>
+    <string name="install_confirm_question">Установить это приложение?</string>
+    <string name="install_failed">Приложение не установлено</string>
+    <!-- Reason displayed when installation fails because the installation package itself is invalid
+        in some way (e.g., corrupt) [CHAR LIMIT=100] -->
+    <string name="install_failed_invalid_apk">Похоже, пакет поврежден.</string>
+    <!-- Reason displayed when installation fails because the package an existing package is
+        installed with a conflicting package author signature [CHAR LIMIT=100] -->
+    <string name="install_failed_inconsistent_certificates">Пакет с таким названием
+        уже установлен и имеет конфликтующую подпись.</string>
+    <!-- Reason displayed when installation fails because the package specifies a minimum compatible
+        OS version that is newer than our current OS version. [CHAR LIMIT=100] -->
+    <string name="install_failed_older_sdk">Этот пакет поддерживается только в системе
+        Android более поздних версий.</string>
+    <!-- Reason displayed when installation fails because the package specifies it is compatible
+        only with a CPU that the current tablet doesn't have. [CHAR LIMIT=100] -->
+    <string name="install_failed_cpu_abi_incompatible" product="tablet">Процессор телефона
+        не поддерживает это приложение.</string>
+    <!-- Reason displayed when installation fails because the package specifies it is compatible
+        only with a CPU that the current phone doesn't have. [CHAR LIMIT=100] -->
+    <string name="install_failed_cpu_abi_incompatible" product="default">Процессор телефона
+        не поддерживает это приложение.</string>
+    <!-- Reason displayed when installation fails because the package was deleted during the
+        installation process. [CHAR LIMIT=100] -->
+    <string name="install_failed_file_not_found">Указанный пакет удален
+        до завершения установки.</string>
+    <!-- Reason displayed when installation fails because the package could not be verified
+        because the package verifier rejected it. [CHAR LIMIT=100] -->
+    <string name="install_failed_verify_failed">Пакет не проверен и не может быть установлен.</string>
+    <!-- Reason displayed when installation fails because the package could not be verified
+        before the internal system timer expired. [CHAR LIMIT=100] -->
+    <string name="install_failed_verify_timeout">Не удалось проверить пакет.
+        Попробуйте установить его позже.</string>
+    <!-- Message presented when an application could not be installed on the tablet for some reason. [CHAR LIMIT=100] -->
+    <string name="install_failed_msg" product="tablet">>Невозможно установить <xliff:g id="app_name">%1$s</xliff:g>.</string>
+    <!-- Message presented when an application could not be installed on the phone for some reason. [CHAR LIMIT=100] -->
+    <string name="install_failed_msg" product="default">>Невозможно установить <xliff:g id="app_name">%1$s</xliff:g>.</string>
+    <string name="launch">Открыть</string>
+    <string name="unknown_apps_dlg_title">Установка заблокирована</string>
+    <!-- Message presented in a dialog box when a package is requested to be installed, but the "Allow unknown applications" checkbox is not enabled. [CHAR LIMIT=100] -->
+    <string name="unknown_apps_dlg_text" product="tablet">"Из соображений безопасности на вашем устройстве \
+заблокирована установка приложений, полученных из непроверенных источников.\
+Вы можете снять это ограничение, для установки приложений из любых источников,\
+но ваше устройство и личные данные могут быть подвергнуты риску,\
+и вы должны взять на себя полную ответственность за дальнейшие действия.\n
+Снять ограничение можно в Настройки->Безопасность->Неизвестные источники."</string>
+    <!-- Message presented in a dialog box when a package is requested to be installed, but the "Allow unknown applications" checkbox is not enabled. [CHAR LIMIT=100] -->
+    <string name="unknown_apps_dlg_text" product="default">"Из соображений безопасности на вашем устройстве \
+заблокирована установка приложений, полученных из непроверенных источников.\
+Вы можете снять это ограничение, для установки приложений из любых источников,\
+но ваше устройство и личные данные могут быть подвергнуты риску,\
+и вы должны взять на себя полную ответственность за дальнейшие действия.\n
+Снять ограничение можно в Настройки->Безопасность->Неизвестные источники."</string>
+    <string name="ok">ОК</string>
+    <string name="settings">Настройки</string>
+    <!-- Title of dialog asking user if they would allow an application to be an install source. -->
+    <string name="allow_source_dlg_title">Разрешить добавление нового источника для приложений?</string>
+    <!-- Message of dialog asking user if they would allow an application to be an install source. -->
+    <string name="allow_source_dlg_text"><xliff:g id="app_name">%1$s</xliff:g> хочет устанавливать другие приложения.\n\n
+        Разрешить и запомнить выбор?</string>
+    <string name="manage_applications">Управление приложениями</string>
+    <string name="dlg_app_replacement_title">Заменить приложение</string>
+    <string name="dlg_app_replacement_statement">Приложение, которое вы устанавливаете, заменит другое приложение.\n\nВсе пользовательские данные будут сохранены.</string>
+    <string name="dlg_app_replacement_statement_with_version">"Приложение: <xliff:g id="APP_NAME">%1$s</xliff:g>\nУстановленная версия: (<xliff:g id="ORI_VERSION">%3$s</xliff:g>)\nНовая версия: (<xliff:g id="NEW_VERSION">%2$s</xliff:g>).\n\nВсе пользовательские данные будут сохранены.\nПродолжить установку?"</string>
+    <!-- Dialog attributes when replacing system app -->
+    <string name="dlg_sys_app_replacement_statement">Это системное приложение. Заменить?\n\nВсе пользовательские данные будут сохранены.</string>
+    <string name="lift_ban">Снять запрет</string>
+    <string name="out_of_space_dlg_title">Недостаточно места</string>
+    <string name="out_of_space_dlg_text">Установка приложения <xliff:g id="app_name">%1$s</xliff:g> не удалось. Освободите место и повторите попытку.</string>
+    <!-- strings related to uninstall activity -->
+    <string name="dlg_ok">ОК</string>
+    <string name="app_not_found_dlg_title">Приложение не найдено</string>
+    <string name="app_not_found_dlg_text">Приложение не найдено в списке установленных приложений.</string>
+    <string name="uninstall_application_title">Удаление приложения</string>
+    <string name="uninstall_update_title">Удаление обновления</string>
+    <string name="uninstall_activity_text"><xliff:g id="activity_name">%1$s</xliff:g> является частью следующего приложения:</string>
+    <string name="uninstall_confirm_question">Удалить приложение?</string>
+    <string name="uninstall_application_text">Приложение будет удалено.</string>
+    <string name="uninstall_update_text">Будет восстановлена исходная версия приложения.</string>
+    <string name="uninstalling">Удаление\u2026</string>
+    <string name="uninstall_done">Удаление завершено</string>
+    <string name="uninstall_failed">Ошибка при удалении</string>
+    <!-- String presented to the user when uninstalling a package failed because the target package
+        is a current device administrator [CHAR LIMIT=80] -->
+    <string name="uninstall_failed_device_policy_manager">Не удалось удалить пакет, так как он
+        выбран для администрирования устройства.</string>
+    <!-- String on a button that leads to the "device administrator" configuration setting where a
+        user will be able to disable the device administrator in order to uninstall
+        it. [CHAR LIMIT=50] -->
+    <string name="manage_device_administrators">Настройки администрирования</string>
+    <string name="uninstall_failed_msg">Удаление приложения <xliff:g id="app_name">%1$s</xliff:g> не удалось</string>
+    <string name="uninstall_failed_retained_app_msg">Приложение, измененное администратором, не может быть удалено.</string>
+
+    <!-- Dialog attributes to indicate parse errors -->
+    <string name="Parse_error_dlg_title">Синтаксическая ошибка</string>
+    <string name="Parse_error_dlg_text">При синтаксическом анализе пакета возникла неполадка.</string>
+    <string name="caller_app">Связь: <xliff:g id="APP_NAME">%1$s</xliff:g></string>
+    <string name="safe_guard_support">Техническая поддержка <xliff:g id="SUPPORT">%1$s</xliff:g></string>
+
+    <string name="safe_relative">Личная безопасность</string>
+    <string name="privacy_relative">Доступ к личным данным</string>
+    <string name="other_relative">Прочие разрешения</string>
+
+    <string name="perm_notice">Внимание</string>
+    <string name="trust_switch_dialog_msg">MIUI не будет спрашивать вашего разрешения на любые действия этого приложения.</string>
+    <string name="auto_startup_dialog_msg">MIUI позволит этому приложению запускаться автоматически.</string>
+    <string name="low_risk_perms">Мало опасные разрешения</string>
+    <string name="high_risk_perms">Опасные разрешения</string>
+    <string name="perm_privacy_app_finish">Готово</string>
+    <string name="perm_privacy_app_launch">Открыть</string>
+    <string name="perm_privacy_app_installed">Установка завершена</string>
+    <string name="perm_sysopt_boost_auto_start">Разрешения автозапуска</string>
+    <string name="perm_sysopt_boost_auto_start_summary">Это приложение будет запускаться автоматически</string>
+    <string name="perm_privacy_app_trust">Я доверяю этому приложению</string>
+    <string name="perm_privacy_app_trust_summary">MIUI будет контролировать это приложение</string>
+    <string name="perm_action_accept">Разрешить</string>
+    <string name="perm_action_prompt">С запросом</string>
+    <string name="perm_action_reject">Запретить</string>
+
+    <string name="unknown_installer">Неопознанный инструмент ПК</string>
+    <!-- Reason displayed when installation fails because the package incompatible
+        with MIUI system. -->
+    <string name="install_failed_system_incompatible" product="default">Это приложение не совместимо с MIUI</string>
+</resources>
