@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="resource_app_name">Диспетчер ресурсов</string>
+
+    <string name="resource_price_free">Бесплатно</string>
+    <string name="resource_price_unit">&#160;MiCredits</string>
+    <string name="resource_price_format">(%1$s)</string>
+
+    <string name="sdcard_not_mounted_dialog_title">SD карта отсутствует</string>
+    <string name="sdcard_not_mounted_dialog_message">Вставьте SD карту.\n</string>
+
+    <string name="resource_mute">Без звука</string>
+    <string name="resource_default">Стандартная мелодия</string>
+    <string name="resource_ringtone_default">Мелодии</string>
+    <string name="resource_notification_default">Уведомления</string>
+    <string name="resource_alarm_default">Будильник</string>
+
+    <string name="description_designer">Дизайнер</string>
+    <string name="description_author">Автор</string>
+    <string name="description_size">Размер</string>
+    <string name="description_uploadtime">Обновлено</string>
+    <string name="description_download">Загрузок</string>
+    <string name="description_version">Версия</string>
+    <string name="description_summary">Общ.информация</string>
+    <string name="description_version_szie">Версия: %1$s | Размер: %2$s</string>
+
+    <string name="resource_local">Локальные %1$s</string>
+    <string name="resource_online">Онлайн %1$s</string>
+    <string name="resource_selected">Featured</string>
+    <string name="resource_ranking">Популярные</string>
+    <string name="resource_ranking_free">Бесплатные</string>
+    <string name="resource_ranking_purchase">Платные</string>
+    <string name="resource_category">Категории</string>
+    <string name="resource_my">Локальные</string>
+
+    <string name="resource_pack_price_info">%1$s оригинал</string>
+    <string name="resource_pack_discount_info">%1$s сохранено</string>
+    <string name="resource_pack_confirm">Вы уже купили компонентов темы: %1$d. Будет выгоднее купить полный комплект, чем докупить по одному компоненту.</string>
+    <string name="resource_pack_warning">Вы уже купили компонентов темы: %1$d. Будет выгоднее купить остальные компоненты по одному, чем полный комплект.</string>
+
+    <string name="resource_title">Resource detail</string>
+    <string name="resource_download">Загрузить</string>
+    <string name="resource_downloading">Загрузка</string>
+    <string name="resource_waiting_download">Ожидание</string>
+    <string name="resource_import_successful">Загрузка завершена</string>
+    <string name="resource_import_failed">Ошибка импортирования</string>
+    <string name="resource_delta_update_successful">Успешно обновлено</string>
+    <string name="resource_delta_update_failed">Ошибка обновления: повторная загрузка темы\u2026</string>
+    <string name="resource_delta_update_total">%1$d дельта обновлений сохранены %2$s </string>
+    <string name="resource_apply">Применить</string>
+    <string name="resource_update">Обновить</string>
+    <string name="resource_select">Выбрать</string>
+    <string name="resource_buy">Купить</string>
+    <string name="resource_importing">Импортирование\u2026</string>
+    <string name="resource_ringtone_playing_error">ошибка воспроизведения</string>
+    <string name="online_no_network">Невозможно соединиться с сетью</string>
+    <string name="online_search_hint">Поиск онлайн ресурсов</string>
+    <string name="loading">Загрузка\u2026</string>
+    <string name="download_failed">Ошибка загрузки</string>
+    <string name="download_preview_failed">Ошибка загрузки эскиза</string>
+    <string name="resource_delete_confirm">Удалить эти ресурсы?</string>
+    <string name="all_resources">Все</string>
+    <string name="resource_default_name">Ресурсы</string>
+    <string name="resource_detail">Информация</string>
+    <string name="resource_detail_window_title">%1$s: информация</string>
+    <string name="resource_detail_update_log_title">Обновления</string>
+    <string name="resource_detail_comment_title">Комментарии</string>
+    <string name="resource_detail_recommend_desiner_other_themes">Другие темы автора %1$s\</string>
+    <string name="resource_detail_recommend_other_themes">Пользователям также понравилось</string>
+    <string name="resource_detail_jump_to_online_title">Онлайн</string>
+    <string name="resource_detail_jump_to_same_author_title">От автора</string>
+    <string name="resource_detail_recommend_desiner_themes">Тем: %1$s</string>
+
+    <string name="resource_share_title">Отправить</string>
+    <string name="resource_share_subject">Отправить тему: %1$s</string>
+    <string name="resource_share_text">Я отправил вам тему: %1$s. Скачать: %2$s</string>
+
+    <string name="resource_delete_all">Удалить выбранные ресурсы (%1$d шт.)?</string>
+
+    <string name="resource_can_not_selected">Невозможно выбрать: %1$s</string>
+    <string name="resource_system_title">Системные ресурсы</string>
+    <string name="resource_downloaded_title">Загруженные ресурсы</string>
+
+    <string name="resource_see_more">Еще</string>
+    <string name="resource_no_result">Нет результатов</string>
+    <string name="resource_unable_to_access">К сожалению,\nв данный момент контент недоступен в вашем регионе.</string>
+    <string name="resource_list_title">Последние выбранные</string>
+
+    <string name="resource_get_auth_checking">Проверка авторизации\u2026</string>
+    <string name="resource_get_auth_retrieving">Авторизация\u2026</string>
+    <string name="resource_get_auth_missing">Темы загруженные из сторонних источников не поддерживаются</string>
+    <string name="resource_get_auth_exceed_max_limit_title">Достигнут лимит авторизаций</string>
+    <string name="resource_get_auth_exceed_max_limit_tips">У вас уже есть 10 устройств, авторизованных на этом аккаунте</string>
+    <string name="resource_server_out_of_service">Сервер недоступен, повторите позже.</string>
+    <string name="resource_server_alert_dialog_title">Мы скоро вернемся\u2026</string>
+
+    <string name="resource_purchase_getting_order">Получение информации заказа\u2026</string>
+    <string name="resource_purchase_waiting_payment">Ожидание информации о платеже\u2026</string>
+    <string name="resource_purchase_verifying_payment">Проверка платежа\u2026</string>
+
+    <string name="resource_download_trial">Пробная версия</string>
+    <string name="resource_apply_trial">Попробовать</string>
+    <string name="resource_on_trial">Применение пробной версии: %1$s</string>
+    <string name="resource_trial_time">(пробное время: %1$d мин.)</string>
+    <string name="resource_trial_end_title">Пробный период окончен</string>
+    <string name="resource_trial_end_message">Пробный период %1$s окончен. Если вам понравилось, вы можете приобрести полную версию.</string>
+    <string name="resource_trial_end_restore">Отмена</string>
+    <string name="resource_trial_end_purchase">Приобрести</string>
+
+    <string name="deleting">Удаление\u2026</string>
+
+    <string name="resource_title_select_ringtone">Выбор мелодии</string>
+    <string name="resource_tip_select_ringtone">Ничего не выбрано</string>
+
+    <string name="loading_resource_detail_info">Загрузка\u2026</string>
+    <string name="loading_resource_detail_fail">Ошибка загрузки ресурса</string>
+
+    <string name="resource_expand_full_text">Развернуть</string>
+
+    <string name="resource_account_login">Вход</string>
+    <string name="resource_account_switch">Переключить</string>
+    <string name="resource_account_login_title">Вход</string>
+    <string name="resource_account_fail_to_add">Не удалось добавить аккаунт</string>
+    <string name="resource_account_abnormal_state">Ошибка аккаунта. Попробуйте позже.</string>
+    <string name="resource_account_login_before_action">Войдите в ваш аккаунт Xiaomi</string>
+
+    <string name="resource_send">Отправить</string>
+    <string name="resource_save_to_note">Сохранить в заметки</string>
+
+    <string name="resource_present">Подарок</string>
+    <string name="resource_exchange">Выкупить</string>
+    <string name="resource_exchange_confirm">Подтвердить</string>
+    <string name="resource_exchange_hint">Введите подарочный код</string>
+    <string name="resource_exchange_window_title">Выкупить</string>
+    <string name="resource_exchange_universal_goon">Этот код может использоваться для загрузки любой темы в маркете.</string>
+    <string name="resource_exchange_universal_finish">Используйте этот код для загрузки темы из маркета тем MIUI.</string>
+    <string name="resource_exchange_empty_format">Введите подарочный код</string>
+    <string name="resource_exchange_wrong_format_by_local">Неверный формат кода.</string>
+    <string name="resource_exchange_wrong_format_by_server">Ошибка проверки кода. Убедитесь, что вы ввели его корректно.</string>
+    <string name="resource_exchange_has_used">Введенный код уже использовался.</string>
+    <string name="resource_exchange_has_expired">Срок действия кода истек.</string>
+    <string name="resource_exchange_unavailable">Тема, связанная с этим кодом, недоступна.</string>
+    <string name="resource_exchange_has_bought">Вы уже купили эту тему.</string>
+    <string name="resource_exchange_success">Наслаждайтесь! :)</string>
+    <string name="resource_exchange_share_code_dlg_title">Отправка</string>
+    <string name="resource_exchange_share_code_dlg_content">Подарочный код, который вы приобрели для темы %1$s: %2$s. Когда вы отправите код другому пользователю MIUI, он сможет использовать его для загрузки этой темы.</string>
+    <string name="resource_exchange_share_code_content">Вы получили подарочный код для темы %1$s. Код темы: %2$s. Нажмите %3$s для использования.</string>
+    <string name="resource_exchange_purchase_unkown_error">Упс! Произошла неизвестная ошибка. Посетите http://market.xiaomi.com для просмотра статуса платежа.</string>
+
+    <!-- comments -->
+    <string name="resource_comment_all_comments">Все</string>
+    <string name="resource_comment_good_comments">Хорошие</string>
+    <string name="resource_comment_bad_comments">Плохие</string>
+    <string name="resource_comment_average_score">Оценка</string>
+    <string name="resource_comment_score_count">Пользователей: <xliff:g id="count">%1$s</xliff:g></string>
+    <string name="resource_comment_no_average_score">-.-</string>
+    <string name="resource_comment_5_star">5</string>
+    <string name="resource_comment_4_star">4</string>
+    <string name="resource_comment_3_star">3</string>
+    <string name="resource_comment_2_star">2</string>
+    <string name="resource_comment_1_star">1</string>
+    <string name="resource_comment_footer">Пустые комментарии не отображаются.</string>
+    <string name="resource_comment_no_comment">Нет комментариев</string>
+    <string name="resource_comment_current_version">Текущая версия</string>
+    <string name="resource_comment_date"><xliff:g id="date">%2$02d</xliff:g>.<xliff:g id="month">%1$02d</xliff:g></string>
+    <string name="resource_comment_upload_hint">Ваш комментарий будет отображаться после проверки.</string>
+    <string name="resource_comment_sending">Отправка комментария\u2026</string>
+    <string name="resource_comment_upload_failed">Не удалось отправить комментарий</string>
+    <string name="resource_comment_upload_success">Комментарий отправлен! Он будет опубликован после проверки.</string>
+    <string name="resource_comment_upload_data_invalid">Некорректный комментарий</string>
+    <string name="resource_comment_upload_not_logined">Сначала войдите в систему</string>
+    <string name="resource_comment_upload_not_bought">Прежде чем оставить комментарий, необходимо применить тему</string>
+    <string name="resource_comment_invalid">Нажмите на звезды, чтобы оценить</string>
+    <string name="resource_comment_expand_full_text">Развернуть▼</string>
+    <string name="resource_comment_title">Комментариев: <xliff:g id="app_name">%1$s</xliff:g></string>
+    <string name="resource_comment_edit_title">Редактировать комментарий: <xliff:g id="app_name">%1$s</xliff:g></string>
+    <string name="resource_comment_edit_comment">Добавить комментарий</string>
+    <string name="resource_comment_edit_comment_waiting">Проверка истории\u2026</string>
+    <string name="resource_comment_edit_text_default">Написать комментарий</string>
+    <string name="resource_comment_publish">Отправить</string>
+    <string name="resource_comment_name_default">Пользователь <xliff:g id="user_id">%1$s</xliff:g></string>
+    <string name="resource_comment_loading_list">Загрузка\u2026</string>
+    <string name="resource_comment_rate">Оценка:</string>
+    <string name="resource_comment_entry_tips">Показать комментарии</string>
+
+    <string name="fail_to_add_account">Не удалось добавить аккаунт</string>
+    <string name="account_unactivated">Аккаунт не активирован</string>
+    <string name="to_activate_the_account">Активируйте аккаунт Xiaomi</string>
+
+    <string name="resource_menu_refresh">Обновить</string>
+    <string name="resource_unknow_error">Неизвестная ошибка</string>
+    <string name="resource_user_know">ОК</string>
+    <string name="resource_hint">Сигнал</string>
+
+    <string name="resource_ringtone_volume_mute">Звук мелодии отключен</string>
+</resources>
