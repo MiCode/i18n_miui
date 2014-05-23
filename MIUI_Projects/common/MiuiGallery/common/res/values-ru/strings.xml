@@ -1,0 +1,778 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Галерея</string>
+    <!-- Title for picture frame gadget to show in list of all available gadgets -->
+
+    <!-- Used to format short video duration in Details dialog. minutes:seconds e.g. 00:30 -->
+    <string name="details_ms">%1$02d:%2$02d</string>
+    <!-- Used to format video duration in Details dialog. hours:minutes:seconds e.g. 0:21:30 -->
+    <string name="details_hms">%1$d:%2$02d:%3$02d</string>
+    <!-- Activity label. This might show up in the activity-picker -->
+    <!-- shown in the video player view while the video is being loaded, before it starts playing -->
+
+    <!-- Message shown on the progress dialog to indicate we're loading the
+            account info [CHAR LIMIT=30] -->
+
+    <!-- Movie View Resume Playing dialog title -->
+
+    <!-- Movie View Start Playing dialog title -->
+    <!-- Movie View Start Playing button "Resume from bookmark" -->
+
+    <!-- Displayed in the title of those albums that are being loaded -->
+    <string name="loading">Загрузка\u2026</string>
+
+    <!-- Displayed in the title of those pictures that fails to be loaded
+         [CHAR LIMIT=50]-->
+
+    <!-- Displayed in place of the picture when we fail to get the thumbnail of it.
+         [CHAR LIMIT=50]-->
+    <string name="no_thumbnail">Нет изображения для предварительного просмотра</string>
+
+    <!-- Movie View Start Playing button "Beginning" -->
+
+    <!-- Title of a menu item to indicate performing the image crop operation
+         [CHAR LIMIT=20] -->
+    <string name="crop_save_text">Сохранить</string>
+    <!-- Button indicating that the cropped image should be reverted back to the original -->
+    <!-- Hint that appears when cropping an image with more than one face -->
+    <string name="multiface_crop_help">Нажмите на лицо, чтобы начать.</string>
+    <!-- Toast/alert that the image is being saved to the SD card -->
+    <string name="saving_image">Сохранение изображения\u2026</string>
+    <!-- Eorror toast message that the image cannot be saved [CHAR LIMIT=40]-->
+    <string name="save_error">Не удалось сохранить изображение</string>
+
+    <!-- menu pick: crop the currently selected image -->
+    <string name="crop_label">Обрезать</string>
+    <!-- Toast/alert that the face detection is being run -->
+
+    <!-- Title prompted for user to choose a photo item [CHAR LIMIT=20] -->
+    <string name="select_image">Выбрать фото</string>
+    <!-- Title prompted for user to choose a video item [CHAR LIMIT=20] -->
+    <string name="select_video">Выбрать видео</string>
+    <!-- Title prompted for user to choose a media object [CHAR LIMIT=20] -->
+    <string name="select_item">Режим редактирования</string>
+    <!-- Title prompted for user to choose an album [CHAR LIMIT=20] -->
+    <string name="select_album">Режим редактирования</string>
+    <!-- Title prompted for user to choose a group [CHAR LIMIT=20] -->
+
+    <!-- Displayed in the title of the dialog for things to do with a picture
+             that is to be "set as" (e.g. set as contact photo or set as wallpaper) -->
+    <string name="set_image">Применить</string>
+    <!-- Toast/alert after saving wallpaper -->
+    <string name="camera_setas_wallpaper">Обои</string>
+
+    <!-- Details dialog "OK" button. Dismisses dialog. -->
+    <string name="delete">Удалить</string>
+
+    <!-- Confirm to delete 3 items? -->
+    <string name="confirm_delete">Удалить выбранное? \n\nФайлов:<xliff:g id="ITEM"> %s</xliff:g></string>
+    <string name="confirm_delete_cloud_all_item_page">Удалить выбранные альбомы и изображения? \n\nИзображений: <xliff:g id="PICTURE">%s</xliff:g> \nАльбомов: <xliff:g id="ALBUM">%s</xliff:g></string>
+    <string name="action_fail_unknown_error">Неизвестная ошибка</string>
+    <string name="add_to_cloud_fail_too_many_items">Выбрано слишком много элементов</string>
+
+    <string name="comfirm_delete_current_album">Удалить выбранный альбом?</string>
+
+    <!-- Confirm to delete 2 albums (including 6 items)? -->
+    <string name="confirm_delete_album">Удалить выбранные альбомы с изображениями? \n\nАльбомов:<xliff:g id="ALBUM"> %s</xliff:g> \nИзображений:<xliff:g id="ITEM"> %s</xliff:g></string>
+
+    <!-- "Camera" album is system album, confirm to delete? -->
+    <string name="confirm_delete_system_album">Удалить системный альбом \"<xliff:g id="SYSTEM_ALBUM">%s</xliff:g>\"?</string>
+
+    <string name="operation_delete_confirm_message_folder">Папка будет удалена со всеми файлами.\r\n</string>
+    <string name="delete_folder">Удалить выбранные папки? \n\nПапок: %1$d</string>
+    <string name="delete_file">Удалить выбранные файлы? \n\nФайлов: %1$d</string>
+    <string name="delete_files_and_folders">Удалить выбранные файлы и папки? \n\nФайлов: %1$d \nПапок: %2$d</string>
+    <string name="confirm_delete_pictures">Изображений:<xliff:g id="PICTURE"> %s</xliff:g></string>
+    <string name="confirm_delete_videos">Видео:<xliff:g id="VIDEO"> %s</xliff:g></string>
+    <string name="confirm_delete_this_picture">Удалить выбранное изображение?</string>
+    <string name="confirm_delete_this_video">Удалить выбранное видео?</string>
+
+    <string name="cancel">Отмена</string>
+
+    <!-- String indicating more actions are available -->
+    <string name="select_all">Выбрать все</string>
+    <string name="slideshow">Слайдшоу</string>
+
+    <string name="details">Отправитель</string>
+    <string name="details_title">%1$d из %2$d:</string>
+    <string name="close">Закрыть</string>
+
+    <!-- Title of a menu item to switch from Gallery to Camera app [CHAR LIMIT=30] -->
+
+    <!-- String indicating how many media item(s) is(are) selected
+            eg. 1 selected [CHAR LIMIT=30] -->
+    <plurals name="number_of_items_selected">
+        <item quantity="zero">Выбрано: %1$d</item>
+        <item quantity="one">Выбрано: %1$d</item>
+        <item quantity="other">Выбрано: %1$d</item>
+    </plurals>
+
+    <!-- String indicating how many pictures one set has -->
+    <plurals name="number_of_pictures">
+        <item quantity="zero">%1$d</item>
+        <item quantity="one">%1$d</item>
+        <item quantity="other">%1$d</item>
+    </plurals>
+
+    <!-- String indicating timestamp of photo or video -->
+    <string name="show_on_map">Показать на карте</string>
+    <string name="no_map_app">Нет приложений навигации</string>
+
+    <!-- Toast message prompted when the specified item is not found [CHAR LIMIT=40]-->
+    <string name="no_such_item">Элемент не найден</string>
+
+    <!-- String used as a menu label. The user can choose to edit the image
+         [CHAR_LIMIT=20]-->
+    <string name="edit">Изменить</string>
+
+    <!-- String used in a toast message indicating there is no application
+         available to handle a request [CHAR LIMIT=50] -->
+    <string name="activity_not_found">Не удается найти приложение для этого типа файлов</string>
+
+    <!-- String used as a title of a progress dialog. The user can
+         choose to cache some Picasa picture albums on device, so it can
+         be viewed offline. This string is shown when the request is being
+         processed. [CHAR LIMIT=50] -->
+
+    <!-- String used as a small notification label above a Picasa album.
+         It means the pictures of the Picasa album is currently being
+         transferred to local storage, so the pictures can later be viewed
+         offline. [CHAR LIMIT=15] -->
+
+    <!-- String indicating an approximate location eg. Around Palo Alto, CA -->
+    <string name="video_err">Не удается воспроизвести видео</string>
+
+    <!-- Strings for grouping operations in the menu. The photos can be grouped
+         by their location, taken time, or tags. -->
+    <!-- The title of the menu item to let user choose the grouping rule, when
+         pressed, a submenu will shown and user can choose one grouping rule
+         from the submenu. -->
+
+    <!-- Title of a menu item to group photo by location [CHAR LIMIT=30] -->
+    <string name="group_by_location">По месту съемки</string>
+
+    <!-- Title of a menu tiem to group photo by taken date [CHAR LIMIT=30]-->
+    <string name="group_by_time">По времени создания</string>
+
+    <!-- Title of a menu item to group photo by tags [CHAR LIMIT=30]-->
+    <string name="group_by_tags">По тегам</string>
+
+    <!-- Title of a menu item to group photo by faces [CHAR LIMIT=30]-->
+    <string name="group_by_faces">По именам</string>
+
+    <!-- Title of a menu item to group photo by albums [CHAR LIMIT=30]-->
+    <string name="group_by_album">По альбомам</string>
+
+    <!-- Title of a menu item to group photo by size [CHAR LIMIT=30]-->
+
+    <!-- When grouping photos by tags, the label used for photos without tags
+         [CHAR LIMIT=20]-->
+    <string name="untagged">Без тегов</string>
+
+    <!-- When grouping photos by locations, the label used for photos that don't
+         have location information in them [CHAR LIMIT=20]-->
+
+    <string name="no_location">Место не указано</string>
+
+    <!-- This toast message is shown when network connection is lost while doing clustering -->
+    <string name="no_connectivity">Не удалось некоторые местоположения из-за проблем с подключением</string>
+
+    <!-- This toast message is shown when failed to load the album data. [CHAR LIMIT=NONE] -->
+    <string name="sync_album_error">Ошибка загрузки, повторите попытку позже.</string>
+    <!-- This toast message is shown when failed to load the album list data. [CHAR LIMIT=NONE] -->
+    <string name="sync_album_set_error">Не удалось загрузить список альбомов, повторите попытку позже.</string>
+
+    <!-- The title of the menu item to let user choose the which portion of
+         the media items the user wants to see. When pressed, a submenu will
+         appear and user can choose one of "show images only",
+         "show videos only", or "show all" from the submenu. -->
+
+    <!-- Title of a menu item to show images only [CHAR LIMIT=30]-->
+    <string name="show_images_only">Только изображения</string>
+
+    <!-- Title of a menu item to show videos only [CHAR LIMIT=30]-->
+    <string name="show_videos_only">Только видео</string>
+
+    <!-- Title of a menu item to show all (both images and videos) [CHAR LIMIT=30]-->
+    <string name="show_all">Изображения и видео</string>
+
+    <!-- Title of the StackView AppWidget -->
+    <string name="appwidget_title">Галерея</string>
+
+    <!-- Text for the empty state of the StackView AppWidget [CHAR LIMIT=30] -->
+    <string name="appwidget_empty_text">Нет фото</string>
+
+    <!-- Toast message shown when the cropped image has been saved in the
+         download folder [CHAR LIMIT=50]-->
+
+    <!-- Toast message shown when the cropped image is not saved
+         [CHAR LIMIT=50]-->
+
+    <!-- Toast message shown when there is no albums available [CHAR LIMIT=50]-->
+    <string name="no_albums_alert">Нет доступных альбомов</string>
+
+    <!-- Album label used to indicate the collection of PWA Buzz/Post photos -->
+
+    <!-- A label describing that the current screen is for the user to pick
+         some albums to be viewable offline [CHAR LIMIT=30] -->
+
+    <!-- A label of a menu item for user to sync the content [CHAR LIMIT=30] -->
+
+    <string name="local_albums">Локальные</string>
+    <string name="cloud_albums">Облачные</string>
+    <string name="home_my_captured_items">фото</string>
+
+    <!-- A label on a button. The user clicks this button after he has
+         finished selection. [CHAR LIMIT=15] -->
+    <string name="done">Готово</string>
+
+    <!-- String indicating the sequence of currently selected item in the
+            media set eg. 3 of 5 items [CHAR LIMIT=30] -->
+    <!-- Text indicating the title of a media item in details window [CHAR LIMIT=14] -->
+    <string name="title">Название</string>
+    <!-- Text indicating the description of a media item in details window [CHAR LIMIT=14] -->
+    <string name="description">Описание</string>
+    <!-- Text indicating the creation time of a media item in details window [CHAR LIMIT=14] -->
+    <string name="time">Время</string>
+    <!-- Text indicating the sharer of the image[CHAR LIMIT=14] -->
+    <string name="details_sharer">Отправитель</string>
+    <string name="me">Я</string>
+    <!-- Text indicating the location of a media item in details window [CHAR LIMIT=14] -->
+    <string name="location">Местоположение</string>
+    <!-- Text indicating the path of a media item in details window [CHAR LIMIT=14] -->
+    <string name="path">Путь к файлу</string>
+    <!-- Text indicating the width of a media item in details window [CHAR LIMIT=14] -->
+    <string name="width">Ширина</string>
+    <!-- Text indicating the height of a media item in details window [CHAR LIMIT=14] -->
+    <string name="height">Высота</string>
+    <!-- Text indicating the orientation of a media item in details window [CHAR LIMIT=14] -->
+    <string name="orientation">Ориентация</string>
+    <!-- Text indicating the duration of a video item in details window [CHAR LIMIT=14] -->
+    <string name="duration">Длительность</string>
+    <!-- Text indicating the mime type of a media item in details window [CHAR LIMIT=14] -->
+    <string name="mimetype">Тип MIME</string>
+    <!-- Text indicating the file size of a media item in details window [CHAR LIMIT=14] -->
+    <string name="file_size">Размер</string>
+    <!-- Text indicating the maker of a media item in details window [CHAR LIMIT=14] -->
+    <string name="maker">Производитель</string>
+    <!-- Text indicating the model of a media item in details window [CHAR LIMIT=14] -->
+    <string name="model">Модель</string>
+    <!-- Text indicating flash info of a media item in details window [CHAR LIMIT=14] -->
+    <string name="flash">Вспышка</string>
+    <!-- Text indicating aperture of a media item in details window [CHAR LIMIT=14] -->
+    <string name="aperture">Диафрагма</string>
+    <!-- Text indicating the focal length of a media item in details window [CHAR LIMIT=14] -->
+    <string name="focal_length">Фокус</string>
+    <!-- Text indicating the white balance of a media item in details window [CHAR LIMIT=14] -->
+    <string name="white_balance">Баланс белого</string>
+    <!-- Text indicating the exposure time of a media item in details window [CHAR LIMIT=14] -->
+    <string name="exposure_time">Выдержка</string>
+    <!-- Text indicating the ISO speed rating of a media item in details window [CHAR LIMIT=14] -->
+    <string name="iso">ISO</string>
+    <!-- String indicating the time units in seconds. [CHAR LIMIT=8] -->
+    <!-- String indicating the length units in milli-meters. [CHAR LIMIT=8] -->
+    <string name="unit_mm">мм</string>
+    <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=8] -->
+    <string name="manual">Вручную</string>
+    <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=8] -->
+    <string name="auto">Авто</string>
+    <!-- String indicating camera flash is fired. [CHAR LIMIT=14] -->
+    <string name="flash_on">Со вспышкой</string>
+    <!-- String indicating camera flash is not used. [CHAR LIMIT=14] -->
+    <string name="flash_off">Без вспышки</string>
+
+    <!-- Toast message shown after we try to make a local album available offline
+         [CHAR LIMIT=150] -->
+
+    <!-- A label shown on the action bar. It indicates that the user is
+         viewing all available albums [CHAR LIMIT=20] -->
+    <string name="set_label_all_albums">Все альбомы</string>
+
+    <!-- A label shown on the action bar. It indicates that the user is
+         viewing albums stored locally on the device [CHAR LIMIT=20] -->
+    <string name="set_label_local_albums">Локальные альбомы</string>
+
+    <string name="cloud_media_set_set">Облачные альбомы</string>
+
+    <!-- A label shown on the action bar. It indicates that the user is
+         viewing MTP devices connected (like other digital cameras).
+         [CHAR LIMIT=20] -->
+    <string name="set_label_mtp_devices">MTP-устройства</string>
+
+    <!-- A label shown on the action bar. It indicates that the user is
+         viewing Picasa albums [CHAR LIMIT=20] -->
+
+    <!-- Label indicating the amount on free space on the device. The parameter
+         is a string representation of the amount of free space, eg. "20MB".
+         [CHAR LIMIT=20]
+    -->
+
+    <!-- Label of a group of pictures. The size of each picture in this group is
+         less than a certain amount. The parameter is a string representation
+         of that amount, eg. "10MB".
+         [CHAR LIMIT=20]
+    -->
+    <string name="size_below"><xliff:g id="size">%1$s</xliff:g> или менее</string>
+
+    <!-- Label of a group of pictures. The size of each picture in this group is
+         more than a certain amount. The parameter is a string representation
+         of that amount, eg. "10MB".
+         [CHAR LIMIT=20]
+    -->
+    <string name="size_above"><xliff:g id="size">%1$s</xliff:g> или более</string>
+
+    <!-- Label of a group of pictures. The size of each picture in this group is
+         between two amounts. The parameters are string representations of the two
+         amounts, eg. "10MB", "100MB".
+         [CHAR LIMIT=20]
+    -->
+    <string name="size_between">от <xliff:g id="min_size">%1$s</xliff:g> до <xliff:g id="max_size">%2$s</xliff:g></string>
+
+    <!-- A label shown on the action bar. It indicates that the operation
+         to import media item(s) [CHAR LIMIT=20] -->
+    <string name="Import">Импорт</string>
+
+    <!-- A label shown on the action bar. It indicates whether the import
+         operation succeeds or fails. [CHAR LIMIT=20] -->
+    <string name="import_complete">Импорт завершен</string>
+    <string name="import_fail">Ошибка импорта</string>
+
+    <!-- A toast indicating a camera is connected to the device [CHAR LIMIT=30]-->
+    <string name="camera_connected">Камера подключена</string>
+    <!-- A toast indicating a camera is disconnected [CHAR LIMIT=30] -->
+    <string name="camera_disconnected">Камера отключена</string>
+    <!-- A label shown on MTP albums thumbnail to instruct users to import
+        [CHAR LIMIT=40] -->
+
+    <!-- The label on the radio button for the widget type that shows the images randomly. [CHAR LIMIT=30]-->
+    <string name="widget_type_album">Выбрать альбом</string>
+    <!-- The label on the radio button for the widget type that shows the images in an album. [CHAR LIMIT=30]-->
+    <string name="widget_type_shuffle">Перемешать все изображения</string>
+    <!-- The label on the radio button for the widget type that shows only one image. [CHAR LIMIT=30]-->
+    <string name="widget_type_photo">Выберите изображение</string>
+
+    <!-- The title of the dialog for choosing the type of widget. [CHAR LIMIT=20] -->
+    <string name="widget_type">Выбор изображений</string>
+
+    <!-- Title of the Android Dreams slideshow screensaver. [CHAR LIMIT=20] -->
+    <string name="slideshow_dream_name">Слайдшоу</string>
+
+    <!-- Group by Albums tab on Action Bar. [CHAR LIMIT=12] -->
+    <string name="albums">Альбомы</string>
+
+    <!-- Group by Times tab on Action Bar. [CHAR LIMIT=12] -->
+    <string name="times">Дата</string>
+
+    <!-- Group by Locations tab on Action Bar. [CHAR LIMIT=12] -->
+    <string name="locations">Местоположения</string>
+
+    <!-- Group by People tab on Action Bar. [CHAR LIMIT=12] -->
+    <string name="people">Люди</string>
+
+    <!-- Group by Tags tab on Action Bar. [CHAR LIMIT=12] -->
+    <string name="tags">Теги</string>
+
+    <!-- Group by menu item. [CHAR LIMIT=20] -->
+    <string name="group_by">Сгруппировать</string>
+
+    <!-- The title of the menu item which enable the settings [CHAR LIMIT=20] -->
+    <string name="settings">Настройки</string>
+
+    <!-- The title of menu item where user can add a new account -->
+    <string name="add_account">Добавить аккаунт</string>
+
+    <!-- Add strings for MIUI -->
+    <string name="set_recent_album">Сделать новый альбом</string>
+    <string name="remove_recent_album">Удалить из избранных альбомов</string>
+    <string name="set_hidden_album">Скрыть</string>
+    <string name="remove_hidden_album">Отменить скрытие</string>
+    <string name="photos">фото</string>
+    <string name="tab_lockscreen_text">Экран блокировки</string>
+    <string name="tab_wallpaper_text">Рабочий стол</string>
+    <string name="tab_all_text">На все</string>
+
+    <string name="cloud_gallery_space_full">Облачное хранилище заполнено</string>
+    <string name="share_album_space_full">Выбранный альбом заполнен</string>
+    <string name="cloud_gallery_recyclebin_full">Корзина в облаке заполнена. Пожалуйста очистите корзину через сайт i.xiaomi.com.</string>
+    <string name="sync_history_power_on">Синхронизация при зарядке</string>
+    <string name="sync_only_in_wifi_alert">Отключение этой функции может вызвать чрезмерное потребление мобильного трафика. Продолжить?</string>
+    <string name="sync_only_in_wifi">Только по Wi-Fi</string>
+    <string name="sync_only_in_wifi_summary">Синхронизировать фото только при активной сети Wi-Fi</string>
+
+    <string name="alert">Предупреждение</string>
+    <string name="gallery_cloud_provider_name">Галерея</string>
+    <string name="sync_album">Синхронизация альбомов</string>
+    <string name="sync_album_summary">Синхронизировать фото и видео с облачными альбомами</string>
+    <string name="open_sync_title">Включите синхронизацию</string>
+    <string name="alert_message_open_sync">Включить синхронизацию?</string>
+    <string name="open">ОК</string>
+    <string name="cloud_gallery_no_pictures">Нет фото</string>
+    <string name="no_network_connected">Нет подключения к сети</string>
+    <string name="initial_cloud_text">Создавайте облачные альбомы для синхронизации фото и видео.</string>
+    <string name="initial_cloud_button_text">Начать использование</string>
+    <string name="storage_no_space">Не хватает памяти</string>
+    <!-- Add to cloud album, this is a button text, should be short -->
+    <string name="add_to_cloud_album">В облако</string>
+    <string name="move_to_cloud_album">Переместить</string>
+    <string name="move">Переместить</string>
+    <string name="add_to_cloud_successfully_message">Добавлено в облачный альбом</string>
+    <string name="add_to_cloud_space_full_message">Облачный альбом заполнен</string>
+    <string name="add_to_cloud_local_space_full_message">Память заполнена</string>
+    <string name="add_to_cloud_file_exist_message">Фото уже существует в выбранном альбоме</string>
+    <string name="add_to_cloud_exceeded_the_size_message">Слишком большой размер файла</string>
+    <string name="add_to_cloud_type_not_support_message">Тип файла не поддерживается</string>
+    <string name="add_to_cloud_image_limit_exceeded_message">Выбрано слишком много фото</string>
+    <string name="file_not_exist_message">Файл не существует</string>
+    <string name="add_to_cloud_failed_message_with_count">Невозможно добавить %2$s<xliff:g id="COUNT"> %2$s</xliff:g> фото в облачный альбом: <xliff:g id="REASON"> %1$s</xliff:g>. </string>
+    <string name="add_to_cloud_reasons"></string>
+    <string name="add_to_cloud_unknow_reasons">Неизвестная ошибка</string>
+    <string name="cant_delete_cloud_album"><xliff:g id="ITEM"> Ошибка удаления: %s</xliff:g> - системный альбом или отправлен от другого пользователя.</string>
+    <string name="cannot_delete_sharer_photo">Ошибка удаления.\nИзображения загружены другим пользователем. \n\nИзображений: %s</string>
+    <string name="share_album">Обмен альбомами</string>
+    <string name="share_album_owner">Владелец</string>
+    <string name="loading_members">Загрузка пользователей\2026</string>
+    <string name="scan_qr_code_buttom_text">Сканируйте QR-код для просмотра этого альбома</string>
+    <string name="request_qr_code_failed">Ошибка получения QR-кода</string>
+    <string name="retry_to_request_qr_code">Повтор</string>
+    <string name="album_member">Пользователи %s</string>
+    <string name="add_sharer">Добавить пользователя</string>
+    <string name="album_name">Имя альбома</string>
+    <string name="already_apply_album">"Открыть <xliff:g id="ALBUM">%1$s</xliff:g>?"</string>
+    <string name="no_picture_or_video">Нет фото и видео</string>
+    <string name="camera_view_none_message">Нажмите, чтобы открыть камеру.</string>
+    <string name="none_picture">Нет изображений</string>
+    <string name="show_hidden_albums">Показать скрытые альбомы</string>
+    <string name="not_show_hidden_albums">Не показывать скрытые альбомы</string>
+    <string name="fail_to_sync_album">Ошибка синхронизации альбома с сервером. Проверьте параметры сети.</string>
+    <string name="sync_album_in_proecess">Синхронизация альбома с сервером\u2026</string>
+    <string name="retry_to_create_album">"Повтор"</string>
+    <string name="share_current_album">Поделиться альбомом</string>
+    <string name="cloud_share_guide_title">Теперь можно обмениваться албомами!</string>
+    <string name="cloud_share_guide_message">Вы можете делиться своими альбомами, просматривать альбомы друзей, а также добавлять фото в альбом вместе!</string>
+    <string name="cloud_be_shared_guide_title">Этот альбом отправлен от друга</string>
+    <string name="cloud_be_shared_guide_message">Вы можете просматривать фотографии ваших друзей и добавить фотографии в их альбом.</string>
+    <string name="cloud_owner_album_share_guide">Вы можете поделиться этим альбомом с друзьями</string>
+    <string name="view_sharers">Пользователи</string>
+
+    <!-- Camera path for ROM adaptation -->
+    <string name="camera_path">/DCIM/Camera</string>
+
+    <!-- single image view -->
+    <string name="open_single_image_failure">Ошибка загрузки фото</string>
+    <string name="damaged_file">Файл поврежден</string>
+
+    <string name="must_pick_file">Выберите изображение</string>
+    <string name="set_lock_or_wallpaper">Как фон</string>
+    <string name="set_lock_and_wallpaper">Установка обоев\u2026</string>
+    <string name="set_wallpaper">Установка обоев на рабочий стол\u2026</string>
+    <string name="set_lockscreen">Установка обоев на экран блокировки\u2026</string>
+    <string name="wallpaper">Обои рабочего стола</string>
+    <string name="contact_photo">Фото контакта</string>
+    <string name="projection">Проекция</string>
+    <string name="cut">Обрезать</string>
+    <string name="more">Еще</string>
+    <string name="deleting_files">Удаление файлов\u2026</string>
+    <string name="bigscreen_slide_exit">Выход из слайдшоу</string>
+    <string name="bigscreen_slide_fail_cause_loading">Перезапустите слайдшоу после загрузки фото</string>
+    <string name="defalt_local_mobile">Мобильный</string>
+
+    <string name="cloudfolder_name_reserved">Название альбома защищено</string>
+    <string name="cloudfolder_contain_invalidate_char">Название не должно содержать \"%s\"</string>
+    <string name="cloudfolder_cannot_start_with">Название не может начинаться с \"%s\"</string>
+    <string name="cloudfolder_name_cannot_empty">Введите название</string>
+    <string name="add_to_cloud_folder">В облако</string>
+    <string name="create_new_cloud_folder">Создать облачный альбом</string>
+    <string name="input_cloudfolder_name">Название альбома</string>
+    <string name="cloudfolder_already_exists">Альбом уже существует</string>
+
+    <plurals name="number_of_images">
+        <item quantity="zero">"Изображений: %1$d"</item>
+        <item quantity="one" >"Изображений: %1$d"</item>
+        <item quantity="other">"Изображений: %1$d"</item>
+    </plurals>
+
+    <!-- Preference -->
+    <string name="other_category">Другие настройки</string>
+    <string name="show_hidden_album">Показать скрытые альбомы</string>
+    <string name="auto_create_recent_album">Автосоздание избранного альбома</string>
+    <string name="photo_page_always_rotate">Автоповорот</string>
+    <string name="auto_create_recent_album_over_ten_times">Альбом будет помечен как избранный после того, как вы откроете его более 10 раз.</string>
+    <string name="not_auto_create_recent_album">Не создавать избранные альбомы</string>
+    <string name="auto_create_recent_album_confirm">Галерея очистит данные избранных альбомов, которые были помечены автоматически.</string>
+    <string name="slideshow_category">Слайдшоу</string>
+    <string name="slideshow_interval">Интервал слайдшоу</string>
+    <string name="slideshow_interval_dialog_title">Интервал слайдшоу в секундах</string>
+    <string name="slideshow_interval_invalid">Интервал должен быть задан в пределах 1~3600 секунд</string>
+    <string name="slideshow_repeat_mode">Повторять</string>
+    <string name="clear_thumbnail_cache">Очистить кэш</string>
+    <string name="clear_thumbnail_cache_summary">Очистить эскизы, созданные при просмотре изображений в галерее.</string>
+    <string name="clear_thumbnail_cache_confirm">Очистить кэш эскизов? \nГалерея пересканирует изображения и заново создаст экскизы.</string>
+    <string name="cleaning_cache">Очистка кэша\u2026</string>
+    <string name="seconds">сек.</string>
+    <string name="screensaver_category">Заставка</string>
+    <string name="screensaver_activate_mode">Заставка слайдшоу</string>
+    <string name="screensaver_activate_only_charging">Только при зарядке</string>
+    <string name="screensaver_path">"Альбом заставки: "</string>
+    <string name="screensaver_path_not_set">не задан</string>
+    <string name="set_screensaver_path_title">Заставка слайдшоу</string>
+    <string name="set_screensaver_path_message">Фото из этого альбома будут отображаться в режиме слайдшоу после 5 секунд выключенного экрана.</string>
+    <string name="set_screensaver_path_message_if_only_charging">Фото из этого альбома будут отображаться в режиме слайдшоу во время зарядки.</string>
+    <string name="slideshow_time_select_title">Длительность слайдшоу</string>
+    <string name="slideshow_time_title">Длительность</string>
+
+    <string name="rename_failed">Не удалось переименовать</string>
+    <string name="rename_failed_duplicated_name">Имя уже существует</string>
+
+    <string name="warn">Предупреждение</string>
+    <string name="send_multiple_files_hint_format">Отправить (%s)</string>
+
+    <string name="send">Отправить</string>
+    <string name="select_too_much_to_send_tips">Выбранных фото для отправки слишком много. Максимум: %d.</string>
+    <string name="pick_too_much_tips">Выбрано слишком много фото. Максимум: %d.</string>
+    <string name="sd_not_available">SD-карта отключена или недоступна</string>
+    <string name="internal_sd_card">Внутренняя память</string>
+    <string name="internal_sd_card_hm">Память телефона</string>
+    <string name="external_sd_card">SD-карта</string>
+    <string name="external_usb_device">USB-накопитель</string>
+    <string name="external_usb_device_hm">USB-накопитель</string>
+    <string name="menu_item_sort">Сортировка</string>
+    <string name="menu_item_sort_name_asc">По имени (по убыванию)</string>
+    <string name="menu_item_sort_name_desc">По имени (по возрастанию)</string>
+    <string name="menu_item_sort_size_asc">По размеру (по убыванию)</string>
+	<string name="menu_item_sort_size_desc">По размеру (по возрастанию)</string>
+    <string name="menu_item_sort_date_asc">По дате (по убыванию)</string>
+	<string name="menu_item_sort_date_desc">По дате (по возрастанию)</string>
+    <string name="operation_rename">Переименовать</string>
+    <string name="operation_share">Поделиться</string>
+    <string name="operation_refresh">Обновить</string>
+    <string name="operation_set_as_screensaver">Установить альбом на заставку</string>
+    <string name="operation_unset_as_screensaver">Отменить заставку</string>
+    <string name="operation_add_picture">Добавить фото</string>
+    <string name="how_many_videos">Видео: %d</string>
+    <string name="how_many_sub_folders">Папок: %d</string>
+    <string name="directory_info_divider">"  |  "</string>
+    <string name="how_many_pics">Фото: %d</string>
+
+    <string name="global_setting">Настройки</string>
+
+    <string name="no_storage_disable_cloud_albums">Облачные альбомы недоступны</string>
+
+    <string name="message_no_delete_access">Нет доступа для удаления: %s</string>
+    <string name="message_no_delete_access_with_count">Нет доступа к этим файлам (%d)</string>
+
+    <string name="fail_init_gallery_db_helper">Ошибка загрузки базы данных галереи</string>
+
+    <string name="crop_fail_to_load_image">Ошибка загрузки фото</string>
+
+    <string name="error_should_not_select_image">Тип файла не поддерживается</string>
+    <string name="error_should_not_select_video">Тип файла не поддерживается</string>
+
+    <string name="storage_all_volumes">Все накопители</string>
+
+    <string name="settings_i_xiaomi_com">Зайдите на сайт i.xiaomi.com, чтобы просмотреть ваши фото и видео с компьютера.</string>
+
+    <string name="loading_thumbnail">Загрузка эскиза\u2026</string>
+    <string name="video_not_exist">Видео не существует</string>
+    <string name="loading_video">Загрузка видео\u2026</string>
+    <string name="loading_image">Загрузка фото\u2026</string>
+    <string name="loading_suspend">Загрузка будет продолжена при подключении к сети Wi-Fi.</string>
+    <string name="confirm_download_video_title">Загрузка видео</string>
+    <string name="confirm_download_video_message">Для просморта видео необходимо полностью загрузить его. Загрузка будет продолжена при подключении к сети Wi-Fi.</string>
+    <string name="image_download_item_title">Скачать фото (%s)</string>
+    <string name="item_not_sync">Этот файл не был синхронизирован с облачным сервисом и не может быть загружен</string>
+
+    <string name="cloud_album_more_settings">Облачные альбомы</string>
+    <string name="browse_category">Просмотр изображений</string>
+    <string name="photo_page_save_image">Сохранить</string>
+    <string name="photo_page_save_uri_image_ok">Фото сохранено в папку камеры</string>
+    <string name="photo_page_save_uri_image_fail">Не удалось сохранить фото</string>
+    <!-- &#160; is space character -->
+    <string name="albumset_page_title_separator">&#160;|&#160;</string>
+
+    <string name="cloud_tab_all">Все</string>
+    <string name="cloud_tab_albums">Альбомы</string>
+    <string name="cloud_tab_locations">Местоположение</string>
+    <string name="cloud_album_set_create">Новый</string>
+    <string name="cloud_album_set_scan_qr_code">QR-код</string>
+    <string name="scan_qr_code_failure">Ошибка сканирования</string>
+
+    <string name="big_screen_alertdialog_title">Список устройств</string>
+
+    <string name="comma">,&#160;</string>
+    <string name="quotation">\"<xliff:g>%s</xliff:g>\"</string>
+
+    <!-- Strings for share user picker -->
+    <string name="by_sms">По SMS</string>
+    <string name="by_email">По Email</string>
+    <string name="by_others">Другие способы</string>
+    <string name="enter_email_hint">Введите адрес электронной почты</string>
+
+    <string name="messagelist_sender_self">Я</string>
+    <string name="adding_recipients">Добавление получателей\u2026</string>
+    <string name="pick_too_many_recipients">Слишком много получателей</string>
+    <string name="cannot_send_message">Не удается отправить сообщение</string>
+    <string name="has_invalid_recipient">Недопустимые получатели: &lt;<xliff:g id="name">%1$s</xliff:g>&gt;</string>
+    <string name="to_count">Во всех: %d</string>
+    <string name="context_menu_add_contact">Добавить в контакты</string>
+    <string name="context_menu_copy_notice">Текст скопирован</string>
+    <string name="recipient_editor_count_format">%d</string>
+    <string name="menu_view_contact">Просмотр контакта</string>
+    <string name="invalid_recipient_message">Проверьте адреса получателей</string>
+    <string name="cannot_send_message_reason">Получатели не указаны</string>
+    <string name="too_many_recipients">Выбрано слишком много получателей: (<xliff:g id="currentCount">%1$s</xliff:g>). \nМаксимальное количество получателей: <xliff:g id="maxLimit">%2$s</xliff:g></string>
+    <string name="context_menu_copy">Копировать</string>
+    <string name="try_to_send">Отправить</string>
+    <string name="email_picker_title">Отправка по почте</string>
+    <string name="request_sms_url_failed">Не удалось запросить информацию</string>
+    <string name="request_sms_url_title">Предупреждение</string>
+    <string name="request_sms_url_msg">Запрос информации\u2026</string>
+    <string name="fail_to_pick_email">Неверный Email</string>
+    <string name="share_by_email_successfully">Вы поделились через Email \"<xliff:g id="NAME">%1$s</xliff:g>\"</string>
+    <string name="share_by_email_start">Поделиться \"<xliff:g id="NAME">%1$s</xliff:g>\" в фоновом режиме</string>
+    <string name="exit_share">Выйти из альбома</string>
+    <string name="exit_share_in_process">Выход из альбома\u2026</string>
+    <string name="exit_share_successfully">Выход из альбома <xliff:g id="NAME">%1$s</xliff:g> завершен</string>
+    <string name="exit_share_failed">Не удалось выйти из альбома <xliff:g id="NAME">%1$s</xliff:g></string>
+    <string name="cancel_hint">Действие отменено</string>
+    <string name="fail_hint">Ошибка действия</string>
+    <string name="kick_sharer">Удалить получателя</string>
+    <string name="kick_sharer_successfully">Получатель удален</string>
+    <string name="kick_sharer_failed">Ошибка удаления</string>
+    <string name="accept_or_deny">"<xliff:g id="NAME">%1$s</xliff:g> поделился с вами альбомом <xliff:g id="ALBUM">%2$s</xliff:g>"</string>
+    <string name="accept">"Принять"</string>
+    <string name="deny">"Отклонить"</string>
+    <string name="enable_cloud_for_sharing">Необходимо включить облачные альбомы для просмотра принятых фото.</string>
+    <string name="operation_in_process">"Загрузка\u2026"</string>
+    <string name="operation_failed">"Ошибка действия"</string>
+    <string name="operation_successful">"Готово"</string>
+    <string name="invalid_invition_url">Неверная ссылка</string>
+    <string name="user_alias_self">Я</string>
+    <string name="kick_owner_user_title">Удалить выбранного пользователя?</string>
+    <string name="kick_owner_user_positive_button_text">ОК</string>
+    <string name="initializing_cloud">Загрузка облачного альбома\u2026</string>
+    <string name="open_public_title">Общий доступ</string>
+    <string name="open_public_message">Открыть общий доступ и создать публичную ссылку для альбома</string>
+    <string name="publishing">Открытие доступа\u2026</string>
+    <string name="publish_succeeded">Общий доступ к альбому открыт</string>
+    <string name="publish_failed">Ошибка открытия доступа</string>
+    <string name="unpublish_succeeded">Общий доступ к альбому закрыт</string>
+    <string name="unpublish_failed">Ошибка закрытия доступа</string>
+    <string name="send_public_url">Отправить ссылку на альбом</string>
+    <string name="public_url_descript">>Любой пользователь может просмотреть ваш альбом, используя эту ссылку.</string>
+    <string name="share_public_url_text">Я отправил вам альбом <xliff:g id="ALBUM_NAME">%1$s</xliff:g>. Просмотреть можно по ссылке: <xliff:g id="URL">%2$s</xliff:g></string>
+    <string name="unpublishing">Закрытие доступа\u2026 </string>
+    <string name="operation_too_often">Выполняется слишком много действий, попробуйте позже.</string>
+    <string name="cannot_remove_creator">Невозможно удалить отправителя</string>
+    <string name="exit">Выход</string>
+    <string name="album_share_exit_confirm">Выйти из альбома?</string>
+    <string name="get_album_info_in_process">Загрузка информации облачного альбома\u2026</string>
+
+    <string name="album_share_stat_content">Приглашения</string>
+    <string name="album_share_kicked">Альбом <xliff:g id="ALBUM">%1$s</xliff:g> закрыт</string>
+    <string name="album_share_title_new_album">Поделиться новым альбомом</string>
+    <string name="album_share_subtitle_not_ready">Информация об альбоме отсутствует</string>
+    <string name="album_share_subtitle_requesting">Загрузка информации об альбоме\u2026</string>
+    <string name="album_share_subtitle_invited">Отправитель: <xliff:g id="USER_NAME">%1$s</xliff:g></string>
+    <string name="album_share_subtitle_normal">Отправитель: <xliff:g id="USER_NAME">%1$s</xliff:g></string>
+    <string name="album_share_subtitle_accepting">Принятие приглашения от <xliff:g id="USER_NAME">%1$s</xliff:g>\u2026</string>
+    <string name="album_share_subtitle_denying">Отклонение приглашения от <xliff:g id="USER_NAME">%1$s</xliff:g>\u2026</string>
+    <string name="album_share_subtitle_quitting">Выход\u2026</string>
+    <string name="system_album">Системный альбом</string>
+    <string name="owner_album_subtitle">Пользователей: <xliff:g id="MEMBER_COUNT">%1$s</xliff:g></string>
+
+    <string name="album_quota_fulfiled">Не удалось создать альбом, количество альбомов достигло предела.</string>
+    <string name="image_quota_fulfiled">Не удается добавить изображение. Количество изображений в альбоме достигло предела.</string>
+    <string name="sharer_quota_fulfiled">Невозможно добавить пользователя. Количество пользователей в этом альбоме достигло предела.</string>
+    <string name="gallery_setting">Настройки</string>
+
+    <string name="error_unknown_host">Сеть не найдена</string>
+    <string name="error_repeat_apply">"Вы уже поделились альбомом"</string>
+    <string name="error_album_not_exist">"Альбом не существует"</string>
+    <string name="error_invalid_link">"Ссылка недействительна"</string>
+    <string name="error_socket_timeout">"Превышено время ожидания"</string>
+    <string name="error_share_with_creator">Вы уже являетесь участником этого альбома</string>
+    <string name="error_cloud_not_active">Облачный альбом неактивен</string>
+
+    <!-- white list begins -->
+    <string name="cloud_camera_display_name">Камера</string>
+    <string name="camera_folder_display_name">Камера</string>
+    <string name="cloud_screenshots_display_name">Скриншоты</string>
+    <string name="miui_capture_screen_folder_display_name">Скриншоты</string>
+    <string name="internal_camera_folder_display_name">Камера</string>
+    <string name="internal_miui_capture_screen_folder_display_name">Скриншоты в памяти телефона</string>
+    <string name="miliao_folder_display_name">MiTalk</string>
+    <string name="miliao_painting_folder_display_name">Рисунки MiTalk</string>
+    <string name="miliao_saved_folder_display_name">Изображения MiTalk</string>
+    <string name="mishop_saved_folder_display_name">Изображения Mi-Маркета</string>
+    <string name="demo_video_folder_display_name">Демо видео</string>
+    <!-- name after their storage paths -->
+    <string name="ucdownloads_screenshot">UC Browser</string>
+    <string name="tencent_mobile_qq_img_save">QQ 2012</string>
+    <string name="androidesk_wallpapers">Обои Android</string>
+    <string name="dcim_opaipic">Opaipic</string>
+    <string name="mtxx">MTXX</string>
+    <string name="miliao_saved">MiTalk</string>
+    <string name="tencent_qq_hd_pic">QQ HD</string>
+    <string name="immomo_camera">Immomo</string>
+    <string name="weikan_weikan">Weikan TV</string>
+    <string name="tencent_qzonepic">Qzone</string>
+    <string name="qsbk_save">QSBK</string>
+    <string name="sina_weibo_save">Weibo</string>
+    <string name="qqbrowser_img">QQ Browser</string>
+    <string name="android_tencent_tencent_weibo">Tencent Weibo</string>
+    <string name="netease_newsreader_netease_down_pic">Netease Newsreader</string>
+    <string name="renren_image">RenRen</string>
+    <string name="ppmm_gallery">PPMM</string>
+    <string name="dcim_100media">Taobao TMall</string>
+    <string name="beautyphone">Beauty phone</string>
+    <string name="dcim_viva_pics">VIVA</string>
+    <string name="baidu_flyflow_downloads">Браузер Baidu</string>
+    <string name="mtgif">MTGIF</string>
+    <string name="autohomemain">Autohomemain</string>
+    <string name="baidu_bdmobile_downloads">Baidu Mobile</string>
+    <string name="tieba">Tie Ba</string>
+    <string name="yellow_page">Сервисы</string>
+    <!-- white list ends -->
+
+    <!-- tips of scanning barcode -->
+    <string name="scan_barcode_to_join">Сканируйте QR-код для получения доступа в альбом</string>
+    <string name="where_is_barcode">Где получить QR-код?</string>
+    <string name="scan_barcode_guide">Получение QR-кода альбома</string>
+    <string name="confirm">ОК</string>
+    <string name="click_top_right">Нажмите на иконку вверху справа</string>
+
+    <string name="there_is_no_image">Нет изображений</string>
+
+    <string name="preparing_data_to_delete">Подготовка к удалению\u2026</string>
+    <!-- picker -->
+    <string name="picker_tab_camera">Камера</string>
+    <string name="picker_no_items_selected">Файлы не выбраны</string>
+    <string name="picker_select_album_title_empty">Выбрать альбом</string>
+    <string name="picker_no_album_selected">Альбомы не выбраны</string>
+
+    <!-- smb -->
+    <string name="download">Загрузка</string>
+    <string name="confirm_download">Загрузить файл \"%s\"? \nПодсказка больше не будет отображаться.</string>
+    <string name="download_fail">Ошибка загрузки</string>
+    <string name="download_fail_confirm_continue">Ошибка загрузки \"%s\". Продолжить?</string>
+    <string name="make_download_dir_fail">Ошибка создания папки для хранения файлов</string>
+    <string name="delete_smb_file_fail">Ошибка удаления файла smb</string>
+    <string name="new_device_tips">Доступно новое устройство. Нажмите для просмотра.</string>
+
+    <string name="time_line_view">TimeLine_View</string>
+</resources>
