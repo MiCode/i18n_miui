@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="complete">Готово</string>
+    <string name="confirm">ОК</string>
+    <string name="cancel">Отмена</string>
+    <string name="save">Добавить</string>
+    <string name="select_all">Все</string>
+    <string name="deselect_all">Отмена</string>
+
+    <string name="network_error">Сеть недоступна</string>
+
+    <plurals name="Ntracks_search_result_format">
+        <item quantity="one">Найдено треков: <xliff:g id="count">%d</xliff:g></item>
+        <item quantity="other">Найдено треков: <xliff:g id="count">%d</xliff:g></item>
+    </plurals>
+    <plurals name="Ntracks_total">
+        <item quantity="one">Треков: <xliff:g id="count">%d</xliff:g></item>
+        <item quantity="other">Треков: <xliff:g id="count">%d</xliff:g></item>
+    </plurals>
+    <plurals name="Nhot_tracks_total">
+        <item quantity="one">Популярных треков: <xliff:g id="count">%d</xliff:g></item>
+        <item quantity="other">Популярных треков: <xliff:g id="count">%d</xliff:g></item>
+    </plurals>
+    <plurals name="Ntracks_string">
+        <item quantity="one">Треков: <xliff:g id="count">%d</xliff:g></item>
+        <item quantity="other">Треков: <xliff:g id="count">%d</xliff:g></item>
+    </plurals>
+    <!-- used in various places to indicate there is some number other than one songs for a given artist or album. -->
+    <plurals name="Ntracks_format">
+        <item quantity="one">Треков: <xliff:g id="count">%d</xliff:g></item>
+        <item quantity="other">Треков: <xliff:g id="count">%d</xliff:g></item>
+    </plurals>
+
+    <!-- Used in artists list view, indicates how many albums exist for a given artist. -->
+    <plurals name="Nalbums_format">
+        <!-- number of albums is one -->
+        <item quantity="one">Альбомов: <xliff:g id="count">%d</xliff:g></item>
+        <!-- number of albums is not equal to one -->
+        <item quantity="other">Альбомов: <xliff:g id="count">%d</xliff:g></item>
+    </plurals>
+    <plurals name="Ntracks">
+        <item quantity="one"> трек</item>
+        <item quantity="other"> трек</item>
+    </plurals>
+    <plurals name="Nalbums">
+        <item quantity="one"> альбом</item>
+        <item quantity="other"> альбомы</item>
+    </plurals>
+    <plurals name="Nartists">
+        <item quantity="one"> исполнитель</item>
+        <item quantity="other"> исполнители</item>
+    </plurals>
+    <plurals name="Nplaylists">
+        <item quantity="one"> плейлист</item>
+        <item quantity="other"> плейлисты</item>
+    </plurals>
+    <plurals name="Nfolders">
+        <item quantity="one">" папка"</item>
+        <item quantity="other">" папки"</item>
+    </plurals>
+    <plurals name="Nitems_batch_selection">
+        <item quantity="one">"Выбрано: %d "</item>
+        <item quantity="other">"Выбрано: %d"</item>
+    </plurals>
+    <plurals name="Ntrack_in_sdcard_format">
+        <item quantity="one">"Треков: %d"</item>
+        <item quantity="other">"Треков: %d"</item>
+    </plurals>
+
+    <!-- Toasts after adding song(s) to playlists -->
+    <plurals name="NNNtrackstoplaylist">
+        <!-- message shown when one song was added -->
+        <item quantity="one">Трек добавлен в плейлист</item>
+        <!-- message shown when zero or more than one song was added -->
+        <item quantity="other">Добавлено треков в плейлист: <xliff:g id="number" example="27">%d</xliff:g></item>
+    </plurals>
+
+    <plurals name="Ntracks_remove_from_playlist">
+        <item quantity="one">"Трек удален из плейлиста"</item>
+        <item quantity="other">"Удалено треков из плейлиста: <xliff:g id="NUMBER">%d</xliff:g>"</item>
+    </plurals>
+
+    <!-- Toasts after adding song(s) to playlists -->
+    <plurals name="NNNtrackstofavoriteplaylist">
+
+        <!-- message shown when one song was added -->
+        <item quantity="one">Трек добавлен в избранное</item>
+        <!-- message shown when zero or more than one song was added -->
+        <item quantity="other">Добавлено треков в избранное: <xliff:g id="number" example="27">%d</xliff:g></item>
+    </plurals>
+
+    <plurals name="Ntracks_remove_from_favorite_playlist">
+        <item quantity="one">Трек удален из избранного</item>
+        <item quantity="other">Удалено треков из избранного: <xliff:g id="number" example="27">%d</xliff:g></item>
+    </plurals>
+
+    <plurals name="Nsearch_results">
+        <item quantity="one">"Результатов: <xliff:g id="NUMBER">%d</xliff:g>"</item>
+        <item quantity="other">"Результатов: <xliff:g id="NUMBER">%d</xliff:g>"</item>
+    </plurals>
+
+    <plurals name="Nonlinecategory">
+        <item quantity="one">" категория"</item>
+        <item quantity="other">" категорий"</item>
+    </plurals>
+
+    <plurals name="Nexpiration_reminder">
+        <item quantity="one">"Срок действия заканчивается через <xliff:g id="NUMBER">%d</xliff:g> дн."</item>
+        <item quantity="other">"Срок действия заканчивается через <xliff:g id="NUMBER">%d</xliff:g> дн."</item>
+    </plurals>
+
+    <!-- Artist title format -->
+    <string name="artist_details_format"><xliff:g id="ALBUM">%1$s</xliff:g>, <xliff:g id="ARTIST">%2$s</xliff:g></string>
+
+    <!-- Album title format -->
+    <plurals name="album_details_format">
+        <item quantity="one"><xliff:g id="ARTIST">%1$s</xliff:g>, <xliff:g id="COUNT">%2$d</xliff:g> трек</item>
+        <item quantity="other"><xliff:g id="ARTIST">%1$s</xliff:g>, <xliff:g id="COUNT">%2$d</xliff:g> треков</item>
+    </plurals>
+
+    <!-- Toast confirming that song(s) was/were deleted. -->
+    <plurals name="NNNtracksdeleted">
+        <!-- delete confirmation message for 1 song -->
+        <item quantity="one">Трек удален</item>
+        <!-- delete confirmation message for 0 or more than 1 songs -->
+        <item quantity="other">Треков удалено: <xliff:g id="songs_to_delete">%d</xliff:g></item>
+    </plurals>
+
+    <plurals name="NTrackstoDownload">
+        <item quantity="one">"Трек загружен"</item>
+        <item quantity="other">"Треков загружено: <xliff:g id="SONGS_TO_DOWNLOAD">%d</xliff:g>"</item>
+    </plurals>
+
+    <plurals name="Nexpired_remind">
+        <item quantity="one">"Осталось дней: <xliff:g id="NUMBER">%d</xliff:g>"</item>
+        <item quantity="other">"Осталось дней: <xliff:g id="NUMBER">%d</xliff:g>"</item>
+    </plurals>
+
+    <plurals name="Nvip_expired_remind">
+        <item quantity="other">"Заканичвается срок действия доступа к музыке высокого качества (осталось дней: <xliff:g id="NUMBER">%d</xliff:g>)"</item>
+        <item quantity="other">"Заканичвается срок действия доступа к музыке высокого качества (осталось дней: <xliff:g id="NUMBER">%d</xliff:g>)"</item>
+    </plurals>
+
+    <!-- sleep mode -->
+    <string name="enter_sleep_mode">Таймер сна</string>
+    <string name="cancel_sleep_mode">Отключить таймер сна</string>
+    <string name="select_quit_time">Время до отключения (в минутах)</string>
+    <string name="quit_warining">Автоотключение через %d мин.</string>
+    <string name="cancle_warining">Таймер сна отключен</string>
+
+    <!-- refresh media db -->
+    <string name="refresh_media_db">Обновить</string>
+    <string name="refresh_in_processing">Обновление\u2026</string>
+    <string name="refresh_finish">Обновление завершено</string>
+    <string name="refresh_start">Обновление\u2026</string>
+
+    <!-- quit process -->
+    <string name="quit_player">Выход</string>
+
+    <!-- Ringtone settings -->
+    <string name="not_selected">Выберите трек</string>
+
+    <string name="file_not_found">Файл не найден</string>
+    <!-- settings -->
+    <string name="music_settings">Настройки</string>
+    <string name="account_setting">Аккаунт</string>
+    <string name="account_and_synchronization">Аккаунт и синхронизация</string>
+    <string name="xiaomi_account_setting">Аккаунт Xiaomi</string>
+    <string name="bind_baidu_account_setting">Аккаунт Baidu</string>
+    <string name="bind_baidu_account_summary">Загрузите плейлист из своего аккаунта музыки Baidu</string>
+    <string name="synchronize_playlist_setting">Синхронизировать плейлист</string>
+    <string name="synchronize_playlist_summary">Синхронизировать плейлист с облаком MiCloud</string>
+    <string name="not_login">Вход</string>
+    <string name="mobile_connect_settings">Мобильная сеть</string>
+    <string name="download_album_settings">Загрузка обложек</string>
+    <string name="download_album_summary">Автоматическая загрузка обложек через мобильный интернет</string>
+    <string name="download_lyric_settings">Загрузка текстов</string>
+    <string name="download_lyric_summary">Автоматическая загрузка текстов песен через мобильный интернет</string>
+    <string name="listen_to_music_online_settings">Онлайн музыка</string>
+    <string name="listen_to_online_summary">Возможность прослушивания онлайн музыки через мобильный интернет</string>
+    <string name="correct_id3_settings">Загрузка ID3 тегов</string>
+    <string name="correct_id3_summary">Автоматическая загрузка информации о треке через мобильный интернет</string>
+
+    <string name="player_display_settings">Проигрыватель</string>
+    <string name="lyric_display_settings">Показывать тексты</string>
+    <string name="lyric_display_summary">Показывать тексты песен на экране проигрывателя</string>
+    <string name="album_display_settings">Показывать обложки</string>
+    <string name="album_display_summary">Показывать обложки альбомов на экране проигрывателя</string>
+
+    <string name="lyric_and_album">Текст и обложка</string>
+    <string name="android_album_settings">Встроенная обложка</string>
+    <string name="android_album_summary">Показывать встроенную обложку альбома</string>
+    <string name="auto_correct_id3_settings">Исправление ID3 тегов</string>
+    <string name="auto_correct_id3_summary">Автоматический поиск корректных ID3 тегов через сервис Baidu во время воспроизведения</string>
+
+    <string name="music_filter">Фильт музыкальных файлов</string>
+    <string name="filter_by_size">Фильтр по размеру</string>
+    <string name="filter_by_size_summary">Фильтрация файлов слишком маленького размера</string>
+    <string name="filter_by_size_prefix">"Минимальный размер: "</string>
+    <string name="filter_by_duration">Фильтр по длительности</string>
+    <string name="filter_by_duration_summary">Фильтрация коротких аудио файлов</string>
+    <string name="filter_by_duration_prefix">"Минимальная длительность: "</string>
+    <string name="filter_by_duration_min">0 сек.</string>
+    <string name="filter_by_duration_max">5 мин.</string>
+    <string name="filter_by_duration_format"><xliff:g id="format">%2$d мин. %5$2d сек.</xliff:g></string>
+    <string name="filter_by_folder">Фильтр по папкам</string>
+    <string name="filter_by_folder_summary_on">Выключен \nНажмите для изменения фильтра</string>
+    <string name="filter_by_folder_summary_off">Включен \nНажмите для изменения фильтра</string>
+    <string name="select_folder">Выберите папку</string>
+
+    <string name="shake_and_skip">Встряхивание</string>
+    <string name="shake_settings">Встряхивание</string>
+    <string name="shake_summary">Встряхните устройство во время воспроизведения для перехода к следующему треку</string>
+    <string name="shake_degree_desc">Чувствительность:</string>
+    <string name="shake_degree_low">Низкая</string>
+    <string name="shake_degree_high">Высокая</string>
+    <string name="shake_while_screen_on_title">Только при активном экране</string>
+    <string name="shake_while_screen_on_title_summary">Переключение треков встряхиванием будет возможно только при включенном экране</string>
+
+    <string name="other_settings">Другие</string>
+    <string name="play_and_download">Прослушать и скачать</string>
+    <string name="play_and_download_summary">Автоматически загружать треки, прослушанные онлайн.</string>
+    <string name="screen_bright_wake">Не выключать экран</string>
+    <string name="screen_bright_wake_summary">Не выключать подсветку экрана во время воспроизведения музыки</string>
+    <string name="keep_quit_position_settings">Запоминать позицию</string>
+    <string name="keep_quit_position_summary">Автоматически переходить к недавно просмотренному экрану при запуске приложения</string>
+    <string name="fade_effect_settings">Эффект затухания</string>
+    <string name="fade_effect_summary">Плавное изменение громкости при переключении треков</string>
+
+    <string name="filter_notification">Выбранный трек был удален через фильтр</string>
+
+    <!--
+         Menu item that deletes the currently selected item, which might be a single song, or a collection of songs.
+         The user will be prompted to confirm before deletion actually takes place
+    -->
+    <string name="delete_item">Удалить</string>
+    <string name="remove_item">Удалить</string>
+    <!-- Delete confirmation dialog when deleting a single song -->
+    <string name="delete_song_desc">Удалить выбранные треки? \n\n<xliff:g id="song">%s</xliff:g></string>
+
+    <!-- shown in dialog while the media scanner is starting up -->
+    <string name="scanning">Сканирование SD-карты\u2026</string>
+    <!-- shown in dialog while the media scanner is starting up -->
+    <string name="scanning_nosdcard">Сканирование USB-накопителя\u2026</string>
+
+    <!-- Library screen, menu item -->
+    <string name="search_title">Поиск</string>
+    <!-- Title of screen when there are no songs, or if the SD card is busy -->
+    <!-- Playlist context menu item to delete the selected playlist. -->
+    <string name="delete_playlist_menu">Удалить</string>
+    <!-- Playlist context menu item to edit the selected playlist -->
+    <string name="rename_playlist_menu">Переименовать</string>
+    <string name="rename_album_menu">Переименовать альбом</string>
+    <string name="rename_artist_menu">Переименовать исполнителя</string>
+
+    <!-- Transient popup message shown after deleting a playlist -->
+    <string name="playlist_deleted_message">Плейлист удален</string>
+    <!-- Transient popup message shown after renaming a playlist -->
+    <string name="playlist_renamed_message">Плейлист переименован</string>
+    <!-- The name of the pseudo-playlist that holds all the recently added files, shown in title bar of songs list-->
+    <string name="recentlyadded_title">Новые</string>
+    <!-- The name of pseudo-playlist that holds all the recently played files -->
+    <string name="recentlyplayed_title">Недавние</string>
+    <!-- The name of pseudo-playlist that holds all the frequently played files -->
+    <string name="frequentlyplayed_title">Популярные</string>
+    <!-- label underneath icon used to indicate that no sd card is present -->
+    <string name="sdcard_missing_message">SD-карта отсутствует</string>
+    <!-- label underneath icon used to indicate that no sd card is present -->
+    <string name="sdcard_missing_message_nosdcard">USB-накопитель отсутствует</string>
+    <!-- label underneath icon used to indicate that the sd card is present, but currently unavailable -->
+    <!-- label underneath icon used to indicate that the sd card is present, but currently unavailable -->
+    <!-- label underneath icon used to indicate sd card is mounted to your computer via USB -->
+    <string name="sdcard_busy_message">SD-карта используется</string>
+    <!-- label underneath icon used to indicate sd card is mounted to your computer via USB -->
+    <string name="sdcard_busy_message_nosdcard">USB-накопитель используется</string>
+    <!-- label underneath icon used to indicate there was an error accessing the sd card -->
+    <string name="sdcard_error_message">Ошибка доступа к SD-карте</string>
+    <!-- label underneath icon used to indicate there was an error accessing the sd card -->
+    <string name="sdcard_error_message_nosdcard">Ошибка доступа к USB-накопителю</string>
+    <string name="no_music_to_play">Музыка отсутствует</string>
+    <!-- Default name of artist that doesn't have a name in the metadata -->
+    <string name="unknown_artist_name">Неизвестный исполнитель</string>
+    <!-- Default name of album that doesn't have a name in the metadata -->
+    <string name="unknown_album_name">Неизвестный альбом</string>
+    <!-- Individual song context menu item -->
+    <string name="ringtone_menu">Установить на звонок</string>
+    <!-- Toast after setting a song as phone ringtone -->
+    <string name="ringtone_set">Трек \"<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\" установлен на звонок</string>
+    <string name="ringtone_not_support">"Данный формат не поддерживается"</string>
+    <!-- Context menu item -->
+    <string name="play_selection">Играть</string>
+    <!-- Context menu item -->
+    <string name="add_to">Добавить в</string>
+    <string name="add_to_playlist">В плейлист</string>
+    <string name="add_to_favorite">В избранное</string>
+    <string name="remove_from_favorite">Убрать из избранного</string>
+    <!-- Context menu item -->
+    <string name="queue">Текущий плейлист</string>
+    <!-- Context menu item -->
+    <string name="new_playlist">Новый плейлист</string>
+    <!-- Template for newly created playlist name -->
+    <string name="new_playlist_name_template">Новый плейлист <xliff:g id="number">%d</xliff:g></string>
+
+    <!-- Toast after selecting an empty playlist -->
+    <string name="emptyplaylist">Плейлист пуст</string>
+
+    <!-- Shown in the music picker while loading the music database. -->
+    <string name="loading">Загрузка\u2026</string>
+    <!-- Menu in music picker to sort the list by track/song name. -->
+    <string name="sort_by_track">Треки</string>
+    <!-- Menu in music picker to sort the list by album name. -->
+    <string name="sort_by_album">Альбомы</string>
+    <!-- Menu in music picker to sort the list by artist name. -->
+    <string name="sort_by_artist">Исполнители</string>
+    <!-- No track -->
+    <string name="empty_track_list">Нет треков</string>
+
+    <!-- The string used to describe Music as a searchable item within system search settings. -->
+    <string name="search_settings_description">Исполнители, альбомы и треки.</string>
+
+    <!-- Shown in the search box as a hint -->
+    <string name="search_hint">Поиск музыки</string>
+
+    <!-- Text shown on widget when first loaded -->
+
+    <string name="all_tracks">Все треки</string>
+
+    <!-- Context menu title -->
+    <string name="send_to">Отправить</string>
+    <string name="send_to_application">Отправить в другое приложение</string>
+    <string name="download">Загрузить</string>
+    <string name="download_processing">Загрузка\u2026</string>
+    <string name="download_completed">Загрузка завершена</string>
+    <string name="download_batch_start">Загрузить все</string>
+    <string name="delete_file_from_sdcard">Удалить файлы с SD-карты</string>
+
+    <!-- 在线歌曲搜索 -->
+    <string name="recommend">Новые</string>
+    <string name="billboard">Категории</string>
+    <string name="channel">Радио</string>
+    <string name="new_albums">Новые альбомы</string>
+    <string name="hot_artists">Популярные исполнители</string>
+    <string name="search_suggestion">Поиск:</string>
+
+    <string name="online_search_hint">Поиск музыки онлайн</string>
+    <string name="load_channel_in_process">Загрузка\u2026</string>
+    <string name="load_channel_failed">Ошибка загрузки</string>
+    <string name="load_bill_in_process">Загрузка\u2026</string>
+    <string name="load_bill_failed">Ошибка загрузки</string>
+    <string name="load_recommend_in_process">Загрузка\u2026</string>
+    <string name="load_recommend_failed">Ошибка загрузки</string>
+    <string name="load_audio_in_process">Загрузка\u2026</string>
+    <string name="load_audio_failed">Ошибка загрузки</string>
+    <string name="retry">Повтор</string>
+
+    <string name="lrc_search_failed">Текст песни не найден</string>
+    <string name="lrc_searching">Поиск текста песни\u2026</string>
+    <string name="lyric_open_other_connect">Загрузка текстов через мобильный интернет отключена</string>
+    <string name="music_open_other_connect">Загрузка музыки через мобильный интернет отключена</string>
+
+    <!-- 在线歌曲免责声明 -->
+    <string name="impunity_declaration_title">Предупреждение</string>
+    <string name="impunity_declaration">Онлайн музыка предоставляется сервисом Baidu Online Music. \nПринять <a href="http://music.baidu.com/doc/agreement">условия использования</a>?</string>
+
+    <!-- 文件过滤 -->
+    <string name="music_filter_helper">Эти музыкальные файлы скрыты фильтром, который можно изменить в настройках музыкального плеера.</string>
+
+    <!-- 修改歌曲信息 -->
+    <string name="modify_meta">Изменить</string>
+    <string name="id3_edit">Изменение ID3 тегов вручную</string>
+    <string name="lyric_download">Загрузка текста песни</string>
+    <string name="use_local_lyric">Присвоение текста песни</string>
+    <string name="album_download">Загрузка обложки альбома</string>
+    <string name="use_local_album">Присвоение обложки альбома</string>
+    <string name="lyric_picker_not_found">Файловый менеджер не найден</string>
+    <string name="lrc_select">Выберите текст</string>
+    <string name="album_picker_not_found">Галерея не найдена</string>
+    <string name="id3_edit_failed">Не удалось отредактировать ID3 теги. \nТрек защищен.</string>
+    <string name="album_search_failed">Обложки альбома не найдены</string>
+    <string name="start_to_download_album">Загрузка обложки\u2026</string>
+    <string name="start_to_download_avatar">Загрузка аватара исполнителя\u2026</string>
+    <string name="download_all_album">Загрузить обложки</string>
+    <string name="download_all_avatar">Загрузить аватары исполнителя</string>
+    <string name="download_all_track">Загрузить все треки</string>
+
+    <string name="lrc_progress_modify">Настройка скорости прокрутки текста</string>
+    <string name="lrc_progress_modify_helper">Регулировка скорости прокрутки текста</string>
+
+     <!-- Equalizer -->
+    <string name="equalizer">Эквалайзер</string>
+    <string name="no_effect">Отключен</string>
+    <string name="equalizer_delete">Сбросить</string>
+    <string name="equalizer_delete_success">Пресет удален</string>
+    <string name="equalizer_save_success">Пресет сохранен</string>
+    <string name="create_equalzier_create_text_prompt">Название пресета</string>
+    <string name="new_equalizer_name_template">"Пресет <xliff:g id="NUMBER">%d</xliff:g>"</string>
+    <string name="custom">Настроить</string>
+
+    <string-array name="equalizer_presents">
+        <item>Стандарт</item>
+        <item>Классика</item>
+        <item>Танцевальная</item>
+        <item>Фолк</item>
+        <item>Металл</item>
+        <item>Хип-хоп</item>
+        <item>Джаз</item>
+        <item>Поп</item>
+        <item>Рок</item>
+    </string-array>
+
+    <!-- Edit media file id3 -->
+    <string name="id3_modify_confirm_text">Сохранить</string>
+    <string name="id3_modify_confirm_check">Сохранить изменения</string>
+    <string name="modify_id3_for_list">Будут отредактированы ID3 теги треков из текущего списка</string>
+    <string name="modify_id3_for_selected">Будут отредактированы ID3 теги выбранных треков</string>
+    <string name="track_edit">Трек</string>
+    <string name="artist_edit">Исп.</string>
+    <string name="album_edit">Альб.</string>
+    <string name="empty_edit_hint">Информация о треке недоступна</string>
+    <string name="modify_tracks_id3_background">Изменить ID3 теги выбранных треков в фоновом режиме</string>
+
+    <!-- Play state and controller -->
+    <string name="shuffle_all">Перемешать все</string>
+    <string name="play_all">Воспроизвести все</string>
+    <string name="click_to_shuffle">Перемешать</string>
+    <string name="streamloadingtext">Подключение к <xliff:g id="host">%s</xliff:g></string>
+    <string name="playback_failed">Данный тип аудио не поддерживается</string>
+    <string name="playback_failed_by_bad_file">Невозможно воспроизвести \"%s\"</string>
+    <string name="playback_failed_by_network">Невозможно воспроизвести \"%s\".\nПроверьте сетевое подключение.</string>
+    <string name="playback_failed_no_title_by_bad_file">Невозможно воспроизвести трек</string>
+    <string name="playback_failed_no_title_by_network">Невозможно воспроизвести трек.\nПроверьте сетевое подключение.</string>
+    <string name="buffering">Буферизация\u2026</string>
+
+    <!-- Recently Added -->
+    <string-array name="weeklist">
+        <item>1 неделя</item>
+        <item>2 недели</item>
+        <item>3 недели</item>
+        <item>4 недели</item>
+        <item>5 недель</item>
+        <item>6 недель</item>
+        <item>7 недель</item>
+        <item>8 недель</item>
+        <item>9 недель</item>
+        <item>10 недель</item>
+        <item>11 недель</item>
+        <item>12 недель</item>
+    </string-array>
+
+    <!-- Main browser item names -->
+    <string name="artists_title">Исполнители</string>
+    <string name="albums_title">Альбомы</string>
+    <string name="folders_title">Папки</string>
+    <string name="tracks_title">Треки</string>
+    <string name="playlists_title">Плейлисты</string>
+    <string name="online_title">Онлайн</string>
+
+    <!-- Playlist browser -->
+    <string name="playlist_recently_added">Новые</string>
+    <string name="playlist_recently_played">Недавние</string>
+    <string name="playlist_frequently_played">Популярные</string>
+    <string name="playlist_favorite">Избранные</string>
+    <string name="playlist_my_ktv">Плейлист KTV</string>
+
+    <!-- Playlist creator -->
+    <string name="create_playlist_create_text_prompt">Название плейлиста</string>
+    <string name="create_confirm">ОК</string>
+    <string name="overwrite_confirm">Перезаписать</string>
+    <string name="add_tracks">Добавить треки</string>
+
+    <!-- Track Detail Name -->
+
+    <!-- AudioFP -->
+    <string name="correct_id3_by_internet">Загрузить информацию о треке</string>
+    <string name="correct_id3_start">Загрузка ID3 тегов\u2026</string>
+    <string name="correct_id3_in_processing">Изменение ID3 тегов\u2026</string>
+    <string name="correct_id3_success">Информация о треке обновлена</string>
+    <string name="correct_id3_failed">Ошибка загрузки информации о треке</string>
+    <string name="correct_id3_open_other_connect">Включите возможность загрузки ID3 тегов с использованием мобильного интернета в настройках плеера</string>
+    <string name="correct_id3_not_support">Изменение ID3 тегов не поддерживается для этого типа файлов</string>
+    <string name="batch_correct_id3_completed">Обновление информации о треках завершено</string>
+
+    <string name="add">Добавить</string>
+
+    <!-- Online Artist -->
+    <string name="artist_albums">Все альбомы</string>
+    <string name="artist_hot_audios">Популярные</string>
+
+    <string name="more">Еще</string>
+    <string name="album_search_local_descript">"Телефон | %1$d x %2$d"</string>
+    <string name="album_search_online_descript">"Онлайн | %1$d x %2$d"</string>
+    <string name="album_select">Выберите обложку альбома</string>
+
+    <string name="no_song_downloaded">Не удается подключиться к серверу</string>
+
+    <string name="powered_by">Поддержка:</string>
+
+    <string name="project_device">Mi Box</string>
+    <string name="project_device_mobile">Мобильный телефон</string>
+
+    <string name="headphone_settings">Тип наушников</string>
+    <string name="mi_effect_title">Усилитель звука \"MiSound\"</string>
+    <string name="mi_effect_summary">Всегда использовать усилитель \"MiSound\" при воспроизведении звука через наушники.</string>
+    <string name="dirac_mode_in_ear">Вкладыши Xiaomi</string>
+    <string name="dirac_mode_earbuds">Наушники Xiaomi</string>
+    <string name="dirac_mode_piston_100">Пистоны Xiaomi</string>
+    <string name="dirac_mode_general">Обычные наушники</string>
+    <string name="eq_flat">Стандарт</string>
+    <string name="eq_rock">Рок</string>
+    <string name="eq_jazz">Джаз</string>
+    <string name="eq_pop">Поп</string>
+    <string name="eq_classical">Классика</string>
+    <string name="eq_hiphop">Хип-Хоп</string>
+    <string name="eq_blues">Блюз</string>
+    <string name="eq_electronic">Электро</string>
+    <string name="eq_country">Кантри</string>
+    <string name="eq_dance">Танцевальная</string>
+    <string name="eq_metal">Металл</string>
+    <string name="eq_delete">Удалить</string>
+    <string name="eq_delete_success">Готово</string>
+    <string name="eq_auto">Пользовательский</string>
+    <string name="eq_preset_create">Создать</string>
+    <string name="eq_preset_rename">Переименовать</string>
+    <string name="eq_preset_format">Пользовательский пресет %d</string>
+    <string name="eq_preset_hint">Название пресета</string>
+    <string name="eq_preset_select">Выбор пресета</string>
+
+    <string name="music_not_loaded">Музыка отсутствует</string>
+
+    <string name="scan_barcode_to_connect">Сканируйте QR-код консоли KTV</string>
+    <string name="where_is_barcode">Где получить QR-код?</string>
+    <string name="i_know">ОК</string>
+    <string name="ktv_alert_title">Добавление треков доступно только для поддерживаемых устройств</string>
+    <string name="ktv_alert_message">Нажмите \"Использовать телефон для добавления треков\" на главной странице консоли KTV, чтобы просмотреть соответствующий QR-код.</string>
+    <string name="ktv_and_room">"%1$s %2$s"</string>
+    <string name="ktv_connected_alert_titel">"Подключиться к %1$s"</string>
+    <string name="ktv_connected_alert_message">Выбранный трек будет добавлен в плейлист KTV</string>
+    <string name="ktv_disconnect_alert_titel">"Отключиться от %1$s?"</string>
+    <string name="ktv_song_vod_success">Добавлено \"%1$s\"</string>
+    <string name="ktv_song_vod_fail">Ошибка добавления \"%1$s\"</string>
+    <string name="ktv_unbind_message">Ошибка подключения к консоли KTV. Убедитесь, что вы сканируете корректный QR-код.</string>
+    <string name="request_fail">Ошибка запроса</string>
+    <string name="disconnect">Отключиться</string>
+    <string name="server_error">Ошибка сервера</string>
+    <string name="requesting">Выполняется запрос\u2026</string>
+
+    <string name="track_bit_rate_standard">Хорошее</string>
+    <string name="track_bit_rate_hd">Высокое</string>
+    <string name="track_bit_rate_uhd">Наивысшее</string>
+
+    <string name="choose_stream_quality">Выберите качество потока</string>
+    <string name="choose_download_quality">Выберите качество загрузки</string>
+    <string name="ultra_high_quality">Наивысшее качество</string>
+    <string name="high_quality">Высокое качество</string>
+    <string name="normal_quality">Хорошее качество</string>
+
+    <string name="login_first">Необходимо авторизироваться в аккаунте Xiaomi</string>
+    <string name="login">Вход</string>
+    <string name="payment_success">Оплата завершена</string>
+    <string name="payment_fail">Ошибка оплаты</string>
+
+    <string name="pay_service_guide_new">Доступна музыка высокого качества</string>
+    <string name="pay_service_guide_listen">Качество потока</string>
+    <string name="pay_service_guide_dowload">Качество загрузки</string>
+
+    <string name="vip_recommend_title">Сервис музыки Baidu</string>
+    <string name="vip_recommend_main_title">Всего 5 юаней в месяц</string>
+    <string name="vip_recommend_sub_title">Неограниченное количество качественной музыки (320 кбит/c)</string>
+    <string name="vip_recommend_summary">Скачивайте или слушайте онлайн любимых исполнителей в высоком качестве.</string>
+    <string name="vip_recommend_buy">Оплатить (5 юаней в месяц)</string>
+    <string name="vip_recommend_rebuy">Приобрести (5 MiCredits за 30 дней)</string>
+    <string name="vip_recommend_exchange">Использовать подарочный код</string>
+
+    <string name="music_quality">Сервисы</string>
+    <string name="higher_quality_music">Сервис музыки Baidu</string>
+    <string name="menu_higher_quality_music">Онлайн музыка наивысшего качества</string>
+    <string name="higher_quality_music_summary">Загрузка музыки высокого качества</string>
+    <string name="expired">Срок действия истек</string>
+    <string name="enabled">Включено</string>
+    <string name="valid_period">"Срок действия: "</string>
+    <string name="period_format">%1$s-%2$s</string>
+    <string name="vip_bought">Вы уже приобрели доступ к музыке высокого качества</string>
+    <string name="vip_expired">Срок действия доступа к музыке высокого качества истек</string>
+    <string name="vip_rebuy">Приобрести</string>
+
+    <string name="data_usage_warning">Мобильный трафик</string>
+    <string name="data_usage_warning_summary">При прослушивании музыки высокого качества через мобильный интернет возможно чрезмерное потребление трафика.</string>
+
+    <string name="source_from">Источник: %1$s</string>
+
+    <string name="click_to_play_all">Воспроизвести</string>
+
+    <string name="collect_topic_success">Альбом добавлен в избранное</string>
+    <string name="collect_bill_success">Добавлено в избранное</string>
+    <string name="collect_fm_success">Добавлено в избранное</string>
+    <string name="uncollect_success">Удалено из избранного</string>
+</resources>
