@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Темы</string>
+    <string name="theme_import_activity_label">Обновления тем</string>
+
+    <string name="theme_changing_dialog_title">Применение темы\u2026</string>
+    <string name="theme_changed_message">Применено</string>
+    <string name="theme_changed_failed_message">Невозможно применить</string>
+
+    <string name="backup_preference_title">Бэкап темы</string>
+    <string name="backup_theme_dialog_ok">Бэкап</string>
+    <string name="backup_theme_dialog_message">Создать бэкап текущей темы?</string>
+    <string name="backup_theme_progress_message">Резервное копирование темы\u2026</string>
+    <string name="backup_theme_success_message">Резервное копирование темы завершено</string>
+    <string name="backup_theme_name">Мои бэкапы</string>
+
+    <string name="theme_description_title_default">По умолчанию</string>
+    <string name="theme_description_title_customized">Обычный</string>
+
+    <string name="component_category_finest_title">Основное</string>
+    <string name="component_category_more_title">Остальное</string>
+    <string name="theme_component_title_framework">Стили</string>
+    <string name="theme_component_title_mms">Сообщения</string>
+    <string name="theme_component_title_wallpaper">Обои</string>
+    <string name="theme_component_title_lockwallpaper">Экран блокировки</string>
+    <string name="theme_component_title_miwallpaper">Загруженные</string>
+    <string name="theme_component_title_icon">Иконки</string>
+    <string name="theme_component_title_boot_animation">Анимация загрузки</string>
+    <string name="theme_component_title_boot_audio">Звук загрузки</string>
+    <string name="theme_component_title_font">Шрифт</string>
+    <string name="theme_component_title_ringtone">Мелодия вызова</string>
+    <string name="theme_component_title_notification">Уведомления</string>
+    <string name="theme_component_title_alarm">Будильник</string>
+    <string name="theme_component_title_contact">Кнопки</string>
+    <string name="theme_component_title_lockstyle">Стиль блокировки</string>
+    <string name="theme_component_title_statusbar">Статусбар</string>
+    <string name="theme_component_title_launcher">Домашний экран</string>
+    <string name="theme_component_title_audio_effect">Звуковые эффекты</string>
+    <string name="theme_component_title_alarmstyle">Стиль будильника</string>
+    <string name="theme_component_title_clock">Часы</string>
+    <string name="theme_component_title_photo_frame">Фоторамка</string>
+    <string name="theme_component_title_others">Прочее</string>
+    <string name="theme_component_title_all">Темы</string>
+
+    <string name="apply_theme_no_select_message">Выберите компоненты</string>
+    <string name="apply_lockscreen_paper_tips">Экран не поддерживает разные обои.</string>
+
+    <string name="theme_import_from_sdcard">Импорт с SD карты</string>
+    <string name="theme_select_others">Другие</string>
+    <string name="third_party_pickers_activity_title">Установить %1$s</string>
+    <string name="lockstyle_personal_settings">Персонализация</string>
+
+    <string name="wallpaper_settings">Настройки обоев</string>
+    <string name="desktop_wallpaper">Домашний экран</string>
+    <string name="live_wallpaper">Живые обои</string>
+    <string name="mi_wallpaper">MIUI обои</string>
+    <string name="lockscreen_wallpaper">Экран блокировки</string>
+    <string name="change_wallpaper">Обои</string>
+
+    <string name="component_settings_title">Настройка темы</string>
+    <string name="component_select_title">Выбрано компонентов: %1$s</string>
+    <string name="component_include_title">Содержит компонентов: %1$s</string>
+
+    <string name="apply_font_tip">Для применения шрифта необходима перезагрузка.</string>
+    <string name="apply_font_btn_reboot">Перезагрузить</string>
+    <string name="apply_font_btn_exclude">Применить тему без шрифтов</string>
+
+    <string name="title_local">Локальные</string>
+    <string name="title_online">Онлайн</string>
+    <string name="title_component">Компоненты</string>
+
+    <string name="title_system_resource">Системные ресурсы</string>
+
+    <string name="long_ringtone_resource">Длинные\n(&gt;5сек)</string>
+    <string name="short_ringtone_resource">Короткие\n(&lt;5сек)</string>
+    <string name="all_ringtone_resource">Все</string>
+
+    <string name="resource_preview">Просмотр</string>
+    <string name="wallpaper_set_as_both">Применить оба</string>
+    <string name="wallpaper_set_as_destop">Применить как обои</string>
+    <string name="wallpaper_set_as_lockscreen">Применить как экран блокировки</string>
+    <string name="wallpaper_crop">Обрезать</string>
+    <string name="wallpaper_loading_text">Загрузка\u2026</string>
+    <string name="wallpaper_decoded_error">Ошибка загрузки</string>
+
+    <string name="close">Закрыть</string>
+    <string name="download_success">Загрузка завершена</string>
+
+    <string name="basic_info">Информация</string>
+    <string name="account_info">Мой аккаунт</string>
+    <string name="purchased_list">Купленные темы</string>
+    <string name="payment_info">Mi Credits</string>
+
+    <string name="theme_batch_has_update_text">Обновления тем: %1$d</string>
+    <string name="theme_batch_updating_text">Обновление тем: %1$d\u2026</string>
+    <string name="theme_batch_update_all">Обновить все</string>
+    <string name="theme_batch_update_dlg_title">Обновить</string>
+    <string name="theme_batch_update_dlg_content">Обновить?</string>
+    <string name="theme_batch_update_dlg_content_single">Обновить?</string>
+
+    <string name="theme_current_using_has_update">Есть обновление для текущей темы.</string>
+    <string name="theme_immediately_apply_tip">Применить обновление темы?</string>
+    <string name="theme_name">%1$s</string>
+
+    <string name="restore_default_theme_alert">Зайдите в приложение Темы для покупки или повторной загрузки.</string>
+    <string name="selected_resource_file_invalid">Выбранный файл не поддерживается</string>
+
+    <string name="apply_theme_with_ringtones">Применять мелодии тем</string>
+    <string name="settings">Настройка</string>
+</resources>
