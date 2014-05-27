@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">พยากรณ์อากาศ</string>
+
+    <string name="weather_notification">การแจ้งเตือนพยากรณ์อากาศ</string>
+    <string name="location_notification">การแจ้งเตือนพยากรณ์อากาศ</string>
+    <string name="enable_notification">การแจ้งเตือนตำแหน่ง</string>
+    <string name="enable_notification_summary">แจ้งเตือนหากสภาพอากาศมีการเปลี่ยนแปลง</string>
+    <string name="enable_notification_city">เปิดใช้งานการแจ้งเตือนสภาพอากาศสำหรับ %s</string>
+
+    <string name="sms_notification">แบ่งปัน</string>
+    <string name="send_sms_notification">การแจ้งเตือนพยากรณ์อากาศล่วงหน้า</string>
+    <string name="send_sms_notification_summary">ส่งข้อมูลสภาพอากาศวันนี้ไปยังรายชื่อด้วยข้อความ</string>
+
+
+    <string name="location_management">ตำแหน่ง</string>
+    <string name="enable_gps">GPS</string>
+    <string name="add_city">เพิ่มตำแหน่ง</string>
+    <string name="cancel">ยกเลิก</string>
+    <string name="menu_send_sms">ส่ง</string>
+
+
+    <string name="app_love_sms_title">ข้อความ</string>
+    <string name="app_love_view_title">แสดงตัวอย่าง</string>
+    <string name="app_love_font_lng">%s</string>
+
+    <string name="network_unavailable">"ไม่สามาถเชื่อมต่อเครือข่าย กรุณาตรวจสอบการเชื่อมต่อข้อมูลและลองใหม่"</string>
+    <string name="weather_data_unreachable">"ไม่สามารถรับข้อมูลสภาพอากาศ กรุณารอง 1-2 นาทีและลองใหม่อีกครั้ง"</string>
+    <string name="app_unquiet_net">การเชื่อมต่อเครือข่ายไม่ดี</string>
+
+    <string name="widget_loading">ไม่มีข้อมูลสภาพอากาศ</string>
+
+    <string name="act_find_city_hot_title">เมืองยอดนิยม</string>
+    <string name="act_find_city_title">เพิ่มตำแหน่ง</string>
+    <string name="act_find_city_null_data">ไม่พบ</string>
+    <string name="act_find_city_hint">ใส่ตำแหน่ง</string>
+
+    <string name="act_set_city_find_side_on">เปิดตำแหน่ง</string>
+    <string name="act_set_city_find_side">กำลังโหลดม\u2026</string>
+    <string name="local_city"></string>
+    <string name="act_set_city_re_find_side">กำลังหาตำแหน่ง\u2026</string>
+    <string name="act_set_city_find_side_error">ไม่สามารถหาตำแหน่ง</string>
+    <string name="act_city_find_gps_error">เลือกเมืองด้วยตัวเองจากรายการ</string>
+    <string name="act_weather_main_data_null">ไม่มีข้อมูลสภาพอากาศ สัมผัสเพื่อรีเฟรช</string>
+
+    <string name="act_weather_cycle_update">กำลังอัปเดต\u2026</string>
+    <string name="act_weather_update_time">อัปเดตล่าสุด %s</string>
+
+    <string name="act_weather_cycle_low_temp">ต่ำ</string>
+
+    <string name="act_weather_range_title">สภาพอากาศท้องถิ่น</string>
+    <string name="act_weather_range_select">เลือกเมือง</string>
+
+    <string name="menu_around">ใกล้เคียง</string>
+    <string name="menu_location">ตำแหน่ง</string>
+    <string name="menu_notification">การแจ้งเตือน</string>
+    <string name="menu_reload">รีเฟรช</string>
+    <string name="menu_reloading">กำลังอัปเดต\u2026</string>
+    <string name="menu_share">แบ่งปัน</string>
+    <string name="menu_main">ดัชนี</string>
+    <string name="menu_trend">แนวโน้ม</string>
+    <string name="menu_settings">การตั้งค่า</string>
+    <string name="menu_about">เกี่ยวกับ</string>
+
+    <string name="share_weather_title">แบ่งปันข้อมูลสภาพอากาศ</string>
+    <string name="share_button_text">แบ่งปัน</string>
+    <string name="share_choice_titile">ดำเนินการโดยใช้</string>
+
+    <string name="share_content">พยากรณ์อากาศ</string>
+    <string name="share_weather_content">%2$s ใน %1$s %3$s องศาเซลเซียส %4$s %5$s</string>
+    <string name="share_aqi_content">ดัชนีคุณภาพอากาศ %1$s คือ %2$s (%3$s) %4$s %5$s</string>
+    <string name="save_screen_shot_failed">"ไม่สามาถถ่ายรูปหน้าจอ"</string>
+
+    <string name="trend_weather_today">วันนี้</string>
+    <string name="trend_weather_tomorrow">พรุ่งนี้</string>
+
+    <string name="settings_weather_title">การตั้งค่า</string>
+    <string name="settings_weather_animation">อนิเมชันสภาพอากาศ</string>
+    <string name="settings_weather_play_ani_title">เล่นอนิเมชัน</string>
+    <string name="settings_weather_play_ani_summary">แสดงอนิเมชันสภาพอากาศในหน้าจอหลัก</string>
+    <string name="settings_weather_about">เกี่ยวกับ</string>
+    <string name="settings_weather_pre_title">พยากรณ์อากาศ</string>
+    <string name="settings_weather_preview">แสดงอนิเมชันสภาพอากาศ</string>
+
+    <string name="menu_delete">ลบ</string>
+    <string name="selected_format">%d เลือกแล้ว</string>
+    <string name="alert_title_delete">ลบตำแหน่ง</string>
+    <string name="alert_message_delete">ตำแหน่ง %d จะถูกลบ</string>
+
+    <string name="send_weather_sms_cycle">%1$s พยากรณ์อากาศ: %2$s</string>
+    <string name="send_weather_sms_main">%1$s %2$s %3$s %4$s %5$s</string>
+    <string name="send_weather_sms_error">ไม่มีข้อมูลสภาพอากาศ</string>
+
+    <string name="tip_weather">การแจ้งเตือนพยากรณ์อากาศ</string>
+    <string name="tip_weather_info_title_1">อุณหภูมิ %2$d องศาเซลเซียสใน %1$s</string>
+    <string name="tip_weather_info_content_1">จดจำไว้ให้ดี!</string>
+    <string name="tip_weather_info_title_2">%2$s ใน %1$s</string>
+
+    <string name="alert_provider_title">การแจ้งเตือนตำแหน่ง</string>
+    <string name="alert_provider_message">เพื่อเปิดใช้งานเข้าถึงตำแหน่ง  ติดต่อผู้ให้บริการมือถือ</string>
+    <string name="button_allow">อนุญาต</string>
+    <string name="button_not_allow">ปฏิเสธ</string>
+    <string name="location_allow_err">"ไม่สามารถหาตำแหน่ง"</string>
+
+    <string name="format_date_wmd">M/d EEE</string>
+    <string name="format_date_md">M/d kk:mm</string>
+    <string name="format_date_week">EEE</string>
+    <string name="format_date_trend_md">M/d</string>
+
+    <string name="act_weather_aqi_title">คุณภาพอากาศ</string>
+    <string name="act_weather_main_aqi_index">คุณภาพอากาศ: %s</string>
+
+    <string name="act_weather_aqi_share">แบ่งปัน</string>
+    <string name="aqi_quality_index_pure">ดีเยี่ยม</string>
+    <string name="aqi_quality_index_good">ดี</string>
+    <string name="aqi_quality_index_moderate">ปานกลาง</string>
+    <string name="aqi_quality_index_light_pollution">ระมัดระวัง</string>
+    <string name="aqi_quality_index_unhealthy">ไม่ดีต่อสุขภาพ</string>
+    <string name="aqi_quality_index_dangerous">อันตราย</string>
+    <string name="aqi_quality_index_hazardous">อันตรายมาก</string>
+    <string name="aqi_quality_index_break">ปกติ!</string>
+
+    <string name="aqi_details_good">อากาศเหมาะแก่การทำกิจกรรมนอกบ้าน</string>
+    <string name="aqi_details_fine">ผู้ป่วยควรลดการออกกำลังกายเป็นเวลานานหรือหนัก</string>
+    <string name="aqi_details_light_pollution">ผู้ป่วยโรคหัวใจ โรคปวด ผู้สูงอายุหรือเด็กเล็กควรลดการออกกำลังกายเป็นเวลานานหรือหนัก</string>
+    <string name="aqi_details_unhealthy">ควรลดการออกกำลังกายเป็นเวลานานหรือหนัก</string>
+    <string name="aqi_details_dangerous">หลีกเลี่ยงการออกกำลังกายเป็นเวลานานหรือหนัก</string>
+    <string name="aqi_details_hazardous">อยู่ในบ้านและลดกิจกรรมต่างๆ</string>
+
+    <string name="act_aqi_pm25_title">PM2.5</string>
+    <string name="act_aqi_pm10_title">PM10</string>
+    <string name="act_aqi_so2_title">SO2</string>
+    <string name="act_aqi_no2_title">NO2</string>
+
+    <string name="first_start_network_toast_text">เพื่อรับข้อมูลสภาพอากาศ เชื่อมต่ออินเตอร์เน็ต</string>
+    <string name="act_weather_find_city_search_online">"สัมผัสเพื่อค้นหา"</string>
+    <string name="act_weather_find_city_connect_net">ตรวจสอบการเชื่อมต่อข้อมูลและลองใหม่อีกครั้ง</string>
+    <string name="weather_unit">°</string>
+    <string name="weather_unit_middle">~</string>
+    <string name="weather_unit_with_c">℃</string>
+    <string name ="act_weather_find_city_searching">กำลังค้นหา\u2026</string>
+    <string name ="act_init_dialog_finish">ข้อมูลพยากรณ์อากาศทั่วโลกถูกเพิ่มแล้ว</string>
+    <string name ="loading_weather">กำลังโหลด\u2026</string>
+    <string name ="act_weather_cycle_link_china">พยากรณ์อากาศประเทศจีน</string>
+    <string name ="menu_add">เพิ่มตำแหน่ง</string>
+    <string name ="menu_more">รายละเอียด</string>
+    <string name = "act_aqi_src_port">%1$s%2$s\u0020\u0020%3$s</string>
+    <array name="send_item">
+        <item>ข้อความ</item>
+        <item>อีเมล</item>
+    </array>
+
+    <array name="act_weather_main_listview_json_key">
+        <item>wind1</item>
+        <item>紫外线指数</item>
+        <item>穿衣指数</item>
+        <item>舒适度指数</item>
+        <item>洗车指数</item>
+        <item>晾晒指数</item>
+        <item>晨练指数</item>
+        <item>旅游指数</item>
+    </array>
+
+    <array name="act_weather_main_listview_key">
+        <item>ความเร็วลม:</item>
+        <item>UV:　</item>
+        <item>เสื้อผ้า:</item>
+        <item>สบาย:</item>
+        <item>ล้างรถ:</item>
+        <item>ความแห้ง:</item>
+        <item>ออกกำลังกายตอนเช้า:</item>
+        <item>พักผ่อน:</item>
+    </array>
+
+    <array name="weather_image">
+        <item>แจ่มใส</item>0  晴
+        <item>เมฆมาก</item>1  多云
+        <item>หมอก</item>2  阴
+        <item>หมอกหนา</item>3  雾
+        <item>พายุฝนรุนแรง</item>4  特大暴雨
+        <item>พายุฝน</item>5  大暴雨
+        <item>ฝนตกหนัก</item>6  暴雨
+        <item>ฝนฟ้าคะนอง</item>7  雷阵雨
+        <item>ฝนตกปรอยๆ</item>8  阵雨
+        <item>ฝนตกหนัก</item>9  大雨
+        <item>ฝนตก</item>0  中雨
+        <item>ฝนตกปรอยๆ</item>1  小雨
+        <item>ฝนหิมะ</item>2  雨夹雪
+        <item>พายุหิมะ</item>3   暴雨
+        <item>หิมะตกกระจาย</item>4  阵雪
+        <item>หิมะตกหนัก</item>5  大雪
+        <item>หิมะตก</item>6  中雪
+        <item>หิมะตกเล็กน้อย</item>7  小雪
+        <item>พายุทรายหนัก</item>8  强沙尘暴
+        <item>พายุทราย</item>9  沙尘暴
+        <item>พายุทรายเล็กน้อย</item>0  沙尘
+        <item>พายุทราย</item>1  扬沙
+        <item>ลูกเห็บ</item>2  冰雹
+        <item>ฝุ่น</item>3  浮尘
+        <item>หมอกควัน</item>4  霾
+    </array>
+
+    <array name="weather_details_key">
+       <item>ไม่สามารถใช้งานได้</item>0 暂缺
+       <item>เหมาะสม</item>1 适宜
+       <item>ดี</item>2 较适宜
+       <item>ควรหลีกเลี่ยง</item>3 较不宜
+       <item>ไม่แนะนำ</item>4 不宜
+       <item>อุดมคติ</item>5 极适宜
+       <item>ปานกลาง</item>6 中等
+       <item>เบา</item>7 最弱
+       <item>แานกลาง</item>8 弱
+       <item>หนัก</item>9 强
+
+       <item>หนักมาก</item>0 很强
+       <item>เย็น</item>1 凉
+       <item>สบาย</item>2 舒适
+       <item>ร้อนมาก</item>3 炎热
+       <item>ร้อน</item>4 热
+       <item>อบอุ่น</item>5 暖
+       <item>เย็น</item>6 温凉
+       <item>เย็นมาก</item>7 气温较低
+       <item>เย็นจัด</item>8 冷
+       <item>แช่แข็ง</item>9 寒冷
+
+       <item>สูง</item>0 较舒适
+       <item>ปานกลาง</item>1 舒适
+       <item>ต่ำ</item>2 较不舒适
+       <item>ท้องฟ้าแจ่มใส</item>3 很不舒适_晴
+       <item>เมฆมาก</item>4 很不舒适_阴
+       <item>ฝนตก</item>5 不宜_雨
+       <item>พายุทราย</item>6 不宜_沙尘
+       <item>หิมะตก</item>7 不宜_雪
+       <item>ค่อนข้างเหมาะสม</item>8 基本适宜
+       <item>สภาพอากาศเหมาะสม</item>9 适宜_晴
+
+       <item>เมฆมาก</item>0 适宜_多云
+       <item>น้อยกว่า</item>1 不太适宜
+       <item>สภาพอากาศเหมาะสม</item>2 很适宜
+       <item>สภาพอากาศไม่ดี</item>3 不适宜
+       <item>สภาพอากศโดยเฉลี่ย</item>4 一般
+    </array>
+
+    <array name="weather_image_tips">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>อย่าลืมพกร่ม!</item>
+        <item>อย่าลืมพกร่ม!</item>
+        <item>อย่าลืมพกร่ม!</item>
+        <item>อย่าลืมพกร่ม!</item>
+        <item>อย่าลืมพกร่ม!</item>
+        <item>อย่าลืมพกร่ม!</item>
+        <item>อย่าลืมพกร่ม!</item>
+        <item>อย่าลืมพกร่ม!</item>
+        <item>อย่าลืมพกร่ม!</item>
+        <item>สวมเสื้อผ้าหนาๆ!</item>
+        <item>สวมเสื้อผ้าหนาๆ!</item>
+        <item>สวมเสื้อผ้าหนาๆ!</item>
+        <item>สวมเสื้อผ้าหนาๆ!</item>
+        <item>สวมเสื้อผ้าหนาๆ!</item>
+        <item>ระมัดระวังเมื่อออกจากบ้าน!</item>
+        <item>ระมัดระวังเมื่อออกจากบ้าน!</item>
+        <item>ระมัดระวังเมื่อออกจากบ้าน!</item>
+        <item>ระมัดระวังเมื่อออกจากบ้าน!</item>
+        <item>ระมัดระวัง! ถนนลื่น</item>
+    </array>
+
+    <array name="weather_sms_content">
+        <item>อย่าลืมทาครีมกันแดด</item>
+        <item>วันนี้มีเมฑมาก </item>
+        <item>ลองอยู่นอกบ้าน</item>
+        <item>ขับรถระมัดระวัง</item>
+        <item>อย่าลืมพกร่ม!</item>
+        <item>อย่าลืมพกร่ม!</item>
+        <item>อย่าลืมพกร่ม!</item>
+        <item>อย่าลืมพกร่ม!</item>
+        <item>อย่าลืมพกร่ม!</item>
+        <item>อย่าลืมพกร่ม!</item>
+        <item>อย่าลืมพกร่ม!</item>
+        <item>อย่าลืมพกร่ม!</item>
+        <item>อย่าลืมพกร่ม!</item>
+        <item>มันจะออกมาแน่นอน!</item>
+        <item>อย่าลืมพกหมวกหรือผ้าพันคอ</item>
+        <item>สวมเสื้อผ้าหนาๆ!</item>
+        <item>อย่าลืมสวมหมวกหรือผ้าพันคอ!</item>
+        <item>อย่าลืมสวมหมวกหรือผ้าพันคอ!</item>
+        <item>อย่าลืมสวมหน้ากาก</item>
+        <item>อย่าลืมสวมหน้ากาก</item>
+        <item>อย่าลืมสวมหน้ากาก</item>
+        <item>อย่าลืมสวมหน้ากาก</item>
+        <item>มันจะออกมาแน่นอน!</item>
+        <item>อย่าลืมสวมหน้ากาก</item>
+        <item>ลองอยู่นอกบ้าน</item>
+    </array>
+
+    <array name="weather_sms_addons">
+        <item>$ ใน @</item>0
+        <item>อุณหภูมิ: % องศา</item>0
+        <item>อย่าลืมพกร่ม!</item>1
+        <item>อยู่ในที่แห้ง!</item>2
+        <item>อยู่ในที่แห้ง!</item>3
+        <item>หลีกเลี่ยงขับรถ</item>4
+        <item>ขับรถระมัดระวัง!</item>5
+        <item>ระมัดระวัง ถนนลื่น</item>6
+        <item>ระมัดระวังให้มาก</item>7
+        <item>ระมัดระวังเมื่อออกนอกบ้าน</item>8
+        <item>ลองไม่ออกจากบ้าน</item>9
+        <item>อย่าลืมพกแว่นกันแดด</item>0
+        <item>ทาครีมกันแดดและพกแว่นกันแดด</item>1
+        <item>ลมแรง อย่าลืมสวมใส่แจ็คเก็ต</item>2
+        <item>อย่าลืมสวมหน้ากาก</item>3
+        <item>อย่าลืมพกแจ็คเก็ต</item>4
+        <item>อย่าลืมสวมหน้ากาก</item>5
+        <item>อย่าลืมพกถุงมือหรือหมวด</item>6
+        <item>อากาศร้อน!</item>7
+        <item>อยู่ในที่เย็น!</item>8
+        <item>สวมเสื้อผ้าหนาๆ!</item>9
+        <item>อุณหภูมิอาจจะลดลง\u2026</item>0
+        <item>อยู่ในที่อุ่นๆ!</item>1
+        <item>สวมหูฟังครอบหู!</item>2
+        <item>ออกนอกบ้าน</item>3
+        <item>ไปวิ่งหรือทำกิจกรรมนอกบ้าน!</item>4
+        <item>อากาศดี!</item>
+        <item>อย่าลืมสวมแจ็คเก็ต!</item>6
+    </array>
+
+    <array name="weather_info_uv">
+        <item>"0"</item>
+        <item>ไม่สามารถใช้งานได้</item>
+        <item>"6"</item>
+        <item>"อย่าลืมทาครีมกันแดด"</item>
+        <item>"7"</item>
+        <item>"อย่าลืมทาครีมกันแดด"</item>
+        <item>"8"</item>
+        <item>"อย่าลืมทาครีมกันแดด"</item>
+        <item>"9"</item>
+        <item>ทาครีมกันแดดเมื่ออกนอกบ้าน!</item>
+        <item>"10"</item>
+        <item>ทาครีมกันแดดเมื่ออกนอกบ้าน!</item>
+    </array>
+
+    <array name="weather_info_dress">
+        <item>"0"</item>
+        <item>ไม่สามารถใช้งานได้</item>
+        <item>"11"</item>
+        <item>แจ็คเก็ตบาง</item>
+        <item>"12"</item>
+        <item>แจ็คเก็ตบาง</item>
+        <item>"13"</item>
+        <item>เสื้อผ้าหน้าร้อน</item>
+        <item>"14"</item>
+        <item>เสื้อผ้าหน้าร้อน</item>
+        <item>"15"</item>
+        <item>แจ็คเก็ตบาง</item>
+        <item>"16"</item>
+        <item>อย่าลืมพกเสื้อผ้าเพิ่มเติม!</item>
+        <item>"17"</item>
+        <item>พกแจ็คเก็ต!</item>
+        <item>"18"</item>
+        <item>สวมเสื้อผ้าหนาๆ!</item>
+        <item>"19"</item>
+        <item>สวมเสื้อผ้าหนาๆ!</item>
+    </array>
+
+    <array name="weather_info_msport">
+        <item>"0"</item>
+        <item>ไม่สามารถใช้งานได้</item>
+        <item>"1"</item>
+        <item>อากาศดีสำหรับออกกำลังกายตอนเช้า</item>
+        <item>"2"</item>
+        <item>พกเสื้อผ้าเพิ่มเติ่ม!</item>
+        <item>"3"</item>
+        <item>พกเสื้อผ้าเพิ่มเติม!</item>
+        <item>"4"</item>
+        <item>ออกกำลังกายนอกบ้าน!</item>
+    </array>
+
+    <array name="weather_info_comfort">
+        <item>"0"</item>
+        <item>ไม่สามารถใช้งานได้</item>
+        <item>"20"</item>
+        <item>อุณหภูมิคงที่</item>
+        <item>"21"</item>
+        <item>อากาศเย็นและสบาย</item>
+        <item>"22"</item>
+        <item>อุณหภูมิผันผวน</item>
+        <item>"23"</item>
+        <item>ท้องฟ้าแจ่มใสและอุณหภูมิไม่สบาย</item>
+        <item>"24"</item>
+        <item>อากาศร้อนและชื้น!</item>
+   </array>
+
+    <array name="weather_info_wcar">
+        <item>"0"</item>
+        <item>ไม่สามารถใช้งานได้</item>
+        <item>"1"</item>
+        <item>อากาศดีสำหรับล้างรถ!</item>
+        <item>"2"</item>
+        <item>อากาศดีสำหรับล้างรถ!</item>
+        <item>"3"</item>
+        <item>ฝนกำลังจะตก! หลีกเลี่ยงการล้างรถ</item>
+        <item>"25"</item>
+        <item>ฝนกำลังจะตก! หลีกเลี่ยงการล้างรถ</item>
+        <item>"26"</item>
+        <item>พยากรณ์อากาศพายุทราย! หลีกเลี่ยงการล้างรถ</item>
+        <item>"27"</item>
+        <item>หิมะกำลังจะตก หลีกเลี่ยงการล้างรถ</item>
+        <item>"4"</item>
+        <item>หลีกเลี่ยงการล้างรถ</item>
+    </array>
+
+    <array name="weather_info_hung">
+        <item>"0"</item>
+        <item>ไม่สามารถใช้งานได้</item>
+        <item>"28"</item>
+        <item>ตากผ้าหลังจากเที่ยง</item>
+        <item>"29"</item>
+        <item>ตากผ้าได้ทั้งวัน</item>
+        <item>"30"</item>
+        <item>เมฆมาก แต่อุณหภูมิสูง หากตากเสื้อผ้าจะแห้ง</item>
+        <item>"1"</item>
+        <item>อากาศดีสำหรับตากผ้า</item>
+        <item>"3"</item>
+        <item>ฝนตกต่อเนื่องตลอดทั้งวัน</item>
+        <item>"5"</item>
+        <item>อากาศแห้งกำลังดี</item>
+        <item>"4"</item>
+        <item>ตากผ้านอกบ้าน</item>
+        <item>"31"</item>
+        <item>ตกผ้านอกบ้าน</item>
+    </array>
+
+    <array name="weather_info_travel">
+        <item>"0"</item>
+        <item>ไม่สามารถใช้งานได้</item>
+        <item>"32"</item>
+        <item>แจ่มใสและอุณหภูมิกำลังดี</item>
+        <item>"2"</item>
+        <item>อากาศสบายและอุณหภูมิคงที่</item>
+        <item>"1"</item>
+        <item>อากาศสบายและอุณหภูมิคงที่</item>
+        <item>"3"</item>
+        <item>สภาพอากาศวันนี้ผันผวน</item>
+        <item>"33"</item>
+        <item>สภาพอากาศวันนี้ผันผวน</item>
+        <item>"34"</item>
+        <item>ท้องฟ้าแจ่มใสและลมแรงปานกลาง</item>
+    </array>
+
+    <array name="weather_info_fl">
+        <item></item>
+        <item>สวมเสื้อผ้าหนาๆ!</item>
+        <item>微风</item>
+        <item>สบาย</item>
+        <item>暂缺</item>
+        <item>ไม่สามารถใช้งานได้</item>
+    </array>
+</resources>

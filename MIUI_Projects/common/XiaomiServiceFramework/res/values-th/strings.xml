@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">บริการเฟลมเวิร์ค</string>
+
+    <string name="show_password">แสดงรหัสผ่าน</string>
+
+    <string name="account">บัญชี</string>
+    <string name="account_hint_text">อีเมลหรือหมายเลขโทรศัพท์</string>
+    <string name="login">เข้าระบบ</string>
+    <string name="next">ถัดไป</string>
+    <string name="prev">ย้อนกลับ</string>
+    <string name="forget_password"><u>ลืมรหัสผ่าน</u></string>
+    <string name="password">ลืมรหัสผ่าน</string>
+    <string name="captcha">รหัส Captcha</string>
+    <string name="vcode">รหัสยืนยัน</string>
+    <string name="bad_authentication">ชื่อผู้ใช้หรือรหัสผ่านไม่ถูกต้อง</string>
+    <string name="int_phone_user_notice">เพิ่มรหัสประเทศเมื่อใช้หมายเลขโทรศัพท์ลงทะเบียน</string>
+    <string name="micloud_welcome_skip_login"><u>ข้าม</u></string>
+    <string name="micloud_account_name">Xiaomi</string>
+    <string name="micloud_use_existing">ลงทะเบียน</string>
+    <string name="micloud_reg_new">สร้างบัญชี</string>
+    <string name="micloud_error_empty_username">ใส่ชื่อผู้ใช้</string>
+    <string name="micloud_error_empty_pwd">ใส่รหัสผ่าน</string>
+    <string name="micloud_error_illegal_pwd">รหัสผ่านไม่ถูกต้อง</string>
+    <string name="micloud_error_empty_captcha_code">ใส่รหัส Captcha</string>
+    <string name="micloud_error_empty_vcode">ใส่รหัสยืนยัน</string>
+    <string name="micloud_email">ที่อยู่อีเมล</string>
+    <string name="reg_type_phone">ลงทะเบียนด้วยโทรศัพท์ (แนะนำ)</string>
+    <string name="reg_type_email">ลงทะเบียนด้วยอีเมล</string>
+    <string name="micloud_input_password_prompt">ใส่รหัสผ่าน</string>
+    <string name="micloud_password_confirm_hint">ยืนยันรหัสผ่าน</string>
+    <string name="micloud_password_req_notice">
+        8~16 ตัวอักษร ตัวอักษรพิมพ์เล็ก พิมพ์ใหญ่และตัวเลข
+    </string>
+    <string name="micloud_password_error_inconsistent">รหัสผ่านไม่ตรงกัน</string>
+    <string name="micloud_active_alert_title">ส่งข้อความ</string>
+    <string name="micloud_via_sms_alert">ข้อความยืนยันอาจจะถูกคิดค่าใช้จ่ายจากผู้ให้บริการ.</string>
+    <string name="micloud_via_int_sms_alert">ข้อความยืนยันอาจจะถูกคิดค่าใช้จ่ายจากผู้ให้บริการ</string>
+    <string name="micloud_error_email">อีเมลไม่ถูกต้อง</string>
+    <string name="micloud_account">บัญชี Xiaomi</string>
+    <string name="micloud_activing_account">กำลังเปิดใช้งานบัญชี\u2026</string>
+    <string name="micloud_activing_account_delayed">เกือบจะ\u2026</string>
+    <string name="micloud_activing_account_failed">เปิดใช้งานบัญชี Xiaomi ล้มเหลว</string>
+    <string name="micloud_activating_account_notify_title">กำลังเปิดใช้งานบัญชี\u2026</string>
+    <string name="micloud_activate_account_success_notify_title">เปิดใช้งานบัญชีแล้ว</string>
+    <string name="micloud_activate_account_fail_notify_title">เปิดใช้งานล้มเหลว</string>
+    <string name="micloud_activating_account_notify_info">กำลังเปิดใช้งานบัญชี Xiaomi</string>
+    <string name="micloud_activate_back_btn">ยกเลิก</string>
+    <string name="micloud_activate_retry_btn">ลองใหม่</string>
+    <string name="micloud_account_not_actived">บัญชียังไม่ถูกเปิดใช้งาน</string>
+    <string name="micloud_active_email_visit">ตรวจสอบกล่องขาเข้า
+        <xliff:g id="email">%s</xliff:g>
+    </string>
+    <string name="micloud_click_email_to_valid">\n\nเพิ่มเปิดใช้งานบัญชี\n ทำตามลิงค์ยืนยันในกล่องขาเข้า</string>
+    <string name="micloud_resend_active_email">ส่งอีเมลยืนยันอีกครั้ง</string>
+    <string name="micloud_delete_account">ออกจากระบบ</string>
+    <string name="micloud_active_email_sent_1">"ลิงค์ยืนยันถูกส่งไปยัง "</string>
+    <string name="micloud_active_email_sent_2"></string>
+    <string name="micloud_click_email">\n\nnเพิ่มเปิดใช้งานบัญชี\n ทำตามลิงค์ยืนยันในข้อความ</string>
+    <string name="completed">เสร็จสิ้น</string>
+    <string name="header_data_and_synchronization">ข้อมูล &amp; ซิงค์</string>
+    <string name="title_reg">ลงทะเบียน</string>
+    <string name="micloud_account_label">บัญชี:
+        <xliff:g id="name">
+            %1$s
+        </xliff:g>
+    </string>
+    <string name="email_already_be_used">ที่อยู่อีเมลถูกลงทะเบียนโดยบัญชีอื่นแล้ว</string>
+    <string name="error_no_sms_service">ไม่สามารถใช้งานบริการข้อความได้</string>
+    <string name="reg_by_email_failure">สร้างบัญชีล้มเหลว:
+        <xliff:g id="reason">
+            %1$s
+        </xliff:g>
+    </string>
+    <string name="unactivated_user">ยังไม่ได้เปิดใช้งานบัญชี</string>
+    <string name="reg_failed">สมัครสมาชิกล้มเหลว</string>
+    <string name="login_instead_reg">เข้าระบบโดยใช้หมายเลขโทรศัพท์</string>
+    <string name="get_back_pwd">รับรหัสผ่านบัญชี</string>
+    <string name="login_failed">เข้าระบบล้มเหลว</string>
+    <string name="logout_failed">ออกจากระบบล้มเหลว</string>
+    <string name="error_network">เครือข่ายล้มเหลว</string>
+    <string name="error_dup_phone">หมายเลขโทรศัพท์ถูกลงทะเบียนโดยบัญชีอื่นแล้ว</string>
+    <string name="error_server">เซิร์ฟเวอร์ผิดพลาด</string>
+    <string name="error_sim_not_ready">ไม่สามารถค้นหาซิมการ์ดได้</string>
+    <string name="error_unknown">ข้อผิดพลาดไม่รู้จัก</string>
+    <string name="error_invalid_dev_id">หมายเลขอุปกรณ์ไม่ถูกต้อง</string>
+    <string name="error_user_name">ชื่อผู้ใช้ไม่ถูกต้อง</string>
+    <string name="quick_login_title">รหัสผ่าน</string>
+    <string name="quick_login_step2_title">2 ขั้นตอนการยืนยัน</string>
+    <string name="account_name">บัญชี:
+        <xliff:g id="account">
+            %1$s
+        </xliff:g>
+    </string>
+    <string name="input_password_hint">ใส่รหัสผ่าน</string>
+    <string name="input_captcha_hint">ใส่ Captcha</string>
+    <string name="input_vcode_hint">ใส่รหัสยืนยัน</string>
+    <string name="confirm">ยืนยัน</string>
+    <string name="alert_title_remove_account">ออกจากระบบ</string>
+    <string name="remove_account_notice">ต้องการซิงค์ข้อความ รายชื่อและโน๊ตบนโทรศัพท์?</string>
+    <string name="data_keep_in_phone">เก็บบนโทรศัพท์</string>
+    <string name="data_wipe_from_phone">ลบจากอุปกรณ์นี้</string>
+    <string name="login_notice">กำลังเข้าระบบ\u2026</string>
+    <string name="data_sync_notice">ใช้บัญชี Xiaomi เพื่อซิงค์ข้อความและรายชื่อระหว่างโทรศัพท์</string>
+    <string name="cmcc_data_sync_notice">ใช้บัญชี Xiaomi เพื่อซิงค์ข้อความและรายชื่อระหว่างโทรศัพท์</string>
+    <string name="sync_dspt">เปิดใช้งานซิงค์</string>
+    <string name="sync_sub_dspt">ข้อความยืนยันจะคิดค่าบริการตามปกติ</string>
+    <string name="sync_sub_int_dspt">ข้อความยืนยันจะคิดค่าบริการต่างประเทศ</string>
+    <string name="send_sms_for_sync_title">ส่งข้อความ</string>
+    <string name="send_sms_for_sync_notice">ข้อความยืนยันจะคิดค่าบริการตามปกติ</string>
+    <string name="send_int_sms_for_sync_notice">ข้อความยืนยันจะคิดค่าบริการต่างประเทศ</string>
+    <string name="failed_to_send_activate_email">ส่งอีเมลยืนยันล้มเหลว</string>
+    <string name="access_denied">การเข้าถึงถูกปฏิเสธ</string>
+    <string name="reging">กำลังเข้าระบบ\u2026</string>
+    <string name="reg_success">สร้างบัญชีแล้ว</string>
+    <string name="reg_success_summary"><xliff:g id="code">%1$s</xliff:g> ได้ผูกไว้กับบัญชี สามารถใช้เพื่อเข้าระบบหรือรับรหัสผ่าน</string>
+
+    <string name="sync_on">เปิด</string>
+    <string name="sync_off">ปิด</string>
+
+    <string name="btn_activate">เปิดใช้งาน</string>
+    <string name="sim_changed_notification_content">ยังไม่ได้เปิดใช้งานซิมการ์ด</string>
+    <string name="activating">กำลังเปิดใช้งาน\u2026</string>
+    <string name="check_phone_error_title">เปิดใช้งานซิงค์ล้มเหลว</string>
+    <string name="check_phone_io_error">เครือข่ายผิดพลาด</string>
+
+    <string name="other_settings">การตั้งค่าอื่นๆ</string>
+    <string name="find_device">ค้นหาอุปกรณ์</string>
+    <string name="find_device_check_phone_error_title">ไม่สามารถเปิดใช้งานคุณสมบัติหาอุปกรณ์</string>
+    <string name="find_device_enabling">กำลังเปิดใช้งาน\u2026</string>
+    <string name="find_device_disabling">กำลังปิดใช้งาน\u2026</string>
+    <string name="enable_find_device_error">ผิดพลาด: <xliff:g id="reason">%1$s</xliff:g></string>
+    <string name="disable_find_device_error">ผิดพลาด: <xliff:g id="reason">%1$s</xliff:g></string>
+    <string name="find_device_error_network">เครือข่ายผิดพลาด</string>
+    <string name="find_device_error_server">เซิร์ฟเวอร์ผิดพลาด</string>
+    <string name="find_device_success_title">เปิดใช้งานค้นหาอุปกรณ์แล้ว</string>
+    <string name="find_device_notice_p1">ไปยัง</string>
+    <string name="find_device_notice_p2">i.xiaomi.com</string>
+    <string name="find_device_notice_p3">เพื่อค้นหา ล็อก หรือคืนค่าโทรศัพท์จากระยะไกล</string>
+    <string name="i_know">ตกลง</string>
+    <string name="find_device_disabled_title">ปิดใช้งานค้นหาอุปกรณ์แล้ว</string>
+    <string name="find_device_disabled_notice">ทางลัดค้นหาอุปกรณ์ใน การตั้งค่า> บัญชี &amp; ซิงค์> บัญชี Xiaomi</string>
+
+    <string name="activate_phone_send_sms_fail">ส่งข้อความเปิดใช้งานล้มเหลว</string>
+    <string name="activate_phone_server_error">เซิร์ฟเวอร์ผิดพลาด</string>
+    <string name="activate_phone_failed_notif_title">เริ่มใช้งาน Mi คลาวด์ล้มเหลว</string>
+    <string name="activate_phone_send_sms_failed_notif">ส่งข้อความเปิดใช้งานล้มเหลว</string>
+    <string name="activate_phone_server_error_notif">เซิร์ฟเวอร์ผิดพลาด</string>
+
+    <string name="user_agreement_p1">การเข้าระบบเท่ากับว่าได้ยอมรับ&#160;</string>
+    <string name="user_agreement_p2">เงื่อนไขการให้บริการ</string>
+    <string name="user_agreement_p3">&#160;และ &#160;</string>
+    <string name="user_agreement_p4">นโยบายความเป็นส่วนตัว</string>
+    <string name="user_agreement_p5">สร้างบัญชีเท่ากับว่าได้ยอมรับ&#160;</string>
+    <string name="skip_setup_account_title">ข้ามการตั้งค่า</string>
+    <string name="skip_setup_account_msg">สามารถตั้งค่าบัญชีภายหลังในการตั้งค่า</string>
+    <string name="account_dspt">ซิงค์และสำรองรายชื่อ ข้อความ รูปภาพ และโน๊ต</string>
+    <string name="remove_unactivated_account_notice">บัญชียังไม่เปิดใช้งาน</string>
+    <string name="remove_confirm">ออกจากระบบ</string>
+    <string name="find_password_on_web_msg">เข้าไปที่Visit account.xiaomi.com เพื่อรับรหัสผ่าน</string>
+    <string name="relogin">เข้าระบบอีกครั้ง</string>
+    <string name="skip_login">ข้ามเข้าระบบ</string>
+    <string name="skip_login_u"><u>ข้ามเข้าระบบ</u></string>
+    <string name="removing_account">กำลังออกจากระบบ\u2026</string>
+    <string name="checking_account">กำลังตรวจสอบ\u2026</string>
+
+    <string name="button_cancel">ยกเลิก</string>
+    <string name="mili_center">Mi เครดิต</string>
+
+    <string name="sina_weibo">Sina Weibo</string>
+    <string name="bind_sina_weibo">ผูกกับ Sina Weibo</string>
+    <string name="bind_weibo_description">ค้นหาและซิงค์รายชื่อเพื่อนจาก Sina Weibo</string>
+    <string name="add_weibo_account">เพิ่มบัญชี</string>
+    <string name="binded">ผูกแล้ว</string>
+    <string name="nobind">ห้ามผูก</string>
+    <string name="unbind">ไม่ผูก</string>
+    <string name="update_contacts">อัปเดตสมุดรายชื่อ</string>
+    <string name="update_contacts_description">Sina Weibo จะใช้บัญชี Xiaomi เพื่อซิงค์ข้อมูลรายชื่อระหว่างเพลตฟอร์ม</string>
+    <string name="updated_contacts">อัปเดต %s รายชื่อ</string>
+    <string name="updated_nothing">ไม่มีซิงค์</string>
+    <string name="process_result">รายละเอียดซิงค์:</string>
+    <string name="access_token_expired_warning">บัญชี Weibo หมดอายุ: กรุณาผูกบัญชีอีกครั้ง</string>
+    <string name="access_token_invalid_warning">บัญชี Weibo ไม่ถูกต้อง: กรุณาผูกบัญชีอีกครั้ง</string>
+    <string name="service_error">บริการผิดพลาด</string>
+
+    <string name="enable_micloud">สร้างบัญชีหรือเข้าระบบ</string>
+    <string name="micloud_summary">เพื่อซิงค์รายชื่อ โน๊ต รูปภาพ หรืออื่นๆ เข้าระบบไปยังบัญชี Xiaomi</string>
+    <string name="micloud_is_what">Mi คลาวด์คืออะไร?</string>
+    <string name="available_functionality">ฟังก์ชันสามารถใช้งานได้</string>
+    <string name="internet_message">ข้อความคลาวด์</string>
+    <string name="micloud_more">อ่านต่อ</string>
+    <string name="internet_comm">บริการข้อความ</string>
+    <string name="cloud_messaging">ข้อความคลาวด์</string>
+    <string name="xiaomi_cloud_service">Mi คลาวด์</string>
+    <string name="current_account">บัญชีปัจจุบัน</string>
+    <string name="my_xiaomi_account">บัญชี Xiaomi</string>
+    <string name="micloud_intro_01_part_01">ส่งข้อมูลมือภือ!</string>
+    <string name="micloud_intro_01_part_02">ข้อความฟรีด้วย Wi-Fi</string>
+    <string name="micloud_intro_02_part_01">หยุดการใช้แฟลชไดร์ฟและบัญชีอีเมลเพื่อถ่ายโอนไฟล์!</string>
+    <string name="micloud_intro_02_part_02">ซิงค์รายชื่อ ข้อความ รูปภาพ และอื่นๆ ระหว่างโทรศัพท์</string>
+    <string name="micloud_intro_03_part_01">รักษาความปลอดภัยข้อมูลโทรศัพท์จากระยะไกล</string>
+    <string name="micloud_intro_03_part_02">ค้นหาตำแหน่ง ล็อกโทรศัพท์ หรือลบข้อมูลโทรศัพท์ที่ i.xiaomi.com</string>
+    <string name="micloud_dspt">ใช้ Mi คลาวด์ เพื่อซิงค์ข้อมูล ตำแหน่งโทรศัพท์ และแบ่งปันกับเพื่อน</string>
+    <string name="cmcc_micloud_dspt">ใช้ Mi คลาวด์ เพื่อซิงค์ข้อมูล ตำแหน่งโทรศัพท์ และแบ่งปันกับเพื่อน</string>
+    <string name="start_micloud">เริ่ม</string>
+
+    <string name="micloud_proceed">เริ่มต่อ</string>
+    <string name="disable_micloud"><u>ปิดใช้งาน Mi คลาวด์</u></string>
+
+    <string name="master_alert_notif_title">ข้อมูลถูกซิงค์ล่าสุด %s วันที่แล้ว</string>
+    <string name="sub_alert_notif_title">บริการซิงค์ยังไม่เปิดใช้งาน</string>
+    <string name="alert_notif_title_dspt">คืนค่าซิงค์เพื่อรักษาความปลอดภัยข้อมูล</string>
+    <string name="noRemind">ไม่เตือนอีกครั้ง</string>
+    <string name="restoreSync">คืนค่า</string>
+    <string name="enableAll">เปิดใช้งานทั้งหมด</string>
+    <string name="master_alert_notif_dspt" formatted="false">"%s รายชื่อ %s ข้อความ %s รูปภาพ %s โน๊ตและข้อมูลอื่นๆยังไม่ได้ซิงค์</string>
+    <string name="sub_alert_notif_dspt" formatted="false">"%s รายชื่อ %s ข้อความ %s รูปภาพ %s โน๊ตและข้อมูลอื่นๆยังไม่ได้ซิงค์</string>
+
+    <string name="wipe_data_dialog_title">บางรายการยังไม่ได้ซิงค์</string>
+    <string name="wipe_data_dialog_msg">%s รายการยังไม่ถูกซิงค์ ข้อมูลจะสูญหายหากเริ่มต่อ</string>
+    <string name="dirty_contacts_count">%d รายชื่อ</string>
+    <string name="dirty_mms_count">%d ข้อความ</string>
+    <string name="dirty_note_count">%d โน๊ต</string>
+    <string name="wipe_data_dialog_msg_separator">,&#160;</string>
+
+    <string name="wrong_captcha">รหัส Captcha ที่ใส่ไม่ถูกต้อง</string>
+    <string name="wrong_vcode">รหัสยืนยันที่ใส่ไม่ถูกต้อง</string>
+    <string name="input_vcode_prompt">ใส่รหัสยืนยัน</string>
+    <string name="trust_device">เชื่อถือ</string>
+    <string name="vcode_prompt_long">ใส่รหัสยืนยันสร้างโดย Xiaomi Security Token</string>
+    <string name="vcode_notification_title">ตรวจสอบเข้าระบบไม่เสร็จสิ้น</string>
+
+    <string name="activate_phone_failed_notif_title_msim">เริ่มต้น Mi คลาวด์ล้มเหลวสำหรับซิมการ์ด %s</string>
+    <string name="activate_status_title_activating">กำลังเปิดใช้งานซิมการ์ด</string>
+    <string name="activate_status_title_activating_msim">กำลังเปิดใช้งานซิมการ์ด %s</string>
+    <string name="activate_status_desc_getting_device_info">กำลังรับข้อมูลโทรศัพท์</string>
+    <string name="activate_status_desc_failed_getting_device_info">ไม่สามารถรับข้อมูลโทรศัพท์</string>
+    <string name="activate_status_desc_getting_sim_info">กำลังรับข้อมูลซิมการ์ด</string>
+    <string name="activate_status_desc_failed_getting_sim_info">ไม่สามารถรับข้อมูลซิมการ์ด</string>
+    <string name="activate_status_desc_getting_gateway">กำลังรับเกตเวย์ข้อความ</string>
+    <string name="activate_status_desc_failed_getting_gateway">ไม่สามารถรับเกตเวย์ข้อความ</string>
+    <string name="activate_status_desc_prepare_sending_sms">กำลังเตรียมการส่งข้อความยืนยัน</string>
+    <string name="activate_status_desc_sending_sms">กำลังส่ง\u2026</string>
+    <string name="activate_status_desc_sms_sent">ข้อความยืนยันถูกส่งแล้ว</string>
+    <string name="activate_status_desc_sim_absent">ไม่พบซิมการ์ด</string>
+
+    <string name="activate_status_desc_acquire_phone_number">กำลังรับหมายเลขโทรศัพท์จากเซิร์ฟเวอร์</string>
+    <string name="activate_status_desc_acquire_phone_number_server_error_wait">เกิดข้อผิดพลาดเซิร์ฟเวอร์ขณะกำลังรับหมายเลขโทรศัพท์ กำลังลองใหม่\u2026</string>
+    <string name="activate_status_desc_acquire_phone_number_server_io_error_wait">เกิดข้อผิดพลาดเซิร์ฟเวอร์ขณะกำลังรับหมายเลขโทรศัพท์ กำลังลองใหม่\u2026</string>
+    <string name="activate_status_desc_acquire_phone_number_server_no_info_wait">ไม่สามารถรับหมายเลขโทรศัพท์ กำลังลองใหม่\u2026</string>
+    <string name="activate_status_desc_acquire_phone_number_server_error">เกิดข้อผิดพลาดเซิร์ฟเวอร์ขณะกำลังรับหมายเลขโทรศัพท์</string>
+    <string name="activate_status_desc_acquire_phone_number_server_io_error">เกิดข้อผิดพลาดเซิร์ฟเวอร์ขณะกำลังรับหมายเลขโทรศัพท์</string>
+    <string name="activate_status_desc_acquire_phone_number_server_no_info">ไม่สามารถรับหมายเลขโทรศัพท์</string>
+
+    <string name="activate_status_desc_acquire_sim_user_id">กำลังรับข้อมูลลงทะเบียนจากเซิร์ฟเวอร์</string>
+    <string name="activate_status_desc_acquire_sim_user_id_server_error_wait">เกิดข้อผิดพลาดเซิร์ฟเวอร์ขณะกำลังรับข้อมูลลงทะเบียน กำลังใหม่\u2026</string>
+    <string name="activate_status_desc_acquire_sim_user_id_server_io_error_wait">เกิดข้อผิดพลาดเซิร์ฟเวอร์ขณะกำลังรับข้อมูลลงทะเบียน กำลังใหม่\u2026</string>
+    <string name="activate_status_desc_acquire_sim_user_id_server_no_info_wait">ไม่สามารถรับข้อมูลลงทะเบียน กำลังลองใหม่\u2026</string>
+    <string name="activate_status_desc_acquire_sim_user_id_server_error">เกิดข้อผิดพลาดเซิร์ฟเวอร์ขณะกำลังรับข้อมูลลงทะเบียน</string>
+    <string name="activate_status_desc_acquire_sim_user_id_server_io_error">เกิดข้อผิดพลาดเซิร์ฟเวอร์ขณะกำลังรับข้อมูลลงทะเบียน</string>
+    <string name="activate_status_desc_acquire_sim_user_id_server_no_info">ไม่สามารถรับข้อมูลลงทะเบียน</string>
+
+    <string name="activate_status_desc_acquire_sim_pass_token">กำลังรับข้อมูลความปลอดภัยจากเซิร์ฟเวอร์</string>
+    <string name="activate_status_desc_acquire_sim_pass_token_server_error_wait">เกิดข้อผิดพลาดเซิร์ฟเวอร์ขณะกำลังรับข้อมูลความปลอดภัย กำลังลองใหม่\u2026</string>
+    <string name="activate_status_desc_acquire_sim_pass_token_server_io_error_wait">เกิดข้อผิดพลาดเซิร์ฟเวอร์ขณะกำลังรับข้อมูลความปลอดภัย กำลังลองใหม่\u2026</string>
+    <string name="activate_status_desc_acquire_sim_pass_token_server_no_info_wait">ไม่สามารถรับข้อมูลความปลอดภัย กำลังลองใหม่\u2026</string>
+    <string name="activate_status_desc_acquire_sim_pass_token_server_error">เกิดข้อผิดพลาดเซิร์ฟเวอร์ขณะกำลังรับข้อมูลความปลอดภัย</string>
+    <string name="activate_status_desc_acquire_sim_pass_token_server_io_error">เกิดข้อผิดพลาดเซิร์ฟเวอร์ขณะกำลังรับข้อมูลความปลอดภัย กำลังลองใหม่</string>
+    <string name="activate_status_desc_acquire_sim_pass_token_server_no_info">ไม่สามารถรับข้อมูลความปลอดภัย</string>
+    <string name="activate_status_desc_acquire_sim_pass_token_password_error">รหัสผ่าน Xiaomi Security Token ไม่ถูกต้อง</string>
+
+    <string name="checking_input">กำลังตรวจสอบนำเข้า\u2026</string>
+
+    <string name="micloud_data_loading">กำลังโหลด</string>
+    <string name="micloud_space_full_influence"><u>พื้นที่ไม่เพียงพอ?</u></string>
+    <string name="micloud_title_dspt" formatted="false">"พื้นที่ทั้งหมด %s \n ใช้แล้ว %s | เหลืออีก %s"</string>
+    <string name="micloud_title_full_dspt" formatted="false">"เกิดขีดจำกัดหน่วยความจำ!"</string>
+    <string name="micloud_user_base_info">ข้อมูลผู้ใช้</string>
+    <string name="micloud_user_email">อีเมล</string>
+    <string name="micloud_user_phone">หมายเลขโทรศัพท์</string>
+    <string name="micloud_user_name">ชื่อ</string>
+    <string name="micloud_user_id">หมายเลขผู้ใช้</string>
+    <string name="micloud_storage_space">หน่วยความจำ Mi คลาวด์</string>
+    <string name="micloud_user_space_usage">พื้นที่ใช้แล้ว</string>
+    <string name="micloud_web_discription_01">เข้าระบบที่ i.xiaomi.com </string>
+    <string name="micloud_web_discription_02">เพื่อเก็บและเข้าถึงไฟล์จากทุกที่</string>
+    <string name="micloud_gallery_image">รูปภาพ</string>
+    <string name="micloud_gallery_video">วิดีโอ</string>
+    <string name="micloud_app_data">สำรองแอป</string>
+    <string name="micloud_account_details">รายละเอียดบัญชี</string>
+    <string name="micloud_full_influence_title">เมื่อ Mi คลาวด์ เต็ม\u2026</string>
+    <string name="micloud_warn_full_msg">เกิดขีดจำกัดหน่วยความจำ!</string>
+    <string name="micloud_warn_low_title">พื้นที่เกือบจะเต็ม\u2026</string>
+    <string name="micloud_warn_low_sum">ใช้แล้ว 90% ของหน่วยความจำ</string>
+    <string name="micloud_warn_full_title">พื้นที่ไม่เพียงพอ!</string>
+    <string name="micloud_warn_full_sum">รายการใหม่ยังไม่ถูกซิงค์กับบัญชี Mi คลาวด์</string>
+    <string name="micloud_none">ไม่มี</string>
+    <string name="micloud_full_influence_dspt">"รูปภาพ วิดีโอ โน๊ตและแอปพลิเคชันทั้งหมดจะถูกสำรองข้อมูลไปยังบัญชี Mi คลาวด์ \n\nหากสูญหายหรือเกิดความเสียหายกับโทรศัพท์ ข้อมูลจะปลอดภัย\n\nหากพื้นที่เต็มข้อมูลเก่าจะถูกแทนที่ด้วยข้อมูลใหม่ (เช่น รูปภาพ วิดีโอ โน๊ต และแอปพลิเคชัน ) จะไม่ถูกสำรองข้อมูล\n\nลบไฟล์เก่าที่ไม่ได้ใช้หรือชำระเงินเพื่อเพิ่มหน่วยความจำ"</string>
+    <string name="micloud_upgrade_space">อัปเกรดพื้นที่</string>
+
+    <string name="enable_sync_dspt">ปิดการซิงค์</string>
+    <string name="enable_sync">เปิดใช้งาน</string>
+</resources>

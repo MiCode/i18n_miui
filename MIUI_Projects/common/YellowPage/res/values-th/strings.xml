@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!-- Name of the application -->
+    <string name="app_label">ไดเรกเทอรี่</string>
+
+    <!-- Global -->
+    <string name="phone_info_divider">" ｜ "</string>
+    <string name="call">โทร</string>
+
+    <!-- Loading process related -->
+    <string name="check_network">การตั้งค่าเครือข่าย</string>
+    <string name="try_again">ลองอีกครั้ง</string>
+    <string name="network_unavaliable">ไม่สามารถเชื่อมต่อเครือข่าย</string>
+    <string name="service_unavailiable">ไม่สามารถใช้งานบริการได้</string>
+    <string name="data_error">เกิดข้อผิดพลาด</string>
+    <string name="locating_fail">ตำแหน่งล้มเหลว กรุณาตรวจสอบบริการตำแหน่งหรือลองอีกครั้ง</string>
+    <string name="no_more_result">ไม่พบ</string>
+    <string name="downloading">กำลังดาวน์โหลด\u2026</string>
+    <string name="download_completed">ดาวน์โหลดเสร็จสิ้น！ตำแหน่งการ์ดความจำ: %s</string>
+    <string name="download_failed">ดาวน์โหลดล้มเหลว</string>
+    <string name="download_failed_storage">ดาวน์โหลดล้มเหลว กรุณาตรวจสอบการ์ดความจำ</string>
+    <string name="download_failed_network">ดาวน์โหลดล้มเหลว กรุณาตรวจสอบการตั้งค่าเครือข่าย</string>
+    <string name="download_failed_gone">ดาวน์โหลดล้มเหลว ไม่มีไฟล์</string>
+    <string name="download_failed_server">ดาวน์โหลดล้มเหลว กรุณาลองใหม่ภายหลัง</string>
+    <string name="download_failed_cannot_resume">ดาวน์โหลดล้มเหลว กรุณาลองใหม่ภายหลัง</string>
+    <string name="download_failed_file_exists">ไฟล์มีอยู่แล้ว</string>
+    <string name="download_failed_space">ดาวน์โหลดล้มเหลว พื้นที่ไม่เพียงพอ</string>
+    <string name="download_failed_blocked">ดาวน์โหลดล้มเหลว ไม่สามารถเชื่อมต่อไปยังเครือข่าย</string>
+
+    <!-- YellowPage related -->
+    <string name="yellow_page_detail_title">เกี่ยวกับ</string>
+    <string name="yellow_page_call_log_title">บันทึกการโทร</string>
+    <string name="yellow_page_website">เว็บไซต์ทางการ</string>
+    <string name="menu_copy_text">คัดลอกไปยังคลิปบอร์ด</string>
+    <string name="menu_call_ip_number">โทร IP (โทร %s)</string>
+    <string name="toast_text_copied">คัดลอกข้อความแล้ว</string>
+    <string name="provider_tag">แหล่งที่มาข้อมูล</string>
+    <string name="all_numbers">หมายเลขทั้งหมด</string>
+    <plurals name="all_numbers_count">
+        <item quantity="one">1 รายการ</item>
+        <item quantity="other">%d รายการ</item>
+    </plurals>
+    <string name="provider">วิเคราะห์โดย %s</string>
+
+    <!-- Call log related -->
+    <string name="callrecordview_item_newcontact">รายชื่อใหม่</string>
+    <string name="callrecordview_item_op_time_minutes_seconds">%1$d นาที %2$d วินาที</string>
+    <string name="callrecordview_item_op_time_only_minutes">%d นาที</string>
+    <string name="callrecordview_item_op_time_only_seconds">%d วินาที</string>
+    <string name="callrecordview_item_op_time_short_outgoing">สายออก:\u0020</string>
+    <string name="callrecordview_item_op_time_short_incoming">สายเข้า:\u0020</string>
+    <string name="callrecordview_item_op_time_missed">ไม่มีการเชื่อมต่อ</string>
+    <string name="callrecordview_item_op_time_rejected">ปฏิเสธ</string>
+    <string name="voicemail">ข้อความเสียง</string>
+    <string name="menu_delete_one">ลบจากบันทึกการโทร</string>
+    <string name="toast_finish_delete_call_log">บันทึกการโทรถูกลบแล้ว</string>
+    <string name="confirm_delete_call_log_title">ลบบันทึกการโทร?</string>
+    <string name="confirm_delete_all_call_log_title">ลบบันทึกการโทรทั้งหมด?</string>
+    <string name="contact_detail_calllog_call_record_tips">บันทึกเสียงสนทนา</string>
+    <string name="contact_detail_calllog_call_note_tips">โน๊ค</string>
+
+    <!-- Yellowpage menu related -->
+    <string name="menu_delete_call_log">ลบบันทึกการโทร</string>
+    <string name="menu_add_black_list">เพิ่มไปยังแบล็กลิส</string>
+    <string name="menu_remove_black_list">ลบจากแบล็กลิส</string>
+    <string name="menu_about_yellow_page">เกี่ยวกับหน้า</string>
+    <string name="menu_correct_yellow_page">ตรวจสอบความถูกต้อง</string>
+    <string name="menu_refresh">รีเฟรช</string>
+    <string name="confirm_to_add_blacklist">บล็อกหมายเลข?</string>
+    <string name="confirm_to_remove_blacklist">ปลดบล็อกหมายเลข?</string>
+
+    <!-- Mark related -->
+    <string name="custom_mark_category">กำหนดเอง</string>
+    <string name="mark_number_dialog_maintitle">ป้ายหมายเลขและอัปโหลด</string>
+    <string name="mark_number_custom_dialog_maintitle">ยืนยันหรือป้ายถูกต้อง</string>
+    <string name="delete">ลบ</string>
+    <string name="selected_category_format">ป้ายโดย %2$d คน %1$s สัมผัสเพื่อยืนยัน</string>
+    <string name="mark_title_null_hint">จำเป็นต้องใส่ป้าย</string>
+
+    <!-- Setting related -->
+    <string name="smart_antispam">กำหนดหมายเลขไม่รู้จัก</string>
+    <string name="turn_on_smart_antispam_hint">กำหนดการโทรจากหมายเลขไม่รู้จักโดยใช้ไดเรกเทอรี่ป้าย Xiaomi</string>
+    <string name="turn_on_smart_antispam_title">กำหนดหมายเลขไม่รู้จัก</string>
+    <string name="turn_on_smart_antispam_summary_on">อัปโหลดและกำหนดหมายเลขไม่รู้จักในบันทึกการโทรและข้อความ</string>
+    <string name="turn_on_smart_antispam_summary_off">หมายเลขค้นหาเท่านั้นบันทึกบนโทรศัพท์</string>
+    <string name="agree">ยอมรับ</string>
+    <string name="user_notice_identify_summary_format">โทรศัพท์จะใช้ไดเรกเทอรี่ป้าย MIUI เพื่อบล็อกสายไม่ต้องการเมื่อเชื่อมต่อไปยัง Wi-Fi โดยการสัมผัส \"ยอมรับ\" เพื่อยอมรับ %1$s และ %2$s</string>
+    <string name="user_notice_yp_detail_summary_format">บางข้อมูลไดเรกเทอรี่ป้ายไม่ได้อัปเดต ต้องการอัปเดต? โดยการสัมผัส \"ยอมรับ\" เพื่อยอมรับ %1$s และ %2$s</string>
+    <string name="about_smart_antispam_summary">เกี่ยวกับคุณสมบัติ</string>
+    <string name="about_telephone_fraud">ระวังการหลอกลวงทางโทรศัพท์</string>
+    <string name="notify_connect_every_time">ถามอนุญาตเครือข่ายทุกครั้ง</string>
+    <string name="do_not_remind_me">ไม่เตือน</string>
+
+    <!-- Common web page related -->
+    <string name="title_about_yellow_page">เกี่ยวกับ</string>
+
+    <!-- Payment related -->
+    <string name="payment_back">ย้อนกลับ</string>
+    <string name="payment_failed_common_problems">เกิดข้อผิดพลาดระหว่างชำระเงิน</string>
+    <string name="payment_unknown_status_title">ไม่สามารถยืนยันสถานะชำระเงิน</string>
+    <string name="payment_unknown_status_summary">ตรวจสอบการเชื่อมต่อเครือข่ายและลองใหม่อีกครั้ง</string>
+
+    <!-- Recharge related -->
+    <string name="recharge_input_phone_title">ใส่หมายเลขมือถือ (China Mobile China Unicom หรือ China Telecom)</string>
+    <string name="recharge_select_money_title">เลือกมูลค่าเติมเงิน</string>
+    <string name="recharge_charge_range">ราคา: RMB %1$s-%2$s</string>
+    <string name="recharge_charge_value">ราคา: RMB %s</string>
+    <string name="recharge_pay">เติมเงิน</string>
+    <string name="recharge_pay_hint">สนับสนุนบริการโดย Xiaomi</string>
+    <string name="mishop_web_payment_title">Mi สโตร์ ชำระเงิน</string>
+    <string name="recharge_pay_hint_license">แจ้งเตือนเงิน</string>
+    <string name="recharge_title">เติมเงิน</string>
+    <string name="recharge_payment_result_ok_title">เพิ่มแล้ว RMB %s</string>
+    <string name="recharge_payment_result_ok_summary">ยืนยันจำนวนเงิน</string>
+    <string name="recharge_payment_result_failed_title">เติมเงินล้มเหลว</string>
+    <string name="recharge_payment_result_failed_summary">กรุณาลองใหม่อีกครั้ง</string>
+    <string name="recharge_payment_result_progress_summary">กำลังตรวจสอบชำระเงิน\u2026</string>
+    <string name="recharge_phone_number_error">หมายเลขโทรศัพท์ไม่ถูกต้อง</string>
+    <string name="recharge_phone_number_empty">หมายเลขโทรศัพท์ว่างเปล่า</string>
+    <string name="recharge_user_confirm_title">ยืนยัน</string>
+    <string name="recharge_user_confirm_summary">เรียกเก็บเพิ่ม RMB %2$s สำหรับ %1$s\n\nจำนวนเงินทั้งหมด: RMB %3$s</string>
+    <string name="recharge_order_id">รหัสสั่งซื้อ:</string>
+    <string name="recharge_status_description">สถานะ:</string>
+    <string name="recharge_actual_price">ราคา:</string>
+    <string name="recharge_order_original_price">RMB %s</string>
+    <string name="recharge_order_actual_price">\u00A5%s</string>
+    <string name="recharge_order_pay">ชำระเงิน</string>
+    <string name="recharge_history">ประวัติเติมเงิน</string>
+    <string name="recharge_history_empty">ไม่มีประวัติ</string>
+    <string name="recharge_my_phone_number">หมายเลขโทรศัพท์</string>
+    <string name="recharge_unknown_number">ไม่รู้จัก</string>
+
+    <!-- 运营商流量套餐相关 -->
+    <string name="packages_pay">ซื้อ</string>
+    <string name="packages_pay_confirm">ยืนยัน</string>
+    <string name="packages_title">แพคเกจข้อมูลมือถือ</string>
+    <string name="select_package_before_buy">เลือกแพคเกจ</string>
+    <string name="packages_select_to_buy_title">เลือกแพคเกจ</string>
+    <string name="packages_pay_hint">ส่งข้อความ (ฟรี)</string>
+    <string name="packages_pay_success">ข้อความส่งแล้ว</string>
+    <string name="packages_wait_for_op_reply">รอข้อความยืนยันจากผู้ให้บริการเครือข่าย</string>
+    <string name="packages_select_sim_cards_title">เลือกซิมการ์ด</string>
+    <string name="packages_select_sim_cards_summmary">เรียกดูแนะนำแพคเกจข้อมูล</string>
+    <string name="packages_no_package">ไม่มีแพคเกจแนะนำ</string>
+
+    <!-- Multi modules related -->
+    <string name="login_ok">เข้าระบบ</string>
+    <string name="login_before_use">จำเป็นต้องเข้าระบบก่อน</string>
+
+    <!--  Express related -->
+    <string name="express_inquiry">การติดตาม</string>
+    <string name="express_inquiry_serial_number_indication">หมายเลขติดตาม</string>
+    <string name="express_inquiry_logistics_indication">บริษัทจัดส่ง</string>
+    <string name="express_inquiry_button_text">ติดตาม</string>
+    <string name="express_inquiry_serial_number_prefix">หมายเลข: \u0020</string>
+    <string name="express_inquiry_no_result">ไม่มีข้อมูล</string>
+    <string name="express_inquiry_internal_failure">เกิดข้อผิดพลาด\nกรุณาตรวจสอบหมายเลขติดตาม</string>
+    <string name="express_inquiry_data_owner_prefix">บริการข้อมูลติดตามโดย </string>
+    <string name="express_inquiry_data_owner_suffix"></string>
+    <string name="scan">สแกน</string>
+    <string name="express_inqiury_select_logistics">บริษัทจัดส่ง</string>
+    <string name="expresss_inquiry_frequently_used_logistics">ทั่วไป</string>
+    <string name="expresss_inquiry_all_logistics">ทั้งหมด</string>
+    <string name="express_inquiry_history">ประวัติ</string>
+    <string name="express_inquiry_delivered">จัดส่งแล้ว</string>
+    <string name="express_inquiry_no_history">ไม่มีประวัติ</string>
+    <string name="express_inquiry_delete_warning_single">ลบประวัติ?</string>
+    <string name="express_inquiry_delete_warning_multiple">ลบ %d รายการประวัติที่เลือก?</string>
+
+    <string name="express_sender">ผู้ส่ง</string>
+    <string name="express_sender_info">ข้อมูลผู้ส่ง</string>
+    <string name="express_addressee">ที่อยู่</string>
+    <string name="express_addressee_info">ข้อมูลที่อยู่</string>
+    <string name="express_add_new_address">เพิ่มที่อยู่</string>
+    <string name="express_next_step">ถัดไป</string>
+    <string name="express_create_order">สร้าง</string>
+    <string name="express_view_order">แสดงรายการสั่งซื้อ</string>
+    <string name="express_go_back">ย้อนกลับ</string>
+    <string name="express_address_delete_warning">แน่ใจ?</string>
+    <string name="express_sender_name">ชื่อผู้ส่ง</string>
+    <string name="express_addressee_name">ชื่อที่อยู่</string>
+    <string name="express_phone">หมายเลขโทรศัพท์</string>
+    <string name="express_detailed_address">ที่อยู่</string>
+    <string name="express_no_address">ว่างเปล่า</string>
+    <string name="express_order_confirmation">ยืนยันการสั่งซื้อ</string>
+    <string name="express_select_sender">จาก</string>
+    <string name="express_select_addressee">ถึง</string>
+    <string name="express_region_pick_title">เลือกภูมิภาค</string>
+    <string name="express_address_warning_no_name">จำเป็นต้องใส่ชื่อ</string>
+    <string name="express_address_warning_no_phone">จำเป็นต้อใส่หมายเลขโทรศัพท์</string>
+    <string name="express_address_warning_no_area">จำเป็นต้องใส่ภูมิภาค</string>
+    <string name="express_address_warning_no_full_address">จำเป็นต้องใส่ที่อยู่</string>
+    <string name="exapress_save_address_to_contact">บันทึกที่อยู่ในรายชื่อ</string>
+    <string name="express_sender_region">ภูมิภาคผู้ส่ง</string>
+    <string name="express_addressee_region">ที่อยู่ภูมิภาค</string>
+    <string name="express_select_address">ที่อยู่</string>
+    <string name="express_address_info">ข้อมูลที่อยู่</string>
+    <string name="express_address_name">ชื่อ</string>
+    <string name="express_address_region">ภูมิภาค</string>
+    <string name="express_address_deleted">ลบที่อยู่แล้ว</string>
+
+    <!-- Scams numbers related -->
+    <string name="remind_user_suspect_number_title">หมายเลขน่าสงสัย</string>
+    <string name="remind_user_suspect_number_message">โปรดระวัง: ควจตรวจสอบรายชื่อด้วยโทรศัพท์หรือวิดีโอก่อนจะให้ข้อมูลส่วนตัว</string>
+    <string name="remind_another_time">ไม่เตือน</string>
+    <string name="remind_user_confirm">ตกลง</string>
+
+    <!-- Balance inquiry related -->
+    <string name="balance_inquiry_title">สอบถามยอดคงเหลือ</string>
+    <string name="balance_inquiry_default_sp_name">ผู้ให้บริการ</string>
+    <string name="balance_inquiry_send_sms_hint">ข้อความจะถูกส่งไปยังผู้ให้บริการเพื่อตรวจสอบยอดคงเหลือ (ฟรี)</string>
+    <string name="balance_inquiry_send_sms_summmary">ตรวจสอบยอดคงเหลือ</string>
+    <string name="balance_inquiry_send_sms_fail_hint">ส่งข้อความล้มเหลว ตรวจสอบสถานะซิมการ์ด</string>
+
+    <!-- 导航相关 -->
+    <string name="navigation_search_automatically_positioned_city">เมืองปัจจุบัน</string>
+    <string name="navigation_search_positioning">กำลังหาตำแหน่ง\u2026</string>
+    <string name="navigation_search_positioning_failed">เลือกเมือง</string>
+    <string name="navigation_search_no_city_list">ไม่พบ</string>
+    <string name="navigation_search_hot_cities">ยอดนิยม</string>
+    <string name="navigation_search_all_cities">เมืองทั้งหมด</string>
+
+    <!-- Order related -->
+    <string name="order_empty_hint">ไม่มีรายการสั่งซื้อ</string>
+    <string name="order_merchant_title">รายการสั่งซื้อ</string>
+    <string name="order_merchant_title_format">%1$s-%2$s</string>
+    <string name="order_id">รหัสสั่งซื้อ:%s</string>
+    <string name="order_status">%s</string>
+    <string name="order_price">%s</string>
+
+    <!-- Frequently used yellowpage related -->
+    <string name="general_yellow_page_title">ทั่วไป</string>
+    <string name="general_recent_title">ล่าสุด</string>
+    <string name="general_favorite_title">ชื่นชอบ</string>
+    <string name="general_no_yellow_page">รายการว่างเปล่า</string>
+    <string name="general_menu_favorite">ชื่นชอบ</string>
+    <string name="general_menu_unfavorite">ลบจากชื่นชอบ</string>
+    <string name="general_menu_delete_recent">ลบล่าสุด</string>
+    <string name="general_cancel_favorite_ok">ลบชื่นชอบแล้ว</string>
+    <string name="general_delete_recent_ok">ลบล่าสุดแล้ว</string>
+
+    <!-- Nearby yellowpage related -->
+    <string name="nearby_yellow_page_title">ใกล้เคียง</string>
+    <string name="nearby_no_yellow_page">ไม่พบใกล้เคียง</string>
+    <string name="nearby_yellow_page_title_format">%1$s-%2$s</string>
+</resources>
