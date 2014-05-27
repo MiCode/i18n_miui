@@ -93,14 +93,14 @@
     <!-- Alarm confirmation toast: Describes how long from now until
          alarm fires -->
     <string-array name="alarm_set">
-        <item>Будильник менее чем через одну минуту.</item>
-        <item>Будильник менее чем <xliff:g id="DAYS" example="2 days">%1$s</xliff:g>.</item>
-        <item>Будильник менее чем <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g>.</item>
-        <item>Будильник менее чем <xliff:g id="DAYS" example="2 days">%1$s</xliff:g> и <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g>.</item>
-        <item>Будильник менее чем <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g> from now.</item>
-        <item>Будильник менее чем <xliff:g id="DAYS" example="2 days">%1$s</xliff:g> и <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g>.</item>
-        <item>Будильник менее чем <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g> и <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g>.</item>
-        <item>Будильник менее чем <xliff:g id="DAYS" example="2 days">%1$s</xliff:g>, <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g>, и <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g>.</item>
+        <item>Будильник зазвонит менее чем через одну минуту.</item>
+        <item>Будильник зазвонит менее чем <xliff:g id="DAYS" example="2 days">%1$s</xliff:g>.</item>
+        <item>Будильник зазвонит менее чем <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g>.</item>
+        <item>Будильник зазвонит менее чем <xliff:g id="DAYS" example="2 days">%1$s</xliff:g> и <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g>.</item>
+        <item>Будильник зазвонит менее чем <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g> from now.</item>
+        <item>Будильник зазвонит менее чем <xliff:g id="DAYS" example="2 days">%1$s</xliff:g> и <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g>.</item>
+        <item>Будильник зазвонит менее чем <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g> и <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g>.</item>
+        <item>Будильник зазвонит менее чем <xliff:g id="DAYS" example="2 days">%1$s</xliff:g>, <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g>, и <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g>.</item>
     </string-array>
 
     <!-- Alarm confirmation toast: singular day -->
@@ -308,14 +308,14 @@
     <string name="timezone_exist_error_message">Такой часовой пояс уже добавлен</string>
 
     <string-array name="alarm_in_furture">
-        <item>Будильник менее чем через одну минуту </item>
-        <item>Будильник менее чем <xliff:g id="DAYS" example="2 days">%1$s</xliff:g></item>
-        <item>Будильник менее чем <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g></item>
-        <item>Будильник менее чем <xliff:g id="DAYS" example="2 days">%1$s </xliff:g><xliff:g id="HOURS" example="2 hours">%2$s</xliff:g></item>
-        <item>Будильник менее чем <xliff:g id="MINUTES" example="2 minutes">%3$s </xliff:g></item>
-        <item>Будильник менее чем <xliff:g id="DAYS" example="2 days">%1$s </xliff:g><xliff:g id="MINUTES" example="2 minutes">%3$s </xliff:g></item>
-        <item>Будильник менее чем <xliff:g id="HOURS" example="2 hours">%2$s </xliff:g><xliff:g id="MINUTES" example="2 minutes">%3$s </xliff:g></item>
-        <item>Будильник менее чем <xliff:g id="DAYS" example="2 days">%1$s </xliff:g><xliff:g id="HOURS" example="2 hours">%2$s </xliff:g><xliff:g id="MINUTES" example="2 minutes">%3$s </xliff:g></item>
+        <item>Будильник зазвонит менее чем через одну минуту </item>
+        <item>Будильник зазвонит менее чем <xliff:g id="DAYS" example="2 days">%1$s</xliff:g></item>
+        <item>Будильник зазвонит менее чем <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g></item>
+        <item>Будильник зазвонит менее чем <xliff:g id="DAYS" example="2 days">%1$s </xliff:g><xliff:g id="HOURS" example="2 hours">%2$s</xliff:g></item>
+        <item>Будильник зазвонит менее чем <xliff:g id="MINUTES" example="2 minutes">%3$s </xliff:g></item>
+        <item>Будильник зазвонит менее чем <xliff:g id="DAYS" example="2 days">%1$s </xliff:g><xliff:g id="MINUTES" example="2 minutes">%3$s </xliff:g></item>
+        <item>Будильник зазвонит менее чем <xliff:g id="HOURS" example="2 hours">%2$s </xliff:g><xliff:g id="MINUTES" example="2 minutes">%3$s </xliff:g></item>
+        <item>Будильник зазвонит менее чем <xliff:g id="DAYS" example="2 days">%1$s </xliff:g><xliff:g id="HOURS" example="2 hours">%2$s </xliff:g><xliff:g id="MINUTES" example="2 minutes">%3$s </xliff:g></item>
     </string-array>
 
     <string name="alarm_disabled">Выключен</string>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="power_autorun_control_title">Автозапуск</string>
+    <string name="power_autorun_control_desc">Большое количество приложений с автозапуском могут повлиять на энергопотребление батареи</string>
+    <string name="power_usage_sort_title">Энергопотребление</string>
+    <string name="power_usage_sort_desc">Сортировка программ по энергопотреблению</string>
+    <string name="power_mode_select_title">Режим питания</string>
+    <string name="power_mode_select_desc">Выберите более подходящий режим</string>
+    <string name="power_used_prefix">Энергопотребление</string>
+    <string name="power_used_hours_test">8</string>
+    <string name="power_used_hours">ч.</string>
+    <string name="power_used_mins_test">23</string>
+    <string name="power_used_mins">мин.</string>
+    <string name="power_battery_history_days">%1$d дн. %2$d ч. %3$d мин.</string>
+    <string name="power_battery_history_hours">%1$d ч. %2$d мин.</string>
+    <string name="power_battery_history_minutes">%1$d мин.</string>
+    <string name="power_battery_history_zero_minutes">0 мин.</string>
+    <string name="power_autorun_empty">Нет установленных приложений</string>
+    <string name="power_autorun_apps_empty">Нет приложений с автозапуском</string>
+    <string name="power_perm_logs_empty">Нет журналов</string>
+</resources>

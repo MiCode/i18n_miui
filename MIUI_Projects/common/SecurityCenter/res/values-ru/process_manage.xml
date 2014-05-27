@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="process_manage_title">Очистка процессов (%1$d) освободит памяти: %2$s</string>
+    <string name="process_list_empty_hints">Нет кэшированных процессов</string>
+
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="cache_manage_title">Очистка кэша (%1$d) освободит памяти: %2$s</string>
+    <string name="cache_list_empty_hints">Нет кэша</string>
+
+</resources>

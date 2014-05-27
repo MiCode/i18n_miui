@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="score_descriptions">
+        <item>Черный список выключен</item>
+        <item>Управление разрешениями выключено</item>
+        <item>Очень много мусора</item>
+        <item>Время ожидания сканирования вирусов истекло</item>
+        <item>Очень много фоновых процессов</item>
+    </string-array>
+    <string-array name="score_suggests">
+        <item>Включить черный список</item>
+        <item>Включите приложение для управления разрешениями</item>
+        <item>Очистить мусор</item>
+        <item>Обновите вирусную базу</item>
+        <item>Контролируйте количество фоновых процессов</item>
+    </string-array>
+
+    <string name="score_good_state">Телефон оптимизирован</string>
+    <string name="score_need_optimize">Требуется оптимизация</string>
+
+</resources>

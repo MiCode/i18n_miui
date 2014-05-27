@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="power_center_title">Батарея</string>
+    <string name="power_center_consume_rank">Использование батареи</string>
+    <string name="power_center_custom_title">Экономия батареи</string>
+    <string name="power_center_custom_summary_default">Параметры оптимизации, экономия батареи</string>
+    <string name="power_center_low_battery_title">Автопереключение</string>
+    <string name="power_center_low_battery_summary_default">Включение режима экономии, при низком заряде батареи</string>
+    <string name="power_center_low_battery_summary_dynamic">Если заряд батареи менее %1$d&#037;&#037;, сменить режим на \"%2$s\"</string>
+    <string name="power_center_on_time_title">Расписание</string>
+    <string name="power_center_on_time_summary_default">Включение режима в назначенное время</string>
+    <string name="power_center_on_time_summary_dynamic">С %1$s до %2$s переключиться в режим \"%3$s\"</string>
+    <string name="power_center_state_on">Включено</string>
+    <string name="power_center_state_off">Выключено</string>
+    <string name="power_center_consume_time">Осталось: %1$s</string>
+    <string name="power_center_charge_time">Зарядится через %1$s</string>
+    <string name="power_center_battery_full">Батарея заряжена</string>
+
+    <plurals name="power_center_battery_day">
+        <item quantity="one"><xliff:g id="count">%d</xliff:g>" день "</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g>" дн. "</item>
+    </plurals>
+    <plurals name="power_center_battery_hour">
+        <item quantity="one"><xliff:g id="count">%d</xliff:g>" час "</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g>" ч. "</item>
+    </plurals>
+    <plurals name="power_center_battery_minute">
+        <item quantity="one"><xliff:g id="count">%d</xliff:g>" минута "</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g>" мин. "</item>
+    </plurals>
+
+    <string name="power_chooser_title">Режим экономии батареи</string>
+    <string name="power_chooser_check_box_title">Экономия заряда батареи</string>
+    <string name="power_chooser_check_box_summary">Выбор режима экономии батареи для продолжительной работы телефона</string>
+    <string name="power_chooser_smart_title">Режим по умолчанию</string>
+    <string name="power_chooser_smart_summary">Сохранить текущие параметры. Очистка процессов в режиме блокировки</string>
+    <string name="power_chooser_standby_title">Режим \"Марафон\"</string>
+    <string name="power_chooser_standby_summary">Отключение интернет сервисов</string>
+    <string name="power_chooser_sleep_title">Режим \"Сон\"</string>
+    <string name="power_chooser_sleep_summary">Отключение всех функций (телефон, сообщения, интернет) за исключением будильника</string>
+    <string name="power_chooser_mine_title">Свой режим</string>
+    <string name="power_chooser_mine_summary">Настраиваемые параметры</string>
+    <string name="power_chooser_user_define_title">Добавить свой режим</string>
+    <string name="power_chooser_user_define_summary">Создание пользовательского режима для экономии батареи</string>
+    <string name="power_customizer_smart_mode">По умолчанию</string>
+    <string name="power_customizer_standby_mode">Марафон</string>
+    <string name="power_customizer_sleep_mode">Сон</string>
+    <string name="power_customizer_my_mode">Свой</string>
+    <string name="power_customizer_user_define_mode">"Название режима: "</string>
+    <string name="power_customizer_user_define_name">"Свой режим "</string>
+    <string name="power_customizer_user_define_summary">Пользовательские параметры</string>
+    <string name="power_customizer_delete">Удалить</string>
+    <string name="power_customizer_save">Сохранить</string>
+    <string name="power_customizer_cancel">Отмена</string>
+    <string name="power_customizer_ok">ОК</string>
+    <string name="power_mode_cpu_state">Использование ЦП</string>
+    <string name="power_mode_cpu_state_performance">Производительность</string>
+    <string name="power_mode_cpu_state_performance_desc">Приоритет производительности над батареей</string>
+    <string name="power_mode_cpu_state_balance">Баланс</string>
+    <string name="power_mode_cpu_state_balance_desc">Увеличение производительности только по необходимости</string>
+    <string name="power_mode_cpu_state_save">Экономия</string>
+    <string name="power_mode_cpu_state_save_desc">Приоритет батареи над производительностью</string>
+    <string name="power_mode_auto_clean_memory">Очистка памяти</string>
+    <string name="power_mode_auto_clean_memery_lock_screen">Спустя %1$d мин.</string>
+    <string name="power_mode_auto_clean_memory_in_one_minute">Спустя 1 минуту</string>
+    <string name="power_mode_auto_clean_memory_in_five_minutes">Спустя 5 минут</string>
+    <string name="power_mode_auto_clean_memory_in_ten_minutes">Спустя 10 минут</string>
+    <string name="power_mode_auto_clean_memory_never">Никогда</string>
+    <string name="power_mode_screen_brightness">Яркость</string>
+    <string name="power_mode_screen_brightness_manual">Ручная: %1$d&#037;&#037;</string>
+    <string name="power_mode_screen_brightness_automatic">Авто: %1$d&#037;&#037;</string>
+    <string name="power_mode_sleep">Режим сна</string>
+    <string name="power_mode_sleep_in_seconds">Спустя %1$d сек. неактивности</string>
+    <string name="power_mode_sleep_in_minutes">Спустя %1$d мин. неактивности</string>
+    <string name="power_mode_sleep_never">Никогда</string>
+    <string name="power_mode_wifi">Wi-Fi</string>
+    <string name="power_mode_internet">2G/3G</string>
+    <string name="power_mode_vibration">Вибрация</string>
+    <string name="power_mode_vibration_yes">Вибрация включена</string>
+    <string name="power_mode_vibration_no">Вибрация отключена</string>
+    <string name="power_mode_vibration_silence">В режиме \"Без звука\"</string>
+    <string name="power_mode_bluetooth">Bluetooth</string>
+    <string name="power_mode_synchronization">Синхронизация</string>
+    <string name="power_mode_gps">GPS</string>
+    <string name="power_mode_touch_with_vibration">Вибрация при нажатии</string>
+    <string name="power_mode_touch_with_ring">Звук при нажатии</string>
+    <string name="power_mode_airplane_mode">Режим \"В самолете\"</string>
+    <string name="power_mode_switch_on">Вкл</string>
+    <string name="power_mode_switch_off">Выкл</string>
+    <string name="power_dialog_cpu_state_title">Использование ЦП</string>
+    <string name="power_dialog_cpu_state_performance">Производительность</string>
+    <string name="power_dialog_cpu_state_performance_desc">Приоритет производительности над батареей</string>
+    <string name="power_dialog_cpu_state_balance">Баланс</string>
+    <string name="power_dialog_cpu_state_balance_desc">Увеличение производительности только по необходимости</string>
+    <string name="power_dialog_cpu_state_save">Экономия</string>
+    <string name="power_dialog_cpu_state_save_desc">Приоритет батареи над производительностью</string>
+    <string name="power_dialog_auto_clean_memory_title">Автоочистка памяти</string>
+    <string name="power_dialog_auto_clean_memory_summary">Очищать кэшированные процессы, которые потребляют заряд батареи в режиме блокировки</string>
+    <string name="power_dialog_sleep_title">Сон</string>
+    <string name="power_dialog_vibration_title">Вибрация</string>
+    <string name="power_dialog_screen_brightness_title">Яркость</string>
+    <string name="power_dialog_screen_brightness_automatic">Автояркость</string>
+    <string name="power_dialog_screen_brightness_automatic_off">Яркость экрана будет оставаться одинаковой при любом освещении</string>
+    <string name="power_dialog_screen_brightness_automatic_on">Яркость экрана будет изменяться в зависимости от освещения</string>
+    <string name="power_dialog_cancel">Отмена</string>
+    <string name="power_dialog_ok">ОК</string>
+    <string name="power_dialog_delete_dialog_title">Удалить режим</string>
+    <string name="power_dialog_delete_dialog_delete">Удалить выбранный режим?</string>
+    <string name="power_dialog_delete_dialog_cannot_delete_default">Невозможно удалить активный режим пользователя.</string>
+    <string name="power_dialog_delete_dialog_cannot_delete_low_battery">Невозможно удалить режим. \nТелефон настроен на переключение к этому режиму, когда батарея разряжена. \nНеобходимо изменить параметры перед удалением.</string>
+    <string name="power_dialog_delete_dialog_cannot_delete_on_time">Невозможно удалить режим. \nТелефон настроен на переключение к этому режиму по расписанию. \nНеобходимо изменить параметры перед удалением.</string>
+    <string name="power_save_choose_mode">Выбрать режим</string>
+    <string name="power_save_low_battery_title">Автопереключение</string>
+    <string name="power_save_low_battery_auto_save_title">Автопереключение</string>
+    <string name="power_save_low_battery_seekbar_title">Переключение режима, при заряде менее %1$d&#037;&#037;</string>
+    <string name="power_save_low_battery_option_title">Переключаться в режим</string>
+    <string name="power_save_low_battery_option_summary">Когда батарея зарядится, устройство вернется к недавнему режим</string>
+    <string name="power_save_low_battery_percentage_ten">10%</string>
+    <string name="power_save_low_battery_percentage_twenty">20%</string>
+    <string name="power_save_low_battery_percentage_thirty">30%</string>
+    <string name="power_save_low_battery_percentage_forty">40%</string>
+    <string name="power_save_low_battery_percentage_fifty">50%</string>
+    <string name="power_save_on_time_title">Расписание</string>
+    <string name="power_save_on_time_auto_save_title">По расписанию</string>
+    <string name="power_save_on_time_start_time_summary">Начало</string>
+    <string name="power_save_on_time_start_time_title">%1$d: %2$d</string>
+    <string name="power_save_on_time_end_time_summary">Окончание</string>
+    <string name="power_save_on_time_end_time_title">%1$d: %2$d</string>
+    <string name="power_save_on_time_option_title">В этот период</string>
+    <string name="power_save_on_time_option_summary">По окончанию периода, устройство вернется в недавний режим</string>
+    <string name="power_save_on_time_default_time">00:00</string>
+    <string name="power_consume_rank_title">Использование батареи</string>
+    <string name="power_consume_rank_software">Приложения</string>
+    <string name="power_consume_rank_hardware">Устройство</string>
+    <string name="power_consume_total_software">Приложения: %1$d%%</string>
+    <string name="power_consume_total_hardware">Устройство: %1$d%%</string>
+    <string name="power_consume_other">Прочее</string>
+    <string name="battery_desc_other_apps">Общая мощность, которая используется другими приложениями</string>
+    <string name="power_settings_title">Установить</string>
+    <string name="power_settings_category_title">Индикатор батареи</string>
+    <string name="power_settings_shape">Графический</string>
+    <string name="power_settings_number">Процентный</string>
+    <string name="power_settings_top">Полоса в статусбаре</string>
+    <!-- 新添加的字符串 -->
+    <string name="power_save_on_time_goout_title">Режим по окончании периода</string>
+    <string name="power_save_choose_recovery_mode">Режим</string>
+    <string name="power_new_choose_mode">Выбор режима</string>
+    <string name="power_save_low_battery_option_recovery_title">Режим при зарядке</string>
+    <string name="power_save_on_time_option_recovery_title">Режим по окончании периода</string>
+    <string name="power_dialog_delete_dialog_cannot_delete_low_out_battery">Невозможно удалить. \nТелефон использует этот режим во время зарядки. Необходимо изменить настройки экономии батареи перед удалением этого режима.</string>
+    <string name="power_dialog_delete_dialog_cannot_delete_on_out_time">Невозможно удалить. \nТелефон использует этот режим по окончании периода экономии батареи по расписанию. Необходимо изменить настройки экономии батареи перед удалением этого режима.</string>
+    <string name="power_mode_chooser_button_text">Применить</string>
+    <string name="power_20s_enter_mode">%1$dс до режима %2$s</string>
+    <string name="power_notify_lowbattery">Заряд менее %1$d%&#037;&#037;</string>
+    <string name="power_recovery_mode">Восстановлен режим %1$s</string>
+    <string name="power_subtitle_lowbattery">Энергосбережение при разряженной батарее</string>
+    <string name="power_subtitle_ontime">Энергосбережение по времени</string>
+    <string name="power_exitlowbattery_whencharge">Выход при зарядке</string>
+    <string name="power_button_delete">Удалить</string>
+    <string name="power_mode_my_mode">Свой режим</string>
+    <string name="power_mode_my_mode_summary">Пользовательский режим энергосбережения</string>
+    <string name="power_apply_toast">Переключиться в режим %s и автоматически сохранить свой режим</string>
+    <string name="power_customize_giveup_change">Не сохранять изменения?</string>
+
+    <!-- power usage details menus -->
+    <string name="menu_item_force_stop">Остановить</string>
+    <string name="menu_item_uninstall">Удалить</string>
+    <string name="menu_item_app_details">Информация</string>
+
+</resources>

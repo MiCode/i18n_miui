@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="opt_clean_garbage">Очищено %d Мб</string>
+    <string name="opt_killed_process">Остановлено процессов: %d</string>
+    <string name="opt_freed_ram">Освобождено памяти: %d Мб</string>
+    <string name="opt_virus_scan">Сканировать</string>
+    <string name="opt_disabled_autorun">Убрано приложений из автозапуска: %d</string>
+    <string name="opt_restore_perm">Восстановлено прав приложений: %d</string>
+    <string name="opt_progress_started">Оптимизация\u2026</string>
+    <string name="opt_progress_done">Готово</string>
+    <string name="opt_score_desc">%</string>
+    <string name="opt_score">83</string>
+    <string name="opt_done_desc">Завершено</string>
+    <string name="opt_cancel_desc">Отмена</string>
+    <string name="opt_resume_desc">Продолжить</string>
+    <string name="opt_state_running">Оптимизация\u2026</string>
+    <string name="opt_state_pause">Пауза</string>
+    <string name="opt_state_done">Завершено</string>
+    <string name="opt_garbage_size">Размер мусора:</string>
+    <string name="opt_scanning">Сканирование\u2026:</string>
+    <string name="opt_virus_suggest">Подозрительных файлов: %d. Рекомендуется проверить на наличие вирусов.</string>
+    <string name="opt_quickscan_ok">Система очищена</string>
+
+    <string name="opt_item_cache_clean">Очистка мусора</string>
+    <string name="opt_item_procs_clean">Управление процессами</string>
+    <string name="opt_item_file_scan">Сканирование файлов</string>
+    <string name="opt_item_autorun">Автозапуск</string>
+    <string name="opt_item_app_perm">Разрешения</string>
+    <string name="opt_waiting">Ожидание</string>
+</resources>

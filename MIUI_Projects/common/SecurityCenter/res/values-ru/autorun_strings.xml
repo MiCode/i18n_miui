@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="auto_startup_application_manage">Автозапуск</string>
+    <string name="auto_startup_count">Приложений с автозапуском: %d</string>
+    <string name="man_add_application">Добавить вручную</string>
+    <string name="application_item_disable">Запретить</string>
+    <string name="application_item_permission">Разрешить</string>
+    <string name="application_item_already_permission">Разрешено</string>
+    <string name="application_forbid_auto_startup">Запретить \"%s\" запуск в фоновом режиме</string>
+    <string name="floating_window_switch_label">Всплывающие окна</string>
+    <string name="floating_window_switch_label_disable">Скрыть всплыв.окна</string>
+    <string name="app_floating_window_dlg_enable">Для активации <xliff:g id="PACKAGE_NAME">%1$s</xliff:g> плавающих окон необходимо перезапустить приложение. Вы также можете вручную остановить приложение. \nВключить?</string>
+    <string name="app_floating_window_dlg_disable">Отключение <xliff:g id="PACKAGE_NAME">%1$s</xliff:g> плавающих окон приведет к принудительному закрытию приложения. Вы также можете вручную открыть приложение.\nОтключить?</string>
+    <string name="dlg_ok">ОК</string>
+    <string name="dlg_cancel">Отмена</string>
+</resources>

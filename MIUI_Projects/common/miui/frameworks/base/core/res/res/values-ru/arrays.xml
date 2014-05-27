@@ -238,14 +238,14 @@
     </string-array>
 
     <string-array name="alarm_in_future">
-        <item>Будильник менее чем через минуту </item>
-        <item>Будильник через <xliff:g id="DAYS" example="2 days">%1$s</xliff:g></item>
-        <item>Будильник через <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g></item>
-        <item>Будильник через <xliff:g id="DAYS" example="2 days">%1$s </xliff:g><xliff:g id="HOURS" example="2 hours">%2$s</xliff:g></item>
-        <item>Будильник через <xliff:g id="MINUTES" example="2 minutes">%3$s </xliff:g></item>
-        <item>Будильник через <xliff:g id="DAYS" example="2 days">%1$s </xliff:g><xliff:g id="MINUTES" example="2 minutes">%3$s </xliff:g></item>
-        <item>Будильник через <xliff:g id="HOURS" example="2 hours">%2$s </xliff:g><xliff:g id="MINUTES" example="2 minutes">%3$s </xliff:g></item>
-        <item>Будильник через <xliff:g id="DAYS" example="2 days">%1$s </xliff:g><xliff:g id="HOURS" example="2 hours">%2$s </xliff:g><xliff:g id="MINUTES" example="2 minutes">%3$s </xliff:g></item>
+        <item>Будильник зазвонит менее чем через минуту </item>
+        <item>Будильник зазвонит через <xliff:g id="DAYS" example="2 days">%1$s</xliff:g></item>
+        <item>Будильник зазвонит через <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g></item>
+        <item>Будильник зазвонит через <xliff:g id="DAYS" example="2 days">%1$s </xliff:g><xliff:g id="HOURS" example="2 hours">%2$s</xliff:g></item>
+        <item>Будильник зазвонит через <xliff:g id="MINUTES" example="2 minutes">%3$s </xliff:g></item>
+        <item>Будильник зазвонит через <xliff:g id="DAYS" example="2 days">%1$s </xliff:g><xliff:g id="MINUTES" example="2 minutes">%3$s </xliff:g></item>
+        <item>Будильник зазвонит через <xliff:g id="HOURS" example="2 hours">%2$s </xliff:g><xliff:g id="MINUTES" example="2 minutes">%3$s </xliff:g></item>
+        <item>Будильник зазвонит через <xliff:g id="DAYS" example="2 days">%1$s </xliff:g><xliff:g id="HOURS" example="2 hours">%2$s </xliff:g><xliff:g id="MINUTES" example="2 minutes">%3$s </xliff:g></item>
     </string-array>
 
     <string-array name="contact_entries">

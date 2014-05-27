@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">Безопасность</string>
+    <string name="action_settings">Настройки</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="optimize_now">Начать</string>
+    <string name="score">Статистика</string>
+    <string name="seventy">70</string>
+    <string name="valuation">Рекомендуется очистка</string>
+    <string name="virus_scan">Антивирус</string>
+    <string name="network_assistant">Трафик</string>
+    <string name="anti_spam">Антиспам</string>
+    <string name="permission_mgr">Разрешения</string>
+    <string name="cleaner">Очистка</string>
+    <string name="power_mgr">Батарея</string>
+    <string name="quick_cleanup">Очистка</string>
+
+    <!-- #################### main begin #################### -->
+    <string name="protection_adb">USB отладка </string>
+    <string name="protection_perm">Настройки разрешений </string>
+    <string name="protection_sms">Фильтр SMS </string>
+    <string name="start_checking_protection">Начата проверка защиты...</string>
+    <string name="finish_checking_protection">Окончена проверки защиты...</string>
+    <string name="start_checking_memory">Начата проверка состояния памяти...</string>
+    <string name="finish_checking_memory">Окончена проверки состояния памяти...</string>
+    <string name="start_checking_trash">Начата проверка кэша...</string>
+    <string name="finish_checking_trash">Окончена проверки кэша...</string>
+    <string name="checking">"Проверка "</string>
+    <string name="start_optimize_protection">Начата оптимизация защиты...</string>
+    <string name="finish_optimize_protection">Окончена оптимизации защиты...</string>
+    <string name="start_optimize_memory">Начата оптимизация мусора приложений...</string>
+    <string name="finish_optimize_memory">Окончена оптимизация мусора приложений...</string>
+    <string name="start_optimize_trash">Начата оптимизация кэша...</string>
+    <string name="finish_optimize_trash">Окончена оптимизации кэша...</string>
+    <string name="optimizing">Оптимизация </string>
+    <!-- #################### main end #################### -->
+
+
+    <!-- #################### virus scanner begin #################### -->
+    <string name="virus_scanner_title">Антивирус</string>
+    <string name="virus_scanner_scanning">Сканирование&#8230;</string>
+    <string name="virus_scanner_scan">Сканировать</string>
+    <string name="virus_scanner_select_lib">Выбрать базу антивируса</string>
+    <string name="virus_scanner_select_trust_lib">Выбрать базу антивируса</string>
+    <string name="virus_scanner_update_lib">Обновить вирусную базу</string>
+    <string name="virus_scanner_select_multi">Выбор более одной базы сделает медленным процесс установки и сканирования.</string>
+    <string name="virus_scanner_select_single">Рекомендуется выбрать антивирусную базу из доверенного источника.</string>
+    <string name="virus_scanner_provider">Вирусную защиту обеспечивает Tencent</string>
+    <string name="virus_scanner_module">Tencent</string>
+    <string name="virus_scanner_auto_update"> Автообновление </string>
+    <string name="virus_scanner_date_formater">d MMMM yyyy</string>
+    <string name="virus_scanner_manual_update"> Обновлено %s </string>
+    <string name="virus_scanner_lib_updating">Обновление&#8230;</string>
+    <string name="virus_scanner_lib_already_latest">Вы используете последнюю вирусную базу.</string>
+    <string name="virus_scan_app_safe_scanning">Сканирование&#8230;</string>
+    <string name="virus_scan_app_multi_engines">Вы используете более одной вирусной базы. Сканирование займет больше времени</string>
+    <string name="virus_scan_app_scanning">Сканирование#8230;</string>
+    <string name="virus_scan_app_waiting"> Ожидание#8230;</string>
+    <string name="virus_scan_app_passed">Сканирование завершено</string>
+    <string name="virus_scan_app_risk">Найдены угрозы</string>
+    <string name="virus_scan_app_stop">Остановить</string>
+    <string name="virus_scan_app_solve">Проверить все</string>
+    <string name="virus_scan_app_finish">Сканирование завершено</string>
+    <string name="virus_scan_app_continue">Продолжить сканирование</string>
+    <string name="virus_scan_app_uninstall">Удалить (%d)</string>
+    <string name="virus_scan_app_force_stop">Сканирование остановлено</string>
+    <string name="virus_scan_app_find_risk">Найдено угроз: %d</string>
+    <string name="virus_scan_app_scan_finish">Сканирование завершена</string>
+    <string name="virus_scan_app_no_risk">Угроз не найдено</string>
+    <!-- #################### virus scan end #################### -->
+
+
+    <!-- #################### anti-spam begin #################### -->
+    <!-- Added for firewall -->
+    <string name="firewall_settings_tab_title">Правила</string>
+    <string name="black_white_list_tab_title">Фильтры</string>
+    <string name="call_log_tab_title">Журнал вызовов</string>
+    <string name="mms_log_tab_title">Журнал сообщений</string>
+    <string name="fw_blacklist">Черный список</string>
+    <string name="fw_whitelist">Белый список</string>
+    <string name="enable_firewall">Блокировка нежелательных звонков</string>
+    <string name="fw_action_settings">Настройка фильтров</string>
+    <string name="fw_time_settings">Расписание</string>
+    <string name="fw_start_time">Начало</string>
+    <string name="fw_end_time">Окончание</string>
+    <string name="fw_all_day">Ежедневно</string>
+    <string name="fw_period">Установить время</string>
+    <string name="fw_advanced_settings">Дополнительные настройки блокировки</string>
+    <string name="anti_stranger_title">Блокировка вызовов от неизвестных номеров</string>
+    <string name="anti_stranger_summary">Блокировать вызовы от номеров не из контактов</string>
+    <string name="anti_private_title">Блокировать приватные номера</string>
+    <string name="anti_private_summary">Блокировать приватные или скрытые номера</string>
+    <string name="fw_keyword_filter">Ключевые слова</string>
+    <string name="fw_keyword_filter_summary">Блокировать сообщения, содержащие ключевые слова</string>
+    <string name="fw_set_keyword">Настройка ключевых слов</string>
+    <string name="fw_notification_settings">Настройка уведомлений</string>
+    <string name="show_firewall_notification">Уведомления блокировок</string>
+    <string name="show_notification">Уведомления</string>
+    <string name="opt_reject_blacklist">Отклонять вызовы от номеров из черного списка</string>
+    <string name="opt_reject_blacklist_stranger">Отклонять вызовы от неизвестных номеров из черного списка</string>
+    <string name="opt_reject_blacklist_stranger_summary">Вызовы от номеров из черного списка будут автоматически отклонены</string>
+    <string name="opt_accept_whitelist">Принимать вызовы из белого списка</string>
+    <string name="opt_reject_all">Отклонять все вызовы</string>
+
+    <!-- actions -->
+    <string name="firewall_action">Действие при блокировке</string>
+    <string name="act_call">Переадресация вызовов</string>
+    <string name="act_hangup_call">Не сохранять переадресованные</string>
+    <string name="act_hangup_call_summary">Переадресованные вызовы не будут отображаться в списке вызовов</string>
+    <string name="act_mute_call">Нежелательные вызовы без звука</string>
+    <string name="act_mute_call_summary">Входящие вызовы из черного списка будут поступать без уведомлений и будут сохраняться в списке вызовов</string>
+    <string name="act_ignore_call">Не сохранять нежелательные вызовы</string>
+    <string name="act_action_reject_reject">Переадресация вызовов и сообщений</string>
+    <string name="act_action_reject_mute">Переадресация вызовов и сообщения без звука</string>
+    <string name="act_action_reject_accept">Переадресация вызовов</string>
+    <string name="act_action_mute_reject">Вызовы без звука и переадресация сообщений</string>
+    <string name="act_action_mute_mute">Вызовы и сообщения без звука</string>
+    <string name="act_action_mute_accept">Вызовы без звука</string>
+    <string name="act_action_accept_reject">Переадресация сообщений</string>
+    <string name="act_action_accept_mute">Сообщения без звука</string>
+    <string name="act_action_accept_accept">Применить</string>
+    <string name="act_ms">Журнал сообщений</string>
+    <string name="act_del_ms">Не отображать</string>
+    <string name="act_del_ms_summary">Не отображать заблокированные сообщения</string>
+    <string name="act_mute_ms">Отключить уведомления</string>
+    <string name="act_mute_ms_summary">Уведомления отключены, но сообщения будут видимы в списке диалогов</string>
+    <string name="act_ignore_ms">Игнорировать уведомления</string>
+    <string name="fw_menu_new_blacklist_title">В черный список</string>
+    <string name="fw_menu_new_whitelist_title">В белый список</string>
+    <string name="fw_menu_new_manual">Добавить номер</string>
+    <string name="fw_add_list_title">Введите номер телефона</string>
+    <string name="fw_menu_pick_from_contact">Выбрать из контактов</string>
+    <string name="fw_menu_remove">Удалить</string>
+    <string name="confirm">ОК</string>
+    <string name="no">Отмена</string>
+    <string name="fw_clear_blacklist">Очистить черный список</string>
+    <string name="fw_clear_whitelist">Очистить белый список</string>
+    <string name="fw_restore_ms">Восстановить сообщения</string>
+    <string name="fw_ms">Время сообщения: <xliff:g>%s</xliff:g> (<xliff:g>%d</xliff:g>)</string>
+    <string name="fw_call">Время вызова: <xliff:g>%s</xliff:g> (<xliff:g>%d</xliff:g>)</string>
+    <string name="fw_import_blacklist">Импорт черного списка</string>
+    <string name="fw_import_whitelist">Импорт белого списка</string>
+    <string name="fw_import_blacklist_confirm">Добавить выбранные номера (%d) в черный список?</string>
+    <string name="fw_import_whitelist_confirm">Добавить выбранные номера (%d) в белый список?</string>
+    <string name="fw_blacklist_hint">Вызовы и сообщения будут заблокированы по умолчанию</string>
+    <string name="fw_whitelist_hint">Вызовы и сообщения не будут заблокированы по умолчанию</string>
+    <string name="fw_no_effect">Режим \"Гость\" отключен. Включить сейчас?</string>
+    <string name="fw_call_muted">Вызов без звука.</string>
+    <string name="fw_call_rejected">Вызов переадресован.</string>
+    <string name="fw_call_imported">Импорт журнала вызовов</string>
+    <string name="fw_ms_muted">Сообщение без звука.</string>
+    <string name="fw_ms_rejected">Сообщение отклонено.</string>
+    <string name="fw_ms_filtered">Сообщение отфильтровано.</string>
+    <string name="fw_ms_imported">Сообщение импортировано.</string>
+    <string name="fw_keyword_list">Ключевые слова</string>
+    <string name="fw_keyword_list_hint">Сообщения, содержащие ключевые слова, будут заблокированы</string>
+    <string name="menu_edit">Изменить</string>
+    <string name="fw_add_keyword">Добавить слово</string>
+    <string name="fw_edit_keyword">Редактировать слово</string>
+    <string name="fw_clear_all_keyword">Очистить ключевые слова</string>
+    <string name="fw_add_keyword_existing">Ключевое слово \"%s\" уже существует</string>
+
+    <!-- Added by Libra -->
+    <string name="member_firewall_log">Заблокировано: <xliff:g id="tel_count">%d</xliff:g> | Информация: <xliff:g id="ms_count">%d</xliff:g></string>
+    <string name="clear_all_calllog">Очистить журнал вызовов</string>
+    <string name="clear_all_mslog">Очистить журнал сообщений</string>
+    <string name="calllog">Журнал вызовов</string>
+    <string name="firewall_log">Журнал блокировки</string>
+    <!-- reasons -->
+
+
+    <!-- notification -->
+    <string name="fw_on">Режим \"Не беспокоить\" включен</string>
+    <string name="fw_blocked">Журнал блокировок</string>
+    <string name="fw_blocked_count">Заблокировано вызовов: <xliff:g id="opt">%d</xliff:g> | Сообщений: <xliff:g id="opt">%d</xliff:g></string>
+    <string name="firewall_settings">Настройки режима \"Не беспокоить\"</string>
+    <string name="remove">Удалить</string>
+    <string name="emptylist_fwlog_call">Заблокированные вызовы будут храниться в этом журнале</string>
+    <string name="emptylist_fwlog_ms">Заблокированные сообщения и будут храниться в этом журнале</string>
+    <string name="add_button">Добавить</string>
+    <string name="save_button">Сохранить</string>
+    <string name="cancel_button">Отмена</string>
+    <string name="add_blacklist">В черный список</string>
+    <string name="add_whitelist">В белый список</string>
+    <string name="edit_blacklist">Изменить заметку</string>
+    <string name="edit_whitelist">Изменить заметку</string>
+    <string name="fw_notes_hint">Заметка (не обязательно)</string>
+    <string name="number_add_hint">Введите номер</string>
+    <string name="fw_in_blacklist">\"%s\" уже в черном списке.</string>
+    <string name="fw_in_whitelist">\"%s\" уже в белом списке.</string>
+    <string name="fw_import_ms">Импорт журнала вызовов и сообщений</string>
+    <string name="confirm_clear_blacklist">Очистить черный список?</string>
+    <string name="confirm_clear_whitelist">Очистить белый список?</string>
+    <string name="context_call">Вызов</string>
+    <string name="context_ms">Отправить SMS</string>
+    <string name="context_new_contact">Новый контакт</string>
+    <string name="context_add_contact">Добавить к контакту</string>
+    <string name="check_all">" Выбрать все "</string>
+    <string name="check_nothing">" Снять выбор "</string>
+    <string name="close_rule">Отключить блокировку</string>
+    <string name="fw_log_inf">Журнал</string>
+    <string name="remove_contact">Удалить контакт?</string>
+    <string name="remove_inf">Удалить информацию?</string>
+    <string name="remove_sms">Очистить журнал сообщений?</string>
+    <string name="remove_call_log">Очистить журнал вызовов?</string>
+    <string name="remove_keyword">Удалить ключевое слово?</string>
+    <string name="remove_all_keywords">Удалить все ключевые слова?</string>
+    <string name="remove_delete">Удалить</string>
+
+    <!-- Added from V5 -->
+    <!-- Tab -->
+    <string name="blacklist_tab_title">Черный список</string>
+    <string name="whitelist_tab_title">Белый список</string>
+    <string name="log_count">(%d)</string>
+    <string name="new_bw_list_button">Добавить контакт</string>
+
+    <!-- Add for mark -->
+    <string name="mark_number_dialog_maintitle">Блокировать номер и отметить</string>
+    <string name="mark_number_dialog_subtitle">Разработано совместно с Sogou</string>
+    <string name="custom_mark_category">Своя метка</string>
+    <string name="smart_antispam">Определение неизвестных номеров</string>
+    <string name="turn_on_smart_antispam_hint">Определение нежелательных вызовов</string>
+    <string name="turn_on_smart_antispam_title">Определение неизвестных номеров</string>
+    <string name="turn_on_smart_antispam_summary_on">Доступно только при подключении к Wi-Fi или 3G сети</string>
+    <string name="turn_on_smart_antispam_summary_off">Использовать локальную базу номеров</string>
+    <!-- #################### anti-spam end #################### -->
+
+</resources>

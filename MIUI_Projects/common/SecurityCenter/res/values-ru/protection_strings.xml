@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="protection_category_dangerous_title">С риском (%d)</string>
+    <string name="protection_category_recommend_title">Для оптимизации (%d)</string>
+    <string name="protection_category_security_title">Для очистки (%d)</string>
+    <string name="title_virus_no">Найдены вирусы</string>
+    <string name="title_virus_yes">Вирусы не найдены</string>
+    <string name="summary_virus">Найдено вирусов: %2$d</string>
+    <string name="title_permission_no">Монитор разрешений выключен</string>
+    <string name="title_permission_yes">Монитор разрешений включен</string>
+    <string name="summary_permission">Защита личных данных от сторонних приложений</string>
+    <string name="title_mms_no">Фильтр сообщений выключен</string>
+    <string name="title_mms_yes">Фильтр сообщений включен</string>
+    <string name="summary_mms">Фильтр нежелательных сообщений (продажи, рекламы и т.д.)</string>
+    <string name="title_usb_no">USB отладка включена</string>
+    <string name="title_usb_yes">USB отладка выключена</string>
+    <string name="summary_usb">Избегайте вирусов, которые распространяются по USB соединению</string>
+    <string name="title_virus_update_no">Автообновление базы вирусов выключено</string>
+    <string name="title_virus_update_yes">Автообновление базы вирусов включено</string>
+    <string name="summary_virus_update">Автообновление базы вирусов, при подключении к сети Wi-Fi</string>
+    <string name="title_install_virus_no">Монитор установки выключен</string>
+    <string name="title_install_virus_yes">Монитор установки включен</string>
+    <string name="summary_install_virus">Проверка приложений на вирусы перед установкой</string>
+    <string name="title_miui_update_no">Найдено обновление: %s</string>
+    <string name="title_miui_update_yes">Нет обновлений</string>
+    <string name="title_app_update_no">Приложений с обновлениями: %d</string>
+    <string name="title_app_update_yes">Все приложения обновлены</string>
+    <string name="title_data_flow_no">Монитор трафика выключен</string>
+    <string name="title_data_flow_yes">Монитор трафика включен</string>
+    <string name="title_show_notification_yes">Виджет в панели уведомлений включен</string>
+    <string name="title_show_notification_no">Виджет в панели уведомлений выключен</string>
+    <string name="button_text_fix">Исправить</string>
+    <string name="button_text_view">Просмотр</string>
+    <string name="button_text_security">Безопасность</string>
+
+    <!-- ############ -->
+    <string name="item_virus">Вирус</string>
+    <string name="item_usb_debug">USB отладка</string>
+    <string name="item_virus_lib">Автообновление базы вирусов</string>
+    <string name="item_install_monitor">Монитор установки</string>
+    <string name="item_app_permission">Разрешения приложений</string>
+    <string name="item_mms">Фильтр нежелательных сообщений</string>
+
+</resources>
