@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- msd driver -->
+    <string-array name="msd_pc_system_install_start_summary">
+        <item>Для Windows XP и ранних версий,\nдрайвер следует установить вручную</item>
+        <item>Для Windows Vista или версий новее,\nмузыкальный проигрыватель появится на вашем компьютере автоматически</item>
+        <item>Для Mac OS X,\nдрайвер следует установить вручную</item>
+        <item></item>
+    </string-array>
+
+    <string-array name="msd_pc_system_install_step_2_summary">
+        <item>2.Память телефона отобразится на вашем компьютере как медиа-устройство.\nБудет возможна передача файлов.</item>
+        <item></item>
+        <item>Компьютер автоматически откроет и считает файлы из памяти телефона.\nБудет возможна передача файлов.</item>
+        <item></item>
+    </string-array>
+
+    <string-array name="msd_pc_system_install_finish_summary">
+        <item>Если вы установите этот драйвер, память телефона появится на компьютере.</item>
+        <item>В Windows Vista или версиях новее, музыкальный проигрыватель появится на вашем компьютере автоматически.</item>
+        <item>Если вы установите этот драйвер, компьютер автоматически откроет и прочитает память телефона.</item>
+        <item></item>
+    </string-array>
+</resources>

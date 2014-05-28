@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- SIM password can't be changed as SIM LOCK is not enabled: -->
+    <string name="sim_pin_change_failed_enable_sim_lock">Не удается изменить SIM/RUIM PIN. \nВключена блокировка SIM/RUIM.</string>
+    <!-- SIM lock can't be changed - not supported -->
+    <string name="sim_enable_disable_lock_not_supported">Не удается изменить блокировку SIM/RUIM. \nSIM/RUIM не поддерживается.</string>
+    <!-- SIM card lock settings screen, toast displayed on wrong PIN1: -->
+    <string name="sim_pin_attempts">\nОсталось попыток:</string>
+
+    <string name="sim_enter_pin_hints">(4-8 цифр)</string>
+    <string name="gemini_data_connection">Передача данных</string>
+    <string name="gemini_sim_info_editor_name">Изменить имя SIM-карты</string>
+    <string name="gemini_sim_info_editor_name_dup_title">Ошибка сохранения</string>
+    <string name="gemini_sim_info_editor_name_dup_msg">Такое имя уже существует</string>
+    <string name="gemini_sim_info_editor_number">Введите номер телефона</string>
+    <string name="gemini_no_sim_indicator">Нет SIM-карты</string>
+    <!-- Strings for SIM management begin-->
+    <string name="gemini_sim_management_title">Управление SIM-картой</string>
+    <string name="gemini_sim_info_title">Информация о SIM-карте</string>
+    <string name="sim_status_summary">Информация о SIM-карте</string>
+    <string name="gemini_default_sim_title">Настройки по умолчанию</string>
+    <string name="gemini_general_settings_title">Общие настройки</string>
+    <string name="gemini_roaming_settings_title">Роуминг</string>
+    <string name="gemini_data_roaming_title">Данные в роуминге</string>
+    <string name="gemini_data_roaming_summary">Использование передачи данных в роуминге</string>
+    <string name="enable_sim">Включить</string>
+    <string name="sim_lock">Заблокировано</string>
+    <!-- Dual sim settings activate progress message string -->
+    <string name="gemini_sim_mode_progress_activating_message">Активация\u2026</string>
+    <!-- Dual sim settings deactivate progress message string -->
+    <string name="gemini_sim_mode_progress_deactivating_message">Деактивация\u2026</string>
+    <string name="sim_radio_off">Не активировано</string>
+    <string name="set_mobile_data_failed">Ошибка установки</string>
+    <string name="mobile_data_switching_message">Переключение передачи данных\u2026</string>
+    <string name="ct_mobile_data_hints">Невозможно использовать передачу данных на второй SIM-карте при активной передаче данных на первой.</string>
+</resources>
