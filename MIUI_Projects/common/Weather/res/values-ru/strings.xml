@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Погода</string>
+
+    <string name="weather_notification">Уведомления погоды</string>
+    <string name="location_notification">Уведомления погоды</string>
+    <string name="enable_notification">Уведомления о местоположении</string>
+    <string name="enable_notification_summary">Уведомлять при изменении погоды</string>
+    <string name="enable_notification_city">Уведомление погоды включено для %s</string>
+
+    <string name="sms_notification">Поделиться</string>
+    <string name="send_sms_notification">Отправка погоды</string>
+    <string name="send_sms_notification_summary">Отправить сегодняшний прогноз погоды по SMS</string>
+
+
+    <string name="location_management">Местоположение</string>
+    <string name="enable_gps">GPS</string>
+    <string name="add_city">Добавить город</string>
+    <string name="cancel">Отмена</string>
+    <string name="menu_send_sms">Отправить</string>
+
+
+    <string name="app_love_sms_title">Сообщение</string>
+    <string name="app_love_view_title">Просмотр</string>
+    <string name="app_love_font_lng">%s</string>
+
+    <string name="network_unavailable">"Ошибка подключения. Сеть недоступна."</string>
+    <string name="weather_data_unreachable">"Не удалось получить данные погоды. Повторите запрос позже."</string>
+    <string name="app_unquiet_net">Соединение нестабильно</string>
+
+    <string name="widget_loading">Нет данных о погоде</string>
+
+    <string name="act_find_city_hot_title">Популярные города</string>
+    <string name="act_find_city_title">Добавить город</string>
+    <string name="act_find_city_null_data">Нет результатов</string>
+    <string name="act_find_city_hint">Поиск (На английском)</string>
+
+    <string name="act_set_city_find_side_on">Открыть определение местоположения</string>
+    <string name="act_set_city_find_side">Обнаружение местоположения\u2026</string>
+    <string name="local_city"></string>
+    <string name="act_set_city_re_find_side">Определение местоположения\u2026</string>
+    <string name="act_set_city_find_side_error">Не удалось определить местоположение</string>
+    <string name="act_city_find_gps_error">Выберите город вручную</string>
+    <string name="act_weather_main_data_null">Нет данных о погоде, нажмите для обновления</string>
+
+    <string name="act_weather_cycle_update">Обновление\u2026</string>
+    <string name="act_weather_update_time">Обновлено: %s</string>
+
+    <string name="act_weather_cycle_low_temp">низкая</string>
+
+    <string name="act_weather_range_title">Прогноз погоды</string>
+    <string name="act_weather_range_select">Выберите город</string>
+
+    <string name="menu_around">Окрестности</string>
+    <string name="menu_location">Города</string>
+    <string name="menu_notification">Уведомления</string>
+    <string name="menu_reload">Обновить</string>
+    <string name="menu_reloading">Обновление\u2026</string>
+    <string name="menu_share">Поделиться</string>
+    <string name="menu_main">Индекс</string>
+    <string name="menu_trend">График</string>
+    <string name="menu_settings">Настройки</string>
+    <string name="menu_about">О приложении</string>
+
+    <string name="share_weather_title">Поделиться данными о погоде</string>
+    <string name="share_button_text">Поделиться</string>
+    <string name="share_choice_titile">Complete action using</string>
+
+    <string name="share_content">Погода MIUI</string>
+    <string name="share_weather_content">Погода в %1$s: %2$s, %3$s, %4$s. %5$s.</string>
+    <string name="share_aqi_content">Кач-во воздуха в %1$s: %2$s, %3$s. %4$s %5$s.</string>
+    <string name="save_screen_shot_failed">"Не удалось сделать скриншот"</string>
+
+    <string name="trend_weather_today">Сегодня</string>
+    <string name="trend_weather_tomorrow">Завтра</string>
+
+    <string name="settings_weather_title">Настройки</string>
+    <string name="settings_weather_animation">Анимация погоды</string>
+    <string name="settings_weather_play_ani_title">Воспроизвести анимацию</string>
+    <string name="settings_weather_play_ani_summary">Показывать анимацию на главном экране</string>
+    <string name="settings_weather_about">О приложении</string>
+    <string name="settings_weather_pre_title">Погода</string>
+    <string name="settings_weather_preview">Просмотр анимации погоды</string>
+
+    <string name="menu_delete">Удалить</string>
+    <string name="selected_format">Выбрано: %d</string>
+    <string name="alert_title_delete">Удалить</string>
+    <string name="alert_message_delete">Выбранные города (%d) будут удалены.</string>
+
+    <string name="send_weather_sms_cycle">%1$s прогноз погоды: %2$s</string>
+    <string name="send_weather_sms_main">%1$s %2$s, %3$s %4$s %5$s</string>
+    <string name="send_weather_sms_error">Нет данных о погоде</string>
+
+    <string name="tip_weather">Уведомления погоды</string>
+    <string name="tip_weather_info_title_1">%1$s ожидаемая разница в температуре %2$d градусов</string>
+    <string name="tip_weather_info_content_1">Выходя на улицу, одевайте подходящую одежду!</string>
+    <string name="tip_weather_info_title_2">%1$s: %2$s</string>
+
+    <string name="alert_provider_title">Уведомление о местоположении</string>
+    <string name="alert_provider_message">Разрешить определение местоположения по мобильной сети?</string>
+    <string name="button_allow">Разрешить</string>
+    <string name="button_not_allow">Запретить</string>
+    <string name="location_allow_err">Невозможно определить местоположение</string>
+
+    <string name="format_date_wmd">d MMMM EEE</string>
+    <string name="format_date_md">d MMMM kk:mm</string>
+    <string name="format_date_week">EEE</string>
+    <string name="format_date_trend_md">d MMM</string>
+
+    <string name="act_weather_aqi_title">Индекс чистоты воздуха</string>
+    <string name="act_weather_main_aqi_index">Чистота воздуха: %s</string>
+
+    <string name="act_weather_aqi_share">Поделиться</string>
+    <string name="aqi_quality_index_pure">отлично</string>
+    <string name="aqi_quality_index_good">хорошо</string>
+    <string name="aqi_quality_index_moderate">умеренный</string>
+    <string name="aqi_quality_index_light_pollution">легкое загрязнение</string>
+    <string name="aqi_quality_index_unhealthy">вредный</string>
+    <string name="aqi_quality_index_dangerous">опасный</string>
+    <string name="aqi_quality_index_hazardous">зараженный</string>
+    <string name="aqi_quality_index_break">Упс!</string>
+
+    <string name="aqi_details_good">Отличный день, чтобы провести его на открытом воздухе.</string>
+    <string name="aqi_details_fine">Чувствительных людей необходимо ограничить от длительных или тяжелых нагрузок.</string>
+    <string name="aqi_details_light_pollution">Люди с заболеваниями сердца или легких, а также пожилые, взрослые и дети должны меньше подвергать себя длительным и тяжелым нагрузкам.</string>
+    <string name="aqi_details_unhealthy">Уменьшите длительные и тяжелые нагрузки.</string>
+    <string name="aqi_details_dangerous">Избегайте длительные и тяжелые нагрузки.</string>
+    <string name="aqi_details_hazardous">Оставайтесь в помещении и снизьте уровень активности.</string>
+
+    <string name="act_aqi_pm25_title">PM2.5</string>
+    <string name="act_aqi_pm10_title">PM10</string>
+    <string name="act_aqi_so2_title">SO2</string>
+    <string name="act_aqi_no2_title">NO2</string>
+
+    <string name="first_start_network_toast_text">Для получения информации о погоде подключитесь к интернету.</string>
+    <string name="act_weather_find_city_search_online">"Нажмите для поиска "</string>
+    <string name="act_weather_find_city_connect_net">Проверьте подключение и попробуйте еще раз.</string>
+    <string name="weather_unit">°</string>
+    <string name="weather_unit_middle">~</string>
+    <string name="weather_unit_with_c">℃</string>
+    <string name="act_weather_find_city_searching">Поиск\u2026</string>
+    <string name="act_init_dialog_finish">Добавлена глобальная информация о погоде.</string>
+    <string name="loading_weather">Загрузка\u2026</string>
+    <string name="act_weather_cycle_link_china">WeatherChina</string>
+    <string name="menu_add">Добавить</string>
+    <string name="menu_more">Информация</string>
+    <string name="act_aqi_src_port">%1$s%2$s\u0020\u0020%3$s</string>
+    <array name="send_item">
+        <item>SMS</item>
+        <item>E-mail</item>
+    </array>
+
+    <array name="act_weather_main_listview_json_key">
+        <item>wind1</item>
+        <item>紫外线指数</item>
+        <item>穿衣指数</item>
+        <item>舒适度指数</item>
+        <item>洗车指数</item>
+        <item>晾晒指数</item>
+        <item>晨练指数</item>
+        <item>旅游指数</item>
+    </array>
+
+    <array name="act_weather_main_listview_key">
+        <item>Скорость ветра:</item>
+        <item>UV индекс:</item>
+        <item>Одежда:</item>
+        <item>Комфорт:</item>
+        <item>Мойка машины:</item>
+        <item>Влажность:</item>
+        <item>Утренние упражнения:</item>
+        <item>Досуг:</item>
+    </array>
+
+    <array name="weather_image">
+        <item>Ясно</item>0  晴
+        <item>Облачно</item>1  多云
+        <item>Hazy</item>2  阴
+        <item>Foggy</item>3  雾
+        <item>Severe rain storms</item>4  特大暴雨
+        <item>Rain storm</item>5  大暴雨
+        <item>Heavy rainfall</item>6  暴雨
+        <item>Гроза</item>7  雷阵雨
+        <item>Showers</item>8  阵雨
+        <item>Heavy rainfall</item>9  大雨
+        <item>Rain</item>0  中雨
+        <item>Drizzle</item>1  小雨
+        <item>Sleet</item>2  雨夹雪
+        <item>Blizzard</item>3   暴雨
+        <item>Patches of snowfall</item>4  阵雪
+        <item>Heavy snowfall</item>5  大雪
+        <item>Snowfall</item>6  中雪
+        <item>Light snowfall</item>7  小雪
+        <item>Strong sand storm</item>8  强沙尘暴
+        <item>Sand storm</item>9  沙尘暴
+        <item>Light sand storms</item>0  沙尘
+        <item>Sand storm</item>1  扬沙
+        <item>Hail</item>2  冰雹
+        <item>Dust</item>3  浮尘
+        <item>Haze</item>4  霾
+    </array>
+
+    <array name="weather_details_key">
+       <item>Unavailable</item>0 暂缺
+       <item>Suitable</item>1 适宜
+       <item>Good</item>2 较适宜
+       <item>Avoid if possible</item>3 较不宜
+       <item>Not recommended</item>4 不宜
+       <item>Ideal</item>5 极适宜
+       <item>Moderate</item>6 中等
+       <item>Weak</item>7 最弱
+       <item>Medium</item>8 弱
+       <item>Strong</item>9 强
+
+       <item>Very strong</item>0 很强
+       <item>Cool</item>1 凉
+       <item>Comfortable</item>2 舒适
+       <item>Very hot</item>3 炎热
+       <item>Hot</item>4 热
+       <item>Warm</item>5 暖
+       <item>Cool</item>6 温凉
+       <item>Cooler</item>7 气温较低
+       <item>Cold</item>8 冷
+       <item>Freezing</item>9 寒冷
+
+       <item>High</item>0 较舒适
+       <item>Middle</item>1 舒适
+       <item>Low</item>2 较不舒适
+       <item>Clear skies</item>3 很不舒适_晴
+       <item>Cloudy</item>4 很不舒适_阴
+       <item>Rain</item>5 不宜_雨
+       <item>Sand storm</item>6 不宜_沙尘
+       <item>Snow</item>7 不宜_雪
+       <item>Relatively suitable</item>8 基本适宜
+       <item>Suitable conditions</item>9 适宜_晴
+
+       <item>Cloudy</item>0 适宜_多云
+       <item>Less than ideal</item>1 不太适宜
+       <item>Ideal conditions</item>2 很适宜
+       <item>Poor conditions</item>3 不适宜
+       <item>Average conditions</item>4 一般
+    </array>
+
+    <array name="weather_image_tips">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>Не забудьте взять с собой зонтик!</item>
+        <item>Не забудьте взять с собой зонтик!</item>
+        <item>Не забудьте взять с собой зонтик!</item>
+        <item>Не забудьте взять с собой зонтик!</item>
+        <item>Не забудьте взять с собой зонтик!</item>
+        <item>Не забудьте взять с собой зонтик!</item>
+        <item>Не забудьте взять с собой зонтик!</item>
+        <item>Не забудьте взять с собой зонтик!</item>
+        <item>Не забудьте взять с собой зонтик!</item>
+        <item>Не забудьте одеться потеплее!</item>
+        <item>Не забудьте одеться потеплее!</item>
+        <item>Не забудьте одеться потеплее!</item>
+        <item>Не забудьте одеться потеплее!</item>
+        <item>Не забудьте одеться потеплее!</item>
+        <item>Будьте осторожны снаружи!</item>
+        <item>Будьте осторожны снаружи!</item>
+        <item>Будьте осторожны снаружи!</item>
+        <item>Будьте осторожны снаружи!</item>
+        <item>Будьте осторожны! Дороги скользкие.</item>
+    </array>
+
+    <array name="weather_sms_content">
+        <item>Не забудьте нанести солнцезащитный крем.</item>
+        <item>Сегодня будет облачно.</item>
+        <item>Постарайтесь оставаться дома.</item>
+        <item>Водите с осторожностью.</item>
+        <item>Не забудьте взять с собой зонтик!</item>
+        <item>Не забудьте взять с собой зонтик!</item>
+        <item>Не забудьте взять с собой зонтик!</item>
+        <item>Не забудьте взять с собой зонтик!</item>
+        <item>Не забудьте взять с собой зонтик!</item>
+        <item>Не забудьте взять с собой зонтик!</item>
+        <item>Не забудьте взять с собой зонтик!</item>
+        <item>Не забудьте взять с собой зонтик!</item>
+        <item>Не забудьте взять с собой зонтик!</item>
+        <item>It\'s really coming down out there!</item>
+        <item>Не забудьте надеть шапку и шарф.</item>
+        <item>Укутайтесь!</item>
+        <item>Не забудьте надеть шапку и шарф!</item>
+        <item>Не забудьте надеть шапку и шарф!</item>
+        <item>Не забудьте надеть маску.</item>
+        <item>Не забудьте надеть маску.</item>
+        <item>Не забудьте надеть маску.</item>
+        <item>Не забудьте надеть маску.</item>
+        <item>It\'s really coming down out there!</item>
+        <item>Не забудьте надеть маску.</item>
+        <item>Постарайтесь оставаться дома.</item>
+    </array>
+
+    <array name="weather_sms_addons">
+        <item>"Погода сегодня в @: $."</item>0
+        <item>Температура: % градусов.</item>0
+        <item>Не забудьте взять с собой зонтик!</item>1
+        <item>Постарайтесь оставаться сухим!</item>2
+        <item>Если вы сушите белье на улице, не забудьте забрать его!</item>3
+        <item>При возможности, не садитесь за руль.</item>4
+        <item>Водите осторожно!</item>5
+        <item>Будьте осторожны, на улице скользко.</item>6
+        <item>Не торопитесь. Будьте осторожны снаружи.</item>7
+        <item>Будьте осторожны на улице.</item>8
+        <item>Без необходимости не выходите на улицу.</item>9
+        <item>Наденьте солнцезащитные очки.</item>0
+        <item>Нанесите солнцезащитный крем и наденьте солнцезащитные очки.</item>1
+        <item>На улице ветренно, не забудьте надеть куртку.</item>2
+        <item>Не забудьте надеть маску.</item>3
+        <item>Не забудьте взять куртку.</item>4
+        <item>Не забудьте надеть маску.</item>5
+        <item>Не забудьте взять перчатки и шапку.</item>6
+        <item>На улице жарко!</item>7
+        <item>Постарайтесь не перегреваться!</item>8
+        <item>Укутайтесь!</item>9
+        <item>Идет похолодание\u2026</item>0
+        <item>Оставайтесь в тепле!</item>1
+        <item>Надевайте зимние наушники, если они у вас есть!</item>2
+        <item>Пойдем на прогулку и насладимся погодой.</item>3
+        <item>Пойдем на пробежку, на улице солнечно!</item>4
+        <item>Отличный день, чтобы высушить одежду!</item>
+        <item>Не забудьте надеть куртку!</item>6
+    </array>
+
+    <array name="weather_info_uv">
+        <item>"0"</item>
+        <item>Недоступно</item>
+        <item>"6"</item>
+        <item>"Нанесите солнцезащитный крем."</item>
+        <item>"7"</item>
+        <item>"Нанесите солнцезащитный крем."</item>
+        <item>"8"</item>
+        <item>"Нанесите солнцезащитный крем."</item>
+        <item>"9"</item>
+        <item>Нанесите солнцезащитный крем, если вам необходимо выйти!</item>
+        <item>"10"</item>
+        <item>Нанесите солнцезащитный крем, если вам необходимо выйти!</item>
+    </array>
+
+    <array name="weather_info_dress">
+        <item>"0"</item>
+        <item>Недоступно</item>
+        <item>"11"</item>
+        <item>Легкая куртка</item>
+        <item>"12"</item>
+        <item>Легкая куртка</item>
+        <item>"13"</item>
+        <item>Летняя одежда</item>
+        <item>"14"</item>
+        <item>Летняя одежда</item>
+        <item>"15"</item>
+        <item>Легкая куртка</item>
+        <item>"16"</item>
+        <item>Не забудьте одеть теплую одежду!</item>
+        <item>"17"</item>
+        <item>Наденьте куртку!</item>
+        <item>"18"</item>
+        <item>Укутайтесь!</item>
+        <item>"19"</item>
+        <item>Укутайтесь!</item>
+    </array>
+
+    <array name="weather_info_msport">
+        <item>"0"</item>
+        <item>Недоступно</item>
+        <item>"1"</item>
+        <item>Отличный день для утренней зарядки</item>
+        <item>"2"</item>
+        <item>Оденьтесь теплее!</item>
+        <item>"3"</item>
+        <item>Оденьтесь теплее!</item>
+        <item>"4"</item>
+        <item>Упражняйтесь в помещении!</item>
+    </array>
+
+    <array name="weather_info_comfort">
+        <item>"0"</item>
+        <item>Недоступно</item>
+        <item>"20"</item>
+        <item>Температура стабилизируется</item>
+        <item>"21"</item>
+        <item>Холодно и комфортно</item>
+        <item>"22"</item>
+        <item>Температура будет меняться</item>
+        <item>"23"</item>
+        <item>Ясное небо и некомфортная температура</item>
+        <item>"24"</item>
+        <item>Жарко и влажно!</item>
+   </array>
+
+    <array name="weather_info_wcar">
+        <item>"0"</item>
+        <item>Недоступно</item>
+        <item>"1"</item>
+        <item>Отличный день для мытья машины!</item>
+        <item>"2"</item>
+        <item>Отличный день для мытья машины!</item>
+        <item>"3"</item>
+        <item>Собирается дождь, отложите мытье машины.</item>
+        <item>"25"</item>
+        <item>Собирается дождь, отложите мытье машины.</item>
+        <item>"26"</item>
+        <item>Собирается песчаная буря, отложите мытье машины.</item>
+        <item>"27"</item>
+        <item>Собирается снег, отложите мытье машины.</item>
+        <item>"4"</item>
+        <item>Отложите мытье машины.</item>
+    </array>
+
+    <array name="weather_info_hung">
+        <item>"0"</item>
+        <item>Недоступно</item>
+        <item>"28"</item>
+        <item>Повесьте одежду сушиться во второй половине дня.</item>
+        <item>"29"</item>
+        <item>Сушите одежду в любое время.</item>
+        <item>"30"</item>
+        <item>Облачно, но благодаря высокой температуре воздуха, ваша одежда все равно останется сухой.</item>
+        <item>"1"</item>
+        <item>Погода подходит для сушки одежды.</item>
+        <item>"3"</item>
+        <item>Сегодня весь день будет дождь с перерывами.</item>
+        <item>"5"</item>
+        <item>Хорошие условия для сушки одежды. </item>
+        <item>"4"</item>
+        <item>Сушите одежду в помещении.</item>
+        <item>"31"</item>
+        <item>Сушите одежду в помещении.</item>
+    </array>
+
+    <array name="weather_info_travel">
+        <item>"0"</item>
+        <item>Недоступно</item>
+        <item>"32"</item>
+        <item>Ясно, солнечно и хорошая температура.</item>
+        <item>"2"</item>
+        <item>Умеренная и стабильная температура.</item>
+        <item>"1"</item>
+        <item>Умеренная и стабильная температура.</item>
+        <item>"3"</item>
+        <item>Сегодня погода будет нестабильной.</item>
+        <item>"33"</item>
+        <item>Сегодня погода будет нестабильной.</item>
+        <item>"34"</item>
+        <item>Ясное небо, мягкий ветер.</item>
+    </array>
+
+    <array name="weather_info_fl">
+        <item></item>
+        <item>Укутайтесь!</item>
+        <item>微风</item>
+        <item>Комфортно</item>
+        <item>暂缺</item>
+        <item>Некомфортно</item>
+    </array>
+</resources>
