@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="app_name">Обновление</string>
+  <string name="apply_now_button_text">Обновить</string>
+  <string name="download_whole_rom">Загрузить <xliff:g id="SIZE">(%s)</xliff:g></string>
+  <string name="download_ota_rom">Загрузить <xliff:g id="SIZE">(%s)</xliff:g></string>
+  <string name="apply_later_button_text">Применить позже</string>
+  <string name="apply_update_timer">Устройство будет перезагружено через <xliff:g id="TIME">%d</xliff:g> сек.</string>
+  <string name="reboot_now">Сейчас</string>
+  <string name="reboot_later">Позже</string>
+  <string name="now">Сейчас</string>
+  <string name="later">Позже</string>
+  <string name="start_update">Начать обновление</string>
+  <string name="applying_update">Идет обновление <xliff:g id="PROGRESS">%s</xliff:g></string>
+  <string name="apply_update_fail">Обновление системы не удалось</string>
+  <string name="view_install_log">Посмотреть журнал ошибок</string>
+  <string name="send_install_log">Отправить журнал ошибок</string>
+  <string name="install_email">Установить почтовый клиент MIUI</string>
+  <string name="send_install_log_error">Ошибка при отправке журнала ошибок</string>
+  <string name="copy_install_log">Копировать</string>
+  <string name="reboot_to_new_system">Перезагрузиться в новую версию</string>
+  <string name="update_success">Обновление завершено! :)</string>
+  <string name="mione_update_success_title">Обновление завершено</string>
+  <string name="mione_update_fail_title">Обновление не удалось</string>
+  <string name="mione_update_fail_description">Попробуйте заново</string>
+  <string name="apply_unable_to_reboot_toast">Не удается перезагрузиться в Recovery</string>
+  <string name="checking_for_updates">Проверка обновлений\u2026</string>
+  <string name="downloading_description">Загрузка\u2026</string>
+  <string name="sdcard_is_not_present_dialog_body">Убедитесь, что вы подключили SD карту.</string>
+  <string name="sdcard_is_not_present_dialog_title">SD карта не найдена</string>
+  <string name="sdcard_has_no_space_dialog_body">Недостаточно места на SD карте.</string>
+  <string name="sdcard_has_no_space_dialog_title">Недостаточно места</string>
+  <string name="current_version_text">"Текущая версия "</string>
+  <string name="current_version_update_monthly_build">Текущая версия. (Ежемесячное обновление)</string>
+  <string name="apply_update_dialog_update_button">Обновить</string>
+  <string name="apply_update_dialog_cancel_button">Отмена</string>
+  <string name="cancel_download_buton_text">Отмена</string>
+  <string name="confirm_download_cancelation_dialog_message">Прервать закрузку?</string>
+  <string name="dialog_yes">Да</string>
+  <string name="dialog_no">Нет</string>
+  <string name="dialog_ok">ОК</string>
+  <string name="verify_and_apply_dialog_title">Проверка целостности файла\u2026</string>
+  <string name="verify_and_apply_dialog_message">Проверка суммы MD5\u2026</string>
+  <string name="apply_existing_update_md5error_title">Сумма MD5 не совпадает</string>
+  <string name="file_not_found_error_message">Запрошенный файл не найден на сервере.</string>
+  <string name="apply_upload_info_message_manually">"После перезагрузки, вы можете зайти в Recovery для применения обновления (<xliff:g id="FILE">%s</xliff:g>). Если вы хотите создать резервную копию, то ее необходимо выполнить до обновления системы.</string>
+  <string name="apply_upload_info_message">Нажатие \"Обновить\" автоматически перезагружает устройство после применения обновления.</string>
+  <string name="apply_buddy_update_info_message">Когда вы нажмете \"Обновить\", начнется процесс обновления.</string>
+  <string name="system_backup_button_text">Бэкап</string>
+  <string name="system_backup_cancel_text">Начать обновление</string>
+  <string name="system_backup_ok_text">Бэкап</string>
+  <string name="system_backup_download_helper">Создать бэкап перед применением обновления?</string>
+  <string name="system_backup_apply_helper">Создать бэкап перед применением обновления?</string>
+  <string name="system_backup_helper"></string>
+  <string name="system_backup_ask">Не запоминать</string>
+  <string name="system_backup_error_message">Приложение MIUI для создания резервных копий не найдено.</string>
+  <string name="md5_check_cancelled">Проверка MD5 прервана</string>
+  <string name="no_updatecheck_executed">Не проверять наличие обновлений</string>
+  <string name="no_updates_found">У вас установлена последняя версия MIUI</string>
+  <string name="no_updates_warning">Обновлений не найдено</string>
+  <string name="no_updates_warning2">Расслабьтесь, мы уведомим вас об обновлении :)</string>
+  <string name="new_updates_found_title">Доступно обновление</string>
+  <string name="new_update_content_title"> </string>
+  <string name="new_update_content_notification_shade"></string>
+  <string name="new_update_downloading_body">Загрузка версии:<xliff:g id="VERSION">%s</xliff:g></string>
+  <string name="new_update_download_complete_body">Новая версия:<xliff:g id="VERSION">%s</xliff:g></string>
+  <string name="update_success_title">Обновление завершено!</string>
+  <string name="update_success_body">Версия <xliff:g id="VERSION">%s</xliff:g></string>
+  <string name="exception_while_downloading">Ошибка при загрузке обновления</string>
+  <string name="new_updates_found_notification_title">Найдено обновление системы</string>
+  <string name="network_error">Ошибка сети</string>
+  <string name="monthly_build">Ежемесячная сборка</string>
+  <string name="weekly_build">Еженедельная сборка</string>
+  <string name="daily_build">Ежедневная сборка</string>
+  <string name="experimental_build">Экспериментальная сборка</string>
+  <string name="internal_build">Внутренняя сборка</string>
+  <string name="top_secret_build">Секретная сборка</string>
+  <string name="stable_build">Стабильная сборка</string>
+  <string name="unstable_build">Нестабильная сборка</string>
+  <string name="about_device">О телефоне</string>
+
+  <string name="emegency_build">Сборка:</string>
+  <string name="wifi_not_available_title">Wi-Fi не подключен</string>
+  <string name="wifi_not_available_body">Большой размер обновлений, рекомендуется использовать Wi-Fi.</string>
+  <string name="paused_queued_for_network">Ожидание соединения по мобильной сети</string>
+  <string name="paused_queued_for_wifi">Ожидание соединения по Wi-Fi</string>
+  <string name="boot_recovery">Перезагрузка в Recovery</string>
+  <string name="applying_rom_message">Применение обновления\u2026</string>
+  <string name="loading">Запрос\u2026</string>
+  <string name="install_rom_from_sd">Выбрать файл для установки</string>
+  <string name="download_current_rom">Загрузить последнюю версию MIUI</string>
+  <string name="no_proper_updates">Для текущей версии MIUI обновлений не найдено</string>
+  <string name="sign_in_info">"Статус обновления: <xliff:g id="RANK">%1$s</xliff:g>\n<xliff:g id="TOTAL">%2$s</xliff:g> пользователей установили MIUI <xliff:g id="VERSION">%3$s</xliff:g>"</string>
+  <string name="sign_in_info_total_more">"Статус обновления: <xliff:g id="RANK">%1$s</xliff:g>\nOver <xliff:g id="TOTAL">%2$s</xliff:g> пользователей установили MIUI <xliff:g id="VERSION">%3$s</xliff:g>"</string>
+  <string name="sign_in_info_rank_more">"Статус обновления: <xliff:g id="RANK">%1$s</xliff:g>\nOver <xliff:g id="TOTAL">%2$s</xliff:g> пользователей установили MIUI <xliff:g id="VERSION">%3$s</xliff:g>"</string>
+  <string name="sign_in_add_account">Активируйте ваш аккаунт Xiaomi</string>
+  <string name="sign_in_add_account_helper">Получите Mi Points за создание аккаунта Xiaomi.</string>
+  <string name="my_rank">Статус обновления:</string>
+
+  <string name="check_update">Проверить обновление</string>
+  <string name="move_data_to_sdcard_title">Перенос данных на SD карту</string>
+  <string name="move_data_to_sdcard_not_enough_space_message">Недостаточно места для переноса <xliff:g id="SIZE">%d</xliff:g> Мб</string>
+  <string name="moving_data_to_sdcard_message">Перенос данных. Не вынимайте SD карту и не переключайтесь в режим USB накопителя.</string>
+  <string name="moving_data_to_sdcard_progress_format">Завершено <xliff:g id="PROGRESS">%1$d</xliff:g> Кб из <xliff:g id="TOTAL">%2$d</xliff:g> Кб</string>
+  <string name="finish_download">Загрузка завершена</string>
+  <string name="updater_finish_download">Загрузка прошивки завершена</string>
+  <string name="install_whole_rom">Загрузка полной прошивки</string>
+  <string name="check_update_policy">Параметры обновления</string>
+  <string name="check_update_when_wifi_available">Проверка обновлений только по Wi-Fi</string>
+  <string name="update_monthly_build_only">Обновлять до ежемесячных сборок</string>
+  <string name="install_file_explorer">Установите файл менеджер MIUI</string>
+
+   <!-- Share update -->
+  <string name="share_update">Поделиться информацией об обновлении</string>
+  <string name="share">Поделиться</string>
+  <string name="share_update_content_unsign">Я обновил MIUI до <xliff:g id="VERSION">%1$s</xliff:g>! Список изменений: <xliff:g id="CHANGELOG">%2$s</xliff:g></string>
+  <string name="share_update_content_sign">Я обновил MIUI до <xliff:g id="VERSION">%1$s</xliff:g>! Мой статус обновления <xliff:g id="RANK">%2$s</xliff:g>. Список изменений: <xliff:g id="CHANGELOG">%3$s</xliff:g></string>
+  <string name="share_sina">Отправить в Sina Weibo</string>
+  <string name="share_qq">Отправить в Tencent Weibo</string>
+  <string name="install_qq">Установить Tencent\'s Weibo</string>
+  <string name="upgrade_kernel">Текущая версия ядра требует обновления</string>
+  <string name="upgrade_kernel_msg">"Текущая версия ядра не совместима с MIUI. Обновите ядро вручную. Подробнее: \r\n"</string>
+  <string name="view_upgrade_tutorial">Показать инструкцию</string>
+  <string name="upgrade_close">Закрыть</string>
+
+  <!-- vote -->
+  <string name="recommend_vote_title">Голосование MIUI Beta Team</string>
+  <string name="recommend">Рекомендую</string>
+  <string name="not_recommend">Не рекомендую</string>
+  <string name="recommend_comment_hint">Комментарии</string>
+  <string name="submit">Отправить</string>
+  <string name="submit_success">Отправлено</string>
+  <string name="submit_fail">Не удалось отправить</string>
+  <string name="submit_progress">Отправка\u2026</string>
+  <string name="choose_recommend">Мнение пользователя</string>
+  <string name="refuse_recommend_reason">Опишите причины\u2026</string>
+
+  <!-- four-grid update feedback  -->
+  <string name="update_feedback">Оценка сборки</string>
+  <string name="update_feedback_expired">Очень жаль, что вы не оставили отзыв.\nПроголосуйте в следующий вторник!</string>
+  <string name="update_happy">Отлично!</string>
+  <string name="update_general">Средне</string>
+  <string name="update_sad">Плохо</string>
+  <string name="update_feel">Как Вам обновление?</string>
+  <string name="best_update">Лучшее обновление</string>
+  <string name="worst_update">Худшее обновление</string>
+  <string name="expect">Ожидания</string>
+  <string name="my_update_feel">Мой отзыв</string>
+  <string name="my_best_update">Лучшее обновление</string>
+  <string name="my_worst_update">Худшее обновление</string>
+  <string name="my_expect_update">Ожидания</string>
+  <string name="get_update_error">Не удалось получить информацию обновления</string>
+  <string name="active_xiaomi_account_title">Активируйте аккаунт Xiaomi</string>
+  <string name="active_xiaomi_account_msg">"Для активации аккаунта Xiaomi посетите https://account.xiaomi.com/pass/serviceLogin"</string>
+  <string name="active_xiaomi_account">Активный</string>
+  <string name="update_comment_title">Комментарий</string>
+  <string name="update_comment_hint"></string>
+  <string name="next">Далее</string>
+  <string name="previous">Назад</string>
+  <string name="finish">Готово</string>
+  <string name="comment_publish">Отправить</string>
+  <string name="edit_comment_title">Редактировать</string>
+  <string name="edit_comment">" Добавить комментарий"</string>
+  <string name="edit_text_default">Написать комментарий</string>
+  <string name="comment_sending">Отправка\u2026</string>
+  <string name="comment_upload_failed">Не удалось отправить комментарий</string>
+  <string name="comment_upload_hint">Спасибо за ваш отзыв!</string>
+  <string name="comment_upload_success">Отправлено</string>
+  <string name="comment_invalid">Нажмите на звезду, чтобы оставить оценку</string>
+  <string name="comment_upload_not_logined">Сначала войдите в аккаунт Xiaomi</string>
+  <string name="fourgrid_hint_text">Благодарим вас за использование сборки MIUI для разработчиков. Расскажите, что вы думаете о прошивке, этим вы поможете нам сделать MIUI лучше.</string>
+  <string name="fourgrid_notificaiont">Отображать в статусбаре</string>
+  <string name="fourgrid_no_notificaiont">Не отображать в статусбаре</string>
+</resources>
