@@ -163,7 +163,7 @@
 
     <array name="act_weather_main_listview_key">
         <item>Скорость ветра:</item>
-        <item>UV индекс:</item>
+        <item>УФ индекс:</item>
         <item>Одежда:</item>
         <item>Комфорт:</item>
         <item>Мойка машины:</item>
@@ -175,70 +175,70 @@
     <array name="weather_image">
         <item>Ясно</item>0  晴
         <item>Облачно</item>1  多云
-        <item>Hazy</item>2  阴
-        <item>Foggy</item>3  雾
-        <item>Severe rain storms</item>4  特大暴雨
-        <item>Rain storm</item>5  大暴雨
-        <item>Heavy rainfall</item>6  暴雨
+        <item>Дымка</item>2  阴
+        <item>Туман</item>3  雾
+        <item>Дождевая буря</item>4  特大暴雨
+        <item>Дождевой шторм</item>5  大暴雨
+        <item>Сильный дождь</item>6  暴雨
         <item>Гроза</item>7  雷阵雨
-        <item>Showers</item>8  阵雨
-        <item>Heavy rainfall</item>9  大雨
-        <item>Rain</item>0  中雨
-        <item>Drizzle</item>1  小雨
-        <item>Sleet</item>2  雨夹雪
-        <item>Blizzard</item>3   暴雨
-        <item>Patches of snowfall</item>4  阵雪
-        <item>Heavy snowfall</item>5  大雪
-        <item>Snowfall</item>6  中雪
-        <item>Light snowfall</item>7  小雪
-        <item>Strong sand storm</item>8  强沙尘暴
-        <item>Sand storm</item>9  沙尘暴
-        <item>Light sand storms</item>0  沙尘
-        <item>Sand storm</item>1  扬沙
-        <item>Hail</item>2  冰雹
-        <item>Dust</item>3  浮尘
-        <item>Haze</item>4  霾
+        <item>Ливни</item>8  阵雨
+        <item>Сильный дождь</item>9  大雨
+        <item>Дождь</item>0  中雨
+        <item>Небольшой дождь</item>1  小雨
+        <item>Мокрый снег</item>2  雨夹雪
+        <item>Метель</item>3   暴雨
+        <item>Легкий снег</item>4  阵雪
+        <item>Снегопад</item>5  大雪
+        <item>Снегопад</item>6  中雪
+        <item>Легкий снег</item>7  小雪
+        <item>Сильная песчаная буря</item>8  强沙尘暴
+        <item>Песчаная буря</item>9  沙尘暴
+        <item>Легкая песчаная буря</item>0  沙尘
+        <item>Сильная песчаная буря</item>1  扬沙
+        <item>Град</item>2  冰雹
+        <item>Пыль</item>3  浮尘
+        <item>Дымка</item>4  霾
     </array>
 
     <array name="weather_details_key">
-       <item>Unavailable</item>0 暂缺
-       <item>Suitable</item>1 适宜
-       <item>Good</item>2 较适宜
-       <item>Avoid if possible</item>3 较不宜
-       <item>Not recommended</item>4 不宜
-       <item>Ideal</item>5 极适宜
-       <item>Moderate</item>6 中等
-       <item>Weak</item>7 最弱
-       <item>Medium</item>8 弱
-       <item>Strong</item>9 强
+       <item>Недоступно</item>0 暂缺
+       <item>Благоприятная</item>1 适宜
+       <item>Хорошая</item>2 较适宜
+       <item>Избегайте по возможности</item>3 较不宜
+       <item>Не рекомендуется</item>4 不宜
+       <item>Идеальная</item>5 极适宜
+       <item>Средняя</item>6 中等
+       <item>Слабая</item>7 最弱
+       <item>Средняя</item>8 弱
+       <item>Сильная</item>9 强
 
-       <item>Very strong</item>0 很强
-       <item>Cool</item>1 凉
-       <item>Comfortable</item>2 舒适
-       <item>Very hot</item>3 炎热
-       <item>Hot</item>4 热
-       <item>Warm</item>5 暖
-       <item>Cool</item>6 温凉
-       <item>Cooler</item>7 气温较低
-       <item>Cold</item>8 冷
-       <item>Freezing</item>9 寒冷
+       <item>Очень сильная</item>0 很强
+       <item>Крутая</item>1 凉
+       <item>Комфортная</item>2 舒适
+       <item>Очень жаркая</item>3 炎热
+       <item>Жаркая</item>4 热
+       <item>Теплая</item>5 暖
+       <item>Прохладная</item>6 温凉
+       <item>Прохладная</item>7 气温较低
+       <item>Холодная</item>8 冷
+       <item>Морозная</item>9 寒冷
 
-       <item>High</item>0 较舒适
-       <item>Middle</item>1 舒适
-       <item>Low</item>2 较不舒适
-       <item>Clear skies</item>3 很不舒适_晴
-       <item>Cloudy</item>4 很不舒适_阴
-       <item>Rain</item>5 不宜_雨
-       <item>Sand storm</item>6 不宜_沙尘
-       <item>Snow</item>7 不宜_雪
-       <item>Relatively suitable</item>8 基本适宜
-       <item>Suitable conditions</item>9 适宜_晴
+       <item>Высокая</item>0 较舒适
+       <item>Средняя</item>1 舒适
+       <item>Низкая</item>2 较不舒适
+       <item>Ясная</item>3 很不舒适_晴
+       <item>Облачная</item>4 很不舒适_阴
+       <item>Дождливая</item>5 不宜_雨
+       <item>Песчаная буря</item>6 不宜_沙尘
+       <item>Снежная</item>7 不宜_雪
+       <item>Относительно благоприятная</item>8 基本适宜
+       <item>Благоприятная</item>9 适宜_晴
 
-       <item>Cloudy</item>0 适宜_多云
-       <item>Less than ideal</item>1 不太适宜
-       <item>Ideal conditions</item>2 很适宜
-       <item>Poor conditions</item>3 不适宜
-       <item>Average conditions</item>4 一般
+       <item>Облачная</item>0 适宜_多云
+       <item>Почти идеальная</item>1 不太适宜
+       <item>Идеальная</item>2 很适宜
+       <item>Плохая</item>3 不适宜
+       <item>Средняя</item>4 一般
     </array>
 
     <array name="weather_image_tips">
@@ -281,7 +281,7 @@
         <item>Не забудьте взять с собой зонтик!</item>
         <item>Не забудьте взять с собой зонтик!</item>
         <item>Не забудьте взять с собой зонтик!</item>
-        <item>It\'s really coming down out there!</item>
+        <item>Это на самом деле приближается!</item>
         <item>Не забудьте надеть шапку и шарф.</item>
         <item>Укутайтесь!</item>
         <item>Не забудьте надеть шапку и шарф!</item>
@@ -290,7 +290,7 @@
         <item>Не забудьте надеть маску.</item>
         <item>Не забудьте надеть маску.</item>
         <item>Не забудьте надеть маску.</item>
-        <item>It\'s really coming down out there!</item>
+        <item>Это на самом деле приближается!</item>
         <item>Не забудьте надеть маску.</item>
         <item>Постарайтесь оставаться дома.</item>
     </array>
@@ -452,9 +452,9 @@
     <array name="weather_info_fl">
         <item></item>
         <item>Укутайтесь!</item>
-        <item>微风</item>
+        <item>Ветренно</item>
         <item>Комфортно</item>
-        <item>暂缺</item>
+        <item>Умеренно</item>
         <item>Некомфортно</item>
     </array>
 </resources>
