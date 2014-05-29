@@ -414,7 +414,7 @@
 
     <string name="bottom_bar_tabs_long_click_up_tip_txt">Сдвиньте для закрытия</string>
     <string name="bottom_bar_tabs_long_click_down_tip_txt">Сдвиньте вниз для закрытия</string>
-    <string name="bottom_bar_tabs_long_click_last_tab_tip_txt">Все вкладки закрыты</string>
+    <string name="bottom_bar_tabs_long_click_last_tab_tip_txt">Все вкладки уже закрыты</string>
 
     <string name="network_show_wifi_setting_tip_dialog_setting_cate_title">Уведомление о Wi-Fi</string>
     <string name="network_show_wifi_setting_tip_dialog_setting_title">При использовании мобильного интернета вы будете получать уведомления о доступных сетях Wi-Fi</string>
