@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="app_name">Бэкап</string>
+  <string name="local_app_name">Бэкап</string>
+  <string name="local_home_title">Локальные бэкапы</string>
+  <string name="button_backup">Бэкап</string>
+  <string name="start_backup">Начать</string>
+  <string name="button_cancel">Отмена</string>
+  <string name="backup_empty">Бэкапов не найдено</string>
+  <string name="backup_items_sysdata_tailer">" \u0020системных файлов, "</string>
+  <string name="backup_items_app_tailer">" \u0020файлов данных приложений "</string>
+  <string name="backup_failed">Ошибка резервного копирования</string>
+  <string name="backup_recently">" \u0020(Последний) "</string>
+  <string name="sdcard_unmounted">SD карта не найдена</string>
+  <string-array name="backup_dialog_content_type">
+    <item>Параметры Wi-Fi</item>
+    <item>Все приложения</item>
+  </string-array>
+  <string-array name="system_package_label">
+    <item>Браузер</item>
+    <item>Галерея</item>
+    <item>Разрешения</item>
+    <item>Камера</item>
+    <item>Трафик</item>
+    <item>Данные погоды</item>
+    <item>Погода</item>
+  </string-array>
+  <string-array name="system_data_label">
+    <item>Контакты</item>
+    <item>Журнал вызовов</item>
+    <item>Сообщения</item>
+    <item>Мультимедийные сообщения</item>
+    <item>Настройки системы</item>
+    <item>Настройки Wi-Fi</item>
+    <item>Рабочий стол</item>
+    <item>Будильник</item>
+    <item>Заметки</item>
+    <item>Антиспам</item>
+    <item>Аккаунты</item>
+  </string-array>
+  <string name="backup_progress">Создание резервной копии\u2026;</string>
+  <string name="button_ok">ОК</string>
+  <string name="button_continue">Продолжить</string>
+  <string name="backup_finished">Резервное копирование завершено</string>
+  <string name="backup_report">Отчет</string>
+  <string name="backup_hint">Не выключайте телефон</string>
+  <string name="menu_patch_delete">Удалить бэкапы</string>
+  <string name="delete"> Удалить </string>
+  <string name="cancel">Отмена</string>
+  <string name="delete_backup_process">Удаление\u2026</string>
+  <string name="backup_error">Не удалось выполнить копирование</string>
+  <string name="delete_failed_backup_confirm">Файл резервной копии содержит ошибки, и не может быть использован для восстановления.</string>
+  <string name="batch_delete_backup_confirm">Удалить выбранные бэкапы (<xliff:g id="COUNT">%d</xliff:g> шт.)?</string>
+  <string name="start_restore">Восстановить</string>
+  <string name="backup_file_error">Ошибка резервного копирования</string>
+  <string-array name="app_type_desc">
+    <item>"Данные "</item>
+    <item>"Приложения "</item>
+    <item>"Приложения и данные "</item>
+  </string-array>
+  <string name="unit_byte">\u0020 байт</string>
+  <string name="unit_piece">\u0020 единиц</string>
+  <string name="restore_finished">Восстановление завершено</string>
+  <string name="restore_report">Журнал восстановления</string>
+  <string name="restore_progress">Восстановление\u2026</string>
+  <string name="restore_contacts_hit">Для восстановления контактов необходимо войти в аккаунт.</string>
+  <string name="restore_telephony_hit">Процесс восстановления перезагрузить приложение \"Телефон\".</string>
+  <string name="restore_launcher_layout_hit">Восстановление ярлыков рабочего стола</string>
+  <string name="settings_summary">": настройки телефона и сообщений"</string>
+  <string name="account_summary">(Аккаунты Google, Xiaomi и прочие пользовательские данные)</string>
+  <string name="cloud_app_name">Приложения</string>
+  <string name="cloud_home_title">Mi Cloud</string>
+  <string name="prompt_reading">Чтение\u2026</string>
+  <string name="prompt_sending">Загрузка\u2026</string>
+  <string name="prompt_writing">Сохранение\u2026</string>
+  <string name="backup_new">Новый:</string>
+  <string name="backup_update">Обновить</string>
+  <string name="backup_delete">Удалить:</string>
+  <string name="findlost_contact">Восстановить контакты</string>
+  <string name="findlost_contact_online">Восстановить контакты из Mi Cloud</string>
+  <string name="cloud_backup_login">Войти через аккаунт Xiaomi</string>
+  <string name="cloud_backup_hint">Авторизуйтесь для доступа к бэкапам</string>
+  <string name="cloud_backup_window_title">Mi Cloud бэкап</string>
+  <string name="cloud_restore_window_title">Mi Cloud восстановление</string>
+  <string name="cloud_restore_title">Восстановить из резервной копии</string>
+  <string name="local_backup_window_title">Локальный бэкап</string>
+  <string name="local_restore_window_title">Локальное восстановление</string>
+  <string name="account_login">Вход</string>
+  <string name="miliao_account_login">Вход через MiTalk</string>
+  <string name="miliao_account_guide">Создайте учетную запись Xiaomi и наслаждайтесь всеми онлайн услугами</string>
+  <string name="auto_backup">Автобэкап</string>
+  <string name="contact_title">Контакты</string>
+  <string name="call_title">Журнал вызовов</string>
+  <string name="sms_title">Сообщения</string>
+  <string name="mms_title">Мультимедийные сообщения</string>
+  <string name="wifi_title">Настройки Wi-Fi</string>
+  <string name="note_title">Заметки</string>
+  <string name="compute_backup_info">Запрос информации бэкапа\u2026</string>
+  <string name="compute_delete_contact_info">Поиск контактов для удаления\u2026</string>
+  <string name="unknown_hint">Неизвестно</string>
+  <string-array name="cloud_data_label">
+    <item>Контакты</item>
+    <item>Журнал вызовов</item>
+    <item>Сообщения</item>
+    <item>Настройки Wi-Fi</item>
+    <item>Заметки</item>
+  </string-array>
+  <string-array name="cloud_account_data">
+    <item>Контакты</item>
+    <item>Настройки Wi-Fi</item>
+    <item>Заметки</item>
+  </string-array>
+  <string-array name="cloud_sim_data">
+    <item>Журнал вызовов</item>
+    <item>Сообщения</item>
+  </string-array>
+  <string name="task_progress">Прогресс</string>
+  <string name="task_pending">Ожидание\u2026</string>
+  <string name="task_pre_running">Подготовка\u2026</string>
+  <string name="task_post_running">Обработка\u2026</string>
+  <string name="task_finished">Резервное копирование завершено</string>
+  <string name="task_canceled">Резервное копирование отменено</string>
+  <string name="task_failed">Ошибка</string>
+  <string name="task_canceled_local">Отменено заданий: <xliff:g id="PERCENT">%s</xliff:g></string>
+  <string name="task_canceled_all_local">Отмена</string>
+  <string name="task_failed_local">Не удалось завершить: <xliff:g id="PERCENT">%s</xliff:g></string>
+  <string name="task_failed_all_local">Задание не завершено</string>
+  <string name="task_backup_finished_local">Резервное копирование завершено</string>
+  <string name="task_restore_finished_local">Восстановление завершено</string>
+  <string name="task_restore_none">Восстановление не требуется</string>
+  <string name="task_stopped_exception">Восстановление отменено</string>
+  <string name="sdcard_no_enough_space">Недостаточно свободного места</string>
+  <string name="sdcard_no_enough_space_message">Недостаточно свободного места на SD карте.</string>
+  <string name="data_no_enough_space">Недостаточно свободного места</string>
+  <string name="data_no_enough_space_message">Недостаточно свободного места в памяти телефона.</string>
+  <string name="task_running_hint">Служба уже работает в фоновом режиме</string>
+  <string name="task_running_dialog">Бэкап и восстановление работают в фоновом режиме. Для просмотра нажмите ОК.</string>
+  <string name="task_running_backup_hint">Служба уже работает в фоновом режиме</string>
+  <string name="task_running_restore_hint">Служба уже работает в фоновом режиме</string>
+  <string name="task_running_backup_dialog">Выполняется копирование. Для просмотра нажмите ОК.</string>
+  <string name="task_running_restore_dialog">Выполняется восстановление. Для просмотра нажмите ОК.</string>
+  <string name="task_service_not_launched">Задание еще на запущено</string>
+  <string name="task_local_backup_cancel_dialog">Копирование не завершено. Все равно отменить?</string>
+  <string name="task_cloud_backup_cancel_dialog">Копирование не завершено. Все равно отменить?</string>
+  <string name="task_restore_cancel_dialog">Отмена может привести к повреждению данных.</string>
+  <string name="task_backup_cancel_progress">Отмена\u2026</string>
+  <string name="task_restore_cancel_progress">Отмена\u2026</string>
+  <string name="nothing_searched">Ничего не найдено</string>
+  <string name="restore_counts">Восстановление:</string>
+  <string name="service_stoped">Сервис остановлен</string>
+  <string name="sc_network_unavailable">Ошибка соединения с сетью</string>
+  <string name="sc_bad_request">Неправильный запрос</string>
+  <string name="sc_unaccess_password_file">Не хранить пароли Wi-Fi</string>
+  <string name="sc_service_unavailable">Mi Cloud недоступен</string>
+  <string name="sc_unauthorized">Войдите заново</string>
+  <string name="sc_request_timeout">Время ожидания истекло</string>
+  <string name="sc_precondition_failed">Необходимо привязать ваш Xiaomi аккаунт с электронной почтой</string>
+  <string name="sc_internal_server_error">Ошибка сервера</string>
+  <string name="sc_others">Произошла ошибка</string>
+  <string name="succeed">Завершено</string>
+  <string name="fail">Не удалось</string>
+  <string name="button_return">Назад</string>
+  <string name="button_next">Далее</string>
+  <string name="button_finish">Готово</string>
+  <string name="progress_backup_hint">Создание резервной копии\u2026</string>
+  <string name="cancel_backup">Прервать</string>
+  <string name="restore_contact">Восстановить контакты</string>
+  <string name="restore_contact_content">Восстановление контактов может привести к дублированию контактов.</string>
+  <string name="progress_restore_hint">Восстановление\u2026</string>
+  <string name="cancel_restore">Прервать</string>
+  <string name="restore_failed">Ошибка восстановления</string>
+  <string name="local_select_sysdata">Система</string>
+  <string name="local_select_userapp">Приложения</string>
+  <string name="local_select_account_contact">Аккаунты и контакты</string>
+  <string name="local_no_backup">Нет локальных бэкапов</string>
+  <string name="auto_backup_setting">Настройки автобэкапа</string>
+  <string name="auto_backup_open">Автобэкап</string>
+  <string name="auto_backup_only_wifi">Только при подключенном Wi-Fi</string>
+  <string name="auto_backup_date">Периодичность</string>
+  <string name="auto_backup_time">Запланировать бэкап</string>
+  <string name="auto_backup_choose_title">Время</string>
+  <string name="auto_backup_choose">Объекты для бэкапа</string>
+  <string name="auto_backup_choose_empty">Нет бэкапов</string>
+  <string name="auto_backup_all_user_apps">Все приложения</string>
+  <string name="auto_backup_selected_user_apps">Выбранные приложения</string>
+  <string name="auto_backup_select_user_apps">Выбрать приложения</string>
+  <string name="auto_backup_system_data">Система</string>
+  <string name="auto_backup_user_data">Приложения</string>
+  <string name="auto_backup_progress">Создание резервной копии\u2026</string>
+  <string name="backup">Бэкап</string>
+  <string name="restore">Восстановить</string>
+  <string name="cloud_last_backup">Последний бэкап:</string>
+  <string name="cloud_search">Поиск\u2026</string>
+  <string name="cloud_no_backup">Нет бэкапов</string>
+  <string name="current_account">Привет, <xliff:g id="ACCOUNT">%s</xliff:g></string>
+  <string name="current_sim">Текущая SIM карта</string>
+  <string name="date_format" translatable="false">yyyy-MM-dd HH:mm:ss</string>
+  <string name="dir_date_format" translatable="false">yyyy-MM-dd_HH-mm-ss</string>
+  <string name="no_network">Не удалось подключиться к сети</string>
+  <string name="retry">Повтор</string>
+  <string name="select_all">Выбрать все</string>
+  <string name="reverse_all">Снять все</string>
+  <string name="refresh">Обновить</string>
+  <string name="cloud_item_info_summary">\u0020(Локальный: <xliff:g id="LOCAL_COUNT">%1$s</xliff:g> | Mi Cloud: <xliff:g id="CLOUD_COUNT">%2$s</xliff:g>)</string>
+  <string name="total_num">Всего: <xliff:g id="COUNT">%d</xliff:g></string>
+  <string name="cloud_restore_guide">Нажмите \"Восстановить\", для восстановления \"<xliff:g id="APP">%s</xliff:g>\"</string>
+  <string name="import_from_xiaomi_account_hint1">1.\tЗагрузите приложение MiTalk и войдите в систему.\n\thttp://www.miliao.com\n\n2.\t Войдите в настройки MiTalk и выберите \"Резервное копирование контактов на аккаунт Xiaomi\"</string>
+  <string name="import_from_xiaomi_account_hint2"> Перейдите к следующему шагу если бэкап уже существует.</string>
+  <string name="import_from_xiaomi_account_hint_title">Используйте MiTalk для бэкапа контактов на других устройствах.</string>
+  <string name="guarded_mode_dialog_title">Вы в режиме \"Гость\"</string>
+  <string name="guarded_mode_dialog_message">Эта функция не доступна в режиме \"Гость\".</string>
+  <string name="multi_select_title">Выбрано: <xliff:g id="number" example="15">%1$s</xliff:g></string>
+  <!-- encrypt -->
+  <string name="enable_encrypt_title">Включить шифрование</string>
+  <string name="disable_encrypt_title">Выключить шифрование</string>
+  <string name="enable_encrypt_indicator">Нажмите для шифрования</string>
+  <string name="enable_encrypt">Включить</string>
+  <string name="already_enable_encrypt">Шифрование включено</string>
+  <string name="enable_encrypt_summery1">Войдите в свой аккаунт Xiaomi для использования шифрованных бэкапов.</string>
+  <string name="enable_encrypt_summery2">Ваши бэкапы будут автоматически зашифрованы. Войдите в свой аккаунт Xiaomi для использования шифрованных бэкапов.</string>
+  <string name="enable_encrypt_xiaomi_account">Бэкап создан аккаунтом \"<xliff:g id="account" example="110000">%1$s</xliff:g>\". Для восстановления удалите текущий аккаунт
+и войдите как \"<xliff:g id="account" example="110000">%2$s</xliff:g>\".</string>
+  <string name="enable_encrypt_ok">ОК</string>
+  <string name="no_encrypt_password">Нет пароля</string>
+  <string name="enable_encrypt_fail">Ошибка шифрования</string>
+  <string name="read_encrypt_fail">Не удалось прочитать зашифрованный бэкап</string>
+  <string name="exchange_account">Переключить аккаунт</string>
+
+    <string name="system_backup">Бэкап</string>
+    <string name="backup_empty_info">" Бэкап ваших данных, настроек и приложений"</string>
+    <string name="system_backup_info">Настройки системы и значки рабочего стола</string>
+    <string name="software_backup_info">Данные приложений</string>
+    <string name="account_contact_backup_info">Аккаунт Google, Xiaomi и данные контактов</string>
+    <string name="select_backup_item">Выберите бэкапы</string>
+    <string name="restore_data">Восстановить данные</string>
+    <string name="backup_data">Бэкап данных</string>
+
+    <!-- cloud app backup & restore-->
+    <string name="cloud_app_backup_title">Бэкап в Mi Cloud</string>
+    <string name="cloud_app_just_show_in_current_device">Приложения на этом устройстве</string>
+    <string name="cloud_app_mine">Загруженные приложения</string>
+    <string name="cloud_app_backup_summary">Автобэкап приложений и пользовательских данных, когда телефон заряжается и подключен к Wi-Fi</string>
+    <string name="cloud_app_function_summary">Если Вы создадите бэкап в Mi Cloud, то сможете быстро восстановить его на любом устройстве</string>
+    <string name="cloud_app_restore_action_bar_title">%1$s данных были скопированы</string>
+    <string name="cloud_app_current_device">Текущее устройство</string>
+    <string name="cloud_app_other_devices">Другие устройства</string>
+    <string name="cloud_app_delete_data">Удалить бэкап</string>
+    <string name="cloud_app_backup_date">"Создан бэкап "</string>
+    <string name="cloud_app_total_size">Размер: %1$s</string>
+    <string name="cloud_app_version_size">Версия: %1$s | Размер: %2$s</string>
+    <string name="cloud_app_restore_prompt">Процесс восстановления перезапишет все локальные данные пользователя вместе с данными в облаке.</string>
+    <string name="cloud_app_remove_prompt">Данных будет удалено: %1$s.</string>
+    <string name="cloud_app_find_backup_prompt_1">Вы хотите сохранить локальные данные перед восстановлением?</string>
+    <string name="cloud_app_find_backup_prompt_2">Если вы не сохраните их сейчас, данные будут перезаписаны при восстановлении.</string>
+    <string name="cloud_app_restore_data_title">Восстановить данные пользователя</string>
+    <string name="cloud_app_restore_app_and_data">Восстановить приложения и данные пользователя</string>
+    <string name="cloud_app_restore_summary">Восстановление ранее установленных приложений и их данных</string>
+    <string name="cloud_app_restore_data">Восстановление ранее установленных приложений</string>
+    <string name="cloud_app_dont_restore">Не восстанавливать</string>
+    <string name="cloud_app_restore_wifi_prompt">Вы должны быть подключены к интернету по Wi-Fi для восстановления ваших данных</string>
+    <string name="cloud_app_restore_query_error_prompt">Не удалось получить данные из облака. Приложения и пользовательские данные будут восстановлены автоматически, когда это будет возможно.</string>
+    <string name="cloud_app_device">Устройство</string>
+    <string name="cloud_app_data_in_other_devices">Нет резервных копий на данном устройстве</string>
+    <string name="cloud_app_no_data">Нет данных</string>
+    <string name="cloud_app_invalid_op">Вы не можете просматривать облако во время его резервного копирования или восстановления</string>
+    <string name="cloud_app_invalid_op_when_removing">Невозможно просмотреть данные в облаке во время удаления</string>
+    <string name="cloud_app_remove_pending">Ожидание\u2026</string>
+    <string name="cloud_app_remove_progress">Удаление\u2026</string>
+    <string name="cloud_app_restore_pending">Ожидание\u2026</string>
+    <string name="cloud_app_restore_progress">Восстановление\u2026</string>
+    <string name="cloud_app_backup_pending">Ожидание\u2026</string>
+    <string name="cloud_app_backup_progress">Создание резервной копии\u2026</string>
+    <string name="cloud_app_remove_error">Не удалось удалить</string>
+    <string name="cloud_app_restore_error">Не удалось восстановить</string>
+    <string name="cloud_app_restore_success">Приложения восстановлены</string>
+    <string name="cloud_app_wait_wifi">Ожидание подключения по Wi-Fi</string>
+
+    <string name="cloud_app_backup_cancel">Отмена копирования\u2026</string>
+    <string name="cloud_app_restore_cancel">Отмена восстановления\u2026</string>
+    <string name="cloud_app_remove_cancel">Отмена\u2026</string>
+
+    <string name="cloud_app_backup_cancel_prompt_title">Остановить копирование</string>
+    <string name="cloud_app_restore_cancel_prompt_title">Остановить восстановление</string>
+    <string name="cloud_app_remove_cancel_prompt_title">Остановить удаление</string>
+
+    <string name="cloud_app_backup_cancel_prompt_message">Копирование не завершено. Все равно отменить?</string>
+    <string name="cloud_app_restore_cancel_prompt_message">Восстановление не завершено. Все равно отменить?</string>
+    <string name="cloud_app_remove_cancel_prompt_message">Удаление не завершено. Все равно отменить?</string>
+    <string name="cloud_app_check_data">Запрос данных с сервера Mi Cloud\u2026</string>
+    <string name="cloud_app_check_data_timeout">Превышено время ожидания</string>
+    <string name="cloud_app_load_data">Запрос списка резервных копий\u2026</string>
+    <string name="cloud_app_load_data_timeout">Превышено время ожидания</string>
+    <string name="cloud_app_check_data_fail">Не удалось получить данные с сервера Mi Cloud</string>
+    <string name="cloud_app_no_network">Не удалось подключиться к сети</string>
+    <string name="cloud_app_no_wifi">Не удалось подключиться к сети Wi-Fi</string>
+    <string name="cloud_app_no_wifi_connect">Не удалось подключиться к сети Wi-Fi</string>
+    <string name="cloud_app_loading_with_mobile_network_prompt">Использовать мобильный интернет для завершения задачи?</string>
+
+    <string name="just_support_op_with_wifi_connected">Вы можете использовать эти функции только при подключенном Wi-Fi</string>
+    <string name="button_restore">Восстановить</string>
+    <string name="button_abandon">Перезаписать</string>
+    <string name="button_delete">Удалить</string>
+    <string name="customization"><u>Настроить</u></string>
+    <string name="customization_under_wifi_prompt">Вы можете использовать эти функции только при подключенном Wi-Fi</string>
+    <string name="my_phone">Мой телефон</string>
+
+</resources>
+
