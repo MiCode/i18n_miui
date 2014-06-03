@@ -89,7 +89,7 @@
     <!-- Verb, menu item used to add an item on the desktop -->
     <string name="menu_add">Добавить</string>
     <!-- Noun, menu item used to set the desktop's wallpaper -->
-    <string name="menu_wallpaper">Настройки обоев</string>
+    <string name="menu_wallpaper">Обои</string>
     <!-- Verb, menu item used to initiate global search -->
     <string name="menu_search">Поиск</string>
     <!-- Noun, menu item used to bring down the notifications shade -->
