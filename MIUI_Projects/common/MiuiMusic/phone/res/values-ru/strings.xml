@@ -171,7 +171,7 @@
     <string name="bind_baidu_account_setting">Аккаунт Baidu</string>
     <string name="bind_baidu_account_summary">Загрузите плейлист из своего аккаунта музыки Baidu</string>
     <string name="synchronize_playlist_setting">Синхронизировать плейлист</string>
-    <string name="synchronize_playlist_summary">Синхронизировать плейлист с облаком MiCloud</string>
+    <string name="synchronize_playlist_summary">Синхронизировать плейлист с облаком Mi Cloud</string>
     <string name="not_login">Вход</string>
     <string name="mobile_connect_settings">Мобильная сеть</string>
     <string name="download_album_settings">Загрузка обложек</string>

@@ -12,7 +12,7 @@
     <string name="notealert_enter">Просмотреть</string>
     <!-- Text export file information -->
     <string name="note_link_tel">Вызов</string>
-    <string name="note_link_email">Отправить e-mail</string>
+    <string name="note_link_email">Отправить email</string>
     <string name="note_link_web">Открыть в браузере</string>
     <string name="note_link_other">Открыть карту</string>
     <string name="note_link_select">Выбрать текст</string>
@@ -26,11 +26,11 @@
     <string name="menu_unstick">Отлепить</string>
     <string name="menu_folder_change_name">Переименовать</string>
     <string name="folder_exist">Папка с таким именем уже существует</string>
-    <string name="menu_send_to_desktop">Отправить на домашний экран</string>
+    <string name="menu_send_to_desktop">Отправить на рабочий стол</string>
     <string name="menu_title_select_folder">Выберите папку</string>
     <string name="menu_move_parent_folder">Основная папка</string>
     <string name="menu_rename_folder">Переименовать</string>
-    <string name="info_note_enter_desktop">Заметка добавлена на домашний экран</string>
+    <string name="info_note_enter_desktop">Заметка добавлена на рабочий стол</string>
     <string name="alert_message_delete_notes">Удалить заметки (<xliff:g id="count">%1$s</xliff:g> шт.)?</string>
     <string name="alert_message_delete_folders">Удалить папки (<xliff:g id="count">%1$s</xliff:g> шт.)?</string>
     <string name="alert_message_delete_folders_notes">Удалить папки (<xliff:g id="folderCount">%1$s</xliff:g> шт.) и заметки (<xliff:g id="noteCount">%2$s</xliff:g> шт.)?</string>
@@ -42,7 +42,7 @@
     <!-- Error information -->
     <string name="error_note_not_exist">Заметка отсутствует</string>
     <string name="error_note_empty_for_clock">Невозможно установить напоминание для пустой заметки</string>
-    <string name="error_note_empty_for_send_to_desktop">Невозможно отправить на домашний экран пустую заметку</string>
+    <string name="error_note_empty_for_send_to_desktop">Невозможно отправить на рабочий стол пустую заметку</string>
     <string name="error_widget_exist_for_send_to_desktop">Эта заметка уже есть на домашнем экране</string>
     <string name="error_unsupport_content">Заметка содержит неподдерживаемые данные, нажмите для обновления необходимого приложения</string>
     <string name="error_contact_not_exist">Контакт не существует</string>

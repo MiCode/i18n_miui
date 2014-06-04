@@ -122,7 +122,7 @@
     <string name="menu_create_contact_shortcut">На рабочий стол</string>
 
     <!-- Menu item used to call a specific contact when viewing the details of that contact. -->
-    <string name="menu_call">Позвонить</string>
+    <string name="menu_call">Вызов</string>
 
     <!-- Menu item used to send an SMS or MMS message to a specific phone number or a contacts default phone number -->
     <string name="menu_sendSMS">Отправить сообщение</string>
@@ -1723,7 +1723,7 @@
         Note: AccessibilityServices use this attribute to announce what the view represents.
               This is especially valuable for views without textual representation like ImageView.
     -->
-    <string name="description_call">Позвонить <xliff:g id="name">%1$s</xliff:g></string>
+    <string name="description_call">Вызов <xliff:g id="name">%1$s</xliff:g></string>
 
     <!-- String describing the button to SMS a number or contact.
 
@@ -1755,7 +1755,7 @@
         Note: AccessibilityServices use this attribute to announce what the view represents.
               This is especially valuable for views without textual representation like ImageView.
     -->
-    <string name="description_dial_phone_number">Позвонить <xliff:g id="name">%1$s</xliff:g></string>
+    <string name="description_dial_phone_number">Вызов <xliff:g id="name">%1$s</xliff:g></string>
 
     <!-- String describing the text for photo of a contact in a contacts list.
 

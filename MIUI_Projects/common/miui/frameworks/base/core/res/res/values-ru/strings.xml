@@ -560,7 +560,7 @@
     <string name="perm_data_update_lab">Обновление данных</string>
     <string name="perm_data_update_dspt">Разрешить отправлять отметку об обновлении данных</string>
 
-    <!-- text for MiCloud sync service -->
+    <!-- text for Mi Cloud sync service -->
     <string name="sync_one_time_sync">Нажмите для синхронизации (
         <xliff:g id="LAST_SYNC_TIME">
             %1$s
@@ -756,7 +756,7 @@
     <string name="miui_device_name" translated="false">Android</string>
     <string name="device_hongmi">Redmi</string>
 
-    <string name="sim_unavailable">>SIM карта недоступна</string>
+    <string name="sim_unavailable">SIM карта недоступна</string>
     <string name="sim_locked">SIM карта заблокирована</string>
     <string name="sim_not_ready">SIM карта используется. Повторите позже.</string>
     <string name="sim_in_airplane_mode">Выключите режим \"В самолете\"</string>

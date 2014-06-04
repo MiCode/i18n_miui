@@ -102,7 +102,7 @@
     <string name="camera_key_action_shortcut_title">Ярлык</string>
     <string name="camera_key_action_toggle_title">Переключатель</string>
     <string name="camera_key_action_app_title">Открыть приложение</string>
-    <string name="camera_key_action_shortcut_home">Домашний экран</string>
+    <string name="camera_key_action_shortcut_home">Рабочий стол</string>
     <string name="camera_key_action_shortcut_screenshot">Скриншот</string>
     <string name="camera_key_action_shortcut_search">Поиск</string>
     <string name="camera_key_action_shortcut_call">Вызов</string>

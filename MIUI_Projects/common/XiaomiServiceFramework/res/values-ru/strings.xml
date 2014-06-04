@@ -5,7 +5,7 @@
     <string name="show_password">Показать пароль</string>
 
     <string name="account">Аккаунт</string>
-    <string name="account_hint_text">E-mail/Номер телефона</string>
+    <string name="account_hint_text">Email/Номер телефона</string>
     <string name="login">Войти</string>
     <string name="next">Далее</string>
     <string name="prev">Назад</string>
@@ -24,9 +24,9 @@
     <string name="micloud_error_illegal_pwd">Неверный пароль</string>
     <string name="micloud_error_empty_captcha_code">Введите код с картинки</string>
     <string name="micloud_error_empty_vcode">Введите проверочный код</string>
-    <string name="micloud_email">Адрес e-mail</string>
+    <string name="micloud_email">Адрес email</string>
     <string name="reg_type_phone">Регистрация по телефону (Рекомендуется)</string>
-    <string name="reg_type_email">Регистрация по e-mail</string>
+    <string name="reg_type_email">Регистрация по email</string>
     <string name="micloud_input_password_prompt">Введите пароль</string>
     <string name="micloud_password_confirm_hint">Подтвердите пароль</string>
     <string name="micloud_password_req_notice">
@@ -36,7 +36,7 @@
     <string name="micloud_active_alert_title">Отправить SMS</string>
     <string name="micloud_via_sms_alert">При активации через SMS возможны дополнительные расходы.</string>
     <string name="micloud_via_int_sms_alert">При активации через SMS возможны дополнительные расходы.</string>
-    <string name="micloud_error_email">Некорректный e-mail</string>
+    <string name="micloud_error_email">Некорректный email</string>
     <string name="micloud_account">Аккаунт Xiaomi</string>
     <string name="micloud_activing_account">Активация аккаунта\u2026</string>
     <string name="micloud_activing_account_delayed">Уже почти\u2026</string>
@@ -65,7 +65,7 @@
             %1$s
         </xliff:g>
     </string>
-    <string name="email_already_be_used">Этот адрес e-mail уже используется в другом аккаунте.</string>
+    <string name="email_already_be_used">Этот адрес email уже используется в другом аккаунте.</string>
     <string name="error_no_sms_service">Сервис SMS недоступен</string>
     <string name="reg_by_email_failure">Регистрация прервана:
         <xliff:g id="reason">
@@ -139,11 +139,11 @@
     <string name="find_device_notice_p3">для поиска, блокировки или сброса всех данных на устройстве.</string>
     <string name="i_know">ОК</string>
     <string name="find_device_disabled_title">Поиск устройства выключен</string>
-    <string name="find_device_disabled_notice">Вы можете включить его снова в Настройки &lt; Аккаунты &lt; MiCloud</string>
+    <string name="find_device_disabled_notice">Вы можете включить его снова в Настройки &lt; Аккаунты &lt; Mi Cloud</string>
 
     <string name="activate_phone_send_sms_fail">Ошибка отправки SMS для активации</string>
     <string name="activate_phone_server_error">Ошибка сервера</string>
-    <string name="activate_phone_failed_notif_title">Не удалось запустить MiCloud</string>
+    <string name="activate_phone_failed_notif_title">Не удалось запустить Mi Cloud</string>
     <string name="activate_phone_send_sms_failed_notif">Ошибка отправки SMS для активации</string>
     <string name="activate_phone_server_error_notif">Ошибка сервера</string>
 
@@ -200,12 +200,12 @@
     <string name="micloud_intro_02_part_02">Синхронизируйте контакты, сообщения, фото и прочее между другими устройствами.</string>
     <string name="micloud_intro_03_part_01">Обезопасьте ваши данные на расстоянии</string>
     <string name="micloud_intro_03_part_02">Определите местоположение, заблокируйте или удалите все данные с устройства дистанционно на i.xiaomi.com</string>
-    <string name="micloud_dspt">Используйте MiCloud для синхронизации данных, определения местоположения телефона.</string>
-    <string name="cmcc_micloud_dspt">Используйте MiCloud для синхронизации данных, определения местоположения телефона.</string>
+    <string name="micloud_dspt">Используйте Mi Cloud для синхронизации данных, определения местоположения телефона.</string>
+    <string name="cmcc_micloud_dspt">Используйте Mi Cloud для синхронизации данных, определения местоположения телефона.</string>
     <string name="start_micloud">Начать</string>
 
     <string name="micloud_proceed">Продолжить</string>
-    <string name="disable_micloud"><u>Отключить MiCloud</u></string>
+    <string name="disable_micloud"><u>Отключить Mi Cloud</u></string>
 
     <string name="master_alert_notif_title">Данные не синхронизировались более %s дн.</string>
     <string name="sub_alert_notif_title">Сервисы синхронизации отключены</string>
@@ -230,7 +230,7 @@
     <string name="vcode_prompt_long">Введите проверочный код, полученный от Xiaomi</string>
     <string name="vcode_notification_title">Проверка авторизации не завершена</string>
 
-    <string name="activate_phone_failed_notif_title_msim">Ошибка активации сервисов MiCloud для SIM карты %s</string>
+    <string name="activate_phone_failed_notif_title_msim">Ошибка активации сервисов Mi Cloud для SIM карты %s</string>
     <string name="activate_status_title_activating">Активация SIM карты</string>
     <string name="activate_status_title_activating_msim">Активация SIM карты %s</string>
     <string name="activate_status_desc_getting_device_info">Получение информации об устройстве</string>
@@ -272,15 +272,15 @@
     <string name="checking_input">Проверка данных\u2026</string>
 
     <string name="micloud_data_loading">Загрузка</string>
-    <string name="micloud_space_full_influence"><u>Если закончилось место в MiCloud?</u></string>
+    <string name="micloud_space_full_influence"><u>Если закончилось место в Mi Cloud?</u></string>
     <string name="micloud_title_dspt" formatted="false">"Всего: %s \nЗанято: %s | Свободно: %s"</string>
     <string name="micloud_title_full_dspt" formatted="false">"Память заполнена!"</string>
     <string name="micloud_user_base_info">Данные пользователя</string>
-    <string name="micloud_user_email">E-mail</string>
+    <string name="micloud_user_email">Email</string>
     <string name="micloud_user_phone">Номер телефона</string>
     <string name="micloud_user_name">Имя пользователя</string>
     <string name="micloud_user_id">ID пользователя</string>
-    <string name="micloud_storage_space">Память MiCloud</string>
+    <string name="micloud_storage_space">Память Mi Cloud</string>
     <string name="micloud_user_space_usage">Занято памяти</string>
     <string name="micloud_web_discription_01">Войдите на i.xiaomi.com </string>
     <string name="micloud_web_discription_02">для просмотра и управления файлами из любого места</string>
@@ -288,14 +288,14 @@
     <string name="micloud_gallery_video">Видео</string>
     <string name="micloud_app_data">Резервные копии приложений</string>
     <string name="micloud_account_details">Данные аккаунта</string>
-    <string name="micloud_full_influence_title">Когда закончилось место в MiCloud\u2026</string>
+    <string name="micloud_full_influence_title">Когда закончилось место в Mi Cloud\u2026</string>
     <string name="micloud_warn_full_msg">Память заполнена!</string>
     <string name="micloud_warn_low_title">Память почти заполнена\u2026</string>
     <string name="micloud_warn_low_sum">Память заполнена на 90%.</string>
     <string name="micloud_warn_full_title">Память заполнена!</string>
-    <string name="micloud_warn_full_sum">В данный момент данные не могут быть синхронизированы с MiCloud.</string>
+    <string name="micloud_warn_full_sum">В данный момент данные не могут быть синхронизированы с Mi Cloud.</string>
     <string name="micloud_none">Пусто</string>
-    <string name="micloud_full_influence_dspt">"Все фото, видео, заметки и данные приложений будут синхронизированы с MiCloud. \n\nТаким образом, если вы потеряете или сломаете телефон, ваши данные останутся в безопасности. \nКогда память в MiCloud заполнена, ваши старые данные никуда не пропадут, однако, новые данные не смогут синхронизироваться с MiCloud.\nЧтобы это исправить, необходимо будет удалить ненужные данные из MiCloud."</string>
+    <string name="micloud_full_influence_dspt">"Все фото, видео, заметки и данные приложений будут синхронизированы с Mi Cloud. \n\nТаким образом, если вы потеряете или сломаете телефон, ваши данные останутся в безопасности. \nКогда память в Mi Cloud заполнена, ваши старые данные никуда не пропадут, однако, новые данные не смогут синхронизироваться с Mi Cloud.\nЧтобы это исправить, необходимо будет удалить ненужные данные из Mi Cloud."</string>
     <string name="micloud_upgrade_space">Добавить места</string>
 
     <string name="enable_sync_dspt">Синхронизация выключена</string>

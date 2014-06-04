@@ -147,7 +147,7 @@
     <string name="act_aqi_src_port">%1$s%2$s\u0020\u0020%3$s</string>
     <array name="send_item">
         <item>SMS</item>
-        <item>E-mail</item>
+        <item>Email</item>
     </array>
 
     <array name="act_weather_main_listview_json_key">

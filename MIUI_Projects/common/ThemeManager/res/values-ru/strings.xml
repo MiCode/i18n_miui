@@ -36,7 +36,7 @@
     <string name="theme_component_title_contact">Кнопки</string>
     <string name="theme_component_title_lockstyle">Стиль блокировки</string>
     <string name="theme_component_title_statusbar">Статусбар</string>
-    <string name="theme_component_title_launcher">Домашний экран</string>
+    <string name="theme_component_title_launcher">Рабочий стол</string>
     <string name="theme_component_title_audio_effect">Звуковые эффекты</string>
     <string name="theme_component_title_alarmstyle">Стиль будильника</string>
     <string name="theme_component_title_clock">Часы</string>
@@ -53,7 +53,7 @@
     <string name="lockstyle_personal_settings">Персонализация</string>
 
     <string name="wallpaper_settings">Настройки обоев</string>
-    <string name="desktop_wallpaper">Домашний экран</string>
+    <string name="desktop_wallpaper">Рабочий стол</string>
     <string name="live_wallpaper">Живые обои</string>
     <string name="mi_wallpaper">MIUI обои</string>
     <string name="lockscreen_wallpaper">Экран блокировки</string>

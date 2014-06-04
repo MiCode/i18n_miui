@@ -284,11 +284,11 @@
     <!-- Response for whether attending an event - declined [CHAR LIMIT=10]-->
     <string name="response_no">Нет</string>
     <!-- Label for emailing attendees -->
-    <string name="email_guests_label">E-mail гостей</string>
+    <string name="email_guests_label">Email гостей</string>
     <!-- Label for emailing the organizer (when there are no attendees) -->
-    <string name="email_organizer_label">E-mail организатора</string>
+    <string name="email_organizer_label">Email организатора</string>
     <!-- This is shown in the popup picker when emailing attendees -->
-    <string name="email_picker_label">E-mail с</string>
+    <string name="email_picker_label">Email с</string>
     <!-- The is shown in the email subject as the prefix appended to the event title -->
     <string translatable="false" name="email_subject_prefix">Re:\u0020</string>
     <!-- Toast message displayed when the event id was not found LIMIT=30] -->
@@ -592,7 +592,7 @@
     <!-- Calendar notification snooze button [CHAR LIMIT = NONE]-->
     <string name="acessibility_snooze_notification">Отложенные уведомления</string>
     <!-- Calendar notification email button [CHAR LIMIT = NONE]-->
-    <string name="accessibility_email_notification">E-mail гостей</string>
+    <string name="accessibility_email_notification">Email гостей</string>
 
     <!-- A "new event" hint for the user when selecting a specific hour in the day view [CHAR LIMIT = 30]-->
     <string name="day_view_new_event_hint">Новое событие</string>

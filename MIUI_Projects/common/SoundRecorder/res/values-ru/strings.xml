@@ -145,7 +145,7 @@
     <string name="back">Назад</string>
     <string name="toast_uninstall_fileexplorer">Проводник не установлен</string>
 
-    <string name="record_download">Скачать из MiCloud</string>
+    <string name="record_download">Скачать из Mi Cloud</string>
     <string name="record_download_msg">Для воспроизведения записи необходимо ее скачать.</string>
     <string name="record_download_msg_reload">Запись не существует</string>
     <string name="record_download_complete">Загружено</string>
@@ -160,7 +160,7 @@
     <string name="record_downloading_notification_count">%d загружается</string>
     <string name="record_downloading_notification_complete">Загрузка завершена</string>
 
-    <string name="sync_records">Синхронизация с MiCloud</string>
+    <string name="sync_records">Синхронизация с Mi Cloud</string>
     <string name="sync_only_in_wifi">Только по Wi-Fi</string>
     <string name="sync_only_in_wifi_summary">Диктофон будет загружать записи в облако через мобильный интернет, если отключена эта функция</string>
     <string name="sync_only_in_wifi_alert">После отключения этой функции возможно чрезмерное потребление мобильного трафика..</string>
