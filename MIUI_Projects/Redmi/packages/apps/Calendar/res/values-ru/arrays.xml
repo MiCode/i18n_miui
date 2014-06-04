@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <!-- Choices for the "Reminder method" spinner.
+         These must be kept in sync with the reminder_methods_values array.
+         [CHAR LIMIT=10]
+    -->
+    <string-array name="reminder_methods_labels">
+        <item>Уведомление</item>
+        <item>E-mail</item>
+        <item>SMS</item>
+        <item>Будильник</item>
+    </string-array>
+
+    <!-- This maps reminder_methods_labels to internal constants. -->
+    <integer-array name="reminder_methods_values" translatable="false">
+        <item>1</item>  <!-- METHOD_ALERT -->
+        <item>2</item>  <!-- METHOD_EMAIL -->
+        <item>3</item>  <!-- METHOD_SMS -->
+        <item>4</item>  <!-- METHOD_ALARM -->
+    </integer-array>
+
+    <!-- Choices for the "Reminder minutes" spinner.
+         These must be kept in sync with the reminder_minutes_values array.
+         For consistency, the format should match what
+         EventViewUtils.constructReminderLabel() generates.  (TODO: eliminate
+         this and just generate the list from reminder_minutes_values?)
+         [CHAR LIMIT=15]
+    -->
+    <string-array name="reminder_minutes_labels">
+        <item>0 минут</item>
+        <item>1 минута</item>
+        <item>5 минут</item>
+        <item>10 минут</item>
+        <item>15 минут</item>
+        <item>20 минут</item>
+        <item>25 минут</item>
+        <item>30 минут</item>
+        <item>45 минут</item>
+        <item>1 час</item>
+        <item>2 часа</item>
+        <item>3 часа</item>
+        <item>12 часов</item>
+        <item>24 часа</item>
+        <item>2 дня</item>
+        <item>1 неделя</item>
+    </string-array>
+
+    <integer-array name="reminder_minutes_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>45</item>
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+        <item>720</item>
+        <item>1440</item>
+        <item>2880</item>
+        <item>10080</item>
+    </integer-array>
+
+  <!-- Choices for the "Reminder minutes" spinner in the settings.
+         These must be kept in sync with the preferences_default_reminder_values array.
+         [CHAR LIMIT=12]
+    -->
+       <string-array name="preferences_default_reminder_labels">
+        <item>Не напоминать</item>
+        <item>0 минут</item>
+        <item>1 минута</item>
+        <item>5 минут</item>
+        <item>10 минут</item>
+        <item>15 минут</item>
+        <item>20 минут</item>
+        <item>25 минут</item>
+        <item>30 минут</item>
+        <item>45 минут</item>
+        <item>1 час</item>
+        <item>2 часа</item>
+        <item>3 часа</item>
+        <item>12 часов</item>
+        <item>24 часа</item>
+        <item>2 дня</item>
+        <item>1 неделя</item>
+    </string-array>
+
+    <string-array name="preferences_default_reminder_values" translatable="false">
+        <item>"-1"</item>
+        <item>"0"</item>
+        <item>"1"</item>
+        <item>"5"</item>
+        <item>"10"</item>
+        <item>"15"</item>
+        <item>"20"</item>
+        <item>"25"</item>
+        <item>"30"</item>
+        <item>"45"</item>
+        <item>"60"</item>
+        <item>"120"</item>
+        <item>"180"</item>
+        <item>"720"</item>
+        <item>"1440"</item>
+        <item>"2880"</item>
+        <item>"10080"</item>
+    </string-array>
+
+    <string-array name="preferences_week_start_day_labels">
+        <item>По региону</item>
+        <item>Суббота</item>
+        <item>Воскресенье</item>
+        <item>Понедельник</item>
+    </string-array>
+
+    <string-array name="preferences_week_start_day_values" translatable="false">
+        <item>"-1"</item>
+        <item>"7"</item>
+        <item>"1"</item>
+        <item>"2"</item>
+    </string-array>
+
+    <!-- Choices for timezones, must be kept in sync with timezone_values. This
+         list was taken from packages/apps/Settings/res/xml/timezones.xml
+         sed -e 's/^.*">/        <item>"/;s,</.*$,"</item>,' packages/apps/Settings/res/xml/timezones.xml
+         [CHAR LIMIT=25] -->
+    <string-array name="timezone_labels">
+        <item>Маршалловы о-ва</item>
+        <item>Остров Мидуэй</item>
+        <item>Гавайи</item>
+        <item>Аляска</item>
+        <item>Тихоокеан. время</item>
+        <item>Тихуана</item>
+        <item>Аризона</item>
+        <item>Чиуауа</item>
+        <item>Горное время</item>
+        <item>Центр. Америка</item>
+        <item>Центр. время</item>
+        <item>Мехико</item>
+        <item>Саскачеван</item>
+        <item>Богота</item>
+        <item>Восточное время</item>
+        <item>Венесуэла</item>
+        <item>Атлантика (Барбадос)</item>
+        <item>Атлантика (Канада)</item>
+        <item>Манаус</item>
+        <item>Сантьяго</item>
+        <item>Ньюфаундленд</item>
+        <item>Бразилия</item>
+        <item>Буэнос-Айрес</item>
+        <item>Гренландия</item>
+        <item>Монтевидео</item>
+        <item>Центр. Атлантика</item>
+        <item>Азорские о-ва</item>
+        <item>О-ва Кабо-Верде</item>
+        <item>Касабланка</item>
+        <item>Лондон, Дублин</item>
+        <item>Амстердам, Берлин</item>
+        <item>Белград</item>
+        <item>Брюссель</item>
+        <item>Сараево</item>
+        <item>Виндхук</item>
+        <item>Зап.-афр. время</item>
+        <item>Амман, Иордания</item>
+        <item>Афины, Стамбул</item>
+        <item>Бейрут, Ливан</item>
+        <item>Каир</item>
+        <item>Хельсинки</item>
+        <item>Иерусалим</item>
+        <item>Минск</item>
+        <item>Хараре</item>
+        <item>Багдад</item>
+        <item>Москва</item>
+        <item>Кувейт</item>
+        <item>Найроби</item>
+        <item>Тегеран</item>
+        <item>Баку</item>
+        <item>Тбилиси</item>
+        <item>Ереван</item>
+        <item>Дубай</item>
+        <item>Кабул</item>
+        <item>Исламабад, Карачи</item>
+        <item>Уральск</item>
+        <item>Екатеринбург</item>
+        <item>Калькутта</item>
+        <item>Шри-Ланка</item>
+        <item>Катманду</item>
+        <item>Астана</item>
+        <item>Янгон</item>
+        <item>Красноярск</item>
+        <item>Бангкок</item>
+        <item>Пекин</item>
+        <item>Гонконг</item>
+        <item>Иркутск</item>
+        <item>Куала-Лумпур</item>
+        <item>Перт</item>
+        <item>Тайбэй</item>
+        <item>Сеул</item>
+        <item>Токио, Осака</item>
+        <item>Якутск</item>
+        <item>Аделаида</item>
+        <item>Дарвин</item>
+        <item>Брисбен</item>
+        <item>Хобарт</item>
+        <item>Сидней, Канберра</item>
+        <item>Владивосток</item>
+        <item>Гуам</item>
+        <item>Магадан</item>
+        <item>Окленд</item>
+        <item>Фиджи</item>
+        <item>Тонга</item>
+    </string-array>
+
+    <!-- Choices for timezones, must be kept in sync with timezone_values. This
+         list was taken from packages/apps/Settings/res/xml/timezones.xml
+         sed -e 's/^.*=/        <item>/;s,">.*$,"</item>,' packages/apps/Settings/res/xml/timezones.xml -->
+    <string-array name="timezone_values" translatable="false">
+        <item>"Pacific/Majuro"</item>
+        <item>"Pacific/Midway"</item>
+        <item>"Pacific/Honolulu"</item>
+        <item>"America/Anchorage"</item>
+        <item>"America/Los_Angeles"</item>
+        <item>"America/Tijuana"</item>
+        <item>"America/Phoenix"</item>
+        <item>"America/Chihuahua"</item>
+        <item>"America/Denver"</item>
+        <item>"America/Costa_Rica"</item>
+        <item>"America/Chicago"</item>
+        <item>"America/Mexico_City"</item>
+        <item>"America/Regina"</item>
+        <item>"America/Bogota"</item>
+        <item>"America/New_York"</item>
+        <item>"America/Caracas"</item>
+        <item>"America/Barbados"</item>
+        <item>"America/Halifax"</item>
+        <item>"America/Manaus"</item>
+        <item>"America/Santiago"</item>
+        <item>"America/St_Johns"</item>
+        <item>"America/Sao_Paulo"</item>
+        <item>"America/Argentina/Buenos_Aires"</item>
+        <item>"America/Godthab"</item>
+        <item>"America/Montevideo"</item>
+        <item>"Atlantic/South_Georgia"</item>
+        <item>"Atlantic/Azores"</item>
+        <item>"Atlantic/Cape_Verde"</item>
+        <item>"Africa/Casablanca"</item>
+        <item>"Europe/London"</item>
+        <item>"Europe/Amsterdam"</item>
+        <item>"Europe/Belgrade"</item>
+        <item>"Europe/Brussels"</item>
+        <item>"Europe/Sarajevo"</item>
+        <item>"Africa/Windhoek"</item>
+        <item>"Africa/Brazzaville"</item>
+        <item>"Asia/Amman"</item>
+        <item>"Europe/Athens"</item>
+        <item>"Asia/Beirut"</item>
+        <item>"Africa/Cairo"</item>
+        <item>"Europe/Helsinki"</item>
+        <item>"Asia/Jerusalem"</item>
+        <item>"Europe/Minsk"</item>
+        <item>"Africa/Harare"</item>
+        <item>"Asia/Baghdad"</item>
+        <item>"Europe/Moscow"</item>
+        <item>"Asia/Kuwait"</item>
+        <item>"Africa/Nairobi"</item>
+        <item>"Asia/Tehran"</item>
+        <item>"Asia/Baku"</item>
+        <item>"Asia/Tbilisi"</item>
+        <item>"Asia/Yerevan"</item>
+        <item>"Asia/Dubai"</item>
+        <item>"Asia/Kabul"</item>
+        <item>"Asia/Karachi"</item>
+        <item>"Asia/Oral"</item>
+        <item>"Asia/Yekaterinburg"</item>
+        <item>"Asia/Calcutta"</item>
+        <item>"Asia/Colombo"</item>
+        <item>"Asia/Katmandu"</item>
+        <item>"Asia/Almaty"</item>
+        <item>"Asia/Rangoon"</item>
+        <item>"Asia/Krasnoyarsk"</item>
+        <item>"Asia/Bangkok"</item>
+        <item>"Asia/Shanghai"</item>
+        <item>"Asia/Hong_Kong"</item>
+        <item>"Asia/Irkutsk"</item>
+        <item>"Asia/Kuala_Lumpur"</item>
+        <item>"Australia/Perth"</item>
+        <item>"Asia/Taipei"</item>
+        <item>"Asia/Seoul"</item>
+        <item>"Asia/Tokyo"</item>
+        <item>"Asia/Yakutsk"</item>
+        <item>"Australia/Adelaide"</item>
+        <item>"Australia/Darwin"</item>
+        <item>"Australia/Brisbane"</item>
+        <item>"Australia/Hobart"</item>
+        <item>"Australia/Sydney"</item>
+        <item>"Asia/Vladivostok"</item>
+        <item>"Pacific/Guam"</item>
+        <item>"Asia/Magadan"</item>
+        <item>"Pacific/Auckland"</item>
+        <item>"Pacific/Fiji"</item>
+        <item>"Pacific/Tongatapu"</item>
+    </string-array>
+
+    <string-array name="availability">
+        <item>Занят</item>
+        <item>Доступен</item>
+        <item>Не определен</item>
+    </string-array>
+
+    <!-- This maps reminder_methods_labels to internal constants. -->
+    <integer-array name="availability_values" translatable="false">
+        <item>0</item>  <!-- Busy -->
+        <item>1</item>  <!-- Available -->
+        <item>2</item>  <!-- Tentative -->
+    </integer-array>
+
+    <string-array name="visibility">
+        <item>По умолчанию</item>
+        <item>Закрытое</item>
+        <item>Для всех</item>
+    </string-array>
+
+    <string-array name="ordinal_labels">
+        <item>первую</item>
+        <item>вторую</item>
+        <item>третью</item>
+        <item>четвертую</item>
+        <item>последнюю</item>
+    </string-array>
+
+    <!-- Invitation responses -->
+    <string-array name="response_labels1">
+        <item>Нет ответа</item>
+        <item>Да</item>
+        <item>Возможно</item>
+        <item>Нет</item>
+    </string-array>
+
+    <!-- The corresponding indices are defined in DeleteEventHelper.java -->
+    <!-- This is a list of choices displayed when the user deletes an event.
+         It only is shown when deleting a recurring event.
+    -->
+    <skip/>
+    <string-array name="delete_repeating_labels">
+        <item>Только это событие</item>
+        <item>Это и будущие события</item>
+        <item>Все события</item>
+    </string-array>
+
+    <!-- DO NOT TRANSLATE These values need to correspond to the indices
+         defined in DeleteEventHelper.java-->
+    <integer-array name="delete_repeating_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </integer-array>
+
+    <!-- The corresponding indices are defined in DeleteEventHelper.java -->
+    <!-- This is the same array as above (the "delete_repeating_labels" array,
+         except that the first element "Only this event" is removed.  This
+         array exists to work-around a bug in the CalendarProvider and sync
+         code where you can't delete one instance of a repeating event that
+         was created on the phone until that event has been synced to the server.
+     -->
+    <skip/>
+    <string-array name="delete_repeating_labels_no_selected">
+        <item>Это и будущие события</item>
+        <item>Все события</item>
+    </string-array>
+
+    <!-- The corresponding array indices are defined in EventInfoActivity.java -->
+    <skip/>
+    <!-- The list of choices displayed in a dialog box when the user wants to
+    respond to an invitation that repeats. -->
+    <string-array name="change_response_labels">
+        <!-- The choice for responding to only one instance of a repeating event -->
+        <item>Только в этот раз</item>
+        <!-- The choice for responding to all instances of a repeating event -->
+        <item>Все мероприятия в серии</item>
+    </string-array>
+
+    <!-- Strings for buttons in drop down menu -->
+    <string-array name="buttons_list">
+        <item>День</item>
+        <item>Неделя</item>
+        <item>Месяц</item>
+        <item>Повестка дня</item>
+    </string-array>
+</resources>

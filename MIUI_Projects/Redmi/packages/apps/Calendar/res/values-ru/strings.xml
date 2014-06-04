@@ -285,10 +285,14 @@
     <string name="response_no">Нет</string>
     <!-- Label for emailing attendees -->
     <string name="email_guests_label">E-mail гостей</string>
+    <!-- Label for emailing the organizer (when there are no attendees) -->
+    <string name="email_organizer_label">E-mail организатора</string>
     <!-- This is shown in the popup picker when emailing attendees -->
     <string name="email_picker_label">E-mail с</string>
     <!-- The is shown in the email subject as the prefix appended to the event title -->
     <string translatable="false" name="email_subject_prefix">Re:\u0020</string>
+    <!-- Toast message displayed when the event id was not found LIMIT=30] -->
+    <string name="event_not_found">">Событие не найдено."</string>
 
     <!-- Title of the quick response item in Settings [CHAR LIMIT=18]-->
     <string name="quick_response_settings">Быстрые ответы</string>
@@ -481,6 +485,8 @@
     <string name="preferences_alerts_title">Уведомления</string>
     <!-- Settings dialog label that specifies when the phone should vibrate -->
     <string name="preferences_alerts_vibrateWhen_title">Вибрация</string>
+    <!-- The old value for enabling vibration. used only for migrating -->
+    <string translatable="false" name="prefDefault_alerts_vibrate_true">always</string>
     <!-- Title of ringtone selector dialog -->
     <string name="preferences_alerts_ringtone_title">Мелодия</string>
     <!-- Title of check box label to enable or disable pop-up notifications -->
@@ -508,33 +514,6 @@
     <string name="preferences_about_title">О программе</string>
     <!-- Build version of the application -->
     <string name="preferences_build_version">Версия сборки</string>
-
-    <!-- The vibrate notification modes -->
-    <string-array name="prefEntries_alerts_vibrateWhen">
-        <!-- Always -->
-        <item>Всегда</item>
-        <!-- Only when the phone is in Silent mode -->
-        <item>Только в режиме \"Без звука\"</item>
-        <!-- Never -->
-        <item>Никогда</item>
-    </string-array>
-
-    <!-- The default vibrateWhen value, when none is set -->
-    <string translatable="false" name="prefDefault_alerts_vibrateWhen">never</string>
-    <!-- The value to use then migrating from old versions for a true vibrate setting -->
-    <string translatable="false" name="prefDefault_alerts_vibrate_true">always</string>
-    <!-- The value to use then migrating from old versions for a false vibrate setting -->
-    <string translatable="false" name="prefDefault_alerts_vibrate_false">never</string>
-
-    <!-- The vibrateWhen values -->
-    <string-array translatable="false" name="prefValues_alerts_vibrateWhen">
-        <item>always</item>
-        <item>silent</item>
-        <item>never</item>
-    </string-array>
-
-    <!-- Dialog title for the Vibrate dialog -->
-    <string name="prefDialogTitle_vibrateWhen">Вибрация</string>
 
     <!-- Widget -->
     <skip/>
@@ -612,6 +591,8 @@
     <string name="acessibility_cal_notification">Уведомления календаря</string>
     <!-- Calendar notification snooze button [CHAR LIMIT = NONE]-->
     <string name="acessibility_snooze_notification">Отложенные уведомления</string>
+    <!-- Calendar notification email button [CHAR LIMIT = NONE]-->
+    <string name="accessibility_email_notification">E-mail гостей</string>
 
     <!-- A "new event" hint for the user when selecting a specific hour in the day view [CHAR LIMIT = 30]-->
     <string name="day_view_new_event_hint">Новое событие</string>
