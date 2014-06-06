@@ -2020,7 +2020,7 @@
     <string name="export_sim_contact_finish_failure">Скопировано: %1$d | Осталось: %2$d</string>
     <string name="sim_export_loading">Чтение SIM карты\u2026</string>
     <string name="pref_title_account_import">Импорт из аккаунта</string>
-    <string name="pref_title_import_from_account">Импорт из аккаунта Xiaomi</string>
+    <string name="pref_title_import_from_account">Импорт в аккаунт Xiaomi</string>
     <string name="pref_summary_import_from_account">Передача контактов из Google и Exchange в аккаунт Xiaomi</string>
     <string name="import_to_xiaomi_account_confirm">Импорт</string>
     <string name="import_to_xiaomi_account_progress_title">Импорт контактов в аккаунт Xiaomi</string>
