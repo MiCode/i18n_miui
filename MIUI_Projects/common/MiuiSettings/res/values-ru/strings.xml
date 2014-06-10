@@ -227,7 +227,7 @@
     <!-- Vibrate in normal title -->
     <string name="vibrate_in_normal_title">В обычном режиме</string>
     <string name="silent_mode_title">Режим \"Без звука\"</string>
-    <string name="media_feedback_enable_title">Вибрировать с ударными</string>
+    <string name="media_feedback_enable_title">Вибрировать в такт</string>
 
     <!-- Broadcom, WAPI -->
     <!-- Error message Certificate doesn't exits -->
