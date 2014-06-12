@@ -141,7 +141,7 @@
     <string name="power_settings_category_title">Индикатор батареи</string>
     <string name="power_settings_shape">Графический</string>
     <string name="power_settings_number">Процентный</string>
-    <string name="power_settings_top">Полоса в статусбаре</string>
+    <string name="power_settings_top">Полоса в статус баре</string>
     <!-- 新添加的字符串 -->
     <string name="power_save_on_time_goout_title">Режим по окончании периода</string>
     <string name="power_save_choose_recovery_mode">Режим</string>

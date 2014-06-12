@@ -539,8 +539,8 @@
     <string name="group_name_coworkers">Коллеги</string>
 
     <!-- TIGGER_TOGGLE permission -->
-    <string name="perm_tigger_toggle_lab">Управление переключателями в статусбаре</string>
-    <string name="perm_tigger_toggle_dspt">Разрешает приложениям управлять переключателями в статусбаре</string>
+    <string name="perm_tigger_toggle_lab">Управление переключателями в статус баре</string>
+    <string name="perm_tigger_toggle_dspt">Разрешает приложениям управлять переключателями в статус баре</string>
 
     <!-- ACTIVATE_PHONE permission -->
 
@@ -769,7 +769,7 @@
     <string name="reboot_confirm_title">Телефон будет перезагружен.</string>
 
     <string name="err_resource_leak">\"<xliff:g id="application">%1$s</xliff:g>\" было остановлено</string>
-    <string name="app_notificaiton_on_statusBar_and_notificationBar">Статусбар, панель уведомлений</string>
+    <string name="app_notificaiton_on_statusBar_and_notificationBar">Статус бар, панель уведомлений</string>
     <string name="app_no_notification">Скрыть уведомления</string>
     <string name="app_notificaiton_on_notificationBar">Панель уведомлений</string>
 

@@ -170,6 +170,6 @@
   <string name="comment_invalid">Нажмите на звезду, чтобы оставить оценку</string>
   <string name="comment_upload_not_logined">Сначала войдите в аккаунт Xiaomi</string>
   <string name="fourgrid_hint_text">Благодарим вас за использование сборки MIUI для разработчиков. Расскажите, что вы думаете о прошивке, этим вы поможете нам сделать MIUI лучше.</string>
-  <string name="fourgrid_notificaiont">Отображать в статусбаре</string>
-  <string name="fourgrid_no_notificaiont">Не отображать в статусбаре</string>
+  <string name="fourgrid_notificaiont">Отображать в статус баре</string>
+  <string name="fourgrid_no_notificaiont">Не отображать в статус баре</string>
 </resources>

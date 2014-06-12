@@ -120,7 +120,7 @@
     <string name="sound_recorder_settings">Настройки</string>
     <string name="menu_settings">Настройки</string>
     <string name="preference_led_indicator">Индикатор записи</string>
-    <string name="preference_led_indicator_prompt">Включать светодиодный индикатор и уведомление в статусбаре во время записи при заблокированном экране</string>
+    <string name="preference_led_indicator_prompt">Включать светодиодный индикатор и уведомление в статус баре во время записи при заблокированном экране</string>
     <string name="preference_record_type_title">Тип записи</string>
     <string name="preference_scenes">Режим записи</string>
     <string name="preference_record_type_dialog_title">Выберите тип записи</string>
